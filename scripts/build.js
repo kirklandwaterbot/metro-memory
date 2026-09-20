@@ -110,6 +110,27 @@ const stashRemotePublicAssets = () => {
     return
   }
 
+  if (isVercelDeploymentBuild) {
+    let removedDirectories = 0
+
+    for (const absolutePath of remotePublicAssetRoots) {
+      if (!fs.existsSync(absolutePath)) {
+        continue
+      }
+
+      fs.rmSync(absolutePath, { recursive: true, force: true })
+      removedDirectories += 1
+    }
+
+    if (removedDirectories > 0) {
+      console.log(
+        `Removed ${removedDirectories} deployment-local public asset directories before Next build`,
+      )
+    }
+
+    return
+  }
+
   for (const absolutePath of remotePublicAssetRoots) {
     if (!fs.existsSync(absolutePath)) {
       continue
@@ -143,15 +164,6 @@ const restoreRemotePublicAssets = () => {
   }
 }
 
-const discardRemotePublicAssets = () => {
-  if (!fs.existsSync(publicAssetStashRoot)) {
-    return
-  }
-
-  fs.rmSync(publicAssetStashRoot, { recursive: true, force: true })
-  console.log('Removed deployment-local public assets after remote build')
-}
-
 let exitCode = 0
 
 try {
@@ -179,9 +191,7 @@ try {
     }
   }
 } finally {
-  if (isVercelDeploymentBuild) {
-    discardRemotePublicAssets()
-  } else {
+  if (!isVercelDeploymentBuild) {
     restoreRemotePublicAssets()
   }
   restoreLargeSourceData()
