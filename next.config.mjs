@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const isCapacitorExport = process.env.METRO_MEMORY_CAPACITOR_EXPORT === '1'
+const assetBaseUrl = process.env.METRO_ASSET_BASE_URL?.trim().replace(/\/+$/, '')
 const reactIconsRoot = path.join(__dirname, 'node_modules', 'react-icons')
 const reactIconsMdPath = `./${path
   .relative(__dirname, path.join(reactIconsRoot, 'md', 'index.mjs'))
@@ -26,6 +27,12 @@ const LARGE_GAME_EXCLUDES = [
   './src/images/photos/**/*',
 ]
 
+const REMOTE_PUBLIC_ASSET_EXCLUDES = [
+  './public/city-data/**/*',
+  './public/city-cards/**/*',
+  './public/images/**/*',
+]
+
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   staticPageGenerationTimeout: 30,
@@ -38,7 +45,11 @@ const nextConfig = {
     ],
   },
   outputFileTracingExcludes: {
-    '*': ['./prisma/**/*.db', './prisma/**/*.sqlite'],
+    '*': [
+      './prisma/**/*.db',
+      './prisma/**/*.sqlite',
+      ...(assetBaseUrl ? REMOTE_PUBLIC_ASSET_EXCLUDES : []),
+    ],
     '/api/city-icon/[slug]': LARGE_GAME_EXCLUDES,
     '/api/dev/site-version': LARGE_GAME_EXCLUDES,
     '/api/auth/register': LARGE_GAME_EXCLUDES,
@@ -90,11 +101,7 @@ const nextConfig = {
       'react-icons/md': reactIconsMdPath,
     },
   },
-  webpack(config, { dev }) {
-    if (!dev) {
-      config.optimization.minimize = false;
-    }
-
+  webpack(config) {
     config.resolve.alias = {
       ...config.resolve.alias,
       'react-icons': reactIconsRoot,
@@ -107,7 +114,22 @@ const nextConfig = {
   },
   async rewrites() {
     return {
-      beforeFiles: [],
+      beforeFiles: assetBaseUrl
+        ? [
+            {
+              source: '/images/:path*',
+              destination: `${assetBaseUrl}/images/:path*`,
+            },
+            {
+              source: '/city-cards/:path*',
+              destination: `${assetBaseUrl}/city-cards/:path*`,
+            },
+            {
+              source: '/city-data/:path*',
+              destination: `${assetBaseUrl}/city-data/:path*`,
+            },
+          ]
+        : [],
       afterFiles: [],
       fallback: [],
     }

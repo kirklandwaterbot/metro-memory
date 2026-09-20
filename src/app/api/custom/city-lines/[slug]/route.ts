@@ -5,6 +5,7 @@ import { NextResponse } from 'next/server'
 
 import { AVAILABLE_CITY_SLUGS } from '@/lib/availableCityData'
 import { CITY_PATH_MAP } from '@/lib/cityPathMap'
+import { readCityDataJson } from '@/lib/cityDataStorage'
 import { loadCityConfig } from '@/lib/cityConfigRuntime'
 import { deriveCityLines } from '@/lib/customWorldMap'
 import { getMiniCityBySlug } from '@/lib/miniCities'
@@ -170,8 +171,7 @@ export async function GET(_request: Request, { params }: RouteParams) {
 
   let payload: CityDataPayload
   try {
-    const filePath = path.join(process.cwd(), 'public', 'city-data', `${slug}.json`)
-    payload = JSON.parse(await readFile(filePath, 'utf8'))
+    payload = await readCityDataJson<CityDataPayload>(slug)
   } catch {
     return NextResponse.json({ error: 'City data unavailable.' }, { status: 404 })
   }

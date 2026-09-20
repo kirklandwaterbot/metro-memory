@@ -1,6 +1,5 @@
-import path from 'path'
-import { readFile } from 'fs/promises'
 import { getCityIconPath, getCityOpenGraphImagePath } from './cityAssets'
+import { readCityDataJson } from './cityDataStorage'
 import type { Config, DataFeatureCollection, RoutesFeatureCollection } from './types'
 import { buildSubsetConfig, filterSubsetFeatures, filterSubsetRoutes } from './subsetCity'
 import { getMiniCityBySlug, getMiniCityParentDefinition } from './miniCities'
@@ -20,9 +19,7 @@ type CityDataPayload = {
 const CUSTOM_SLUG_PREFIX = 'custom-'
 
 const readCityDataPayload = async (slug: string): Promise<CityDataPayload> => {
-  const filePath = path.join(process.cwd(), 'public', 'city-data', `${slug}.json`)
-  const raw = await readFile(filePath, 'utf8')
-  return JSON.parse(raw) as CityDataPayload
+  return readCityDataJson<CityDataPayload>(slug)
 }
 
 const resolveCustomParentSlug = (slug: string): string => {

@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "metro-memory-assets",
+  "main": "cloudflare/asset-worker.js",
+  "compatibility_date": "2026-09-19",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "r2_buckets": [
+    {
+      "binding": "ASSETS",
+      "bucket_name": "metro-memory-assets"
+    }
+  ]
+}

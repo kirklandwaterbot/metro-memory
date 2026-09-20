@@ -1,6 +1,4 @@
-import path from 'path'
-import { readFile } from 'fs/promises'
-
+import { readCityDataJson } from './cityDataStorage'
 import { MINI_CITIES, getMiniCityBySlug, getMiniCitiesForParent } from './miniCities'
 
 type CityDataPayload = {
@@ -46,11 +44,7 @@ export const loadMiniCityStationIdSetFromDisk = (
     return cached
   }
 
-  const request = readFile(
-    path.join(process.cwd(), 'public', 'city-data', `${slug}.json`),
-    'utf8',
-  )
-    .then((raw) => JSON.parse(raw) as CityDataPayload)
+  const request = readCityDataJson<CityDataPayload>(slug)
     .then(extractStationIds)
     .catch((error) => {
       miniCityStationIdSetCache.delete(slug)

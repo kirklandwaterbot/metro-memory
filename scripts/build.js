@@ -34,9 +34,25 @@ const steps = [
 ]
 
 const sourceDataRoot = path.join(process.cwd(), 'src', 'app', '(game)')
-const stashRoot = path.join(process.cwd(), `.next-build-data-stash-${process.pid}`)
+const sourceStashRoot = path.join(
+  process.cwd(),
+  `.next-build-data-stash-${process.pid}`,
+)
+const publicAssetStashRoot = path.join(
+  process.cwd(),
+  `.next-build-public-asset-stash-${process.pid}`,
+)
+const remoteAssetBaseUrl = process.env.METRO_ASSET_BASE_URL?.trim()
+const isVercelDeploymentBuild =
+  process.env.VERCEL === '1' &&
+  process.env.CI === '1' &&
+  Boolean(process.env.VERCEL_DEPLOYMENT_ID)
+const remotePublicAssetRoots = ['images', 'city-cards', 'city-data'].map((name) =>
+  path.join(process.cwd(), 'public', name),
+)
 
 const stashedFiles = []
+const stashedDirectories = []
 
 const walk = (dir, visitor) => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -64,7 +80,7 @@ const stashLargeSourceData = () => {
     }
 
     const relativePath = path.relative(process.cwd(), absolutePath)
-    const stashPath = path.join(stashRoot, relativePath)
+    const stashPath = path.join(sourceStashRoot, relativePath)
     fs.mkdirSync(path.dirname(stashPath), { recursive: true })
     fs.renameSync(absolutePath, stashPath)
     stashedFiles.push([absolutePath, stashPath])
@@ -84,9 +100,56 @@ const restoreLargeSourceData = () => {
     fs.renameSync(stashPath, absolutePath)
   }
 
-  if (fs.existsSync(stashRoot)) {
-    fs.rmSync(stashRoot, { recursive: true, force: true })
+  if (fs.existsSync(sourceStashRoot)) {
+    fs.rmSync(sourceStashRoot, { recursive: true, force: true })
   }
+}
+
+const stashRemotePublicAssets = () => {
+  if (!remoteAssetBaseUrl || stashedDirectories.length > 0) {
+    return
+  }
+
+  for (const absolutePath of remotePublicAssetRoots) {
+    if (!fs.existsSync(absolutePath)) {
+      continue
+    }
+
+    const relativePath = path.relative(process.cwd(), absolutePath)
+    const stashPath = path.join(publicAssetStashRoot, relativePath)
+    fs.mkdirSync(path.dirname(stashPath), { recursive: true })
+    fs.renameSync(absolutePath, stashPath)
+    stashedDirectories.push([absolutePath, stashPath])
+  }
+
+  if (stashedDirectories.length > 0) {
+    console.log(
+      `Temporarily stashed ${stashedDirectories.length} public asset directories for remote delivery`,
+    )
+  }
+}
+
+const restoreRemotePublicAssets = () => {
+  for (const [absolutePath, stashPath] of stashedDirectories.reverse()) {
+    if (!fs.existsSync(stashPath)) {
+      continue
+    }
+    fs.mkdirSync(path.dirname(absolutePath), { recursive: true })
+    fs.renameSync(stashPath, absolutePath)
+  }
+
+  if (fs.existsSync(publicAssetStashRoot)) {
+    fs.rmSync(publicAssetStashRoot, { recursive: true, force: true })
+  }
+}
+
+const discardRemotePublicAssets = () => {
+  if (!fs.existsSync(publicAssetStashRoot)) {
+    return
+  }
+
+  fs.rmSync(publicAssetStashRoot, { recursive: true, force: true })
+  console.log('Removed deployment-local public assets after remote build')
 }
 
 let exitCode = 0
@@ -95,6 +158,7 @@ try {
   for (const [command, args] of steps) {
     if (command === 'next' && args[0] === 'typegen') {
       stashLargeSourceData()
+      stashRemotePublicAssets()
     }
 
     const result = spawnSync(command, args, {
@@ -115,6 +179,11 @@ try {
     }
   }
 } finally {
+  if (isVercelDeploymentBuild) {
+    discardRemotePublicAssets()
+  } else {
+    restoreRemotePublicAssets()
+  }
   restoreLargeSourceData()
 }
 

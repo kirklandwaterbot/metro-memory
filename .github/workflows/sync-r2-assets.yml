@@ -1,0 +1,57 @@
+name: Sync Cloudflare R2 assets
+
+on:
+  push:
+    branches: ['main']
+    paths:
+      - 'public/images/**'
+      - 'src/app/(game)/**'
+      - 'src/lib/**'
+      - 'scripts/export-city-data.js'
+      - 'scripts/sync-city-*.js'
+      - 'scripts/sync-r2-assets.mjs'
+  schedule:
+    - cron: '25 10 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Re-upload every asset
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-r2-assets
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate public assets
+        run: |
+          node scripts/sync-city-assets.js
+          node scripts/sync-city-image-folders.js
+          node scripts/sync-city-card-images.js
+          node scripts/export-city-data.js
+
+      - name: Sync changed assets to R2
+        env:
+          METRO_ASSET_BASE_URL: ${{ vars.R2_ASSET_BASE_URL }}
+          R2_SYNC_TOKEN: ${{ secrets.R2_SYNC_TOKEN }}
+        run: npm run r2:sync -- ${{ inputs.force && '--force' || '' }}

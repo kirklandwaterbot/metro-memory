@@ -1,7 +1,5 @@
 import 'server-only'
 
-import path from 'path'
-import { readFile } from 'fs/promises'
 import { createHash } from 'crypto'
 
 import bbox from '@turf/bbox'
@@ -10,6 +8,7 @@ import { AVAILABLE_CITY_SLUGS } from './availableCityData'
 import { cities, getSlugFromLink } from './citiesConfig'
 import { loadCityConfig } from './cityConfigRuntime'
 import { CITY_PATH_MAP } from './cityPathMap'
+import { readCityDataJson } from './cityDataStorage'
 import { isColorLight } from './colorUtils'
 import { repairMojibakeString } from './repairMojibake'
 import { buildSubsetConfig, filterSubsetRoutes } from './subsetCity'
@@ -158,9 +157,7 @@ const isPlayableCitySlug = (slug: string) =>
 
 const readCityDataPayload = async (slug: string): Promise<CityDataPayload | null> => {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'city-data', `${slug}.json`)
-    const raw = await readFile(filePath, 'utf8')
-    return JSON.parse(raw) as CityDataPayload
+    return await readCityDataJson<CityDataPayload>(slug)
   } catch {
     return null
   }
