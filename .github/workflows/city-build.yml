@@ -8,7 +8,8 @@ on:
   push:
     paths:
       - 'city-specs/**'
-      - 'scripts/cities/**'
+      - 'scripts/cities/osm-city.js'
+      - 'scripts/cities/register-city.js'
   workflow_dispatch:
     inputs:
       force:
