@@ -6,13 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.632915,
-          -34.998011
+          138.596767,
+          -34.921
         ]
       },
       "properties": {
         "id": 0,
-        "name": "Belair",
+        "name": "Adelaide",
         "line": "ABEL",
         "order": 0
       },
@@ -23,17 +23,238 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.596767,
-          -34.921
+          138.580282,
+          -34.925116
         ]
       },
       "properties": {
         "id": 1,
-        "name": "Adelaide",
+        "name": "Mile End",
         "line": "ABEL",
         "order": 1
       },
       "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.583295,
+          -34.944071
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Adelaide Showground",
+        "line": "ABEL",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.584893,
+          -34.951625
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Goodwood",
+        "line": "ABEL",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.590556,
+          -34.958845
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Millswood",
+        "line": "ABEL",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.597851,
+          -34.96656
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Unley Park",
+        "line": "ABEL",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.608666,
+          -34.977196
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Mitcham",
+        "line": "ABEL",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.611079,
+          -34.983923
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Torrens Park",
+        "line": "ABEL",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.605872,
+          -34.99518
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Lynton",
+        "line": "ABEL",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.594401,
+          -35.021596
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Eden Hills",
+        "line": "ABEL",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.614336,
+          -35.025194
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Coromandel",
+        "line": "ABEL",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.619012,
+          -35.020955
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Blackwood",
+        "line": "ABEL",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6232,
+          -35.011312
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Glenalta",
+        "line": "ABEL",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.624314,
+          -35.000725
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Pinera",
+        "line": "ABEL",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.632915,
+          -34.998011
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Belair",
+        "line": "ABEL",
+        "order": 14
+      },
+      "id": 14
     },
     {
       "type": "Feature",
@@ -45,230 +266,9 @@
         ]
       },
       "properties": {
-        "id": 2,
+        "id": 15,
         "name": "Flinders",
         "line": "AFLI",
-        "order": 0
-      },
-      "id": 2
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.596767,
-          -34.921
-        ]
-      },
-      "properties": {
-        "id": 3,
-        "name": "Adelaide",
-        "line": "AFLI",
-        "order": 1
-      },
-      "id": 3
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.748196,
-          -34.594456
-        ]
-      },
-      "properties": {
-        "id": 4,
-        "name": "Gawler Central",
-        "line": "AGAW",
-        "order": 0
-      },
-      "id": 4
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.596767,
-          -34.921
-        ]
-      },
-      "properties": {
-        "id": 5,
-        "name": "Adelaide",
-        "line": "AGAW",
-        "order": 1
-      },
-      "id": 5
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.73973,
-          -34.608647
-        ]
-      },
-      "properties": {
-        "id": 6,
-        "name": "Gawler",
-        "line": "AGAW",
-        "order": 2
-      },
-      "id": 6
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.490817,
-          -34.900292
-        ]
-      },
-      "properties": {
-        "id": 7,
-        "name": "Grange",
-        "line": "AGRA",
-        "order": 0
-      },
-      "id": 7
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.596767,
-          -34.921
-        ]
-      },
-      "properties": {
-        "id": 8,
-        "name": "Adelaide",
-        "line": "AGRA",
-        "order": 1
-      },
-      "id": 8
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.484226,
-          -34.778197
-        ]
-      },
-      "properties": {
-        "id": 9,
-        "name": "Outer Harbor",
-        "line": "AOUT",
-        "order": 0
-      },
-      "id": 9
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.494785,
-          -34.78625
-        ]
-      },
-      "properties": {
-        "id": 10,
-        "name": "North Haven",
-        "line": "AOUT",
-        "order": 1
-      },
-      "id": 10
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.499181,
-          -34.793056
-        ]
-      },
-      "properties": {
-        "id": 11,
-        "name": "Osborne",
-        "line": "AOUT",
-        "order": 2
-      },
-      "id": 11
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.499106,
-          -34.799532
-        ]
-      },
-      "properties": {
-        "id": 12,
-        "name": "Midlunga",
-        "line": "AOUT",
-        "order": 3
-      },
-      "id": 12
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.491954,
-          -34.834726
-        ]
-      },
-      "properties": {
-        "id": 13,
-        "name": "Peterhead",
-        "line": "AOUT",
-        "order": 4
-      },
-      "id": 13
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.596767,
-          -34.921
-        ]
-      },
-      "properties": {
-        "id": 14,
-        "name": "Adelaide",
-        "line": "AOUT",
-        "order": 5
-      },
-      "id": 14
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.483497,
-          -35.189243
-        ]
-      },
-      "properties": {
-        "id": 15,
-        "name": "Seaford",
-        "line": "ASEA",
         "order": 0
       },
       "id": 15
@@ -278,14 +278,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.505652,
-          -35.066285
+          138.566028,
+          -35.015438
         ]
       },
       "properties": {
         "id": 16,
-        "name": "Hallett Cove",
-        "line": "ASEA",
+        "name": "Tonsley(Former)",
+        "line": "AFLI",
         "order": 1
       },
       "id": 16
@@ -295,14 +295,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.541116,
-          -35.009442
+          138.567292,
+          -35.009204
         ]
       },
       "properties": {
         "id": 17,
-        "name": "Oaklands",
-        "line": "ASEA",
+        "name": "Tonsley",
+        "line": "AFLI",
         "order": 2
       },
       "id": 17
@@ -312,17 +312,68 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.596767,
-          -34.921
+          138.566781,
+          -35.002046
         ]
       },
       "properties": {
         "id": 18,
-        "name": "Adelaide",
-        "line": "ASEA",
+        "name": "Mitchell Park",
+        "line": "AFLI",
         "order": 3
       },
       "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.561224,
+          -34.990921
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Ascot Park",
+        "line": "AFLI",
+        "order": 4
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.567197,
+          -34.982904
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Woodlands Park",
+        "line": "AFLI",
+        "order": 5
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.571209,
+          -34.972191
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Edwardstown",
+        "line": "AFLI",
+        "order": 6
+      },
+      "id": 21
     },
     {
       "type": "Feature",
@@ -334,12 +385,930 @@
         ]
       },
       "properties": {
-        "id": 19,
+        "id": 22,
+        "name": "Emerson",
+        "line": "AFLI",
+        "order": 7
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.580398,
+          -34.961447
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Clarence Park",
+        "line": "AFLI",
+        "order": 8
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.584893,
+          -34.951625
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Goodwood",
+        "line": "AFLI",
+        "order": 9
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.583295,
+          -34.944071
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Adelaide Showground",
+        "line": "AFLI",
+        "order": 10
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.580282,
+          -34.925116
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Mile End",
+        "line": "AFLI",
+        "order": 11
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596767,
+          -34.921
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Adelaide",
+        "line": "AFLI",
+        "order": 12
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.740949,
+          -34.595214
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Gawler Oval",
+        "line": "AGAW",
+        "order": 0
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.748196,
+          -34.594456
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Gawler Central",
+        "line": "AGAW",
+        "order": 1
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.73973,
+          -34.608647
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Gawler",
+        "line": "AGAW",
+        "order": 2
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.738725,
+          -34.612969
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Gawler Racecourse",
+        "line": "AGAW",
+        "order": 3
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.732616,
+          -34.620571
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Evanston",
+        "line": "AGAW",
+        "order": 4
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.725911,
+          -34.628526
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Tambelin",
+        "line": "AGAW",
+        "order": 5
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.706644,
+          -34.65184
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Kudla",
+        "line": "AGAW",
+        "order": 6
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.696476,
+          -34.668505
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Munno Para",
+        "line": "AGAW",
+        "order": 7
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.68671,
+          -34.68208
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Smithfield",
+        "line": "AGAW",
+        "order": 8
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.674106,
+          -34.695902
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Broadmeadows",
+        "line": "AGAW",
+        "order": 9
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.670007,
+          -34.704323
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Womma",
+        "line": "AGAW",
+        "order": 10
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.664608,
+          -34.717388
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Elizabeth Interchange",
+        "line": "AGAW",
+        "order": 11
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.655931,
+          -34.731144
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Elizabeth South",
+        "line": "AGAW",
+        "order": 12
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.644095,
+          -34.750763
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Nurlutta",
+        "line": "AGAW",
+        "order": 13
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.642434,
+          -34.763159
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Salisbury Interchange",
+        "line": "AGAW",
+        "order": 14
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.638135,
+          -34.774694
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Chidda",
+        "line": "AGAW",
+        "order": 15
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.630752,
+          -34.782981
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Parafield",
+        "line": "AGAW",
+        "order": 16
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.623355,
+          -34.791278
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Parafield Gardens",
+        "line": "AGAW",
+        "order": 17
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.616537,
+          -34.799015
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Greenfields",
+        "line": "AGAW",
+        "order": 18
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.612232,
+          -34.803814
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Mawson Interchange",
+        "line": "AGAW",
+        "order": 19
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.585769,
+          -34.834791
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Dry Creek",
+        "line": "AGAW",
+        "order": 20
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.578362,
+          -34.8596
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Kilburn",
+        "line": "AGAW",
+        "order": 21
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.581884,
+          -34.875576
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Islington",
+        "line": "AGAW",
+        "order": 22
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.583234,
+          -34.884963
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Dudley Park",
+        "line": "AGAW",
+        "order": 23
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.584338,
+          -34.896132
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Ovingham",
+        "line": "AGAW",
+        "order": 24
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.581636,
+          -34.90622
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "North Adelaide",
+        "line": "AGAW",
+        "order": 25
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596767,
+          -34.921
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Adelaide",
+        "line": "AGAW",
+        "order": 26
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.490817,
+          -34.900292
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Grange",
+        "line": "AGRA",
+        "order": 0
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.501662,
+          -34.899253
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "East Grange",
+        "line": "AGRA",
+        "order": 1
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.51504,
+          -34.890371
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Seaton Park",
+        "line": "AGRA",
+        "order": 2
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.52324,
+          -34.88156
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Albert Park",
+        "line": "AGRA",
+        "order": 3
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.53773,
+          -34.8771
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Woodville",
+        "line": "AGRA",
+        "order": 4
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.543496,
+          -34.881427
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Woodville Park",
+        "line": "AGRA",
+        "order": 5
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.549668,
+          -34.886197
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Kilkenny",
+        "line": "AGRA",
+        "order": 6
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.556982,
+          -34.891766
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "West Croydon",
+        "line": "AGRA",
+        "order": 7
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.563871,
+          -34.897051
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Croydon",
+        "line": "AGRA",
+        "order": 8
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.577143,
+          -34.907182
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Bowden",
+        "line": "AGRA",
+        "order": 9
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596767,
+          -34.921
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Adelaide",
+        "line": "AGRA",
+        "order": 10
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.484226,
+          -34.778197
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Outer Harbor",
+        "line": "AOUT",
+        "order": 0
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.494785,
+          -34.78625
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "North Haven",
+        "line": "AOUT",
+        "order": 1
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.499181,
+          -34.793056
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Osborne",
+        "line": "AOUT",
+        "order": 2
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.499106,
+          -34.799532
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Midlunga",
+        "line": "AOUT",
+        "order": 3
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.491954,
+          -34.834726
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Peterhead",
+        "line": "AOUT",
+        "order": 4
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596767,
+          -34.921
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Adelaide",
+        "line": "AOUT",
+        "order": 5
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.483497,
+          -35.189243
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Seaford",
+        "line": "ASEA",
+        "order": 0
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.505652,
+          -35.066285
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Hallett Cove",
+        "line": "ASEA",
+        "order": 1
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.541116,
+          -35.009442
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Oaklands",
+        "line": "ASEA",
+        "order": 2
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596767,
+          -34.921
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Adelaide",
+        "line": "ASEA",
+        "order": 3
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.573853,
+          -34.966563
+        ]
+      },
+      "properties": {
+        "id": 76,
         "name": "Emerson",
         "line": "ASEA",
         "order": 4
       },
-      "id": 19
+      "id": 76
     },
     {
       "type": "Feature",
@@ -351,12 +1320,12 @@
         ]
       },
       "properties": {
-        "id": 20,
+        "id": 77,
         "name": "Moseley Square",
         "line": "ATRM",
         "order": 0
       },
-      "id": 20
+      "id": 77
     },
     {
       "type": "Feature",
@@ -368,12 +1337,12 @@
         ]
       },
       "properties": {
-        "id": 21,
+        "id": 78,
         "name": "Jetty Road",
         "line": "ATRM",
         "order": 1
       },
-      "id": 21
+      "id": 78
     },
     {
       "type": "Feature",
@@ -385,12 +1354,12 @@
         ]
       },
       "properties": {
-        "id": 22,
+        "id": 79,
         "name": "Brighton Road",
         "line": "ATRM",
         "order": 2
       },
-      "id": 22
+      "id": 79
     },
     {
       "type": "Feature",
@@ -402,12 +1371,12 @@
         ]
       },
       "properties": {
-        "id": 23,
+        "id": 80,
         "name": "Glenelg East",
         "line": "ATRM",
         "order": 3
       },
-      "id": 23
+      "id": 80
     },
     {
       "type": "Feature",
@@ -419,12 +1388,12 @@
         ]
       },
       "properties": {
-        "id": 24,
+        "id": 81,
         "name": "Glengowrie",
         "line": "ATRM",
         "order": 4
       },
-      "id": 24
+      "id": 81
     },
     {
       "type": "Feature",
@@ -436,12 +1405,12 @@
         ]
       },
       "properties": {
-        "id": 25,
+        "id": 82,
         "name": "Morphettville",
         "line": "ATRM",
         "order": 5
       },
-      "id": 25
+      "id": 82
     },
     {
       "type": "Feature",
@@ -453,12 +1422,12 @@
         ]
       },
       "properties": {
-        "id": 26,
+        "id": 83,
         "name": "Plympton Park",
         "line": "ATRM",
         "order": 6
       },
-      "id": 26
+      "id": 83
     },
     {
       "type": "Feature",
@@ -470,12 +1439,12 @@
         ]
       },
       "properties": {
-        "id": 27,
+        "id": 84,
         "name": "Marion Road",
         "line": "ATRM",
         "order": 7
       },
-      "id": 27
+      "id": 84
     },
     {
       "type": "Feature",
@@ -487,12 +1456,12 @@
         ]
       },
       "properties": {
-        "id": 28,
+        "id": 85,
         "name": "South Plympton",
         "line": "ATRM",
         "order": 8
       },
-      "id": 28
+      "id": 85
     },
     {
       "type": "Feature",
@@ -504,12 +1473,12 @@
         ]
       },
       "properties": {
-        "id": 29,
+        "id": 86,
         "name": "Beckman Street",
         "line": "ATRM",
         "order": 9
       },
-      "id": 29
+      "id": 86
     },
     {
       "type": "Feature",
@@ -521,12 +1490,12 @@
         ]
       },
       "properties": {
-        "id": 30,
+        "id": 87,
         "name": "Glandore",
         "line": "ATRM",
         "order": 10
       },
-      "id": 30
+      "id": 87
     },
     {
       "type": "Feature",
@@ -538,12 +1507,12 @@
         ]
       },
       "properties": {
-        "id": 31,
+        "id": 88,
         "name": "South Road",
         "line": "ATRM",
         "order": 11
       },
-      "id": 31
+      "id": 88
     },
     {
       "type": "Feature",
@@ -555,12 +1524,12 @@
         ]
       },
       "properties": {
-        "id": 32,
+        "id": 89,
         "name": "Black Forest",
         "line": "ATRM",
         "order": 12
       },
-      "id": 32
+      "id": 89
     },
     {
       "type": "Feature",
@@ -572,12 +1541,12 @@
         ]
       },
       "properties": {
-        "id": 33,
+        "id": 90,
         "name": "Forestville",
         "line": "ATRM",
         "order": 13
       },
-      "id": 33
+      "id": 90
     },
     {
       "type": "Feature",
@@ -589,12 +1558,12 @@
         ]
       },
       "properties": {
-        "id": 34,
+        "id": 91,
         "name": "Goodwood Road",
         "line": "ATRM",
         "order": 14
       },
-      "id": 34
+      "id": 91
     },
     {
       "type": "Feature",
@@ -606,12 +1575,12 @@
         ]
       },
       "properties": {
-        "id": 35,
+        "id": 92,
         "name": "Wayville",
         "line": "ATRM",
         "order": 15
       },
-      "id": 35
+      "id": 92
     },
     {
       "type": "Feature",
@@ -623,12 +1592,12 @@
         ]
       },
       "properties": {
-        "id": 36,
+        "id": 93,
         "name": "Greenhill Road",
         "line": "ATRM",
         "order": 16
       },
-      "id": 36
+      "id": 93
     },
     {
       "type": "Feature",
@@ -640,12 +1609,12 @@
         ]
       },
       "properties": {
-        "id": 37,
+        "id": 94,
         "name": "South Terrace",
         "line": "ATRM",
         "order": 17
       },
-      "id": 37
+      "id": 94
     },
     {
       "type": "Feature",
@@ -657,12 +1626,12 @@
         ]
       },
       "properties": {
-        "id": 38,
+        "id": 95,
         "name": "City South",
         "line": "ATRM",
         "order": 18
       },
-      "id": 38
+      "id": 95
     },
     {
       "type": "Feature",
@@ -674,12 +1643,12 @@
         ]
       },
       "properties": {
-        "id": 39,
+        "id": 96,
         "name": "Victoria Square /Tarndanyangga",
         "line": "ATRM",
         "order": 19
       },
-      "id": 39
+      "id": 96
     },
     {
       "type": "Feature",
@@ -691,12 +1660,12 @@
         ]
       },
       "properties": {
-        "id": 40,
+        "id": 97,
         "name": "Pirie Street",
         "line": "ATRM",
         "order": 20
       },
-      "id": 40
+      "id": 97
     },
     {
       "type": "Feature",
@@ -708,12 +1677,12 @@
         ]
       },
       "properties": {
-        "id": 41,
+        "id": 98,
         "name": "Rundle Mall",
         "line": "ATRM",
         "order": 21
       },
-      "id": 41
+      "id": 98
     },
     {
       "type": "Feature",
@@ -725,12 +1694,12 @@
         ]
       },
       "properties": {
-        "id": 42,
+        "id": 99,
         "name": "Festival Plaza",
         "line": "ATRM",
         "order": 22
       },
-      "id": 42
+      "id": 99
     },
     {
       "type": "Feature",
@@ -742,12 +1711,12 @@
         ]
       },
       "properties": {
-        "id": 43,
+        "id": 100,
         "name": "Adelaide Railway Station",
         "line": "ATRM",
         "order": 23
       },
-      "id": 43
+      "id": 100
     },
     {
       "type": "Feature",
@@ -759,12 +1728,12 @@
         ]
       },
       "properties": {
-        "id": 44,
+        "id": 101,
         "name": "City West",
         "line": "ATRM",
         "order": 24
       },
-      "id": 44
+      "id": 101
     },
     {
       "type": "Feature",
@@ -776,12 +1745,12 @@
         ]
       },
       "properties": {
-        "id": 45,
+        "id": 102,
         "name": "Royal Adelaide Hospital",
         "line": "ATRM",
         "order": 25
       },
-      "id": 45
+      "id": 102
     },
     {
       "type": "Feature",
@@ -793,12 +1762,12 @@
         ]
       },
       "properties": {
-        "id": 46,
+        "id": 103,
         "name": "Thebarton",
         "line": "ATRM",
         "order": 26
       },
-      "id": 46
+      "id": 103
     },
     {
       "type": "Feature",
@@ -810,12 +1779,12 @@
         ]
       },
       "properties": {
-        "id": 47,
+        "id": 104,
         "name": "Bonython Park",
         "line": "ATRM",
         "order": 27
       },
-      "id": 47
+      "id": 104
     },
     {
       "type": "Feature",
@@ -827,12 +1796,12 @@
         ]
       },
       "properties": {
-        "id": 48,
+        "id": 105,
         "name": "Entertainment Centre",
         "line": "ATRM",
         "order": 28
       },
-      "id": 48
+      "id": 105
     },
     {
       "type": "Feature",
@@ -844,12 +1813,12 @@
         ]
       },
       "properties": {
-        "id": 49,
+        "id": 106,
         "name": "Botanic Gardens",
         "line": "ATRM",
         "order": 29
       },
-      "id": 49
+      "id": 106
     },
     {
       "type": "Feature",
@@ -861,12 +1830,12 @@
         ]
       },
       "properties": {
-        "id": 50,
+        "id": 107,
         "name": "University",
         "line": "ATRM",
         "order": 30
       },
-      "id": 50
+      "id": 107
     },
     {
       "type": "Feature",
@@ -878,12 +1847,12 @@
         ]
       },
       "properties": {
-        "id": 51,
+        "id": 108,
         "name": "Art Gallery",
         "line": "ATRM",
         "order": 31
       },
-      "id": 51
+      "id": 108
     }
   ]
 }

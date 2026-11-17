@@ -348,6 +348,11 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Dublin, IE',
+    link: '/europe/ireland/dublin',
+    continent: 'Europe',
+  },
+  {
     name: 'Edinburgh, SCT',
     link: '/europe/uk/edinburgh',
     continent: 'Europe',
@@ -1014,7 +1019,6 @@ const rawCities: CityBase[] = [
     name: 'Melbourne, VIC',
     link: '/oceania/australia/melbourne',
     continent: 'Oceania',
-    hideInStats: true,
   },
   {
     name: 'Newcastle, NSW',
@@ -1030,19 +1034,16 @@ const rawCities: CityBase[] = [
     name: 'Sydney, NSW',
     link: '/oceania/australia/sydney',
     continent: 'Oceania',
-    hideInStats: true,
   },
   {
     name: 'Wellington, WGN',
     link: '/oceania/new-zealand/wellington',
     continent: 'Oceania',
-    hideInStats: true,
   },
   {
     name: 'Yarra, VIC',
     link: '/oceania/australia/yarra',
     continent: 'Oceania',
-    hideInStats: true,
   },
 ]
 
@@ -1105,10 +1106,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/malaysia/kuala-lumpur',
   'north-america/canada/toronto',
   'north-america/canada/viarail',
-  'oceania/australia/melbourne',
-  'oceania/australia/sydney',
-  'oceania/australia/yarra',
-  'oceania/new-zealand/wellington',
 ])
 
 const getCityImagePath = (link: string): string => {

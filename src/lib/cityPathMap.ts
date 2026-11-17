@@ -55,6 +55,7 @@ export const CITY_PATH_MAP: Record<string, string> = {
   'denver': 'north-america/usa/denver',
   'detroit': 'north-america/usa/detroit',
   'dresden': 'europe/germany/dresden',
+  'dublin': 'europe/ireland/dublin',
   'dujiangyan': 'asia/china/dujiangyan',
   'edinburgh': 'europe/uk/edinburgh',
   'edmonton': 'north-america/canada/edmonton',

@@ -108,6 +108,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Baroque and Roll",
     description: "You've tram'd through Dresden like a phoenix rising!",
   },
+  'dublin': {
+    title: "Fair City Navigator",
+    description: "You've DARTed and Luas'd around Dublin like a true Dub!",
+  },
   edinburgh: {
     title: "Festival Fringe Master",
     description: "You've tram'd up and down the Royal Mile with Scottish pride!",

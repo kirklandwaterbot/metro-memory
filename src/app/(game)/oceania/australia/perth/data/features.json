@@ -2046,13 +2046,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.782479,
-          -31.798949
+          115.782338,
+          -31.799381
         ]
       },
       "properties": {
         "id": 120,
-        "name": "Whitfords Bus Terminal",
+        "name": "Whitfords",
         "line": "PYAN",
         "order": 7
       },
@@ -2080,34 +2080,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.782338,
-          -31.799381
-        ]
-      },
-      "properties": {
-        "id": 122,
-        "name": "Whitfords",
-        "line": "PYAN",
-        "order": 9
-      },
-      "id": 122
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           115.767462,
           -31.745117
         ]
       },
       "properties": {
-        "id": 123,
+        "id": 122,
         "name": "Joondalup",
         "line": "PYAN",
-        "order": 10
+        "order": 9
       },
-      "id": 123
+      "id": 122
     },
     {
       "type": "Feature",
@@ -2119,12 +2102,12 @@
         ]
       },
       "properties": {
-        "id": 124,
+        "id": 123,
         "name": "Currambine",
         "line": "PYAN",
-        "order": 11
+        "order": 10
       },
-      "id": 124
+      "id": 123
     },
     {
       "type": "Feature",
@@ -2136,12 +2119,12 @@
         ]
       },
       "properties": {
-        "id": 125,
+        "id": 124,
         "name": "Clarkson",
         "line": "PYAN",
-        "order": 12
+        "order": 11
       },
-      "id": 125
+      "id": 124
     },
     {
       "type": "Feature",
@@ -2153,12 +2136,12 @@
         ]
       },
       "properties": {
-        "id": 126,
+        "id": 125,
         "name": "Butler",
         "line": "PYAN",
-        "order": 13
+        "order": 12
       },
-      "id": 126
+      "id": 125
     },
     {
       "type": "Feature",
@@ -2170,12 +2153,12 @@
         ]
       },
       "properties": {
-        "id": 127,
+        "id": 126,
         "name": "Alkimos",
         "line": "PYAN",
-        "order": 14
+        "order": 13
       },
-      "id": 127
+      "id": 126
     },
     {
       "type": "Feature",
@@ -2187,29 +2170,12 @@
         ]
       },
       "properties": {
-        "id": 128,
+        "id": 127,
         "name": "Eglinton",
         "line": "PYAN",
-        "order": 15
+        "order": 14
       },
-      "id": 128
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          115.643816,
-          -31.531952
-        ]
-      },
-      "properties": {
-        "id": 129,
-        "name": "Yanchep",
-        "line": "PYAN",
-        "order": 16
-      },
-      "id": 129
+      "id": 127
     }
   ]
 }

@@ -11,6 +11,7 @@ export const CITY_COORDINATES: Record<string, [number, number]> = {
   buffalo: [-78.8784, 42.8864],
   calgary: [-114.0719, 51.0447],
   charlotte: [-80.8431, 35.2271],
+  'dublin': [-6.2603, 53.3498],
   'liverpool': [-2.9916, 53.4084],
   nashville: [-86.7816, 36.1627],
   chicago: [-87.6298, 41.8781],

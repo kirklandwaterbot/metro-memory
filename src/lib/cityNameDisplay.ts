@@ -182,6 +182,7 @@ const SIMPLIFIED_CITY_NAME_OVERRIDES: Record<string, string> = {
   buffalo: '布法罗, NY',
   calgary: '卡尔加里, AB',
   charlotte: '夏洛特, NC',
+  'dublin': '都柏林, IE',
   'liverpool': '利物浦, ENG',
   nashville: '纳什维尔, TN',
   chicago: '芝加哥—基诺沙, WI',
