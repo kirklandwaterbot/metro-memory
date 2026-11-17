@@ -1,0 +1,72 @@
+name: Route Geometry from OpenStreetMap
+
+# Builds lines listed in data-sources/<city>/osm-routes.json along their real
+# right-of-way from OpenStreetMap (Overpass), then joins them to the rest of the
+# network with fill-gaps.js, and commits the result to the same branch.
+# Runs when a request file changes, or by hand.
+
+on:
+  push:
+    paths:
+      - 'data-sources/**/osm-routes.json'
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: 'Rebuild routes that were already built'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: route-geometry-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Build routes from OSM
+        env:
+          REFRESH: ${{ inputs.refresh }}
+        run: |
+          : > /tmp/route-report.md
+          for req in data-sources/*/osm-routes.json; do
+            city=$(basename "$(dirname "$req")")
+            flags=()
+            if [ "$REFRESH" = "true" ]; then flags+=(--refresh); fi
+            node scripts/routes/osm-route.js --city="$city" --report=/tmp/osm-$city.md "${flags[@]}"
+            cat /tmp/osm-$city.md >> /tmp/route-report.md
+            lines=$(node -e "console.log(require('./$req').routes.map(r => r.line).join(','))")
+            node scripts/routes/fill-gaps.js --city="$city" --lines="$lines" --report=/tmp/gaps-$city.md
+            cat /tmp/gaps-$city.md >> /tmp/route-report.md
+          done
+          cat /tmp/route-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit geometry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all -- 'src/app'
+          if git diff --cached --quiet; then
+            echo "No geometry changes."
+            exit 0
+          fi
+          git commit -F - <<MSG
+          Build route geometry from OpenStreetMap
+
+          $(cat /tmp/route-report.md)
+
+          Geometry © OpenStreetMap contributors (ODbL).
+          MSG
+          git push origin "HEAD:${GITHUB_REF_NAME}"
