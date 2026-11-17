@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server'
 
+import { setSolutionsCookie } from '@/lib/solutionsCookie'
+
 const SOLUTIONS_PASSWORD = process.env.SOLUTIONS_PASSWORD
 
 export const POST = async (req: Request) => {
@@ -24,7 +26,11 @@ export const POST = async (req: Request) => {
       return NextResponse.json({ success: false }, { status: 401 })
     }
 
-    return NextResponse.json({ success: true })
+    // Remember the unlock server-side too, so password-gated views (like the
+    // live missed-guesses log) keep working after a reload or on other cities.
+    const response = NextResponse.json({ success: true })
+    setSolutionsCookie(response)
+    return response
   } catch (error) {
     console.error('Failed to validate solutions password:', error)
     return NextResponse.json({ success: false }, { status: 400 })

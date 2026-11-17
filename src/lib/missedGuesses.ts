@@ -88,3 +88,37 @@ export const clearAllMissedGuesses = () => {
   window.localStorage.removeItem(STORAGE_KEY)
   window.dispatchEvent(new CustomEvent(MISSED_GUESSES_UPDATED_EVENT, { detail: { city: null } }))
 }
+
+export type MergedMissedGuess = MissedGuessEntry & { mine: boolean; live: boolean }
+
+const SAME_GUESS_WINDOW_MS = 2 * 60 * 1000
+
+/**
+ * Combines the shared server log (everyone's guesses) with this browser's local
+ * log. Your own guesses are sent to the server too, so a local entry that has a
+ * server twin (same city + input within two minutes) is shown once, marked
+ * `mine`. Newest first.
+ */
+export const mergeMissedGuesses = (
+  local: MissedGuessEntry[],
+  live: MissedGuessEntry[],
+  limit = 300,
+): MergedMissedGuess[] => {
+  const merged: MergedMissedGuess[] = live.map((entry) => ({ ...entry, mine: false, live: true }))
+  for (const entry of local) {
+    const time = Date.parse(entry.createdAt)
+    const twin = merged.find(
+      (item) =>
+        item.live &&
+        !item.mine &&
+        item.city === entry.city &&
+        item.rawInput === entry.rawInput &&
+        Math.abs(Date.parse(item.createdAt) - time) < SAME_GUESS_WINDOW_MS,
+    )
+    if (twin) twin.mine = true
+    else merged.push({ ...entry, mine: true, live: false })
+  }
+  return merged
+    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
+    .slice(0, limit)
+}
