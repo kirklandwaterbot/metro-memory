@@ -506,7 +506,7 @@
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.06083, 51.41756] },
-      "properties": { "id": 1, "name": "Penge West", "line": "Overground" },
+      "properties": { "id": 1, "name": "Penge West", "line": "Windrush" },
       "id": 1
     },
     {
@@ -515,7 +515,7 @@
       "properties": {
         "id": 20,
         "name": "New Cross Gate",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 20
     },
@@ -525,14 +525,14 @@
       "properties": {
         "id": 25,
         "name": "Harringay Green Lanes",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 25
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [0.009897, 51.633085] },
-      "properties": { "id": 30, "name": "Chingford", "line": "Overground" },
+      "properties": { "id": 30, "name": "Chingford", "line": "Weaver" },
       "id": 30
     },
     {
@@ -541,14 +541,14 @@
       "properties": {
         "id": 32,
         "name": "Blackhorse Road",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 32
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.285252, 51.47703] },
-      "properties": { "id": 36, "name": "Kew Gardens", "line": "Overground" },
+      "properties": { "id": 36, "name": "Kew Gardens", "line": "Mildmay" },
       "id": 36
     },
     {
@@ -557,20 +557,20 @@
       "properties": {
         "id": 40,
         "name": "Imperial Wharf",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 40
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.15077, 51.55534] },
-      "properties": { "id": 48, "name": "Gospel Oak", "line": "Overground" },
+      "properties": { "id": 48, "name": "Gospel Oak", "line": "Mildmay" },
       "id": 48
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.10258, 51.37843] },
-      "properties": { "id": 50, "name": "West Croydon", "line": "Overground" },
+      "properties": { "id": 50, "name": "West Croydon", "line": "Windrush" },
       "id": 50
     },
     {
@@ -579,7 +579,7 @@
       "properties": {
         "id": 59,
         "name": "Finchley Road & Frognal",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 59
     },
@@ -589,7 +589,7 @@
       "properties": {
         "id": 61,
         "name": "Wembley Central",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 61
     },
@@ -599,7 +599,7 @@
       "properties": {
         "id": 64,
         "name": "Crystal Palace",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 64
     },
@@ -609,7 +609,7 @@
       "properties": {
         "id": 74,
         "name": "White Hart Lane",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 74
     },
@@ -619,7 +619,7 @@
       "properties": {
         "id": 79,
         "name": "Dalston Kingsland",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 79
     },
@@ -629,7 +629,7 @@
       "properties": {
         "id": 82,
         "name": "Kensington (Olympia)",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 82
     },
@@ -639,14 +639,14 @@
       "properties": {
         "id": 94,
         "name": "Cambridge Heath",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 94
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.06588, 51.41215] },
-      "properties": { "id": 95, "name": "Anerley", "line": "Overground" },
+      "properties": { "id": 95, "name": "Anerley", "line": "Windrush" },
       "id": 95
     },
     {
@@ -655,14 +655,14 @@
       "properties": {
         "id": 98,
         "name": "Brondesbury Park",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 98
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.301754, 51.46316] },
-      "properties": { "id": 103, "name": "Richmond", "line": "Overground" },
+      "properties": { "id": 103, "name": "Richmond", "line": "Mildmay" },
       "id": 103
     },
     {
@@ -671,7 +671,7 @@
       "properties": {
         "id": 105,
         "name": "Kilburn High Road",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 105
     },
@@ -681,7 +681,7 @@
       "properties": {
         "id": 115,
         "name": "Stonebridge Park",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 115
     },
@@ -691,7 +691,7 @@
       "properties": {
         "id": 123,
         "name": "Shepherd's Bush",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 123
     },
@@ -701,14 +701,14 @@
       "properties": {
         "id": 129,
         "name": "Hampstead Heath",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 129
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.308589, 51.570172] },
-      "properties": { "id": 131, "name": "South Kenton", "line": "Overground" },
+      "properties": { "id": 131, "name": "South Kenton", "line": "Lioness" },
       "id": 131
     },
     {
@@ -717,7 +717,7 @@
       "properties": {
         "id": 133,
         "name": "Clapham High Street",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 133
     },
@@ -727,26 +727,26 @@
       "properties": {
         "id": 142,
         "name": "Dalston Junction",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 142
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.03242, 51.47635] },
-      "properties": { "id": 149, "name": "New Cross", "line": "Overground" },
+      "properties": { "id": 149, "name": "New Cross", "line": "Windrush" },
       "id": 149
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.056904, 51.511229] },
-      "properties": { "id": 154, "name": "Shadwell", "line": "Overground" },
+      "properties": { "id": 154, "name": "Shadwell", "line": "Windrush" },
       "id": 154
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.38475, 51.64558] },
-      "properties": { "id": 169, "name": "Bushey", "line": "Overground" },
+      "properties": { "id": 169, "name": "Bushey", "line": "Lioness" },
       "id": 169
     },
     {
@@ -755,14 +755,14 @@
       "properties": {
         "id": 185,
         "name": "Watford High Street",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 185
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.069867, 51.593957] },
-      "properties": { "id": 187, "name": "Bruce Grove", "line": "Overground" },
+      "properties": { "id": 187, "name": "Bruce Grove", "line": "Weaver" },
       "id": 187
     },
     {
@@ -771,7 +771,7 @@
       "properties": {
         "id": 200,
         "name": "Norwood Junction",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 200
     },
@@ -781,7 +781,7 @@
       "properties": {
         "id": 205,
         "name": "Bethnal Green",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 205
     },
@@ -791,26 +791,26 @@
       "properties": {
         "id": 210,
         "name": "Carpenders Park",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 210
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.04235, 51.54702] },
-      "properties": { "id": 218, "name": "Homerton", "line": "Overground" },
+      "properties": { "id": 218, "name": "Homerton", "line": "Mildmay" },
       "id": 218
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.02396, 51.702875] },
-      "properties": { "id": 222, "name": "Cheshunt", "line": "Overground" },
+      "properties": { "id": 222, "name": "Cheshunt", "line": "Weaver" },
       "id": 222
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.00325, 51.54129] },
-      "properties": { "id": 233, "name": "Stratford", "line": "Overground" },
+      "properties": { "id": 233, "name": "Stratford", "line": "Mildmay" },
       "id": 233
     },
     {
@@ -819,20 +819,20 @@
       "properties": {
         "id": 239,
         "name": "Silver Street",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 239
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.02491, 51.54342] },
-      "properties": { "id": 243, "name": "Hackney Wick", "line": "Overground" },
+      "properties": { "id": 243, "name": "Hackney Wick", "line": "Mildmay" },
       "id": 243
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.05315, 51.43928] },
-      "properties": { "id": 250, "name": "Forest Hill", "line": "Overground" },
+      "properties": { "id": 250, "name": "Forest Hill", "line": "Windrush" },
       "id": 250
     },
     {
@@ -841,26 +841,26 @@
       "properties": {
         "id": 259,
         "name": "Edmonton Green",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 259
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.000222, 51.608348] },
-      "properties": { "id": 270, "name": "Highams Park", "line": "Overground" },
+      "properties": { "id": 270, "name": "Highams Park", "line": "Weaver" },
       "id": 270
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.07566, 51.53871] },
-      "properties": { "id": 274, "name": "Haggerston", "line": "Overground" },
+      "properties": { "id": 274, "name": "Haggerston", "line": "Windrush" },
       "id": 274
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.3686, 51.60942] },
-      "properties": { "id": 279, "name": "Hatch End", "line": "Overground" },
+      "properties": { "id": 279, "name": "Hatch End", "line": "Lioness" },
       "id": 279
     },
     {
@@ -869,14 +869,14 @@
       "properties": {
         "id": 281,
         "name": "Leyton Midland Road",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 281
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.20231, 51.54517] },
-      "properties": { "id": 294, "name": "Brondesbury", "line": "Overground" },
+      "properties": { "id": 294, "name": "Brondesbury", "line": "Mildmay" },
       "id": 294
     },
     {
@@ -885,14 +885,14 @@
       "properties": {
         "id": 299,
         "name": "Woodgrange Park",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 299
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [0.251087, 51.558889] },
-      "properties": { "id": 302, "name": "Upminster", "line": "Overground" },
+      "properties": { "id": 302, "name": "Upminster", "line": "Liberty" },
       "id": 302
     },
     {
@@ -901,38 +901,38 @@
       "properties": {
         "id": 324,
         "name": "Hackney Central",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 324
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.21996, 51.53456] },
-      "properties": { "id": 326, "name": "Kensal Rise", "line": "Overground" },
+      "properties": { "id": 326, "name": "Kensal Rise", "line": "Mildmay" },
       "id": 326
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.079328, 51.652024] },
-      "properties": { "id": 352, "name": "Enfield Town", "line": "Overground" },
+      "properties": { "id": 352, "name": "Enfield Town", "line": "Weaver" },
       "id": 352
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.068267, 51.558501] },
-      "properties": { "id": 354, "name": "Rectory Road", "line": "Overground" },
+      "properties": { "id": 354, "name": "Rectory Road", "line": "Weaver" },
       "id": 354
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.049706, 51.497889] },
-      "properties": { "id": 358, "name": "Canada Water", "line": "Overground" },
+      "properties": { "id": 358, "name": "Canada Water", "line": "Windrush" },
       "id": 358
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [0.183237, 51.574827] },
-      "properties": { "id": 362, "name": "Romford", "line": "Overground" },
+      "properties": { "id": 362, "name": "Romford", "line": "Liberty" },
       "id": 362
     },
     {
@@ -941,20 +941,20 @@
       "properties": {
         "id": 372,
         "name": "Barking Riverside",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 372
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.06941, 51.47004] },
-      "properties": { "id": 376, "name": "Peckham Rye", "line": "Overground" },
+      "properties": { "id": 376, "name": "Peckham Rye", "line": "Windrush" },
       "id": 376
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.31667, 51.581321] },
-      "properties": { "id": 384, "name": "Kenton", "line": "Overground" },
+      "properties": { "id": 384, "name": "Kenton", "line": "Lioness" },
       "id": 384
     },
     {
@@ -963,7 +963,7 @@
       "properties": {
         "id": 392,
         "name": "St James Street",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 392
     },
@@ -973,7 +973,7 @@
       "properties": {
         "id": 407,
         "name": "West Brompton",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 407
     },
@@ -983,7 +983,7 @@
       "properties": {
         "id": 418,
         "name": "Acton Central",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 418
     },
@@ -993,7 +993,7 @@
       "properties": {
         "id": 419,
         "name": "South Hampstead",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 419
     },
@@ -1003,20 +1003,20 @@
       "properties": {
         "id": 421,
         "name": "Wanstead Park",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 421
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.09219, 51.54874] },
-      "properties": { "id": 426, "name": "Canonbury", "line": "Overground" },
+      "properties": { "id": 426, "name": "Canonbury", "line": "Mildmay" },
       "id": 426
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.27016, 51.4997] },
-      "properties": { "id": 438, "name": "South Acton", "line": "Overground" },
+      "properties": { "id": 438, "name": "South Acton", "line": "Mildmay" },
       "id": 438
     },
     {
@@ -1025,7 +1025,7 @@
       "properties": {
         "id": 439,
         "name": "Headstone Lane",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 439
     },
@@ -1035,14 +1035,14 @@
       "properties": {
         "id": 441,
         "name": "Bush Hill Park",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 441
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.1387, 51.5418] },
-      "properties": { "id": 443, "name": "Camden Road", "line": "Overground" },
+      "properties": { "id": 443, "name": "Camden Road", "line": "Mildmay" },
       "id": 443
     },
     {
@@ -1051,7 +1051,7 @@
       "properties": {
         "id": 446,
         "name": "Willesden Junction",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 446
     },
@@ -1061,14 +1061,14 @@
       "properties": {
         "id": 458,
         "name": "Leytonstone High Road",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 458
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [0.080863, 51.539451] },
-      "properties": { "id": 467, "name": "Barking", "line": "Overground" },
+      "properties": { "id": 467, "name": "Barking", "line": "Suffragette" },
       "id": 467
     },
     {
@@ -1077,7 +1077,7 @@
       "properties": {
         "id": 480,
         "name": "Shoreditch High Street",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 480
     },
@@ -1087,7 +1087,7 @@
       "properties": {
         "id": 486,
         "name": "Turkey Street",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 486
     },
@@ -1097,14 +1097,14 @@
       "properties": {
         "id": 487,
         "name": "South Tottenham",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 487
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.11714, 51.57131] },
-      "properties": { "id": 492, "name": "Crouch Hill", "line": "Overground" },
+      "properties": { "id": 492, "name": "Crouch Hill", "line": "Suffragette" },
       "id": 492
     },
     {
@@ -1113,26 +1113,26 @@
       "properties": {
         "id": 501,
         "name": "Caledonian Road & Barnsbury",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 501
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.05424, 51.42725] },
-      "properties": { "id": 503, "name": "Sydenham", "line": "Overground" },
+      "properties": { "id": 503, "name": "Sydenham", "line": "Windrush" },
       "id": 503
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.057025, 51.561642] },
-      "properties": { "id": 511, "name": "Clapton", "line": "Overground" },
+      "properties": { "id": 511, "name": "Clapton", "line": "Weaver" },
       "id": 511
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.133808, 51.528185] },
-      "properties": { "id": 530, "name": "Euston", "line": "Overground" },
+      "properties": { "id": 530, "name": "Euston", "line": "Lioness" },
       "id": 530
     },
     {
@@ -1141,26 +1141,26 @@
       "properties": {
         "id": 537,
         "name": "Upper Holloway",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 537
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.002405, 51.586579] },
-      "properties": { "id": 542, "name": "Wood Street", "line": "Overground" },
+      "properties": { "id": 542, "name": "Wood Street", "line": "Weaver" },
       "id": 542
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.052437, 51.648703] },
-      "properties": { "id": 544, "name": "Southbury", "line": "Overground" },
+      "properties": { "id": 544, "name": "Southbury", "line": "Weaver" },
       "id": 544
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.257889, 51.53614] },
-      "properties": { "id": 550, "name": "Harlesden", "line": "Overground" },
+      "properties": { "id": 550, "name": "Harlesden", "line": "Lioness" },
       "id": 550
     },
     {
@@ -1169,7 +1169,7 @@
       "properties": {
         "id": 559,
         "name": "Wandsworth Road",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 559
     },
@@ -1179,14 +1179,14 @@
       "properties": {
         "id": 565,
         "name": "Clapham Junction",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 565
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [0.220113, 51.568641] },
-      "properties": { "id": 568, "name": "Emerson Park", "line": "Overground" },
+      "properties": { "id": 568, "name": "Emerson Park", "line": "Liberty" },
       "id": 568
     },
     {
@@ -1195,7 +1195,7 @@
       "properties": {
         "id": 570,
         "name": "London Fields",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 570
     },
@@ -1205,20 +1205,20 @@
       "properties": {
         "id": 577,
         "name": "Hackney Downs",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 577
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.223966, 51.530498] },
-      "properties": { "id": 596, "name": "Kensal Green", "line": "Overground" },
+      "properties": { "id": 596, "name": "Kensal Green", "line": "Lioness" },
       "id": 596
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.275175, 51.491793] },
-      "properties": { "id": 600, "name": "Gunnersbury", "line": "Overground" },
+      "properties": { "id": 600, "name": "Gunnersbury", "line": "Mildmay" },
       "id": 600
     },
     {
@@ -1227,7 +1227,7 @@
       "properties": {
         "id": 619,
         "name": "Liverpool Street",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 619
     },
@@ -1237,7 +1237,7 @@
       "properties": {
         "id": 624,
         "name": "Seven Sisters",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 624
     },
@@ -1247,14 +1247,14 @@
       "properties": {
         "id": 628,
         "name": "Walthamstow Central",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 628
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.05592, 51.50439] },
-      "properties": { "id": 632, "name": "Wapping", "line": "Overground" },
+      "properties": { "id": 632, "name": "Wapping", "line": "Windrush" },
       "id": 632
     },
     {
@@ -1263,14 +1263,14 @@
       "properties": {
         "id": 637,
         "name": "Queens Road Peckham",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 637
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.03753, 51.46465] },
-      "properties": { "id": 641, "name": "Brockley", "line": "Overground" },
+      "properties": { "id": 641, "name": "Brockley", "line": "Windrush" },
       "id": 641
     },
     {
@@ -1279,14 +1279,14 @@
       "properties": {
         "id": 655,
         "name": "Highbury & Islington",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 655
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.08936, 51.46821] },
-      "properties": { "id": 662, "name": "Denmark Hill", "line": "Overground" },
+      "properties": { "id": 662, "name": "Denmark Hill", "line": "Windrush" },
       "id": 662
     },
     {
@@ -1295,7 +1295,7 @@
       "properties": {
         "id": 674,
         "name": "West Hampstead",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 674
     },
@@ -1305,7 +1305,7 @@
       "properties": {
         "id": 676,
         "name": "North Wembley",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 676
     },
@@ -1315,20 +1315,20 @@
       "properties": {
         "id": 693,
         "name": "Watford Junction",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 693
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.059985, 51.519455] },
-      "properties": { "id": 700, "name": "Whitechapel", "line": "Overground" },
+      "properties": { "id": 700, "name": "Whitechapel", "line": "Windrush" },
       "id": 700
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.204704, 51.534101] },
-      "properties": { "id": 703, "name": "Queen's Park", "line": "Overground" },
+      "properties": { "id": 703, "name": "Queen's Park", "line": "Lioness" },
       "id": 703
     },
     {
@@ -1337,14 +1337,14 @@
       "properties": {
         "id": 729,
         "name": "Walthamstow Queen's Road",
-        "line": "Overground"
+        "line": "Suffragette"
       },
       "id": 729
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.04751, 51.4932] },
-      "properties": { "id": 750, "name": "Surrey Quays", "line": "Overground" },
+      "properties": { "id": 750, "name": "Surrey Quays", "line": "Windrush" },
       "id": 750
     },
     {
@@ -1353,7 +1353,7 @@
       "properties": {
         "id": 752,
         "name": "Stamford Hill",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 752
     },
@@ -1363,7 +1363,7 @@
       "properties": {
         "id": 765,
         "name": "Stoke Newington",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 765
     },
@@ -1373,7 +1373,7 @@
       "properties": {
         "id": 767,
         "name": "Honor Oak Park",
-        "line": "Overground"
+        "line": "Windrush"
       },
       "id": 767
     },
@@ -1383,14 +1383,14 @@
       "properties": {
         "id": 773,
         "name": "Kentish Town West",
-        "line": "Overground"
+        "line": "Mildmay"
       },
       "id": 773
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.05204, 51.50082] },
-      "properties": { "id": 791, "name": "Rotherhithe", "line": "Overground" },
+      "properties": { "id": 791, "name": "Rotherhithe", "line": "Windrush" },
       "id": 791
     },
     {
@@ -1399,7 +1399,7 @@
       "properties": {
         "id": 793,
         "name": "Theobalds Grove",
-        "line": "Overground"
+        "line": "Weaver"
       },
       "id": 793
     },
@@ -1409,14 +1409,14 @@
       "properties": {
         "id": 802,
         "name": "Harrow & Wealdstone",
-        "line": "Overground"
+        "line": "Lioness"
       },
       "id": 802
     },
     {
       "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-0.07568, 51.53152] },
-      "properties": { "id": 805, "name": "Hoxton", "line": "Overground" },
+      "properties": { "id": 805, "name": "Hoxton", "line": "Windrush" },
       "id": 805
     },
     {
@@ -4268,12 +4268,47 @@
       },
       "properties": { "id": 810, "name": "Iver", "line": "ElizabethLine" },
       "id": 810
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.15077, 51.55534] },
+      "properties": { "id": 811, "name": "Gospel Oak", "line": "Suffragette" },
+      "id": 811
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.09219, 51.54874] },
+      "properties": { "id": 812, "name": "Canonbury", "line": "Windrush" },
+      "id": 812
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.244289, 51.532191] },
+      "properties": { "id": 813, "name": "Willesden Junction", "line": "Mildmay" },
+      "id": 813
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.17022, 51.46419] },
+      "properties": { "id": 814, "name": "Clapham Junction", "line": "Windrush" },
+      "id": 814
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.103964, 51.546229] },
+      "properties": { "id": 815, "name": "Highbury & Islington", "line": "Windrush" },
+      "id": 815
     }
   ],
   "properties": {
     "totalStations": 580,
     "stationsPerLine": {
-      "Overground": 112,
+      "Liberty": 3,
+      "Lioness": 19,
+      "Mildmay": 28,
+      "Suffragette": 13,
+      "Weaver": 25,
+      "Windrush": 29,
       "ElizabethLine": 41,
       "DLR": 45,
       "Central": 49,
