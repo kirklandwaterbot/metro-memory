@@ -26,7 +26,7 @@ const { haversine } = require('../upcoming/lib/geo')
 
 const SPEC_DIR = path.join(ROOT, 'city-specs')
 // Bump when the build logic changes so every city rebuilds.
-const BUILDER_VERSION = 2
+const BUILDER_VERSION = 3
 
 const ENDPOINTS = [
   'https://overpass-api.de/api/interpreter',
@@ -148,9 +148,24 @@ const normName = (s) =>
     .replace(/[^a-z0-9]+/g, ' ')
     .trim()
 
-function lineStrings(points) {
-  return points.length > 1 ? [points] : []
+/** Split a polyline into the runs that lie inside bbox [s, w, n, e] (all of it when no bbox). */
+function lineStrings(points, bbox) {
+  if (!bbox) return points.length > 1 ? [points] : []
+  const out = []
+  let run = []
+  for (const p of points) {
+    if (inBbox(p, bbox)) run.push(p)
+    else {
+      if (run.length > 1) out.push(run)
+      run = []
+    }
+  }
+  if (run.length > 1) out.push(run)
+  return out
 }
+
+const inBbox = ([lon, lat], [s, w, n, e]) =>
+  lat >= s && lat <= n && lon >= w && lon <= e
 
 /** Douglas–Peucker in metres. */
 function simplify(points, tol = 2) {
@@ -244,7 +259,12 @@ function indexOsm(osm) {
     const isStation =
       ['station', 'halt', 'tram_stop'].includes(t.railway) ||
       (t.public_transport === 'station' && !isBusOnly(t))
-    if (isStation && t.name) {
+    const heritage =
+      t.usage === 'tourism' ||
+      t['railway:preserved'] === 'yes' ||
+      Boolean(t.historic) ||
+      /\b(heritage|museum|miniature|tramway)\b/i.test(t.name || '')
+    if (isStation && !heritage && t.name) {
       const lat = el.lat ?? el.center?.lat
       const lon = el.lon ?? el.center?.lon
       if (typeof lat === 'number')
@@ -263,10 +283,10 @@ function nearestStation(stations, point, radius, preferName) {
   for (const s of stations) {
     const d = haversine(point, s.coordinates)
     if (d > radius) continue
+    const want = preferName ? normName(preferName) : ''
+    const have = normName(s.tags.name)
     const bonus =
-      preferName && normName(s.tags.name).includes(normName(preferName))
-        ? 0.5
-        : 1
+      want && have === want ? 0.3 : want && have.includes(want) ? 0.6 : 1
     const score = d * bonus
     if (!best || score < best.score) best = { ...s, score, d }
   }
@@ -354,8 +374,22 @@ function buildLine(line, rels, idx, spec) {
     if (!stations.some((x) => normName(x.name) === normName(extra.name)))
       stations.push(extra)
   }
+  // Some networks only tag the terminals as stops (e.g. Adelaide Metro):
+  // fall back to the stations that sit on the line's own track.
+  const trackKm = trackLengthM(rels, idx, spec) / 1000
+  if (mode !== 'tram' && stations.length < Math.max(3, trackKm / 8)) {
+    const along = stationsAlongTrack(rels, idx, spec, mode)
+    if (along.length > stations.length) {
+      stations.length = 0
+      stations.push(...along)
+    }
+  }
   const dropped = new Set((line.removeStations || []).map(normName))
-  const finalStations = stations.filter((s) => !dropped.has(normName(s.name)))
+  const finalStations = stations.filter(
+    (s) =>
+      !dropped.has(normName(s.name)) &&
+      (!spec.bbox || inBbox(s.coordinates, spec.bbox)),
+  )
 
   // Track: every way member that isn't a platform or stop.
   const wayIds = new Set()
@@ -378,12 +412,109 @@ function buildLine(line, rels, idx, spec) {
       w.geometry.map((p) => [p.lon, p.lat]),
       spec.simplifyM ?? 2,
     ).map(round)
-    for (const s of lineStrings(pts)) {
+    for (const s of lineStrings(pts, spec.bbox)) {
       strings.push(s)
       lengthM += s.slice(1).reduce((a, p, i) => a + haversine(s[i], p), 0)
     }
   }
   return { stations: finalStations, strings, lengthM, relations: rels.length }
+}
+
+function trackWays(rel, idx) {
+  return (rel.members || [])
+    .filter(
+      (m) =>
+        m.type === 'way' &&
+        !PLATFORM_ROLE.test(m.role || '') &&
+        !STOP_ROLE.test(m.role || ''),
+    )
+    .map((m) => idx.ways.get(m.ref))
+    .filter(Boolean)
+}
+
+function trackLengthM(rels, idx, spec) {
+  let best = 0
+  for (const r of rels) {
+    let m = 0
+    for (const w of trackWays(r, idx)) {
+      const pts = w.geometry.map((p) => [p.lon, p.lat])
+      for (const run of lineStrings(pts, spec.bbox))
+        m += run.slice(1).reduce((a, p, i) => a + haversine(run[i], p), 0)
+    }
+    best = Math.max(best, m)
+  }
+  return best
+}
+
+/** Rail stations within a few metres of the line's track, ordered along the longest relation. */
+function stationsAlongTrack(rels, idx, spec, mode) {
+  const rel = [...rels].sort(
+    (a, b) => trackWays(b, idx).length - trackWays(a, idx).length,
+  )[0]
+  if (!rel) return []
+  // Chain the member ways in order, flipping each to follow on from the last.
+  const path = []
+  for (const w of trackWays(rel, idx)) {
+    let pts = w.geometry.map((p) => [p.lon, p.lat])
+    if (path.length) {
+      const end = path[path.length - 1]
+      if (haversine(end, pts[pts.length - 1]) < haversine(end, pts[0]))
+        pts = pts.reverse()
+    }
+    path.push(...pts)
+  }
+  if (path.length < 2) return []
+  const cum = [0]
+  for (let i = 1; i < path.length; i += 1)
+    cum.push(cum[i - 1] + haversine(path[i - 1], path[i]))
+  const maxD = spec.trackStationDistance ?? 80
+  const found = []
+  for (const st of idx.stations) {
+    const t = st.tags
+    if (t.railway === 'tram_stop') continue
+    if (
+      mode === 'train' &&
+      (t.station === 'subway' || t.station === 'light_rail') &&
+      t.train !== 'yes'
+    )
+      continue
+    if (spec.bbox && !inBbox(st.coordinates, spec.bbox)) continue
+    let best = Infinity
+    let at = 0
+    for (let i = 1; i < path.length; i += 1) {
+      const [d, f] = pointSegment(st.coordinates, path[i - 1], path[i])
+      if (d < best) {
+        best = d
+        at = cum[i - 1] + f * (cum[i] - cum[i - 1])
+      }
+    }
+    if (best <= maxD) found.push({ st, at })
+  }
+  found.sort((a, b) => a.at - b.at)
+  const out = []
+  for (const { st } of found) {
+    const raw = st.tags[spec.nameTag || 'name'] || st.tags.name
+    const clean = cleanStationName(raw, spec.keepSuffix)
+    const name = (spec.rename || {})[clean] || clean
+    if (out.some((x) => normName(x.name) === normName(name))) continue
+    out.push({ name, coordinates: st.coordinates })
+  }
+  return out
+}
+
+/** Distance in metres from p to segment ab, and the fraction along ab of the closest point. */
+function pointSegment(p, a, b) {
+  const k = Math.cos((p[1] * Math.PI) / 180) * 111320
+  const [px, py] = [p[0] * k, p[1] * 110540]
+  const [ax, ay] = [a[0] * k, a[1] * 110540]
+  const [bx, by] = [b[0] * k, b[1] * 110540]
+  const dx = bx - ax
+  const dy = by - ay
+  const len2 = dx * dx + dy * dy
+  const f = len2
+    ? Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / len2))
+    : 0
+  return [Math.hypot(px - (ax + f * dx), py - (ay + f * dy)), f]
 }
 
 // ------------------------------------------------------------------ code generation

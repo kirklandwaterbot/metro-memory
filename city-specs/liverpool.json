@@ -10,7 +10,7 @@
     53.68,
     -2.6
   ],
-  "ignoreUnmatched": "Avanti|TransPennine|East Midlands|Transport for Wales|London Northwestern|West Midlands",
+  "ignoreUnmatched": "Avanti|TransPennine|East Midlands|Transport for Wales|London Northwestern|West Midlands|Lumo|Sleeper|LNWR|AWC|TfW|Borderlands|Blackpool|Headbolt Lane to|to Headbolt Lane|Ormskirk to Preston|Preston to Ormskirk|Southport =>|=> Southport|Northern Rail|Zoofari|Wirral Tramway",
   "lineGroups": [
     {
       "title": "Merseyrail",
@@ -54,8 +54,7 @@
       "name": "City Line",
       "match": {
         "route": "train",
-        "operator": "Northern",
-        "name": "Liverpool|Kirkby"
+        "name": "^City Line"
       },
       "color": "#E2231A"
     }

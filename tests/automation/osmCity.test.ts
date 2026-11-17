@@ -50,3 +50,22 @@ test('builds one ordered line from two direction relations, snapping to station 
   assert.equal(built.strings.length, 1)
   assert.ok(built.lengthM > 3000 && built.lengthM < 3500)
 })
+
+test('derives stations from the track when a route only lists its terminals, and clips to the bbox', () => {
+  const node = (id: number, lon: number, lat: number, tags = {}) => ({ type: 'node', id, lon, lat, tags })
+  const names = ['Adelaide', 'Bowden', 'Croydon', 'Kilkenny', 'Woodville', 'Outside']
+  const osm = {
+    elements: [
+      ...names.map((n, i) => node(i + 1, 138.5 + i * 0.03, -34.9 + 0.0002, { railway: 'station', name: `${n} Railway Station` })),
+      node(50, 138.5 + 0.06, -34.9 + 0.0003, { railway: 'station', name: 'Croydon Heritage Museum', usage: 'tourism' }),
+      { type: 'way', id: 100, geometry: [0, 1, 2, 3, 4, 5].map((i) => ({ lon: 138.5 + i * 0.03, lat: -34.9 })), tags: { railway: 'rail' } },
+      { type: 'relation', id: 1000, tags: { type: 'route', route: 'train', name: 'Train OUT' }, members: [
+        { type: 'node', ref: 1, role: 'stop' }, { type: 'node', ref: 6, role: 'stop' }, { type: 'way', ref: 100, role: '' }] },
+    ],
+  }
+  const idx = indexOsm(osm)
+  const spec = { bbox: [-35, 138.45, -34.8, 138.64] }
+  const built = buildLine({ id: 'O', name: 'Outer' }, idx.rels, idx, spec)
+  assert.deepEqual(built.stations.map((s: any) => s.name), ['Adelaide', 'Bowden', 'Croydon', 'Kilkenny', 'Woodville'])
+  for (const line of built.strings) for (const [lon] of line) assert.ok(lon <= 138.64)
+})
