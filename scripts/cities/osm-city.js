@@ -26,7 +26,7 @@ const { haversine } = require('../upcoming/lib/geo')
 
 const SPEC_DIR = path.join(ROOT, 'city-specs')
 // Bump when the build logic changes so every city rebuilds.
-const BUILDER_VERSION = 6
+const BUILDER_VERSION = 7
 
 const ENDPOINTS = [
   'https://overpass-api.de/api/interpreter',
@@ -141,7 +141,7 @@ function matches(rule, tags) {
 /** "Central Station, Platform 3" -> "Central"; "Flinders Street Railway Station" -> "Flinders Street". */
 function cleanStationName(raw, keepWords = []) {
   let s = String(raw || '').trim()
-  s = s.replace(/^stop\s+\d+[a-z]?\s*:\s*/i, '') // Melbourne/Adelaide: "Stop 71: RMIT Bundoora Campus"
+  s = s.replace(/^stop\s+[a-z]?\d+[a-z]?\s*:\s*/i, '') // Melbourne/Adelaide: "Stop 71: RMIT Bundoora Campus"
   s = s.replace(
     /\s*[,(-]\s*(platform|plat\.?|stand|stop|bay)\s*[\w/ ]+\)?\s*$/i,
     '',

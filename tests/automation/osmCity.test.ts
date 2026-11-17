@@ -13,6 +13,7 @@ test('station names lose platform and "station" suffixes', () => {
   assert.equal(cleanStationName('Elizabeth Quay Bus Station', ['Bus Station']), 'Elizabeth Quay Bus Station')
   assert.equal(cleanStationName('Perth Underground Platform 2'), 'Perth Underground')
   assert.equal(cleanStationName('Stop 71: RMIT Bundoora Campus'), 'RMIT Bundoora Campus')
+  assert.equal(cleanStationName('Stop D6: Flinders Street West'), 'Flinders Street West')
 })
 
 test('relation matching uses every rule plus exclude', () => {
