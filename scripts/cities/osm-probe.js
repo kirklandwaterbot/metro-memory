@@ -158,7 +158,7 @@ function compact(osm) {
     const t = el.tags || {}
     const isStation =
       ['station', 'halt', 'tram_stop'].includes(t.railway) ||
-      (t.public_transport === 'station' && !isBusOnly(t)) ||
+      t.public_transport === 'station' ||
       /station|halt|stop/.test(t['construction:railway'] || '') ||
       /station|halt|stop/.test(t['proposed:railway'] || '') ||
       (['construction', 'proposed'].includes(t.railway) &&
