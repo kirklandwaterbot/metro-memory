@@ -32,7 +32,7 @@ const ENDPOINTS = [
 const RAIL = 'subway|light_rail|train|tram|monorail|railway'
 
 function query([s, w, n, e]) {
-  return `[out:json][timeout:900][maxsize:2147483648][bbox:${s},${w},${n},${e}];
+  return `[out:json][timeout:900][maxsize:536870912][bbox:${s},${w},${n},${e}];
 (
   rel["type"="route"]["route"~"^(${RAIL})$"];
   rel["type"~"^(route|proposed|construction)$"]["state"~"proposed|construction|planned"];
@@ -68,8 +68,8 @@ way(r.r)["public_transport"="platform"]->.rp;
 
 async function fetchOverpass(q) {
   let last = null
-  for (const endpoint of ENDPOINTS) {
-    for (let attempt = 0; attempt < 2; attempt += 1) {
+  for (let pass = 0; pass < 4; pass += 1) {
+    for (const endpoint of ENDPOINTS) {
       try {
         const res = await fetch(endpoint, {
           method: 'POST',
@@ -88,7 +88,7 @@ async function fetchOverpass(q) {
       } catch (error) {
         last = error
       }
-      await new Promise((r) => setTimeout(r, 20000))
+      await new Promise((r) => setTimeout(r, 30000 * (pass + 1)))
     }
   }
   throw last
@@ -158,7 +158,7 @@ function compact(osm) {
     const t = el.tags || {}
     const isStation =
       ['station', 'halt', 'tram_stop'].includes(t.railway) ||
-      t.public_transport === 'station' ||
+      (t.public_transport === 'station' && !isBusOnly(t)) ||
       /station|halt|stop/.test(t['construction:railway'] || '') ||
       /station|halt|stop/.test(t['proposed:railway'] || '') ||
       (['construction', 'proposed'].includes(t.railway) &&

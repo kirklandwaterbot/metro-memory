@@ -25,6 +25,9 @@ const { ROOT, GAME_ROOT } = require('../upcoming/lib/city')
 const { haversine } = require('../upcoming/lib/geo')
 
 const SPEC_DIR = path.join(ROOT, 'city-specs')
+// Bump when the build logic changes so every city rebuilds.
+const BUILDER_VERSION = 2
+
 const ENDPOINTS = [
   'https://overpass-api.de/api/interpreter',
   'https://overpass.private.coffee/api/interpreter',
@@ -48,7 +51,7 @@ function parseArgs(argv) {
 
 function buildQuery(bbox) {
   const [s, w, n, e] = bbox
-  return `[out:json][timeout:600][maxsize:1073741824][bbox:${s},${w},${n},${e}];
+  return `[out:json][timeout:600][maxsize:268435456][bbox:${s},${w},${n},${e}];
 rel["type"="route"]["route"~"^(${ROUTE_TYPES})$"]->.r;
 .r out body;
 way(r.r)->.w;
@@ -66,8 +69,8 @@ node(r.r)->.n;
 
 async function fetchOverpass(query) {
   let last = null
-  for (const endpoint of ENDPOINTS) {
-    for (let attempt = 0; attempt < 2; attempt += 1) {
+  for (let pass = 0; pass < 4; pass += 1) {
+    for (const endpoint of ENDPOINTS) {
       try {
         const res = await fetch(endpoint, {
           method: 'POST',
@@ -90,7 +93,7 @@ async function fetchOverpass(query) {
         last = error
         if (String(error.message).includes('HTTP 400')) throw error
       }
-      await new Promise((r) => setTimeout(r, 15000))
+      await new Promise((r) => setTimeout(r, 30000 * (pass + 1)))
     }
   }
   throw last
@@ -211,6 +214,23 @@ function osmColour(rels) {
   return [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || null
 }
 
+/** public_transport=station that only serves buses or ferries (e.g. "Whitfords Bus Terminal"). */
+function isBusOnly(t) {
+  if (t.railway) return false
+  if (
+    ['train', 'subway', 'light_rail', 'tram', 'monorail'].some(
+      (m) => t[m] === 'yes',
+    )
+  )
+    return false
+  return (
+    t.bus === 'yes' ||
+    t.ferry === 'yes' ||
+    t.amenity === 'bus_station' ||
+    /\b(bus|ferry|coach)\b/i.test(t.name || '')
+  )
+}
+
 function indexOsm(osm) {
   const rels = []
   const ways = new Map()
@@ -223,7 +243,7 @@ function indexOsm(osm) {
     const t = el.tags || {}
     const isStation =
       ['station', 'halt', 'tram_stop'].includes(t.railway) ||
-      t.public_transport === 'station'
+      (t.public_transport === 'station' && !isBusOnly(t))
     if (isStation && t.name) {
       const lat = el.lat ?? el.center?.lat
       const lon = el.lon ?? el.center?.lon
@@ -518,7 +538,7 @@ async function buildCity(spec, args, osmCache) {
   const dataDir = path.join(dir, 'data')
   const hash = crypto
     .createHash('sha1')
-    .update(JSON.stringify(spec))
+    .update(`${BUILDER_VERSION}:${JSON.stringify(spec)}`)
     .digest('hex')
     .slice(0, 12)
   const hashFile = path.join(dataDir, '.spec-hash')
@@ -665,7 +685,9 @@ async function main() {
     try {
       out.push(await buildCity(spec, args, cache))
     } catch (error) {
-      out.push(`## ${spec.slug}\n- ⚠️ build failed: ${error.message}`)
+      out.push(
+        `## ${spec.slug}\n- ⚠️ build failed: ${String(error.message).split('\n')[0].slice(0, 160)}`,
+      )
     }
   }
   const report = `# OSM city build\n\n${out.join('\n\n')}\n`
