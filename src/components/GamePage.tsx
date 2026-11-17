@@ -13,6 +13,7 @@ import IntroModal from '@/components/IntroModal'
 import MenuComponent from '@/components/Menu'
 import MiniCityLinksPanel from '@/components/MiniCityLinksPanel'
 import CustomGameModal from '@/components/CustomGameModal'
+import CustomLayoutsPanel from '@/components/CustomLayoutsPanel'
 import MissedGuessInputsModal from '@/components/MissedGuessInputsModal'
 import PrivacyPanel from '@/components/PrivacyPanel'
 import SettingsPanel from '@/components/SettingsPanel'
@@ -57,6 +58,7 @@ import { disableMapboxTelemetry } from '@/lib/mapboxTelemetry'
 import { configureMapboxRuntime } from '@/lib/mapboxRuntime'
 import { loadMiniCityStationIdSet } from '@/lib/miniCityProgress'
 import { getMiniCityLinksForSlug, isMiniCitySlug } from '@/lib/miniCities'
+import { parseCustomLayout, type CustomLayout } from '@/lib/customLayouts'
 import {
     clearLocalProgressRecord,
     fetchRemoteProgress,
@@ -1718,6 +1720,17 @@ function GamePageContent({
     }
     return CITY_NAME
   }, [CITY_NAME, customParentSlug, miniCityLinks, pathname])
+  // City a custom layout is built from: the full city behind a smaller version
+  // or behind the custom game being played.
+  const customLayoutParentSlug = useMemo(() => {
+    if (pathname === '/custom' && customParentSlug) return customParentSlug
+    if (miniCityLinks?.mode === 'child') return miniCityLinks.parent?.parentSlug ?? CITY_NAME
+    return CITY_NAME
+  }, [CITY_NAME, customParentSlug, miniCityLinks, pathname])
+  const currentCustomLayout = useMemo(
+    () => (pathname === '/custom' && !isCustomWorldMap ? parseCustomLayout(searchParams) : null),
+    [isCustomWorldMap, pathname, searchParams],
+  )
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
   const { settings, requestInMainlandChina } = useSettings()
@@ -1727,6 +1740,10 @@ function GamePageContent({
   
   const [zenMode, setZenMode] = useState(false)
   const [customModalOpen, setCustomModalOpen] = useState(false)
+  // Layout the creator opens with: null = a fresh layout.
+  const [customEditing, setCustomEditing] = useState<
+    (CustomLayout & { id?: string | null }) | null
+  >(null)
   useEffect(() => {
     if (!cityPath) return
 
@@ -4051,6 +4068,27 @@ function GamePageContent({
     },
     [normalizeMiniCityLabel, settings.language, t],
   )
+  // Custom layouts card, shown in both the desktop sidebar and the mobile drawer.
+  const customLayoutsPanel = isCustomWorldMap ? null : (
+    <CustomLayoutsPanel
+      parentSlug={customLayoutParentSlug}
+      currentLayout={currentCustomLayout}
+      onCreate={() => {
+        // From a smaller version, start from its lines.
+        setCustomEditing(
+          miniCityLinks?.mode === 'child'
+            ? { parentSlug: customLayoutParentSlug, lines: Object.keys(LINES), title: '' }
+            : null,
+        )
+        setCustomModalOpen(true)
+      }}
+      onEdit={(layout) => {
+        setCustomEditing(layout)
+        setCustomModalOpen(true)
+      }}
+    />
+  )
+
   const relatedVersionsPanel = useMemo(() => {
     if (!miniCityLinks) {
       return null
@@ -6113,6 +6151,12 @@ function GamePageContent({
                 />
               </>
             ) : null}
+            {customLayoutsPanel ? (
+              <>
+                <hr className="my-4 w-full border-b border-zinc-100 dark:border-[#18181b]" />
+                {customLayoutsPanel}
+              </>
+            ) : null}
             <hr className="my-4 w-full border-b border-zinc-100 dark:border-[#18181b]" />
             <FoundList
               found={found}
@@ -6185,10 +6229,10 @@ function GamePageContent({
                     description={relatedVersionsPanel.description}
                     items={relatedVersionsPanel.items}
                     currentSlug={relatedVersionsPanel.currentSlug}
-                    onOpenCustomModal={() => setCustomModalOpen(true)}
                   />
                 </div>
               ) : null}
+              {customLayoutsPanel ? <div className="mb-4">{customLayoutsPanel}</div> : null}
               <FoundList
                 found={found}
                 idMap={idMap}
@@ -6476,8 +6520,11 @@ function GamePageContent({
         <CustomGameModal
           isOpen={customModalOpen}
           onCloseAction={() => setCustomModalOpen(false)}
-          parentSlug={miniCityLinks?.mode === 'parent' ? CITY_NAME : (miniCityLinks?.parent?.parentSlug ?? CITY_NAME)}
+          parentSlug={customLayoutParentSlug}
           iconBasePath={cityPath}
+          initialLines={customEditing?.lines ?? null}
+          initialTitle={customEditing?.title || null}
+          editingLayoutId={customEditing?.id ?? null}
         />
       )}
     </div>
