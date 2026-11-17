@@ -2,6 +2,7 @@
 // Do not edit manually.
 export const STATION_TOTALS: Record<string, number> = {
   "_placeholder": 3,
+  "adelaide": 52,
   "albuquerque": 16,
   "algiers": 3,
   "amtrak": 902,
@@ -16,6 +17,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "boston": 331,
   "boston-commuter-rail": 161,
   "boston-subway-light-rail": 155,
+  "brisbane": 232,
   "budapest": 134,
   "buffalo": 14,
   "busan": 149,
@@ -93,7 +95,8 @@ export const STATION_TOTALS: Record<string, number> = {
   "lanzhou": 29,
   "lijiang": 5,
   "liupanshui": 2,
-  "london": 581,
+  "liverpool": 94,
+  "london": 586,
   "lr": 19,
   "luoyang": 34,
   "lv": 13,

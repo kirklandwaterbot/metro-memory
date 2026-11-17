@@ -56,6 +56,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Wicked Smaht",
     description: "You've pahked every T station in your brain. That's wicked awesome!",
   },
+  'brisbane': {
+    title: "River City Rider",
+    description: "You've Citytrained through Brisbane like a true Queenslander!",
+  },
   budapest: {
     title: "Danube Dynasty",
     description: "You've metro'd through both Buda and Pest! Szep!",
@@ -171,6 +175,10 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   la: {
     title: "La La Land Lord",
     description: "You're a star! You've mapped Hollywood's metro like a true Angeleno.",
+  },
+  'liverpool': {
+    title: "Ferry Cross the Mersey",
+    description: "You've Merseyrailed around Liverpool like a true Scouser!",
   },
   london: {
     title: "Mind the Gap",

@@ -373,6 +373,11 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Liverpool, ENG',
+    link: '/europe/uk/liverpool',
+    continent: 'Europe',
+  },
+  {
     name: 'London, ENG',
     link: '/europe/uk/london',
     continent: 'Europe',
@@ -984,11 +989,15 @@ const rawCities: CityBase[] = [
     name: 'Adelaide, SA',
     link: '/oceania/australia/adelaide',
     continent: 'Oceania',
-    hideInStats: true,
   },
   {
     name: 'Auckland, AUK',
     link: '/oceania/new-zealand/auckland',
+    continent: 'Oceania',
+  },
+  {
+    name: 'Brisbane, QLD',
+    link: '/oceania/australia/brisbane',
     continent: 'Oceania',
   },
   {
@@ -1096,7 +1105,6 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/malaysia/kuala-lumpur',
   'north-america/canada/toronto',
   'north-america/canada/viarail',
-  'oceania/australia/adelaide',
   'oceania/australia/melbourne',
   'oceania/australia/sydney',
   'oceania/australia/yarra',

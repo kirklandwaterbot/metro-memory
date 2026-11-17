@@ -1,0 +1,23 @@
+{
+  "MRNO": {
+    "name": "Northern Line",
+    "color": "#0075C9",
+    "backgroundColor": "#0075C9",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "MRWI": {
+    "name": "Wirral Line",
+    "color": "#00A94F",
+    "backgroundColor": "#00A94F",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "MRCL": {
+    "name": "City Line",
+    "color": "#E2231A",
+    "backgroundColor": "#E2231A",
+    "textColor": "#FFFFFF",
+    "order": 2
+  }
+}

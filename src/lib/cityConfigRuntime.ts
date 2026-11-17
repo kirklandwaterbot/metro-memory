@@ -3,6 +3,10 @@ import type { Config } from './types'
 // Auto-generated from src/lib/cityPathMap.ts and available route config files.
 export const loadCityConfig = async (slug: string): Promise<Config | null> => {
   switch (slug) {
+    case 'adelaide': {
+      const configModule = await import('@/app/(game)/oceania/australia/adelaide/config')
+      return configModule.default
+    }
     case 'albuquerque': {
       const configModule = await import('@/app/(game)/north-america/usa/albuquerque/config')
       return configModule.default
@@ -49,6 +53,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'boston': {
       const configModule = await import('@/app/(game)/north-america/usa/boston/config')
+      return configModule.default
+    }
+    case 'brisbane': {
+      const configModule = await import('@/app/(game)/oceania/australia/brisbane/config')
       return configModule.default
     }
     case 'budapest': {
@@ -253,6 +261,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'liupanshui': {
       const configModule = await import('@/app/(game)/asia/china/liupanshui/config')
+      return configModule.default
+    }
+    case 'liverpool': {
+      const configModule = await import('@/app/(game)/europe/uk/liverpool/config')
       return configModule.default
     }
     case 'london': {
