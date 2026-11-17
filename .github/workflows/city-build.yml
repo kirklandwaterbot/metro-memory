@@ -1,8 +1,10 @@
 name: Build Cities from OpenStreetMap
 
 # Builds every city in city-specs/ whose spec changed (each data folder keeps a
-# .spec-hash), from OpenStreetMap route relations, then commits the generated
-# data and page files to the same branch. Data © OpenStreetMap contributors (ODbL).
+# .spec-hash), from OpenStreetMap route relations. Each city builds in its own
+# job (separate runners, so one slow Overpass query can't stall the others);
+# a final job registers the cities, refreshes station totals and commits.
+# Data © OpenStreetMap contributors (ODbL).
 
 on:
   push:
@@ -10,6 +12,7 @@ on:
       - 'city-specs/**'
       - 'scripts/cities/osm-city.js'
       - 'scripts/cities/register-city.js'
+      - '.github/workflows/city-build.yml'
   workflow_dispatch:
     inputs:
       force:
@@ -22,32 +25,80 @@ permissions:
 
 concurrency:
   group: city-build-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  build:
+  list:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: list
+        run: |
+          slugs=$(ls city-specs/*.json | xargs -n1 basename | sed 's/\.json$//' | jq -R . | jq -cs .)
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: list
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        slug: ${{ fromJson(needs.list.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Build ${{ matrix.slug }}
+        env:
+          FORCE: ${{ inputs.force }}
+          SLUG: ${{ matrix.slug }}
+        run: |
+          flags=(--spec="$SLUG" --report="/tmp/report-$SLUG.md")
+          if [ "$FORCE" = "true" ]; then flags+=(--force); fi
+          node scripts/cities/osm-city.js "${flags[@]}"
+          dir="src/app/(game)/$(node -p "require('./city-specs/$SLUG.json').path")"
+          mkdir -p /tmp/out "$dir"
+          tar -cf "/tmp/out/$SLUG.tar" "$dir" -C /tmp "report-$SLUG.md"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: city-${{ matrix.slug }}
+          path: /tmp/out/${{ matrix.slug }}.tar
+          retention-days: 3
+
+  commit:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
         with:
           ref: ${{ github.ref }}
-
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
-
-      - name: Build changed cities
-        env:
-          FORCE: ${{ inputs.force }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: city-*
+          path: /tmp/in
+          merge-multiple: true
+      - name: Unpack, register and refresh totals
         run: |
-          flags=(--all --report=/tmp/city-report.md)
-          if [ "$FORCE" = "true" ]; then flags+=(--force); fi
-          node scripts/cities/osm-city.js "${flags[@]}"
+          : > /tmp/city-report.md
+          for t in /tmp/in/*.tar; do
+            [ -e "$t" ] || continue
+            slug=$(basename "$t" .tar)
+            tar -xf "$t" --exclude="report-$slug.md"
+            tar -xOf "$t" "report-$slug.md" >> /tmp/city-report.md || true
+            printf '\n' >> /tmp/city-report.md
+          done
           node scripts/cities/register-city.js --all || echo "Some cities were not registered (see above)."
           node scripts/generate-station-totals.js
           cat /tmp/city-report.md >> "$GITHUB_STEP_SUMMARY"
-
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -58,11 +109,10 @@ jobs:
             exit 0
           fi
           head -c 60000 /tmp/city-report.md > /tmp/msg-body.md
-          git commit -F - <<MSG
-          Build cities from OpenStreetMap
-
-          $(cat /tmp/msg-body.md)
-
-          Data © OpenStreetMap contributors (ODbL).
-          MSG
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          printf 'Build cities from OpenStreetMap\n\n%s\n\nData © OpenStreetMap contributors (ODbL).\n' "$(cat /tmp/msg-body.md)" > /tmp/msg.txt
+          git commit -q -F /tmp/msg.txt
+          for i in 1 2 3; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep 10
+          done
+          exit 1

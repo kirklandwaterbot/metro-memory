@@ -27,8 +27,8 @@ const { haversine } = require('../upcoming/lib/geo')
 const SPEC_DIR = path.join(ROOT, 'city-specs')
 const ENDPOINTS = [
   'https://overpass-api.de/api/interpreter',
-  'https://overpass.kumi.systems/api/interpreter',
   'https://overpass.private.coffee/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
 ]
 const ROUTE_TYPES = 'subway|light_rail|train|tram|monorail|railway|funicular'
 const STOP_ROLE =
@@ -71,6 +71,7 @@ async function fetchOverpass(query) {
       try {
         const res = await fetch(endpoint, {
           method: 'POST',
+          signal: AbortSignal.timeout(15 * 60 * 1000),
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent':
