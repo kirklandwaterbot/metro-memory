@@ -30,8 +30,7 @@
         "DNOR",
         "DWES",
         "DKIL",
-        "DSEA",
-        "DPPT"
+        "DSEA"
       ]
     }
   ],
@@ -76,15 +75,16 @@
       "name": "Western Commuter",
       "match": {
         "route": "train",
-        "name": "Maynooth|M3 Parkway|Longford|Western"
+        "name": "^Western Commuter|Maynooth|M3 Parkway|Longford",
+        "exclude": "South Western"
       }
     },
     {
       "id": "DKIL",
-      "name": "Kildare Commuter",
+      "name": "South Western Commuter",
       "match": {
         "route": "train",
-        "name": "Kildare|Newbridge|Portlaoise|Hazelhatch"
+        "name": "South Western Commuter"
       }
     },
     {
@@ -93,14 +93,6 @@
       "match": {
         "route": "train",
         "name": "Gorey|Wicklow|Arklow|Rosslare|South Eastern"
-      }
-    },
-    {
-      "id": "DPPT",
-      "name": "Phoenix Park Tunnel",
-      "match": {
-        "route": "train",
-        "name": "Phoenix Park|Grand Canal Dock"
       }
     }
   ],
@@ -116,5 +108,6 @@
       "title": "Fair City Navigator",
       "description": "You've DARTed and Luas'd around Dublin like a true Dub!"
     }
-  }
+  },
+  "ignoreUnmatched": "InterCity|Enterprise"
 }

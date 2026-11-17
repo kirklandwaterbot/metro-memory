@@ -54,9 +54,12 @@
       "name": "City Line",
       "match": {
         "route": "train",
-        "name": "^City Line"
+        "name": "^City Line|NT: .*Liverpool Lime Street|Liverpool Lime Street.*Manchester"
       },
-      "color": "#E2231A"
+      "color": "#E2231A",
+      "removeStations": [
+        "Acton Bridge"
+      ]
     }
   ],
   "register": {

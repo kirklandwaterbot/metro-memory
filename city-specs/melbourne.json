@@ -10,7 +10,7 @@
     -37.5,
     145.6
   ],
-  "ignoreUnmatched": "V/Line|tram|Yarra",
+  "ignoreUnmatched": "V/Line|Regional|tram|Yarra|Flemington Racecourse|City Circle|Heritage|Puffing Billy|XPT|NSW TrainLink|Overland|Stabling|Westall|Watergardens => Dandenong|Melbourne Metro 2|Lygon",
   "lineGroups": [
     {
       "title": "Burnley group",
@@ -60,9 +60,8 @@
       "name": "Alamein Line",
       "match": {
         "route": "train",
-        "name": "Alamein",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Alamein Line"
       }
     },
     {
@@ -70,9 +69,8 @@
       "name": "Belgrave Line",
       "match": {
         "route": "train",
-        "name": "Belgrave",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Belgrave Line"
       }
     },
     {
@@ -80,9 +78,8 @@
       "name": "Craigieburn Line",
       "match": {
         "route": "train",
-        "name": "Craigieburn",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Craigieburn Line"
       }
     },
     {
@@ -90,19 +87,21 @@
       "name": "Cranbourne Line",
       "match": {
         "route": "train",
-        "name": "Cranbourne",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
-      }
+        "network": "^(?!.*Regional).*$",
+        "name": "Cranbourne"
+      },
+      "between": [
+        "Arden",
+        "Cranbourne"
+      ]
     },
     {
       "id": "MFRAN",
       "name": "Frankston Line",
       "match": {
         "route": "train",
-        "name": "Frankston",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Frankston Line"
       }
     },
     {
@@ -110,9 +109,8 @@
       "name": "Glen Waverley Line",
       "match": {
         "route": "train",
-        "name": "Glen Waverley",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Glen Waverley Line"
       }
     },
     {
@@ -120,9 +118,8 @@
       "name": "Hurstbridge Line",
       "match": {
         "route": "train",
-        "name": "Hurstbridge",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Hurstbridge Line"
       }
     },
     {
@@ -130,9 +127,8 @@
       "name": "Lilydale Line",
       "match": {
         "route": "train",
-        "name": "Lilydale",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Lilydale Line"
       }
     },
     {
@@ -140,9 +136,8 @@
       "name": "Mernda Line",
       "match": {
         "route": "train",
-        "name": "Mernda",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Mernda Line"
       }
     },
     {
@@ -150,29 +145,34 @@
       "name": "Pakenham Line",
       "match": {
         "route": "train",
-        "name": "Pakenham",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
-      }
+        "network": "^(?!.*Regional).*$",
+        "name": "Pakenham"
+      },
+      "between": [
+        "Arden",
+        "East Pakenham"
+      ]
     },
     {
       "id": "MSAND",
       "name": "Sandringham Line",
       "match": {
         "route": "train",
-        "name": "Sandringham",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
-      }
+        "network": "^(?!.*Regional).*$",
+        "name": "Sandringham"
+      },
+      "between": [
+        "Flinders Street",
+        "Sandringham"
+      ]
     },
     {
       "id": "MSTON",
       "name": "Stony Point Line",
       "match": {
         "route": "train",
-        "name": "Stony Point",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "Stony Point"
       }
     },
     {
@@ -180,19 +180,21 @@
       "name": "Sunbury Line",
       "match": {
         "route": "train",
-        "name": "Sunbury",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
-      }
+        "network": "^(?!.*Regional).*$",
+        "name": "Sunbury"
+      },
+      "between": [
+        "Sunbury",
+        "Anzac"
+      ]
     },
     {
       "id": "MUPFI",
       "name": "Upfield Line",
       "match": {
         "route": "train",
-        "name": "Upfield",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
+        "network": "^(?!.*Regional).*$",
+        "name": "^Upfield Line"
       }
     },
     {
@@ -200,20 +202,26 @@
       "name": "Werribee Line",
       "match": {
         "route": "train",
-        "name": "Werribee",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
-      }
+        "network": "^(?!.*Regional).*$",
+        "name": "Werribee"
+      },
+      "between": [
+        "Werribee",
+        "Flinders Street"
+      ]
     },
     {
       "id": "MWILL",
       "name": "Williamstown Line",
       "match": {
         "route": "train",
-        "name": "Williamstown",
-        "network": "^(?!.*V/?Line).*$",
-        "operator": "^(?!.*V/?Line).*$"
-      }
+        "network": "^(?!.*Regional).*$",
+        "name": "Williamstown"
+      },
+      "between": [
+        "Williamstown",
+        "Flinders Street"
+      ]
     }
   ],
   "register": {

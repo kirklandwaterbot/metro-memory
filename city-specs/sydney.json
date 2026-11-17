@@ -129,6 +129,52 @@
       "match": {
         "route": "subway|train|light_rail",
         "ref": "^M1$"
+      },
+      "addStations": [
+        {
+          "name": "Bankstown",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Punchbowl",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Wiley Park",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Lakemba",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Belmore",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Campsie",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Canterbury",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Hurlstone Park",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Dulwich Hill",
+          "before": "Sydenham"
+        },
+        {
+          "name": "Marrickville",
+          "before": "Sydenham"
+        }
+      ],
+      "extraTrack": {
+        "route": "railway",
+        "name": "^Bankstown railway line$"
       }
     },
     {
@@ -167,5 +213,6 @@
   "register": {
     "name": "Sydney, NSW",
     "continent": "Oceania"
-  }
+  },
+  "ignoreUnmatched": "^ |Rail Tour|Indian Pacific|XPT|NSW TrainLink|LX"
 }
