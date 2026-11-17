@@ -1,0 +1,223 @@
+{
+  "slug": "melbourne",
+  "path": "oceania/australia/melbourne",
+  "gameTitle": "Melbourne Metro Memory",
+  "description": "How many Metro Trains Melbourne stations can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -38.45,
+    144.55,
+    -37.5,
+    145.6
+  ],
+  "ignoreUnmatched": "V/Line|tram|Yarra",
+  "lineGroups": [
+    {
+      "title": "Burnley group",
+      "lines": [
+        "MALAM",
+        "MBELG",
+        "MGLEN",
+        "MLILY"
+      ]
+    },
+    {
+      "title": "Caulfield & Metro Tunnel",
+      "lines": [
+        "MCRAN",
+        "MPAKE",
+        "MSUNB"
+      ]
+    },
+    {
+      "title": "Clifton Hill group",
+      "lines": [
+        "MHURS",
+        "MMERN"
+      ]
+    },
+    {
+      "title": "Northern group",
+      "lines": [
+        "MCRAI",
+        "MUPFI"
+      ]
+    },
+    {
+      "title": "Cross-city & Frankston",
+      "lines": [
+        "MFRAN",
+        "MSAND",
+        "MSTON",
+        "MWERR",
+        "MWILL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MALAM",
+      "name": "Alamein Line",
+      "match": {
+        "route": "train",
+        "name": "Alamein",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MBELG",
+      "name": "Belgrave Line",
+      "match": {
+        "route": "train",
+        "name": "Belgrave",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MCRAI",
+      "name": "Craigieburn Line",
+      "match": {
+        "route": "train",
+        "name": "Craigieburn",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MCRAN",
+      "name": "Cranbourne Line",
+      "match": {
+        "route": "train",
+        "name": "Cranbourne",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MFRAN",
+      "name": "Frankston Line",
+      "match": {
+        "route": "train",
+        "name": "Frankston",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MGLEN",
+      "name": "Glen Waverley Line",
+      "match": {
+        "route": "train",
+        "name": "Glen Waverley",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MHURS",
+      "name": "Hurstbridge Line",
+      "match": {
+        "route": "train",
+        "name": "Hurstbridge",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MLILY",
+      "name": "Lilydale Line",
+      "match": {
+        "route": "train",
+        "name": "Lilydale",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MMERN",
+      "name": "Mernda Line",
+      "match": {
+        "route": "train",
+        "name": "Mernda",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MPAKE",
+      "name": "Pakenham Line",
+      "match": {
+        "route": "train",
+        "name": "Pakenham",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MSAND",
+      "name": "Sandringham Line",
+      "match": {
+        "route": "train",
+        "name": "Sandringham",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MSTON",
+      "name": "Stony Point Line",
+      "match": {
+        "route": "train",
+        "name": "Stony Point",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MSUNB",
+      "name": "Sunbury Line",
+      "match": {
+        "route": "train",
+        "name": "Sunbury",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MUPFI",
+      "name": "Upfield Line",
+      "match": {
+        "route": "train",
+        "name": "Upfield",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MWERR",
+      "name": "Werribee Line",
+      "match": {
+        "route": "train",
+        "name": "Werribee",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    },
+    {
+      "id": "MWILL",
+      "name": "Williamstown Line",
+      "match": {
+        "route": "train",
+        "name": "Williamstown",
+        "network": "^(?!.*V/?Line).*$",
+        "operator": "^(?!.*V/?Line).*$"
+      }
+    }
+  ],
+  "register": {
+    "name": "Melbourne, VIC",
+    "continent": "Oceania"
+  }
+}

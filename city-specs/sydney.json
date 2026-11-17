@@ -1,0 +1,171 @@
+{
+  "slug": "sydney",
+  "path": "oceania/australia/sydney",
+  "gameTitle": "Sydney Metro Memory",
+  "description": "How many Sydney Trains, Metro and Light Rail stations can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -34.17,
+    150.6,
+    -33.55,
+    151.35
+  ],
+  "lineGroups": [
+    {
+      "title": "Sydney Trains",
+      "lines": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9"
+      ]
+    },
+    {
+      "title": "Sydney Metro",
+      "lines": [
+        "M1"
+      ]
+    },
+    {
+      "title": "Light Rail",
+      "lines": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "T1",
+      "name": "North Shore & Western Line",
+      "match": {
+        "route": "train",
+        "ref": "^T1$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T2",
+      "name": "Leppington & Inner West Line",
+      "match": {
+        "route": "train",
+        "ref": "^T2$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T3",
+      "name": "Liverpool & Inner West Line",
+      "match": {
+        "route": "train",
+        "ref": "^T3$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T4",
+      "name": "Eastern Suburbs & Illawarra Line",
+      "match": {
+        "route": "train",
+        "ref": "^T4$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T5",
+      "name": "Cumberland Line",
+      "match": {
+        "route": "train",
+        "ref": "^T5$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T6",
+      "name": "Lidcombe & Bankstown Line",
+      "match": {
+        "route": "train",
+        "ref": "^T6$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T7",
+      "name": "Olympic Park Line",
+      "match": {
+        "route": "train",
+        "ref": "^T7$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T8",
+      "name": "Airport & South Line",
+      "match": {
+        "route": "train",
+        "ref": "^T8$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "T9",
+      "name": "Northern Line",
+      "match": {
+        "route": "train",
+        "ref": "^T9$",
+        "network": "Sydney Trains|^$"
+      }
+    },
+    {
+      "id": "M1",
+      "name": "Metro North West & Bankstown Line",
+      "match": {
+        "route": "subway|train|light_rail",
+        "ref": "^M1$"
+      }
+    },
+    {
+      "id": "L1",
+      "name": "Dulwich Hill Line",
+      "match": {
+        "route": "light_rail|tram",
+        "ref": "^L1$"
+      }
+    },
+    {
+      "id": "L2",
+      "name": "Randwick Line",
+      "match": {
+        "route": "light_rail|tram",
+        "ref": "^L2$"
+      }
+    },
+    {
+      "id": "L3",
+      "name": "Kingsford Line",
+      "match": {
+        "route": "light_rail|tram",
+        "ref": "^L3$"
+      }
+    },
+    {
+      "id": "L4",
+      "name": "Westmead & Carlingford Line",
+      "match": {
+        "route": "light_rail|tram",
+        "ref": "^L4$"
+      }
+    }
+  ],
+  "register": {
+    "name": "Sydney, NSW",
+    "continent": "Oceania"
+  }
+}

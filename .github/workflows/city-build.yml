@@ -1,0 +1,67 @@
+name: Build Cities from OpenStreetMap
+
+# Builds every city in city-specs/ whose spec changed (each data folder keeps a
+# .spec-hash), from OpenStreetMap route relations, then commits the generated
+# data and page files to the same branch. Data © OpenStreetMap contributors (ODbL).
+
+on:
+  push:
+    paths:
+      - 'city-specs/**'
+      - 'scripts/cities/**'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Rebuild all cities even if their spec is unchanged'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: city-build-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Build changed cities
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          flags=(--all --report=/tmp/city-report.md)
+          if [ "$FORCE" = "true" ]; then flags+=(--force); fi
+          node scripts/cities/osm-city.js "${flags[@]}"
+          node scripts/cities/register-city.js --all || echo "Some cities were not registered (see above)."
+          node scripts/generate-station-totals.js
+          cat /tmp/city-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all -- 'src/app' 'src/lib'
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          head -c 60000 /tmp/city-report.md > /tmp/msg-body.md
+          git commit -F - <<MSG
+          Build cities from OpenStreetMap
+
+          $(cat /tmp/msg-body.md)
+
+          Data © OpenStreetMap contributors (ODbL).
+          MSG
+          git push origin "HEAD:${GITHUB_REF_NAME}"

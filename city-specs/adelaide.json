@@ -1,0 +1,100 @@
+{
+  "slug": "adelaide",
+  "path": "oceania/australia/adelaide",
+  "gameTitle": "Adelaide Metro Memory",
+  "description": "How many Adelaide Metro train and tram stops can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -35.25,
+    138.4,
+    -34.55,
+    138.8
+  ],
+  "lineGroups": [
+    {
+      "title": "Trains",
+      "lines": [
+        "ABEL",
+        "AFLI",
+        "AGAW",
+        "AGRA",
+        "AOUT",
+        "ASEA"
+      ]
+    },
+    {
+      "title": "Tram",
+      "lines": [
+        "ATRM"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ABEL",
+      "name": "Belair Line",
+      "match": {
+        "route": "train",
+        "name": "Belair",
+        "network": "Adelaide Metro|^$"
+      }
+    },
+    {
+      "id": "AFLI",
+      "name": "Flinders Line",
+      "match": {
+        "route": "train",
+        "name": "Flinders|Tonsley",
+        "network": "Adelaide Metro|^$"
+      }
+    },
+    {
+      "id": "AGAW",
+      "name": "Gawler Line",
+      "match": {
+        "route": "train",
+        "name": "Gawler",
+        "network": "Adelaide Metro|^$"
+      }
+    },
+    {
+      "id": "AGRA",
+      "name": "Grange Line",
+      "match": {
+        "route": "train",
+        "name": "Grange",
+        "network": "Adelaide Metro|^$"
+      }
+    },
+    {
+      "id": "AOUT",
+      "name": "Outer Harbor Line",
+      "match": {
+        "route": "train",
+        "name": "Outer Harbo",
+        "network": "Adelaide Metro|^$"
+      }
+    },
+    {
+      "id": "ASEA",
+      "name": "Seaford Line",
+      "match": {
+        "route": "train",
+        "name": "Seaford",
+        "network": "Adelaide Metro|^$"
+      }
+    },
+    {
+      "id": "ATRM",
+      "name": "Glenelg Tram",
+      "match": {
+        "route": "tram",
+        "name": "Glenelg|Botanic|Festival|Entertainment|Tram"
+      }
+    }
+  ],
+  "register": {
+    "name": "Adelaide, SA",
+    "continent": "Oceania"
+  }
+}

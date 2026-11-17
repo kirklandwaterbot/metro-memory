@@ -1,0 +1,53 @@
+{
+  "slug": "auckland",
+  "path": "oceania/new-zealand/auckland",
+  "gameTitle": "Auckland Metro Memory",
+  "description": "How many Auckland train stations can you name from memory?",
+  "locale": "en_NZ",
+  "bbox": [
+    -37.25,
+    174.55,
+    -36.75,
+    175.0
+  ],
+  "lineGroups": [
+    {
+      "title": "AT Metro Trains",
+      "lines": [
+        "AKEW",
+        "AKSC",
+        "AKON"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "AKEW",
+      "name": "East West Line",
+      "match": {
+        "route": "train",
+        "name": "East.?West|West.?East|Western|Eastern"
+      }
+    },
+    {
+      "id": "AKSC",
+      "name": "South City Line",
+      "match": {
+        "route": "train",
+        "name": "South.?City|Southern"
+      }
+    },
+    {
+      "id": "AKON",
+      "name": "Onehunga West Line",
+      "match": {
+        "route": "train",
+        "name": "Onehunga"
+      }
+    }
+  ],
+  "register": {
+    "name": "Auckland, AUK",
+    "continent": "Oceania"
+  }
+}

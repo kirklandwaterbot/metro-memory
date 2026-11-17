@@ -1,0 +1,106 @@
+{
+  "slug": "perth",
+  "path": "oceania/australia/perth",
+  "gameTitle": "Perth Metro Memory",
+  "description": "How many Transperth train stations can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -32.6,
+    115.65,
+    -31.5,
+    116.15
+  ],
+  "lineGroups": [
+    {
+      "title": "Transperth Trains",
+      "lines": [
+        "PAIR",
+        "PARM",
+        "PELL",
+        "PFRE",
+        "PMAN",
+        "PMID",
+        "PTHC",
+        "PYAN"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "PAIR",
+      "name": "Airport Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Airport"
+      }
+    },
+    {
+      "id": "PARM",
+      "name": "Armadale Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Armadale|Byford"
+      }
+    },
+    {
+      "id": "PELL",
+      "name": "Ellenbrook Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Ellenbrook"
+      }
+    },
+    {
+      "id": "PFRE",
+      "name": "Fremantle Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Fremantle"
+      }
+    },
+    {
+      "id": "PMAN",
+      "name": "Mandurah Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Mandurah"
+      }
+    },
+    {
+      "id": "PMID",
+      "name": "Midland Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Midland"
+      }
+    },
+    {
+      "id": "PTHC",
+      "name": "Thornlie–Cockburn Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Thornlie|Cockburn Line"
+      }
+    },
+    {
+      "id": "PYAN",
+      "name": "Yanchep Line",
+      "match": {
+        "route": "train",
+        "network": "Transperth",
+        "name": "Yanchep|Joondalup"
+      }
+    }
+  ],
+  "register": {
+    "name": "Perth, WA",
+    "continent": "Oceania"
+  }
+}
