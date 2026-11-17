@@ -238,6 +238,10 @@ Recommended workflow:
 - `npm run sync:images` - Sync city image folders
 - `npm run generate:city-data` - Export city data
 - `npm run generate:available-city-data` - Regenerate availability registry
+- `npm run upcoming:run` - Research upcoming stations and add any that have opened (see `upcoming/README.md`)
+- `npm run routes:check -- --city=<slug>` - List stations that sit off their line's drawn route, and lines split into pieces
+- `npm run routes:fill -- --city=<slug>` - Fill those gaps along track that is already drawn (never with straight lines)
+- `node scripts/routes/osm-route.js --city=<slug>` - Draw lines listed in `data-sources/<slug>/osm-routes.json` along their OpenStreetMap right-of-way (needs network; runs in CI)
 
 ## Project Layout 🗂️
 ```text
@@ -275,6 +279,9 @@ Branched services:
 - Route geometry in `routes.json` should also be assigned to the matching service id; shared trunk segments can be duplicated for each service.
 - Add every service id to the city `config.ts` `LINE_GROUPS`.
 - If duplicated station entries represent the same physical station, give them the same `cluster_key` so they behave as one complex.
+
+## Upcoming Stations Auto-Updater 🔭
+A daily GitHub Action (`.github/workflows/upcoming-stations.yml`) researches future stations on its own using OpenStreetMap and Wikidata, with an optional web + LLM check. It tracks them in `upcoming/<city>.json`, records every opening-date change, and adds each station to the city's `features.json` once it has actually opened. Results come as one rolling PR. Details, statuses and manual overrides are in `upcoming/README.md`.
 
 ## Contributing 🤝
 - Keep the app compiling and lint-clean.
