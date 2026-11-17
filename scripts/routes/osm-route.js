@@ -29,6 +29,9 @@ const OVERPASS =
 const SNAP_M = 1500
 const BRIDGE_M = 300
 const BRIDGE_COST = 4
+// When a leg has no connected path, join the closest points of the two sides
+// if they are at most this far apart (e.g. a viaduct missing from OSM).
+const LEG_BRIDGE_MAX_M = 2500
 const SIMPLIFY_M = 2.5
 
 function parseArgs(argv) {
@@ -70,6 +73,9 @@ function buildQuery(waypoints, bufferM) {
   way["disused:railway"]${area};
   way["razed:railway"]${area};
   way["construction:railway"]${area};
+  way["historic"="railway"]${area};
+  way["railway:historic"]${area};
+  way["old_railway_operator"]${area};
 );
 out body;
 >;
@@ -106,7 +112,10 @@ async function fetchOverpass(query) {
 function wayFactor(tags, preferName) {
   let f = 1
   const state = tags.railway
-  if (state === 'abandoned' || state === 'razed' || tags['abandoned:railway'] || tags['razed:railway']) f *= 1.15
+  const formerRailway = !state && (tags.historic === 'railway' || tags['railway:historic'] || tags.old_railway_operator)
+  if (state === 'abandoned' || state === 'razed' || tags['abandoned:railway'] || tags['razed:railway'] || formerRailway) {
+    f *= 1.15
+  }
   if (state === 'proposed') f *= 1.6
   if (tags.service === 'yard' || tags.service === 'siding' || tags.service === 'spur') f *= 1.8
   if (tags.service === 'crossover') f *= 3
@@ -206,6 +215,53 @@ function shortest(graph, from, to) {
   return { coords: nodes.map((n) => graph.coords.get(n)), bridgedM }
 }
 
+/** Every node reachable from `start`. */
+function reachable(graph, start) {
+  const seen = new Set([start])
+  const stack = [start]
+  while (stack.length) {
+    const u = stack.pop()
+    for (const [v] of graph.adj.get(u) || []) {
+      if (!seen.has(v)) {
+        seen.add(v)
+        stack.push(v)
+      }
+    }
+  }
+  return seen
+}
+
+/**
+ * Closest pair of nodes between the part of the network reachable from `a` and
+ * the part reachable from `b`, searching near the a–b corridor.
+ */
+function closestBetween(graph, a, b) {
+  const fromA = reachable(graph, a)
+  if (fromA.has(b)) return null
+  const fromB = reachable(graph, b)
+  const cell = (c) => `${Math.floor(c[0] / 0.01)},${Math.floor(c[1] / 0.01)}`
+  const grid = new Map()
+  for (const id of fromB) {
+    const k = cell(graph.coords.get(id))
+    if (!grid.has(k)) grid.set(k, [])
+    grid.get(k).push(id)
+  }
+  let best = null
+  for (const id of fromA) {
+    const c = graph.coords.get(id)
+    const [cx, cy] = cell(c).split(',').map(Number)
+    for (let dx = -3; dx <= 3; dx += 1) {
+      for (let dy = -3; dy <= 3; dy += 1) {
+        for (const other of grid.get(`${cx + dx},${cy + dy}`) || []) {
+          const d = haversine(c, graph.coords.get(other))
+          if (!best || d < best.d) best = { from: id, to: other, d }
+        }
+      }
+    }
+  }
+  return best
+}
+
 /** Douglas-Peucker simplification in metres. */
 function simplify(points, tol) {
   if (points.length < 3) return points
@@ -289,11 +345,27 @@ async function main() {
     for (let i = 0; i < snapped.length - 1; i += 1) {
       const a = snapped[i]
       const b = snapped[i + 1]
-      const leg = shortest(graph, a.node, b.node)
+      let leg = shortest(graph, a.node, b.node)
+      const legBridges = []
+      // Join up to three missing links (e.g. a viaduct OSM doesn't connect).
+      for (let tries = 0; !leg && tries < 3; tries += 1) {
+        const gap = closestBetween(graph, a.node, b.node)
+        if (!gap || gap.d > LEG_BRIDGE_MAX_M) break
+        const w = gap.d * BRIDGE_COST
+        graph.adj.get(gap.from).push([gap.to, w, true])
+        graph.adj.get(gap.to).push([gap.from, w, true])
+        const at = graph.coords.get(gap.from)
+        legBridges.push(`${Math.round(gap.d)} m unconnected in OSM near ${at[1].toFixed(4)}, ${at[0].toFixed(4)}`)
+        leg = shortest(graph, a.node, b.node)
+      }
       if (!leg) {
-        failed = `${a.name} → ${b.name}`
+        const gap = closestBetween(graph, a.node, b.node)
+        failed = `${a.name} → ${b.name}: no connected OSM track${
+          gap ? ` (closest the two sides get: ${Math.round(gap.d)} m near ${graph.coords.get(gap.from)[1].toFixed(4)}, ${graph.coords.get(gap.from)[0].toFixed(4)})` : ''
+        }`
         break
       }
+      for (const note of legBridges) legs.push(`  bridged: ${note}`)
       bridgedM += leg.bridgedM
       const chord = haversine(a.coordinates, b.coordinates)
       const len = lengthM(leg.coords)

@@ -67,3 +67,47 @@ test('routes a line along named OSM track, bridging a small mapping gap', () => 
   const again = spawnSync(process.execPath, [path.join(REPO, 'scripts', 'routes', 'osm-route.js'), '--city=railtown', `--fixture=${fixture}`], { cwd: root, encoding: 'utf8' })
   assert.match(again.stdout, /already built from OSM/)
 })
+
+test('joins a leg whose OSM track has a missing link (e.g. an unmapped viaduct) and reports it', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'osm-route-gap-'))
+  const data = path.join(root, 'src', 'app', '(game)', 'test', 'railtown', 'data')
+  fs.mkdirSync(data, { recursive: true })
+  fs.mkdirSync(path.join(root, 'src', 'lib'), { recursive: true })
+  fs.mkdirSync(path.join(root, 'data-sources', 'railtown'), { recursive: true })
+  fs.writeFileSync(path.join(root, 'src', 'lib', 'cityPathMap.ts'), "export const X = {\n  'railtown': 'test/railtown',\n}\n")
+  fs.writeFileSync(path.join(data, 'routes.json'), JSON.stringify({ type: 'FeatureCollection', features: [] }))
+  fs.writeFileSync(
+    path.join(data, 'features.json'),
+    JSON.stringify({
+      type: 'FeatureCollection',
+      features: [
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [0, 40] }, properties: { name: 'West', line: 'L' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [0.1, 40] }, properties: { name: 'East', line: 'L' } },
+      ],
+    }),
+  )
+  fs.writeFileSync(
+    path.join(root, 'data-sources', 'railtown', 'osm-routes.json'),
+    JSON.stringify({ routes: [{ line: 'L', waypoints: [{ station: 'West' }, { station: 'East' }] }] }),
+  )
+  // Two pieces of track with a ~1.3 km hole between x = 0.04 and x = 0.055.
+  const elements: any[] = [
+    { type: 'node', id: 1, lon: 0, lat: 40 },
+    { type: 'node', id: 2, lon: 0.04, lat: 40 },
+    { type: 'node', id: 3, lon: 0.055, lat: 40 },
+    { type: 'node', id: 4, lon: 0.1, lat: 40 },
+    { type: 'way', id: 10, nodes: [1, 2], tags: { railway: 'abandoned' } },
+    { type: 'way', id: 11, nodes: [3, 4], tags: { historic: 'railway', highway: 'path' } },
+  ]
+  const fixture = path.join(root, 'overpass.json')
+  fs.writeFileSync(fixture, JSON.stringify({ elements }))
+  const res = spawnSync(process.execPath, [path.join(REPO, 'scripts', 'routes', 'osm-route.js'), '--city=railtown', `--fixture=${fixture}`], {
+    cwd: root,
+    encoding: 'utf8',
+  })
+  assert.equal(res.status, 0, res.stderr)
+  assert.match(res.stdout, /bridged: 12\d\d m unconnected in OSM near 40\.0000, 0\.0400/)
+  const f = JSON.parse(fs.readFileSync(path.join(data, 'routes.json'), 'utf8')).features[0]
+  assert.deepEqual(f.geometry.coordinates[0], [0, 40])
+  assert.deepEqual(f.geometry.coordinates.at(-1), [0.1, 40])
+})

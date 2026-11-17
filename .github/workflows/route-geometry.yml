@@ -9,6 +9,7 @@ on:
   push:
     paths:
       - 'data-sources/**/osm-routes.json'
+      - 'scripts/routes/osm-route.js'
   workflow_dispatch:
     inputs:
       refresh:
