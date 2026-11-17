@@ -990,7 +990,6 @@ const rawCities: CityBase[] = [
     name: 'Auckland, AUK',
     link: '/oceania/new-zealand/auckland',
     continent: 'Oceania',
-    hideInStats: true,
   },
   {
     name: 'Canberra, ACT',
@@ -1017,7 +1016,6 @@ const rawCities: CityBase[] = [
     name: 'Perth, WA',
     link: '/oceania/australia/perth',
     continent: 'Oceania',
-    hideInStats: true,
   },
   {
     name: 'Sydney, NSW',
@@ -1100,10 +1098,8 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'north-america/canada/viarail',
   'oceania/australia/adelaide',
   'oceania/australia/melbourne',
-  'oceania/australia/perth',
   'oceania/australia/sydney',
   'oceania/australia/yarra',
-  'oceania/new-zealand/auckland',
   'oceania/new-zealand/wellington',
 ])
 

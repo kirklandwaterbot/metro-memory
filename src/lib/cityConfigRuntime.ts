@@ -19,6 +19,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/atlanta/config')
       return configModule.default
     }
+    case 'auckland': {
+      const configModule = await import('@/app/(game)/oceania/new-zealand/auckland/config')
+      return configModule.default
+    }
     case 'austin': {
       const configModule = await import('@/app/(game)/north-america/usa/austin/config')
       return configModule.default
@@ -365,6 +369,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'paris': {
       const configModule = await import('@/app/(game)/europe/france/paris/config')
+      return configModule.default
+    }
+    case 'perth': {
+      const configModule = await import('@/app/(game)/oceania/australia/perth/config')
       return configModule.default
     }
     case 'philly': {

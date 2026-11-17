@@ -1,15 +1,17 @@
-import PlaceholderPage from '@/app/(game)/_placeholder/PlaceholderPage'
-import { buildPlaceholderConfig } from '@/app/(game)/_placeholder/config'
+export { metadata } from './metadata'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
+import CityDataGamePage from '@/components/CityDataGamePage'
+import { Provider } from '@/lib/configContext'
+import Main from '@/components/Main'
 
-const config = buildPlaceholderConfig({
-  citySlug: 'auckland',
-  cityPath: 'oceania/new-zealand/auckland',
-  cityTitle: 'Auckland',
-})
-
-
-export const metadata = config.METADATA
-
-export default function Page() {
-  return <PlaceholderPage config={config} />
+export default function AucklandPage() {
+  return (
+    <Provider value={config}>
+      <Main className="min-h-screen">
+        <CityDataGamePage slug="auckland" />
+      </Main>
+    </Provider>
+  )
 }
