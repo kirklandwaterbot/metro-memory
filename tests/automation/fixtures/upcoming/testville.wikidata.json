@@ -1,0 +1,93 @@
+{
+ "head": {
+  "vars": []
+ },
+ "results": {
+  "bindings": [
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q9001"
+    },
+    "clsId": {
+     "type": "literal",
+     "value": "Q928830"
+    },
+    "coord": {
+     "type": "literal",
+     "value": "Point(-75.00002 40.02001)"
+    },
+    "label": {
+     "type": "literal",
+     "xml:lang": "en",
+     "value": "Charlie station"
+    },
+    "labelLang": {
+     "type": "literal",
+     "value": "en"
+    },
+    "opening": {
+     "type": "literal",
+     "value": "2026-12-15T00:00:00Z"
+    },
+    "openingPrecision": {
+     "type": "literal",
+     "value": "11"
+    },
+    "underConstruction": {
+     "type": "literal",
+     "value": "true"
+    },
+    "lineLabel": {
+     "type": "literal",
+     "xml:lang": "en",
+     "value": "Red Line (Testville Metro)"
+    },
+    "osmNode": {
+     "type": "literal",
+     "value": "101"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q9002"
+    },
+    "clsId": {
+     "type": "literal",
+     "value": "Q928830"
+    },
+    "coord": {
+     "type": "literal",
+     "value": "Point(-75.0 40.04)"
+    },
+    "label": {
+     "type": "literal",
+     "xml:lang": "en",
+     "value": "Golf station"
+    },
+    "labelLang": {
+     "type": "literal",
+     "value": "en"
+    },
+    "opening": {
+     "type": "literal",
+     "value": "2027-03-01T00:00:00Z"
+    },
+    "openingPrecision": {
+     "type": "literal",
+     "value": "10"
+    },
+    "underConstruction": {
+     "type": "literal",
+     "value": "true"
+    },
+    "lineLabel": {
+     "type": "literal",
+     "xml:lang": "en",
+     "value": "Red Line (Testville Metro)"
+    }
+   }
+  ]
+ }
+}

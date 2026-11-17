@@ -1,0 +1,123 @@
+name: Upcoming Stations Auto-Updater
+
+# Daily: researches a rotating batch of cities (plus every city with a station
+# opening within two weeks) on OpenStreetMap + Wikidata, tracks future stations
+# in upcoming/<city>.json, and adds stations to the game once they have opened.
+# Results go to a single rolling PR on the `auto/upcoming-stations` branch.
+#
+# Optional:
+#   secrets SERPAPI_API_KEY + AUTOMATION_LLM_API_KEY, var AUTOMATION_LLM_MODEL
+#     -> also web-checks stations whose opening is due (exact dates, delays).
+#   var UPCOMING_AUTO_MERGE=1
+#     -> auto-merge the PR when every station it adds is confirmed open.
+#   var UPCOMING_BATCH_SIZE (default 20)
+
+on:
+  schedule:
+    - cron: '23 11 * * *'
+  workflow_dispatch:
+    inputs:
+      cities:
+        description: 'Comma-separated city slugs (blank = rotating batch)'
+        required: false
+        default: ''
+      all:
+        description: 'Research every city'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: upcoming-stations
+  cancel-in-progress: false
+
+env:
+  BRANCH: auto/upcoming-stations
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Continue the open update branch, if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git fetch origin "$BRANCH"
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+            if ! git merge --no-edit origin/main; then
+              echo "Branch conflicts with main; starting fresh from main."
+              git merge --abort
+              git checkout -B "$BRANCH" origin/main
+            fi
+          else
+            git checkout -B "$BRANCH" origin/main
+          fi
+
+      - name: Research and update
+        id: run
+        env:
+          INPUT_CITIES: ${{ inputs.cities }}
+          INPUT_ALL: ${{ inputs.all }}
+          BATCH: ${{ vars.UPCOMING_BATCH_SIZE || '20' }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          AUTOMATION_LLM_API_KEY: ${{ secrets.AUTOMATION_LLM_API_KEY }}
+          AUTOMATION_LLM_MODEL: ${{ vars.AUTOMATION_LLM_MODEL }}
+          AUTOMATION_LLM_BASE_URL: ${{ vars.AUTOMATION_LLM_BASE_URL }}
+        run: |
+          args=(--report=/tmp/upcoming-report.md --batch="$BATCH")
+          if [ -n "$INPUT_CITIES" ]; then args+=(--cities="$INPUT_CITIES"); fi
+          if [ "$INPUT_ALL" = "true" ]; then args+=(--all); fi
+          node scripts/upcoming/run.js "${args[@]}"
+          cat /tmp/upcoming-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and open / update PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AUTO_MERGE: ${{ vars.UPCOMING_AUTO_MERGE }}
+          ALL_CONFIRMED: ${{ steps.run.outputs.all_confirmed }}
+          PROMOTED: ${{ steps.run.outputs.promoted }}
+        run: |
+          git add --all -- src/app src/lib/stationTotals.ts
+          if [ -d upcoming ]; then git add --all -- upcoming; fi
+          if git diff --cached --quiet; then
+            echo "No changes today."
+          else
+            git commit -m "Upcoming stations update $(date -u +%F)" -m "${PROMOTED:-0} station(s) added to the game."
+          fi
+          if [ "$(git rev-list --count origin/main..HEAD)" = "0" ]; then
+            echo "Nothing to propose."
+            exit 0
+          fi
+          git push origin "HEAD:$BRANCH"
+
+          title="Upcoming stations: automated update"
+          pr=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number')
+          if [ -n "$pr" ]; then
+            gh pr comment "$pr" --body-file /tmp/upcoming-report.md
+          else
+            gh pr create --base main --head "$BRANCH" --title "$title" --body-file /tmp/upcoming-report.md
+          fi
+
+          # Only auto-merge when nothing on the branch was added on a scheduled
+          # date alone (those wait for a human to glance at the PR).
+          if git diff origin/main..HEAD -- upcoming | grep -q '^+.*"promotionConfidence": "scheduled"'; then
+            ALL_CONFIRMED=false
+          fi
+          if [ "$AUTO_MERGE" = "1" ] && [ "$ALL_CONFIRMED" = "true" ]; then
+            gh pr merge "$BRANCH" --squash --delete-branch || echo "Auto-merge not possible; leaving PR open."
+          fi
