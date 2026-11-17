@@ -26,7 +26,7 @@
       "name": "East West Line",
       "match": {
         "route": "train",
-        "name": "East.?West|West.?East|Western|Eastern"
+        "name": "East.?West Line"
       }
     },
     {
@@ -34,7 +34,7 @@
       "name": "South City Line",
       "match": {
         "route": "train",
-        "name": "South.?City|Southern"
+        "name": "South.?City Line"
       }
     },
     {
@@ -42,12 +42,13 @@
       "name": "Onehunga West Line",
       "match": {
         "route": "train",
-        "name": "Onehunga"
+        "name": "Onehunga West Line"
       }
     }
   ],
   "register": {
     "name": "Auckland, AUK",
     "continent": "Oceania"
-  }
+  },
+  "ignoreUnmatched": "Te Huia|Northern Explorer|Glenbrook|Western Springs|Wynyard"
 }

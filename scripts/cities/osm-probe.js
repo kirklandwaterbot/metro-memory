@@ -81,7 +81,20 @@ async function fetchOverpass(q) {
           },
           body: `data=${encodeURIComponent(q)}`,
         })
-        if (res.ok) return await res.json()
+        if (res.ok) {
+          const json = await res.json()
+          // Mirrors can lag days behind OSM; a stale answer would undo recent edits.
+          const base = Date.parse(json?.osm3s?.timestamp_osm_base || '')
+          const ageH = (Date.now() - base) / 3600000
+          if (!Number.isFinite(ageH) || ageH < 48) return json
+          console.error(
+            `  ${endpoint}: data is ${Math.round(ageH)} h old, trying another server`,
+          )
+          last = new Error(
+            `${endpoint}: stale data (${Math.round(ageH)} h old)`,
+          )
+          continue
+        }
         last = new Error(
           `${endpoint}: HTTP ${res.status} ${(await res.text()).slice(0, 300)}`,
         )
