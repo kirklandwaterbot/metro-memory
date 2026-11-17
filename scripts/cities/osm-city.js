@@ -80,11 +80,13 @@ async function fetchOverpass(query) {
           body: `data=${encodeURIComponent(query)}`,
         })
         if (res.ok) return await res.json()
+        console.error(`  ${endpoint}: HTTP ${res.status}`)
         last = new Error(
           `${endpoint}: HTTP ${res.status} ${(await res.text()).slice(0, 300)}`,
         )
         if (res.status === 400) throw last
       } catch (error) {
+        console.error(`  ${endpoint}: ${String(error.message).slice(0, 200)}`)
         last = error
         if (String(error.message).includes('HTTP 400')) throw error
       }
@@ -531,9 +533,14 @@ async function buildCity(spec, args, osmCache) {
   const key = JSON.stringify(spec.bbox)
   let osm = osmCache.get(key)
   if (!osm) {
+    const t0 = Date.now()
+    console.error(`${spec.slug}: querying Overpass…`)
     osm = args.fixture
       ? JSON.parse(fs.readFileSync(args.fixture, 'utf8'))
       : await fetchOverpass(buildQuery(spec.bbox))
+    console.error(
+      `${spec.slug}: ${(osm.elements || []).length} elements in ${Math.round((Date.now() - t0) / 1000)}s`,
+    )
     osmCache.set(key, osm)
   }
   const idx = indexOsm(osm)
