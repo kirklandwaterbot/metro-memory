@@ -142,13 +142,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.035612,
-          -37.821325
+          145.036349,
+          -37.821378
         ]
       },
       "properties": {
         "id": 8,
-        "name": "Stop 74: Glenferrie",
+        "name": "Glenferrie",
         "line": "MALAM",
         "order": 8
       },
@@ -176,34 +176,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0366,
-          -37.821828
-        ]
-      },
-      "properties": {
-        "id": 10,
-        "name": "Glenferrie",
-        "line": "MALAM",
-        "order": 10
-      },
-      "id": 10
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           145.00809,
           -37.827611
         ]
       },
       "properties": {
-        "id": 11,
+        "id": 10,
         "name": "Burnley",
         "line": "MALAM",
-        "order": 11
+        "order": 10
       },
-      "id": 11
+      "id": 10
     },
     {
       "type": "Feature",
@@ -215,8 +198,25 @@
         ]
       },
       "properties": {
-        "id": 12,
+        "id": 11,
         "name": "East Richmond",
+        "line": "MALAM",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.989259,
+          -37.823927
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Richmond",
         "line": "MALAM",
         "order": 12
       },
@@ -227,13 +227,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.989259,
-          -37.823927
+          144.97291,
+          -37.810922
         ]
       },
       "properties": {
         "id": 13,
-        "name": "Richmond",
+        "name": "Parliament",
         "line": "MALAM",
         "order": 13
       },
@@ -244,13 +244,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.997773,
-          -37.826629
+          144.962477,
+          -37.810034
         ]
       },
       "properties": {
         "id": 14,
-        "name": "Stop 56: East Richmond Station, Lesney Street",
+        "name": "Melbourne Central",
         "line": "MALAM",
         "order": 14
       },
@@ -261,13 +261,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97291,
-          -37.810922
+          144.956016,
+          -37.811866
         ]
       },
       "properties": {
         "id": 15,
-        "name": "Parliament",
+        "name": "Flagstaff",
         "line": "MALAM",
         "order": 15
       },
@@ -278,13 +278,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.962477,
-          -37.810034
+          144.952373,
+          -37.818375
         ]
       },
       "properties": {
         "id": 16,
-        "name": "Melbourne Central",
+        "name": "Southern Cross",
         "line": "MALAM",
         "order": 16
       },
@@ -295,13 +295,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.956016,
-          -37.811866
+          144.966478,
+          -37.818416
         ]
       },
       "properties": {
         "id": 17,
-        "name": "Flagstaff",
+        "name": "Flinders Street",
         "line": "MALAM",
         "order": 17
       },
@@ -312,15 +312,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.952373,
-          -37.818375
+          144.966478,
+          -37.818416
         ]
       },
       "properties": {
         "id": 18,
-        "name": "Southern Cross",
-        "line": "MALAM",
-        "order": 18
+        "name": "Flinders Street",
+        "line": "MBELG",
+        "order": 0
       },
       "id": 18
     },
@@ -329,68 +329,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.967697,
-          -37.81805
-        ]
-      },
-      "properties": {
-        "id": 19,
-        "name": "Stop 13: Flinders Street",
-        "line": "MALAM",
-        "order": 19
-      },
-      "id": 19
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.966478,
-          -37.818416
-        ]
-      },
-      "properties": {
-        "id": 20,
-        "name": "Flinders Street",
-        "line": "MALAM",
-        "order": 20
-      },
-      "id": 20
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.966478,
-          -37.818416
-        ]
-      },
-      "properties": {
-        "id": 21,
-        "name": "Flinders Street",
-        "line": "MBELG",
-        "order": 0
-      },
-      "id": 21
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           144.952373,
           -37.818375
         ]
       },
       "properties": {
-        "id": 22,
+        "id": 19,
         "name": "Southern Cross",
         "line": "MBELG",
         "order": 1
       },
-      "id": 22
+      "id": 19
     },
     {
       "type": "Feature",
@@ -402,12 +351,12 @@
         ]
       },
       "properties": {
-        "id": 23,
+        "id": 20,
         "name": "Flagstaff",
         "line": "MBELG",
         "order": 2
       },
-      "id": 23
+      "id": 20
     },
     {
       "type": "Feature",
@@ -419,12 +368,12 @@
         ]
       },
       "properties": {
-        "id": 24,
+        "id": 21,
         "name": "Melbourne Central",
         "line": "MBELG",
         "order": 3
       },
-      "id": 24
+      "id": 21
     },
     {
       "type": "Feature",
@@ -436,12 +385,12 @@
         ]
       },
       "properties": {
-        "id": 25,
+        "id": 22,
         "name": "Parliament",
         "line": "MBELG",
         "order": 4
       },
-      "id": 25
+      "id": 22
     },
     {
       "type": "Feature",
@@ -453,12 +402,12 @@
         ]
       },
       "properties": {
-        "id": 26,
+        "id": 23,
         "name": "Richmond",
         "line": "MBELG",
         "order": 5
       },
-      "id": 26
+      "id": 23
     },
     {
       "type": "Feature",
@@ -470,12 +419,12 @@
         ]
       },
       "properties": {
-        "id": 27,
+        "id": 24,
         "name": "Burnley",
         "line": "MBELG",
         "order": 6
       },
-      "id": 27
+      "id": 24
     },
     {
       "type": "Feature",
@@ -487,12 +436,12 @@
         ]
       },
       "properties": {
-        "id": 28,
+        "id": 25,
         "name": "Hawthorn",
         "line": "MBELG",
         "order": 7
       },
-      "id": 28
+      "id": 25
     },
     {
       "type": "Feature",
@@ -504,12 +453,12 @@
         ]
       },
       "properties": {
-        "id": 29,
+        "id": 26,
         "name": "Glenferrie",
         "line": "MBELG",
         "order": 8
       },
-      "id": 29
+      "id": 26
     },
     {
       "type": "Feature",
@@ -521,29 +470,12 @@
         ]
       },
       "properties": {
-        "id": 30,
+        "id": 27,
         "name": "Auburn",
         "line": "MBELG",
         "order": 9
       },
-      "id": 30
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.035612,
-          -37.821325
-        ]
-      },
-      "properties": {
-        "id": 31,
-        "name": "Stop 74: Glenferrie",
-        "line": "MBELG",
-        "order": 10
-      },
-      "id": 31
+      "id": 27
     },
     {
       "type": "Feature",
@@ -555,12 +487,12 @@
         ]
       },
       "properties": {
-        "id": 32,
+        "id": 28,
         "name": "Camberwell",
         "line": "MBELG",
-        "order": 11
+        "order": 10
       },
-      "id": 32
+      "id": 28
     },
     {
       "type": "Feature",
@@ -572,12 +504,12 @@
         ]
       },
       "properties": {
-        "id": 33,
+        "id": 29,
         "name": "East Camberwell",
         "line": "MBELG",
-        "order": 12
+        "order": 11
       },
-      "id": 33
+      "id": 29
     },
     {
       "type": "Feature",
@@ -589,12 +521,12 @@
         ]
       },
       "properties": {
-        "id": 34,
+        "id": 30,
         "name": "Canterbury",
         "line": "MBELG",
-        "order": 13
+        "order": 12
       },
-      "id": 34
+      "id": 30
     },
     {
       "type": "Feature",
@@ -606,12 +538,12 @@
         ]
       },
       "properties": {
-        "id": 35,
+        "id": 31,
         "name": "Chatham",
         "line": "MBELG",
-        "order": 14
+        "order": 13
       },
-      "id": 35
+      "id": 31
     },
     {
       "type": "Feature",
@@ -623,12 +555,12 @@
         ]
       },
       "properties": {
-        "id": 36,
+        "id": 32,
         "name": "Union",
         "line": "MBELG",
-        "order": 15
+        "order": 14
       },
-      "id": 36
+      "id": 32
     },
     {
       "type": "Feature",
@@ -640,12 +572,12 @@
         ]
       },
       "properties": {
-        "id": 37,
+        "id": 33,
         "name": "Box Hill",
         "line": "MBELG",
-        "order": 16
+        "order": 15
       },
-      "id": 37
+      "id": 33
     },
     {
       "type": "Feature",
@@ -657,12 +589,12 @@
         ]
       },
       "properties": {
-        "id": 38,
+        "id": 34,
         "name": "Laburnum",
         "line": "MBELG",
-        "order": 17
+        "order": 16
       },
-      "id": 38
+      "id": 34
     },
     {
       "type": "Feature",
@@ -674,12 +606,12 @@
         ]
       },
       "properties": {
-        "id": 39,
+        "id": 35,
         "name": "Blackburn",
         "line": "MBELG",
-        "order": 18
+        "order": 17
       },
-      "id": 39
+      "id": 35
     },
     {
       "type": "Feature",
@@ -691,12 +623,12 @@
         ]
       },
       "properties": {
-        "id": 40,
+        "id": 36,
         "name": "Nunawading",
         "line": "MBELG",
-        "order": 19
+        "order": 18
       },
-      "id": 40
+      "id": 36
     },
     {
       "type": "Feature",
@@ -708,12 +640,12 @@
         ]
       },
       "properties": {
-        "id": 41,
+        "id": 37,
         "name": "Mitcham",
         "line": "MBELG",
-        "order": 20
+        "order": 19
       },
-      "id": 41
+      "id": 37
     },
     {
       "type": "Feature",
@@ -725,12 +657,12 @@
         ]
       },
       "properties": {
-        "id": 42,
+        "id": 38,
         "name": "Heatherdale",
         "line": "MBELG",
-        "order": 21
+        "order": 20
       },
-      "id": 42
+      "id": 38
     },
     {
       "type": "Feature",
@@ -742,12 +674,12 @@
         ]
       },
       "properties": {
-        "id": 43,
+        "id": 39,
         "name": "Ringwood",
         "line": "MBELG",
-        "order": 22
+        "order": 21
       },
-      "id": 43
+      "id": 39
     },
     {
       "type": "Feature",
@@ -759,12 +691,12 @@
         ]
       },
       "properties": {
-        "id": 44,
+        "id": 40,
         "name": "Heathmont",
         "line": "MBELG",
-        "order": 23
+        "order": 22
       },
-      "id": 44
+      "id": 40
     },
     {
       "type": "Feature",
@@ -776,29 +708,29 @@
         ]
       },
       "properties": {
-        "id": 45,
+        "id": 41,
         "name": "Bayswater",
         "line": "MBELG",
-        "order": 24
+        "order": 23
       },
-      "id": 45
+      "id": 41
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.284844,
-          -37.860662
+          145.284845,
+          -37.860645
         ]
       },
       "properties": {
-        "id": 46,
+        "id": 42,
         "name": "Boronia",
         "line": "MBELG",
-        "order": 25
+        "order": 24
       },
-      "id": 46
+      "id": 42
     },
     {
       "type": "Feature",
@@ -810,12 +742,12 @@
         ]
       },
       "properties": {
-        "id": 47,
+        "id": 43,
         "name": "Ferntree Gully",
         "line": "MBELG",
-        "order": 26
+        "order": 25
       },
-      "id": 47
+      "id": 43
     },
     {
       "type": "Feature",
@@ -827,12 +759,12 @@
         ]
       },
       "properties": {
-        "id": 48,
+        "id": 44,
         "name": "Upper Ferntree Gully",
         "line": "MBELG",
-        "order": 27
+        "order": 26
       },
-      "id": 48
+      "id": 44
     },
     {
       "type": "Feature",
@@ -844,12 +776,12 @@
         ]
       },
       "properties": {
-        "id": 49,
+        "id": 45,
         "name": "Upwey",
         "line": "MBELG",
-        "order": 28
+        "order": 27
       },
-      "id": 49
+      "id": 45
     },
     {
       "type": "Feature",
@@ -861,12 +793,12 @@
         ]
       },
       "properties": {
-        "id": 50,
+        "id": 46,
         "name": "Tecoma",
         "line": "MBELG",
-        "order": 29
+        "order": 28
       },
-      "id": 50
+      "id": 46
     },
     {
       "type": "Feature",
@@ -878,46 +810,12 @@
         ]
       },
       "properties": {
-        "id": 51,
+        "id": 47,
         "name": "Belgrave",
         "line": "MBELG",
-        "order": 30
+        "order": 29
       },
-      "id": 51
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964711,
-          -37.818239
-        ]
-      },
-      "properties": {
-        "id": 52,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
-        "line": "MBELG",
-        "order": 31
-      },
-      "id": 52
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967697,
-          -37.81805
-        ]
-      },
-      "properties": {
-        "id": 53,
-        "name": "Stop 13: Flinders Street",
-        "line": "MBELG",
-        "order": 32
-      },
-      "id": 53
+      "id": 47
     },
     {
       "type": "Feature",
@@ -929,12 +827,12 @@
         ]
       },
       "properties": {
-        "id": 54,
+        "id": 48,
         "name": "Craigieburn",
         "line": "MCRAI",
         "order": 0
       },
-      "id": 54
+      "id": 48
     },
     {
       "type": "Feature",
@@ -946,12 +844,12 @@
         ]
       },
       "properties": {
-        "id": 55,
+        "id": 49,
         "name": "Roxburgh Park",
         "line": "MCRAI",
         "order": 1
       },
-      "id": 55
+      "id": 49
     },
     {
       "type": "Feature",
@@ -963,12 +861,12 @@
         ]
       },
       "properties": {
-        "id": 56,
+        "id": 50,
         "name": "Coolaroo",
         "line": "MCRAI",
         "order": 2
       },
-      "id": 56
+      "id": 50
     },
     {
       "type": "Feature",
@@ -980,12 +878,12 @@
         ]
       },
       "properties": {
-        "id": 57,
+        "id": 51,
         "name": "Broadmeadows",
         "line": "MCRAI",
         "order": 3
       },
-      "id": 57
+      "id": 51
     },
     {
       "type": "Feature",
@@ -997,12 +895,12 @@
         ]
       },
       "properties": {
-        "id": 58,
+        "id": 52,
         "name": "Jacana",
         "line": "MCRAI",
         "order": 4
       },
-      "id": 58
+      "id": 52
     },
     {
       "type": "Feature",
@@ -1014,12 +912,12 @@
         ]
       },
       "properties": {
-        "id": 59,
+        "id": 53,
         "name": "Glenroy",
         "line": "MCRAI",
         "order": 5
       },
-      "id": 59
+      "id": 53
     },
     {
       "type": "Feature",
@@ -1031,12 +929,12 @@
         ]
       },
       "properties": {
-        "id": 60,
+        "id": 54,
         "name": "Oak Park",
         "line": "MCRAI",
         "order": 6
       },
-      "id": 60
+      "id": 54
     },
     {
       "type": "Feature",
@@ -1048,12 +946,12 @@
         ]
       },
       "properties": {
-        "id": 61,
+        "id": 55,
         "name": "Pascoe Vale",
         "line": "MCRAI",
         "order": 7
       },
-      "id": 61
+      "id": 55
     },
     {
       "type": "Feature",
@@ -1065,12 +963,12 @@
         ]
       },
       "properties": {
-        "id": 62,
+        "id": 56,
         "name": "Strathmore",
         "line": "MCRAI",
         "order": 8
       },
-      "id": 62
+      "id": 56
     },
     {
       "type": "Feature",
@@ -1082,12 +980,12 @@
         ]
       },
       "properties": {
-        "id": 63,
+        "id": 57,
         "name": "Glenbervie",
         "line": "MCRAI",
         "order": 9
       },
-      "id": 63
+      "id": 57
     },
     {
       "type": "Feature",
@@ -1099,12 +997,12 @@
         ]
       },
       "properties": {
-        "id": 64,
+        "id": 58,
         "name": "Essendon",
         "line": "MCRAI",
         "order": 10
       },
-      "id": 64
+      "id": 58
     },
     {
       "type": "Feature",
@@ -1116,12 +1014,12 @@
         ]
       },
       "properties": {
-        "id": 65,
+        "id": 59,
         "name": "Moonee Ponds",
         "line": "MCRAI",
         "order": 11
       },
-      "id": 65
+      "id": 59
     },
     {
       "type": "Feature",
@@ -1133,46 +1031,12 @@
         ]
       },
       "properties": {
-        "id": 66,
+        "id": 60,
         "name": "Ascot Vale",
         "line": "MCRAI",
         "order": 12
       },
-      "id": 66
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.92839,
-          -37.78805
-        ]
-      },
-      "properties": {
-        "id": 67,
-        "name": "Stop 26: Newmarket",
-        "line": "MCRAI",
-        "order": 13
-      },
-      "id": 67
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.930565,
-          -37.793938
-        ]
-      },
-      "properties": {
-        "id": 68,
-        "name": "Kensington",
-        "line": "MCRAI",
-        "order": 14
-      },
-      "id": 68
+      "id": 60
     },
     {
       "type": "Feature",
@@ -1184,12 +1048,29 @@
         ]
       },
       "properties": {
-        "id": 69,
+        "id": 61,
         "name": "Newmarket",
         "line": "MCRAI",
-        "order": 15
+        "order": 13
       },
-      "id": 69
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.930565,
+          -37.793938
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Kensington",
+        "line": "MCRAI",
+        "order": 14
+      },
+      "id": 62
     },
     {
       "type": "Feature",
@@ -1201,12 +1082,12 @@
         ]
       },
       "properties": {
-        "id": 70,
+        "id": 63,
         "name": "North Melbourne",
         "line": "MCRAI",
-        "order": 16
+        "order": 15
       },
-      "id": 70
+      "id": 63
     },
     {
       "type": "Feature",
@@ -1218,12 +1099,12 @@
         ]
       },
       "properties": {
-        "id": 71,
+        "id": 64,
         "name": "Flagstaff",
         "line": "MCRAI",
-        "order": 17
+        "order": 16
       },
-      "id": 71
+      "id": 64
     },
     {
       "type": "Feature",
@@ -1235,12 +1116,12 @@
         ]
       },
       "properties": {
-        "id": 72,
+        "id": 65,
         "name": "Melbourne Central",
         "line": "MCRAI",
-        "order": 18
+        "order": 17
       },
-      "id": 72
+      "id": 65
     },
     {
       "type": "Feature",
@@ -1252,12 +1133,12 @@
         ]
       },
       "properties": {
-        "id": 73,
+        "id": 66,
         "name": "Parliament",
         "line": "MCRAI",
-        "order": 19
+        "order": 18
       },
-      "id": 73
+      "id": 66
     },
     {
       "type": "Feature",
@@ -1269,12 +1150,12 @@
         ]
       },
       "properties": {
-        "id": 74,
+        "id": 67,
         "name": "Flinders Street",
         "line": "MCRAI",
-        "order": 20
+        "order": 19
       },
-      "id": 74
+      "id": 67
     },
     {
       "type": "Feature",
@@ -1286,199 +1167,12 @@
         ]
       },
       "properties": {
-        "id": 75,
+        "id": 68,
         "name": "Southern Cross",
         "line": "MCRAI",
-        "order": 21
+        "order": 20
       },
-      "id": 75
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967697,
-          -37.81805
-        ]
-      },
-      "properties": {
-        "id": 76,
-        "name": "Stop 13: Flinders Street",
-        "line": "MCRAI",
-        "order": 22
-      },
-      "id": 76
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.773809,
-          -37.700781
-        ]
-      },
-      "properties": {
-        "id": 77,
-        "name": "Watergardens",
-        "line": "MCRAN",
-        "order": 0
-      },
-      "id": 77
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.793814,
-          -37.729564
-        ]
-      },
-      "properties": {
-        "id": 78,
-        "name": "Keilor Plains",
-        "line": "MCRAN",
-        "order": 1
-      },
-      "id": 78
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.799639,
-          -37.744535
-        ]
-      },
-      "properties": {
-        "id": 79,
-        "name": "St Albans",
-        "line": "MCRAN",
-        "order": 2
-      },
-      "id": 79
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.811244,
-          -37.76001
-        ]
-      },
-      "properties": {
-        "id": 80,
-        "name": "Ginifer",
-        "line": "MCRAN",
-        "order": 3
-      },
-      "id": 80
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.824377,
-          -37.777206
-        ]
-      },
-      "properties": {
-        "id": 81,
-        "name": "Albion",
-        "line": "MCRAN",
-        "order": 4
-      },
-      "id": 81
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.832782,
-          -37.788578
-        ]
-      },
-      "properties": {
-        "id": 82,
-        "name": "Sunshine",
-        "line": "MCRAN",
-        "order": 5
-      },
-      "id": 82
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.863206,
-          -37.799268
-        ]
-      },
-      "properties": {
-        "id": 83,
-        "name": "Tottenham",
-        "line": "MCRAN",
-        "order": 6
-      },
-      "id": 83
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.884242,
-          -37.801738
-        ]
-      },
-      "properties": {
-        "id": 84,
-        "name": "West Footscray",
-        "line": "MCRAN",
-        "order": 7
-      },
-      "id": 84
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.89141,
-          -37.802535
-        ]
-      },
-      "properties": {
-        "id": 85,
-        "name": "Middle Footscray",
-        "line": "MCRAN",
-        "order": 8
-      },
-      "id": 85
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.902241,
-          -37.801432
-        ]
-      },
-      "properties": {
-        "id": 86,
-        "name": "Footscray",
-        "line": "MCRAN",
-        "order": 9
-      },
-      "id": 86
+      "id": 68
     },
     {
       "type": "Feature",
@@ -1490,12 +1184,12 @@
         ]
       },
       "properties": {
-        "id": 87,
+        "id": 69,
         "name": "Arden",
         "line": "MCRAN",
-        "order": 10
+        "order": 0
       },
-      "id": 87
+      "id": 69
     },
     {
       "type": "Feature",
@@ -1507,12 +1201,12 @@
         ]
       },
       "properties": {
-        "id": 88,
+        "id": 70,
         "name": "Parkville",
         "line": "MCRAN",
-        "order": 11
+        "order": 1
       },
-      "id": 88
+      "id": 70
     },
     {
       "type": "Feature",
@@ -1524,12 +1218,12 @@
         ]
       },
       "properties": {
-        "id": 89,
+        "id": 71,
         "name": "State Library",
         "line": "MCRAN",
-        "order": 12
+        "order": 2
       },
-      "id": 89
+      "id": 71
     },
     {
       "type": "Feature",
@@ -1541,12 +1235,12 @@
         ]
       },
       "properties": {
-        "id": 90,
+        "id": 72,
         "name": "Town Hall",
         "line": "MCRAN",
-        "order": 13
+        "order": 3
       },
-      "id": 90
+      "id": 72
     },
     {
       "type": "Feature",
@@ -1558,46 +1252,12 @@
         ]
       },
       "properties": {
-        "id": 91,
+        "id": 73,
         "name": "Anzac",
         "line": "MCRAN",
-        "order": 14
+        "order": 4
       },
-      "id": 91
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.966653,
-          -37.815782
-        ]
-      },
-      "properties": {
-        "id": 92,
-        "name": "Stop 11: Collins Street",
-        "line": "MCRAN",
-        "order": 15
-      },
-      "id": 92
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.962967,
-          -37.807767
-        ]
-      },
-      "properties": {
-        "id": 93,
-        "name": "Stop 7: RMIT University",
-        "line": "MCRAN",
-        "order": 16
-      },
-      "id": 93
+      "id": 73
     },
     {
       "type": "Feature",
@@ -1609,12 +1269,12 @@
         ]
       },
       "properties": {
-        "id": 94,
+        "id": 74,
         "name": "Malvern",
         "line": "MCRAN",
-        "order": 17
+        "order": 5
       },
-      "id": 94
+      "id": 74
     },
     {
       "type": "Feature",
@@ -1626,12 +1286,12 @@
         ]
       },
       "properties": {
-        "id": 95,
+        "id": 75,
         "name": "Caulfield",
         "line": "MCRAN",
-        "order": 18
+        "order": 6
       },
-      "id": 95
+      "id": 75
     },
     {
       "type": "Feature",
@@ -1643,29 +1303,12 @@
         ]
       },
       "properties": {
-        "id": 96,
+        "id": 76,
         "name": "Carnegie",
         "line": "MCRAN",
-        "order": 19
+        "order": 7
       },
-      "id": 96
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.041775,
-          -37.876379
-        ]
-      },
-      "properties": {
-        "id": 97,
-        "name": "Stop 57: Caulfield",
-        "line": "MCRAN",
-        "order": 20
-      },
-      "id": 97
+      "id": 76
     },
     {
       "type": "Feature",
@@ -1677,12 +1320,12 @@
         ]
       },
       "properties": {
-        "id": 98,
+        "id": 77,
         "name": "Murrumbeena",
         "line": "MCRAN",
-        "order": 21
+        "order": 8
       },
-      "id": 98
+      "id": 77
     },
     {
       "type": "Feature",
@@ -1694,12 +1337,12 @@
         ]
       },
       "properties": {
-        "id": 99,
+        "id": 78,
         "name": "Hughesdale",
         "line": "MCRAN",
-        "order": 22
+        "order": 9
       },
-      "id": 99
+      "id": 78
     },
     {
       "type": "Feature",
@@ -1711,12 +1354,12 @@
         ]
       },
       "properties": {
-        "id": 100,
+        "id": 79,
         "name": "Oakleigh",
         "line": "MCRAN",
-        "order": 23
+        "order": 10
       },
-      "id": 100
+      "id": 79
     },
     {
       "type": "Feature",
@@ -1728,12 +1371,12 @@
         ]
       },
       "properties": {
-        "id": 101,
+        "id": 80,
         "name": "Huntingdale",
         "line": "MCRAN",
-        "order": 24
+        "order": 11
       },
-      "id": 101
+      "id": 80
     },
     {
       "type": "Feature",
@@ -1745,12 +1388,12 @@
         ]
       },
       "properties": {
-        "id": 102,
+        "id": 81,
         "name": "Clayton",
         "line": "MCRAN",
-        "order": 25
+        "order": 12
       },
-      "id": 102
+      "id": 81
     },
     {
       "type": "Feature",
@@ -1762,12 +1405,12 @@
         ]
       },
       "properties": {
-        "id": 103,
+        "id": 82,
         "name": "Westall",
         "line": "MCRAN",
-        "order": 26
+        "order": 13
       },
-      "id": 103
+      "id": 82
     },
     {
       "type": "Feature",
@@ -1779,12 +1422,12 @@
         ]
       },
       "properties": {
-        "id": 104,
+        "id": 83,
         "name": "Springvale",
         "line": "MCRAN",
-        "order": 27
+        "order": 14
       },
-      "id": 104
+      "id": 83
     },
     {
       "type": "Feature",
@@ -1796,12 +1439,12 @@
         ]
       },
       "properties": {
-        "id": 105,
+        "id": 84,
         "name": "Sandown Park",
         "line": "MCRAN",
-        "order": 28
+        "order": 15
       },
-      "id": 105
+      "id": 84
     },
     {
       "type": "Feature",
@@ -1813,12 +1456,12 @@
         ]
       },
       "properties": {
-        "id": 106,
+        "id": 85,
         "name": "Noble Park",
         "line": "MCRAN",
-        "order": 29
+        "order": 16
       },
-      "id": 106
+      "id": 85
     },
     {
       "type": "Feature",
@@ -1830,12 +1473,12 @@
         ]
       },
       "properties": {
-        "id": 107,
+        "id": 86,
         "name": "Yarraman",
         "line": "MCRAN",
-        "order": 30
+        "order": 17
       },
-      "id": 107
+      "id": 86
     },
     {
       "type": "Feature",
@@ -1847,12 +1490,12 @@
         ]
       },
       "properties": {
-        "id": 108,
+        "id": 87,
         "name": "Dandenong",
         "line": "MCRAN",
-        "order": 31
+        "order": 18
       },
-      "id": 108
+      "id": 87
     },
     {
       "type": "Feature",
@@ -1864,29 +1507,29 @@
         ]
       },
       "properties": {
-        "id": 109,
+        "id": 88,
         "name": "Lynbrook",
         "line": "MCRAN",
-        "order": 32
+        "order": 19
       },
-      "id": 109
+      "id": 88
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.263491,
-          -38.079167
+          145.263475,
+          -38.078861
         ]
       },
       "properties": {
-        "id": 110,
+        "id": 89,
         "name": "Merinda Park",
         "line": "MCRAN",
-        "order": 33
+        "order": 20
       },
-      "id": 110
+      "id": 89
     },
     {
       "type": "Feature",
@@ -1898,29 +1541,12 @@
         ]
       },
       "properties": {
-        "id": 111,
+        "id": 90,
         "name": "Cranbourne",
         "line": "MCRAN",
-        "order": 34
+        "order": 21
       },
-      "id": 111
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99237,
-          -37.838101
-        ]
-      },
-      "properties": {
-        "id": 112,
-        "name": "South Yarra",
-        "line": "MCRAN",
-        "order": 35
-      },
-      "id": 112
+      "id": 90
     },
     {
       "type": "Feature",
@@ -1932,12 +1558,12 @@
         ]
       },
       "properties": {
-        "id": 113,
+        "id": 91,
         "name": "Frankston",
         "line": "MFRAN",
         "order": 0
       },
-      "id": 113
+      "id": 91
     },
     {
       "type": "Feature",
@@ -1949,12 +1575,12 @@
         ]
       },
       "properties": {
-        "id": 114,
+        "id": 92,
         "name": "Kananook",
         "line": "MFRAN",
         "order": 1
       },
-      "id": 114
+      "id": 92
     },
     {
       "type": "Feature",
@@ -1966,12 +1592,12 @@
         ]
       },
       "properties": {
-        "id": 115,
+        "id": 93,
         "name": "Seaford",
         "line": "MFRAN",
         "order": 2
       },
-      "id": 115
+      "id": 93
     },
     {
       "type": "Feature",
@@ -1983,12 +1609,12 @@
         ]
       },
       "properties": {
-        "id": 116,
+        "id": 94,
         "name": "Carrum",
         "line": "MFRAN",
         "order": 3
       },
-      "id": 116
+      "id": 94
     },
     {
       "type": "Feature",
@@ -2000,12 +1626,12 @@
         ]
       },
       "properties": {
-        "id": 117,
+        "id": 95,
         "name": "Bonbeach",
         "line": "MFRAN",
         "order": 4
       },
-      "id": 117
+      "id": 95
     },
     {
       "type": "Feature",
@@ -2017,12 +1643,12 @@
         ]
       },
       "properties": {
-        "id": 118,
+        "id": 96,
         "name": "Chelsea",
         "line": "MFRAN",
         "order": 5
       },
-      "id": 118
+      "id": 96
     },
     {
       "type": "Feature",
@@ -2034,12 +1660,12 @@
         ]
       },
       "properties": {
-        "id": 119,
+        "id": 97,
         "name": "Edithvale",
         "line": "MFRAN",
         "order": 6
       },
-      "id": 119
+      "id": 97
     },
     {
       "type": "Feature",
@@ -2051,12 +1677,12 @@
         ]
       },
       "properties": {
-        "id": 120,
+        "id": 98,
         "name": "Aspendale",
         "line": "MFRAN",
         "order": 7
       },
-      "id": 120
+      "id": 98
     },
     {
       "type": "Feature",
@@ -2068,12 +1694,12 @@
         ]
       },
       "properties": {
-        "id": 121,
+        "id": 99,
         "name": "Mordialloc",
         "line": "MFRAN",
         "order": 8
       },
-      "id": 121
+      "id": 99
     },
     {
       "type": "Feature",
@@ -2085,12 +1711,12 @@
         ]
       },
       "properties": {
-        "id": 122,
+        "id": 100,
         "name": "Parkdale",
         "line": "MFRAN",
         "order": 9
       },
-      "id": 122
+      "id": 100
     },
     {
       "type": "Feature",
@@ -2102,12 +1728,12 @@
         ]
       },
       "properties": {
-        "id": 123,
+        "id": 101,
         "name": "Mentone",
         "line": "MFRAN",
         "order": 10
       },
-      "id": 123
+      "id": 101
     },
     {
       "type": "Feature",
@@ -2119,12 +1745,12 @@
         ]
       },
       "properties": {
-        "id": 124,
+        "id": 102,
         "name": "Cheltenham",
         "line": "MFRAN",
         "order": 11
       },
-      "id": 124
+      "id": 102
     },
     {
       "type": "Feature",
@@ -2136,12 +1762,12 @@
         ]
       },
       "properties": {
-        "id": 125,
+        "id": 103,
         "name": "Southland",
         "line": "MFRAN",
         "order": 12
       },
-      "id": 125
+      "id": 103
     },
     {
       "type": "Feature",
@@ -2153,12 +1779,12 @@
         ]
       },
       "properties": {
-        "id": 126,
+        "id": 104,
         "name": "Highett",
         "line": "MFRAN",
         "order": 13
       },
-      "id": 126
+      "id": 104
     },
     {
       "type": "Feature",
@@ -2170,12 +1796,12 @@
         ]
       },
       "properties": {
-        "id": 127,
+        "id": 105,
         "name": "Moorabbin",
         "line": "MFRAN",
         "order": 14
       },
-      "id": 127
+      "id": 105
     },
     {
       "type": "Feature",
@@ -2187,12 +1813,12 @@
         ]
       },
       "properties": {
-        "id": 128,
+        "id": 106,
         "name": "Patterson",
         "line": "MFRAN",
         "order": 15
       },
-      "id": 128
+      "id": 106
     },
     {
       "type": "Feature",
@@ -2204,12 +1830,12 @@
         ]
       },
       "properties": {
-        "id": 129,
+        "id": 107,
         "name": "Bentleigh",
         "line": "MFRAN",
         "order": 16
       },
-      "id": 129
+      "id": 107
     },
     {
       "type": "Feature",
@@ -2221,12 +1847,12 @@
         ]
       },
       "properties": {
-        "id": 130,
+        "id": 108,
         "name": "McKinnon",
         "line": "MFRAN",
         "order": 17
       },
-      "id": 130
+      "id": 108
     },
     {
       "type": "Feature",
@@ -2238,80 +1864,12 @@
         ]
       },
       "properties": {
-        "id": 131,
+        "id": 109,
         "name": "Ormond",
         "line": "MFRAN",
         "order": 18
       },
-      "id": 131
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.042057,
-          -37.889418
-        ]
-      },
-      "properties": {
-        "id": 132,
-        "name": "Stop 61: Glen Huntly",
-        "line": "MFRAN",
-        "order": 19
-      },
-      "id": 132
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.041775,
-          -37.876379
-        ]
-      },
-      "properties": {
-        "id": 133,
-        "name": "Stop 57: Caulfield",
-        "line": "MFRAN",
-        "order": 20
-      },
-      "id": 133
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.029464,
-          -37.866342
-        ]
-      },
-      "properties": {
-        "id": 134,
-        "name": "Malvern",
-        "line": "MFRAN",
-        "order": 21
-      },
-      "id": 134
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.042381,
-          -37.877321
-        ]
-      },
-      "properties": {
-        "id": 135,
-        "name": "Caulfield",
-        "line": "MFRAN",
-        "order": 22
-      },
-      "id": 135
+      "id": 109
     },
     {
       "type": "Feature",
@@ -2323,46 +1881,46 @@
         ]
       },
       "properties": {
-        "id": 136,
+        "id": 110,
         "name": "Glen Huntly",
         "line": "MFRAN",
-        "order": 23
+        "order": 19
       },
-      "id": 136
+      "id": 110
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.018455,
-          -37.855218
+          145.042381,
+          -37.877321
         ]
       },
       "properties": {
-        "id": 137,
-        "name": "Stop 40: Armadale",
+        "id": 111,
+        "name": "Caulfield",
         "line": "MFRAN",
-        "order": 24
+        "order": 20
       },
-      "id": 137
+      "id": 111
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.013679,
-          -37.850663
+          145.029464,
+          -37.866342
         ]
       },
       "properties": {
-        "id": 138,
-        "name": "Toorak",
+        "id": 112,
+        "name": "Malvern",
         "line": "MFRAN",
-        "order": 25
+        "order": 21
       },
-      "id": 138
+      "id": 112
     },
     {
       "type": "Feature",
@@ -2374,12 +1932,29 @@
         ]
       },
       "properties": {
-        "id": 139,
+        "id": 113,
         "name": "Armadale",
         "line": "MFRAN",
-        "order": 26
+        "order": 22
       },
-      "id": 139
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.013679,
+          -37.850663
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Toorak",
+        "line": "MFRAN",
+        "order": 23
+      },
+      "id": 114
     },
     {
       "type": "Feature",
@@ -2391,12 +1966,12 @@
         ]
       },
       "properties": {
-        "id": 140,
+        "id": 115,
         "name": "Hawksburn",
         "line": "MFRAN",
-        "order": 27
+        "order": 24
       },
-      "id": 140
+      "id": 115
     },
     {
       "type": "Feature",
@@ -2408,12 +1983,12 @@
         ]
       },
       "properties": {
-        "id": 141,
+        "id": 116,
         "name": "South Yarra",
         "line": "MFRAN",
-        "order": 28
+        "order": 25
       },
-      "id": 141
+      "id": 116
     },
     {
       "type": "Feature",
@@ -2425,10 +2000,435 @@
         ]
       },
       "properties": {
-        "id": 142,
+        "id": 117,
         "name": "Richmond",
         "line": "MFRAN",
+        "order": 26
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97291,
+          -37.810922
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Parliament",
+        "line": "MFRAN",
+        "order": 27
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962477,
+          -37.810034
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Melbourne Central",
+        "line": "MFRAN",
+        "order": 28
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.956016,
+          -37.811866
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Flagstaff",
+        "line": "MFRAN",
         "order": 29
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.952373,
+          -37.818375
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Southern Cross",
+        "line": "MFRAN",
+        "order": 30
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.966478,
+          -37.818416
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Flinders Street",
+        "line": "MFRAN",
+        "order": 31
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.966478,
+          -37.818416
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Flinders Street",
+        "line": "MGLEN",
+        "order": 0
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.952373,
+          -37.818375
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Southern Cross",
+        "line": "MGLEN",
+        "order": 1
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.956016,
+          -37.811866
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Flagstaff",
+        "line": "MGLEN",
+        "order": 2
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962477,
+          -37.810034
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Melbourne Central",
+        "line": "MGLEN",
+        "order": 3
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97291,
+          -37.810922
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Parliament",
+        "line": "MGLEN",
+        "order": 4
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.989259,
+          -37.823927
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Richmond",
+        "line": "MGLEN",
+        "order": 5
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.996756,
+          -37.826344
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "East Richmond",
+        "line": "MGLEN",
+        "order": 6
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.00809,
+          -37.827611
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Burnley",
+        "line": "MGLEN",
+        "order": 7
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.022653,
+          -37.834521
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Heyington",
+        "line": "MGLEN",
+        "order": 8
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.033533,
+          -37.840035
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Kooyong",
+        "line": "MGLEN",
+        "order": 9
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.041714,
+          -37.849344
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Tooronga",
+        "line": "MGLEN",
+        "order": 10
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.050873,
+          -37.852803
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Gardiner",
+        "line": "MGLEN",
+        "order": 11
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.058027,
+          -37.859082
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Glen Iris",
+        "line": "MGLEN",
+        "order": 12
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.062969,
+          -37.86898
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Darling",
+        "line": "MGLEN",
+        "order": 13
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.069172,
+          -37.876846
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "East Malvern",
+        "line": "MGLEN",
+        "order": 14
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.090243,
+          -37.874509
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Holmesglen",
+        "line": "MGLEN",
+        "order": 15
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.112269,
+          -37.873663
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Jordanville",
+        "line": "MGLEN",
+        "order": 16
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.128126,
+          -37.875264
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Mount Waverley",
+        "line": "MGLEN",
+        "order": 17
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.149793,
+          -37.876276
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Syndal",
+        "line": "MGLEN",
+        "order": 18
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.162352,
+          -37.879471
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Glen Waverley",
+        "line": "MGLEN",
+        "order": 19
       },
       "id": 142
     },
@@ -2444,8 +2444,8 @@
       "properties": {
         "id": 143,
         "name": "Flinders Street",
-        "line": "MFRAN",
-        "order": 30
+        "line": "MHURS",
+        "order": 0
       },
       "id": 143
     },
@@ -2454,15 +2454,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.97291,
-          -37.810922
+          144.952373,
+          -37.818375
         ]
       },
       "properties": {
         "id": 144,
-        "name": "Parliament",
-        "line": "MFRAN",
-        "order": 31
+        "name": "Southern Cross",
+        "line": "MHURS",
+        "order": 1
       },
       "id": 144
     },
@@ -2471,15 +2471,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.962477,
-          -37.810034
+          144.956016,
+          -37.811866
         ]
       },
       "properties": {
         "id": 145,
-        "name": "Melbourne Central",
-        "line": "MFRAN",
-        "order": 32
+        "name": "Flagstaff",
+        "line": "MHURS",
+        "order": 2
       },
       "id": 145
     },
@@ -2488,15 +2488,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.956016,
-          -37.811866
+          144.962477,
+          -37.810034
         ]
       },
       "properties": {
         "id": 146,
-        "name": "Flagstaff",
-        "line": "MFRAN",
-        "order": 33
+        "name": "Melbourne Central",
+        "line": "MHURS",
+        "order": 3
       },
       "id": 146
     },
@@ -2505,680 +2505,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.952373,
-          -37.818375
+          144.97291,
+          -37.810922
         ]
       },
       "properties": {
         "id": 147,
-        "name": "Southern Cross",
-        "line": "MFRAN",
-        "order": 34
+        "name": "Parliament",
+        "line": "MHURS",
+        "order": 4
       },
       "id": 147
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967697,
-          -37.81805
-        ]
-      },
-      "properties": {
-        "id": 148,
-        "name": "Stop 13: Flinders Street",
-        "line": "MFRAN",
-        "order": 35
-      },
-      "id": 148
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.221694,
-          -38.374077
-        ]
-      },
-      "properties": {
-        "id": 149,
-        "name": "Stony Point",
-        "line": "MFRAN",
-        "order": 36
-      },
-      "id": 149
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.204143,
-          -38.365974
-        ]
-      },
-      "properties": {
-        "id": 150,
-        "name": "Crib Point",
-        "line": "MFRAN",
-        "order": 37
-      },
-      "id": 150
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.189403,
-          -38.353835
-        ]
-      },
-      "properties": {
-        "id": 151,
-        "name": "Morradoo",
-        "line": "MFRAN",
-        "order": 38
-      },
-      "id": 151
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.178091,
-          -38.337164
-        ]
-      },
-      "properties": {
-        "id": 152,
-        "name": "Bittern",
-        "line": "MFRAN",
-        "order": 39
-      },
-      "id": 152
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.185993,
-          -38.305606
-        ]
-      },
-      "properties": {
-        "id": 153,
-        "name": "Hastings",
-        "line": "MFRAN",
-        "order": 40
-      },
-      "id": 153
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.186229,
-          -38.259786
-        ]
-      },
-      "properties": {
-        "id": 154,
-        "name": "Tyabb",
-        "line": "MFRAN",
-        "order": 41
-      },
-      "id": 154
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.176335,
-          -38.22542
-        ]
-      },
-      "properties": {
-        "id": 155,
-        "name": "Somerville",
-        "line": "MFRAN",
-        "order": 42
-      },
-      "id": 155
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.160517,
-          -38.194081
-        ]
-      },
-      "properties": {
-        "id": 156,
-        "name": "Baxter",
-        "line": "MFRAN",
-        "order": 43
-      },
-      "id": 156
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.139427,
-          -38.152019
-        ]
-      },
-      "properties": {
-        "id": 157,
-        "name": "Leawarra",
-        "line": "MFRAN",
-        "order": 44
-      },
-      "id": 157
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.966478,
-          -37.818416
-        ]
-      },
-      "properties": {
-        "id": 158,
-        "name": "Flinders Street",
-        "line": "MGLEN",
-        "order": 0
-      },
-      "id": 158
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.952373,
-          -37.818375
-        ]
-      },
-      "properties": {
-        "id": 159,
-        "name": "Southern Cross",
-        "line": "MGLEN",
-        "order": 1
-      },
-      "id": 159
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.956016,
-          -37.811866
-        ]
-      },
-      "properties": {
-        "id": 160,
-        "name": "Flagstaff",
-        "line": "MGLEN",
-        "order": 2
-      },
-      "id": 160
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.962477,
-          -37.810034
-        ]
-      },
-      "properties": {
-        "id": 161,
-        "name": "Melbourne Central",
-        "line": "MGLEN",
-        "order": 3
-      },
-      "id": 161
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97291,
-          -37.810922
-        ]
-      },
-      "properties": {
-        "id": 162,
-        "name": "Parliament",
-        "line": "MGLEN",
-        "order": 4
-      },
-      "id": 162
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989259,
-          -37.823927
-        ]
-      },
-      "properties": {
-        "id": 163,
-        "name": "Richmond",
-        "line": "MGLEN",
-        "order": 5
-      },
-      "id": 163
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.997773,
-          -37.826629
-        ]
-      },
-      "properties": {
-        "id": 164,
-        "name": "Stop 56: East Richmond Station, Lesney Street",
-        "line": "MGLEN",
-        "order": 6
-      },
-      "id": 164
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00809,
-          -37.827611
-        ]
-      },
-      "properties": {
-        "id": 165,
-        "name": "Burnley",
-        "line": "MGLEN",
-        "order": 7
-      },
-      "id": 165
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.996756,
-          -37.826344
-        ]
-      },
-      "properties": {
-        "id": 166,
-        "name": "East Richmond",
-        "line": "MGLEN",
-        "order": 8
-      },
-      "id": 166
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.022653,
-          -37.834521
-        ]
-      },
-      "properties": {
-        "id": 167,
-        "name": "Heyington",
-        "line": "MGLEN",
-        "order": 9
-      },
-      "id": 167
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.033533,
-          -37.840035
-        ]
-      },
-      "properties": {
-        "id": 168,
-        "name": "Kooyong",
-        "line": "MGLEN",
-        "order": 10
-      },
-      "id": 168
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.041714,
-          -37.849344
-        ]
-      },
-      "properties": {
-        "id": 169,
-        "name": "Tooronga",
-        "line": "MGLEN",
-        "order": 11
-      },
-      "id": 169
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.050873,
-          -37.852803
-        ]
-      },
-      "properties": {
-        "id": 170,
-        "name": "Gardiner",
-        "line": "MGLEN",
-        "order": 12
-      },
-      "id": 170
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.058129,
-          -37.859179
-        ]
-      },
-      "properties": {
-        "id": 171,
-        "name": "Glen Iris",
-        "line": "MGLEN",
-        "order": 13
-      },
-      "id": 171
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.062969,
-          -37.86898
-        ]
-      },
-      "properties": {
-        "id": 172,
-        "name": "Darling",
-        "line": "MGLEN",
-        "order": 14
-      },
-      "id": 172
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.069172,
-          -37.876846
-        ]
-      },
-      "properties": {
-        "id": 173,
-        "name": "East Malvern",
-        "line": "MGLEN",
-        "order": 15
-      },
-      "id": 173
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.090243,
-          -37.874509
-        ]
-      },
-      "properties": {
-        "id": 174,
-        "name": "Holmesglen",
-        "line": "MGLEN",
-        "order": 16
-      },
-      "id": 174
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.112269,
-          -37.873663
-        ]
-      },
-      "properties": {
-        "id": 175,
-        "name": "Jordanville",
-        "line": "MGLEN",
-        "order": 17
-      },
-      "id": 175
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.128126,
-          -37.875264
-        ]
-      },
-      "properties": {
-        "id": 176,
-        "name": "Mount Waverley",
-        "line": "MGLEN",
-        "order": 18
-      },
-      "id": 176
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.149793,
-          -37.876276
-        ]
-      },
-      "properties": {
-        "id": 177,
-        "name": "Syndal",
-        "line": "MGLEN",
-        "order": 19
-      },
-      "id": 177
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.162352,
-          -37.879471
-        ]
-      },
-      "properties": {
-        "id": 178,
-        "name": "Glen Waverley",
-        "line": "MGLEN",
-        "order": 20
-      },
-      "id": 178
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967697,
-          -37.81805
-        ]
-      },
-      "properties": {
-        "id": 179,
-        "name": "Stop 13: Flinders Street",
-        "line": "MGLEN",
-        "order": 21
-      },
-      "id": 179
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964711,
-          -37.818239
-        ]
-      },
-      "properties": {
-        "id": 180,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
-        "line": "MHURS",
-        "order": 0
-      },
-      "id": 180
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.952373,
-          -37.818375
-        ]
-      },
-      "properties": {
-        "id": 181,
-        "name": "Southern Cross",
-        "line": "MHURS",
-        "order": 1
-      },
-      "id": 181
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.956016,
-          -37.811866
-        ]
-      },
-      "properties": {
-        "id": 182,
-        "name": "Flagstaff",
-        "line": "MHURS",
-        "order": 2
-      },
-      "id": 182
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.962477,
-          -37.810034
-        ]
-      },
-      "properties": {
-        "id": 183,
-        "name": "Melbourne Central",
-        "line": "MHURS",
-        "order": 3
-      },
-      "id": 183
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.97291,
-          -37.810922
-        ]
-      },
-      "properties": {
-        "id": 184,
-        "name": "Parliament",
-        "line": "MHURS",
-        "order": 4
-      },
-      "id": 184
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.984831,
-          -37.816298
-        ]
-      },
-      "properties": {
-        "id": 185,
-        "name": "Stop 11: Jolimont",
-        "line": "MHURS",
-        "order": 5
-      },
-      "id": 185
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.991476,
-          -37.814691
-        ]
-      },
-      "properties": {
-        "id": 186,
-        "name": "West Richmond",
-        "line": "MHURS",
-        "order": 6
-      },
-      "id": 186
     },
     {
       "type": "Feature",
@@ -3190,12 +2527,29 @@
         ]
       },
       "properties": {
-        "id": 187,
+        "id": 148,
         "name": "Jolimont",
         "line": "MHURS",
-        "order": 7
+        "order": 5
       },
-      "id": 187
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.991476,
+          -37.814691
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "West Richmond",
+        "line": "MHURS",
+        "order": 6
+      },
+      "id": 149
     },
     {
       "type": "Feature",
@@ -3207,12 +2561,12 @@
         ]
       },
       "properties": {
-        "id": 188,
+        "id": 150,
         "name": "North Richmond",
         "line": "MHURS",
-        "order": 8
+        "order": 7
       },
-      "id": 188
+      "id": 150
     },
     {
       "type": "Feature",
@@ -3224,12 +2578,12 @@
         ]
       },
       "properties": {
-        "id": 189,
+        "id": 151,
         "name": "Collingwood",
         "line": "MHURS",
-        "order": 9
+        "order": 8
       },
-      "id": 189
+      "id": 151
     },
     {
       "type": "Feature",
@@ -3241,12 +2595,12 @@
         ]
       },
       "properties": {
-        "id": 190,
+        "id": 152,
         "name": "Victoria Park",
         "line": "MHURS",
-        "order": 10
+        "order": 9
       },
-      "id": 190
+      "id": 152
     },
     {
       "type": "Feature",
@@ -3258,12 +2612,12 @@
         ]
       },
       "properties": {
-        "id": 191,
+        "id": 153,
         "name": "Clifton Hill",
         "line": "MHURS",
-        "order": 11
+        "order": 10
       },
-      "id": 191
+      "id": 153
     },
     {
       "type": "Feature",
@@ -3275,12 +2629,12 @@
         ]
       },
       "properties": {
-        "id": 192,
+        "id": 154,
         "name": "Westgarth",
         "line": "MHURS",
-        "order": 12
+        "order": 11
       },
-      "id": 192
+      "id": 154
     },
     {
       "type": "Feature",
@@ -3292,12 +2646,12 @@
         ]
       },
       "properties": {
-        "id": 193,
+        "id": 155,
         "name": "Dennis",
         "line": "MHURS",
-        "order": 13
+        "order": 12
       },
-      "id": 193
+      "id": 155
     },
     {
       "type": "Feature",
@@ -3309,12 +2663,12 @@
         ]
       },
       "properties": {
-        "id": 194,
+        "id": 156,
         "name": "Fairfield",
         "line": "MHURS",
-        "order": 14
+        "order": 13
       },
-      "id": 194
+      "id": 156
     },
     {
       "type": "Feature",
@@ -3326,12 +2680,12 @@
         ]
       },
       "properties": {
-        "id": 195,
+        "id": 157,
         "name": "Alphington",
         "line": "MHURS",
-        "order": 15
+        "order": 14
       },
-      "id": 195
+      "id": 157
     },
     {
       "type": "Feature",
@@ -3343,12 +2697,12 @@
         ]
       },
       "properties": {
-        "id": 196,
+        "id": 158,
         "name": "Darebin",
         "line": "MHURS",
-        "order": 16
+        "order": 15
       },
-      "id": 196
+      "id": 158
     },
     {
       "type": "Feature",
@@ -3360,12 +2714,12 @@
         ]
       },
       "properties": {
-        "id": 197,
+        "id": 159,
         "name": "Ivanhoe",
         "line": "MHURS",
-        "order": 17
+        "order": 16
       },
-      "id": 197
+      "id": 159
     },
     {
       "type": "Feature",
@@ -3377,12 +2731,12 @@
         ]
       },
       "properties": {
-        "id": 198,
+        "id": 160,
         "name": "Eaglemont",
         "line": "MHURS",
-        "order": 18
+        "order": 17
       },
-      "id": 198
+      "id": 160
     },
     {
       "type": "Feature",
@@ -3394,12 +2748,12 @@
         ]
       },
       "properties": {
-        "id": 199,
+        "id": 161,
         "name": "Heidelberg",
         "line": "MHURS",
-        "order": 19
+        "order": 18
       },
-      "id": 199
+      "id": 161
     },
     {
       "type": "Feature",
@@ -3411,12 +2765,12 @@
         ]
       },
       "properties": {
-        "id": 200,
+        "id": 162,
         "name": "Rosanna",
         "line": "MHURS",
-        "order": 20
+        "order": 19
       },
-      "id": 200
+      "id": 162
     },
     {
       "type": "Feature",
@@ -3428,12 +2782,12 @@
         ]
       },
       "properties": {
-        "id": 201,
+        "id": 163,
         "name": "Macleod",
         "line": "MHURS",
-        "order": 21
+        "order": 20
       },
-      "id": 201
+      "id": 163
     },
     {
       "type": "Feature",
@@ -3445,12 +2799,12 @@
         ]
       },
       "properties": {
-        "id": 202,
+        "id": 164,
         "name": "Watsonia",
         "line": "MHURS",
-        "order": 22
+        "order": 21
       },
-      "id": 202
+      "id": 164
     },
     {
       "type": "Feature",
@@ -3462,12 +2816,12 @@
         ]
       },
       "properties": {
-        "id": 203,
+        "id": 165,
         "name": "Greensborough",
         "line": "MHURS",
-        "order": 23
+        "order": 22
       },
-      "id": 203
+      "id": 165
     },
     {
       "type": "Feature",
@@ -3479,12 +2833,12 @@
         ]
       },
       "properties": {
-        "id": 204,
+        "id": 166,
         "name": "Montmorency",
         "line": "MHURS",
-        "order": 24
+        "order": 23
       },
-      "id": 204
+      "id": 166
     },
     {
       "type": "Feature",
@@ -3496,12 +2850,12 @@
         ]
       },
       "properties": {
-        "id": 205,
+        "id": 167,
         "name": "Eltham",
         "line": "MHURS",
-        "order": 25
+        "order": 24
       },
-      "id": 205
+      "id": 167
     },
     {
       "type": "Feature",
@@ -3513,12 +2867,12 @@
         ]
       },
       "properties": {
-        "id": 206,
+        "id": 168,
         "name": "Diamond Creek",
         "line": "MHURS",
-        "order": 26
+        "order": 25
       },
-      "id": 206
+      "id": 168
     },
     {
       "type": "Feature",
@@ -3530,12 +2884,12 @@
         ]
       },
       "properties": {
-        "id": 207,
+        "id": 169,
         "name": "Wattle Glen",
         "line": "MHURS",
-        "order": 27
+        "order": 26
       },
-      "id": 207
+      "id": 169
     },
     {
       "type": "Feature",
@@ -3547,12 +2901,12 @@
         ]
       },
       "properties": {
-        "id": 208,
+        "id": 170,
         "name": "Hurstbridge",
         "line": "MHURS",
-        "order": 28
+        "order": 27
       },
-      "id": 208
+      "id": 170
     },
     {
       "type": "Feature",
@@ -3564,12 +2918,12 @@
         ]
       },
       "properties": {
-        "id": 209,
+        "id": 171,
         "name": "Lilydale",
         "line": "MLILY",
         "order": 0
       },
-      "id": 209
+      "id": 171
     },
     {
       "type": "Feature",
@@ -3581,12 +2935,12 @@
         ]
       },
       "properties": {
-        "id": 210,
+        "id": 172,
         "name": "Mooroolbark",
         "line": "MLILY",
         "order": 1
       },
-      "id": 210
+      "id": 172
     },
     {
       "type": "Feature",
@@ -3598,12 +2952,12 @@
         ]
       },
       "properties": {
-        "id": 211,
+        "id": 173,
         "name": "Croydon",
         "line": "MLILY",
         "order": 2
       },
-      "id": 211
+      "id": 173
     },
     {
       "type": "Feature",
@@ -3615,12 +2969,12 @@
         ]
       },
       "properties": {
-        "id": 212,
+        "id": 174,
         "name": "Ringwood East",
         "line": "MLILY",
         "order": 3
       },
-      "id": 212
+      "id": 174
     },
     {
       "type": "Feature",
@@ -3632,12 +2986,12 @@
         ]
       },
       "properties": {
-        "id": 213,
+        "id": 175,
         "name": "Ringwood",
         "line": "MLILY",
         "order": 4
       },
-      "id": 213
+      "id": 175
     },
     {
       "type": "Feature",
@@ -3649,12 +3003,12 @@
         ]
       },
       "properties": {
-        "id": 214,
+        "id": 176,
         "name": "Heatherdale",
         "line": "MLILY",
         "order": 5
       },
-      "id": 214
+      "id": 176
     },
     {
       "type": "Feature",
@@ -3666,12 +3020,12 @@
         ]
       },
       "properties": {
-        "id": 215,
+        "id": 177,
         "name": "Mitcham",
         "line": "MLILY",
         "order": 6
       },
-      "id": 215
+      "id": 177
     },
     {
       "type": "Feature",
@@ -3683,12 +3037,12 @@
         ]
       },
       "properties": {
-        "id": 216,
+        "id": 178,
         "name": "Nunawading",
         "line": "MLILY",
         "order": 7
       },
-      "id": 216
+      "id": 178
     },
     {
       "type": "Feature",
@@ -3700,12 +3054,12 @@
         ]
       },
       "properties": {
-        "id": 217,
+        "id": 179,
         "name": "Blackburn",
         "line": "MLILY",
         "order": 8
       },
-      "id": 217
+      "id": 179
     },
     {
       "type": "Feature",
@@ -3717,12 +3071,12 @@
         ]
       },
       "properties": {
-        "id": 218,
+        "id": 180,
         "name": "Laburnum",
         "line": "MLILY",
         "order": 9
       },
-      "id": 218
+      "id": 180
     },
     {
       "type": "Feature",
@@ -3734,12 +3088,12 @@
         ]
       },
       "properties": {
-        "id": 219,
+        "id": 181,
         "name": "Box Hill",
         "line": "MLILY",
         "order": 10
       },
-      "id": 219
+      "id": 181
     },
     {
       "type": "Feature",
@@ -3751,12 +3105,12 @@
         ]
       },
       "properties": {
-        "id": 220,
+        "id": 182,
         "name": "Union",
         "line": "MLILY",
         "order": 11
       },
-      "id": 220
+      "id": 182
     },
     {
       "type": "Feature",
@@ -3768,12 +3122,12 @@
         ]
       },
       "properties": {
-        "id": 221,
+        "id": 183,
         "name": "Chatham",
         "line": "MLILY",
         "order": 12
       },
-      "id": 221
+      "id": 183
     },
     {
       "type": "Feature",
@@ -3785,12 +3139,12 @@
         ]
       },
       "properties": {
-        "id": 222,
+        "id": 184,
         "name": "Canterbury",
         "line": "MLILY",
         "order": 13
       },
-      "id": 222
+      "id": 184
     },
     {
       "type": "Feature",
@@ -3802,12 +3156,12 @@
         ]
       },
       "properties": {
-        "id": 223,
+        "id": 185,
         "name": "East Camberwell",
         "line": "MLILY",
         "order": 14
       },
-      "id": 223
+      "id": 185
     },
     {
       "type": "Feature",
@@ -3819,12 +3173,12 @@
         ]
       },
       "properties": {
-        "id": 224,
+        "id": 186,
         "name": "Camberwell",
         "line": "MLILY",
         "order": 15
       },
-      "id": 224
+      "id": 186
     },
     {
       "type": "Feature",
@@ -3836,29 +3190,29 @@
         ]
       },
       "properties": {
-        "id": 225,
+        "id": 187,
         "name": "Auburn",
         "line": "MLILY",
         "order": 16
       },
-      "id": 225
+      "id": 187
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.035612,
-          -37.821325
+          145.036349,
+          -37.821378
         ]
       },
       "properties": {
-        "id": 226,
-        "name": "Stop 74: Glenferrie",
+        "id": 188,
+        "name": "Glenferrie",
         "line": "MLILY",
         "order": 17
       },
-      "id": 226
+      "id": 188
     },
     {
       "type": "Feature",
@@ -3870,29 +3224,12 @@
         ]
       },
       "properties": {
-        "id": 227,
+        "id": 189,
         "name": "Hawthorn",
         "line": "MLILY",
         "order": 18
       },
-      "id": 227
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.0366,
-          -37.821828
-        ]
-      },
-      "properties": {
-        "id": 228,
-        "name": "Glenferrie",
-        "line": "MLILY",
-        "order": 19
-      },
-      "id": 228
+      "id": 189
     },
     {
       "type": "Feature",
@@ -3904,12 +3241,29 @@
         ]
       },
       "properties": {
-        "id": 229,
+        "id": 190,
         "name": "Burnley",
+        "line": "MLILY",
+        "order": 19
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.989259,
+          -37.823927
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Richmond",
         "line": "MLILY",
         "order": 20
       },
-      "id": 229
+      "id": 191
     },
     {
       "type": "Feature",
@@ -3921,46 +3275,12 @@
         ]
       },
       "properties": {
-        "id": 230,
+        "id": 192,
         "name": "East Richmond",
         "line": "MLILY",
         "order": 21
       },
-      "id": 230
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989259,
-          -37.823927
-        ]
-      },
-      "properties": {
-        "id": 231,
-        "name": "Richmond",
-        "line": "MLILY",
-        "order": 22
-      },
-      "id": 231
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.997773,
-          -37.826629
-        ]
-      },
-      "properties": {
-        "id": 232,
-        "name": "Stop 56: East Richmond Station, Lesney Street",
-        "line": "MLILY",
-        "order": 23
-      },
-      "id": 232
+      "id": 192
     },
     {
       "type": "Feature",
@@ -3972,12 +3292,12 @@
         ]
       },
       "properties": {
-        "id": 233,
+        "id": 193,
         "name": "Parliament",
         "line": "MLILY",
-        "order": 24
+        "order": 22
       },
-      "id": 233
+      "id": 193
     },
     {
       "type": "Feature",
@@ -3989,12 +3309,12 @@
         ]
       },
       "properties": {
-        "id": 234,
+        "id": 194,
         "name": "Melbourne Central",
         "line": "MLILY",
-        "order": 25
+        "order": 23
       },
-      "id": 234
+      "id": 194
     },
     {
       "type": "Feature",
@@ -4006,12 +3326,12 @@
         ]
       },
       "properties": {
-        "id": 235,
+        "id": 195,
         "name": "Flagstaff",
         "line": "MLILY",
-        "order": 26
+        "order": 24
       },
-      "id": 235
+      "id": 195
     },
     {
       "type": "Feature",
@@ -4023,12 +3343,12 @@
         ]
       },
       "properties": {
-        "id": 236,
+        "id": 196,
         "name": "Southern Cross",
         "line": "MLILY",
-        "order": 27
+        "order": 25
       },
-      "id": 236
+      "id": 196
     },
     {
       "type": "Feature",
@@ -4040,63 +3360,29 @@
         ]
       },
       "properties": {
-        "id": 237,
+        "id": 197,
         "name": "Flinders Street",
         "line": "MLILY",
-        "order": 28
+        "order": 26
       },
-      "id": 237
+      "id": 197
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.967697,
-          -37.81805
+          144.966478,
+          -37.818416
         ]
       },
       "properties": {
-        "id": 238,
-        "name": "Stop 13: Flinders Street",
-        "line": "MLILY",
-        "order": 29
-      },
-      "id": 238
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964711,
-          -37.818239
-        ]
-      },
-      "properties": {
-        "id": 239,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
-        "line": "MLILY",
-        "order": 30
-      },
-      "id": 239
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964711,
-          -37.818239
-        ]
-      },
-      "properties": {
-        "id": 240,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
+        "id": 198,
+        "name": "Flinders Street",
         "line": "MMERN",
         "order": 0
       },
-      "id": 240
+      "id": 198
     },
     {
       "type": "Feature",
@@ -4108,12 +3394,12 @@
         ]
       },
       "properties": {
-        "id": 241,
+        "id": 199,
         "name": "Southern Cross",
         "line": "MMERN",
         "order": 1
       },
-      "id": 241
+      "id": 199
     },
     {
       "type": "Feature",
@@ -4125,12 +3411,12 @@
         ]
       },
       "properties": {
-        "id": 242,
+        "id": 200,
         "name": "Flagstaff",
         "line": "MMERN",
         "order": 2
       },
-      "id": 242
+      "id": 200
     },
     {
       "type": "Feature",
@@ -4142,12 +3428,12 @@
         ]
       },
       "properties": {
-        "id": 243,
+        "id": 201,
         "name": "Melbourne Central",
         "line": "MMERN",
         "order": 3
       },
-      "id": 243
+      "id": 201
     },
     {
       "type": "Feature",
@@ -4159,46 +3445,12 @@
         ]
       },
       "properties": {
-        "id": 244,
+        "id": 202,
         "name": "Parliament",
         "line": "MMERN",
         "order": 4
       },
-      "id": 244
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.984831,
-          -37.816298
-        ]
-      },
-      "properties": {
-        "id": 245,
-        "name": "Stop 11: Jolimont",
-        "line": "MMERN",
-        "order": 5
-      },
-      "id": 245
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.991476,
-          -37.814691
-        ]
-      },
-      "properties": {
-        "id": 246,
-        "name": "West Richmond",
-        "line": "MMERN",
-        "order": 6
-      },
-      "id": 246
+      "id": 202
     },
     {
       "type": "Feature",
@@ -4210,12 +3462,29 @@
         ]
       },
       "properties": {
-        "id": 247,
+        "id": 203,
         "name": "Jolimont",
         "line": "MMERN",
-        "order": 7
+        "order": 5
       },
-      "id": 247
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.991476,
+          -37.814691
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "West Richmond",
+        "line": "MMERN",
+        "order": 6
+      },
+      "id": 204
     },
     {
       "type": "Feature",
@@ -4227,12 +3496,12 @@
         ]
       },
       "properties": {
-        "id": 248,
+        "id": 205,
         "name": "North Richmond",
         "line": "MMERN",
-        "order": 8
+        "order": 7
       },
-      "id": 248
+      "id": 205
     },
     {
       "type": "Feature",
@@ -4244,12 +3513,12 @@
         ]
       },
       "properties": {
-        "id": 249,
+        "id": 206,
         "name": "Collingwood",
         "line": "MMERN",
-        "order": 9
+        "order": 8
       },
-      "id": 249
+      "id": 206
     },
     {
       "type": "Feature",
@@ -4261,12 +3530,12 @@
         ]
       },
       "properties": {
-        "id": 250,
+        "id": 207,
         "name": "Victoria Park",
         "line": "MMERN",
-        "order": 10
+        "order": 9
       },
-      "id": 250
+      "id": 207
     },
     {
       "type": "Feature",
@@ -4278,12 +3547,12 @@
         ]
       },
       "properties": {
-        "id": 251,
+        "id": 208,
         "name": "Clifton Hill",
         "line": "MMERN",
-        "order": 11
+        "order": 10
       },
-      "id": 251
+      "id": 208
     },
     {
       "type": "Feature",
@@ -4295,12 +3564,12 @@
         ]
       },
       "properties": {
-        "id": 252,
+        "id": 209,
         "name": "Rushall",
         "line": "MMERN",
-        "order": 12
+        "order": 11
       },
-      "id": 252
+      "id": 209
     },
     {
       "type": "Feature",
@@ -4312,12 +3581,12 @@
         ]
       },
       "properties": {
-        "id": 253,
+        "id": 210,
         "name": "Merri",
         "line": "MMERN",
-        "order": 13
+        "order": 12
       },
-      "id": 253
+      "id": 210
     },
     {
       "type": "Feature",
@@ -4329,12 +3598,12 @@
         ]
       },
       "properties": {
-        "id": 254,
+        "id": 211,
         "name": "Northcote",
         "line": "MMERN",
-        "order": 14
+        "order": 13
       },
-      "id": 254
+      "id": 211
     },
     {
       "type": "Feature",
@@ -4346,12 +3615,12 @@
         ]
       },
       "properties": {
-        "id": 255,
+        "id": 212,
         "name": "Croxton",
         "line": "MMERN",
-        "order": 15
+        "order": 14
       },
-      "id": 255
+      "id": 212
     },
     {
       "type": "Feature",
@@ -4363,12 +3632,12 @@
         ]
       },
       "properties": {
-        "id": 256,
+        "id": 213,
         "name": "Thornbury",
         "line": "MMERN",
-        "order": 16
+        "order": 15
       },
-      "id": 256
+      "id": 213
     },
     {
       "type": "Feature",
@@ -4380,12 +3649,12 @@
         ]
       },
       "properties": {
-        "id": 257,
+        "id": 214,
         "name": "Bell",
         "line": "MMERN",
-        "order": 17
+        "order": 16
       },
-      "id": 257
+      "id": 214
     },
     {
       "type": "Feature",
@@ -4397,12 +3666,12 @@
         ]
       },
       "properties": {
-        "id": 258,
+        "id": 215,
         "name": "Preston",
         "line": "MMERN",
-        "order": 18
+        "order": 17
       },
-      "id": 258
+      "id": 215
     },
     {
       "type": "Feature",
@@ -4414,12 +3683,12 @@
         ]
       },
       "properties": {
-        "id": 259,
+        "id": 216,
         "name": "Regent",
         "line": "MMERN",
-        "order": 19
+        "order": 18
       },
-      "id": 259
+      "id": 216
     },
     {
       "type": "Feature",
@@ -4431,12 +3700,12 @@
         ]
       },
       "properties": {
-        "id": 260,
+        "id": 217,
         "name": "Reservoir",
         "line": "MMERN",
-        "order": 20
+        "order": 19
       },
-      "id": 260
+      "id": 217
     },
     {
       "type": "Feature",
@@ -4448,12 +3717,12 @@
         ]
       },
       "properties": {
-        "id": 261,
+        "id": 218,
         "name": "Ruthven",
         "line": "MMERN",
-        "order": 21
+        "order": 20
       },
-      "id": 261
+      "id": 218
     },
     {
       "type": "Feature",
@@ -4465,12 +3734,12 @@
         ]
       },
       "properties": {
-        "id": 262,
+        "id": 219,
         "name": "Keon Park",
         "line": "MMERN",
-        "order": 22
+        "order": 21
       },
-      "id": 262
+      "id": 219
     },
     {
       "type": "Feature",
@@ -4482,12 +3751,12 @@
         ]
       },
       "properties": {
-        "id": 263,
+        "id": 220,
         "name": "Thomastown",
         "line": "MMERN",
-        "order": 23
+        "order": 22
       },
-      "id": 263
+      "id": 220
     },
     {
       "type": "Feature",
@@ -4499,12 +3768,12 @@
         ]
       },
       "properties": {
-        "id": 264,
+        "id": 221,
         "name": "Lalor",
         "line": "MMERN",
-        "order": 24
+        "order": 23
       },
-      "id": 264
+      "id": 221
     },
     {
       "type": "Feature",
@@ -4516,12 +3785,12 @@
         ]
       },
       "properties": {
-        "id": 265,
+        "id": 222,
         "name": "Epping",
         "line": "MMERN",
-        "order": 25
+        "order": 24
       },
-      "id": 265
+      "id": 222
     },
     {
       "type": "Feature",
@@ -4533,12 +3802,12 @@
         ]
       },
       "properties": {
-        "id": 266,
+        "id": 223,
         "name": "South Morang",
         "line": "MMERN",
-        "order": 26
+        "order": 25
       },
-      "id": 266
+      "id": 223
     },
     {
       "type": "Feature",
@@ -4550,12 +3819,12 @@
         ]
       },
       "properties": {
-        "id": 267,
+        "id": 224,
         "name": "Middle Gorge",
         "line": "MMERN",
-        "order": 27
+        "order": 26
       },
-      "id": 267
+      "id": 224
     },
     {
       "type": "Feature",
@@ -4567,12 +3836,12 @@
         ]
       },
       "properties": {
-        "id": 268,
+        "id": 225,
         "name": "Hawkstowe",
         "line": "MMERN",
-        "order": 28
+        "order": 27
       },
-      "id": 268
+      "id": 225
     },
     {
       "type": "Feature",
@@ -4584,216 +3853,12 @@
         ]
       },
       "properties": {
-        "id": 269,
+        "id": 226,
         "name": "Mernda",
         "line": "MMERN",
-        "order": 29
+        "order": 28
       },
-      "id": 269
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.727983,
-          -37.579136
-        ]
-      },
-      "properties": {
-        "id": 270,
-        "name": "Sunbury",
-        "line": "MPAKE",
-        "order": 0
-      },
-      "id": 270
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.720008,
-          -37.627599
-        ]
-      },
-      "properties": {
-        "id": 271,
-        "name": "Diggers Rest",
-        "line": "MPAKE",
-        "order": 1
-      },
-      "id": 271
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.773809,
-          -37.700781
-        ]
-      },
-      "properties": {
-        "id": 272,
-        "name": "Watergardens",
-        "line": "MPAKE",
-        "order": 2
-      },
-      "id": 272
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.793814,
-          -37.729564
-        ]
-      },
-      "properties": {
-        "id": 273,
-        "name": "Keilor Plains",
-        "line": "MPAKE",
-        "order": 3
-      },
-      "id": 273
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.799639,
-          -37.744535
-        ]
-      },
-      "properties": {
-        "id": 274,
-        "name": "St Albans",
-        "line": "MPAKE",
-        "order": 4
-      },
-      "id": 274
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.811244,
-          -37.76001
-        ]
-      },
-      "properties": {
-        "id": 275,
-        "name": "Ginifer",
-        "line": "MPAKE",
-        "order": 5
-      },
-      "id": 275
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.824377,
-          -37.777206
-        ]
-      },
-      "properties": {
-        "id": 276,
-        "name": "Albion",
-        "line": "MPAKE",
-        "order": 6
-      },
-      "id": 276
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.832782,
-          -37.788578
-        ]
-      },
-      "properties": {
-        "id": 277,
-        "name": "Sunshine",
-        "line": "MPAKE",
-        "order": 7
-      },
-      "id": 277
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.863206,
-          -37.799268
-        ]
-      },
-      "properties": {
-        "id": 278,
-        "name": "Tottenham",
-        "line": "MPAKE",
-        "order": 8
-      },
-      "id": 278
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.884242,
-          -37.801738
-        ]
-      },
-      "properties": {
-        "id": 279,
-        "name": "West Footscray",
-        "line": "MPAKE",
-        "order": 9
-      },
-      "id": 279
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.89141,
-          -37.802535
-        ]
-      },
-      "properties": {
-        "id": 280,
-        "name": "Middle Footscray",
-        "line": "MPAKE",
-        "order": 10
-      },
-      "id": 280
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.902241,
-          -37.801432
-        ]
-      },
-      "properties": {
-        "id": 281,
-        "name": "Footscray",
-        "line": "MPAKE",
-        "order": 11
-      },
-      "id": 281
+      "id": 226
     },
     {
       "type": "Feature",
@@ -4805,12 +3870,12 @@
         ]
       },
       "properties": {
-        "id": 282,
+        "id": 227,
         "name": "Arden",
         "line": "MPAKE",
-        "order": 12
+        "order": 0
       },
-      "id": 282
+      "id": 227
     },
     {
       "type": "Feature",
@@ -4822,12 +3887,12 @@
         ]
       },
       "properties": {
-        "id": 283,
+        "id": 228,
         "name": "Parkville",
         "line": "MPAKE",
-        "order": 13
+        "order": 1
       },
-      "id": 283
+      "id": 228
     },
     {
       "type": "Feature",
@@ -4839,12 +3904,12 @@
         ]
       },
       "properties": {
-        "id": 284,
+        "id": 229,
         "name": "State Library",
         "line": "MPAKE",
-        "order": 14
+        "order": 2
       },
-      "id": 284
+      "id": 229
     },
     {
       "type": "Feature",
@@ -4856,12 +3921,12 @@
         ]
       },
       "properties": {
-        "id": 285,
+        "id": 230,
         "name": "Town Hall",
         "line": "MPAKE",
-        "order": 15
+        "order": 3
       },
-      "id": 285
+      "id": 230
     },
     {
       "type": "Feature",
@@ -4873,46 +3938,12 @@
         ]
       },
       "properties": {
-        "id": 286,
+        "id": 231,
         "name": "Anzac",
         "line": "MPAKE",
-        "order": 16
+        "order": 4
       },
-      "id": 286
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.966653,
-          -37.815782
-        ]
-      },
-      "properties": {
-        "id": 287,
-        "name": "Stop 11: Collins Street",
-        "line": "MPAKE",
-        "order": 17
-      },
-      "id": 287
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.962967,
-          -37.807767
-        ]
-      },
-      "properties": {
-        "id": 288,
-        "name": "Stop 7: RMIT University",
-        "line": "MPAKE",
-        "order": 18
-      },
-      "id": 288
+      "id": 231
     },
     {
       "type": "Feature",
@@ -4924,12 +3955,12 @@
         ]
       },
       "properties": {
-        "id": 289,
+        "id": 232,
         "name": "Malvern",
         "line": "MPAKE",
-        "order": 19
+        "order": 5
       },
-      "id": 289
+      "id": 232
     },
     {
       "type": "Feature",
@@ -4941,12 +3972,12 @@
         ]
       },
       "properties": {
-        "id": 290,
+        "id": 233,
         "name": "Caulfield",
         "line": "MPAKE",
-        "order": 20
+        "order": 6
       },
-      "id": 290
+      "id": 233
     },
     {
       "type": "Feature",
@@ -4958,29 +3989,12 @@
         ]
       },
       "properties": {
-        "id": 291,
+        "id": 234,
         "name": "Carnegie",
         "line": "MPAKE",
-        "order": 21
+        "order": 7
       },
-      "id": 291
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.041775,
-          -37.876379
-        ]
-      },
-      "properties": {
-        "id": 292,
-        "name": "Stop 57: Caulfield",
-        "line": "MPAKE",
-        "order": 22
-      },
-      "id": 292
+      "id": 234
     },
     {
       "type": "Feature",
@@ -4992,12 +4006,12 @@
         ]
       },
       "properties": {
-        "id": 293,
+        "id": 235,
         "name": "Murrumbeena",
         "line": "MPAKE",
-        "order": 23
+        "order": 8
       },
-      "id": 293
+      "id": 235
     },
     {
       "type": "Feature",
@@ -5009,12 +4023,12 @@
         ]
       },
       "properties": {
-        "id": 294,
+        "id": 236,
         "name": "Hughesdale",
         "line": "MPAKE",
-        "order": 24
+        "order": 9
       },
-      "id": 294
+      "id": 236
     },
     {
       "type": "Feature",
@@ -5026,12 +4040,12 @@
         ]
       },
       "properties": {
-        "id": 295,
+        "id": 237,
         "name": "Oakleigh",
         "line": "MPAKE",
-        "order": 25
+        "order": 10
       },
-      "id": 295
+      "id": 237
     },
     {
       "type": "Feature",
@@ -5043,12 +4057,12 @@
         ]
       },
       "properties": {
-        "id": 296,
+        "id": 238,
         "name": "Huntingdale",
         "line": "MPAKE",
-        "order": 26
+        "order": 11
       },
-      "id": 296
+      "id": 238
     },
     {
       "type": "Feature",
@@ -5060,12 +4074,12 @@
         ]
       },
       "properties": {
-        "id": 297,
+        "id": 239,
         "name": "Clayton",
         "line": "MPAKE",
-        "order": 27
+        "order": 12
       },
-      "id": 297
+      "id": 239
     },
     {
       "type": "Feature",
@@ -5077,12 +4091,12 @@
         ]
       },
       "properties": {
-        "id": 298,
+        "id": 240,
         "name": "Westall",
         "line": "MPAKE",
-        "order": 28
+        "order": 13
       },
-      "id": 298
+      "id": 240
     },
     {
       "type": "Feature",
@@ -5094,12 +4108,12 @@
         ]
       },
       "properties": {
-        "id": 299,
+        "id": 241,
         "name": "Springvale",
         "line": "MPAKE",
-        "order": 29
+        "order": 14
       },
-      "id": 299
+      "id": 241
     },
     {
       "type": "Feature",
@@ -5111,12 +4125,12 @@
         ]
       },
       "properties": {
-        "id": 300,
+        "id": 242,
         "name": "Sandown Park",
         "line": "MPAKE",
-        "order": 30
+        "order": 15
       },
-      "id": 300
+      "id": 242
     },
     {
       "type": "Feature",
@@ -5128,12 +4142,12 @@
         ]
       },
       "properties": {
-        "id": 301,
+        "id": 243,
         "name": "Noble Park",
         "line": "MPAKE",
-        "order": 31
+        "order": 16
       },
-      "id": 301
+      "id": 243
     },
     {
       "type": "Feature",
@@ -5145,12 +4159,12 @@
         ]
       },
       "properties": {
-        "id": 302,
+        "id": 244,
         "name": "Yarraman",
         "line": "MPAKE",
-        "order": 32
+        "order": 17
       },
-      "id": 302
+      "id": 244
     },
     {
       "type": "Feature",
@@ -5162,12 +4176,12 @@
         ]
       },
       "properties": {
-        "id": 303,
+        "id": 245,
         "name": "Dandenong",
         "line": "MPAKE",
-        "order": 33
+        "order": 18
       },
-      "id": 303
+      "id": 245
     },
     {
       "type": "Feature",
@@ -5179,12 +4193,12 @@
         ]
       },
       "properties": {
-        "id": 304,
+        "id": 246,
         "name": "Hallam",
         "line": "MPAKE",
-        "order": 34
+        "order": 19
       },
-      "id": 304
+      "id": 246
     },
     {
       "type": "Feature",
@@ -5196,12 +4210,12 @@
         ]
       },
       "properties": {
-        "id": 305,
+        "id": 247,
         "name": "Narre Warren",
         "line": "MPAKE",
-        "order": 35
+        "order": 20
       },
-      "id": 305
+      "id": 247
     },
     {
       "type": "Feature",
@@ -5213,12 +4227,12 @@
         ]
       },
       "properties": {
-        "id": 306,
+        "id": 248,
         "name": "Berwick",
         "line": "MPAKE",
-        "order": 36
+        "order": 21
       },
-      "id": 306
+      "id": 248
     },
     {
       "type": "Feature",
@@ -5230,12 +4244,12 @@
         ]
       },
       "properties": {
-        "id": 307,
+        "id": 249,
         "name": "Beaconsfield",
         "line": "MPAKE",
-        "order": 37
+        "order": 22
       },
-      "id": 307
+      "id": 249
     },
     {
       "type": "Feature",
@@ -5247,12 +4261,12 @@
         ]
       },
       "properties": {
-        "id": 308,
+        "id": 250,
         "name": "Officer",
         "line": "MPAKE",
-        "order": 38
+        "order": 23
       },
-      "id": 308
+      "id": 250
     },
     {
       "type": "Feature",
@@ -5264,12 +4278,12 @@
         ]
       },
       "properties": {
-        "id": 309,
+        "id": 251,
         "name": "Cardinia Road",
         "line": "MPAKE",
-        "order": 39
+        "order": 24
       },
-      "id": 309
+      "id": 251
     },
     {
       "type": "Feature",
@@ -5281,12 +4295,12 @@
         ]
       },
       "properties": {
-        "id": 310,
+        "id": 252,
         "name": "Pakenham",
         "line": "MPAKE",
-        "order": 40
+        "order": 25
       },
-      "id": 310
+      "id": 252
     },
     {
       "type": "Feature",
@@ -5298,318 +4312,29 @@
         ]
       },
       "properties": {
-        "id": 311,
+        "id": 253,
         "name": "East Pakenham",
         "line": "MPAKE",
-        "order": 41
+        "order": 26
       },
-      "id": 311
+      "id": 253
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.99237,
-          -37.838101
+          144.966478,
+          -37.818416
         ]
       },
       "properties": {
-        "id": 312,
-        "name": "South Yarra",
-        "line": "MPAKE",
-        "order": 42
-      },
-      "id": 312
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.660904,
-          -37.899501
-        ]
-      },
-      "properties": {
-        "id": 313,
-        "name": "Werribee",
+        "id": 254,
+        "name": "Flinders Street",
         "line": "MSAND",
         "order": 0
       },
-      "id": 313
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.701088,
-          -37.883231
-        ]
-      },
-      "properties": {
-        "id": 314,
-        "name": "Hoppers Crossing",
-        "line": "MSAND",
-        "order": 1
-      },
-      "id": 314
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.746964,
-          -37.870044
-        ]
-      },
-      "properties": {
-        "id": 315,
-        "name": "Williams Landing",
-        "line": "MSAND",
-        "order": 2
-      },
-      "id": 315
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.760725,
-          -37.8666
-        ]
-      },
-      "properties": {
-        "id": 316,
-        "name": "Aircraft",
-        "line": "MSAND",
-        "order": 3
-      },
-      "id": 316
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.772349,
-          -37.863798
-        ]
-      },
-      "properties": {
-        "id": 317,
-        "name": "Laverton",
-        "line": "MSAND",
-        "order": 4
-      },
-      "id": 317
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.813506,
-          -37.865146
-        ]
-      },
-      "properties": {
-        "id": 318,
-        "name": "Westona",
-        "line": "MSAND",
-        "order": 5
-      },
-      "id": 318
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.829528,
-          -37.86718
-        ]
-      },
-      "properties": {
-        "id": 319,
-        "name": "Altona",
-        "line": "MSAND",
-        "order": 6
-      },
-      "id": 319
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.84107,
-          -37.867873
-        ]
-      },
-      "properties": {
-        "id": 320,
-        "name": "Seaholme",
-        "line": "MSAND",
-        "order": 7
-      },
-      "id": 320
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.883573,
-          -37.842459
-        ]
-      },
-      "properties": {
-        "id": 321,
-        "name": "Newport",
-        "line": "MSAND",
-        "order": 8
-      },
-      "id": 321
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.885912,
-          -37.83073
-        ]
-      },
-      "properties": {
-        "id": 322,
-        "name": "Spotswood",
-        "line": "MSAND",
-        "order": 9
-      },
-      "id": 322
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.890008,
-          -37.815738
-        ]
-      },
-      "properties": {
-        "id": 323,
-        "name": "Yarraville",
-        "line": "MSAND",
-        "order": 10
-      },
-      "id": 323
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.895644,
-          -37.809037
-        ]
-      },
-      "properties": {
-        "id": 324,
-        "name": "Seddon",
-        "line": "MSAND",
-        "order": 11
-      },
-      "id": 324
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.902241,
-          -37.801432
-        ]
-      },
-      "properties": {
-        "id": 325,
-        "name": "Footscray",
-        "line": "MSAND",
-        "order": 12
-      },
-      "id": 325
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.924842,
-          -37.799508
-        ]
-      },
-      "properties": {
-        "id": 326,
-        "name": "South Kensington",
-        "line": "MSAND",
-        "order": 13
-      },
-      "id": 326
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.942351,
-          -37.807609
-        ]
-      },
-      "properties": {
-        "id": 327,
-        "name": "North Melbourne",
-        "line": "MSAND",
-        "order": 14
-      },
-      "id": 327
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.952373,
-          -37.818375
-        ]
-      },
-      "properties": {
-        "id": 328,
-        "name": "Southern Cross",
-        "line": "MSAND",
-        "order": 15
-      },
-      "id": 328
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967923,
-          -37.81845
-        ]
-      },
-      "properties": {
-        "id": 329,
-        "name": "Stop 13: Flinders Street",
-        "line": "MSAND",
-        "order": 16
-      },
-      "id": 329
+      "id": 254
     },
     {
       "type": "Feature",
@@ -5621,29 +4346,12 @@
         ]
       },
       "properties": {
-        "id": 330,
+        "id": 255,
         "name": "Richmond",
         "line": "MSAND",
-        "order": 17
+        "order": 1
       },
-      "id": 330
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964403,
-          -37.818365
-        ]
-      },
-      "properties": {
-        "id": 331,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
-        "line": "MSAND",
-        "order": 18
-      },
-      "id": 331
+      "id": 255
     },
     {
       "type": "Feature",
@@ -5655,12 +4363,12 @@
         ]
       },
       "properties": {
-        "id": 332,
+        "id": 256,
         "name": "South Yarra",
         "line": "MSAND",
-        "order": 19
+        "order": 2
       },
-      "id": 332
+      "id": 256
     },
     {
       "type": "Feature",
@@ -5672,12 +4380,12 @@
         ]
       },
       "properties": {
-        "id": 333,
+        "id": 257,
         "name": "Prahran",
         "line": "MSAND",
-        "order": 20
+        "order": 3
       },
-      "id": 333
+      "id": 257
     },
     {
       "type": "Feature",
@@ -5689,12 +4397,12 @@
         ]
       },
       "properties": {
-        "id": 334,
+        "id": 258,
         "name": "Windsor",
         "line": "MSAND",
-        "order": 21
+        "order": 4
       },
-      "id": 334
+      "id": 258
     },
     {
       "type": "Feature",
@@ -5706,12 +4414,12 @@
         ]
       },
       "properties": {
-        "id": 335,
+        "id": 259,
         "name": "Balaclava",
         "line": "MSAND",
-        "order": 22
+        "order": 5
       },
-      "id": 335
+      "id": 259
     },
     {
       "type": "Feature",
@@ -5723,12 +4431,12 @@
         ]
       },
       "properties": {
-        "id": 336,
+        "id": 260,
         "name": "Ripponlea",
         "line": "MSAND",
-        "order": 23
+        "order": 6
       },
-      "id": 336
+      "id": 260
     },
     {
       "type": "Feature",
@@ -5740,12 +4448,12 @@
         ]
       },
       "properties": {
-        "id": 337,
+        "id": 261,
         "name": "Elsternwick",
         "line": "MSAND",
-        "order": 24
+        "order": 7
       },
-      "id": 337
+      "id": 261
     },
     {
       "type": "Feature",
@@ -5757,12 +4465,12 @@
         ]
       },
       "properties": {
-        "id": 338,
+        "id": 262,
         "name": "Gardenvale",
         "line": "MSAND",
-        "order": 25
+        "order": 8
       },
-      "id": 338
+      "id": 262
     },
     {
       "type": "Feature",
@@ -5774,12 +4482,12 @@
         ]
       },
       "properties": {
-        "id": 339,
+        "id": 263,
         "name": "North Brighton",
         "line": "MSAND",
-        "order": 26
+        "order": 9
       },
-      "id": 339
+      "id": 263
     },
     {
       "type": "Feature",
@@ -5791,12 +4499,12 @@
         ]
       },
       "properties": {
-        "id": 340,
+        "id": 264,
         "name": "Middle Brighton",
         "line": "MSAND",
-        "order": 27
+        "order": 10
       },
-      "id": 340
+      "id": 264
     },
     {
       "type": "Feature",
@@ -5808,12 +4516,12 @@
         ]
       },
       "properties": {
-        "id": 341,
+        "id": 265,
         "name": "Brighton Beach",
         "line": "MSAND",
-        "order": 28
+        "order": 11
       },
-      "id": 341
+      "id": 265
     },
     {
       "type": "Feature",
@@ -5825,12 +4533,12 @@
         ]
       },
       "properties": {
-        "id": 342,
+        "id": 266,
         "name": "Hampton",
         "line": "MSAND",
-        "order": 29
+        "order": 12
       },
-      "id": 342
+      "id": 266
     },
     {
       "type": "Feature",
@@ -5838,67 +4546,16 @@
         "type": "Point",
         "coordinates": [
           145.004387,
-          -37.950258
+          -37.950259
         ]
       },
       "properties": {
-        "id": 343,
+        "id": 267,
         "name": "Sandringham",
         "line": "MSAND",
-        "order": 30
+        "order": 13
       },
-      "id": 343
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.905357,
-          -37.867646
-        ]
-      },
-      "properties": {
-        "id": 344,
-        "name": "Williamstown",
-        "line": "MSAND",
-        "order": 31
-      },
-      "id": 344
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.894455,
-          -37.863951
-        ]
-      },
-      "properties": {
-        "id": 345,
-        "name": "Williamstown Beach",
-        "line": "MSAND",
-        "order": 32
-      },
-      "id": 345
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.888994,
-          -37.857013
-        ]
-      },
-      "properties": {
-        "id": 346,
-        "name": "North Williamstown",
-        "line": "MSAND",
-        "order": 33
-      },
-      "id": 346
+      "id": 267
     },
     {
       "type": "Feature",
@@ -5910,12 +4567,12 @@
         ]
       },
       "properties": {
-        "id": 347,
+        "id": 268,
         "name": "Stony Point",
         "line": "MSTON",
         "order": 0
       },
-      "id": 347
+      "id": 268
     },
     {
       "type": "Feature",
@@ -5927,12 +4584,12 @@
         ]
       },
       "properties": {
-        "id": 348,
+        "id": 269,
         "name": "Crib Point",
         "line": "MSTON",
         "order": 1
       },
-      "id": 348
+      "id": 269
     },
     {
       "type": "Feature",
@@ -5944,12 +4601,12 @@
         ]
       },
       "properties": {
-        "id": 349,
+        "id": 270,
         "name": "Morradoo",
         "line": "MSTON",
         "order": 2
       },
-      "id": 349
+      "id": 270
     },
     {
       "type": "Feature",
@@ -5961,12 +4618,12 @@
         ]
       },
       "properties": {
-        "id": 350,
+        "id": 271,
         "name": "Bittern",
         "line": "MSTON",
         "order": 3
       },
-      "id": 350
+      "id": 271
     },
     {
       "type": "Feature",
@@ -5978,12 +4635,12 @@
         ]
       },
       "properties": {
-        "id": 351,
+        "id": 272,
         "name": "Hastings",
         "line": "MSTON",
         "order": 4
       },
-      "id": 351
+      "id": 272
     },
     {
       "type": "Feature",
@@ -5995,12 +4652,12 @@
         ]
       },
       "properties": {
-        "id": 352,
+        "id": 273,
         "name": "Tyabb",
         "line": "MSTON",
         "order": 5
       },
-      "id": 352
+      "id": 273
     },
     {
       "type": "Feature",
@@ -6012,12 +4669,12 @@
         ]
       },
       "properties": {
-        "id": 353,
+        "id": 274,
         "name": "Somerville",
         "line": "MSTON",
         "order": 6
       },
-      "id": 353
+      "id": 274
     },
     {
       "type": "Feature",
@@ -6029,12 +4686,12 @@
         ]
       },
       "properties": {
-        "id": 354,
+        "id": 275,
         "name": "Baxter",
         "line": "MSTON",
         "order": 7
       },
-      "id": 354
+      "id": 275
     },
     {
       "type": "Feature",
@@ -6046,12 +4703,12 @@
         ]
       },
       "properties": {
-        "id": 355,
+        "id": 276,
         "name": "Leawarra",
         "line": "MSTON",
         "order": 8
       },
-      "id": 355
+      "id": 276
     },
     {
       "type": "Feature",
@@ -6063,12 +4720,12 @@
         ]
       },
       "properties": {
-        "id": 356,
+        "id": 277,
         "name": "Frankston",
         "line": "MSTON",
         "order": 9
       },
-      "id": 356
+      "id": 277
     },
     {
       "type": "Feature",
@@ -6080,12 +4737,12 @@
         ]
       },
       "properties": {
-        "id": 357,
+        "id": 278,
         "name": "Sunbury",
         "line": "MSUNB",
         "order": 0
       },
-      "id": 357
+      "id": 278
     },
     {
       "type": "Feature",
@@ -6097,12 +4754,12 @@
         ]
       },
       "properties": {
-        "id": 358,
+        "id": 279,
         "name": "Diggers Rest",
         "line": "MSUNB",
         "order": 1
       },
-      "id": 358
+      "id": 279
     },
     {
       "type": "Feature",
@@ -6114,12 +4771,12 @@
         ]
       },
       "properties": {
-        "id": 359,
+        "id": 280,
         "name": "Watergardens",
         "line": "MSUNB",
         "order": 2
       },
-      "id": 359
+      "id": 280
     },
     {
       "type": "Feature",
@@ -6131,12 +4788,12 @@
         ]
       },
       "properties": {
-        "id": 360,
+        "id": 281,
         "name": "Keilor Plains",
         "line": "MSUNB",
         "order": 3
       },
-      "id": 360
+      "id": 281
     },
     {
       "type": "Feature",
@@ -6148,12 +4805,12 @@
         ]
       },
       "properties": {
-        "id": 361,
+        "id": 282,
         "name": "St Albans",
         "line": "MSUNB",
         "order": 4
       },
-      "id": 361
+      "id": 282
     },
     {
       "type": "Feature",
@@ -6165,12 +4822,12 @@
         ]
       },
       "properties": {
-        "id": 362,
+        "id": 283,
         "name": "Ginifer",
         "line": "MSUNB",
         "order": 5
       },
-      "id": 362
+      "id": 283
     },
     {
       "type": "Feature",
@@ -6182,12 +4839,12 @@
         ]
       },
       "properties": {
-        "id": 363,
+        "id": 284,
         "name": "Albion",
         "line": "MSUNB",
         "order": 6
       },
-      "id": 363
+      "id": 284
     },
     {
       "type": "Feature",
@@ -6199,12 +4856,12 @@
         ]
       },
       "properties": {
-        "id": 364,
+        "id": 285,
         "name": "Sunshine",
         "line": "MSUNB",
         "order": 7
       },
-      "id": 364
+      "id": 285
     },
     {
       "type": "Feature",
@@ -6216,29 +4873,29 @@
         ]
       },
       "properties": {
-        "id": 365,
+        "id": 286,
         "name": "Tottenham",
         "line": "MSUNB",
         "order": 8
       },
-      "id": 365
+      "id": 286
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.884242,
-          -37.801738
+          144.884102,
+          -37.801739
         ]
       },
       "properties": {
-        "id": 366,
+        "id": 287,
         "name": "West Footscray",
         "line": "MSUNB",
         "order": 9
       },
-      "id": 366
+      "id": 287
     },
     {
       "type": "Feature",
@@ -6250,12 +4907,12 @@
         ]
       },
       "properties": {
-        "id": 367,
+        "id": 288,
         "name": "Middle Footscray",
         "line": "MSUNB",
         "order": 10
       },
-      "id": 367
+      "id": 288
     },
     {
       "type": "Feature",
@@ -6267,12 +4924,12 @@
         ]
       },
       "properties": {
-        "id": 368,
+        "id": 289,
         "name": "Footscray",
         "line": "MSUNB",
         "order": 11
       },
-      "id": 368
+      "id": 289
     },
     {
       "type": "Feature",
@@ -6284,12 +4941,12 @@
         ]
       },
       "properties": {
-        "id": 369,
+        "id": 290,
         "name": "Arden",
         "line": "MSUNB",
         "order": 12
       },
-      "id": 369
+      "id": 290
     },
     {
       "type": "Feature",
@@ -6301,12 +4958,12 @@
         ]
       },
       "properties": {
-        "id": 370,
+        "id": 291,
         "name": "Parkville",
         "line": "MSUNB",
         "order": 13
       },
-      "id": 370
+      "id": 291
     },
     {
       "type": "Feature",
@@ -6318,12 +4975,12 @@
         ]
       },
       "properties": {
-        "id": 371,
+        "id": 292,
         "name": "State Library",
         "line": "MSUNB",
         "order": 14
       },
-      "id": 371
+      "id": 292
     },
     {
       "type": "Feature",
@@ -6335,12 +4992,12 @@
         ]
       },
       "properties": {
-        "id": 372,
+        "id": 293,
         "name": "Town Hall",
         "line": "MSUNB",
         "order": 15
       },
-      "id": 372
+      "id": 293
     },
     {
       "type": "Feature",
@@ -6352,437 +5009,12 @@
         ]
       },
       "properties": {
-        "id": 373,
+        "id": 294,
         "name": "Anzac",
         "line": "MSUNB",
         "order": 16
       },
-      "id": 373
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.966653,
-          -37.815782
-        ]
-      },
-      "properties": {
-        "id": 374,
-        "name": "Stop 11: Collins Street",
-        "line": "MSUNB",
-        "order": 17
-      },
-      "id": 374
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.962967,
-          -37.807767
-        ]
-      },
-      "properties": {
-        "id": 375,
-        "name": "Stop 7: RMIT University",
-        "line": "MSUNB",
-        "order": 18
-      },
-      "id": 375
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.029464,
-          -37.866342
-        ]
-      },
-      "properties": {
-        "id": 376,
-        "name": "Malvern",
-        "line": "MSUNB",
-        "order": 19
-      },
-      "id": 376
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.042381,
-          -37.877321
-        ]
-      },
-      "properties": {
-        "id": 377,
-        "name": "Caulfield",
-        "line": "MSUNB",
-        "order": 20
-      },
-      "id": 377
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.058725,
-          -37.8863
-        ]
-      },
-      "properties": {
-        "id": 378,
-        "name": "Carnegie",
-        "line": "MSUNB",
-        "order": 21
-      },
-      "id": 378
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.041775,
-          -37.876379
-        ]
-      },
-      "properties": {
-        "id": 379,
-        "name": "Stop 57: Caulfield",
-        "line": "MSUNB",
-        "order": 22
-      },
-      "id": 379
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.067474,
-          -37.890249
-        ]
-      },
-      "properties": {
-        "id": 380,
-        "name": "Murrumbeena",
-        "line": "MSUNB",
-        "order": 23
-      },
-      "id": 380
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.075809,
-          -37.893997
-        ]
-      },
-      "properties": {
-        "id": 381,
-        "name": "Hughesdale",
-        "line": "MSUNB",
-        "order": 24
-      },
-      "id": 381
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.088594,
-          -37.900597
-        ]
-      },
-      "properties": {
-        "id": 382,
-        "name": "Oakleigh",
-        "line": "MSUNB",
-        "order": 25
-      },
-      "id": 382
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.102135,
-          -37.910836
-        ]
-      },
-      "properties": {
-        "id": 383,
-        "name": "Huntingdale",
-        "line": "MSUNB",
-        "order": 26
-      },
-      "id": 383
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.120688,
-          -37.924623
-        ]
-      },
-      "properties": {
-        "id": 384,
-        "name": "Clayton",
-        "line": "MSUNB",
-        "order": 27
-      },
-      "id": 384
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.137983,
-          -37.937774
-        ]
-      },
-      "properties": {
-        "id": 385,
-        "name": "Westall",
-        "line": "MSUNB",
-        "order": 28
-      },
-      "id": 385
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.153784,
-          -37.949591
-        ]
-      },
-      "properties": {
-        "id": 386,
-        "name": "Springvale",
-        "line": "MSUNB",
-        "order": 29
-      },
-      "id": 386
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.16281,
-          -37.956513
-        ]
-      },
-      "properties": {
-        "id": 387,
-        "name": "Sandown Park",
-        "line": "MSUNB",
-        "order": 30
-      },
-      "id": 387
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.176149,
-          -37.966468
-        ]
-      },
-      "properties": {
-        "id": 388,
-        "name": "Noble Park",
-        "line": "MSUNB",
-        "order": 31
-      },
-      "id": 388
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.190973,
-          -37.977657
-        ]
-      },
-      "properties": {
-        "id": 389,
-        "name": "Yarraman",
-        "line": "MSUNB",
-        "order": 32
-      },
-      "id": 389
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.209756,
-          -37.990073
-        ]
-      },
-      "properties": {
-        "id": 390,
-        "name": "Dandenong",
-        "line": "MSUNB",
-        "order": 33
-      },
-      "id": 390
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.270316,
-          -38.017957
-        ]
-      },
-      "properties": {
-        "id": 391,
-        "name": "Hallam",
-        "line": "MSUNB",
-        "order": 34
-      },
-      "id": 391
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.3039,
-          -38.027602
-        ]
-      },
-      "properties": {
-        "id": 392,
-        "name": "Narre Warren",
-        "line": "MSUNB",
-        "order": 35
-      },
-      "id": 392
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.345307,
-          -38.040107
-        ]
-      },
-      "properties": {
-        "id": 393,
-        "name": "Berwick",
-        "line": "MSUNB",
-        "order": 36
-      },
-      "id": 393
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.366509,
-          -38.051086
-        ]
-      },
-      "properties": {
-        "id": 394,
-        "name": "Beaconsfield",
-        "line": "MSUNB",
-        "order": 37
-      },
-      "id": 394
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.411707,
-          -38.066296
-        ]
-      },
-      "properties": {
-        "id": 395,
-        "name": "Officer",
-        "line": "MSUNB",
-        "order": 38
-      },
-      "id": 395
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.437637,
-          -38.07128
-        ]
-      },
-      "properties": {
-        "id": 396,
-        "name": "Cardinia Road",
-        "line": "MSUNB",
-        "order": 39
-      },
-      "id": 396
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.486322,
-          -38.080628
-        ]
-      },
-      "properties": {
-        "id": 397,
-        "name": "Pakenham",
-        "line": "MSUNB",
-        "order": 40
-      },
-      "id": 397
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.506738,
-          -38.084325
-        ]
-      },
-      "properties": {
-        "id": 398,
-        "name": "East Pakenham",
-        "line": "MSUNB",
-        "order": 41
-      },
-      "id": 398
+      "id": 294
     },
     {
       "type": "Feature",
@@ -6794,12 +5026,12 @@
         ]
       },
       "properties": {
-        "id": 399,
+        "id": 295,
         "name": "Upfield",
         "line": "MUPFI",
         "order": 0
       },
-      "id": 399
+      "id": 295
     },
     {
       "type": "Feature",
@@ -6811,12 +5043,12 @@
         ]
       },
       "properties": {
-        "id": 400,
+        "id": 296,
         "name": "Gowrie",
         "line": "MUPFI",
         "order": 1
       },
-      "id": 400
+      "id": 296
     },
     {
       "type": "Feature",
@@ -6828,12 +5060,12 @@
         ]
       },
       "properties": {
-        "id": 401,
+        "id": 297,
         "name": "Fawkner",
         "line": "MUPFI",
         "order": 2
       },
-      "id": 401
+      "id": 297
     },
     {
       "type": "Feature",
@@ -6845,12 +5077,12 @@
         ]
       },
       "properties": {
-        "id": 402,
+        "id": 298,
         "name": "Merlynston",
         "line": "MUPFI",
         "order": 3
       },
-      "id": 402
+      "id": 298
     },
     {
       "type": "Feature",
@@ -6862,12 +5094,12 @@
         ]
       },
       "properties": {
-        "id": 403,
+        "id": 299,
         "name": "Batman",
         "line": "MUPFI",
         "order": 4
       },
-      "id": 403
+      "id": 299
     },
     {
       "type": "Feature",
@@ -6879,12 +5111,12 @@
         ]
       },
       "properties": {
-        "id": 404,
+        "id": 300,
         "name": "Coburg",
         "line": "MUPFI",
         "order": 5
       },
-      "id": 404
+      "id": 300
     },
     {
       "type": "Feature",
@@ -6896,12 +5128,12 @@
         ]
       },
       "properties": {
-        "id": 405,
+        "id": 301,
         "name": "Moreland",
         "line": "MUPFI",
         "order": 6
       },
-      "id": 405
+      "id": 301
     },
     {
       "type": "Feature",
@@ -6913,12 +5145,12 @@
         ]
       },
       "properties": {
-        "id": 406,
+        "id": 302,
         "name": "Anstey",
         "line": "MUPFI",
         "order": 7
       },
-      "id": 406
+      "id": 302
     },
     {
       "type": "Feature",
@@ -6930,12 +5162,12 @@
         ]
       },
       "properties": {
-        "id": 407,
+        "id": 303,
         "name": "Brunswick",
         "line": "MUPFI",
         "order": 8
       },
-      "id": 407
+      "id": 303
     },
     {
       "type": "Feature",
@@ -6947,12 +5179,12 @@
         ]
       },
       "properties": {
-        "id": 408,
+        "id": 304,
         "name": "Jewell",
         "line": "MUPFI",
         "order": 9
       },
-      "id": 408
+      "id": 304
     },
     {
       "type": "Feature",
@@ -6964,12 +5196,12 @@
         ]
       },
       "properties": {
-        "id": 409,
+        "id": 305,
         "name": "Royal Park",
         "line": "MUPFI",
         "order": 10
       },
-      "id": 409
+      "id": 305
     },
     {
       "type": "Feature",
@@ -6981,29 +5213,29 @@
         ]
       },
       "properties": {
-        "id": 410,
+        "id": 306,
         "name": "Flemington Bridge",
         "line": "MUPFI",
         "order": 11
       },
-      "id": 410
+      "id": 306
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.936133,
-          -37.794506
+          144.936083,
+          -37.794864
         ]
       },
       "properties": {
-        "id": 411,
+        "id": 307,
         "name": "Macaulay",
         "line": "MUPFI",
         "order": 12
       },
-      "id": 411
+      "id": 307
     },
     {
       "type": "Feature",
@@ -7015,12 +5247,12 @@
         ]
       },
       "properties": {
-        "id": 412,
+        "id": 308,
         "name": "North Melbourne",
         "line": "MUPFI",
         "order": 13
       },
-      "id": 412
+      "id": 308
     },
     {
       "type": "Feature",
@@ -7032,12 +5264,12 @@
         ]
       },
       "properties": {
-        "id": 413,
+        "id": 309,
         "name": "Flagstaff",
         "line": "MUPFI",
         "order": 14
       },
-      "id": 413
+      "id": 309
     },
     {
       "type": "Feature",
@@ -7049,12 +5281,12 @@
         ]
       },
       "properties": {
-        "id": 414,
+        "id": 310,
         "name": "Melbourne Central",
         "line": "MUPFI",
         "order": 15
       },
-      "id": 414
+      "id": 310
     },
     {
       "type": "Feature",
@@ -7066,12 +5298,12 @@
         ]
       },
       "properties": {
-        "id": 415,
+        "id": 311,
         "name": "Parliament",
         "line": "MUPFI",
         "order": 16
       },
-      "id": 415
+      "id": 311
     },
     {
       "type": "Feature",
@@ -7083,12 +5315,12 @@
         ]
       },
       "properties": {
-        "id": 416,
+        "id": 312,
         "name": "Flinders Street",
         "line": "MUPFI",
         "order": 17
       },
-      "id": 416
+      "id": 312
     },
     {
       "type": "Feature",
@@ -7100,29 +5332,12 @@
         ]
       },
       "properties": {
-        "id": 417,
+        "id": 313,
         "name": "Southern Cross",
         "line": "MUPFI",
         "order": 18
       },
-      "id": 417
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967697,
-          -37.81805
-        ]
-      },
-      "properties": {
-        "id": 418,
-        "name": "Stop 13: Flinders Street",
-        "line": "MUPFI",
-        "order": 19
-      },
-      "id": 418
+      "id": 313
     },
     {
       "type": "Feature",
@@ -7134,12 +5349,12 @@
         ]
       },
       "properties": {
-        "id": 419,
+        "id": 314,
         "name": "Werribee",
         "line": "MWERR",
         "order": 0
       },
-      "id": 419
+      "id": 314
     },
     {
       "type": "Feature",
@@ -7151,12 +5366,12 @@
         ]
       },
       "properties": {
-        "id": 420,
+        "id": 315,
         "name": "Hoppers Crossing",
         "line": "MWERR",
         "order": 1
       },
-      "id": 420
+      "id": 315
     },
     {
       "type": "Feature",
@@ -7168,12 +5383,12 @@
         ]
       },
       "properties": {
-        "id": 421,
+        "id": 316,
         "name": "Williams Landing",
         "line": "MWERR",
         "order": 2
       },
-      "id": 421
+      "id": 316
     },
     {
       "type": "Feature",
@@ -7185,12 +5400,12 @@
         ]
       },
       "properties": {
-        "id": 422,
+        "id": 317,
         "name": "Aircraft",
         "line": "MWERR",
         "order": 3
       },
-      "id": 422
+      "id": 317
     },
     {
       "type": "Feature",
@@ -7202,12 +5417,12 @@
         ]
       },
       "properties": {
-        "id": 423,
+        "id": 318,
         "name": "Laverton",
         "line": "MWERR",
         "order": 4
       },
-      "id": 423
+      "id": 318
     },
     {
       "type": "Feature",
@@ -7219,12 +5434,12 @@
         ]
       },
       "properties": {
-        "id": 424,
+        "id": 319,
         "name": "Westona",
         "line": "MWERR",
         "order": 5
       },
-      "id": 424
+      "id": 319
     },
     {
       "type": "Feature",
@@ -7236,12 +5451,12 @@
         ]
       },
       "properties": {
-        "id": 425,
+        "id": 320,
         "name": "Altona",
         "line": "MWERR",
         "order": 6
       },
-      "id": 425
+      "id": 320
     },
     {
       "type": "Feature",
@@ -7253,12 +5468,12 @@
         ]
       },
       "properties": {
-        "id": 426,
+        "id": 321,
         "name": "Seaholme",
         "line": "MWERR",
         "order": 7
       },
-      "id": 426
+      "id": 321
     },
     {
       "type": "Feature",
@@ -7270,12 +5485,12 @@
         ]
       },
       "properties": {
-        "id": 427,
+        "id": 322,
         "name": "Newport",
         "line": "MWERR",
         "order": 8
       },
-      "id": 427
+      "id": 322
     },
     {
       "type": "Feature",
@@ -7287,12 +5502,12 @@
         ]
       },
       "properties": {
-        "id": 428,
+        "id": 323,
         "name": "Spotswood",
         "line": "MWERR",
         "order": 9
       },
-      "id": 428
+      "id": 323
     },
     {
       "type": "Feature",
@@ -7304,12 +5519,12 @@
         ]
       },
       "properties": {
-        "id": 429,
+        "id": 324,
         "name": "Yarraville",
         "line": "MWERR",
         "order": 10
       },
-      "id": 429
+      "id": 324
     },
     {
       "type": "Feature",
@@ -7321,12 +5536,12 @@
         ]
       },
       "properties": {
-        "id": 430,
+        "id": 325,
         "name": "Seddon",
         "line": "MWERR",
         "order": 11
       },
-      "id": 430
+      "id": 325
     },
     {
       "type": "Feature",
@@ -7338,12 +5553,12 @@
         ]
       },
       "properties": {
-        "id": 431,
+        "id": 326,
         "name": "Footscray",
         "line": "MWERR",
         "order": 12
       },
-      "id": 431
+      "id": 326
     },
     {
       "type": "Feature",
@@ -7355,12 +5570,12 @@
         ]
       },
       "properties": {
-        "id": 432,
+        "id": 327,
         "name": "South Kensington",
         "line": "MWERR",
         "order": 13
       },
-      "id": 432
+      "id": 327
     },
     {
       "type": "Feature",
@@ -7372,12 +5587,12 @@
         ]
       },
       "properties": {
-        "id": 433,
+        "id": 328,
         "name": "North Melbourne",
         "line": "MWERR",
         "order": 14
       },
-      "id": 433
+      "id": 328
     },
     {
       "type": "Feature",
@@ -7389,267 +5604,12 @@
         ]
       },
       "properties": {
-        "id": 434,
+        "id": 329,
         "name": "Southern Cross",
         "line": "MWERR",
         "order": 15
       },
-      "id": 434
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.967923,
-          -37.81845
-        ]
-      },
-      "properties": {
-        "id": 435,
-        "name": "Stop 13: Flinders Street",
-        "line": "MWERR",
-        "order": 16
-      },
-      "id": 435
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989259,
-          -37.823927
-        ]
-      },
-      "properties": {
-        "id": 436,
-        "name": "Richmond",
-        "line": "MWERR",
-        "order": 17
-      },
-      "id": 436
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964403,
-          -37.818365
-        ]
-      },
-      "properties": {
-        "id": 437,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
-        "line": "MWERR",
-        "order": 18
-      },
-      "id": 437
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99237,
-          -37.838101
-        ]
-      },
-      "properties": {
-        "id": 438,
-        "name": "South Yarra",
-        "line": "MWERR",
-        "order": 19
-      },
-      "id": 438
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989795,
-          -37.849825
-        ]
-      },
-      "properties": {
-        "id": 439,
-        "name": "Prahran",
-        "line": "MWERR",
-        "order": 20
-      },
-      "id": 439
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.991662,
-          -37.855808
-        ]
-      },
-      "properties": {
-        "id": 440,
-        "name": "Windsor",
-        "line": "MWERR",
-        "order": 21
-      },
-      "id": 440
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.993511,
-          -37.8696
-        ]
-      },
-      "properties": {
-        "id": 441,
-        "name": "Balaclava",
-        "line": "MWERR",
-        "order": 22
-      },
-      "id": 441
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.995206,
-          -37.875891
-        ]
-      },
-      "properties": {
-        "id": 442,
-        "name": "Ripponlea",
-        "line": "MWERR",
-        "order": 23
-      },
-      "id": 442
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00109,
-          -37.885121
-        ]
-      },
-      "properties": {
-        "id": 443,
-        "name": "Elsternwick",
-        "line": "MWERR",
-        "order": 24
-      },
-      "id": 443
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.004176,
-          -37.896642
-        ]
-      },
-      "properties": {
-        "id": 444,
-        "name": "Gardenvale",
-        "line": "MWERR",
-        "order": 25
-      },
-      "id": 444
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.002614,
-          -37.90485
-        ]
-      },
-      "properties": {
-        "id": 445,
-        "name": "North Brighton",
-        "line": "MWERR",
-        "order": 26
-      },
-      "id": 445
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.996541,
-          -37.914906
-        ]
-      },
-      "properties": {
-        "id": 446,
-        "name": "Middle Brighton",
-        "line": "MWERR",
-        "order": 27
-      },
-      "id": 446
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989055,
-          -37.926506
-        ]
-      },
-      "properties": {
-        "id": 447,
-        "name": "Brighton Beach",
-        "line": "MWERR",
-        "order": 28
-      },
-      "id": 447
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.001476,
-          -37.938113
-        ]
-      },
-      "properties": {
-        "id": 448,
-        "name": "Hampton",
-        "line": "MWERR",
-        "order": 29
-      },
-      "id": 448
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.004387,
-          -37.950258
-        ]
-      },
-      "properties": {
-        "id": 449,
-        "name": "Sandringham",
-        "line": "MWERR",
-        "order": 30
-      },
-      "id": 449
+      "id": 329
     },
     {
       "type": "Feature",
@@ -7661,12 +5621,12 @@
         ]
       },
       "properties": {
-        "id": 450,
+        "id": 330,
         "name": "Flinders Street",
         "line": "MWERR",
-        "order": 31
+        "order": 16
       },
-      "id": 450
+      "id": 330
     },
     {
       "type": "Feature",
@@ -7678,12 +5638,12 @@
         ]
       },
       "properties": {
-        "id": 451,
+        "id": 331,
         "name": "Williamstown",
         "line": "MWILL",
         "order": 0
       },
-      "id": 451
+      "id": 331
     },
     {
       "type": "Feature",
@@ -7695,12 +5655,12 @@
         ]
       },
       "properties": {
-        "id": 452,
+        "id": 332,
         "name": "Williamstown Beach",
         "line": "MWILL",
         "order": 1
       },
-      "id": 452
+      "id": 332
     },
     {
       "type": "Feature",
@@ -7712,12 +5672,12 @@
         ]
       },
       "properties": {
-        "id": 453,
+        "id": 333,
         "name": "North Williamstown",
         "line": "MWILL",
         "order": 2
       },
-      "id": 453
+      "id": 333
     },
     {
       "type": "Feature",
@@ -7729,12 +5689,12 @@
         ]
       },
       "properties": {
-        "id": 454,
+        "id": 334,
         "name": "Newport",
         "line": "MWILL",
         "order": 3
       },
-      "id": 454
+      "id": 334
     },
     {
       "type": "Feature",
@@ -7746,12 +5706,12 @@
         ]
       },
       "properties": {
-        "id": 455,
+        "id": 335,
         "name": "Spotswood",
         "line": "MWILL",
         "order": 4
       },
-      "id": 455
+      "id": 335
     },
     {
       "type": "Feature",
@@ -7763,12 +5723,12 @@
         ]
       },
       "properties": {
-        "id": 456,
+        "id": 336,
         "name": "Yarraville",
         "line": "MWILL",
         "order": 5
       },
-      "id": 456
+      "id": 336
     },
     {
       "type": "Feature",
@@ -7780,12 +5740,12 @@
         ]
       },
       "properties": {
-        "id": 457,
+        "id": 337,
         "name": "Seddon",
         "line": "MWILL",
         "order": 6
       },
-      "id": 457
+      "id": 337
     },
     {
       "type": "Feature",
@@ -7797,12 +5757,12 @@
         ]
       },
       "properties": {
-        "id": 458,
+        "id": 338,
         "name": "Footscray",
         "line": "MWILL",
         "order": 7
       },
-      "id": 458
+      "id": 338
     },
     {
       "type": "Feature",
@@ -7814,12 +5774,12 @@
         ]
       },
       "properties": {
-        "id": 459,
+        "id": 339,
         "name": "South Kensington",
         "line": "MWILL",
         "order": 8
       },
-      "id": 459
+      "id": 339
     },
     {
       "type": "Feature",
@@ -7831,12 +5791,12 @@
         ]
       },
       "properties": {
-        "id": 460,
+        "id": 340,
         "name": "North Melbourne",
         "line": "MWILL",
         "order": 9
       },
-      "id": 460
+      "id": 340
     },
     {
       "type": "Feature",
@@ -7848,267 +5808,29 @@
         ]
       },
       "properties": {
-        "id": 461,
+        "id": 341,
         "name": "Southern Cross",
         "line": "MWILL",
         "order": 10
       },
-      "id": 461
+      "id": 341
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.967923,
-          -37.81845
+          144.966478,
+          -37.818416
         ]
       },
       "properties": {
-        "id": 462,
-        "name": "Stop 13: Flinders Street",
+        "id": 342,
+        "name": "Flinders Street",
         "line": "MWILL",
         "order": 11
       },
-      "id": 462
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989259,
-          -37.823927
-        ]
-      },
-      "properties": {
-        "id": 463,
-        "name": "Richmond",
-        "line": "MWILL",
-        "order": 12
-      },
-      "id": 463
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.964403,
-          -37.818365
-        ]
-      },
-      "properties": {
-        "id": 464,
-        "name": "Stop 4: Flinders Street Station, Elizabeth Street",
-        "line": "MWILL",
-        "order": 13
-      },
-      "id": 464
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.99237,
-          -37.838101
-        ]
-      },
-      "properties": {
-        "id": 465,
-        "name": "South Yarra",
-        "line": "MWILL",
-        "order": 14
-      },
-      "id": 465
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989795,
-          -37.849825
-        ]
-      },
-      "properties": {
-        "id": 466,
-        "name": "Prahran",
-        "line": "MWILL",
-        "order": 15
-      },
-      "id": 466
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.991662,
-          -37.855808
-        ]
-      },
-      "properties": {
-        "id": 467,
-        "name": "Windsor",
-        "line": "MWILL",
-        "order": 16
-      },
-      "id": 467
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.993511,
-          -37.8696
-        ]
-      },
-      "properties": {
-        "id": 468,
-        "name": "Balaclava",
-        "line": "MWILL",
-        "order": 17
-      },
-      "id": 468
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.995206,
-          -37.875891
-        ]
-      },
-      "properties": {
-        "id": 469,
-        "name": "Ripponlea",
-        "line": "MWILL",
-        "order": 18
-      },
-      "id": 469
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.00109,
-          -37.885121
-        ]
-      },
-      "properties": {
-        "id": 470,
-        "name": "Elsternwick",
-        "line": "MWILL",
-        "order": 19
-      },
-      "id": 470
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.004176,
-          -37.896642
-        ]
-      },
-      "properties": {
-        "id": 471,
-        "name": "Gardenvale",
-        "line": "MWILL",
-        "order": 20
-      },
-      "id": 471
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.002614,
-          -37.90485
-        ]
-      },
-      "properties": {
-        "id": 472,
-        "name": "North Brighton",
-        "line": "MWILL",
-        "order": 21
-      },
-      "id": 472
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.996541,
-          -37.914906
-        ]
-      },
-      "properties": {
-        "id": 473,
-        "name": "Middle Brighton",
-        "line": "MWILL",
-        "order": 22
-      },
-      "id": 473
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.989055,
-          -37.926506
-        ]
-      },
-      "properties": {
-        "id": 474,
-        "name": "Brighton Beach",
-        "line": "MWILL",
-        "order": 23
-      },
-      "id": 474
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.001476,
-          -37.938113
-        ]
-      },
-      "properties": {
-        "id": 475,
-        "name": "Hampton",
-        "line": "MWILL",
-        "order": 24
-      },
-      "id": 475
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.004387,
-          -37.950258
-        ]
-      },
-      "properties": {
-        "id": 476,
-        "name": "Sandringham",
-        "line": "MWILL",
-        "order": 25
-      },
-      "id": 476
+      "id": 342
     }
   ]
 }

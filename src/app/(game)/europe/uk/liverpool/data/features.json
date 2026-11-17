@@ -1213,13 +1213,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.780335,
-          53.430736
+          -2.612885,
+          53.453145
         ]
       },
       "properties": {
         "id": 71,
-        "name": "Eccleston Park",
+        "name": "Newton-le-Willows",
         "line": "MRCL",
         "order": 0
       },
@@ -1230,13 +1230,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.922815,
-          53.405217
+          -2.637615,
+          53.451218
         ]
       },
       "properties": {
         "id": 72,
-        "name": "Wavertree Technology Park",
+        "name": "Earlestown",
         "line": "MRCL",
         "order": 1
       },
@@ -1247,13 +1247,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.647616,
-          53.499725
+          -2.700087,
+          53.433783
         ]
       },
       "properties": {
         "id": 73,
-        "name": "Bryn",
+        "name": "St Helens Junction",
         "line": "MRCL",
         "order": 2
       },
@@ -1264,13 +1264,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.671993,
-          53.488048
+          -2.72512,
+          53.426714
         ]
       },
       "properties": {
         "id": 74,
-        "name": "Garswood",
+        "name": "Lea Green",
         "line": "MRCL",
         "order": 3
       },
@@ -1281,13 +1281,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.977585,
-          53.407609
+          -2.766293,
+          53.417207
         ]
       },
       "properties": {
         "id": 75,
-        "name": "Liverpool Lime Street",
+        "name": "Rainhill",
         "line": "MRCL",
         "order": 4
       },
@@ -1298,119 +1298,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.914829,
-          53.378557
+          -2.79652,
+          53.413914
         ]
       },
       "properties": {
         "id": 76,
-        "name": "Mossley Hill",
+        "name": "Whiston",
         "line": "MRCL",
         "order": 5
       },
       "id": 76
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.77527,
-          53.372579
-        ]
-      },
-      "properties": {
-        "id": 77,
-        "name": "Hough Green",
-        "line": "MRCL",
-        "order": 6
-      },
-      "id": 77
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.907194,
-          53.369325
-        ]
-      },
-      "properties": {
-        "id": 78,
-        "name": "West Allerton",
-        "line": "MRCL",
-        "order": 7
-      },
-      "id": 78
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.830106,
-          53.364495
-        ]
-      },
-      "properties": {
-        "id": 79,
-        "name": "Halewood",
-        "line": "MRCL",
-        "order": 8
-      },
-      "id": 79
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.798987,
-          53.423527
-        ]
-      },
-      "properties": {
-        "id": 80,
-        "name": "Prescot",
-        "line": "MRCL",
-        "order": 9
-      },
-      "id": 80
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.729978,
-          53.452661
-        ]
-      },
-      "properties": {
-        "id": 81,
-        "name": "St Helens Central",
-        "line": "MRCL",
-        "order": 10
-      },
-      "id": 81
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.855504,
-          53.410059
-        ]
-      },
-      "properties": {
-        "id": 82,
-        "name": "Roby",
-        "line": "MRCL",
-        "order": 11
-      },
-      "id": 82
     },
     {
       "type": "Feature",
@@ -1422,8 +1320,110 @@
         ]
       },
       "properties": {
-        "id": 83,
+        "id": 77,
         "name": "Huyton",
+        "line": "MRCL",
+        "order": 6
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.855504,
+          53.410059
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Roby",
+        "line": "MRCL",
+        "order": 7
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.893389,
+          53.406508
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Broad Green",
+        "line": "MRCL",
+        "order": 8
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.75947,
+          53.43669
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Thatto Heath",
+        "line": "MRCL",
+        "order": 9
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.922815,
+          53.405217
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Wavertree Technology Park",
+        "line": "MRCL",
+        "order": 10
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.647616,
+          53.499725
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Bryn",
+        "line": "MRCL",
+        "order": 11
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.671993,
+          53.488048
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Garswood",
         "line": "MRCL",
         "order": 12
       },
@@ -1485,13 +1485,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.893389,
-          53.406508
+          -2.977585,
+          53.407609
         ]
       },
       "properties": {
         "id": 87,
-        "name": "Broad Green",
+        "name": "Liverpool Lime Street",
         "line": "MRCL",
         "order": 16
       },
@@ -1502,13 +1502,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.75947,
-          53.43669
+          -2.914829,
+          53.378557
         ]
       },
       "properties": {
         "id": 88,
-        "name": "Thatto Heath",
+        "name": "Mossley Hill",
         "line": "MRCL",
         "order": 17
       },
@@ -1519,17 +1519,102 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.602754,
-          53.266314
+          -2.77527,
+          53.372579
         ]
       },
       "properties": {
         "id": 89,
-        "name": "Acton Bridge",
+        "name": "Hough Green",
         "line": "MRCL",
         "order": 18
       },
       "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.907194,
+          53.369325
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "West Allerton",
+        "line": "MRCL",
+        "order": 19
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.830106,
+          53.364495
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Halewood",
+        "line": "MRCL",
+        "order": 20
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.798987,
+          53.423527
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Prescot",
+        "line": "MRCL",
+        "order": 21
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.729978,
+          53.452661
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "St Helens Central",
+        "line": "MRCL",
+        "order": 22
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.780335,
+          53.430736
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Eccleston Park",
+        "line": "MRCL",
+        "order": 23
+      },
+      "id": 94
     },
     {
       "type": "Feature",
@@ -1541,12 +1626,12 @@
         ]
       },
       "properties": {
-        "id": 90,
+        "id": 95,
         "name": "Runcorn",
         "line": "MRCL",
-        "order": 19
+        "order": 24
       },
-      "id": 90
+      "id": 95
     }
   ]
 }

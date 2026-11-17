@@ -63,7 +63,7 @@
       },
       "properties": {
         "id": 3,
-        "name": "Redwood (north)",
+        "name": "Redwood",
         "line": "WKAP",
         "order": 3
       },
@@ -159,34 +159,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.826955,
-          -41.17635
-        ]
-      },
-      "properties": {
-        "id": 9,
-        "name": "Redwood (south)",
-        "line": "WKAP",
-        "order": 9
-      },
-      "id": 9
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           174.838241,
           -41.149623
         ]
       },
       "properties": {
-        "id": 10,
+        "id": 9,
         "name": "Kenepuru",
         "line": "WKAP",
-        "order": 10
+        "order": 9
       },
-      "id": 10
+      "id": 9
     },
     {
       "type": "Feature",
@@ -198,12 +181,12 @@
         ]
       },
       "properties": {
-        "id": 11,
+        "id": 10,
         "name": "Porirua",
         "line": "WKAP",
-        "order": 11
+        "order": 10
       },
-      "id": 11
+      "id": 10
     },
     {
       "type": "Feature",
@@ -215,12 +198,12 @@
         ]
       },
       "properties": {
-        "id": 12,
+        "id": 11,
         "name": "Paraparaumu",
         "line": "WKAP",
-        "order": 12
+        "order": 11
       },
-      "id": 12
+      "id": 11
     },
     {
       "type": "Feature",
@@ -232,12 +215,12 @@
         ]
       },
       "properties": {
-        "id": 13,
+        "id": 12,
         "name": "Paekākāriki",
         "line": "WKAP",
-        "order": 13
+        "order": 12
       },
-      "id": 13
+      "id": 12
     },
     {
       "type": "Feature",
@@ -249,12 +232,12 @@
         ]
       },
       "properties": {
-        "id": 14,
+        "id": 13,
         "name": "Plimmerton",
         "line": "WKAP",
-        "order": 14
+        "order": 13
       },
-      "id": 14
+      "id": 13
     },
     {
       "type": "Feature",
@@ -266,12 +249,12 @@
         ]
       },
       "properties": {
-        "id": 15,
+        "id": 14,
         "name": "Wellington",
         "line": "WHUT",
         "order": 0
       },
-      "id": 15
+      "id": 14
     },
     {
       "type": "Feature",
@@ -283,12 +266,12 @@
         ]
       },
       "properties": {
-        "id": 16,
+        "id": 15,
         "name": "Ngauranga",
         "line": "WHUT",
         "order": 1
       },
-      "id": 16
+      "id": 15
     },
     {
       "type": "Feature",
@@ -300,12 +283,12 @@
         ]
       },
       "properties": {
-        "id": 17,
+        "id": 16,
         "name": "Petone",
         "line": "WHUT",
         "order": 2
       },
-      "id": 17
+      "id": 16
     },
     {
       "type": "Feature",
@@ -317,12 +300,12 @@
         ]
       },
       "properties": {
-        "id": 18,
+        "id": 17,
         "name": "Ava",
         "line": "WHUT",
         "order": 3
       },
-      "id": 18
+      "id": 17
     },
     {
       "type": "Feature",
@@ -334,12 +317,12 @@
         ]
       },
       "properties": {
-        "id": 19,
+        "id": 18,
         "name": "Woburn",
         "line": "WHUT",
         "order": 4
       },
-      "id": 19
+      "id": 18
     },
     {
       "type": "Feature",
@@ -351,12 +334,12 @@
         ]
       },
       "properties": {
-        "id": 20,
+        "id": 19,
         "name": "Waterloo",
         "line": "WHUT",
         "order": 5
       },
-      "id": 20
+      "id": 19
     },
     {
       "type": "Feature",
@@ -368,12 +351,12 @@
         ]
       },
       "properties": {
-        "id": 21,
+        "id": 20,
         "name": "Epuni",
         "line": "WHUT",
         "order": 6
       },
-      "id": 21
+      "id": 20
     },
     {
       "type": "Feature",
@@ -385,12 +368,12 @@
         ]
       },
       "properties": {
-        "id": 22,
+        "id": 21,
         "name": "Naenae",
         "line": "WHUT",
         "order": 7
       },
-      "id": 22
+      "id": 21
     },
     {
       "type": "Feature",
@@ -402,12 +385,12 @@
         ]
       },
       "properties": {
-        "id": 23,
+        "id": 22,
         "name": "Wingate",
         "line": "WHUT",
         "order": 8
       },
-      "id": 23
+      "id": 22
     },
     {
       "type": "Feature",
@@ -419,12 +402,12 @@
         ]
       },
       "properties": {
-        "id": 24,
+        "id": 23,
         "name": "Taitā",
         "line": "WHUT",
         "order": 9
       },
-      "id": 24
+      "id": 23
     },
     {
       "type": "Feature",
@@ -436,12 +419,12 @@
         ]
       },
       "properties": {
-        "id": 25,
+        "id": 24,
         "name": "Pōmare",
         "line": "WHUT",
         "order": 10
       },
-      "id": 25
+      "id": 24
     },
     {
       "type": "Feature",
@@ -453,12 +436,12 @@
         ]
       },
       "properties": {
-        "id": 26,
+        "id": 25,
         "name": "Silverstream",
         "line": "WHUT",
         "order": 11
       },
-      "id": 26
+      "id": 25
     },
     {
       "type": "Feature",
@@ -470,12 +453,12 @@
         ]
       },
       "properties": {
-        "id": 27,
+        "id": 26,
         "name": "Heretaunga",
         "line": "WHUT",
         "order": 12
       },
-      "id": 27
+      "id": 26
     },
     {
       "type": "Feature",
@@ -487,12 +470,12 @@
         ]
       },
       "properties": {
-        "id": 28,
+        "id": 27,
         "name": "Trentham",
         "line": "WHUT",
         "order": 13
       },
-      "id": 28
+      "id": 27
     },
     {
       "type": "Feature",
@@ -504,12 +487,12 @@
         ]
       },
       "properties": {
-        "id": 29,
+        "id": 28,
         "name": "Wallaceville",
         "line": "WHUT",
         "order": 14
       },
-      "id": 29
+      "id": 28
     },
     {
       "type": "Feature",
@@ -521,12 +504,12 @@
         ]
       },
       "properties": {
-        "id": 30,
-        "name": "Upper Hutt 1",
+        "id": 29,
+        "name": "Upper Hutt",
         "line": "WHUT",
         "order": 15
       },
-      "id": 30
+      "id": 29
     },
     {
       "type": "Feature",
@@ -538,12 +521,12 @@
         ]
       },
       "properties": {
-        "id": 31,
+        "id": 30,
         "name": "Wellington",
         "line": "WMEL",
         "order": 0
       },
-      "id": 31
+      "id": 30
     },
     {
       "type": "Feature",
@@ -555,12 +538,12 @@
         ]
       },
       "properties": {
-        "id": 32,
+        "id": 31,
         "name": "Ngauranga",
         "line": "WMEL",
         "order": 1
       },
-      "id": 32
+      "id": 31
     },
     {
       "type": "Feature",
@@ -572,12 +555,12 @@
         ]
       },
       "properties": {
-        "id": 33,
+        "id": 32,
         "name": "Petone",
         "line": "WMEL",
         "order": 2
       },
-      "id": 33
+      "id": 32
     },
     {
       "type": "Feature",
@@ -589,12 +572,12 @@
         ]
       },
       "properties": {
-        "id": 34,
+        "id": 33,
         "name": "Western Hutt",
         "line": "WMEL",
         "order": 3
       },
-      "id": 34
+      "id": 33
     },
     {
       "type": "Feature",
@@ -606,12 +589,12 @@
         ]
       },
       "properties": {
-        "id": 35,
-        "name": "Melling 1",
+        "id": 34,
+        "name": "Melling",
         "line": "WMEL",
         "order": 4
       },
-      "id": 35
+      "id": 34
     },
     {
       "type": "Feature",
@@ -623,12 +606,12 @@
         ]
       },
       "properties": {
-        "id": 36,
+        "id": 35,
         "name": "Crofton Downs",
         "line": "WJOH",
         "order": 0
       },
-      "id": 36
+      "id": 35
     },
     {
       "type": "Feature",
@@ -640,12 +623,12 @@
         ]
       },
       "properties": {
-        "id": 37,
+        "id": 36,
         "name": "Khandallah",
         "line": "WJOH",
         "order": 1
       },
-      "id": 37
+      "id": 36
     },
     {
       "type": "Feature",
@@ -657,12 +640,12 @@
         ]
       },
       "properties": {
-        "id": 38,
+        "id": 37,
         "name": "Box Hill",
         "line": "WJOH",
         "order": 2
       },
-      "id": 38
+      "id": 37
     },
     {
       "type": "Feature",
@@ -674,12 +657,12 @@
         ]
       },
       "properties": {
-        "id": 39,
+        "id": 38,
         "name": "Simla Crescent",
         "line": "WJOH",
         "order": 3
       },
-      "id": 39
+      "id": 38
     },
     {
       "type": "Feature",
@@ -691,12 +674,12 @@
         ]
       },
       "properties": {
-        "id": 40,
+        "id": 39,
         "name": "Awarua Street",
         "line": "WJOH",
         "order": 4
       },
-      "id": 40
+      "id": 39
     },
     {
       "type": "Feature",
@@ -708,12 +691,12 @@
         ]
       },
       "properties": {
-        "id": 41,
+        "id": 40,
         "name": "Ngaio",
         "line": "WJOH",
         "order": 5
       },
-      "id": 41
+      "id": 40
     },
     {
       "type": "Feature",
@@ -725,12 +708,12 @@
         ]
       },
       "properties": {
-        "id": 42,
+        "id": 41,
         "name": "Raroa",
         "line": "WJOH",
         "order": 6
       },
-      "id": 42
+      "id": 41
     },
     {
       "type": "Feature",
@@ -742,12 +725,12 @@
         ]
       },
       "properties": {
-        "id": 43,
+        "id": 42,
         "name": "Wellington",
         "line": "WJOH",
         "order": 7
       },
-      "id": 43
+      "id": 42
     },
     {
       "type": "Feature",
@@ -759,12 +742,12 @@
         ]
       },
       "properties": {
-        "id": 44,
+        "id": 43,
         "name": "Johnsonville",
         "line": "WJOH",
         "order": 8
       },
-      "id": 44
+      "id": 43
     },
     {
       "type": "Feature",
@@ -776,12 +759,12 @@
         ]
       },
       "properties": {
-        "id": 45,
+        "id": 44,
         "name": "Masterton",
         "line": "WWAI",
         "order": 0
       },
-      "id": 45
+      "id": 44
     },
     {
       "type": "Feature",
@@ -793,12 +776,12 @@
         ]
       },
       "properties": {
-        "id": 46,
+        "id": 45,
         "name": "Renall Street",
         "line": "WWAI",
         "order": 1
       },
-      "id": 46
+      "id": 45
     },
     {
       "type": "Feature",
@@ -810,12 +793,12 @@
         ]
       },
       "properties": {
-        "id": 47,
+        "id": 46,
         "name": "Solway",
         "line": "WWAI",
         "order": 2
       },
-      "id": 47
+      "id": 46
     },
     {
       "type": "Feature",
@@ -827,12 +810,12 @@
         ]
       },
       "properties": {
-        "id": 48,
+        "id": 47,
         "name": "Carterton",
         "line": "WWAI",
         "order": 3
       },
-      "id": 48
+      "id": 47
     },
     {
       "type": "Feature",
@@ -844,12 +827,12 @@
         ]
       },
       "properties": {
-        "id": 49,
+        "id": 48,
         "name": "Matarawa",
         "line": "WWAI",
         "order": 4
       },
-      "id": 49
+      "id": 48
     },
     {
       "type": "Feature",
@@ -861,12 +844,12 @@
         ]
       },
       "properties": {
-        "id": 50,
+        "id": 49,
         "name": "Woodside",
         "line": "WWAI",
         "order": 5
       },
-      "id": 50
+      "id": 49
     },
     {
       "type": "Feature",
@@ -878,12 +861,12 @@
         ]
       },
       "properties": {
-        "id": 51,
+        "id": 50,
         "name": "Featherston",
         "line": "WWAI",
         "order": 6
       },
-      "id": 51
+      "id": 50
     },
     {
       "type": "Feature",
@@ -895,12 +878,12 @@
         ]
       },
       "properties": {
-        "id": 52,
+        "id": 51,
         "name": "Maymorn",
         "line": "WWAI",
         "order": 7
       },
-      "id": 52
+      "id": 51
     },
     {
       "type": "Feature",
@@ -912,12 +895,12 @@
         ]
       },
       "properties": {
-        "id": 53,
-        "name": "Upper Hutt 1",
+        "id": 52,
+        "name": "Upper Hutt",
         "line": "WWAI",
         "order": 8
       },
-      "id": 53
+      "id": 52
     },
     {
       "type": "Feature",
@@ -929,12 +912,12 @@
         ]
       },
       "properties": {
-        "id": 54,
+        "id": 53,
         "name": "Waterloo",
         "line": "WWAI",
         "order": 9
       },
-      "id": 54
+      "id": 53
     },
     {
       "type": "Feature",
@@ -946,12 +929,12 @@
         ]
       },
       "properties": {
-        "id": 55,
+        "id": 54,
         "name": "Petone",
         "line": "WWAI",
         "order": 10
       },
-      "id": 55
+      "id": 54
     },
     {
       "type": "Feature",
@@ -963,12 +946,12 @@
         ]
       },
       "properties": {
-        "id": 56,
+        "id": 55,
         "name": "Wellington",
         "line": "WWAI",
         "order": 11
       },
-      "id": 56
+      "id": 55
     },
     {
       "type": "Feature",
@@ -980,12 +963,12 @@
         ]
       },
       "properties": {
-        "id": 57,
+        "id": 56,
         "name": "Lambton",
         "line": "WCAB",
         "order": 0
       },
-      "id": 57
+      "id": 56
     },
     {
       "type": "Feature",
@@ -997,12 +980,12 @@
         ]
       },
       "properties": {
-        "id": 58,
+        "id": 57,
         "name": "Clifton",
         "line": "WCAB",
         "order": 1
       },
-      "id": 58
+      "id": 57
     },
     {
       "type": "Feature",
@@ -1014,12 +997,12 @@
         ]
       },
       "properties": {
-        "id": 59,
+        "id": 58,
         "name": "Talavera",
         "line": "WCAB",
         "order": 2
       },
-      "id": 59
+      "id": 58
     },
     {
       "type": "Feature",
@@ -1031,12 +1014,12 @@
         ]
       },
       "properties": {
-        "id": 60,
+        "id": 59,
         "name": "Salamanca",
         "line": "WCAB",
         "order": 3
       },
-      "id": 60
+      "id": 59
     },
     {
       "type": "Feature",
@@ -1048,12 +1031,12 @@
         ]
       },
       "properties": {
-        "id": 61,
+        "id": 60,
         "name": "Kelburn",
         "line": "WCAB",
         "order": 4
       },
-      "id": 61
+      "id": 60
     }
   ]
 }

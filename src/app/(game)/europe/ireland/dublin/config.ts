@@ -30,7 +30,7 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [
       {
         type: 'lines',
-        lines: ['DNOR', 'DWES', 'DKIL', 'DSEA', 'DPPT'],
+        lines: ['DNOR', 'DWES', 'DKIL', 'DSEA'],
       },
     ],
   },
