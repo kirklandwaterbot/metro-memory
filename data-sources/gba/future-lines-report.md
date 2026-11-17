@@ -1,0 +1,12 @@
+- fs_line4 Line 4: 33 stations (game 7, OSM 18, approx 8: 北江大道、西青大道、三水医院、西南街道、东交公园、科技西路、科普中路、小坑尾), track OSM construction
+  - Beijiang Avenue (北江大道) · Xiqing Avenue (西青大道) · Sanshui Hospital (三水医院) · Xinan Subdistrict (西南街道) · Dongjiao Park (东交公园) · Lianzitang (莲子塘) · Xincheng Hospital (新城医院) · Dajiangshe Village (大江社村) · Shishan North (狮山北) · Bo'ai Road (博爱路) · Keji West Road (科技西路) · Kepu Middle Road (科普中路) · Xiaokengwei (小坑尾) · Foshan West Railway Station (佛山西站) · Xiabo (下柏) · Luowu Road (罗务路) · Lvdao Lake North (绿岛湖北) · Lvdao Lake Middle (绿岛湖中) · Zhihui Xin City (智慧新城) · Zhangcha (张槎) · Jiangwan Road (江湾路) · Foshan Avenue (佛山大道) · Jihua Park (季华园) · Wenhua Park (文华公园) · Jihua Liu Road (季华六路) · Shiken (石肯) · Jihua East Road (季华东路) · Pingsheng (平胜) · Guabu (瓜步) · Pingnan Industrial Zone (平南工业区) · Pingsheng East Road (平胜东路) · Sanshanxin City South (三山新城南) · Gangkou Road (港口路)
+- fs_line11 Line 11: 20 stations (game 7, OSM 11, approx 2: 桂洲大道、细滘), track OSM construction
+  - Hedong East (鹤洞东) · Guanggang Park (广钢公园) · Huawei (花围) · Sanshan New Town (三山新城) · Enterprise City (创智园) · Gangkou Road (港口路) · Linyue East (林岳东) · Chencun North (陈村北) · Chencun East (陈村东) · Bijiang (碧江) · Shunde (顺德) · Yongfeng Market (永丰市场) · Yunlu Park (云路公园) · Dongle Road (东乐路) · Nanguo Road (南国路) · Baolin Temple (宝林寺) · Desheng West Road (德胜西路) · Rongqi Ferry (容奇渡口) · Guizhou Avenue (桂洲大道) · Xijiao (细滘)
+- SILW South Island Line (West): 8 stations (game 2, OSM 6, approx 0), track OSM construction
+  - HKU (香港大學) · Queen Mary Hospital (瑪麗醫院) · Cyberport (數碼港) · Wah Fu (華富) · Wah Kwai (華貴) · Tin Wan (田灣) · Aberdeen (香港仔) · Wong Chuk Hang (黃竹坑)
+- HKWRL Hong Kong–Shenzhen Western Rail Link: 5 stations (game 1, OSM 4, approx 0), track OSM construction
+  - Hung Shui Kiu (洪水橋) · Ha Tsuen (廈村) · Lau Fau Shan (流浮山) · Shenzhen Bay Checkpoint (深圳灣口岸) · Qianhaiwan (前海灣)
+- EKSG East Kowloon Smart and Green Mass Transit: 9 stations (game 0, OSM 9, approx 0), track OSM construction
+  - Yau Tong East (油塘東) · Lam Tin North (藍田北) · Ma Yau Tong (馬游塘) · Po Tat (寶達) · Sau Mau Ping (秀茂坪) · Shun On (順安) · Shun Lee (順利) · Choi Wan (彩雲) · Choi Hung East (彩虹東)
+- KTSG Kai Tak Smart and Green Mass Transit: 7 stations (game 1, OSM 6, approx 0), track OSM construction
+  - Kai Tak Cruise Terminal (啟德郵輪碼頭) · Shing King Street (承景街) · Kai Tak Sky Garden (啟德空中花園) · Shing Fung Road Park (承豐道公園) · Kai Tak Sports Park (啟德體育園) · Kai Tak Station Square (啟德車站廣場) · Kai Tak (啟德)

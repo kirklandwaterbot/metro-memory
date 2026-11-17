@@ -105,7 +105,7 @@ export const LINE_GROUPS: LineGroup[] = [
         items: [
             {
                 type: 'lines',
-                lines: ['fs_guangfo', 'fs_line2', 'fs_line3', 'fs_tnh1']
+                lines: ['fs_guangfo', 'fs_line2', 'fs_line3', 'fs_line4', 'fs_line11', 'fs_tnh1']
             }
         ]
     },
@@ -189,7 +189,7 @@ export const LINE_GROUPS: LineGroup[] = [
                 type: 'lines',
                 title: 'Heavy Rail',
                 titleImage: 'MTRHeavyRail.png',
-                lines: ['EAL', 'TML', 'NOL', 'AEL', 'TCL', 'TWL', 'ISL', 'KTL', 'TKL', 'SIL', 'DRL', 'XRL']
+                lines: ['EAL', 'TML', 'NOL', 'AEL', 'TCL', 'TWL', 'ISL', 'KTL', 'TKL', 'SIL', 'SILW', 'DRL', 'XRL', 'HKWRL']
             },
             {
                 type: 'lines',
@@ -208,6 +208,18 @@ export const LINE_GROUPS: LineGroup[] = [
                 title: 'Hong Kong International Airport Automated People Mover (APM)',
                 titleImage: 'HKA.png',
                 lines: ['HKAPMT1', 'HKAPMT2', 'HKAPMSKY']
+            }
+        ]
+    },
+    {
+        items: [{ type: 'separator' }]
+    },
+    {
+        title: 'Smart and Green Mass Transit (planned)',
+        items: [
+            {
+                type: 'lines',
+                lines: ['EKSG', 'KTSG']
             }
         ]
     },

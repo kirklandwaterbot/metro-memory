@@ -4748,36 +4748,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.252486,
-          23.1501877
-        ]
-      },
-      "properties": {
-        "id": 90278,
-        "name": "Guangzhou Railway Station (广州火车站)",
-        "long_name": "Guangzhou Railway Station (广州火车站)",
-        "alternate_names": [
-          "Guangzhou Railway Station",
-          "广州火车站",
-          "廣州火車站",
-          "guangzhouhuochezhan",
-          "gwong2zau1fo2ce1zaam6",
-          "gwongzaufocezaam",
-          "guang zhou huo che zhan",
-          "gwong2 zau1 fo2 ce1 zaam6"
-        ],
-        "line": "gzline14",
-        "order": 12,
-        "cluster_key": "guangzhou_station_complex",
-        "original_city": "gz"
-      },
-      "id": 90278
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           113.2518513,
           23.1423894
         ]
@@ -10560,36 +10530,6 @@
         "original_city": "gz"
       },
       "id": 90131
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.252486,
-          23.1501877
-        ]
-      },
-      "properties": {
-        "id": 90132,
-        "name": "Guangzhou Railway Station (广州火车站)",
-        "long_name": "Guangzhou Railway Station (广州火车站)",
-        "alternate_names": [
-          "Guangzhou Railway Station",
-          "广州火车站",
-          "廣州火車站",
-          "guangzhouhuochezhan",
-          "gwong2zau1fo2ce1zaam6",
-          "gwongzaufocezaam",
-          "guang zhou huo che zhan",
-          "gwong2 zau1 fo2 ce1 zaam6"
-        ],
-        "line": "gzline14",
-        "order": 5,
-        "cluster_key": "guangzhou_station_complex",
-        "original_city": "gz"
-      },
-      "id": 90132
     },
     {
       "type": "Feature",
@@ -19119,15 +19059,15 @@
           "Kornhill",
           "Kornhill Station",
           "Kornhill station",
-          "K????ngsh????n",
+          "Kāngshān",
           "hong1 saan1",
           "kornhill",
           "kornhill Station",
           "kornhill station",
-          "??????",
-          "?????????",
+          "康山",
           "hong saan zhan",
-          "hong1 saan1 zaam6"
+          "hong1 saan1 zaam6",
+          "kang shan"
         ],
         "line": "HKT",
         "order": 72,
@@ -63103,7 +63043,10 @@
           "Terminal 3",
           "Terminal 3 Station",
           "3号航站楼",
-          "3號航站樓"
+          "3號航站樓",
+          "號航站樓",
+          "hao hang zhan lou",
+          "hou6 hong4 zaam6 lau4"
         ],
         "line": "szairportapm",
         "order": 0,
@@ -63128,7 +63071,10 @@
           "Satellite Hall",
           "Satellite Hall Station",
           "卫星厅",
-          "衛星廳"
+          "衛星廳",
+          "衞星廳",
+          "wei xing ting",
+          "wai6 sing1 teng1"
         ],
         "line": "szairportapm",
         "order": 1,
@@ -63154,7 +63100,9 @@
           "觀光纜車站",
           "观光缆车站",
           "Estação do Teleférico Panorâmico",
-          "Estacao do Teleferico Panoramico"
+          "Estacao do Teleferico Panoramico",
+          "guan guang lan ju zhan",
+          "gun1 gwong1 laam6 ce1 zaam6"
         ],
         "line": "wynnskycab",
         "order": 0,
@@ -63182,7 +63130,9 @@
           "Wynn Palace Entrance",
           "永利皇宮入口",
           "永利皇宫入口",
-          "Entrada do Wynn Palace"
+          "Entrada do Wynn Palace",
+          "yong li huang gong ru kou",
+          "wing5 lei6 wong4 gung1 jap6 hau2"
         ],
         "line": "wynnskycab",
         "order": 1,
@@ -63207,7 +63157,9 @@
           "Flora Garden",
           "二龍喉公園",
           "二龙喉公园",
-          "Jardim da Flora"
+          "Jardim da Flora",
+          "er long hou gong yuan",
+          "ji6 lung4 hau4 gung1 jyun2"
         ],
         "line": "mab_guia",
         "order": 0,
@@ -63232,7 +63184,9 @@
           "Guia Hill",
           "東望洋山",
           "东望洋山",
-          "Colina da Guia"
+          "Colina da Guia",
+          "dong wang yang shan",
+          "dung1 mong6 joeng4 saan1"
         ],
         "line": "mab_guia",
         "order": 1,
@@ -63258,7 +63212,9 @@
           "嘉樂庇總督馬路站",
           "嘉乐庇总督马路站",
           "Estação da Estrada Governador Nobre de Carvalho",
-          "Estacao da Estrada Governador Nobre de Carvalho"
+          "Estacao da Estrada Governador Nobre de Carvalho",
+          "jia le bi zong du ma lu zhan",
+          "gaa1 lok6 bei3 zung2 duk1 maa5 lou6 zaam6"
         ],
         "line": "mab_taipa",
         "order": 0,
@@ -63284,13 +63240,2213 @@
           "大潭山觀景台站",
           "大潭山观景台站",
           "Estação do Miradouro da Taipa Grande",
-          "Estacao do Miradouro da Taipa Grande"
+          "Estacao do Miradouro da Taipa Grande",
+          "da tan shan guan jing tai zhan",
+          "daai6 taam4 saan1 gun1 ging2 toi4 zaam6"
         ],
         "line": "mab_taipa",
         "order": 1,
         "original_city": "macau"
       },
       "id": 91885
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.852934,
+          23.176393
+        ]
+      },
+      "properties": {
+        "id": 91886,
+        "name": "Beijiang Avenue (北江大道)",
+        "long_name": "北江大道 Beijiang Avenue",
+        "alternate_names": [
+          "Beijiang Avenue",
+          "北江大道",
+          "bei jiang da dao",
+          "bak1 gong1 daai6 dou6"
+        ],
+        "line": "fs_line4",
+        "order": 0,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91886
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.852934,
+          23.176393
+        ]
+      },
+      "properties": {
+        "id": 91887,
+        "name": "Xiqing Avenue (西青大道)",
+        "long_name": "西青大道 Xiqing Avenue",
+        "alternate_names": [
+          "Xiqing Avenue",
+          "西青大道",
+          "xi qing da dao",
+          "sai1 cing1 daai6 dou6"
+        ],
+        "line": "fs_line4",
+        "order": 1,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91887
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.875407,
+          23.174392
+        ]
+      },
+      "properties": {
+        "id": 91888,
+        "name": "Sanshui Hospital (三水医院)",
+        "long_name": "三水医院 Sanshui Hospital",
+        "alternate_names": [
+          "Sanshui Hospital",
+          "三水医院",
+          "三水醫院",
+          "san shui yi yuan",
+          "saam1 seoi2 ji1 jyun2"
+        ],
+        "line": "fs_line4",
+        "order": 2,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91888
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.895262,
+          23.165437
+        ]
+      },
+      "properties": {
+        "id": 91889,
+        "name": "Xinan Subdistrict (西南街道)",
+        "long_name": "西南街道 Xinan Subdistrict",
+        "alternate_names": [
+          "Xinan Subdistrict",
+          "西南街道",
+          "xi nan jie dao",
+          "sai1 naam4 gaai1 dou6"
+        ],
+        "line": "fs_line4",
+        "order": 3,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91889
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.915225,
+          23.152916
+        ]
+      },
+      "properties": {
+        "id": 91890,
+        "name": "Dongjiao Park (东交公园)",
+        "long_name": "东交公园 Dongjiao Park",
+        "alternate_names": [
+          "Dongjiao Park",
+          "东交公园",
+          "東交公園",
+          "dong jiao gong yuan",
+          "dung1 gaau1 gung1 jyun2"
+        ],
+        "line": "fs_line4",
+        "order": 4,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91890
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.935725,
+          23.146885
+        ]
+      },
+      "properties": {
+        "id": 91891,
+        "name": "Lianzitang (莲子塘)",
+        "long_name": "莲子塘 Lianzitang",
+        "alternate_names": [
+          "Lianzitang",
+          "莲子塘",
+          "蓮子塘",
+          "lian zi tang",
+          "lin4 zi2 tong4"
+        ],
+        "line": "fs_line4",
+        "order": 5,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91891
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.955636,
+          23.137626
+        ]
+      },
+      "properties": {
+        "id": 91892,
+        "name": "Xincheng Hospital (新城医院)",
+        "long_name": "新城医院 Xincheng Hospital",
+        "alternate_names": [
+          "Xincheng Hospital",
+          "新城医院",
+          "新城醫院",
+          "xin cheng yi yuan",
+          "san1 sing4 ji1 jyun2"
+        ],
+        "line": "fs_line4",
+        "order": 6,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91892
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.965781,
+          23.133801
+        ]
+      },
+      "properties": {
+        "id": 91893,
+        "name": "Dajiangshe Village (大江社村)",
+        "long_name": "大江社村 Dajiangshe Village",
+        "alternate_names": [
+          "Dajiangshe Village",
+          "大江社村",
+          "da jiang she cun",
+          "daai6 gong1 se5 cyun1"
+        ],
+        "line": "fs_line4",
+        "order": 7,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91893
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.9660265,
+          23.1563568
+        ]
+      },
+      "properties": {
+        "id": 91894,
+        "name": "Shishan North (狮山北)",
+        "long_name": "狮山北 Shishan North",
+        "alternate_names": [
+          "Shishan North",
+          "狮山北",
+          "獅山北",
+          "shi shan bei",
+          "si1 saan1 bak1"
+        ],
+        "line": "fs_line4",
+        "order": 8,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91894
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.993136,
+          23.123618
+        ]
+      },
+      "properties": {
+        "id": 91895,
+        "name": "Bo'ai Road (博爱路)",
+        "long_name": "博爱路 Bo'ai Road",
+        "alternate_names": [
+          "Bo'ai Road",
+          "博爱路",
+          "博愛路",
+          "bo ai lu",
+          "bok3 oi3 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 9,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91895
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.9975,
+          23.110838
+        ]
+      },
+      "properties": {
+        "id": 91896,
+        "name": "Keji West Road (科技西路)",
+        "long_name": "科技西路 Keji West Road",
+        "alternate_names": [
+          "Keji West Road",
+          "科技西路",
+          "ke ji xi lu",
+          "fo1 gei6 sai1 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 10,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91896
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.015851,
+          23.103432
+        ]
+      },
+      "properties": {
+        "id": 91897,
+        "name": "Kepu Middle Road (科普中路)",
+        "long_name": "科普中路 Kepu Middle Road",
+        "alternate_names": [
+          "Kepu Middle Road",
+          "科普中路",
+          "ke pu zhong lu",
+          "fo1 pou2 zung1 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 11,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91897
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.021937,
+          23.100685
+        ]
+      },
+      "properties": {
+        "id": 91898,
+        "name": "Xiaokengwei (小坑尾)",
+        "long_name": "小坑尾 Xiaokengwei",
+        "alternate_names": [
+          "Xiaokengwei",
+          "小坑尾",
+          "xiao keng wei",
+          "siu2 haang1 mei5"
+        ],
+        "line": "fs_line4",
+        "order": 12,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91898
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0281226,
+          23.0827166
+        ]
+      },
+      "properties": {
+        "id": 91899,
+        "name": "Foshan West Railway Station (佛山西站)",
+        "long_name": "佛山西站 Foshan West Railway Station",
+        "alternate_names": [
+          "Foshan West Railway Station",
+          "佛山西站",
+          "fo shan xi zhan",
+          "fat6 saan1 sai1 zaam6"
+        ],
+        "line": "fs_line4",
+        "order": 13,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91899
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.022985,
+          23.063746
+        ]
+      },
+      "properties": {
+        "id": 91900,
+        "name": "Xiabo (下柏)",
+        "long_name": "下柏 Xiabo",
+        "alternate_names": [
+          "Xiabo",
+          "下柏",
+          "xia bai",
+          "haa6 paak3"
+        ],
+        "line": "fs_line4",
+        "order": 14,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91900
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.014954,
+          23.046209
+        ]
+      },
+      "properties": {
+        "id": 91901,
+        "name": "Luowu Road (罗务路)",
+        "long_name": "罗务路 Luowu Road",
+        "alternate_names": [
+          "Luowu Road",
+          "罗务路",
+          "羅務路",
+          "luo wu lu",
+          "lo4 mou6 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 15,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91901
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.012711,
+          23.025874
+        ]
+      },
+      "properties": {
+        "id": 91902,
+        "name": "Lvdao Lake North (绿岛湖北)",
+        "long_name": "绿岛湖北 Lvdao Lake North",
+        "alternate_names": [
+          "Lvdao Lake North",
+          "绿岛湖北",
+          "綠島湖北",
+          "lü dao hu bei",
+          "luk6 dou2 wu4 bak1"
+        ],
+        "line": "fs_line4",
+        "order": 16,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91902
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.02643,
+          23.01411
+        ]
+      },
+      "properties": {
+        "id": 91903,
+        "name": "Lvdao Lake Middle (绿岛湖中)",
+        "long_name": "绿岛湖中 Lvdao Lake Middle",
+        "alternate_names": [
+          "Lvdao Lake Middle",
+          "绿岛湖中",
+          "綠島湖中",
+          "lü dao hu zhong",
+          "luk6 dou2 wu4 zung1"
+        ],
+        "line": "fs_line4",
+        "order": 17,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91903
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0501119,
+          23.0136753
+        ]
+      },
+      "properties": {
+        "id": 91904,
+        "name": "Zhihui Xin City (智慧新城)",
+        "long_name": "智慧新城 Zhihui Xin City",
+        "alternate_names": [
+          "Zhihui Xin City",
+          "智慧新城",
+          "zhi hui xin cheng",
+          "zi3 wai3 san1 sing4"
+        ],
+        "line": "fs_line4",
+        "order": 18,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91904
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0629721,
+          23.013646
+        ]
+      },
+      "properties": {
+        "id": 91905,
+        "name": "Zhangcha (张槎)",
+        "long_name": "张槎 Zhangcha",
+        "alternate_names": [
+          "Zhangcha",
+          "张槎",
+          "張槎",
+          "zhang cha",
+          "zoeng1 caa4"
+        ],
+        "line": "fs_line4",
+        "order": 19,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91905
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.082565,
+          23.014405
+        ]
+      },
+      "properties": {
+        "id": 91906,
+        "name": "Jiangwan Road (江湾路)",
+        "long_name": "江湾路 Jiangwan Road",
+        "alternate_names": [
+          "Jiangwan Road",
+          "江湾路",
+          "江灣路",
+          "jiang wan lu",
+          "gong1 waan1 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 20,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91906
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.093102,
+          23.014231
+        ]
+      },
+      "properties": {
+        "id": 91907,
+        "name": "Foshan Avenue (佛山大道)",
+        "long_name": "佛山大道 Foshan Avenue",
+        "alternate_names": [
+          "Foshan Avenue",
+          "佛山大道",
+          "fo shan da dao",
+          "fat6 saan1 daai6 dou6"
+        ],
+        "line": "fs_line4",
+        "order": 21,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91907
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1030462,
+          23.0096252
+        ]
+      },
+      "properties": {
+        "id": 91908,
+        "name": "Jihua Park (季华园)",
+        "long_name": "季华园 Jihua Park",
+        "alternate_names": [
+          "Jihua Park",
+          "季华园",
+          "季華園",
+          "ji hua yuan",
+          "gwai3 waa4 jyun4"
+        ],
+        "line": "fs_line4",
+        "order": 22,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91908
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.11864,
+          23.014162
+        ]
+      },
+      "properties": {
+        "id": 91909,
+        "name": "Wenhua Park (文华公园)",
+        "long_name": "文华公园 Wenhua Park",
+        "alternate_names": [
+          "Wenhua Park",
+          "文华公园",
+          "文華公園",
+          "wen hua gong yuan",
+          "man4 waa4 gung1 jyun2"
+        ],
+        "line": "fs_line4",
+        "order": 23,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91909
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.131399,
+          23.014656
+        ]
+      },
+      "properties": {
+        "id": 91910,
+        "name": "Jihua Liu Road (季华六路)",
+        "long_name": "季华六路 Jihua Liu Road",
+        "alternate_names": [
+          "Jihua Liu Road",
+          "季华六路",
+          "季華六路",
+          "ji hua liu lu",
+          "gwai3 waa4 luk6 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 24,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91910
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.148661,
+          23.015127
+        ]
+      },
+      "properties": {
+        "id": 91911,
+        "name": "Shiken (石肯)",
+        "long_name": "石肯 Shiken",
+        "alternate_names": [
+          "Shiken",
+          "石肯",
+          "shi ken",
+          "sek6 hang2"
+        ],
+        "line": "fs_line4",
+        "order": 25,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91911
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.160756,
+          23.013675
+        ]
+      },
+      "properties": {
+        "id": 91912,
+        "name": "Jihua East Road (季华东路)",
+        "long_name": "季华东路 Jihua East Road",
+        "alternate_names": [
+          "Jihua East Road",
+          "季华东路",
+          "季華東路",
+          "ji hua dong lu",
+          "gwai3 waa4 dung1 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 26,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91912
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.171236,
+          23.008514
+        ]
+      },
+      "properties": {
+        "id": 91913,
+        "name": "Pingsheng (平胜)",
+        "long_name": "平胜 Pingsheng",
+        "alternate_names": [
+          "Pingsheng",
+          "平胜",
+          "平勝",
+          "ping sheng",
+          "peng4 sing3"
+        ],
+        "line": "fs_line4",
+        "order": 27,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91913
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.183555,
+          23.010997
+        ]
+      },
+      "properties": {
+        "id": 91914,
+        "name": "Guabu (瓜步)",
+        "long_name": "瓜步 Guabu",
+        "alternate_names": [
+          "Guabu",
+          "瓜步",
+          "gua bu",
+          "gwaa1 bou6"
+        ],
+        "line": "fs_line4",
+        "order": 28,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91914
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.193642,
+          23.010847
+        ]
+      },
+      "properties": {
+        "id": 91915,
+        "name": "Pingnan Industrial Zone (平南工业区)",
+        "long_name": "平南工业区 Pingnan Industrial Zone",
+        "alternate_names": [
+          "Pingnan Industrial Zone",
+          "平南工业区",
+          "平南工業區",
+          "ping nan gong ye qu",
+          "peng4 naam4 gung1 jip6 keoi1"
+        ],
+        "line": "fs_line4",
+        "order": 29,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91915
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.217579,
+          23.009537
+        ]
+      },
+      "properties": {
+        "id": 91916,
+        "name": "Pingsheng East Road (平胜东路)",
+        "long_name": "平胜东路 Pingsheng East Road",
+        "alternate_names": [
+          "Pingsheng East Road",
+          "平胜东路",
+          "平勝東路",
+          "ping sheng dong lu",
+          "peng4 sing3 dung1 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 30,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91916
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2289499,
+          23.0108188
+        ]
+      },
+      "properties": {
+        "id": 91917,
+        "name": "Sanshanxin City South (三山新城南)",
+        "long_name": "三山新城南 Sanshanxin City South",
+        "alternate_names": [
+          "Sanshanxin City South",
+          "三山新城南",
+          "san shan xin cheng nan",
+          "saam1 saan1 san1 sing4 naam4"
+        ],
+        "line": "fs_line4",
+        "order": 31,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91917
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.24053,
+          23.008732
+        ]
+      },
+      "properties": {
+        "id": 91918,
+        "name": "Gangkou Road (港口路)",
+        "long_name": "港口路 Gangkou Road",
+        "alternate_names": [
+          "Gangkou Road",
+          "港口路",
+          "gang kou lu",
+          "gong2 hau2 lou6"
+        ],
+        "line": "fs_line4",
+        "order": 32,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91918
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2456653,
+          23.0738595
+        ]
+      },
+      "properties": {
+        "id": 91919,
+        "name": "Hedong East (鹤洞东)",
+        "long_name": "鹤洞东 Hedong East",
+        "alternate_names": [
+          "Hedong East",
+          "鹤洞东",
+          "鶴洞東",
+          "he dong dong",
+          "hok6 dung6 dung1"
+        ],
+        "line": "fs_line11",
+        "order": 0,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91919
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.239274,
+          23.059291
+        ]
+      },
+      "properties": {
+        "id": 91920,
+        "name": "Guanggang Park (广钢公园)",
+        "long_name": "广钢公园 Guanggang Park",
+        "alternate_names": [
+          "Guanggang Park",
+          "广钢公园",
+          "廣鋼公園",
+          "guang gang gong yuan",
+          "gwong2 gong3 gung1 jyun2"
+        ],
+        "line": "fs_line11",
+        "order": 1,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91920
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2393685,
+          23.0602944
+        ]
+      },
+      "properties": {
+        "id": 91921,
+        "name": "Huawei (花围)",
+        "long_name": "花围 Huawei",
+        "alternate_names": [
+          "Huawei",
+          "花围",
+          "花圍",
+          "hua wei",
+          "faa1 wai4"
+        ],
+        "line": "fs_line11",
+        "order": 2,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91921
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.240375,
+          23.039768
+        ]
+      },
+      "properties": {
+        "id": 91922,
+        "name": "Sanshan New Town (三山新城)",
+        "long_name": "三山新城 Sanshan New Town",
+        "alternate_names": [
+          "Sanshan New Town",
+          "三山新城",
+          "san shan xin cheng",
+          "saam1 saan1 san1 sing4"
+        ],
+        "line": "fs_line11",
+        "order": 3,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91922
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.240207,
+          23.028599
+        ]
+      },
+      "properties": {
+        "id": 91923,
+        "name": "Enterprise City (创智园)",
+        "long_name": "创智园 Enterprise City",
+        "alternate_names": [
+          "Enterprise City",
+          "创智园",
+          "創智園",
+          "chuang zhi yuan",
+          "cong3 zi3 jyun4"
+        ],
+        "line": "fs_line11",
+        "order": 4,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91923
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.240763,
+          23.008049
+        ]
+      },
+      "properties": {
+        "id": 91924,
+        "name": "Gangkou Road (港口路)",
+        "long_name": "港口路 Gangkou Road",
+        "alternate_names": [
+          "Gangkou Road",
+          "港口路",
+          "gang kou lu",
+          "gong2 hau2 lou6"
+        ],
+        "line": "fs_line11",
+        "order": 5,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91924
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2443459,
+          22.9966962
+        ]
+      },
+      "properties": {
+        "id": 91925,
+        "name": "Linyue East (林岳东)",
+        "long_name": "林岳东 Linyue East",
+        "alternate_names": [
+          "Linyue East",
+          "林岳东",
+          "林嶽東",
+          "lin yue dong",
+          "lam4 ngok6 dung1"
+        ],
+        "line": "fs_line11",
+        "order": 6,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91925
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2311282,
+          22.9718296
+        ]
+      },
+      "properties": {
+        "id": 91926,
+        "name": "Chencun North (陈村北)",
+        "long_name": "陈村北 Chencun North",
+        "alternate_names": [
+          "Chencun North",
+          "陈村北",
+          "陳村北",
+          "chen cun bei",
+          "can4 cyun1 bak1"
+        ],
+        "line": "fs_line11",
+        "order": 7,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91926
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.249928,
+          22.961566
+        ]
+      },
+      "properties": {
+        "id": 91927,
+        "name": "Chencun East (陈村东)",
+        "long_name": "陈村东 Chencun East",
+        "alternate_names": [
+          "Chencun East",
+          "陈村东",
+          "陳村東",
+          "chen cun dong",
+          "can4 cyun1 dung1"
+        ],
+        "line": "fs_line11",
+        "order": 8,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91927
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2571916,
+          22.9524868
+        ]
+      },
+      "properties": {
+        "id": 91928,
+        "name": "Bijiang (碧江)",
+        "long_name": "碧江 Bijiang",
+        "alternate_names": [
+          "Bijiang",
+          "碧江",
+          "bi jiang",
+          "bik1 gong1"
+        ],
+        "line": "fs_line11",
+        "order": 9,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91928
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2714,
+          22.8777
+        ]
+      },
+      "properties": {
+        "id": 91929,
+        "name": "Shunde (顺德)",
+        "long_name": "顺德站 Shunde",
+        "alternate_names": [
+          "Shunde",
+          "顺德站",
+          "順德站",
+          "shun de zhan",
+          "seon6 dak1 zaam6"
+        ],
+        "line": "fs_line11",
+        "order": 10,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91929
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.263942,
+          22.85639
+        ]
+      },
+      "properties": {
+        "id": 91930,
+        "name": "Yongfeng Market (永丰市场)",
+        "long_name": "永丰市场 Yongfeng Market",
+        "alternate_names": [
+          "Yongfeng Market",
+          "永丰市场",
+          "永豐市場",
+          "yong feng shi chang",
+          "wing5 fung1 si5 coeng4"
+        ],
+        "line": "fs_line11",
+        "order": 11,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91930
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.259017,
+          22.850078
+        ]
+      },
+      "properties": {
+        "id": 91931,
+        "name": "Yunlu Park (云路公园)",
+        "long_name": "云路公园 Yunlu Park",
+        "alternate_names": [
+          "Yunlu Park",
+          "云路公园",
+          "雲路公園",
+          "yun lu gong yuan",
+          "wan4 lou6 gung1 jyun2"
+        ],
+        "line": "fs_line11",
+        "order": 12,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91931
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2593753,
+          22.8377453
+        ]
+      },
+      "properties": {
+        "id": 91932,
+        "name": "Dongle Road (东乐路)",
+        "long_name": "东乐路 Dongle Road",
+        "alternate_names": [
+          "Dongle Road",
+          "东乐路",
+          "東樂路",
+          "dong le lu",
+          "dung1 lok6 lou6"
+        ],
+        "line": "fs_line11",
+        "order": 13,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91932
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.259219,
+          22.830503
+        ]
+      },
+      "properties": {
+        "id": 91933,
+        "name": "Nanguo Road (南国路)",
+        "long_name": "南国路 Nanguo Road",
+        "alternate_names": [
+          "Nanguo Road",
+          "南国路",
+          "南國路",
+          "nan guo lu",
+          "naam4 gwok3 lou6"
+        ],
+        "line": "fs_line11",
+        "order": 14,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91933
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.263336,
+          22.817317
+        ]
+      },
+      "properties": {
+        "id": 91934,
+        "name": "Baolin Temple (宝林寺)",
+        "long_name": "宝林寺 Baolin Temple",
+        "alternate_names": [
+          "Baolin Temple",
+          "宝林寺",
+          "寶林寺",
+          "bao lin si",
+          "bou2 lam4 zi2"
+        ],
+        "line": "fs_line11",
+        "order": 15,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91934
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.261933,
+          22.793794
+        ]
+      },
+      "properties": {
+        "id": 91935,
+        "name": "Desheng West Road (德胜西路)",
+        "long_name": "德胜西路 Desheng West Road",
+        "alternate_names": [
+          "Desheng West Road",
+          "德胜西路",
+          "德勝西路",
+          "de sheng xi lu",
+          "dak1 sing3 sai1 lou6"
+        ],
+        "line": "fs_line11",
+        "order": 16,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91935
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.263155,
+          22.776059
+        ]
+      },
+      "properties": {
+        "id": 91936,
+        "name": "Rongqi Ferry (容奇渡口)",
+        "long_name": "容奇渡口 Rongqi Ferry",
+        "alternate_names": [
+          "Rongqi Ferry",
+          "容奇渡口",
+          "rong qi du kou",
+          "jung4 kei4 dou6 hau2"
+        ],
+        "line": "fs_line11",
+        "order": 17,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91936
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.253638,
+          22.755854
+        ]
+      },
+      "properties": {
+        "id": 91937,
+        "name": "Guizhou Avenue (桂洲大道)",
+        "long_name": "桂洲大道 Guizhou Avenue",
+        "alternate_names": [
+          "Guizhou Avenue",
+          "桂洲大道",
+          "gui zhou da dao",
+          "gwai3 zau1 daai6 dou6"
+        ],
+        "line": "fs_line11",
+        "order": 18,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91937
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.25527,
+          22.74258
+        ]
+      },
+      "properties": {
+        "id": 91938,
+        "name": "Xijiao (细滘)",
+        "long_name": "细滘 Xijiao",
+        "alternate_names": [
+          "Xijiao",
+          "细滘",
+          "細滘",
+          "xi jiao",
+          "sai3 gaau3"
+        ],
+        "line": "fs_line11",
+        "order": 19,
+        "original_city": "gz",
+        "status": "future"
+      },
+      "id": 91938
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13500113640396,
+          22.284011899390542
+        ]
+      },
+      "properties": {
+        "id": 91939,
+        "name": "HKU (香港大學)",
+        "long_name": "香港大學 HKU",
+        "alternate_names": [
+          "HKU",
+          "香港大學",
+          "xiang gang da xue",
+          "hoeng1 gong2 daai6 hok6"
+        ],
+        "line": "SILW",
+        "order": 0,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91939
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13085,
+          22.267569
+        ]
+      },
+      "properties": {
+        "id": 91940,
+        "name": "Queen Mary Hospital (瑪麗醫院)",
+        "long_name": "瑪麗醫院 Queen Mary Hospital",
+        "alternate_names": [
+          "Queen Mary Hospital",
+          "瑪麗醫院",
+          "ma li yi yuan",
+          "maa5 lai6 ji1 jyun2"
+        ],
+        "line": "SILW",
+        "order": 1,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91940
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.133348,
+          22.259531
+        ]
+      },
+      "properties": {
+        "id": 91941,
+        "name": "Cyberport (數碼港)",
+        "long_name": "數碼港 Cyberport",
+        "alternate_names": [
+          "Cyberport",
+          "數碼港",
+          "shu ma gang",
+          "sou3 maa5 gong2"
+        ],
+        "line": "SILW",
+        "order": 2,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91941
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.137568,
+          22.253279
+        ]
+      },
+      "properties": {
+        "id": 91942,
+        "name": "Wah Fu (華富)",
+        "long_name": "華富 Wah Fu",
+        "alternate_names": [
+          "Wah Fu",
+          "華富",
+          "hua fu",
+          "waa4 fu3"
+        ],
+        "line": "SILW",
+        "order": 3,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91942
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.140383,
+          22.250839
+        ]
+      },
+      "properties": {
+        "id": 91943,
+        "name": "Wah Kwai (華貴)",
+        "long_name": "華貴 Wah Kwai",
+        "alternate_names": [
+          "Wah Kwai",
+          "華貴",
+          "hua gui",
+          "waa4 gwai3"
+        ],
+        "line": "SILW",
+        "order": 4,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91943
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.148645,
+          22.248607
+        ]
+      },
+      "properties": {
+        "id": 91944,
+        "name": "Tin Wan (田灣)",
+        "long_name": "田灣 Tin Wan",
+        "alternate_names": [
+          "Tin Wan",
+          "田灣",
+          "tian wan",
+          "tin4 waan1"
+        ],
+        "line": "SILW",
+        "order": 5,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91944
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.155438,
+          22.247337
+        ]
+      },
+      "properties": {
+        "id": 91945,
+        "name": "Aberdeen (香港仔)",
+        "long_name": "香港仔 Aberdeen",
+        "alternate_names": [
+          "Aberdeen",
+          "香港仔",
+          "xiang gang zai",
+          "hoeng1 gong2 zai2"
+        ],
+        "line": "SILW",
+        "order": 6,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91945
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.16800016186689,
+          22.24800532433389
+        ]
+      },
+      "properties": {
+        "id": 91946,
+        "name": "Wong Chuk Hang (黃竹坑)",
+        "long_name": "黃竹坑 Wong Chuk Hang",
+        "alternate_names": [
+          "Wong Chuk Hang",
+          "黃竹坑",
+          "huang zhu keng",
+          "wong4 zuk1 haang1"
+        ],
+        "line": "SILW",
+        "order": 7,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91946
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.997378085641,
+          22.433782912063
+        ]
+      },
+      "properties": {
+        "id": 91947,
+        "name": "Hung Shui Kiu (洪水橋)",
+        "long_name": "洪水橋 Hung Shui Kiu",
+        "alternate_names": [
+          "Hung Shui Kiu",
+          "洪水橋",
+          "hong shui qiao",
+          "hung4 seoi2 kiu4"
+        ],
+        "line": "HKWRL",
+        "order": 0,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91947
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.994574,
+          22.454181
+        ]
+      },
+      "properties": {
+        "id": 91948,
+        "name": "Ha Tsuen (廈村)",
+        "long_name": "廈村 Ha Tsuen",
+        "alternate_names": [
+          "Ha Tsuen",
+          "廈村",
+          "sha cun",
+          "haa6 cyun1"
+        ],
+        "line": "HKWRL",
+        "order": 1,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91948
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.985852,
+          22.462736
+        ]
+      },
+      "properties": {
+        "id": 91949,
+        "name": "Lau Fau Shan (流浮山)",
+        "long_name": "流浮山 Lau Fau Shan",
+        "alternate_names": [
+          "Lau Fau Shan",
+          "流浮山",
+          "liu fu shan",
+          "lau4 fau4 saan1"
+        ],
+        "line": "HKWRL",
+        "order": 2,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91949
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.941031,
+          22.504565
+        ]
+      },
+      "properties": {
+        "id": 91950,
+        "name": "Shenzhen Bay Checkpoint (深圳灣口岸)",
+        "long_name": "深圳灣口岸 Shenzhen Bay Checkpoint",
+        "alternate_names": [
+          "Shenzhen Bay Checkpoint",
+          "深圳灣口岸",
+          "shen zhen wan kou an",
+          "sam1 zan3 waan1 hau2 ngon6"
+        ],
+        "line": "HKWRL",
+        "order": 3,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91950
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.890569,
+          22.537836
+        ]
+      },
+      "properties": {
+        "id": 91951,
+        "name": "Qianhaiwan (前海灣)",
+        "long_name": "前海灣 Qianhaiwan",
+        "alternate_names": [
+          "Qianhaiwan",
+          "前海灣",
+          "qian hai wan",
+          "cin4 hoi2 waan1"
+        ],
+        "line": "HKWRL",
+        "order": 4,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91951
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.239358,
+          22.298482
+        ]
+      },
+      "properties": {
+        "id": 91952,
+        "name": "Yau Tong East (油塘東)",
+        "long_name": "油塘東 Yau Tong East",
+        "alternate_names": [
+          "Yau Tong East",
+          "油塘東",
+          "you tang dong",
+          "jau4 tong4 dung1"
+        ],
+        "line": "EKSG",
+        "order": 0,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91952
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.238314,
+          22.31108
+        ]
+      },
+      "properties": {
+        "id": 91953,
+        "name": "Lam Tin North (藍田北)",
+        "long_name": "藍田北 Lam Tin North",
+        "alternate_names": [
+          "Lam Tin North",
+          "藍田北",
+          "lan tian bei",
+          "laam4 tin4 bak1"
+        ],
+        "line": "EKSG",
+        "order": 1,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91953
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.241061,
+          22.317361
+        ]
+      },
+      "properties": {
+        "id": 91954,
+        "name": "Ma Yau Tong (馬游塘)",
+        "long_name": "馬游塘 Ma Yau Tong",
+        "alternate_names": [
+          "Ma Yau Tong",
+          "馬游塘",
+          "馬遊塘",
+          "ma you tang",
+          "maa5 jau4 tong4"
+        ],
+        "line": "EKSG",
+        "order": 2,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91954
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.238082,
+          22.318108
+        ]
+      },
+      "properties": {
+        "id": 91955,
+        "name": "Po Tat (寶達)",
+        "long_name": "寶達 Po Tat",
+        "alternate_names": [
+          "Po Tat",
+          "寶達",
+          "bao da",
+          "bou2 daat6"
+        ],
+        "line": "EKSG",
+        "order": 3,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91955
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.232748,
+          22.321292
+        ]
+      },
+      "properties": {
+        "id": 91956,
+        "name": "Sau Mau Ping (秀茂坪)",
+        "long_name": "秀茂坪 Sau Mau Ping",
+        "alternate_names": [
+          "Sau Mau Ping",
+          "秀茂坪",
+          "xiu mao ping",
+          "sau3 mau6 ping4"
+        ],
+        "line": "EKSG",
+        "order": 4,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91956
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.229226,
+          22.324784
+        ]
+      },
+      "properties": {
+        "id": 91957,
+        "name": "Shun On (順安)",
+        "long_name": "順安 Shun On",
+        "alternate_names": [
+          "Shun On",
+          "順安",
+          "shun an",
+          "seon6 on1"
+        ],
+        "line": "EKSG",
+        "order": 5,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91957
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.226295,
+          22.331562
+        ]
+      },
+      "properties": {
+        "id": 91958,
+        "name": "Shun Lee (順利)",
+        "long_name": "順利 Shun Lee",
+        "alternate_names": [
+          "Shun Lee",
+          "順利",
+          "shun li",
+          "seon6 lei6"
+        ],
+        "line": "EKSG",
+        "order": 6,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91958
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.216035,
+          22.332636
+        ]
+      },
+      "properties": {
+        "id": 91959,
+        "name": "Choi Wan (彩雲)",
+        "long_name": "彩雲 Choi Wan",
+        "alternate_names": [
+          "Choi Wan",
+          "彩雲",
+          "cai yun",
+          "coi2 wan4"
+        ],
+        "line": "EKSG",
+        "order": 7,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91959
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.211544,
+          22.334457
+        ]
+      },
+      "properties": {
+        "id": 91960,
+        "name": "Choi Hung East (彩虹東)",
+        "long_name": "彩虹東 Choi Hung East",
+        "alternate_names": [
+          "Choi Hung East",
+          "彩虹東",
+          "cai hong dong",
+          "coi2 hung4 dung1"
+        ],
+        "line": "EKSG",
+        "order": 8,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91960
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21382,
+          22.306281
+        ]
+      },
+      "properties": {
+        "id": 91961,
+        "name": "Kai Tak Cruise Terminal (啟德郵輪碼頭)",
+        "long_name": "啟德郵輪碼頭 Kai Tak Cruise Terminal",
+        "alternate_names": [
+          "Kai Tak Cruise Terminal",
+          "啟德郵輪碼頭",
+          "qi de you lun ma tou",
+          "kai2 dak1 jau4 leon4 maa5 tau4"
+        ],
+        "line": "KTSG",
+        "order": 0,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91961
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.210111,
+          22.309415
+        ]
+      },
+      "properties": {
+        "id": 91962,
+        "name": "Shing King Street (承景街)",
+        "long_name": "承景街 Shing King Street",
+        "alternate_names": [
+          "Shing King Street",
+          "承景街",
+          "cheng jing jie",
+          "sing4 ging2 gaai1"
+        ],
+        "line": "KTSG",
+        "order": 1,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91962
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.206005,
+          22.31342
+        ]
+      },
+      "properties": {
+        "id": 91963,
+        "name": "Kai Tak Sky Garden (啟德空中花園)",
+        "long_name": "啟德空中花園 Kai Tak Sky Garden",
+        "alternate_names": [
+          "Kai Tak Sky Garden",
+          "啟德空中花園",
+          "qi de kong zhong hua yuan",
+          "kai2 dak1 hung1 zung1 faa1 jyun2"
+        ],
+        "line": "KTSG",
+        "order": 2,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91963
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.200137,
+          22.31931
+        ]
+      },
+      "properties": {
+        "id": 91964,
+        "name": "Shing Fung Road Park (承豐道公園)",
+        "long_name": "承豐道公園 Shing Fung Road Park",
+        "alternate_names": [
+          "Shing Fung Road Park",
+          "承豐道公園",
+          "cheng feng dao gong yuan",
+          "sing4 fung1 dou6 gung1 jyun2"
+        ],
+        "line": "KTSG",
+        "order": 3,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91964
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.198913,
+          22.325242
+        ]
+      },
+      "properties": {
+        "id": 91965,
+        "name": "Kai Tak Sports Park (啟德體育園)",
+        "long_name": "啟德體育園 Kai Tak Sports Park",
+        "alternate_names": [
+          "Kai Tak Sports Park",
+          "啟德體育園",
+          "qi de ti yu yuan",
+          "kai2 dak1 tai2 juk6 jyun4"
+        ],
+        "line": "KTSG",
+        "order": 4,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91965
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.198721,
+          22.330296
+        ]
+      },
+      "properties": {
+        "id": 91966,
+        "name": "Kai Tak Station Square (啟德車站廣場)",
+        "long_name": "啟德車站廣場 Kai Tak Station Square",
+        "alternate_names": [
+          "Kai Tak Station Square",
+          "啟德車站廣場",
+          "qi de ju zhan guang chang",
+          "kai2 dak1 ce1 zaam6 gwong2 coeng4"
+        ],
+        "line": "KTSG",
+        "order": 5,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91966
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19954912813168,
+          22.33056160220436
+        ]
+      },
+      "properties": {
+        "id": 91967,
+        "name": "Kai Tak (啟德)",
+        "long_name": "啟德 Kai Tak",
+        "alternate_names": [
+          "Kai Tak",
+          "啟德",
+          "qi de",
+          "kai2 dak1"
+        ],
+        "line": "KTSG",
+        "order": 6,
+        "original_city": "hk",
+        "status": "future"
+      },
+      "id": 91967
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0998324,
+          22.5423222
+        ]
+      },
+      "properties": {
+        "id": 91968,
+        "name": "Hongling South (红岭南)",
+        "long_name": "红岭南 Hongling South",
+        "alternate_names": [
+          "Hongling South",
+          "红岭南",
+          "Hongling South Station",
+          "红岭南站",
+          "紅嶺南",
+          "honglingnan",
+          "hung4ling5naam4",
+          "hunglingnaam",
+          "紅嶺南站",
+          "hong ling nan zhan",
+          "hung4 ling5 naam4 zaam6"
+        ],
+        "line": "szline11",
+        "order": 21,
+        "original_city": "sz"
+      },
+      "id": 91968
     }
   ],
   "properties": {
