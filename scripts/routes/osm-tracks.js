@@ -238,10 +238,13 @@ function tracksAlong(routeStrings, osmWays, bufferM, proj) {
   const index = segmentIndex(routeStrings, proj)
   const runs = []
   for (const way of osmWays) {
-    const xy = way.coords.map(proj.to)
+    // densify so a run is cut where the track actually leaves the route,
+    // not at the next OSM node (which can be hundreds of metres away)
+    const coords = densify(way.coords, 10)
+    const xy = coords.map(proj.to)
     let cur = []
     const flush = () => {
-      if (cur.length >= 2 && lengthM(cur) >= MIN_RUN_M) runs.push({ id: way.id, coords: cur })
+      if (cur.length >= 2) runs.push({ id: way.id, coords: cur })
       cur = []
     }
     for (let i = 0; i < xy.length; i += 1) {
@@ -256,12 +259,42 @@ function tracksAlong(routeStrings, osmWays, bufferM, proj) {
         if (diff > Math.PI / 2) diff = Math.PI - diff
         ok = (diff * 180) / Math.PI <= MAX_ANGLE_DEG
       }
-      if (ok) cur.push(way.coords[i])
+      if (ok) cur.push(coords[i])
       else flush()
     }
     flush()
   }
-  return runs
+  // OSM splits track at every bridge, switch and signal, so a short run is
+  // only dropped when it is not joined (through shared nodes) to others that
+  // together reach MIN_RUN_M: bridges stay, stray crossing stubs go.
+  const parent = runs.map((_, i) => i)
+  const find = (i) => (parent[i] === i ? i : (parent[i] = find(parent[i])))
+  const byNode = new Map()
+  runs.forEach((r, i) => {
+    for (const p of r.coords) {
+      const key = `${p[0].toFixed(7)},${p[1].toFixed(7)}`
+      if (byNode.has(key)) parent[find(i)] = find(byNode.get(key))
+      else byNode.set(key, i)
+    }
+  })
+  const total = new Map()
+  runs.forEach((r, i) => total.set(find(i), (total.get(find(i)) || 0) + lengthM(r.coords)))
+  return runs.filter((_, i) => total.get(find(i)) >= MIN_RUN_M)
+}
+
+function densify(coords, stepM) {
+  const out = []
+  for (let i = 0; i < coords.length; i += 1) {
+    const a = coords[i]
+    const b = coords[i + 1]
+    out.push(a)
+    if (!b) break
+    const steps = Math.floor(haversine(a, b) / stepM)
+    for (let k = 1; k < steps; k += 1) {
+      out.push([a[0] + ((b[0] - a[0]) * k) / steps, a[1] + ((b[1] - a[1]) * k) / steps])
+    }
+  }
+  return out
 }
 
 /** Stretches of the old route with no new track beside them. */
@@ -318,12 +351,25 @@ async function main() {
   const report = [`# Track layouts — ${args.city}`, '']
   const log = (m) => console.log(m)
 
+  // The route each line's track is looked up along. Once a line has been
+  // replaced by its tracks the drawn route is no longer a centreline, so the
+  // first build saves it to track-centrelines.json and later builds use that.
+  const centrelinesPath = path.join(ROOT, 'data-sources', args.city, 'track-centrelines.json')
+  const centrelines = readJson(centrelinesPath) || {}
   const current = new Map()
   for (const f of routes.features) {
     const line = f.properties?.line
-    if (!lines.includes(line) || f.properties?.future) continue
+    if (!lines.includes(line) || f.properties?.future || centrelines[line]) continue
     if (!current.has(line)) current.set(line, [])
     current.get(line).push(...stringsOf(f.geometry).filter((s) => s.length >= 2))
+  }
+  let savedNew = false
+  for (const line of lines) {
+    if (centrelines[line]) current.set(line, centrelines[line])
+    else if (current.has(line)) {
+      centrelines[line] = current.get(line).map((s) => s.map(round6))
+      savedNew = true
+    }
   }
   const all = [...current.values()].flat()
   if (!all.length) throw new Error('none of the lines have a route to follow')
@@ -361,7 +407,7 @@ async function main() {
       ),
     )
     props.osm_tracks = {
-      source: '© OpenStreetMap contributors (ODbL), via Overpass',
+      source: `© OpenStreetMap contributors (ODbL), via ${args['osm-file'] ? 'Geofabrik' : 'Overpass'}`,
       built: new Date().toISOString().slice(0, 10),
       buffer_m: bufferM,
     }
@@ -377,7 +423,17 @@ async function main() {
     )
   }
 
-  if (!args['dry-run']) writeJsonLike(routesPath, routes)
+  if (!args['dry-run']) {
+    writeJsonLike(routesPath, routes)
+    if (savedNew) {
+      const sorted = Object.fromEntries(Object.keys(centrelines).sort().map((k) => [k, centrelines[k]]))
+      // one line per string keeps the file reviewable without pretty-printing every point
+      const body = Object.entries(sorted)
+        .map(([k, v]) => `  ${JSON.stringify(k)}: [\n${v.map((s) => `    ${JSON.stringify(s)}`).join(',\n')}\n  ]`)
+        .join(',\n')
+      fs.writeFileSync(centrelinesPath, `{\n${body}\n}\n`)
+    }
+  }
   report.push('')
   const text = report.join('\n')
   if (args.report) fs.writeFileSync(args.report, text)
