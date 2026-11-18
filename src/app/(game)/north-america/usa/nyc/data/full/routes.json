@@ -1331756,30 +1331756,6 @@
             39.698373
           ],
           [
-            -75.110984,
-            39.697868
-          ],
-          [
-            -75.11124,
-            39.697971
-          ],
-          [
-            -75.111451,
-            39.698118
-          ],
-          [
-            -75.111615,
-            39.69831
-          ],
-          [
-            -75.111694,
-            39.698548
-          ],
-          [
-            -75.111681,
-            39.698886
-          ],
-          [
             -75.11103,
             39.700996
           ]
@@ -1396405,6 +1396381,29 @@
           "bridged_m": 1970
         },
         "auto_filled": "route-gaps"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.120329,
+            39.943164
+          ],
+          [
+            -75.111589,
+            39.937244
+          ]
+        ]
+      },
+      "properties": {
+        "line": "NJTLRGlassboroCamden",
+        "name": "Glassboro Camden Line",
+        "color": "#A2BD55",
+        "order": 77,
+        "note": "Walter Rand Transportation Center to Lanning Square: new street alignment, not mapped yet; drawn straight"
       }
     }
   ]
