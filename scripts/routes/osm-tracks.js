@@ -33,6 +33,8 @@ const MIN_RUN_M = 60
 const MAX_ANGLE_DEG = 30
 const SIMPLIFY_M = 2
 const KEEP_OLD_MIN_M = 50
+const JOIN_GAP_M = 60
+const JOIN_MAX_ANGLE_DEG = 20
 
 function parseArgs(argv) {
   const args = {}
@@ -279,7 +281,70 @@ function tracksAlong(routeStrings, osmWays, bufferM, proj) {
   })
   const total = new Map()
   runs.forEach((r, i) => total.set(find(i), (total.get(find(i)) || 0) + lengthM(r.coords)))
-  return runs.filter((_, i) => total.get(find(i)) >= MIN_RUN_M)
+  const kept = runs.filter((_, i) => total.get(find(i)) >= MIN_RUN_M)
+  return [...kept, ...bridgeGaps(kept, proj)]
+}
+
+/**
+ * Short straight links across small breaks in a track (a node just outside
+ * the buffer, an unmapped bridge span): two loose ends that face each other
+ * within JOIN_GAP_M are joined. Ends that meet other track are left alone.
+ */
+function bridgeGaps(runs, proj) {
+  const key = (p) => `${p[0].toFixed(7)},${p[1].toFixed(7)}`
+  const count = new Map()
+  for (const r of runs) for (const p of r.coords) count.set(key(p), (count.get(key(p)) || 0) + 1)
+  const ends = []
+  for (const r of runs) {
+    const c = r.coords
+    for (const [p, q] of [
+      [c[0], c[1]],
+      [c[c.length - 1], c[c.length - 2]],
+    ]) {
+      if (count.get(key(p)) > 1) continue // meets other track
+      const a = proj.to(p)
+      const b = proj.to(q)
+      const len = Math.hypot(a[0] - b[0], a[1] - b[1]) || 1
+      ends.push({ p, xy: a, dir: [(a[0] - b[0]) / len, (a[1] - b[1]) / len], used: false })
+    }
+  }
+  const cell = JOIN_GAP_M
+  const grid = new Map()
+  ends.forEach((e, i) => {
+    const k = `${Math.floor(e.xy[0] / cell)},${Math.floor(e.xy[1] / cell)}`
+    if (!grid.has(k)) grid.set(k, [])
+    grid.get(k).push(i)
+  })
+  const pairs = []
+  const cos = Math.cos((JOIN_MAX_ANGLE_DEG * Math.PI) / 180)
+  ends.forEach((e, i) => {
+    const cx = Math.floor(e.xy[0] / cell)
+    const cy = Math.floor(e.xy[1] / cell)
+    for (let x = cx - 1; x <= cx + 1; x += 1) {
+      for (let y = cy - 1; y <= cy + 1; y += 1) {
+        for (const j of grid.get(`${x},${y}`) || []) {
+          if (j <= i) continue
+          const f = ends[j]
+          const v = [f.xy[0] - e.xy[0], f.xy[1] - e.xy[1]]
+          const dist = Math.hypot(v[0], v[1])
+          if (dist < 1 || dist > JOIN_GAP_M) continue
+          const u = [v[0] / dist, v[1] / dist]
+          // each end points at the other, and the two ends point opposite ways
+          if (e.dir[0] * u[0] + e.dir[1] * u[1] < cos) continue
+          if (-(f.dir[0] * u[0] + f.dir[1] * u[1]) < cos) continue
+          pairs.push([dist, i, j])
+        }
+      }
+    }
+  })
+  pairs.sort((a, b) => a[0] - b[0])
+  const out = []
+  for (const [, i, j] of pairs) {
+    if (ends[i].used || ends[j].used) continue
+    ends[i].used = ends[j].used = true
+    out.push({ id: 'join', coords: [ends[i].p, ends[j].p] })
+  }
+  return out
 }
 
 function densify(coords, stepM) {
