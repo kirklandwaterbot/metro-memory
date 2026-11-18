@@ -1,0 +1,452 @@
+{
+  "slug": "shanghai",
+  "path": "asia/china/shanghai",
+  "style": "shanghai",
+  "stationRadius": 500,
+  "english": {
+    "人民广场": "People's Square",
+    "上海南站": "Shanghai South Railway Station",
+    "上海西站": "Shanghai West Railway Station",
+    "上海松江站": "Shanghai Songjiang Railway Station",
+    "虹桥1号航站楼": "Hongqiao Airport Terminal 1",
+    "虹桥2号航站楼": "Hongqiao Airport Terminal 2",
+    "浦东1号2号航站楼": "Pudong Airport Terminal 1 & 2",
+    "浦东国际机场": "Pudong International Airport",
+    "世纪大道": "Century Avenue",
+    "世纪公园": "Century Park",
+    "上海科技馆": "Shanghai Science & Technology Museum",
+    "静安寺": "Jing'an Temple",
+    "中山公园": "Zhongshan Park",
+    "豫园": "Yuyuan Garden",
+    "迪士尼": "Disney Resort",
+    "东方体育中心": "Oriental Sports Center",
+    "中华艺术宫": "China Art Museum",
+    "上海体育场": "Shanghai Stadium",
+    "上海体育馆": "Shanghai Indoor Stadium",
+    "上海马戏城": "Shanghai Circus World",
+    "上海动物园": "Shanghai Zoo",
+    "上海游泳馆": "Shanghai Swimming Center",
+    "交通大学": "Jiaotong University",
+    "同济大学": "Tongji University",
+    "复旦大学": "Fudan University",
+    "上海大学": "Shanghai University",
+    "漕河泾开发区": "Caohejing Hi-Tech Park",
+    "国家会展中心": "National Exhibition and Convention Center",
+    "松江大学城": "Songjiang University Town",
+    "松江新城": "Songjiang Xincheng",
+    "上海赛车场": "Shanghai Circuit",
+    "上海汽车城": "Shanghai Auto City",
+    "上海儿童医学中心": "Shanghai Children's Medical Center",
+    "上海图书馆": "Shanghai Library",
+    "一大会址": "Site of the First CPC National Congress",
+    "国家会计学院": "Shanghai National Accounting Institute",
+    "大世界": "Great World",
+    "张江高科": "Zhangjiang Hi-Tech Park",
+    "上海火车站": "Shanghai Railway Station",
+    "陕西南路": "South Shaanxi Road",
+    "新天地": "Xintiandi",
+    "外环路": "Waihuan Road",
+    "度假区": "Resort",
+    "紫竹高新区": "Zizhu Hi-tech Park",
+    "顾村公园": "Gucun Park",
+    "共富新村": "Gongfu Xincun",
+    "上海国际旅游度假区": "Shanghai International Resort",
+    "1号航站楼": "Terminal 1",
+    "2号航站楼": "Terminal 2",
+    "S1卫星厅": "Satellite Concourse S1",
+    "S2卫星厅": "Satellite Concourse S2",
+    "新桥火车站": "Xinqiao Railway Station",
+    "华东理工大学": "East China University of Science and Technology",
+    "上海财经大学": "Shanghai University of Finance and Economics",
+    "世博会博物馆": "World Expo Museum",
+    "世博大道": "Expo Avenue",
+    "自然博物馆": "Natural History Museum",
+    "虹口足球场": "Hongkou Football Stadium",
+    "江湾体育场": "Jiangwan Stadium",
+    "源深体育中心": "Yuanshen Sports Center",
+    "松江体育中心": "Songjiang Sports Center",
+    "浦东足球场": "Pudong Football Stadium",
+    "野生动物园": "Shanghai Wild Animal Park",
+    "国际客运中心": "International Cruise Terminal",
+    "外高桥保税区南": "Waigaoqiao Free Trade Zone South",
+    "外高桥保税区北": "Waigaoqiao Free Trade Zone North",
+    "长风公园": "Changfeng Park",
+    "桂林公园": "Guilin Park",
+    "黄兴公园": "Huangxing Park",
+    "江浦公园": "Jiangpu Park",
+    "锦江乐园": "Jinjiang Park",
+    "东方绿舟": "Oriental Land",
+    "闵行开发区": "Minhang Development Zone",
+    "金山园区": "Jinshan Industrial Park",
+    "滴水湖": "Dishui Lake",
+    "美兰湖": "Meilan Lake",
+    "金海湖": "Jinhai Lake",
+    "淀山湖大道": "Dianshan Lake Avenue",
+    "新江湾城": "Xinjiangwancheng",
+    "泰晤士小镇北": "Thames Town North",
+    "泰晤士小镇西": "Thames Town West",
+    "临港大道": "Lingang Avenue",
+    "五洲大道": "Wuzhou Avenue",
+    "奉浦大道": "Fengpu Avenue",
+    "远东大道": "Yuandong Avenue",
+    "浦东大道": "Pudong Avenue",
+    "金山卫": "Jinshanwei",
+    "五角场": "Wujiaochang",
+    "南浦大桥": "Nanpu Bridge",
+    "复兴岛": "Fuxing Island",
+    "塘桥": "Tangqiao",
+    "打浦桥": "Dapuqiao",
+    "醉白池": "Zuibaichi",
+    "后滩": "Houtan",
+    "大华三路": "Dahua 3rd Road",
+    "海天三路": "Haitian 3rd Road",
+    "新庙三路": "Xinmiao 3rd Road",
+    "东城一路": "Dongcheng 1st Road",
+    "曹路": "Caolu"
+  },
+  "alternates": {
+    "迪士尼": [
+      "Disney",
+      "Disneyland"
+    ],
+    "人民广场": [
+      "Renmin Guangchang"
+    ],
+    "1号航站楼": [
+      "T1",
+      "PVG T1"
+    ],
+    "2号航站楼": [
+      "T2",
+      "PVG T2"
+    ],
+    "S1卫星厅": [
+      "S1"
+    ],
+    "S2卫星厅": [
+      "S2"
+    ],
+    "锦江乐园": [
+      "Jinjiang Amusement Park"
+    ],
+    "野生动物园": [
+      "Wild Animal Park"
+    ],
+    "国际客运中心": [
+      "International Passenger Terminal"
+    ],
+    "五角场": [
+      "Wujiaochang"
+    ]
+  },
+  "lines": [
+    {
+      "id": "shanghai1",
+      "name": "Line 1",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^1$"
+      },
+      "color": "#E3002B",
+      "icon": "asia/china/shanghai/1.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8451
+      }
+    },
+    {
+      "id": "shanghai2",
+      "name": "Line 2",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^2$"
+      },
+      "color": "#8CC220",
+      "icon": "asia/china/shanghai/2.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8451
+      }
+    },
+    {
+      "id": "shanghai3",
+      "name": "Line 3",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^3$"
+      },
+      "color": "#FCD600",
+      "icon": "asia/china/shanghai/3.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8451
+      },
+      "textColor": "#000000"
+    },
+    {
+      "id": "shanghai4",
+      "name": "Line 4",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^4$"
+      },
+      "color": "#461D84",
+      "icon": "asia/china/shanghai/4.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8488
+      }
+    },
+    {
+      "id": "shanghai5",
+      "name": "Line 5",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^5$"
+      },
+      "color": "#944D9A",
+      "icon": "asia/china/shanghai/5.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8488
+      }
+    },
+    {
+      "id": "shanghai6",
+      "name": "Line 6",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^6$"
+      },
+      "color": "#D40068",
+      "icon": "asia/china/shanghai/6.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8496
+      }
+    },
+    {
+      "id": "shanghai7",
+      "name": "Line 7",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^7$"
+      },
+      "color": "#ED6F00",
+      "icon": "asia/china/shanghai/7.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8496
+      }
+    },
+    {
+      "id": "shanghai8",
+      "name": "Line 8",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^8$"
+      },
+      "color": "#0094D8",
+      "icon": "asia/china/shanghai/8.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8496
+      }
+    },
+    {
+      "id": "shanghai9",
+      "name": "Line 9",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^9$"
+      },
+      "color": "#87CAED",
+      "icon": "asia/china/shanghai/9.png",
+      "extra": {
+        "badgeFit": "contain",
+        "badgeAspectRatio": 0.8451
+      }
+    },
+    {
+      "id": "shanghai10",
+      "name": "Line 10",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^10$"
+      },
+      "color": "#C7AFD3",
+      "icon": "asia/china/shanghai/10.png",
+      "textColor": "#000000"
+    },
+    {
+      "id": "shanghai11",
+      "name": "Line 11",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^11$"
+      },
+      "color": "#871C2B",
+      "icon": "asia/china/shanghai/11.png"
+    },
+    {
+      "id": "shanghai12",
+      "name": "Line 12",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^12$"
+      },
+      "color": "#007A61",
+      "icon": "asia/china/shanghai/12.png"
+    },
+    {
+      "id": "shanghai13",
+      "name": "Line 13",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^13$"
+      },
+      "color": "#E999C0",
+      "icon": "asia/china/shanghai/13.png"
+    },
+    {
+      "id": "shanghai14",
+      "name": "Line 14",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^14$"
+      },
+      "color": "#626020",
+      "icon": "asia/china/shanghai/14.png"
+    },
+    {
+      "id": "shanghai15",
+      "name": "Line 15",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^15$"
+      },
+      "color": "#BCA886",
+      "icon": "asia/china/shanghai/15.png"
+    },
+    {
+      "id": "shanghai16",
+      "name": "Line 16",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^16$"
+      },
+      "color": "#98D1C0",
+      "icon": "asia/china/shanghai/16.png",
+      "textColor": "#000000"
+    },
+    {
+      "id": "shanghai17",
+      "name": "Line 17",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^17$"
+      },
+      "color": "#BC796F",
+      "icon": "asia/china/shanghai/17.png"
+    },
+    {
+      "id": "shanghai18",
+      "name": "Line 18",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^18$"
+      },
+      "color": "#C4984F",
+      "icon": "asia/china/shanghai/18.png",
+      "textColor": "#000000"
+    },
+    {
+      "id": "shanghaipujiang",
+      "name": "Pujiang",
+      "match": {
+        "network": "上海地铁",
+        "ref": "^浦江$"
+      },
+      "color": "#B5B6B6",
+      "icon": "asia/china/shanghai/pujiang.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain",
+        "badgeAspectRatio": 1.9814
+      },
+      "textColor": "#000000"
+    },
+    {
+      "id": "shanghaimaglev",
+      "name": "Maglev",
+      "match": {
+        "route": "monorail",
+        "ref": "^磁浮$"
+      },
+      "color": "#00806B",
+      "icon": "asia/china/shanghai/maglev.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain",
+        "badgeAspectRatio": 1.7391
+      }
+    },
+    {
+      "id": "shanghaiairportlink",
+      "name": "Airport Link",
+      "match": {
+        "ref": "^市域机场线$"
+      },
+      "color": "#1A3A5C",
+      "icon": "asia/china/shanghai/airportlink.png"
+    },
+    {
+      "id": "shanghaijinshan",
+      "name": "Jinshan Railway",
+      "match": {
+        "ref": "^金山铁路$"
+      },
+      "color": "#1A3A5C",
+      "icon": "asia/china/shanghai/jinshan.png"
+    },
+    {
+      "id": "shanghait1",
+      "name": "Songjiang Tram T1",
+      "match": {
+        "network": "松江有轨电车",
+        "ref": "^T1$"
+      },
+      "color": "#D9273A",
+      "icon": "asia/china/shanghai/t1.png"
+    },
+    {
+      "id": "shanghait2",
+      "name": "Songjiang Tram T2",
+      "match": {
+        "network": "松江有轨电车",
+        "ref": "^T2$"
+      },
+      "color": "#009B5A",
+      "icon": "asia/china/shanghai/t2.png"
+    },
+    {
+      "id": "shanghaiapm",
+      "name": "Pudong Airport APM",
+      "match": {
+        "network": "上海浦东机场旅客捷运系统"
+      },
+      "icon": "asia/china/shanghai/apm.png",
+      "color": "#F5A100",
+      "textColor": "#000000"
+    }
+  ],
+  "renameZh": {
+    "上海南": "上海南站",
+    "上海西": "上海西站",
+    "上海松江": "上海松江站",
+    "T1": "1号航站楼",
+    "T2": "2号航站楼",
+    "S1": "S1卫星厅",
+    "S2": "S2卫星厅"
+  }
+}

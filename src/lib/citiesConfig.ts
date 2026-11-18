@@ -472,8 +472,6 @@ const rawCities: CityBase[] = [
     name: 'Beijing (北京), BJ',
     link: '/asia/china/beijing',
     continent: 'Asia',
-    disabled: true,
-    hideInStats: true,
   },
   {
     name: 'Changzhou (常州), JS',
@@ -526,8 +524,6 @@ const rawCities: CityBase[] = [
     name: 'Shanghai (上海), SH',
     link: '/asia/china/shanghai',
     continent: 'Asia',
-    disabled: true,
-    hideInStats: true,
   },
   {
     name: 'Nanning (南宁), GX',
@@ -1064,7 +1060,6 @@ export const getSlugFromLink = (link: string): string | null => {
 }
 
 const PLACEHOLDER_CITY_PATHS = new Set([
-  'asia/china/beijing',
   'asia/china/bengbu',
   'asia/china/changsha',
   'asia/china/chengdu',

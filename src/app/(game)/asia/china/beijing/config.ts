@@ -89,16 +89,6 @@ export const LINE_GROUPS: LineGroup[] = [
       },
     ],
   },
-  {
-    title: 'Beijing Capital International Airport (BCIA)',
-    titleImage: 'asia/china/beijing/BCIA.png',
-    items: [
-      {
-        type: 'lines',
-        lines: ['beijingcapitalapm'],
-      },
-    ],
-  },
 ]
 
 export const METADATA: Metadata = {

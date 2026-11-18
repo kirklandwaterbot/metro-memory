@@ -1,0 +1,421 @@
+{
+  "slug": "beijing",
+  "path": "asia/china/beijing",
+  "style": "beijing",
+  "inheritLines": true,
+  "stationRadius": 500,
+  "english": {
+    "农业展览馆": "Agricultural Exhibition Center",
+    "八角游乐园": "Bajiao Amusement Park",
+    "北京站": "Beijing Railway Station",
+    "北京南站": "Beijing South Railway Station",
+    "北京西站": "Beijing West Railway Station",
+    "丰台站": "Fengtai Railway Station",
+    "朝阳站": "Chaoyang Railway Station",
+    "清河站": "Qinghe Railway Station",
+    "黄村火车站": "Huangcun Railway Station",
+    "亦庄火车站": "Yizhuang Railway Station",
+    "动物园": "Beijing Zoo",
+    "首经贸": "Capital University of Economics and Business",
+    "国展": "China International Exhibition Center",
+    "国家植物园": "China National Botanical Garden",
+    "传媒大学": "Communication University of China",
+    "大兴机场": "Daxing Airport",
+    "未来科学城": "Future Science City",
+    "园博园": "Garden Expo Park",
+    "军事博物馆": "Military Museum",
+    "中国美术馆": "National Art Museum",
+    "国家图书馆": "National Library",
+    "奥林匹克公园": "Olympic Park",
+    "北京大学东门": "Peking University East Gate",
+    "人民大学": "Renmin University",
+    "颐和园西门": "Summer Palace West Gate",
+    "天坛东门": "Temple of Heaven East Gate",
+    "环球度假区": "Universal Resort",
+    "工人体育场": "Workers' Stadium",
+    "雍和宫": "Lama Temple",
+    "圆明园": "Yuanmingyuan Park",
+    "玉渊潭东门": "Yuyuantan Park East Gate",
+    "生物医药基地": "Biomedical Base",
+    "生命科学园": "Life Science Park",
+    "上地软件园": "Shangdi Software Park",
+    "丰台科技园": "Fengtai Science Park",
+    "亦庄文化园": "Yizhuang Culture Park",
+    "良乡大学城": "Liangxiang University Town",
+    "沙河高教园": "Shahe University Park",
+    "北工大西门": "Beijing University of Technology West Gate",
+    "森林公园南门": "Forest Park South Gate",
+    "奥体中心": "Olympic Sports Center",
+    "2号航站楼": "Terminal 2",
+    "3号航站楼": "Terminal 3",
+    "亦创会展中心": "Etrong International Exhibition Center",
+    "新首钢": "Xinshougang",
+    "清华东路西口": "Qinghuadonglu Xikou",
+    "中关村": "Zhongguancun",
+    "西直门": "Xizhimen",
+    "苹果园": "Pingguoyuan",
+    "北京东站": "Beijing East Railway Station",
+    "北京北站": "Beijing North Railway Station",
+    "朝阳公园": "Chaoyang Park",
+    "欢乐谷景区": "Happy Valley",
+    "十三陵景区": "Ming Tombs",
+    "丽泽商务区": "Lize Shangwuqu"
+  },
+  "alternates": {
+    "雍和宫": [
+      "Yonghegong"
+    ],
+    "香山": [
+      "Fragrant Hills"
+    ],
+    "新首钢": [
+      "Shougang Park"
+    ],
+    "2号航站楼": [
+      "T2",
+      "Capital Airport Terminal 2",
+      "PEK Terminal 2"
+    ],
+    "3号航站楼": [
+      "T3",
+      "Capital Airport Terminal 3",
+      "PEK Terminal 3"
+    ],
+    "欢乐谷景区": [
+      "Happy Valley Scenic Area"
+    ],
+    "十三陵景区": [
+      "Ming Tombs Scenic Area"
+    ],
+    "丽泽商务区": [
+      "Lize Business District"
+    ]
+  },
+  "lines": [
+    {
+      "id": "beijing1",
+      "name": "Line 1",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^1$"
+      },
+      "between": [
+        "苹果园",
+        "四惠东"
+      ]
+    },
+    {
+      "id": "beijingbatong",
+      "name": "Batong",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^1E$"
+      }
+    },
+    {
+      "id": "beijing2",
+      "name": "Line 2",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^2$"
+      }
+    },
+    {
+      "id": "beijing3",
+      "name": "Line 3",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^3$"
+      }
+    },
+    {
+      "id": "beijing4",
+      "name": "Line 4",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^4$",
+        "name": "4号线:",
+        "exclude": "大兴线"
+      }
+    },
+    {
+      "id": "beijingdaxing",
+      "name": "Daxing",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^4S$"
+      }
+    },
+    {
+      "id": "beijing5",
+      "name": "Line 5",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^5$"
+      }
+    },
+    {
+      "id": "beijing6",
+      "name": "Line 6",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^6$"
+      }
+    },
+    {
+      "id": "beijing7",
+      "name": "Line 7",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^7$"
+      }
+    },
+    {
+      "id": "beijing8",
+      "name": "Line 8",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^8$"
+      }
+    },
+    {
+      "id": "beijing9",
+      "name": "Line 9",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^9$"
+      }
+    },
+    {
+      "id": "beijing10",
+      "name": "Line 10",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^10$"
+      }
+    },
+    {
+      "id": "beijing11",
+      "name": "Line 11",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^11$"
+      }
+    },
+    {
+      "id": "beijing12",
+      "name": "Line 12",
+      "match": {
+        "network": "北京地铁",
+        "name": "12号线"
+      }
+    },
+    {
+      "id": "beijing13",
+      "name": "Line 13",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^13$"
+      }
+    },
+    {
+      "id": "beijing14",
+      "name": "Line 14",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^14$"
+      }
+    },
+    {
+      "id": "beijing15",
+      "name": "Line 15",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^15$"
+      }
+    },
+    {
+      "id": "beijing16",
+      "name": "Line 16",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^16$"
+      }
+    },
+    {
+      "id": "beijing17",
+      "name": "Line 17",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^17$"
+      }
+    },
+    {
+      "id": "beijing18",
+      "name": "Line 18",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^18$"
+      },
+      "stations": [
+        "马连洼",
+        "上地软件园",
+        "东北旺",
+        "龙泽西",
+        "回龙观西大街",
+        "文华路",
+        "回龙观东大街",
+        "霍营东",
+        "天通苑",
+        "太平庄",
+        "天通苑东"
+      ]
+    },
+    {
+      "id": "beijing19",
+      "name": "Line 19",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^19$"
+      }
+    },
+    {
+      "id": "beijingyizhuang",
+      "name": "Yizhuang",
+      "match": {
+        "network": "北京地铁",
+        "name": "亦庄线"
+      }
+    },
+    {
+      "id": "beijingfangshan",
+      "name": "Fangshan",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^25N$"
+      }
+    },
+    {
+      "id": "beijingyanfang",
+      "name": "Yanfang",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^25S$"
+      }
+    },
+    {
+      "id": "beijings1",
+      "name": "Line S1",
+      "match": {
+        "network": "北京地铁",
+        "name": "S1线"
+      }
+    },
+    {
+      "id": "beijingchangping",
+      "name": "Changping",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^27$"
+      }
+    },
+    {
+      "id": "beijingcae",
+      "name": "Capital Airport Express",
+      "match": {
+        "network": "北京地铁",
+        "ref": "^L1$"
+      }
+    },
+    {
+      "id": "beijingdae",
+      "name": "Daxing Airport Express",
+      "match": {
+        "network": "北京地铁",
+        "name": "大兴机场线"
+      }
+    },
+    {
+      "id": "beijingxijiao",
+      "name": "Xijiao",
+      "match": {
+        "name": "西郊线"
+      }
+    },
+    {
+      "id": "beijingyizhuangt1",
+      "name": "Yizhuang T1",
+      "match": {
+        "route": "tram",
+        "name": "亦庄T1"
+      }
+    },
+    {
+      "id": "beijingsubcenter",
+      "name": "Sub-Central",
+      "match": {
+        "network": "北京市郊铁路",
+        "ref": "^S10[12]$"
+      },
+      "stations": [
+        "乔庄东",
+        "中仓",
+        "北京东站",
+        "北京站",
+        "北京西站",
+        "衙门口东",
+        "后吕村",
+        "房山东",
+        "良乡"
+      ]
+    },
+    {
+      "id": "beijings2",
+      "name": "Line S2",
+      "match": {
+        "network": "北京市郊铁路",
+        "ref": "^S2$"
+      }
+    },
+    {
+      "id": "beijinghuairou",
+      "name": "Huairou-Miyun",
+      "match": {
+        "network": "北京市郊铁路",
+        "ref": "^S50[12]$"
+      }
+    },
+    {
+      "id": "beijingtongmi",
+      "name": "Tongmi",
+      "match": {
+        "network": "北京市郊铁路",
+        "ref": "^S6\\d\\d$"
+      }
+    }
+  ],
+  "renameZh": {
+    "北京": "北京站",
+    "北京南": "北京南站",
+    "北京西": "北京西站",
+    "北京东": "北京东站",
+    "北京北": "北京北站",
+    "丰台": "丰台站",
+    "朝阳": "朝阳站",
+    "清河": "清河站",
+    "首都机场3号航站楼": "3号航站楼",
+    "首都机场2号航站楼": "2号航站楼"
+  },
+  "prefixWords": [
+    "海淀",
+    "通州",
+    "昌平",
+    "良乡",
+    "房山",
+    "丰台",
+    "清河",
+    "亦庄",
+    "大兴",
+    "丽泽"
+  ]
+}
