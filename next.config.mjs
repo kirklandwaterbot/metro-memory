@@ -50,7 +50,11 @@ const nextConfig = {
       './prisma/**/*.sqlite',
       ...(assetBaseUrl ? REMOTE_PUBLIC_ASSET_EXCLUDES : []),
     ],
-    '/api/city-icon/[slug]': LARGE_GAME_EXCLUDES,
+    // Keep the icons this route reads (they were excluded along with the rest
+    // of public/, so every city fell back to the default icon).
+    '/api/city-icon/[slug]': LARGE_GAME_EXCLUDES.filter(
+      (pattern) => pattern !== './public/city-icons/**/*',
+    ),
     '/api/dev/site-version': LARGE_GAME_EXCLUDES,
     '/api/auth/register': LARGE_GAME_EXCLUDES,
     '/api/auth/forgot-password': LARGE_GAME_EXCLUDES,
