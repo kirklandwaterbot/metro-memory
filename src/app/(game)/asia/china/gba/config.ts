@@ -299,10 +299,6 @@ export const LINE_GROUPS: LineGroup[] = [
             {
                 type: 'lines',
                 lines: ['mab_guia']
-            },
-            {
-                type: 'lines',
-                lines: ['mab_taipa']
             }
         ]
     },

@@ -885,18 +885,7 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = repairManualComplexGrou
 ])
 
 const MANUAL_AUTO_COMPLEX_EXCLUSIONS: ManualComplexSelector[][] =
-  repairManualComplexGroups([
-    [
-      {
-        name: 'Estrada Governador Nobre de Carvalho Station (嘉樂庇總督馬路站)',
-        line: 'mab_taipa',
-      },
-      {
-        name: 'Grand Taipa Viewing Platform Station (大潭山觀景台站)',
-        line: 'mab_taipa',
-      },
-    ],
-  ])
+  repairManualComplexGroups([])
 
 const shouldApplyNyRouteOverrides = (cityName: string) =>
   cityName === 'nyc' || cityName === 'regional-rail'
