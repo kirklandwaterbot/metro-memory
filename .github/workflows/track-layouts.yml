@@ -41,7 +41,7 @@ jobs:
             parts=()
             for region in $(node -e "console.log((require('./$cfg').extracts || []).join(' '))"); do
               name=$(echo "$region" | tr '/' '_')
-              curl -sSfL --retry 6 --retry-all-errors --retry-delay 30 -o "/tmp/osm/$name.osm.pbf" "https://download.geofabrik.de/$region-latest.osm.pbf"
+              curl -4 -sSfL --retry 6 --retry-all-errors --retry-delay 30 -o "/tmp/osm/$name.osm.pbf" "https://download.geofabrik.de/$region-latest.osm.pbf"
               osmium tags-filter "/tmp/osm/$name.osm.pbf" w/railway=rail,construction -o "/tmp/osm/$name-rail.osm.pbf" --overwrite
               parts+=("/tmp/osm/$name-rail.osm.pbf")
               rm "/tmp/osm/$name.osm.pbf"
