@@ -16,4 +16,16 @@ Station positions come from the game (interchanges), then OSM station/stop nodes
 interpolated along the OSM construction track. `future-lines-report.md` lists which stations were
 interpolated so they can be checked on OpenRailwayMap. New stations carry `"status": "future"`.
 
-Data © OpenStreetMap contributors (ODbL).
+### From Amap
+
+Shenzhen Line 19, Guangzhou Line 28 (Guangzhou section), Foshan Lines 4 and 11 and Nanhai Tram
+Line 2 come from the line pages on amap.com (station order, station positions, drawn route),
+converted from GCJ-02 to WGS-84 by `add_amap_lines.py`, which replaces those lines on each run:
+
+```bash
+python3 data-sources/gba/add_amap_lines.py <folder of extracts: sz19.json, gz28.json, fs4.json, fs11.json, tnh2.json>
+```
+
+Amap doesn't list intercity railways as lines, so the under-construction intercity lines are not included.
+
+OSM data © OpenStreetMap contributors (ODbL). Amap-derived positions © AutoNavi (高德).

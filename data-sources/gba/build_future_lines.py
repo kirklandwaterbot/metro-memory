@@ -20,8 +20,6 @@ from pypinyin import lazy_pinyin
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 GBA = os.path.join(ROOT, 'src', 'app', '(game)', 'asia', 'china', 'gba', 'data')
 SPEC = json.load(open(os.path.join(os.path.dirname(__file__), 'future-lines.json')))
-probe = json.load(open(sys.argv[1]))
-dry = '--dry-run' in sys.argv
 
 def hav(a, b):
     k = math.cos(math.radians((a[1] + b[1]) / 2)) * 111320
@@ -94,105 +92,113 @@ def works_for(pattern):
             out += w['lines']
     return out
 
-report = []
-next_id = max(f['id'] for f in features['features']) + 1
-max_order = max(v['order'] for v in lines_json.values())
-for li, spec in enumerate(SPEC['lines']):
-    if spec['id'] in lines_json:
-        report.append(f"- {spec['id']}: already in lines.json, skipped")
-        continue
-    track = works_for(spec['track'][6:]) if spec['track'].startswith('works:') else []
-    stations = []
-    for entry in spec['stations']:
-        entry, _, en_override = entry.partition('=')  # "中文=English" fixes a name
-        names = entry.split('|')
-        hit = None
-        for n in names:
-            g = game_by_zh.get(n) or game_by_zh.get(re.sub(r'站$', '', n))
-            if g:
-                hit = {'zh': n, 'name': g['properties']['name'], 'p': g['geometry']['coordinates'], 'src': 'game'}
-                break
-        if not hit:
-            best = None
-            for s in probe['stations']:
-                z = zh_of(s['tags'])
-                if z not in [re.sub(r'站$', '', n) for n in names] or (BAD.search(s['tags'].get('name', '')) and not BAD.search(z)):
-                    continue
-                p = [s['lon'], s['lat']]
-                d = dist_to(track, p) if track else 0
-                if d < 600 and (best is None or d < best[0]):
-                    best = (d, s, p, z)
-            if best:
-                zh = re.sub(r'站$', '', names[0])
-                tags = best[1]['tags'] if best[3] == zh else None
-                hit = {'zh': zh, 'name': f"{english(zh, tags)} ({zh})", 'p': best[2], 'src': 'osm'}
-        if not hit:
-            zh = re.sub(r'站$', '', names[0])
-            hit = {'zh': zh, 'name': f"{english(zh)} ({zh})", 'p': None, 'src': 'approx'}
-        if en_override and hit['src'] != 'game':
-            hit['name'] = f"{en_override} ({hit['zh']})"
-        stations.append(hit)
-    # Interpolate missing positions between known neighbours, snapped to the track.
-    known = [i for i, s in enumerate(stations) if s['p']]
-    if not known:
-        report.append(f"- {spec['id']}: no station positions found, skipped")
-        continue
-    for i, s in enumerate(stations):
-        if s['p']:
+def main():
+    global probe
+    probe = json.load(open(sys.argv[1]))
+    dry = '--dry-run' in sys.argv
+    report = []
+    next_id = max(f['id'] for f in features['features']) + 1
+    max_order = max(v['order'] for v in lines_json.values())
+    for li, spec in enumerate(SPEC['lines']):
+        if spec['id'] in lines_json:
+            report.append(f"- {spec['id']}: already in lines.json, skipped")
             continue
-        before = [k for k in known if k < i]
-        after = [k for k in known if k > i]
-        if before and after:
-            a, b = stations[before[-1]]['p'], stations[after[0]]['p']
-            f = (i - before[-1]) / (after[0] - before[-1])
-        else:  # extrapolate from the two nearest known stations
-            k1, k2 = (known[0], known[1]) if not before else (known[-2], known[-1])
-            a, b = stations[k1]['p'], stations[k2]['p']
-            f = (i - k1) / (k2 - k1)
-        p = [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f]
-        if track:  # pull onto the nearest track point
-            best = min(((hav(p, q), q) for l in track for q in l), key=lambda x: x[0])
-            if best[0] < 3000:
-                p = best[1]
-        s['p'] = [round(p[0], 6), round(p[1], 6)]
-    if spec.get('orderBy') == 'tour':
-        rest = stations[:]
-        start = max(rest, key=lambda s: hav(s['p'], [sum(x['p'][0] for x in rest)/len(rest), sum(x['p'][1] for x in rest)/len(rest)]))
-        tour = [start]; rest.remove(start)
-        while rest:
-            nxt = min(rest, key=lambda s: hav(s['p'], tour[-1]['p'])); tour.append(nxt); rest.remove(nxt)
-        stations = tour
-    # Features
-    for order, s in enumerate(stations):
-        zh = s['zh']
-        en = s['name'].rsplit(' (', 1)[0]
-        features['features'].append({
-            'type': 'Feature', 'geometry': {'type': 'Point', 'coordinates': s['p']},
-            'properties': {'id': next_id, 'name': s['name'], 'long_name': f'{zh} {en}', 'alternate_names': [en, zh],
-                           'line': spec['id'], 'order': order, 'original_city': spec['city'], 'status': 'future'},
-            'id': next_id})
-        next_id += 1
-    # Track
-    pts = [s['p'] for s in stations] + ([stations[0]['p']] if spec.get('loop') else [])
-    if track:
-        near = [l for l in track if any(min(hav(q, s['p']) for s in stations) < 2500 for q in l)]
-        geom = near or [pts]
-    else:
-        geom = [pts]
-    routes['features'].append({'type': 'Feature', 'geometry': {'type': 'MultiLineString', 'coordinates': geom},
-                               'properties': {'line': spec['id'], 'name': spec['name'], 'color': spec['color'], 'order': max_order + 1 + li}})
-    lines_json[spec['id']] = {'name': spec['name'], 'color': spec['color'], 'progressOutlineColor': spec['color'],
-                              'backgroundColor': spec['color'], 'textColor': '#FFFFFF', 'order': max_order + 1 + li}
-    approx = [s['zh'] for s in stations if s['src'] == 'approx']
-    report.append(f"- {spec['id']} {spec['name']}: {len(stations)} stations"
-                  f" (game {sum(s['src']=='game' for s in stations)}, OSM {sum(s['src']=='osm' for s in stations)}, approx {len(approx)}{': ' + '、'.join(approx) if approx else ''}),"
-                  f" track {'OSM construction' if track else 'straight'}")
-    report.append('  - ' + ' · '.join(s['name'] for s in stations))
+        track = works_for(spec['track'][6:]) if spec['track'].startswith('works:') else []
+        stations = []
+        for entry in spec['stations']:
+            entry, _, en_override = entry.partition('=')  # "中文=English" fixes a name
+            names = entry.split('|')
+            hit = None
+            for n in names:
+                g = game_by_zh.get(n) or game_by_zh.get(re.sub(r'站$', '', n))
+                if g:
+                    hit = {'zh': n, 'name': g['properties']['name'], 'p': g['geometry']['coordinates'], 'src': 'game'}
+                    break
+            if not hit:
+                best = None
+                for s in probe['stations']:
+                    z = zh_of(s['tags'])
+                    if z not in [re.sub(r'站$', '', n) for n in names] or (BAD.search(s['tags'].get('name', '')) and not BAD.search(z)):
+                        continue
+                    p = [s['lon'], s['lat']]
+                    d = dist_to(track, p) if track else 0
+                    if d < 600 and (best is None or d < best[0]):
+                        best = (d, s, p, z)
+                if best:
+                    zh = re.sub(r'站$', '', names[0])
+                    tags = best[1]['tags'] if best[3] == zh else None
+                    hit = {'zh': zh, 'name': f"{english(zh, tags)} ({zh})", 'p': best[2], 'src': 'osm'}
+            if not hit:
+                zh = re.sub(r'站$', '', names[0])
+                hit = {'zh': zh, 'name': f"{english(zh)} ({zh})", 'p': None, 'src': 'approx'}
+            if en_override and hit['src'] != 'game':
+                hit['name'] = f"{en_override} ({hit['zh']})"
+            stations.append(hit)
+        # Interpolate missing positions between known neighbours, snapped to the track.
+        known = [i for i, s in enumerate(stations) if s['p']]
+        if not known:
+            report.append(f"- {spec['id']}: no station positions found, skipped")
+            continue
+        for i, s in enumerate(stations):
+            if s['p']:
+                continue
+            before = [k for k in known if k < i]
+            after = [k for k in known if k > i]
+            if before and after:
+                a, b = stations[before[-1]]['p'], stations[after[0]]['p']
+                f = (i - before[-1]) / (after[0] - before[-1])
+            else:  # extrapolate from the two nearest known stations
+                k1, k2 = (known[0], known[1]) if not before else (known[-2], known[-1])
+                a, b = stations[k1]['p'], stations[k2]['p']
+                f = (i - k1) / (k2 - k1)
+            p = [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f]
+            if track:  # pull onto the nearest track point
+                best = min(((hav(p, q), q) for l in track for q in l), key=lambda x: x[0])
+                if best[0] < 3000:
+                    p = best[1]
+            s['p'] = [round(p[0], 6), round(p[1], 6)]
+        if spec.get('orderBy') == 'tour':
+            rest = stations[:]
+            start = max(rest, key=lambda s: hav(s['p'], [sum(x['p'][0] for x in rest)/len(rest), sum(x['p'][1] for x in rest)/len(rest)]))
+            tour = [start]; rest.remove(start)
+            while rest:
+                nxt = min(rest, key=lambda s: hav(s['p'], tour[-1]['p'])); tour.append(nxt); rest.remove(nxt)
+            stations = tour
+        # Features
+        for order, s in enumerate(stations):
+            zh = s['zh']
+            en = s['name'].rsplit(' (', 1)[0]
+            features['features'].append({
+                'type': 'Feature', 'geometry': {'type': 'Point', 'coordinates': s['p']},
+                'properties': {'id': next_id, 'name': s['name'], 'long_name': f'{zh} {en}', 'alternate_names': [en, zh],
+                               'line': spec['id'], 'order': order, 'original_city': spec['city'], 'status': 'future'},
+                'id': next_id})
+            next_id += 1
+        # Track
+        pts = [s['p'] for s in stations] + ([stations[0]['p']] if spec.get('loop') else [])
+        if track:
+            near = [l for l in track if any(min(hav(q, s['p']) for s in stations) < 2500 for q in l)]
+            geom = near or [pts]
+        else:
+            geom = [pts]
+        routes['features'].append({'type': 'Feature', 'geometry': {'type': 'MultiLineString', 'coordinates': geom},
+                                   'properties': {'line': spec['id'], 'name': spec['name'], 'color': spec['color'], 'order': max_order + 1 + li}})
+        lines_json[spec['id']] = {'name': spec['name'], 'color': spec['color'], 'progressOutlineColor': spec['color'],
+                                  'backgroundColor': spec['color'], 'textColor': '#FFFFFF', 'order': max_order + 1 + li}
+        approx = [s['zh'] for s in stations if s['src'] == 'approx']
+        report.append(f"- {spec['id']} {spec['name']}: {len(stations)} stations"
+                      f" (game {sum(s['src']=='game' for s in stations)}, OSM {sum(s['src']=='osm' for s in stations)}, approx {len(approx)}{': ' + '、'.join(approx) if approx else ''}),"
+                      f" track {'OSM construction' if track else 'straight'}")
+        report.append('  - ' + ' · '.join(s['name'] for s in stations))
 
-print('\n'.join(report))
-if not dry:
-    json.dump(features, open(os.path.join(GBA, 'features.json'), 'w'), ensure_ascii=False, indent=2)
-    open(os.path.join(GBA, 'features.json'), 'a').write('\n')
-    json.dump(routes, open(os.path.join(GBA, 'routes.json'), 'w'), ensure_ascii=False)
-    json.dump(lines_json, open(os.path.join(GBA, 'lines.json'), 'w'), ensure_ascii=False, indent=2)
-    open(os.path.join(GBA, 'lines.json'), 'a').write('\n')
+    print('\n'.join(report))
+    if not dry:
+        json.dump(features, open(os.path.join(GBA, 'features.json'), 'w'), ensure_ascii=False, indent=2)
+        open(os.path.join(GBA, 'features.json'), 'a').write('\n')
+        json.dump(routes, open(os.path.join(GBA, 'routes.json'), 'w'), ensure_ascii=False)
+        json.dump(lines_json, open(os.path.join(GBA, 'lines.json'), 'w'), ensure_ascii=False, indent=2)
+        open(os.path.join(GBA, 'lines.json'), 'a').write('\n')
+
+
+if __name__ == '__main__':
+    main()

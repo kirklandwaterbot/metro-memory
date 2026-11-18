@@ -10,3 +10,5 @@
   - Yau Tong East (油塘東) · Lam Tin North (藍田北) · Ma Yau Tong (馬游塘) · Po Tat (寶達) · Sau Mau Ping (秀茂坪) · Shun On (順安) · Shun Lee (順利) · Choi Wan (彩雲) · Choi Hung East (彩虹東)
 - KTSG Kai Tak Smart and Green Mass Transit: 7 stations (game 1, OSM 6, approx 0), track OSM construction
   - Kai Tak Cruise Terminal (啟德郵輪碼頭) · Shing King Street (承景街) · Kai Tak Sky Garden (啟德空中花園) · Shing Fung Road Park (承豐道公園) · Kai Tak Sports Park (啟德體育園) · Kai Tak Station Square (啟德車站廣場) · Kai Tak (啟德)
+
+Foshan Lines 4 and 11 were later replaced by the Amap line data (exact station positions), see README.
