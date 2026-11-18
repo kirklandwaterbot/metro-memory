@@ -207,6 +207,32 @@ async function fetchTracks(allStrings, log) {
   }))
 }
 
+/** Rail ways from an `osmium export -f geojsonseq` file, filtered like the Overpass query. */
+function readOsmFile(file) {
+  const ways = []
+  for (const raw of fs.readFileSync(file, 'utf8').split('\n')) {
+    const line = raw.replace(/^\x1e/, '').trim()
+    if (!line) continue
+    let f
+    try {
+      f = JSON.parse(line)
+    } catch {
+      continue
+    }
+    const tags = f.properties || {}
+    if (!['rail', 'construction'].includes(tags.railway)) continue
+    if (['yard', 'spur'].includes(tags.service)) continue
+    const strings =
+      f.geometry?.type === 'LineString'
+        ? [f.geometry.coordinates]
+        : f.geometry?.type === 'MultiLineString'
+          ? f.geometry.coordinates
+          : []
+    for (const coords of strings) if (coords.length >= 2) ways.push({ id: f.id ?? tags['@id'], tags, coords })
+  }
+  return ways
+}
+
 /** Pieces of OSM track that run alongside `routeStrings` within bufferM. */
 function tracksAlong(routeStrings, osmWays, bufferM, proj) {
   const index = segmentIndex(routeStrings, proj)
@@ -302,8 +328,15 @@ async function main() {
   const all = [...current.values()].flat()
   if (!all.length) throw new Error('none of the lines have a route to follow')
   const proj = projector(all[0][0][1])
-  log(`Fetching OSM track for ${current.size} lines…`)
-  const osmWays = await fetchTracks(all, log)
+  let osmWays
+  if (args['osm-file']) {
+    // GeoJSON sequence from `osmium export` of a Geofabrik extract: no
+    // Overpass needed (the public servers are often too busy for a big area).
+    osmWays = readOsmFile(args['osm-file'])
+  } else {
+    log(`Fetching OSM track for ${current.size} lines…`)
+    osmWays = await fetchTracks(all, log)
+  }
   log(`${osmWays.length} OSM track ways`)
 
   for (const line of lines) {
@@ -358,4 +391,4 @@ if (require.main === module) {
   })
 }
 
-module.exports = { tracksAlong, uncovered, projector }
+module.exports = { tracksAlong, uncovered, projector, readOsmFile }
