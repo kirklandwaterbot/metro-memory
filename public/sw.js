@@ -1,4 +1,4 @@
-const CACHE_NAME = 'metro-memory-v4'
+const CACHE_NAME = 'metro-memory-v5'
 const CITY_CACHE_PREFIX = 'metro-memory-city-'
 const OFFLINE_MANIFEST_URL = '/offline-manifest.json'
 const CORE_ASSETS = [
@@ -10,28 +10,12 @@ const CORE_ASSETS = [
 ]
 
 self.addEventListener('install', (event) => {
+  // Only the app shell is cached up front. Cities are cached when the player
+  // downloads them (CACHE_CITY), so installing the worker stays small.
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME)
-      await cache.addAll(CORE_ASSETS)
-
-      try {
-        const res = await fetch(OFFLINE_MANIFEST_URL, { cache: 'no-store' })
-        if (res.ok) {
-          const manifest = await res.json()
-          const assets = Array.isArray(manifest?.assets)
-            ? manifest.assets
-            : Array.isArray(manifest)
-              ? manifest
-              : []
-          if (assets.length > 0) {
-            await cache.addAll(assets)
-          }
-        }
-      } catch (error) {
-        console.warn('SW: skipping offline manifest', error)
-      }
-
+      await Promise.allSettled(CORE_ASSETS.map((asset) => cache.add(asset)))
       await self.skipWaiting()
     })(),
   )
@@ -43,7 +27,8 @@ self.addEventListener('activate', (event) => {
       const keys = await caches.keys()
       await Promise.all(
         keys
-          .filter((key) => key !== CACHE_NAME)
+          // Downloaded cities live in their own caches and must survive updates.
+          .filter((key) => key !== CACHE_NAME && !key.startsWith(CITY_CACHE_PREFIX))
           .map((key) => caches.delete(key)),
       )
       await self.clients.claim()
@@ -51,14 +36,24 @@ self.addEventListener('activate', (event) => {
   )
 })
 
-async function cacheFirst(request) {
-  const cityCacheKeys = (await caches.keys()).filter((key) =>
-    key.startsWith(CITY_CACHE_PREFIX),
+const cityCaches = async () =>
+  Promise.all(
+    (await caches.keys())
+      .filter((key) => key.startsWith(CITY_CACHE_PREFIX))
+      .map((key) => caches.open(key)),
   )
-  for (const key of cityCacheKeys) {
-    const cityMatch = await caches.open(key).then((cache) => cache.match(request))
-    if (cityMatch) return cityMatch
+
+async function matchCityCaches(request, options) {
+  for (const cache of await cityCaches()) {
+    const match = await cache.match(request, options)
+    if (match) return match
   }
+  return null
+}
+
+async function cacheFirst(request) {
+  const cityMatch = await matchCityCaches(request)
+  if (cityMatch) return cityMatch
 
   const cache = await caches.open(CACHE_NAME)
   const match = await cache.match(request)
@@ -71,24 +66,25 @@ async function cacheFirst(request) {
   return response
 }
 
-async function networkFirst(request) {
+async function networkFirst(request, matchOptions) {
   const cache = await caches.open(CACHE_NAME)
   try {
     const response = await fetch(request)
-    if (response && response.ok) {
+    if (response && response.ok && response.type === 'basic') {
       cache.put(request, response.clone())
+      // Keep downloaded cities current: refresh any city cache holding this URL.
+      for (const cityCache of await cityCaches()) {
+        if (await cityCache.match(request, matchOptions)) {
+          cityCache.put(request, response.clone())
+        }
+      }
     }
     return response
   } catch (error) {
-    const cityCacheKeys = (await caches.keys()).filter((key) =>
-      key.startsWith(CITY_CACHE_PREFIX),
-    )
-    for (const key of cityCacheKeys) {
-      const cityMatch = await caches.open(key).then((cityCache) => cityCache.match(request))
-      if (cityMatch) return cityMatch
-    }
-    const match = await cache.match(request)
+    const match = await cache.match(request, matchOptions)
     if (match) return match
+    const cityMatch = await matchCityCaches(request, matchOptions)
+    if (cityMatch) return cityMatch
     throw error
   }
 }
@@ -105,8 +101,16 @@ self.addEventListener('fetch', (event) => {
     return
   }
 
-  if (url.pathname.startsWith('/city-data')) {
+  // Map label glyphs never change for a given font and range.
+  if (url.pathname.startsWith('/api/geo/glyphs/')) {
     event.respondWith(cacheFirst(request))
+    return
+  }
+
+  // City data is updated between deploys, so prefer the network and fall
+  // back to the copy saved when the city was downloaded.
+  if (url.pathname.startsWith('/city-data')) {
+    event.respondWith(networkFirst(request))
     return
   }
 
@@ -121,9 +125,15 @@ self.addEventListener('fetch', (event) => {
 
   if (request.mode === 'navigate' || url.pathname === '/') {
     event.respondWith(
-      networkFirst(request).catch(async () => {
+      networkFirst(request, { ignoreVary: true }).catch(async () => {
+        const page =
+          (await matchCityCaches(request, { ignoreSearch: true, ignoreVary: true })) ||
+          (await caches.open(CACHE_NAME).then((cache) =>
+            cache.match(request, { ignoreSearch: true, ignoreVary: true }),
+          ))
+        if (page) return page
         const cache = await caches.open(CACHE_NAME)
-        const fallback = await cache.match('/')
+        const fallback = await cache.match('/', { ignoreVary: true })
         return fallback || Response.error()
       }),
     )
@@ -149,12 +159,46 @@ self.addEventListener('message', (event) => {
           if (!citySlug || assets.length === 0) {
             throw new Error('Missing city assets')
           }
-          const cache = await caches.open(`${CITY_CACHE_PREFIX}${citySlug}`)
-          const results = await Promise.allSettled(
-            assets.map((asset) => cache.add(new Request(asset, { cache: 'reload' }))),
-          )
-          const failed = results.filter((result) => result.status === 'rejected').length
-          reply({ ok: true, cached: assets.length - failed, failed })
+          const cacheName = `${CITY_CACHE_PREFIX}${citySlug}`
+          const existed = await caches.has(cacheName)
+          const cache = await caches.open(cacheName)
+          const failedAssets = []
+          let next = 0
+          // A few requests at a time: a city can need a few hundred files.
+          const worker = async () => {
+            while (next < assets.length) {
+              const asset = assets[next++]
+              try {
+                let response = await fetch(new Request(asset, { cache: 'reload' }))
+                if (!response.ok) throw new Error(`HTTP ${response.status}`)
+                if (response.redirected) {
+                  // Navigations refuse redirected responses, so store a plain copy.
+                  response = new Response(await response.blob(), {
+                    status: response.status,
+                    statusText: response.statusText,
+                    headers: response.headers,
+                  })
+                }
+                await cache.put(asset, response)
+              } catch {
+                failedAssets.push(asset)
+              }
+            }
+          }
+          await Promise.all(Array.from({ length: 6 }, worker))
+          const cachedCount = assets.length - failedAssets.length
+          const required = Array.isArray(payload?.required) ? payload.required : []
+          const missingRequired = required.filter((asset) => failedAssets.includes(asset))
+          if (cachedCount === 0 || missingRequired.length > 0) {
+            if (!existed) await caches.delete(cacheName)
+            reply({
+              ok: false,
+              error: `Could not download ${missingRequired[0] ?? 'the city'}`,
+              failedAssets,
+            })
+            return
+          }
+          reply({ ok: true, cachedCount, failed: failedAssets.length, failedAssets })
         } catch (error) {
           reply({ ok: false, error: error?.message || 'Unable to cache city' })
         }
