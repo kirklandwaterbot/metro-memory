@@ -307,7 +307,7 @@ export const LINE_GROUPS: LineGroup[] = [
   },
   {
     title: 'Amtrak',
-    titleImage: 'Amtrak.png',
+    titleImage: 'AmtrakHeader.png',
     items: [
       {
         type: 'lines',

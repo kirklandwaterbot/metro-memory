@@ -11,7 +11,7 @@ const SNAP_PENALTY_M = 15
 // Hopping onto a different line's track costs this much more, so a path stays
 // on one track instead of zig-zagging across nearby lines (which drew little
 // triangles at busy stations such as Times Sq and Delancey St).
-const CROSS_LINE_PENALTY_M = 0
+const CROSS_LINE_PENALTY_M = 45
 const CELL_DEG = 0.0006 // ~50-65 m grid cells
 
 class MinHeap {
@@ -165,9 +165,21 @@ const REFERENCE_COST = 1.5
  */
 function buildGraph(strings, referenceStrings = [], stringLines = []) {
   const g = new TrackGraph()
-  const stringNodes = g.addStrings(strings)
-  const refNodes = g.addStrings(referenceStrings, REFERENCE_COST)
-  const lines = [...stringLines, ...refNodes.map(() => 'reference')]
+  // Keep strings and their line labels aligned (addStrings skips empty ones).
+  const kept = strings
+    .map((s, i) => [s, stringLines[i]])
+    .filter(([s]) => Array.isArray(s) && s.length)
+  const stringNodes = g.addStrings(kept.map(([s]) => s))
+  const refNodes = g.addStrings(referenceStrings.filter((s) => Array.isArray(s) && s.length), REFERENCE_COST)
+  const lines = [...kept.map(([, line]) => line), ...refNodes.map(() => 'reference')]
+  // Which line(s) each node belongs to, for paths that must stay on one line.
+  g.nodeLines = new Map()
+  ;[...stringNodes, ...refNodes].forEach((nodes, i) => {
+    for (const n of nodes) {
+      if (!g.nodeLines.has(n)) g.nodeLines.set(n, new Set())
+      if (lines[i]) g.nodeLines.get(n).add(lines[i])
+    }
+  })
   g.snapEnds([...stringNodes, ...refNodes], new Set(refNodes.flat()), lines)
   return g
 }

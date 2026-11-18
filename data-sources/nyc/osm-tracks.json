@@ -1,0 +1,28 @@
+{
+  "note": "Lines drawn as their physical tracks from OpenStreetMap (scripts/routes/osm-tracks.js, Track Layouts workflow).",
+  "bufferM": 25,
+  "extracts": [
+    "north-america/us/new-york",
+    "north-america/us/new-jersey",
+    "north-america/us/connecticut",
+    "north-america/us/pennsylvania",
+    "north-america/us/massachusetts"
+  ],
+  "lines": [
+    "NJTAtlanticCity",
+    "NJTBergenCounty",
+    "NJTGladstone",
+    "NJTMontclairBoonton",
+    "NJTMorrisEssex",
+    "NJTMainLine",
+    "NJTNorthJerseyCoast",
+    "NJTNorthEastCorridor",
+    "NJTPrinceton",
+    "NJTPascackValley",
+    "NJTRaritanValley",
+    "NJTMeadowlands",
+    "NJTPortJervis",
+    "NJTLackawannaCutOff",
+    "Amtrak"
+  ]
+}

@@ -2,6 +2,7 @@
 
 import { ReactNode, useEffect, useId, useRef, useState } from 'react'
 import type { IconType } from 'react-icons'
+import { MdClose } from 'react-icons/md'
 
 /**
  * Round map-toolbar button (same look as the theme button) whose label slides
@@ -65,7 +66,17 @@ export default function ToolbarPopoverButton({
           id={panelId}
           className={`absolute right-0 top-full z-[60] mt-2 max-h-[70vh] overflow-y-auto rounded-2xl bg-white shadow-xl ring-1 ring-zinc-200 dark:bg-zinc-900 dark:ring-zinc-700 ${panelClassName}`}
         >
-          {children}
+          <button
+            type="button"
+            onClick={() => setOpen(false)}
+            aria-label="Close"
+            title="Close"
+            className="absolute right-3 top-3 z-10 inline-flex h-8 w-8 items-center justify-center rounded-full border border-zinc-300 bg-white text-zinc-600 transition hover:border-[var(--accent-400)] hover:text-[var(--accent-700)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-ring)] dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-300 dark:hover:border-[var(--accent-500)] dark:hover:text-[var(--accent-300)]"
+          >
+            <MdClose className="h-4 w-4" aria-hidden="true" />
+          </button>
+          {/* keep the panel's heading clear of the close button */}
+          <div className="[&_h3]:pr-10">{children}</div>
         </div>
       ) : null}
     </div>

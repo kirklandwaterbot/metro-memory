@@ -52,7 +52,7 @@ function dropSpikes(points) {
       // b is a turnaround: going to it and back covers far more than a -> c,
       // or the path overshoots a junction and steps back a few metres onto
       // the parallel track (a short Z that draws as a spur).
-      const shortReversal = Math.min(ab, bc) <= 60 && ac < Math.max(ab, bc) - 0.9 * Math.min(ab, bc)
+      const shortReversal = Math.min(ab, bc) <= 100 && ac < Math.max(ab, bc) - 0.9 * Math.min(ab, bc)
       if (ab > 0 && bc > 0 && (ac < 0.25 * Math.min(ab, bc) || shortReversal)) {
         out.splice(out.length - 2, 1)
       } else break
@@ -135,8 +135,12 @@ function acceptable(length, straight, kind) {
 }
 
 /** Short path along track between two nodes (bounded), or null. */
-function localPath(graph, from, to, maxLen = 800) {
+function localPath(graph, from, to, maxLen = 800, { line = null } = {}) {
   if (from === to) return [from]
+  // line: only move along track labelled with this one line (a node where two
+  // lines meet carries both labels, so checking "shares a label with the
+  // start" would still let the path wander onto the other line).
+  const onLine = (v) => !line || Boolean(graph.nodeLines?.get(v)?.has(line))
   const dist = new Map([[from, 0]])
   const prev = new Map()
   const heap = new MinHeap()
@@ -151,7 +155,7 @@ function localPath(graph, from, to, maxLen = 800) {
     }
     for (const [v, w] of graph.adj[u]) {
       const nd = d + w
-      if (nd <= maxLen && nd < (dist.get(v) ?? Infinity)) {
+      if (nd <= maxLen && nd < (dist.get(v) ?? Infinity) && onLine(v)) {
         dist.set(v, nd)
         prev.set(v, u)
         heap.push(nd, v)
@@ -159,6 +163,25 @@ function localPath(graph, from, to, maxLen = 800) {
     }
   }
   return null
+}
+
+/**
+ * The one line a station tail may follow: the line of the track the path
+ * arrived on (the label shared by its last two nodes), preferring one that
+ * also runs through the station's nearest track point. Null when unknown.
+ */
+function tailLine(graph, pathNodes, target) {
+  const labels = (v) => graph.nodeLines?.get(v) || new Set()
+  const u = pathNodes[pathNodes.length - 1]
+  let cand = [...labels(u)]
+  if (pathNodes.length > 1) {
+    const before = labels(pathNodes[pathNodes.length - 2])
+    const shared = cand.filter((l) => before.has(l))
+    if (shared.length) cand = shared
+  }
+  cand = cand.filter((l) => l !== 'reference')
+  const atTarget = labels(target)
+  return cand.find((l) => atTarget.has(l)) || null
 }
 
 /**
@@ -257,9 +280,11 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
         // the path on to the point nearest the station so no stub is left.
         const station = here.find((t) => t.kind !== 'piece' && t.attach?.length)
         if (station && station.attach[0] !== u) {
-          // Short, and never onto another line's track (that drew spurs into
-          // neighbouring lines at stations like Times Sq).
-          const tail = localPath(graph, u, station.attach[0], 40)
+          // Along the same line's track only: hopping onto a neighbouring
+          // line drew spurs at stations like Times Sq, while a short limit
+          // left line ends short of their last station.
+          const line = tailLine(graph, pathNodes, station.attach[0])
+          const tail = line ? localPath(graph, u, station.attach[0], 400, { line }) : null
           if (tail) pathNodes.push(...tail.slice(1))
         }
         if (pathNodes.length > 1) added.push(pathNodes.map((v) => graph.coords[v]))

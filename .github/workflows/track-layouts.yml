@@ -1,0 +1,89 @@
+name: Track Layouts from OpenStreetMap
+
+# Redraws the lines listed in data-sources/<city>/osm-tracks.json as their
+# physical tracks from OpenStreetMap (scripts/routes/osm-tracks.js), joins any
+# gaps with fill-gaps.js, and commits the result to the same branch.
+# Runs when a config file or the script changes, or by hand.
+
+on:
+  push:
+    paths:
+      - 'data-sources/**/osm-tracks.json'
+      - 'scripts/routes/osm-tracks.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: track-layouts-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Download OSM rail data (Geofabrik extracts)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+          mkdir -p /tmp/osm
+          for cfg in data-sources/*/osm-tracks.json; do
+            city=$(basename "$(dirname "$cfg")")
+            parts=()
+            for region in $(node -e "console.log((require('./$cfg').extracts || []).join(' '))"); do
+              name=$(echo "$region" | tr '/' '_')
+              curl -4 -sSfL --retry 6 --retry-all-errors --retry-delay 30 -o "/tmp/osm/$name.osm.pbf" "https://download.geofabrik.de/$region-latest.osm.pbf"
+              osmium tags-filter "/tmp/osm/$name.osm.pbf" w/railway=rail,construction -o "/tmp/osm/$name-rail.osm.pbf" --overwrite
+              parts+=("/tmp/osm/$name-rail.osm.pbf")
+              rm "/tmp/osm/$name.osm.pbf"
+            done
+            if [ ${#parts[@]} -gt 0 ]; then
+              osmium merge "${parts[@]}" -o "/tmp/osm/$city-rail.osm.pbf" --overwrite
+              osmium export "/tmp/osm/$city-rail.osm.pbf" -f geojsonseq --add-unique-id=type_id \
+                --geometry-types=linestring -o "/tmp/osm/$city-rail.geojsonseq" --overwrite
+              wc -l "/tmp/osm/$city-rail.geojsonseq"
+            fi
+          done
+
+      - name: Build track layouts from OSM
+        run: |
+          : > /tmp/tracks-report.md
+          for cfg in data-sources/*/osm-tracks.json; do
+            city=$(basename "$(dirname "$cfg")")
+            osm=()
+            if [ -f "/tmp/osm/$city-rail.geojsonseq" ]; then osm=(--osm-file="/tmp/osm/$city-rail.geojsonseq"); fi
+            node scripts/routes/osm-tracks.js --city="$city" --report=/tmp/tracks-$city.md "${osm[@]}"
+            cat /tmp/tracks-$city.md >> /tmp/tracks-report.md
+            lines=$(node -e "console.log(require('./$cfg').lines.join(','))")
+            node scripts/routes/fill-gaps.js --city="$city" --lines="$lines" --report=/tmp/gaps-$city.md
+            cat /tmp/gaps-$city.md >> /tmp/tracks-report.md
+          done
+          cat /tmp/tracks-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit geometry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all -- 'src/app'
+          if git diff --cached --quiet; then
+            echo "No geometry changes."
+            exit 0
+          fi
+          git commit -F - <<MSG
+          Draw physical track layouts from OpenStreetMap
+
+          $(cat /tmp/tracks-report.md)
+
+          Geometry © OpenStreetMap contributors (ODbL).
+          MSG
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

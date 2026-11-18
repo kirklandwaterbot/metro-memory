@@ -6111,6 +6111,7 @@ function GamePageContent({
                       description={relatedVersionsPanel.description}
                       items={relatedVersionsPanel.items}
                       currentSlug={relatedVersionsPanel.currentSlug}
+                      collapsible={false}
                     />
                   </ToolbarPopoverButton>
                 ) : null}
