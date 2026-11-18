@@ -90,14 +90,11 @@
     },
     {
       "line": "NJTLRGlassboroCamden",
-      "note": "Glassboro-Camden Line along the Conrail Vineland Secondary (planned).",
+      "note": "Glassboro-Camden Line along the Conrail Vineland Secondary, Lanning Square to Glassboro (planned). The short new street alignment from Walter Rand Transportation Center to Lanning Square is not in OSM and is drawn straight.",
       "replace": true,
       "bufferM": 2500,
       "preferName": "vineland|conrail|glassboro|camden",
       "waypoints": [
-        {
-          "station": "Walter Rand Transportation Center"
-        },
         {
           "station": "Lanning Square"
         },
