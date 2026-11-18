@@ -39,17 +39,32 @@ jobs:
           fi
           ls -la /tmp/probes
 
-      - name: Probe
-        run: node scripts/cities/osm-probe.js --out=/tmp/probes
-
-      - name: Push to osm-probes branch
+      - name: Probe (pushing after each area, so a slow area can't lose the others)
+        env:
+          PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
         run: |
-          cd /tmp/probes
-          rm -rf .git
-          git init -q -b osm-probes
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          printf 'OSM probe snapshots written by scripts/cities/osm-probe.js.\n\nData © OpenStreetMap contributors, ODbL.\n' > README.md
-          git add -A
-          git commit -q -m "OSM probe snapshots ($(date -u +%F))"
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" osm-probes
+          push() {
+            (
+              cd /tmp/probes
+              rm -rf .git
+              git init -q -b osm-probes
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              printf 'OSM probe snapshots written by scripts/cities/osm-probe.js.\n\nData © OpenStreetMap contributors, ODbL.\n' > README.md
+              printf '{"git":{"deploymentEnabled":false}}\n' > vercel.json
+              git add -A
+              git commit -q -m "OSM probe snapshots ($(date -u +%F))"
+              git push -q -f "$PUSH_URL" osm-probes
+            )
+          }
+          failed=0
+          for f in data-sources/probes/requests/*.json; do
+            slug=$(basename "$f" .json)
+            before=$(md5sum "/tmp/probes/$slug.json" 2>/dev/null || true)
+            if ! node scripts/cities/osm-probe.js --out=/tmp/probes --only="$slug"; then
+              echo "::warning::$slug probe failed"; failed=1; continue
+            fi
+            after=$(md5sum "/tmp/probes/$slug.json" 2>/dev/null || true)
+            if [ "$before" != "$after" ]; then push; fi
+          done
+          exit $failed
