@@ -3,7 +3,9 @@ name: OSM Probe
 # Snapshots the rail network of each area in data-sources/probes/requests/
 # (operating, under-construction and proposed lines and stations) from
 # OpenStreetMap and pushes the compact results to the `osm-probes` branch,
-# so city data can be checked offline. Data © OpenStreetMap contributors (ODbL).
+# so city data can be checked offline. Areas that changed are probed in
+# parallel jobs (separate runners, so one slow Overpass answer can't hold
+# the rest up). Data © OpenStreetMap contributors (ODbL).
 
 on:
   push:
@@ -11,6 +13,7 @@ on:
       - 'data-sources/probes/requests/**'
       - 'scripts/cities/osm-probe.js'
       - '.github/workflows/osm-probe.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,16 +23,64 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  probe:
+  list:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
     steps:
       - uses: actions/checkout@v5
+      - id: list
+        run: |
+          mkdir -p /tmp/probes
+          if git fetch --depth 1 origin osm-probes 2>/dev/null; then
+            git --work-tree=/tmp/probes checkout FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q
+          fi
+          # areas whose snapshot is missing or was made for another bbox/version
+          slugs=$(node -e '
+            const fs = require("fs")
+            const dir = "data-sources/probes/requests"
+            const out = []
+            for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+              const req = JSON.parse(fs.readFileSync(`${dir}/${f}`, "utf8"))
+              let prev = null
+              try { prev = JSON.parse(fs.readFileSync(`/tmp/probes/${req.slug}.json`, "utf8")) } catch {}
+              if (!prev || JSON.stringify(prev.bbox) !== JSON.stringify(req.bbox) || prev.requestVersion !== (req.version || 1)) out.push(req.slug)
+            }
+            console.log(JSON.stringify(out))
+          ')
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          echo "$slugs"
 
+  probe:
+    needs: list
+    if: needs.list.outputs.slugs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        slug: ${{ fromJson(needs.list.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
+      - name: Probe ${{ matrix.slug }}
+        run: node scripts/cities/osm-probe.js --out=/tmp/out --only=${{ matrix.slug }} --force
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe-${{ matrix.slug }}
+          path: /tmp/out/${{ matrix.slug }}.json
+          retention-days: 3
 
+  push:
+    needs: probe
+    if: always() && needs.probe.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
       - name: Fetch previous results
         run: |
           mkdir -p /tmp/probes
@@ -37,34 +88,21 @@ jobs:
             git --work-tree=/tmp/probes checkout FETCH_HEAD -- . 2>/dev/null || true
             git reset -q
           fi
-          ls -la /tmp/probes
-
-      - name: Probe (pushing after each area, so a slow area can't lose the others)
-        env:
-          PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: probe-*
+          path: /tmp/new
+          merge-multiple: true
+      - name: Push to osm-probes branch
         run: |
-          push() {
-            (
-              cd /tmp/probes
-              rm -rf .git
-              git init -q -b osm-probes
-              git config user.name "github-actions[bot]"
-              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-              printf 'OSM probe snapshots written by scripts/cities/osm-probe.js.\n\nData © OpenStreetMap contributors, ODbL.\n' > README.md
-              printf '{"git":{"deploymentEnabled":false}}\n' > vercel.json
-              git add -A
-              git commit -q -m "OSM probe snapshots ($(date -u +%F))"
-              git push -q -f "$PUSH_URL" osm-probes
-            )
-          }
-          failed=0
-          for f in data-sources/probes/requests/*.json; do
-            slug=$(basename "$f" .json)
-            before=$(md5sum "/tmp/probes/$slug.json" 2>/dev/null || true)
-            if ! node scripts/cities/osm-probe.js --out=/tmp/probes --only="$slug"; then
-              echo "::warning::$slug probe failed"; failed=1; continue
-            fi
-            after=$(md5sum "/tmp/probes/$slug.json" 2>/dev/null || true)
-            if [ "$before" != "$after" ]; then push; fi
-          done
-          exit $failed
+          cp /tmp/new/*.json /tmp/probes/ 2>/dev/null || true
+          cd /tmp/probes
+          rm -rf .git
+          git init -q -b osm-probes
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          printf 'OSM probe snapshots written by scripts/cities/osm-probe.js.\n\nData © OpenStreetMap contributors, ODbL.\n' > README.md
+          printf '{"git":{"deploymentEnabled":false}}\n' > vercel.json
+          git add -A
+          git commit -q -m "OSM probe snapshots ($(date -u +%F))"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" osm-probes
