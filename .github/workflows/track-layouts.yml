@@ -1,0 +1,65 @@
+name: Track Layouts from OpenStreetMap
+
+# Redraws the lines listed in data-sources/<city>/osm-tracks.json as their
+# physical tracks from OpenStreetMap (scripts/routes/osm-tracks.js), joins any
+# gaps with fill-gaps.js, and commits the result to the same branch.
+# Runs when a config file or the script changes, or by hand.
+
+on:
+  push:
+    paths:
+      - 'data-sources/**/osm-tracks.json'
+      - 'scripts/routes/osm-tracks.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: track-layouts-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Build track layouts from OSM
+        run: |
+          : > /tmp/tracks-report.md
+          for cfg in data-sources/*/osm-tracks.json; do
+            city=$(basename "$(dirname "$cfg")")
+            node scripts/routes/osm-tracks.js --city="$city" --report=/tmp/tracks-$city.md
+            cat /tmp/tracks-$city.md >> /tmp/tracks-report.md
+            lines=$(node -e "console.log(require('./$cfg').lines.join(','))")
+            node scripts/routes/fill-gaps.js --city="$city" --lines="$lines" --report=/tmp/gaps-$city.md
+            cat /tmp/gaps-$city.md >> /tmp/tracks-report.md
+          done
+          cat /tmp/tracks-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit geometry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all -- 'src/app'
+          if git diff --cached --quiet; then
+            echo "No geometry changes."
+            exit 0
+          fi
+          git commit -F - <<MSG
+          Draw physical track layouts from OpenStreetMap
+
+          $(cat /tmp/tracks-report.md)
+
+          Geometry © OpenStreetMap contributors (ODbL).
+          MSG
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1267833,7 +1267833,6 @@
         "line": "Amtrak",
         "name": "Amtrak to Long Island (planned)",
         "color": "#04507C",
-        "future": true,
         "drawn_from": "NYC commuter-rail track (fill-gaps.js), Trenton-Philadelphia from the Amtrak map"
       }
     },
@@ -1267948,7 +1267947,6 @@
         "line": "Amtrak",
         "name": "Gateway Hudson Tunnel (under construction)",
         "color": "#04507C",
-        "future": true,
         "osm_route": {
           "part": "gateway",
           "source": "© OpenStreetMap contributors (ODbL), via Overpass",
@@ -1269364,8 +1269362,7 @@
         "line": "Amtrak",
         "name": "Amtrak to Long Island (planned)",
         "color": "#04507C",
-        "drawn_from": "NYC commuter-rail track (fill-gaps.js), Trenton-Philadelphia from the Amtrak map",
-        "future": true
+        "drawn_from": "NYC commuter-rail track (fill-gaps.js), Trenton-Philadelphia from the Amtrak map"
       }
     },
     {
