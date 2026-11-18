@@ -50,6 +50,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           printf 'OSM probe snapshots written by scripts/cities/osm-probe.js.\n\nData © OpenStreetMap contributors, ODbL.\n' > README.md
+          # Data only: tell Vercel not to try building this branch.
+          printf '{\n  "git": { "deploymentEnabled": false }\n}\n' > vercel.json
           git add -A
           git commit -q -m "OSM probe snapshots ($(date -u +%F))"
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" osm-probes
