@@ -1227860,6 +1227860,121 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.830678,
+            40.661422
+          ],
+          [
+            -73.830306,
+            40.660475
+          ]
+        ]
+      },
+      "properties": {
+        "line": "NewYorkSubwayM",
+        "name": "BMT Myrtle Avenue Line",
+        "color": "#FF6319",
+        "order": 19,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.979,
+            40.660961
+          ],
+          [
+            -73.979493,
+            40.660365
+          ]
+        ]
+      },
+      "properties": {
+        "line": "NewYorkSubwayF",
+        "name": "F",
+        "color": "#FF6319",
+        "order": 14,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.427686,
+            41.14801
+          ],
+          [
+            -73.427761,
+            41.146606
+          ]
+        ]
+      },
+      "properties": {
+        "line": "MNRRDanbury",
+        "name": "MNRR Danbury",
+        "color": "#EE0034",
+        "order": 54,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.520166,
+            41.071466
+          ],
+          [
+            -73.520074,
+            41.07106
+          ]
+        ]
+      },
+      "properties": {
+        "line": "MNRRNewCanaan",
+        "name": "MNRR New Canaan",
+        "color": "#EE0034",
+        "order": 53,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -72.593654,
+            42.105677
+          ],
+          [
+            -72.593202,
+            42.106412
+          ]
+        ]
+      },
+      "properties": {
+        "line": "CTRailHartfordLine",
+        "name": "Hartford Line",
+        "color": "#ee0034",
+        "order": 84,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiLineString",
         "coordinates": [
           [
@@ -1292467,121 +1292582,6 @@
           "bridged_m": 1970
         },
         "auto_filled": "route-gaps"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.830678,
-            40.661422
-          ],
-          [
-            -73.830306,
-            40.660475
-          ]
-        ]
-      },
-      "properties": {
-        "line": "NewYorkSubwayM",
-        "name": "BMT Myrtle Avenue Line",
-        "color": "#FF6319",
-        "order": 19,
-        "auto_filled": "station-extension"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.979,
-            40.660961
-          ],
-          [
-            -73.979493,
-            40.660365
-          ]
-        ]
-      },
-      "properties": {
-        "line": "NewYorkSubwayF",
-        "name": "F",
-        "color": "#FF6319",
-        "order": 14,
-        "auto_filled": "station-extension"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.427686,
-            41.14801
-          ],
-          [
-            -73.427761,
-            41.146606
-          ]
-        ]
-      },
-      "properties": {
-        "line": "MNRRDanbury",
-        "name": "MNRR Danbury",
-        "color": "#EE0034",
-        "order": 54,
-        "auto_filled": "station-extension"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.520166,
-            41.071466
-          ],
-          [
-            -73.520074,
-            41.07106
-          ]
-        ]
-      },
-      "properties": {
-        "line": "MNRRNewCanaan",
-        "name": "MNRR New Canaan",
-        "color": "#EE0034",
-        "order": 53,
-        "auto_filled": "station-extension"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -72.593654,
-            42.105677
-          ],
-          [
-            -72.593202,
-            42.106412
-          ]
-        ]
-      },
-      "properties": {
-        "line": "CTRailHartfordLine",
-        "name": "Hartford Line",
-        "color": "#ee0034",
-        "order": 84,
-        "auto_filled": "station-extension"
       }
     }
   ]
