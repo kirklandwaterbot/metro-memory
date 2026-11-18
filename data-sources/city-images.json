@@ -1,0 +1,9 @@
+{
+  "_comment": "City card photos (opengraph-image.jpg) and icons (icon.ico) fetched from Wikimedia Commons by .github/workflows/fetch-city-images.yml. Credits are written to public/images/CREDITS.md.",
+  "cities": [
+    { "slug": "adelaide", "path": "oceania/australia/adelaide", "card": "File:4000 Class EMU.jpg" },
+    { "slug": "brisbane", "path": "oceania/australia/brisbane", "card": "File:NGR arrives at Roma Street station.jpg", "icon": "File:Queensland Rail logo.svg" },
+    { "slug": "dublin", "path": "europe/ireland/dublin", "card": "File:Citadis 502 à Dublin.jpg", "icon": "File:Transport for Ireland logo.svg" },
+    { "slug": "liverpool", "path": "europe/uk/liverpool", "card": "File:Class 777 at Sandhills.jpg", "icon": "File:Merseyrail Icon.svg" }
+  ]
+}
