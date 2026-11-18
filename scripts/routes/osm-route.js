@@ -105,20 +105,39 @@ async function fetchOverpass(query) {
     'https://overpass.private.coffee/api/interpreter',
   ]
   let last = null
-  for (const endpoint of endpoints) {
-    try {
-      const res = await fetch(endpoint, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'User-Agent': 'MetroMemoryRouteBuilder/1.0 (+https://github.com/kirklandwaterbot/metro-memory)',
-        },
-        body: `data=${encodeURIComponent(query)}`,
-      })
-      if (res.ok) return await res.json()
-      last = new Error(`${endpoint}: HTTP ${res.status} ${(await res.text()).slice(0, 200)}`)
-    } catch (error) {
-      last = error
+  // Public Overpass servers are often at capacity: try each a few times,
+  // waiting longer each round. A "runtime error" remark or an empty answer
+  // counts as a failure, since a corridor around rail track is never empty.
+  for (let pass = 0; pass < 4; pass += 1) {
+    if (pass) await new Promise((r) => setTimeout(r, 20_000 * pass))
+    for (const endpoint of endpoints) {
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': 'MetroMemoryRouteBuilder/1.0 (+https://github.com/kirklandwaterbot/metro-memory)',
+          },
+          body: `data=${encodeURIComponent(query)}`,
+          signal: AbortSignal.timeout(300_000),
+        })
+        if (!res.ok) {
+          last = new Error(`${endpoint}: HTTP ${res.status}`)
+          continue
+        }
+        const json = await res.json()
+        if (/runtime error|timed out|out of memory/i.test(json.remark || '')) {
+          last = new Error(`${endpoint}: ${json.remark}`)
+          continue
+        }
+        if (!(json.elements || []).length) {
+          last = new Error(`${endpoint}: empty answer`)
+          continue
+        }
+        return json
+      } catch (error) {
+        last = error
+      }
     }
   }
   throw last
@@ -350,8 +369,15 @@ async function main() {
       const seen = new Set()
       osm = { elements: [] }
       const remarks = []
-      for (let i = 0; i < waypoints.length - 1; i += 1) {
-        const res = await fetchOverpass(buildQuery(waypoints.slice(i, i + 2), request.bufferM || 5000))
+      let fetchError = null
+      for (let i = 0; i < waypoints.length - 1 && !fetchError; i += 1) {
+        let res
+        try {
+          res = await fetchOverpass(buildQuery(waypoints.slice(i, i + 2), request.bufferM || 5000))
+        } catch (error) {
+          fetchError = `${waypoints[i].name} → ${waypoints[i + 1].name}: ${error.message}`
+          break
+        }
         if (res.remark) remarks.push(res.remark)
         for (const el of res.elements || []) {
           const key = `${el.type}/${el.id}`
@@ -359,6 +385,10 @@ async function main() {
           seen.add(key)
           osm.elements.push(el)
         }
+      }
+      if (fetchError) {
+        report.push(`- ⚠️ ${label}: Overpass unavailable (${fetchError.slice(0, 200)}) — not changed`)
+        continue
       }
       if (remarks.length) report.push(`- ℹ️ ${label}: Overpass said: ${remarks.join(' | ').slice(0, 300)}`)
       const ways = osm.elements.filter((e) => e.type === 'way').length
