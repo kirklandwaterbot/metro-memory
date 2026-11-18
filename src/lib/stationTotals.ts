@@ -7,7 +7,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "algiers": 3,
   "amtrak": 902,
   "atlanta": 83,
-  "auckland": 51,
+  "auckland": 68,
   "austin": 11,
   "bangkok": 208,
   "barcelona": 311,
@@ -192,5 +192,5 @@ export const STATION_TOTALS: Record<string, number> = {
   "wuxi": 97,
   "xiamen": 86,
   "xuzhou": 94,
-  "yarra": 1307,
+  "yarra": 1306,
 }

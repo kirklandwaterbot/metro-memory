@@ -6,13 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.769489,
-          -36.844623
+          174.877472,
+          -36.993888
         ]
       },
       "properties": {
         "id": 0,
-        "name": "Waitematā",
+        "name": "Manukau",
         "line": "AKEW",
         "order": 0
       },
@@ -23,13 +23,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.809388,
-          -36.862325
+          174.856024,
+          -36.989799
         ]
       },
       "properties": {
         "id": 1,
-        "name": "Ōrākei",
+        "name": "Puhinui",
         "line": "AKEW",
         "order": 1
       },
@@ -40,13 +40,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.820755,
-          -36.866272
+          174.849246,
+          -36.977423
         ]
       },
       "properties": {
         "id": 2,
-        "name": "Meadowbank",
+        "name": "Papatoetoe",
         "line": "AKEW",
         "order": 2
       },
@@ -57,13 +57,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.854204,
-          -36.878983
+          174.839055,
+          -36.962992
         ]
       },
       "properties": {
         "id": 3,
-        "name": "Glen Innes",
+        "name": "Middlemore",
         "line": "AKEW",
         "order": 3
       },
@@ -74,13 +74,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.849284,
-          -36.898089
+          174.833713,
+          -36.946967
         ]
       },
       "properties": {
         "id": 4,
-        "name": "Panmure",
+        "name": "Ōtāhuhu",
         "line": "AKEW",
         "order": 4
       },
@@ -108,13 +108,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.833713,
-          -36.946967
+          174.849284,
+          -36.898089
         ]
       },
       "properties": {
         "id": 6,
-        "name": "Ōtāhuhu",
+        "name": "Panmure",
         "line": "AKEW",
         "order": 6
       },
@@ -125,13 +125,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.839055,
-          -36.962992
+          174.854204,
+          -36.878983
         ]
       },
       "properties": {
         "id": 7,
-        "name": "Middlemore",
+        "name": "Glen Innes",
         "line": "AKEW",
         "order": 7
       },
@@ -142,13 +142,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.849246,
-          -36.977423
+          174.820755,
+          -36.866272
         ]
       },
       "properties": {
         "id": 8,
-        "name": "Papatoetoe",
+        "name": "Meadowbank",
         "line": "AKEW",
         "order": 8
       },
@@ -159,13 +159,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.856024,
-          -36.989799
+          174.809388,
+          -36.862325
         ]
       },
       "properties": {
         "id": 9,
-        "name": "Puhinui",
+        "name": "Ōrākei",
         "line": "AKEW",
         "order": 9
       },
@@ -176,13 +176,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.877472,
-          -36.993888
+          174.769489,
+          -36.844623
         ]
       },
       "properties": {
         "id": 10,
-        "name": "Manukau",
+        "name": "Waitematā",
         "line": "AKEW",
         "order": 10
       },
@@ -193,13 +193,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.777585,
-          -36.854919
+          174.76297,
+          -36.849823
         ]
       },
       "properties": {
         "id": 11,
-        "name": "Parnell",
+        "name": "Te Waihorotiu",
         "line": "AKEW",
         "order": 11
       },
@@ -210,13 +210,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.779054,
-          -36.869201
+          174.759264,
+          -36.857955
         ]
       },
       "properties": {
         "id": 12,
-        "name": "Newmarket",
+        "name": "Karanga-a-Hape",
         "line": "AKEW",
         "order": 12
       },
@@ -227,13 +227,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.770001,
-          -36.865596
+          174.758565,
+          -36.867694
         ]
       },
       "properties": {
         "id": 13,
-        "name": "Grafton",
+        "name": "Maungawhau",
         "line": "AKEW",
         "order": 13
       },
@@ -465,51 +465,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.769489,
-          -36.844623
-        ]
-      },
-      "properties": {
-        "id": 27,
-        "name": "Waitematā",
-        "line": "AKSC",
-        "order": 0
-      },
-      "id": 27
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.777585,
-          -36.854919
-        ]
-      },
-      "properties": {
-        "id": 28,
-        "name": "Parnell",
-        "line": "AKSC",
-        "order": 1
-      },
-      "id": 28
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           174.779054,
           -36.869201
         ]
       },
       "properties": {
-        "id": 29,
+        "id": 27,
         "name": "Newmarket",
         "line": "AKSC",
-        "order": 2
+        "order": 0
       },
-      "id": 29
+      "id": 27
     },
     {
       "type": "Feature",
@@ -521,12 +487,12 @@
         ]
       },
       "properties": {
-        "id": 30,
+        "id": 28,
         "name": "Remuera",
         "line": "AKSC",
-        "order": 3
+        "order": 1
       },
-      "id": 30
+      "id": 28
     },
     {
       "type": "Feature",
@@ -538,12 +504,12 @@
         ]
       },
       "properties": {
-        "id": 31,
+        "id": 29,
         "name": "Greenlane",
         "line": "AKSC",
-        "order": 4
+        "order": 2
       },
-      "id": 31
+      "id": 29
     },
     {
       "type": "Feature",
@@ -555,12 +521,12 @@
         ]
       },
       "properties": {
-        "id": 32,
+        "id": 30,
         "name": "Ellerslie",
         "line": "AKSC",
-        "order": 5
+        "order": 3
       },
-      "id": 32
+      "id": 30
     },
     {
       "type": "Feature",
@@ -572,12 +538,12 @@
         ]
       },
       "properties": {
-        "id": 33,
+        "id": 31,
         "name": "Penrose",
         "line": "AKSC",
-        "order": 6
+        "order": 4
       },
-      "id": 33
+      "id": 31
     },
     {
       "type": "Feature",
@@ -589,12 +555,12 @@
         ]
       },
       "properties": {
-        "id": 34,
+        "id": 32,
         "name": "Ōtāhuhu",
         "line": "AKSC",
-        "order": 7
+        "order": 5
       },
-      "id": 34
+      "id": 32
     },
     {
       "type": "Feature",
@@ -606,12 +572,12 @@
         ]
       },
       "properties": {
-        "id": 35,
+        "id": 33,
         "name": "Middlemore",
         "line": "AKSC",
-        "order": 8
+        "order": 6
       },
-      "id": 35
+      "id": 33
     },
     {
       "type": "Feature",
@@ -623,12 +589,12 @@
         ]
       },
       "properties": {
-        "id": 36,
+        "id": 34,
         "name": "Papatoetoe",
         "line": "AKSC",
-        "order": 9
+        "order": 7
       },
-      "id": 36
+      "id": 34
     },
     {
       "type": "Feature",
@@ -640,12 +606,12 @@
         ]
       },
       "properties": {
-        "id": 37,
+        "id": 35,
         "name": "Puhinui",
         "line": "AKSC",
-        "order": 10
+        "order": 8
       },
-      "id": 37
+      "id": 35
     },
     {
       "type": "Feature",
@@ -657,12 +623,12 @@
         ]
       },
       "properties": {
-        "id": 38,
+        "id": 36,
         "name": "Homai",
         "line": "AKSC",
-        "order": 11
+        "order": 9
       },
-      "id": 38
+      "id": 36
     },
     {
       "type": "Feature",
@@ -674,12 +640,12 @@
         ]
       },
       "properties": {
-        "id": 39,
+        "id": 37,
         "name": "Manurewa",
         "line": "AKSC",
-        "order": 12
+        "order": 10
       },
-      "id": 39
+      "id": 37
     },
     {
       "type": "Feature",
@@ -691,12 +657,12 @@
         ]
       },
       "properties": {
-        "id": 40,
+        "id": 38,
         "name": "Te Mahia",
         "line": "AKSC",
-        "order": 13
+        "order": 11
       },
-      "id": 40
+      "id": 38
     },
     {
       "type": "Feature",
@@ -708,12 +674,12 @@
         ]
       },
       "properties": {
-        "id": 41,
+        "id": 39,
         "name": "Takaanini",
         "line": "AKSC",
-        "order": 14
+        "order": 12
       },
-      "id": 41
+      "id": 39
     },
     {
       "type": "Feature",
@@ -725,8 +691,42 @@
         ]
       },
       "properties": {
-        "id": 42,
+        "id": 40,
         "name": "Papakura",
+        "line": "AKSC",
+        "order": 13
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.95155,
+          -37.104979
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Drury",
+        "line": "AKSC",
+        "order": 14
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.898138,
+          -37.156108
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Paerātā",
         "line": "AKSC",
         "order": 15
       },
@@ -754,17 +754,306 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.777585,
+          -36.854919
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Parnell",
+        "line": "AKSC",
+        "order": 17
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.769489,
+          -36.844623
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Waitematā",
+        "line": "AKSC",
+        "order": 18
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76297,
+          -36.849823
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Te Waihorotiu",
+        "line": "AKSC",
+        "order": 19
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.759264,
+          -36.857955
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Karanga-a-Hape",
+        "line": "AKSC",
+        "order": 20
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.770001,
+          -36.865596
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Grafton",
+        "line": "AKSC",
+        "order": 21
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.630938,
+          -36.881471
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Henderson",
+        "line": "AKON",
+        "order": 0
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.631898,
+          -36.8969
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Sunnyvale",
+        "line": "AKON",
+        "order": 1
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.652834,
+          -36.910251
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Glen Eden",
+        "line": "AKON",
+        "order": 2
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.667211,
+          -36.910778
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Fruitvale Road",
+        "line": "AKON",
+        "order": 3
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.684058,
+          -36.909381
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "New Lynn",
+        "line": "AKON",
+        "order": 4
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.699156,
+          -36.897161
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Avondale",
+        "line": "AKON",
+        "order": 5
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.714124,
+          -36.884743
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Mount Albert",
+        "line": "AKON",
+        "order": 6
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.72081,
+          -36.877648
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Baldwin Avenue",
+        "line": "AKON",
+        "order": 7
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.735245,
+          -36.875
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Morningside",
+        "line": "AKON",
+        "order": 8
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.744202,
+          -36.87264
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Kingsland",
+        "line": "AKON",
+        "order": 9
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.758565,
+          -36.867694
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Maungawhau",
+        "line": "AKON",
+        "order": 10
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.770001,
+          -36.865596
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Grafton",
+        "line": "AKON",
+        "order": 11
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.779054,
           -36.869201
         ]
       },
       "properties": {
-        "id": 44,
+        "id": 61,
         "name": "Newmarket",
         "line": "AKON",
-        "order": 0
+        "order": 12
       },
-      "id": 44
+      "id": 61
     },
     {
       "type": "Feature",
@@ -776,12 +1065,12 @@
         ]
       },
       "properties": {
-        "id": 45,
+        "id": 62,
         "name": "Remuera",
         "line": "AKON",
-        "order": 1
+        "order": 13
       },
-      "id": 45
+      "id": 62
     },
     {
       "type": "Feature",
@@ -793,12 +1082,12 @@
         ]
       },
       "properties": {
-        "id": 46,
+        "id": 63,
         "name": "Greenlane",
         "line": "AKON",
-        "order": 2
+        "order": 14
       },
-      "id": 46
+      "id": 63
     },
     {
       "type": "Feature",
@@ -810,12 +1099,12 @@
         ]
       },
       "properties": {
-        "id": 47,
+        "id": 64,
         "name": "Ellerslie",
         "line": "AKON",
-        "order": 3
+        "order": 15
       },
-      "id": 47
+      "id": 64
     },
     {
       "type": "Feature",
@@ -827,12 +1116,12 @@
         ]
       },
       "properties": {
-        "id": 48,
+        "id": 65,
         "name": "Penrose",
         "line": "AKON",
-        "order": 4
+        "order": 16
       },
-      "id": 48
+      "id": 65
     },
     {
       "type": "Feature",
@@ -844,12 +1133,12 @@
         ]
       },
       "properties": {
-        "id": 49,
-        "name": "Te Papapa",
+        "id": 66,
+        "name": "Te Pāpapa",
         "line": "AKON",
-        "order": 5
+        "order": 17
       },
-      "id": 49
+      "id": 66
     },
     {
       "type": "Feature",
@@ -861,12 +1150,12 @@
         ]
       },
       "properties": {
-        "id": 50,
+        "id": 67,
         "name": "Onehunga",
         "line": "AKON",
-        "order": 6
+        "order": 18
       },
-      "id": 50
+      "id": 67
     }
   ]
 }
