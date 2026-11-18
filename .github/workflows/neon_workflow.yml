@@ -63,17 +63,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # schema.prisma reads both: DATABASE_URL (pooled, for the app) and
-      # DIRECT_URL (unpooled, for migrations).
+      # schema.prisma reads both DATABASE_URL and DIRECT_URL. The action's
+      # pooled URL output is empty, so the branch's direct URL serves both.
       - name: Generate Prisma client
         env:
-          DATABASE_URL: ${{ steps.create_neon_branch.outputs.db_url_with_pooler }}
+          DATABASE_URL: ${{ steps.create_neon_branch.outputs.db_url }}
           DIRECT_URL: ${{ steps.create_neon_branch.outputs.db_url }}
         run: npm run db:generate
 
       - name: Run Prisma migrations on Neon preview branch
         env:
-          DATABASE_URL: ${{ steps.create_neon_branch.outputs.db_url_with_pooler }}
+          DATABASE_URL: ${{ steps.create_neon_branch.outputs.db_url }}
           DIRECT_URL: ${{ steps.create_neon_branch.outputs.db_url }}
         run: npm run db:migrate:deploy
 
