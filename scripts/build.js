@@ -47,6 +47,8 @@ const isVercelDeploymentBuild =
   process.env.VERCEL === '1' &&
   process.env.CI === '1' &&
   Boolean(process.env.VERCEL_DEPLOYMENT_ID)
+const isPreviewDeployment =
+  isVercelDeploymentBuild && process.env.VERCEL_ENV !== 'production'
 const remotePublicAssetRoots = ['images', 'city-cards', 'city-data'].map((name) =>
   path.join(process.cwd(), 'public', name),
 )
@@ -118,6 +120,11 @@ const stashRemotePublicAssets = () => {
         continue
       }
 
+      // Preview deployments keep their own city data: the asset host only
+      // has main's, so a city added in a pull request would not load.
+      if (isPreviewDeployment && path.basename(absolutePath) === 'city-data') {
+        continue
+      }
       fs.rmSync(absolutePath, { recursive: true, force: true })
       removedDirectories += 1
     }
