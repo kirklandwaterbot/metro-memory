@@ -13,10 +13,12 @@ import IntroModal from '@/components/IntroModal'
 import MenuComponent from '@/components/Menu'
 import MiniCityLinksPanel from '@/components/MiniCityLinksPanel'
 import CustomGameModal from '@/components/CustomGameModal'
+import CustomLayoutsPanel from '@/components/CustomLayoutsPanel'
 import MissedGuessInputsModal from '@/components/MissedGuessInputsModal'
 import PrivacyPanel from '@/components/PrivacyPanel'
 import SettingsPanel from '@/components/SettingsPanel'
 import ThemeToggleButton from '@/components/ThemeToggleButton'
+import ToolbarPopoverButton from '@/components/ToolbarPopoverButton'
 
 import ZenModeToast from '@/components/ZenModeToast'
 import { useAuth } from '@/context/AuthContext'
@@ -33,7 +35,7 @@ import {
     formatLocalizedChinaUiDescription,
     formatLocalizedChinaUiTitle,
 } from '@/lib/chinaUiText'
-import { buildChinaSafeMapStyle } from '@/lib/chinaSafeMapStyle'
+import { buildChinaSafeMapStyle, buildOfflineMapStyle } from '@/lib/chinaSafeMapStyle'
 import { formatLocalizedCityName } from '@/lib/cityNameDisplay'
 import { getCityStationAliases } from '@/lib/cityStationAliases'
 import { generateChineseDirectionalAlternates } from '@/lib/chineseDirectionalAliases'
@@ -57,6 +59,7 @@ import { disableMapboxTelemetry } from '@/lib/mapboxTelemetry'
 import { configureMapboxRuntime } from '@/lib/mapboxRuntime'
 import { loadMiniCityStationIdSet } from '@/lib/miniCityProgress'
 import { getMiniCityLinksForSlug, isMiniCitySlug } from '@/lib/miniCities'
+import { parseCustomLayout, type CustomLayout } from '@/lib/customLayouts'
 import {
     clearLocalProgressRecord,
     fetchRemoteProgress,
@@ -65,7 +68,7 @@ import {
     syncProgressRecords,
     writeLocalProgress,
 } from '@/lib/progressRepository'
-import { downloadCityForOffline } from '@/lib/offlineCityManager'
+import { downloadCityForOffline, isCityDownloaded } from '@/lib/offlineCityManager'
 import { repairMojibakeArray, repairMojibakeString } from '@/lib/repairMojibake'
 import {
     clearAutoRevealSuppressionForCity,
@@ -96,7 +99,18 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
-import { MdDownload, MdLayers, MdMap, MdRestartAlt, MdShare } from 'react-icons/md'
+import {
+  MdDownload,
+  MdDownloadDone,
+  MdDownloading,
+  MdDashboardCustomize,
+  MdErrorOutline,
+  MdGridView,
+  MdLayers,
+  MdMap,
+  MdRestartAlt,
+  MdShare,
+} from 'react-icons/md'
 import {
     CSSProperties,
     ChangeEvent,
@@ -1718,6 +1732,17 @@ function GamePageContent({
     }
     return CITY_NAME
   }, [CITY_NAME, customParentSlug, miniCityLinks, pathname])
+  // City a custom layout is built from: the full city behind a smaller version
+  // or behind the custom game being played.
+  const customLayoutParentSlug = useMemo(() => {
+    if (pathname === '/custom' && customParentSlug) return customParentSlug
+    if (miniCityLinks?.mode === 'child') return miniCityLinks.parent?.parentSlug ?? CITY_NAME
+    return CITY_NAME
+  }, [CITY_NAME, customParentSlug, miniCityLinks, pathname])
+  const currentCustomLayout = useMemo(
+    () => (pathname === '/custom' && !isCustomWorldMap ? parseCustomLayout(searchParams) : null),
+    [isCustomWorldMap, pathname, searchParams],
+  )
   const { t } = useTranslation()
   const { resolvedTheme } = useTheme()
   const { settings, requestInMainlandChina } = useSettings()
@@ -1727,6 +1752,10 @@ function GamePageContent({
   
   const [zenMode, setZenMode] = useState(false)
   const [customModalOpen, setCustomModalOpen] = useState(false)
+  // Layout the creator opens with: null = a fresh layout.
+  const [customEditing, setCustomEditing] = useState<
+    (CustomLayout & { id?: string | null }) | null
+  >(null)
   useEffect(() => {
     if (!cityPath) return
 
@@ -2524,6 +2553,12 @@ function GamePageContent({
   const [offlineDownloadStatus, setOfflineDownloadStatus] = useState<
     'idle' | 'downloading' | 'downloaded' | 'error'
   >('idle')
+  const [offlineDownloadError, setOfflineDownloadError] = useState<string | null>(null)
+  // Started without a connection: draw the lines on a plain background instead
+  // of waiting for map tiles that cannot load.
+  const [startedOffline] = useState(
+    () => typeof navigator !== 'undefined' && navigator.onLine === false,
+  )
   const [mapStyleModeReady, setMapStyleModeReady] = useState(false)
   const [mapRetryNonce, setMapRetryNonce] = useState(0)
   const mapStylePreferenceRef = useRef<MapStyleMode | null>(null)
@@ -4051,6 +4086,27 @@ function GamePageContent({
     },
     [normalizeMiniCityLabel, settings.language, t],
   )
+  // Custom layouts card, shown in both the desktop sidebar and the mobile drawer.
+  const customLayoutsPanel = isCustomWorldMap ? null : (
+    <CustomLayoutsPanel
+      parentSlug={customLayoutParentSlug}
+      currentLayout={currentCustomLayout}
+      onCreate={() => {
+        // From a smaller version, start from its lines.
+        setCustomEditing(
+          miniCityLinks?.mode === 'child'
+            ? { parentSlug: customLayoutParentSlug, lines: Object.keys(LINES), title: '' }
+            : null,
+        )
+        setCustomModalOpen(true)
+      }}
+      onEdit={(layout) => {
+        setCustomEditing(layout)
+        setCustomModalOpen(true)
+      }}
+    />
+  )
+
   const relatedVersionsPanel = useMemo(() => {
     if (!miniCityLinks) {
       return null
@@ -4532,6 +4588,9 @@ function GamePageContent({
   }, [settings.achievementToastsEnabled])
 
   const mapStyle = useMemo(() => {
+    if (startedOffline) {
+      return buildOfflineMapStyle(resolvedTheme === 'dark')
+    }
     if (usingAmapMapStyle) {
       return buildChinaSafeMapStyle(resolvedTheme === 'dark', {
         showLabels: showMapNames,
@@ -4560,7 +4619,7 @@ function GamePageContent({
       : resolvedTheme === 'dark'
         ? darkStyle
         : baseStyle ?? fallbackLightStyle
-  }, [MAP_CONFIG.style, resolvedTheme, showMapNames, showSatellite, usingAmapMapStyle])
+  }, [MAP_CONFIG.style, resolvedTheme, showMapNames, showSatellite, startedOffline, usingAmapMapStyle])
 
   const mapOptions = useMemo(() => {
     const { container: _ignored, ...rest } = MAP_CONFIG as typeof MAP_CONFIG & {
@@ -4584,7 +4643,7 @@ function GamePageContent({
       mapboxgl.accessToken = appConfig.mapbox.token
     }
 
-    if (!usingAmapMapStyle && !appConfig.mapbox.token) {
+    if (!usingAmapMapStyle && !startedOffline && !appConfig.mapbox.token) {
       setMapError('Map cannot load because NEXT_PUBLIC_MAPBOX_TOKEN is missing.')
       setShowMapFallbackPreview(true)
       return
@@ -5374,7 +5433,7 @@ function GamePageContent({
       mapboxMap.remove()
       setMap(null)
     }
-  }, [setMap, displayLines, mapOptions, MAP_FROM_DATA, renderDisplayRoutes, renderFeatureCollection, renderCullingEnabled, getRenderedCollections, refreshRenderedSources, resolvedTheme, CITY_NAME, updateUiPreferences, usingAmapMapStyle, prefersChineseCopy, mapRetryNonce, mapStyleModeReady, mapViewStorageKey, isCustomWorldMap])
+  }, [setMap, displayLines, mapOptions, MAP_FROM_DATA, renderDisplayRoutes, renderFeatureCollection, renderCullingEnabled, getRenderedCollections, refreshRenderedSources, resolvedTheme, CITY_NAME, updateUiPreferences, usingAmapMapStyle, prefersChineseCopy, mapRetryNonce, mapStyleModeReady, mapViewStorageKey, isCustomWorldMap, startedOffline])
 
   useEffect(() => {
     if (!map) {
@@ -5720,16 +5779,36 @@ function GamePageContent({
       return
     }
     setOfflineDownloadStatus('downloading')
+    setOfflineDownloadError(null)
     try {
-      await downloadCityForOffline(progressScopeSlug)
+      await downloadCityForOffline(progressScopeSlug, {
+        pagePath: window.location.pathname + window.location.search,
+      })
       setOfflineDownloadStatus('downloaded')
     } catch (error) {
       setOfflineDownloadStatus('error')
+      setOfflineDownloadError(error instanceof Error ? error.message : null)
       if (process.env.NODE_ENV !== 'production') {
         console.warn('Unable to download city for offline use', error)
       }
     }
   }, [offlineDownloadStatus, progressScopeSlug])
+
+  useEffect(() => {
+    const sync = () =>
+      setOfflineDownloadStatus((current) =>
+        current === 'downloading'
+          ? current
+          : isCityDownloaded(progressScopeSlug)
+            ? 'downloaded'
+            : current === 'error'
+              ? current
+              : 'idle',
+      )
+    sync()
+    window.addEventListener('metro-offline-cities-change', sync)
+    return () => window.removeEventListener('metro-offline-cities-change', sync)
+  }, [progressScopeSlug])
 
   return (
     <div className="relative flex h-screen flex-row items-start justify-start bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
@@ -5895,13 +5974,23 @@ function GamePageContent({
               aria-label="Download city for offline use"
               title={
                 offlineDownloadStatus === 'downloaded'
-                  ? 'Downloaded for offline use'
-                  : offlineDownloadStatus === 'error'
-                    ? 'Download failed. Try again'
-                    : 'Download city for offline use'
+                  ? 'Downloaded for offline use. Click to update'
+                  : offlineDownloadStatus === 'downloading'
+                    ? 'Downloading for offline use…'
+                    : offlineDownloadStatus === 'error'
+                      ? `Download failed${offlineDownloadError ? `: ${offlineDownloadError}` : ''}. Try again`
+                      : 'Download city for offline use'
               }
             >
-              <MdDownload className="h-5 w-5" aria-hidden="true" />
+              {offlineDownloadStatus === 'downloading' ? (
+                <MdDownloading className="h-5 w-5 animate-pulse" aria-hidden="true" />
+              ) : offlineDownloadStatus === 'downloaded' ? (
+                <MdDownloadDone className="h-5 w-5 text-emerald-600 dark:text-emerald-400" aria-hidden="true" />
+              ) : offlineDownloadStatus === 'error' ? (
+                <MdErrorOutline className="h-5 w-5 text-red-600 dark:text-red-400" aria-hidden="true" />
+              ) : (
+                <MdDownload className="h-5 w-5" aria-hidden="true" />
+              )}
             </button>
           </div>
         ) : null}
@@ -6003,6 +6092,21 @@ function GamePageContent({
                     <span className="sr-only">{t('resetAllProgressLabel')}</span>
                   </button>
                 )}
+                {relatedVersionsPanel ? (
+                  <ToolbarPopoverButton icon={MdGridView} label={relatedVersionsPanel.title}>
+                    <MiniCityLinksPanel
+                      title={relatedVersionsPanel.title}
+                      description={relatedVersionsPanel.description}
+                      items={relatedVersionsPanel.items}
+                      currentSlug={relatedVersionsPanel.currentSlug}
+                    />
+                  </ToolbarPopoverButton>
+                ) : null}
+                {customLayoutsPanel ? (
+                  <ToolbarPopoverButton icon={MdDashboardCustomize} label={formatLocalizedChinaUiTitle('Custom layouts', customLayoutParentSlug, settings.language)}>
+                    {customLayoutsPanel}
+                  </ToolbarPopoverButton>
+                ) : null}
                 <ThemeToggleButton
                   className="h-12 min-w-[3rem]"
                   hoverLabel={t('changeThemeLabel')}
@@ -6102,17 +6206,6 @@ function GamePageContent({
               highlightedLineId={highlightedLineId}
               iconBasePath={cityPath}
             />
-            {relatedVersionsPanel ? (
-              <>
-                <hr className="my-4 w-full border-b border-zinc-100 dark:border-[#18181b]" />
-                <MiniCityLinksPanel
-                  title={relatedVersionsPanel.title}
-                  description={relatedVersionsPanel.description}
-                  items={relatedVersionsPanel.items}
-                  currentSlug={relatedVersionsPanel.currentSlug}
-                />
-              </>
-            ) : null}
             <hr className="my-4 w-full border-b border-zinc-100 dark:border-[#18181b]" />
             <FoundList
               found={found}
@@ -6185,10 +6278,10 @@ function GamePageContent({
                     description={relatedVersionsPanel.description}
                     items={relatedVersionsPanel.items}
                     currentSlug={relatedVersionsPanel.currentSlug}
-                    onOpenCustomModal={() => setCustomModalOpen(true)}
                   />
                 </div>
               ) : null}
+              {customLayoutsPanel ? <div className="mb-4">{customLayoutsPanel}</div> : null}
               <FoundList
                 found={found}
                 idMap={idMap}
@@ -6476,8 +6569,11 @@ function GamePageContent({
         <CustomGameModal
           isOpen={customModalOpen}
           onCloseAction={() => setCustomModalOpen(false)}
-          parentSlug={miniCityLinks?.mode === 'parent' ? CITY_NAME : (miniCityLinks?.parent?.parentSlug ?? CITY_NAME)}
+          parentSlug={customLayoutParentSlug}
           iconBasePath={cityPath}
+          initialLines={customEditing?.lines ?? null}
+          initialTitle={customEditing?.title || null}
+          editingLayoutId={customEditing?.id ?? null}
         />
       )}
     </div>

@@ -198,6 +198,13 @@ export async function GET(_request: Request, { params }: RouteParams) {
     })
     .sort((a, b) => a.order - b.order || a.name.localeCompare(b.name))
 
+  // Stations per line, so the custom-layout picker can show how big a layout is.
+  const stationCounts: Record<string, number> = {}
+  for (const feature of payload.features.features) {
+    const lineId = feature.properties?.line
+    if (typeof lineId === 'string') stationCounts[lineId] = (stationCounts[lineId] ?? 0) + 1
+  }
+
   const cityIconBasePath = CITY_PATH_MAP[slug] ?? null
   const lineGroups = filterLineGroups(
     configuredLineGroups,
@@ -210,5 +217,6 @@ export async function GET(_request: Request, { params }: RouteParams) {
     assetBasePath,
     lines,
     lineGroups,
+    stationCounts,
   })
 }

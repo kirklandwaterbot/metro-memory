@@ -1,0 +1,113 @@
+{
+  "slug": "dublin",
+  "path": "europe/ireland/dublin",
+  "gameTitle": "Dublin Metro Memory",
+  "description": "How many DART, Luas and Dublin commuter rail stations can you name from memory?",
+  "locale": "en_IE",
+  "bbox": [
+    52.95,
+    -6.95,
+    53.75,
+    -5.95
+  ],
+  "lineGroups": [
+    {
+      "title": "DART",
+      "lines": [
+        "DART"
+      ]
+    },
+    {
+      "title": "Luas",
+      "lines": [
+        "LUR",
+        "LUG"
+      ]
+    },
+    {
+      "title": "Commuter",
+      "lines": [
+        "DNOR",
+        "DWES",
+        "DKIL",
+        "DSEA"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "DART",
+      "name": "DART",
+      "match": {
+        "route": "train",
+        "name": "DART"
+      },
+      "color": "#00A651"
+    },
+    {
+      "id": "LUR",
+      "name": "Luas Red Line",
+      "match": {
+        "route": "tram|light_rail",
+        "name": "Red"
+      },
+      "color": "#E4002B"
+    },
+    {
+      "id": "LUG",
+      "name": "Luas Green Line",
+      "match": {
+        "route": "tram|light_rail",
+        "name": "Green"
+      },
+      "color": "#00A651"
+    },
+    {
+      "id": "DNOR",
+      "name": "Northern Commuter",
+      "match": {
+        "route": "train",
+        "name": "Northern|Drogheda|Dundalk"
+      }
+    },
+    {
+      "id": "DWES",
+      "name": "Western Commuter",
+      "match": {
+        "route": "train",
+        "name": "^Western Commuter|Maynooth|M3 Parkway|Longford",
+        "exclude": "South Western"
+      }
+    },
+    {
+      "id": "DKIL",
+      "name": "South Western Commuter",
+      "match": {
+        "route": "train",
+        "name": "South Western Commuter"
+      }
+    },
+    {
+      "id": "DSEA",
+      "name": "South Eastern Commuter",
+      "match": {
+        "route": "train",
+        "name": "Gorey|Wicklow|Arklow|Rosslare|South Eastern"
+      }
+    }
+  ],
+  "register": {
+    "name": "Dublin, IE",
+    "continent": "Europe",
+    "coordinates": [
+      -6.2603,
+      53.3498
+    ],
+    "zh": "都柏林, IE",
+    "achievement": {
+      "title": "Fair City Navigator",
+      "description": "You've DARTed and Luas'd around Dublin like a true Dub!"
+    }
+  },
+  "ignoreUnmatched": "InterCity|Enterprise"
+}

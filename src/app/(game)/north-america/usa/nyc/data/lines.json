@@ -646,5 +646,21 @@
     "textColor": "#000000",
     "order": 84,
     "icon": "north-america/usa/nyc/CTRailHartfordLine.png"
+  },
+  "NJTLackawannaCutOff": {
+    "name": "NJT Lackawanna Cut-Off",
+    "color": "#F48AA4",
+    "backgroundColor": "#8C4A5E",
+    "textColor": "#000000",
+    "order": 85,
+    "icon": "north-america/usa/nyc/NJTLackawannaCutOff.png"
+  },
+  "NJTLRGlassboroCamden": {
+    "name": "Glassboro Camden Line",
+    "color": "#A2BD55",
+    "backgroundColor": "#A2BD55",
+    "textColor": "#006194",
+    "order": 86,
+    "icon": "north-america/usa/nyc/NJTLRGlassboroCamden.png"
   }
 }

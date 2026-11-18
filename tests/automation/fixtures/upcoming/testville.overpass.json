@@ -1,0 +1,235 @@
+{
+ "version": 0.6,
+ "elements": [
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "candidate"
+   }
+  },
+  {
+   "type": "node",
+   "id": 101,
+   "lat": 40.02,
+   "lon": -75.0,
+   "tags": {
+    "railway": "construction",
+    "construction:railway": "station",
+    "station": "subway",
+    "name": "Charlie",
+    "opening_date": "2026-12-15"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "stops"
+   }
+  },
+  {
+   "type": "node",
+   "id": 501,
+   "tags": {
+    "public_transport": "stop_position",
+    "name": "Charlie",
+    "route_ref": "R"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 900,
+   "tags": {
+    "type": "route",
+    "route": "subway",
+    "name": "Testville Metro Red Line: Alpha \u2192 Delta",
+    "ref": "R",
+    "colour": "#DA291C"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "ways"
+   }
+  },
+  {
+   "type": "way",
+   "id": 701,
+   "tags": {
+    "railway": "construction",
+    "construction": "subway",
+    "name": "Red Line extension"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "candidate"
+   }
+  },
+  {
+   "type": "node",
+   "id": 102,
+   "lat": 40.03,
+   "lon": -75.0,
+   "tags": {
+    "railway": "station",
+    "station": "subway",
+    "public_transport": "station",
+    "name": "Delta",
+    "opening_date": "2026-10-01"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 900,
+   "tags": {
+    "type": "route",
+    "route": "subway",
+    "name": "Testville Metro Red Line: Alpha \u2192 Delta",
+    "ref": "R",
+    "colour": "#DA291C"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "stops"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "ways"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "candidate"
+   }
+  },
+  {
+   "type": "node",
+   "id": 103,
+   "lat": 40.005,
+   "lon": -74.98,
+   "tags": {
+    "railway": "construction",
+    "construction:railway": "station",
+    "station": "subway",
+    "name": "Echo",
+    "opening_date": "2028"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "stops"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 901,
+   "tags": {
+    "type": "route",
+    "route": "subway",
+    "name": "Testville Metro Purple Line",
+    "ref": "P",
+    "colour": "#800080",
+    "state": "construction"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "ways"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "candidate"
+   }
+  },
+  {
+   "type": "node",
+   "id": 104,
+   "lat": 40.0,
+   "lon": -75.0,
+   "tags": {
+    "railway": "station",
+    "station": "subway",
+    "name": "Alpha",
+    "start_date": "2026-02-01"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 900,
+   "tags": {
+    "type": "route",
+    "route": "subway",
+    "name": "Testville Metro Red Line: Alpha \u2192 Delta",
+    "ref": "R",
+    "colour": "#DA291C"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "stops"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "ways"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "candidate"
+   }
+  },
+  {
+   "type": "node",
+   "id": 105,
+   "lat": 40.05,
+   "lon": -75.05,
+   "tags": {
+    "railway": "construction",
+    "construction:railway": "halt",
+    "name": "Foxtrot"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "stops"
+   }
+  },
+  {
+   "type": "mm_sep",
+   "id": 1,
+   "tags": {
+    "part": "ways"
+   }
+  }
+ ]
+}

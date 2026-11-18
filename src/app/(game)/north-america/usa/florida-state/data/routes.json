@@ -25888,6 +25888,94 @@
         "color": "#00B8F1",
         "order": 30
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.192209,
+            25.771847
+          ],
+          [
+            -80.191381,
+            25.77187
+          ]
+        ]
+      },
+      "properties": {
+        "line": "floridaBR",
+        "color": "#FFB638",
+        "order": 3,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.1902,
+            25.778919
+          ],
+          [
+            -80.189918,
+            25.777588
+          ]
+        ]
+      },
+      "properties": {
+        "line": "floridaBR",
+        "color": "#FFB638",
+        "order": 3,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.195703,
+            25.779526
+          ],
+          [
+            -80.19578,
+            25.77753
+          ]
+        ]
+      },
+      "properties": {
+        "line": "brightline",
+        "color": "#FFC700",
+        "order": 5,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.313937,
+            28.434362
+          ],
+          [
+            -81.314152,
+            28.434674
+          ]
+        ]
+      },
+      "properties": {
+        "line": "floridaAS1",
+        "color": "#FF0000",
+        "order": 22,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

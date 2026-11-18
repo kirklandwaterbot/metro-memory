@@ -4,6 +4,7 @@ import { z } from 'zod'
 
 import { getAutomationAdminUser } from '@/lib/adminAuth'
 import { prisma } from '@/lib/prisma'
+import { hasValidSolutionsCookie } from '@/lib/solutionsCookie'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -69,6 +70,7 @@ const isSolutionsPasswordValid = (request: NextRequest) => {
 
 const canReadMissedGuesses = async (request: NextRequest) => {
   if (isSolutionsPasswordValid(request)) return true
+  if (hasValidSolutionsCookie(request)) return true
   return Boolean(await getAutomationAdminUser())
 }
 
@@ -114,14 +116,13 @@ const hasMissedGuessTable = async () => {
     }
     return exists
   } catch (error) {
+    // A failed probe (e.g. the database waking from a cold start) is not proof
+    // the table is missing. Don't cache it — try the real query, whose own
+    // error handling detects a genuinely missing table.
     if (process.env.NODE_ENV !== 'production') {
       console.warn('Unable to verify MissedGuessInput table availability:', error)
     }
-    missedGuessTableCache = {
-      checkedAt: now,
-      exists: false,
-    }
-    return false
+    return true
   }
 }
 
@@ -137,17 +138,17 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: true, stored: false, unavailable: true })
   }
 
-  try {
-    const insert = prisma.$executeRaw`
-      INSERT INTO "MissedGuessInput"
-        ("id", "citySlug", "rawInput", "normalizedInput", "suggestions", "createdAt")
-      VALUES
-        (${crypto.randomUUID()}, ${data.city}, ${data.rawInput}, ${data.normalizedInput}, ${JSON.stringify(data.suggestions)}::jsonb, NOW())
-    `
+  const insert = () => prisma.$executeRaw`
+    INSERT INTO "MissedGuessInput"
+      ("id", "citySlug", "rawInput", "normalizedInput", "suggestions", "createdAt")
+    VALUES
+      (${crypto.randomUUID()}, ${data.city}, ${data.rawInput}, ${data.normalizedInput}, ${JSON.stringify(data.suggestions)}::jsonb, NOW())
+  `
 
+  const write = async () => {
     if (Math.random() < MISSED_GUESS_TRIM_PROBABILITY) {
       await prisma.$transaction([
-        insert,
+        insert(),
         prisma.$executeRaw`
           DELETE FROM "MissedGuessInput"
           WHERE "id" IN (
@@ -159,7 +160,18 @@ export async function POST(request: NextRequest) {
         `,
       ])
     } else {
-      await insert
+      await insert()
+    }
+  }
+
+  try {
+    try {
+      await write()
+    } catch (error) {
+      if (isMissingMissedGuessTableError(error)) throw error
+      // One retry for transient failures (connection drop, cold start).
+      await new Promise((resolve) => setTimeout(resolve, 400))
+      await write()
     }
   } catch (error) {
     if (isMissingMissedGuessTableError(error)) {
@@ -169,9 +181,7 @@ export async function POST(request: NextRequest) {
       }
       return NextResponse.json({ ok: true, stored: false, unavailable: true })
     }
-    if (process.env.NODE_ENV !== 'production') {
-      console.warn('Unable to persist missed guess input:', error)
-    }
+    console.warn('Unable to persist missed guess input:', error)
     return NextResponse.json({ ok: true, stored: false })
   }
 
@@ -237,15 +247,18 @@ export async function GET(request: NextRequest) {
           LIMIT 50
         `
 
-    return NextResponse.json({
-      recent: recent.map(serializeRow),
-      top: top.map((row) => ({
-        rawInput: row.rawInput,
-        normalizedInput: row.normalizedInput,
-        count: Number(row.count),
-        lastSeenAt: row.lastSeenAt.toISOString(),
-      })),
-    })
+    return NextResponse.json(
+      {
+        recent: recent.map(serializeRow),
+        top: top.map((row) => ({
+          rawInput: row.rawInput,
+          normalizedInput: row.normalizedInput,
+          count: Number(row.count),
+          lastSeenAt: row.lastSeenAt.toISOString(),
+        })),
+      },
+      { headers: { 'Cache-Control': 'no-store' } },
+    )
   } catch (error) {
     if (isMissingMissedGuessTableError(error)) {
       missedGuessTableCache = {
@@ -254,6 +267,10 @@ export async function GET(request: NextRequest) {
       }
       return NextResponse.json({ recent: [], top: [], unavailable: true })
     }
-    throw error
+    console.error('Unable to read missed guess inputs:', error)
+    return NextResponse.json(
+      { error: 'Missed guesses could not be loaded right now.' },
+      { status: 503, headers: { 'Cache-Control': 'no-store' } },
+    )
   }
 }

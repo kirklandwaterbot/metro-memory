@@ -51,3 +51,24 @@ export const buildChinaSafeMapStyle = (
     ],
   }
 }
+
+/**
+ * Style for playing a downloaded city without a connection: no tiles, just a
+ * plain background under the game's own line and station layers. Glyphs come
+ * from the same-origin proxy so the offline download can cache them.
+ */
+export const buildOfflineMapStyle = (darkMode: boolean): mapboxgl.Style => ({
+  version: 8,
+  name: darkMode ? 'Metro Memory Offline Dark' : 'Metro Memory Offline Light',
+  glyphs: '/api/geo/glyphs/{fontstack}/{range}.pbf',
+  sources: {},
+  layers: [
+    {
+      id: 'background',
+      type: 'background',
+      paint: {
+        'background-color': darkMode ? '#18181b' : '#f4f4f5',
+      },
+    },
+  ],
+})

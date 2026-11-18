@@ -46006,6 +46006,29 @@
         "order": 17,
         "name": "Wanda-Zhonghe-Shulin"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.542925,
+            24.973281
+          ],
+          [
+            121.54292,
+            24.975022
+          ]
+        ]
+      },
+      "properties": {
+        "line": "xiaobitan",
+        "color": "#D0DC00",
+        "order": 4,
+        "name": "Xiaobitan Branch",
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

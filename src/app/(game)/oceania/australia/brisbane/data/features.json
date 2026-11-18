@@ -1,0 +1,3949 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01851,
+          -27.465313
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Roma Street",
+        "line": "BAIR",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Brisbane Central",
+        "line": "BAIR",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Fortitude Valley",
+        "line": "BAIR",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Bowen Hills",
+        "line": "BAIR",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04047,
+          -27.429052
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Albion",
+        "line": "BAIR",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.043479,
+          -27.419876
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Wooloowin",
+        "line": "BAIR",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.049602,
+          -27.415365
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Eagle Junction",
+        "line": "BAIR",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.108714,
+          -27.402669
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "International Airport",
+        "line": "BAIR",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.118492,
+          -27.385654
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Domestic Airport",
+        "line": "BAIR",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.204439,
+          -27.717402
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Beenleigh",
+        "line": "BBEE",
+        "order": 0
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.187598,
+          -27.709597
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Holmview",
+        "line": "BBEE",
+        "order": 1
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.170943,
+          -27.698104
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Edens Landing",
+        "line": "BBEE",
+        "order": 2
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.158702,
+          -27.688516
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bethania",
+        "line": "BBEE",
+        "order": 3
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.137934,
+          -27.670702
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Loganlea",
+        "line": "BBEE",
+        "order": 4
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.118302,
+          -27.65733
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Kingston",
+        "line": "BBEE",
+        "order": 5
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.103797,
+          -27.638145
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Woodridge",
+        "line": "BBEE",
+        "order": 6
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.097874,
+          -27.631792
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Trinder Park",
+        "line": "BBEE",
+        "order": 7
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.091179,
+          -27.604816
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Kuraby",
+        "line": "BBEE",
+        "order": 8
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.07955,
+          -27.598095
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Fruitgrove",
+        "line": "BBEE",
+        "order": 9
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.068803,
+          -27.592579
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Runcorn",
+        "line": "BBEE",
+        "order": 10
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.063723,
+          -27.582802
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Altandi",
+        "line": "BBEE",
+        "order": 11
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.054112,
+          -27.580827
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Sunnybank",
+        "line": "BBEE",
+        "order": 12
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.046549,
+          -27.57657
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Banoon",
+        "line": "BBEE",
+        "order": 13
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.035921,
+          -27.567505
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Coopers Plains",
+        "line": "BBEE",
+        "order": 14
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.022766,
+          -27.553862
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Salisbury",
+        "line": "BBEE",
+        "order": 15
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.014108,
+          -27.544712
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Rocklea",
+        "line": "BBEE",
+        "order": 16
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.013961,
+          -27.535044
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Moorooka",
+        "line": "BBEE",
+        "order": 17
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.014117,
+          -27.524782
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Yeerongpilly",
+        "line": "BBEE",
+        "order": 18
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.016892,
+          -27.517806
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Yeronga",
+        "line": "BBEE",
+        "order": 19
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02792,
+          -27.509731
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Fairfield",
+        "line": "BBEE",
+        "order": 20
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.028482,
+          -27.500808
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Dutton Park",
+        "line": "BBEE",
+        "order": 21
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03074,
+          -27.493665
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Boggo Road",
+        "line": "BBEE",
+        "order": 22
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.023002,
+          -27.481933
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "South Bank",
+        "line": "BBEE",
+        "order": 23
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.018458,
+          -27.475096
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "South Brisbane",
+        "line": "BBEE",
+        "order": 24
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Roma Street",
+        "line": "BBEE",
+        "order": 25
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Roma Street",
+        "line": "BCAB",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Brisbane Central",
+        "line": "BCAB",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Fortitude Valley",
+        "line": "BCAB",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Bowen Hills",
+        "line": "BCAB",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04047,
+          -27.429052
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Albion",
+        "line": "BCAB",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.043479,
+          -27.419876
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Wooloowin",
+        "line": "BCAB",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.049602,
+          -27.415365
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Eagle Junction",
+        "line": "BCAB",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05867,
+          -27.407923
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Toombul",
+        "line": "BCAB",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062038,
+          -27.400844
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Nundah",
+        "line": "BCAB",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.069222,
+          -27.392953
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Northgate",
+        "line": "BCAB",
+        "order": 9
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062464,
+          -27.382174
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Virginia",
+        "line": "BCAB",
+        "order": 10
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05617,
+          -27.375686
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Sunshine",
+        "line": "BCAB",
+        "order": 11
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.047224,
+          -27.368681
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Geebung",
+        "line": "BCAB",
+        "order": 12
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.036677,
+          -27.358573
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Zillmere",
+        "line": "BCAB",
+        "order": 13
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02884,
+          -27.347069
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Carseldine",
+        "line": "BCAB",
+        "order": 14
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.011041,
+          -27.320847
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Bald Hills",
+        "line": "BCAB",
+        "order": 15
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.989546,
+          -27.311379
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Strathpine",
+        "line": "BCAB",
+        "order": 16
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.986149,
+          -27.299447
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Bray Park",
+        "line": "BCAB",
+        "order": 17
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.980909,
+          -27.281664
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Lawnton",
+        "line": "BCAB",
+        "order": 18
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.982095,
+          -27.268434
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Petrie",
+        "line": "BCAB",
+        "order": 19
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975766,
+          -27.230461
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Dakabin",
+        "line": "BCAB",
+        "order": 20
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.959878,
+          -27.202318
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Narangba",
+        "line": "BCAB",
+        "order": 21
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.952641,
+          -27.110374
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Morayfield",
+        "line": "BCAB",
+        "order": 22
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.953794,
+          -27.082903
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Caboolture",
+        "line": "BCAB",
+        "order": 23
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Roma Street",
+        "line": "BCLE",
+        "order": 0
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.018458,
+          -27.475096
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "South Brisbane",
+        "line": "BCLE",
+        "order": 1
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.023002,
+          -27.481933
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "South Bank",
+        "line": "BCLE",
+        "order": 2
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03074,
+          -27.493665
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Boggo Road",
+        "line": "BCLE",
+        "order": 3
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.040449,
+          -27.496548
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Buranda",
+        "line": "BCLE",
+        "order": 4
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.055196,
+          -27.489756
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Coorparoo",
+        "line": "BCLE",
+        "order": 5
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062307,
+          -27.481661
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Norman Park",
+        "line": "BCLE",
+        "order": 6
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.069466,
+          -27.470899
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Morningside",
+        "line": "BCLE",
+        "order": 7
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.088607,
+          -27.465318
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Cannon Hill",
+        "line": "BCLE",
+        "order": 8
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.105711,
+          -27.464743
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Murarrie",
+        "line": "BCLE",
+        "order": 9
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.127494,
+          -27.447297
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Hemmant",
+        "line": "BCLE",
+        "order": 10
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.14495,
+          -27.441929
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Lindum",
+        "line": "BCLE",
+        "order": 11
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.158807,
+          -27.43728
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "North Wynnum",
+        "line": "BCLE",
+        "order": 12
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.166123,
+          -27.439756
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Wynnum",
+        "line": "BCLE",
+        "order": 13
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.17013,
+          -27.445186
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Wynnum Central",
+        "line": "BCLE",
+        "order": 14
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.180294,
+          -27.4567
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Manly",
+        "line": "BCLE",
+        "order": 15
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.188535,
+          -27.470088
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Lota",
+        "line": "BCLE",
+        "order": 16
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.192731,
+          -27.486107
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Thorneside",
+        "line": "BCLE",
+        "order": 17
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.21878,
+          -27.494005
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Birkdale",
+        "line": "BCLE",
+        "order": 18
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.241744,
+          -27.494379
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Wellington Point",
+        "line": "BCLE",
+        "order": 19
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.255846,
+          -27.514591
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Ormiston",
+        "line": "BCLE",
+        "order": 20
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.265224,
+          -27.524188
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Cleveland",
+        "line": "BCLE",
+        "order": 21
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.074735,
+          -27.431404
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Doomben",
+        "line": "BDOO",
+        "order": 0
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.063329,
+          -27.429494
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Ascot",
+        "line": "BDOO",
+        "order": 1
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062666,
+          -27.422196
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Hendra",
+        "line": "BDOO",
+        "order": 2
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.057822,
+          -27.418215
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Clayfield",
+        "line": "BDOO",
+        "order": 3
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.049602,
+          -27.415365
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Eagle Junction",
+        "line": "BDOO",
+        "order": 4
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.043479,
+          -27.419876
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Wooloowin",
+        "line": "BDOO",
+        "order": 5
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04047,
+          -27.429052
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Albion",
+        "line": "BDOO",
+        "order": 6
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Bowen Hills",
+        "line": "BDOO",
+        "order": 7
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Fortitude Valley",
+        "line": "BDOO",
+        "order": 8
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Brisbane Central",
+        "line": "BDOO",
+        "order": 9
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.018354,
+          -27.464981
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Roma Street",
+        "line": "BDOO",
+        "order": 10
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.93449,
+          -27.400885
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Ferny Grove",
+        "line": "BFER",
+        "order": 0
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.956741,
+          -27.409167
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Keperra",
+        "line": "BFER",
+        "order": 1
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.962522,
+          -27.404583
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Grovely",
+        "line": "BFER",
+        "order": 2
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.969159,
+          -27.404512
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Oxford Park",
+        "line": "BFER",
+        "order": 3
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975999,
+          -27.411676
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Mitchelton",
+        "line": "BFER",
+        "order": 4
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.98497,
+          -27.419237
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Gaythorne",
+        "line": "BFER",
+        "order": 5
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.992393,
+          -27.420327
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Enoggera",
+        "line": "BFER",
+        "order": 6
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.00083,
+          -27.42322
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Alderley",
+        "line": "BFER",
+        "order": 7
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01063,
+          -27.432903
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Newmarket",
+        "line": "BFER",
+        "order": 8
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.019192,
+          -27.436212
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Wilston",
+        "line": "BFER",
+        "order": 9
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.029066,
+          -27.435344
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Windsor",
+        "line": "BFER",
+        "order": 10
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Bowen Hills",
+        "line": "BFER",
+        "order": 11
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Fortitude Valley",
+        "line": "BFER",
+        "order": 12
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Brisbane Central",
+        "line": "BFER",
+        "order": 13
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01851,
+          -27.465313
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Roma Street",
+        "line": "BFER",
+        "order": 14
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.399233,
+          -28.097132
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Varsity Lakes",
+        "line": "BGOL",
+        "order": 0
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.377972,
+          -28.071221
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Robina",
+        "line": "BGOL",
+        "order": 1
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.350027,
+          -27.994108
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Nerang",
+        "line": "BGOL",
+        "order": 2
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.33899,
+          -27.925425
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Helensvale",
+        "line": "BGOL",
+        "order": 3
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.331321,
+          -27.879675
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Hope Island",
+        "line": "BGOL",
+        "order": 4
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.317052,
+          -27.852361
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Coomera",
+        "line": "BGOL",
+        "order": 5
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.282429,
+          -27.799185
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Ormeau",
+        "line": "BGOL",
+        "order": 6
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.204439,
+          -27.717402
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Beenleigh",
+        "line": "BGOL",
+        "order": 7
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.137934,
+          -27.670702
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Loganlea",
+        "line": "BGOL",
+        "order": 8
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.063723,
+          -27.582802
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Altandi",
+        "line": "BGOL",
+        "order": 9
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03074,
+          -27.493665
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Boggo Road",
+        "line": "BGOL",
+        "order": 10
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.023002,
+          -27.481933
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "South Bank",
+        "line": "BGOL",
+        "order": 11
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.018458,
+          -27.475096
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "South Brisbane",
+        "line": "BGOL",
+        "order": 12
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Roma Street",
+        "line": "BGOL",
+        "order": 13
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.760419,
+          -27.612877
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Ipswich",
+        "line": "BIPS",
+        "order": 0
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.776009,
+          -27.610074
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "East Ipswich",
+        "line": "BIPS",
+        "order": 1
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.789867,
+          -27.609328
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Booval",
+        "line": "BIPS",
+        "order": 2
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.804815,
+          -27.607494
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Bundamba",
+        "line": "BIPS",
+        "order": 3
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.822136,
+          -27.603312
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Ebbw Vale",
+        "line": "BIPS",
+        "order": 4
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.833487,
+          -27.596255
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Dinmore",
+        "line": "BIPS",
+        "order": 5
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.850542,
+          -27.594978
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Riverview",
+        "line": "BIPS",
+        "order": 6
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.872492,
+          -27.599454
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Redbank",
+        "line": "BIPS",
+        "order": 7
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.901496,
+          -27.608789
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Goodna",
+        "line": "BIPS",
+        "order": 8
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.919148,
+          -27.602101
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Gailes",
+        "line": "BIPS",
+        "order": 9
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92435,
+          -27.589173
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Wacol",
+        "line": "BIPS",
+        "order": 10
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.952392,
+          -27.565921
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Darra",
+        "line": "BIPS",
+        "order": 11
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.973854,
+          -27.552107
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Oxley",
+        "line": "BIPS",
+        "order": 12
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.980117,
+          -27.539082
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Corinda",
+        "line": "BIPS",
+        "order": 13
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.97948,
+          -27.531121
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Sherwood",
+        "line": "BIPS",
+        "order": 14
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975874,
+          -27.520643
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Graceville",
+        "line": "BIPS",
+        "order": 15
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.972764,
+          -27.511992
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Chelmer",
+        "line": "BIPS",
+        "order": 16
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975879,
+          -27.50283
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Indooroopilly",
+        "line": "BIPS",
+        "order": 17
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.981674,
+          -27.493137
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Taringa",
+        "line": "BIPS",
+        "order": 18
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.993151,
+          -27.485343
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Toowong",
+        "line": "BIPS",
+        "order": 19
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.996757,
+          -27.476603
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Auchenflower",
+        "line": "BIPS",
+        "order": 20
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.005229,
+          -27.468917
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Milton",
+        "line": "BIPS",
+        "order": 21
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Roma Street",
+        "line": "BIPS",
+        "order": 22
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.592925,
+          -27.643022
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Rosewood",
+        "line": "BIPS",
+        "order": 23
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.629807,
+          -27.626833
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Thagoona",
+        "line": "BIPS",
+        "order": 24
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.667983,
+          -27.607345
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Walloon",
+        "line": "BIPS",
+        "order": 25
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.709078,
+          -27.604424
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Karrabin",
+        "line": "BIPS",
+        "order": 26
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.732754,
+          -27.613605
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Wulkuraka",
+        "line": "BIPS",
+        "order": 27
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.74565,
+          -27.61478
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Thomas Street",
+        "line": "BIPS",
+        "order": 28
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Roma Street",
+        "line": "BRED",
+        "order": 0
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Brisbane Central",
+        "line": "BRED",
+        "order": 1
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Fortitude Valley",
+        "line": "BRED",
+        "order": 2
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Bowen Hills",
+        "line": "BRED",
+        "order": 3
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.049602,
+          -27.415365
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Eagle Junction",
+        "line": "BRED",
+        "order": 4
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.069222,
+          -27.392953
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Northgate",
+        "line": "BRED",
+        "order": 5
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062464,
+          -27.382174
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Virginia",
+        "line": "BRED",
+        "order": 6
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05617,
+          -27.375686
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Sunshine",
+        "line": "BRED",
+        "order": 7
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.047224,
+          -27.368681
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Geebung",
+        "line": "BRED",
+        "order": 8
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.036677,
+          -27.358573
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Zillmere",
+        "line": "BRED",
+        "order": 9
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02884,
+          -27.347069
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Carseldine",
+        "line": "BRED",
+        "order": 10
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.011041,
+          -27.320847
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Bald Hills",
+        "line": "BRED",
+        "order": 11
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.989546,
+          -27.311379
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Strathpine",
+        "line": "BRED",
+        "order": 12
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.986149,
+          -27.299447
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Bray Park",
+        "line": "BRED",
+        "order": 13
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.980909,
+          -27.281664
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Lawnton",
+        "line": "BRED",
+        "order": 14
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.982095,
+          -27.268434
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Petrie",
+        "line": "BRED",
+        "order": 15
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.999936,
+          -27.256619
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Kallangur",
+        "line": "BRED",
+        "order": 16
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.011542,
+          -27.252386
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Murrumba Downs",
+        "line": "BRED",
+        "order": 17
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.027692,
+          -27.246313
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Mango Hill",
+        "line": "BRED",
+        "order": 18
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.035902,
+          -27.233522
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Mango Hill East",
+        "line": "BRED",
+        "order": 19
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04797,
+          -27.224093
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Rothwell",
+        "line": "BRED",
+        "order": 20
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.081491,
+          -27.22555
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Kippa-Ring",
+        "line": "BRED",
+        "order": 21
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.080117,
+          -27.326966
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Shorncliffe",
+        "line": "BSHO",
+        "order": 0
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.06951,
+          -27.322281
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Sandgate",
+        "line": "BSHO",
+        "order": 1
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.063404,
+          -27.327435
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Deagon",
+        "line": "BSHO",
+        "order": 2
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.060686,
+          -27.33868
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "North Boondall",
+        "line": "BSHO",
+        "order": 3
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.067987,
+          -27.34675
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Boondall",
+        "line": "BSHO",
+        "order": 4
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.083412,
+          -27.366082
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Nudgee",
+        "line": "BSHO",
+        "order": 5
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.072672,
+          -27.382832
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Bindha",
+        "line": "BSHO",
+        "order": 6
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.069222,
+          -27.392953
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Northgate",
+        "line": "BSHO",
+        "order": 7
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062038,
+          -27.400844
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Nundah",
+        "line": "BSHO",
+        "order": 8
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.05867,
+          -27.407923
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Toombul",
+        "line": "BSHO",
+        "order": 9
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.049602,
+          -27.415365
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Eagle Junction",
+        "line": "BSHO",
+        "order": 10
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.043479,
+          -27.419876
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Wooloowin",
+        "line": "BSHO",
+        "order": 11
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.04047,
+          -27.429052
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Albion",
+        "line": "BSHO",
+        "order": 12
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Bowen Hills",
+        "line": "BSHO",
+        "order": 13
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Fortitude Valley",
+        "line": "BSHO",
+        "order": 14
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Brisbane Central",
+        "line": "BSHO",
+        "order": 15
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Roma Street",
+        "line": "BSHO",
+        "order": 16
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.90275,
+          -27.674279
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Springfield Central",
+        "line": "BSPR",
+        "order": 0
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.921828,
+          -27.660181
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Springfield",
+        "line": "BSPR",
+        "order": 1
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.946903,
+          -27.596054
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Richlands",
+        "line": "BSPR",
+        "order": 2
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.952392,
+          -27.565921
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Darra",
+        "line": "BSPR",
+        "order": 3
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.973854,
+          -27.552107
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Oxley",
+        "line": "BSPR",
+        "order": 4
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.980117,
+          -27.539082
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Corinda",
+        "line": "BSPR",
+        "order": 5
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.97948,
+          -27.531121
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Sherwood",
+        "line": "BSPR",
+        "order": 6
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975874,
+          -27.520643
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Graceville",
+        "line": "BSPR",
+        "order": 7
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.972764,
+          -27.511992
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Chelmer",
+        "line": "BSPR",
+        "order": 8
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975879,
+          -27.50283
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Indooroopilly",
+        "line": "BSPR",
+        "order": 9
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.981674,
+          -27.493137
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Taringa",
+        "line": "BSPR",
+        "order": 10
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.993151,
+          -27.485343
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Toowong",
+        "line": "BSPR",
+        "order": 11
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.996757,
+          -27.476603
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Auchenflower",
+        "line": "BSPR",
+        "order": 12
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.005229,
+          -27.468917
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Milton",
+        "line": "BSPR",
+        "order": 13
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Roma Street",
+        "line": "BSPR",
+        "order": 14
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.01854,
+          -27.464965
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Roma Street",
+        "line": "BSUN",
+        "order": 0
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.025842,
+          -27.465845
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Brisbane Central",
+        "line": "BSUN",
+        "order": 1
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.033938,
+          -27.455896
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Fortitude Valley",
+        "line": "BSUN",
+        "order": 2
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.037599,
+          -27.445232
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Bowen Hills",
+        "line": "BSUN",
+        "order": 3
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.049602,
+          -27.415365
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Eagle Junction",
+        "line": "BSUN",
+        "order": 4
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.069222,
+          -27.392953
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Northgate",
+        "line": "BSUN",
+        "order": 5
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.982095,
+          -27.268434
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Petrie",
+        "line": "BSUN",
+        "order": 6
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.975766,
+          -27.230461
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Dakabin",
+        "line": "BSUN",
+        "order": 7
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.959878,
+          -27.202318
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Narangba",
+        "line": "BSUN",
+        "order": 8
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.952641,
+          -27.110374
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Morayfield",
+        "line": "BSUN",
+        "order": 9
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.953794,
+          -27.082903
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Caboolture",
+        "line": "BSUN",
+        "order": 10
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.94584,
+          -27.010969
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Elimbah",
+        "line": "BSUN",
+        "order": 11
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.959188,
+          -26.959934
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Beerburrum",
+        "line": "BSUN",
+        "order": 12
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.956239,
+          -26.899208
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Glass House Mountains",
+        "line": "BSUN",
+        "order": 13
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.958365,
+          -26.85699
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Beerwah",
+        "line": "BSUN",
+        "order": 14
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.966404,
+          -26.807897
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Landsborough",
+        "line": "BSUN",
+        "order": 15
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.963161,
+          -26.765827
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Mooloolah",
+        "line": "BSUN",
+        "order": 16
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.956851,
+          -26.725412
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Eudlo",
+        "line": "BSUN",
+        "order": 17
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.960763,
+          -26.688691
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Palmwoods",
+        "line": "BSUN",
+        "order": 18
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.962829,
+          -26.660533
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Woombye",
+        "line": "BSUN",
+        "order": 19
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.958018,
+          -26.62549
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Nambour",
+        "line": "BSUN",
+        "order": 20
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.958163,
+          -26.560898
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Yandina",
+        "line": "BSUN",
+        "order": 21
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.955034,
+          -26.480408
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Eumundi",
+        "line": "BSUN",
+        "order": 22
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.911193,
+          -26.417681
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Cooroy",
+        "line": "BSUN",
+        "order": 23
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.857135,
+          -26.366268
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Pomona",
+        "line": "BSUN",
+        "order": 24
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.822974,
+          -26.334522
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Cooran",
+        "line": "BSUN",
+        "order": 25
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.782887,
+          -26.319752
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Traveston",
+        "line": "BSUN",
+        "order": 26
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.683111,
+          -26.159685
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Gympie North",
+        "line": "BSUN",
+        "order": 27
+      },
+      "id": 231
+    }
+  ]
+}

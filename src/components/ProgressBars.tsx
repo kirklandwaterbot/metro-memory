@@ -14,6 +14,101 @@ import { useEffect, useMemo, useRef } from 'react'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 import LineBadge, { getLineBadgeMetrics } from './LineBadge'
 
+/** Path of a rounded rectangle starting at the middle of the top edge, clockwise. */
+const roundedRectPath = (
+  x: number,
+  y: number,
+  w: number,
+  h: number,
+  r: number,
+) => {
+  const rr = Math.max(0, Math.min(r, w / 2, h / 2))
+  const cx = x + w / 2
+  return [
+    `M ${cx} ${y}`,
+    `H ${x + w - rr}`,
+    `A ${rr} ${rr} 0 0 1 ${x + w} ${y + rr}`,
+    `V ${y + h - rr}`,
+    `A ${rr} ${rr} 0 0 1 ${x + w - rr} ${y + h}`,
+    `H ${x + rr}`,
+    `A ${rr} ${rr} 0 0 1 ${x} ${y + h - rr}`,
+    `V ${y + rr}`,
+    `A ${rr} ${rr} 0 0 1 ${x + rr} ${y}`,
+    'Z',
+  ].join(' ')
+}
+
+/**
+ * Progress ring for non-circular badges: a stroke that follows the badge's own
+ * rounded-rectangle outline, filling clockwise from the top centre like the
+ * circular gauge does.
+ */
+const BadgeProgressRing = ({
+  width,
+  height,
+  badgeRadius,
+  ringWidth,
+  progress,
+  progressColor,
+  trailColor,
+  fillColor,
+  contrastOutline,
+  className,
+}: {
+  width: number
+  height: number
+  badgeRadius: number
+  ringWidth: number
+  progress: number
+  progressColor: string
+  trailColor: string
+  fillColor: string
+  contrastOutline?: boolean
+  className?: string
+}) => {
+  const half = ringWidth / 2
+  // Centre line of the stroke: concentric with the badge corners.
+  const ring = roundedRectPath(
+    half,
+    half,
+    width - ringWidth,
+    height - ringWidth,
+    badgeRadius + half,
+  )
+  const pct = Math.max(0, Math.min(1, progress)) * 100
+  return (
+    <svg
+      className={className}
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
+      aria-hidden="true"
+    >
+      {/* Fill under the stroke too, so no background shows between ring and badge. */}
+      <path d={ring} fill={fillColor} />
+      <path d={ring} fill="none" stroke={trailColor} strokeWidth={ringWidth} />
+      {contrastOutline && (
+        <path
+          d={roundedRectPath(0.5, 0.5, width - 1, height - 1, badgeRadius + ringWidth - 0.5)}
+          fill="none"
+          stroke="rgba(161,161,170,0.7)"
+          strokeWidth={1}
+        />
+      )}
+      {pct > 0 && (
+        <path
+          d={ring}
+          fill="none"
+          stroke={progressColor}
+          strokeWidth={ringWidth}
+          pathLength={100}
+          strokeDasharray={pct >= 100 ? undefined : `${pct} 100`}
+        />
+      )}
+    </svg>
+  )
+}
+
 const cleanupLineName = (name?: string) => {
   if (!name) return ''
 
@@ -278,11 +373,10 @@ const ProgressBars = ({
     const badgeShape = meta.badgeShape ?? 'circle'
     const usesFramedShell = badgeShape !== 'circle'
     const badgeMetrics = getLineBadgeMetrics(badgeShape, 'small', meta.badgeAspectRatio)
-    const shellInsetX = usesFramedShell ? 3 : 2
-    const shellInsetY = 2
-    const shellWidth = badgeMetrics.width + shellInsetX * 2
-    const shellHeight = badgeMetrics.height + shellInsetY * 2
-    const shellRadius = badgeMetrics.radius + shellInsetY
+    // The ring hugs the badge: same inset on every side, corners concentric with the badge's.
+    const ringWidth = 3
+    const shellWidth = badgeMetrics.width + ringWidth * 2
+    const shellHeight = badgeMetrics.height + ringWidth * 2
 
     const isHighlighted = highlightedLineId === line
 
@@ -310,41 +404,27 @@ const ProgressBars = ({
           }}
         >
           {usesFramedShell ? (
-            <div
-              className={clsx(
-                'relative overflow-hidden shadow dark:shadow-black/40',
-                contrastRingClass,
-              )}
-              style={{
-                width: shellWidth,
-                height: shellHeight,
-                borderRadius: shellRadius,
-                background: `linear-gradient(90deg, ${progressColor} 0%, ${progressColor} ${
-                  percentComplete * 100
-                }%, ${trailColor} ${percentComplete * 100}%, ${trailColor} 100%)`,
-              }}
-            >
-              <div
-                className="absolute"
-                style={{
-                  left: shellInsetX,
-                  right: shellInsetX,
-                  top: shellInsetY,
-                  bottom: shellInsetY,
-                  borderRadius: Math.max(shellRadius - shellInsetY, 0),
-                  backgroundColor: gaugeBackground,
-                }}
+            <>
+              <BadgeProgressRing
+                width={shellWidth}
+                height={shellHeight}
+                badgeRadius={badgeMetrics.radius}
+                ringWidth={ringWidth}
+                progress={percentComplete}
+                progressColor={progressColor}
+                trailColor={trailColor}
+                fillColor={gaugeBackground}
+                contrastOutline={needsContrastBoost}
+                className="absolute inset-0 drop-shadow dark:drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <LineBadge
-                  lineId={line}
-                  line={meta}
-                  iconBasePath={iconBasePath}
-                  defaultFit="cover"
-                  className="z-10"
-                />
-              </div>
-            </div>
+              <LineBadge
+                lineId={line}
+                line={meta}
+                iconBasePath={iconBasePath}
+                defaultFit="cover"
+                className="z-10"
+              />
+            </>
           ) : (
             <>
               <div

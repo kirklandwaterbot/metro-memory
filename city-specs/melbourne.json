@@ -1,0 +1,231 @@
+{
+  "slug": "melbourne",
+  "path": "oceania/australia/melbourne",
+  "gameTitle": "Melbourne Metro Memory",
+  "description": "How many Metro Trains Melbourne stations can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -38.45,
+    144.55,
+    -37.5,
+    145.6
+  ],
+  "ignoreUnmatched": "V/Line|Regional|tram|Yarra|Flemington Racecourse|City Circle|Heritage|Puffing Billy|XPT|NSW TrainLink|Overland|Stabling|Westall|Watergardens => Dandenong|Melbourne Metro 2|Lygon",
+  "lineGroups": [
+    {
+      "title": "Burnley group",
+      "lines": [
+        "MALAM",
+        "MBELG",
+        "MGLEN",
+        "MLILY"
+      ]
+    },
+    {
+      "title": "Caulfield & Metro Tunnel",
+      "lines": [
+        "MCRAN",
+        "MPAKE",
+        "MSUNB"
+      ]
+    },
+    {
+      "title": "Clifton Hill group",
+      "lines": [
+        "MHURS",
+        "MMERN"
+      ]
+    },
+    {
+      "title": "Northern group",
+      "lines": [
+        "MCRAI",
+        "MUPFI"
+      ]
+    },
+    {
+      "title": "Cross-city & Frankston",
+      "lines": [
+        "MFRAN",
+        "MSAND",
+        "MSTON",
+        "MWERR",
+        "MWILL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MALAM",
+      "name": "Alamein Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Alamein Line"
+      }
+    },
+    {
+      "id": "MBELG",
+      "name": "Belgrave Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Belgrave Line"
+      }
+    },
+    {
+      "id": "MCRAI",
+      "name": "Craigieburn Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Craigieburn Line"
+      }
+    },
+    {
+      "id": "MCRAN",
+      "name": "Cranbourne Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Cranbourne"
+      },
+      "between": [
+        "Arden",
+        "Cranbourne"
+      ]
+    },
+    {
+      "id": "MFRAN",
+      "name": "Frankston Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Frankston Line"
+      }
+    },
+    {
+      "id": "MGLEN",
+      "name": "Glen Waverley Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Glen Waverley Line"
+      }
+    },
+    {
+      "id": "MHURS",
+      "name": "Hurstbridge Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Hurstbridge Line"
+      }
+    },
+    {
+      "id": "MLILY",
+      "name": "Lilydale Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Lilydale Line"
+      }
+    },
+    {
+      "id": "MMERN",
+      "name": "Mernda Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Mernda Line"
+      }
+    },
+    {
+      "id": "MPAKE",
+      "name": "Pakenham Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Pakenham"
+      },
+      "between": [
+        "Arden",
+        "East Pakenham"
+      ]
+    },
+    {
+      "id": "MSAND",
+      "name": "Sandringham Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Sandringham"
+      },
+      "between": [
+        "Flinders Street",
+        "Sandringham"
+      ]
+    },
+    {
+      "id": "MSTON",
+      "name": "Stony Point Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Stony Point"
+      }
+    },
+    {
+      "id": "MSUNB",
+      "name": "Sunbury Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Sunbury"
+      },
+      "between": [
+        "Sunbury",
+        "Anzac"
+      ]
+    },
+    {
+      "id": "MUPFI",
+      "name": "Upfield Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "^Upfield Line"
+      }
+    },
+    {
+      "id": "MWERR",
+      "name": "Werribee Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Werribee"
+      },
+      "between": [
+        "Werribee",
+        "Flinders Street"
+      ]
+    },
+    {
+      "id": "MWILL",
+      "name": "Williamstown Line",
+      "match": {
+        "route": "train",
+        "network": "^(?!.*Regional).*$",
+        "name": "Williamstown"
+      },
+      "between": [
+        "Williamstown",
+        "Flinders Street"
+      ]
+    }
+  ],
+  "register": {
+    "name": "Melbourne, VIC",
+    "continent": "Oceania"
+  }
+}

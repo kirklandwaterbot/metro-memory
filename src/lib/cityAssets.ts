@@ -155,12 +155,17 @@ export const getCityIconMetadataPath = (
   fallbackPath = DEFAULT_CITY_ICON_PATH,
 ) => {
   const assetSlug = resolveCityAssetSlug(slug, 'icon')
-  if (!assetSlug) {
+  const assetRoutePath = resolveCityAssetRoutePath(assetSlug)
+  if (!assetSlug || !assetRoutePath) {
     return fallbackPath
   }
 
+  // Static copy made at build time by scripts/sync-city-icons.js (named after
+  // the city's folder). Served from the CDN, so it doesn't depend on the
+  // /api/city-icon function being able to read public/ at runtime.
+  const iconFileName = assetRoutePath.split('/').pop()
   return appendVersionQuery(
-    `/api/city-icon/${assetSlug}`,
+    `/city-icons/${iconFileName}.ico`,
     CITY_ASSET_MANIFEST[assetSlug]?.iconVersion,
   )
 }

@@ -1,0 +1,78 @@
+{
+  "slug": "liverpool",
+  "path": "europe/uk/liverpool",
+  "gameTitle": "Liverpool Metro Memory",
+  "description": "How many Merseyrail and City Line stations can you name from memory?",
+  "locale": "en_GB",
+  "bbox": [
+    53.18,
+    -3.25,
+    53.68,
+    -2.6
+  ],
+  "ignoreUnmatched": "Avanti|TransPennine|East Midlands|Transport for Wales|London Northwestern|West Midlands|Lumo|Sleeper|LNWR|AWC|TfW|Borderlands|Blackpool|Headbolt Lane to|to Headbolt Lane|Ormskirk to Preston|Preston to Ormskirk|Southport =>|=> Southport|Northern Rail|Zoofari|Wirral Tramway",
+  "lineGroups": [
+    {
+      "title": "Merseyrail",
+      "lines": [
+        "MRNO",
+        "MRWI"
+      ]
+    },
+    {
+      "title": "City Line",
+      "lines": [
+        "MRCL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MRNO",
+      "name": "Northern Line",
+      "match": {
+        "route": "train",
+        "name": "Southport|Ormskirk|Kirkby|Headbolt|Hunts Cross|Northern Line",
+        "operator": "Merseyrail|^$",
+        "network": "Merseyrail|Merseytravel|^$"
+      },
+      "color": "#0075C9"
+    },
+    {
+      "id": "MRWI",
+      "name": "Wirral Line",
+      "match": {
+        "route": "train",
+        "name": "West Kirby|New Brighton|Chester|Ellesmere Port|Wirral",
+        "operator": "Merseyrail|^$",
+        "network": "Merseyrail|Merseytravel|^$"
+      },
+      "color": "#00A94F"
+    },
+    {
+      "id": "MRCL",
+      "name": "City Line",
+      "match": {
+        "route": "train",
+        "name": "^City Line|NT: .*Liverpool Lime Street|Liverpool Lime Street.*Manchester"
+      },
+      "color": "#E2231A",
+      "removeStations": [
+        "Acton Bridge"
+      ]
+    }
+  ],
+  "register": {
+    "name": "Liverpool, ENG",
+    "continent": "Europe",
+    "coordinates": [
+      -2.9916,
+      53.4084
+    ],
+    "zh": "利物浦, ENG",
+    "achievement": {
+      "title": "Ferry Cross the Mersey",
+      "description": "You've Merseyrailed around Liverpool like a true Scouser!"
+    }
+  }
+}

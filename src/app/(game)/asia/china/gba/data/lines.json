@@ -1097,5 +1097,77 @@
     "textColor": "#FFFFFF",
     "order": 141,
     "icon": "asia/china/gba/taipagrande.png"
+  },
+  "fs_line4": {
+    "name": "Line 4",
+    "color": "#F08300",
+    "progressOutlineColor": "#F08300",
+    "backgroundColor": "#F08300",
+    "textColor": "#FFFFFF",
+    "order": 142
+  },
+  "fs_line11": {
+    "name": "Line 11",
+    "color": "#00A0E9",
+    "progressOutlineColor": "#00A0E9",
+    "backgroundColor": "#00A0E9",
+    "textColor": "#FFFFFF",
+    "order": 143
+  },
+  "SILW": {
+    "name": "South Island Line (West)",
+    "color": "#7AC143",
+    "progressOutlineColor": "#7AC143",
+    "backgroundColor": "#7AC143",
+    "textColor": "#FFFFFF",
+    "order": 144
+  },
+  "HKWRL": {
+    "name": "Hong Kong–Shenzhen Western Rail Link",
+    "color": "#5E2D79",
+    "progressOutlineColor": "#5E2D79",
+    "backgroundColor": "#5E2D79",
+    "textColor": "#FFFFFF",
+    "order": 145
+  },
+  "EKSG": {
+    "name": "East Kowloon Smart and Green Mass Transit",
+    "color": "#00A4A6",
+    "progressOutlineColor": "#00A4A6",
+    "backgroundColor": "#00A4A6",
+    "textColor": "#FFFFFF",
+    "order": 146
+  },
+  "KTSG": {
+    "name": "Kai Tak Smart and Green Mass Transit",
+    "color": "#E95295",
+    "progressOutlineColor": "#E95295",
+    "backgroundColor": "#E95295",
+    "textColor": "#FFFFFF",
+    "order": 147
+  },
+  "szline19": {
+    "name": "Line 19",
+    "color": "#B0A8D5",
+    "progressOutlineColor": "#B0A8D5",
+    "backgroundColor": "#B0A8D5",
+    "textColor": "#FFFFFF",
+    "order": 148
+  },
+  "gzline28": {
+    "name": "Line 28",
+    "color": "#5C9E31",
+    "progressOutlineColor": "#5C9E31",
+    "backgroundColor": "#5C9E31",
+    "textColor": "#FFFFFF",
+    "order": 149
+  },
+  "fs_tnh2": {
+    "name": "Nanhai Tram Line 2",
+    "color": "#E85298",
+    "progressOutlineColor": "#E85298",
+    "backgroundColor": "#E85298",
+    "textColor": "#FFFFFF",
+    "order": 150
   }
 }

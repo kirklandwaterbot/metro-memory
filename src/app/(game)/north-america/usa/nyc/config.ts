@@ -184,6 +184,11 @@ export const LINE_GROUPS: LineGroup[] = [
         titleImage: 'RiverLine.png',
         lines: ['NJTLRRiverLine'],
       },
+      {
+        type: 'lines',
+        title: 'Glassboro-Camden Line',
+        lines: ['NJTLRGlassboroCamden'],
+      },
     ],
   },
   {
@@ -279,6 +284,7 @@ export const LINE_GROUPS: LineGroup[] = [
           'NJTMorrisEssex',
           'NJTPascackValley',
           'NJTPortJervis',
+          'NJTLackawannaCutOff',
         ],
       },
     ],

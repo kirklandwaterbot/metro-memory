@@ -1758,6 +1758,50 @@
         "color": "#27AA90",
         "order": 3
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.69308,
+            41.497482
+          ],
+          [
+            -81.693627,
+            41.497153
+          ]
+        ]
+      },
+      "properties": {
+        "line": "Blue_Line",
+        "color": "#009AD9",
+        "order": 1,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.695714,
+            41.497688
+          ],
+          [
+            -81.693581,
+            41.497472
+          ]
+        ]
+      },
+      "properties": {
+        "line": "Waterfront_Line",
+        "color": "#27AA90",
+        "order": 3,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

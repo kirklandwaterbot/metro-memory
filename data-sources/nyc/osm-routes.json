@@ -1,0 +1,24 @@
+{
+  "description": "Lines whose geometry is built from OpenStreetMap by scripts/routes/osm-route.js (run by .github/workflows/route-geometry.yml). Waypoints are visited in order; `station` names are looked up on the line. `preferName` is a case-insensitive regex for way names/operators to prefer. `replace: true` replaces the line's existing hand-drawn route.",
+  "routes": [
+    {
+      "line": "NJTLackawannaCutOff",
+      "note": "Port Morris Junction to Scranton: the 1911 Lackawanna Cut-Off (Port Morris - Slateford Junction, incl. Roseville Tunnel, Pequest Fill, Paulins Kill and Delaware River viaducts) then the former DL&W main line over the Poconos. Hoboken - Port Morris is traced along the existing NJ Transit Morris & Essex track by fill-gaps.js.",
+      "replace": true,
+      "bufferM": 5000,
+      "preferName": "cut-?off|lackawanna|DL&?W|pocono|erie lackawanna",
+      "waypoints": [
+        { "name": "Port Morris Junction", "coordinates": [-74.6688, 40.9088] },
+        { "station": "Andover" },
+        { "station": "Johnsonburg" },
+        { "station": "Blairstown" },
+        { "station": "Delaware Water Gap" },
+        { "station": "East Stroudsburg" },
+        { "station": "Analomink" },
+        { "station": "Pocono Mt" },
+        { "station": "Tobyhanna" },
+        { "station": "Scranton" }
+      ]
+    }
+  ]
+}

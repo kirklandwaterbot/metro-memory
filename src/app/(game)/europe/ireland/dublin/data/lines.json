@@ -1,0 +1,51 @@
+{
+  "DART": {
+    "name": "DART",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "LUR": {
+    "name": "Luas Red Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "LUG": {
+    "name": "Luas Green Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2
+  },
+  "DNOR": {
+    "name": "Northern Commuter",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#FFFFFF",
+    "order": 3
+  },
+  "DWES": {
+    "name": "Western Commuter",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 4
+  },
+  "DKIL": {
+    "name": "South Western Commuter",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 5
+  },
+  "DSEA": {
+    "name": "South Eastern Commuter",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 6
+  }
+}

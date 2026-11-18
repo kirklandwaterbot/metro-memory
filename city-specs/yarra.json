@@ -1,0 +1,245 @@
+{
+  "slug": "yarra",
+  "path": "oceania/australia/yarra",
+  "gameTitle": "Yarra Trams Metro Memory",
+  "description": "How many Melbourne tram stops can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -37.95,
+    144.85,
+    -37.65,
+    145.2
+  ],
+  "tramStationRadius": 60,
+  "mergeRadius": 400,
+  "ignoreUnmatched": "train|V/Line|bus",
+  "lineGroups": [
+    {
+      "title": "Yarra Trams",
+      "lines": [
+        "Y1",
+        "Y3",
+        "Y5",
+        "Y6",
+        "Y11",
+        "Y12",
+        "Y16",
+        "Y19",
+        "Y30",
+        "Y35",
+        "Y48",
+        "Y57",
+        "Y58",
+        "Y59",
+        "Y64",
+        "Y67",
+        "Y70",
+        "Y72",
+        "Y75",
+        "Y78",
+        "Y82",
+        "Y86",
+        "Y96",
+        "Y109"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "Y1",
+      "name": "Route 1",
+      "match": {
+        "route": "tram",
+        "ref": "^1$"
+      }
+    },
+    {
+      "id": "Y3",
+      "name": "Route 3",
+      "match": {
+        "route": "tram",
+        "ref": "^3$"
+      }
+    },
+    {
+      "id": "Y5",
+      "name": "Route 5",
+      "match": {
+        "route": "tram",
+        "ref": "^5$"
+      }
+    },
+    {
+      "id": "Y6",
+      "name": "Route 6",
+      "match": {
+        "route": "tram",
+        "ref": "^6$"
+      }
+    },
+    {
+      "id": "Y11",
+      "name": "Route 11",
+      "match": {
+        "route": "tram",
+        "ref": "^11$"
+      }
+    },
+    {
+      "id": "Y12",
+      "name": "Route 12",
+      "match": {
+        "route": "tram",
+        "ref": "^12$"
+      }
+    },
+    {
+      "id": "Y16",
+      "name": "Route 16",
+      "match": {
+        "route": "tram",
+        "ref": "^16$"
+      }
+    },
+    {
+      "id": "Y19",
+      "name": "Route 19",
+      "match": {
+        "route": "tram",
+        "ref": "^19$"
+      }
+    },
+    {
+      "id": "Y30",
+      "name": "Route 30",
+      "match": {
+        "route": "tram",
+        "ref": "^30$"
+      }
+    },
+    {
+      "id": "Y35",
+      "name": "Route 35",
+      "match": {
+        "route": "tram",
+        "ref": "^35$"
+      }
+    },
+    {
+      "id": "Y48",
+      "name": "Route 48",
+      "match": {
+        "route": "tram",
+        "ref": "^48$"
+      }
+    },
+    {
+      "id": "Y57",
+      "name": "Route 57",
+      "match": {
+        "route": "tram",
+        "ref": "^57$"
+      }
+    },
+    {
+      "id": "Y58",
+      "name": "Route 58",
+      "match": {
+        "route": "tram",
+        "ref": "^58$"
+      }
+    },
+    {
+      "id": "Y59",
+      "name": "Route 59",
+      "match": {
+        "route": "tram",
+        "ref": "^59$"
+      }
+    },
+    {
+      "id": "Y64",
+      "name": "Route 64",
+      "match": {
+        "route": "tram",
+        "ref": "^64$"
+      }
+    },
+    {
+      "id": "Y67",
+      "name": "Route 67",
+      "match": {
+        "route": "tram",
+        "ref": "^67$"
+      }
+    },
+    {
+      "id": "Y70",
+      "name": "Route 70",
+      "match": {
+        "route": "tram",
+        "ref": "^70$"
+      }
+    },
+    {
+      "id": "Y72",
+      "name": "Route 72",
+      "match": {
+        "route": "tram",
+        "ref": "^72$"
+      }
+    },
+    {
+      "id": "Y75",
+      "name": "Route 75",
+      "match": {
+        "route": "tram",
+        "ref": "^75$"
+      }
+    },
+    {
+      "id": "Y78",
+      "name": "Route 78",
+      "match": {
+        "route": "tram",
+        "ref": "^78$"
+      }
+    },
+    {
+      "id": "Y82",
+      "name": "Route 82",
+      "match": {
+        "route": "tram",
+        "ref": "^82$"
+      }
+    },
+    {
+      "id": "Y86",
+      "name": "Route 86",
+      "match": {
+        "route": "tram",
+        "ref": "^86$"
+      }
+    },
+    {
+      "id": "Y96",
+      "name": "Route 96",
+      "match": {
+        "route": "tram",
+        "ref": "^96$"
+      }
+    },
+    {
+      "id": "Y109",
+      "name": "Route 109",
+      "match": {
+        "route": "tram",
+        "ref": "^109$"
+      }
+    }
+  ],
+  "register": {
+    "name": "Yarra, VIC",
+    "continent": "Oceania"
+  }
+}

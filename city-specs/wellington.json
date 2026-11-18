@@ -1,0 +1,90 @@
+{
+  "slug": "wellington",
+  "path": "oceania/new-zealand/wellington",
+  "gameTitle": "Wellington Metro Memory",
+  "description": "How many Metlink train stations can you name from memory?",
+  "locale": "en_NZ",
+  "bbox": [
+    -41.35,
+    174.75,
+    -40.85,
+    175.7
+  ],
+  "lineGroups": [
+    {
+      "title": "Metlink Trains",
+      "lines": [
+        "WKAP",
+        "WHUT",
+        "WMEL",
+        "WJOH",
+        "WWAI"
+      ]
+    },
+    {
+      "title": "Cable Car",
+      "lines": [
+        "WCAB"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "WKAP",
+      "name": "Kāpiti Line",
+      "match": {
+        "route": "train",
+        "name": "K[aā]piti|Waikanae"
+      }
+    },
+    {
+      "id": "WHUT",
+      "name": "Hutt Valley Line",
+      "match": {
+        "route": "train",
+        "name": "Hutt Valley|Upper Hutt"
+      }
+    },
+    {
+      "id": "WMEL",
+      "name": "Melling Line",
+      "match": {
+        "route": "train",
+        "name": "Melling"
+      }
+    },
+    {
+      "id": "WJOH",
+      "name": "Johnsonville Line",
+      "match": {
+        "route": "train",
+        "name": "Johnsonville"
+      }
+    },
+    {
+      "id": "WWAI",
+      "name": "Wairarapa Line",
+      "match": {
+        "route": "train",
+        "name": "Wairarapa|Masterton"
+      }
+    },
+    {
+      "id": "WCAB",
+      "name": "Wellington Cable Car",
+      "match": {
+        "route": "funicular|railway|train",
+        "name": "Cable Car"
+      },
+      "color": "#C8102E"
+    }
+  ],
+  "register": {
+    "name": "Wellington, WGN",
+    "continent": "Oceania"
+  },
+  "rename": {
+    "Redwood (north)": "Redwood",
+    "Redwood (south)": "Redwood"
+  }
+}

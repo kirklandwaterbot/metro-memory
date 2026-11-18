@@ -1,0 +1,2198 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.781449,
+          -31.980725
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Claremont",
+        "line": "PAIR",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.786883,
+          -31.977064
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Showgrounds",
+        "line": "PAIR",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.791612,
+          -31.971709
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Loch Street",
+        "line": "PAIR",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.796189,
+          -31.968426
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Karrakatta",
+        "line": "PAIR",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.805462,
+          -31.959639
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Shenton Park",
+        "line": "PAIR",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.813402,
+          -31.951799
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Daglish",
+        "line": "PAIR",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.824004,
+          -31.944699
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Subiaco",
+        "line": "PAIR",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.833201,
+          -31.942682
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "West Leederville",
+        "line": "PAIR",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.845054,
+          -31.94468
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "City West",
+        "line": "PAIR",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.860593,
+          -31.951429
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Perth",
+        "line": "PAIR",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.866395,
+          -31.951779
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "McIver",
+        "line": "PAIR",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872512,
+          -31.949402
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Claisebrook",
+        "line": "PAIR",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.877189,
+          -31.944099
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "East Perth",
+        "line": "PAIR",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.880871,
+          -31.934769
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Mount Lawley",
+        "line": "PAIR",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.89172,
+          -31.928306
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Maylands",
+        "line": "PAIR",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.900321,
+          -31.922466
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Meltham",
+        "line": "PAIR",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.91187,
+          -31.918401
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Bayswater",
+        "line": "PAIR",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.949709,
+          -31.93359
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Redcliffe",
+        "line": "PAIR",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.974846,
+          -31.943961
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Airport Central",
+        "line": "PAIR",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9922,
+          -31.954628
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "High Wycombe",
+        "line": "PAIR",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.007381,
+          -32.21646
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Byford",
+        "line": "PARM",
+        "order": 0
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.012963,
+          -32.153689
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Armadale",
+        "line": "PARM",
+        "order": 1
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.010429,
+          -32.137873
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Sherwood",
+        "line": "PARM",
+        "order": 2
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.012547,
+          -32.126855
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Challis",
+        "line": "PARM",
+        "order": 3
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.013235,
+          -32.113178
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Kelmscott",
+        "line": "PARM",
+        "order": 4
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.011127,
+          -32.084753
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Seaforth",
+        "line": "PARM",
+        "order": 5
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.999676,
+          -32.071279
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Gosnells",
+        "line": "PARM",
+        "order": 6
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.982936,
+          -32.049373
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Maddington",
+        "line": "PARM",
+        "order": 7
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.969721,
+          -32.03638
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Kenwick",
+        "line": "PARM",
+        "order": 8
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.954227,
+          -32.022472
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Beckenham",
+        "line": "PARM",
+        "order": 9
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.94495,
+          -32.013437
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Cannington",
+        "line": "PARM",
+        "order": 10
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.93788,
+          -32.006576
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Queens Park",
+        "line": "PARM",
+        "order": 11
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.91633,
+          -31.987899
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Oats Street",
+        "line": "PARM",
+        "order": 12
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.910039,
+          -31.979883
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Carlisle",
+        "line": "PARM",
+        "order": 13
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.902218,
+          -31.971614
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Victoria Park",
+        "line": "PARM",
+        "order": 14
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.899955,
+          -31.959904
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Burswood",
+        "line": "PARM",
+        "order": 15
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.892803,
+          -31.95036
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Perth Stadium",
+        "line": "PARM",
+        "order": 16
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872512,
+          -31.949402
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Claisebrook",
+        "line": "PARM",
+        "order": 17
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.866395,
+          -31.951779
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "McIver",
+        "line": "PARM",
+        "order": 18
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.860593,
+          -31.951429
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Perth",
+        "line": "PARM",
+        "order": 19
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.96339,
+          -31.781602
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Ellenbrook",
+        "line": "PELL",
+        "order": 0
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.964538,
+          -31.835897
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Whiteman Park",
+        "line": "PELL",
+        "order": 1
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.922115,
+          -31.84941
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Ballajura",
+        "line": "PELL",
+        "order": 2
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.917779,
+          -31.874526
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Noranda",
+        "line": "PELL",
+        "order": 3
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.920018,
+          -31.896032
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Morley",
+        "line": "PELL",
+        "order": 4
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.91187,
+          -31.918401
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Bayswater",
+        "line": "PELL",
+        "order": 5
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.900321,
+          -31.922466
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Meltham",
+        "line": "PELL",
+        "order": 6
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.89172,
+          -31.928306
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Maylands",
+        "line": "PELL",
+        "order": 7
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.880871,
+          -31.934769
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Mount Lawley",
+        "line": "PELL",
+        "order": 8
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.877189,
+          -31.944099
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "East Perth",
+        "line": "PELL",
+        "order": 9
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872512,
+          -31.949402
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Claisebrook",
+        "line": "PELL",
+        "order": 10
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.866395,
+          -31.951779
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "McIver",
+        "line": "PELL",
+        "order": 11
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.860593,
+          -31.951429
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Perth",
+        "line": "PELL",
+        "order": 12
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.860593,
+          -31.951429
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Perth",
+        "line": "PFRE",
+        "order": 0
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.845054,
+          -31.94468
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "City West",
+        "line": "PFRE",
+        "order": 1
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.833201,
+          -31.942682
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "West Leederville",
+        "line": "PFRE",
+        "order": 2
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.824004,
+          -31.944699
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Subiaco",
+        "line": "PFRE",
+        "order": 3
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.813402,
+          -31.951799
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Daglish",
+        "line": "PFRE",
+        "order": 4
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.805462,
+          -31.959639
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Shenton Park",
+        "line": "PFRE",
+        "order": 5
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.796189,
+          -31.968426
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Karrakatta",
+        "line": "PFRE",
+        "order": 6
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.791612,
+          -31.971709
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Loch Street",
+        "line": "PFRE",
+        "order": 7
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.786883,
+          -31.977064
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Showgrounds",
+        "line": "PFRE",
+        "order": 8
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.781449,
+          -31.980725
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Claremont",
+        "line": "PFRE",
+        "order": 9
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.770616,
+          -31.982741
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Swanbourne",
+        "line": "PFRE",
+        "order": 10
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.76474,
+          -31.987043
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Grant Street",
+        "line": "PFRE",
+        "order": 11
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.760953,
+          -31.996816
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Cottesloe",
+        "line": "PFRE",
+        "order": 12
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.757402,
+          -32.006949
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Mosman Park",
+        "line": "PFRE",
+        "order": 13
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.754938,
+          -32.012047
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Victoria Street",
+        "line": "PFRE",
+        "order": 14
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.751846,
+          -32.029516
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "North Fremantle",
+        "line": "PFRE",
+        "order": 15
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.745219,
+          -32.052023
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Fremantle",
+        "line": "PFRE",
+        "order": 16
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.746792,
+          -32.527094
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Mandurah",
+        "line": "PMAN",
+        "order": 0
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.770522,
+          -32.473681
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Lakelands",
+        "line": "PMAN",
+        "order": 1
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.767922,
+          -32.32653
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Warnbro",
+        "line": "PMAN",
+        "order": 2
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.761276,
+          -32.290152
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Rockingham",
+        "line": "PMAN",
+        "order": 3
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.817098,
+          -32.263996
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Wellard",
+        "line": "PMAN",
+        "order": 4
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.842664,
+          -32.234936
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Kwinana",
+        "line": "PMAN",
+        "order": 5
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.85795,
+          -32.154936
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Aubin Grove",
+        "line": "PMAN",
+        "order": 6
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.858358,
+          -32.125332
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Cockburn Central",
+        "line": "PMAN",
+        "order": 7
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.850474,
+          -32.066425
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Murdoch",
+        "line": "PMAN",
+        "order": 8
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.854109,
+          -32.047092
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Bull Creek",
+        "line": "PMAN",
+        "order": 9
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.856131,
+          -32.009737
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Canning Bridge",
+        "line": "PMAN",
+        "order": 10
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.855219,
+          -31.957092
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Elizabeth Quay",
+        "line": "PMAN",
+        "order": 11
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.858005,
+          -31.951939
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Perth Underground",
+        "line": "PMAN",
+        "order": 12
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.860593,
+          -31.951429
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Perth",
+        "line": "PMID",
+        "order": 0
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.866395,
+          -31.951779
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "McIver",
+        "line": "PMID",
+        "order": 1
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872512,
+          -31.949402
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Claisebrook",
+        "line": "PMID",
+        "order": 2
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.877189,
+          -31.944099
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "East Perth",
+        "line": "PMID",
+        "order": 3
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.880871,
+          -31.934769
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Mount Lawley",
+        "line": "PMID",
+        "order": 4
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.89172,
+          -31.928306
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Maylands",
+        "line": "PMID",
+        "order": 5
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.900321,
+          -31.922466
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Meltham",
+        "line": "PMID",
+        "order": 6
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.91187,
+          -31.918401
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Bayswater",
+        "line": "PMID",
+        "order": 7
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.936091,
+          -31.912812
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Ashfield",
+        "line": "PMID",
+        "order": 8
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.946997,
+          -31.90372
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Bassendean",
+        "line": "PMID",
+        "order": 9
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.955872,
+          -31.900185
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Success Hill",
+        "line": "PMID",
+        "order": 10
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.965793,
+          -31.898949
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Guildford",
+        "line": "PMID",
+        "order": 11
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.979991,
+          -31.896448
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "East Guildford",
+        "line": "PMID",
+        "order": 12
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.992868,
+          -31.891518
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Woodbridge",
+        "line": "PMID",
+        "order": 13
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.003735,
+          -31.892378
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Midland",
+        "line": "PMID",
+        "order": 14
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.858358,
+          -32.125332
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Cockburn Central",
+        "line": "PTHC",
+        "order": 0
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.896579,
+          -32.075378
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Ranford Road",
+        "line": "PTHC",
+        "order": 1
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.934565,
+          -32.061489
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Nicholson Road",
+        "line": "PTHC",
+        "order": 2
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.952382,
+          -32.047337
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Thornlie",
+        "line": "PTHC",
+        "order": 3
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.954227,
+          -32.022472
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Beckenham",
+        "line": "PTHC",
+        "order": 4
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.94495,
+          -32.013437
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Cannington",
+        "line": "PTHC",
+        "order": 5
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.93788,
+          -32.006576
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Queens Park",
+        "line": "PTHC",
+        "order": 6
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.91633,
+          -31.987899
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Oats Street",
+        "line": "PTHC",
+        "order": 7
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.910039,
+          -31.979883
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Carlisle",
+        "line": "PTHC",
+        "order": 8
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.902218,
+          -31.971614
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Victoria Park",
+        "line": "PTHC",
+        "order": 9
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.899955,
+          -31.959904
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Burswood",
+        "line": "PTHC",
+        "order": 10
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.892803,
+          -31.95036
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Perth Stadium",
+        "line": "PTHC",
+        "order": 11
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872512,
+          -31.949402
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Claisebrook",
+        "line": "PTHC",
+        "order": 12
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.866395,
+          -31.951779
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "McIver",
+        "line": "PTHC",
+        "order": 13
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.860593,
+          -31.951429
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Perth",
+        "line": "PTHC",
+        "order": 14
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.855219,
+          -31.957092
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Elizabeth Quay",
+        "line": "PYAN",
+        "order": 0
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.858005,
+          -31.951939
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Perth Underground",
+        "line": "PYAN",
+        "order": 1
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.840325,
+          -31.939012
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Leederville",
+        "line": "PYAN",
+        "order": 2
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.823189,
+          -31.915132
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Glendalough",
+        "line": "PYAN",
+        "order": 3
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.805087,
+          -31.894558
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Stirling",
+        "line": "PYAN",
+        "order": 4
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.796395,
+          -31.844827
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Warwick",
+        "line": "PYAN",
+        "order": 5
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.783243,
+          -31.818598
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Greenwood",
+        "line": "PYAN",
+        "order": 6
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.782338,
+          -31.799381
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Whitfords",
+        "line": "PYAN",
+        "order": 7
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.778741,
+          -31.772138
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Edgewater",
+        "line": "PYAN",
+        "order": 8
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.767462,
+          -31.745117
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Joondalup",
+        "line": "PYAN",
+        "order": 9
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75056,
+          -31.724941
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Currambine",
+        "line": "PYAN",
+        "order": 10
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.738078,
+          -31.690671
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Clarkson",
+        "line": "PYAN",
+        "order": 11
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.700326,
+          -31.635694
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Butler",
+        "line": "PYAN",
+        "order": 12
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.692651,
+          -31.615422
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Alkimos",
+        "line": "PYAN",
+        "order": 13
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.672539,
+          -31.583668
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Eglinton",
+        "line": "PYAN",
+        "order": 14
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.643825,
+          -31.531874
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Yanchep",
+        "line": "PYAN",
+        "order": 15
+      },
+      "id": 128
+    }
+  ]
+}

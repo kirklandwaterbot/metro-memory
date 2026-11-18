@@ -1,0 +1,6125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.752648,
+          -33.598844
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Richmond",
+        "line": "T1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.759183,
+          -33.601799
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "East Richmond",
+        "line": "T1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.787986,
+          -33.608619
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Clarendon",
+        "line": "T1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.811054,
+          -33.613687
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Windsor",
+        "line": "T1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.830478,
+          -33.626643
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Mulgrave",
+        "line": "T1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.851123,
+          -33.650404
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Vineyard",
+        "line": "T1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.860288,
+          -33.679116
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Riverstone",
+        "line": "T1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.873772,
+          -33.70433
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Schofields",
+        "line": "T1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.886482,
+          -33.727727
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Quakers Hill",
+        "line": "T1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.900191,
+          -33.746185
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Marayong",
+        "line": "T1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.907407,
+          -33.76845
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Blacktown",
+        "line": "T1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.936227,
+          -33.774518
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Seven Hills",
+        "line": "T1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.951286,
+          -33.787498
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Toongabbie",
+        "line": "T1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.956335,
+          -33.801611
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Pendle Hill",
+        "line": "T1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.972738,
+          -33.80705
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Wentworthville",
+        "line": "T1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98807,
+          -33.80839
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Westmead",
+        "line": "T1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.005324,
+          -33.817601
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Parramatta",
+        "line": "T1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.007654,
+          -33.823337
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Harris Park",
+        "line": "T1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.012406,
+          -33.833094
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Granville",
+        "line": "T1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.017066,
+          -33.835975
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Clyde",
+        "line": "T1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.032835,
+          -33.849285
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Auburn",
+        "line": "T1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.045243,
+          -33.863815
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Lidcombe",
+        "line": "T1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.094233,
+          -33.871703
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Strathfield",
+        "line": "T1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.198334,
+          -33.89229
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Redfern",
+        "line": "T1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206626,
+          -33.884251
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Central",
+        "line": "T1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Town Hall",
+        "line": "T1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20581,
+          -33.86599
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Wynyard",
+        "line": "T1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211791,
+          -33.845863
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Milsons Point",
+        "line": "T1",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207489,
+          -33.8411
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "North Sydney",
+        "line": "T1",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.197647,
+          -33.838092
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Waverton",
+        "line": "T1",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.191728,
+          -33.831712
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Wollstonecraft",
+        "line": "T1",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.194193,
+          -33.822438
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "St Leonards",
+        "line": "T1",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.185143,
+          -33.808856
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Artarmon",
+        "line": "T1",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.180939,
+          -33.797481
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Chatswood",
+        "line": "T1",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.177551,
+          -33.784368
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Roseville",
+        "line": "T1",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.169214,
+          -33.775609
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Lindfield",
+        "line": "T1",
+        "order": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16169,
+          -33.76549
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Killara",
+        "line": "T1",
+        "order": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15433,
+          -33.755799
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Gordon",
+        "line": "T1",
+        "order": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.141973,
+          -33.744702
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Pymble",
+        "line": "T1",
+        "order": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.128378,
+          -33.732307
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Turramurra",
+        "line": "T1",
+        "order": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.121711,
+          -33.724201
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Warrawee",
+        "line": "T1",
+        "order": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.116998,
+          -33.717539
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Wahroonga",
+        "line": "T1",
+        "order": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.104293,
+          -33.709988
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Waitara",
+        "line": "T1",
+        "order": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.098393,
+          -33.703485
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Hornsby",
+        "line": "T1",
+        "order": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.108078,
+          -33.688684
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Asquith",
+        "line": "T1",
+        "order": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.114529,
+          -33.671969
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Mount Colah",
+        "line": "T1",
+        "order": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.136868,
+          -33.653171
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Mount Kuring-gai",
+        "line": "T1",
+        "order": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.153168,
+          -33.623538
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Berowra",
+        "line": "T1",
+        "order": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.671584,
+          -33.745701
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Emu Plains",
+        "line": "T1",
+        "order": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.696094,
+          -33.749988
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Penrith",
+        "line": "T1",
+        "order": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.720007,
+          -33.758289
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Kingswood",
+        "line": "T1",
+        "order": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.75794,
+          -33.759219
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Werrington",
+        "line": "T1",
+        "order": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.775185,
+          -33.761959
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "St Marys",
+        "line": "T1",
+        "order": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.820197,
+          -33.769582
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Mount Druitt",
+        "line": "T1",
+        "order": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.845078,
+          -33.771657
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Rooty Hill",
+        "line": "T1",
+        "order": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.868423,
+          -33.764134
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Doonside",
+        "line": "T1",
+        "order": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21024,
+          -33.875374
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Museum",
+        "line": "T2",
+        "order": 0
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211962,
+          -33.870914
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "St James",
+        "line": "T2",
+        "order": 1
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.210291,
+          -33.861337
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Circular Quay",
+        "line": "T2",
+        "order": 2
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20581,
+          -33.86599
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Wynyard",
+        "line": "T2",
+        "order": 3
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Town Hall",
+        "line": "T2",
+        "order": 4
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206626,
+          -33.884251
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Central",
+        "line": "T2",
+        "order": 5
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.198334,
+          -33.89229
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Redfern",
+        "line": "T2",
+        "order": 6
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.185892,
+          -33.896905
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Macdonaldtown",
+        "line": "T2",
+        "order": 7
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.179424,
+          -33.897953
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Newtown",
+        "line": "T2",
+        "order": 8
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.163907,
+          -33.894513
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Stanmore",
+        "line": "T2",
+        "order": 9
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.155374,
+          -33.893911
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Petersham",
+        "line": "T2",
+        "order": 10
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.147628,
+          -33.893368
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Lewisham",
+        "line": "T2",
+        "order": 11
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.138723,
+          -33.890459
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Summer Hill",
+        "line": "T2",
+        "order": 12
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.125818,
+          -33.887658
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Ashfield",
+        "line": "T2",
+        "order": 13
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.115487,
+          -33.883333
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Croydon",
+        "line": "T2",
+        "order": 14
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.104038,
+          -33.877144
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Burwood",
+        "line": "T2",
+        "order": 15
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.094233,
+          -33.871703
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Strathfield",
+        "line": "T2",
+        "order": 16
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.086461,
+          -33.866812
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Homebush",
+        "line": "T2",
+        "order": 17
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.069948,
+          -33.864876
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Flemington",
+        "line": "T2",
+        "order": 18
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.045243,
+          -33.863815
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Lidcombe",
+        "line": "T2",
+        "order": 19
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.032835,
+          -33.849285
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Auburn",
+        "line": "T2",
+        "order": 20
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.017066,
+          -33.835975
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Clyde",
+        "line": "T2",
+        "order": 21
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.012406,
+          -33.833094
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Granville",
+        "line": "T2",
+        "order": 22
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.992328,
+          -33.836813
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Merrylands",
+        "line": "T2",
+        "order": 23
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.984486,
+          -33.854316
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Guildford",
+        "line": "T2",
+        "order": 24
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97115,
+          -33.864629
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Yennora",
+        "line": "T2",
+        "order": 25
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.957003,
+          -33.872418
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Fairfield",
+        "line": "T2",
+        "order": 26
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.943661,
+          -33.887203
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Canley Vale",
+        "line": "T2",
+        "order": 27
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93881,
+          -33.895002
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Cabramatta",
+        "line": "T2",
+        "order": 28
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.935102,
+          -33.91333
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Warwick Farm",
+        "line": "T2",
+        "order": 29
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92764,
+          -33.924542
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Liverpool",
+        "line": "T2",
+        "order": 30
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.911845,
+          -33.950157
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Casula",
+        "line": "T2",
+        "order": 31
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.893088,
+          -33.972242
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Glenfield",
+        "line": "T2",
+        "order": 32
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.858626,
+          -33.969272
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Edmondson Park",
+        "line": "T2",
+        "order": 33
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.808063,
+          -33.954393
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Leppington",
+        "line": "T2",
+        "order": 34
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.005324,
+          -33.817601
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Parramatta",
+        "line": "T2",
+        "order": 35
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.007654,
+          -33.823337
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Harris Park",
+        "line": "T2",
+        "order": 36
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92764,
+          -33.924542
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Liverpool",
+        "line": "T3",
+        "order": 0
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.935102,
+          -33.91333
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Warwick Farm",
+        "line": "T3",
+        "order": 1
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93881,
+          -33.895002
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Cabramatta",
+        "line": "T3",
+        "order": 2
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.961513,
+          -33.884319
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Carramar",
+        "line": "T3",
+        "order": 3
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.976164,
+          -33.880881
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Villawood",
+        "line": "T3",
+        "order": 4
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.985226,
+          -33.881525
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Leightonfield",
+        "line": "T3",
+        "order": 5
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.999418,
+          -33.883545
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Chester Hill",
+        "line": "T3",
+        "order": 6
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.011484,
+          -33.885255
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Sefton",
+        "line": "T3",
+        "order": 7
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.024278,
+          -33.882839
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Regents Park",
+        "line": "T3",
+        "order": 8
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.032294,
+          -33.871915
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Berala",
+        "line": "T3",
+        "order": 9
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.045243,
+          -33.863815
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Lidcombe",
+        "line": "T3",
+        "order": 10
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.069948,
+          -33.864876
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Flemington",
+        "line": "T3",
+        "order": 11
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.086461,
+          -33.866812
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Homebush",
+        "line": "T3",
+        "order": 12
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.094233,
+          -33.871703
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Strathfield",
+        "line": "T3",
+        "order": 13
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.104038,
+          -33.877144
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Burwood",
+        "line": "T3",
+        "order": 14
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.115487,
+          -33.883333
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Croydon",
+        "line": "T3",
+        "order": 15
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.125818,
+          -33.887658
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Ashfield",
+        "line": "T3",
+        "order": 16
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.138723,
+          -33.890459
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Summer Hill",
+        "line": "T3",
+        "order": 17
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.147628,
+          -33.893368
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Lewisham",
+        "line": "T3",
+        "order": 18
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.155374,
+          -33.893911
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Petersham",
+        "line": "T3",
+        "order": 19
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.163907,
+          -33.894513
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Stanmore",
+        "line": "T3",
+        "order": 20
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.179424,
+          -33.897953
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Newtown",
+        "line": "T3",
+        "order": 21
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.185892,
+          -33.896905
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Macdonaldtown",
+        "line": "T3",
+        "order": 22
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.198334,
+          -33.89229
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Redfern",
+        "line": "T3",
+        "order": 23
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206626,
+          -33.884251
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Central",
+        "line": "T3",
+        "order": 24
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Town Hall",
+        "line": "T3",
+        "order": 25
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20581,
+          -33.86599
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Wynyard",
+        "line": "T3",
+        "order": 26
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.210291,
+          -33.861337
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Circular Quay",
+        "line": "T3",
+        "order": 27
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211962,
+          -33.870914
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "St James",
+        "line": "T3",
+        "order": 28
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.209875,
+          -33.876239
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Museum",
+        "line": "T3",
+        "order": 29
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.151455,
+          -34.055728
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Cronulla",
+        "line": "T4",
+        "order": 0
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.144087,
+          -34.047662
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Woolooware",
+        "line": "T4",
+        "order": 1
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12274,
+          -34.041596
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Caringbah",
+        "line": "T4",
+        "order": 2
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.102695,
+          -34.036312
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Miranda",
+        "line": "T4",
+        "order": 3
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.085515,
+          -34.034893
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Gymea",
+        "line": "T4",
+        "order": 4
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.071911,
+          -34.034953
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Kirrawee",
+        "line": "T4",
+        "order": 5
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.057274,
+          -34.031625
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Sutherland",
+        "line": "T4",
+        "order": 6
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06463,
+          -34.015952
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Jannali",
+        "line": "T4",
+        "order": 7
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.068064,
+          -34.004348
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Como",
+        "line": "T4",
+        "order": 8
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.079026,
+          -33.980517
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Oatley",
+        "line": "T4",
+        "order": 9
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.081126,
+          -33.970847
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Mortdale",
+        "line": "T4",
+        "order": 10
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.08918,
+          -33.966155
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Penshurst",
+        "line": "T4",
+        "order": 11
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.102569,
+          -33.967396
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Hurstville",
+        "line": "T4",
+        "order": 12
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.114511,
+          -33.969693
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Allawah",
+        "line": "T4",
+        "order": 13
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.124498,
+          -33.968238
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Carlton",
+        "line": "T4",
+        "order": 14
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.132574,
+          -33.962159
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Kogarah",
+        "line": "T4",
+        "order": 15
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.136853,
+          -33.951873
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Rockdale",
+        "line": "T4",
+        "order": 16
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.140407,
+          -33.94534
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Banksia",
+        "line": "T4",
+        "order": 17
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.147349,
+          -33.936435
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Arncliffe",
+        "line": "T4",
+        "order": 18
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15375,
+          -33.928405
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Wolli Creek",
+        "line": "T4",
+        "order": 19
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.156433,
+          -33.924539
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Tempe",
+        "line": "T4",
+        "order": 20
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.166107,
+          -33.914743
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Sydenham",
+        "line": "T4",
+        "order": 21
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.199057,
+          -33.892623
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Redfern",
+        "line": "T4",
+        "order": 22
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207663,
+          -33.884214
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Central Chalmers Street",
+        "line": "T4",
+        "order": 23
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Town Hall",
+        "line": "T4",
+        "order": 24
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207234,
+          -33.884575
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Central",
+        "line": "T4",
+        "order": 25
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211162,
+          -33.867719
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Martin Place",
+        "line": "T4",
+        "order": 26
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.222231,
+          -33.874487
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Kings Cross",
+        "line": "T4",
+        "order": 27
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.236137,
+          -33.87924
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Edgecliff",
+        "line": "T4",
+        "order": 28
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.248455,
+          -33.891243
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Bondi Junction",
+        "line": "T4",
+        "order": 29
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.994456,
+          -34.134449
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Waterfall",
+        "line": "T4",
+        "order": 30
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.008255,
+          -34.087962
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Heathcote",
+        "line": "T4",
+        "order": 31
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01473,
+          -34.067865
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Engadine",
+        "line": "T4",
+        "order": 32
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.051346,
+          -34.045344
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Loftus",
+        "line": "T4",
+        "order": 33
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.752648,
+          -33.598844
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Richmond",
+        "line": "T5",
+        "order": 0
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.759183,
+          -33.601799
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "East Richmond",
+        "line": "T5",
+        "order": 1
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.787986,
+          -33.608619
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Clarendon",
+        "line": "T5",
+        "order": 2
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.811054,
+          -33.613687
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Windsor",
+        "line": "T5",
+        "order": 3
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.830478,
+          -33.626643
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Mulgrave",
+        "line": "T5",
+        "order": 4
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.851123,
+          -33.650404
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Vineyard",
+        "line": "T5",
+        "order": 5
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.860288,
+          -33.679116
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Riverstone",
+        "line": "T5",
+        "order": 6
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.873772,
+          -33.70433
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Schofields",
+        "line": "T5",
+        "order": 7
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.886482,
+          -33.727727
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Quakers Hill",
+        "line": "T5",
+        "order": 8
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.900191,
+          -33.746185
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Marayong",
+        "line": "T5",
+        "order": 9
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.907788,
+          -33.76808
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Blacktown",
+        "line": "T5",
+        "order": 10
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.936227,
+          -33.774518
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Seven Hills",
+        "line": "T5",
+        "order": 11
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.951286,
+          -33.787498
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Toongabbie",
+        "line": "T5",
+        "order": 12
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.956335,
+          -33.801611
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Pendle Hill",
+        "line": "T5",
+        "order": 13
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.972738,
+          -33.80705
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Wentworthville",
+        "line": "T5",
+        "order": 14
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98807,
+          -33.80839
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Westmead",
+        "line": "T5",
+        "order": 15
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.005324,
+          -33.817601
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Parramatta",
+        "line": "T5",
+        "order": 16
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.007654,
+          -33.823337
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Harris Park",
+        "line": "T5",
+        "order": 17
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.992328,
+          -33.836813
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Merrylands",
+        "line": "T5",
+        "order": 18
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.984486,
+          -33.854316
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Guildford",
+        "line": "T5",
+        "order": 19
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97115,
+          -33.864629
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Yennora",
+        "line": "T5",
+        "order": 20
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.957003,
+          -33.872418
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Fairfield",
+        "line": "T5",
+        "order": 21
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.943661,
+          -33.887203
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Canley Vale",
+        "line": "T5",
+        "order": 22
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93881,
+          -33.895002
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Cabramatta",
+        "line": "T5",
+        "order": 23
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.935102,
+          -33.91333
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Warwick Farm",
+        "line": "T5",
+        "order": 24
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92764,
+          -33.924542
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Liverpool",
+        "line": "T5",
+        "order": 25
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.911845,
+          -33.950157
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Casula",
+        "line": "T5",
+        "order": 26
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.893088,
+          -33.972242
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Glenfield",
+        "line": "T5",
+        "order": 27
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.858626,
+          -33.969272
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Edmondson Park",
+        "line": "T5",
+        "order": 28
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.808063,
+          -33.954393
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Leppington",
+        "line": "T5",
+        "order": 29
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.045243,
+          -33.863815
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Lidcombe",
+        "line": "T6",
+        "order": 0
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.032294,
+          -33.871915
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Berala",
+        "line": "T6",
+        "order": 1
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.024278,
+          -33.882839
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Regents Park",
+        "line": "T6",
+        "order": 2
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02403,
+          -33.893315
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Birrong",
+        "line": "T6",
+        "order": 3
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.024308,
+          -33.906749
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Yagoona",
+        "line": "T6",
+        "order": 4
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.034843,
+          -33.917766
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Bankstown",
+        "line": "T6",
+        "order": 5
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.069511,
+          -33.846539
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Olympic Park",
+        "line": "T7",
+        "order": 0
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.048576,
+          -33.864262
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Lidcombe",
+        "line": "T7",
+        "order": 1
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.79719,
+          -34.071986
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Macarthur",
+        "line": "T8",
+        "order": 0
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.81439,
+          -34.063628
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Campbelltown",
+        "line": "T8",
+        "order": 1
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.830507,
+          -34.05076
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Leumeah",
+        "line": "T8",
+        "order": 2
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.842575,
+          -34.027239
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Minto",
+        "line": "T8",
+        "order": 3
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.864903,
+          -33.997195
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Ingleburn",
+        "line": "T8",
+        "order": 4
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.878901,
+          -33.984789
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Macquarie Fields",
+        "line": "T8",
+        "order": 5
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.893088,
+          -33.972242
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Glenfield",
+        "line": "T8",
+        "order": 6
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.956465,
+          -33.963216
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Holsworthy",
+        "line": "T8",
+        "order": 7
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.984627,
+          -33.961853
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "East Hills",
+        "line": "T8",
+        "order": 8
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99784,
+          -33.954336
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Panania",
+        "line": "T8",
+        "order": 9
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.014909,
+          -33.952528
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Revesby",
+        "line": "T8",
+        "order": 10
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.032331,
+          -33.951903
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Padstow",
+        "line": "T8",
+        "order": 11
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.052118,
+          -33.951506
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Riverwood",
+        "line": "T8",
+        "order": 12
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.070256,
+          -33.947576
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Narwee",
+        "line": "T8",
+        "order": 13
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.081047,
+          -33.949079
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Beverly Hills",
+        "line": "T8",
+        "order": 14
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.100633,
+          -33.940568
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Kingsgrove",
+        "line": "T8",
+        "order": 15
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.11349,
+          -33.937548
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Bexley North",
+        "line": "T8",
+        "order": 16
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.124884,
+          -33.931602
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Bardwell Park",
+        "line": "T8",
+        "order": 17
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.139961,
+          -33.929919
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Turrella",
+        "line": "T8",
+        "order": 18
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15375,
+          -33.928405
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Wolli Creek",
+        "line": "T8",
+        "order": 19
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.165875,
+          -33.934975
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "International Airport",
+        "line": "T8",
+        "order": 20
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.180872,
+          -33.93363
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Domestic Airport",
+        "line": "T8",
+        "order": 21
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.187266,
+          -33.923191
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Mascot",
+        "line": "T8",
+        "order": 22
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.202436,
+          -33.906199
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Green Square",
+        "line": "T8",
+        "order": 23
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207663,
+          -33.884214
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Central Chalmers Street",
+        "line": "T8",
+        "order": 24
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21024,
+          -33.875374
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Museum",
+        "line": "T8",
+        "order": 25
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207234,
+          -33.884575
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Central",
+        "line": "T8",
+        "order": 26
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.198334,
+          -33.89229
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Redfern",
+        "line": "T8",
+        "order": 27
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.185268,
+          -33.900952
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Erskineville",
+        "line": "T8",
+        "order": 28
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18067,
+          -33.907286
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "St Peters",
+        "line": "T8",
+        "order": 29
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.166107,
+          -33.914743
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Sydenham",
+        "line": "T8",
+        "order": 30
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211962,
+          -33.870914
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "St James",
+        "line": "T8",
+        "order": 31
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.210291,
+          -33.861337
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Circular Quay",
+        "line": "T8",
+        "order": 32
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20581,
+          -33.86599
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Wynyard",
+        "line": "T8",
+        "order": 33
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Town Hall",
+        "line": "T8",
+        "order": 34
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.098393,
+          -33.703485
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Hornsby",
+        "line": "T9",
+        "order": 0
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.097051,
+          -33.720846
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Normanhurst",
+        "line": "T9",
+        "order": 1
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.078387,
+          -33.731822
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Thornleigh",
+        "line": "T9",
+        "order": 2
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.072556,
+          -33.737922
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Pennant Hills",
+        "line": "T9",
+        "order": 3
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.066389,
+          -33.749634
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Beecroft",
+        "line": "T9",
+        "order": 4
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.07856,
+          -33.75568
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Cheltenham",
+        "line": "T9",
+        "order": 5
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.08209,
+          -33.772863
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Epping",
+        "line": "T9",
+        "order": 6
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.082256,
+          -33.790128
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Eastwood",
+        "line": "T9",
+        "order": 7
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.087358,
+          -33.799849
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Denistone",
+        "line": "T9",
+        "order": 8
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09029,
+          -33.807037
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "West Ryde",
+        "line": "T9",
+        "order": 9
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0901,
+          -33.815914
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Meadowbank",
+        "line": "T9",
+        "order": 10
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.087061,
+          -33.830401
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Rhodes",
+        "line": "T9",
+        "order": 11
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.085611,
+          -33.848403
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Concord West",
+        "line": "T9",
+        "order": 12
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.088133,
+          -33.859024
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "North Strathfield",
+        "line": "T9",
+        "order": 13
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.094233,
+          -33.871703
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Strathfield",
+        "line": "T9",
+        "order": 14
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.104038,
+          -33.877144
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Burwood",
+        "line": "T9",
+        "order": 15
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.198334,
+          -33.89229
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Redfern",
+        "line": "T9",
+        "order": 16
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206626,
+          -33.884251
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Central",
+        "line": "T9",
+        "order": 17
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Town Hall",
+        "line": "T9",
+        "order": 18
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20581,
+          -33.86599
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Wynyard",
+        "line": "T9",
+        "order": 19
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211791,
+          -33.845863
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Milsons Point",
+        "line": "T9",
+        "order": 20
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207489,
+          -33.8411
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "North Sydney",
+        "line": "T9",
+        "order": 21
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.197647,
+          -33.838092
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Waverton",
+        "line": "T9",
+        "order": 22
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.191728,
+          -33.831712
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Wollstonecraft",
+        "line": "T9",
+        "order": 23
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.194193,
+          -33.822438
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "St Leonards",
+        "line": "T9",
+        "order": 24
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.185143,
+          -33.808856
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Artarmon",
+        "line": "T9",
+        "order": 25
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.180939,
+          -33.797481
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Chatswood",
+        "line": "T9",
+        "order": 26
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.177551,
+          -33.784368
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Roseville",
+        "line": "T9",
+        "order": 27
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.169214,
+          -33.775609
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Lindfield",
+        "line": "T9",
+        "order": 28
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16169,
+          -33.76549
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Killara",
+        "line": "T9",
+        "order": 29
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15433,
+          -33.755799
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Gordon",
+        "line": "T9",
+        "order": 30
+      },
+      "id": 260
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03513,
+          -33.917728
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Bankstown",
+        "line": "M1",
+        "order": 0
+      },
+      "id": 261
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.055761,
+          -33.925413
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Punchbowl",
+        "line": "M1",
+        "order": 1
+      },
+      "id": 262
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.067336,
+          -33.922954
+        ]
+      },
+      "properties": {
+        "id": 263,
+        "name": "Wiley Park",
+        "line": "M1",
+        "order": 2
+      },
+      "id": 263
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.075865,
+          -33.920117
+        ]
+      },
+      "properties": {
+        "id": 264,
+        "name": "Lakemba",
+        "line": "M1",
+        "order": 3
+      },
+      "id": 264
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.08871,
+          -33.917196
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "name": "Belmore",
+        "line": "M1",
+        "order": 4
+      },
+      "id": 265
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.102651,
+          -33.910571
+        ]
+      },
+      "properties": {
+        "id": 266,
+        "name": "Campsie",
+        "line": "M1",
+        "order": 5
+      },
+      "id": 266
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.118689,
+          -33.911988
+        ]
+      },
+      "properties": {
+        "id": 267,
+        "name": "Canterbury",
+        "line": "M1",
+        "order": 6
+      },
+      "id": 267
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.131793,
+          -33.910592
+        ]
+      },
+      "properties": {
+        "id": 268,
+        "name": "Hurlstone Park",
+        "line": "M1",
+        "order": 7
+      },
+      "id": 268
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.140913,
+          -33.911009
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "name": "Dulwich Hill",
+        "line": "M1",
+        "order": 8
+      },
+      "id": 269
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.153619,
+          -33.913964
+        ]
+      },
+      "properties": {
+        "id": 270,
+        "name": "Marrickville",
+        "line": "M1",
+        "order": 9
+      },
+      "id": 270
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.166107,
+          -33.914743
+        ]
+      },
+      "properties": {
+        "id": 271,
+        "name": "Sydenham",
+        "line": "M1",
+        "order": 10
+      },
+      "id": 271
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.200324,
+          -33.897714
+        ]
+      },
+      "properties": {
+        "id": 272,
+        "name": "Waterloo",
+        "line": "M1",
+        "order": 11
+      },
+      "id": 272
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206626,
+          -33.884251
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "name": "Central",
+        "line": "M1",
+        "order": 12
+      },
+      "id": 273
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.209132,
+          -33.873887
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "name": "Gadigal",
+        "line": "M1",
+        "order": 13
+      },
+      "id": 274
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21061,
+          -33.867222
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "name": "Martin Place",
+        "line": "M1",
+        "order": 14
+      },
+      "id": 275
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.202543,
+          -33.859676
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "name": "Barangaroo",
+        "line": "M1",
+        "order": 15
+      },
+      "id": 276
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20753,
+          -33.836169
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "name": "Victoria Cross",
+        "line": "M1",
+        "order": 16
+      },
+      "id": 277
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.199254,
+          -33.825738
+        ]
+      },
+      "properties": {
+        "id": 278,
+        "name": "Crows Nest",
+        "line": "M1",
+        "order": 17
+      },
+      "id": 278
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.180939,
+          -33.797481
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "name": "Chatswood",
+        "line": "M1",
+        "order": 18
+      },
+      "id": 279
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.138074,
+          -33.794418
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "name": "North Ryde",
+        "line": "M1",
+        "order": 19
+      },
+      "id": 280
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.128285,
+          -33.785128
+        ]
+      },
+      "properties": {
+        "id": 281,
+        "name": "Macquarie Park",
+        "line": "M1",
+        "order": 20
+      },
+      "id": 281
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.118198,
+          -33.777414
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "name": "Macquarie University",
+        "line": "M1",
+        "order": 21
+      },
+      "id": 282
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.08209,
+          -33.772863
+        ]
+      },
+      "properties": {
+        "id": 283,
+        "name": "Epping",
+        "line": "M1",
+        "order": 22
+      },
+      "id": 283
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.031876,
+          -33.736576
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "name": "Cherrybrook",
+        "line": "M1",
+        "order": 23
+      },
+      "id": 284
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.007808,
+          -33.731482
+        ]
+      },
+      "properties": {
+        "id": 285,
+        "name": "Castle Hill",
+        "line": "M1",
+        "order": 24
+      },
+      "id": 285
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.987394,
+          -33.727803
+        ]
+      },
+      "properties": {
+        "id": 286,
+        "name": "Hills Showground",
+        "line": "M1",
+        "order": 25
+      },
+      "id": 286
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.963978,
+          -33.734262
+        ]
+      },
+      "properties": {
+        "id": 287,
+        "name": "Norwest",
+        "line": "M1",
+        "order": 26
+      },
+      "id": 287
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.943986,
+          -33.730623
+        ]
+      },
+      "properties": {
+        "id": 288,
+        "name": "Bella Vista",
+        "line": "M1",
+        "order": 27
+      },
+      "id": 288
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.935081,
+          -33.713124
+        ]
+      },
+      "properties": {
+        "id": 289,
+        "name": "Kellyville",
+        "line": "M1",
+        "order": 28
+      },
+      "id": 289
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.924145,
+          -33.691813
+        ]
+      },
+      "properties": {
+        "id": 290,
+        "name": "Rouse Hill",
+        "line": "M1",
+        "order": 29
+      },
+      "id": 290
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.905529,
+          -33.691755
+        ]
+      },
+      "properties": {
+        "id": 291,
+        "name": "Tallawong",
+        "line": "M1",
+        "order": 30
+      },
+      "id": 291
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206723,
+          -33.882409
+        ]
+      },
+      "properties": {
+        "id": 292,
+        "name": "Central Grand Concourse",
+        "line": "L1",
+        "order": 0
+      },
+      "id": 292
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.205671,
+          -33.879804
+        ]
+      },
+      "properties": {
+        "id": 293,
+        "name": "Capitol Square",
+        "line": "L1",
+        "order": 1
+      },
+      "id": 293
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.202716,
+          -33.879318
+        ]
+      },
+      "properties": {
+        "id": 294,
+        "name": "Paddy's Markets",
+        "line": "L1",
+        "order": 2
+      },
+      "id": 294
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.199653,
+          -33.877248
+        ]
+      },
+      "properties": {
+        "id": 295,
+        "name": "Exhibition Centre",
+        "line": "L1",
+        "order": 3
+      },
+      "id": 295
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19807,
+          -33.872577
+        ]
+      },
+      "properties": {
+        "id": 296,
+        "name": "Convention",
+        "line": "L1",
+        "order": 4
+      },
+      "id": 296
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.197578,
+          -33.869426
+        ]
+      },
+      "properties": {
+        "id": 297,
+        "name": "Pyrmont Bay",
+        "line": "L1",
+        "order": 5
+      },
+      "id": 297
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.195292,
+          -33.867661
+        ]
+      },
+      "properties": {
+        "id": 298,
+        "name": "The Star",
+        "line": "L1",
+        "order": 6
+      },
+      "id": 298
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.192036,
+          -33.86743
+        ]
+      },
+      "properties": {
+        "id": 299,
+        "name": "John Street Square",
+        "line": "L1",
+        "order": 7
+      },
+      "id": 299
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.192438,
+          -33.870937
+        ]
+      },
+      "properties": {
+        "id": 300,
+        "name": "Bank Street",
+        "line": "L1",
+        "order": 8
+      },
+      "id": 300
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.194041,
+          -33.874391
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Wentworth Park",
+        "line": "L1",
+        "order": 9
+      },
+      "id": 301
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.187417,
+          -33.877208
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Glebe",
+        "line": "L1",
+        "order": 10
+      },
+      "id": 302
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.178722,
+          -33.875429
+        ]
+      },
+      "properties": {
+        "id": 303,
+        "name": "Jubilee Park",
+        "line": "L1",
+        "order": 11
+      },
+      "id": 303
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17272,
+          -33.871865
+        ]
+      },
+      "properties": {
+        "id": 304,
+        "name": "Rozelle Bay",
+        "line": "L1",
+        "order": 12
+      },
+      "id": 304
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.165069,
+          -33.874167
+        ]
+      },
+      "properties": {
+        "id": 305,
+        "name": "Lilyfield",
+        "line": "L1",
+        "order": 13
+      },
+      "id": 305
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.154143,
+          -33.874985
+        ]
+      },
+      "properties": {
+        "id": 306,
+        "name": "Leichhardt North",
+        "line": "L1",
+        "order": 14
+      },
+      "id": 306
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.147226,
+          -33.879569
+        ]
+      },
+      "properties": {
+        "id": 307,
+        "name": "Hawthorne",
+        "line": "L1",
+        "order": 15
+      },
+      "id": 307
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.145122,
+          -33.883974
+        ]
+      },
+      "properties": {
+        "id": 308,
+        "name": "Marion",
+        "line": "L1",
+        "order": 16
+      },
+      "id": 308
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.145262,
+          -33.889165
+        ]
+      },
+      "properties": {
+        "id": 309,
+        "name": "Taverners Hill",
+        "line": "L1",
+        "order": 17
+      },
+      "id": 309
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.143409,
+          -33.893838
+        ]
+      },
+      "properties": {
+        "id": 310,
+        "name": "Lewisham West",
+        "line": "L1",
+        "order": 18
+      },
+      "id": 310
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.140147,
+          -33.898794
+        ]
+      },
+      "properties": {
+        "id": 311,
+        "name": "Waratah Mills",
+        "line": "L1",
+        "order": 19
+      },
+      "id": 311
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.138103,
+          -33.901888
+        ]
+      },
+      "properties": {
+        "id": 312,
+        "name": "Arlington",
+        "line": "L1",
+        "order": 20
+      },
+      "id": 312
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.139045,
+          -33.905032
+        ]
+      },
+      "properties": {
+        "id": 313,
+        "name": "Dulwich Grove",
+        "line": "L1",
+        "order": 21
+      },
+      "id": 313
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14005,
+          -33.910306
+        ]
+      },
+      "properties": {
+        "id": 314,
+        "name": "Dulwich Hill",
+        "line": "L1",
+        "order": 22
+      },
+      "id": 314
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.240548,
+          -33.917129
+        ]
+      },
+      "properties": {
+        "id": 315,
+        "name": "Randwick",
+        "line": "L2",
+        "order": 0
+      },
+      "id": 315
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.235538,
+          -33.916382
+        ]
+      },
+      "properties": {
+        "id": 316,
+        "name": "UNSW High Street",
+        "line": "L2",
+        "order": 1
+      },
+      "id": 316
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.235195,
+          -33.910502
+        ]
+      },
+      "properties": {
+        "id": 317,
+        "name": "Wansey Road",
+        "line": "L2",
+        "order": 2
+      },
+      "id": 317
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22885,
+          -33.905172
+        ]
+      },
+      "properties": {
+        "id": 318,
+        "name": "Royal Randwick",
+        "line": "L2",
+        "order": 3
+      },
+      "id": 318
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.221811,
+          -33.89363
+        ]
+      },
+      "properties": {
+        "id": 319,
+        "name": "Moore Park",
+        "line": "L2",
+        "order": 4
+      },
+      "id": 319
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211872,
+          -33.888099
+        ]
+      },
+      "properties": {
+        "id": 320,
+        "name": "Surry Hills",
+        "line": "L2",
+        "order": 5
+      },
+      "id": 320
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207663,
+          -33.884214
+        ]
+      },
+      "properties": {
+        "id": 321,
+        "name": "Central Chalmers Street",
+        "line": "L2",
+        "order": 6
+      },
+      "id": 321
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.205364,
+          -33.881448
+        ]
+      },
+      "properties": {
+        "id": 322,
+        "name": "Haymarket",
+        "line": "L2",
+        "order": 7
+      },
+      "id": 322
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20556,
+          -33.878614
+        ]
+      },
+      "properties": {
+        "id": 323,
+        "name": "Chinatown",
+        "line": "L2",
+        "order": 8
+      },
+      "id": 323
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 324,
+        "name": "Town Hall",
+        "line": "L2",
+        "order": 9
+      },
+      "id": 324
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206968,
+          -33.87157
+        ]
+      },
+      "properties": {
+        "id": 325,
+        "name": "QVB",
+        "line": "L2",
+        "order": 10
+      },
+      "id": 325
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207176,
+          -33.866667
+        ]
+      },
+      "properties": {
+        "id": 326,
+        "name": "Wynyard",
+        "line": "L2",
+        "order": 11
+      },
+      "id": 326
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207457,
+          -33.864126
+        ]
+      },
+      "properties": {
+        "id": 327,
+        "name": "Bridge Street",
+        "line": "L2",
+        "order": 12
+      },
+      "id": 327
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.210052,
+          -33.861511
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "name": "Circular Quay",
+        "line": "L2",
+        "order": 13
+      },
+      "id": 328
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22884,
+          -33.924992
+        ]
+      },
+      "properties": {
+        "id": 329,
+        "name": "Juniors Kingsford",
+        "line": "L3",
+        "order": 0
+      },
+      "id": 329
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.226869,
+          -33.921786
+        ]
+      },
+      "properties": {
+        "id": 330,
+        "name": "Kingsford",
+        "line": "L3",
+        "order": 1
+      },
+      "id": 330
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.225905,
+          -33.916676
+        ]
+      },
+      "properties": {
+        "id": 331,
+        "name": "UNSW Anzac Parade",
+        "line": "L3",
+        "order": 2
+      },
+      "id": 331
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.223347,
+          -33.909412
+        ]
+      },
+      "properties": {
+        "id": 332,
+        "name": "Kensington",
+        "line": "L3",
+        "order": 3
+      },
+      "id": 332
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.223958,
+          -33.905626
+        ]
+      },
+      "properties": {
+        "id": 333,
+        "name": "ES Marks",
+        "line": "L3",
+        "order": 4
+      },
+      "id": 333
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.221811,
+          -33.89363
+        ]
+      },
+      "properties": {
+        "id": 334,
+        "name": "Moore Park",
+        "line": "L3",
+        "order": 5
+      },
+      "id": 334
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.211872,
+          -33.888099
+        ]
+      },
+      "properties": {
+        "id": 335,
+        "name": "Surry Hills",
+        "line": "L3",
+        "order": 6
+      },
+      "id": 335
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207663,
+          -33.884214
+        ]
+      },
+      "properties": {
+        "id": 336,
+        "name": "Central Chalmers Street",
+        "line": "L3",
+        "order": 7
+      },
+      "id": 336
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.205364,
+          -33.881448
+        ]
+      },
+      "properties": {
+        "id": 337,
+        "name": "Haymarket",
+        "line": "L3",
+        "order": 8
+      },
+      "id": 337
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20556,
+          -33.878614
+        ]
+      },
+      "properties": {
+        "id": 338,
+        "name": "Chinatown",
+        "line": "L3",
+        "order": 9
+      },
+      "id": 338
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206932,
+          -33.873718
+        ]
+      },
+      "properties": {
+        "id": 339,
+        "name": "Town Hall",
+        "line": "L3",
+        "order": 10
+      },
+      "id": 339
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206968,
+          -33.87157
+        ]
+      },
+      "properties": {
+        "id": 340,
+        "name": "QVB",
+        "line": "L3",
+        "order": 11
+      },
+      "id": 340
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207176,
+          -33.866667
+        ]
+      },
+      "properties": {
+        "id": 341,
+        "name": "Wynyard",
+        "line": "L3",
+        "order": 12
+      },
+      "id": 341
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.207457,
+          -33.864126
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "name": "Bridge Street",
+        "line": "L3",
+        "order": 13
+      },
+      "id": 342
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.210052,
+          -33.861511
+        ]
+      },
+      "properties": {
+        "id": 343,
+        "name": "Circular Quay",
+        "line": "L3",
+        "order": 14
+      },
+      "id": 343
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.987677,
+          -33.807478
+        ]
+      },
+      "properties": {
+        "id": 344,
+        "name": "Westmead",
+        "line": "L4",
+        "order": 0
+      },
+      "id": 344
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.990075,
+          -33.804709
+        ]
+      },
+      "properties": {
+        "id": 345,
+        "name": "Westmead Hospital",
+        "line": "L4",
+        "order": 1
+      },
+      "id": 345
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.993036,
+          -33.802589
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "name": "Childrens Hospital",
+        "line": "L4",
+        "order": 2
+      },
+      "id": 346
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.001383,
+          -33.801459
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "name": "Ngara",
+        "line": "L4",
+        "order": 3
+      },
+      "id": 347
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.004558,
+          -33.800814
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "name": "Benaud Oval",
+        "line": "L4",
+        "order": 4
+      },
+      "id": 348
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.005833,
+          -33.805186
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "name": "Fennell Street",
+        "line": "L4",
+        "order": 5
+      },
+      "id": 349
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.005257,
+          -33.809072
+        ]
+      },
+      "properties": {
+        "id": 350,
+        "name": "Prince Alfred Square",
+        "line": "L4",
+        "order": 6
+      },
+      "id": 350
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.003617,
+          -33.812947
+        ]
+      },
+      "properties": {
+        "id": 351,
+        "name": "Church Street",
+        "line": "L4",
+        "order": 7
+      },
+      "id": 351
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00513,
+          -33.815554
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Parramatta Square",
+        "line": "L4",
+        "order": 8
+      },
+      "id": 352
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.011205,
+          -33.816922
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "name": "Robin Thomas",
+        "line": "L4",
+        "order": 9
+      },
+      "id": 353
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.018693,
+          -33.817227
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "name": "Tramway Avenue Light Rail",
+        "line": "L4",
+        "order": 10
+      },
+      "id": 354
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.024489,
+          -33.81814
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Rosehill Gardens",
+        "line": "L4",
+        "order": 11
+      },
+      "id": 355
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.029271,
+          -33.809963
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "name": "Yallamundi",
+        "line": "L4",
+        "order": 12
+      },
+      "id": 356
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.033222,
+          -33.803808
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "name": "Dundas",
+        "line": "L4",
+        "order": 13
+      },
+      "id": 357
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.041144,
+          -33.794405
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "name": "Telopea",
+        "line": "L4",
+        "order": 14
+      },
+      "id": 358
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.047184,
+          -33.781969
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "name": "Carlingford",
+        "line": "L4",
+        "order": 15
+      },
+      "id": 359
+    }
+  ]
+}

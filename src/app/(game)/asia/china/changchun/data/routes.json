@@ -13548,6 +13548,52 @@
         "color": "#3b6a96",
         "order": 2
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.317664,
+            43.945905
+          ],
+          [
+            125.319037,
+            43.946564
+          ]
+        ]
+      },
+      "properties": {
+        "line": "changchun1",
+        "name": "Line 1",
+        "color": "#ee3e41",
+        "order": 1,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.318475,
+            43.94666
+          ],
+          [
+            125.317579,
+            43.945355
+          ]
+        ]
+      },
+      "properties": {
+        "line": "changchun8",
+        "name": "Line 8",
+        "color": "#25b7bc",
+        "order": 6,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

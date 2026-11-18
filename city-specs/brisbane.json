@@ -1,0 +1,156 @@
+{
+  "slug": "brisbane",
+  "path": "oceania/australia/brisbane",
+  "gameTitle": "Brisbane Metro Memory",
+  "description": "How many Queensland Rail Citytrain stations can you name from memory?",
+  "locale": "en_AU",
+  "bbox": [
+    -28.1,
+    152.55,
+    -26.15,
+    153.45
+  ],
+  "ignoreUnmatched": "G:link|Gold Coast Light Rail|tram",
+  "lineGroups": [
+    {
+      "title": "Queensland Rail Citytrain",
+      "lines": [
+        "BAIR",
+        "BBEE",
+        "BCAB",
+        "BCLE",
+        "BDOO",
+        "BFER",
+        "BGOL",
+        "BIPS",
+        "BRED",
+        "BSHO",
+        "BSPR",
+        "BSUN"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BAIR",
+      "name": "Airport Line",
+      "match": {
+        "route": "train",
+        "name": "Airport",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BBEE",
+      "name": "Beenleigh Line",
+      "match": {
+        "route": "train",
+        "name": "Beenleigh",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BCAB",
+      "name": "Caboolture Line",
+      "match": {
+        "route": "train",
+        "name": "Caboolture",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BCLE",
+      "name": "Cleveland Line",
+      "match": {
+        "route": "train",
+        "name": "Cleveland",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BDOO",
+      "name": "Doomben Line",
+      "match": {
+        "route": "train",
+        "name": "Doomben",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BFER",
+      "name": "Ferny Grove Line",
+      "match": {
+        "route": "train",
+        "name": "Ferny Grove",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BGOL",
+      "name": "Gold Coast Line",
+      "match": {
+        "route": "train",
+        "name": "Gold Coast|Varsity Lakes",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BIPS",
+      "name": "Ipswich/Rosewood Line",
+      "match": {
+        "route": "train",
+        "name": "Ipswich|Rosewood",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BRED",
+      "name": "Redcliffe Peninsula Line",
+      "match": {
+        "route": "train",
+        "name": "Redcliffe|Kippa",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BSHO",
+      "name": "Shorncliffe Line",
+      "match": {
+        "route": "train",
+        "name": "Shorncliffe",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BSPR",
+      "name": "Springfield Line",
+      "match": {
+        "route": "train",
+        "name": "Springfield",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    },
+    {
+      "id": "BSUN",
+      "name": "Sunshine Coast Line",
+      "match": {
+        "route": "train",
+        "name": "Nambour|Gympie|Sunshine Coast",
+        "network": "Translink|Queensland Rail|Citytrain|^$"
+      }
+    }
+  ],
+  "register": {
+    "name": "Brisbane, QLD",
+    "continent": "Oceania",
+    "coordinates": [
+      153.0251,
+      -27.4698
+    ],
+    "zh": "布里斯班, QLD",
+    "achievement": {
+      "title": "River City Rider",
+      "description": "You've Citytrained through Brisbane like a true Queenslander!"
+    }
+  }
+}

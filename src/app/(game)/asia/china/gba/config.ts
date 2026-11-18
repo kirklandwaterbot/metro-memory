@@ -78,6 +78,7 @@ export const LINE_GROUPS: LineGroup[] = [
                     'gzline21',
                     'gzline22',
                     'gzline24',
+                    'gzline28',
                     'gzapm'
                 ]
             }
@@ -105,7 +106,7 @@ export const LINE_GROUPS: LineGroup[] = [
         items: [
             {
                 type: 'lines',
-                lines: ['fs_guangfo', 'fs_line2', 'fs_line3', 'fs_tnh1']
+                lines: ['fs_guangfo', 'fs_line2', 'fs_line3', 'fs_line4', 'fs_line11', 'fs_tnh1', 'fs_tnh2']
             }
         ]
     },
@@ -121,7 +122,7 @@ export const LINE_GROUPS: LineGroup[] = [
                 lines: [
                     'szline1', 'szline2', 'szline3', 'szline4', 'szline5', 'szline6', 'szline6b', 'szline7', 'szline8',
                     'szline9', 'szline10', 'szline11', 'szline12', 'szline13', 'szline14', 'szline15', 'szline16',
-                    'szline17', 'szline20', 'szline22', 'szline25', 'szline27', 'szline29', 'szline32'
+                    'szline17', 'szline19', 'szline20', 'szline22', 'szline25', 'szline27', 'szline29', 'szline32'
                 ]
             }
         ]
@@ -189,7 +190,7 @@ export const LINE_GROUPS: LineGroup[] = [
                 type: 'lines',
                 title: 'Heavy Rail',
                 titleImage: 'MTRHeavyRail.png',
-                lines: ['EAL', 'TML', 'NOL', 'AEL', 'TCL', 'TWL', 'ISL', 'KTL', 'TKL', 'SIL', 'DRL', 'XRL']
+                lines: ['EAL', 'TML', 'NOL', 'AEL', 'TCL', 'TWL', 'ISL', 'KTL', 'TKL', 'SIL', 'SILW', 'DRL', 'XRL', 'HKWRL']
             },
             {
                 type: 'lines',
@@ -208,6 +209,18 @@ export const LINE_GROUPS: LineGroup[] = [
                 title: 'Hong Kong International Airport Automated People Mover (APM)',
                 titleImage: 'HKA.png',
                 lines: ['HKAPMT1', 'HKAPMT2', 'HKAPMSKY']
+            }
+        ]
+    },
+    {
+        items: [{ type: 'separator' }]
+    },
+    {
+        title: 'Smart and Green Mass Transit (planned)',
+        items: [
+            {
+                type: 'lines',
+                lines: ['EKSG', 'KTSG']
             }
         ]
     },

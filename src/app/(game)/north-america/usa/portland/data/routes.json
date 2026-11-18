@@ -34338,6 +34338,27 @@
         "line": "PortlandWES",
         "color": "#6D6E71"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.593162,
+            45.587543
+          ],
+          [
+            -122.593413,
+            45.587884
+          ]
+        ]
+      },
+      "properties": {
+        "line": "MAXRed",
+        "color": "#D11241",
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

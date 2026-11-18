@@ -1,0 +1,2589 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.156591,
+          53.450697
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Malahide",
+        "line": "DART",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.151317,
+          53.417658
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Portmarnock",
+        "line": "DART",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.148949,
+          53.4027
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Clongriffin",
+        "line": "DART",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.155819,
+          53.391309
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Howth Junction and Donaghmede",
+        "line": "DART",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.136787,
+          53.391539
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Bayside",
+        "line": "DART",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.116084,
+          53.392011
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Sutton",
+        "line": "DART",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.074374,
+          53.389113
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Howth",
+        "line": "DART",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.16148,
+          53.38728
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Kilbarrack",
+        "line": "DART",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.176127,
+          53.381607
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Raheny",
+        "line": "DART",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.192401,
+          53.378362
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Harmonstown",
+        "line": "DART",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.204916,
+          53.3728
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Killester",
+        "line": "DART",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.226863,
+          53.363068
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Clontarf Road",
+        "line": "DART",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24742,
+          53.352799
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Dublin Connolly",
+        "line": "DART",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254307,
+          53.347129
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Tara Street",
+        "line": "DART",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.248463,
+          53.343335
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Dublin Pearse",
+        "line": "DART",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.238188,
+          53.339819
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Grand Canal Dock",
+        "line": "DART",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.228711,
+          53.333771
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Lansdowne Road",
+        "line": "DART",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.22105,
+          53.327928
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Sandymount",
+        "line": "DART",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.211552,
+          53.320787
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Sydney Parade",
+        "line": "DART",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.195196,
+          53.309985
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Booterstown",
+        "line": "DART",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.178698,
+          53.302838
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Blackrock",
+        "line": "DART",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.165208,
+          53.299157
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Seapoint",
+        "line": "DART",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.152423,
+          53.295391
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Salthill and Monkstown",
+        "line": "DART",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.13474,
+          53.294998
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Dún Laoghaire Mallin",
+        "line": "DART",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.127158,
+          53.288002
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Sandycove and Glasthule",
+        "line": "DART",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.123108,
+          53.281238
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Glenageary",
+        "line": "DART",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.103395,
+          53.275721
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Dalkey",
+        "line": "DART",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.11304,
+          53.255385
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Killiney",
+        "line": "DART",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.117044,
+          53.236697
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Shankill",
+        "line": "DART",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.110842,
+          53.221762
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Woodbrook",
+        "line": "DART",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.100561,
+          53.204415
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Bray Daly",
+        "line": "DART",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.060817,
+          53.144097
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Greystones",
+        "line": "DART",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.437728,
+          53.284695
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Saggart",
+        "line": "LUR",
+        "order": 0
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.42461,
+          53.284269
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Fortunestown",
+        "line": "LUR",
+        "order": 1
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.418946,
+          53.287839
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Citywest Campus",
+        "line": "LUR",
+        "order": 2
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.406851,
+          53.290998
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Cheeverstown",
+        "line": "LUR",
+        "order": 3
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.395525,
+          53.293545
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Fettercairn",
+        "line": "LUR",
+        "order": 4
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.375433,
+          53.298971
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Belgard",
+        "line": "LUR",
+        "order": 5
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.384365,
+          53.293516
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Cookstown",
+        "line": "LUR",
+        "order": 6
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.378843,
+          53.289401
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Hospital",
+        "line": "LUR",
+        "order": 7
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.374609,
+          53.28751
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Tallaght",
+        "line": "LUR",
+        "order": 8
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.36531,
+          53.303703
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Kingswood",
+        "line": "LUR",
+        "order": 9
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.369898,
+          53.316852
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Red Cow",
+        "line": "LUR",
+        "order": 10
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.343483,
+          53.326671
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Kylemore",
+        "line": "LUR",
+        "order": 11
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.333792,
+          53.329328
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Bluebell",
+        "line": "LUR",
+        "order": 12
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.327416,
+          53.334274
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Blackhorse",
+        "line": "LUR",
+        "order": 13
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.318167,
+          53.335384
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Drimnagh",
+        "line": "LUR",
+        "order": 14
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.313588,
+          53.335916
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Goldenbridge",
+        "line": "LUR",
+        "order": 15
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.307277,
+          53.336637
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Suir Road",
+        "line": "LUR",
+        "order": 16
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.297224,
+          53.337936
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Rialto",
+        "line": "LUR",
+        "order": 17
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.292516,
+          53.338459
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Fatima",
+        "line": "LUR",
+        "order": 18
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.293391,
+          53.341948
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "James's",
+        "line": "LUR",
+        "order": 19
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.291807,
+          53.346654
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Heuston",
+        "line": "LUR",
+        "order": 20
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.286733,
+          53.347886
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Museum",
+        "line": "LUR",
+        "order": 21
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.277737,
+          53.34715
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Smithfield",
+        "line": "LUR",
+        "order": 22
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.273383,
+          53.346871
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Four Courts",
+        "line": "LUR",
+        "order": 23
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.265652,
+          53.347668
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Jervis",
+        "line": "LUR",
+        "order": 24
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258174,
+          53.348611
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Abbey Street",
+        "line": "LUR",
+        "order": 25
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.251186,
+          53.350052
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Busáras",
+        "line": "LUR",
+        "order": 26
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.247584,
+          53.349545
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "George's Dock",
+        "line": "LUR",
+        "order": 27
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.243387,
+          53.349254
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Mayor Square - NCI",
+        "line": "LUR",
+        "order": 28
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.237151,
+          53.34883
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Spencer Dock",
+        "line": "LUR",
+        "order": 29
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.229248,
+          53.348341
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "The Point",
+        "line": "LUR",
+        "order": 30
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.249922,
+          53.350899
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Connolly",
+        "line": "LUR",
+        "order": 31
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.142896,
+          53.242046
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Bride's Glen",
+        "line": "LUG",
+        "order": 0
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.145888,
+          53.245337
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Cherrywood",
+        "line": "LUG",
+        "order": 1
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.155023,
+          53.250596
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Laughanstown",
+        "line": "LUG",
+        "order": 2
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.169963,
+          53.25402
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Carrickmines",
+        "line": "LUG",
+        "order": 3
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.184437,
+          53.255011
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Ballyogan Wood",
+        "line": "LUG",
+        "order": 4
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.198402,
+          53.258259
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Leopardstown Valley",
+        "line": "LUG",
+        "order": 5
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.205948,
+          53.261121
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "The Gallops",
+        "line": "LUG",
+        "order": 6
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.210041,
+          53.26629
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Glencairn",
+        "line": "LUG",
+        "order": 7
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.203872,
+          53.270118
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Central Park",
+        "line": "LUG",
+        "order": 8
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.204969,
+          53.277627
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Sandyford",
+        "line": "LUG",
+        "order": 9
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.210185,
+          53.279385
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Stillorgan",
+        "line": "LUG",
+        "order": 10
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.223913,
+          53.282994
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Kilmacud",
+        "line": "LUG",
+        "order": 11
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.236728,
+          53.286055
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Balally",
+        "line": "LUG",
+        "order": 12
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.245158,
+          53.292382
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Dundrum",
+        "line": "LUG",
+        "order": 13
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.250742,
+          53.301587
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Windy Arbour",
+        "line": "LUG",
+        "order": 14
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.251758,
+          53.309914
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Milltown",
+        "line": "LUG",
+        "order": 15
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.253468,
+          53.316478
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Cowper",
+        "line": "LUG",
+        "order": 16
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254669,
+          53.320841
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Beechwood",
+        "line": "LUG",
+        "order": 17
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.256182,
+          53.326279
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Ranelagh",
+        "line": "LUG",
+        "order": 18
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258713,
+          53.330703
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Charlemont",
+        "line": "LUG",
+        "order": 19
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.262682,
+          53.333356
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Harcourt",
+        "line": "LUG",
+        "order": 20
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.261358,
+          53.339067
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "St. Stephen's Green",
+        "line": "LUG",
+        "order": 21
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.257991,
+          53.342167
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Dawson",
+        "line": "LUG",
+        "order": 22
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.259015,
+          53.346327
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Westmoreland",
+        "line": "LUG",
+        "order": 23
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.259919,
+          53.348844
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "O'Connell - GPO",
+        "line": "LUG",
+        "order": 24
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.261057,
+          53.351591
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "O'Connell Upper",
+        "line": "LUG",
+        "order": 25
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.265728,
+          53.351416
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Dominick",
+        "line": "LUG",
+        "order": 26
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.260472,
+          53.353084
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Parnell",
+        "line": "LUG",
+        "order": 27
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.257756,
+          53.349185
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Marlborough",
+        "line": "LUG",
+        "order": 28
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258273,
+          53.34533
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Trinity",
+        "line": "LUG",
+        "order": 29
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.27377,
+          53.354055
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Broadstone - University",
+        "line": "LUG",
+        "order": 30
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.277364,
+          53.357101
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Grangegorman",
+        "line": "LUG",
+        "order": 31
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.278935,
+          53.360423
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Phibsborough",
+        "line": "LUG",
+        "order": 32
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.281822,
+          53.364118
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Cabra",
+        "line": "LUG",
+        "order": 33
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.298362,
+          53.372463
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Broombridge",
+        "line": "LUG",
+        "order": 34
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.248463,
+          53.343335
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Dublin Pearse",
+        "line": "DNOR",
+        "order": 0
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254307,
+          53.347129
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Tara Street",
+        "line": "DNOR",
+        "order": 1
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24742,
+          53.352799
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Dublin Connolly",
+        "line": "DNOR",
+        "order": 2
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.155819,
+          53.391309
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Howth Junction and Donaghmede",
+        "line": "DNOR",
+        "order": 3
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.148949,
+          53.4027
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Clongriffin",
+        "line": "DNOR",
+        "order": 4
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.151317,
+          53.417658
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Portmarnock",
+        "line": "DNOR",
+        "order": 5
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.156591,
+          53.450697
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Malahide",
+        "line": "DNOR",
+        "order": 6
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.151294,
+          53.485748
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Donabate",
+        "line": "DNOR",
+        "order": 7
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.143107,
+          53.52094
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Rush & Lusk",
+        "line": "DNOR",
+        "order": 8
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.119175,
+          53.573989
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Skerries",
+        "line": "DNOR",
+        "order": 9
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.182328,
+          53.611877
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Balbriggan",
+        "line": "DNOR",
+        "order": 10
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.217053,
+          53.637833
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Gormanston",
+        "line": "DNOR",
+        "order": 11
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.242754,
+          53.679528
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Laytown",
+        "line": "DNOR",
+        "order": 12
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.335641,
+          53.712017
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Drogheda MacBride",
+        "line": "DNOR",
+        "order": 13
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.590635,
+          53.378055
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Maynooth",
+        "line": "DWES",
+        "order": 0
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.506241,
+          53.370299
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Leixlip Louisa Bridge",
+        "line": "DWES",
+        "order": 1
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.485816,
+          53.3742
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Leixlip Confey",
+        "line": "DWES",
+        "order": 2
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.423187,
+          53.382943
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Clonsilla",
+        "line": "DWES",
+        "order": 3
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.442055,
+          53.387005
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Hansfield",
+        "line": "DWES",
+        "order": 4
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.464797,
+          53.417269
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Dunboyne",
+        "line": "DWES",
+        "order": 5
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.468889,
+          53.434529
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "M3 Parkway",
+        "line": "DWES",
+        "order": 6
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.390647,
+          53.377693
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Coolmine",
+        "line": "DWES",
+        "order": 7
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.371424,
+          53.381529
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Castleknock",
+        "line": "DWES",
+        "order": 8
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.345429,
+          53.377553
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Navan Road Parkway",
+        "line": "DWES",
+        "order": 9
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.331814,
+          53.375406
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Ashtown",
+        "line": "DWES",
+        "order": 10
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.314283,
+          53.375205
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Pelletstown",
+        "line": "DWES",
+        "order": 11
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.298362,
+          53.372463
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Broombridge",
+        "line": "DWES",
+        "order": 12
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258745,
+          53.363086
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Drumcondra",
+        "line": "DWES",
+        "order": 13
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24742,
+          53.352799
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Dublin Connolly",
+        "line": "DWES",
+        "order": 14
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254307,
+          53.347129
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Tara Street",
+        "line": "DWES",
+        "order": 15
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.248463,
+          53.343335
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Dublin Pearse",
+        "line": "DWES",
+        "order": 16
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.834169,
+          53.416182
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Enfield",
+        "line": "DWES",
+        "order": 17
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.668858,
+          53.399043
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Kilcock",
+        "line": "DWES",
+        "order": 18
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.239326,
+          53.35067
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Docklands",
+        "line": "DWES",
+        "order": 19
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.292968,
+          53.346503
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Dublin Heuston",
+        "line": "DKIL",
+        "order": 0
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.378639,
+          53.334035
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Park West and Cherry Orchard",
+        "line": "DKIL",
+        "order": 1
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258745,
+          53.363086
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Drumcondra",
+        "line": "DKIL",
+        "order": 2
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24742,
+          53.352799
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Dublin Connolly",
+        "line": "DKIL",
+        "order": 3
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254307,
+          53.347129
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Tara Street",
+        "line": "DKIL",
+        "order": 4
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.248463,
+          53.343335
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Dublin Pearse",
+        "line": "DKIL",
+        "order": 5
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.238188,
+          53.339819
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Grand Canal Dock",
+        "line": "DKIL",
+        "order": 6
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4064,
+          53.333351
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Clondalkin & Fonthill",
+        "line": "DKIL",
+        "order": 7
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.469232,
+          53.336002
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Adamstown",
+        "line": "DKIL",
+        "order": 8
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.523932,
+          53.322278
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Hazelhatch and Celbridge",
+        "line": "DKIL",
+        "order": 9
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.664867,
+          53.246787
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Sallins and Naas",
+        "line": "DKIL",
+        "order": 10
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.808743,
+          53.18526
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Newbridge",
+        "line": "DKIL",
+        "order": 11
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.908048,
+          53.162806
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Kildare",
+        "line": "DKIL",
+        "order": 12
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.24742,
+          53.352799
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Dublin Connolly",
+        "line": "DSEA",
+        "order": 0
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254307,
+          53.347129
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Tara Street",
+        "line": "DSEA",
+        "order": 1
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.248463,
+          53.343335
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Dublin Pearse",
+        "line": "DSEA",
+        "order": 2
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.13474,
+          53.294998
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Dún Laoghaire Mallin",
+        "line": "DSEA",
+        "order": 3
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.100561,
+          53.204415
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Bray Daly",
+        "line": "DSEA",
+        "order": 4
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.060817,
+          53.144097
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Greystones",
+        "line": "DSEA",
+        "order": 5
+      },
+      "id": 151
+    }
+  ]
+}
