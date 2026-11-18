@@ -34,6 +34,22 @@ const BRIDGE_COST = 4
 const LEG_BRIDGE_MAX_M = 2500
 const SIMPLIFY_M = 2.5
 
+/** Removes out-and-back stubs (A, B, A): the route touching a siding or stub track at a station. */
+function dropSpikes(points) {
+  const out = []
+  for (const p of points) {
+    out.push(p)
+    while (out.length >= 3) {
+      const [a, b, c] = out.slice(-3)
+      const ab = haversine(a, b)
+      const bc = haversine(b, c)
+      if (ab > 0 && bc > 0 && haversine(a, c) < 0.25 * Math.min(ab, bc)) out.splice(out.length - 2, 1)
+      else break
+    }
+  }
+  return out
+}
+
 function parseArgs(argv) {
   const args = {}
   for (const a of argv) {
@@ -89,20 +105,39 @@ async function fetchOverpass(query) {
     'https://overpass.private.coffee/api/interpreter',
   ]
   let last = null
-  for (const endpoint of endpoints) {
-    try {
-      const res = await fetch(endpoint, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'User-Agent': 'MetroMemoryRouteBuilder/1.0 (+https://github.com/kirklandwaterbot/metro-memory)',
-        },
-        body: `data=${encodeURIComponent(query)}`,
-      })
-      if (res.ok) return await res.json()
-      last = new Error(`${endpoint}: HTTP ${res.status} ${(await res.text()).slice(0, 200)}`)
-    } catch (error) {
-      last = error
+  // Public Overpass servers are often at capacity: try each a few times,
+  // waiting longer each round. A "runtime error" remark or an empty answer
+  // counts as a failure, since a corridor around rail track is never empty.
+  for (let pass = 0; pass < 4; pass += 1) {
+    if (pass) await new Promise((r) => setTimeout(r, 20_000 * pass))
+    for (const endpoint of endpoints) {
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': 'MetroMemoryRouteBuilder/1.0 (+https://github.com/kirklandwaterbot/metro-memory)',
+          },
+          body: `data=${encodeURIComponent(query)}`,
+          signal: AbortSignal.timeout(300_000),
+        })
+        if (!res.ok) {
+          last = new Error(`${endpoint}: HTTP ${res.status}`)
+          continue
+        }
+        const json = await res.json()
+        if (/runtime error|timed out|out of memory/i.test(json.remark || '')) {
+          last = new Error(`${endpoint}: ${json.remark}`)
+          continue
+        }
+        if (!(json.elements || []).length) {
+          last = new Error(`${endpoint}: empty answer`)
+          continue
+        }
+        return json
+      } catch (error) {
+        last = error
+      }
     }
   }
   throw last
@@ -311,17 +346,55 @@ async function main() {
   let changed = false
 
   for (const request of requests) {
-    const done = routes.features.some(
-      (f) => f.properties?.line === request.line && f.properties?.osm_route,
-    )
+    // A line can be built in several parts (e.g. branches), told apart by
+    // `part`; each part replaces only its own earlier build.
+    const part = request.part || null
+    const label = part ? `${request.line} (${part})` : request.line
+    const samePart = (f) =>
+      f.properties?.line === request.line &&
+      f.properties?.osm_route &&
+      (f.properties.osm_route.part || null) === part
+    const done = routes.features.some(samePart)
     if (done && !args.refresh) {
-      report.push(`- ${request.line}: already built from OSM (use --refresh to rebuild)`)
+      report.push(`- ${label}: already built from OSM (use --refresh to rebuild)`)
       continue
     }
     const waypoints = resolveWaypoints(request, stations)
-    const osm = args.fixture
-      ? readJson(args.fixture)
-      : await fetchOverpass(buildQuery(waypoints, request.bufferM || 5000))
+    let osm
+    if (args.fixture) {
+      osm = readJson(args.fixture)
+    } else {
+      // One query per leg: a single corridor around a long, busy route (the
+      // Northeast Corridor through New York) times out on Overpass.
+      const seen = new Set()
+      osm = { elements: [] }
+      const remarks = []
+      let fetchError = null
+      for (let i = 0; i < waypoints.length - 1 && !fetchError; i += 1) {
+        let res
+        try {
+          res = await fetchOverpass(buildQuery(waypoints.slice(i, i + 2), request.bufferM || 5000))
+        } catch (error) {
+          fetchError = `${waypoints[i].name} → ${waypoints[i + 1].name}: ${error.message}`
+          break
+        }
+        if (res.remark) remarks.push(res.remark)
+        for (const el of res.elements || []) {
+          const key = `${el.type}/${el.id}`
+          if (seen.has(key)) continue
+          seen.add(key)
+          osm.elements.push(el)
+        }
+      }
+      if (fetchError) {
+        report.push(`- ⚠️ ${label}: Overpass unavailable (${fetchError.slice(0, 200)}) — not changed`)
+        continue
+      }
+      if (remarks.length) report.push(`- ℹ️ ${label}: Overpass said: ${remarks.join(' | ').slice(0, 300)}`)
+      const ways = osm.elements.filter((e) => e.type === 'way').length
+      const nodes = osm.elements.filter((e) => e.type === 'node').length
+      report.push(`- ℹ️ ${label}: ${ways} OSM ways, ${nodes} nodes in the corridor`)
+    }
     const graph = buildGraph(osm, request.preferName)
 
     const preferNodes = new Set()
@@ -334,7 +407,7 @@ async function main() {
     const snapped = waypoints.map((w) => ({ ...w, node: snap(graph, w.coordinates, preferNodes) }))
     const missing = snapped.filter((w) => w.node === null)
     if (missing.length) {
-      report.push(`- ⚠️ ${request.line}: no OSM track within ${SNAP_M} m of ${missing.map((w) => w.name).join(', ')} — not changed`)
+      report.push(`- ⚠️ ${label}: no OSM track within ${SNAP_M} m of ${missing.map((w) => w.name).join(', ')} — not changed`)
       continue
     }
 
@@ -374,23 +447,30 @@ async function main() {
       line = line.length ? line.concat(leg.coords.slice(1)) : leg.coords
     }
     if (failed) {
-      report.push(`- ⚠️ ${request.line}: ${failed} — not changed`)
+      report.push(`- ⚠️ ${label}: ${failed} — not changed`)
       continue
     }
 
-    const simplified = simplify(line, SIMPLIFY_M).map(([x, y]) => [Math.round(x * 1e6) / 1e6, Math.round(y * 1e6) / 1e6])
-    const previous = routes.features.filter((f) => f.properties?.line === request.line)
-    const base = previous[0]?.properties || { line: request.line }
+    const simplified = simplify(dropSpikes(line), SIMPLIFY_M).map(([x, y]) => [Math.round(x * 1e6) / 1e6, Math.round(y * 1e6) / 1e6])
+    // Name and colour from the line's other drawn track, or from lines.json.
+    const previous = routes.features.filter((f) => f.properties?.line === request.line && !f.properties?.future)
+    const lineMeta = readJson(path.join(dir, 'lines.json'))?.[request.line]
+    const base = previous[0]?.properties || {
+      line: request.line,
+      ...(lineMeta ? { name: lineMeta.name, color: lineMeta.color, order: lineMeta.order } : {}),
+    }
     const kept = request.replace
       ? routes.features.filter((f) => f.properties?.line !== request.line)
-      : routes.features.filter((f) => !(f.properties?.line === request.line && f.properties?.osm_route))
+      : routes.features.filter((f) => !samePart(f))
     kept.push({
       type: 'Feature',
       geometry: { type: 'LineString', coordinates: simplified },
       properties: {
-        ...Object.fromEntries(Object.entries(base).filter(([k]) => !['auto_filled', 'osm_route'].includes(k))),
+        ...Object.fromEntries(Object.entries(base).filter(([k]) => !['auto_filled', 'osm_route', 'future'].includes(k))),
+        ...(request.properties || {}),
         line: request.line,
         osm_route: {
+          ...(part ? { part } : {}),
           source: '© OpenStreetMap contributors (ODbL), via Overpass',
           built: new Date().toISOString().slice(0, 10),
           from: waypoints[0].name,
@@ -402,7 +482,7 @@ async function main() {
     routes.features = kept
     changed = true
     report.push(
-      `- ✅ ${request.line}: ${(lengthM(simplified) / 1000).toFixed(1)} km along OSM track, ${simplified.length} points, ${Math.round(bridgedM)} m of mapping gaps bridged`,
+      `- ✅ ${label}: ${(lengthM(simplified) / 1000).toFixed(1)} km along OSM track, ${simplified.length} points, ${Math.round(bridgedM)} m of mapping gaps bridged`,
     )
     for (const l of legs) report.push(`  - ${l}`)
   }

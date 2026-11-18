@@ -4918,6 +4918,7 @@ function GamePageContent({
       const ROUTES_SOURCE_ID = 'game-routes'
       const ROUTES_LAYER_ID = 'game-routes-line'
       const ROUTES_LAYER_CASING_ID = 'game-routes-line-casing'
+      const FUTURE_ROUTES_LAYER_ID = 'game-routes-line-future'
       const SIR_LOCAL_LAYER_ID = 'sir-local-line'
       const SIR_LOCAL_CASING_LAYER_ID = 'sir-local-line-casing'
       const PASCACK_LAYER_ID = 'pascack-line'
@@ -5091,6 +5092,28 @@ function GamePageContent({
             PASCACK_FILTER,
             9_100,
           )
+
+          // Planned or under-construction track (route features with
+          // "future": true) gets white dashes over its colour.
+          if (!mbMap.getLayer(FUTURE_ROUTES_LAYER_ID)) {
+            mbMap.addLayer({
+              id: FUTURE_ROUTES_LAYER_ID,
+              type: 'line',
+              filter: ['==', ['get', 'future'], true],
+              paint: {
+                'line-width': lineWidthExpression,
+                'line-color': '#ffffff',
+                'line-opacity': 0.85,
+                'line-dasharray': [1, 1.2],
+              },
+              layout: {
+                'line-sort-key': 20_000,
+                'line-cap': 'butt',
+                'line-join': 'round',
+              },
+              source: ROUTES_SOURCE_ID,
+            })
+          }
         } catch (error) {
           console.error('Failed to add route layer', error)
         }

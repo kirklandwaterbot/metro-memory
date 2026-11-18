@@ -8,16 +8,132 @@
       "bufferM": 5000,
       "preferName": "cut-?off|lackawanna|DL&?W|pocono|erie lackawanna",
       "waypoints": [
-        { "name": "Port Morris Junction", "coordinates": [-74.6688, 40.9088] },
-        { "station": "Andover" },
-        { "station": "Johnsonburg" },
-        { "station": "Blairstown" },
-        { "station": "Delaware Water Gap" },
-        { "station": "East Stroudsburg" },
-        { "station": "Analomink" },
-        { "station": "Pocono Mt" },
-        { "station": "Tobyhanna" },
-        { "station": "Scranton" }
+        {
+          "name": "Port Morris Junction",
+          "coordinates": [
+            -74.6688,
+            40.9088
+          ]
+        },
+        {
+          "station": "Andover"
+        },
+        {
+          "station": "Johnsonburg"
+        },
+        {
+          "station": "Blairstown"
+        },
+        {
+          "station": "Delaware Water Gap"
+        },
+        {
+          "station": "East Stroudsburg"
+        },
+        {
+          "station": "Analomink"
+        },
+        {
+          "station": "Pocono Mt"
+        },
+        {
+          "station": "Tobyhanna"
+        },
+        {
+          "station": "Scranton"
+        }
+      ]
+    },
+    {
+      "line": "Amtrak",
+      "part": "gateway",
+      "note": "Gateway Program: the new Hudson River tunnel, North Bergen to Penn Station via the Hudson Yards casing (under construction).",
+      "bufferM": 2500,
+      "preferName": "gateway|hudson tunnel|northeast corridor",
+      "properties": {
+        "future": true,
+        "name": "Gateway Hudson Tunnel (under construction)"
+      },
+      "waypoints": [
+        {
+          "name": "Secaucus (NEC)",
+          "coordinates": [
+            -74.0757,
+            40.7613
+          ]
+        },
+        {
+          "name": "North Bergen portal",
+          "coordinates": [
+            -74.04215,
+            40.7703
+          ]
+        },
+        {
+          "name": "Weehawken shaft",
+          "coordinates": [
+            -74.02736,
+            40.75702
+          ]
+        },
+        {
+          "name": "Hudson Yards casing",
+          "coordinates": [
+            -74.0048,
+            40.7553
+          ]
+        },
+        {
+          "station": "New York Penn Station"
+        }
+      ]
+    },
+    {
+      "line": "NJTLRGlassboroCamden",
+      "note": "Glassboro-Camden Line along the Conrail Vineland Secondary, Lanning Square to Glassboro (planned). The short new street alignment from Walter Rand Transportation Center to Lanning Square is not in OSM and is drawn straight.",
+      "replace": true,
+      "bufferM": 2500,
+      "preferName": "vineland|conrail|glassboro|camden",
+      "waypoints": [
+        {
+          "station": "Lanning Square"
+        },
+        {
+          "station": "South Camden"
+        },
+        {
+          "station": "Gloucester City"
+        },
+        {
+          "station": "Crown Point Rd"
+        },
+        {
+          "station": "Red Bank Av"
+        },
+        {
+          "station": "Woodbury"
+        },
+        {
+          "station": "Woodbury Heights"
+        },
+        {
+          "station": "Mantua"
+        },
+        {
+          "station": "Sewell"
+        },
+        {
+          "station": "Mantua/Pitman"
+        },
+        {
+          "station": "Pitman"
+        },
+        {
+          "station": "North Glassboro"
+        },
+        {
+          "station": "Glassboro"
+        }
       ]
     }
   ]

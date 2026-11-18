@@ -302,6 +302,19 @@ export const LINE_GROUPS: LineGroup[] = [
       },
     ],
   },
+  {
+    items: [{ type: 'separator' }],
+  },
+  {
+    title: 'Amtrak',
+    titleImage: 'Amtrak.png',
+    items: [
+      {
+        type: 'lines',
+        lines: ['Amtrak'],
+      },
+    ],
+  },
 ]
 
 const config: Config = {

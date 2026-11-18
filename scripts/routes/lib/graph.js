@@ -8,6 +8,10 @@ const { haversine } = require('../../upcoming/lib/geo')
 const SNAP_M = 50
 const REFERENCE_SNAP_M = 90 // reference shapes are simplified, so allow a wider join
 const SNAP_PENALTY_M = 15
+// Hopping onto a different line's track costs this much more, so a path stays
+// on one track instead of zig-zagging across nearby lines (which drew little
+// triangles at busy stations such as Times Sq and Delancey St).
+const CROSS_LINE_PENALTY_M = 0
 const CELL_DEG = 0.0006 // ~50-65 m grid cells
 
 class MinHeap {
@@ -133,27 +137,38 @@ class TrackGraph {
    * Joins every string end to nearby nodes of other strings. Ends may join
    * reference nodes from further away, since reference shapes are simplified.
    */
-  snapEnds(stringNodes, referenceNodes = new Set()) {
+  snapEnds(stringNodes, referenceNodes = new Set(), stringLines = []) {
     const owner = new Map()
     stringNodes.forEach((nodes, i) => nodes.forEach((n) => owner.set(n, i)))
     stringNodes.forEach((nodes, i) => {
       for (const end of [nodes[0], nodes[nodes.length - 1]]) {
         for (const [d, n] of this.near(this.coords[end], REFERENCE_SNAP_M)) {
-          if (owner.get(n) === i) continue
-          if (d <= SNAP_M || referenceNodes.has(n)) this.edge(end, n, d + SNAP_PENALTY_M)
+          const j = owner.get(n)
+          if (j === i) continue
+          if (d <= SNAP_M || referenceNodes.has(n)) {
+            const otherLine = stringLines[i] && stringLines[j] && stringLines[i] !== stringLines[j]
+            this.edge(end, n, d + SNAP_PENALTY_M + (otherLine ? CROSS_LINE_PENALTY_M : 0))
+          }
         }
       }
     })
   }
 }
 
+// Reference shapes are simplified and run beside the real track, so only use
+// them where no drawn track connects.
 const REFERENCE_COST = 1.5
 
-function buildGraph(strings, referenceStrings = []) {
+/**
+ * `stringLines[i]` names the line strings[i] belongs to (optional); it makes
+ * hops between different lines' track costlier than joins within one line.
+ */
+function buildGraph(strings, referenceStrings = [], stringLines = []) {
   const g = new TrackGraph()
   const stringNodes = g.addStrings(strings)
   const refNodes = g.addStrings(referenceStrings, REFERENCE_COST)
-  g.snapEnds([...stringNodes, ...refNodes], new Set(refNodes.flat()))
+  const lines = [...stringLines, ...refNodes.map(() => 'reference')]
+  g.snapEnds([...stringNodes, ...refNodes], new Set(refNodes.flat()), lines)
   return g
 }
 
