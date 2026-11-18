@@ -12,6 +12,7 @@ on:
     paths:
       - 'data-sources/probes/requests/**'
       - 'scripts/cities/osm-probe.js'
+      - 'scripts/cities/osm-probe-pbf.py'
       - '.github/workflows/osm-probe.yml'
   workflow_dispatch:
 
@@ -27,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       slugs: ${{ steps.list.outputs.slugs }}
+      extract: ${{ steps.list.outputs.extract }}
     steps:
       - uses: actions/checkout@v5
       - id: list
@@ -45,11 +47,12 @@ jobs:
               const req = JSON.parse(fs.readFileSync(`${dir}/${f}`, "utf8"))
               let prev = null
               try { prev = JSON.parse(fs.readFileSync(`/tmp/probes/${req.slug}.json`, "utf8")) } catch {}
-              if (!prev || JSON.stringify(prev.bbox) !== JSON.stringify(req.bbox) || prev.requestVersion !== (req.version || 1)) out.push(req.slug)
+              if (!prev || JSON.stringify(prev.bbox) !== JSON.stringify(req.bbox) || prev.requestVersion !== (req.version || 1)) out.push(req)
             }
-            console.log(JSON.stringify(out))
+            console.log(JSON.stringify({ overpass: out.filter((r) => !r.extract).map((r) => r.slug), extract: out.filter((r) => r.extract).map((r) => r.slug) }))
           ')
-          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          echo "slugs=$(echo "$slugs" | jq -c .overpass)" >> "$GITHUB_OUTPUT"
+          echo "extract=$(echo "$slugs" | jq -c .extract)" >> "$GITHUB_OUTPUT"
           echo "$slugs"
 
   probe:
@@ -75,9 +78,49 @@ jobs:
           path: /tmp/out/${{ matrix.slug }}.json
           retention-days: 3
 
+  # Areas with "extract": read from a Geofabrik regional extract instead of
+  # Overpass (the public Overpass servers often hang on these).
+  probe-extract:
+    needs: list
+    if: needs.list.outputs.extract != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install osmium
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+          pip install --quiet osmium
+      - name: Probe from extracts
+        env:
+          SLUGS: ${{ needs.list.outputs.extract }}
+        run: |
+          mkdir -p /tmp/osm /tmp/out
+          for slug in $(echo "$SLUGS" | jq -r '.[]'); do
+            req="data-sources/probes/requests/$slug.json"
+            region=$(jq -r .extract "$req")
+            name=$(echo "$region" | tr '/' '_')
+            if [ ! -f "/tmp/osm/$name-rail.osm.pbf" ]; then
+              curl -4 -sSfL --retry 6 --retry-all-errors --retry-delay 30 -o "/tmp/osm/$name.osm.pbf" "https://download.geofabrik.de/$region-latest.osm.pbf"
+              osmium tags-filter "/tmp/osm/$name.osm.pbf" \
+                r/route=subway,light_rail,tram,monorail,train,railway r/type=construction,proposed \
+                n/railway=station,halt,tram_stop n/public_transport=station w/public_transport=station w/railway=station \
+                -o "/tmp/osm/$name-rail.osm.pbf" --overwrite
+              rm "/tmp/osm/$name.osm.pbf"
+            fi
+            bbox=$(jq -r '.bbox | "\(.[1]),\(.[0]),\(.[3]),\(.[2])"' "$req")
+            osmium extract -b "$bbox" -s smart "/tmp/osm/$name-rail.osm.pbf" -o "/tmp/osm/$slug.osm.pbf" --overwrite
+            python3 scripts/cities/osm-probe-pbf.py --pbf="/tmp/osm/$slug.osm.pbf" --request="$req" --out=/tmp/out || echo "::warning::$slug failed"
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe-extracts
+          path: /tmp/out/*.json
+          retention-days: 3
+
   push:
-    needs: probe
-    if: always() && needs.probe.result != 'skipped'
+    needs: [probe, probe-extract]
+    if: always() && (needs.probe.result == 'success' || needs.probe.result == 'failure' || needs.probe-extract.result == 'success')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
