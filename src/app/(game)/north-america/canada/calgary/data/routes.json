@@ -4405,6 +4405,74 @@
         "color": "#D7142E",
         "order": 1
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -114.187688,
+            51.037635
+          ],
+          [
+            -114.188694,
+            51.037639
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Blue Line",
+        "title": "[[:en:Blue Line (Calgary)|Blue Line]]",
+        "styleUrl": "#m_ylw-pushpin",
+        "styleHash": "-f3a93a8",
+        "styleMapHash": {
+          "normal": "#s_ylw-pushpin",
+          "highlight": "#s_ylw-pushpin_hl"
+        },
+        "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+        "stroke": "#008AB1",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "line": "CalgaryBlue",
+        "color": "#008BB2",
+        "order": 0,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.948196,
+            51.125709
+          ],
+          [
+            -113.948206,
+            51.126166
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Blue Line",
+        "title": "[[:en:Blue Line (Calgary)|Blue Line]]",
+        "styleUrl": "#m_ylw-pushpin",
+        "styleHash": "-f3a93a8",
+        "styleMapHash": {
+          "normal": "#s_ylw-pushpin",
+          "highlight": "#s_ylw-pushpin_hl"
+        },
+        "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+        "stroke": "#008AB1",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "line": "CalgaryBlue",
+        "color": "#008BB2",
+        "order": 0,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

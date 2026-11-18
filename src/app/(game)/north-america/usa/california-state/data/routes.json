@@ -232776,6 +232776,53 @@
         "name": "Getty Center Tram",
         "order": 22
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.196212,
+            37.752377
+          ],
+          [
+            -122.197205,
+            37.75397
+          ]
+        ]
+      },
+      "properties": {
+        "line": "BARTOAC",
+        "color": "#b0bdc6",
+        "name": "Oakland Airport Connector",
+        "order": 5,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.294754,
+            34.09972
+          ],
+          [
+            -117.295888,
+            34.099708
+          ]
+        ]
+      },
+      "properties": {
+        "line": "Arrow",
+        "color": "#C3E35A",
+        "progressOutlineColor": "#C3E35A",
+        "backgroundColor": "#6B2226",
+        "order": 17,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

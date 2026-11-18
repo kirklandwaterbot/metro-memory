@@ -164768,6 +164768,52 @@
         "color": "#004DA2",
         "order": 35
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.286149,
+            39.973391
+          ],
+          [
+            116.287429,
+            39.973297
+          ]
+        ]
+      },
+      "properties": {
+        "line": "beijingxijiao",
+        "name": "Xijiao",
+        "color": "#D4232E",
+        "order": 29,
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.26694,
+            40.031209
+          ],
+          [
+            116.265829,
+            40.031445
+          ]
+        ]
+      },
+      "properties": {
+        "line": "beijing18",
+        "name": "Line 18",
+        "color": "#5453A3",
+        "order": 20,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

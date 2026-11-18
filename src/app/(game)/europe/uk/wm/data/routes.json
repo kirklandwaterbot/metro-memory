@@ -18048,6 +18048,28 @@
         "color": "#0005FF",
         "order": 5
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.895713,
+            52.481338
+          ],
+          [
+            -1.896472,
+            52.482013
+          ]
+        ]
+      },
+      "properties": {
+        "line": "EastsideExtension",
+        "color": "#FE3B9F",
+        "order": 0,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

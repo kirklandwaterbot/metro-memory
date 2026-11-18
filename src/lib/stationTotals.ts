@@ -64,7 +64,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "fukuoka": 70,
   "fuzhou": 147,
   "galveston": 8,
-  "gba": 2016,
+  "gba": 2014,
   "gba-dongguan": 49,
   "gba-foshan": 157,
   "gba-guangzhou": 529,

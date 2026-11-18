@@ -4769,6 +4769,28 @@
         "color": "#2880CC",
         "order": 0
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94.584165,
+            39.035319
+          ],
+          [
+            -94.584249,
+            39.034741
+          ]
+        ]
+      },
+      "properties": {
+        "line": "KCStreetcar",
+        "color": "#2880CC",
+        "order": 0,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

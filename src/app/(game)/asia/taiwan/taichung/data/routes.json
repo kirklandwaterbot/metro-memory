@@ -1753,6 +1753,30 @@
         "order": 0,
         "operator": "臺中捷運公司"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.709231,
+            24.187532
+          ],
+          [
+            120.708749,
+            24.188913
+          ]
+        ]
+      },
+      "properties": {
+        "line": "TaichungGreen",
+        "name": "Green Line",
+        "color": "#85B23B",
+        "order": 0,
+        "operator": "臺中捷運公司",
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

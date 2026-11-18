@@ -11643,6 +11643,28 @@
         "color": "#F16824",
         "order": 10
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.806893,
+            32.775466
+          ],
+          [
+            -96.807145,
+            32.776067
+          ]
+        ]
+      },
+      "properties": {
+        "line": "DallasStreetcar",
+        "color": "#31ACE5",
+        "order": 5,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

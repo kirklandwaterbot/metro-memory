@@ -916,6 +916,48 @@
         "color": "#008752",
         "line": "MAXYellow"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.052294,
+            35.146525
+          ],
+          [
+            -90.052025,
+            35.147247
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#FFC424",
+        "line": "MAXGreen",
+        "auto_filled": "station-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.052294,
+            35.146525
+          ],
+          [
+            -90.054476,
+            35.147383
+          ]
+        ]
+      },
+      "properties": {
+        "color": "#FFC424",
+        "line": "MAXGreen",
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

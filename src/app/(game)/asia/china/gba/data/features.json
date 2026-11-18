@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1579522,
-          22.2852751
+          114.155859,
+          22.286868
         ]
       },
       "properties": {
@@ -386,7 +386,7 @@
       },
       "properties": {
         "id": 90006,
-        "name": "Feng Mountain (凤山)",
+        "name": "Fengshan (凤山)",
         "long_name": "凤山 Fengshan",
         "alternate_names": [
           "Fengshan",
@@ -401,7 +401,8 @@
           "fung6saan1",
           "fungsaan",
           "feng shan zhan",
-          "fung6 saan1 zaam6"
+          "fung6 saan1 zaam6",
+          "Feng Mountain"
         ],
         "line": "dongguanline1",
         "original_city": "dongguan"
@@ -611,7 +612,7 @@
       },
       "properties": {
         "id": 90013,
-        "name": "Daling Mountain (大岭山)",
+        "name": "Dalingshan (大岭山)",
         "long_name": "大岭山 Dalingshan",
         "alternate_names": [
           "Dalingshan",
@@ -626,7 +627,8 @@
           "daai6ling5saan1",
           "daailingsaan",
           "da ling shan zhan",
-          "daai6 leng5 saan1 zaam6"
+          "daai6 leng5 saan1 zaam6",
+          "Daling Mountain"
         ],
         "line": "dongguanline1",
         "original_city": "dongguan"
@@ -677,7 +679,7 @@
       },
       "properties": {
         "id": 90015,
-        "name": "Niu Mountain (牛山)",
+        "name": "Niushan (牛山)",
         "long_name": "牛山 Niushan",
         "alternate_names": [
           "Niushan",
@@ -690,7 +692,8 @@
           "ngau4saan1",
           "ngausaan",
           "niu shan zhan",
-          "ngau4 saan1 zaam6"
+          "ngau4 saan1 zaam6",
+          "Niu Mountain"
         ],
         "line": "dongguanline1",
         "original_city": "dongguan"
@@ -993,8 +996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.620683,
-          23.0119401
+          113.622457,
+          23.012386
         ]
       },
       "properties": {
@@ -1090,8 +1093,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.659433,
-          22.929613
+          113.659748,
+          22.929454
         ]
       },
       "properties": {
@@ -1304,7 +1307,7 @@
       },
       "properties": {
         "id": 20010,
-        "name": "Dong City (东城)",
+        "name": "Dongcheng (东城)",
         "alternate_names": [
           "Dongcheng",
           "Dongcheng Station",
@@ -1314,7 +1317,8 @@
           "dung1 sing4",
           "dung1sing4",
           "dungsing",
-          "dong cheng"
+          "dong cheng",
+          "Dong City"
         ],
         "line": "dongguanline2",
         "order": 9,
@@ -1362,7 +1366,7 @@
       },
       "properties": {
         "id": 20012,
-        "name": "Xia Bridge (下桥)",
+        "name": "Xiaqiao (下桥)",
         "alternate_names": [
           "Xiaqiao",
           "Xiaqiao Station",
@@ -1372,7 +1376,8 @@
           "haa6 kiu4",
           "haa5kiu2",
           "haakiu",
-          "xia qiao"
+          "xia qiao",
+          "Xia Bridge"
         ],
         "line": "dongguanline2",
         "order": 11,
@@ -1422,7 +1427,7 @@
       },
       "properties": {
         "id": 20014,
-        "name": "Cha Mountain (茶山)",
+        "name": "Chashan (茶山)",
         "alternate_names": [
           "Chashan",
           "Chashan Station",
@@ -1431,7 +1436,8 @@
           "caa4 saan1",
           "caa4saan1",
           "caasaan",
-          "cha shan"
+          "cha shan",
+          "Cha Mountain"
         ],
         "line": "dongguanline2",
         "order": 13,
@@ -1479,8 +1485,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.02886487334575,
-          22.33174232324258
+          114.028975,
+          22.331643
         ]
       },
       "properties": {
@@ -1557,8 +1563,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1659256,
-          22.278329
+          114.16582,
+          22.278421
         ]
       },
       "properties": {
@@ -1750,8 +1756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.17805147091714,
-          22.372858580324074
+          114.178176,
+          22.372658
         ]
       },
       "properties": {
@@ -2166,8 +2172,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.11337715986733,
-          22.528164603772098
+          114.113514,
+          22.528163
         ]
       },
       "properties": {
@@ -2245,8 +2251,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.0979985,
-          23.0518655
+          113.097885,
+          23.051488
         ]
       },
       "properties": {
@@ -2279,8 +2285,8 @@
       },
       "properties": {
         "id": 90483,
-        "name": "Gui City (桂城)",
-        "long_name": "Gui City (桂城)",
+        "name": "Guicheng (桂城)",
+        "long_name": "Guicheng (桂城)",
         "alternate_names": [
           "Guicheng",
           "桂城",
@@ -2288,7 +2294,8 @@
           "gwai3sing4",
           "gwaising",
           "gui cheng",
-          "gwai3 sing4"
+          "gwai3 sing4",
+          "Gui City"
         ],
         "line": "fs_line3",
         "order": 2,
@@ -2502,8 +2509,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.316685,
-          22.8241866
+          113.316531,
+          22.824375
         ]
       },
       "properties": {
@@ -2877,8 +2884,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2593753,
-          22.8377453
+          113.25926,
+          22.837703
         ]
       },
       "properties": {
@@ -3252,8 +3259,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3183416,
-          23.1090708
+          113.318169,
+          23.109063
         ]
       },
       "properties": {
@@ -3523,8 +3530,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.226382,
-          23.068901
+          113.226574,
+          23.068862
         ]
       },
       "properties": {
@@ -3551,8 +3558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2306132,
-          23.1013409
+          113.230516,
+          23.101451
         ]
       },
       "properties": {
@@ -3782,8 +3789,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2901636,
-          23.1264857
+          113.290045,
+          23.126722
         ]
       },
       "properties": {
@@ -3875,8 +3882,8 @@
       },
       "properties": {
         "id": 90038,
-        "name": "Huadi Bay (花地湾)",
-        "long_name": "Huadi Bay (花地湾)",
+        "name": "Huadiwan (花地湾)",
+        "long_name": "Huadiwan (花地湾)",
         "alternate_names": [
           "Huadiwan",
           "花地湾",
@@ -3885,7 +3892,8 @@
           "faa1dei6waan1",
           "faadeiwaan",
           "hua di wan",
-          "faa1 dei6 waan1"
+          "faa1 dei6 waan1",
+          "Huadi Bay"
         ],
         "line": "gzline1",
         "order": 12,
@@ -3927,8 +3935,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3026093,
-          23.1300853
+          113.302281,
+          23.130175
         ]
       },
       "properties": {
@@ -3990,8 +3998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2268581,
-          23.0686561
+          113.226574,
+          23.068862
         ]
       },
       "properties": {
@@ -4133,8 +4141,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2887836,
-          23.0739771
+          113.288893,
+          23.074172
         ]
       },
       "properties": {
@@ -4421,8 +4429,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3540391,
-          23.1367641
+          113.353992,
+          23.136505
         ]
       },
       "properties": {
@@ -4537,8 +4545,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3196269,
-          23.1550718
+          113.319566,
+          23.154974
         ]
       },
       "properties": {
@@ -4659,8 +4667,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2636625,
-          23.1601514
+          113.263833,
+          23.160073
         ]
       },
       "properties": {
@@ -4718,8 +4726,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.252486,
-          23.1501877
+          113.252615,
+          23.150232
         ]
       },
       "properties": {
@@ -4782,8 +4790,8 @@
       },
       "properties": {
         "id": 90280,
-        "name": "Caihong Bridge (彩虹桥)",
-        "long_name": "Caihong Bridge (彩虹桥)",
+        "name": "Caihongqiao (彩虹桥)",
+        "long_name": "Caihongqiao (彩虹桥)",
         "alternate_names": [
           "Caihong Bridge",
           "彩虹桥",
@@ -4792,7 +4800,8 @@
           "coi2hung4kiu4",
           "coihungkiu",
           "cai hong qiao",
-          "coi2 hung4 kiu4"
+          "coi2 hung4 kiu4",
+          "Caihongqiao"
         ],
         "line": "gzline11",
         "order": 14,
@@ -4890,8 +4899,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2306132,
-          23.1013409
+          113.230516,
+          23.101451
         ]
       },
       "properties": {
@@ -5320,8 +5329,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3947575,
-          23.0461368
+          113.394627,
+          23.046078
         ]
       },
       "properties": {
@@ -5844,8 +5853,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3121761,
-          23.2530177
+          113.312176,
+          23.253182
         ]
       },
       "properties": {
@@ -5959,8 +5968,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3414188,
-          23.3014239
+          113.341508,
+          23.301353
         ]
       },
       "properties": {
@@ -6073,8 +6082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2612165,
-          23.2156681
+          113.261332,
+          23.215606
         ]
       },
       "properties": {
@@ -6425,8 +6434,8 @@
       },
       "properties": {
         "id": 90352,
-        "name": "Xin South (新南)",
-        "long_name": "Xin South (新南)",
+        "name": "Xinnan (新南)",
+        "long_name": "Xinnan (新南)",
         "alternate_names": [
           "Xinnan",
           "新南",
@@ -6434,7 +6443,8 @@
           "san1naam4",
           "sannaam",
           "xin nan",
-          "san1 naam4"
+          "san1 naam4",
+          "Xin South"
         ],
         "line": "gzline14",
         "order": 20,
@@ -6734,8 +6744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3390302,
-          23.006537
+          113.338906,
+          23.006456
         ]
       },
       "properties": {
@@ -6763,8 +6773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3330404,
-          23.0392856
+          113.333164,
+          23.03926
         ]
       },
       "properties": {
@@ -6821,8 +6831,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3383117,
-          23.1036079
+          113.33837,
+          23.103805
         ]
       },
       "properties": {
@@ -6911,8 +6921,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3121761,
-          23.2530177
+          113.312176,
+          23.253182
         ]
       },
       "properties": {
@@ -7034,8 +7044,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2576045,
-          23.1562393
+          113.257126,
+          23.156258
         ]
       },
       "properties": {
@@ -7121,8 +7131,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2735826,
-          22.9974298
+          113.273691,
+          22.997269
         ]
       },
       "properties": {
@@ -7234,8 +7244,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2887836,
-          23.0739771
+          113.288893,
+          23.074172
         ]
       },
       "properties": {
@@ -7319,8 +7329,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2685647,
-          23.0999901
+          113.268439,
+          23.099939
         ]
       },
       "properties": {
@@ -7434,8 +7444,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2560768,
-          23.1424518
+          113.255964,
+          23.14239
         ]
       },
       "properties": {
@@ -7753,8 +7763,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2646995,
-          23.1088215
+          113.26457,
+          23.108954
         ]
       },
       "properties": {
@@ -7846,8 +7856,8 @@
       },
       "properties": {
         "id": 90369,
-        "name": "Tang East (棠东)",
-        "long_name": "Tang East (棠东)",
+        "name": "Tangdong (棠东)",
+        "long_name": "Tangdong (棠东)",
         "alternate_names": [
           "Tangdong",
           "棠东",
@@ -7856,7 +7866,8 @@
           "tong4dung1",
           "tongdung",
           "tang dong",
-          "tong4 dung1"
+          "tong4 dung1",
+          "Tang East"
         ],
         "line": "gzline21",
         "order": 1,
@@ -8047,8 +8058,8 @@
       },
       "properties": {
         "id": 90376,
-        "name": "Shui West (水西)",
-        "long_name": "Shui West (水西)",
+        "name": "Shuixi (水西)",
+        "long_name": "Shuixi (水西)",
         "alternate_names": [
           "Shuixi",
           "水西",
@@ -8056,7 +8067,8 @@
           "seoi2sai1",
           "seoisai",
           "shui xi",
-          "seoi2 sai1"
+          "seoi2 sai1",
+          "Shui West"
         ],
         "line": "gzline21",
         "order": 8,
@@ -8097,8 +8109,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.568544,
-          23.2810787
+          113.56856,
+          23.281189
         ]
       },
       "properties": {
@@ -8126,8 +8138,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.6078885,
-          23.2881831
+          113.607873,
+          23.288291
         ]
       },
       "properties": {
@@ -8355,8 +8367,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3318043,
-          22.9740302
+          113.331755,
+          22.973922
         ]
       },
       "properties": {
@@ -8413,8 +8425,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2605701,
-          23.0162194
+          113.260694,
+          23.016134
         ]
       },
       "properties": {
@@ -8562,8 +8574,8 @@
       },
       "properties": {
         "id": 90565,
-        "name": "Caihong Bridge (彩虹桥)",
-        "long_name": "Caihong Bridge (彩虹桥)",
+        "name": "Caihongqiao (彩虹桥)",
+        "long_name": "Caihongqiao (彩虹桥)",
         "alternate_names": [
           "Caihong Bridge",
           "彩虹桥",
@@ -8572,7 +8584,8 @@
           "coi2hung4kiu4",
           "coihungkiu",
           "cai hong qiao",
-          "coi2 hung4 kiu4"
+          "coi2 hung4 kiu4",
+          "Caihongqiao"
         ],
         "line": "gzline22",
         "order": 9,
@@ -8750,8 +8763,8 @@
       },
       "properties": {
         "id": 90068,
-        "name": "Shi Bridge (市桥)",
-        "long_name": "Shi Bridge (市桥)",
+        "name": "Shiqiao (市桥)",
+        "long_name": "Shiqiao (市桥)",
         "alternate_names": [
           "Shiqiao",
           "市桥",
@@ -8760,7 +8773,8 @@
           "si5kiu2",
           "sikiu",
           "shi qiao",
-          "si5 kiu4"
+          "si5 kiu4",
+          "Shi Bridge"
         ],
         "line": "gzline3",
         "order": 1,
@@ -8862,8 +8876,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3139361,
-          23.0571656
+          113.313974,
+          23.057393
         ]
       },
       "properties": {
@@ -8947,8 +8961,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3179853,
-          23.1090463
+          113.318169,
+          23.109063
         ]
       },
       "properties": {
@@ -9040,8 +9054,8 @@
       },
       "properties": {
         "id": 90078,
-        "name": "Shipai Bridge (石牌桥)",
-        "long_name": "Shipai Bridge (石牌桥)",
+        "name": "Shipaiqiao (石牌桥)",
+        "long_name": "Shipaiqiao (石牌桥)",
         "alternate_names": [
           "Shipaiqiao",
           "石牌桥",
@@ -9050,7 +9064,8 @@
           "sek6paai4kiu2",
           "sekpaaikiu",
           "shi pai qiao",
-          "sek6 paai4 kiu4"
+          "sek6 paai4 kiu4",
+          "Shipai Bridge"
         ],
         "line": "gzline10",
         "order": 11,
@@ -9127,8 +9142,8 @@
       },
       "properties": {
         "id": 90081,
-        "name": "Wu Mountain (五山)",
-        "long_name": "Wu Mountain (五山)",
+        "name": "Wushan (五山)",
+        "long_name": "Wushan (五山)",
         "alternate_names": [
           "Wushan",
           "五山",
@@ -9136,7 +9151,8 @@
           "ng5saan1",
           "ngsaan",
           "wu shan",
-          "ng5 saan1"
+          "ng5 saan1",
+          "Wu Mountain"
         ],
         "line": "gzline10",
         "order": 14,
@@ -9650,8 +9666,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.4344956,
-          22.9406395
+          113.434471,
+          22.940757
         ]
       },
       "properties": {
@@ -9912,8 +9928,8 @@
       },
       "properties": {
         "id": 90110,
-        "name": "Jiao Gate (蕉门)",
-        "long_name": "Jiao Gate (蕉门)",
+        "name": "Jiaomen (蕉门)",
+        "long_name": "Jiaomen (蕉门)",
         "alternate_names": [
           "Jiaomen",
           "蕉门",
@@ -9922,7 +9938,8 @@
           "ziu1mun4",
           "ziumun",
           "jiao men",
-          "ziu1 mun4"
+          "ziu1 mun4",
+          "Jiao Gate"
         ],
         "line": "gzline4",
         "order": 7,
@@ -10164,8 +10181,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3947575,
-          23.0461368
+          113.394627,
+          23.046078
         ]
       },
       "properties": {
@@ -10372,8 +10389,8 @@
       },
       "properties": {
         "id": 90126,
-        "name": "Guan Bridge (官桥)",
-        "long_name": "Guan Bridge (官桥)",
+        "name": "Guanqiao (官桥)",
+        "long_name": "Guanqiao (官桥)",
         "alternate_names": [
           "Guanqiao",
           "官桥",
@@ -10382,7 +10399,8 @@
           "gun1kiu2",
           "gunkiu",
           "guan qiao",
-          "gun1 kiu4"
+          "gun1 kiu4",
+          "Guan Bridge"
         ],
         "line": "gzline4",
         "order": 23,
@@ -10479,8 +10497,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2327811,
-          23.1399562
+          113.232864,
+          23.13986
         ]
       },
       "properties": {
@@ -10508,8 +10526,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2361066,
-          23.1445293
+          113.236224,
+          23.144432
         ]
       },
       "properties": {
@@ -10536,8 +10554,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.252486,
-          23.1501877
+          113.252615,
+          23.150232
         ]
       },
       "properties": {
@@ -10566,14 +10584,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2714218,
-          23.1421364
+          113.271433,
+          23.142291
         ]
       },
       "properties": {
         "id": 90133,
-        "name": "Xiao North (小北)",
-        "long_name": "Xiao North (小北)",
+        "name": "Xiaobei (小北)",
+        "long_name": "Xiaobei (小北)",
         "alternate_names": [
           "Xiaobei",
           "小北",
@@ -10581,7 +10599,8 @@
           "siu2bak1",
           "siubak",
           "xiao bei",
-          "siu2 bak1"
+          "siu2 bak1",
+          "Xiao North"
         ],
         "line": "gzline5",
         "order": 6,
@@ -10680,8 +10699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3026093,
-          23.1300853
+          113.302281,
+          23.130175
         ]
       },
       "properties": {
@@ -11224,8 +11243,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.513202,
-          23.0858023
+          113.51324,
+          23.085665
         ]
       },
       "properties": {
@@ -11481,8 +11500,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2727792,
-          23.1209798
+          113.272783,
+          23.120842
         ]
       },
       "properties": {
@@ -11510,8 +11529,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2901636,
-          23.1264857
+          113.290045,
+          23.126722
         ]
       },
       "properties": {
@@ -12143,8 +12162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2521025,
-          23.1154916
+          113.252136,
+          23.115379
         ]
       },
       "properties": {
@@ -12428,8 +12447,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2738059,
-          22.9970993
+          113.273691,
+          22.997269
         ]
       },
       "properties": {
@@ -12607,8 +12626,8 @@
       },
       "properties": {
         "id": 90202,
-        "name": "Ban Bridge (板桥)",
-        "long_name": "Ban Bridge (板桥)",
+        "name": "Banqiao (板桥)",
+        "long_name": "Banqiao (板桥)",
         "alternate_names": [
           "Banqiao",
           "板桥",
@@ -12617,7 +12636,8 @@
           "baan2kiu4",
           "baankiu",
           "ban qiao",
-          "baan2 kiu4"
+          "baan2 kiu4",
+          "Ban Bridge"
         ],
         "line": "gzline7",
         "order": 15,
@@ -12630,8 +12650,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3947575,
-          23.0461368
+          113.394627,
+          23.046078
         ]
       },
       "properties": {
@@ -12895,8 +12915,8 @@
       },
       "properties": {
         "id": 90212,
-        "name": "Shui West (水西)",
-        "long_name": "Shui West (水西)",
+        "name": "Shuixi (水西)",
+        "long_name": "Shuixi (水西)",
         "alternate_names": [
           "Shuixi",
           "水西",
@@ -12904,7 +12924,8 @@
           "seoi2sai1",
           "seoisai",
           "shui xi",
-          "seoi2 sai1"
+          "seoi2 sai1",
+          "Shui West"
         ],
         "line": "gzline7",
         "order": 26,
@@ -12924,8 +12945,8 @@
       },
       "properties": {
         "id": 90213,
-        "name": "Yan Mountain (燕山)",
-        "long_name": "Yan Mountain (燕山)",
+        "name": "Yanshan (燕山)",
+        "long_name": "Yanshan (燕山)",
         "alternate_names": [
           "Yanshan",
           "燕山",
@@ -12933,7 +12954,8 @@
           "jin1saan1",
           "jinsaan",
           "yan shan",
-          "jin3 saan1"
+          "jin3 saan1",
+          "Yan Mountain"
         ],
         "line": "gzline7",
         "order": 27,
@@ -13205,8 +13227,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2361066,
-          23.1445293
+          113.236224,
+          23.144432
         ]
       },
       "properties": {
@@ -13239,8 +13261,8 @@
       },
       "properties": {
         "id": 90226,
-        "name": "Caihong Bridge (彩虹桥)",
-        "long_name": "Caihong Bridge (彩虹桥)",
+        "name": "Caihongqiao (彩虹桥)",
+        "long_name": "Caihongqiao (彩虹桥)",
         "alternate_names": [
           "Caihong Bridge",
           "彩虹桥",
@@ -13249,7 +13271,8 @@
           "coi2hung4kiu4",
           "coihungkiu",
           "cai hong qiao",
-          "coi2 hung4 kiu4"
+          "coi2 hung4 kiu4",
+          "Caihongqiao"
         ],
         "line": "gzline8",
         "order": 10,
@@ -13291,8 +13314,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2418239,
-          23.1207642
+          113.241694,
+          23.120746
         ]
       },
       "properties": {
@@ -13349,8 +13372,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2470747,
-          23.1043227
+          113.247342,
+          23.104361
         ]
       },
       "properties": {
@@ -13377,8 +13400,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.250602,
-          23.0974684
+          113.250467,
+          23.097379
         ]
       },
       "properties": {
@@ -14809,8 +14832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.93906387655397,
-          22.317547588123276
+          113.939284,
+          22.317619
         ]
       },
       "properties": {
@@ -14856,8 +14879,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.91820302596665,
-          22.325264280618327
+          113.918265,
+          22.325096
         ]
       },
       "properties": {
@@ -14903,8 +14926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.938488631637,
-          22.290395831765
+          113.938431,
+          22.290203
         ]
       },
       "properties": {
@@ -15255,8 +15278,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.128895463739,
-          22.283612538821
+          114.128939,
+          22.283421
         ]
       },
       "properties": {
@@ -15612,8 +15635,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.135061264308,
-          22.287121424339
+          114.134979,
+          22.286954
         ]
       },
       "properties": {
@@ -18443,8 +18466,8 @@
       },
       "properties": {
         "id": 440,
-        "name": "Chun Yueng Street (春秧街)",
-        "long_name": "春秧街 Chun Yueng Street",
+        "name": "Chun Yeung Street (春秧街)",
+        "long_name": "春秧街 Chun Yeung Street",
         "alternate_names": [
           "Chun Yueng Street",
           "Chun Yueng Street Station",
@@ -18469,7 +18492,25 @@
           "春秧街",
           "春秧街站",
           "chun yang jie zhan",
-          "ceon1 joeng1 gaai1 zaam6"
+          "ceon1 joeng1 gaai1 zaam6",
+          "Chun Yeung Street",
+          "Chun Yeung Street Station",
+          "Chun Yeung Street station",
+          "Chun-Yeung-Street",
+          "Chun-Yeung-Street Station",
+          "Chun-Yeung-Street station",
+          "ChunYeungStreet",
+          "ChunYeungStreet Station",
+          "ChunYeungStreet station",
+          "chun yeung street",
+          "chun yeung street Station",
+          "chun yeung street station",
+          "chun-yeung-street",
+          "chun-yeung-street Station",
+          "chun-yeung-street station",
+          "chunyeungstreet",
+          "chunyeungstreet Station",
+          "chunyeungstreet station"
         ],
         "line": "HKT",
         "order": 61,
@@ -19799,8 +19840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.149981073062,
-          22.271216740302
+          114.150134,
+          22.271132
         ]
       },
       "properties": {
@@ -19941,8 +19982,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.13500113640396,
-          22.284011899390542
+          114.134971,
+          22.284189
         ]
       },
       "properties": {
@@ -20058,8 +20099,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1578838,
-          22.2817959
+          114.158072,
+          22.281754
         ]
       },
       "properties": {
@@ -20190,8 +20231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.18501872340813,
-          22.28038327237469
+          114.185057,
+          22.280275
         ]
       },
       "properties": {
@@ -20229,8 +20270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.19169936614944,
-          22.28242942413933
+          114.191946,
+          22.282125
         ]
       },
       "properties": {
@@ -20494,8 +20535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.23987276387923,
-          22.276813148960652
+          114.239743,
+          22.276715
         ]
       },
       "properties": {
@@ -20716,8 +20757,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1683590387622,
-          22.325073609415977
+          114.168176,
+          22.325042
         ]
       },
       "properties": {
@@ -21566,8 +21607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.967092249843,
-          22.39890457835
+          113.967231,
+          22.398878
         ]
       },
       "properties": {
@@ -22190,8 +22231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.972960057253,
-          22.383402879415
+          113.972956,
+          22.383292
         ]
       },
       "properties": {
@@ -24233,8 +24274,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.972960057253,
-          22.383402879415
+          113.972956,
+          22.383292
         ]
       },
       "properties": {
@@ -25335,8 +25376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.972960057253,
-          22.383402879415
+          113.972956,
+          22.383292
         ]
       },
       "properties": {
@@ -25745,8 +25786,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.97837342494,
-          22.412014116922
+          113.978251,
+          22.411514
         ]
       },
       "properties": {
@@ -27652,8 +27693,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.97837342494,
-          22.412014116922
+          113.977908,
+          22.41211
         ]
       },
       "properties": {
@@ -28316,8 +28357,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.004629375815,
-          22.448187201394
+          114.004751,
+          22.448134
         ]
       },
       "properties": {
@@ -28982,8 +29023,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.004629375815,
-          22.448187201394
+          114.004751,
+          22.448134
         ]
       },
       "properties": {
@@ -29665,8 +29706,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.004629375815,
-          22.448187201394
+          114.004751,
+          22.448134
         ]
       },
       "properties": {
@@ -30054,8 +30095,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.004629375815,
-          22.448187201394
+          114.006042,
+          22.449391
         ]
       },
       "properties": {
@@ -30398,8 +30439,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.999186693595,
-          22.466885453104
+          113.998841,
+          22.467079
         ]
       },
       "properties": {
@@ -31389,8 +31430,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1659256,
-          22.278329
+          114.16582,
+          22.278421
         ]
       },
       "properties": {
@@ -31465,8 +31506,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.16800016186689,
-          22.24800532433389
+          114.167885,
+          22.248065
         ]
       },
       "properties": {
@@ -31543,8 +31584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.14868639554415,
-          22.242868288477673
+          114.148877,
+          22.242632
         ]
       },
       "properties": {
@@ -31643,8 +31684,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1579522,
-          22.2852751
+          114.157879,
+          22.285167
         ]
       },
       "properties": {
@@ -31777,8 +31818,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1536484601782,
-          22.326794330032275
+          114.153541,
+          22.326681
         ]
       },
       "properties": {
@@ -31888,8 +31929,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.02886487334575,
-          22.33174232324258
+          114.027291,
+          22.330111
         ]
       },
       "properties": {
@@ -32324,8 +32365,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.25783336734466,
-          22.322510476624217
+          114.257935,
+          22.322579
         ]
       },
       "properties": {
@@ -32598,8 +32639,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.00475345696616,
-          22.4482460534469
+          114.004751,
+          22.448134
         ]
       },
       "properties": {
@@ -32824,8 +32865,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1536484601782,
-          22.326794330032275
+          114.153541,
+          22.326681
         ]
       },
       "properties": {
@@ -33206,8 +33247,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.17805147091714,
-          22.372858580324074
+          114.178176,
+          22.372658
         ]
       },
       "properties": {
@@ -34270,8 +34311,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1683590387622,
-          22.325073609415977
+          114.168176,
+          22.325042
         ]
       },
       "properties": {
@@ -34490,8 +34531,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1583571,
-          22.2818238
+          114.158072,
+          22.281754
         ]
       },
       "properties": {
@@ -34650,7 +34691,7 @@
       },
       "properties": {
         "id": 20019,
-        "name": "Guangming City (光明城)",
+        "name": "Guangmingcheng (光明城)",
         "long_name": "光明城 Guangmingcheng",
         "alternate_names": [
           "Guangmingcheng",
@@ -34658,7 +34699,9 @@
           "光明城",
           "光明城站",
           "guang ming cheng zhan",
-          "gwong1 ming4 sing4 zaam6"
+          "gwong1 ming4 sing4 zaam6",
+          "guangmingcheng",
+          "Guangming City"
         ],
         "line": "XRL",
         "order": 3,
@@ -34782,14 +34825,16 @@
       },
       "properties": {
         "id": 91865,
-        "name": "Binhai Bay (滨海湾)",
-        "long_name": "Binhai Bay (滨海湾)",
+        "name": "Binhaiwan (滨海湾)",
+        "long_name": "Binhaiwan (滨海湾)",
         "alternate_names": [
           "Binhaiwan",
           "滨海湾",
           "bin hai wan",
           "ban1 hoi2 waan1",
-          "濱海灣"
+          "濱海灣",
+          "binhaiwan",
+          "Binhai Bay"
         ],
         "line": "dongguanline2",
         "order": -5,
@@ -34808,14 +34853,16 @@
       },
       "properties": {
         "id": 91866,
-        "name": "Qingchuang City (青创城)",
-        "long_name": "Qingchuang City (青创城)",
+        "name": "Qingchuangcheng (青创城)",
+        "long_name": "Qingchuangcheng (青创城)",
         "alternate_names": [
           "Qingchuangcheng",
           "青创城",
           "qing chuang cheng",
           "cing1 cong3 sing4",
-          "青創城"
+          "青創城",
+          "qingchuangcheng",
+          "Qingchuang City"
         ],
         "line": "dongguanline2",
         "order": -6,
@@ -34888,15 +34935,17 @@
       },
       "properties": {
         "id": 91869,
-        "name": "Jiaoyi Bay (交椅湾)",
-        "long_name": "Jiaoyi Bay (交椅湾)",
+        "name": "Jiaoyiwan (交椅湾)",
+        "long_name": "Jiaoyiwan (交椅湾)",
         "alternate_names": [
           "Jiaoyiwan",
           "交椅湾",
           "jiao yi wan",
           "gaau1 ji5 waan1",
           "交椅灣",
-          "gaau1 ji2 waan1"
+          "gaau1 ji2 waan1",
+          "jiaoyiwan",
+          "Jiaoyi Bay"
         ],
         "line": "dongguanline2",
         "order": -9,
@@ -34942,14 +34991,16 @@
       },
       "properties": {
         "id": 91871,
-        "name": "Baiyun Mountain (白云山)",
-        "long_name": "Baiyun Mountain (白云山)",
+        "name": "Baiyunshan (白云山)",
+        "long_name": "Baiyunshan (白云山)",
         "alternate_names": [
           "Baiyun Mountain",
           "白云山",
           "bai yun shan",
           "baak6 wan4 saan1",
-          "白雲山"
+          "白雲山",
+          "Baiyunshan",
+          "baiyunshan"
         ],
         "line": "gzcw_cable",
         "order": 1,
@@ -35045,7 +35096,7 @@
       },
       "properties": {
         "id": 20020,
-        "name": "Hu Gate (虎门)",
+        "name": "Humen (虎门)",
         "long_name": "虎门 Humen",
         "alternate_names": [
           "Humen",
@@ -35054,7 +35105,9 @@
           "虎门站",
           "虎門站",
           "hu men zhan",
-          "fu2 mun4 zaam6"
+          "fu2 mun4 zaam6",
+          "humen",
+          "Hu Gate"
         ],
         "line": "XRL",
         "order": 4,
@@ -35096,8 +35149,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2640375,
-          22.9914143
+          113.264441,
+          22.991653
         ]
       },
       "properties": {
@@ -35239,8 +35292,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.4152782,
-          23.1190798
+          113.415217,
+          23.118983
         ]
       },
       "properties": {
@@ -35325,8 +35378,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.513202,
-          23.0858023
+          113.51324,
+          23.085665
         ]
       },
       "properties": {
@@ -35439,8 +35492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.5990559,
-          23.1345416
+          113.599088,
+          23.134388
         ]
       },
       "properties": {
@@ -35558,8 +35611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3228445,
-          23.1284496
+          113.322911,
+          23.129448
         ]
       },
       "properties": {
@@ -35621,8 +35674,8 @@
       },
       "properties": {
         "id": 90574,
-        "name": "Caihong Bridge (彩虹桥)",
-        "long_name": "Caihong Bridge (彩虹桥)",
+        "name": "Caihongqiao (彩虹桥)",
+        "long_name": "Caihongqiao (彩虹桥)",
         "alternate_names": [
           "Caihong Bridge",
           "彩虹桥",
@@ -35631,7 +35684,8 @@
           "coi2hung4kiu4",
           "coihungkiu",
           "cai hong qiao",
-          "coi2 hung4 kiu4"
+          "coi2 hung4 kiu4",
+          "Caihongqiao"
         ],
         "line": "gzline13",
         "order": 17,
@@ -35644,8 +35698,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2327811,
-          23.1399562
+          113.232864,
+          23.13986
         ]
       },
       "properties": {
@@ -35794,8 +35848,8 @@
       },
       "properties": {
         "id": 90437,
-        "name": "Xin City East (新城东)",
-        "long_name": "Xin City East (新城东)",
+        "name": "Xincheng East (新城东)",
+        "long_name": "Xincheng East (新城东)",
         "alternate_names": [
           "Xincheng Dong",
           "新城东",
@@ -35804,7 +35858,10 @@
           "san1sing4dung1",
           "sansingdung",
           "xin cheng dong",
-          "san1 sing4 dung1"
+          "san1 sing4 dung1",
+          "Xincheng East",
+          "xincheng east",
+          "Xin City East"
         ],
         "line": "fs_guangfo",
         "order": 0,
@@ -36081,8 +36138,8 @@
       },
       "properties": {
         "id": 90447,
-        "name": "Gui City (桂城)",
-        "long_name": "Gui City (桂城)",
+        "name": "Guicheng (桂城)",
+        "long_name": "Guicheng (桂城)",
         "alternate_names": [
           "Guicheng",
           "桂城",
@@ -36090,7 +36147,8 @@
           "gwai3sing4",
           "gwaising",
           "gui cheng",
-          "gwai3 sing4"
+          "gwai3 sing4",
+          "Gui City"
         ],
         "line": "fs_guangfo",
         "order": 10,
@@ -36248,8 +36306,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.226382,
-          23.068901
+          113.226574,
+          23.068862
         ]
       },
       "properties": {
@@ -36477,8 +36535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3139361,
-          23.0571656
+          113.313974,
+          23.057393
         ]
       },
       "properties": {
@@ -36594,8 +36652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.0501119,
-          23.0136753
+          113.050308,
+          23.013699
         ]
       },
       "properties": {
@@ -36657,8 +36715,8 @@
       },
       "properties": {
         "id": 90468,
-        "name": "Shi Bay (石湾)",
-        "long_name": "Shi Bay (石湾)",
+        "name": "Shiwan (石湾)",
+        "long_name": "Shiwan (石湾)",
         "alternate_names": [
           "Shiwan",
           "石湾",
@@ -36667,7 +36725,8 @@
           "sek6waan1",
           "sekwaan",
           "shi wan",
-          "sek6 waan1"
+          "sek6 waan1",
+          "Shi Bay"
         ],
         "line": "fs_line2",
         "order": 5,
@@ -36938,8 +36997,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2443459,
-          22.9966962
+          113.244346,
+          22.996821
         ]
       },
       "properties": {
@@ -37032,8 +37091,8 @@
       },
       "properties": {
         "id": 90520,
-        "name": "Xia West (夏西)",
-        "long_name": "Xia West (夏西)",
+        "name": "Xiaxi (夏西)",
+        "long_name": "Xiaxi (夏西)",
         "alternate_names": [
           "Xiaxi",
           "夏西",
@@ -37041,7 +37100,8 @@
           "haa6sai1",
           "haasai",
           "xia xi",
-          "haa6 sai1"
+          "haa6 sai1",
+          "Xia West"
         ],
         "line": "fs_tnh1",
         "order": 1,
@@ -37060,8 +37120,8 @@
       },
       "properties": {
         "id": 90521,
-        "name": "Xia East (夏东)",
-        "long_name": "Xia East (夏东)",
+        "name": "Xiadong (夏东)",
+        "long_name": "Xiadong (夏东)",
         "alternate_names": [
           "Xiadong",
           "夏东",
@@ -37070,7 +37130,8 @@
           "haa6dung1",
           "haadung",
           "xia dong",
-          "haa6 dung1"
+          "haa6 dung1",
+          "Xia East"
         ],
         "line": "fs_tnh1",
         "order": 2,
@@ -37118,8 +37179,8 @@
       },
       "properties": {
         "id": 90523,
-        "name": "Ping West (平西)",
-        "long_name": "Ping West (平西)",
+        "name": "Pingxi (平西)",
+        "long_name": "Pingxi (平西)",
         "alternate_names": [
           "Pingxi",
           "平西",
@@ -37127,7 +37188,8 @@
           "peng4sai1",
           "pengsai",
           "ping xi",
-          "peng4 sai1"
+          "peng4 sai1",
+          "Ping West"
         ],
         "line": "fs_tnh1",
         "order": 4,
@@ -37146,8 +37208,8 @@
       },
       "properties": {
         "id": 90524,
-        "name": "Ping South (平南)",
-        "long_name": "Ping South (平南)",
+        "name": "Pingnan (平南)",
+        "long_name": "Pingnan (平南)",
         "alternate_names": [
           "Pingnan",
           "平南",
@@ -37155,7 +37217,8 @@
           "ping4naam4",
           "pingnaam",
           "ping nan",
-          "peng4 naam4"
+          "peng4 naam4",
+          "Ping South"
         ],
         "line": "fs_tnh1",
         "order": 5,
@@ -37231,8 +37294,8 @@
       },
       "properties": {
         "id": 90527,
-        "name": "Sanshanxin City North (三山新城北)",
-        "long_name": "Sanshanxin City North (三山新城北)",
+        "name": "Sanshanxincheng North (三山新城北)",
+        "long_name": "Sanshanxincheng North (三山新城北)",
         "alternate_names": [
           "Sanshanxinchengbei",
           "三山新城北",
@@ -37240,7 +37303,10 @@
           "saam1saan1san1sing4bak1",
           "saamsaansansingbak",
           "san shan xin cheng bei",
-          "saam1 saan1 san1 sing4 bak1"
+          "saam1 saan1 san1 sing4 bak1",
+          "Sanshanxincheng North",
+          "sanshanxincheng north",
+          "Sanshanxin City North"
         ],
         "line": "fs_tnh1",
         "order": 8,
@@ -37253,8 +37319,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.1499495,
-          23.04518
+          113.150484,
+          23.044455
         ]
       },
       "properties": {
@@ -37289,8 +37355,8 @@
       },
       "properties": {
         "id": 90529,
-        "name": "Sanshanxin City South (三山新城南)",
-        "long_name": "Sanshanxin City South (三山新城南)",
+        "name": "Sanshanxincheng South (三山新城南)",
+        "long_name": "Sanshanxincheng South (三山新城南)",
         "alternate_names": [
           "Sanshanxinchengnan",
           "三山新城南",
@@ -37298,7 +37364,10 @@
           "saam1saan1san1sing4naam4",
           "saamsaansansingnaam",
           "san shan xin cheng nan",
-          "saam1 saan1 san1 sing4 naam4"
+          "saam1 saan1 san1 sing4 naam4",
+          "Sanshanxincheng South",
+          "sanshanxincheng south",
+          "Sanshanxin City South"
         ],
         "line": "fs_tnh1",
         "order": 10,
@@ -37398,8 +37467,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2443459,
-          22.9966962
+          113.244346,
+          22.996821
         ]
       },
       "properties": {
@@ -37949,8 +38018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.4954677,
-          23.1787084
+          113.494574,
+          23.178459
         ]
       },
       "properties": {
@@ -38071,8 +38140,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1097317,
-          22.5474266
+          114.109742,
+          22.547584
         ]
       },
       "properties": {
@@ -38134,8 +38203,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0897584,
-          22.54331
+          114.089762,
+          22.543147
         ]
       },
       "properties": {
@@ -38262,8 +38331,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0478007,
-          22.5362838
+          114.047784,
+          22.537307
         ]
       },
       "properties": {
@@ -38420,8 +38489,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9804886,
-          22.5364467
+          113.980484,
+          22.536265
         ]
       },
       "properties": {
@@ -38452,8 +38521,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.969307,
-          22.539854
+          113.969395,
+          22.539743
         ]
       },
       "properties": {
@@ -38648,7 +38717,7 @@
       },
       "properties": {
         "id": 91020,
-        "name": "Liyu Gate (鲤鱼门)",
+        "name": "Liyumen (鲤鱼门)",
         "long_name": "鲤鱼门 Liyumen",
         "alternate_names": [
           "Liyumen",
@@ -38661,7 +38730,8 @@
           "leijyumun",
           "鯉魚門站",
           "li yu men zhan",
-          "lei5 jyu2 mun4 zaam6"
+          "lei5 jyu2 mun4 zaam6",
+          "Liyu Gate"
         ],
         "line": "szline1",
         "order": 20,
@@ -38674,13 +38744,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8927681,
-          22.5403059
+          113.89291,
+          22.540307
         ]
       },
       "properties": {
         "id": 91021,
-        "name": "Qianhai Bay (前海湾)",
+        "name": "Qianhaiwan (前海湾)",
         "long_name": "前海湾 Qianhaiwan",
         "alternate_names": [
           "Qianhaiwan",
@@ -38693,7 +38763,8 @@
           "cinhoiwaan",
           "前海灣站",
           "qian hai wan zhan",
-          "cin4 hoi2 waan1 zaam6"
+          "cin4 hoi2 waan1 zaam6",
+          "Qianhai Bay"
         ],
         "line": "szline1",
         "order": 21,
@@ -38927,8 +38998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8176005,
-          22.6499762
+          113.81749,
+          22.649925
         ]
       },
       "properties": {
@@ -38965,7 +39036,7 @@
       },
       "properties": {
         "id": 91030,
-        "name": "Chi Bay (赤湾)",
+        "name": "Chiwan (赤湾)",
         "long_name": "赤湾 Chiwan",
         "alternate_names": [
           "Chiwan",
@@ -38978,7 +39049,8 @@
           "cekwaan",
           "赤灣站",
           "chi wan zhan",
-          "cek3 waan1 zaam6"
+          "cek3 waan1 zaam6",
+          "Chi Bay"
         ],
         "line": "szline2",
         "order": 0,
@@ -39059,7 +39131,7 @@
       },
       "properties": {
         "id": 91033,
-        "name": "Shui Bay (水湾)",
+        "name": "Shuiwan (水湾)",
         "long_name": "水湾 Shuiwan",
         "alternate_names": [
           "Shuiwan",
@@ -39072,7 +39144,8 @@
           "seoiwaan",
           "水灣站",
           "shui wan zhan",
-          "seoi2 waan1 zaam6"
+          "seoi2 waan1 zaam6",
+          "Shui Bay"
         ],
         "line": "szline2",
         "order": 3,
@@ -39085,8 +39158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9264123,
-          22.4891582
+          113.926347,
+          22.489049
         ]
       },
       "properties": {
@@ -39211,8 +39284,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9386365,
-          22.521189
+          113.935941,
+          22.521822
         ]
       },
       "properties": {
@@ -39280,7 +39353,7 @@
       },
       "properties": {
         "id": 91040,
-        "name": "Hongshu Bay (红树湾)",
+        "name": "Hongshuwan (红树湾)",
         "long_name": "红树湾 Hongshuwan",
         "alternate_names": [
           "Hongshuwan",
@@ -39293,7 +39366,8 @@
           "hungsyuwaan",
           "紅樹灣站",
           "hong shu wan zhan",
-          "hung4 syu6 waan1 zaam6"
+          "hung4 syu6 waan1 zaam6",
+          "Hongshu Bay"
         ],
         "line": "szline2",
         "order": 10,
@@ -39306,8 +39380,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.969307,
-          22.539854
+          113.969395,
+          22.539743
         ]
       },
       "properties": {
@@ -39589,8 +39663,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0511799,
-          22.5413178
+          114.051167,
+          22.542863
         ]
       },
       "properties": {
@@ -39721,7 +39795,7 @@
       },
       "properties": {
         "id": 91054,
-        "name": "Yan South (燕南)",
+        "name": "Yannan (燕南)",
         "long_name": "燕南 Yannan",
         "alternate_names": [
           "Yannan",
@@ -39733,7 +39807,8 @@
           "jin1naam4",
           "jinnaam",
           "yan nan zhan",
-          "jin3 naam4 zaam6"
+          "jin3 naam4 zaam6",
+          "Yan South"
         ],
         "line": "szline2",
         "order": 24,
@@ -39746,8 +39821,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1029063,
-          22.5437514
+          114.102885,
+          22.54387
         ]
       },
       "properties": {
@@ -40288,8 +40363,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1097952,
-          22.5477035
+          114.109742,
+          22.547584
         ]
       },
       "properties": {
@@ -40519,7 +40594,7 @@
       },
       "properties": {
         "id": 91078,
-        "name": "Mumian Bay (木棉湾)",
+        "name": "Mumianwan (木棉湾)",
         "long_name": "木棉湾 Mumianwan",
         "alternate_names": [
           "Mumianwan",
@@ -40532,7 +40607,8 @@
           "mukminwaan",
           "木棉灣站",
           "mu mian wan zhan",
-          "muk6 min4 waan1 zaam6"
+          "muk6 min4 waan1 zaam6",
+          "Mumian Bay"
         ],
         "line": "szline3",
         "order": 17,
@@ -40640,8 +40716,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1877011,
-          22.6423791
+          114.187816,
+          22.642163
         ]
       },
       "properties": {
@@ -41019,25 +41095,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.1905436,
-          23.0307196
+          114.27713,
+          22.76586
         ]
       },
       "properties": {
         "id": 91094,
-        "name": "Ping West (坪西)",
+        "name": "Pingxi (坪西)",
         "long_name": "坪西 Pingxi",
         "alternate_names": [
           "Pingxi",
-          "坪西",
           "Pingxi Station",
-          "坪西站",
-          "坪西",
           "pingxi",
-          "ping4sai1",
-          "pingsai",
-          "ping xi zhan",
-          "ping4 sai1 zaam6"
+          "pingxi",
+          "坪西",
+          "坪西站",
+          "ping xi"
         ],
         "line": "szline3",
         "order": 33,
@@ -41368,8 +41441,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0553309,
-          22.5711039
+          114.054345,
+          22.57121
         ]
       },
       "properties": {
@@ -41399,8 +41472,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0435655,
-          22.596962
+          114.043792,
+          22.597075
         ]
       },
       "properties": {
@@ -41463,8 +41536,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0239469,
-          22.6120365
+          114.025162,
+          22.613035
         ]
       },
       "properties": {
@@ -41500,7 +41573,7 @@
       },
       "properties": {
         "id": 91108,
-        "name": "Hong Mountain (红山)",
+        "name": "Hongshan (红山)",
         "long_name": "红山 Hongshan",
         "alternate_names": [
           "Hongshan",
@@ -41513,7 +41586,8 @@
           "hungsaan",
           "紅山站",
           "hong shan zhan",
-          "hung4 saan1 zaam6"
+          "hung4 saan1 zaam6",
+          "Hong Mountain"
         ],
         "line": "szline4",
         "order": 10,
@@ -41910,7 +41984,7 @@
       },
       "properties": {
         "id": 91121,
-        "name": "Chi Bay (赤湾)",
+        "name": "Chiwan (赤湾)",
         "long_name": "赤湾 Chiwan",
         "alternate_names": [
           "Chiwan",
@@ -41923,7 +41997,8 @@
           "cekwaan",
           "赤灣站",
           "chi wan zhan",
-          "cek3 waan1 zaam6"
+          "cek3 waan1 zaam6",
+          "Chi Bay"
         ],
         "line": "szline5",
         "order": 0,
@@ -41942,7 +42017,7 @@
       },
       "properties": {
         "id": 91122,
-        "name": "Li Bay (荔湾)",
+        "name": "Liwan (荔湾)",
         "long_name": "荔湾 Liwan",
         "alternate_names": [
           "Liwan",
@@ -41955,7 +42030,8 @@
           "laiwaan",
           "荔灣站",
           "li wan zhan",
-          "lai6 waan1 zaam6"
+          "lai6 waan1 zaam6",
+          "Li Bay"
         ],
         "line": "szline5",
         "order": 1,
@@ -42006,7 +42082,7 @@
       },
       "properties": {
         "id": 91124,
-        "name": "Ma Bay (妈湾)",
+        "name": "Mawan (妈湾)",
         "long_name": "妈湾 Mawan",
         "alternate_names": [
           "Mawan",
@@ -42019,7 +42095,8 @@
           "maawaan",
           "媽灣站",
           "ma wan zhan",
-          "maa1 waan1 zaam6"
+          "maa1 waan1 zaam6",
+          "Ma Bay"
         ],
         "line": "szline5",
         "order": 3,
@@ -42070,7 +42147,7 @@
       },
       "properties": {
         "id": 91126,
-        "name": "Qian Bay (前湾)",
+        "name": "Qianwan (前湾)",
         "long_name": "前湾 Qianwan",
         "alternate_names": [
           "Qianwan",
@@ -42083,7 +42160,8 @@
           "cinwaan",
           "前灣站",
           "qian wan zhan",
-          "cin4 waan1 zaam6"
+          "cin4 waan1 zaam6",
+          "Qian Bay"
         ],
         "line": "szline5",
         "order": 5,
@@ -42102,7 +42180,7 @@
       },
       "properties": {
         "id": 91127,
-        "name": "Gui Bay (桂湾)",
+        "name": "Guiwan (桂湾)",
         "long_name": "桂湾 Guiwan",
         "alternate_names": [
           "Guiwan",
@@ -42115,7 +42193,8 @@
           "gwaiwaan",
           "桂灣站",
           "gui wan zhan",
-          "gwai3 waan1 zaam6"
+          "gwai3 waan1 zaam6",
+          "Gui Bay"
         ],
         "line": "szline5",
         "order": 6,
@@ -42128,13 +42207,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8927681,
-          22.5403059
+          113.89291,
+          22.540307
         ]
       },
       "properties": {
         "id": 91128,
-        "name": "Qianhai Bay (前海湾)",
+        "name": "Qianhaiwan (前海湾)",
         "long_name": "前海湾 Qianhaiwan",
         "alternate_names": [
           "Qianhaiwan",
@@ -42147,7 +42226,8 @@
           "cinhoiwaan",
           "前海灣站",
           "qian hai wan zhan",
-          "cin4 hoi2 waan1 zaam6"
+          "cin4 hoi2 waan1 zaam6",
+          "Qianhai Bay"
         ],
         "line": "szline5",
         "order": 7,
@@ -42356,7 +42436,7 @@
       },
       "properties": {
         "id": 91135,
-        "name": "Xing East (兴东)",
+        "name": "Xingdong (兴东)",
         "long_name": "兴东 Xingdong",
         "alternate_names": [
           "Xingdong",
@@ -42369,7 +42449,8 @@
           "hingdung",
           "興東站",
           "xing dong zhan",
-          "hing1 dung1 zaam6"
+          "hing1 dung1 zaam6",
+          "Xing East"
         ],
         "line": "szline5",
         "order": 14,
@@ -42539,8 +42620,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0360964,
-          22.6203757
+          114.035905,
+          22.620239
         ]
       },
       "properties": {
@@ -42991,7 +43072,7 @@
       },
       "properties": {
         "id": 91155,
-        "name": "East Gate (东门)",
+        "name": "Dongmen (东门)",
         "long_name": "东门 Dongmen",
         "alternate_names": [
           "Dongmen",
@@ -43004,7 +43085,8 @@
           "dungmun",
           "東門站",
           "dong men zhan",
-          "dung1 mun4 zaam6"
+          "dung1 mun4 zaam6",
+          "East Gate"
         ],
         "line": "szline5",
         "order": 35,
@@ -43017,8 +43099,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.102858,
-          22.5440073
+          114.102885,
+          22.54387
         ]
       },
       "properties": {
@@ -43049,8 +43131,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0897584,
-          22.54331
+          114.091175,
+          22.543321
         ]
       },
       "properties": {
@@ -43273,8 +43355,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0239469,
-          22.6120365
+          114.025162,
+          22.613035
         ]
       },
       "properties": {
@@ -43310,7 +43392,7 @@
       },
       "properties": {
         "id": 91165,
-        "name": "Hong Mountain (红山)",
+        "name": "Hongshan (红山)",
         "long_name": "红山 Hongshan",
         "alternate_names": [
           "Hongshan",
@@ -43323,7 +43405,8 @@
           "hungsaan",
           "紅山站",
           "hong shan zhan",
-          "hung4 saan1 zaam6"
+          "hung4 saan1 zaam6",
+          "Hong Mountain"
         ],
         "line": "szline6",
         "order": 8,
@@ -43404,8 +43487,8 @@
       },
       "properties": {
         "id": 91168,
-        "name": "Yangtai Mountain East (阳台山东)",
-        "long_name": "阳台山东 Yangtai Mountain East",
+        "name": "Yangtaishan East (阳台山东)",
+        "long_name": "阳台山东 Yangtaishan East",
         "alternate_names": [
           "Yangtai Mountain East",
           "阳台山东",
@@ -43417,7 +43500,9 @@
           "joengtoisaandung",
           "陽台山東站",
           "yang tai shan dong zhan",
-          "joeng4 toi4 saan1 dung1 zaam6"
+          "joeng4 toi4 saan1 dung1 zaam6",
+          "Yangtaishan East",
+          "yangtaishan east"
         ],
         "line": "szline6",
         "order": 11,
@@ -43688,7 +43773,7 @@
       },
       "properties": {
         "id": 91177,
-        "name": "Honghua Mountain (红花山)",
+        "name": "Honghuashan (红花山)",
         "long_name": "红花山 Honghuashan",
         "alternate_names": [
           "Honghuashan",
@@ -43701,7 +43786,8 @@
           "hungfaasaan",
           "紅花山站",
           "hong hua shan zhan",
-          "hung4 faa1 saan1 zaam6"
+          "hung4 faa1 saan1 zaam6",
+          "Honghua Mountain"
         ],
         "line": "szline6",
         "order": 20,
@@ -43935,8 +44021,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2878149,
-          23.0946242
+          113.9485,
+          22.79935
         ]
       },
       "properties": {
@@ -43945,15 +44031,12 @@
         "long_name": "中大 Sun Yat-sen University",
         "alternate_names": [
           "Sun Yat-sen University",
-          "中大",
           "Sun Yat-sen University Station",
-          "中大站",
+          "sun yat-sen university",
+          "sunyat-senuniversity",
           "中大",
-          "zhongda",
-          "zung1daai6",
-          "zungdaai",
-          "zhong da zhan",
-          "zung1 daai6 zaam6"
+          "中大站",
+          "zhong da"
         ],
         "line": "szline6b",
         "order": 1,
@@ -44097,7 +44180,7 @@
       },
       "properties": {
         "id": 91190,
-        "name": "Guangming City (光明城)",
+        "name": "Guangmingcheng (光明城)",
         "long_name": "光明城 Guangmingcheng",
         "alternate_names": [
           "Guangmingcheng",
@@ -44109,7 +44192,8 @@
           "gwong1ming4sing4",
           "gwongmingsing",
           "guang ming cheng zhan",
-          "gwong1 ming4 sing4 zaam6"
+          "gwong1 ming4 sing4 zaam6",
+          "Guangming City"
         ],
         "line": "szline6b",
         "order": 6,
@@ -44564,8 +44648,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0483506,
-          22.5264418
+          114.048359,
+          22.52582
         ]
       },
       "properties": {
@@ -44628,8 +44712,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0630578,
-          22.5278525
+          114.063086,
+          22.525939
         ]
       },
       "properties": {
@@ -44755,8 +44839,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0802516,
-          22.547012
+          114.081602,
+          22.547048
         ]
       },
       "properties": {
@@ -44851,8 +44935,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0888249,
-          22.5633903
+          114.088804,
+          22.564471
         ]
       },
       "properties": {
@@ -45079,8 +45163,8 @@
       },
       "properties": {
         "id": 91221,
-        "name": "Wutong Mountain South (梧桐山南)",
-        "long_name": "梧桐山南 Wutong Mountain South",
+        "name": "Wutongshan South (梧桐山南)",
+        "long_name": "梧桐山南 Wutongshan South",
         "alternate_names": [
           "Wutong Mountain South",
           "梧桐山南",
@@ -45091,7 +45175,9 @@
           "ng4tung4saan1naam4",
           "ngtungsaannaam",
           "wu tong shan nan zhan",
-          "ng4 tung4 saan1 naam4 zaam6"
+          "ng4 tung4 saan1 naam4 zaam6",
+          "Wutongshan South",
+          "wutongshan south"
         ],
         "line": "szline8",
         "order": 1,
@@ -45142,7 +45228,7 @@
       },
       "properties": {
         "id": 91223,
-        "name": "Hai Mountain (海山)",
+        "name": "Haishan (海山)",
         "long_name": "海山 Haishan",
         "alternate_names": [
           "Haishan",
@@ -45154,7 +45240,8 @@
           "hoi2saan1",
           "hoisaan",
           "hai shan zhan",
-          "hoi2 saan1 zaam6"
+          "hoi2 saan1 zaam6",
+          "Hai Mountain"
         ],
         "line": "szline8",
         "order": 3,
@@ -45565,7 +45652,7 @@
       },
       "properties": {
         "id": 91232,
-        "name": "Qian Bay (前湾)",
+        "name": "Qianwan (前湾)",
         "long_name": "前湾 Qianwan",
         "alternate_names": [
           "Qianwan",
@@ -45578,7 +45665,8 @@
           "cinwaan",
           "前灣站",
           "qian wan zhan",
-          "cin4 waan1 zaam6"
+          "cin4 waan1 zaam6",
+          "Qian Bay"
         ],
         "line": "szline9",
         "order": 0,
@@ -45816,7 +45904,7 @@
       },
       "properties": {
         "id": 91240,
-        "name": "Yuehai Gate (粤海门)",
+        "name": "Yuehaimen (粤海门)",
         "long_name": "粤海门 Yuehaimen",
         "alternate_names": [
           "Yuehaimen",
@@ -45829,7 +45917,8 @@
           "jyuthoimun",
           "粵海門站",
           "yue hai men zhan",
-          "jyut6 hoi2 mun4 zaam6"
+          "jyut6 hoi2 mun4 zaam6",
+          "Yuehai Gate"
         ],
         "line": "szline9",
         "order": 8,
@@ -45911,7 +46000,7 @@
       },
       "properties": {
         "id": 91243,
-        "name": "Shen Bay (深湾)",
+        "name": "Shenwan (深湾)",
         "long_name": "深湾 Shenwan",
         "alternate_names": [
           "Shenwan",
@@ -45924,7 +46013,8 @@
           "samwaan",
           "深灣站",
           "shen wan zhan",
-          "sam1 waan1 zaam6"
+          "sam1 waan1 zaam6",
+          "Shen Bay"
         ],
         "line": "szline9",
         "order": 11,
@@ -46218,8 +46308,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0617322,
-          22.5700289
+          114.061724,
+          22.571113
         ]
       },
       "properties": {
@@ -47209,7 +47299,7 @@
       },
       "properties": {
         "id": 91284,
-        "name": "Huanan City (华南城)",
+        "name": "Huanancheng (华南城)",
         "long_name": "华南城 Huanancheng",
         "alternate_names": [
           "Huanancheng",
@@ -47222,7 +47312,8 @@
           "waanaamsing",
           "華南城站",
           "hua nan cheng zhan",
-          "waa4 naam4 sing4 zaam6"
+          "waa4 naam4 sing4 zaam6",
+          "Huanan City"
         ],
         "line": "szline10",
         "order": 21,
@@ -47454,7 +47545,7 @@
       },
       "properties": {
         "id": 91290,
-        "name": "Ma’an Mountain (马安山)",
+        "name": "Ma'anshan (马安山)",
         "long_name": "马安山 Ma’anshan",
         "alternate_names": [
           "Ma’anshan",
@@ -47469,7 +47560,9 @@
           "ma an shan zhan",
           "maa5on1saan1",
           "maaonsaan",
-          "maa5 on1 saan1 zaam6"
+          "maa5 on1 saan1 zaam6",
+          "ma'anshan",
+          "Ma’an Mountain"
         ],
         "line": "szline11",
         "order": 4,
@@ -47646,7 +47739,7 @@
       },
       "properties": {
         "id": 91296,
-        "name": "Bihai Bay (碧海湾)",
+        "name": "Bihaiwan (碧海湾)",
         "long_name": "碧海湾 Bihaiwan",
         "alternate_names": [
           "Bihaiwan",
@@ -47659,7 +47752,8 @@
           "bikhoiwaan",
           "碧海灣站",
           "bi hai wan zhan",
-          "bik1 hoi2 waan1 zaam6"
+          "bik1 hoi2 waan1 zaam6",
+          "Bihai Bay"
         ],
         "line": "szline11",
         "order": 10,
@@ -47704,13 +47798,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8927681,
-          22.5403059
+          113.89252,
+          22.540302
         ]
       },
       "properties": {
         "id": 91298,
-        "name": "Qianhai Bay (前海湾)",
+        "name": "Qianhaiwan (前海湾)",
         "long_name": "前海湾 Qianhaiwan",
         "alternate_names": [
           "Qianhaiwan",
@@ -47723,7 +47817,8 @@
           "cinhoiwaan",
           "前海灣站",
           "qian hai wan zhan",
-          "cin4 hoi2 waan1 zaam6"
+          "cin4 hoi2 waan1 zaam6",
+          "Qianhai Bay"
         ],
         "line": "szline11",
         "order": 12,
@@ -47742,7 +47837,7 @@
       },
       "properties": {
         "id": 91299,
-        "name": "Nan Mountain (南山)",
+        "name": "Nanshan (南山)",
         "long_name": "南山 Nanshan",
         "alternate_names": [
           "Nanshan",
@@ -47754,7 +47849,8 @@
           "naam4saan1",
           "naamsaan",
           "nan shan zhan",
-          "naam4 saan1 zaam6"
+          "naam4 saan1 zaam6",
+          "Nan Mountain"
         ],
         "line": "szline11",
         "order": 13,
@@ -47863,8 +47959,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0511799,
-          22.5413178
+          114.051167,
+          22.542863
         ]
       },
       "properties": {
@@ -48027,7 +48123,7 @@
       },
       "properties": {
         "id": 91308,
-        "name": "Taizi Bay (太子湾)",
+        "name": "Taiziwan (太子湾)",
         "long_name": "太子湾 Taiziwan",
         "alternate_names": [
           "Taiziwan",
@@ -48040,7 +48136,8 @@
           "taaiziwaan",
           "太子灣站",
           "tai zi wan zhan",
-          "taai3 zi2 waan1 zaam6"
+          "taai3 zi2 waan1 zaam6",
+          "Taizi Bay"
         ],
         "line": "szline12",
         "order": 1,
@@ -48090,7 +48187,7 @@
       },
       "properties": {
         "id": 91310,
-        "name": "Huaguo Mountain (花果山)",
+        "name": "Huaguoshan (花果山)",
         "long_name": "花果山 Huaguoshan",
         "alternate_names": [
           "Huaguoshan",
@@ -48102,7 +48199,8 @@
           "faa1gwo2saan1",
           "faagwosaan",
           "hua guo shan zhan",
-          "faa1 gwo2 saan1 zaam6"
+          "faa1 gwo2 saan1 zaam6",
+          "Huaguo Mountain"
         ],
         "line": "szline12",
         "order": 3,
@@ -48214,7 +48312,7 @@
       },
       "properties": {
         "id": 91314,
-        "name": "Nan Mountain (南山)",
+        "name": "Nanshan (南山)",
         "long_name": "南山 Nanshan",
         "alternate_names": [
           "Nanshan",
@@ -48226,7 +48324,8 @@
           "naam4saan1",
           "naamsaan",
           "nan shan zhan",
-          "naam4 saan1 zaam6"
+          "naam4 saan1 zaam6",
+          "Nan Mountain"
         ],
         "line": "szline12",
         "order": 7,
@@ -48462,8 +48561,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8846491,
-          22.5866899
+          113.88449,
+          22.586923
         ]
       },
       "properties": {
@@ -48717,8 +48816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8176005,
-          22.6499762
+          113.81749,
+          22.649925
         ]
       },
       "properties": {
@@ -48876,8 +48975,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.7844909,
-          22.6928022
+          113.784461,
+          22.691256
         ]
       },
       "properties": {
@@ -49225,8 +49324,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9264123,
-          22.4891582
+          113.926347,
+          22.489049
         ]
       },
       "properties": {
@@ -49390,7 +49489,7 @@
       },
       "properties": {
         "id": 91351,
-        "name": "Yuehai Gate (粤海门)",
+        "name": "Yuehaimen (粤海门)",
         "long_name": "粤海门 Yuehaimen",
         "alternate_names": [
           "Yuehaimen",
@@ -49403,7 +49502,8 @@
           "jyuthoimun",
           "粵海門站",
           "yue hai men zhan",
-          "jyut6 hoi2 mun4 zaam6"
+          "jyut6 hoi2 mun4 zaam6",
+          "Yuehai Gate"
         ],
         "line": "szline13",
         "order": 7,
@@ -49416,8 +49516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9389034,
-          22.5411039
+          113.940581,
+          22.541123
         ]
       },
       "properties": {
@@ -49761,8 +49861,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0821888,
-          22.5585802
+          114.081844,
+          22.558782
         ]
       },
       "properties": {
@@ -49957,8 +50057,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.2087583,
-          22.6718343
+          114.208875,
+          22.671801
         ]
       },
       "properties": {
@@ -49988,8 +50088,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.2224274,
-          22.6885654
+          114.222194,
+          22.6886
         ]
       },
       "properties": {
@@ -50051,8 +50151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.272893,
-          22.6907639
+          114.272892,
+          22.690939
         ]
       },
       "properties": {
@@ -50083,8 +50183,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.2929874,
-          22.6911903
+          114.292985,
+          22.691321
         ]
       },
       "properties": {
@@ -50115,8 +50215,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.235791,
-          22.9567914
+          114.329427,
+          22.682887
         ]
       },
       "properties": {
@@ -50125,16 +50225,12 @@
         "long_name": "锦龙 Jinlong",
         "alternate_names": [
           "Jinlong",
-          "锦龙",
           "Jinlong Station",
-          "锦龙站",
-          "錦龍",
           "jinlong",
-          "gam2lung4",
-          "gamlung",
-          "錦龍站",
-          "jin long zhan",
-          "gam2 lung4 zaam6"
+          "jinlong",
+          "锦龙",
+          "锦龙站",
+          "jin long"
         ],
         "line": "szline14",
         "order": 12,
@@ -50147,8 +50243,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.3387403,
-          22.6939867
+          114.338933,
+          22.693913
         ]
       },
       "properties": {
@@ -50211,8 +50307,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.3472175,
-          22.7114263
+          114.34738,
+          22.711387
         ]
       },
       "properties": {
@@ -50242,8 +50338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.3659273,
-          22.747963
+          114.365987,
+          22.747822
         ]
       },
       "properties": {
@@ -50273,8 +50369,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.3955296,
-          22.7587003
+          114.395593,
+          22.75852
         ]
       },
       "properties": {
@@ -50367,8 +50463,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9310244,
-          22.5290519
+          113.930802,
+          22.529148
         ]
       },
       "properties": {
@@ -50429,8 +50525,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8846491,
-          22.5866899
+          113.88449,
+          22.586923
         ]
       },
       "properties": {
@@ -50622,7 +50718,7 @@
       },
       "properties": {
         "id": 91390,
-        "name": "Yuan Mountain (园山)",
+        "name": "Yuanshan (园山)",
         "long_name": "园山 Yuanshan",
         "alternate_names": [
           "Yuanshan",
@@ -50635,7 +50731,8 @@
           "jyunsaan",
           "園山站",
           "yuan shan zhan",
-          "jyun4 saan1 zaam6"
+          "jyun4 saan1 zaam6",
+          "Yuan Mountain"
         ],
         "line": "szline16",
         "order": 4,
@@ -50741,8 +50838,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.2224274,
-          22.6885654
+          114.222194,
+          22.6886
         ]
       },
       "properties": {
@@ -51091,26 +51188,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3745119,
-          23.1932742
+          114.29349,
+          22.72378
         ]
       },
       "properties": {
         "id": 91405,
-        "name": "Long East (龙东)",
+        "name": "Longdong (龙东)",
         "long_name": "龙东 Longdong",
         "alternate_names": [
           "Longdong",
-          "龙东",
           "Longdong Station",
-          "龙东站",
-          "龍東",
           "longdong",
-          "lung4dung1",
-          "lungdung",
-          "龍東站",
-          "long dong zhan",
-          "lung4 dung1 zaam6"
+          "longdong",
+          "龙东",
+          "龙东站",
+          "long dong"
         ],
         "line": "szline16",
         "order": 19,
@@ -51155,13 +51248,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.3227002,
-          22.7086738
+          114.322736,
+          22.708529
         ]
       },
       "properties": {
         "id": 91407,
-        "name": "Ping Mountain (坪山)",
+        "name": "Pingshan (坪山)",
         "long_name": "坪山 Pingshan",
         "alternate_names": [
           "Pingshan",
@@ -51173,7 +51266,8 @@
           "ping4saan1",
           "pingsaan",
           "ping shan zhan",
-          "ping4 saan1 zaam6"
+          "ping4 saan1 zaam6",
+          "Ping Mountain"
         ],
         "line": "szline16",
         "order": 21,
@@ -51186,8 +51280,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.4615955,
-          23.4157329
+          114.33054,
+          22.70606
         ]
       },
       "properties": {
@@ -51196,15 +51290,12 @@
         "long_name": "新和 Xinhe",
         "alternate_names": [
           "Xinhe",
-          "新和",
           "Xinhe Station",
-          "新和站",
-          "新和",
           "xinhe",
-          "san1wo4",
-          "sanwo",
-          "xin he zhan",
-          "san1 wo4 zaam6"
+          "xinhe",
+          "新和",
+          "新和站",
+          "xin he"
         ],
         "line": "szline16",
         "order": 22,
@@ -51248,8 +51339,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.3387403,
-          22.6939867
+          114.338224,
+          22.693477
         ]
       },
       "properties": {
@@ -51406,8 +51497,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2260337,
-          23.2138374
+          114.37801,
+          22.69446
         ]
       },
       "properties": {
@@ -51416,15 +51507,12 @@
         "long_name": "石井 Shijing",
         "alternate_names": [
           "Shijing",
-          "石井",
           "Shijing Station",
-          "石井站",
-          "石井",
           "shijing",
-          "sek6zeng2",
-          "sekzeng",
-          "shi jing zhan",
-          "sek6 zeng2 zaam6"
+          "shijing",
+          "石井",
+          "石井站",
+          "shi jing"
         ],
         "line": "szline16",
         "order": 29,
@@ -51500,8 +51588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1097952,
-          22.5477035
+          114.109742,
+          22.547584
         ]
       },
       "properties": {
@@ -52011,8 +52099,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9389034,
-          22.5411039
+          113.938845,
+          22.542641
         ]
       },
       "properties": {
@@ -52595,7 +52683,7 @@
       },
       "properties": {
         "id": 91574,
-        "name": "Li Mountain (丽山)",
+        "name": "Lishan (丽山)",
         "long_name": "丽山 Lishan",
         "alternate_names": [
           "Lishan",
@@ -52604,7 +52692,9 @@
           "丽山站",
           "麗山站",
           "li shan zhan",
-          "lai6 saan1 zaam6"
+          "lai6 saan1 zaam6",
+          "lishan",
+          "Li Mountain"
         ],
         "line": "szline27",
         "order": 4,
@@ -52673,8 +52763,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9834192,
-          22.595842
+          113.983962,
+          22.59494
         ]
       },
       "properties": {
@@ -52705,8 +52795,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0053542,
-          22.602214
+          114.0058,
+          22.601915
         ]
       },
       "properties": {
@@ -52765,8 +52855,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0373808,
-          22.6041719
+          114.036546,
+          22.604767
         ]
       },
       "properties": {
@@ -52913,7 +53003,7 @@
       },
       "properties": {
         "id": 91582,
-        "name": "Hua City (华城)",
+        "name": "Huacheng (华城)",
         "long_name": "华城 Huacheng",
         "alternate_names": [
           "Huacheng",
@@ -52922,7 +53012,9 @@
           "华城站",
           "華城站",
           "hua cheng zhan",
-          "waa4 sing4 zaam6"
+          "waa4 sing4 zaam6",
+          "huacheng",
+          "Hua City"
         ],
         "line": "szline27",
         "order": 15,
@@ -53045,8 +53137,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9664581,
-          22.526104
+          113.967834,
+          22.526126
         ]
       },
       "properties": {
@@ -53163,8 +53255,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9557754,
-          22.5713017
+          113.95577,
+          22.571187
         ]
       },
       "properties": {
@@ -53250,8 +53342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9403591,
-          22.5688097
+          113.940206,
+          22.568787
         ]
       },
       "properties": {
@@ -53286,7 +53378,7 @@
       },
       "properties": {
         "id": 91445,
-        "name": "Xing East (兴东)",
+        "name": "Xingdong (兴东)",
         "long_name": "兴东 Xingdong",
         "alternate_names": [
           "Xingdong",
@@ -53299,7 +53391,8 @@
           "hingdung",
           "興東站",
           "xing dong zhan",
-          "hing1 dung1 zaam6"
+          "hing1 dung1 zaam6",
+          "Xing East"
         ],
         "line": "szline29",
         "order": 8,
@@ -53503,8 +53596,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0445799,
-          22.6940384
+          114.044918,
+          22.693134
         ]
       },
       "properties": {
@@ -54017,7 +54110,7 @@
       },
       "properties": {
         "id": 91468,
-        "name": "Guan City (观城)",
+        "name": "Guancheng (观城)",
         "long_name": "观城 Guancheng",
         "alternate_names": [
           "Guancheng",
@@ -54030,7 +54123,8 @@
           "gunsing",
           "觀城站",
           "guan cheng zhan",
-          "gun1 sing4 zaam6"
+          "gun1 sing4 zaam6",
+          "Guan City"
         ],
         "line": "sztram2",
         "order": 10,
@@ -54521,8 +54615,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9403591,
-          22.5688097
+          113.940206,
+          22.568787
         ]
       },
       "properties": {
@@ -54801,8 +54895,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8893,
-          22.8116
+          113.889426,
+          22.811601
         ]
       },
       "properties": {
@@ -54994,8 +55088,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9307,
-          22.5426
+          113.930564,
+          22.542593
         ]
       },
       "properties": {
@@ -55021,8 +55115,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9312,
-          22.5493
+          113.931318,
+          22.549277
         ]
       },
       "properties": {
@@ -55049,8 +55143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9342,
-          22.5598
+          113.934343,
+          22.559803
         ]
       },
       "properties": {
@@ -55193,7 +55287,7 @@
       },
       "properties": {
         "id": 91510,
-        "name": "Hai City (海城)",
+        "name": "Haicheng (海城)",
         "long_name": "海城 Haicheng",
         "alternate_names": [
           "Haicheng",
@@ -55201,7 +55295,9 @@
           "海城",
           "海城站",
           "hai cheng zhan",
-          "hoi2 sing4 zaam6"
+          "hoi2 sing4 zaam6",
+          "haicheng",
+          "Hai City"
         ],
         "line": "szline15",
         "order": 15,
@@ -55248,7 +55344,7 @@
       },
       "properties": {
         "id": 91512,
-        "name": "Chan Bay (铲湾)",
+        "name": "Chanwan (铲湾)",
         "long_name": "铲湾 Chanwan",
         "alternate_names": [
           "Chanwan",
@@ -55257,7 +55353,9 @@
           "铲湾站",
           "鏟灣站",
           "chan wan zhan",
-          "caan2 waan1 zaam6"
+          "caan2 waan1 zaam6",
+          "chanwan",
+          "Chan Bay"
         ],
         "line": "szline15",
         "order": 10,
@@ -55332,7 +55430,7 @@
       },
       "properties": {
         "id": 91517,
-        "name": "Guangming City (光明城)",
+        "name": "Guangmingcheng (光明城)",
         "long_name": "光明城 Guangmingcheng",
         "alternate_names": [
           "Guangmingcheng",
@@ -55340,7 +55438,9 @@
           "光明城",
           "光明城站",
           "guang ming cheng zhan",
-          "gwong1 ming4 sing4 zaam6"
+          "gwong1 ming4 sing4 zaam6",
+          "guangmingcheng",
+          "Guangming City"
         ],
         "line": "szline13",
         "order": 20,
@@ -55409,8 +55509,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9399541,
-          22.5687949
+          113.940206,
+          22.568787
         ]
       },
       "properties": {
@@ -55557,7 +55657,7 @@
       },
       "properties": {
         "id": 91525,
-        "name": "Qiushui Mountain (求水山)",
+        "name": "Qiushuishan (求水山)",
         "long_name": "求水山 Qiushuishan",
         "alternate_names": [
           "Qiushuishan",
@@ -55565,7 +55665,9 @@
           "求水山",
           "求水山站",
           "qiu shui shan zhan",
-          "kau4 seoi2 saan1 zaam6"
+          "kau4 seoi2 saan1 zaam6",
+          "qiushuishan",
+          "Qiushui Mountain"
         ],
         "line": "szline17",
         "order": 10,
@@ -55716,8 +55818,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8176005,
-          22.6499762
+          113.817862,
+          22.650096
         ]
       },
       "properties": {
@@ -55778,7 +55880,7 @@
       },
       "properties": {
         "id": 91533,
-        "name": "Hang City (航城)",
+        "name": "Hangcheng (航城)",
         "long_name": "航城 Hangcheng",
         "alternate_names": [
           "Hangcheng",
@@ -55786,7 +55888,9 @@
           "航城",
           "航城站",
           "hang cheng zhan",
-          "hong4 sing4 zaam6"
+          "hong4 sing4 zaam6",
+          "hangcheng",
+          "Hang City"
         ],
         "line": "szline20",
         "order": 8,
@@ -56046,8 +56150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0435655,
-          22.596962
+          114.043792,
+          22.597075
         ]
       },
       "properties": {
@@ -56102,8 +56206,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0360964,
-          22.6203757
+          114.035905,
+          22.620239
         ]
       },
       "properties": {
@@ -56350,8 +56454,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0596364,
-          22.7237695
+          114.058393,
+          22.723481
         ]
       },
       "properties": {
@@ -56542,8 +56646,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2365,
-          23.2936
+          113.236661,
+          23.293627
         ]
       },
       "properties": {
@@ -56832,8 +56936,8 @@
       },
       "properties": {
         "id": 91610,
-        "name": "Luhu Lake (麓湖)",
-        "long_name": "麓湖 Luhu Lake",
+        "name": "Luhu (麓湖)",
+        "long_name": "麓湖 Luhu",
         "alternate_names": [
           "Luhu Lake",
           "Luhu",
@@ -56842,7 +56946,8 @@
           "luk6 wu4",
           "lu hu",
           "lu hu zhan",
-          "luk1 wu4 zaam6"
+          "luk1 wu4 zaam6",
+          "luhu"
         ],
         "line": "gzline12",
         "order": 21,
@@ -56913,7 +57018,7 @@
       },
       "properties": {
         "id": 91613,
-        "name": "Bei Mountain (北山)",
+        "name": "Beishan (北山)",
         "long_name": "北山 Beishan",
         "alternate_names": [
           "Beishan",
@@ -56923,7 +57028,9 @@
           "buk1 saan1",
           "bei shan",
           "bei shan zhan",
-          "bak1 saan1 zaam6"
+          "bak1 saan1 zaam6",
+          "beishan",
+          "Bei Mountain"
         ],
         "line": "gzline12",
         "order": 24,
@@ -56936,8 +57043,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3496,
-          23.1271
+          113.349635,
+          23.127278
         ]
       },
       "properties": {
@@ -56964,8 +57071,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3429,
-          23.1283
+          113.342927,
+          23.128463
         ]
       },
       "properties": {
@@ -56990,8 +57097,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3343,
-          23.1291
+          113.334313,
+          23.129243
         ]
       },
       "properties": {
@@ -57042,8 +57149,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3007,
-          23.1345
+          113.300702,
+          23.134374
         ]
       },
       "properties": {
@@ -57331,8 +57438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2744,
-          23.2632
+          113.274247,
+          23.263202
         ]
       },
       "properties": {
@@ -57357,8 +57464,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2755,
-          23.3225
+          113.27563,
+          23.322502
         ]
       },
       "properties": {
@@ -57433,8 +57540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.5774,
-          22.6708
+          113.577499,
+          22.670894
         ]
       },
       "properties": {
@@ -57461,8 +57568,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.5988,
-          22.6507
+          113.598705,
+          22.650612
         ]
       },
       "properties": {
@@ -57523,13 +57630,15 @@
       },
       "properties": {
         "id": 91636,
-        "name": "Xiang Mountain (香山)",
+        "name": "Xiangshan (香山)",
         "long_name": "香山 Xiangshan",
         "alternate_names": [
           "Xiangshan",
           "香山",
           "hoeng1 saan1",
-          "xiang shan"
+          "xiang shan",
+          "xiangshan",
+          "Xiang Mountain"
         ],
         "line": "gzline18",
         "order": 19,
@@ -57624,13 +57733,15 @@
       },
       "properties": {
         "id": 91640,
-        "name": "Zhong Mountain (中山)",
+        "name": "Zhongshan (中山)",
         "long_name": "中山 Zhongshan",
         "alternate_names": [
           "Zhongshan",
           "中山",
           "zung1 saan1",
-          "zhong shan"
+          "zhong shan",
+          "zhongshan",
+          "Zhong Mountain"
         ],
         "line": "gzline18",
         "order": 23,
@@ -57777,8 +57888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2755,
-          23.3225
+          113.27563,
+          23.322502
         ]
       },
       "properties": {
@@ -57802,8 +57913,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2744,
-          23.2632
+          113.274247,
+          23.263202
         ]
       },
       "properties": {
@@ -57880,8 +57991,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2108,
-          23.3681
+          113.210923,
+          23.368158
         ]
       },
       "properties": {
@@ -57963,14 +58074,17 @@
       },
       "properties": {
         "id": 91653,
-        "name": "Shen Mountain East (神山东)",
+        "name": "Shenshan East (神山东)",
         "long_name": "神山东 Shenshandong",
         "alternate_names": [
           "Shenshandong",
           "神山东",
           "san4 saan1 dung1",
           "shen shan dong",
-          "神山東"
+          "神山東",
+          "Shenshan East",
+          "shenshan east",
+          "Shen Mountain East"
         ],
         "line": "gzline24",
         "order": 8,
@@ -57983,8 +58097,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2319,
-          23.3073
+          113.232104,
+          23.307398
         ]
       },
       "properties": {
@@ -58010,8 +58124,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2365,
-          23.2936
+          113.236661,
+          23.293627
         ]
       },
       "properties": {
@@ -58402,8 +58516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.5304,
-          23.1293
+          113.530302,
+          23.129081
         ]
       },
       "properties": {
@@ -58795,74 +58909,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.200719392406,
-          22.291253282318
+          113.25861,
+          22.918
         ]
       },
       "properties": {
         "id": 91684,
-        "name": "Beijiao (书局街)",
-        "long_name": "書局街 Shu Kuk Street",
+        "name": "Beijiao (北滘)",
+        "long_name": "北滘 Beijiao",
         "alternate_names": [
-          "North Point",
-          "North Point MTR",
-          "North Point MTR Station",
-          "North Point MTR station",
-          "North Point Station",
-          "North-Point",
-          "North-Point-MTR",
-          "North-Point-MTR Station",
-          "North-Point-MTR station",
-          "NorthPoint",
-          "NorthPointMTR",
-          "NorthPointMTR Station",
-          "NorthPointMTR station",
-          "Shu Kuk Street",
-          "Shu Kuk Street Station",
-          "Shu Kuk Street station",
-          "Shu-Kuk-Street",
-          "Shu-Kuk-Street Station",
-          "Shu-Kuk-Street station",
-          "ShuKukStreet",
-          "ShuKukStreet Station",
-          "ShuKukStreet station",
-          "Shūjú jiē",
-          "bak gok",
-          "bak-gok",
-          "bakgok",
-          "bei jiao",
-          "bei-jiao",
+          "Beijiao",
+          "Beijiao Station",
           "beijiao",
-          "north point",
-          "north point mtr",
-          "north point mtr Station",
-          "north point mtr station",
-          "north point station",
-          "north-point-mtr",
-          "north-point-mtr Station",
-          "north-point-mtr station",
-          "northpointmtr",
-          "northpointmtr Station",
-          "northpointmtr station",
-          "shu kuk street",
-          "shu kuk street Station",
-          "shu kuk street station",
-          "shu-kuk-street",
-          "shu-kuk-street Station",
-          "shu-kuk-street station",
-          "shukukstreet",
-          "shukukstreet Station",
-          "shukukstreet station",
-          "syu1 guk6 gaai1",
-          "书局街",
-          "书局街站",
-          "北角",
-          "北角站",
-          "書局街",
-          "書局街站",
-          "shu ju jie zhan",
-          "syu1 guk2 gaai1 zaam6",
-          "Beijiao"
+          "beijiao",
+          "北滘",
+          "北滘站",
+          "bei jiao"
         ],
         "line": "prdir_guangzhu",
         "order": 2,
@@ -58934,8 +58996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3071457,
-          22.7539701
+          113.307009,
+          22.754011
         ]
       },
       "properties": {
@@ -58959,27 +59021,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9194304,
-          22.5403527
+          113.30349,
+          22.71578
         ]
       },
       "properties": {
         "id": 91688,
-        "name": "Nantou (南头古城)",
-        "long_name": "南头古城 Nantou Ancient City",
+        "name": "Nantou (南头)",
+        "long_name": "南头 Nantou",
         "alternate_names": [
-          "Nantou Ancient City",
-          "南头古城",
-          "Nantou Ancient City Station",
-          "南头古城站",
-          "南頭古城",
-          "nantougucheng",
-          "naam4tau4gu2sing4",
-          "naamtaugusing",
-          "南頭古城站",
-          "nan tou gu cheng zhan",
-          "naam4 tau4 gu2 sing4 zaam6",
-          "Nantou"
+          "Nantou",
+          "Nantou Station",
+          "nantou",
+          "nantou",
+          "南头",
+          "南头站",
+          "nan tou"
         ],
         "line": "prdir_guangzhu",
         "order": 6,
@@ -59073,13 +59130,15 @@
       },
       "properties": {
         "id": 91692,
-        "name": "Zhong Mountain (中山)",
+        "name": "Zhongshan (中山)",
         "long_name": "中山 Zhongshan",
         "alternate_names": [
           "Zhongshan",
           "中山",
           "zung1 saan1",
-          "zhong shan"
+          "zhong shan",
+          "zhongshan",
+          "Zhong Mountain"
         ],
         "line": "prdir_guangzhu",
         "order": 10,
@@ -59173,13 +59232,15 @@
       },
       "properties": {
         "id": 91696,
-        "name": "Tangjia Bay (唐家湾)",
+        "name": "Tangjiawan (唐家湾)",
         "long_name": "唐家湾",
         "alternate_names": [
           "Tangjiawan",
           "唐家灣",
           "tang jia wan",
-          "tong4 gaa1 waan1"
+          "tong4 gaa1 waan1",
+          "tangjiawan",
+          "Tangjia Bay"
         ],
         "line": "prdir_guangzhu",
         "order": 14,
@@ -59223,45 +59284,21 @@
       },
       "properties": {
         "id": 91698,
-        "name": "Qian Mountain (前山)",
+        "name": "Qianshan (前山)",
         "long_name": "前山",
         "alternate_names": [
           "Qianshan",
           "前山",
           "qian shan",
-          "cin4 saan1"
+          "cin4 saan1",
+          "qianshan",
+          "Qian Mountain"
         ],
         "line": "prdir_guangzhu",
         "order": 16,
         "original_city": "prdir"
       },
       "id": 91698
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.5468823,
-          22.4037481
-        ]
-      },
-      "properties": {
-        "id": 91699,
-        "name": "Zhuhai (珠海北)",
-        "long_name": "珠海北",
-        "alternate_names": [
-          "Zhuhai North",
-          "Zhuhai",
-          "珠海北",
-          "zhu hai bei",
-          "zyu1 hoi2 bak1"
-        ],
-        "line": "prdir_guangzhu",
-        "order": 17,
-        "original_city": "prdir"
-      },
-      "id": 91699
     },
     {
       "type": "Feature",
@@ -59665,8 +59702,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.8549,
-          22.5873
+          113.854823,
+          22.587206
         ]
       },
       "properties": {
@@ -59766,8 +59803,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9699,
-          22.5229
+          113.969899,
+          22.523023
         ]
       },
       "properties": {
@@ -59855,13 +59892,15 @@
       },
       "properties": {
         "id": 91722,
-        "name": "Shizi Gate (十字门)",
+        "name": "Shizimen (十字门)",
         "long_name": "十字门",
         "alternate_names": [
           "Shizimen",
           "十字門",
           "shi zi men",
-          "sap6 zi6 mun4"
+          "sap6 zi6 mun4",
+          "shizimen",
+          "Shizi Gate"
         ],
         "line": "prdir_zhuji",
         "order": 2,
@@ -60013,8 +60052,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3248275,
-          22.9926925
+          113.324767,
+          22.992589
         ]
       },
       "properties": {
@@ -60100,8 +60139,8 @@
       },
       "properties": {
         "id": 91731,
-        "name": "Guangzhou Lianhua Mountain (广州莲花山)",
-        "long_name": "Guangzhou Lianhua Mountain (广州莲花山)",
+        "name": "Guangzhou Lianhuashan (广州莲花山)",
+        "long_name": "Guangzhou Lianhuashan (广州莲花山)",
         "alternate_names": [
           "Lotus",
           "Lotus Station",
@@ -60117,7 +60156,9 @@
           "广州莲花山",
           "廣州蓮花山",
           "guang zhou lian hua shan",
-          "gwong2 zau1 lin4 faa1 saan1"
+          "gwong2 zau1 lin4 faa1 saan1",
+          "guangzhou lianhuashan",
+          "Guangzhou Lianhua Mountain"
         ],
         "line": "prdir_guanghui",
         "order": 4,
@@ -60454,8 +60495,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.2248548,
-          22.98177
+          114.224837,
+          22.981886
         ]
       },
       "properties": {
@@ -60585,13 +60626,15 @@
       },
       "properties": {
         "id": 91749,
-        "name": "Yun Mountain (云山)",
+        "name": "Yunshan (云山)",
         "long_name": "云山",
         "alternate_names": [
           "Yunshan",
           "雲山",
           "yun shan",
-          "wan4 saan1"
+          "wan4 saan1",
+          "yunshan",
+          "Yun Mountain"
         ],
         "line": "prdir_guanghui",
         "order": 22,
@@ -60713,8 +60756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.1727839,
-          22.9547553
+          113.172801,
+          22.955131
         ]
       },
       "properties": {
@@ -60742,8 +60785,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.1236856,
-          22.9677025
+          113.123684,
+          22.96514
         ]
       },
       "properties": {
@@ -60801,8 +60844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.0280719,
-          23.0823919
+          113.028008,
+          23.082667
         ]
       },
       "properties": {
@@ -60836,28 +60879,16 @@
       },
       "properties": {
         "id": 91758,
-        "name": "Shi Mountain (鑽石山)",
-        "long_name": "鑽石山 Diamond Hill",
+        "name": "Shishan (狮山)",
+        "long_name": "狮山 Shishan",
         "alternate_names": [
-          "Diamond Hill",
-          "Diamond Hill Station",
-          "Diamond-Hill",
-          "DiamondHill",
-          "diamond hill",
-          "diamond hill station",
-          "zuan shi shan",
-          "zuan-shi-shan",
-          "zuanshishan",
-          "zyun sek saan",
-          "zyun-sek-saan",
-          "zyunseksaan",
-          "鑽石山",
-          "鑽石山站",
-          "钻石山",
-          "钻石山站",
-          "zuan shi shan zhan",
-          "zyun3 sek6 saan1 zaam6",
-          "Shishan"
+          "Shishan",
+          "Shishan Station",
+          "shishan",
+          "shishan",
+          "狮山",
+          "狮山站",
+          "shi shan"
         ],
         "line": "prdir_guangzhao",
         "order": 6,
@@ -61026,13 +61057,15 @@
       },
       "properties": {
         "id": 91765,
-        "name": "Dinghu Mountain (鼎湖山)",
+        "name": "Dinghushan (鼎湖山)",
         "long_name": "鼎湖山",
         "alternate_names": [
           "Dinghushan",
           "鼎湖山",
           "ding hu shan",
-          "ding2 wu4 saan1"
+          "ding2 wu4 saan1",
+          "dinghushan",
+          "Dinghu Mountain"
         ],
         "line": "prdir_guangzhao",
         "order": 13,
@@ -61070,8 +61103,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          112.4458361,
-          23.0847101
+          112.44586,
+          23.084548
         ]
       },
       "properties": {
@@ -61181,13 +61214,15 @@
       },
       "properties": {
         "id": 91771,
-        "name": "Qing City (清城)",
+        "name": "Qingcheng (清城)",
         "long_name": "清城",
         "alternate_names": [
           "Qingcheng",
           "清城",
           "qing cheng",
-          "cing1 sing4"
+          "cing1 sing4",
+          "qingcheng",
+          "Qing City"
         ],
         "line": "prdir_guangqing",
         "order": 3,
@@ -61348,15 +61383,17 @@
       },
       "properties": {
         "id": 91777,
-        "name": "Shen Mountain (神山)",
-        "long_name": "Shen Mountain (神山)",
+        "name": "Shenshan (神山)",
+        "long_name": "Shenshan (神山)",
         "alternate_names": [
           "Shenshandong",
           "神山",
           "san4 saan1 dung1",
           "shen shan dong",
           "神山東",
-          "Shenshan"
+          "Shenshan",
+          "shenshan",
+          "Shen Mountain"
         ],
         "line": "prdir_guangqing",
         "order": 9,
@@ -61421,8 +61458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.2425587,
-          23.1951004
+          113.24224,
+          23.1951
         ]
       },
       "properties": {
@@ -61614,8 +61651,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3629548,
-          23.3512259
+          113.362379,
+          23.350305
         ]
       },
       "properties": {
@@ -61648,13 +61685,15 @@
       },
       "properties": {
         "id": 91789,
-        "name": "Maofeng Mountain (帽峰山)",
+        "name": "Maofengshan (帽峰山)",
         "long_name": "帽峰山",
         "alternate_names": [
           "Maofengshan",
           "帽峯山",
           "mao feng shan",
-          "mou2 fung1 saan1"
+          "mou2 fung1 saan1",
+          "maofengshan",
+          "Maofeng Mountain"
         ],
         "line": "prdir_guangforing",
         "order": 7,
@@ -62038,40 +62077,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.9219983,
-          22.9308935
-        ]
-      },
-      "properties": {
-        "id": 91803,
-        "name": "Dalan (大朗)",
-        "long_name": "大朗 Dalang",
-        "alternate_names": [
-          "Dalang",
-          "Da Lang",
-          "Datang",
-          "Da Tang",
-          "daai6 long5",
-          "大朗",
-          "大朗站",
-          "dalang",
-          "daai6long5",
-          "daailong",
-          "da lang zhan",
-          "daai6 long5 zaam6",
-          "Dalan"
-        ],
-        "line": "prdir_guangforing",
-        "order": 22,
-        "original_city": "prdir"
-      },
-      "id": 91803
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           113.2522077,
           23.1523657
         ]
@@ -62137,8 +62142,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.6005538,
-          23.1364703
+          113.600526,
+          23.136578
         ]
       },
       "properties": {
@@ -62168,8 +62173,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.855706,
-          23.091427
+          113.855232,
+          23.090855
         ]
       },
       "properties": {
@@ -62230,8 +62235,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.1209,
-          22.6965
+          114.119221,
+          22.695502
         ]
       },
       "properties": {
@@ -62446,14 +62451,16 @@
       },
       "properties": {
         "id": 91818,
-        "name": "Jiang Gate (江门)",
-        "long_name": "Jiang Gate (江门)",
+        "name": "Jiangmen (江门)",
+        "long_name": "Jiangmen (江门)",
         "alternate_names": [
           "Jiangmen",
           "江门",
           "江門",
           "jiang men",
-          "gong1 mun4"
+          "gong1 mun4",
+          "jiangmen",
+          "Jiang Gate"
         ],
         "line": "prdir_guangzhu",
         "order": 23,
@@ -62582,14 +62589,16 @@
       },
       "properties": {
         "id": 91823,
-        "name": "Jing Bay (井湾)",
-        "long_name": "Jing Bay (井湾)",
+        "name": "Jingwan (井湾)",
+        "long_name": "Jingwan (井湾)",
         "alternate_names": [
           "Jingwan",
           "井湾",
           "井灣",
           "jing wan",
-          "zeng2 waan1"
+          "zeng2 waan1",
+          "jingwan",
+          "Jing Bay"
         ],
         "line": "prdir_zhuji",
         "order": 10,
@@ -62628,8 +62637,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.3609,
-          23.3504
+          113.362379,
+          23.350305
         ]
       },
       "properties": {
@@ -63255,8 +63264,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.13500113640396,
-          22.284011899390542
+          114.134971,
+          22.284189
         ]
       },
       "properties": {
@@ -63437,8 +63446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.16800016186689,
-          22.24800532433389
+          114.167885,
+          22.248065
         ]
       },
       "properties": {
@@ -64010,8 +64019,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.0998324,
-          22.5423222
+          114.099889,
+          22.541218
         ]
       },
       "properties": {
@@ -64416,8 +64425,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.530064,
-          23.128973
+          113.530302,
+          23.129081
         ]
       },
       "properties": {
@@ -64575,8 +64584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.264428,
-          23.108989
+          113.26457,
+          23.108954
         ]
       },
       "properties": {
@@ -64602,8 +64611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.230255,
-          23.101578
+          113.230516,
+          23.101451
         ]
       },
       "properties": {
@@ -64661,13 +64670,15 @@
       },
       "properties": {
         "id": 91992,
-        "name": "Sanshanxin City South (三山新城南)",
-        "long_name": "三山新城南 Sanshanxin City South",
+        "name": "Sanshanxincheng South (三山新城南)",
+        "long_name": "三山新城南 Sanshanxincheng South",
         "alternate_names": [
           "Sanshanxin City South",
           "三山新城南",
           "san shan xin cheng nan",
-          "saam1 saan1 san1 sing4 naam4"
+          "saam1 saan1 san1 sing4 naam4",
+          "Sanshanxincheng South",
+          "sanshanxincheng south"
         ],
         "line": "fs_line4",
         "order": 1,
@@ -65002,7 +65013,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.050504,
+          113.050308,
           23.013699
         ]
       },
@@ -66154,14 +66165,16 @@
       },
       "properties": {
         "id": 92048,
-        "name": "Qingchuang City (青创城)",
-        "long_name": "青创城 Qingchuang City",
+        "name": "Qingchuangcheng (青创城)",
+        "long_name": "青创城 Qingchuangcheng",
         "alternate_names": [
           "Qingchuang City",
           "青创城",
           "青創城",
           "qing chuang cheng",
-          "cing1 cong3 sing4"
+          "cing1 cong3 sing4",
+          "Qingchuangcheng",
+          "qingchuangcheng"
         ],
         "line": "fs_tnh2",
         "order": 6,

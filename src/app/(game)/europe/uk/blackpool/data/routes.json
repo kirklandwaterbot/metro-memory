@@ -4646,6 +4646,29 @@
         "color": "#27BB36",
         "order": 2
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.055367,
+            53.818978
+          ],
+          [
+            -3.054507,
+            53.819169
+          ]
+        ]
+      },
+      "properties": {
+        "line": "blackpoolT2",
+        "name": "T2 (Starr Gate – North Station)",
+        "color": "#008CBB",
+        "order": 1,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

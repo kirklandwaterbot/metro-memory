@@ -928756,6 +928756,28 @@
         "color": "#F2C804",
         "order": 1
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.753963,
+            35.207913
+          ],
+          [
+            -80.753186,
+            35.207467
+          ]
+        ]
+      },
+      "properties": {
+        "line": "510",
+        "color": "#F2C804",
+        "order": 1,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }

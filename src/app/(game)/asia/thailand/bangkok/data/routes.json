@@ -24526,6 +24526,29 @@
         "color": "#025937",
         "order": 1
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.542788,
+            13.806125
+          ],
+          [
+            100.541711,
+            13.804031
+          ]
+        ]
+      },
+      "properties": {
+        "line": "BangkokSRTLightRed",
+        "name": "Light Red",
+        "color": "#FD5252",
+        "order": 0,
+        "auto_filled": "station-extension"
+      }
     }
   ]
 }
