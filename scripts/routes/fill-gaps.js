@@ -36,6 +36,31 @@ const COVERAGE_OFF_M = 200
 const COVERAGE_MAX_MISMATCH = 0.4
 const AUTO_TAG = 'route-gaps'
 
+/**
+ * Removes out-and-back stubs (A, B, A) and points where the path doubles back
+ * on itself within a few metres; both draw as spikes.
+ */
+function dropSpikes(points) {
+  const out = []
+  for (const p of points) {
+    out.push(p)
+    while (out.length >= 3) {
+      const [a, b, c] = out.slice(-3)
+      const ab = haversine(a, b)
+      const bc = haversine(b, c)
+      const ac = haversine(a, c)
+      // b is a turnaround: going to it and back covers far more than a -> c,
+      // or the path overshoots a junction and steps back a few metres onto
+      // the parallel track (a short Z that draws as a spur).
+      const shortReversal = Math.min(ab, bc) <= 60 && ac < Math.max(ab, bc) - 0.9 * Math.min(ab, bc)
+      if (ab > 0 && bc > 0 && (ac < 0.25 * Math.min(ab, bc) || shortReversal)) {
+        out.splice(out.length - 2, 1)
+      } else break
+    }
+  }
+  return out
+}
+
 function parseArgs(argv) {
   const args = { extra: [] }
   for (const a of argv) {
@@ -180,6 +205,12 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
       const pathNodes = []
       for (let v = u; v !== -1; v = prev[v]) pathNodes.push(v)
       pathNodes.reverse()
+      // Judge detours on the drawn length, not the search cost (which includes
+      // penalties for hopping between strings).
+      let len = 0
+      for (let i = 1; i < pathNodes.length; i += 1) {
+        len += haversine(graph.coords[pathNodes[i - 1]], graph.coords[pathNodes[i]])
+      }
       let joined = false
       for (const t of here) {
         t.reached = true
@@ -203,7 +234,7 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
           closest &&
           startPiece !== undefined &&
           closest.piece !== startPiece &&
-          !acceptable(d, closest.d, t.kind)
+          !acceptable(len, closest.d, t.kind)
         ) {
           unresolved.push({
             name: t.name,
@@ -211,10 +242,10 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
           })
           continue
         }
-        if (pathNodes.length > 1 && !acceptable(d, straight, t.kind)) {
+        if (pathNodes.length > 1 && !acceptable(len, straight, t.kind)) {
           unresolved.push({
             name: t.name,
-            reason: `only path along drawn track is a ${Math.round(d)} m detour for a ${Math.round(straight)} m gap`,
+            reason: `only path along drawn track is a ${Math.round(len)} m detour for a ${Math.round(straight)} m gap`,
           })
           continue
         }
@@ -226,7 +257,9 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
         // the path on to the point nearest the station so no stub is left.
         const station = here.find((t) => t.kind !== 'piece' && t.attach?.length)
         if (station && station.attach[0] !== u) {
-          const tail = localPath(graph, u, station.attach[0])
+          // Short, and never onto another line's track (that drew spurs into
+          // neighbouring lines at stations like Times Sq).
+          const tail = localPath(graph, u, station.attach[0], 40)
           if (tail) pathNodes.push(...tail.slice(1))
         }
         if (pathNodes.length > 1) added.push(pathNodes.map((v) => graph.coords[v]))
@@ -257,7 +290,12 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
 }
 
 function pointTarget(graph, kind, name, coordinates, unresolved) {
-  const attach = graph.near(coordinates, ATTACH_M).slice(0, 6).map(([, node]) => node)
+  // Every track point nearly as close as the nearest, so a station can be
+  // reached on its own line's track rather than only on whichever line happens
+  // to pass a few metres closer (e.g. the 42 St Shuttle at Times Sq).
+  const found = graph.near(coordinates, ATTACH_M)
+  const limit = found.length ? found[0][0] + 80 : 0
+  const attach = found.filter(([d]) => d <= limit).slice(0, 60).map(([, node]) => node)
   const t = { kind, name, coordinates, attach, reached: false }
   if (!attach.length) {
     t.reached = true
@@ -437,12 +475,14 @@ function main() {
   const familyGraph = (family) => {
     if (!graphCache.has(family)) {
       const strings = []
+      const stringLines = []
       for (const [line, s] of stringsByLine) {
         if (familyOf(line) === family || (family.startsWith('own:') && `own:${line}` === family)) {
           strings.push(...s)
+          stringLines.push(...s.map(() => line))
         }
       }
-      graphCache.set(family, buildGraph(strings, extrasByFamily.get(family) || []))
+      graphCache.set(family, buildGraph(strings, extrasByFamily.get(family) || [], stringLines))
     }
     return graphCache.get(family)
   }
@@ -515,7 +555,9 @@ function main() {
       type: 'Feature',
       geometry: {
         type: 'MultiLineString',
-        coordinates: r.added.map((s) => s.map(([x, y]) => [Math.round(x * 1e6) / 1e6, Math.round(y * 1e6) / 1e6])),
+        coordinates: r.added
+          .map((s) => dropSpikes(s.map(([x, y]) => [Math.round(x * 1e6) / 1e6, Math.round(y * 1e6) / 1e6])))
+          .filter((s) => s.length >= 2),
       },
       properties: { ...meta, line: r.line, auto_filled: AUTO_TAG },
     })
