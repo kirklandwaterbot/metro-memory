@@ -7,7 +7,7 @@ const PRESETS = {
     { family: 'path', match: /^NewYorkSubwayPATH/ },
     { family: 'subway', match: /^NewYorkSubway/ },
     { family: 'njt-light-rail', match: /^NJTLR/ },
-    { family: 'commuter', match: /^(LIRR|MNRR|NJT|CTRail)/ },
+    { family: 'commuter', match: /^(LIRR|MNRR|NJT|CTRail|Amtrak)/ },
     { family: 'airtrain', match: /^AirTrain/ },
   ],
 }
