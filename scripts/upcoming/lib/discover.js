@@ -14,7 +14,10 @@ const OVERDUE_DAYS = 30
 
 function cleanName(value) {
   return String(value || '')
-    .replace(/\s+(metro |subway |underground |light rail |railway |train |tram )?(station|stop|halt)$/i, '')
+    .replace(
+      /\s+(metro |subway |underground |light rail |railway |train |tram )?(station|stop|halt)$/i,
+      '',
+    )
     .replace(/(駅|站|역)$/u, '')
     .trim()
 }
@@ -26,12 +29,21 @@ function chooseNames(names, city) {
   const en = names['name:en'] || null
   const latin =
     en ||
-    langs.map((l) => names[`name:${l}-Latn`] || names[`name:${l}_rm`]).find(Boolean) ||
+    langs
+      .map((l) => names[`name:${l}-Latn`] || names[`name:${l}_rm`])
+      .find(Boolean) ||
     (raw && isAscii(raw) ? raw : null)
-  const native = langs.map((l) => names[`name:${l}`]).find(Boolean) || (raw && !isAscii(raw) ? raw : null)
+  const native =
+    langs.map((l) => names[`name:${l}`]).find(Boolean) ||
+    (raw && !isAscii(raw) ? raw : null)
 
   let name
-  if (city.nameStyle.style === 'bilingual' && latin && native && cleanName(latin) !== cleanName(native)) {
+  if (
+    city.nameStyle.style === 'bilingual' &&
+    latin &&
+    native &&
+    cleanName(latin) !== cleanName(native)
+  ) {
     name = `${cleanName(latin)} (${cleanName(native)})`
   } else if (city.nameStyle.style === 'native') {
     name = cleanName(native || latin || raw)
@@ -54,22 +66,33 @@ function combineCandidates(osm, wikidata) {
     coordinates: c.coordinates,
     names: { ...c.names },
     kind: c.kind,
-    osm: { state: c.state, opening: c.opening?.date ? c.opening : null, started: c.started || null },
+    osm: {
+      state: c.state,
+      opening: c.opening?.date ? c.opening : null,
+      started: c.started || null,
+    },
     wikidata: null,
     lineEvidence: [...c.lineEvidence],
   }))
   for (const w of wikidata) {
     const wKeys = keysForNames(Object.values(w.names))
     const match = merged.find((m) => {
+      // An explicit OSM link on the Wikidata item is an identity match.
       if (w.osmRefs?.some((r) => m.refs.includes(r))) return true
+      // Otherwise nearby is not enough: two different stations can sit under 120 m apart
+      // (interchange complexes, rebuilt stations). Names must overlap, unless one side
+      // has no usable names at all and the two points practically coincide.
       const d = haversine(m.coordinates, w.coordinates)
-      return d < 120 || (d < 400 && namesOverlap(wKeys, keysForNames(Object.values(m.names))))
+      const mKeys = keysForNames(Object.values(m.names))
+      if (namesOverlap(wKeys, mKeys)) return d < 400
+      return d < 40 && (wKeys.size === 0 || mKeys.size === 0)
     })
     const wd = { state: w.state, opening: w.opening?.date ? w.opening : null }
     if (match) {
       match.refs.push(w.ref)
       match.sources.push({ type: 'wikidata', url: w.url })
-      for (const [k, v] of Object.entries(w.names)) if (!match.names[k]) match.names[k] = v
+      for (const [k, v] of Object.entries(w.names))
+        if (!match.names[k]) match.names[k] = v
       match.wikidata = wd
       match.lineEvidence.push(...w.lineEvidence)
     } else {
@@ -77,7 +100,10 @@ function combineCandidates(osm, wikidata) {
         refs: [w.ref],
         sources: [{ type: 'wikidata', url: w.url }],
         coordinates: w.coordinates,
-        names: { ...w.names, ...(w.names['name:en'] ? { name: w.names['name:en'] } : {}) },
+        names: {
+          ...w.names,
+          ...(w.names['name:en'] ? { name: w.names['name:en'] } : {}),
+        },
         kind: w.kind || 'rail',
         osm: null,
         wikidata: wd,
@@ -103,7 +129,11 @@ function existingIndex(city) {
 function linesServing(existing, keys, coordinates, radius = 500) {
   const lines = new Set()
   for (const e of existing) {
-    if (e.line && namesOverlap(keys, e.keys) && haversine(e.coordinates, coordinates) < radius) {
+    if (
+      e.line &&
+      namesOverlap(keys, e.keys) &&
+      haversine(e.coordinates, coordinates) < radius
+    ) {
       lines.add(e.line)
     }
   }
@@ -112,9 +142,11 @@ function linesServing(existing, keys, coordinates, radius = 500) {
 
 /** Best expected date: most precise source wins; on ties the later date (delays). */
 function pickExpected(entry) {
-  const options = [entry.osmOpening, entry.wikidataOpening, entry.webAnnounced].filter(
-    (d) => d && d.date,
-  )
+  const options = [
+    entry.osmOpening,
+    entry.wikidataOpening,
+    entry.webAnnounced,
+  ].filter((d) => d && d.date)
   if (!options.length) return null
   options.sort(
     (a, b) =>
@@ -125,13 +157,20 @@ function pickExpected(entry) {
 }
 
 function computeStatus(entry, city, today) {
-  if (STICKY.has(entry.status)) return { status: entry.status, reason: entry.statusReason }
+  if (STICKY.has(entry.status))
+    return { status: entry.status, reason: entry.statusReason }
   const line = entry.lineOverride || entry.line
   if (entry.osmState === 'disused') {
-    return { status: 'check', reason: 'OSM now tags this as disused/abandoned — possibly cancelled' }
+    return {
+      status: 'check',
+      reason: 'OSM now tags this as disused/abandoned — possibly cancelled',
+    }
   }
   if (entry.missingSince) {
-    return { status: 'check', reason: `no longer found in OSM since ${entry.missingSince}` }
+    return {
+      status: 'check',
+      reason: `no longer found in OSM since ${entry.missingSince}`,
+    }
   }
   if (!line || !city.lines[line]) {
     return {
@@ -145,14 +184,22 @@ function computeStatus(entry, city, today) {
   if (exp?.date && exp.date <= today) {
     const latest = exp.latest || exp.date
     if (daysBetween(latest, today) > OVERDUE_DAYS) {
-      return { status: 'overdue', reason: `expected by ${latest}; no confirmation it opened yet` }
+      return {
+        status: 'overdue',
+        reason: `expected by ${latest}; no confirmation it opened yet`,
+      }
     }
     return { status: 'due', reason: `opening window started ${exp.date}` }
   }
   if (entry.osmState === 'operational' && !exp?.date) {
     return { status: 'due', reason: 'OSM shows it operational' }
   }
-  return { status: 'scheduled', reason: exp?.date ? `expected ${exp.raw || exp.date}` : 'under construction, no date yet' }
+  return {
+    status: 'scheduled',
+    reason: exp?.date
+      ? `expected ${exp.raw || exp.date}`
+      : 'under construction, no date yet',
+  }
 }
 
 /**
@@ -207,7 +254,11 @@ function mergeIntoStore({ city, store, osm, wikidata, today, checkedRefs }) {
   for (const cand of combineCandidates(osm, wikidata)) {
     const { name, alternates } = chooseNames(cand.names, city)
     if (!name) continue
-    const keys = keysForNames([name, ...alternates, ...Object.values(cand.names)])
+    const keys = keysForNames([
+      name,
+      ...alternates,
+      ...Object.values(cand.names),
+    ])
     const served = linesServing(existing, keys, cand.coordinates)
     const scored = scoreLines(index, cand.lineEvidence, served)
 
@@ -215,12 +266,17 @@ function mergeIntoStore({ city, store, osm, wikidata, today, checkedRefs }) {
       (e) =>
         e.refs?.some((r) => cand.refs.includes(r)) ||
         (haversine(e.coordinates, cand.coordinates) < 300 &&
-          namesOverlap(keysForNames([e.name, ...(e.alternateNames || [])]), keys)),
+          namesOverlap(
+            keysForNames([e.name, ...(e.alternateNames || [])]),
+            keys,
+          )),
     )
 
     if (!entry) {
       // New sighting: skip what the game already has / pure noise.
-      const operational = (cand.osm?.state || 'operational') === 'operational' && cand.wikidata?.state !== 'construction'
+      const operational =
+        (cand.osm?.state || 'operational') === 'operational' &&
+        cand.wikidata?.state !== 'construction'
       if (cand.osm?.state === 'disused') continue
       if (!scored.line) {
         // Without a matching line we only keep metro/light-rail/tram stations the
@@ -228,7 +284,8 @@ function mergeIntoStore({ city, store, osm, wikidata, today, checkedRefs }) {
         if (served.size) continue // existing station (renovation, new entrance, etc.)
         if (!METRO_KINDS.has(cand.kind)) continue
         if (city.modes && !city.modes.includes(cand.kind)) continue
-        if (operational && !cand.osm?.opening && !cand.wikidata?.opening) continue
+        if (operational && !cand.osm?.opening && !cand.wikidata?.opening)
+          continue
       }
       entry = {
         id: cand.refs[0],
@@ -263,7 +320,8 @@ function mergeIntoStore({ city, store, osm, wikidata, today, checkedRefs }) {
     if (STICKY.has(entry.status)) continue
 
     for (const r of cand.refs) if (!entry.refs.includes(r)) entry.refs.push(r)
-    for (const s of cand.sources) if (!entry.sources.some((x) => x.url === s.url)) entry.sources.push(s)
+    for (const s of cand.sources)
+      if (!entry.sources.some((x) => x.url === s.url)) entry.sources.push(s)
     entry.name = entry.nameOverride || name
     entry.alternateNames = alternates.filter((a) => a !== entry.name)
     entry.coordinates = cand.coordinates.map((n) => Math.round(n * 1e6) / 1e6)
@@ -273,7 +331,11 @@ function mergeIntoStore({ city, store, osm, wikidata, today, checkedRefs }) {
     if (cand.osm) {
       entry.osmState = cand.osm.state
       entry.osmOpening = cand.osm.opening
-      if (cand.osm.state === 'operational' && !cand.osm.opening && cand.osm.started?.date) {
+      if (
+        cand.osm.state === 'operational' &&
+        !cand.osm.opening &&
+        cand.osm.started?.date
+      ) {
         entry.osmOpening = { ...cand.osm.started, source: 'osm:start_date' }
       }
     }
@@ -288,14 +350,28 @@ function mergeIntoStore({ city, store, osm, wikidata, today, checkedRefs }) {
   for (const entry of store.entries) {
     if (STICKY.has(entry.status) || seenEntryIds.has(entry.id)) continue
     const osmRefs = (entry.refs || []).filter((r) => r.startsWith('osm:'))
-    if (osmRefs.length && osmRefs.every((r) => checkedRefs.has(r)) && !entry.missingSince) {
+    if (
+      osmRefs.length &&
+      osmRefs.every((r) => checkedRefs.has(r)) &&
+      !entry.missingSince
+    ) {
       entry.missingSince = today
     }
   }
 
-  for (const entry of store.entries) refreshEntry(entry, city, today, { existing, dateChanges, closed })
+  for (const entry of store.entries)
+    refreshEntry(entry, city, today, { existing, dateChanges, closed })
 
   return { added, dateChanges, closed }
 }
 
-module.exports = { mergeIntoStore, refreshEntry, existingIndex, chooseNames, cleanName, combineCandidates, computeStatus, pickExpected }
+module.exports = {
+  mergeIntoStore,
+  refreshEntry,
+  existingIndex,
+  chooseNames,
+  cleanName,
+  combineCandidates,
+  computeStatus,
+  pickExpected,
+}

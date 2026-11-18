@@ -22,29 +22,53 @@ function promotionDecision(entry, city, today) {
   }
   const line = entry.lineOverride || entry.line
   if (!line || !city.lines[line]) return { ok: false, reason: 'no known line' }
-  if (!Array.isArray(entry.coordinates) || !entry.name) return { ok: false, reason: 'missing name/coordinates' }
-  if (entry.osmState === 'disused' || entry.missingSince) return { ok: false, reason: 'needs a human check' }
+  if (!Array.isArray(entry.coordinates) || !entry.name)
+    return { ok: false, reason: 'missing name/coordinates' }
+  if (entry.osmState === 'disused' || entry.missingSince)
+    return { ok: false, reason: 'needs a human check' }
 
   // 1. OSM mappers switched it to an operational station.
   if (entry.osmState === 'operational') {
     const d = entry.osmOpening
     if (!d?.date || opened(d, today)) {
-      return { ok: true, confidence: 'confirmed', reason: 'OpenStreetMap now tags it as an operating station' }
+      return {
+        ok: true,
+        confidence: 'confirmed',
+        reason: 'OpenStreetMap now tags it as an operating station',
+      }
     }
   }
 
   // 2. A web source (tier 1-2) says it's open.
   const w = entry.webCheck
-  if (w?.opened === true && w.tier <= 2 && (!w.openedOn || w.openedOn <= today)) {
-    return { ok: true, confidence: 'confirmed', reason: `web source confirms opening (${w.url})` }
+  if (
+    w?.opened === true &&
+    w.tier <= 2 &&
+    (!w.openedOn || w.openedOn <= today)
+  ) {
+    return {
+      ok: true,
+      confidence: 'confirmed',
+      reason: `web source confirms opening (${w.url})`,
+    }
   }
 
   // 3. Two independent sources agree on an exact opening day that has passed.
+  //    Strictly before today: on the opening day itself the station may not be open yet
+  //    when the updater runs, so wait for the next run (or for evidence above).
   const o = entry.osmOpening
   const k = entry.wikidataOpening
-  if (o?.precision === 'day' && k?.precision === 'day' && o.date === k.date && o.date <= today) {
+  if (
+    o?.precision === 'day' &&
+    k?.precision === 'day' &&
+    o.date === k.date &&
+    o.date < today
+  ) {
     if (w?.opened === false || (w?.announcedDate && w.announcedDate > today)) {
-      return { ok: false, reason: 'scheduled day passed but a web check says it is not open yet' }
+      return {
+        ok: false,
+        reason: 'scheduled day passed but a web check says it is not open yet',
+      }
     }
     return {
       ok: true,
@@ -79,12 +103,18 @@ function applyEntry(entry, city, { routeStubs = true } = {}) {
   props.line = line
   if (city.nameStyle.order) {
     const orders = features
-      .filter((f) => f.properties?.line === line && typeof f.properties.order === 'number')
+      .filter(
+        (f) =>
+          f.properties?.line === line && typeof f.properties.order === 'number',
+      )
       .map((f) => f.properties.order)
     props.order = orders.length ? Math.max(...orders) + 1 : 0
-    notes.push('`order` was appended at the end of the line; adjust if the station sits mid-line')
+    notes.push(
+      '`order` was appended at the end of the line; adjust if the station sits mid-line',
+    )
   }
-  if (entry.alternateNames?.length) props.alternate_names = [...entry.alternateNames]
+  if (entry.alternateNames?.length)
+    props.alternate_names = [...entry.alternateNames]
 
   // Interchanges: reuse the cluster_key of a same-named station next door.
   const keys = keysForNames([entry.name, ...(entry.alternateNames || [])])
@@ -96,18 +126,30 @@ function applyEntry(entry, city, { routeStubs = true } = {}) {
   )
   if (neighbour) props.cluster_key = neighbour.properties.cluster_key
 
-  features.push({ type: 'Feature', geometry: { type: 'Point', coordinates }, properties: props, id })
+  features.push({
+    type: 'Feature',
+    geometry: { type: 'Point', coordinates },
+    properties: props,
+    id,
+  })
 
   let routeChanged = false
   if (routeStubs && city.routes && Array.isArray(city.routes.features)) {
-    const lineRoutes = city.routes.features.filter((f) => f?.properties?.line === line)
-    const nearest = lineRoutes.length ? nearestOnRoutes(coordinates, lineRoutes) : null
+    const lineRoutes = city.routes.features.filter(
+      (f) => f?.properties?.line === line,
+    )
+    const nearest = lineRoutes.length
+      ? nearestOnRoutes(coordinates, lineRoutes)
+      : null
     if (nearest && nearest.distance > ROUTE_STUB_MIN_M) {
       const from = nearest.point.map((n) => Math.round(n * 1e6) / 1e6)
       city.routes.features.push({
         type: 'Feature',
         geometry: { type: 'LineString', coordinates: [from, coordinates] },
-        properties: { ...nearest.feature.properties, auto_generated: 'upcoming-stations' },
+        properties: {
+          ...nearest.feature.properties,
+          auto_generated: 'upcoming-stations',
+        },
       })
       routeChanged = true
       notes.push(

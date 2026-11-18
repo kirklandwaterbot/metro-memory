@@ -149,6 +149,10 @@ test('promotion needs real evidence of opening', () => {
   // two sources agree on a passed day -> scheduled-confidence promotion
   const agreed = entry({ osmOpening: parseLooseDate('2026-11-15'), wikidataOpening: parseWikidataTime('2026-11-15T00:00:00Z', 11) })
   assert.equal(promotionDecision(agreed, city, '2026-11-17').confidence, 'scheduled')
+  // ...but not on the opening day itself
+  const today = entry({ osmOpening: parseLooseDate('2026-11-17'), wikidataOpening: parseWikidataTime('2026-11-17T00:00:00Z', 11) })
+  assert.equal(promotionDecision(today, city, '2026-11-17').ok, false)
+  assert.equal(promotionDecision(today, city, '2026-11-18').ok, true)
   // ...unless the web check says it's delayed
   agreed.webCheck = { opened: false, tier: 1 }
   assert.equal(promotionDecision(agreed, city, '2026-11-17').ok, false)
@@ -271,4 +275,18 @@ test('end to end: discovers, tracks, and adds stations once they open', () => {
   features = JSON.parse(fs.readFileSync(path.join(dataDir, 'features.json'), 'utf8')).features
   assert.equal(features.at(-1).properties.name, 'Charlie')
   assert.equal(features.length, 4)
+})
+
+test('Wikidata items only merge into a nearby OSM station when the names agree', () => {
+  const { combineCandidates } = lib('discover.js')
+  const osm = [{ ref: 'node/1', url: 'u1', coordinates: [0, 0], names: { name: 'Alpha Park' }, kind: 'rail', state: 'construction', lineEvidence: [] }]
+  const near = (name: string, ref: string, extra = {}) => ({
+    ref, url: ref, coordinates: [0.0005, 0], names: { 'name:en': name }, state: 'construction', lineEvidence: [], ...extra,
+  })
+  // ~55 m away, different name: stays separate
+  assert.equal(combineCandidates(osm, [near('Bravo Street', 'Q1')]).length, 2)
+  // same name: merges
+  assert.equal(combineCandidates(osm, [near('Alpha Park', 'Q2')]).length, 1)
+  // explicit OSM link: merges whatever the name
+  assert.equal(combineCandidates(osm, [near('Bravo Street', 'Q3', { osmRefs: ['node/1'] })]).length, 1)
 })
