@@ -1400206,6 +1400206,54 @@
         "order": 5,
         "note": "City Hall loop (OSM way 821671638): 6 trains turn here past the closed City Hall station"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.087493,
+            40.714614
+          ],
+          [
+            -74.089,
+            40.7148
+          ],
+          [
+            -74.091,
+            40.71505
+          ],
+          [
+            -74.0927,
+            40.7153
+          ],
+          [
+            -74.094,
+            40.71585
+          ],
+          [
+            -74.095,
+            40.7164
+          ],
+          [
+            -74.096,
+            40.7168
+          ],
+          [
+            -74.0978,
+            40.7174
+          ]
+        ]
+      },
+      "properties": {
+        "line": "NJTLRWestSideTonnelle",
+        "name": "Route 440 Extension to Bayfront (planned)",
+        "color": "#FFDD00",
+        "order": 71,
+        "future": true,
+        "note": "Approximate alignment from NJ Transit's preferred-alternative plan: elevated over West Side Av, the station parking lot, Mallory Av and Route 440"
+      }
     }
   ]
 }
