@@ -1,0 +1,227 @@
+{
+  "city": "taipei",
+  "entries": [
+    {
+      "id": "wd:Q10937175",
+      "refs": [
+        "wd:Q10937175"
+      ],
+      "name": "Dadaocheng (大稻埕)",
+      "alternateNames": [
+        "Dadaocheng",
+        "大稻埕"
+      ],
+      "coordinates": [
+        121.194345,
+        25.016146
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10937175"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q11061335",
+      "refs": [
+        "wd:Q11061335"
+      ],
+      "name": "Pingzhen (平鎮車)",
+      "alternateNames": [
+        "Pingzhen",
+        "平鎮車"
+      ],
+      "coordinates": [
+        121.214722,
+        24.942778
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "light_rail",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-10-03",
+        "source": "wikidata",
+        "date": "2026-10-03",
+        "latest": "2026-10-03",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-10-03",
+        "source": "wikidata",
+        "date": "2026-10-03",
+        "latest": "2026-10-03",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11061335"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q11078952",
+      "refs": [
+        "wd:Q11078952"
+      ],
+      "name": "National Chengchi University (政大)",
+      "alternateNames": [
+        "National Chengchi University",
+        "政大"
+      ],
+      "coordinates": [
+        121.577056,
+        24.9885
+      ],
+      "line": "circular",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "circular",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11078952"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q15942296",
+      "refs": [
+        "wd:Q15942296"
+      ],
+      "name": "Pitang (埤塘)",
+      "alternateNames": [
+        "Pitang",
+        "埤塘"
+      ],
+      "coordinates": [
+        121.437778,
+        24.968333
+      ],
+      "line": "wanda",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "wanda",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15942296"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q63406566",
+      "refs": [
+        "wd:Q63406566"
+      ],
+      "name": "Danan (大湳)",
+      "alternateNames": [
+        "Danan",
+        "大湳"
+      ],
+      "coordinates": [
+        121.298949,
+        24.955935
+      ],
+      "line": "sanying",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "sanying",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q63406566"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

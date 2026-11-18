@@ -1806,6 +1806,48 @@
         "order": 31
       },
       "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.167733,
+          24.640454
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Bingzhou (丙洲)",
+        "line": "xiamen4",
+        "order": 0,
+        "alternate_names": [
+          "Bingzhou",
+          "丙洲"
+        ]
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.031546,
+          24.620032
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Jimei Software Park North (集美软件园北)",
+        "line": "xiamen4",
+        "order": 1,
+        "alternate_names": [
+          "Jimei Software Park North",
+          "集美软件园北"
+        ]
+      },
+      "id": 87
     }
   ]
 }

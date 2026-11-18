@@ -18070,6 +18070,28 @@
         "order": 0,
         "auto_filled": "station-extension"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.895633,
+            52.481153
+          ],
+          [
+            -1.889834,
+            52.480948
+          ]
+        ]
+      },
+      "properties": {
+        "line": "Line1",
+        "color": "#0288D1",
+        "order": 119,
+        "auto_generated": "upcoming-stations"
+      }
     }
   ]
 }

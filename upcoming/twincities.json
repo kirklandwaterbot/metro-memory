@@ -1,0 +1,63 @@
+{
+  "city": "twincities",
+  "entries": [
+    {
+      "id": "osm:node/6648666574",
+      "refs": [
+        "osm:node/6648666574",
+        "wd:Q140753416"
+      ],
+      "name": "Shady Oak",
+      "alternateNames": [],
+      "coordinates": [
+        -93.420965,
+        44.917795
+      ],
+      "line": "MAXGreen",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "MAXGreen",
+          "score": 2
+        }
+      ],
+      "kind": "light_rail",
+      "osmState": "operational",
+      "wikidataState": "construction",
+      "osmOpening": {
+        "raw": "2027-06-12",
+        "source": "osm",
+        "date": "2027-06-12",
+        "latest": "2027-06-12",
+        "precision": "day"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2027-06-12",
+        "source": "osm",
+        "date": "2027-06-12",
+        "latest": "2027-06-12",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "expected 2027-06-12",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/6648666574"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q140753416"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

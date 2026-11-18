@@ -1,0 +1,1067 @@
+{
+  "city": "xiamen",
+  "entries": [
+    {
+      "id": "wd:Q141474202",
+      "refs": [
+        "wd:Q141474202"
+      ],
+      "name": "Bingzhou (丙洲)",
+      "alternateNames": [
+        "Bingzhou",
+        "丙洲"
+      ],
+      "coordinates": [
+        118.167733,
+        24.640454
+      ],
+      "line": "xiamen4",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen4",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": {
+        "raw": "2026-09-16",
+        "source": "web",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "promoted",
+      "statusReason": "web source confirms opening (https://www.metroman.cn/en/cities/xiamen/lines/line-4)",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141474202"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": true,
+        "openedOn": "2026-09-16",
+        "announcedDate": "2026-09-16",
+        "url": "https://www.metroman.cn/en/cities/xiamen/lines/line-4",
+        "tier": 1,
+        "quote": "Xiamen Metro Line 4 ... Opened September 16, 2026"
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": "2026-11-18",
+      "featureId": 86,
+      "promotionConfidence": "confirmed"
+    },
+    {
+      "id": "wd:Q108057107",
+      "refs": [
+        "wd:Q108057107"
+      ],
+      "name": "Xiang'an Airport (翔安机场)",
+      "alternateNames": [
+        "Xiang'an Airport",
+        "翔安机场"
+      ],
+      "coordinates": [
+        118.3495,
+        24.5533
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen4",
+          "score": 3
+        },
+        {
+          "line": "xiamen3",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "line evidence is ambiguous",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108057107"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q108057123",
+      "refs": [
+        "wd:Q108057123"
+      ],
+      "name": "Shapowei (沙坡尾)",
+      "alternateNames": [
+        "Shapowei",
+        "沙坡尾"
+      ],
+      "coordinates": [
+        118.08028,
+        24.44475
+      ],
+      "line": "xiamen3",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen3",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108057123"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q108057125",
+      "refs": [
+        "wd:Q108057125"
+      ],
+      "name": "Xiamen University (厦门大学)",
+      "alternateNames": [
+        "Xiamen University",
+        "厦门大学"
+      ],
+      "coordinates": [
+        118.08726,
+        24.43814
+      ],
+      "line": "xiamen3",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen3",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108057125"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q108057147",
+      "refs": [
+        "wd:Q108057147"
+      ],
+      "name": "Baicheng (白城)",
+      "alternateNames": [
+        "Baicheng",
+        "白城"
+      ],
+      "coordinates": [
+        118.10403,
+        24.43281
+      ],
+      "line": "xiamen3",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen3",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108057147"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q108057169",
+      "refs": [
+        "wd:Q108057169"
+      ],
+      "name": "Shangli (上李)",
+      "alternateNames": [
+        "Shangli",
+        "上李"
+      ],
+      "coordinates": [
+        118.11709,
+        24.44033
+      ],
+      "line": "xiamen3",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen3",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108057169"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467437",
+      "refs": [
+        "wd:Q141467437"
+      ],
+      "name": "Yinong (一农)",
+      "alternateNames": [
+        "Yinong",
+        "一农"
+      ],
+      "coordinates": [
+        117.943307,
+        24.539236
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467437"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467438",
+      "refs": [
+        "wd:Q141467438"
+      ],
+      "name": "Lindai (林埭)",
+      "alternateNames": [
+        "Lindai",
+        "林埭"
+      ],
+      "coordinates": [
+        117.95211,
+        24.544516
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467438"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467439",
+      "refs": [
+        "wd:Q141467439"
+      ],
+      "name": "Chenjing (陈井)",
+      "alternateNames": [
+        "Chenjing",
+        "陈井"
+      ],
+      "coordinates": [
+        118.00001,
+        24.56045
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467439"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467440",
+      "refs": [
+        "wd:Q141467440"
+      ],
+      "name": "Xibin (西滨)",
+      "alternateNames": [
+        "Xibin",
+        "西滨"
+      ],
+      "coordinates": [
+        118.015276,
+        24.568237
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467440"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467441",
+      "refs": [
+        "wd:Q141467441"
+      ],
+      "name": "Beitou (碑头)",
+      "alternateNames": [
+        "Beitou",
+        "碑头"
+      ],
+      "coordinates": [
+        118.02473,
+        24.56798
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467441"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467442",
+      "refs": [
+        "wd:Q141467442"
+      ],
+      "name": "Xingbin (杏滨)",
+      "alternateNames": [
+        "Xingbin",
+        "杏滨"
+      ],
+      "coordinates": [
+        118.03505,
+        24.56876
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467442"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467443",
+      "refs": [
+        "wd:Q141467443"
+      ],
+      "name": "Neimao (内茂)",
+      "alternateNames": [
+        "Neimao",
+        "内茂"
+      ],
+      "coordinates": [
+        118.03887,
+        24.57503
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467443"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467445",
+      "refs": [
+        "wd:Q141467445"
+      ],
+      "name": "Dongren (董任)",
+      "alternateNames": [
+        "Dongren",
+        "董任"
+      ],
+      "coordinates": [
+        118.04284,
+        24.58219
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467445"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467446",
+      "refs": [
+        "wd:Q141467446"
+      ],
+      "name": "Xinglinwan (杏林湾)",
+      "alternateNames": [
+        "Xinglinwan",
+        "杏林湾"
+      ],
+      "coordinates": [
+        118.0699,
+        24.60514
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467446"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141467447",
+      "refs": [
+        "wd:Q141467447"
+      ],
+      "name": "Huaqiao University (华侨大学)",
+      "alternateNames": [
+        "Huaqiao University",
+        "华侨大学"
+      ],
+      "coordinates": [
+        118.082412,
+        24.600109
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141467447"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141474125",
+      "refs": [
+        "wd:Q141474125"
+      ],
+      "name": "Houxi (后溪)",
+      "alternateNames": [
+        "Houxi",
+        "后溪"
+      ],
+      "coordinates": [
+        118.044051,
+        24.627157
+      ],
+      "line": "xiamen4",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen4",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": {
+        "raw": "2026-09-16",
+        "source": "web",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "overdue",
+      "statusReason": "expected by 2026-09-16; no confirmation it opened yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141474125"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": false,
+        "openedOn": null,
+        "announcedDate": "2026-09-16",
+        "url": "https://commons.wikimedia.org/wiki/Category:Houxi_Station",
+        "tier": 3,
+        "quote": "Date of official opening 16 September 2026"
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141474127",
+      "refs": [
+        "wd:Q141474127"
+      ],
+      "name": "Jimei Software Park North (集美软件园北)",
+      "alternateNames": [
+        "Jimei Software Park North",
+        "集美软件园北"
+      ],
+      "coordinates": [
+        118.031546,
+        24.620032
+      ],
+      "line": "xiamen4",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen4",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": {
+        "raw": "2026-09-16",
+        "source": "web",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "promoted",
+      "statusReason": "web source confirms opening (https://www.metroman.cn/en/cities/xiamen/lines/line-4)",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141474127"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": true,
+        "openedOn": "2026-09-16",
+        "announcedDate": "2026-09-16",
+        "url": "https://www.metroman.cn/en/cities/xiamen/lines/line-4",
+        "tier": 1,
+        "quote": "Opened September 16, 2026"
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": "2026-11-18",
+      "featureId": 87,
+      "promotionConfidence": "confirmed"
+    },
+    {
+      "id": "wd:Q141474133",
+      "refs": [
+        "wd:Q141474133"
+      ],
+      "name": "Qianwu (前浯)",
+      "alternateNames": [
+        "Qianwu",
+        "前浯"
+      ],
+      "coordinates": [
+        118.250023,
+        24.564562
+      ],
+      "line": "xiamen4",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen4",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "overdue",
+      "statusReason": "expected by 2026-09-16; no confirmation it opened yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141474133"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": null,
+        "openedOn": null,
+        "announcedDate": null,
+        "url": "https://www.metroman.cn/en/cities/xiamen/stations/qianwu",
+        "tier": 1,
+        "quote": "First – Last ... Line 4 ... Qianwu Station First/Last Trains & Location"
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q141474198",
+      "refs": [
+        "wd:Q141474198"
+      ],
+      "name": "Chengchang (城场)",
+      "alternateNames": [
+        "Chengchang",
+        "城场"
+      ],
+      "coordinates": [
+        118.205429,
+        24.634101
+      ],
+      "line": "xiamen4",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "xiamen4",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-16",
+        "source": "wikidata",
+        "date": "2026-09-16",
+        "latest": "2026-09-16",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "overdue",
+      "statusReason": "expected by 2026-09-16; no confirmation it opened yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141474198"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": false,
+        "openedOn": null,
+        "announcedDate": null,
+        "url": null,
+        "tier": 3,
+        "quote": null
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

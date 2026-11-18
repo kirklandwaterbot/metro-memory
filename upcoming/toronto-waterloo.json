@@ -1,0 +1,514 @@
+{
+  "city": "toronto-waterloo",
+  "entries": [
+    {
+      "id": "osm:way/1190946864",
+      "refs": [
+        "osm:way/1190946864",
+        "wd:Q135309012"
+      ],
+      "name": "King West",
+      "alternateNames": [],
+      "coordinates": [
+        -79.402262,
+        43.644085
+      ],
+      "line": "TTC504",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC504",
+          "score": 10.5
+        },
+        {
+          "line": "TTC511",
+          "score": 6
+        },
+        {
+          "line": "TTC505",
+          "score": 1.5
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1190946864"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q135309012"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1507540484",
+      "refs": [
+        "osm:way/1507540484"
+      ],
+      "name": "Chinatown",
+      "alternateNames": [],
+      "coordinates": [
+        -79.396571,
+        43.648851
+      ],
+      "line": "TTC510",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC510",
+          "score": 16.5
+        },
+        {
+          "line": "TTC501",
+          "score": 8
+        },
+        {
+          "line": "TTC507",
+          "score": 2
+        },
+        {
+          "line": "ION",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1507540484"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1190946874",
+      "refs": [
+        "osm:way/1190946874"
+      ],
+      "name": "Osgoode",
+      "alternateNames": [],
+      "coordinates": [
+        -79.386896,
+        43.650938
+      ],
+      "line": "TTC501",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC501",
+          "score": 10
+        },
+        {
+          "line": "ION",
+          "score": 4
+        },
+        {
+          "line": "TTC3",
+          "score": 4
+        },
+        {
+          "line": "TTC507",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1190946874"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1190946876",
+      "refs": [
+        "osm:way/1190946876"
+      ],
+      "name": "Queen",
+      "alternateNames": [],
+      "coordinates": [
+        -79.379438,
+        43.652366
+      ],
+      "line": "TTC3",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC3",
+          "score": 5
+        },
+        {
+          "line": "TTC501",
+          "score": 2.67
+        },
+        {
+          "line": "TTC507",
+          "score": 0.67
+        },
+        {
+          "line": "ION",
+          "score": 0.67
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1190946876"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1190946881",
+      "refs": [
+        "osm:way/1190946881"
+      ],
+      "name": "Moss Park",
+      "alternateNames": [],
+      "coordinates": [
+        -79.370791,
+        43.654451
+      ],
+      "line": "TTC501",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC501",
+          "score": 8
+        },
+        {
+          "line": "TTC507",
+          "score": 2
+        },
+        {
+          "line": "ION",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1190946881"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1190946883",
+      "refs": [
+        "osm:way/1190946883",
+        "wd:Q107258221"
+      ],
+      "name": "Distillery District",
+      "alternateNames": [],
+      "coordinates": [
+        -79.363822,
+        43.651683
+      ],
+      "line": "TTC504",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC504",
+          "score": 10.5
+        },
+        {
+          "line": "TTC503",
+          "score": 6
+        },
+        {
+          "line": "TTC505",
+          "score": 1.5
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1190946883"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107258221"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1191924774",
+      "refs": [
+        "osm:way/1191924774"
+      ],
+      "name": "Leslieville",
+      "alternateNames": [],
+      "coordinates": [
+        -79.345924,
+        43.659783
+      ],
+      "line": "TTC501",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC501",
+          "score": 8
+        },
+        {
+          "line": "TTC503",
+          "score": 6
+        },
+        {
+          "line": "TTC507",
+          "score": 2
+        },
+        {
+          "line": "ION",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1191924774"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1191924776",
+      "refs": [
+        "osm:way/1191924776"
+      ],
+      "name": "Gerrard",
+      "alternateNames": [],
+      "coordinates": [
+        -79.342835,
+        43.667378
+      ],
+      "line": "TTC506",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC506",
+          "score": 7.5
+        },
+        {
+          "line": "GOST",
+          "score": 2
+        },
+        {
+          "line": "GOLE",
+          "score": 2
+        },
+        {
+          "line": "TTC505",
+          "score": 0.5
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1191924776"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:way/1192141930",
+      "refs": [
+        "osm:way/1192141930",
+        "osm:way/1192147207",
+        "osm:way/1192147208"
+      ],
+      "name": "Pape",
+      "alternateNames": [],
+      "coordinates": [
+        -79.344239,
+        43.679509
+      ],
+      "line": "TTC3",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "TTC3",
+          "score": 4
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1192141930"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1192147207"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/way/1192147208"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q121335796",
+      "refs": [
+        "wd:Q121335796"
+      ],
+      "name": "East Harbour Transit Hub",
+      "alternateNames": [],
+      "coordinates": [
+        -79.3476,
+        43.6551
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q121335796"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

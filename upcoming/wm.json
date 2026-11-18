@@ -1,0 +1,117 @@
+{
+  "city": "wm",
+  "entries": [
+    {
+      "id": "osm:node/13078471926",
+      "refs": [
+        "osm:node/13078471926"
+      ],
+      "name": "Millennium Point",
+      "alternateNames": [],
+      "coordinates": [
+        -1.889834,
+        52.480948
+      ],
+      "line": "Line1",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "Line1",
+          "score": 12
+        },
+        {
+          "line": "EastsideExtension",
+          "score": 4
+        }
+      ],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": null,
+      "osmOpening": {
+        "raw": "2026-04-05",
+        "source": "osm:start_date",
+        "date": "2026-04-05",
+        "latest": "2026-04-05",
+        "precision": "day"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-04-05",
+        "source": "osm:start_date",
+        "date": "2026-04-05",
+        "latest": "2026-04-05",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "promoted",
+      "statusReason": "OpenStreetMap now tags it as an operating station",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13078471926"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": null,
+        "openedOn": null,
+        "announcedDate": null,
+        "url": null,
+        "tier": 3,
+        "quote": null
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": "2026-11-18",
+      "featureId": 57,
+      "promotionConfidence": "confirmed"
+    },
+    {
+      "id": "osm:node/10291171437",
+      "refs": [
+        "osm:node/10291171437",
+        "osm:node/12214861269"
+      ],
+      "name": "Digbeth High Street",
+      "alternateNames": [],
+      "coordinates": [
+        -1.887108,
+        52.475135
+      ],
+      "line": "EastsideExtension",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "EastsideExtension",
+          "score": 4
+        }
+      ],
+      "kind": "tram",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10291171437"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/12214861269"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

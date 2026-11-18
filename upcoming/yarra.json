@@ -1,0 +1,46 @@
+{
+  "city": "yarra",
+  "entries": [
+    {
+      "id": "osm:node/10744680620",
+      "refs": [
+        "osm:node/10744680620"
+      ],
+      "name": "Keilor East",
+      "alternateNames": [],
+      "coordinates": [
+        144.865418,
+        -37.726298
+      ],
+      "line": "Y1",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "Y1",
+          "score": 1
+        }
+      ],
+      "kind": "rail",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10744680620"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

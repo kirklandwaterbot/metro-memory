@@ -1,0 +1,1841 @@
+{
+  "city": "thsr",
+  "entries": [
+    {
+      "id": "osm:node/4653351600",
+      "refs": [
+        "osm:node/4653351600"
+      ],
+      "name": "中壢車",
+      "alternateNames": [],
+      "coordinates": [
+        121.226134,
+        24.952775
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4653351600"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4589005303",
+      "refs": [
+        "osm:node/4589005303"
+      ],
+      "name": "中壢",
+      "alternateNames": [],
+      "coordinates": [
+        121.225812,
+        24.952873
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4589005303"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4963927696",
+      "refs": [
+        "osm:node/4963927696",
+        "wd:Q10922343"
+      ],
+      "name": "Juguang",
+      "alternateNames": [
+        "莒光"
+      ],
+      "coordinates": [
+        121.469897,
+        24.994877
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4963927696"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10922343"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147265",
+      "refs": [
+        "osm:node/4145147265",
+        "wd:Q10924555"
+      ],
+      "name": "Zhonghe Senior High School",
+      "alternateNames": [
+        "中和高中"
+      ],
+      "coordinates": [
+        121.480873,
+        24.995008
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147265"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10924555"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147264",
+      "refs": [
+        "osm:node/4145147264"
+      ],
+      "name": "Shuang Ho Hospital",
+      "alternateNames": [
+        "雙和醫院"
+      ],
+      "coordinates": [
+        121.48956,
+        24.996279
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147264"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147263",
+      "refs": [
+        "osm:node/4145147263"
+      ],
+      "name": "Zhonghe",
+      "alternateNames": [
+        "中和"
+      ],
+      "coordinates": [
+        121.497238,
+        25.000795
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147263"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147261",
+      "refs": [
+        "osm:node/4145147261",
+        "wd:Q11103187"
+      ],
+      "name": "Jiala",
+      "alternateNames": [
+        "加蚋"
+      ],
+      "coordinates": [
+        121.498653,
+        25.02146
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147261"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11103187"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147262",
+      "refs": [
+        "osm:node/4145147262"
+      ],
+      "name": "Yonghe",
+      "alternateNames": [
+        "永和"
+      ],
+      "coordinates": [
+        121.506574,
+        25.007258
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147262"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147259",
+      "refs": [
+        "osm:node/4145147259",
+        "wd:Q11117396"
+      ],
+      "name": "Taipei Botanical Garden",
+      "alternateNames": [
+        "植物園"
+      ],
+      "coordinates": [
+        121.509658,
+        25.03073
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147259"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11117396"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147260",
+      "refs": [
+        "osm:node/4145147260",
+        "wd:Q15936498"
+      ],
+      "name": "Xia'an",
+      "alternateNames": [
+        "廈安"
+      ],
+      "coordinates": [
+        121.504181,
+        25.030066
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147260"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15936498"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4145147258",
+      "refs": [
+        "osm:node/4145147258"
+      ],
+      "name": "Chiang Kai-Shek Memorial Hall",
+      "alternateNames": [
+        "中正紀念堂"
+      ],
+      "coordinates": [
+        121.517753,
+        25.032838
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4145147258"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/10994390050",
+      "refs": [
+        "osm:node/10994390050"
+      ],
+      "name": "環狀線Y1A",
+      "alternateNames": [],
+      "coordinates": [
+        121.577152,
+        24.988076
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10994390050"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/5518688575",
+      "refs": [
+        "osm:node/5518688575"
+      ],
+      "name": "Taipei Zoo",
+      "alternateNames": [
+        "動物園(環狀線)",
+        "動物園"
+      ],
+      "coordinates": [
+        121.578634,
+        24.997544
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/5518688575"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q136793321",
+      "refs": [
+        "wd:Q136793321"
+      ],
+      "name": "Chocolate",
+      "alternateNames": [
+        "巧克力"
+      ],
+      "coordinates": [
+        121.297462,
+        24.943226
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q136793321"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q139378892",
+      "refs": [
+        "wd:Q139378892"
+      ],
+      "name": "Yingge",
+      "alternateNames": [
+        "鶯歌車"
+      ],
+      "coordinates": [
+        121.356472,
+        24.953222
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q139378892"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q8070949",
+      "refs": [
+        "wd:Q8070949"
+      ],
+      "name": "Guangci/Fengtian Temple",
+      "alternateNames": [
+        "廣慈/奉天宮"
+      ],
+      "coordinates": [
+        121.58188,
+        25.03747
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-08-30",
+        "source": "wikidata",
+        "date": "2026-08-30",
+        "latest": "2026-08-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-08-30",
+        "source": "wikidata",
+        "date": "2026-08-30",
+        "latest": "2026-08-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q8070949"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q10883822",
+      "refs": [
+        "wd:Q10883822"
+      ],
+      "name": "Yonghe Yongping Elementary School",
+      "alternateNames": [
+        "永和永平國小"
+      ],
+      "coordinates": [
+        121.50526,
+        25.00874
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10883822"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q10937175",
+      "refs": [
+        "wd:Q10937175"
+      ],
+      "name": "Dadaocheng",
+      "alternateNames": [
+        "大稻埕"
+      ],
+      "coordinates": [
+        121.194345,
+        25.016146
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q10937175"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q11078952",
+      "refs": [
+        "wd:Q11078952"
+      ],
+      "name": "National Chengchi University",
+      "alternateNames": [
+        "政大"
+      ],
+      "coordinates": [
+        121.577056,
+        24.9885
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11078952"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q11122286",
+      "refs": [
+        "wd:Q11122286"
+      ],
+      "name": "Hengxi",
+      "alternateNames": [
+        "橫溪"
+      ],
+      "coordinates": [
+        121.390407,
+        24.937182
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q11122286"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q15942296",
+      "refs": [
+        "wd:Q15942296"
+      ],
+      "name": "Pitang",
+      "alternateNames": [
+        "埤塘"
+      ],
+      "coordinates": [
+        121.437778,
+        24.968333
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15942296"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q15954401",
+      "refs": [
+        "wd:Q15954401"
+      ],
+      "name": "Liancheng Jinhe",
+      "alternateNames": [
+        "連城錦和"
+      ],
+      "coordinates": [
+        121.489924,
+        24.996303
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15954401"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q21016959",
+      "refs": [
+        "wd:Q21016959"
+      ],
+      "name": "Sanxia",
+      "alternateNames": [
+        "三峽"
+      ],
+      "coordinates": [
+        121.376066,
+        24.939323
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q21016959"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q63406566",
+      "refs": [
+        "wd:Q63406566"
+      ],
+      "name": "Danan",
+      "alternateNames": [
+        "大湳"
+      ],
+      "coordinates": [
+        121.298949,
+        24.955935
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q63406566"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q97352145",
+      "refs": [
+        "wd:Q97352145"
+      ],
+      "name": "Ceramics Old Street",
+      "alternateNames": [
+        "陶瓷老街"
+      ],
+      "coordinates": [
+        121.349486,
+        24.952578
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97352145"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q97352281",
+      "refs": [
+        "wd:Q97352281"
+      ],
+      "name": "Mazutian",
+      "alternateNames": [
+        "媽祖田"
+      ],
+      "coordinates": [
+        121.412352,
+        24.953736
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97352281"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q97352282",
+      "refs": [
+        "wd:Q97352282"
+      ],
+      "name": "National Taipei University",
+      "alternateNames": [
+        "台北大學"
+      ],
+      "coordinates": [
+        121.366889,
+        24.939711
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97352282"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q97352284",
+      "refs": [
+        "wd:Q97352284"
+      ],
+      "name": "Changshoushan",
+      "alternateNames": [
+        "長壽山"
+      ],
+      "coordinates": [
+        121.402946,
+        24.944376
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97352284"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q106005520",
+      "refs": [
+        "wd:Q106005520"
+      ],
+      "name": "Yingtao Fude",
+      "alternateNames": [
+        "鶯桃福德"
+      ],
+      "coordinates": [
+        121.329972,
+        24.966833
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q106005520"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q109345987",
+      "refs": [
+        "wd:Q109345987"
+      ],
+      "name": "Longpu",
+      "alternateNames": [
+        "龍埔"
+      ],
+      "coordinates": [
+        121.384674,
+        24.939868
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q109345987"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q109345988",
+      "refs": [
+        "wd:Q109345988"
+      ],
+      "name": "Yongji Park",
+      "alternateNames": [
+        "永吉公園"
+      ],
+      "coordinates": [
+        121.334432,
+        24.960838
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q109345988"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q109347614",
+      "refs": [
+        "wd:Q109347614"
+      ],
+      "name": "Guohua",
+      "alternateNames": [
+        "國華"
+      ],
+      "coordinates": [
+        121.342194,
+        24.955342
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "unknown",
+      "osmOpening": null,
+      "wikidataOpening": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-06-30",
+        "source": "wikidata",
+        "date": "2026-06-30",
+        "latest": "2026-06-30",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q109347614"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915107",
+      "refs": [
+        "wd:Q129915107"
+      ],
+      "name": "Jiande Xingfeng",
+      "alternateNames": [
+        "建德興豐"
+      ],
+      "coordinates": [
+        121.281122,
+        24.929557
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915107"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915110",
+      "refs": [
+        "wd:Q129915110"
+      ],
+      "name": "Rende Park",
+      "alternateNames": [
+        "仁德公園"
+      ],
+      "coordinates": [
+        121.28917,
+        24.937375
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915110"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915113",
+      "refs": [
+        "wd:Q129915113"
+      ],
+      "name": "Xiaodanan",
+      "alternateNames": [
+        "小大湳"
+      ],
+      "coordinates": [
+        121.301351,
+        24.96884
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915113"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915117",
+      "refs": [
+        "wd:Q129915117"
+      ],
+      "name": "Yangming Sports Park",
+      "alternateNames": [
+        "陽明運動公園"
+      ],
+      "coordinates": [
+        121.306294,
+        24.980891
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915117"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915119",
+      "refs": [
+        "wd:Q129915119"
+      ],
+      "name": "Taoyuan Main",
+      "alternateNames": [
+        "桃園車"
+      ],
+      "coordinates": [
+        121.313382,
+        24.989493
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915119"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915120",
+      "refs": [
+        "wd:Q129915120"
+      ],
+      "name": "Jingfu Temple",
+      "alternateNames": [
+        "景福宮"
+      ],
+      "coordinates": [
+        121.3098,
+        24.996784
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915120"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915128",
+      "refs": [
+        "wd:Q129915128"
+      ],
+      "name": "Zhongzheng Lixing",
+      "alternateNames": [
+        "中正力行"
+      ],
+      "coordinates": [
+        121.305528,
+        25.003476
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915128"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915130",
+      "refs": [
+        "wd:Q129915130"
+      ],
+      "name": "Zhongzheng Daxing",
+      "alternateNames": [
+        "中正大興"
+      ],
+      "coordinates": [
+        121.300321,
+        25.012314
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915130"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915133",
+      "refs": [
+        "wd:Q129915133"
+      ],
+      "name": "Taoyuan Arts and Cultural Business District",
+      "alternateNames": [
+        "藝文特區"
+      ],
+      "coordinates": [
+        121.297949,
+        25.017392
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915133"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915135",
+      "refs": [
+        "wd:Q129915135"
+      ],
+      "name": "Luxingpi",
+      "alternateNames": [
+        "蘆興埤"
+      ],
+      "coordinates": [
+        121.292827,
+        25.028339
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915135"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915136",
+      "refs": [
+        "wd:Q129915136"
+      ],
+      "name": "Nanzhu Zhongzheng North",
+      "alternateNames": [
+        "南竹中正北"
+      ],
+      "coordinates": [
+        121.282757,
+        25.038667
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915136"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q129915138",
+      "refs": [
+        "wd:Q129915138"
+      ],
+      "name": "Luzhu Zhongzheng North",
+      "alternateNames": [
+        "蘆竹中正北"
+      ],
+      "coordinates": [
+        121.275804,
+        25.049867
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q129915138"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

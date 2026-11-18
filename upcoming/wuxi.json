@@ -1,0 +1,49 @@
+{
+  "city": "wuxi",
+  "entries": [
+    {
+      "id": "wd:Q19852367",
+      "refs": [
+        "wd:Q19852367"
+      ],
+      "name": "Anzhen (安镇)",
+      "alternateNames": [
+        "Anzhen",
+        "安镇"
+      ],
+      "coordinates": [
+        120.464039,
+        31.607331
+      ],
+      "line": "wuxi2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "wuxi2",
+          "score": 3
+        }
+      ],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19852367"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

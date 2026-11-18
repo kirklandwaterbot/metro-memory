@@ -1,0 +1,77 @@
+{
+  "city": "wenzhou",
+  "entries": [
+    {
+      "id": "osm:node/11242938428",
+      "refs": [
+        "osm:node/11242938428"
+      ],
+      "name": "塘下",
+      "alternateNames": [],
+      "coordinates": [
+        120.679455,
+        27.827579
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "light_rail",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/11242938428"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/11668350240",
+      "refs": [
+        "osm:node/11668350240"
+      ],
+      "name": "罗凤",
+      "alternateNames": [],
+      "coordinates": [
+        120.676915,
+        27.845157
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/11668350240"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}

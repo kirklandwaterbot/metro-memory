@@ -1,0 +1,1038 @@
+{
+  "city": "vienna",
+  "entries": [
+    {
+      "id": "osm:node/3836036157",
+      "refs": [
+        "osm:node/3836036157"
+      ],
+      "name": "Wienerberg",
+      "alternateNames": [],
+      "coordinates": [
+        16.344048,
+        48.169513
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "proposed",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/3836036157"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/4048187887",
+      "refs": [
+        "osm:node/4048187887",
+        "wd:Q18028832"
+      ],
+      "name": "Reinprechtsdorfer Straße",
+      "alternateNames": [],
+      "coordinates": [
+        16.35456,
+        48.186693
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 5
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/4048187887"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18028832"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/11846007617",
+      "refs": [
+        "osm:node/11846007617"
+      ],
+      "name": "Pilgramgasse",
+      "alternateNames": [],
+      "coordinates": [
+        16.354003,
+        48.192168
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/11846007617"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/9174951410",
+      "refs": [
+        "osm:node/9174951410"
+      ],
+      "name": "Hernals",
+      "alternateNames": [],
+      "coordinates": [
+        16.316881,
+        48.223125
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "proposed",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/9174951410"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/3836036325",
+      "refs": [
+        "osm:node/3836036325"
+      ],
+      "name": "Elterleinplatz",
+      "alternateNames": [],
+      "coordinates": [
+        16.331526,
+        48.218133
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": "proposed",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/3836036325"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/11846007618",
+      "refs": [
+        "osm:node/11846007618"
+      ],
+      "name": "Neubaugasse",
+      "alternateNames": [],
+      "coordinates": [
+        16.352374,
+        48.200247
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/11846007618"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/3836036397",
+      "refs": [
+        "osm:node/3836036397"
+      ],
+      "name": "Arne Karlsson-Park",
+      "alternateNames": [],
+      "coordinates": [
+        16.353935,
+        48.22157
+      ],
+      "line": "ViennaStrassenbahn38",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaStrassenbahn38",
+          "score": 6
+        }
+      ],
+      "kind": "subway",
+      "osmState": "proposed",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/3836036397"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/3836036196",
+      "refs": [
+        "osm:node/3836036196"
+      ],
+      "name": "Gußriegelstraße",
+      "alternateNames": [],
+      "coordinates": [
+        16.357988,
+        48.172903
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 2
+        }
+      ],
+      "kind": "subway",
+      "osmState": "proposed",
+      "wikidataState": null,
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/3836036196"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/3836036225",
+      "refs": [
+        "osm:node/3836036225",
+        "wd:Q116047405"
+      ],
+      "name": "Matzleinsdorfer Platz",
+      "alternateNames": [],
+      "coordinates": [
+        16.358397,
+        48.1803
+      ],
+      "line": "ViennaUBahnU6",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU6",
+          "score": 6
+        },
+        {
+          "line": "ViennaUBahnU2",
+          "score": 5
+        },
+        {
+          "line": "ViennaUBahnU1",
+          "score": 4
+        }
+      ],
+      "kind": "subway",
+      "osmState": "construction",
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "scheduled",
+      "statusReason": "under construction, no date yet",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/3836036225"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q116047405"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/10231763705",
+      "refs": [
+        "osm:node/10231763705",
+        "osm:node/13356222637",
+        "wd:Q141294204"
+      ],
+      "name": "Ludwig-Koeßler-Platz",
+      "alternateNames": [],
+      "coordinates": [
+        16.409379,
+        48.1955
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": "unknown",
+      "osmOpening": {
+        "raw": "2025-12-19",
+        "source": "osm",
+        "date": "2025-12-19",
+        "latest": "2025-12-19",
+        "precision": "day"
+      },
+      "wikidataOpening": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10231763705"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13356222637"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141294204"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/12550895684",
+      "refs": [
+        "osm:node/12550895684",
+        "wd:Q141294212",
+        "wd:Q141294214",
+        "osm:node/13993858525"
+      ],
+      "name": "Stadionbad",
+      "alternateNames": [],
+      "coordinates": [
+        16.41662,
+        48.204523
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": "unknown",
+      "osmOpening": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "wikidataOpening": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/12550895684"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141294212"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141294214"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13993858525"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/13993858523",
+      "refs": [
+        "osm:node/13993858523",
+        "wd:Q141294208",
+        "osm:node/13993858524"
+      ],
+      "name": "Wasserwiese",
+      "alternateNames": [],
+      "coordinates": [
+        16.413518,
+        48.198482
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": "unknown",
+      "osmOpening": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "wikidataOpening": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13993858523"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141294208"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13993858524"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/13993858526",
+      "refs": [
+        "osm:node/13993858526",
+        "osm:node/13993858527"
+      ],
+      "name": "Ernst-Happel-Stadion",
+      "alternateNames": [],
+      "coordinates": [
+        16.418458,
+        48.207638
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": null,
+      "osmOpening": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13993858526"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13993858527"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/10925183051",
+      "refs": [
+        "osm:node/10925183051",
+        "wd:Q141294220",
+        "osm:node/12550895696"
+      ],
+      "name": "Stadion, Handelskai",
+      "alternateNames": [],
+      "coordinates": [
+        16.423089,
+        48.212029
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": "unknown",
+      "osmOpening": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "wikidataOpening": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09-05",
+        "source": "wikidata",
+        "date": "2026-09-05",
+        "latest": "2026-09-05",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10925183051"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141294220"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/12550895696"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/12550895839",
+      "refs": [
+        "osm:node/12550895839"
+      ],
+      "name": "Dr.-Natterer-Gasse",
+      "alternateNames": [],
+      "coordinates": [
+        16.420416,
+        48.212605
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": null,
+      "osmOpening": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2026-09",
+        "source": "osm",
+        "date": "2026-09-01",
+        "latest": "2026-09-30",
+        "precision": "month"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/12550895839"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/3598326412",
+      "refs": [
+        "osm:node/3598326412",
+        "wd:Q17644548"
+      ],
+      "name": "Lina-Loos-Platz",
+      "alternateNames": [],
+      "coordinates": [
+        16.478568,
+        48.228439
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 11
+        }
+      ],
+      "kind": "subway",
+      "osmState": "operational",
+      "wikidataState": "unknown",
+      "osmOpening": {
+        "raw": "2026-01-07",
+        "source": "osm",
+        "date": "2026-01-07",
+        "latest": "2026-01-07",
+        "precision": "day"
+      },
+      "wikidataOpening": {
+        "raw": "2026-01-19",
+        "source": "wikidata",
+        "date": "2026-01-19",
+        "latest": "2026-01-19",
+        "precision": "day"
+      },
+      "webAnnounced": {
+        "raw": "2026-01-19",
+        "source": "web",
+        "date": "2026-01-19",
+        "latest": "2026-01-19",
+        "precision": "day"
+      },
+      "expected": {
+        "raw": "2026-01-19",
+        "source": "wikidata",
+        "date": "2026-01-19",
+        "latest": "2026-01-19",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "promoted",
+      "statusReason": "OpenStreetMap now tags it as an operating station",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/3598326412"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17644548"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": false,
+        "openedOn": null,
+        "announcedDate": "2026-01-19",
+        "url": null,
+        "tier": 3,
+        "quote": null
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": "2026-11-18",
+      "featureId": 405,
+      "promotionConfidence": "confirmed"
+    },
+    {
+      "id": "osm:node/10536670792",
+      "refs": [
+        "osm:node/10536670792",
+        "osm:node/10536670793"
+      ],
+      "name": "Schukowitzgasse",
+      "alternateNames": [],
+      "coordinates": [
+        16.497959,
+        48.236988
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": null,
+      "osmOpening": {
+        "raw": "2025-10-06",
+        "source": "osm",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2025-10-06",
+        "source": "osm",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10536670792"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10536670793"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "osm:node/13013049573",
+      "refs": [
+        "osm:node/13013049573",
+        "osm:node/13013049574"
+      ],
+      "name": "Aspern Nord Mayrederbrücke",
+      "alternateNames": [],
+      "coordinates": [
+        16.503301,
+        48.235149
+      ],
+      "line": "ViennaUBahnU2",
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [
+        {
+          "line": "ViennaUBahnU2",
+          "score": 4
+        }
+      ],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": null,
+      "osmOpening": {
+        "raw": "2025-10-06",
+        "source": "osm",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": {
+        "raw": "2025-10-06",
+        "source": "web",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "expected": {
+        "raw": "2025-10-06",
+        "source": "osm",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "promoted",
+      "statusReason": "OpenStreetMap now tags it as an operating station",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13013049573"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/13013049574"
+        }
+      ],
+      "webCheck": {
+        "checkedOn": "2026-11-18",
+        "opened": false,
+        "openedOn": null,
+        "announcedDate": "2025-10-06",
+        "url": "https://www.zughalt.de/2026/02/infrastrukturoffensive-in-wien/",
+        "tier": 3,
+        "quote": "Mit dem Ende der Sommersperre beginnt die größte Bauphase ... an wichtigen Instandhaltungsarbeiten im U-Bahn-Netz an."
+      },
+      "firstSeen": "2026-11-18",
+      "promotedOn": "2026-11-18",
+      "featureId": 406,
+      "promotionConfidence": "confirmed"
+    },
+    {
+      "id": "osm:node/10536670790",
+      "refs": [
+        "osm:node/10536670790",
+        "osm:node/10536670791"
+      ],
+      "name": "Stemolakgasse",
+      "alternateNames": [],
+      "coordinates": [
+        16.493567,
+        48.238575
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "tram",
+      "osmState": "operational",
+      "wikidataState": null,
+      "osmOpening": {
+        "raw": "2025-10-06",
+        "source": "osm",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": {
+        "raw": "2025-10-06",
+        "source": "osm",
+        "date": "2025-10-06",
+        "latest": "2025-10-06",
+        "precision": "day"
+      },
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10536670790"
+        },
+        {
+          "type": "osm",
+          "url": "https://www.openstreetmap.org/node/10536670791"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    },
+    {
+      "id": "wd:Q18028834",
+      "refs": [
+        "wd:Q18028834"
+      ],
+      "name": "Frankhplatz",
+      "alternateNames": [],
+      "coordinates": [
+        16.3561,
+        48.2156
+      ],
+      "line": null,
+      "lineOverride": null,
+      "nameOverride": null,
+      "lineCandidates": [],
+      "kind": "subway",
+      "osmState": null,
+      "wikidataState": "construction",
+      "osmOpening": null,
+      "wikidataOpening": null,
+      "webAnnounced": null,
+      "expected": null,
+      "dateHistory": [],
+      "status": "needs-line",
+      "statusReason": "no matching line in this city — probably a new line that needs setting up",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18028834"
+        }
+      ],
+      "webCheck": null,
+      "firstSeen": "2026-11-18",
+      "promotedOn": null,
+      "featureId": null
+    }
+  ]
+}
