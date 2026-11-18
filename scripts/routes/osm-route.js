@@ -341,9 +341,30 @@ async function main() {
       continue
     }
     const waypoints = resolveWaypoints(request, stations)
-    const osm = args.fixture
-      ? readJson(args.fixture)
-      : await fetchOverpass(buildQuery(waypoints, request.bufferM || 5000))
+    let osm
+    if (args.fixture) {
+      osm = readJson(args.fixture)
+    } else {
+      // One query per leg: a single corridor around a long, busy route (the
+      // Northeast Corridor through New York) times out on Overpass.
+      const seen = new Set()
+      osm = { elements: [] }
+      const remarks = []
+      for (let i = 0; i < waypoints.length - 1; i += 1) {
+        const res = await fetchOverpass(buildQuery(waypoints.slice(i, i + 2), request.bufferM || 5000))
+        if (res.remark) remarks.push(res.remark)
+        for (const el of res.elements || []) {
+          const key = `${el.type}/${el.id}`
+          if (seen.has(key)) continue
+          seen.add(key)
+          osm.elements.push(el)
+        }
+      }
+      if (remarks.length) report.push(`- ℹ️ ${label}: Overpass said: ${remarks.join(' | ').slice(0, 300)}`)
+      const ways = osm.elements.filter((e) => e.type === 'way').length
+      const nodes = osm.elements.filter((e) => e.type === 'node').length
+      report.push(`- ℹ️ ${label}: ${ways} OSM ways, ${nodes} nodes in the corridor`)
+    }
     const graph = buildGraph(osm, request.preferName)
 
     const preferNodes = new Set()
