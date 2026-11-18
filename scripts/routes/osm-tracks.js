@@ -61,7 +61,7 @@ const stringsOf = (g) =>
 // ---- planar helpers (metres, local projection) ----
 function projector(lat0) {
   const kx = Math.cos((lat0 * Math.PI) / 180) * 111320
-  return { to: ([lon, lat]) => [lon * kx, lat * 110540] }
+  return { to: ([lon, lat]) => [lon * kx, lat * 110540], from: ([x, y]) => [x / kx, y / 110540] }
 }
 
 function segInfo(p, a, b) {
@@ -70,7 +70,11 @@ function segInfo(p, a, b) {
   const L = dx * dx + dy * dy
   let t = L ? ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / L : 0
   t = Math.max(0, Math.min(1, t))
-  return { d: Math.hypot(p[0] - a[0] - t * dx, p[1] - a[1] - t * dy), bearing: Math.atan2(dy, dx) }
+  return {
+    d: Math.hypot(p[0] - a[0] - t * dx, p[1] - a[1] - t * dy),
+    bearing: Math.atan2(dy, dx),
+    point: [a[0] + t * dx, a[1] + t * dy],
+  }
 }
 
 /** Grid index of a line's route segments for fast nearest-segment lookups. */
@@ -387,14 +391,19 @@ function uncovered(routeStrings, runs, bufferM, proj) {
       if (cur.length >= 2 && lengthM(cur) >= KEEP_OLD_MIN_M) out.push(cur)
       cur = []
     }
+    // where an old stretch meets new track, end it on the track itself
+    const onTrack = (p) => {
+      const near = index.nearest(proj.to(p), bufferM * 1.2)
+      return near ? proj.from(near.point) : p
+    }
     for (let i = 0; i < dense.length; i += 1) {
       if (index.nearest(proj.to(dense[i]), bufferM * 1.2)) {
         if (cur.length) {
-          cur.push(dense[i]) // join the old stretch to the new track
+          cur.push(onTrack(dense[i]))
           flush()
         }
       } else {
-        if (!cur.length && i > 0) cur.push(dense[i - 1])
+        if (!cur.length && i > 0) cur.push(onTrack(dense[i - 1]))
         cur.push(dense[i])
       }
     }
