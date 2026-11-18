@@ -1,0 +1,26 @@
+{
+  "slug": "huaian",
+  "path": "asia/china/huaian",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "huaiant1",
+      "name": "Tram T1",
+      "match": {
+        "network": "淮安轨道交通"
+      }
+    }
+  ],
+  "cityName": "Huai'an",
+  "groups": [
+    {
+      "title": "Huai'an Tram",
+      "lines": [
+        "huaiant1"
+      ]
+    }
+  ]
+}

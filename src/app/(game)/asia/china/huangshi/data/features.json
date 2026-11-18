@@ -1,0 +1,758 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.068003,
+          30.231244
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Huangshi Avenue",
+        "display_name": "Huangshi Avenue (黄石大道)",
+        "alternate_names": [
+          "Huangshi Avenue",
+          "黄石大道",
+          "黃石大道",
+          "Huangshidadao",
+          "huang shi da dao"
+        ],
+        "line": "huangshitram",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.058951,
+          30.223629
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Hubeishifan University",
+        "display_name": "Hubeishifan University (湖北师范大学)",
+        "alternate_names": [
+          "Hubeishifan University",
+          "湖北师范大学",
+          "湖北師範大學",
+          "Hubeishifandaxue",
+          "hu bei shi fan da xue"
+        ],
+        "line": "huangshitram",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051403,
+          30.220483
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Guihualucihuzhongxue",
+        "display_name": "Guihualucihuzhongxue (桂花路磁湖中学)",
+        "alternate_names": [
+          "Guihualucihuzhongxue",
+          "桂花路磁湖中学",
+          "桂花路磁湖中學",
+          "gui hua lu ci hu zhong xue"
+        ],
+        "line": "huangshitram",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.040323,
+          30.220196
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Jiangjiawan",
+        "display_name": "Jiangjiawan (江家湾)",
+        "alternate_names": [
+          "Jiangjiawan",
+          "江家湾",
+          "江家灣",
+          "jiang jia wan"
+        ],
+        "line": "huangshitram",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.027824,
+          30.222285
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nanzhulin",
+        "display_name": "Nanzhulin (楠竹林)",
+        "alternate_names": [
+          "Nanzhulin",
+          "楠竹林",
+          "nan zhu lin"
+        ],
+        "line": "huangshitram",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.020015,
+          30.221422
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Raojialong",
+        "display_name": "Raojialong (饶家垄)",
+        "alternate_names": [
+          "Raojialong",
+          "饶家垄",
+          "饒家壟",
+          "rao jia long"
+        ],
+        "line": "huangshitram",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.017522,
+          30.215565
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Weisuwan",
+        "display_name": "Weisuwan (未苏湾)",
+        "alternate_names": [
+          "Weisuwan",
+          "未苏湾",
+          "未蘇灣",
+          "wei su wan"
+        ],
+        "line": "huangshitram",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.014738,
+          30.211366
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Ligongxueyuan",
+        "display_name": "Ligongxueyuan (理工学院)",
+        "alternate_names": [
+          "Ligongxueyuan",
+          "理工学院",
+          "理工學院",
+          "li gong xue yuan"
+        ],
+        "line": "huangshitram",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.005001,
+          30.213763
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Huangshi North Railway Station",
+        "display_name": "Huangshi North Railway Station (黄石北站)",
+        "alternate_names": [
+          "Huangshi North Railway Station",
+          "黄石北站",
+          "黃石北站",
+          "Huangshi North",
+          "Huangshibeizhan",
+          "huang shi bei zhan"
+        ],
+        "line": "huangshitram",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.004758,
+          30.207595
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Daquan Road",
+        "display_name": "Daquan Road (大泉路)",
+        "alternate_names": [
+          "Daquan Road",
+          "大泉路",
+          "Daquanlu",
+          "da quan lu"
+        ],
+        "line": "huangshitram",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.003317,
+          30.201006
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hangzhou Road West",
+        "display_name": "Hangzhou Road West (杭州西路)",
+        "alternate_names": [
+          "Hangzhou Road West",
+          "杭州西路",
+          "Hangzhouxilu",
+          "hang zhou xi lu"
+        ],
+        "line": "huangshitram",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.001081,
+          30.195208
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Cihu Road",
+        "display_name": "Cihu Road (磁湖路)",
+        "alternate_names": [
+          "Cihu Road",
+          "磁湖路",
+          "Cihulu",
+          "ci hu lu"
+        ],
+        "line": "huangshitram",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.006671,
+          30.195186
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Dafan Road",
+        "display_name": "Dafan Road (大畈路)",
+        "alternate_names": [
+          "Dafan Road",
+          "大畈路",
+          "Dafanlu",
+          "da fan lu"
+        ],
+        "line": "huangshitram",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.016151,
+          30.195175
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Baimaluchengfaxinshidai",
+        "display_name": "Baimaluchengfaxinshidai (白马路城发新时代)",
+        "alternate_names": [
+          "Baimaluchengfaxinshidai",
+          "白马路城发新时代",
+          "白馬路城發新時代",
+          "bai ma lu cheng fa xin shi dai"
+        ],
+        "line": "huangshitram",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.028172,
+          30.193204
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Huangshi'erzhong",
+        "display_name": "Huangshi'erzhong (黄石二中)",
+        "alternate_names": [
+          "Huangshi'erzhong",
+          "黄石二中",
+          "黃石二中",
+          "huang shi er zhong"
+        ],
+        "line": "huangshitram",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.031356,
+          30.186732
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Guilin Road South",
+        "display_name": "Guilin Road South (桂林南路)",
+        "alternate_names": [
+          "Guilin Road South",
+          "桂林南路",
+          "Guilinnanlu",
+          "gui lin nan lu"
+        ],
+        "line": "huangshitram",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.041724,
+          30.183206
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Huangshi West Railway Station",
+        "display_name": "Huangshi West Railway Station (黄石西站)",
+        "alternate_names": [
+          "Huangshi West Railway Station",
+          "黄石西站",
+          "黃石西站",
+          "Huangshi West",
+          "Huangshixizhan",
+          "huang shi xi zhan"
+        ],
+        "line": "huangshitram",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.052752,
+          30.186333
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Hujiawan",
+        "display_name": "Hujiawan (胡家湾)",
+        "alternate_names": [
+          "Hujiawan",
+          "胡家湾",
+          "胡家灣",
+          "hu jia wan"
+        ],
+        "line": "huangshitram",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051537,
+          30.157552
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Zhongshan Avenue",
+        "display_name": "Zhongshan Avenue (钟山大道)",
+        "alternate_names": [
+          "Zhongshan Avenue",
+          "钟山大道",
+          "鐘山大道",
+          "Zhongshandadao",
+          "zhong shan da dao"
+        ],
+        "line": "huangshitram",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051387,
+          30.153177
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Jinshan Avenue",
+        "display_name": "Jinshan Avenue (金山大道)",
+        "alternate_names": [
+          "Jinshan Avenue",
+          "金山大道",
+          "Jinshandadao",
+          "jin shan da dao"
+        ],
+        "line": "huangshitram",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051243,
+          30.144992
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Pengcheng Avenue",
+        "display_name": "Pengcheng Avenue (鹏程大道)",
+        "alternate_names": [
+          "Pengcheng Avenue",
+          "鹏程大道",
+          "鵬程大道",
+          "Pengchengdadao",
+          "peng cheng da dao"
+        ],
+        "line": "huangshitram",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051266,
+          30.132426
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Kejicheng",
+        "display_name": "Kejicheng (科技城)",
+        "alternate_names": [
+          "Kejicheng",
+          "科技城",
+          "ke ji cheng"
+        ],
+        "line": "huangshitram",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.050455,
+          30.126902
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Aotizhongxin",
+        "display_name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "Aotizhongxin",
+          "奥体中心",
+          "奧體中心",
+          "ao ti zhong xin"
+        ],
+        "line": "huangshitram",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.043522,
+          30.121584
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Jingsan Road",
+        "display_name": "Jingsan Road (经三路)",
+        "alternate_names": [
+          "Jingsan Road",
+          "经三路",
+          "經三路",
+          "Jingsanlu",
+          "jing san lu"
+        ],
+        "line": "huangshitram",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.039382,
+          30.115448
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Yuanbo Avenue",
+        "display_name": "Yuanbo Avenue (园博大道)",
+        "alternate_names": [
+          "Yuanbo Avenue",
+          "园博大道",
+          "園博大道",
+          "Yuanbodadao",
+          "yuan bo da dao"
+        ],
+        "line": "huangshitram",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.045404,
+          30.113561
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Huaqiaochengkonglongqiyu",
+        "display_name": "Huaqiaochengkonglongqiyu (华侨城恐龙奇域)",
+        "alternate_names": [
+          "Huaqiaochengkonglongqiyu",
+          "华侨城恐龙奇域",
+          "華僑城恐龍奇域",
+          "hua qiao cheng kong long qi yu"
+        ],
+        "line": "huangshitram",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.050642,
+          30.112539
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Huaqiaochengkonglongshuishijie",
+        "display_name": "Huaqiaochengkonglongshuishijie (华侨城恐龙水世界)",
+        "alternate_names": [
+          "Huaqiaochengkonglongshuishijie",
+          "华侨城恐龙水世界",
+          "華僑城恐龍水世界",
+          "hua qiao cheng kong long shui shi jie"
+        ],
+        "line": "huangshitram",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.057219,
+          30.114453
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Shiminzhijia",
+        "display_name": "Shiminzhijia (市民之家)",
+        "alternate_names": [
+          "Shiminzhijia",
+          "市民之家",
+          "shi min zhi jia"
+        ],
+        "line": "huangshitram",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.051667,
+          30.11536
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Aoti Park",
+        "display_name": "Aoti Park (奥体公园)",
+        "alternate_names": [
+          "Aoti Park",
+          "奥体公园",
+          "奧體公園",
+          "Aotigongyuan",
+          "ao ti gong yuan"
+        ],
+        "line": "huangshitram",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.0452,
+          30.114182
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Kuangboguan",
+        "display_name": "Kuangboguan (矿博馆)",
+        "alternate_names": [
+          "Kuangboguan",
+          "矿博馆",
+          "礦博館",
+          "kuang bo guan"
+        ],
+        "line": "huangshitram",
+        "order": 29
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.031392,
+          30.186735
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Laonian University",
+        "display_name": "Laonian University (老年大学)",
+        "alternate_names": [
+          "Laonian University",
+          "老年大学",
+          "老年大學",
+          "Laoniandaxue",
+          "lao nian da xue"
+        ],
+        "line": "huangshitram",
+        "order": 30
+      },
+      "id": 31
+    }
+  ]
+}

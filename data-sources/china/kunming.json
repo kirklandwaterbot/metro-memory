@@ -1,0 +1,76 @@
+{
+  "slug": "kunming",
+  "path": "asia/china/kunming",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "昆明火车站": "Kunming Railway Station",
+    "昆明南火车站": "Kunming South Railway Station",
+    "长水机场": "Changshui Airport"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "kunming1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "昆明地铁"
+      }
+    },
+    {
+      "id": "kunming2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "昆明地铁"
+      }
+    },
+    {
+      "id": "kunming3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "昆明地铁"
+      }
+    },
+    {
+      "id": "kunming4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "昆明地铁"
+      }
+    },
+    {
+      "id": "kunming5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "昆明地铁"
+      }
+    },
+    {
+      "id": "kunming6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "昆明地铁"
+      }
+    }
+  ],
+  "cityName": "Kunming",
+  "groups": [
+    {
+      "title": "Kunming Metro",
+      "lines": [
+        "kunming1",
+        "kunming2",
+        "kunming3",
+        "kunming4",
+        "kunming5",
+        "kunming6"
+      ]
+    }
+  ]
+}

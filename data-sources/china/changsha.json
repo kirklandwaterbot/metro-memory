@@ -1,0 +1,99 @@
+{
+  "slug": "changsha",
+  "path": "asia/china/changsha",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "长沙火车南站": "Changsha South Railway Station",
+    "长沙火车站": "Changsha Railway Station",
+    "五一广场": "Wuyi Square",
+    "黄花机场T1T2": "Huanghua Airport Terminal 1 & 2"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "changsha1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "长沙地铁"
+      }
+    },
+    {
+      "id": "changsha2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "长沙地铁"
+      }
+    },
+    {
+      "id": "changsha3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "长沙地铁"
+      }
+    },
+    {
+      "id": "changsha4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "长沙地铁"
+      }
+    },
+    {
+      "id": "changsha5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "长沙地铁"
+      }
+    },
+    {
+      "id": "changsha6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "长沙地铁"
+      }
+    },
+    {
+      "id": "changshamaglev",
+      "name": "Changsha Maglev",
+      "match": {
+        "route": "monorail",
+        "ref": "^Maglev$"
+      }
+    },
+    {
+      "id": "changshayunba",
+      "name": "Dawangshan Yunba",
+      "match": {
+        "ref": "^Y1$"
+      }
+    }
+  ],
+  "cityName": "Changsha",
+  "groups": [
+    {
+      "title": "Changsha Metro",
+      "lines": [
+        "changsha1",
+        "changsha2",
+        "changsha3",
+        "changsha4",
+        "changsha5",
+        "changsha6"
+      ]
+    },
+    {
+      "title": "Maglev & Yunba",
+      "lines": [
+        "changshamaglev",
+        "changshayunba"
+      ]
+    }
+  ]
+}

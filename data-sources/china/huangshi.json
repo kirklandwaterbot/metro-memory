@@ -1,0 +1,26 @@
+{
+  "slug": "huangshi",
+  "path": "asia/china/huangshi",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "huangshitram",
+      "name": "Huangshi Tram",
+      "match": {
+        "network": "黄石轨道交通"
+      }
+    }
+  ],
+  "cityName": "Huangshi",
+  "groups": [
+    {
+      "title": "Huangshi Modern Tram",
+      "lines": [
+        "huangshitram"
+      ]
+    }
+  ]
+}

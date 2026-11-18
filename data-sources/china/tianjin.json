@@ -1,0 +1,140 @@
+{
+  "slug": "tianjin",
+  "path": "asia/china/tianjin",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "天津站": "Tianjin Railway Station",
+    "天津西站": "Tianjin West Railway Station",
+    "天津南站": "Tianjin South Railway Station",
+    "滨海国际机场": "Binhai International Airport"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "tianjin1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin9",
+      "name": "Line 9",
+      "match": {
+        "ref": "^9$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjin11",
+      "name": "Line 11",
+      "match": {
+        "ref": "^11$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjinz4",
+      "name": "Line Z4",
+      "match": {
+        "ref": "^Z4$",
+        "network": "天津地铁"
+      }
+    },
+    {
+      "id": "tianjinjinjing",
+      "name": "Jinjing Line",
+      "match": {
+        "network": "天津地铁",
+        "ref": "^津静线$"
+      }
+    }
+  ],
+  "cityName": "Tianjin",
+  "groups": [
+    {
+      "title": "Tianjin Metro",
+      "lines": [
+        "tianjin1",
+        "tianjin2",
+        "tianjin3",
+        "tianjin4",
+        "tianjin5",
+        "tianjin6",
+        "tianjin7",
+        "tianjin8",
+        "tianjin9",
+        "tianjin10",
+        "tianjin11",
+        "tianjinz4",
+        "tianjinjinjing"
+      ]
+    }
+  ]
+}

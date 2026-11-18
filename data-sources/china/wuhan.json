@@ -1,0 +1,174 @@
+{
+  "slug": "wuhan",
+  "path": "asia/china/wuhan",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "武汉站": "Wuhan Railway Station",
+    "汉口站": "Hankou Railway Station",
+    "武昌站": "Wuchang Railway Station",
+    "天河机场": "Tianhe Airport",
+    "光谷广场": "Optics Valley Square",
+    "江汉路": "Jianghan Road"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "wuhan1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan11",
+      "name": "Line 11",
+      "match": {
+        "ref": "^11$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan12",
+      "name": "Line 12",
+      "match": {
+        "ref": "^12$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan16",
+      "name": "Line 16",
+      "match": {
+        "ref": "^16$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhan19",
+      "name": "Line 19",
+      "match": {
+        "ref": "^19$",
+        "network": "武汉地铁"
+      }
+    },
+    {
+      "id": "wuhanyangluo",
+      "name": "Yangluo Line",
+      "match": {
+        "network": "武汉地铁",
+        "ref": "^21$"
+      }
+    },
+    {
+      "id": "wuhanl1",
+      "name": "Optics Valley Tram L1",
+      "match": {
+        "route": "tram",
+        "ref": "^L1$"
+      }
+    },
+    {
+      "id": "wuhanl2",
+      "name": "Optics Valley Tram L2",
+      "match": {
+        "route": "tram",
+        "ref": "^L2$"
+      }
+    },
+    {
+      "id": "wuhant1",
+      "name": "Auto City Tram T1",
+      "match": {
+        "route": "tram",
+        "ref": "^T1$"
+      }
+    }
+  ],
+  "cityName": "Wuhan",
+  "groups": [
+    {
+      "title": "Wuhan Metro",
+      "lines": [
+        "wuhan1",
+        "wuhan2",
+        "wuhan3",
+        "wuhan4",
+        "wuhan5",
+        "wuhan6",
+        "wuhan7",
+        "wuhan8",
+        "wuhan11",
+        "wuhan12",
+        "wuhan16",
+        "wuhan19",
+        "wuhanyangluo"
+      ]
+    },
+    {
+      "title": "Wuhan Trams",
+      "lines": [
+        "wuhanl1",
+        "wuhanl2",
+        "wuhant1"
+      ]
+    }
+  ]
+}

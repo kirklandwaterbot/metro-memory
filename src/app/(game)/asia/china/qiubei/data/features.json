@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.175063,
+          23.972353
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Puzheheigaotie",
+        "display_name": "Puzheheigaotie (普者黑高铁)",
+        "alternate_names": [
+          "Puzheheigaotie",
+          "普者黑高铁",
+          "普者黑高鐵",
+          "pu zhe hei gao tie",
+          "Puzhehei High Speed Rail"
+        ],
+        "line": "qiubei4",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.167474,
+          24.002263
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Wayaochong",
+        "display_name": "Wayaochong (瓦窑冲)",
+        "alternate_names": [
+          "Wayaochong",
+          "瓦窑冲",
+          "瓦窯衝",
+          "wa yao chong"
+        ],
+        "line": "qiubei4",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.155777,
+          24.049556
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Renmin Hospital",
+        "display_name": "Renmin Hospital (人民医院)",
+        "alternate_names": [
+          "Renmin Hospital",
+          "人民医院",
+          "人民醫院",
+          "Renminyiyuan",
+          "ren min yi yuan",
+          "People's Hospital"
+        ],
+        "line": "qiubei4",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.15559,
+          24.066794
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Youkezhongxin",
+        "display_name": "Youkezhongxin (游客中心)",
+        "alternate_names": [
+          "Youkezhongxin",
+          "游客中心",
+          "遊客中心",
+          "you ke zhong xin",
+          "Tourist Center"
+        ],
+        "line": "qiubei4",
+        "order": 3
+      },
+      "id": 4
+    }
+  ]
+}

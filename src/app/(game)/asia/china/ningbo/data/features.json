@@ -1,0 +1,4897 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.448984,
+          29.913318
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Gaoqiao West",
+        "display_name": "Gaoqiao West (高桥西)",
+        "alternate_names": [
+          "Gaoqiao West",
+          "高桥西",
+          "高橋西",
+          "Gaoqiaoxi",
+          "gao qiao xi"
+        ],
+        "line": "ningbo1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.459678,
+          29.903809
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Gaoqiao",
+        "display_name": "Gaoqiao (高桥)",
+        "alternate_names": [
+          "Gaoqiao",
+          "高桥",
+          "高橋",
+          "gao qiao"
+        ],
+        "line": "ningbo1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472418,
+          29.897243
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Liangzhu",
+        "display_name": "Liangzhu (梁祝)",
+        "alternate_names": [
+          "Liangzhu",
+          "梁祝",
+          "liang zhu"
+        ],
+        "line": "ningbo1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.483051,
+          29.892664
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Lugang",
+        "display_name": "Lugang (芦港)",
+        "alternate_names": [
+          "Lugang",
+          "芦港",
+          "蘆港",
+          "lu gang"
+        ],
+        "line": "ningbo1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492635,
+          29.890058
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Xujiacaochangle",
+        "display_name": "Xujiacaochangle (徐家漕长乐)",
+        "alternate_names": [
+          "Xujiacaochangle",
+          "徐家漕长乐",
+          "徐家漕長樂",
+          "xu jia cao chang le",
+          "Xujiacao Changle"
+        ],
+        "line": "ningbo1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50475,
+          29.884241
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Wangchunqiao",
+        "display_name": "Wangchunqiao (望春桥)",
+        "alternate_names": [
+          "Wangchunqiao",
+          "望春桥",
+          "望春橋",
+          "wang chun qiao",
+          "Wangchun Bridge"
+        ],
+        "line": "ningbo1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515314,
+          29.88146
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Zemin",
+        "display_name": "Zemin (泽民)",
+        "alternate_names": [
+          "Zemin",
+          "泽民",
+          "澤民",
+          "ze min"
+        ],
+        "line": "ningbo1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527988,
+          29.879058
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Daqingqiao",
+        "display_name": "Daqingqiao (大卿桥)",
+        "alternate_names": [
+          "Daqingqiao",
+          "大卿桥",
+          "大卿橋",
+          "da qing qiao",
+          "Daqing Bridge"
+        ],
+        "line": "ningbo1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535512,
+          29.877432
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Ximenkou",
+        "display_name": "Ximenkou (西门口)",
+        "alternate_names": [
+          "Ximenkou",
+          "西门口",
+          "西門口",
+          "xi men kou"
+        ],
+        "line": "ningbo1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544599,
+          29.87561
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Gulou",
+        "display_name": "Gulou (鼓楼)",
+        "alternate_names": [
+          "Gulou",
+          "鼓楼",
+          "鼓樓",
+          "gu lou"
+        ],
+        "line": "ningbo1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.551943,
+          29.873883
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Dongmenkou",
+        "display_name": "Dongmenkou (东门口)",
+        "alternate_names": [
+          "Dongmenkou",
+          "东门口",
+          "東門口",
+          "dong men kou",
+          "Dongmenkou (Tianyi Square)"
+        ],
+        "line": "ningbo1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.561184,
+          29.871938
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Jiangshaqiao East",
+        "display_name": "Jiangshaqiao East (江厦桥东)",
+        "alternate_names": [
+          "Jiangshaqiao East",
+          "江厦桥东",
+          "江廈橋東",
+          "Jiangshaqiaodong",
+          "jiang sha qiao dong",
+          "Jiangxia Bridge East"
+        ],
+        "line": "ningbo1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56992,
+          29.869914
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Zhoumeng Road North",
+        "display_name": "Zhoumeng Road North (舟孟北路)",
+        "alternate_names": [
+          "Zhoumeng Road North",
+          "舟孟北路",
+          "Zhoumengbeilu",
+          "zhou meng bei lu",
+          "Zhoumeng North Road"
+        ],
+        "line": "ningbo1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577638,
+          29.866982
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Yinghua Park",
+        "display_name": "Yinghua Park (樱花公园)",
+        "alternate_names": [
+          "Yinghua Park",
+          "樱花公园",
+          "櫻花公園",
+          "Yinghuagongyuan",
+          "ying hua gong yuan",
+          "Sakura Park"
+        ],
+        "line": "ningbo1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.589149,
+          29.863528
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Fuming Road",
+        "display_name": "Fuming Road (福明路)",
+        "alternate_names": [
+          "Fuming Road",
+          "福明路",
+          "Fuminglu",
+          "fu ming lu"
+        ],
+        "line": "ningbo1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.598178,
+          29.861571
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Shiji Avenue",
+        "display_name": "Shiji Avenue (世纪大道)",
+        "alternate_names": [
+          "Shiji Avenue",
+          "世纪大道",
+          "世紀大道",
+          "Shijidadao",
+          "shi ji da dao"
+        ],
+        "line": "ningbo1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.610501,
+          29.862689
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Haiyan Road North",
+        "display_name": "Haiyan Road North (海晏北路)",
+        "alternate_names": [
+          "Haiyan Road North",
+          "海晏北路",
+          "Haiyanbeilu",
+          "hai yan bei lu",
+          "Haiyan North Road"
+        ],
+        "line": "ningbo1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.620144,
+          29.861489
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Fuqing Road North",
+        "display_name": "Fuqing Road North (福庆北路)",
+        "alternate_names": [
+          "Fuqing Road North",
+          "福庆北路",
+          "福慶北路",
+          "Fuqingbeilu",
+          "fu qing bei lu",
+          "Fuqing North Road"
+        ],
+        "line": "ningbo1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632103,
+          29.859187
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Shengmo Road",
+        "display_name": "Shengmo Road (盛莫路)",
+        "alternate_names": [
+          "Shengmo Road",
+          "盛莫路",
+          "Shengmolu",
+          "sheng mo lu"
+        ],
+        "line": "ningbo1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.64666,
+          29.855573
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Donghuan Road South",
+        "display_name": "Donghuan Road South (东环南路)",
+        "alternate_names": [
+          "Donghuan Road South",
+          "东环南路",
+          "東環南路",
+          "Donghuannanlu",
+          "dong huan nan lu",
+          "Donghuan South Road"
+        ],
+        "line": "ningbo1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.657381,
+          29.849044
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Qiu'ai East",
+        "display_name": "Qiu'ai East (邱隘东)",
+        "alternate_names": [
+          "Qiu'ai East",
+          "邱隘东",
+          "邱隘東",
+          "Qiu'aidong",
+          "qiu ai dong",
+          "Qiuga East"
+        ],
+        "line": "ningbo1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.685916,
+          29.840965
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Wuxiang",
+        "display_name": "Wuxiang (五乡)",
+        "alternate_names": [
+          "Wuxiang",
+          "五乡",
+          "五鄉",
+          "wu xiang"
+        ],
+        "line": "ningbo1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.729349,
+          29.841904
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Baozhuang",
+        "display_name": "Baozhuang (宝幢)",
+        "alternate_names": [
+          "Baozhuang",
+          "宝幢",
+          "寶幢",
+          "bao zhuang"
+        ],
+        "line": "ningbo1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.777993,
+          29.877245
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Wu'ai",
+        "display_name": "Wu'ai (邬隘)",
+        "alternate_names": [
+          "Wu'ai",
+          "邬隘",
+          "鄔隘",
+          "wu ai",
+          "Wuga"
+        ],
+        "line": "ningbo1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.790472,
+          29.89594
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Daqi",
+        "display_name": "Daqi (大碶)",
+        "alternate_names": [
+          "Daqi",
+          "大碶",
+          "da qi"
+        ],
+        "line": "ningbo1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.804339,
+          29.906849
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Songhuajiang Road",
+        "display_name": "Songhuajiang Road (松花江路)",
+        "alternate_names": [
+          "Songhuajiang Road",
+          "松花江路",
+          "Songhuajianglu",
+          "song hua jiang lu"
+        ],
+        "line": "ningbo1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.825622,
+          29.896193
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Zhonghe Road",
+        "display_name": "Zhonghe Road (中河路)",
+        "alternate_names": [
+          "Zhonghe Road",
+          "中河路",
+          "Zhonghelu",
+          "zhong he lu"
+        ],
+        "line": "ningbo1",
+        "order": 26
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83957,
+          29.893331
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Changjiang Road",
+        "display_name": "Changjiang Road (长江路)",
+        "alternate_names": [
+          "Changjiang Road",
+          "长江路",
+          "長江路",
+          "Changjianglu",
+          "chang jiang lu"
+        ],
+        "line": "ningbo1",
+        "order": 27
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.852779,
+          29.893092
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Xiapu",
+        "display_name": "Xiapu (霞浦)",
+        "alternate_names": [
+          "Xiapu",
+          "霞浦",
+          "xia pu"
+        ],
+        "line": "ningbo1",
+        "order": 28
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.456607,
+          29.82017
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Lishe International Airport",
+        "display_name": "Lishe International Airport (栎社国际机场)",
+        "alternate_names": [
+          "Lishe International Airport",
+          "栎社国际机场",
+          "櫟社國際機場",
+          "Lisheguojijichang",
+          "li she guo ji ji chang"
+        ],
+        "line": "ningbo2",
+        "order": 0
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.479034,
+          29.811844
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Lishe",
+        "display_name": "Lishe (栎社)",
+        "alternate_names": [
+          "Lishe",
+          "栎社",
+          "櫟社",
+          "li she"
+        ],
+        "line": "ningbo2",
+        "order": 1
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.491949,
+          29.820771
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Yinzhou Avenue",
+        "display_name": "Yinzhou Avenue (鄞州大道)",
+        "alternate_names": [
+          "Yinzhou Avenue",
+          "鄞州大道",
+          "Yinzhoudadao",
+          "yin zhou da dao"
+        ],
+        "line": "ningbo2",
+        "order": 2
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499586,
+          29.827714
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Shiqi",
+        "display_name": "Shiqi (石碶)",
+        "alternate_names": [
+          "Shiqi",
+          "石碶",
+          "shi qi"
+        ],
+        "line": "ningbo2",
+        "order": 3
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510162,
+          29.834142
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Qingfangcheng",
+        "display_name": "Qingfangcheng (轻纺城)",
+        "alternate_names": [
+          "Qingfangcheng",
+          "轻纺城",
+          "輕紡城",
+          "qing fang cheng"
+        ],
+        "line": "ningbo2",
+        "order": 4
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508548,
+          29.843984
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Ouchi",
+        "display_name": "Ouchi (藕池)",
+        "alternate_names": [
+          "Ouchi",
+          "藕池",
+          "ou chi"
+        ],
+        "line": "ningbo2",
+        "order": 5
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508079,
+          29.852963
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Keyunzhongxin",
+        "display_name": "Keyunzhongxin (客运中心)",
+        "alternate_names": [
+          "Keyunzhongxin",
+          "客运中心",
+          "客運中心",
+          "ke yun zhong xin",
+          "Coach Terminal"
+        ],
+        "line": "ningbo2",
+        "order": 6
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.513583,
+          29.860636
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Liyuan Road South",
+        "display_name": "Liyuan Road South (丽园南路)",
+        "alternate_names": [
+          "Liyuan Road South",
+          "丽园南路",
+          "麗園南路",
+          "Liyuannanlu",
+          "li yuan nan lu",
+          "Liyuan South Road"
+        ],
+        "line": "ningbo2",
+        "order": 7
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522192,
+          29.861068
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Yunxia Road",
+        "display_name": "Yunxia Road (云霞路)",
+        "alternate_names": [
+          "Yunxia Road",
+          "云霞路",
+          "雲霞路",
+          "Yunxialu",
+          "yun xia lu"
+        ],
+        "line": "ningbo2",
+        "order": 8
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532906,
+          29.864472
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Ningbo Railway Station",
+        "display_name": "Ningbo Railway Station (宁波火车站)",
+        "alternate_names": [
+          "Ningbo Railway Station",
+          "宁波火车站",
+          "寧波火車站",
+          "Ningbo",
+          "Ningbohuochezhan",
+          "ning bo huo che zhan"
+        ],
+        "line": "ningbo2",
+        "order": 9
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544641,
+          29.869763
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Chenghuangmiao",
+        "display_name": "Chenghuangmiao (城隍庙)",
+        "alternate_names": [
+          "Chenghuangmiao",
+          "城隍庙",
+          "城隍廟",
+          "cheng huang miao"
+        ],
+        "line": "ningbo2",
+        "order": 10
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544599,
+          29.87561
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Gulou",
+        "display_name": "Gulou (鼓楼)",
+        "alternate_names": [
+          "Gulou",
+          "鼓楼",
+          "鼓樓",
+          "gu lou"
+        ],
+        "line": "ningbo2",
+        "order": 11
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.554741,
+          29.885337
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Waitandaqiao",
+        "display_name": "Waitandaqiao (外滩大桥)",
+        "alternate_names": [
+          "Waitandaqiao",
+          "外滩大桥",
+          "外灘大橋",
+          "wai tan da qiao",
+          "Waitan Bridge"
+        ],
+        "line": "ningbo2",
+        "order": 12
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557574,
+          29.89194
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Zhengda Road",
+        "display_name": "Zhengda Road (正大路)",
+        "alternate_names": [
+          "Zhengda Road",
+          "正大路",
+          "Zhengdalu",
+          "zheng da lu"
+        ],
+        "line": "ningbo2",
+        "order": 13
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.562649,
+          29.900968
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Nijiayan",
+        "display_name": "Nijiayan (倪家堰)",
+        "alternate_names": [
+          "Nijiayan",
+          "倪家堰",
+          "ni jia yan"
+        ],
+        "line": "ningbo2",
+        "order": 14
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.571271,
+          29.906085
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Yasaiyan",
+        "display_name": "Yasaiyan (压赛堰)",
+        "alternate_names": [
+          "Yasaiyan",
+          "压赛堰",
+          "壓賽堰",
+          "ya sai yan"
+        ],
+        "line": "ningbo2",
+        "order": 15
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577752,
+          29.906675
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Datongqiao",
+        "display_name": "Datongqiao (大通桥)",
+        "alternate_names": [
+          "Datongqiao",
+          "大通桥",
+          "大通橋",
+          "da tong qiao",
+          "Datong Bridge"
+        ],
+        "line": "ningbo2",
+        "order": 16
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58826,
+          29.907009
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Kongpu",
+        "display_name": "Kongpu (孔浦)",
+        "alternate_names": [
+          "Kongpu",
+          "孔浦",
+          "kong pu"
+        ],
+        "line": "ningbo2",
+        "order": 17
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.608549,
+          29.911649
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Lulin",
+        "display_name": "Lulin (路林)",
+        "alternate_names": [
+          "Lulin",
+          "路林",
+          "lu lin"
+        ],
+        "line": "ningbo2",
+        "order": 18
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.615985,
+          29.914392
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Sanguantang",
+        "display_name": "Sanguantang (三官堂)",
+        "alternate_names": [
+          "Sanguantang",
+          "三官堂",
+          "san guan tang"
+        ],
+        "line": "ningbo2",
+        "order": 19
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.631112,
+          29.914147
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Ningbo University",
+        "display_name": "Ningbo University (宁波大学)",
+        "alternate_names": [
+          "Ningbo University",
+          "宁波大学",
+          "寧波大學",
+          "Ningbodaxue",
+          "ning bo da xue"
+        ],
+        "line": "ningbo2",
+        "order": 20
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.656874,
+          29.924275
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Qingshuipu",
+        "display_name": "Qingshuipu (清水浦)",
+        "alternate_names": [
+          "Qingshuipu",
+          "清水浦",
+          "qing shui pu"
+        ],
+        "line": "ningbo2",
+        "order": 21
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.673346,
+          29.940894
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Wulipai",
+        "display_name": "Wulipai (五里牌)",
+        "alternate_names": [
+          "Wulipai",
+          "五里牌",
+          "wu li pai"
+        ],
+        "line": "ningbo2",
+        "order": 22
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.689648,
+          29.952468
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Fengyuan",
+        "display_name": "Fengyuan (枫园)",
+        "alternate_names": [
+          "Fengyuan",
+          "枫园",
+          "楓園",
+          "feng yuan"
+        ],
+        "line": "ningbo2",
+        "order": 23
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.701044,
+          29.953917
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Congyuan Road",
+        "display_name": "Congyuan Road (聪园路)",
+        "alternate_names": [
+          "Congyuan Road",
+          "聪园路",
+          "聰園路",
+          "Congyuanlu",
+          "cong yuan lu"
+        ],
+        "line": "ningbo2",
+        "order": 24
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.712222,
+          29.952426
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Zhaobaoshan",
+        "display_name": "Zhaobaoshan (招宝山)",
+        "alternate_names": [
+          "Zhaobaoshan",
+          "招宝山",
+          "招寶山",
+          "zhao bao shan"
+        ],
+        "line": "ningbo2",
+        "order": 25
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.719509,
+          29.941539
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Honglian",
+        "display_name": "Honglian (红联)",
+        "alternate_names": [
+          "Honglian",
+          "红联",
+          "紅聯",
+          "hong lian"
+        ],
+        "line": "ningbo2",
+        "order": 26
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.444952,
+          29.654069
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Jinhai Road",
+        "display_name": "Jinhai Road (金海路)",
+        "alternate_names": [
+          "Jinhai Road",
+          "金海路",
+          "Jinhailu",
+          "jin hai lu"
+        ],
+        "line": "ningbo3",
+        "order": 0
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.445188,
+          29.674505
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Dacheng Road East",
+        "display_name": "Dacheng Road East (大成东路)",
+        "alternate_names": [
+          "Dacheng Road East",
+          "大成东路",
+          "大成東路",
+          "Dachengdonglu",
+          "da cheng dong lu",
+          "Dacheng East Road"
+        ],
+        "line": "ningbo3",
+        "order": 1
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.442978,
+          29.711172
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Nandu",
+        "display_name": "Nandu (南渡)",
+        "alternate_names": [
+          "Nandu",
+          "南渡",
+          "nan du"
+        ],
+        "line": "ningbo3",
+        "order": 2
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44421,
+          29.724576
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Jinlin",
+        "display_name": "Jinlin (琎琳)",
+        "alternate_names": [
+          "Jinlin",
+          "琎琳",
+          "璡琳",
+          "jin lin"
+        ],
+        "line": "ningbo3",
+        "order": 3
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.448015,
+          29.747894
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Fangqiao",
+        "display_name": "Fangqiao (方桥)",
+        "alternate_names": [
+          "Fangqiao",
+          "方桥",
+          "方橋",
+          "fang qiao"
+        ],
+        "line": "ningbo3",
+        "order": 4
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484194,
+          29.76755
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Chaoyang",
+        "display_name": "Chaoyang (朝阳)",
+        "alternate_names": [
+          "Chaoyang",
+          "朝阳",
+          "朝陽",
+          "chao yang"
+        ],
+        "line": "ningbo3",
+        "order": 5
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5011,
+          29.766848
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Minghui Road",
+        "display_name": "Minghui Road (明辉路)",
+        "alternate_names": [
+          "Minghui Road",
+          "明辉路",
+          "明輝路",
+          "Minghuilu",
+          "ming hui lu"
+        ],
+        "line": "ningbo3",
+        "order": 6
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515051,
+          29.766441
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Shishan",
+        "display_name": "Shishan (狮山)",
+        "alternate_names": [
+          "Shishan",
+          "狮山",
+          "獅山",
+          "shi shan"
+        ],
+        "line": "ningbo3",
+        "order": 7
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5235,
+          29.773157
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Jiangshan",
+        "display_name": "Jiangshan (姜山)",
+        "alternate_names": [
+          "Jiangshan",
+          "姜山",
+          "jiang shan"
+        ],
+        "line": "ningbo3",
+        "order": 8
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524879,
+          29.792078
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Gaotangqiao",
+        "display_name": "Gaotangqiao (高塘桥)",
+        "alternate_names": [
+          "Gaotangqiao",
+          "高塘桥",
+          "高塘橋",
+          "gao tang qiao",
+          "Gaotang Bridge"
+        ],
+        "line": "ningbo3",
+        "order": 9
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.526735,
+          29.799344
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Juzhang Road",
+        "display_name": "Juzhang Road (句章路)",
+        "alternate_names": [
+          "Juzhang Road",
+          "句章路",
+          "Juzhanglu",
+          "ju zhang lu",
+          "Gouzhang Road"
+        ],
+        "line": "ningbo3",
+        "order": 10
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537622,
+          29.803516
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Yinzhoukeyunzong",
+        "display_name": "Yinzhoukeyunzong (鄞州客运总)",
+        "alternate_names": [
+          "Yinzhoukeyunzong",
+          "鄞州客运总",
+          "鄞州客運總",
+          "yin zhou ke yun zong",
+          "Yinzhou Coach Terminal"
+        ],
+        "line": "ningbo3",
+        "order": 11
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54538,
+          29.810508
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Nanbushangwuqu",
+        "display_name": "Nanbushangwuqu (南部商务区)",
+        "alternate_names": [
+          "Nanbushangwuqu",
+          "南部商务区",
+          "南部商務區",
+          "nan bu shang wu qu",
+          "Southern Business District"
+        ],
+        "line": "ningbo3",
+        "order": 12
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54604,
+          29.821825
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Yinzhouquzhengfu",
+        "display_name": "Yinzhouquzhengfu (鄞州区政府)",
+        "alternate_names": [
+          "Yinzhouquzhengfu",
+          "鄞州区政府",
+          "鄞州區政府",
+          "yin zhou qu zheng fu",
+          "Yinzhou Government"
+        ],
+        "line": "ningbo3",
+        "order": 13
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.546762,
+          29.830638
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Siming Road Middle",
+        "display_name": "Siming Road Middle (四明中路)",
+        "alternate_names": [
+          "Siming Road Middle",
+          "四明中路",
+          "Simingzhonglu",
+          "si ming zhong lu",
+          "Siming Middle Road"
+        ],
+        "line": "ningbo3",
+        "order": 14
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.551976,
+          29.836394
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Jinyu Road",
+        "display_name": "Jinyu Road (锦寓路)",
+        "alternate_names": [
+          "Jinyu Road",
+          "锦寓路",
+          "錦寓路",
+          "Jinyulu",
+          "jin yu lu"
+        ],
+        "line": "ningbo3",
+        "order": 15
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.561225,
+          29.838195
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Qianhu Road North",
+        "display_name": "Qianhu Road North (钱湖北路)",
+        "alternate_names": [
+          "Qianhu Road North",
+          "钱湖北路",
+          "錢湖北路",
+          "Qianhubeilu",
+          "qian hu bei lu",
+          "Qianhu North Road"
+        ],
+        "line": "ningbo3",
+        "order": 16
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.571302,
+          29.847786
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Choubi",
+        "display_name": "Choubi (仇毕)",
+        "alternate_names": [
+          "Choubi",
+          "仇毕",
+          "仇畢",
+          "chou bi",
+          "Qiubi"
+        ],
+        "line": "ningbo3",
+        "order": 17
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.574223,
+          29.854965
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Ertong Park",
+        "display_name": "Ertong Park (儿童公园)",
+        "alternate_names": [
+          "Ertong Park",
+          "儿童公园",
+          "兒童公園",
+          "Ertonggongyuan",
+          "er tong gong yuan",
+          "Children's Park"
+        ],
+        "line": "ningbo3",
+        "order": 18
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577638,
+          29.866982
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Yinghua Park",
+        "display_name": "Yinghua Park (樱花公园)",
+        "alternate_names": [
+          "Yinghua Park",
+          "樱花公园",
+          "櫻花公園",
+          "Yinghuagongyuan",
+          "ying hua gong yuan",
+          "Sakura Park"
+        ],
+        "line": "ningbo3",
+        "order": 19
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.581488,
+          29.875005
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Tiyuguan",
+        "display_name": "Tiyuguan (体育馆)",
+        "alternate_names": [
+          "Tiyuguan",
+          "体育馆",
+          "體育館",
+          "ti yu guan",
+          "Sports Center"
+        ],
+        "line": "ningbo3",
+        "order": 20
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.584586,
+          29.881245
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Minglou",
+        "display_name": "Minglou (明楼)",
+        "alternate_names": [
+          "Minglou",
+          "明楼",
+          "明樓",
+          "ming lou"
+        ],
+        "line": "ningbo3",
+        "order": 21
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.584135,
+          29.892158
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Zhongxingdaqiao South",
+        "display_name": "Zhongxingdaqiao South (中兴大桥南)",
+        "alternate_names": [
+          "Zhongxingdaqiao South",
+          "中兴大桥南",
+          "中興大橋南",
+          "Zhongxingdaqiaonan",
+          "zhong xing da qiao nan",
+          "Zhongxing Bridge South"
+        ],
+        "line": "ningbo3",
+        "order": 22
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577752,
+          29.906675
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Datongqiao",
+        "display_name": "Datongqiao (大通桥)",
+        "alternate_names": [
+          "Datongqiao",
+          "大通桥",
+          "大通橋",
+          "da tong qiao",
+          "Datong Bridge"
+        ],
+        "line": "ningbo3",
+        "order": 23
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433074,
+          29.987254
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Cicheng West",
+        "display_name": "Cicheng West (慈城西)",
+        "alternate_names": [
+          "Cicheng West",
+          "慈城西",
+          "Cichengxi",
+          "ci cheng xi"
+        ],
+        "line": "ningbo4",
+        "order": 0
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.446445,
+          29.977865
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Cicheng",
+        "display_name": "Cicheng (慈城)",
+        "alternate_names": [
+          "Cicheng",
+          "慈城",
+          "ci cheng"
+        ],
+        "line": "ningbo4",
+        "order": 1
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.455553,
+          29.963737
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Guanshanhe",
+        "display_name": "Guanshanhe (官山河)",
+        "alternate_names": [
+          "Guanshanhe",
+          "官山河",
+          "guan shan he"
+        ],
+        "line": "ningbo4",
+        "order": 2
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.457674,
+          29.950493
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Changxing Road",
+        "display_name": "Changxing Road (长兴路)",
+        "alternate_names": [
+          "Changxing Road",
+          "长兴路",
+          "長興路",
+          "Changxinglu",
+          "chang xing lu"
+        ],
+        "line": "ningbo4",
+        "order": 3
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.466123,
+          29.943526
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Jinshan Road",
+        "display_name": "Jinshan Road (金山路)",
+        "alternate_names": [
+          "Jinshan Road",
+          "金山路",
+          "Jinshanlu",
+          "jin shan lu"
+        ],
+        "line": "ningbo4",
+        "order": 4
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.482431,
+          29.938647
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Aotizhongxin",
+        "display_name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "Aotizhongxin",
+          "奥体中心",
+          "奧體中心",
+          "ao ti zhong xin",
+          "Olympic Sports Center"
+        ],
+        "line": "ningbo4",
+        "order": 5
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496791,
+          29.930365
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Hongtang Road Middle",
+        "display_name": "Hongtang Road Middle (洪塘中路)",
+        "alternate_names": [
+          "Hongtang Road Middle",
+          "洪塘中路",
+          "Hongtangzhonglu",
+          "hong tang zhong lu",
+          "Hongtang Middle Road"
+        ],
+        "line": "ningbo4",
+        "order": 6
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514267,
+          29.924342
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Hongda Road",
+        "display_name": "Hongda Road (洪大路)",
+        "alternate_names": [
+          "Hongda Road",
+          "洪大路",
+          "Hongdalu",
+          "hong da lu"
+        ],
+        "line": "ningbo4",
+        "order": 7
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529058,
+          29.92446
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Zhuangqiao Railway Station",
+        "display_name": "Zhuangqiao Railway Station (庄桥火车站)",
+        "alternate_names": [
+          "Zhuangqiao Railway Station",
+          "庄桥火车站",
+          "莊橋火車站",
+          "Zhuangqiao",
+          "Zhuangqiaohuochezhan",
+          "zhuang qiao huo che zhan"
+        ],
+        "line": "ningbo4",
+        "order": 8
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534782,
+          29.912785
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Lijiang Road",
+        "display_name": "Lijiang Road (丽江路)",
+        "alternate_names": [
+          "Lijiang Road",
+          "丽江路",
+          "麗江路",
+          "Lijianglu",
+          "li jiang lu"
+        ],
+        "line": "ningbo4",
+        "order": 9
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.528664,
+          29.898722
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Shuangdong Road",
+        "display_name": "Shuangdong Road (双东路)",
+        "alternate_names": [
+          "Shuangdong Road",
+          "双东路",
+          "雙東路",
+          "Shuangdonglu",
+          "shuang dong lu"
+        ],
+        "line": "ningbo4",
+        "order": 10
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.528645,
+          29.889529
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Cuibaili",
+        "display_name": "Cuibaili (翠柏里)",
+        "alternate_names": [
+          "Cuibaili",
+          "翠柏里",
+          "翠柏裡",
+          "cui bai li"
+        ],
+        "line": "ningbo4",
+        "order": 11
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527988,
+          29.879058
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Daqingqiao",
+        "display_name": "Daqingqiao (大卿桥)",
+        "alternate_names": [
+          "Daqingqiao",
+          "大卿桥",
+          "大卿橋",
+          "da qing qiao",
+          "Daqing Bridge"
+        ],
+        "line": "ningbo4",
+        "order": 12
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527347,
+          29.874554
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Liuxi",
+        "display_name": "Liuxi (柳西)",
+        "alternate_names": [
+          "Liuxi",
+          "柳西",
+          "liu xi"
+        ],
+        "line": "ningbo4",
+        "order": 13
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.533773,
+          29.865745
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Ningbo Railway Station",
+        "display_name": "Ningbo Railway Station (宁波火车站)",
+        "alternate_names": [
+          "Ningbo Railway Station",
+          "宁波火车站",
+          "寧波火車站",
+          "Ningbo",
+          "Ningbohuochezhan",
+          "ning bo huo che zhan"
+        ],
+        "line": "ningbo4",
+        "order": 14
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54447,
+          29.861336
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Xingningqiao West",
+        "display_name": "Xingningqiao West (兴宁桥西)",
+        "alternate_names": [
+          "Xingningqiao West",
+          "兴宁桥西",
+          "興寧橋西",
+          "Xingningqiaoxi",
+          "xing ning qiao xi",
+          "Xingning Bridge West"
+        ],
+        "line": "ningbo4",
+        "order": 15
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.551506,
+          29.85739
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Xingningqiao East",
+        "display_name": "Xingningqiao East (兴宁桥东)",
+        "alternate_names": [
+          "Xingningqiao East",
+          "兴宁桥东",
+          "興寧橋東",
+          "Xingningqiaodong",
+          "xing ning qiao dong",
+          "Xingning Bridge East"
+        ],
+        "line": "ningbo4",
+        "order": 16
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56257,
+          29.855074
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Baihe",
+        "display_name": "Baihe (白鹤)",
+        "alternate_names": [
+          "Baihe",
+          "白鹤",
+          "白鶴",
+          "bai he"
+        ],
+        "line": "ningbo4",
+        "order": 17
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.574223,
+          29.854965
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Ertong Park",
+        "display_name": "Ertong Park (儿童公园)",
+        "alternate_names": [
+          "Ertong Park",
+          "儿童公园",
+          "兒童公園",
+          "Ertonggongyuan",
+          "er tong gong yuan",
+          "Children's Park"
+        ],
+        "line": "ningbo4",
+        "order": 18
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58373,
+          29.85383
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Ailiu",
+        "display_name": "Ailiu (矮柳)",
+        "alternate_names": [
+          "Ailiu",
+          "矮柳",
+          "ai liu"
+        ],
+        "line": "ningbo4",
+        "order": 19
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.587401,
+          29.842442
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Panhuo Road",
+        "display_name": "Panhuo Road (潘火路)",
+        "alternate_names": [
+          "Panhuo Road",
+          "潘火路",
+          "Panhuolu",
+          "pan huo lu"
+        ],
+        "line": "ningbo4",
+        "order": 20
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.579535,
+          29.828556
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Songjiang Road East",
+        "display_name": "Songjiang Road East (嵩江东路)",
+        "alternate_names": [
+          "Songjiang Road East",
+          "嵩江东路",
+          "嵩江東路",
+          "Songjiangdonglu",
+          "song jiang dong lu",
+          "Songjiang East Road"
+        ],
+        "line": "ningbo4",
+        "order": 21
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.575697,
+          29.819516
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Nangaojiaoyuanqu",
+        "display_name": "Nangaojiaoyuanqu (南高教园区)",
+        "alternate_names": [
+          "Nangaojiaoyuanqu",
+          "南高教园区",
+          "南高教園區",
+          "nan gao jiao yuan qu",
+          "South Higher Education Park"
+        ],
+        "line": "ningbo4",
+        "order": 22
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.588501,
+          29.807153
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Jinda Road South",
+        "display_name": "Jinda Road South (金达南路)",
+        "alternate_names": [
+          "Jinda Road South",
+          "金达南路",
+          "金達南路",
+          "Jindananlu",
+          "jin da nan lu",
+          "Jinda South Road"
+        ],
+        "line": "ningbo4",
+        "order": 23
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60615,
+          29.796191
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Xiaoyangjiang",
+        "display_name": "Xiaoyangjiang (小洋江)",
+        "alternate_names": [
+          "Xiaoyangjiang",
+          "小洋江",
+          "xiao yang jiang"
+        ],
+        "line": "ningbo4",
+        "order": 24
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.624047,
+          29.784728
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Dongqianhu",
+        "display_name": "Dongqianhu (东钱湖)",
+        "alternate_names": [
+          "Dongqianhu",
+          "东钱湖",
+          "東錢湖",
+          "dong qian hu",
+          "Dongqian Lake"
+        ],
+        "line": "ningbo4",
+        "order": 25
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630822,
+          29.765206
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Guojihuiyizhongxin",
+        "display_name": "Guojihuiyizhongxin (国际会议中心)",
+        "alternate_names": [
+          "Guojihuiyizhongxin",
+          "国际会议中心",
+          "國際會議中心",
+          "guo ji hui yi zhong xin",
+          "International Conference Center"
+        ],
+        "line": "ningbo4",
+        "order": 26
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.468447,
+          29.849195
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Buzheng",
+        "display_name": "Buzheng (布政)",
+        "alternate_names": [
+          "Buzheng",
+          "布政",
+          "佈政",
+          "bu zheng"
+        ],
+        "line": "ningbo5",
+        "order": 0
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475166,
+          29.840699
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Zhangjiatan",
+        "display_name": "Zhangjiatan (张家潭)",
+        "alternate_names": [
+          "Zhangjiatan",
+          "张家潭",
+          "張家潭",
+          "zhang jia tan"
+        ],
+        "line": "ningbo5",
+        "order": 1
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.486393,
+          29.830323
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Tongde Road",
+        "display_name": "Tongde Road (同德路)",
+        "alternate_names": [
+          "Tongde Road",
+          "同德路",
+          "Tongdelu",
+          "tong de lu"
+        ],
+        "line": "ningbo5",
+        "order": 2
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499586,
+          29.827714
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Shiqi",
+        "display_name": "Shiqi (石碶)",
+        "alternate_names": [
+          "Shiqi",
+          "石碶",
+          "shi qi"
+        ],
+        "line": "ningbo5",
+        "order": 3
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505814,
+          29.821625
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Yadu",
+        "display_name": "Yadu (雅渡)",
+        "alternate_names": [
+          "Yadu",
+          "雅渡",
+          "ya du"
+        ],
+        "line": "ningbo5",
+        "order": 4
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524676,
+          29.821753
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Miaoyan",
+        "display_name": "Miaoyan (庙堰)",
+        "alternate_names": [
+          "Miaoyan",
+          "庙堰",
+          "廟堰",
+          "miao yan"
+        ],
+        "line": "ningbo5",
+        "order": 5
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535142,
+          29.82179
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Zhonggongmiao",
+        "display_name": "Zhonggongmiao (钟公庙)",
+        "alternate_names": [
+          "Zhonggongmiao",
+          "钟公庙",
+          "鍾公廟",
+          "zhong gong miao"
+        ],
+        "line": "ningbo5",
+        "order": 6
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54604,
+          29.821825
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Yinzhouquzhengfu",
+        "display_name": "Yinzhouquzhengfu (鄞州区政府)",
+        "alternate_names": [
+          "Yinzhouquzhengfu",
+          "鄞州区政府",
+          "鄞州區政府",
+          "yin zhou qu zheng fu",
+          "Yinzhou Government"
+        ],
+        "line": "ningbo5",
+        "order": 7
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563255,
+          29.822515
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Qianhu Road South",
+        "display_name": "Qianhu Road South (钱湖南路)",
+        "alternate_names": [
+          "Qianhu Road South",
+          "钱湖南路",
+          "錢湖南路",
+          "Qianhunanlu",
+          "qian hu nan lu",
+          "Qianhu South Road"
+        ],
+        "line": "ningbo5",
+        "order": 8
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.575697,
+          29.819516
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Nangaojiaoyuanqu",
+        "display_name": "Nangaojiaoyuanqu (南高教园区)",
+        "alternate_names": [
+          "Nangaojiaoyuanqu",
+          "南高教园区",
+          "南高教園區",
+          "nan gao jiao yuan qu",
+          "South Higher Education Park"
+        ],
+        "line": "ningbo5",
+        "order": 9
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.588692,
+          29.814352
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Xiaying Road",
+        "display_name": "Xiaying Road (下应路)",
+        "alternate_names": [
+          "Xiaying Road",
+          "下应路",
+          "下應路",
+          "Xiayinglu",
+          "xia ying lu"
+        ],
+        "line": "ningbo5",
+        "order": 10
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.597789,
+          29.819766
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Dayangjiang",
+        "display_name": "Dayangjiang (大洋江)",
+        "alternate_names": [
+          "Dayangjiang",
+          "大洋江",
+          "da yang jiang"
+        ],
+        "line": "ningbo5",
+        "order": 11
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.600832,
+          29.827862
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Sigang",
+        "display_name": "Sigang (泗港)",
+        "alternate_names": [
+          "Sigang",
+          "泗港",
+          "si gang"
+        ],
+        "line": "ningbo5",
+        "order": 12
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.604689,
+          29.842249
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Cao'ai",
+        "display_name": "Cao'ai (曹隘)",
+        "alternate_names": [
+          "Cao'ai",
+          "曹隘",
+          "cao ai",
+          "Caoga"
+        ],
+        "line": "ningbo5",
+        "order": 13
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.608019,
+          29.854741
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Liu'ai",
+        "display_name": "Liu'ai (柳隘)",
+        "alternate_names": [
+          "Liu'ai",
+          "柳隘",
+          "liu ai",
+          "Liuga"
+        ],
+        "line": "ningbo5",
+        "order": 14
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.610501,
+          29.862689
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Haiyan Road North",
+        "display_name": "Haiyan Road North (海晏北路)",
+        "alternate_names": [
+          "Haiyan Road North",
+          "海晏北路",
+          "Haiyanbeilu",
+          "hai yan bei lu",
+          "Haiyan North Road"
+        ],
+        "line": "ningbo5",
+        "order": 15
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.613298,
+          29.870767
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Min'an Road East",
+        "display_name": "Min'an Road East (民安东路)",
+        "alternate_names": [
+          "Min'an Road East",
+          "民安东路",
+          "民安東路",
+          "Min'andonglu",
+          "min an dong lu",
+          "Min'an East Road"
+        ],
+        "line": "ningbo5",
+        "order": 16
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.615597,
+          29.877129
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Huizhanzhongxin",
+        "display_name": "Huizhanzhongxin (会展中心)",
+        "alternate_names": [
+          "Huizhanzhongxin",
+          "会展中心",
+          "會展中心",
+          "hui zhan zhong xin",
+          "International Convention and Exhibition Center"
+        ],
+        "line": "ningbo5",
+        "order": 17
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.618264,
+          29.891146
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Yuanshi Road",
+        "display_name": "Yuanshi Road (院士路)",
+        "alternate_names": [
+          "Yuanshi Road",
+          "院士路",
+          "Yuanshilu",
+          "yuan shi lu"
+        ],
+        "line": "ningbo5",
+        "order": 18
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.617924,
+          29.899122
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Angmenggang",
+        "display_name": "Angmenggang (盎孟港)",
+        "alternate_names": [
+          "Angmenggang",
+          "盎孟港",
+          "ang meng gang"
+        ],
+        "line": "ningbo5",
+        "order": 19
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.615985,
+          29.914392
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Sanguantang",
+        "display_name": "Sanguantang (三官堂)",
+        "alternate_names": [
+          "Sanguantang",
+          "三官堂",
+          "san guan tang"
+        ],
+        "line": "ningbo5",
+        "order": 20
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.610565,
+          29.923608
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Xingzhuang Road",
+        "display_name": "Xingzhuang Road (兴庄路)",
+        "alternate_names": [
+          "Xingzhuang Road",
+          "兴庄路",
+          "興莊路",
+          "Xingzhuanglu",
+          "xing zhuang lu"
+        ],
+        "line": "ningbo5",
+        "order": 21
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.601727,
+          29.926754
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Xinghai Road South",
+        "display_name": "Xinghai Road South (兴海南路)",
+        "alternate_names": [
+          "Xinghai Road South",
+          "兴海南路",
+          "興海南路",
+          "Xinghainanlu",
+          "xing hai nan lu",
+          "Xinghai South Road"
+        ],
+        "line": "ningbo5",
+        "order": 22
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.590777,
+          29.92651
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Meiyan",
+        "display_name": "Meiyan (梅堰)",
+        "alternate_names": [
+          "Meiyan",
+          "梅堰",
+          "mei yan"
+        ],
+        "line": "ningbo5",
+        "order": 23
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.579859,
+          29.951922
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Yongmao Road",
+        "display_name": "Yongmao Road (永茂路)",
+        "alternate_names": [
+          "Yongmao Road",
+          "永茂路",
+          "Yongmaolu",
+          "yong mao lu"
+        ],
+        "line": "ningbo5",
+        "order": 24
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580198,
+          29.969662
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Zhenhai Avenue",
+        "display_name": "Zhenhai Avenue (镇海大道)",
+        "alternate_names": [
+          "Zhenhai Avenue",
+          "镇海大道",
+          "鎮海大道",
+          "Zhenhaidadao",
+          "zhen hai da dao",
+          "Zhenhai Avenue(Cihai)"
+        ],
+        "line": "ningbo5",
+        "order": 25
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58136,
+          29.987009
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Luotuoqiao",
+        "display_name": "Luotuoqiao (骆驼桥)",
+        "alternate_names": [
+          "Luotuoqiao",
+          "骆驼桥",
+          "駱駝橋",
+          "luo tuo qiao",
+          "Luotuo Bridge"
+        ],
+        "line": "ningbo5",
+        "order": 26
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.719509,
+          29.941539
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Honglian",
+        "display_name": "Honglian (红联)",
+        "alternate_names": [
+          "Honglian",
+          "红联",
+          "紅聯",
+          "hong lian"
+        ],
+        "line": "ningbo6",
+        "order": 0
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.705637,
+          29.932644
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Yaqian",
+        "display_name": "Yaqian (衙前)",
+        "alternate_names": [
+          "Yaqian",
+          "衙前",
+          "ya qian",
+          "Yaoqian"
+        ],
+        "line": "ningbo6",
+        "order": 1
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696212,
+          29.926482
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Xiaogang West",
+        "display_name": "Xiaogang West (小港西)",
+        "alternate_names": [
+          "Xiaogang West",
+          "小港西",
+          "Xiaogangxi",
+          "xiao gang xi"
+        ],
+        "line": "ningbo6",
+        "order": 2
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.675157,
+          29.912301
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Xieshu",
+        "display_name": "Xieshu (谢墅)",
+        "alternate_names": [
+          "Xieshu",
+          "谢墅",
+          "謝墅",
+          "xie shu"
+        ],
+        "line": "ningbo6",
+        "order": 3
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.650968,
+          29.896442
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Meixu",
+        "display_name": "Meixu (梅墟)",
+        "alternate_names": [
+          "Meixu",
+          "梅墟",
+          "mei xu"
+        ],
+        "line": "ningbo6",
+        "order": 4
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630017,
+          29.891098
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Juxian Road",
+        "display_name": "Juxian Road (聚贤路)",
+        "alternate_names": [
+          "Juxian Road",
+          "聚贤路",
+          "聚賢路",
+          "Juxianlu",
+          "ju xian lu"
+        ],
+        "line": "ningbo6",
+        "order": 5
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.618264,
+          29.891146
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Yuanshi Road",
+        "display_name": "Yuanshi Road (院士路)",
+        "alternate_names": [
+          "Yuanshi Road",
+          "院士路",
+          "Yuanshilu",
+          "yuan shi lu"
+        ],
+        "line": "ningbo6",
+        "order": 6
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59915,
+          29.88923
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Canghai Road North",
+        "display_name": "Canghai Road North (沧海北路)",
+        "alternate_names": [
+          "Canghai Road North",
+          "沧海北路",
+          "滄海北路",
+          "Canghaibeilu",
+          "cang hai bei lu",
+          "Canghai North Road"
+        ],
+        "line": "ningbo6",
+        "order": 7
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.594083,
+          29.884775
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Mingzhu Road",
+        "display_name": "Mingzhu Road (明珠路)",
+        "alternate_names": [
+          "Mingzhu Road",
+          "明珠路",
+          "Mingzhulu",
+          "ming zhu lu"
+        ],
+        "line": "ningbo6",
+        "order": 8
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.584586,
+          29.881245
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Minglou",
+        "display_name": "Minglou (明楼)",
+        "alternate_names": [
+          "Minglou",
+          "明楼",
+          "明樓",
+          "ming lou"
+        ],
+        "line": "ningbo6",
+        "order": 9
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.573385,
+          29.885164
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Qingfengqiao East",
+        "display_name": "Qingfengqiao East (庆丰桥东)",
+        "alternate_names": [
+          "Qingfengqiao East",
+          "庆丰桥东",
+          "慶豐橋東",
+          "Qingfengqiaodong",
+          "qing feng qiao dong",
+          "Qingfeng Bridge East"
+        ],
+        "line": "ningbo6",
+        "order": 10
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557574,
+          29.89194
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Zhengda Road",
+        "display_name": "Zhengda Road (正大路)",
+        "alternate_names": [
+          "Zhengda Road",
+          "正大路",
+          "Zhengdalu",
+          "zheng da lu"
+        ],
+        "line": "ningbo6",
+        "order": 11
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.546299,
+          29.892127
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Ningbodajuyuan",
+        "display_name": "Ningbodajuyuan (宁波大剧院)",
+        "alternate_names": [
+          "Ningbodajuyuan",
+          "宁波大剧院",
+          "寧波大劇院",
+          "ning bo da ju yuan",
+          "Ningbo Grand Theater"
+        ],
+        "line": "ningbo6",
+        "order": 12
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535296,
+          29.889774
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Xinzhi Road",
+        "display_name": "Xinzhi Road (新芝路)",
+        "alternate_names": [
+          "Xinzhi Road",
+          "新芝路",
+          "Xinzhilu",
+          "xin zhi lu"
+        ],
+        "line": "ningbo6",
+        "order": 13
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.528645,
+          29.889529
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Cuibaili",
+        "display_name": "Cuibaili (翠柏里)",
+        "alternate_names": [
+          "Cuibaili",
+          "翠柏里",
+          "翠柏裡",
+          "cui bai li"
+        ],
+        "line": "ningbo6",
+        "order": 14
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514966,
+          29.890676
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Shizhong Hospital",
+        "display_name": "Shizhong Hospital (市中医院)",
+        "alternate_names": [
+          "Shizhong Hospital",
+          "市中医院",
+          "市中醫院",
+          "Shizhongyiyuan",
+          "shi zhong yi yuan",
+          "Ningbo Traditional Chinese Medicine Hospital"
+        ],
+        "line": "ningbo6",
+        "order": 15
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50475,
+          29.884241
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Wangchunqiao",
+        "display_name": "Wangchunqiao (望春桥)",
+        "alternate_names": [
+          "Wangchunqiao",
+          "望春桥",
+          "望春橋",
+          "wang chun qiao",
+          "Wangchun Bridge"
+        ],
+        "line": "ningbo6",
+        "order": 16
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.486175,
+          29.881488
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Songjiacao",
+        "display_name": "Songjiacao (宋家漕)",
+        "alternate_names": [
+          "Songjiacao",
+          "宋家漕",
+          "song jia cao"
+        ],
+        "line": "ningbo6",
+        "order": 17
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.468328,
+          29.877795
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Maimianqiao",
+        "display_name": "Maimianqiao (卖面桥)",
+        "alternate_names": [
+          "Maimianqiao",
+          "卖面桥",
+          "賣面橋",
+          "mai mian qiao"
+        ],
+        "line": "ningbo6",
+        "order": 18
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.444205,
+          29.875945
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Huishi Road",
+        "display_name": "Huishi Road (汇士路)",
+        "alternate_names": [
+          "Huishi Road",
+          "汇士路",
+          "匯士路",
+          "Huishilu",
+          "hui shi lu"
+        ],
+        "line": "ningbo6",
+        "order": 19
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433927,
+          29.863391
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Jishigang",
+        "display_name": "Jishigang (集士港)",
+        "alternate_names": [
+          "Jishigang",
+          "集士港",
+          "ji shi gang"
+        ],
+        "line": "ningbo6",
+        "order": 20
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433536,
+          29.851221
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Yunlin Road West",
+        "display_name": "Yunlin Road West (云林西路)",
+        "alternate_names": [
+          "Yunlin Road West",
+          "云林西路",
+          "雲林西路",
+          "Yunlinxilu",
+          "yun lin xi lu",
+          "Yunlin West Road"
+        ],
+        "line": "ningbo6",
+        "order": 21
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.432099,
+          29.836659
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Gulin",
+        "display_name": "Gulin (古林)",
+        "alternate_names": [
+          "Gulin",
+          "古林",
+          "gu lin"
+        ],
+        "line": "ningbo6",
+        "order": 22
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.654485,
+          29.966341
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Yufan",
+        "display_name": "Yufan (俞范)",
+        "alternate_names": [
+          "Yufan",
+          "俞范",
+          "俞範",
+          "yu fan"
+        ],
+        "line": "ningbo7",
+        "order": 0
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.618956,
+          29.964082
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Minghai Road North",
+        "display_name": "Minghai Road North (明海北路)",
+        "alternate_names": [
+          "Minghai Road North",
+          "明海北路",
+          "Minghaibeilu",
+          "ming hai bei lu",
+          "Minghai North Road"
+        ],
+        "line": "ningbo7",
+        "order": 1
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.608408,
+          29.967147
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Guisi",
+        "display_name": "Guisi (贵驷)",
+        "alternate_names": [
+          "Guisi",
+          "贵驷",
+          "貴駟",
+          "gui si"
+        ],
+        "line": "ningbo7",
+        "order": 2
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.594206,
+          29.969239
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Zhenhaishimin Square",
+        "display_name": "Zhenhaishimin Square (镇海市民广场)",
+        "alternate_names": [
+          "Zhenhaishimin Square",
+          "镇海市民广场",
+          "鎮海市民廣場",
+          "Zhenhaishiminguangchang",
+          "zhen hai shi min guang chang",
+          "Zhenhai Citizen Square"
+        ],
+        "line": "ningbo7",
+        "order": 3
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580198,
+          29.969662
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Zhenhai Avenue",
+        "display_name": "Zhenhai Avenue (镇海大道)",
+        "alternate_names": [
+          "Zhenhai Avenue",
+          "镇海大道",
+          "鎮海大道",
+          "Zhenhaidadao",
+          "zhen hai da dao",
+          "Zhenhai Avenue(Cihai)"
+        ],
+        "line": "ningbo7",
+        "order": 4
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.561517,
+          29.970162
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Luoxing",
+        "display_name": "Luoxing (骆兴)",
+        "alternate_names": [
+          "Luoxing",
+          "骆兴",
+          "駱興",
+          "luo xing"
+        ],
+        "line": "ningbo7",
+        "order": 5
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54599,
+          29.957086
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Yingjia Road",
+        "display_name": "Yingjia Road (应嘉路)",
+        "alternate_names": [
+          "Yingjia Road",
+          "应嘉路",
+          "應嘉路",
+          "Yingjialu",
+          "ying jia lu"
+        ],
+        "line": "ningbo7",
+        "order": 6
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540541,
+          29.932764
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Ningci Road East",
+        "display_name": "Ningci Road East (宁慈东路)",
+        "alternate_names": [
+          "Ningci Road East",
+          "宁慈东路",
+          "寧慈東路",
+          "Ningcidonglu",
+          "ning ci dong lu",
+          "Ningci East Road"
+        ],
+        "line": "ningbo7",
+        "order": 7
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53948,
+          29.918708
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Yunfei Road",
+        "display_name": "Yunfei Road (云飞路)",
+        "alternate_names": [
+          "Yunfei Road",
+          "云飞路",
+          "雲飛路",
+          "Yunfeilu",
+          "yun fei lu",
+          "Yunfei Road(Kangqiao South)"
+        ],
+        "line": "ningbo7",
+        "order": 8
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.546991,
+          29.901721
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Wantou",
+        "display_name": "Wantou (湾头)",
+        "alternate_names": [
+          "Wantou",
+          "湾头",
+          "灣頭",
+          "wan tou"
+        ],
+        "line": "ningbo7",
+        "order": 9
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.546299,
+          29.892127
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Ningbodajuyuan",
+        "display_name": "Ningbodajuyuan (宁波大剧院)",
+        "alternate_names": [
+          "Ningbodajuyuan",
+          "宁波大剧院",
+          "寧波大劇院",
+          "ning bo da ju yuan",
+          "Ningbo Grand Theater"
+        ],
+        "line": "ningbo7",
+        "order": 10
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.554741,
+          29.885337
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Waitandaqiao",
+        "display_name": "Waitandaqiao (外滩大桥)",
+        "alternate_names": [
+          "Waitandaqiao",
+          "外滩大桥",
+          "外灘大橋",
+          "wai tan da qiao",
+          "Waitan Bridge"
+        ],
+        "line": "ningbo7",
+        "order": 11
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.568144,
+          29.87953
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Shuguang",
+        "display_name": "Shuguang (曙光)",
+        "alternate_names": [
+          "Shuguang",
+          "曙光",
+          "shu guang"
+        ],
+        "line": "ningbo7",
+        "order": 12
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.581488,
+          29.875005
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Tiyuguan",
+        "display_name": "Tiyuguan (体育馆)",
+        "alternate_names": [
+          "Tiyuguan",
+          "体育馆",
+          "體育館",
+          "ti yu guan",
+          "Sports Center"
+        ],
+        "line": "ningbo7",
+        "order": 13
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.592975,
+          29.874659
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Fumin Park",
+        "display_name": "Fumin Park (福民公园)",
+        "alternate_names": [
+          "Fumin Park",
+          "福民公园",
+          "福民公園",
+          "Fumingongyuan",
+          "fu min gong yuan"
+        ],
+        "line": "ningbo7",
+        "order": 14
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.601416,
+          29.873921
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Xintian Road",
+        "display_name": "Xintian Road (新天路)",
+        "alternate_names": [
+          "Xintian Road",
+          "新天路",
+          "Xintianlu",
+          "xin tian lu"
+        ],
+        "line": "ningbo7",
+        "order": 15
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.613298,
+          29.870767
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Min'an Road East",
+        "display_name": "Min'an Road East (民安东路)",
+        "alternate_names": [
+          "Min'an Road East",
+          "民安东路",
+          "民安東路",
+          "Min'andonglu",
+          "min an dong lu",
+          "Min'an East Road"
+        ],
+        "line": "ningbo7",
+        "order": 16
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.622601,
+          29.86826
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Beimingcheng Road",
+        "display_name": "Beimingcheng Road (北明程路)",
+        "alternate_names": [
+          "Beimingcheng Road",
+          "北明程路",
+          "Beimingchenglu",
+          "bei ming cheng lu"
+        ],
+        "line": "ningbo7",
+        "order": 17
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632103,
+          29.859187
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Shengmo Road",
+        "display_name": "Shengmo Road (盛莫路)",
+        "alternate_names": [
+          "Shengmo Road",
+          "盛莫路",
+          "Shengmolu",
+          "sheng mo lu"
+        ],
+        "line": "ningbo7",
+        "order": 18
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.629823,
+          29.849017
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Qiu'ai",
+        "display_name": "Qiu'ai (邱隘)",
+        "alternate_names": [
+          "Qiu'ai",
+          "邱隘",
+          "qiu ai",
+          "Qiuga"
+        ],
+        "line": "ningbo7",
+        "order": 19
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.626289,
+          29.833533
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Shangde Road",
+        "display_name": "Shangde Road (尚德路)",
+        "alternate_names": [
+          "Shangde Road",
+          "尚德路",
+          "Shangdelu",
+          "shang de lu"
+        ],
+        "line": "ningbo7",
+        "order": 20
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.623429,
+          29.820907
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Huilong",
+        "display_name": "Huilong (回龙)",
+        "alternate_names": [
+          "Huilong",
+          "回龙",
+          "回龍",
+          "hui long"
+        ],
+        "line": "ningbo7",
+        "order": 21
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.622373,
+          29.802114
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Anshi Road",
+        "display_name": "Anshi Road (安石路)",
+        "alternate_names": [
+          "Anshi Road",
+          "安石路",
+          "Anshilu",
+          "an shi lu"
+        ],
+        "line": "ningbo7",
+        "order": 22
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60615,
+          29.796191
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Xiaoyangjiang",
+        "display_name": "Xiaoyangjiang (小洋江)",
+        "alternate_names": [
+          "Xiaoyangjiang",
+          "小洋江",
+          "xiao yang jiang"
+        ],
+        "line": "ningbo7",
+        "order": 23
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.597549,
+          29.783831
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Yunlong",
+        "display_name": "Yunlong (云龙)",
+        "alternate_names": [
+          "Yunlong",
+          "云龙",
+          "雲龍",
+          "yun long"
+        ],
+        "line": "ningbo7",
+        "order": 24
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.494827,
+          29.948453
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Kaiyuan Road",
+        "display_name": "Kaiyuan Road (开元路)",
+        "alternate_names": [
+          "Kaiyuan Road",
+          "开元路",
+          "開元路",
+          "Kaiyuanlu",
+          "kai yuan lu"
+        ],
+        "line": "ningbo8",
+        "order": 0
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50275,
+          29.941639
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Hongtang",
+        "display_name": "Hongtang (洪塘)",
+        "alternate_names": [
+          "Hongtang",
+          "洪塘",
+          "hong tang"
+        ],
+        "line": "ningbo8",
+        "order": 1
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51282,
+          29.933306
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Hongsheng Road",
+        "display_name": "Hongsheng Road (洪盛路)",
+        "alternate_names": [
+          "Hongsheng Road",
+          "洪盛路",
+          "Hongshenglu",
+          "hong sheng lu"
+        ],
+        "line": "ningbo8",
+        "order": 2
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514267,
+          29.924342
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Hongda Road",
+        "display_name": "Hongda Road (洪大路)",
+        "alternate_names": [
+          "Hongda Road",
+          "洪大路",
+          "Hongdalu",
+          "hong da lu"
+        ],
+        "line": "ningbo8",
+        "order": 3
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515608,
+          29.916498
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Xiejia",
+        "display_name": "Xiejia (榭嘉)",
+        "alternate_names": [
+          "Xiejia",
+          "榭嘉",
+          "xie jia"
+        ],
+        "line": "ningbo8",
+        "order": 4
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514753,
+          29.903299
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Qinglinwan",
+        "display_name": "Qinglinwan (青林湾)",
+        "alternate_names": [
+          "Qinglinwan",
+          "青林湾",
+          "青林灣",
+          "qing lin wan"
+        ],
+        "line": "ningbo8",
+        "order": 5
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514966,
+          29.890676
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Shizhong Hospital",
+        "display_name": "Shizhong Hospital (市中医院)",
+        "alternate_names": [
+          "Shizhong Hospital",
+          "市中医院",
+          "市中醫院",
+          "Shizhongyiyuan",
+          "shi zhong yi yuan",
+          "Ningbo Traditional Chinese Medicine Hospital"
+        ],
+        "line": "ningbo8",
+        "order": 6
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515314,
+          29.88146
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Zemin",
+        "display_name": "Zemin (泽民)",
+        "alternate_names": [
+          "Zemin",
+          "泽民",
+          "澤民",
+          "ze min"
+        ],
+        "line": "ningbo8",
+        "order": 7
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511535,
+          29.872187
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Lianfeng",
+        "display_name": "Lianfeng (联丰)",
+        "alternate_names": [
+          "Lianfeng",
+          "联丰",
+          "聯豐",
+          "lian feng"
+        ],
+        "line": "ningbo8",
+        "order": 8
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.513583,
+          29.860636
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Liyuan Road South",
+        "display_name": "Liyuan Road South (丽园南路)",
+        "alternate_names": [
+          "Liyuan Road South",
+          "丽园南路",
+          "麗園南路",
+          "Liyuannanlu",
+          "li yuan nan lu",
+          "Liyuan South Road"
+        ],
+        "line": "ningbo8",
+        "order": 9
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519695,
+          29.851625
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Nanyuan",
+        "display_name": "Nanyuan (南苑)",
+        "alternate_names": [
+          "Nanyuan",
+          "南苑",
+          "nan yuan"
+        ],
+        "line": "ningbo8",
+        "order": 10
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519273,
+          29.84366
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Duantang",
+        "display_name": "Duantang (段塘)",
+        "alternate_names": [
+          "Duantang",
+          "段塘",
+          "duan tang"
+        ],
+        "line": "ningbo8",
+        "order": 11
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524597,
+          29.83118
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Jinshan Road West",
+        "display_name": "Jinshan Road West (堇山西路)",
+        "alternate_names": [
+          "Jinshan Road West",
+          "堇山西路",
+          "Jinshanxilu",
+          "jin shan xi lu",
+          "Jinshan West Road"
+        ],
+        "line": "ningbo8",
+        "order": 12
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524676,
+          29.821753
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Miaoyan",
+        "display_name": "Miaoyan (庙堰)",
+        "alternate_names": [
+          "Miaoyan",
+          "庙堰",
+          "廟堰",
+          "miao yan"
+        ],
+        "line": "ningbo8",
+        "order": 13
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.536629,
+          29.810105
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Yinzhou Park South",
+        "display_name": "Yinzhou Park South (鄞州公园南)",
+        "alternate_names": [
+          "Yinzhou Park South",
+          "鄞州公园南",
+          "鄞州公園南",
+          "Yinzhougongyuannan",
+          "yin zhou gong yuan nan"
+        ],
+        "line": "ningbo8",
+        "order": 14
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54538,
+          29.810508
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Nanbushangwuqu",
+        "display_name": "Nanbushangwuqu (南部商务区)",
+        "alternate_names": [
+          "Nanbushangwuqu",
+          "南部商务区",
+          "南部商務區",
+          "nan bu shang wu qu",
+          "Southern Business District"
+        ],
+        "line": "ningbo8",
+        "order": 15
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.555457,
+          29.807274
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Xuefu Road",
+        "display_name": "Xuefu Road (学府路)",
+        "alternate_names": [
+          "Xuefu Road",
+          "学府路",
+          "學府路",
+          "Xuefulu",
+          "xue fu lu"
+        ],
+        "line": "ningbo8",
+        "order": 16
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.572365,
+          29.796169
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Hansong Road",
+        "display_name": "Hansong Road (寒松路)",
+        "alternate_names": [
+          "Hansong Road",
+          "寒松路",
+          "Hansonglu",
+          "han song lu"
+        ],
+        "line": "ningbo8",
+        "order": 17
+      },
+      "id": 200
+    }
+  ]
+}

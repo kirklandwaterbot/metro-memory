@@ -1,0 +1,196 @@
+{
+  "slug": "nanjing",
+  "path": "asia/china/nanjing",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "南京站": "Nanjing Railway Station",
+    "南京南站": "Nanjing South Railway Station",
+    "新街口": "Xinjiekou",
+    "禄口机场": "Lukou Airport",
+    "鼓楼": "Gulou",
+    "夫子庙": "Fuzimiao",
+    "南京林业大学·新庄": "Nanjing Forestry University · Xinzhuang"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "nanjing1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "name": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjing10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "name": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings1",
+      "name": "Line S1",
+      "match": {
+        "ref": "^S1$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings3",
+      "name": "Line S3",
+      "match": {
+        "ref": "^S3$",
+        "name": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings6",
+      "name": "Line S6",
+      "match": {
+        "ref": "^S6$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings7",
+      "name": "Line S7",
+      "match": {
+        "ref": "^S7$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings8",
+      "name": "Line S8",
+      "match": {
+        "ref": "^S8$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings9",
+      "name": "Line S9",
+      "match": {
+        "ref": "^S9$",
+        "network": "南京地铁"
+      }
+    },
+    {
+      "id": "nanjings2",
+      "name": "Line S2",
+      "match": {
+        "network": "南京地铁",
+        "ref": "^S2$"
+      }
+    },
+    {
+      "id": "nanjingningchu",
+      "name": "Ningchu Line",
+      "match": {
+        "network": "滁州轨道交通"
+      }
+    },
+    {
+      "id": "nanjinghexi",
+      "name": "Hexi Tram",
+      "match": {
+        "network": "南京有轨电车",
+        "ref": "^HEXI$"
+      },
+      "fromTrack": true,
+      "trackRadius": 40
+    },
+    {
+      "id": "nanjingqilin",
+      "name": "Qilin Tram",
+      "match": {
+        "network": "南京有轨电车",
+        "ref": "^QILIN$"
+      },
+      "fromTrack": true,
+      "trackRadius": 40
+    }
+  ],
+  "cityName": "Nanjing",
+  "groups": [
+    {
+      "title": "Nanjing Metro",
+      "lines": [
+        "nanjing1",
+        "nanjing2",
+        "nanjing3",
+        "nanjing4",
+        "nanjing5",
+        "nanjing6",
+        "nanjing7",
+        "nanjing10",
+        "nanjings1",
+        "nanjings3",
+        "nanjings6",
+        "nanjings7",
+        "nanjings8",
+        "nanjings9",
+        "nanjings2",
+        "nanjingningchu"
+      ]
+    },
+    {
+      "title": "Nanjing Tram",
+      "lines": [
+        "nanjinghexi",
+        "nanjingqilin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.086108,
+          27.4761
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nanpingshigaotie",
+        "display_name": "Nanpingshigaotie (南平市高铁)",
+        "alternate_names": [
+          "Nanpingshigaotie",
+          "南平市高铁",
+          "南平市高鐵",
+          "nan ping shi gao tie"
+        ],
+        "line": "nanpingt1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.075139,
+          27.508964
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Guxian",
+        "display_name": "Guxian (固县)",
+        "alternate_names": [
+          "Guxian",
+          "固县",
+          "固縣",
+          "gu xian"
+        ],
+        "line": "nanpingt1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.04812,
+          27.521948
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Chengcun",
+        "display_name": "Chengcun (城村)",
+        "alternate_names": [
+          "Chengcun",
+          "城村",
+          "cheng cun"
+        ],
+        "line": "nanpingt1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.028918,
+          27.523897
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Fengpo",
+        "display_name": "Fengpo (枫坡)",
+        "alternate_names": [
+          "Fengpo",
+          "枫坡",
+          "楓坡",
+          "feng po"
+        ],
+        "line": "nanpingt1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.019798,
+          27.52504
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Xingtian",
+        "display_name": "Xingtian (兴田)",
+        "alternate_names": [
+          "Xingtian",
+          "兴田",
+          "興田",
+          "xing tian"
+        ],
+        "line": "nanpingt1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.004359,
+          27.525517
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Huangtu",
+        "display_name": "Huangtu (黄土)",
+        "alternate_names": [
+          "Huangtu",
+          "黄土",
+          "黃土",
+          "huang tu"
+        ],
+        "line": "nanpingt1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.970257,
+          27.587733
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Xiandian",
+        "display_name": "Xiandian (仙店)",
+        "alternate_names": [
+          "Xiandian",
+          "仙店",
+          "xian dian"
+        ],
+        "line": "nanpingt1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.985702,
+          27.597226
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Dongshanpu",
+        "display_name": "Dongshanpu (东山埔)",
+        "alternate_names": [
+          "Dongshanpu",
+          "东山埔",
+          "東山埔",
+          "dong shan pu"
+        ],
+        "line": "nanpingt1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.983418,
+          27.611257
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nanyuanling",
+        "display_name": "Nanyuanling (南源岭)",
+        "alternate_names": [
+          "Nanyuanling",
+          "南源岭",
+          "南源嶺",
+          "nan yuan ling"
+        ],
+        "line": "nanpingt1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.984201,
+          27.62874
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Wuyishan",
+        "display_name": "Wuyishan (武夷山)",
+        "alternate_names": [
+          "Wuyishan",
+          "武夷山",
+          "wu yi shan"
+        ],
+        "line": "nanpingt1",
+        "order": 9
+      },
+      "id": 10
+    }
+  ]
+}

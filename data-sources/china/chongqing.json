@@ -1,0 +1,157 @@
+{
+  "slug": "chongqing",
+  "path": "asia/china/chongqing",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "重庆北站南广场": "Chongqing North Railway Station South Square",
+    "重庆北站北广场": "Chongqing North Railway Station North Square",
+    "重庆西站": "Chongqing West Railway Station",
+    "解放碑": "Jiefangbei",
+    "较场口": "Jiaochangkou",
+    "朝天门": "Chaotianmen",
+    "小什字": "Xiaoshizi",
+    "李子坝": "Liziba"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "chongqing1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing9",
+      "name": "Line 9",
+      "match": {
+        "ref": "^9$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing15",
+      "name": "Line 15",
+      "match": {
+        "ref": "^15$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqing18",
+      "name": "Line 18",
+      "match": {
+        "ref": "^18$",
+        "network": "重庆轨道交通"
+      }
+    },
+    {
+      "id": "chongqingloop",
+      "name": "Loop Line",
+      "match": {
+        "network": "重庆轨道交通",
+        "ref": "^环$"
+      }
+    },
+    {
+      "id": "chongqingbitong",
+      "name": "Bitong Line",
+      "match": {
+        "network": "重庆轨道交通",
+        "ref": "^BT$"
+      }
+    },
+    {
+      "id": "chongqingjiangtiao",
+      "name": "Jiangtiao Line",
+      "match": {
+        "network": "重庆轨道交通",
+        "ref": "^JT$"
+      }
+    },
+    {
+      "id": "chongqingyunba",
+      "name": "Bishan Yunba",
+      "match": {
+        "network": "重庆云巴"
+      }
+    }
+  ],
+  "cityName": "Chongqing",
+  "groups": [
+    {
+      "title": "Chongqing Rail Transit",
+      "lines": [
+        "chongqing1",
+        "chongqing2",
+        "chongqing3",
+        "chongqing4",
+        "chongqing5",
+        "chongqing6",
+        "chongqing9",
+        "chongqing10",
+        "chongqing15",
+        "chongqing18",
+        "chongqingloop",
+        "chongqingbitong",
+        "chongqingjiangtiao"
+      ]
+    },
+    {
+      "title": "Bishan Yunba",
+      "lines": [
+        "chongqingyunba"
+      ]
+    }
+  ]
+}

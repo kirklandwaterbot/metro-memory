@@ -1,0 +1,3737 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.78912,
+          36.498646
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Gongyanyuan",
+        "display_name": "Gongyanyuan (工研院)",
+        "alternate_names": [
+          "Gongyanyuan",
+          "工研院",
+          "gong yan yuan"
+        ],
+        "line": "jinan1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.799254,
+          36.510218
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Chuangxingu",
+        "display_name": "Chuangxingu (创新谷)",
+        "alternate_names": [
+          "Chuangxingu",
+          "创新谷",
+          "創新谷",
+          "chuang xin gu"
+        ],
+        "line": "jinan1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.794119,
+          36.536065
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Yuanboyuan",
+        "display_name": "Yuanboyuan (园博园)",
+        "alternate_names": [
+          "Yuanboyuan",
+          "园博园",
+          "園博園",
+          "yuan bo yuan"
+        ],
+        "line": "jinan1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.79805,
+          36.552413
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Daxuecheng",
+        "display_name": "Daxuecheng (大学城)",
+        "alternate_names": [
+          "Daxuecheng",
+          "大学城",
+          "大學城",
+          "da xue cheng"
+        ],
+        "line": "jinan1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.804619,
+          36.568549
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Ziwei Road",
+        "display_name": "Ziwei Road (紫薇路)",
+        "alternate_names": [
+          "Ziwei Road",
+          "紫薇路",
+          "Ziweilu",
+          "zi wei lu"
+        ],
+        "line": "jinan1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.829039,
+          36.590609
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Zhaoying",
+        "display_name": "Zhaoying (赵营)",
+        "alternate_names": [
+          "Zhaoying",
+          "赵营",
+          "趙營",
+          "zhao ying"
+        ],
+        "line": "jinan1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.852121,
+          36.610221
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Yufuhe",
+        "display_name": "Yufuhe (玉符河)",
+        "alternate_names": [
+          "Yufuhe",
+          "玉符河",
+          "yu fu he"
+        ],
+        "line": "jinan1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.875892,
+          36.623512
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Wangfuzhuang",
+        "display_name": "Wangfuzhuang (王府庄)",
+        "alternate_names": [
+          "Wangfuzhuang",
+          "王府庄",
+          "王府莊",
+          "wang fu zhuang"
+        ],
+        "line": "jinan1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.889206,
+          36.651406
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Dayang",
+        "display_name": "Dayang (大杨)",
+        "alternate_names": [
+          "Dayang",
+          "大杨",
+          "大楊",
+          "da yang"
+        ],
+        "line": "jinan1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.888253,
+          36.669104
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Jinan West Railway Station",
+        "display_name": "Jinan West Railway Station (济南西站)",
+        "alternate_names": [
+          "Jinan West Railway Station",
+          "济南西站",
+          "濟南西站",
+          "Jinan West",
+          "Jinanxizhan",
+          "ji nan xi zhan",
+          "Jinanxi"
+        ],
+        "line": "jinan1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.889442,
+          36.682143
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Fangte",
+        "display_name": "Fangte (方特)",
+        "alternate_names": [
+          "Fangte",
+          "方特",
+          "fang te"
+        ],
+        "line": "jinan1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.87586,
+          36.623557
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Wangfuzhuang",
+        "display_name": "Wangfuzhuang (王府庄)",
+        "alternate_names": [
+          "Wangfuzhuang",
+          "王府庄",
+          "王府莊",
+          "wang fu zhuang"
+        ],
+        "line": "jinan2",
+        "order": 0
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.897048,
+          36.624968
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Lashan South",
+        "display_name": "Lashan South (腊山南)",
+        "alternate_names": [
+          "Lashan South",
+          "腊山南",
+          "臘山南",
+          "Lashannan",
+          "la shan nan"
+        ],
+        "line": "jinan2",
+        "order": 1
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.913385,
+          36.652461
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Lashan",
+        "display_name": "Lashan (腊山)",
+        "alternate_names": [
+          "Lashan",
+          "腊山",
+          "臘山",
+          "la shan"
+        ],
+        "line": "jinan2",
+        "order": 2
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.92613,
+          36.663234
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Erhuan Road West",
+        "display_name": "Erhuan Road West (二环西路)",
+        "alternate_names": [
+          "Erhuan Road West",
+          "二环西路",
+          "二環西路",
+          "Erhuanxilu",
+          "er huan xi lu"
+        ],
+        "line": "jinan2",
+        "order": 3
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.946556,
+          36.665142
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Laotun",
+        "display_name": "Laotun (老屯)",
+        "alternate_names": [
+          "Laotun",
+          "老屯",
+          "lao tun"
+        ],
+        "line": "jinan2",
+        "order": 4
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.956778,
+          36.670286
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Baliqiao",
+        "display_name": "Baliqiao (八里桥)",
+        "alternate_names": [
+          "Baliqiao",
+          "八里桥",
+          "八里橋",
+          "ba li qiao"
+        ],
+        "line": "jinan2",
+        "order": 5
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.967113,
+          36.673341
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Yikang Road",
+        "display_name": "Yikang Road (益康路)",
+        "alternate_names": [
+          "Yikang Road",
+          "益康路",
+          "Yikanglu",
+          "yi kang lu"
+        ],
+        "line": "jinan2",
+        "order": 6
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.979505,
+          36.676785
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Jinan Railway Station North",
+        "display_name": "Jinan Railway Station North (济南站北)",
+        "alternate_names": [
+          "Jinan Railway Station North",
+          "济南站北",
+          "濟南站北",
+          "Jinanzhanbei",
+          "ji nan zhan bei"
+        ],
+        "line": "jinan2",
+        "order": 7
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.988304,
+          36.684264
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Jiluo Road",
+        "display_name": "Jiluo Road (济泺路)",
+        "alternate_names": [
+          "Jiluo Road",
+          "济泺路",
+          "濟濼路",
+          "Jiluolu",
+          "ji luo lu"
+        ],
+        "line": "jinan2",
+        "order": 8
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.010834,
+          36.684232
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Shengchan Road",
+        "display_name": "Shengchan Road (生产路)",
+        "alternate_names": [
+          "Shengchan Road",
+          "生产路",
+          "生產路",
+          "Shengchanlu",
+          "sheng chan lu"
+        ],
+        "line": "jinan2",
+        "order": 9
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.028249,
+          36.685904
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Beiyuan",
+        "display_name": "Beiyuan (北园)",
+        "alternate_names": [
+          "Beiyuan",
+          "北园",
+          "北園",
+          "bei yuan"
+        ],
+        "line": "jinan2",
+        "order": 10
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.036075,
+          36.688524
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Lishan Road",
+        "display_name": "Lishan Road (历山路)",
+        "alternate_names": [
+          "Lishan Road",
+          "历山路",
+          "歷山路",
+          "Lishanlu",
+          "li shan lu"
+        ],
+        "line": "jinan2",
+        "order": 11
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.061654,
+          36.690385
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Qilibao",
+        "display_name": "Qilibao (七里堡)",
+        "alternate_names": [
+          "Qilibao",
+          "七里堡",
+          "qi li bao",
+          "Qilipu"
+        ],
+        "line": "jinan2",
+        "order": 12
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.075981,
+          36.696806
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Zhudian",
+        "display_name": "Zhudian (祝甸)",
+        "alternate_names": [
+          "Zhudian",
+          "祝甸",
+          "zhu dian"
+        ],
+        "line": "jinan2",
+        "order": 13
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.09736,
+          36.70497
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Bajianbao",
+        "display_name": "Bajianbao (八涧堡)",
+        "alternate_names": [
+          "Bajianbao",
+          "八涧堡",
+          "八澗堡",
+          "ba jian bao",
+          "Bajianpu"
+        ],
+        "line": "jinan2",
+        "order": 14
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.121286,
+          36.705954
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Jiangjiazhuang",
+        "display_name": "Jiangjiazhuang (姜家庄)",
+        "alternate_names": [
+          "Jiangjiazhuang",
+          "姜家庄",
+          "姜家莊",
+          "jiang jia zhuang"
+        ],
+        "line": "jinan2",
+        "order": 15
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.139355,
+          36.707794
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Fenghuang Road North",
+        "display_name": "Fenghuang Road North (凤凰北路)",
+        "alternate_names": [
+          "Fenghuang Road North",
+          "凤凰北路",
+          "鳳凰北路",
+          "Fenghuangbeilu",
+          "feng huang bei lu",
+          "Fenghuang Beilu"
+        ],
+        "line": "jinan2",
+        "order": 16
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.181576,
+          36.709083
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Baoshan",
+        "display_name": "Baoshan (鲍山)",
+        "alternate_names": [
+          "Baoshan",
+          "鲍山",
+          "鮑山",
+          "bao shan"
+        ],
+        "line": "jinan2",
+        "order": 17
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.223148,
+          36.709313
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Pengjiazhuang",
+        "display_name": "Pengjiazhuang (彭家庄)",
+        "alternate_names": [
+          "Pengjiazhuang",
+          "彭家庄",
+          "彭家莊",
+          "peng jia zhuang"
+        ],
+        "line": "jinan2",
+        "order": 18
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.111403,
+          36.617863
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Longdong",
+        "display_name": "Longdong (龙洞)",
+        "alternate_names": [
+          "Longdong",
+          "龙洞",
+          "龍洞",
+          "long dong"
+        ],
+        "line": "jinan3",
+        "order": 0
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.113926,
+          36.632971
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Mengjiazhuang",
+        "display_name": "Mengjiazhuang (孟家庄)",
+        "alternate_names": [
+          "Mengjiazhuang",
+          "孟家庄",
+          "孟家莊",
+          "meng jia zhuang"
+        ],
+        "line": "jinan3",
+        "order": 1
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.108152,
+          36.6505
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Long'aodasha",
+        "display_name": "Long'aodasha (龙奥大厦)",
+        "alternate_names": [
+          "Long'aodasha",
+          "龙奥大厦",
+          "龍奧大廈",
+          "long ao da sha",
+          "Longao Building"
+        ],
+        "line": "jinan3",
+        "order": 2
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.105574,
+          36.659955
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Aotizhongxin",
+        "display_name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "Aotizhongxin",
+          "奥体中心",
+          "奧體中心",
+          "ao ti zhong xin",
+          "Olympic Sports Center"
+        ],
+        "line": "jinan3",
+        "order": 3
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.104774,
+          36.668222
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Anchengjie",
+        "display_name": "Anchengjie (安成街)",
+        "alternate_names": [
+          "Anchengjie",
+          "安成街",
+          "an cheng jie"
+        ],
+        "line": "jinan3",
+        "order": 4
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.103577,
+          36.677258
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Dingjiazhuang",
+        "display_name": "Dingjiazhuang (丁家庄)",
+        "alternate_names": [
+          "Dingjiazhuang",
+          "丁家庄",
+          "丁家莊",
+          "ding jia zhuang"
+        ],
+        "line": "jinan3",
+        "order": 5
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.100339,
+          36.691516
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Huayuan Road East",
+        "display_name": "Huayuan Road East (花园东路)",
+        "alternate_names": [
+          "Huayuan Road East",
+          "花园东路",
+          "花園東路",
+          "Huayuandonglu",
+          "hua yuan dong lu"
+        ],
+        "line": "jinan3",
+        "order": 6
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.09736,
+          36.70497
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Bajianbao",
+        "display_name": "Bajianbao (八涧堡)",
+        "alternate_names": [
+          "Bajianbao",
+          "八涧堡",
+          "八澗堡",
+          "ba jian bao",
+          "Bajianpu"
+        ],
+        "line": "jinan3",
+        "order": 7
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.108365,
+          36.718247
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Zhangmatun",
+        "display_name": "Zhangmatun (张马屯)",
+        "alternate_names": [
+          "Zhangmatun",
+          "张马屯",
+          "張馬屯",
+          "zhang ma tun"
+        ],
+        "line": "jinan3",
+        "order": 8
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.132226,
+          36.719805
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Wangsheren",
+        "display_name": "Wangsheren (王舍人)",
+        "alternate_names": [
+          "Wangsheren",
+          "王舍人",
+          "wang she ren"
+        ],
+        "line": "jinan3",
+        "order": 9
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.153214,
+          36.734168
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Peijiaying",
+        "display_name": "Peijiaying (裴家营)",
+        "alternate_names": [
+          "Peijiaying",
+          "裴家营",
+          "裴家營",
+          "pei jia ying"
+        ],
+        "line": "jinan3",
+        "order": 10
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.153647,
+          36.745672
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Jinan East Railway Station",
+        "display_name": "Jinan East Railway Station (济南东站)",
+        "alternate_names": [
+          "Jinan East Railway Station",
+          "济南东站",
+          "濟南東站",
+          "Jinan East",
+          "Jinandongzhan",
+          "ji nan dong zhan",
+          "Jinandong"
+        ],
+        "line": "jinan3",
+        "order": 11
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.159221,
+          36.766472
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Tantou",
+        "display_name": "Tantou (滩头)",
+        "alternate_names": [
+          "Tantou",
+          "滩头",
+          "灘頭",
+          "tan tou"
+        ],
+        "line": "jinan3",
+        "order": 12
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.172078,
+          36.768056
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Qujiazhuang",
+        "display_name": "Qujiazhuang (曲家庄)",
+        "alternate_names": [
+          "Qujiazhuang",
+          "曲家庄",
+          "曲家莊",
+          "qu jia zhuang"
+        ],
+        "line": "jinan3",
+        "order": 13
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.187824,
+          36.775063
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Chuanliu",
+        "display_name": "Chuanliu (川流)",
+        "alternate_names": [
+          "Chuanliu",
+          "川流",
+          "chuan liu"
+        ],
+        "line": "jinan3",
+        "order": 14
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.201308,
+          36.799252
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Lingang Road North",
+        "display_name": "Lingang Road North (临港北路)",
+        "alternate_names": [
+          "Lingang Road North",
+          "临港北路",
+          "臨港北路",
+          "Lingangbeilu",
+          "lin gang bei lu"
+        ],
+        "line": "jinan3",
+        "order": 15
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.203872,
+          36.828808
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Linkong",
+        "display_name": "Linkong (临空)",
+        "alternate_names": [
+          "Linkong",
+          "临空",
+          "臨空",
+          "lin kong"
+        ],
+        "line": "jinan3",
+        "order": 16
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.204547,
+          36.850769
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Jichang South",
+        "display_name": "Jichang South (机场南)",
+        "alternate_names": [
+          "Jichang South",
+          "机场南",
+          "機場南",
+          "Jichangnan",
+          "ji chang nan",
+          "Jichangnan (Jinan International Airport South)"
+        ],
+        "line": "jinan3",
+        "order": 17
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.223148,
+          36.709313
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Pengjiazhuang",
+        "display_name": "Pengjiazhuang (彭家庄)",
+        "alternate_names": [
+          "Pengjiazhuang",
+          "彭家庄",
+          "彭家莊",
+          "peng jia zhuang"
+        ],
+        "line": "jinan4",
+        "order": 0
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.223143,
+          36.702105
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Licheng'erzhongtangyexiaoqu",
+        "display_name": "Licheng'erzhongtangyexiaoqu (历城二中唐冶校区)",
+        "alternate_names": [
+          "Licheng'erzhongtangyexiaoqu",
+          "历城二中唐冶校区",
+          "歷城二中唐冶校區",
+          "li cheng er zhong tang ye xiao qu",
+          "Licheng No.2 High School Tangye Campus"
+        ],
+        "line": "jinan4",
+        "order": 1
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.220096,
+          36.689776
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Tangye",
+        "display_name": "Tangye (唐冶)",
+        "alternate_names": [
+          "Tangye",
+          "唐冶",
+          "tang ye"
+        ],
+        "line": "jinan4",
+        "order": 2
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.220752,
+          36.679193
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Tangye Park",
+        "display_name": "Tangye Park (唐冶公园)",
+        "alternate_names": [
+          "Tangye Park",
+          "唐冶公园",
+          "唐冶公園",
+          "Tangyegongyuan",
+          "tang ye gong yuan",
+          "Tangye Gongyuan"
+        ],
+        "line": "jinan4",
+        "order": 3
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.212557,
+          36.671792
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Xingcunlijiaoqiao East",
+        "display_name": "Xingcunlijiaoqiao East (邢村立交桥东)",
+        "alternate_names": [
+          "Xingcunlijiaoqiao East",
+          "邢村立交桥东",
+          "邢村立交橋東",
+          "Xingcunlijiaoqiaodong",
+          "xing cun li jiao qiao dong",
+          "Xingcun Lijiaoqiao East"
+        ],
+        "line": "jinan4",
+        "order": 4
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.197037,
+          36.673972
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Xingcunlijiaoqiao West",
+        "display_name": "Xingcunlijiaoqiao West (邢村立交桥西)",
+        "alternate_names": [
+          "Xingcunlijiaoqiao West",
+          "邢村立交桥西",
+          "邢村立交橋西",
+          "Xingcunlijiaoqiaoxi",
+          "xing cun li jiao qiao xi",
+          "Xingcun Lijiaoqiao West"
+        ],
+        "line": "jinan4",
+        "order": 5
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1874,
+          36.671935
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Wenlucheng",
+        "display_name": "Wenlucheng (文旅城)",
+        "alternate_names": [
+          "Wenlucheng",
+          "文旅城",
+          "wen lu cheng",
+          "Wenlvcheng"
+        ],
+        "line": "jinan4",
+        "order": 6
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.173567,
+          36.669384
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Huangjinchanyeyuan",
+        "display_name": "Huangjinchanyeyuan (黄金产业园)",
+        "alternate_names": [
+          "Huangjinchanyeyuan",
+          "黄金产业园",
+          "黃金產業園",
+          "huang jin chan ye yuan",
+          "Gold Industrial Park"
+        ],
+        "line": "jinan4",
+        "order": 7
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.160099,
+          36.667884
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Linjiazhuang",
+        "display_name": "Linjiazhuang (林家庄)",
+        "alternate_names": [
+          "Linjiazhuang",
+          "林家庄",
+          "林家莊",
+          "lin jia zhuang"
+        ],
+        "line": "jinan4",
+        "order": 8
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.143848,
+          36.66279
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Hanyujingu",
+        "display_name": "Hanyujingu (汉峪金谷)",
+        "alternate_names": [
+          "Hanyujingu",
+          "汉峪金谷",
+          "漢峪金谷",
+          "han yu jin gu",
+          "Hanyu Jingu"
+        ],
+        "line": "jinan4",
+        "order": 9
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.138779,
+          36.661063
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Shuntai Square",
+        "display_name": "Shuntai Square (舜泰广场)",
+        "alternate_names": [
+          "Shuntai Square",
+          "舜泰广场",
+          "舜泰廣場",
+          "Shuntaiguangchang",
+          "shun tai guang chang",
+          "Shuntai Guangchang"
+        ],
+        "line": "jinan4",
+        "order": 10
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.12188,
+          36.659141
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Aoti Road East",
+        "display_name": "Aoti Road East (奥体东路)",
+        "alternate_names": [
+          "Aoti Road East",
+          "奥体东路",
+          "奧體東路",
+          "Aotidonglu",
+          "ao ti dong lu",
+          "Aoti Donglu"
+        ],
+        "line": "jinan4",
+        "order": 11
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.105574,
+          36.659955
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Aotizhongxin",
+        "display_name": "Aotizhongxin (奥体中心)",
+        "alternate_names": [
+          "Aotizhongxin",
+          "奥体中心",
+          "奧體中心",
+          "ao ti zhong xin",
+          "Olympic Sports Center"
+        ],
+        "line": "jinan4",
+        "order": 12
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.095243,
+          36.657006
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Zhuanshan Road West",
+        "display_name": "Zhuanshan Road West (转山西路)",
+        "alternate_names": [
+          "Zhuanshan Road West",
+          "转山西路",
+          "轉山西路",
+          "Zhuanshanxilu",
+          "zhuan shan xi lu",
+          "Zhuanshan Xilu"
+        ],
+        "line": "jinan4",
+        "order": 13
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.087312,
+          36.654745
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Shandong Museum",
+        "display_name": "Shandong Museum (山东博物馆)",
+        "alternate_names": [
+          "Shandong Museum",
+          "山东博物馆",
+          "山東博物館",
+          "Shandongbowuguan",
+          "shan dong bo wu guan"
+        ],
+        "line": "jinan4",
+        "order": 14
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.080252,
+          36.65262
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Jiangshuiquan Road",
+        "display_name": "Jiangshuiquan Road (浆水泉路)",
+        "alternate_names": [
+          "Jiangshuiquan Road",
+          "浆水泉路",
+          "漿水泉路",
+          "Jiangshuiquanlu",
+          "jiang shui quan lu"
+        ],
+        "line": "jinan4",
+        "order": 15
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.071356,
+          36.651426
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Yanshanlijiaoqiao",
+        "display_name": "Yanshanlijiaoqiao (燕山立交桥)",
+        "alternate_names": [
+          "Yanshanlijiaoqiao",
+          "燕山立交桥",
+          "燕山立交橋",
+          "yan shan li jiao qiao",
+          "Yanshan Lijiaoqiao"
+        ],
+        "line": "jinan4",
+        "order": 16
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.049924,
+          36.648558
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Shandalunankou",
+        "display_name": "Shandalunankou (山大路南口)",
+        "alternate_names": [
+          "Shandalunankou",
+          "山大路南口",
+          "shan da lu nan kou",
+          "Shandalu South"
+        ],
+        "line": "jinan4",
+        "order": 17
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.040396,
+          36.648275
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Shanshi Road East",
+        "display_name": "Shanshi Road East (山师东路)",
+        "alternate_names": [
+          "Shanshi Road East",
+          "山师东路",
+          "山師東路",
+          "Shanshidonglu",
+          "shan shi dong lu",
+          "Shanshi Donglu"
+        ],
+        "line": "jinan4",
+        "order": 18
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.028723,
+          36.64818
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Qianfoshan",
+        "display_name": "Qianfoshan (千佛山)",
+        "alternate_names": [
+          "Qianfoshan",
+          "千佛山",
+          "qian fo shan",
+          "Qianfo Mountain"
+        ],
+        "line": "jinan4",
+        "order": 19
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.014345,
+          36.648182
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Quancheng Park",
+        "display_name": "Quancheng Park (泉城公园)",
+        "alternate_names": [
+          "Quancheng Park",
+          "泉城公园",
+          "泉城公園",
+          "Quanchenggongyuan",
+          "quan cheng gong yuan",
+          "Quancheng Gongyuan"
+        ],
+        "line": "jinan4",
+        "order": 20
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.006569,
+          36.647894
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Sheng Sports Center",
+        "display_name": "Sheng Sports Center (省体育中心)",
+        "alternate_names": [
+          "Sheng Sports Center",
+          "省体育中心",
+          "省體育中心",
+          "Shengtiyuzhongxin",
+          "sheng ti yu zhong xin",
+          "Shandong Sports Center"
+        ],
+        "line": "jinan4",
+        "order": 21
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.993771,
+          36.648366
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Bayilijiaoqiao",
+        "display_name": "Bayilijiaoqiao (八一立交桥)",
+        "alternate_names": [
+          "Bayilijiaoqiao",
+          "八一立交桥",
+          "八一立交橋",
+          "ba yi li jiao qiao",
+          "Bayi Lijiaoqiao"
+        ],
+        "line": "jinan4",
+        "order": 22
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.975749,
+          36.648262
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Wulipaifang",
+        "display_name": "Wulipaifang (五里牌坊)",
+        "alternate_names": [
+          "Wulipaifang",
+          "五里牌坊",
+          "wu li pai fang",
+          "Wuli Paifang"
+        ],
+        "line": "jinan4",
+        "order": 23
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.965328,
+          36.648627
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Nanxinzhuang",
+        "display_name": "Nanxinzhuang (南辛庄)",
+        "alternate_names": [
+          "Nanxinzhuang",
+          "南辛庄",
+          "南辛莊",
+          "nan xin zhuang"
+        ],
+        "line": "jinan4",
+        "order": 24
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.955724,
+          36.648849
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Yingshijie",
+        "display_name": "Yingshijie (营市街)",
+        "alternate_names": [
+          "Yingshijie",
+          "营市街",
+          "營市街",
+          "ying shi jie",
+          "Yingshi Jie"
+        ],
+        "line": "jinan4",
+        "order": 25
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.934871,
+          36.650748
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Duandian",
+        "display_name": "Duandian (段店)",
+        "alternate_names": [
+          "Duandian",
+          "段店",
+          "duan dian"
+        ],
+        "line": "jinan4",
+        "order": 26
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.914572,
+          36.651893
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Lashan",
+        "display_name": "Lashan (腊山)",
+        "alternate_names": [
+          "Lashan",
+          "腊山",
+          "臘山",
+          "la shan"
+        ],
+        "line": "jinan4",
+        "order": 27
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.898722,
+          36.651016
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Lashanhe Park",
+        "display_name": "Lashanhe Park (腊山河公园)",
+        "alternate_names": [
+          "Lashanhe Park",
+          "腊山河公园",
+          "臘山河公園",
+          "Lashanhegongyuan",
+          "la shan he gong yuan",
+          "Lashanhe Gongyuan"
+        ],
+        "line": "jinan4",
+        "order": 28
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.889206,
+          36.651406
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Dayang",
+        "display_name": "Dayang (大杨)",
+        "alternate_names": [
+          "Dayang",
+          "大杨",
+          "大楊",
+          "da yang"
+        ],
+        "line": "jinan4",
+        "order": 29
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.883262,
+          36.668691
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Jinan West Railway Station West Square",
+        "display_name": "Jinan West Railway Station West Square (济南西站西广场)",
+        "alternate_names": [
+          "Jinan West Railway Station West Square",
+          "济南西站西广场",
+          "濟南西站西廣場",
+          "Jinanxizhanxiguangchang",
+          "ji nan xi zhan xi guang chang",
+          "Jinanxi Railway Station West Square"
+        ],
+        "line": "jinan4",
+        "order": 30
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.877162,
+          36.679578
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Chunfengyuedong Park",
+        "display_name": "Chunfengyuedong Park (春风跃动公园)",
+        "alternate_names": [
+          "Chunfengyuedong Park",
+          "春风跃动公园",
+          "春風躍動公園",
+          "Chunfengyuedonggongyuan",
+          "chun feng yue dong gong yuan",
+          "Chunfeng Yuedong Gongyuan"
+        ],
+        "line": "jinan4",
+        "order": 31
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.864835,
+          36.675959
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Diyiyike University",
+        "display_name": "Diyiyike University (第一医科大学)",
+        "alternate_names": [
+          "Diyiyike University",
+          "第一医科大学",
+          "第一醫科大學",
+          "Diyiyikedaxue",
+          "di yi yi ke da xue",
+          "Shandong First Medical University"
+        ],
+        "line": "jinan4",
+        "order": 32
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.184197,
+          36.747024
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Liangwang",
+        "display_name": "Liangwang (梁王)",
+        "alternate_names": [
+          "Liangwang",
+          "梁王",
+          "liang wang"
+        ],
+        "line": "jinan6",
+        "order": 0
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.17086,
+          36.747084
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Liangwang West",
+        "display_name": "Liangwang West (梁王西)",
+        "alternate_names": [
+          "Liangwang West",
+          "梁王西",
+          "Liangwangxi",
+          "liang wang xi"
+        ],
+        "line": "jinan6",
+        "order": 1
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.153647,
+          36.745672
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Jinan East Railway Station",
+        "display_name": "Jinan East Railway Station (济南东站)",
+        "alternate_names": [
+          "Jinan East Railway Station",
+          "济南东站",
+          "濟南東站",
+          "Jinan East",
+          "Jinandongzhan",
+          "ji nan dong zhan",
+          "Jinandong"
+        ],
+        "line": "jinan6",
+        "order": 2
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.139749,
+          36.734842
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Xiangquanjie",
+        "display_name": "Xiangquanjie (响泉街)",
+        "alternate_names": [
+          "Xiangquanjie",
+          "响泉街",
+          "響泉街",
+          "xiang quan jie",
+          "Xiangquan Jie"
+        ],
+        "line": "jinan6",
+        "order": 3
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.140096,
+          36.721008
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Wangsherenlijiaoqiao",
+        "display_name": "Wangsherenlijiaoqiao (王舍人立交桥)",
+        "alternate_names": [
+          "Wangsherenlijiaoqiao",
+          "王舍人立交桥",
+          "王舍人立交橋",
+          "wang she ren li jiao qiao",
+          "Wangsheren Lijiaoqiao"
+        ],
+        "line": "jinan6",
+        "order": 4
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.139355,
+          36.707794
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Fenghuang Road North",
+        "display_name": "Fenghuang Road North (凤凰北路)",
+        "alternate_names": [
+          "Fenghuang Road North",
+          "凤凰北路",
+          "鳳凰北路",
+          "Fenghuangbeilu",
+          "feng huang bei lu",
+          "Fenghuang Beilu"
+        ],
+        "line": "jinan6",
+        "order": 5
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.141039,
+          36.698522
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Xujiazhuang",
+        "display_name": "Xujiazhuang (徐家庄)",
+        "alternate_names": [
+          "Xujiazhuang",
+          "徐家庄",
+          "徐家莊",
+          "xu jia zhuang"
+        ],
+        "line": "jinan6",
+        "order": 6
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.141511,
+          36.68873
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Shiji Avenue",
+        "display_name": "Shiji Avenue (世纪大道)",
+        "alternate_names": [
+          "Shiji Avenue",
+          "世纪大道",
+          "世紀大道",
+          "Shijidadao",
+          "shi ji da dao",
+          "Shiji Dadao"
+        ],
+        "line": "jinan6",
+        "order": 7
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.136061,
+          36.680163
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Kaituo Road",
+        "display_name": "Kaituo Road (开拓路)",
+        "alternate_names": [
+          "Kaituo Road",
+          "开拓路",
+          "開拓路",
+          "Kaituolu",
+          "kai tuo lu",
+          "Kaituo Lu"
+        ],
+        "line": "jinan6",
+        "order": 8
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.126329,
+          36.675544
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Qiluruanjianyuan",
+        "display_name": "Qiluruanjianyuan (齐鲁软件园)",
+        "alternate_names": [
+          "Qiluruanjianyuan",
+          "齐鲁软件园",
+          "齊魯軟件園",
+          "qi lu ruan jian yuan",
+          "Qilusoft Park"
+        ],
+        "line": "jinan6",
+        "order": 9
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.112349,
+          36.668878
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Tianluo Road",
+        "display_name": "Tianluo Road (天泺路)",
+        "alternate_names": [
+          "Tianluo Road",
+          "天泺路",
+          "天濼路",
+          "Tianluolu",
+          "tian luo lu",
+          "Tianluo Lu"
+        ],
+        "line": "jinan6",
+        "order": 10
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.104774,
+          36.668222
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Anchengjie",
+        "display_name": "Anchengjie (安成街)",
+        "alternate_names": [
+          "Anchengjie",
+          "安成街",
+          "an cheng jie"
+        ],
+        "line": "jinan6",
+        "order": 11
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.095057,
+          36.668057
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Zhongyangshangwuqu",
+        "display_name": "Zhongyangshangwuqu (中央商务区)",
+        "alternate_names": [
+          "Zhongyangshangwuqu",
+          "中央商务区",
+          "中央商務區",
+          "zhong yang shang wu qu",
+          "Central Business District"
+        ],
+        "line": "jinan6",
+        "order": 12
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.088745,
+          36.668124
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Maolingshan",
+        "display_name": "Maolingshan (茂岭山)",
+        "alternate_names": [
+          "Maolingshan",
+          "茂岭山",
+          "茂嶺山",
+          "mao ling shan",
+          "Maoling Shan"
+        ],
+        "line": "jinan6",
+        "order": 13
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.074794,
+          36.671946
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Qilihelunankou",
+        "display_name": "Qilihelunankou (七里河路南口)",
+        "alternate_names": [
+          "Qilihelunankou",
+          "七里河路南口",
+          "qi li he lu nan kou",
+          "Qilihelu South"
+        ],
+        "line": "jinan6",
+        "order": 14
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.068608,
+          36.671416
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Shandananludongkou",
+        "display_name": "Shandananludongkou (山大南路东口)",
+        "alternate_names": [
+          "Shandananludongkou",
+          "山大南路东口",
+          "山大南路東口",
+          "shan da nan lu dong kou",
+          "Shanda'nanlu East"
+        ],
+        "line": "jinan6",
+        "order": 15
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.051258,
+          36.67147
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Shandong University",
+        "display_name": "Shandong University (山东大学)",
+        "alternate_names": [
+          "Shandong University",
+          "山东大学",
+          "山東大學",
+          "Shandongdaxue",
+          "shan dong da xue"
+        ],
+        "line": "jinan6",
+        "order": 16
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.212557,
+          36.671792
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Xingcunlijiaoqiao East",
+        "display_name": "Xingcunlijiaoqiao East (邢村立交桥东)",
+        "alternate_names": [
+          "Xingcunlijiaoqiao East",
+          "邢村立交桥东",
+          "邢村立交橋東",
+          "Xingcunlijiaoqiaodong",
+          "xing cun li jiao qiao dong",
+          "Xingcun Lijiaoqiao East"
+        ],
+        "line": "jinan8",
+        "order": 0
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.234629,
+          36.668675
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Qingnianzhengzhixueyuan",
+        "display_name": "Qingnianzhengzhixueyuan (青年政治学院)",
+        "alternate_names": [
+          "Qingnianzhengzhixueyuan",
+          "青年政治学院",
+          "青年政治學院",
+          "qing nian zheng zhi xue yuan",
+          "Shandong Youth University of Political Science"
+        ],
+        "line": "jinan8",
+        "order": 1
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.256962,
+          36.661462
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Chaosuanzhongxin",
+        "display_name": "Chaosuanzhongxin (超算中心)",
+        "alternate_names": [
+          "Chaosuanzhongxin",
+          "超算中心",
+          "chao suan zhong xin",
+          "Supercomputing Center"
+        ],
+        "line": "jinan8",
+        "order": 2
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.278282,
+          36.661616
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Gonglujishixueyuan",
+        "display_name": "Gonglujishixueyuan (公路技师学院)",
+        "alternate_names": [
+          "Gonglujishixueyuan",
+          "公路技师学院",
+          "公路技師學院",
+          "gong lu ji shi xue yuan",
+          "Shandong Highway Technician College"
+        ],
+        "line": "jinan8",
+        "order": 3
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.300516,
+          36.668745
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Chunbo Road",
+        "display_name": "Chunbo Road (春博路)",
+        "alternate_names": [
+          "Chunbo Road",
+          "春博路",
+          "Chunbolu",
+          "chun bo lu",
+          "Chunbo Lu"
+        ],
+        "line": "jinan8",
+        "order": 4
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.318839,
+          36.674756
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Shandongzhiyexueyuan",
+        "display_name": "Shandongzhiyexueyuan (山东职业学院)",
+        "alternate_names": [
+          "Shandongzhiyexueyuan",
+          "山东职业学院",
+          "山東職業學院",
+          "shan dong zhi ye xue yuan",
+          "Shandong Polytechnic"
+        ],
+        "line": "jinan8",
+        "order": 5
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.345963,
+          36.675895
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Shandongxiandaixueyuan",
+        "display_name": "Shandongxiandaixueyuan (山东现代学院)",
+        "alternate_names": [
+          "Shandongxiandaixueyuan",
+          "山东现代学院",
+          "山東現代學院",
+          "shan dong xian dai xue yuan",
+          "Shandong Xiandai University"
+        ],
+        "line": "jinan8",
+        "order": 6
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.368256,
+          36.674132
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Shancaizhangqiuxiaoqu",
+        "display_name": "Shancaizhangqiuxiaoqu (山财章丘校区)",
+        "alternate_names": [
+          "Shancaizhangqiuxiaoqu",
+          "山财章丘校区",
+          "山財章丘校區",
+          "shan cai zhang qiu xiao qu",
+          "Shandong University of Finance and Economics Zhangqiu Campus"
+        ],
+        "line": "jinan8",
+        "order": 7
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.380725,
+          36.673455
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Huangtuya",
+        "display_name": "Huangtuya (黄土崖)",
+        "alternate_names": [
+          "Huangtuya",
+          "黄土崖",
+          "黃土崖",
+          "huang tu ya"
+        ],
+        "line": "jinan8",
+        "order": 8
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.399421,
+          36.671886
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Huangqishan North",
+        "display_name": "Huangqishan North (黄旗山北)",
+        "alternate_names": [
+          "Huangqishan North",
+          "黄旗山北",
+          "黃旗山北",
+          "Huangqishanbei",
+          "huang qi shan bei"
+        ],
+        "line": "jinan8",
+        "order": 9
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.420386,
+          36.670455
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Shengjing",
+        "display_name": "Shengjing (圣井)",
+        "alternate_names": [
+          "Shengjing",
+          "圣井",
+          "聖井",
+          "sheng jing"
+        ],
+        "line": "jinan8",
+        "order": 10
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.446279,
+          36.669278
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Shandalongshan",
+        "display_name": "Shandalongshan (山大龙山)",
+        "alternate_names": [
+          "Shandalongshan",
+          "山大龙山",
+          "山大龍山",
+          "shan da long shan",
+          "Shandong University Longshan"
+        ],
+        "line": "jinan8",
+        "order": 11
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.465926,
+          36.667756
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Xiuyuanhe",
+        "display_name": "Xiuyuanhe (绣源河)",
+        "alternate_names": [
+          "Xiuyuanhe",
+          "绣源河",
+          "繡源河",
+          "xiu yuan he",
+          "Xiuyuan He"
+        ],
+        "line": "jinan8",
+        "order": 12
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.480084,
+          36.667837
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Qingyuan Street",
+        "display_name": "Qingyuan Street (清源大街)",
+        "alternate_names": [
+          "Qingyuan Street",
+          "清源大街",
+          "Qingyuandajie",
+          "qing yuan da jie",
+          "Qingyuan Dajie"
+        ],
+        "line": "jinan8",
+        "order": 13
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.152447,
+          36.745898
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Jinan East Railway Station",
+        "display_name": "Jinan East Railway Station (济南东站)",
+        "alternate_names": [
+          "Jinan East Railway Station",
+          "济南东站",
+          "濟南東站",
+          "Jinan East",
+          "Jinandongzhan",
+          "ji nan dong zhan",
+          "Jinandong"
+        ],
+        "line": "jinanjiyang",
+        "order": 0
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.102949,
+          36.827912
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Cuizhai",
+        "display_name": "Cuizhai (崔寨)",
+        "alternate_names": [
+          "Cuizhai",
+          "崔寨",
+          "cui zhai"
+        ],
+        "line": "jinanjiyang",
+        "order": 1
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.105745,
+          36.833744
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Huanghe Exhibition Center",
+        "display_name": "Huanghe Exhibition Center (黄河会展中心)",
+        "alternate_names": [
+          "Huanghe Exhibition Center",
+          "黄河会展中心",
+          "黃河會展中心",
+          "Huanghehuizhanzhongxin",
+          "huang he hui zhan zhong xin",
+          "Yellow River Convention and Exhibition Center"
+        ],
+        "line": "jinanjiyang",
+        "order": 2
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.107748,
+          36.854782
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Yingcaixueyuanbeixiaoqu",
+        "display_name": "Yingcaixueyuanbeixiaoqu (英才学院北校区)",
+        "alternate_names": [
+          "Yingcaixueyuanbeixiaoqu",
+          "英才学院北校区",
+          "英才學院北校區",
+          "ying cai xue yuan bei xiao qu",
+          "Shandong Yingcai University North Campus"
+        ],
+        "line": "jinanjiyang",
+        "order": 3
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10875,
+          36.864748
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Qingning",
+        "display_name": "Qingning (清宁)",
+        "alternate_names": [
+          "Qingning",
+          "清宁",
+          "清寧",
+          "qing ning"
+        ],
+        "line": "jinanjiyang",
+        "order": 4
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.109844,
+          36.877314
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Hua'erzhuang Street North",
+        "display_name": "Hua'erzhuang Street North (花二庄北街)",
+        "alternate_names": [
+          "Hua'erzhuang Street North",
+          "花二庄北街",
+          "花二莊北街",
+          "Hua'erzhuangbeijie",
+          "hua er zhuang bei jie",
+          "Hua'erzhuang Beijie"
+        ],
+        "line": "jinanjiyang",
+        "order": 5
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.114221,
+          36.933183
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Huihe",
+        "display_name": "Huihe (回河)",
+        "alternate_names": [
+          "Huihe",
+          "回河",
+          "hui he"
+        ],
+        "line": "jinanjiyang",
+        "order": 6
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.329146,
+          36.693608
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Xuma",
+        "display_name": "Xuma (徐马)",
+        "alternate_names": [
+          "Xuma",
+          "徐马",
+          "徐馬",
+          "xu ma"
+        ],
+        "line": "jinanyunba",
+        "order": 0
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.331855,
+          36.684306
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Chunyuan Road",
+        "display_name": "Chunyuan Road (春园路)",
+        "alternate_names": [
+          "Chunyuan Road",
+          "春园路",
+          "春園路",
+          "Chunyuanlu",
+          "chun yuan lu",
+          "Chunyuan Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 1
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.32409,
+          36.682688
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Shifuyoudongyuan",
+        "display_name": "Shifuyoudongyuan (市妇幼东院)",
+        "alternate_names": [
+          "Shifuyoudongyuan",
+          "市妇幼东院",
+          "市婦幼東院",
+          "shi fu you dong yuan",
+          "Jinan Maternity and Child Hospital (East Area)"
+        ],
+        "line": "jinanyunba",
+        "order": 2
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.319597,
+          36.674124
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Shandongzhiyexueyuan",
+        "display_name": "Shandongzhiyexueyuan (山东职业学院)",
+        "alternate_names": [
+          "Shandongzhiyexueyuan",
+          "山东职业学院",
+          "山東職業學院",
+          "shan dong zhi ye xue yuan",
+          "Shandong Polytechnic"
+        ],
+        "line": "jinanyunba",
+        "order": 3
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.317454,
+          36.664645
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Zhuangke",
+        "display_name": "Zhuangke (庄科)",
+        "alternate_names": [
+          "Zhuangke",
+          "庄科",
+          "莊科",
+          "zhuang ke"
+        ],
+        "line": "jinanyunba",
+        "order": 4
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.311781,
+          36.658436
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Chunjing Road",
+        "display_name": "Chunjing Road (春景路)",
+        "alternate_names": [
+          "Chunjing Road",
+          "春景路",
+          "Chunjinglu",
+          "chun jing lu",
+          "Chunjing Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 5
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.304748,
+          36.662007
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Kechuangcheng",
+        "display_name": "Kechuangcheng (科创城)",
+        "alternate_names": [
+          "Kechuangcheng",
+          "科创城",
+          "科創城",
+          "ke chuang cheng",
+          "Kechuang Cheng"
+        ],
+        "line": "jinanyunba",
+        "order": 6
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.301444,
+          36.669619
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Chunbo Road",
+        "display_name": "Chunbo Road (春博路)",
+        "alternate_names": [
+          "Chunbo Road",
+          "春博路",
+          "Chunbolu",
+          "chun bo lu",
+          "Chunbo Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 7
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.300513,
+          36.67839
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Suncun",
+        "display_name": "Suncun (孙村)",
+        "alternate_names": [
+          "Suncun",
+          "孙村",
+          "孫村",
+          "sun cun"
+        ],
+        "line": "jinanyunba",
+        "order": 8
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.294196,
+          36.678679
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Caihonghu East",
+        "display_name": "Caihonghu East (彩虹湖东)",
+        "alternate_names": [
+          "Caihonghu East",
+          "彩虹湖东",
+          "彩虹湖東",
+          "Caihonghudong",
+          "cai hong hu dong"
+        ],
+        "line": "jinanyunba",
+        "order": 9
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.287875,
+          36.677781
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Caihonghu",
+        "display_name": "Caihonghu (彩虹湖)",
+        "alternate_names": [
+          "Caihonghu",
+          "彩虹湖",
+          "cai hong hu",
+          "Caihong Hu"
+        ],
+        "line": "jinanyunba",
+        "order": 10
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.275319,
+          36.677039
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Chunyi Road",
+        "display_name": "Chunyi Road (春意路)",
+        "alternate_names": [
+          "Chunyi Road",
+          "春意路",
+          "Chunyilu",
+          "chun yi lu",
+          "Chunyi Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 11
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.266849,
+          36.677282
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Chunxuan Road",
+        "display_name": "Chunxuan Road (春暄路)",
+        "alternate_names": [
+          "Chunxuan Road",
+          "春暄路",
+          "Chunxuanlu",
+          "chun xuan lu",
+          "Chunxuan Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 12
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.260187,
+          36.679275
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Shagou",
+        "display_name": "Shagou (沙沟)",
+        "alternate_names": [
+          "Shagou",
+          "沙沟",
+          "沙溝",
+          "sha gou"
+        ],
+        "line": "jinanyunba",
+        "order": 13
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.257623,
+          36.687198
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Kehang Road",
+        "display_name": "Kehang Road (科航路)",
+        "alternate_names": [
+          "Kehang Road",
+          "科航路",
+          "Kehanglu",
+          "ke hang lu",
+          "Kehang Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 14
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.252118,
+          36.694017
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Chunxiu Road",
+        "display_name": "Chunxiu Road (春秀路)",
+        "alternate_names": [
+          "Chunxiu Road",
+          "春秀路",
+          "Chunxiulu",
+          "chun xiu lu",
+          "Chunxiu Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 15
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.231122,
+          36.689247
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Tangxuan Road",
+        "display_name": "Tangxuan Road (唐宣路)",
+        "alternate_names": [
+          "Tangxuan Road",
+          "唐宣路",
+          "Tangxuanlu",
+          "tang xuan lu",
+          "Tangxuan Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 16
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.226519,
+          36.689323
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Lichengwenbozhongxin",
+        "display_name": "Lichengwenbozhongxin (历城文博中心)",
+        "alternate_names": [
+          "Lichengwenbozhongxin",
+          "历城文博中心",
+          "歷城文博中心",
+          "li cheng wen bo zhong xin",
+          "Licheng Wenbo Center"
+        ],
+        "line": "jinanyunba",
+        "order": 17
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.222174,
+          36.689461
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Tangye",
+        "display_name": "Tangye (唐冶)",
+        "alternate_names": [
+          "Tangye",
+          "唐冶",
+          "tang ye"
+        ],
+        "line": "jinanyunba",
+        "order": 18
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.222265,
+          36.69629
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Zhenguanjie",
+        "display_name": "Zhenguanjie (贞观街)",
+        "alternate_names": [
+          "Zhenguanjie",
+          "贞观街",
+          "貞觀街",
+          "zhen guan jie",
+          "Zhenguan Jie"
+        ],
+        "line": "jinanyunba",
+        "order": 19
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.223299,
+          36.703393
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Licheng'erzhongtangyexiaoqu",
+        "display_name": "Licheng'erzhongtangyexiaoqu (历城二中唐冶校区)",
+        "alternate_names": [
+          "Licheng'erzhongtangyexiaoqu",
+          "历城二中唐冶校区",
+          "歷城二中唐冶校區",
+          "li cheng er zhong tang ye xiao qu",
+          "Licheng No.2 High School Tangye Campus"
+        ],
+        "line": "jinanyunba",
+        "order": 20
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.224424,
+          36.708555
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Pengjiazhuang",
+        "display_name": "Pengjiazhuang (彭家庄)",
+        "alternate_names": [
+          "Pengjiazhuang",
+          "彭家庄",
+          "彭家莊",
+          "peng jia zhuang"
+        ],
+        "line": "jinanyunba",
+        "order": 21
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.23151,
+          36.708668
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Tangye Road East",
+        "display_name": "Tangye Road East (唐冶东路)",
+        "alternate_names": [
+          "Tangye Road East",
+          "唐冶东路",
+          "唐冶東路",
+          "Tangyedonglu",
+          "tang ye dong lu",
+          "Tangye Donglu"
+        ],
+        "line": "jinanyunba",
+        "order": 22
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.247837,
+          36.709433
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Wujiazhuang",
+        "display_name": "Wujiazhuang (武家庄)",
+        "alternate_names": [
+          "Wujiazhuang",
+          "武家庄",
+          "武家莊",
+          "wu jia zhuang"
+        ],
+        "line": "jinanyunba",
+        "order": 23
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.262611,
+          36.708952
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Wujiangshan East",
+        "display_name": "Wujiangshan East (武将山东)",
+        "alternate_names": [
+          "Wujiangshan East",
+          "武将山东",
+          "武將山東",
+          "Wujiangshandong",
+          "wu jiang shan dong"
+        ],
+        "line": "jinanyunba",
+        "order": 24
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.26436,
+          36.70341
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Keyuan Road",
+        "display_name": "Keyuan Road (科远路)",
+        "alternate_names": [
+          "Keyuan Road",
+          "科远路",
+          "科遠路",
+          "Keyuanlu",
+          "ke yuan lu",
+          "Keyuan Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 25
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.267493,
+          36.694829
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Shijidadaochunxuan Road",
+        "display_name": "Shijidadaochunxuan Road (世纪大道春喧路)",
+        "alternate_names": [
+          "Shijidadaochunxuan Road",
+          "世纪大道春喧路",
+          "世紀大道春喧路",
+          "Shijidadaochunxuanlu",
+          "shi ji da dao chun xuan lu",
+          "Shijidadao Chunxuanlu"
+        ],
+        "line": "jinanyunba",
+        "order": 26
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.285534,
+          36.694796
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Chunhui Road",
+        "display_name": "Chunhui Road (春晖路)",
+        "alternate_names": [
+          "Chunhui Road",
+          "春晖路",
+          "春暉路",
+          "Chunhuilu",
+          "chun hui lu",
+          "Chunhui Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 27
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.292043,
+          36.694764
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Gaoxinshiyanzhongxue",
+        "display_name": "Gaoxinshiyanzhongxue (高新实验中学)",
+        "alternate_names": [
+          "Gaoxinshiyanzhongxue",
+          "高新实验中学",
+          "高新實驗中學",
+          "gao xin shi yan zhong xue",
+          "Jinan Innovation Zone Experimental High School"
+        ],
+        "line": "jinanyunba",
+        "order": 28
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.300427,
+          36.694741
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Gaoxinyizhong",
+        "display_name": "Gaoxinyizhong (高新一中)",
+        "alternate_names": [
+          "Gaoxinyizhong",
+          "高新一中",
+          "gao xin yi zhong",
+          "Jinan Innovation Zone No.1 Middle School"
+        ],
+        "line": "jinanyunba",
+        "order": 29
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.31,
+          36.694074
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Xijuyehe",
+        "display_name": "Xijuyehe (西巨野河)",
+        "alternate_names": [
+          "Xijuyehe",
+          "西巨野河",
+          "西鉅野河",
+          "xi ju ye he",
+          "Xijuye He"
+        ],
+        "line": "jinanyunba",
+        "order": 30
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.324295,
+          36.693652
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Dazheng Road",
+        "display_name": "Dazheng Road (大正路)",
+        "alternate_names": [
+          "Dazheng Road",
+          "大正路",
+          "Dazhenglu",
+          "da zheng lu",
+          "Dazheng Lu"
+        ],
+        "line": "jinanyunba",
+        "order": 31
+      },
+      "id": 151
+    }
+  ]
+}

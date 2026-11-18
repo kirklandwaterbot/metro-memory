@@ -1,0 +1,144 @@
+{
+  "slug": "xian",
+  "path": "asia/china/xian",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "北客站": "North Railway Station",
+    "钟楼": "Bell Tower",
+    "大雁塔": "Big Wild Goose Pagoda",
+    "西安北站": "Xi'an North Railway Station"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "xian1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian9",
+      "name": "Line 9",
+      "match": {
+        "ref": "^9$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian14",
+      "name": "Line 14",
+      "match": {
+        "ref": "^14$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian15",
+      "name": "Line 15",
+      "match": {
+        "ref": "^15$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xian16",
+      "name": "Line 16",
+      "match": {
+        "ref": "^16$",
+        "network": "西安地铁"
+      }
+    },
+    {
+      "id": "xianyunba",
+      "name": "Gaoxin Yunba",
+      "match": {
+        "network": "西安云巴"
+      }
+    }
+  ],
+  "cityName": "Xi'an",
+  "groups": [
+    {
+      "title": "Xi'an Metro",
+      "lines": [
+        "xian1",
+        "xian2",
+        "xian3",
+        "xian4",
+        "xian5",
+        "xian6",
+        "xian8",
+        "xian9",
+        "xian10",
+        "xian14",
+        "xian15",
+        "xian16"
+      ]
+    },
+    {
+      "title": "Xi'an Yunba",
+      "lines": [
+        "xianyunba"
+      ]
+    }
+  ]
+}

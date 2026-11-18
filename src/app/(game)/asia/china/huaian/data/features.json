@@ -1,0 +1,574 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.144416,
+          33.490766
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nanmen",
+        "display_name": "Nanmen (南门)",
+        "alternate_names": [
+          "Nanmen",
+          "南门",
+          "南門",
+          "nan men",
+          "South Gate"
+        ],
+        "line": "huaiant1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.146516,
+          33.497631
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Longguangge",
+        "display_name": "Longguangge (龙光阁)",
+        "alternate_names": [
+          "Longguangge",
+          "龙光阁",
+          "龍光閣",
+          "long guang ge",
+          "Longguang Pavilion"
+        ],
+        "line": "huaiant1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.150617,
+          33.506341
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Dongyuemiao",
+        "display_name": "Dongyuemiao (东岳庙)",
+        "alternate_names": [
+          "Dongyuemiao",
+          "东岳庙",
+          "東嶽廟",
+          "dong yue miao",
+          "Dongyue Temple"
+        ],
+        "line": "huaiant1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.149462,
+          33.513393
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Jinianguan",
+        "display_name": "Jinianguan (纪念馆)",
+        "alternate_names": [
+          "Jinianguan",
+          "纪念馆",
+          "紀念館",
+          "ji nian guan",
+          "Zhou Enlai Memorial"
+        ],
+        "line": "huaiant1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.148599,
+          33.520736
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Huaxi Road",
+        "display_name": "Huaxi Road (华西路)",
+        "alternate_names": [
+          "Huaxi Road",
+          "华西路",
+          "華西路",
+          "Huaxilu",
+          "hua xi lu"
+        ],
+        "line": "huaiant1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.148015,
+          33.529655
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Gumokou",
+        "display_name": "Gumokou (古末口)",
+        "alternate_names": [
+          "Gumokou",
+          "古末口",
+          "gu mo kou"
+        ],
+        "line": "huaiant1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.137552,
+          33.531658
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Liziba",
+        "display_name": "Liziba (礼字坝)",
+        "alternate_names": [
+          "Liziba",
+          "礼字坝",
+          "禮字壩",
+          "li zi ba",
+          "Lizi Dam"
+        ],
+        "line": "huaiant1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.127099,
+          33.533904
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Hexia",
+        "display_name": "Hexia (河下)",
+        "alternate_names": [
+          "Hexia",
+          "河下",
+          "he xia"
+        ],
+        "line": "huaiant1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.11674,
+          33.539271
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Wushahe",
+        "display_name": "Wushahe (乌沙河)",
+        "alternate_names": [
+          "Wushahe",
+          "乌沙河",
+          "烏沙河",
+          "wu sha he",
+          "Wusha River"
+        ],
+        "line": "huaiant1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.107338,
+          33.545232
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Senlin Park",
+        "display_name": "Senlin Park (森林公园)",
+        "alternate_names": [
+          "Senlin Park",
+          "森林公园",
+          "森林公園",
+          "Senlingongyuan",
+          "sen lin gong yuan",
+          "Forest Park"
+        ],
+        "line": "huaiant1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.100465,
+          33.550832
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Dajuyuan",
+        "display_name": "Dajuyuan (大剧院)",
+        "alternate_names": [
+          "Dajuyuan",
+          "大剧院",
+          "大劇院",
+          "da ju yuan",
+          "Grand Theater"
+        ],
+        "line": "huaiant1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.094819,
+          33.55582
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Banzha",
+        "display_name": "Banzha (板闸)",
+        "alternate_names": [
+          "Banzha",
+          "板闸",
+          "板閘",
+          "ban zha"
+        ],
+        "line": "huaiant1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.08476,
+          33.563843
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Sanya Road",
+        "display_name": "Sanya Road (三亚路)",
+        "alternate_names": [
+          "Sanya Road",
+          "三亚路",
+          "三亞路",
+          "Sanyalu",
+          "san ya lu"
+        ],
+        "line": "huaiant1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.076105,
+          33.57044
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Shantou Road",
+        "display_name": "Shantou Road (汕头路)",
+        "alternate_names": [
+          "Shantou Road",
+          "汕头路",
+          "汕頭路",
+          "Shantoulu",
+          "shan tou lu"
+        ],
+        "line": "huaiant1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.067668,
+          33.576777
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Batingqiao",
+        "display_name": "Batingqiao (八亭桥)",
+        "alternate_names": [
+          "Batingqiao",
+          "八亭桥",
+          "八亭橋",
+          "ba ting qiao",
+          "Bating Bridge"
+        ],
+        "line": "huaiant1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.060493,
+          33.582537
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Xiamen Road",
+        "display_name": "Xiamen Road (厦门路)",
+        "alternate_names": [
+          "Xiamen Road",
+          "厦门路",
+          "廈門路",
+          "Xiamenlu",
+          "xia men lu"
+        ],
+        "line": "huaiant1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.054515,
+          33.587494
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Shenzhen Road",
+        "display_name": "Shenzhen Road (深圳路)",
+        "alternate_names": [
+          "Shenzhen Road",
+          "深圳路",
+          "Shenzhenlu",
+          "shen zhen lu"
+        ],
+        "line": "huaiant1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.046794,
+          33.593897
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Zhengwuzhongxin",
+        "display_name": "Zhengwuzhongxin (政务中心)",
+        "alternate_names": [
+          "Zhengwuzhongxin",
+          "政务中心",
+          "政務中心",
+          "zheng wu zhong xin",
+          "Administration Center"
+        ],
+        "line": "huaiant1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.041325,
+          33.598589
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Shuidukou",
+        "display_name": "Shuidukou (水渡口)",
+        "alternate_names": [
+          "Shuidukou",
+          "水渡口",
+          "shui du kou"
+        ],
+        "line": "huaiant1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.033062,
+          33.597505
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Laobakou",
+        "display_name": "Laobakou (老坝口)",
+        "alternate_names": [
+          "Laobakou",
+          "老坝口",
+          "老壩口",
+          "lao ba kou"
+        ],
+        "line": "huaiant1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.02648,
+          33.596351
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Yunhe Square",
+        "display_name": "Yunhe Square (运河广场)",
+        "alternate_names": [
+          "Yunhe Square",
+          "运河广场",
+          "運河廣場",
+          "Yunheguangchang",
+          "yun he guang chang",
+          "Grand Canal Square"
+        ],
+        "line": "huaiant1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.023774,
+          33.599089
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Huaihai Road East",
+        "display_name": "Huaihai Road East (淮海东路)",
+        "alternate_names": [
+          "Huaihai Road East",
+          "淮海东路",
+          "淮海東路",
+          "Huaihaidonglu",
+          "huai hai dong lu",
+          "East Huaihai Road"
+        ],
+        "line": "huaiant1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.018717,
+          33.602043
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Tiyuguan",
+        "display_name": "Tiyuguan (体育馆)",
+        "alternate_names": [
+          "Tiyuguan",
+          "体育馆",
+          "體育館",
+          "ti yu guan",
+          "Huai'an Gymnasium"
+        ],
+        "line": "huaiant1",
+        "order": 22
+      },
+      "id": 23
+    }
+  ]
+}

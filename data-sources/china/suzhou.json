@@ -1,0 +1,126 @@
+{
+  "slug": "suzhou",
+  "path": "asia/china/suzhou",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "苏州火车站": "Suzhou Railway Station",
+    "苏州站": "Suzhou Railway Station",
+    "苏州北站": "Suzhou North Railway Station",
+    "东方之门": "Gate of the Orient",
+    "乐桥": "Leqiao"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "suzhou1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhou11",
+      "name": "Line 11",
+      "match": {
+        "ref": "^11$",
+        "network": "苏州轨道交通"
+      }
+    },
+    {
+      "id": "suzhoutram1",
+      "name": "SND Tram Line 1",
+      "match": {
+        "network": "苏州高新区有轨电车"
+      }
+    },
+    {
+      "id": "suzhoutram2",
+      "name": "SND Tram Line 2",
+      "match": {
+        "name": "高新有轨电车2号线"
+      }
+    }
+  ],
+  "cityName": "Suzhou",
+  "groups": [
+    {
+      "title": "Suzhou Rail Transit",
+      "lines": [
+        "suzhou1",
+        "suzhou2",
+        "suzhou3",
+        "suzhou4",
+        "suzhou5",
+        "suzhou6",
+        "suzhou7",
+        "suzhou8",
+        "suzhou11"
+      ]
+    },
+    {
+      "title": "Suzhou New District Tram",
+      "lines": [
+        "suzhoutram1",
+        "suzhoutram2"
+      ]
+    }
+  ]
+}

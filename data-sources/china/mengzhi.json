@@ -1,0 +1,26 @@
+{
+  "slug": "mengzhi",
+  "path": "asia/china/mengzhi",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "mengzhim1",
+      "name": "Honghe Tram M1",
+      "match": {
+        "ref": "^M1$"
+      }
+    }
+  ],
+  "cityName": "Mengzi",
+  "groups": [
+    {
+      "title": "Honghe Tram",
+      "lines": [
+        "mengzhim1"
+      ]
+    }
+  ]
+}
