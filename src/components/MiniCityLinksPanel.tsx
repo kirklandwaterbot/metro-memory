@@ -34,6 +34,8 @@ type MiniCityLinksPanelProps = {
   items: MiniCityLinkItem[]
   currentSlug?: string | null
   defaultExpanded?: boolean
+  /** false: always open, no expand/collapse toggle (e.g. inside a popover). */
+  collapsible?: boolean
   onOpenCustomModal?: () => void
 }
 
@@ -43,11 +45,13 @@ const MiniCityLinksPanel = ({
   items,
   currentSlug,
   defaultExpanded = true,
+  collapsible = true,
   onOpenCustomModal,
 }: MiniCityLinksPanelProps) => {
   const router = useRouter()
   const { t } = useTranslation()
-  const [expanded, setExpanded] = useState(defaultExpanded)
+  const [expandedState, setExpanded] = useState(defaultExpanded)
+  const expanded = collapsible ? expandedState : true
   const normalizeOptionLabel = (value: string) =>
     value
       .replace(/\uFF09[\s\u00A0\u2000-\u200B\u202F\u205F\u3000]+\)/g, '\uFF09)')
@@ -82,9 +86,10 @@ const MiniCityLinksPanel = ({
     <section className="rounded-2xl border border-zinc-200 bg-zinc-50/90 p-4 shadow-sm dark:border-[#18181b] dark:bg-zinc-900/60">
       <button
         type="button"
-        onClick={() => setExpanded((prev) => !prev)}
-        className="flex w-full items-start justify-between gap-4 text-left"
-        aria-expanded={expanded}
+        onClick={collapsible ? () => setExpanded((prev) => !prev) : undefined}
+        disabled={!collapsible}
+        className="flex w-full items-start justify-between gap-4 text-left disabled:cursor-default"
+        aria-expanded={collapsible ? expanded : undefined}
       >
         <div className="min-w-0">
           <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-800 dark:text-zinc-100">
@@ -96,12 +101,14 @@ const MiniCityLinksPanel = ({
             </p>
           ) : null}
         </div>
-        <span
-          className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-zinc-300 bg-white text-base font-semibold text-zinc-600 transition hover:border-[var(--accent-400)] hover:text-[var(--accent-700)] dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-300 dark:hover:border-[var(--accent-500)] dark:hover:text-[var(--accent-300)]"
-          aria-hidden="true"
-        >
-          <MiniCityChevron expanded={expanded} />
-        </span>
+        {collapsible ? (
+          <span
+            className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-zinc-300 bg-white text-base font-semibold text-zinc-600 transition hover:border-[var(--accent-400)] hover:text-[var(--accent-700)] dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-300 dark:hover:border-[var(--accent-500)] dark:hover:text-[var(--accent-300)]"
+            aria-hidden="true"
+          >
+            <MiniCityChevron expanded={expanded} />
+          </span>
+        ) : null}
       </button>
       {expanded ? (
         <div className="mt-3 space-y-3">
