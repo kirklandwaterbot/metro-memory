@@ -117,8 +117,12 @@ const nextConfig = {
     return []
   },
   async rewrites() {
+    // Fallback rewrites: a file that is in the deployment (e.g. a preview's
+    // own city data) is served first; anything missing comes from the asset
+    // host, which is only synced from main.
     return {
-      beforeFiles: assetBaseUrl
+      beforeFiles: [],
+      fallback: assetBaseUrl
         ? [
             {
               source: '/images/:path*',
@@ -135,7 +139,6 @@ const nextConfig = {
           ]
         : [],
       afterFiles: [],
-      fallback: [],
     }
   },
 }
