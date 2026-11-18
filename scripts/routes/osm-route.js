@@ -34,6 +34,22 @@ const BRIDGE_COST = 4
 const LEG_BRIDGE_MAX_M = 2500
 const SIMPLIFY_M = 2.5
 
+/** Removes out-and-back stubs (A, B, A): the route touching a siding or stub track at a station. */
+function dropSpikes(points) {
+  const out = []
+  for (const p of points) {
+    out.push(p)
+    while (out.length >= 3) {
+      const [a, b, c] = out.slice(-3)
+      const ab = haversine(a, b)
+      const bc = haversine(b, c)
+      if (ab > 0 && bc > 0 && haversine(a, c) < 0.25 * Math.min(ab, bc)) out.splice(out.length - 2, 1)
+      else break
+    }
+  }
+  return out
+}
+
 function parseArgs(argv) {
   const args = {}
   for (const a of argv) {
@@ -311,11 +327,17 @@ async function main() {
   let changed = false
 
   for (const request of requests) {
-    const done = routes.features.some(
-      (f) => f.properties?.line === request.line && f.properties?.osm_route,
-    )
+    // A line can be built in several parts (e.g. branches), told apart by
+    // `part`; each part replaces only its own earlier build.
+    const part = request.part || null
+    const label = part ? `${request.line} (${part})` : request.line
+    const samePart = (f) =>
+      f.properties?.line === request.line &&
+      f.properties?.osm_route &&
+      (f.properties.osm_route.part || null) === part
+    const done = routes.features.some(samePart)
     if (done && !args.refresh) {
-      report.push(`- ${request.line}: already built from OSM (use --refresh to rebuild)`)
+      report.push(`- ${label}: already built from OSM (use --refresh to rebuild)`)
       continue
     }
     const waypoints = resolveWaypoints(request, stations)
@@ -334,7 +356,7 @@ async function main() {
     const snapped = waypoints.map((w) => ({ ...w, node: snap(graph, w.coordinates, preferNodes) }))
     const missing = snapped.filter((w) => w.node === null)
     if (missing.length) {
-      report.push(`- ⚠️ ${request.line}: no OSM track within ${SNAP_M} m of ${missing.map((w) => w.name).join(', ')} — not changed`)
+      report.push(`- ⚠️ ${label}: no OSM track within ${SNAP_M} m of ${missing.map((w) => w.name).join(', ')} — not changed`)
       continue
     }
 
@@ -374,23 +396,30 @@ async function main() {
       line = line.length ? line.concat(leg.coords.slice(1)) : leg.coords
     }
     if (failed) {
-      report.push(`- ⚠️ ${request.line}: ${failed} — not changed`)
+      report.push(`- ⚠️ ${label}: ${failed} — not changed`)
       continue
     }
 
-    const simplified = simplify(line, SIMPLIFY_M).map(([x, y]) => [Math.round(x * 1e6) / 1e6, Math.round(y * 1e6) / 1e6])
-    const previous = routes.features.filter((f) => f.properties?.line === request.line)
-    const base = previous[0]?.properties || { line: request.line }
+    const simplified = simplify(dropSpikes(line), SIMPLIFY_M).map(([x, y]) => [Math.round(x * 1e6) / 1e6, Math.round(y * 1e6) / 1e6])
+    // Name and colour from the line's other drawn track, or from lines.json.
+    const previous = routes.features.filter((f) => f.properties?.line === request.line && !f.properties?.future)
+    const lineMeta = readJson(path.join(dir, 'lines.json'))?.[request.line]
+    const base = previous[0]?.properties || {
+      line: request.line,
+      ...(lineMeta ? { name: lineMeta.name, color: lineMeta.color, order: lineMeta.order } : {}),
+    }
     const kept = request.replace
       ? routes.features.filter((f) => f.properties?.line !== request.line)
-      : routes.features.filter((f) => !(f.properties?.line === request.line && f.properties?.osm_route))
+      : routes.features.filter((f) => !samePart(f))
     kept.push({
       type: 'Feature',
       geometry: { type: 'LineString', coordinates: simplified },
       properties: {
-        ...Object.fromEntries(Object.entries(base).filter(([k]) => !['auto_filled', 'osm_route'].includes(k))),
+        ...Object.fromEntries(Object.entries(base).filter(([k]) => !['auto_filled', 'osm_route', 'future'].includes(k))),
+        ...(request.properties || {}),
         line: request.line,
         osm_route: {
+          ...(part ? { part } : {}),
           source: '© OpenStreetMap contributors (ODbL), via Overpass',
           built: new Date().toISOString().slice(0, 10),
           from: waypoints[0].name,
@@ -402,7 +431,7 @@ async function main() {
     routes.features = kept
     changed = true
     report.push(
-      `- ✅ ${request.line}: ${(lengthM(simplified) / 1000).toFixed(1)} km along OSM track, ${simplified.length} points, ${Math.round(bridgedM)} m of mapping gaps bridged`,
+      `- ✅ ${label}: ${(lengthM(simplified) / 1000).toFixed(1)} km along OSM track, ${simplified.length} points, ${Math.round(bridgedM)} m of mapping gaps bridged`,
     )
     for (const l of legs) report.push(`  - ${l}`)
   }

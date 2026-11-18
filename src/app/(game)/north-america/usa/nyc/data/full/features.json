@@ -28537,6 +28537,567 @@
         "order": 195
       },
       "id": 27274
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9923584461845,
+          40.7500612693189
+        ]
+      },
+      "properties": {
+        "id": 27275,
+        "name": "New York Penn Station",
+        "line": "Amtrak",
+        "order": 0,
+        "alternate_names": [
+          "Penn Station",
+          "New York Penn",
+          "Moynihan Train Hall",
+          "New York, NY"
+        ]
+      },
+      "id": 27275
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1645455781506,
+          40.7342646812692
+        ]
+      },
+      "properties": {
+        "id": 27276,
+        "name": "Newark Penn Station",
+        "line": "Amtrak",
+        "order": 1,
+        "alternate_names": [
+          "Newark Penn",
+          "Newark, NJ"
+        ]
+      },
+      "id": 27276
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1907151406704,
+          40.7044235512264
+        ]
+      },
+      "properties": {
+        "id": 27277,
+        "name": "Newark Airport",
+        "line": "Amtrak",
+        "order": 2,
+        "alternate_names": [
+          "Newark Liberty International Airport",
+          "EWR"
+        ]
+      },
+      "id": 27277
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3293357997903,
+          40.56858370664
+        ]
+      },
+      "properties": {
+        "id": 27278,
+        "name": "Metropark",
+        "line": "Amtrak",
+        "order": 3,
+        "alternate_names": [
+          "Iselin"
+        ]
+      },
+      "id": 27278
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4456545497064,
+          40.4973287665503
+        ]
+      },
+      "properties": {
+        "id": 27279,
+        "name": "New Brunswick",
+        "line": "Amtrak",
+        "order": 4
+      },
+      "id": 27279
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.623862,
+          40.316603
+        ]
+      },
+      "properties": {
+        "id": 27280,
+        "name": "Princeton Jct.",
+        "line": "Amtrak",
+        "order": 5,
+        "alternate_names": [
+          "Princeton Junction"
+        ]
+      },
+      "id": 27280
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7539197000125,
+          40.2185233951337
+        ]
+      },
+      "properties": {
+        "id": 27281,
+        "name": "Trenton",
+        "line": "Amtrak",
+        "order": 6,
+        "alternate_names": [
+          "Trenton Transit Center"
+        ]
+      },
+      "id": 27281
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.952268,
+          40.071763
+        ]
+      },
+      "properties": {
+        "id": 27282,
+        "name": "Cornwells Heights",
+        "line": "Amtrak",
+        "order": 7
+      },
+      "id": 27282
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.155393,
+          39.997166
+        ]
+      },
+      "properties": {
+        "id": 27283,
+        "name": "North Philadelphia",
+        "line": "Amtrak",
+        "order": 8
+      },
+      "id": 27283
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.181575,
+          39.956484
+        ]
+      },
+      "properties": {
+        "id": 27284,
+        "name": "30 St",
+        "line": "Amtrak",
+        "order": 9,
+        "alternate_names": [
+          "30th Street",
+          "30th St",
+          "30th Street Station",
+          "Philadelphia 30th Street",
+          "William H. Gray III 30th Street Station",
+          "Philadelphia"
+        ]
+      },
+      "id": 27284
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.783894,
+          40.911473
+        ]
+      },
+      "properties": {
+        "id": 27285,
+        "name": "New Rochelle",
+        "line": "Amtrak",
+        "order": 10
+      },
+      "id": 27285
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.541732,
+          41.046938
+        ]
+      },
+      "properties": {
+        "id": 27286,
+        "name": "Stamford",
+        "line": "Amtrak",
+        "order": 11
+      },
+      "id": 27286
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.186724,
+          41.177594
+        ]
+      },
+      "properties": {
+        "id": 27287,
+        "name": "Bridgeport",
+        "line": "Amtrak",
+        "order": 12
+      },
+      "id": 27287
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.925646,
+          41.297789
+        ]
+      },
+      "properties": {
+        "id": 27288,
+        "name": "New Haven",
+        "line": "Amtrak",
+        "order": 13,
+        "alternate_names": [
+          "New Haven Union Station",
+          "Union Station"
+        ]
+      },
+      "id": 27288
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.37758609541068,
+          41.30041887754846
+        ]
+      },
+      "properties": {
+        "id": 27289,
+        "name": "Old Saybrook",
+        "line": "Amtrak",
+        "order": 14
+      },
+      "id": 27289
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.09292093868689,
+          41.354160433540684
+        ]
+      },
+      "properties": {
+        "id": 27290,
+        "name": "New London",
+        "line": "Amtrak",
+        "order": 15
+      },
+      "id": 27290
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.921768,
+          41.304993
+        ]
+      },
+      "properties": {
+        "id": 27291,
+        "name": "New Haven State St",
+        "line": "Amtrak",
+        "order": 16,
+        "alternate_names": [
+          "State Street",
+          "State St"
+        ]
+      },
+      "id": 27291
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.82278500111741,
+          41.461628607168564
+        ]
+      },
+      "properties": {
+        "id": 27292,
+        "name": "Wallingford",
+        "line": "Amtrak",
+        "order": 17
+      },
+      "id": 27292
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.80155369401255,
+          41.538839866391626
+        ]
+      },
+      "properties": {
+        "id": 27293,
+        "name": "Meriden",
+        "line": "Amtrak",
+        "order": 18
+      },
+      "id": 27293
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.76545556711733,
+          41.63578843652316
+        ]
+      },
+      "properties": {
+        "id": 27294,
+        "name": "Berlin",
+        "line": "Amtrak",
+        "order": 19
+      },
+      "id": 27294
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68178501671744,
+          41.768921007895734
+        ]
+      },
+      "properties": {
+        "id": 27295,
+        "name": "Hartford Union Station",
+        "line": "Amtrak",
+        "order": 20,
+        "alternate_names": [
+          "Hartford"
+        ]
+      },
+      "id": 27295
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.64211739386415,
+          41.85211696407339
+        ]
+      },
+      "properties": {
+        "id": 27296,
+        "name": "Windsor",
+        "line": "Amtrak",
+        "order": 21
+      },
+      "id": 27296
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.62727256323728,
+          41.9297794606618
+        ]
+      },
+      "properties": {
+        "id": 27297,
+        "name": "Windsor Locks",
+        "line": "Amtrak",
+        "order": 22
+      },
+      "id": 27297
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.59320242260344,
+          42.106412210508196
+        ]
+      },
+      "properties": {
+        "id": 27298,
+        "name": "Springfield Union Station",
+        "line": "Amtrak",
+        "order": 23,
+        "alternate_names": [
+          "Springfield"
+        ]
+      },
+      "id": 27298
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901741,
+          40.936833
+        ]
+      },
+      "properties": {
+        "id": 27299,
+        "name": "Yonkers",
+        "line": "Amtrak",
+        "order": 24
+      },
+      "id": 27299
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882552,
+          41.189518
+        ]
+      },
+      "properties": {
+        "id": 27300,
+        "name": "Croton-Harmon",
+        "line": "Amtrak",
+        "order": 25,
+        "alternate_names": [
+          "Croton Harmon"
+        ]
+      },
+      "id": 27300
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938107,
+          41.707104
+        ]
+      },
+      "properties": {
+        "id": 27301,
+        "name": "Poughkeepsie",
+        "line": "Amtrak",
+        "order": 26
+      },
+      "id": 27301
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.80843137,
+          40.69961991
+        ]
+      },
+      "properties": {
+        "id": 27302,
+        "name": "Jamaica",
+        "line": "Amtrak",
+        "order": 27
+      },
+      "id": 27302
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.52852279,
+          40.7671451
+        ]
+      },
+      "properties": {
+        "id": 27303,
+        "name": "Hicksville",
+        "line": "Amtrak",
+        "order": 28
+      },
+      "id": 27303
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.10594563,
+          40.80812119
+        ]
+      },
+      "properties": {
+        "id": 27304,
+        "name": "Ronkonkoma",
+        "line": "Amtrak",
+        "order": 29,
+        "alternate_names": [
+          "Long Island MacArthur Airport"
+        ]
+      },
+      "id": 27304
     }
   ],
   "properties": {
