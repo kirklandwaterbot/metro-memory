@@ -122,6 +122,24 @@ const R = (v) => Math.round(v * 1e6) / 1e6
 
 function simplify(pts, tolDeg) {
   if (pts.length < 3) return pts
+  const [x0, y0] = pts[0]
+  const [xn, yn] = pts[pts.length - 1]
+  if (x0 === xn && y0 === yn) {
+    // closed way (a loop line): split at the farthest point
+    let far = 0
+    let best = -1
+    pts.forEach(([x, y], i) => {
+      const d = (x - x0) ** 2 + (y - y0) ** 2
+      if (d > best) {
+        best = d
+        far = i
+      }
+    })
+    if (far > 0 && far < pts.length - 1)
+      return simplify(pts.slice(0, far + 1), tolDeg)
+        .slice(0, -1)
+        .concat(simplify(pts.slice(far), tolDeg))
+  }
   const keep = new Uint8Array(pts.length)
   keep[0] = keep[pts.length - 1] = 1
   const stack = [[0, pts.length - 1]]

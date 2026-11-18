@@ -55,6 +55,12 @@ def is_station(t):
 def simplify(pts, tol):
     if len(pts) < 3:
         return pts
+    if pts[0] == pts[-1]:
+        # closed way (a loop line): split at the farthest point so the
+        # endpoints of each half differ
+        far = max(range(len(pts)), key=lambda i: (pts[i][0] - pts[0][0]) ** 2 + (pts[i][1] - pts[0][1]) ** 2)
+        if 0 < far < len(pts) - 1:
+            return simplify(pts[: far + 1], tol)[:-1] + simplify(pts[far:], tol)
     keep = [False] * len(pts)
     keep[0] = keep[-1] = True
     stack = [(0, len(pts) - 1)]
