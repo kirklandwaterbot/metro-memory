@@ -135,15 +135,12 @@ function acceptable(length, straight, kind) {
 }
 
 /** Short path along track between two nodes (bounded), or null. */
-function localPath(graph, from, to, maxLen = 800, { sameLine = false } = {}) {
+function localPath(graph, from, to, maxLen = 800, { line = null } = {}) {
   if (from === to) return [from]
-  // sameLine: only move along track that shares a line with the start point.
-  const startLines = sameLine ? graph.nodeLines?.get(from) : null
-  const onLine = (v) => {
-    if (!startLines || !startLines.size) return true
-    const lines = graph.nodeLines.get(v)
-    return !lines || [...lines].some((l) => startLines.has(l))
-  }
+  // line: only move along track labelled with this one line (a node where two
+  // lines meet carries both labels, so checking "shares a label with the
+  // start" would still let the path wander onto the other line).
+  const onLine = (v) => !line || Boolean(graph.nodeLines?.get(v)?.has(line))
   const dist = new Map([[from, 0]])
   const prev = new Map()
   const heap = new MinHeap()
@@ -166,6 +163,25 @@ function localPath(graph, from, to, maxLen = 800, { sameLine = false } = {}) {
     }
   }
   return null
+}
+
+/**
+ * The one line a station tail may follow: the line of the track the path
+ * arrived on (the label shared by its last two nodes), preferring one that
+ * also runs through the station's nearest track point. Null when unknown.
+ */
+function tailLine(graph, pathNodes, target) {
+  const labels = (v) => graph.nodeLines?.get(v) || new Set()
+  const u = pathNodes[pathNodes.length - 1]
+  let cand = [...labels(u)]
+  if (pathNodes.length > 1) {
+    const before = labels(pathNodes[pathNodes.length - 2])
+    const shared = cand.filter((l) => before.has(l))
+    if (shared.length) cand = shared
+  }
+  cand = cand.filter((l) => l !== 'reference')
+  const atTarget = labels(target)
+  return cand.find((l) => atTarget.has(l)) || null
 }
 
 /**
@@ -267,7 +283,8 @@ function grow(graph, treeNodes, targets, pieceOf = new Map()) {
           // Along the same line's track only: hopping onto a neighbouring
           // line drew spurs at stations like Times Sq, while a short limit
           // left line ends short of their last station.
-          const tail = localPath(graph, u, station.attach[0], 400, { sameLine: true })
+          const line = tailLine(graph, pathNodes, station.attach[0])
+          const tail = line ? localPath(graph, u, station.attach[0], 400, { line }) : null
           if (tail) pathNodes.push(...tail.slice(1))
         }
         if (pathNodes.length > 1) added.push(pathNodes.map((v) => graph.coords[v]))
