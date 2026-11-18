@@ -1331778,6 +1331778,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.120329,
+            39.943164
+          ],
+          [
+            -75.111589,
+            39.937244
+          ]
+        ]
+      },
+      "properties": {
+        "line": "NJTLRGlassboroCamden",
+        "name": "Glassboro Camden Line",
+        "color": "#A2BD55",
+        "order": 77,
+        "note": "Walter Rand Transportation Center to Lanning Square: new street alignment, not mapped yet; drawn straight"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiLineString",
         "coordinates": [
           [
@@ -1396381,29 +1396404,6 @@
           "bridged_m": 1970
         },
         "auto_filled": "route-gaps"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -75.120329,
-            39.943164
-          ],
-          [
-            -75.111589,
-            39.937244
-          ]
-        ]
-      },
-      "properties": {
-        "line": "NJTLRGlassboroCamden",
-        "name": "Glassboro Camden Line",
-        "color": "#A2BD55",
-        "order": 77,
-        "note": "Walter Rand Transportation Center to Lanning Square: new street alignment, not mapped yet; drawn straight"
       }
     }
   ]
