@@ -1,5 +1,5 @@
 export const UNAVAILABLE_CITY_ACCESS_EVENT = 'metro-unavailable-city-access-change'
-export const PREVIEW_UNLOCKABLE_CITY_SLUGS = new Set(['beijing'])
+export const PREVIEW_UNLOCKABLE_CITY_SLUGS = new Set<string>([])
 
 const ACCESS_KEY = 'global-unavailable-city-access-granted'
 

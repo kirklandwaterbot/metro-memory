@@ -447,6 +447,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/europe/uk/sheffield/config')
       return configModule.default
     }
+    case 'shanghai': {
+      const configModule = await import('@/app/(game)/asia/china/shanghai/config')
+      return configModule.default
+    }
     case 'shenyang': {
       const configModule = await import('@/app/(game)/asia/china/shenyang/config')
       return configModule.default

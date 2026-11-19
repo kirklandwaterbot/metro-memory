@@ -5,7 +5,8 @@
  * including lines that are under construction or proposed, so city data can be
  * checked and extended offline.
  *
- * Request files live in data-sources/probes/requests/<slug>.json:
+ * Request files live in data-sources/probes/requests/<slug>.json
+ * (add "routeGeometry": true to also keep each operating route's track):
  *   { "slug": "gba", "bbox": [south, west, north, east] }
  *
  * Output (one file per request, written to --out, default data-sources/probes/out):
@@ -31,7 +32,7 @@ const ENDPOINTS = [
 ]
 const RAIL = 'subway|light_rail|train|tram|monorail|railway'
 
-function query([s, w, n, e]) {
+function query([s, w, n, e], { routeGeometry = false } = {}) {
   return `[out:json][timeout:900][maxsize:536870912][bbox:${s},${w},${n},${e}];
 (
   rel["type"="route"]["route"~"^(${RAIL})$"];
@@ -63,7 +64,17 @@ way(r.r)["public_transport"="platform"]->.rp;
   way["construction:railway"~"^(${RAIL}|rail)$"];
   way["proposed:railway"~"^(${RAIL}|rail)$"];
 )->.w;
-.w out geom;`
+.w out geom;${
+    routeGeometry
+      ? `
+(
+  rel.r["route"~"^(subway|light_rail|tram|monorail)$"]["state"!~"proposed|construction|planned"];
+  rel.r["route"="train"]["network"~"Suburban|Commuter|市郊|市域|S-Bahn",i];
+)->.og;
+way(r.og)["railway"]->.ow;
+.ow out geom;`
+      : ''
+  }`
 }
 
 async function fetchOverpass(q) {
@@ -156,7 +167,8 @@ function stateOf(t) {
   return 'open'
 }
 
-function compact(osm) {
+function compact(osm, { routeGeometry: withRouteGeometry = false } = {}) {
+  const routeWays = {}
   const nodes = new Map()
   const centers = new Map()
   const rels = []
@@ -190,7 +202,14 @@ function compact(osm) {
     }
     if (el.type === 'way' && el.geometry && !isStation) {
       const state = stateOf(t)
-      if (state === 'open') continue
+      if (state === 'open') {
+        if (withRouteGeometry && t.railway)
+          routeWays[el.id] = simplify(
+            el.geometry.map((p) => [R(p.lon), R(p.lat)]),
+            0.00001,
+          )
+        continue
+      }
       const key = [
         state,
         t.name || '',
@@ -249,9 +268,21 @@ function compact(osm) {
       tags: r.tags || {},
       stops,
       members: (r.members || []).length,
+      ...(withRouteGeometry
+        ? {
+            ways: (r.members || [])
+              .filter((m) => m.type === 'way' && routeWays[m.ref])
+              .map((m) => m.ref),
+          }
+        : {}),
     }
   })
-  return { relations, stations, works: [...works.values()] }
+  return {
+    relations,
+    stations,
+    works: [...works.values()],
+    ...(withRouteGeometry ? { routeWays } : {}),
+  }
 }
 
 async function main() {
@@ -282,13 +313,16 @@ async function main() {
       }
     }
     console.log(`${req.slug}: querying Overpass…`)
-    const osm = await fetchOverpass(query(req.bbox))
+    // routeGeometry: also keep the track of every operating route, so a
+    // city can be built from the snapshot (not just checked against it)
+    const opts = { routeGeometry: Boolean(req.routeGeometry) }
+    const osm = await fetchOverpass(query(req.bbox, opts))
     const out = {
       slug: req.slug,
       bbox: req.bbox,
       requestVersion: req.version || 1,
       fetchedAt: new Date().toISOString(),
-      ...compact(osm),
+      ...compact(osm, opts),
     }
     fs.writeFileSync(target, JSON.stringify(out))
     console.log(
