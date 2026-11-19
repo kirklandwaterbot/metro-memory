@@ -224,7 +224,7 @@ const stations = {
     { en: 'Xiaping Daoqian', zh: '小平岛前' },
   ],
   HaidaCableway: [
-    { en: 'Forest Zoo South Gate', zh: '森林动物园南门' },
+    { en: 'Senlin Dongwuyuan Nanmen', zh: '森林动物园南门', aliases: ['Forest Zoo South Gate', 'South Gate of Forest Zoo'] },
     { en: 'Lianhua Mountain', zh: '莲花山' },
     { en: 'Baiyun Yanshui', zh: '白云雁水' },
   ],

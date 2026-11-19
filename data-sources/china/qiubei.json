@@ -1,0 +1,27 @@
+{
+  "slug": "qiubei",
+  "path": "asia/china/qiubei",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "qiubei4",
+      "name": "Line 4",
+      "match": {
+        "route": "tram",
+        "ref": "^4$"
+      }
+    }
+  ],
+  "cityName": "Qiubei",
+  "groups": [
+    {
+      "title": "Wenshan Tram",
+      "lines": [
+        "qiubei4"
+      ]
+    }
+  ]
+}

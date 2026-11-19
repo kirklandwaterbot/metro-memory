@@ -1,0 +1,108 @@
+{
+  "slug": "qingdao",
+  "path": "asia/china/qingdao",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "青岛站": "Qingdao Railway Station",
+    "青岛北站": "Qingdao North Railway Station",
+    "五四广场": "May Fourth Square",
+    "胶东国际机场": "Jiaodong International Airport"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "qingdao1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao11",
+      "name": "Line 11",
+      "match": {
+        "ref": "^11$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdao13",
+      "name": "Line 13",
+      "match": {
+        "ref": "^13$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "qingdaotram",
+      "name": "Chengyang Tram",
+      "match": {
+        "network": "青岛有轨电车"
+      }
+    }
+  ],
+  "cityName": "Qingdao",
+  "groups": [
+    {
+      "title": "Qingdao Metro",
+      "lines": [
+        "qingdao1",
+        "qingdao2",
+        "qingdao3",
+        "qingdao4",
+        "qingdao6",
+        "qingdao8",
+        "qingdao11",
+        "qingdao13"
+      ]
+    },
+    {
+      "title": "Qingdao Tram",
+      "lines": [
+        "qingdaotram"
+      ]
+    }
+  ]
+}

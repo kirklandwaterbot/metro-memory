@@ -1,0 +1,168 @@
+{
+  "slug": "hangzhou",
+  "path": "asia/china/hangzhou",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "杭州东站": "Hangzhou East Railway Station",
+    "火车东站": "Hangzhou East Railway Station",
+    "城站": "City Station",
+    "龙翔桥": "Longxiangqiao",
+    "武林广场": "Wulin Square",
+    "萧山国际机场": "Xiaoshan International Airport",
+    "火车西站": "Hangzhou West Railway Station",
+    "杭州西站": "Hangzhou West Railway Station"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "hangzhou1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou9",
+      "name": "Line 9",
+      "match": {
+        "ref": "^9$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou16",
+      "name": "Line 16",
+      "match": {
+        "ref": "^16$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhou19",
+      "name": "Line 19",
+      "match": {
+        "ref": "^19$",
+        "network": "杭州地铁"
+      }
+    },
+    {
+      "id": "hangzhouhanghai",
+      "name": "Hanghai Line",
+      "match": {
+        "ref": "^杭海城际$"
+      }
+    },
+    {
+      "id": "shaoxing1",
+      "name": "Shaoxing Line 1",
+      "match": {
+        "network": "绍兴轨道交通",
+        "ref": "^1$"
+      }
+    },
+    {
+      "id": "shaoxing2",
+      "name": "Shaoxing Line 2",
+      "match": {
+        "network": "绍兴轨道交通",
+        "ref": "^2$"
+      }
+    }
+  ],
+  "cityName": "Hangzhou",
+  "gameTitle": "Hangzhou & Shaoxing Metro Memory",
+  "description": "How many of the Hangzhou and Shaoxing metro stations can you name from memory?",
+  "groups": [
+    {
+      "title": "Hangzhou Metro",
+      "lines": [
+        "hangzhou1",
+        "hangzhou2",
+        "hangzhou3",
+        "hangzhou4",
+        "hangzhou5",
+        "hangzhou6",
+        "hangzhou7",
+        "hangzhou8",
+        "hangzhou9",
+        "hangzhou10",
+        "hangzhou16",
+        "hangzhou19",
+        "hangzhouhanghai"
+      ]
+    },
+    {
+      "title": "Shaoxing Metro",
+      "lines": [
+        "shaoxing1",
+        "shaoxing2"
+      ]
+    }
+  ]
+}

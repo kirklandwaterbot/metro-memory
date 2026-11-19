@@ -1,0 +1,97 @@
+{
+  "slug": "jinan",
+  "path": "asia/china/jinan",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "济南西站": "Jinan West Railway Station",
+    "济南东站": "Jinan East Railway Station",
+    "济南站": "Jinan Railway Station"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "jinan1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "jinan2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "jinan3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "jinan4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "jinan6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "jinan8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "jinanjiyang",
+      "name": "Jiyang Line",
+      "match": {
+        "ref": "^济阳线$"
+      }
+    },
+    {
+      "id": "jinanyunba",
+      "name": "Yunba Line",
+      "match": {
+        "ref": "^云巴线$"
+      }
+    }
+  ],
+  "cityName": "Jinan",
+  "groups": [
+    {
+      "title": "Jinan Metro",
+      "lines": [
+        "jinan1",
+        "jinan2",
+        "jinan3",
+        "jinan4",
+        "jinan6",
+        "jinan8",
+        "jinanjiyang"
+      ]
+    },
+    {
+      "title": "Jinan Yunba",
+      "lines": [
+        "jinanyunba"
+      ]
+    }
+  ]
+}

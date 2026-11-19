@@ -1,0 +1,101 @@
+{
+  "slug": "ningbo",
+  "path": "asia/china/ningbo",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "宁波火车站": "Ningbo Railway Station",
+    "栎社国际机场": "Lishe International Airport"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "ningbo1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    },
+    {
+      "id": "ningbo8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "route": "subway",
+        "exclude": "12号线"
+      }
+    }
+  ],
+  "cityName": "Ningbo",
+  "groups": [
+    {
+      "title": "Ningbo Rail Transit",
+      "lines": [
+        "ningbo1",
+        "ningbo2",
+        "ningbo3",
+        "ningbo4",
+        "ningbo5",
+        "ningbo6",
+        "ningbo7",
+        "ningbo8"
+      ]
+    }
+  ]
+}

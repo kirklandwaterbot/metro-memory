@@ -1,0 +1,5313 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.316594,
+          31.919989
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Zhangwa",
+        "display_name": "Zhangwa (张洼)",
+        "alternate_names": [
+          "Zhangwa",
+          "张洼",
+          "張窪",
+          "zhang wa"
+        ],
+        "line": "hefei1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.308153,
+          31.905479
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xinghuayuan",
+        "display_name": "Xinghuayuan (兴华苑)",
+        "alternate_names": [
+          "Xinghuayuan",
+          "兴华苑",
+          "興華苑",
+          "xing hua yuan"
+        ],
+        "line": "hefei1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.308831,
+          31.892183
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Yaohai Park",
+        "display_name": "Yaohai Park (瑶海公园)",
+        "alternate_names": [
+          "Yaohai Park",
+          "瑶海公园",
+          "瑤海公園",
+          "Yaohaigongyuan",
+          "yao hai gong yuan"
+        ],
+        "line": "hefei1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.309802,
+          31.885316
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hefei Railway Station",
+        "display_name": "Hefei Railway Station (合肥火车站)",
+        "alternate_names": [
+          "Hefei Railway Station",
+          "合肥火车站",
+          "合肥火車站",
+          "Hefei",
+          "Hefeihuochezhan",
+          "he fei huo che zhan"
+        ],
+        "line": "hefei1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.303671,
+          31.877409
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Changhuai",
+        "display_name": "Changhuai (长淮)",
+        "alternate_names": [
+          "Changhuai",
+          "长淮",
+          "長淮",
+          "chang huai"
+        ],
+        "line": "hefei1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.299358,
+          31.872059
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Mingguang Road",
+        "display_name": "Mingguang Road (明光路)",
+        "alternate_names": [
+          "Mingguang Road",
+          "明光路",
+          "Mingguanglu",
+          "ming guang lu"
+        ],
+        "line": "hefei1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.295141,
+          31.865855
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Dadongmen",
+        "display_name": "Dadongmen (大东门)",
+        "alternate_names": [
+          "Dadongmen",
+          "大东门",
+          "大東門",
+          "da dong men"
+        ],
+        "line": "hefei1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.295753,
+          31.858147
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Bao Park",
+        "display_name": "Bao Park (包公园)",
+        "alternate_names": [
+          "Bao Park",
+          "包公园",
+          "包公園",
+          "Baogongyuan",
+          "bao gong yuan"
+        ],
+        "line": "hefei1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.295152,
+          31.849255
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Hegongdananqu",
+        "display_name": "Hegongdananqu (合工大南区)",
+        "alternate_names": [
+          "Hegongdananqu",
+          "合工大南区",
+          "合工大南區",
+          "he gong da nan qu",
+          "Hefei University of Technology South Campus"
+        ],
+        "line": "hefei1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296254,
+          31.834105
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Zhugang",
+        "display_name": "Zhugang (朱岗)",
+        "alternate_names": [
+          "Zhugang",
+          "朱岗",
+          "朱崗",
+          "zhu gang"
+        ],
+        "line": "hefei1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296635,
+          31.82537
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Qiupuhe Road",
+        "display_name": "Qiupuhe Road (秋浦河路)",
+        "alternate_names": [
+          "Qiupuhe Road",
+          "秋浦河路",
+          "Qiupuhelu",
+          "qiu pu he lu"
+        ],
+        "line": "hefei1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.298039,
+          31.816469
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Gedadian",
+        "display_name": "Gedadian (葛大店)",
+        "alternate_names": [
+          "Gedadian",
+          "葛大店",
+          "ge da dian"
+        ],
+        "line": "hefei1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.286834,
+          31.80755
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Wanghucheng",
+        "display_name": "Wanghucheng (望湖城)",
+        "alternate_names": [
+          "Wanghucheng",
+          "望湖城",
+          "wang hu cheng"
+        ],
+        "line": "hefei1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.284603,
+          31.802179
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Hefei South Railway Station",
+        "display_name": "Hefei South Railway Station (合肥南站)",
+        "alternate_names": [
+          "Hefei South Railway Station",
+          "合肥南站",
+          "Hefei South",
+          "Hefeinanzhan",
+          "he fei nan zhan",
+          "Hefeinan"
+        ],
+        "line": "hefei1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.285951,
+          31.794546
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "South Railway Station South Square",
+        "display_name": "South Railway Station South Square (南站南广场)",
+        "alternate_names": [
+          "South Railway Station South Square",
+          "南站南广场",
+          "南站南廣場",
+          "Nanzhannanguangchang",
+          "nan zhan nan guang chang",
+          "Hefei South Station South Square",
+          "Nanzhan South Square"
+        ],
+        "line": "hefei1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.286005,
+          31.785089
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Luogang",
+        "display_name": "Luogang (骆岗)",
+        "alternate_names": [
+          "Luogang",
+          "骆岗",
+          "駱崗",
+          "luo gang"
+        ],
+        "line": "hefei1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.285851,
+          31.774932
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Gaowang",
+        "display_name": "Gaowang (高王)",
+        "alternate_names": [
+          "Gaowang",
+          "高王",
+          "gao wang"
+        ],
+        "line": "hefei1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.297121,
+          31.75657
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Binhu Exhibition Center",
+        "display_name": "Binhu Exhibition Center (滨湖会展中心)",
+        "alternate_names": [
+          "Binhu Exhibition Center",
+          "滨湖会展中心",
+          "濱湖會展中心",
+          "Binhuhuizhanzhongxin",
+          "bin hu hui zhan zhong xin",
+          "Binhu International Convention Center"
+        ],
+        "line": "hefei1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2971,
+          31.742794
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Zilu",
+        "display_name": "Zilu (紫庐)",
+        "alternate_names": [
+          "Zilu",
+          "紫庐",
+          "紫廬",
+          "zi lu"
+        ],
+        "line": "hefei1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.297061,
+          31.733332
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Tangxihe Park",
+        "display_name": "Tangxihe Park (塘西河公园)",
+        "alternate_names": [
+          "Tangxihe Park",
+          "塘西河公园",
+          "塘西河公園",
+          "Tangxihegongyuan",
+          "tang xi he gong yuan"
+        ],
+        "line": "hefei1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.297091,
+          31.724855
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Jindou Park",
+        "display_name": "Jindou Park (金斗公园)",
+        "alternate_names": [
+          "Jindou Park",
+          "金斗公园",
+          "金斗公園",
+          "Jindougongyuan",
+          "jin dou gong yuan"
+        ],
+        "line": "hefei1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296543,
+          31.715131
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Yungu Road",
+        "display_name": "Yungu Road (云谷路)",
+        "alternate_names": [
+          "Yungu Road",
+          "云谷路",
+          "雲谷路",
+          "Yungulu",
+          "yun gu lu"
+        ],
+        "line": "hefei1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296532,
+          31.707742
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Wandacheng",
+        "display_name": "Wandacheng (万达城)",
+        "alternate_names": [
+          "Wandacheng",
+          "万达城",
+          "萬達城",
+          "wan da cheng"
+        ],
+        "line": "hefei1",
+        "order": 22
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296501,
+          31.700559
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Wannianbu",
+        "display_name": "Wannianbu (万年埠)",
+        "alternate_names": [
+          "Wannianbu",
+          "万年埠",
+          "萬年埠",
+          "wan nian bu"
+        ],
+        "line": "hefei1",
+        "order": 23
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.29194,
+          31.693379
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Bingzipu",
+        "display_name": "Bingzipu (丙子铺)",
+        "alternate_names": [
+          "Bingzipu",
+          "丙子铺",
+          "丙子鋪",
+          "bing zi pu"
+        ],
+        "line": "hefei1",
+        "order": 24
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.280737,
+          31.693347
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Jiulianxu",
+        "display_name": "Jiulianxu (九联圩)",
+        "alternate_names": [
+          "Jiulianxu",
+          "九联圩",
+          "九聯圩",
+          "jiu lian xu",
+          "Jiulianwei"
+        ],
+        "line": "hefei1",
+        "order": 25
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.110175,
+          31.852525
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Nangang",
+        "display_name": "Nangang (南岗)",
+        "alternate_names": [
+          "Nangang",
+          "南岗",
+          "南崗",
+          "nan gang"
+        ],
+        "line": "hefei2",
+        "order": 0
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.121393,
+          31.852661
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Guizhuang",
+        "display_name": "Guizhuang (桂庄)",
+        "alternate_names": [
+          "Guizhuang",
+          "桂庄",
+          "桂莊",
+          "gui zhuang"
+        ],
+        "line": "hefei2",
+        "order": 1
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.130752,
+          31.852938
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Qiche West Railway Station",
+        "display_name": "Qiche West Railway Station (汽车西站)",
+        "alternate_names": [
+          "Qiche West Railway Station",
+          "汽车西站",
+          "汽車西站",
+          "Qiche West",
+          "Qichexizhan",
+          "qi che xi zhan",
+          "Qiche Xizhan"
+        ],
+        "line": "hefei2",
+        "order": 2
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.146154,
+          31.853075
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Zhenxing Road",
+        "display_name": "Zhenxing Road (振兴路)",
+        "alternate_names": [
+          "Zhenxing Road",
+          "振兴路",
+          "振興路",
+          "Zhenxinglu",
+          "zhen xing lu",
+          "Zhenxing Lu"
+        ],
+        "line": "hefei2",
+        "order": 3
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.16291,
+          31.853374
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Shushan West",
+        "display_name": "Shushan West (蜀山西)",
+        "alternate_names": [
+          "Shushan West",
+          "蜀山西",
+          "Shushanxi",
+          "shu shan xi",
+          "Shushan Xi"
+        ],
+        "line": "hefei2",
+        "order": 4
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.180469,
+          31.853752
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Dashushan",
+        "display_name": "Dashushan (大蜀山)",
+        "alternate_names": [
+          "Dashushan",
+          "大蜀山",
+          "da shu shan"
+        ],
+        "line": "hefei2",
+        "order": 5
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.19317,
+          31.856015
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Tianzhu Road",
+        "display_name": "Tianzhu Road (天柱路)",
+        "alternate_names": [
+          "Tianzhu Road",
+          "天柱路",
+          "Tianzhulu",
+          "tian zhu lu",
+          "Tianzhu Lu"
+        ],
+        "line": "hefei2",
+        "order": 6
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.203776,
+          31.857726
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Kexue Avenue",
+        "display_name": "Kexue Avenue (科学大道)",
+        "alternate_names": [
+          "Kexue Avenue",
+          "科学大道",
+          "科學大道",
+          "Kexuedadao",
+          "ke xue da dao",
+          "Kexue Dadao"
+        ],
+        "line": "hefei2",
+        "order": 7
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.217791,
+          31.85662
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Shilimiao",
+        "display_name": "Shilimiao (十里庙)",
+        "alternate_names": [
+          "Shilimiao",
+          "十里庙",
+          "十里廟",
+          "shi li miao"
+        ],
+        "line": "hefei2",
+        "order": 8
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225408,
+          31.854274
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Xiqilitang",
+        "display_name": "Xiqilitang (西七里塘)",
+        "alternate_names": [
+          "Xiqilitang",
+          "西七里塘",
+          "xi qi li tang"
+        ],
+        "line": "hefei2",
+        "order": 9
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.235561,
+          31.852912
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Wulidun",
+        "display_name": "Wulidun (五里墩)",
+        "alternate_names": [
+          "Wulidun",
+          "五里墩",
+          "wu li dun"
+        ],
+        "line": "hefei2",
+        "order": 10
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.250506,
+          31.856746
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Sanli'an",
+        "display_name": "Sanli'an (三里庵)",
+        "alternate_names": [
+          "Sanli'an",
+          "三里庵",
+          "san li an"
+        ],
+        "line": "hefei2",
+        "order": 11
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.259764,
+          31.860161
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Annongda",
+        "display_name": "Annongda (安农大)",
+        "alternate_names": [
+          "Annongda",
+          "安农大",
+          "安農大",
+          "an nong da",
+          "Anhui Agriculture University"
+        ],
+        "line": "hefei2",
+        "order": 12
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.269852,
+          31.863159
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Sanxiaokou",
+        "display_name": "Sanxiaokou (三孝口)",
+        "alternate_names": [
+          "Sanxiaokou",
+          "三孝口",
+          "san xiao kou"
+        ],
+        "line": "hefei2",
+        "order": 13
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.284355,
+          31.863635
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Sipailou",
+        "display_name": "Sipailou (四牌楼)",
+        "alternate_names": [
+          "Sipailou",
+          "四牌楼",
+          "四牌樓",
+          "si pai lou"
+        ],
+        "line": "hefei2",
+        "order": 14
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.295141,
+          31.865855
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Dadongmen",
+        "display_name": "Dadongmen (大东门)",
+        "alternate_names": [
+          "Dadongmen",
+          "大东门",
+          "大東門",
+          "da dong men"
+        ],
+        "line": "hefei2",
+        "order": 15
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.308313,
+          31.869615
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Sanlijie",
+        "display_name": "Sanlijie (三里街)",
+        "alternate_names": [
+          "Sanlijie",
+          "三里街",
+          "san li jie"
+        ],
+        "line": "hefei2",
+        "order": 16
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.319171,
+          31.869729
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Dongwulijing",
+        "display_name": "Dongwulijing (东五里井)",
+        "alternate_names": [
+          "Dongwulijing",
+          "东五里井",
+          "東五里井",
+          "dong wu li jing",
+          "Dong Wulijing"
+        ],
+        "line": "hefei2",
+        "order": 17
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.332566,
+          31.869774
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Dongqili",
+        "display_name": "Dongqili (东七里)",
+        "alternate_names": [
+          "Dongqili",
+          "东七里",
+          "東七里",
+          "dong qi li",
+          "Dong Qili"
+        ],
+        "line": "hefei2",
+        "order": 18
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.345936,
+          31.869961
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Caochong",
+        "display_name": "Caochong (漕冲)",
+        "alternate_names": [
+          "Caochong",
+          "漕冲",
+          "漕衝",
+          "cao chong"
+        ],
+        "line": "hefei2",
+        "order": 19
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.361435,
+          31.870196
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Dong'ershibu",
+        "display_name": "Dong'ershibu (东二十埠)",
+        "alternate_names": [
+          "Dong'ershibu",
+          "东二十埠",
+          "東二十埠",
+          "dong er shi bu"
+        ],
+        "line": "hefei2",
+        "order": 20
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.370088,
+          31.870272
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Longgang",
+        "display_name": "Longgang (龙岗)",
+        "alternate_names": [
+          "Longgang",
+          "龙岗",
+          "龍崗",
+          "long gang"
+        ],
+        "line": "hefei2",
+        "order": 21
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.383849,
+          31.870621
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Wanggang",
+        "display_name": "Wanggang (王岗)",
+        "alternate_names": [
+          "Wanggang",
+          "王岗",
+          "王崗",
+          "wang gang"
+        ],
+        "line": "hefei2",
+        "order": 22
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.391551,
+          31.870821
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Sanshibu",
+        "display_name": "Sanshibu (三十埠)",
+        "alternate_names": [
+          "Sanshibu",
+          "三十埠",
+          "san shi bu"
+        ],
+        "line": "hefei2",
+        "order": 23
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.414125,
+          31.873789
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Sanshibu East",
+        "display_name": "Sanshibu East (三十埠东)",
+        "alternate_names": [
+          "Sanshibu East",
+          "三十埠东",
+          "三十埠東",
+          "Sanshibudong",
+          "san shi bu dong"
+        ],
+        "line": "hefei2",
+        "order": 24
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.423924,
+          31.875882
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Xianghe",
+        "display_name": "Xianghe (祥和)",
+        "alternate_names": [
+          "Xianghe",
+          "祥和",
+          "xiang he"
+        ],
+        "line": "hefei2",
+        "order": 25
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.437048,
+          31.875763
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Guiwang",
+        "display_name": "Guiwang (桂王)",
+        "alternate_names": [
+          "Guiwang",
+          "桂王",
+          "gui wang"
+        ],
+        "line": "hefei2",
+        "order": 26
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.449666,
+          31.874443
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Duihe",
+        "display_name": "Duihe (对河)",
+        "alternate_names": [
+          "Duihe",
+          "对河",
+          "對河",
+          "dui he"
+        ],
+        "line": "hefei2",
+        "order": 27
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.466198,
+          31.87707
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Dianbuhe",
+        "display_name": "Dianbuhe (店埠河)",
+        "alternate_names": [
+          "Dianbuhe",
+          "店埠河",
+          "dian bu he"
+        ],
+        "line": "hefei2",
+        "order": 28
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.47514,
+          31.872964
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Paitou",
+        "display_name": "Paitou (排头)",
+        "alternate_names": [
+          "Paitou",
+          "排头",
+          "排頭",
+          "pai tou"
+        ],
+        "line": "hefei2",
+        "order": 29
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.480352,
+          31.861364
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Feidong",
+        "display_name": "Feidong (肥东)",
+        "alternate_names": [
+          "Feidong",
+          "肥东",
+          "肥東",
+          "fei dong"
+        ],
+        "line": "hefei2",
+        "order": 30
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.486626,
+          31.853896
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Hemuhu",
+        "display_name": "Hemuhu (和睦湖)",
+        "alternate_names": [
+          "Hemuhu",
+          "和睦湖",
+          "he mu hu"
+        ],
+        "line": "hefei2",
+        "order": 31
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.486593,
+          31.846688
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Maqiao",
+        "display_name": "Maqiao (马桥)",
+        "alternate_names": [
+          "Maqiao",
+          "马桥",
+          "馬橋",
+          "ma qiao"
+        ],
+        "line": "hefei2",
+        "order": 32
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.486529,
+          31.835705
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Nanshahe",
+        "display_name": "Nanshahe (南沙河)",
+        "alternate_names": [
+          "Nanshahe",
+          "南沙河",
+          "nan sha he"
+        ],
+        "line": "hefei2",
+        "order": 33
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.486457,
+          31.824396
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Cuozhen",
+        "display_name": "Cuozhen (撮镇)",
+        "alternate_names": [
+          "Cuozhen",
+          "撮镇",
+          "撮鎮",
+          "cuo zhen"
+        ],
+        "line": "hefei2",
+        "order": 34
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.170288,
+          31.689197
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Sheng'ertongyiyuanxinqu",
+        "display_name": "Sheng'ertongyiyuanxinqu (省儿童医院新区)",
+        "alternate_names": [
+          "Sheng'ertongyiyuanxinqu",
+          "省儿童医院新区",
+          "省兒童醫院新區",
+          "sheng er tong yi yuan xin qu",
+          "Sheng Ertong Yiyuan Xinqu"
+        ],
+        "line": "hefei3",
+        "order": 0
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.170328,
+          31.696491
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Leping",
+        "display_name": "Leping (乐平)",
+        "alternate_names": [
+          "Leping",
+          "乐平",
+          "樂平",
+          "le ping"
+        ],
+        "line": "hefei3",
+        "order": 1
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.160926,
+          31.702599
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Ruici",
+        "display_name": "Ruici (芮祠)",
+        "alternate_names": [
+          "Ruici",
+          "芮祠",
+          "rui ci"
+        ],
+        "line": "hefei3",
+        "order": 2
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.15181,
+          31.711206
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Sishibu",
+        "display_name": "Sishibu (四十埠)",
+        "alternate_names": [
+          "Sishibu",
+          "四十埠",
+          "si shi bu"
+        ],
+        "line": "hefei3",
+        "order": 3
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.150744,
+          31.720468
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Liwan",
+        "display_name": "Liwan (李湾)",
+        "alternate_names": [
+          "Liwan",
+          "李湾",
+          "李灣",
+          "li wan"
+        ],
+        "line": "hefei3",
+        "order": 4
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.156873,
+          31.725785
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Liangting",
+        "display_name": "Liangting (凉亭)",
+        "alternate_names": [
+          "Liangting",
+          "凉亭",
+          "涼亭",
+          "liang ting"
+        ],
+        "line": "hefei3",
+        "order": 5
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.163195,
+          31.744006
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Anyiyifuyuannanqu",
+        "display_name": "Anyiyifuyuannanqu (安医一附院南区)",
+        "alternate_names": [
+          "Anyiyifuyuannanqu",
+          "安医一附院南区",
+          "安醫一附院南區",
+          "an yi yi fu yuan nan qu",
+          "Anyi Yifuyuan Nanqu"
+        ],
+        "line": "hefei3",
+        "order": 6
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.175513,
+          31.753189
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Xingfuba",
+        "display_name": "Xingfuba (幸福坝)",
+        "alternate_names": [
+          "Xingfuba",
+          "幸福坝",
+          "幸福壩",
+          "xing fu ba"
+        ],
+        "line": "hefei3",
+        "order": 7
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.186683,
+          31.761257
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Andaqingyuanxiaoqu",
+        "display_name": "Andaqingyuanxiaoqu (安大磬苑校区)",
+        "alternate_names": [
+          "Andaqingyuanxiaoqu",
+          "安大磬苑校区",
+          "安大磬苑校區",
+          "an da qing yuan xiao qu"
+        ],
+        "line": "hefei3",
+        "order": 8
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.199661,
+          31.767398
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Gongdafeicuihuxiaoqu",
+        "display_name": "Gongdafeicuihuxiaoqu (工大翡翠湖校区)",
+        "alternate_names": [
+          "Gongdafeicuihuxiaoqu",
+          "工大翡翠湖校区",
+          "工大翡翠湖校區",
+          "gong da fei cui hu xiao qu"
+        ],
+        "line": "hefei3",
+        "order": 9
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.204286,
+          31.777012
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Daxuecheng North",
+        "display_name": "Daxuecheng North (大学城北)",
+        "alternate_names": [
+          "Daxuecheng North",
+          "大学城北",
+          "大學城北",
+          "Daxuechengbei",
+          "da xue cheng bei"
+        ],
+        "line": "hefei3",
+        "order": 10
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.204367,
+          31.784234
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Fanhua Avenue",
+        "display_name": "Fanhua Avenue (繁华大道)",
+        "alternate_names": [
+          "Fanhua Avenue",
+          "繁华大道",
+          "繁華大道",
+          "Fanhuadadao",
+          "fan hua da dao"
+        ],
+        "line": "hefei3",
+        "order": 11
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.204408,
+          31.791804
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Anyida'erfuyuan",
+        "display_name": "Anyida'erfuyuan (安医大二附院)",
+        "alternate_names": [
+          "Anyida'erfuyuan",
+          "安医大二附院",
+          "安醫大二附院",
+          "an yi da er fu yuan"
+        ],
+        "line": "hefei3",
+        "order": 12
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.209821,
+          31.802976
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Shengbowuyuan",
+        "display_name": "Shengbowuyuan (省博物院)",
+        "alternate_names": [
+          "Shengbowuyuan",
+          "省博物院",
+          "sheng bo wu yuan"
+        ],
+        "line": "hefei3",
+        "order": 13
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.210012,
+          31.811069
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Tushuguan",
+        "display_name": "Tushuguan (图书馆)",
+        "alternate_names": [
+          "Tushuguan",
+          "图书馆",
+          "圖書館",
+          "tu shu guan"
+        ],
+        "line": "hefei3",
+        "order": 14
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.218496,
+          31.816301
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Hefeidajuyuan",
+        "display_name": "Hefeidajuyuan (合肥大剧院)",
+        "alternate_names": [
+          "Hefeidajuyuan",
+          "合肥大剧院",
+          "合肥大劇院",
+          "he fei da ju yuan"
+        ],
+        "line": "hefei3",
+        "order": 15
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.226398,
+          31.823677
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Shizhengwuzhongxin",
+        "display_name": "Shizhengwuzhongxin (市政务中心)",
+        "alternate_names": [
+          "Shizhengwuzhongxin",
+          "市政务中心",
+          "市政務中心",
+          "shi zheng wu zhong xin"
+        ],
+        "line": "hefei3",
+        "order": 16
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225981,
+          31.834239
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Honggang",
+        "display_name": "Honggang (洪岗)",
+        "alternate_names": [
+          "Honggang",
+          "洪岗",
+          "洪崗",
+          "hong gang"
+        ],
+        "line": "hefei3",
+        "order": 17
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225744,
+          31.842899
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Guofangkeji University",
+        "display_name": "Guofangkeji University (国防科技大学)",
+        "alternate_names": [
+          "Guofangkeji University",
+          "国防科技大学",
+          "國防科技大學",
+          "Guofangkejidaxue",
+          "guo fang ke ji da xue"
+        ],
+        "line": "hefei3",
+        "order": 18
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225408,
+          31.854274
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Xiqilitang",
+        "display_name": "Xiqilitang (西七里塘)",
+        "alternate_names": [
+          "Xiqilitang",
+          "西七里塘",
+          "xi qi li tang"
+        ],
+        "line": "hefei3",
+        "order": 19
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225194,
+          31.863707
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Nanxinzhuang",
+        "display_name": "Nanxinzhuang (南新庄)",
+        "alternate_names": [
+          "Nanxinzhuang",
+          "南新庄",
+          "南新莊",
+          "nan xin zhuang"
+        ],
+        "line": "hefei3",
+        "order": 20
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.231211,
+          31.872941
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Hefei West Railway Station",
+        "display_name": "Hefei West Railway Station (合肥西站)",
+        "alternate_names": [
+          "Hefei West Railway Station",
+          "合肥西站",
+          "Hefei West",
+          "Hefeixizhan",
+          "he fei xi zhan",
+          "Hefeixi"
+        ],
+        "line": "hefei3",
+        "order": 21
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.240638,
+          31.883023
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Xinghuacun",
+        "display_name": "Xinghuacun (杏花村)",
+        "alternate_names": [
+          "Xinghuacun",
+          "杏花村",
+          "xing hua cun"
+        ],
+        "line": "hefei3",
+        "order": 22
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.251391,
+          31.888611
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Siquanqiao",
+        "display_name": "Siquanqiao (四泉桥)",
+        "alternate_names": [
+          "Siquanqiao",
+          "四泉桥",
+          "四泉橋",
+          "si quan qiao"
+        ],
+        "line": "hefei3",
+        "order": 23
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.262721,
+          31.888771
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Zhenghe",
+        "display_name": "Zhenghe (郑河)",
+        "alternate_names": [
+          "Zhenghe",
+          "郑河",
+          "鄭河",
+          "zheng he"
+        ],
+        "line": "hefei3",
+        "order": 24
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.272901,
+          31.888959
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Haitang",
+        "display_name": "Haitang (海棠)",
+        "alternate_names": [
+          "Haitang",
+          "海棠",
+          "hai tang"
+        ],
+        "line": "hefei3",
+        "order": 25
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.281727,
+          31.889047
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Yilijing",
+        "display_name": "Yilijing (一里井)",
+        "alternate_names": [
+          "Yilijing",
+          "一里井",
+          "yi li jing"
+        ],
+        "line": "hefei3",
+        "order": 26
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.290539,
+          31.889533
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Huainan Road",
+        "display_name": "Huainan Road (淮南路)",
+        "alternate_names": [
+          "Huainan Road",
+          "淮南路",
+          "Huainanlu",
+          "huai nan lu",
+          "Huainan Street"
+        ],
+        "line": "hefei3",
+        "order": 27
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.302605,
+          31.889615
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Yalinchong",
+        "display_name": "Yalinchong (鸭林冲)",
+        "alternate_names": [
+          "Yalinchong",
+          "鸭林冲",
+          "鴨林沖",
+          "ya lin chong"
+        ],
+        "line": "hefei3",
+        "order": 28
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.309802,
+          31.885316
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Hefei Railway Station",
+        "display_name": "Hefei Railway Station (合肥火车站)",
+        "alternate_names": [
+          "Hefei Railway Station",
+          "合肥火车站",
+          "合肥火車站",
+          "Hefei",
+          "Hefeihuochezhan",
+          "he fei huo che zhan"
+        ],
+        "line": "hefei3",
+        "order": 29
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.325547,
+          31.887212
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Zhusitan",
+        "display_name": "Zhusitan (竹丝滩)",
+        "alternate_names": [
+          "Zhusitan",
+          "竹丝滩",
+          "竹絲灘",
+          "zhu si tan"
+        ],
+        "line": "hefei3",
+        "order": 30
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.336537,
+          31.886973
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Fangmiao",
+        "display_name": "Fangmiao (方庙)",
+        "alternate_names": [
+          "Fangmiao",
+          "方庙",
+          "方廟",
+          "fang miao"
+        ],
+        "line": "hefei3",
+        "order": 31
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.346753,
+          31.886887
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Douqiaowan",
+        "display_name": "Douqiaowan (窦桥湾)",
+        "alternate_names": [
+          "Douqiaowan",
+          "窦桥湾",
+          "竇橋灣",
+          "dou qiao wan"
+        ],
+        "line": "hefei3",
+        "order": 32
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.353533,
+          31.892185
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Xinhai Avenue",
+        "display_name": "Xinhai Avenue (新海大道)",
+        "alternate_names": [
+          "Xinhai Avenue",
+          "新海大道",
+          "Xinhaidadao",
+          "xin hai da dao"
+        ],
+        "line": "hefei3",
+        "order": 33
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.35557,
+          31.898932
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Qinlaocun",
+        "display_name": "Qinlaocun (勤劳村)",
+        "alternate_names": [
+          "Qinlaocun",
+          "勤劳村",
+          "勤勞村",
+          "qin lao cun"
+        ],
+        "line": "hefei3",
+        "order": 34
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.362657,
+          31.911771
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Wenhuiyuan",
+        "display_name": "Wenhuiyuan (文浍苑)",
+        "alternate_names": [
+          "Wenhuiyuan",
+          "文浍苑",
+          "文澮苑",
+          "wen hui yuan"
+        ],
+        "line": "hefei3",
+        "order": 35
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.366785,
+          31.923224
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "You'ershifan",
+        "display_name": "You'ershifan (幼儿师范)",
+        "alternate_names": [
+          "You'ershifan",
+          "幼儿师范",
+          "幼兒師範",
+          "you er shi fan"
+        ],
+        "line": "hefei3",
+        "order": 36
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.377557,
+          31.92701
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Zhijiaocheng",
+        "display_name": "Zhijiaocheng (职教城)",
+        "alternate_names": [
+          "Zhijiaocheng",
+          "职教城",
+          "職教城",
+          "zhi jiao cheng"
+        ],
+        "line": "hefei3",
+        "order": 37
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.391593,
+          31.926969
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Zhijiaocheng East",
+        "display_name": "Zhijiaocheng East (职教城东)",
+        "alternate_names": [
+          "Zhijiaocheng East",
+          "职教城东",
+          "職教城東",
+          "Zhijiaochengdong",
+          "zhi jiao cheng dong"
+        ],
+        "line": "hefei3",
+        "order": 38
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.401958,
+          31.926965
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Xiangcheng Road",
+        "display_name": "Xiangcheng Road (相城路)",
+        "alternate_names": [
+          "Xiangcheng Road",
+          "相城路",
+          "Xiangchenglu",
+          "xiang cheng lu"
+        ],
+        "line": "hefei3",
+        "order": 39
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.09643,
+          31.757168
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Shaomaigang",
+        "display_name": "Shaomaigang (烧脉岗)",
+        "alternate_names": [
+          "Shaomaigang",
+          "烧脉岗",
+          "燒脈崗",
+          "shao mai gang"
+        ],
+        "line": "hefei4",
+        "order": 0
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.089223,
+          31.761457
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Weizhuang",
+        "display_name": "Weizhuang (魏庄)",
+        "alternate_names": [
+          "Weizhuang",
+          "魏庄",
+          "魏莊",
+          "wei zhuang"
+        ],
+        "line": "hefei4",
+        "order": 1
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.08693,
+          31.767796
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Tongluozhai Road",
+        "display_name": "Tongluozhai Road (铜锣寨路)",
+        "alternate_names": [
+          "Tongluozhai Road",
+          "铜锣寨路",
+          "銅鑼寨路",
+          "Tongluozhailu",
+          "tong luo zhai lu"
+        ],
+        "line": "hefei4",
+        "order": 2
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.11121,
+          31.784333
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Jinxiaoying",
+        "display_name": "Jinxiaoying (金小郢)",
+        "alternate_names": [
+          "Jinxiaoying",
+          "金小郢",
+          "jin xiao ying"
+        ],
+        "line": "hefei4",
+        "order": 3
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.132207,
+          31.784356
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Taohuatan",
+        "display_name": "Taohuatan (桃花潭)",
+        "alternate_names": [
+          "Taohuatan",
+          "桃花潭",
+          "tao hua tan"
+        ],
+        "line": "hefei4",
+        "order": 4
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.13965,
+          31.804741
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Chang'anji",
+        "display_name": "Chang'anji (长安集)",
+        "alternate_names": [
+          "Chang'anji",
+          "长安集",
+          "長安集",
+          "chang an ji"
+        ],
+        "line": "hefei4",
+        "order": 5
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.139479,
+          31.817775
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Fuxingji",
+        "display_name": "Fuxingji (复兴集)",
+        "alternate_names": [
+          "Fuxingji",
+          "复兴集",
+          "復興集",
+          "fu xing ji"
+        ],
+        "line": "hefei4",
+        "order": 6
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.152181,
+          31.822845
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Beiyanhu",
+        "display_name": "Beiyanhu (北雁湖)",
+        "alternate_names": [
+          "Beiyanhu",
+          "北雁湖",
+          "bei yan hu"
+        ],
+        "line": "hefei4",
+        "order": 7
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.128613,
+          31.832146
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Kedaxianyanyuan",
+        "display_name": "Kedaxianyanyuan (科大先研院)",
+        "alternate_names": [
+          "Kedaxianyanyuan",
+          "科大先研院",
+          "ke da xian yan yuan",
+          "IAT-USTC"
+        ],
+        "line": "hefei4",
+        "order": 8
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.109712,
+          31.831984
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Liangzikexuezhongxin",
+        "display_name": "Liangzikexuezhongxin (量子科学中心)",
+        "alternate_names": [
+          "Liangzikexuezhongxin",
+          "量子科学中心",
+          "量子科學中心",
+          "liang zi ke xue zhong xin",
+          "QISRC"
+        ],
+        "line": "hefei4",
+        "order": 9
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.094826,
+          31.831426
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Hefeiqizhong",
+        "display_name": "Hefeiqizhong (合肥七中)",
+        "alternate_names": [
+          "Hefeiqizhong",
+          "合肥七中",
+          "he fei qi zhong",
+          "Hefei No.7 High School"
+        ],
+        "line": "hefei4",
+        "order": 10
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.082736,
+          31.831649
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Qinglonggang",
+        "display_name": "Qinglonggang (青龙岗)",
+        "alternate_names": [
+          "Qinglonggang",
+          "青龙岗",
+          "青龍崗",
+          "qing long gang"
+        ],
+        "line": "hefei4",
+        "order": 11
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.170243,
+          31.822641
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Yulan Avenue",
+        "display_name": "Yulan Avenue (玉兰大道)",
+        "alternate_names": [
+          "Yulan Avenue",
+          "玉兰大道",
+          "玉蘭大道",
+          "Yulandadao",
+          "yu lan da dao"
+        ],
+        "line": "hefei4",
+        "order": 12
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.182212,
+          31.818185
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Jingui",
+        "display_name": "Jingui (金桂)",
+        "alternate_names": [
+          "Jingui",
+          "金桂",
+          "jin gui"
+        ],
+        "line": "hefei4",
+        "order": 13
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.192843,
+          31.813647
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Liushutang",
+        "display_name": "Liushutang (柳树塘)",
+        "alternate_names": [
+          "Liushutang",
+          "柳树塘",
+          "柳樹塘",
+          "liu shu tang"
+        ],
+        "line": "hefei4",
+        "order": 14
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.210012,
+          31.811069
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Tushuguan",
+        "display_name": "Tushuguan (图书馆)",
+        "alternate_names": [
+          "Tushuguan",
+          "图书馆",
+          "圖書館",
+          "tu shu guan"
+        ],
+        "line": "hefei4",
+        "order": 15
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.22213,
+          31.810273
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Tian'ehu",
+        "display_name": "Tian'ehu (天鹅湖)",
+        "alternate_names": [
+          "Tian'ehu",
+          "天鹅湖",
+          "天鵝湖",
+          "tian e hu"
+        ],
+        "line": "hefei4",
+        "order": 16
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.233121,
+          31.810681
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Tian'ehu East",
+        "display_name": "Tian'ehu East (天鹅湖东)",
+        "alternate_names": [
+          "Tian'ehu East",
+          "天鹅湖东",
+          "天鵝湖東",
+          "Tian'ehudong",
+          "tian e hu dong"
+        ],
+        "line": "hefei4",
+        "order": 17
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.243768,
+          31.810672
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Yaogongmiao",
+        "display_name": "Yaogongmiao (姚公庙)",
+        "alternate_names": [
+          "Yaogongmiao",
+          "姚公庙",
+          "姚公廟",
+          "yao gong miao"
+        ],
+        "line": "hefei4",
+        "order": 18
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.251974,
+          31.810522
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Nanping Road",
+        "display_name": "Nanping Road (南屏路)",
+        "alternate_names": [
+          "Nanping Road",
+          "南屏路",
+          "Nanpinglu",
+          "nan ping lu"
+        ],
+        "line": "hefei4",
+        "order": 19
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.263405,
+          31.80974
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Xuehe",
+        "display_name": "Xuehe (薛河)",
+        "alternate_names": [
+          "Xuehe",
+          "薛河",
+          "xue he"
+        ],
+        "line": "hefei4",
+        "order": 20
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.270998,
+          31.805222
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Zhuxi",
+        "display_name": "Zhuxi (竹西)",
+        "alternate_names": [
+          "Zhuxi",
+          "竹西",
+          "zhu xi"
+        ],
+        "line": "hefei4",
+        "order": 21
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.275606,
+          31.801716
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Feinan",
+        "display_name": "Feinan (淝南)",
+        "alternate_names": [
+          "Feinan",
+          "淝南",
+          "fei nan"
+        ],
+        "line": "hefei4",
+        "order": 22
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.284603,
+          31.802179
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Hefei South Railway Station",
+        "display_name": "Hefei South Railway Station (合肥南站)",
+        "alternate_names": [
+          "Hefei South Railway Station",
+          "合肥南站",
+          "Hefei South",
+          "Hefeinanzhan",
+          "he fei nan zhan",
+          "Hefeinan"
+        ],
+        "line": "hefei4",
+        "order": 23
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296715,
+          31.806826
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Wanghucheng South",
+        "display_name": "Wanghucheng South (望湖城南)",
+        "alternate_names": [
+          "Wanghucheng South",
+          "望湖城南",
+          "Wanghuchengnan",
+          "wang hu cheng nan"
+        ],
+        "line": "hefei4",
+        "order": 24
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.307685,
+          31.810852
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Gedadian South",
+        "display_name": "Gedadian South (葛大店南)",
+        "alternate_names": [
+          "Gedadian South",
+          "葛大店南",
+          "Gedadiannan",
+          "ge da dian nan"
+        ],
+        "line": "hefei4",
+        "order": 25
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.320225,
+          31.816905
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Gongjingxueyuan",
+        "display_name": "Gongjingxueyuan (工经学院)",
+        "alternate_names": [
+          "Gongjingxueyuan",
+          "工经学院",
+          "工經學院",
+          "gong jing xue yuan"
+        ],
+        "line": "hefei4",
+        "order": 26
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.318623,
+          31.827161
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Yaoduhe Road",
+        "display_name": "Yaoduhe Road (尧渡河路)",
+        "alternate_names": [
+          "Yaoduhe Road",
+          "尧渡河路",
+          "堯渡河路",
+          "Yaoduhelu",
+          "yao du he lu"
+        ],
+        "line": "hefei4",
+        "order": 27
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.318415,
+          31.839287
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Wulimiao",
+        "display_name": "Wulimiao (五里庙)",
+        "alternate_names": [
+          "Wulimiao",
+          "五里庙",
+          "五里廟",
+          "wu li miao"
+        ],
+        "line": "hefei4",
+        "order": 28
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.329994,
+          31.856059
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Tangqiao",
+        "display_name": "Tangqiao (唐桥)",
+        "alternate_names": [
+          "Tangqiao",
+          "唐桥",
+          "唐橋",
+          "tang qiao"
+        ],
+        "line": "hefei4",
+        "order": 29
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.332566,
+          31.869774
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Dongqili",
+        "display_name": "Dongqili (东七里)",
+        "alternate_names": [
+          "Dongqili",
+          "东七里",
+          "東七里",
+          "dong qi li",
+          "Dong Qili"
+        ],
+        "line": "hefei4",
+        "order": 30
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.335185,
+          31.877916
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Zhantang",
+        "display_name": "Zhantang (站塘)",
+        "alternate_names": [
+          "Zhantang",
+          "站塘",
+          "zhan tang"
+        ],
+        "line": "hefei4",
+        "order": 31
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.336537,
+          31.886973
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Fangmiao",
+        "display_name": "Fangmiao (方庙)",
+        "alternate_names": [
+          "Fangmiao",
+          "方庙",
+          "方廟",
+          "fang miao"
+        ],
+        "line": "hefei4",
+        "order": 32
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.337058,
+          31.898603
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Xinhai Park",
+        "display_name": "Xinhai Park (新海公园)",
+        "alternate_names": [
+          "Xinhai Park",
+          "新海公园",
+          "新海公園",
+          "Xinhaigongyuan",
+          "xin hai gong yuan"
+        ],
+        "line": "hefei4",
+        "order": 33
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.341814,
+          31.906717
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Shilicun",
+        "display_name": "Shilicun (十里村)",
+        "alternate_names": [
+          "Shilicun",
+          "十里村",
+          "shi li cun"
+        ],
+        "line": "hefei4",
+        "order": 34
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.339594,
+          31.928425
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Taochonghu East",
+        "display_name": "Taochonghu East (陶冲湖东)",
+        "alternate_names": [
+          "Taochonghu East",
+          "陶冲湖东",
+          "陶衝湖東",
+          "Taochonghudong",
+          "tao chong hu dong"
+        ],
+        "line": "hefei4",
+        "order": 35
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.343233,
+          31.938909
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Anyiyifuyuanbeiqu",
+        "display_name": "Anyiyifuyuanbeiqu (安医一附院北区)",
+        "alternate_names": [
+          "Anyiyifuyuanbeiqu",
+          "安医一附院北区",
+          "安醫一附院北區",
+          "an yi yi fu yuan bei qu",
+          "First Affiliated Hospital of Anhui Medical University North District"
+        ],
+        "line": "hefei4",
+        "order": 36
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.348307,
+          31.952801
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Zongbaoqu",
+        "display_name": "Zongbaoqu (综保区)",
+        "alternate_names": [
+          "Zongbaoqu",
+          "综保区",
+          "綜保區",
+          "zong bao qu",
+          "Hefei Integrated Free Trade Zone"
+        ],
+        "line": "hefei4",
+        "order": 37
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.258566,
+          31.701247
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Guiyang Road",
+        "display_name": "Guiyang Road (贵阳路)",
+        "alternate_names": [
+          "Guiyang Road",
+          "贵阳路",
+          "貴陽路",
+          "Guiyanglu",
+          "gui yang lu"
+        ],
+        "line": "hefei5",
+        "order": 0
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.258609,
+          31.711414
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Binhuzhuyuan",
+        "display_name": "Binhuzhuyuan (滨湖竹园)",
+        "alternate_names": [
+          "Binhuzhuyuan",
+          "滨湖竹园",
+          "濱湖竹園",
+          "bin hu zhu yuan"
+        ],
+        "line": "hefei5",
+        "order": 1
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.269974,
+          31.715158
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Yunchuan Park",
+        "display_name": "Yunchuan Park (云川公园)",
+        "alternate_names": [
+          "Yunchuan Park",
+          "云川公园",
+          "雲川公園",
+          "Yunchuangongyuan",
+          "yun chuan gong yuan"
+        ],
+        "line": "hefei5",
+        "order": 2
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.280669,
+          31.715142
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Qingshuichong",
+        "display_name": "Qingshuichong (清水冲)",
+        "alternate_names": [
+          "Qingshuichong",
+          "清水冲",
+          "清水衝",
+          "qing shui chong"
+        ],
+        "line": "hefei5",
+        "order": 3
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296543,
+          31.715131
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Yungu Road",
+        "display_name": "Yungu Road (云谷路)",
+        "alternate_names": [
+          "Yungu Road",
+          "云谷路",
+          "雲谷路",
+          "Yungulu",
+          "yun gu lu"
+        ],
+        "line": "hefei5",
+        "order": 4
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.305514,
+          31.715128
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Huashan Road",
+        "display_name": "Huashan Road (华山路)",
+        "alternate_names": [
+          "Huashan Road",
+          "华山路",
+          "華山路",
+          "Huashanlu",
+          "hua shan lu"
+        ],
+        "line": "hefei5",
+        "order": 5
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.313942,
+          31.715107
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Shenwan",
+        "display_name": "Shenwan (沈湾)",
+        "alternate_names": [
+          "Shenwan",
+          "沈湾",
+          "沈灣",
+          "shen wan"
+        ],
+        "line": "hefei5",
+        "order": 6
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.324571,
+          31.715086
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Dujiangjinianguan",
+        "display_name": "Dujiangjinianguan (渡江纪念馆)",
+        "alternate_names": [
+          "Dujiangjinianguan",
+          "渡江纪念馆",
+          "渡江紀念館",
+          "du jiang ji nian guan"
+        ],
+        "line": "hefei5",
+        "order": 7
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.333019,
+          31.720151
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Fangxinghu",
+        "display_name": "Fangxinghu (方兴湖)",
+        "alternate_names": [
+          "Fangxinghu",
+          "方兴湖",
+          "方興湖",
+          "fang xing hu"
+        ],
+        "line": "hefei5",
+        "order": 8
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.333051,
+          31.73327
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Shengzhengwuzhongxin East",
+        "display_name": "Shengzhengwuzhongxin East (省政务中心东)",
+        "alternate_names": [
+          "Shengzhengwuzhongxin East",
+          "省政务中心东",
+          "省政務中心東",
+          "Shengzhengwuzhongxindong",
+          "sheng zheng wu zhong xin dong"
+        ],
+        "line": "hefei5",
+        "order": 9
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.333093,
+          31.74272
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Yicheng",
+        "display_name": "Yicheng (义城)",
+        "alternate_names": [
+          "Yicheng",
+          "义城",
+          "義城",
+          "yi cheng"
+        ],
+        "line": "hefei5",
+        "order": 10
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.333138,
+          31.754764
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Yangzijiang Road",
+        "display_name": "Yangzijiang Road (扬子江路)",
+        "alternate_names": [
+          "Yangzijiang Road",
+          "扬子江路",
+          "揚子江路",
+          "Yangzijianglu",
+          "yang zi jiang lu"
+        ],
+        "line": "hefei5",
+        "order": 11
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.328605,
+          31.767703
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Huanghe Road",
+        "display_name": "Huanghe Road (黄河路)",
+        "alternate_names": [
+          "Huanghe Road",
+          "黄河路",
+          "黃河路",
+          "Huanghelu",
+          "huang he lu"
+        ],
+        "line": "hefei5",
+        "order": 12
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.328594,
+          31.775305
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Huayuan Avenue",
+        "display_name": "Huayuan Avenue (花园大道)",
+        "alternate_names": [
+          "Huayuan Avenue",
+          "花园大道",
+          "花園大道",
+          "Huayuandadao",
+          "hua yuan da dao"
+        ],
+        "line": "hefei5",
+        "order": 13
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.326611,
+          31.787551
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Dalian Road",
+        "display_name": "Dalian Road (大连路)",
+        "alternate_names": [
+          "Dalian Road",
+          "大连路",
+          "大連路",
+          "Dalianlu",
+          "da lian lu"
+        ],
+        "line": "hefei5",
+        "order": 14
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.319149,
+          31.796533
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Yixing",
+        "display_name": "Yixing (义兴)",
+        "alternate_names": [
+          "Yixing",
+          "义兴",
+          "義興",
+          "yi xing"
+        ],
+        "line": "hefei5",
+        "order": 15
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.311703,
+          31.795708
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Baoheyuan",
+        "display_name": "Baoheyuan (包河苑)",
+        "alternate_names": [
+          "Baoheyuan",
+          "包河苑",
+          "bao he yuan"
+        ],
+        "line": "hefei5",
+        "order": 16
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296416,
+          31.79459
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Shengda",
+        "display_name": "Shengda (盛大)",
+        "alternate_names": [
+          "Shengda",
+          "盛大",
+          "sheng da"
+        ],
+        "line": "hefei5",
+        "order": 17
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.286485,
+          31.80096
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Hefei South Railway Station",
+        "display_name": "Hefei South Railway Station (合肥南站)",
+        "alternate_names": [
+          "Hefei South Railway Station",
+          "合肥南站",
+          "Hefei South",
+          "Hefeinanzhan",
+          "he fei nan zhan",
+          "Hefeinan"
+        ],
+        "line": "hefei5",
+        "order": 18
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.283096,
+          31.811077
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Wanghucheng West",
+        "display_name": "Wanghucheng West (望湖城西)",
+        "alternate_names": [
+          "Wanghucheng West",
+          "望湖城西",
+          "Wanghuchengxi",
+          "wang hu cheng xi"
+        ],
+        "line": "hefei5",
+        "order": 19
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.271251,
+          31.816167
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Lingdatang",
+        "display_name": "Lingdatang (凌大塘)",
+        "alternate_names": [
+          "Lingdatang",
+          "凌大塘",
+          "ling da tang"
+        ],
+        "line": "hefei5",
+        "order": 20
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.263446,
+          31.820466
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Xiuning Road",
+        "display_name": "Xiuning Road (休宁路)",
+        "alternate_names": [
+          "Xiuning Road",
+          "休宁路",
+          "休寧路",
+          "Xiuninglu",
+          "xiu ning lu"
+        ],
+        "line": "hefei5",
+        "order": 21
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.265201,
+          31.830656
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Shidisan Hospital",
+        "display_name": "Shidisan Hospital (市第三医院)",
+        "alternate_names": [
+          "Shidisan Hospital",
+          "市第三医院",
+          "市第三醫院",
+          "Shidisanyiyuan",
+          "shi di san yi yuan",
+          "Hefei No.3 People's Hospital"
+        ],
+        "line": "hefei5",
+        "order": 22
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.26754,
+          31.843833
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Zhongguokedadongqu",
+        "display_name": "Zhongguokedadongqu (中国科大东区)",
+        "alternate_names": [
+          "Zhongguokedadongqu",
+          "中国科大东区",
+          "中國科大東區",
+          "zhong guo ke da dong qu",
+          "USTC-East Campus"
+        ],
+        "line": "hefei5",
+        "order": 23
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.26843,
+          31.851382
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Daoxianglou",
+        "display_name": "Daoxianglou (稻香楼)",
+        "alternate_names": [
+          "Daoxianglou",
+          "稻香楼",
+          "稻香樓",
+          "dao xiang lou"
+        ],
+        "line": "hefei5",
+        "order": 24
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.269852,
+          31.863159
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Sanxiaokou",
+        "display_name": "Sanxiaokou (三孝口)",
+        "alternate_names": [
+          "Sanxiaokou",
+          "三孝口",
+          "san xiao kou"
+        ],
+        "line": "hefei5",
+        "order": 25
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.273065,
+          31.873051
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Xinghua Park",
+        "display_name": "Xinghua Park (杏花公园)",
+        "alternate_names": [
+          "Xinghua Park",
+          "杏花公园",
+          "杏花公園",
+          "Xinghuagongyuan",
+          "xing hua gong yuan"
+        ],
+        "line": "hefei5",
+        "order": 26
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.272943,
+          31.881566
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Baishuiba",
+        "display_name": "Baishuiba (白水坝)",
+        "alternate_names": [
+          "Baishuiba",
+          "白水坝",
+          "白水壩",
+          "bai shui ba"
+        ],
+        "line": "hefei5",
+        "order": 27
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.272901,
+          31.888959
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Haitang",
+        "display_name": "Haitang (海棠)",
+        "alternate_names": [
+          "Haitang",
+          "海棠",
+          "hai tang"
+        ],
+        "line": "hefei5",
+        "order": 28
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.270075,
+          31.899516
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Beiwulijing",
+        "display_name": "Beiwulijing (北五里井)",
+        "alternate_names": [
+          "Beiwulijing",
+          "北五里井",
+          "bei wu li jing"
+        ],
+        "line": "hefei5",
+        "order": 29
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.26616,
+          31.918975
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Linghu Park",
+        "display_name": "Linghu Park (菱湖公园)",
+        "alternate_names": [
+          "Linghu Park",
+          "菱湖公园",
+          "菱湖公園",
+          "Linghugongyuan",
+          "ling hu gong yuan"
+        ],
+        "line": "hefei5",
+        "order": 30
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.264573,
+          31.931922
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Liuzhonglinghuxiaoqu",
+        "display_name": "Liuzhonglinghuxiaoqu (六中菱湖校区)",
+        "alternate_names": [
+          "Liuzhonglinghuxiaoqu",
+          "六中菱湖校区",
+          "六中菱湖校區",
+          "liu zhong ling hu xiao qu",
+          "Hefei No. 6 High School Linghu Campus"
+        ],
+        "line": "hefei5",
+        "order": 31
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.258289,
+          31.942996
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Jiqiao Road",
+        "display_name": "Jiqiao Road (汲桥路)",
+        "alternate_names": [
+          "Jiqiao Road",
+          "汲桥路",
+          "汲橋路",
+          "Jiqiaolu",
+          "ji qiao lu"
+        ],
+        "line": "hefei5",
+        "order": 32
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.082736,
+          31.831649
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Qinglonggang",
+        "display_name": "Qinglonggang (青龙岗)",
+        "alternate_names": [
+          "Qinglonggang",
+          "青龙岗",
+          "青龍崗",
+          "qing long gang"
+        ],
+        "line": "hefei6",
+        "order": 0
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.094826,
+          31.831426
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Hefeiqizhong",
+        "display_name": "Hefeiqizhong (合肥七中)",
+        "alternate_names": [
+          "Hefeiqizhong",
+          "合肥七中",
+          "he fei qi zhong",
+          "Hefei No.7 High School"
+        ],
+        "line": "hefei6",
+        "order": 1
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.109712,
+          31.831984
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Liangzikexuezhongxin",
+        "display_name": "Liangzikexuezhongxin (量子科学中心)",
+        "alternate_names": [
+          "Liangzikexuezhongxin",
+          "量子科学中心",
+          "量子科學中心",
+          "liang zi ke xue zhong xin",
+          "QISRC"
+        ],
+        "line": "hefei6",
+        "order": 2
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.128613,
+          31.832146
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Kedaxianyanyuan",
+        "display_name": "Kedaxianyanyuan (科大先研院)",
+        "alternate_names": [
+          "Kedaxianyanyuan",
+          "科大先研院",
+          "ke da xian yan yuan",
+          "IAT-USTC"
+        ],
+        "line": "hefei6",
+        "order": 3
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.152181,
+          31.822845
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Beiyanhu",
+        "display_name": "Beiyanhu (北雁湖)",
+        "alternate_names": [
+          "Beiyanhu",
+          "北雁湖",
+          "bei yan hu"
+        ],
+        "line": "hefei6",
+        "order": 4
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.179349,
+          31.833686
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Kaifusi",
+        "display_name": "Kaifusi (开福寺)",
+        "alternate_names": [
+          "Kaifusi",
+          "开福寺",
+          "開福寺",
+          "kai fu si"
+        ],
+        "line": "hefei6",
+        "order": 5
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.197359,
+          31.834688
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Mengcheng",
+        "display_name": "Mengcheng (梦城)",
+        "alternate_names": [
+          "Mengcheng",
+          "梦城",
+          "夢城",
+          "meng cheng"
+        ],
+        "line": "hefei6",
+        "order": 6
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.216679,
+          31.835473
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Songyinqiao",
+        "display_name": "Songyinqiao (松荫桥)",
+        "alternate_names": [
+          "Songyinqiao",
+          "松荫桥",
+          "松蔭橋",
+          "song yin qiao"
+        ],
+        "line": "hefei6",
+        "order": 7
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225981,
+          31.834239
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Honggang",
+        "display_name": "Honggang (洪岗)",
+        "alternate_names": [
+          "Honggang",
+          "洪岗",
+          "洪崗",
+          "hong gang"
+        ],
+        "line": "hefei6",
+        "order": 8
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.240717,
+          31.832693
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Lujunbingzhong University",
+        "display_name": "Lujunbingzhong University (陆军兵种大学)",
+        "alternate_names": [
+          "Lujunbingzhong University",
+          "陆军兵种大学",
+          "陸軍兵種大學",
+          "Lujunbingzhongdaxue",
+          "lu jun bing zhong da xue",
+          "Lujun Bingzhong Daxue"
+        ],
+        "line": "hefei6",
+        "order": 9
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.252408,
+          31.832041
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Nanqili",
+        "display_name": "Nanqili (南七里)",
+        "alternate_names": [
+          "Nanqili",
+          "南七里",
+          "nan qi li"
+        ],
+        "line": "hefei6",
+        "order": 10
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.265201,
+          31.830656
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Shidisan Hospital",
+        "display_name": "Shidisan Hospital (市第三医院)",
+        "alternate_names": [
+          "Shidisan Hospital",
+          "市第三医院",
+          "市第三醫院",
+          "Shidisanyiyuan",
+          "shi di san yi yuan",
+          "Hefei No.3 People's Hospital"
+        ],
+        "line": "hefei6",
+        "order": 11
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.279852,
+          31.832484
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Weigang",
+        "display_name": "Weigang (卫岗)",
+        "alternate_names": [
+          "Weigang",
+          "卫岗",
+          "衛崗",
+          "wei gang"
+        ],
+        "line": "hefei6",
+        "order": 12
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.296254,
+          31.834105
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Zhugang",
+        "display_name": "Zhugang (朱岗)",
+        "alternate_names": [
+          "Zhugang",
+          "朱岗",
+          "朱崗",
+          "zhu gang"
+        ],
+        "line": "hefei6",
+        "order": 13
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.318623,
+          31.827161
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Yaoduhe Road",
+        "display_name": "Yaoduhe Road (尧渡河路)",
+        "alternate_names": [
+          "Yaoduhe Road",
+          "尧渡河路",
+          "堯渡河路",
+          "Yaoduhelu",
+          "yao du he lu"
+        ],
+        "line": "hefei6",
+        "order": 14
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.34988,
+          31.837679
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Shi'ertong Hospital",
+        "display_name": "Shi'ertong Hospital (市儿童医院)",
+        "alternate_names": [
+          "Shi'ertong Hospital",
+          "市儿童医院",
+          "市兒童醫院",
+          "Shi'ertongyiyuan",
+          "shi er tong yi yuan"
+        ],
+        "line": "hefei6",
+        "order": 15
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.360766,
+          31.833375
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Shi Museum",
+        "display_name": "Shi Museum (市博物馆)",
+        "alternate_names": [
+          "Shi Museum",
+          "市博物馆",
+          "市博物館",
+          "Shibowuguan",
+          "shi bo wu guan"
+        ],
+        "line": "hefei6",
+        "order": 16
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.372433,
+          31.829905
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Ganghong",
+        "display_name": "Ganghong (钢红)",
+        "alternate_names": [
+          "Ganghong",
+          "钢红",
+          "鋼紅",
+          "gang hong"
+        ],
+        "line": "hefei6",
+        "order": 17
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.379847,
+          31.8377
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Daxingji",
+        "display_name": "Daxingji (大兴集)",
+        "alternate_names": [
+          "Daxingji",
+          "大兴集",
+          "大興集",
+          "da xing ji"
+        ],
+        "line": "hefei6",
+        "order": 18
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.392869,
+          31.839645
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Fulong",
+        "display_name": "Fulong (伏龙)",
+        "alternate_names": [
+          "Fulong",
+          "伏龙",
+          "伏龍",
+          "fu long"
+        ],
+        "line": "hefei6",
+        "order": 19
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.411443,
+          31.838409
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Longtang",
+        "display_name": "Longtang (龙塘)",
+        "alternate_names": [
+          "Longtang",
+          "龙塘",
+          "龍塘",
+          "long tang"
+        ],
+        "line": "hefei6",
+        "order": 20
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.318723,
+          31.742706
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Huifu Road",
+        "display_name": "Huifu Road (徽富路)",
+        "alternate_names": [
+          "Huifu Road",
+          "徽富路",
+          "Huifulu",
+          "hui fu lu",
+          "Sheng Wenhuahefeiyiguan"
+        ],
+        "line": "hefei7",
+        "order": 0
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.30951,
+          31.742861
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Songshan Road",
+        "display_name": "Songshan Road (嵩山路)",
+        "alternate_names": [
+          "Songshan Road",
+          "嵩山路",
+          "Songshanlu",
+          "song shan lu",
+          "Songshan Lu"
+        ],
+        "line": "hefei7",
+        "order": 1
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2971,
+          31.742794
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Zilu",
+        "display_name": "Zilu (紫庐)",
+        "alternate_names": [
+          "Zilu",
+          "紫庐",
+          "紫廬",
+          "zi lu"
+        ],
+        "line": "hefei7",
+        "order": 2
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.285893,
+          31.742816
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Guangxi Road",
+        "display_name": "Guangxi Road (广西路)",
+        "alternate_names": [
+          "Guangxi Road",
+          "广西路",
+          "廣西路",
+          "Guangxilu",
+          "guang xi lu",
+          "Binhu Yiyuan"
+        ],
+        "line": "hefei7",
+        "order": 3
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.280511,
+          31.752077
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Yaosudashichang",
+        "display_name": "Yaosudashichang (要素大市场)",
+        "alternate_names": [
+          "Yaosudashichang",
+          "要素大市场",
+          "要素大市場",
+          "yao su da shi chang",
+          "Yaosu Dashichang"
+        ],
+        "line": "hefei7",
+        "order": 4
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.264777,
+          31.758046
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Xiyou Road",
+        "display_name": "Xiyou Road (习友路)",
+        "alternate_names": [
+          "Xiyou Road",
+          "习友路",
+          "習友路",
+          "Xiyoulu",
+          "xi you lu",
+          "Nanyanhunan"
+        ],
+        "line": "hefei7",
+        "order": 5
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.254233,
+          31.755348
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Qingtan Road",
+        "display_name": "Qingtan Road (清潭路)",
+        "alternate_names": [
+          "Qingtan Road",
+          "清潭路",
+          "Qingtanlu",
+          "qing tan lu",
+          "Hefei Daxue"
+        ],
+        "line": "hefei7",
+        "order": 6
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.244662,
+          31.761822
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Gengyun Road",
+        "display_name": "Gengyun Road (耕耘路)",
+        "alternate_names": [
+          "Gengyun Road",
+          "耕耘路",
+          "Gengyunlu",
+          "geng yun lu"
+        ],
+        "line": "hefei7",
+        "order": 7
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.244692,
+          31.772816
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Shimen Road",
+        "display_name": "Shimen Road (石门路)",
+        "alternate_names": [
+          "Shimen Road",
+          "石门路",
+          "石門路",
+          "Shimenlu",
+          "shi men lu"
+        ],
+        "line": "hefei7",
+        "order": 8
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.233633,
+          31.7783
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Tiandou Road",
+        "display_name": "Tiandou Road (天都路)",
+        "alternate_names": [
+          "Tiandou Road",
+          "天都路",
+          "Tiandoulu",
+          "tian dou lu",
+          "Tiandu Lu"
+        ],
+        "line": "hefei7",
+        "order": 9
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.225839,
+          31.778363
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Lianhua Road",
+        "display_name": "Lianhua Road (莲花路)",
+        "alternate_names": [
+          "Lianhua Road",
+          "莲花路",
+          "蓮花路",
+          "Lianhualu",
+          "lian hua lu"
+        ],
+        "line": "hefei7",
+        "order": 10
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.215749,
+          31.782876
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Huiyuan",
+        "display_name": "Huiyuan (徽园)",
+        "alternate_names": [
+          "Huiyuan",
+          "徽园",
+          "徽園",
+          "hui yuan"
+        ],
+        "line": "hefei7",
+        "order": 11
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.204367,
+          31.784234
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Fanhua Avenue",
+        "display_name": "Fanhua Avenue (繁华大道)",
+        "alternate_names": [
+          "Fanhua Avenue",
+          "繁华大道",
+          "繁華大道",
+          "Fanhuadadao",
+          "fan hua da dao"
+        ],
+        "line": "hefei7",
+        "order": 12
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.190848,
+          31.784426
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Feicui Park",
+        "display_name": "Feicui Park (翡翠公园)",
+        "alternate_names": [
+          "Feicui Park",
+          "翡翠公园",
+          "翡翠公園",
+          "Feicuigongyuan",
+          "fei cui gong yuan"
+        ],
+        "line": "hefei7",
+        "order": 13
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.281478,
+          31.890108
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Yilijing",
+        "display_name": "Yilijing (一里井)",
+        "alternate_names": [
+          "Yilijing",
+          "一里井",
+          "yi li jing"
+        ],
+        "line": "hefei8",
+        "order": 0
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.27851,
+          31.90542
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Xinglin",
+        "display_name": "Xinglin (杏林)",
+        "alternate_names": [
+          "Xinglin",
+          "杏林",
+          "xing lin"
+        ],
+        "line": "hefei8",
+        "order": 1
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.274557,
+          31.925197
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Luyangjingkaiqu",
+        "display_name": "Luyangjingkaiqu (庐阳经开区)",
+        "alternate_names": [
+          "Luyangjingkaiqu",
+          "庐阳经开区",
+          "廬陽經開區",
+          "lu yang jing kai qu"
+        ],
+        "line": "hefei8",
+        "order": 2
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.265834,
+          31.93218
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Liuzhonglinghuxiaoqu",
+        "display_name": "Liuzhonglinghuxiaoqu (六中菱湖校区)",
+        "alternate_names": [
+          "Liuzhonglinghuxiaoqu",
+          "六中菱湖校区",
+          "六中菱湖校區",
+          "liu zhong ling hu xiao qu",
+          "Hefei No. 6 High School Linghu Campus"
+        ],
+        "line": "hefei8",
+        "order": 3
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.254303,
+          31.938107
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Hetang Road",
+        "display_name": "Hetang Road (荷塘路)",
+        "alternate_names": [
+          "Hetang Road",
+          "荷塘路",
+          "Hetanglu",
+          "he tang lu"
+        ],
+        "line": "hefei8",
+        "order": 4
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.251503,
+          31.958557
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Shuangfeng",
+        "display_name": "Shuangfeng (双凤)",
+        "alternate_names": [
+          "Shuangfeng",
+          "双凤",
+          "雙鳳",
+          "shuang feng"
+        ],
+        "line": "hefei8",
+        "order": 5
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.249373,
+          31.977842
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Jinmei Road",
+        "display_name": "Jinmei Road (金梅路)",
+        "alternate_names": [
+          "Jinmei Road",
+          "金梅路",
+          "Jinmeilu",
+          "jin mei lu"
+        ],
+        "line": "hefei8",
+        "order": 6
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.248469,
+          31.996796
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Meichonghu",
+        "display_name": "Meichonghu (梅冲湖)",
+        "alternate_names": [
+          "Meichonghu",
+          "梅冲湖",
+          "梅衝湖",
+          "mei chong hu"
+        ],
+        "line": "hefei8",
+        "order": 7
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.242474,
+          32.01303
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Beichengshijicheng",
+        "display_name": "Beichengshijicheng (北城世纪城)",
+        "alternate_names": [
+          "Beichengshijicheng",
+          "北城世纪城",
+          "北城世紀城",
+          "bei cheng shi ji cheng"
+        ],
+        "line": "hefei8",
+        "order": 8
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.243108,
+          32.031539
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Shuangdun",
+        "display_name": "Shuangdun (双墩)",
+        "alternate_names": [
+          "Shuangdun",
+          "双墩",
+          "雙墩",
+          "shuang dun"
+        ],
+        "line": "hefei8",
+        "order": 9
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2406,
+          32.046559
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Shengliyiyuanbeiqu",
+        "display_name": "Shengliyiyuanbeiqu (省立医院北区)",
+        "alternate_names": [
+          "Shengliyiyuanbeiqu",
+          "省立医院北区",
+          "省立醫院北區",
+          "sheng li yi yuan bei qu"
+        ],
+        "line": "hefei8",
+        "order": 10
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.250826,
+          32.064781
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Beichenggaotie",
+        "display_name": "Beichenggaotie (北城高铁)",
+        "alternate_names": [
+          "Beichenggaotie",
+          "北城高铁",
+          "北城高鐵",
+          "bei cheng gao tie"
+        ],
+        "line": "hefei8",
+        "order": 11
+      },
+      "id": 219
+    }
+  ]
+}

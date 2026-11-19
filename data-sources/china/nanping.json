@@ -1,0 +1,28 @@
+{
+  "slug": "nanping",
+  "path": "asia/china/nanping",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "nanpingt1",
+      "name": "Wuyi Tram Line 1",
+      "match": {
+        "name": "武夷有轨电车"
+      }
+    }
+  ],
+  "cityName": "Nanping",
+  "gameTitle": "Wuyishan Tram Metro Memory",
+  "description": "How many of the Wuyishan tram stops can you name from memory?",
+  "groups": [
+    {
+      "title": "Wuyi New Tram",
+      "lines": [
+        "nanpingt1"
+      ]
+    }
+  ]
+}

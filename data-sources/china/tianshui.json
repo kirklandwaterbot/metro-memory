@@ -1,0 +1,35 @@
+{
+  "slug": "tianshui",
+  "path": "asia/china/tianshui",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "tianshui1",
+      "name": "Tram Line 1",
+      "match": {
+        "ref": "^1$"
+      }
+    },
+    {
+      "id": "tianshui2",
+      "name": "Tram Line 2",
+      "match": {
+        "route": "tram",
+        "ref": "^2$"
+      }
+    }
+  ],
+  "cityName": "Tianshui",
+  "groups": [
+    {
+      "title": "Tianshui Tram",
+      "lines": [
+        "tianshui1",
+        "tianshui2"
+      ]
+    }
+  ]
+}

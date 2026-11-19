@@ -1,0 +1,93 @@
+{
+  "slug": "hefei",
+  "path": "asia/china/hefei",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "合肥火车站": "Hefei Railway Station",
+    "合肥南站": "Hefei South Railway Station"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "hefei1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "合肥轨道交通"
+      }
+    },
+    {
+      "id": "hefei8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "合肥轨道交通"
+      }
+    }
+  ],
+  "cityName": "Hefei",
+  "groups": [
+    {
+      "title": "Hefei Rail Transit",
+      "lines": [
+        "hefei1",
+        "hefei2",
+        "hefei3",
+        "hefei4",
+        "hefei5",
+        "hefei6",
+        "hefei7",
+        "hefei8"
+      ]
+    }
+  ]
+}

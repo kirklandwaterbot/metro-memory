@@ -1,0 +1,26 @@
+{
+  "slug": "fenghuang",
+  "path": "asia/china/fenghuang",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "fenghuangmaglev",
+      "name": "Fenghuang Maglev",
+      "match": {
+        "name": "凤凰磁浮"
+      }
+    }
+  ],
+  "cityName": "Fenghuang",
+  "groups": [
+    {
+      "title": "Fenghuang Maglev Sightseeing Express",
+      "lines": [
+        "fenghuangmaglev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2816 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.719459,
+          25.026961
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Huancheng Road South",
+        "display_name": "Huancheng Road South (环城南路)",
+        "alternate_names": [
+          "Huancheng Road South",
+          "环城南路",
+          "環城南路",
+          "Huanchengnanlu",
+          "huan cheng nan lu",
+          "South Ring Road"
+        ],
+        "line": "kunming1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.721704,
+          25.016444
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Kunming Railway Station",
+        "display_name": "Kunming Railway Station (昆明火车站)",
+        "alternate_names": [
+          "Kunming Railway Station",
+          "昆明火车站",
+          "昆明火車站",
+          "Kunming",
+          "Kunminghuochezhan",
+          "kun ming huo che zhan"
+        ],
+        "line": "kunming1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.728643,
+          25.009998
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Fude",
+        "display_name": "Fude (福德)",
+        "alternate_names": [
+          "Fude",
+          "福德",
+          "fu de"
+        ],
+        "line": "kunming1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.733481,
+          25.004325
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Rixin Road",
+        "display_name": "Rixin Road (日新路)",
+        "alternate_names": [
+          "Rixin Road",
+          "日新路",
+          "Rixinlu",
+          "ri xin lu"
+        ],
+        "line": "kunming1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.74005,
+          24.999986
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Wujiaba",
+        "display_name": "Wujiaba (巫家坝)",
+        "alternate_names": [
+          "Wujiaba",
+          "巫家坝",
+          "巫家壩",
+          "wu jia ba"
+        ],
+        "line": "kunming1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.749645,
+          24.989155
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Changhong Road West",
+        "display_name": "Changhong Road West (昌宏西路)",
+        "alternate_names": [
+          "Changhong Road West",
+          "昌宏西路",
+          "Changhongxilu",
+          "chang hong xi lu",
+          "Changhong West Road"
+        ],
+        "line": "kunming1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.7597,
+          24.988253
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Xiaodongcun",
+        "display_name": "Xiaodongcun (晓东村)",
+        "alternate_names": [
+          "Xiaodongcun",
+          "晓东村",
+          "曉東村",
+          "xiao dong cun"
+        ],
+        "line": "kunming1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.765333,
+          24.975498
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Erji Road",
+        "display_name": "Erji Road (珥季路)",
+        "alternate_names": [
+          "Erji Road",
+          "珥季路",
+          "Erjilu",
+          "er ji lu"
+        ],
+        "line": "kunming1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.766589,
+          24.959845
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Xingyao Road",
+        "display_name": "Xingyao Road (星耀路)",
+        "alternate_names": [
+          "Xingyao Road",
+          "星耀路",
+          "Xingyaolu",
+          "xing yao lu"
+        ],
+        "line": "kunming1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.768129,
+          24.949949
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Xinyazhoutiyucheng",
+        "display_name": "Xinyazhoutiyucheng (新亚洲体育城)",
+        "alternate_names": [
+          "Xinyazhoutiyucheng",
+          "新亚洲体育城",
+          "新亞洲體育城",
+          "xin ya zhou ti yu cheng",
+          "New Asia Athletics Park"
+        ],
+        "line": "kunming1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.773664,
+          24.932238
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Nanbuqiche",
+        "display_name": "Nanbuqiche (南部汽车)",
+        "alternate_names": [
+          "Nanbuqiche",
+          "南部汽车",
+          "南部汽車",
+          "nan bu qi che",
+          "South Coach"
+        ],
+        "line": "kunming1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.790974,
+          24.911214
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Dounan",
+        "display_name": "Dounan (斗南)",
+        "alternate_names": [
+          "Dounan",
+          "斗南",
+          "dou nan"
+        ],
+        "line": "kunming1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.859402,
+          24.873081
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Kunming South Railway Station",
+        "display_name": "Kunming South Railway Station (昆明南火车站)",
+        "alternate_names": [
+          "Kunming South Railway Station",
+          "昆明南火车站",
+          "昆明南火車站",
+          "Kunming South",
+          "Kunmingnanhuochezhan",
+          "kun ming nan huo che zhan"
+        ],
+        "line": "kunming1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.850523,
+          24.877645
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Bailongtan",
+        "display_name": "Bailongtan (白龙潭)",
+        "alternate_names": [
+          "Bailongtan",
+          "白龙潭",
+          "白龍潭",
+          "bai long tan",
+          "Bailong Lake"
+        ],
+        "line": "kunming1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.843504,
+          24.887802
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Yihe Road",
+        "display_name": "Yihe Road (宜和路)",
+        "alternate_names": [
+          "Yihe Road",
+          "宜和路",
+          "Yihelu",
+          "yi he lu"
+        ],
+        "line": "kunming1",
+        "order": 14
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.835258,
+          24.885254
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Shijixingzhengzhongxin",
+        "display_name": "Shijixingzhengzhongxin (市级行政中心)",
+        "alternate_names": [
+          "Shijixingzhengzhongxin",
+          "市级行政中心",
+          "市級行政中心",
+          "shi ji xing zheng zhong xin",
+          "Municipal Administration Center"
+        ],
+        "line": "kunming1",
+        "order": 15
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.823925,
+          24.886975
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Chunrongjie",
+        "display_name": "Chunrongjie (春融街)",
+        "alternate_names": [
+          "Chunrongjie",
+          "春融街",
+          "chun rong jie",
+          "Chunrong Street"
+        ],
+        "line": "kunming1",
+        "order": 16
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.828188,
+          24.875035
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Tuofengjie",
+        "display_name": "Tuofengjie (驼峰街)",
+        "alternate_names": [
+          "Tuofengjie",
+          "驼峰街",
+          "駝峰街",
+          "tuo feng jie",
+          "Tuofeng Street"
+        ],
+        "line": "kunming1",
+        "order": 17
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.832529,
+          24.862638
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Lian Street",
+        "display_name": "Lian Street (联大街)",
+        "alternate_names": [
+          "Lian Street",
+          "联大街",
+          "聯大街",
+          "Liandajie",
+          "lian da jie",
+          "Lianda Street"
+        ],
+        "line": "kunming1",
+        "order": 18
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.836855,
+          24.85082
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Yikang Road South",
+        "display_name": "Yikang Road South (谊康南路)",
+        "alternate_names": [
+          "Yikang Road South",
+          "谊康南路",
+          "誼康南路",
+          "Yikangnanlu",
+          "yi kang nan lu",
+          "Yikang South Road"
+        ],
+        "line": "kunming1",
+        "order": 19
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.841011,
+          24.83914
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Daxuecheng",
+        "display_name": "Daxuecheng (大学城)",
+        "alternate_names": [
+          "Daxuecheng",
+          "大学城",
+          "大學城",
+          "da xue cheng",
+          "University Town"
+        ],
+        "line": "kunming1",
+        "order": 20
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.824599,
+          24.825091
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Daxuecheng South",
+        "display_name": "Daxuecheng South (大学城南)",
+        "alternate_names": [
+          "Daxuecheng South",
+          "大学城南",
+          "大學城南",
+          "Daxuechengnan",
+          "da xue cheng nan",
+          "University Town South"
+        ],
+        "line": "kunming1",
+        "order": 21
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.719459,
+          25.026961
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Huancheng Road South",
+        "display_name": "Huancheng Road South (环城南路)",
+        "alternate_names": [
+          "Huancheng Road South",
+          "环城南路",
+          "環城南路",
+          "Huanchengnanlu",
+          "huan cheng nan lu",
+          "South Ring Road"
+        ],
+        "line": "kunming2",
+        "order": 0
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.718617,
+          25.035446
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Tangzixiang",
+        "display_name": "Tangzixiang (塘子巷)",
+        "alternate_names": [
+          "Tangzixiang",
+          "塘子巷",
+          "tang zi xiang"
+        ],
+        "line": "kunming2",
+        "order": 1
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.718073,
+          25.041197
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Dongfeng Square",
+        "display_name": "Dongfeng Square (东风广场)",
+        "alternate_names": [
+          "Dongfeng Square",
+          "东风广场",
+          "東風廣場",
+          "Dongfengguangchang",
+          "dong feng guang chang"
+        ],
+        "line": "kunming2",
+        "order": 2
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.718188,
+          25.045433
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Jiaosanqiao",
+        "display_name": "Jiaosanqiao (交三桥)",
+        "alternate_names": [
+          "Jiaosanqiao",
+          "交三桥",
+          "交三橋",
+          "jiao san qiao"
+        ],
+        "line": "kunming2",
+        "order": 3
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.718053,
+          25.052411
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Chuanxingulou",
+        "display_name": "Chuanxingulou (穿心鼓楼)",
+        "alternate_names": [
+          "Chuanxingulou",
+          "穿心鼓楼",
+          "穿心鼓樓",
+          "chuan xin gu lou",
+          "Chuanxin Gulou"
+        ],
+        "line": "kunming2",
+        "order": 4
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.719217,
+          25.060098
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "North Railway Station",
+        "display_name": "North Railway Station (火车北站)",
+        "alternate_names": [
+          "North Railway Station",
+          "火车北站",
+          "火車北站",
+          "North",
+          "Huochebeizhan",
+          "huo che bei zhan",
+          "Kunming North",
+          "Huoche North Railway Station",
+          "Huoche North"
+        ],
+        "line": "kunming2",
+        "order": 5
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.722325,
+          25.068772
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Baiyun Road",
+        "display_name": "Baiyun Road (白云路)",
+        "alternate_names": [
+          "Baiyun Road",
+          "白云路",
+          "白雲路",
+          "Baiyunlu",
+          "bai yun lu"
+        ],
+        "line": "kunming2",
+        "order": 6
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.72632,
+          25.078896
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Jinxing",
+        "display_name": "Jinxing (金星)",
+        "alternate_names": [
+          "Jinxing",
+          "金星",
+          "jin xing"
+        ],
+        "line": "kunming2",
+        "order": 7
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.731081,
+          25.083974
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Beichen",
+        "display_name": "Beichen (北辰)",
+        "alternate_names": [
+          "Beichen",
+          "北辰",
+          "bei chen"
+        ],
+        "line": "kunming2",
+        "order": 8
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.737688,
+          25.096337
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Linyuqiao",
+        "display_name": "Linyuqiao (霖雨桥)",
+        "alternate_names": [
+          "Linyuqiao",
+          "霖雨桥",
+          "霖雨橋",
+          "lin yu qiao",
+          "Linyu bridge"
+        ],
+        "line": "kunming2",
+        "order": 9
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.740434,
+          25.103836
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Yangchangcun",
+        "display_name": "Yangchangcun (羊肠村)",
+        "alternate_names": [
+          "Yangchangcun",
+          "羊肠村",
+          "羊腸村",
+          "yang chang cun"
+        ],
+        "line": "kunming2",
+        "order": 10
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.744198,
+          25.112694
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Sijiaying",
+        "display_name": "Sijiaying (司家营)",
+        "alternate_names": [
+          "Sijiaying",
+          "司家营",
+          "司家營",
+          "si jia ying"
+        ],
+        "line": "kunming2",
+        "order": 11
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.752333,
+          25.114798
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Longtoujie",
+        "display_name": "Longtoujie (龙头街)",
+        "alternate_names": [
+          "Longtoujie",
+          "龙头街",
+          "龍頭街",
+          "long tou jie",
+          "Longtou Street"
+        ],
+        "line": "kunming2",
+        "order": 12
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.761901,
+          25.11013
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Beibuqiche",
+        "display_name": "Beibuqiche (北部汽车)",
+        "alternate_names": [
+          "Beibuqiche",
+          "北部汽车",
+          "北部汽車",
+          "bei bu qi che",
+          "North Coach"
+        ],
+        "line": "kunming2",
+        "order": 13
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.616844,
+          24.987311
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Xishan Park",
+        "display_name": "Xishan Park (西山公园)",
+        "alternate_names": [
+          "Xishan Park",
+          "西山公园",
+          "西山公園",
+          "Xishangongyuan",
+          "xi shan gong yuan",
+          "Western Hills Park"
+        ],
+        "line": "kunming3",
+        "order": 0
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.614556,
+          24.997696
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Chejiabi",
+        "display_name": "Chejiabi (车家壁)",
+        "alternate_names": [
+          "Chejiabi",
+          "车家壁",
+          "車家壁",
+          "che jia bi"
+        ],
+        "line": "kunming3",
+        "order": 1
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.619945,
+          25.008202
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Pupingcun",
+        "display_name": "Pupingcun (普坪村)",
+        "alternate_names": [
+          "Pupingcun",
+          "普坪村",
+          "pu ping cun"
+        ],
+        "line": "kunming3",
+        "order": 2
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.628338,
+          25.021589
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Shizui",
+        "display_name": "Shizui (石咀)",
+        "alternate_names": [
+          "Shizui",
+          "石咀",
+          "shi zui"
+        ],
+        "line": "kunming3",
+        "order": 3
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.634449,
+          25.030963
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Dayu Road",
+        "display_name": "Dayu Road (大渔路)",
+        "alternate_names": [
+          "Dayu Road",
+          "大渔路",
+          "大漁路",
+          "Dayulu",
+          "da yu lu"
+        ],
+        "line": "kunming3",
+        "order": 4
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.637661,
+          25.038761
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Xibuqiche",
+        "display_name": "Xibuqiche (西部汽车)",
+        "alternate_names": [
+          "Xibuqiche",
+          "西部汽车",
+          "西部汽車",
+          "xi bu qi che",
+          "West Bus"
+        ],
+        "line": "kunming3",
+        "order": 5
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.64825,
+          25.050263
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Mianshan",
+        "display_name": "Mianshan (眠山)",
+        "alternate_names": [
+          "Mianshan",
+          "眠山",
+          "mian shan"
+        ],
+        "line": "kunming3",
+        "order": 6
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.655639,
+          25.049724
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Changyuan Road Middle",
+        "display_name": "Changyuan Road Middle (昌源中路)",
+        "alternate_names": [
+          "Changyuan Road Middle",
+          "昌源中路",
+          "Changyuanzhonglu",
+          "chang yuan zhong lu",
+          "Changyuan Middle Road"
+        ],
+        "line": "kunming3",
+        "order": 7
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.664582,
+          25.049045
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Xiyuan",
+        "display_name": "Xiyuan (西苑)",
+        "alternate_names": [
+          "Xiyuan",
+          "西苑",
+          "xi yuan"
+        ],
+        "line": "kunming3",
+        "order": 8
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.676259,
+          25.048193
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Liangjiahe",
+        "display_name": "Liangjiahe (梁家河)",
+        "alternate_names": [
+          "Liangjiahe",
+          "梁家河",
+          "liang jia he"
+        ],
+        "line": "kunming3",
+        "order": 9
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.687134,
+          25.047401
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Shitiyuguan",
+        "display_name": "Shitiyuguan (市体育馆)",
+        "alternate_names": [
+          "Shitiyuguan",
+          "市体育馆",
+          "市體育館",
+          "shi ti yu guan",
+          "Municipal Gymnasium"
+        ],
+        "line": "kunming3",
+        "order": 10
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.693809,
+          25.046862
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Panjiawan",
+        "display_name": "Panjiawan (潘家湾)",
+        "alternate_names": [
+          "Panjiawan",
+          "潘家湾",
+          "潘家灣",
+          "pan jia wan"
+        ],
+        "line": "kunming3",
+        "order": 11
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.703843,
+          25.040478
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Wuyi Road",
+        "display_name": "Wuyi Road (五一路)",
+        "alternate_names": [
+          "Wuyi Road",
+          "五一路",
+          "Wuyilu",
+          "wu yi lu"
+        ],
+        "line": "kunming3",
+        "order": 12
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.718073,
+          25.041197
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Dongfeng Square",
+        "display_name": "Dongfeng Square (东风广场)",
+        "alternate_names": [
+          "Dongfeng Square",
+          "东风广场",
+          "東風廣場",
+          "Dongfengguangchang",
+          "dong feng guang chang"
+        ],
+        "line": "kunming3",
+        "order": 13
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.728455,
+          25.041206
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Tuodongtiyuguan",
+        "display_name": "Tuodongtiyuguan (拓东体育馆)",
+        "alternate_names": [
+          "Tuodongtiyuguan",
+          "拓东体育馆",
+          "拓東體育館",
+          "tuo dong ti yu guan",
+          "Tuodong Stadium"
+        ],
+        "line": "kunming3",
+        "order": 14
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.739421,
+          25.04019
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Dashuying",
+        "display_name": "Dashuying (大树营)",
+        "alternate_names": [
+          "Dashuying",
+          "大树营",
+          "大樹營",
+          "da shu ying"
+        ],
+        "line": "kunming3",
+        "order": 15
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.750262,
+          25.039041
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Jinmasi",
+        "display_name": "Jinmasi (金马寺)",
+        "alternate_names": [
+          "Jinmasi",
+          "金马寺",
+          "金馬寺",
+          "jin ma si",
+          "Jinma temple"
+        ],
+        "line": "kunming3",
+        "order": 16
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.759093,
+          25.039323
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Taipingcun",
+        "display_name": "Taipingcun (太平村)",
+        "alternate_names": [
+          "Taipingcun",
+          "太平村",
+          "tai ping cun"
+        ],
+        "line": "kunming3",
+        "order": 17
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.77169,
+          25.039071
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Hongqiao",
+        "display_name": "Hongqiao (虹桥)",
+        "alternate_names": [
+          "Hongqiao",
+          "虹桥",
+          "虹橋",
+          "hong qiao"
+        ],
+        "line": "kunming3",
+        "order": 18
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.787157,
+          25.039118
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Dongbuqiche",
+        "display_name": "Dongbuqiche (东部汽车)",
+        "alternate_names": [
+          "Dongbuqiche",
+          "东部汽车",
+          "東部汽車",
+          "dong bu qi che",
+          "East Coach"
+        ],
+        "line": "kunming3",
+        "order": 19
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.859402,
+          24.873081
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Kunming South Railway Station",
+        "display_name": "Kunming South Railway Station (昆明南火车站)",
+        "alternate_names": [
+          "Kunming South Railway Station",
+          "昆明南火车站",
+          "昆明南火車站",
+          "Kunming South",
+          "Kunmingnanhuochezhan",
+          "kun ming nan huo che zhan"
+        ],
+        "line": "kunming4",
+        "order": 0
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.847131,
+          24.869329
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Wujiaying",
+        "display_name": "Wujiaying (吴家营)",
+        "alternate_names": [
+          "Wujiaying",
+          "吴家营",
+          "吳家營",
+          "wu jia ying"
+        ],
+        "line": "kunming4",
+        "order": 1
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.832529,
+          24.862638
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Lian Street",
+        "display_name": "Lian Street (联大街)",
+        "alternate_names": [
+          "Lian Street",
+          "联大街",
+          "聯大街",
+          "Liandajie",
+          "lian da jie",
+          "Lianda Street"
+        ],
+        "line": "kunming4",
+        "order": 2
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.812717,
+          24.856716
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Niutoushan",
+        "display_name": "Niutoushan (牛头山)",
+        "alternate_names": [
+          "Niutoushan",
+          "牛头山",
+          "牛頭山",
+          "niu tou shan"
+        ],
+        "line": "kunming4",
+        "order": 3
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.801413,
+          24.86045
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Xiangfengjie",
+        "display_name": "Xiangfengjie (祥丰街)",
+        "alternate_names": [
+          "Xiangfengjie",
+          "祥丰街",
+          "祥豐街",
+          "xiang feng jie",
+          "Xiangfeng Street"
+        ],
+        "line": "kunming4",
+        "order": 4
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.795126,
+          24.877128
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Kelecun",
+        "display_name": "Kelecun (可乐村)",
+        "alternate_names": [
+          "Kelecun",
+          "可乐村",
+          "可樂村",
+          "ke le cun"
+        ],
+        "line": "kunming4",
+        "order": 5
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.790961,
+          24.885236
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Gucheng",
+        "display_name": "Gucheng (古城)",
+        "alternate_names": [
+          "Gucheng",
+          "古城",
+          "gu cheng"
+        ],
+        "line": "kunming4",
+        "order": 6
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.784363,
+          24.895683
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Meizicun",
+        "display_name": "Meizicun (梅子村)",
+        "alternate_names": [
+          "Meizicun",
+          "梅子村",
+          "mei zi cun"
+        ],
+        "line": "kunming4",
+        "order": 7
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.789452,
+          24.904672
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Jinguijie",
+        "display_name": "Jinguijie (金桂街)",
+        "alternate_names": [
+          "Jinguijie",
+          "金桂街",
+          "jin gui jie",
+          "Jingui Street"
+        ],
+        "line": "kunming4",
+        "order": 8
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.790974,
+          24.911214
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Dounan",
+        "display_name": "Dounan (斗南)",
+        "alternate_names": [
+          "Dounan",
+          "斗南",
+          "dou nan"
+        ],
+        "line": "kunming4",
+        "order": 9
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.785878,
+          24.940237
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Tami",
+        "display_name": "Tami (塔密)",
+        "alternate_names": [
+          "Tami",
+          "塔密",
+          "ta mi"
+        ],
+        "line": "kunming4",
+        "order": 10
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.783891,
+          24.952261
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Guangwei",
+        "display_name": "Guangwei (广卫)",
+        "alternate_names": [
+          "Guangwei",
+          "广卫",
+          "廣衛",
+          "guang wei"
+        ],
+        "line": "kunming4",
+        "order": 11
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.785141,
+          24.9677
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Yuyuan Road",
+        "display_name": "Yuyuan Road (玉缘路)",
+        "alternate_names": [
+          "Yuyuan Road",
+          "玉缘路",
+          "玉緣路",
+          "Yuyuanlu",
+          "yu yuan lu"
+        ],
+        "line": "kunming4",
+        "order": 12
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.784177,
+          24.981197
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Yangfutou",
+        "display_name": "Yangfutou (羊甫头)",
+        "alternate_names": [
+          "Yangfutou",
+          "羊甫头",
+          "羊甫頭",
+          "yang fu tou"
+        ],
+        "line": "kunming4",
+        "order": 13
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.782161,
+          24.996659
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Zhujiacun",
+        "display_name": "Zhujiacun (朱家村)",
+        "alternate_names": [
+          "Zhujiacun",
+          "朱家村",
+          "zhu jia cun"
+        ],
+        "line": "kunming4",
+        "order": 14
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.777121,
+          25.008573
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Niujiezhuang",
+        "display_name": "Niujiezhuang (牛街庄)",
+        "alternate_names": [
+          "Niujiezhuang",
+          "牛街庄",
+          "牛街莊",
+          "niu jie zhuang"
+        ],
+        "line": "kunming4",
+        "order": 15
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.761089,
+          25.017868
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Hedianying",
+        "display_name": "Hedianying (和甸营)",
+        "alternate_names": [
+          "Hedianying",
+          "和甸营",
+          "和甸營",
+          "he dian ying"
+        ],
+        "line": "kunming4",
+        "order": 16
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.748193,
+          25.027809
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Juhua",
+        "display_name": "Juhua (菊华)",
+        "alternate_names": [
+          "Juhua",
+          "菊华",
+          "菊華",
+          "ju hua"
+        ],
+        "line": "kunming4",
+        "order": 17
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.741655,
+          25.032986
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Juhuacun",
+        "display_name": "Juhuacun (菊花村)",
+        "alternate_names": [
+          "Juhuacun",
+          "菊花村",
+          "ju hua cun"
+        ],
+        "line": "kunming4",
+        "order": 18
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.739421,
+          25.04019
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Dashuying",
+        "display_name": "Dashuying (大树营)",
+        "alternate_names": [
+          "Dashuying",
+          "大树营",
+          "大樹營",
+          "da shu ying"
+        ],
+        "line": "kunming4",
+        "order": 19
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.73338,
+          25.052162
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Bailong Road",
+        "display_name": "Bailong Road (白龙路)",
+        "alternate_names": [
+          "Bailong Road",
+          "白龙路",
+          "白龍路",
+          "Bailonglu",
+          "bai long lu",
+          "Bailong Street"
+        ],
+        "line": "kunming4",
+        "order": 20
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.719217,
+          25.060098
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "North Railway Station",
+        "display_name": "North Railway Station (火车北站)",
+        "alternate_names": [
+          "North Railway Station",
+          "火车北站",
+          "火車北站",
+          "North",
+          "Huochebeizhan",
+          "huo che bei zhan",
+          "Kunming North",
+          "Huoche North Railway Station",
+          "Huoche North"
+        ],
+        "line": "kunming4",
+        "order": 21
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.704504,
+          25.063328
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Xiaocaiyuan",
+        "display_name": "Xiaocaiyuan (小菜园)",
+        "alternate_names": [
+          "Xiaocaiyuan",
+          "小菜园",
+          "小菜園",
+          "xiao cai yuan"
+        ],
+        "line": "kunming4",
+        "order": 22
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.691997,
+          25.066599
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Sujiatang",
+        "display_name": "Sujiatang (苏家塘)",
+        "alternate_names": [
+          "Sujiatang",
+          "苏家塘",
+          "蘇家塘",
+          "su jia tang"
+        ],
+        "line": "kunming4",
+        "order": 23
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.683932,
+          25.067091
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Jindingshan Road North",
+        "display_name": "Jindingshan Road North (金鼎山北路)",
+        "alternate_names": [
+          "Jindingshan Road North",
+          "金鼎山北路",
+          "Jindingshanbeilu",
+          "jin ding shan bei lu",
+          "Jindingshan North Road"
+        ],
+        "line": "kunming4",
+        "order": 24
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.671843,
+          25.07539
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Xiaotun",
+        "display_name": "Xiaotun (小屯)",
+        "alternate_names": [
+          "Xiaotun",
+          "小屯",
+          "xiao tun"
+        ],
+        "line": "kunming4",
+        "order": 25
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.661884,
+          25.079702
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Haitun Road",
+        "display_name": "Haitun Road (海屯路)",
+        "alternate_names": [
+          "Haitun Road",
+          "海屯路",
+          "Haitunlu",
+          "hai tun lu"
+        ],
+        "line": "kunming4",
+        "order": 26
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.653967,
+          25.093137
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Dahegeng",
+        "display_name": "Dahegeng (大河埂)",
+        "alternate_names": [
+          "Dahegeng",
+          "大河埂",
+          "da he geng"
+        ],
+        "line": "kunming4",
+        "order": 27
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.655948,
+          25.102158
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Jinchuan Road",
+        "display_name": "Jinchuan Road (金川路)",
+        "alternate_names": [
+          "Jinchuan Road",
+          "金川路",
+          "Jinchuanlu",
+          "jin chuan lu"
+        ],
+        "line": "kunming4",
+        "order": 28
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.721713,
+          24.933555
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Baofeng",
+        "display_name": "Baofeng (宝丰)",
+        "alternate_names": [
+          "Baofeng",
+          "宝丰",
+          "寶豐",
+          "bao feng"
+        ],
+        "line": "kunming5",
+        "order": 0
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.706976,
+          24.942004
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Dianchiguoji Exhibition Center",
+        "display_name": "Dianchiguoji Exhibition Center (滇池国际会展中心)",
+        "alternate_names": [
+          "Dianchiguoji Exhibition Center",
+          "滇池国际会展中心",
+          "滇池國際會展中心",
+          "Dianchiguojihuizhanzhongxin",
+          "dian chi guo ji hui zhan zhong xin",
+          "Dianchi International Convention and Exhibition Center"
+        ],
+        "line": "kunming5",
+        "order": 1
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.69525,
+          24.947653
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Fubao",
+        "display_name": "Fubao (福保)",
+        "alternate_names": [
+          "Fubao",
+          "福保",
+          "fu bao"
+        ],
+        "line": "kunming5",
+        "order": 2
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.691811,
+          24.964672
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Jinjiahe",
+        "display_name": "Jinjiahe (金家河)",
+        "alternate_names": [
+          "Jinjiahe",
+          "金家河",
+          "jin jia he",
+          "Jinjia River"
+        ],
+        "line": "kunming5",
+        "order": 3
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.691698,
+          24.976205
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Zhuangjiatanglijiaoqiao",
+        "display_name": "Zhuangjiatanglijiaoqiao (庄家塘立交桥)",
+        "alternate_names": [
+          "Zhuangjiatanglijiaoqiao",
+          "庄家塘立交桥",
+          "莊家塘立交橋",
+          "zhuang jia tang li jiao qiao",
+          "Zhuangjiatang Overpass"
+        ],
+        "line": "kunming5",
+        "order": 4
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.678569,
+          24.978189
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Xingti Road",
+        "display_name": "Xingti Road (兴体路)",
+        "alternate_names": [
+          "Xingti Road",
+          "兴体路",
+          "興體路",
+          "Xingtilu",
+          "xing ti lu"
+        ],
+        "line": "kunming5",
+        "order": 5
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.669183,
+          24.979721
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Yuhucun",
+        "display_name": "Yuhucun (渔户村)",
+        "alternate_names": [
+          "Yuhucun",
+          "渔户村",
+          "漁戶村",
+          "yu hu cun"
+        ],
+        "line": "kunming5",
+        "order": 6
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.662334,
+          24.987425
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Yinghai Road",
+        "display_name": "Yinghai Road (迎海路)",
+        "alternate_names": [
+          "Yinghai Road",
+          "迎海路",
+          "Yinghailu",
+          "ying hai lu"
+        ],
+        "line": "kunming5",
+        "order": 7
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.663141,
+          24.997925
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Daba",
+        "display_name": "Daba (大坝)",
+        "alternate_names": [
+          "Daba",
+          "大坝",
+          "大壩",
+          "da ba"
+        ],
+        "line": "kunming5",
+        "order": 8
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.672877,
+          25.007359
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Guangfuluxikou",
+        "display_name": "Guangfuluxikou (广福路西口)",
+        "alternate_names": [
+          "Guangfuluxikou",
+          "广福路西口",
+          "廣福路西口",
+          "guang fu lu xi kou"
+        ],
+        "line": "kunming5",
+        "order": 9
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.683878,
+          25.013956
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Fuhai",
+        "display_name": "Fuhai (福海)",
+        "alternate_names": [
+          "Fuhai",
+          "福海",
+          "fu hai"
+        ],
+        "line": "kunming5",
+        "order": 10
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.688996,
+          25.017014
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Jinlan Road",
+        "display_name": "Jinlan Road (金兰路)",
+        "alternate_names": [
+          "Jinlan Road",
+          "金兰路",
+          "金蘭路",
+          "Jinlanlu",
+          "jin lan lu"
+        ],
+        "line": "kunming5",
+        "order": 11
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.696779,
+          25.02357
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Yanjiadi",
+        "display_name": "Yanjiadi (严家地)",
+        "alternate_names": [
+          "Yanjiadi",
+          "严家地",
+          "嚴家地",
+          "yan jia di"
+        ],
+        "line": "kunming5",
+        "order": 12
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.698567,
+          25.034994
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Milesi",
+        "display_name": "Milesi (弥勒寺)",
+        "alternate_names": [
+          "Milesi",
+          "弥勒寺",
+          "彌勒寺",
+          "mi le si"
+        ],
+        "line": "kunming5",
+        "order": 13
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.703843,
+          25.040478
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Wuyi Road",
+        "display_name": "Wuyi Road (五一路)",
+        "alternate_names": [
+          "Wuyi Road",
+          "五一路",
+          "Wuyilu",
+          "wu yi lu"
+        ],
+        "line": "kunming5",
+        "order": 14
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.706207,
+          25.047861
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Huashan Road West",
+        "display_name": "Huashan Road West (华山西路)",
+        "alternate_names": [
+          "Huashan Road West",
+          "华山西路",
+          "華山西路",
+          "Huashanxilu",
+          "hua shan xi lu",
+          "Huashan West Road"
+        ],
+        "line": "kunming5",
+        "order": 15
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.711374,
+          25.057939
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Yuantongshan",
+        "display_name": "Yuantongshan (圆通山)",
+        "alternate_names": [
+          "Yuantongshan",
+          "圆通山",
+          "圓通山",
+          "yuan tong shan",
+          "Yuantong Hill"
+        ],
+        "line": "kunming5",
+        "order": 16
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.719217,
+          25.060098
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "North Railway Station",
+        "display_name": "North Railway Station (火车北站)",
+        "alternate_names": [
+          "North Railway Station",
+          "火车北站",
+          "火車北站",
+          "North",
+          "Huochebeizhan",
+          "huo che bei zhan",
+          "Kunming North",
+          "Huoche North Railway Station",
+          "Huoche North"
+        ],
+        "line": "kunming5",
+        "order": 17
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.728534,
+          25.057607
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Chuanjin Road",
+        "display_name": "Chuanjin Road (穿金路)",
+        "alternate_names": [
+          "Chuanjin Road",
+          "穿金路",
+          "Chuanjinlu",
+          "chuan jin lu"
+        ],
+        "line": "kunming5",
+        "order": 18
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.739001,
+          25.05632
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Shizha",
+        "display_name": "Shizha (石闸)",
+        "alternate_names": [
+          "Shizha",
+          "石闸",
+          "石閘",
+          "shi zha"
+        ],
+        "line": "kunming5",
+        "order": 19
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.746668,
+          25.063916
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Bailongsi",
+        "display_name": "Bailongsi (白龙寺)",
+        "alternate_names": [
+          "Bailongsi",
+          "白龙寺",
+          "白龍寺",
+          "bai long si"
+        ],
+        "line": "kunming5",
+        "order": 20
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.752918,
+          25.072067
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Shiboyuan",
+        "display_name": "Shiboyuan (世博园)",
+        "alternate_names": [
+          "Shiboyuan",
+          "世博园",
+          "世博園",
+          "shi bo yuan",
+          "World Horti-Expo Garden"
+        ],
+        "line": "kunming5",
+        "order": 21
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.926257,
+          25.098551
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Jichangzhongxin",
+        "display_name": "Jichangzhongxin (机场中心)",
+        "alternate_names": [
+          "Jichangzhongxin",
+          "机场中心",
+          "機場中心",
+          "ji chang zhong xin",
+          "Kunming Airport"
+        ],
+        "line": "kunming6",
+        "order": 0
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.911323,
+          25.087943
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Jichangqian",
+        "display_name": "Jichangqian (机场前)",
+        "alternate_names": [
+          "Jichangqian",
+          "机场前",
+          "機場前",
+          "ji chang qian",
+          "Airport Front"
+        ],
+        "line": "kunming6",
+        "order": 1
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.875118,
+          25.056462
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Dabanqiao",
+        "display_name": "Dabanqiao (大板桥)",
+        "alternate_names": [
+          "Dabanqiao",
+          "大板桥",
+          "大板橋",
+          "da ban qiao"
+        ],
+        "line": "kunming6",
+        "order": 2
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.787157,
+          25.039118
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Dongbuqiche",
+        "display_name": "Dongbuqiche (东部汽车)",
+        "alternate_names": [
+          "Dongbuqiche",
+          "东部汽车",
+          "東部汽車",
+          "dong bu qi che",
+          "East Coach"
+        ],
+        "line": "kunming6",
+        "order": 3
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.748193,
+          25.027809
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Juhua",
+        "display_name": "Juhua (菊华)",
+        "alternate_names": [
+          "Juhua",
+          "菊华",
+          "菊華",
+          "ju hua"
+        ],
+        "line": "kunming6",
+        "order": 4
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.739615,
+          25.030543
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Dongjiao Road",
+        "display_name": "Dongjiao Road (东郊路)",
+        "alternate_names": [
+          "Dongjiao Road",
+          "东郊路",
+          "東郊路",
+          "Dongjiaolu",
+          "dong jiao lu"
+        ],
+        "line": "kunming6",
+        "order": 5
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.732922,
+          25.033976
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Chajie",
+        "display_name": "Chajie (岔街)",
+        "alternate_names": [
+          "Chajie",
+          "岔街",
+          "cha jie"
+        ],
+        "line": "kunming6",
+        "order": 6
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.718617,
+          25.035446
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Tangzixiang",
+        "display_name": "Tangzixiang (塘子巷)",
+        "alternate_names": [
+          "Tangzixiang",
+          "塘子巷",
+          "tang zi xiang"
+        ],
+        "line": "kunming6",
+        "order": 7
+      },
+      "id": 115
+    }
+  ]
+}

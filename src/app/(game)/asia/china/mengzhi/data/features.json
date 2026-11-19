@@ -1,0 +1,376 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.366993,
+          23.380074
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Qichekeyun",
+        "display_name": "Qichekeyun (汽车客运)",
+        "alternate_names": [
+          "Qichekeyun",
+          "汽车客运",
+          "汽車客運",
+          "qi che ke yun",
+          "Bus"
+        ],
+        "line": "mengzhim1",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.362019,
+          23.386788
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Zhenxing Road",
+        "display_name": "Zhenxing Road (振兴路)",
+        "alternate_names": [
+          "Zhenxing Road",
+          "振兴路",
+          "振興路",
+          "Zhenxinglu",
+          "zhen xing lu"
+        ],
+        "line": "mengzhim1",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.359613,
+          23.390696
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Wenlan Park",
+        "display_name": "Wenlan Park (文澜公园)",
+        "alternate_names": [
+          "Wenlan Park",
+          "文澜公园",
+          "文瀾公園",
+          "Wenlangongyuan",
+          "wen lan gong yuan"
+        ],
+        "line": "mengzhim1",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.355169,
+          23.397837
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Shixingzhengzhongxin",
+        "display_name": "Shixingzhengzhongxin (市行政中心)",
+        "alternate_names": [
+          "Shixingzhengzhongxin",
+          "市行政中心",
+          "shi xing zheng zhong xin",
+          "Municipal Administrative Center"
+        ],
+        "line": "mengzhim1",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.351919,
+          23.404806
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Changqiaozuo'an",
+        "display_name": "Changqiaozuo'an (长桥左岸)",
+        "alternate_names": [
+          "Changqiaozuo'an",
+          "长桥左岸",
+          "長橋左岸",
+          "chang qiao zuo an",
+          "Zhǎng qiáo zuǒ'àn"
+        ],
+        "line": "mengzhim1",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.350741,
+          23.411438
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Shilipu",
+        "display_name": "Shilipu (十里铺)",
+        "alternate_names": [
+          "Shilipu",
+          "十里铺",
+          "十里鋪",
+          "shi li pu"
+        ],
+        "line": "mengzhim1",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.343833,
+          23.424596
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Sipuying",
+        "display_name": "Sipuying (四普营)",
+        "alternate_names": [
+          "Sipuying",
+          "四普营",
+          "四普營",
+          "si pu ying"
+        ],
+        "line": "mengzhim1",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.338584,
+          23.430871
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Huigui Road",
+        "display_name": "Huigui Road (回归路)",
+        "alternate_names": [
+          "Huigui Road",
+          "回归路",
+          "迴歸路",
+          "Huiguilu",
+          "hui gui lu"
+        ],
+        "line": "mengzhim1",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.333018,
+          23.437945
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nisuxiaozhen",
+        "display_name": "Nisuxiaozhen (尼苏小镇)",
+        "alternate_names": [
+          "Nisuxiaozhen",
+          "尼苏小镇",
+          "尼蘇小鎮",
+          "ni su xiao zhen",
+          "Nisu Xiaozhen"
+        ],
+        "line": "mengzhim1",
+        "order": 8
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.323967,
+          23.449201
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Longtouzhai",
+        "display_name": "Longtouzhai (龙头寨)",
+        "alternate_names": [
+          "Longtouzhai",
+          "龙头寨",
+          "龍頭寨",
+          "long tou zhai"
+        ],
+        "line": "mengzhim1",
+        "order": 9
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.324003,
+          23.456522
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Jichang Road",
+        "display_name": "Jichang Road (机场路)",
+        "alternate_names": [
+          "Jichang Road",
+          "机场路",
+          "機場路",
+          "Jichanglu",
+          "ji chang lu",
+          "Airport Road"
+        ],
+        "line": "mengzhim1",
+        "order": 10
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.31792,
+          23.463024
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Yuguopu",
+        "display_name": "Yuguopu (雨过铺)",
+        "alternate_names": [
+          "Yuguopu",
+          "雨过铺",
+          "雨過鋪",
+          "yu guo pu",
+          "Yǔguò pù"
+        ],
+        "line": "mengzhim1",
+        "order": 11
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.307135,
+          23.466903
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Jiangshuidixincun",
+        "display_name": "Jiangshuidixincun (江水地新村)",
+        "alternate_names": [
+          "Jiangshuidixincun",
+          "江水地新村",
+          "jiang shui di xin cun",
+          "Jiangshuidi New Village"
+        ],
+        "line": "mengzhim1",
+        "order": 12
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.300831,
+          23.466995
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Honghezongbaoqu",
+        "display_name": "Honghezongbaoqu (红河综保区)",
+        "alternate_names": [
+          "Honghezongbaoqu",
+          "红河综保区",
+          "紅河綜保區",
+          "hong he zong bao qu",
+          "Honghe Comprehensive Bonded Zone"
+        ],
+        "line": "mengzhim1",
+        "order": 13
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.299979,
+          23.468549
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Mengzi North Railway Station",
+        "display_name": "Mengzi North Railway Station (蒙自北站)",
+        "alternate_names": [
+          "Mengzi North Railway Station",
+          "蒙自北站",
+          "Mengzi North",
+          "Mengzibeizhan",
+          "meng zi bei zhan"
+        ],
+        "line": "mengzhim1",
+        "order": 14
+      },
+      "id": 15
+    }
+  ]
+}

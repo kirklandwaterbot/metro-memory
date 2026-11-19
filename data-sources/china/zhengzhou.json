@@ -1,0 +1,138 @@
+{
+  "slug": "zhengzhou",
+  "path": "asia/china/zhengzhou",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "郑州火车站": "Zhengzhou Railway Station",
+    "郑州东站": "Zhengzhou East Railway Station",
+    "二七广场": "Erqi Square",
+    "新郑机场": "Xinzheng Airport"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "zhengzhou1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou12",
+      "name": "Line 12",
+      "match": {
+        "ref": "^12$",
+        "route": "subway"
+      }
+    },
+    {
+      "id": "zhengzhou9",
+      "name": "Chengjiao Line (Line 9)",
+      "match": {
+        "route": "subway",
+        "ref": "^9$"
+      }
+    },
+    {
+      "id": "zhengzhou14",
+      "name": "Line 14",
+      "match": {
+        "name": "14号线"
+      }
+    },
+    {
+      "id": "zhengzhouzhengxu",
+      "name": "Zhengxu Line",
+      "match": {
+        "ref": "^Zhengxu$"
+      }
+    }
+  ],
+  "cityName": "Zhengzhou",
+  "groups": [
+    {
+      "title": "Zhengzhou Metro",
+      "lines": [
+        "zhengzhou1",
+        "zhengzhou2",
+        "zhengzhou3",
+        "zhengzhou4",
+        "zhengzhou5",
+        "zhengzhou6",
+        "zhengzhou7",
+        "zhengzhou8",
+        "zhengzhou10",
+        "zhengzhou12",
+        "zhengzhou9",
+        "zhengzhou14",
+        "zhengzhouzhengxu"
+      ]
+    }
+  ]
+}

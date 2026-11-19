@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.599389,
+          28.019183
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Fenghuanggucheng",
+        "display_name": "Fenghuanggucheng (凤凰古城)",
+        "alternate_names": [
+          "Fenghuanggucheng",
+          "凤凰古城",
+          "鳳凰古城",
+          "feng huang gu cheng"
+        ],
+        "line": "fenghuangmaglev",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.588325,
+          27.970682
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Fenghuangyingbin",
+        "display_name": "Fenghuangyingbin (凤凰迎宾)",
+        "alternate_names": [
+          "Fenghuangyingbin",
+          "凤凰迎宾",
+          "鳳凰迎賓",
+          "feng huang ying bin",
+          "Fenghuang Yingbin"
+        ],
+        "line": "fenghuangmaglev",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.593473,
+          27.962136
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Fenghuangzhiyan",
+        "display_name": "Fenghuangzhiyan (凤凰之眼)",
+        "alternate_names": [
+          "Fenghuangzhiyan",
+          "凤凰之眼",
+          "鳳凰之眼",
+          "feng huang zhi yan",
+          "Eye of the Fenghuang"
+        ],
+        "line": "fenghuangmaglev",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.610681,
+          27.957939
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Fenghuangdengdai",
+        "display_name": "Fenghuangdengdai (凤凰等待)",
+        "alternate_names": [
+          "Fenghuangdengdai",
+          "凤凰等待",
+          "鳳凰等待",
+          "feng huang deng dai",
+          "Fenghuang Dengdai"
+        ],
+        "line": "fenghuangmaglev",
+        "order": 3
+      },
+      "id": 4
+    }
+  ]
+}

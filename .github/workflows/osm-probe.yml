@@ -3,14 +3,18 @@ name: OSM Probe
 # Snapshots the rail network of each area in data-sources/probes/requests/
 # (operating, under-construction and proposed lines and stations) from
 # OpenStreetMap and pushes the compact results to the `osm-probes` branch,
-# so city data can be checked offline. Data © OpenStreetMap contributors (ODbL).
+# so city data can be checked offline. Areas that changed are probed in
+# parallel jobs (separate runners, so one slow Overpass answer can't hold
+# the rest up). Data © OpenStreetMap contributors (ODbL).
 
 on:
   push:
     paths:
       - 'data-sources/probes/requests/**'
       - 'scripts/cities/osm-probe.js'
+      - 'scripts/cities/osm-probe-pbf.py'
       - '.github/workflows/osm-probe.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,16 +24,118 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+      extract: ${{ steps.list.outputs.extract }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: list
+        run: |
+          mkdir -p /tmp/probes
+          if git fetch --depth 1 origin osm-probes 2>/dev/null; then
+            git --work-tree=/tmp/probes checkout FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q
+          fi
+          # areas whose snapshot is missing or was made for another bbox/version
+          slugs=$(node -e '
+            const fs = require("fs")
+            const dir = "data-sources/probes/requests"
+            const out = []
+            for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+              const req = JSON.parse(fs.readFileSync(`${dir}/${f}`, "utf8"))
+              let prev = null
+              try { prev = JSON.parse(fs.readFileSync(`/tmp/probes/${req.slug}.json`, "utf8")) } catch {}
+              if (!prev || JSON.stringify(prev.bbox) !== JSON.stringify(req.bbox) || prev.requestVersion !== (req.version || 1)) out.push(req)
+            }
+            console.log(JSON.stringify({ overpass: out.filter((r) => !r.extract).map((r) => r.slug), extract: out.filter((r) => r.extract).map((r) => r.slug) }))
+          ')
+          echo "slugs=$(echo "$slugs" | jq -c .overpass)" >> "$GITHUB_OUTPUT"
+          echo "extract=$(echo "$slugs" | jq -c .extract)" >> "$GITHUB_OUTPUT"
+          echo "$slugs"
+
   probe:
+    needs: list
+    if: needs.list.outputs.slugs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        slug: ${{ fromJson(needs.list.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Probe ${{ matrix.slug }}
+        run: node scripts/cities/osm-probe.js --out=/tmp/out --only=${{ matrix.slug }} --force
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe-${{ matrix.slug }}
+          path: /tmp/out/${{ matrix.slug }}.json
+          retention-days: 3
+
+  # Areas with "extract": read from a Geofabrik regional extract instead of
+  # Overpass (the public Overpass servers often hang on these).
+  probe-extract:
+    needs: list
+    if: needs.list.outputs.extract != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v5
-
-      - uses: actions/setup-node@v5
+      - name: Install osmium
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+          pip install --quiet osmium
+      - name: Probe from extracts
+        env:
+          SLUGS: ${{ needs.list.outputs.extract }}
+        run: |
+          mkdir -p /tmp/osm /tmp/out
+          for slug in $(echo "$SLUGS" | jq -r '.[]'); do
+            req="data-sources/probes/requests/$slug.json"
+            region=$(jq -r .extract "$req")
+            name=$(echo "$region" | tr '/' '_')
+            if [ ! -f "/tmp/osm/$name-rail.osm.pbf" ]; then
+              curl -4 -sSfL --retry 6 --retry-all-errors --retry-delay 30 -o "/tmp/osm/$name.osm.pbf" "https://download.geofabrik.de/$region-latest.osm.pbf"
+              osmium tags-filter "/tmp/osm/$name.osm.pbf" \
+                r/route=subway,light_rail,tram,monorail,train,railway r/type=construction,proposed \
+                n/railway=station,halt,tram_stop n/public_transport=station w/public_transport=station w/railway=station \
+                -o "/tmp/osm/$name-rail.osm.pbf" --overwrite
+              rm "/tmp/osm/$name.osm.pbf"
+            fi
+            bbox=$(jq -r '.bbox | "\(.[1]),\(.[0]),\(.[3]),\(.[2])"' "$req")
+            if ! { osmium extract -b "$bbox" -s smart "/tmp/osm/$name-rail.osm.pbf" -o "/tmp/osm/$slug.osm.pbf" --overwrite &&
+              python3 scripts/cities/osm-probe-pbf.py --pbf="/tmp/osm/$slug.osm.pbf" --request="$req" --out=/tmp/out; }; then
+              echo "::error::$slug probe failed"
+              echo "$slug" >> /tmp/failed-areas
+            fi
+          done
+      # keep the areas that worked, even when another failed
+      - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          node-version: '20'
+          name: probe-extracts
+          path: /tmp/out/*.json
+          retention-days: 3
+      - name: Fail if any area failed
+        if: always()
+        run: |
+          if [ -s /tmp/failed-areas ]; then
+            echo "These areas failed and keep their old snapshot (they are retried on the next run): $(tr '\n' ' ' < /tmp/failed-areas)"
+            exit 1
+          fi
 
+  push:
+    needs: [probe, probe-extract]
+    if: always() && (needs.probe.result == 'success' || needs.probe.result == 'failure' || needs.probe-extract.result == 'success' || needs.probe-extract.result == 'failure')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
       - name: Fetch previous results
         run: |
           mkdir -p /tmp/probes
@@ -37,19 +143,21 @@ jobs:
             git --work-tree=/tmp/probes checkout FETCH_HEAD -- . 2>/dev/null || true
             git reset -q
           fi
-          ls -la /tmp/probes
-
-      - name: Probe
-        run: node scripts/cities/osm-probe.js --out=/tmp/probes
-
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: probe-*
+          path: /tmp/new
+          merge-multiple: true
       - name: Push to osm-probes branch
         run: |
+          cp /tmp/new/*.json /tmp/probes/ 2>/dev/null || true
           cd /tmp/probes
           rm -rf .git
           git init -q -b osm-probes
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           printf 'OSM probe snapshots written by scripts/cities/osm-probe.js.\n\nData © OpenStreetMap contributors, ODbL.\n' > README.md
+          printf '{"git":{"deploymentEnabled":false}}\n' > vercel.json
           git add -A
           git commit -q -m "OSM probe snapshots ($(date -u +%F))"
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" osm-probes

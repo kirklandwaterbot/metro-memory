@@ -1,0 +1,35 @@
+{
+  "slug": "jiaxing",
+  "path": "asia/china/jiaxing",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {},
+  "alternates": {},
+  "lines": [
+    {
+      "id": "jiaxingt1",
+      "name": "Tram T1",
+      "match": {
+        "network": "嘉兴有轨电车"
+      }
+    },
+    {
+      "id": "jiaxingt2",
+      "name": "Tram T2",
+      "match": {
+        "route": "tram",
+        "name": "嘉兴南站==>"
+      }
+    }
+  ],
+  "cityName": "Jiaxing",
+  "groups": [
+    {
+      "title": "Jiaxing Tram",
+      "lines": [
+        "jiaxingt1",
+        "jiaxingt2"
+      ]
+    }
+  ]
+}

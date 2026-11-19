@@ -1,0 +1,193 @@
+{
+  "slug": "chengdu",
+  "path": "asia/china/chengdu",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "天府广场": "Tianfu Square",
+    "春熙路": "Chunxi Road",
+    "火车北站": "North Railway Station",
+    "火车南站": "South Railway Station",
+    "成都东客站": "Chengdu East Railway Station",
+    "犀浦": "Xipu",
+    "天府站": "Tianfu Railway Station"
+  },
+  "alternates": {},
+  "lines": [
+    {
+      "id": "chengdu1",
+      "name": "Line 1",
+      "match": {
+        "ref": "^1$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu2",
+      "name": "Line 2",
+      "match": {
+        "ref": "^2$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu3",
+      "name": "Line 3",
+      "match": {
+        "ref": "^3$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu4",
+      "name": "Line 4",
+      "match": {
+        "ref": "^4$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu5",
+      "name": "Line 5",
+      "match": {
+        "ref": "^5$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu6",
+      "name": "Line 6",
+      "match": {
+        "ref": "^6$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu7",
+      "name": "Line 7",
+      "match": {
+        "ref": "^7$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu8",
+      "name": "Line 8",
+      "match": {
+        "ref": "^8$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu9",
+      "name": "Line 9",
+      "match": {
+        "ref": "^9$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu10",
+      "name": "Line 10",
+      "match": {
+        "ref": "^10$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu13",
+      "name": "Line 13",
+      "match": {
+        "ref": "^13$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu17",
+      "name": "Line 17",
+      "match": {
+        "ref": "^17$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu18",
+      "name": "Line 18",
+      "match": {
+        "ref": "^18$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu19",
+      "name": "Line 19",
+      "match": {
+        "ref": "^19$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu27",
+      "name": "Line 27",
+      "match": {
+        "ref": "^27$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdu30",
+      "name": "Line 30",
+      "match": {
+        "ref": "^30$",
+        "network": "成都地铁"
+      }
+    },
+    {
+      "id": "chengdus3",
+      "name": "Ziyang Line (S3)",
+      "match": {
+        "network": "成都地铁",
+        "name": "S3资阳线"
+      }
+    },
+    {
+      "id": "chengdut2",
+      "name": "Tram Line 2",
+      "match": {
+        "network": "成都有轨电车",
+        "ref": "^T2B?$"
+      }
+    }
+  ],
+  "cityName": "Chengdu",
+  "groups": [
+    {
+      "title": "Chengdu Metro",
+      "lines": [
+        "chengdu1",
+        "chengdu2",
+        "chengdu3",
+        "chengdu4",
+        "chengdu5",
+        "chengdu6",
+        "chengdu7",
+        "chengdu8",
+        "chengdu9",
+        "chengdu10",
+        "chengdu13",
+        "chengdu17",
+        "chengdu18",
+        "chengdu19",
+        "chengdu27",
+        "chengdu30",
+        "chengdus3"
+      ]
+    },
+    {
+      "title": "Chengdu Tram",
+      "lines": [
+        "chengdut2"
+      ]
+    }
+  ]
+}
