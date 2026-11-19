@@ -7,10 +7,15 @@
     "苏州火车站": "Suzhou Railway Station",
     "苏州站": "Suzhou Railway Station",
     "苏州北站": "Suzhou North Railway Station",
-    "东方之门": "Gate of the Orient",
+    "东方之门": "Dongfangzhimen",
     "乐桥": "Leqiao"
   },
-  "alternates": {},
+  "alternates": {
+    "东方之门": [
+      "Gate of the Orient",
+      "Gate to the East"
+    ]
+  },
   "lines": [
     {
       "id": "suzhou1",
