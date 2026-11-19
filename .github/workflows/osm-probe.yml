@@ -109,18 +109,30 @@ jobs:
               rm "/tmp/osm/$name.osm.pbf"
             fi
             bbox=$(jq -r '.bbox | "\(.[1]),\(.[0]),\(.[3]),\(.[2])"' "$req")
-            osmium extract -b "$bbox" -s smart "/tmp/osm/$name-rail.osm.pbf" -o "/tmp/osm/$slug.osm.pbf" --overwrite
-            python3 scripts/cities/osm-probe-pbf.py --pbf="/tmp/osm/$slug.osm.pbf" --request="$req" --out=/tmp/out || echo "::warning::$slug failed"
+            if ! { osmium extract -b "$bbox" -s smart "/tmp/osm/$name-rail.osm.pbf" -o "/tmp/osm/$slug.osm.pbf" --overwrite &&
+              python3 scripts/cities/osm-probe-pbf.py --pbf="/tmp/osm/$slug.osm.pbf" --request="$req" --out=/tmp/out; }; then
+              echo "::error::$slug probe failed"
+              echo "$slug" >> /tmp/failed-areas
+            fi
           done
+      # keep the areas that worked, even when another failed
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: probe-extracts
           path: /tmp/out/*.json
           retention-days: 3
+      - name: Fail if any area failed
+        if: always()
+        run: |
+          if [ -s /tmp/failed-areas ]; then
+            echo "These areas failed and keep their old snapshot (they are retried on the next run): $(tr '\n' ' ' < /tmp/failed-areas)"
+            exit 1
+          fi
 
   push:
     needs: [probe, probe-extract]
-    if: always() && (needs.probe.result == 'success' || needs.probe.result == 'failure' || needs.probe-extract.result == 'success')
+    if: always() && (needs.probe.result == 'success' || needs.probe.result == 'failure' || needs.probe-extract.result == 'success' || needs.probe-extract.result == 'failure')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
