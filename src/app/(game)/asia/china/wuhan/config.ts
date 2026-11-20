@@ -20,6 +20,7 @@ export const LINE_GROUPS: LineGroup[] = [
   },
   {
     title: 'Wuhan Trams',
+    titleImage: 'asia/china/wuhan/wuhantramheaderlogo.png',
     items: [
       {
         type: 'lines',

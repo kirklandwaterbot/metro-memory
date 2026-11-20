@@ -4,118 +4,148 @@
     "color": "#0067A1",
     "backgroundColor": "#0067A1",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/wuhan/wuhan1.png",
+    "badgeShape": "wide"
   },
   "wuhan2": {
     "name": "Line 2",
     "color": "#EC9CBB",
     "backgroundColor": "#EC9CBB",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/wuhan/wuhan2.png",
+    "badgeShape": "wide"
   },
   "wuhan3": {
     "name": "Line 3",
     "color": "#D3B466",
     "backgroundColor": "#D3B466",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/wuhan/wuhan3.png",
+    "badgeShape": "wide"
   },
   "wuhan4": {
     "name": "Line 4",
     "color": "#A6D30B",
     "backgroundColor": "#A6D30B",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/wuhan/wuhan4.png",
+    "badgeShape": "wide"
   },
   "wuhan5": {
     "name": "Line 5",
     "color": "#a43034",
     "backgroundColor": "#a43034",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/wuhan/wuhan5.png",
+    "badgeShape": "wide"
   },
   "wuhan6": {
     "name": "Line 6",
     "color": "#007128",
     "backgroundColor": "#007128",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/wuhan/wuhan6.png",
+    "badgeShape": "wide"
   },
   "wuhan7": {
     "name": "Line 7",
     "color": "#EB7C16",
     "backgroundColor": "#EB7C16",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/wuhan/wuhan7.png",
+    "badgeShape": "wide"
   },
   "wuhan8": {
     "name": "Line 8",
     "color": "#9DABAA",
     "backgroundColor": "#9DABAA",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/wuhan/wuhan8.png",
+    "badgeShape": "wide"
   },
   "wuhan11": {
     "name": "Line 11",
     "color": "#F6D300",
     "backgroundColor": "#F6D300",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/wuhan/wuhan11.png",
+    "badgeShape": "wide"
   },
   "wuhan12": {
     "name": "Line 12",
     "color": "#00A3E9",
     "backgroundColor": "#00A3E9",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/wuhan/wuhan12.png",
+    "badgeShape": "wide"
   },
   "wuhan16": {
     "name": "Line 16",
     "color": "#c24c6d",
     "backgroundColor": "#c24c6d",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/wuhan/wuhan16.png",
+    "badgeShape": "wide"
   },
   "wuhan19": {
     "name": "Line 19",
     "color": "#5ac1a7",
     "backgroundColor": "#5ac1a7",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "asia/china/wuhan/wuhan19.png",
+    "badgeShape": "wide"
   },
   "wuhanyangluo": {
     "name": "Yangluo Line",
     "color": "#B2007B",
     "backgroundColor": "#B2007B",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 13,
+    "icon": "asia/china/wuhan/wuhanyangluo.png",
+    "badgeShape": "wide"
   },
   "wuhanl1": {
     "name": "Optics Valley Tram L1",
-    "color": "#0000CD",
-    "backgroundColor": "#0000CD",
+    "color": "#800080",
+    "backgroundColor": "#800080",
     "textColor": "#ffffff",
-    "order": 14
+    "order": 14,
+    "icon": "asia/china/wuhan/wuhanl1.png"
   },
   "wuhanl2": {
     "name": "Optics Valley Tram L2",
-    "color": "#FF0000",
-    "backgroundColor": "#FF0000",
+    "color": "#87CEEB",
+    "backgroundColor": "#87CEEB",
     "textColor": "#ffffff",
-    "order": 15
+    "order": 15,
+    "icon": "asia/china/wuhan/wuhanl2.png"
   },
   "wuhant1": {
     "name": "Auto City Tram T1",
-    "color": "#CC5923",
-    "backgroundColor": "#CC5923",
-    "textColor": "#ffffff",
-    "order": 17
+    "color": "#FFA500",
+    "backgroundColor": "#FFA500",
+    "textColor": "#000000",
+    "order": 17,
+    "icon": "asia/china/wuhan/wuhant1.png"
   },
   "wuhanl3": {
     "name": "Optics Valley Tram L3",
-    "color": "#F26522",
-    "backgroundColor": "#F26522",
+    "color": "#FF4500",
+    "backgroundColor": "#FF4500",
     "textColor": "#ffffff",
-    "order": 16
+    "order": 16,
+    "icon": "asia/china/wuhan/wuhanl3.png"
   }
 }
