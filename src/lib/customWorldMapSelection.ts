@@ -11,6 +11,9 @@ export type WorldMapSelection = WorldMapCitySelection[]
 
 const CITY_SLUG_PATTERN = /^[a-z0-9-]+$/
 
+/** Stands for "every line of this city", so whole-city picks keep the link short. */
+export const ALL_LINES_TOKEN = '*'
+
 const toBase64Url = (input: string): string => {
   const base64 =
     typeof Buffer !== 'undefined'
@@ -37,7 +40,9 @@ export const normalizeWorldSelection = (
   selection
     .map((entry) => ({
       city: entry.city,
-      lines: Array.from(new Set(entry.lines.filter((line) => line.length > 0))).sort(),
+      lines: entry.lines.includes(ALL_LINES_TOKEN)
+        ? [ALL_LINES_TOKEN]
+        : Array.from(new Set(entry.lines.filter((line) => line.length > 0))).sort(),
     }))
     .filter((entry) => CITY_SLUG_PATTERN.test(entry.city) && entry.lines.length > 0)
     .sort((a, b) => a.city.localeCompare(b.city))
