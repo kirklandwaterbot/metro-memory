@@ -69,7 +69,7 @@
     },
     {
       "id": "changshayunba",
-      "name": "Dawangshan Yunba",
+      "name": "Dawangshan Skyshuttle",
       "match": {
         "ref": "^Y1$"
       }
@@ -90,9 +90,16 @@
       ]
     },
     {
-      "title": "Maglev & Yunba",
+      "title": "Changsha Maglev Express",
+      "titleImage": "asia/china/changsha/changshamaglev.png",
       "lines": [
-        "changshamaglev",
+        "changshamaglev"
+      ]
+    },
+    {
+      "title": "Dawangshan Skyshuttle",
+      "titleImage": "asia/china/changsha/byd.png",
+      "lines": [
         "changshayunba"
       ]
     }

@@ -19,11 +19,22 @@ export const LINE_GROUPS: LineGroup[] = [
     ],
   },
   {
-    title: 'Maglev & Yunba',
+    title: 'Changsha Maglev Express',
+    titleImage: 'asia/china/changsha/changshamaglev.png',
     items: [
       {
         type: 'lines',
-        lines: ['changshamaglev', 'changshayunba'],
+        lines: ['changshamaglev'],
+      },
+    ],
+  },
+  {
+    title: 'Dawangshan Skyshuttle',
+    titleImage: 'asia/china/changsha/byd.png',
+    items: [
+      {
+        type: 'lines',
+        lines: ['changshayunba'],
       },
     ],
   },

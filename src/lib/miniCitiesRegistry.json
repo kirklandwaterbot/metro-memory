@@ -2117,16 +2117,31 @@
           ]
         },
         {
-          "slug": "changsha-maglev-yunba",
-          "name": "Changsha Maglev & Yunba",
-          "link": "/asia/china/changsha-maglev-yunba",
-          "assetSourceSlug": "changsha-maglev-yunba",
+          "slug": "changsha-maglev",
+          "name": "Changsha Maglev Express",
+          "link": "/asia/china/changsha-maglev",
+          "assetSourceSlug": "changsha-maglev",
           "keywords": [
-            "Maglev & Yunba"
+            "Changsha Maglev",
+            "Maglev"
           ],
           "countingMode": "mini",
           "includeLines": [
-            "changshamaglev",
+            "changshamaglev"
+          ]
+        },
+        {
+          "slug": "changsha-dawangshan-skyshuttle",
+          "name": "Dawangshan Skyshuttle (BYD)",
+          "link": "/asia/china/changsha-dawangshan-skyshuttle",
+          "assetSourceSlug": "changsha-dawangshan-skyshuttle",
+          "keywords": [
+            "Dawangshan Skyshuttle",
+            "Skyshuttle",
+            "Yunba"
+          ],
+          "countingMode": "mini",
+          "includeLines": [
             "changshayunba"
           ]
         }

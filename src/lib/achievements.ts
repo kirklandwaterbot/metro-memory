@@ -1512,9 +1512,13 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
     title: "Orange Isle Express",
     description: "From Orange Isle to the Xiang River banks, Changsha's metro is spicy-hot in your memory.",
   },
-  "changsha-maglev-yunba": {
+  "changsha-maglev": {
     title: "Hunan Hoverer",
-    description: "Levitating to the airport and gliding through Yunba: Changsha's quirky rides are mastered.",
+    description: "Levitating from the high-speed station to Huanghua Airport, every Changsha Maglev stop is yours.",
+  },
+  "changsha-dawangshan-skyshuttle": {
+    title: "Dawangshan Sky Glider",
+    description: "Gliding past Dawangshan on BYD's little Skyshuttle, you've memorized every stop.",
   },
   "chengdu-metro": {
     title: "Panda Base Commuter",
