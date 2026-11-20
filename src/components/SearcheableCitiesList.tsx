@@ -2566,7 +2566,6 @@ const SearcheableCitiesList = ({
       progressMap.set(slug, { current, target })
     }
 
-    addThreshold('monthly-commuter', achievementMetrics.playMonths, 3)
     addThreshold('marathoner', achievementMetrics.globalStations, 100000)
     addThreshold('explorer-10', achievementMetrics.uniqueCities, 10)
     addThreshold('explorer-50', achievementMetrics.uniqueCities, 50)

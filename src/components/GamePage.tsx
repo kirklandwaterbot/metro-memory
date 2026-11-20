@@ -4492,9 +4492,6 @@ function GamePageContent({
       const monthSet = new Set(entries)
       monthSet.add(monthKey)
       window.localStorage.setItem('mm-play-months', JSON.stringify(Array.from(monthSet)))
-      if (monthSet.size >= 3) {
-        awardAchievement('monthly-commuter', 'Monthly Commuter', 'Play in 3 different months.')
-      }
     } catch {
       // ignore
     }

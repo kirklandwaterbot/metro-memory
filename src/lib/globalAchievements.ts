@@ -69,12 +69,6 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     order: 10_050,
   },
   {
-    slug: 'monthly-commuter',
-    title: 'Monthly Commuter',
-    description: 'Play in 3 different months.',
-    order: 10_052,
-  },
-  {
     slug: 'underdog',
     title: 'Underdog',
     description: 'Complete a city with fewer than 20 stations.',

@@ -62,10 +62,6 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '不重不漏',
     description: '完成一座城市且不重复猜测已找到的车站。',
   },
-  'monthly-commuter': {
-    title: '月度通勤者',
-    description: '在 3 个不同月份中游玩。',
-  },
   underdog: {
     title: '以小博大',
     description: '完成一座少于 20 座车站的城市。',
@@ -183,10 +179,6 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
   'never-repeat': {
     title: '不重不漏',
     description: '完成一座城市且不重複猜測已找到的車站。',
-  },
-  'monthly-commuter': {
-    title: '月度通勤者',
-    description: '在 3 個不同月份中遊玩。',
   },
   underdog: {
     title: '以小博大',
