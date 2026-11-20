@@ -267,14 +267,6 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     country: 'secret-fun',
   },
   {
-    slug: 'label-fiddler',
-    title: 'Label Fiddler',
-    description: '???',
-    secretDescription: 'Toggle the map names 25 times.',
-    order: 10_111,
-    country: 'secret-fun',
-  },
-  {
     slug: 'unlucky-line',
     title: 'Unlucky Line',
     description: '???',

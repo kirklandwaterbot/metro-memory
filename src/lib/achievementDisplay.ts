@@ -191,11 +191,6 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     description: '???',
     secretDescription: '使用「随机游玩城市」5 次。',
   },
-  'label-fiddler': {
-    title: '标签控',
-    description: '???',
-    secretDescription: '切换地图名称 25 次。',
-  },
   'unlucky-line': {
     title: '不祥之线',
     description: '???',
@@ -381,11 +376,6 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '神秘車票',
     description: '???',
     secretDescription: '使用「隨機遊玩城市」5 次。',
-  },
-  'label-fiddler': {
-    title: '標籤控',
-    description: '???',
-    secretDescription: '切換地圖名稱 25 次。',
   },
   'unlucky-line': {
     title: '不祥之線',

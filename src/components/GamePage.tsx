@@ -4399,9 +4399,6 @@ function GamePageContent({
       const current = Number(raw)
       const next = Number.isFinite(current) ? current + 1 : 1
       window.localStorage.setItem('mm-map-names-toggles', String(next))
-      if (next >= 25) {
-        awardAchievement('label-fiddler', 'Label Fiddler', 'Toggle the map names 25 times.')
-      }
     } catch {
       // ignore
     }
