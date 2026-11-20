@@ -31,6 +31,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          104.170763,
+          23.993184
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Mina",
+        "display_name": "Mina (密纳)",
+        "alternate_names": [
+          "Mina",
+          "密纳",
+          "密納",
+          "mi na"
+        ],
+        "line": "qiubei4",
+        "order": 1
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           104.167474,
           24.002263
         ]
@@ -46,9 +70,59 @@
           "wa yao chong"
         ],
         "line": "qiubei4",
-        "order": 1
+        "order": 2
       },
       "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.168674,
+          24.019919
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Gaojiancao",
+        "display_name": "Gaojiancao (高枧槽)",
+        "alternate_names": [
+          "Gaojiancao",
+          "高枧槽",
+          "高梘槽",
+          "gao jian cao",
+          "高涧槽"
+        ],
+        "line": "qiubei4",
+        "order": 3
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.155955,
+          24.039365
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Heiqinglong",
+        "display_name": "Heiqinglong (黑箐龙)",
+        "alternate_names": [
+          "Heiqinglong",
+          "黑箐龙",
+          "黑箐龍",
+          "Heijinglong",
+          "hei jing long"
+        ],
+        "line": "qiubei4",
+        "order": 4
+      },
+      "id": 7
     },
     {
       "type": "Feature",
@@ -72,7 +146,7 @@
           "People's Hospital"
         ],
         "line": "qiubei4",
-        "order": 2
+        "order": 5
       },
       "id": 3
     },
@@ -97,9 +171,58 @@
           "Tourist Center"
         ],
         "line": "qiubei4",
-        "order": 3
+        "order": 6
       },
       "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.164056,
+          24.050771
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Administrative Center",
+        "display_name": "Administrative Center (行政中心)",
+        "alternate_names": [
+          "Administrative Center",
+          "行政中心",
+          "Xingzhengzhongxin",
+          "xing zheng zhong xin"
+        ],
+        "line": "qiubei4",
+        "order": 7
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.174169,
+          24.048289
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Jiaolian Square",
+        "display_name": "Jiaolian Square (椒莲广场)",
+        "alternate_names": [
+          "Jiaolian Square",
+          "椒莲广场",
+          "椒蓮廣場",
+          "Jiaolianguangchang",
+          "jiao lian guang chang"
+        ],
+        "line": "qiubei4",
+        "order": 8
+      },
+      "id": 9
     }
   ]
 }

@@ -368,7 +368,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "qingdao": 207,
   "qingdao-metro": 195,
   "qingdao-tram": 12,
-  "qiubei": 4,
+  "qiubei": 9,
   "quito": 15,
   "recife": 51,
   "recife-metro": 41,
