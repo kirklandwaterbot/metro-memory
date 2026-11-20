@@ -2,20 +2,29 @@
 
 import { useMemo, useState } from 'react'
 
+import useTranslation from '@/hooks/useTranslation'
 import type { UpcomingBoardData, UpcomingRow, UpcomingSection } from '@/lib/upcomingBoard'
 
-const SECTIONS: { id: UpcomingSection; title: string; hint: string }[] = [
-  { id: 'due', title: 'Due now', hint: 'Opening date has arrived. Add it once it has really opened.' },
-  { id: 'needs-line', title: 'Needs a line', hint: "Couldn't tell which line it's on. Pick one." },
-  { id: 'check', title: 'Check', hint: 'Map data says it may be cancelled or was removed.' },
-  { id: 'later', title: 'Coming later', hint: 'Under construction or announced. Added automatically when it opens.' },
-  { id: 'added', title: 'Added', hint: 'Now in the game.' },
-  { id: 'ignored', title: 'Ignored', hint: 'Dismissed by you.' },
+// translation keys: upcomingSection<Key> (tab) and upcomingSection<Key>Hint
+const SECTIONS: { id: UpcomingSection; key: string }[] = [
+  { id: 'due', key: 'Due' },
+  { id: 'needs-line', key: 'NeedsLine' },
+  { id: 'check', key: 'Check' },
+  { id: 'later', key: 'Later' },
+  { id: 'added', key: 'Added' },
+  { id: 'ignored', key: 'Ignored' },
 ]
+
+type T = (key: string) => string
+
+/** "{name} …" placeholders are filled in here; the catalog keeps them as-is. */
+const fill = (text: string, values: Record<string, string | number>) =>
+  text.replace(/\{(\w+)\}/g, (m, k) => (k in values ? String(values[k]) : m))
 
 type Busy = { key: string; label: string } | null
 
 export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData }) {
+  const { t } = useTranslation()
   const [data, setData] = useState(initial)
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState<UpcomingSection>(
@@ -52,7 +61,7 @@ export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData 
         body: JSON.stringify(body),
       })
       const json = await res.json()
-      if (!res.ok) throw new Error(json.error || 'Something went wrong.')
+      if (!res.ok) throw new Error(json.error || t('upcomingGenericError'))
       setData(json.board)
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e))
@@ -71,29 +80,25 @@ export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData 
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="text-3xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
-            Upcoming stations
+            {t('upcomingTitle')}
           </h1>
           <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-            {data.rows.length} stations tracked across {data.trackedCities} cities, from
-            OpenStreetMap and Wikidata. Stations are added to the game automatically once they open.
+            {fill(t('upcomingSummary'), { stations: data.rows.length, cities: data.trackedCities })}
           </p>
         </div>
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search city, line or station…"
+          placeholder={t('upcomingSearchPlaceholder')}
           className="w-full rounded-xl border border-zinc-200 bg-white px-4 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-400 sm:w-72 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100"
         />
       </header>
 
       {!data.canEdit && (
-        <Note tone="zinc">
-          Read-only here. Run the site locally (<code>npm run dev</code>) to add, ignore or re-check
-          stations.
-        </Note>
+        <Note tone="zinc">{t('upcomingReadOnly')}</Note>
       )}
       {error && <Note tone="rose">{error}</Note>}
-      {busy && <Note tone="sky">{busy.label}…</Note>}
+      {busy && <Note tone="sky">{busy.label}</Note>}
 
       <nav className="flex flex-wrap gap-2">
         {SECTIONS.map((s) => (
@@ -106,7 +111,7 @@ export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData 
                 : 'bg-white text-zinc-700 ring-1 ring-zinc-200 hover:bg-zinc-100 dark:bg-zinc-900 dark:text-zinc-300 dark:ring-zinc-800 dark:hover:bg-zinc-800'
             }`}
           >
-            {s.title}
+            {t(`upcomingSection${s.key}`)}
             <span className="ml-2 tabular-nums opacity-60">{counts[s.id]}</span>
           </button>
         ))}
@@ -114,10 +119,10 @@ export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData 
 
       <section className="rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
         <p className="border-b border-zinc-200 px-5 py-3 text-sm text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
-          {section.hint}
+          {t(`upcomingSection${section.key}Hint`)}
         </p>
         {visible.length === 0 ? (
-          <p className="px-5 py-10 text-center text-sm text-zinc-500">Nothing here.</p>
+          <p className="px-5 py-10 text-center text-sm text-zinc-500">{t('upcomingNothingHere')}</p>
         ) : (
           <ul className="divide-y divide-zinc-100 dark:divide-zinc-800">
             {visible.slice(0, 400).map((r) => (
@@ -128,13 +133,14 @@ export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData 
                 canEdit={data.canEdit}
                 busy={busy !== null}
                 act={act}
+                t={t}
               />
             ))}
           </ul>
         )}
         {visible.length > 400 && (
           <p className="border-t border-zinc-200 px-5 py-3 text-center text-xs text-zinc-500 dark:border-zinc-800">
-            Showing 400 of {visible.length}. Search to narrow it down.
+            {fill(t('upcomingShowingFirst'), { shown: 400, total: visible.length })}
           </p>
         )}
       </section>
@@ -143,7 +149,10 @@ export default function UpcomingBoard({ initial }: { initial: UpcomingBoardData 
         <CheckCity
           cities={cityOptions}
           busy={busy !== null}
-          onCheck={(city) => act({ action: 'check', city }, `check:${city}`, `Checking ${city}`)}
+          onCheck={(city) =>
+            act({ action: 'check', city }, `check:${city}`, fill(t('upcomingBusyChecking'), { city }))
+          }
+          t={t}
         />
       )}
     </div>
@@ -156,17 +165,25 @@ function Row({
   canEdit,
   busy,
   act,
+  t,
 }: {
   row: UpcomingRow
   lines: { id: string; name: string; color: string }[]
   canEdit: boolean
   busy: boolean
   act: (body: Record<string, string>, key: string, label: string) => void
+  t: T
 }) {
   const key = `${r.city}:${r.id}`
   const base = { city: r.city, id: r.id }
   const when =
-    r.section === 'added' ? (r.addedOn ? `added ${r.addedOn}` : 'in game') : r.expected || 'no date yet'
+    r.section === 'added'
+      ? r.addedOn
+        ? fill(t('upcomingAddedOn'), { date: r.addedOn })
+        : t('upcomingInGame')
+      : r.expected || t('upcomingNoDate')
+  const sourceLabel = (label: string) =>
+    label === 'Web' ? t('upcomingSourceWeb') : label === 'Map' ? t('upcomingSourceMap') : label
 
   return (
     <li className="flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-3">
@@ -190,7 +207,7 @@ function Row({
               rel="noreferrer"
               className="ml-2 underline decoration-zinc-300 underline-offset-2 hover:text-zinc-900 dark:hover:text-zinc-100"
             >
-              {s.label}
+              {sourceLabel(s.label)}
             </a>
           ))}
         </p>
@@ -203,11 +220,15 @@ function Row({
               disabled={busy}
               onChange={(e) =>
                 e.target.value &&
-                act({ ...base, action: 'line', line: e.target.value }, key, `Setting line for ${r.name}`)
+                act(
+                  { ...base, action: 'line', line: e.target.value },
+                  key,
+                  fill(t('upcomingBusySettingLine'), { name: r.name }),
+                )
               }
               className="max-w-40 rounded-lg border border-zinc-200 bg-white px-2 py-1 text-xs dark:border-zinc-700 dark:bg-zinc-800"
             >
-              <option value="">Pick line…</option>
+              <option value="">{t('upcomingPickLine')}</option>
               {lines.map((l) => (
                 <option key={l.id} value={l.id}>
                   {r.lineCandidates.includes(l.id) ? '★ ' : ''}
@@ -220,25 +241,35 @@ function Row({
             <Button
               disabled={busy}
               tone="emerald"
-              onClick={() => act({ ...base, action: 'add' }, key, `Adding ${r.name}`)}
+              onClick={() =>
+                act({ ...base, action: 'add' }, key, fill(t('upcomingBusyAdding'), { name: r.name }))
+              }
             >
-              Add
+              {t('upcomingAdd')}
             </Button>
           )}
           {r.section !== 'added' && r.section !== 'ignored' && (
             <Button
               disabled={busy}
-              onClick={() => act({ ...base, action: 'ignore' }, key, `Ignoring ${r.name}`)}
+              onClick={() =>
+                act({ ...base, action: 'ignore' }, key, fill(t('upcomingBusyIgnoring'), { name: r.name }))
+              }
             >
-              Ignore
+              {t('upcomingIgnore')}
             </Button>
           )}
           {r.section === 'ignored' && (
             <Button
               disabled={busy}
-              onClick={() => act({ ...base, action: 'restore' }, key, `Restoring ${r.name}`)}
+              onClick={() =>
+                act(
+                  { ...base, action: 'restore' },
+                  key,
+                  fill(t('upcomingBusyRestoring'), { name: r.name }),
+                )
+              }
             >
-              Restore
+              {t('upcomingRestore')}
             </Button>
           )}
         </div>
@@ -251,10 +282,12 @@ function CheckCity({
   cities,
   busy,
   onCheck,
+  t,
 }: {
   cities: string[]
   busy: boolean
   onCheck: (city: string) => void
+  t: T
 }) {
   const [city, setCity] = useState('')
   return (
@@ -266,12 +299,12 @@ function CheckCity({
       }}
       className="flex flex-wrap items-center gap-3 rounded-2xl border border-dashed border-zinc-300 px-5 py-4 text-sm dark:border-zinc-700"
     >
-      <span className="text-zinc-600 dark:text-zinc-400">Re-check a city now:</span>
+      <span className="text-zinc-600 dark:text-zinc-400">{t('upcomingRecheckLabel')}</span>
       <input
         list="upcoming-cities"
         value={city}
         onChange={(e) => setCity(e.target.value)}
-        placeholder="city slug, e.g. moscow"
+        placeholder={t('upcomingRecheckPlaceholder')}
         className="w-56 rounded-lg border border-zinc-200 bg-white px-3 py-1.5 dark:border-zinc-700 dark:bg-zinc-900"
       />
       <datalist id="upcoming-cities">
@@ -280,9 +313,9 @@ function CheckCity({
         ))}
       </datalist>
       <Button disabled={busy || !city.trim()} tone="dark" type="submit">
-        Check
+        {t('upcomingCheck')}
       </Button>
-      <span className="text-xs text-zinc-500">Takes up to a minute (OpenStreetMap + Wikidata).</span>
+      <span className="text-xs text-zinc-500">{t('upcomingRecheckHint')}</span>
     </form>
   )
 }
