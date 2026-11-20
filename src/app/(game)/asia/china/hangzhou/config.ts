@@ -9,17 +9,28 @@ export const LINES = linesData as { [name: string]: Line }
 
 export const LINE_GROUPS: LineGroup[] = [
   {
-    title: 'Hangzhou Metro',
+    title: 'Hangzhou Metro Group Co., Ltd',
     titleImage: 'asia/china/hangzhou/icon.ico',
     items: [
       {
         type: 'lines',
-        lines: ['hangzhou1', 'hangzhou2', 'hangzhou3', 'hangzhou4', 'hangzhou5', 'hangzhou6', 'hangzhou7', 'hangzhou8', 'hangzhou9', 'hangzhou10', 'hangzhou16', 'hangzhou19', 'hangzhouhanghai'],
+        lines: ['hangzhou2', 'hangzhou3', 'hangzhou4', 'hangzhou6', 'hangzhou7', 'hangzhou8', 'hangzhou9', 'hangzhou10', 'hangzhou16', 'hangzhou19', 'hangzhouhanghai'],
+      },
+    ],
+  },
+  {
+    title: 'Hangzhou MTR Corporation Limited',
+    titleImage: 'asia/china/hangzhou/hangzhoumtr.png',
+    items: [
+      {
+        type: 'lines',
+        lines: ['hangzhou1', 'hangzhou5'],
       },
     ],
   },
   {
     title: 'Shaoxing Metro',
+    titleImage: 'asia/china/hangzhou/shaoxinglogo.png',
     items: [
       {
         type: 'lines',
