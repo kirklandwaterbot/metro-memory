@@ -99,6 +99,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/europe/spain/bilbao/config')
       return configModule.default
     }
+    case 'bkk-srt': {
+      const configModule = await import('@/app/(game)/../../../data-sources/extras/bkk-srt/config')
+      return configModule.default
+    }
     case 'blackpool': {
       const configModule = await import('@/app/(game)/europe/uk/blackpool/config')
       return configModule.default
@@ -423,6 +427,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/indonesia/jakarta/config')
       return configModule.default
     }
+    case 'jakarta-krl': {
+      const configModule = await import('@/app/(game)/../../../data-sources/extras/jakarta-krl/config')
+      return configModule.default
+    }
     case 'jiaxing': {
       const configModule = await import('@/app/(game)/asia/china/jiaxing/config')
       return configModule.default
@@ -465,6 +473,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'kiwirail': {
       const configModule = await import('@/app/(game)/oceania/new-zealand/kiwirail/config')
+      return configModule.default
+    }
+    case 'kl-komuter': {
+      const configModule = await import('@/app/(game)/../../../data-sources/extras/kl-komuter/config')
       return configModule.default
     }
     case 'kochi': {
