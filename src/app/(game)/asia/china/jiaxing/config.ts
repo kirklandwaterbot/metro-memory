@@ -9,11 +9,12 @@ export const LINES = linesData as { [name: string]: Line }
 
 export const LINE_GROUPS: LineGroup[] = [
   {
-    title: 'Jiaxing Tram',
+    title: 'Jiaxing Shenjia Tram Operation Management Co., Ltd',
+    titleImage: 'asia/china/jiaxing/icon.ico',
     items: [
       {
         type: 'lines',
-        lines: ['jiaxingt1', 'jiaxingt2'],
+        lines: ['jiaxingt1'],
       },
     ],
   },
@@ -39,12 +40,12 @@ export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
-    [120.725, 30.677],
+    [120.725, 30.678],
     [120.811, 30.784],
   ],
   maxBounds: [
-    [120.582, 30.529],
-    [120.955, 30.932],
+    [120.582, 30.53],
+    [120.955, 30.931],
   ],
   minZoom: 10.5,
   fadeDuration: 50,

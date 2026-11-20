@@ -1,0 +1,65 @@
+{
+  "slug": "helsinki",
+  "path": "europe/finland/helsinki",
+  "gameTitle": "Helsinki Metro Memory",
+  "description": "How many Helsinki Metro stations can you name from memory?",
+  "locale": "fi_FI",
+  "bbox": [
+    59.982,
+    24.451,
+    60.378,
+    25.249
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "rename": {
+    "Kampin keskus": "Kamppi"
+  },
+  "lineGroups": [
+    {
+      "title": "Helsinki Metro",
+      "lines": [
+        "HELSM1",
+        "HELSM2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "HELSM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(2390282|2390310)$"
+      },
+      "color": "#FF6319",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "HELSM1.svg"
+    },
+    {
+      "id": "HELSM2",
+      "name": "Line M2",
+      "match": {
+        "@id": "^(2390349|2390370)$"
+      },
+      "color": "#FF6319",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "HELSM2.svg"
+    }
+  ],
+  "register": {
+    "name": "Helsinki, FI",
+    "continent": "Europe",
+    "coordinates": [
+      24.85,
+      60.18
+    ],
+    "zh": "赫尔辛基, FI",
+    "achievement": {
+      "title": "Helsinki Metro Master",
+      "description": "You've named every Helsinki Metro station."
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "santiago",
+  "path": "south-america/chile/santiago",
+  "gameTitle": "Santiago Metro Memory",
+  "description": "How many Metro de Santiago stations can you name from memory?",
+  "locale": "es_CL",
+  "bbox": [
+    -33.66,
+    -70.83,
+    -33.3,
+    -70.49
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Santiago",
+      "lines": [
+        "SCL1",
+        "SCL2",
+        "SCL3",
+        "SCL4",
+        "SCL4A",
+        "SCL5",
+        "SCL6"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SCL1",
+      "name": "Línea 1",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L1$",
+        "name": "^Línea"
+      },
+      "color": "#E1251B"
+    },
+    {
+      "id": "SCL2",
+      "name": "Línea 2",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L2$",
+        "name": "^Línea"
+      },
+      "color": "#FCD20C"
+    },
+    {
+      "id": "SCL3",
+      "name": "Línea 3",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L3$",
+        "name": "^Línea"
+      },
+      "color": "#7B4019"
+    },
+    {
+      "id": "SCL4",
+      "name": "Línea 4",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L4$",
+        "name": "^Línea"
+      },
+      "color": "#1D2C82"
+    },
+    {
+      "id": "SCL4A",
+      "name": "Línea 4A",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L4A$",
+        "name": "^Línea"
+      },
+      "color": "#2BA3DD"
+    },
+    {
+      "id": "SCL5",
+      "name": "Línea 5",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L5$",
+        "name": "^Línea"
+      },
+      "color": "#00915A"
+    },
+    {
+      "id": "SCL6",
+      "name": "Línea 6",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Santiago",
+        "ref": "^L6$",
+        "name": "^Línea"
+      },
+      "color": "#9B2A8F"
+    }
+  ],
+  "register": {
+    "name": "Santiago, CL",
+    "continent": "South America",
+    "coordinates": [
+      -70.6693,
+      -33.4489
+    ],
+    "achievement": {
+      "title": "Santiaguino Sprinter",
+      "description": "You've named every Metro de Santiago station."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "lausanne",
+  "path": "europe/switzerland/lausanne",
+  "gameTitle": "Lausanne Metro Memory",
+  "description": "How many Lausanne Metro stations can you name from memory?",
+  "locale": "fr_CH",
+  "bbox": [
+    46.458,
+    6.525,
+    46.602,
+    6.735
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Lausanne Metro",
+      "lines": [
+        "LAUSM1",
+        "LAUSM2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LAUSM1",
+      "name": "M1",
+      "match": {
+        "@id": "^(79742|7664061)$"
+      },
+      "color": "#E2007A",
+      "textColor": "#FFFFFF",
+      "badge": "m1",
+      "icon": "LAUSM1.svg"
+    },
+    {
+      "id": "LAUSM2",
+      "name": "M2",
+      "match": {
+        "@id": "^(79743|4250695|17973562|17973563)$"
+      },
+      "color": "#E2007A",
+      "textColor": "#FFFFFF",
+      "badge": "m2",
+      "icon": "LAUSM2.svg"
+    }
+  ],
+  "register": {
+    "name": "Lausanne, CH",
+    "continent": "Europe",
+    "coordinates": [
+      6.63,
+      46.53
+    ],
+    "zh": "洛桑, CH",
+    "achievement": {
+      "title": "Lausanne Metro Master",
+      "description": "You've named every Lausanne Metro station."
+    }
+  }
+}

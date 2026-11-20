@@ -1,0 +1,174 @@
+{
+  "note": "Route relations each NYC subway line is drawn from (scripts/routes/osm-relation-tracks.py). Everyday variants only, one per direction where OSM has them.",
+  "lines": {
+    "NewYorkSubway1": [
+      364630,
+      9651535
+    ],
+    "NewYorkSubway2": [
+      366783,
+      9655663
+    ],
+    "NewYorkSubway3": [
+      366784,
+      9663806
+    ],
+    "NewYorkSubway4": [
+      366785,
+      9677107
+    ],
+    "NewYorkSubway5": [
+      9682648,
+      9682649
+    ],
+    "NewYorkSubway6": [
+      9699135,
+      9699136
+    ],
+    "NewYorkSubway6X": [
+      9720364,
+      9720365
+    ],
+    "NewYorkSubway7": [
+      9699137,
+      9699138
+    ],
+    "NewYorkSubway7X": [
+      9720366,
+      9720367
+    ],
+    "NewYorkSubwayA": [
+      9709546,
+      9727209,
+      9727208,
+      9727212,
+      9727210,
+      9727211
+    ],
+    "NewYorkSubwayB": [
+      366770,
+      9748434
+    ],
+    "NewYorkSubwayC": [
+      366775,
+      9767765
+    ],
+    "NewYorkSubwayD": [
+      366771,
+      9769160
+    ],
+    "NewYorkSubwayE": [
+      366776,
+      9769301
+    ],
+    "NewYorkSubwayF": [
+      366772,
+      9753683
+    ],
+    "NewYorkSubwayFX": [
+      11248272,
+      11248273
+    ],
+    "NewYorkSubwayG": [
+      9699110,
+      9699111
+    ],
+    "NewYorkSubwayJ": [
+      366782,
+      9747969
+    ],
+    "NewYorkSubwayZ": [
+      366773,
+      7837590
+    ],
+    "NewYorkSubwayL": [
+      366763,
+      9716996
+    ],
+    "NewYorkSubwayM": [
+      366767,
+      9712342
+    ],
+    "NewYorkSubwayN": [
+      9699161,
+      9712347
+    ],
+    "NewYorkSubwayQ": [
+      9712345,
+      9712346
+    ],
+    "NewYorkSubwayR": [
+      9712343,
+      9712344
+    ],
+    "NewYorkSubwayW": [
+      9699150,
+      9712256
+    ],
+    "NewYorkSubwayH": [
+      2623983,
+      6342927
+    ],
+    "NewYorkSubwayFS": [
+      366809,
+      6342928
+    ],
+    "NewYorkSubwayGS": [
+      9699093,
+      9699094,
+      11245930,
+      11245932
+    ],
+    "NewYorkSubwaySI": [
+      10131632,
+      7944035
+    ],
+    "NewYorkSubwaySIExpress": [
+      10131632,
+      7944035
+    ],
+    "NewYorkSubwayPATHHob33": [
+      1468831,
+      7943884
+    ],
+    "NewYorkSubwayPATHHobwtc": [
+      1468847,
+      7943872
+    ],
+    "NewYorkSubwayPATHJsq33": [
+      1468832,
+      7943925
+    ],
+    "NewYorkSubwayPATHNwkwtc": [
+      1468867,
+      7943864
+    ]
+  },
+  "extraWays": {
+    "NewYorkSubwayQ": [
+      814296537,
+      817371315,
+      1563942870,
+      1563942871,
+      46340127,
+      817371314,
+      1563942872,
+      1563942873,
+      {
+        "id": 1507096429,
+        "nodes": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 1507096430,
+        "nodes": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "extraWaysNote": "Second Avenue Subway: 96 St tail tracks and Phase 2 (under construction) to 125 St, not yet in the Q relations. The 125 St tail tracks west of Lexington Av are left out."
+}

@@ -6,7 +6,7 @@ import CityDataGamePage from '@/components/CityDataGamePage'
 import { Provider } from '@/lib/configContext'
 import Main from '@/components/Main'
 
-export default function Algiers() {
+export default function AlgiersPage() {
   return (
     <Provider value={config}>
       <Main className="min-h-screen">

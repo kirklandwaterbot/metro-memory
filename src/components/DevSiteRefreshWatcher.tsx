@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment, useEffect, useState } from 'react'
+import React, { Fragment, useEffect, useMemo, useState } from 'react'
 import { Transition } from '@headlessui/react'
 import CloseButton from './CloseButton'
 
@@ -34,14 +34,14 @@ function readToastPayload(): { shownAt: number } | null {
   }
 }
 
-function writeToastPayload() {
+function writeToastPayload(shownAt = Date.now()) {
   if (typeof window === 'undefined') {
     return
   }
 
   window.sessionStorage.setItem(
     TOAST_STORAGE_KEY,
-    JSON.stringify({ shownAt: Date.now() }),
+    JSON.stringify({ shownAt }),
   )
 }
 
@@ -49,6 +49,27 @@ export default function DevSiteRefreshWatcher() {
   const [open, setOpen] = useState(false)
   const [visibleUntil, setVisibleUntil] = useState<number | null>(null)
   const [pendingRefresh, setPendingRefresh] = useState(false)
+  // While hovered, the countdown is paused and this holds the time that was left.
+  const [pausedRemaining, setPausedRemaining] = useState<number | null>(null)
+
+  // Countdown bar timing, fixed each time the countdown (re)starts so that
+  // pausing on hover only freezes the bar instead of re-timing it.
+  const countdown = useMemo(() => {
+    const durationMs = visibleUntil ? Math.max(0, visibleUntil - Date.now()) : 0
+    return { durationMs, startFraction: Math.min(1, durationMs / TOAST_DURATION_MS) }
+  }, [visibleUntil])
+
+  const pauseCountdown = () => {
+    if (!visibleUntil || pausedRemaining !== null) return
+    setPausedRemaining(Math.max(0, visibleUntil - Date.now()))
+  }
+  const resumeCountdown = () => {
+    if (pausedRemaining === null) return
+    const nextVisibleUntil = Date.now() + pausedRemaining
+    writeToastPayload(nextVisibleUntil - TOAST_DURATION_MS)
+    setVisibleUntil(nextVisibleUntil)
+    setPausedRemaining(null)
+  }
 
   useEffect(() => {
     if (process.env.NODE_ENV !== 'development') {
@@ -71,7 +92,7 @@ export default function DevSiteRefreshWatcher() {
   }, [])
 
   useEffect(() => {
-    if (!open || !visibleUntil) {
+    if (!open || !visibleUntil || pausedRemaining !== null) {
       return
     }
 
@@ -88,7 +109,7 @@ export default function DevSiteRefreshWatcher() {
     }, remaining)
 
     return () => window.clearTimeout(timeout)
-  }, [open, visibleUntil])
+  }, [open, visibleUntil, pausedRemaining])
 
   useEffect(() => {
     if (process.env.NODE_ENV !== 'development') {
@@ -203,6 +224,8 @@ export default function DevSiteRefreshWatcher() {
     return null
   }
 
+  const remainingMs = pausedRemaining ?? countdown.durationMs
+
   return (
     <Transition
       show={open}
@@ -214,8 +237,36 @@ export default function DevSiteRefreshWatcher() {
       leaveFrom="translate-y-0 opacity-100 scale-100"
       leaveTo="translate-y-4 opacity-0 scale-95"
     >
-      <div className="pointer-events-auto fixed bottom-24 right-6 z-[65] w-full max-w-xs sm:max-w-sm">
-        <div className="flex items-start gap-3 rounded-2xl border border-sky-200 bg-white/95 p-4 text-left shadow-2xl backdrop-blur dark:border-sky-500/60 dark:bg-zinc-900/95">
+      <div
+        className="pointer-events-auto fixed bottom-24 right-6 z-[65] w-full max-w-xs sm:max-w-sm"
+        onMouseEnter={pauseCountdown}
+        onMouseLeave={resumeCountdown}
+        onFocus={pauseCountdown}
+        onBlur={resumeCountdown}
+      >
+        <style>{`@keyframes mm-dev-toast-countdown { from { transform: scaleX(var(--mm-countdown-from)); } to { transform: scaleX(0); } }`}</style>
+        <div className="relative flex items-start gap-3 overflow-hidden rounded-2xl border border-sky-200 bg-white/95 p-4 pt-5 text-left shadow-2xl backdrop-blur dark:border-sky-500/60 dark:bg-zinc-900/95">
+          <div
+            className="absolute inset-x-0 top-0 h-1 bg-sky-100 dark:bg-sky-950"
+            role="progressbar"
+            aria-label={pausedRemaining !== null ? 'Auto-close paused' : 'Time until this notification closes'}
+            aria-valuemin={0}
+            aria-valuemax={Math.round(TOAST_DURATION_MS / 1000)}
+            aria-valuenow={Math.round(remainingMs / 1000)}
+          >
+            <div
+              key={visibleUntil}
+              className="h-full w-full origin-left bg-sky-500 dark:bg-sky-400"
+              style={
+                {
+                  '--mm-countdown-from': countdown.startFraction,
+                  transform: `scaleX(${countdown.startFraction})`,
+                  animation: `mm-dev-toast-countdown ${countdown.durationMs}ms linear forwards`,
+                  animationPlayState: pausedRemaining !== null ? 'paused' : 'running',
+                } as React.CSSProperties
+              }
+            />
+          </div>
           <div className="flex-1">
             <p className="text-sm font-semibold text-sky-700 dark:text-sky-300">Data updated</p>
             <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">

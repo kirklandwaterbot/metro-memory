@@ -1,0 +1,2742 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768059,
+          35.680945
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Tokyo (東京)",
+        "alternate_names": [
+          "東京",
+          "Tokyo"
+        ],
+        "line": "SKTK",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.739928,
+          35.628667
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Shinagawa (品川)",
+        "alternate_names": [
+          "品川",
+          "しながわ",
+          "Shinagawa"
+        ],
+        "line": "SKTK",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.61739,
+          35.506994
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Shin-Yokohama (新横浜)",
+        "alternate_names": [
+          "新横浜",
+          "しんよこはま",
+          "Shin-Yokohama"
+        ],
+        "line": "SKTK",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.154555,
+          35.256123
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Odawara (小田原)",
+        "alternate_names": [
+          "小田原",
+          "おだわら",
+          "Odawara"
+        ],
+        "line": "SKTK",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.077828,
+          35.104116
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Atami (熱海)",
+        "alternate_names": [
+          "熱海",
+          "あたみ",
+          "Atami"
+        ],
+        "line": "SKTK",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.911345,
+          35.126973
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Mishima (三島)",
+        "alternate_names": [
+          "三島",
+          "みしま",
+          "Mishima"
+        ],
+        "line": "SKTK",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.663465,
+          35.142114
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Shin-Fuji (新富士)",
+        "alternate_names": [
+          "新富士",
+          "しんふじ",
+          "Shin-Fuji"
+        ],
+        "line": "SKTK",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.389326,
+          34.971672
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Shizuoka (静岡)",
+        "alternate_names": [
+          "静岡",
+          "しずおか",
+          "Shizuoka"
+        ],
+        "line": "SKTK",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.014939,
+          34.769116
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Kakegawa (掛川)",
+        "alternate_names": [
+          "掛川",
+          "かけがわ",
+          "Kakegawa"
+        ],
+        "line": "SKTK",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.734944,
+          34.703614
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Hamamatsu (浜松)",
+        "alternate_names": [
+          "浜松",
+          "はままつ",
+          "Hamamatsu"
+        ],
+        "line": "SKTK",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.381206,
+          34.762641
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Toyohashi (豊橋)",
+        "alternate_names": [
+          "豊橋",
+          "とよはし",
+          "Toyohashi"
+        ],
+        "line": "SKTK",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.060732,
+          34.968658
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Mikawa-Anjo (三河安城)",
+        "alternate_names": [
+          "三河安城",
+          "みかわあんじょう",
+          "Mikawa-Anjo"
+        ],
+        "line": "SKTK",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.881154,
+          35.17064
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nagoya (名古屋)",
+        "alternate_names": [
+          "名古屋",
+          "Nagoya"
+        ],
+        "line": "SKTK",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.686053,
+          35.315525
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Gifu-Hashima (岐阜羽島)",
+        "alternate_names": [
+          "岐阜羽島",
+          "ぎふはしま",
+          "Gifu-Hashima"
+        ],
+        "line": "SKTK",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.289665,
+          35.315014
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Maibara (米原)",
+        "alternate_names": [
+          "米原",
+          "まいばら",
+          "Maibara"
+        ],
+        "line": "SKTK",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.75843,
+          34.984608
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Kyoto (京都)",
+        "alternate_names": [
+          "京都",
+          "きょうと",
+          "Kyoto"
+        ],
+        "line": "SKTK",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501086,
+          34.73369
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Shin-Ōsaka (新大阪)",
+        "alternate_names": [
+          "新大阪",
+          "しんおおさか",
+          "Shin-Ōsaka"
+        ],
+        "line": "SKTK",
+        "order": 16,
+        "cluster_key": "stn-16-2"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.500251,
+          34.733416
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Shin-Ōsaka (新大阪)",
+        "alternate_names": [
+          "新大阪",
+          "しんおおさか",
+          "Shin-Ōsaka"
+        ],
+        "line": "SKSY",
+        "order": 0,
+        "cluster_key": "stn-16-2"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.195632,
+          34.706469
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Shin-Kobe (新神戸)",
+        "alternate_names": [
+          "新神戸",
+          "Shin-Kobe"
+        ],
+        "line": "SKSY",
+        "order": 1
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.960415,
+          34.666892
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nishi-Akashi (西明石)",
+        "alternate_names": [
+          "西明石",
+          "Nishi-Akashi"
+        ],
+        "line": "SKSY",
+        "order": 2
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.6908,
+          34.826423
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Himeji (姫路)",
+        "alternate_names": [
+          "姫路",
+          "Himeji"
+        ],
+        "line": "SKSY",
+        "order": 3
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.473991,
+          34.818289
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Aioi (相生)",
+        "alternate_names": [
+          "相生",
+          "Aioi"
+        ],
+        "line": "SKSY",
+        "order": 4
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.918458,
+          34.666664
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Okayama (岡山)",
+        "alternate_names": [
+          "岡山",
+          "おかやま",
+          "Okayama"
+        ],
+        "line": "SKSY",
+        "order": 5
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.678461,
+          34.565258
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Shin-Kurashiki (新倉敷)",
+        "alternate_names": [
+          "新倉敷",
+          "Shin-Kurashiki"
+        ],
+        "line": "SKSY",
+        "order": 6
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.361896,
+          34.48926
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Fukuyama (福山)",
+        "alternate_names": [
+          "福山",
+          "Fukuyama"
+        ],
+        "line": "SKSY",
+        "order": 7
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.190317,
+          34.430082
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Shin-Onomichi (新尾道)",
+        "alternate_names": [
+          "新尾道",
+          "Shin-Onomichi"
+        ],
+        "line": "SKSY",
+        "order": 8
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.083283,
+          34.400813
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Mihara (三原)",
+        "alternate_names": [
+          "三原",
+          "みはら",
+          "Mihara"
+        ],
+        "line": "SKSY",
+        "order": 9
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.758864,
+          34.388915
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Higashi-Hiroshima (東広島)",
+        "alternate_names": [
+          "東広島",
+          "Higashi-Hiroshima"
+        ],
+        "line": "SKSY",
+        "order": 10
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.475246,
+          34.398406
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Hiroshima (広島)",
+        "alternate_names": [
+          "広島",
+          "ひろしま",
+          "Hiroshima"
+        ],
+        "line": "SKSY",
+        "order": 11
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.14956,
+          34.164555
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Shin-Iwakuni (新岩国)",
+        "alternate_names": [
+          "新岩国",
+          "Shin-Iwakuni"
+        ],
+        "line": "SKSY",
+        "order": 12
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.802094,
+          34.051018
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Tokuyama (徳山)",
+        "alternate_names": [
+          "徳山",
+          "Tokuyama"
+        ],
+        "line": "SKSY",
+        "order": 13
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.39694,
+          34.093146
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Shin Yamaguchi (新山口)",
+        "alternate_names": [
+          "新山口",
+          "Shin Yamaguchi"
+        ],
+        "line": "SKSY",
+        "order": 14
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.159783,
+          34.053418
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Asa (厚狭)",
+        "alternate_names": [
+          "厚狭",
+          "Asa"
+        ],
+        "line": "SKSY",
+        "order": 15
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.94928,
+          34.008222
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Shin-Shimonoseki (新下関)",
+        "alternate_names": [
+          "新下関",
+          "Shin-Shimonoseki"
+        ],
+        "line": "SKSY",
+        "order": 16
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.882641,
+          33.887257
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Kokura (小倉)",
+        "alternate_names": [
+          "小倉",
+          "コクラ",
+          "Kokura"
+        ],
+        "line": "SKSY",
+        "order": 17
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.42103,
+          33.590018
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Hakata (博多)",
+        "alternate_names": [
+          "博多",
+          "はかた",
+          "Hakata"
+        ],
+        "line": "SKSY",
+        "order": 18
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.42084,
+          33.59003
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Hakata (博多)",
+        "alternate_names": [
+          "博多",
+          "はかた",
+          "Hakata"
+        ],
+        "line": "SKKY",
+        "order": 0
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.491453,
+          33.369805
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Shin-Tosu (新鳥栖)",
+        "alternate_names": [
+          "新鳥栖",
+          "Shin-Tosu"
+        ],
+        "line": "SKKY",
+        "order": 1
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.501113,
+          33.320602
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Kurume (久留米)",
+        "alternate_names": [
+          "久留米",
+          "Kurume"
+        ],
+        "line": "SKKY",
+        "order": 2
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.492436,
+          33.178155
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Chikugo Funagoya (筑後船小屋)",
+        "alternate_names": [
+          "筑後船小屋",
+          "ちくごふなごや",
+          "Chikugo Funagoya"
+        ],
+        "line": "SKKY",
+        "order": 3
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.48874,
+          33.071196
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "New Omuta (新大牟田)",
+        "alternate_names": [
+          "新大牟田",
+          "しんおおむた",
+          "New Omuta"
+        ],
+        "line": "SKKY",
+        "order": 4
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.573776,
+          32.942387
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "New Tamana (新玉名)",
+        "alternate_names": [
+          "新玉名",
+          "しんたまな",
+          "New Tamana"
+        ],
+        "line": "SKKY",
+        "order": 5
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.688781,
+          32.790402
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Kumamoto (熊本)",
+        "alternate_names": [
+          "熊本",
+          "Kumamoto"
+        ],
+        "line": "SKKY",
+        "order": 6
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.634803,
+          32.518031
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Shin-Yatsushiro (新八代)",
+        "alternate_names": [
+          "新八代",
+          "Shin-Yatsushiro"
+        ],
+        "line": "SKKY",
+        "order": 7
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.428667,
+          32.210578
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Shin-Minamata (新水俣)",
+        "alternate_names": [
+          "新水俣",
+          "Shin-Minamata"
+        ],
+        "line": "SKKY",
+        "order": 8
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.358081,
+          32.089829
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Izumi (出水)",
+        "alternate_names": [
+          "出水",
+          "Izumi"
+        ],
+        "line": "SKKY",
+        "order": 9
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.31233,
+          31.813799
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Sendai (川内)",
+        "alternate_names": [
+          "川内"
+        ],
+        "line": "SKKY",
+        "order": 10
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.541795,
+          31.58373
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Kagoshima-Chūō (鹿児島中央)",
+        "alternate_names": [
+          "鹿児島中央",
+          "Kagoshima-Chūō"
+        ],
+        "line": "SKKY",
+        "order": 11
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.023221,
+          33.196293
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Takeo Onsen (武雄温泉)",
+        "alternate_names": [
+          "武雄温泉",
+          "タケオオンセン",
+          "Takeo Onsen"
+        ],
+        "line": "SKNK",
+        "order": 0
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.998944,
+          33.106672
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ureshino-Onsen (嬉野温泉)",
+        "alternate_names": [
+          "嬉野温泉",
+          "うれしのおんせん",
+          "Ureshino-Onsen"
+        ],
+        "line": "SKNK",
+        "order": 1
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.957112,
+          32.933004
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Shin-Ōmura (新大村)",
+        "alternate_names": [
+          "新大村",
+          "Shin-Ōmura"
+        ],
+        "line": "SKNK",
+        "order": 2
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.041168,
+          32.851528
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Isahaya (諫早)",
+        "alternate_names": [
+          "諫早",
+          "Isahaya"
+        ],
+        "line": "SKNK",
+        "order": 3
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.868917,
+          32.752172
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Nagasaki (長崎)",
+        "alternate_names": [
+          "長崎",
+          "ながさき",
+          "Nagasaki"
+        ],
+        "line": "SKNK",
+        "order": 4
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.767433,
+          35.681146
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Tokyo (東京)",
+        "alternate_names": [
+          "東京",
+          "Tokyo"
+        ],
+        "line": "SKTH",
+        "order": 0
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7773,
+          35.713091
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Ueno (上野)",
+        "alternate_names": [
+          "上野",
+          "うえの",
+          "Ueno"
+        ],
+        "line": "SKTH",
+        "order": 1
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.623287,
+          35.906118
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Omiya (大宮)",
+        "alternate_names": [
+          "大宮",
+          "おおみや",
+          "Omiya"
+        ],
+        "line": "SKTH",
+        "order": 2
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805708,
+          36.312306
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Oyama (小山)",
+        "alternate_names": [
+          "小山",
+          "Oyama"
+        ],
+        "line": "SKTH",
+        "order": 3
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.89814,
+          36.559301
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Utsunomiya (宇都宮)",
+        "alternate_names": [
+          "宇都宮",
+          "うつのみや",
+          "Utsunomiya"
+        ],
+        "line": "SKTH",
+        "order": 4
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.020602,
+          36.931616
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Nasushiobara (那須塩原)",
+        "alternate_names": [
+          "那須塩原",
+          "なすしおばら",
+          "Nasushiobara"
+        ],
+        "line": "SKTH",
+        "order": 5
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.188553,
+          37.123024
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Shin-Shirakawa (新白河)",
+        "alternate_names": [
+          "新白河",
+          "しんしらかわ",
+          "Shin-Shirakawa"
+        ],
+        "line": "SKTH",
+        "order": 6
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.388593,
+          37.398523
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Koriyama (郡山)",
+        "alternate_names": [
+          "郡山",
+          "こおりやま",
+          "Koriyama"
+        ],
+        "line": "SKTH",
+        "order": 7
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.45893,
+          37.754539
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Fukushima (福島)",
+        "alternate_names": [
+          "福島",
+          "ふくしま",
+          "Fukushima"
+        ],
+        "line": "SKTH",
+        "order": 8
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.633189,
+          37.995415
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Shiroishi-Zao (白石蔵王)",
+        "alternate_names": [
+          "白石蔵王",
+          "しろいしざおう",
+          "Shiroishi-Zao"
+        ],
+        "line": "SKTH",
+        "order": 9
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.882191,
+          38.26036
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Sendai (仙台)",
+        "alternate_names": [
+          "仙台"
+        ],
+        "line": "SKTH",
+        "order": 10
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.967707,
+          38.570593
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Furukawa (古川)",
+        "alternate_names": [
+          "古川",
+          "Furukawa"
+        ],
+        "line": "SKTH",
+        "order": 11
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.071609,
+          38.74874
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Kurikoma-Kogen (くりこま高原)",
+        "alternate_names": [
+          "くりこま高原",
+          "Kurikoma-Kogen"
+        ],
+        "line": "SKTH",
+        "order": 12
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.139172,
+          38.926801
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Ichinoseki (一ノ関)",
+        "alternate_names": [
+          "一ノ関",
+          "いちのせき",
+          "Ichinoseki"
+        ],
+        "line": "SKTH",
+        "order": 13
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.188794,
+          39.145158
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Mizusawa-Esashi (水沢江刺)",
+        "alternate_names": [
+          "水沢江刺",
+          "Mizusawa-Esashi"
+        ],
+        "line": "SKTH",
+        "order": 14
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.122186,
+          39.28165
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Kitakami (北上)",
+        "alternate_names": [
+          "北上",
+          "きたかみ",
+          "Kitakami"
+        ],
+        "line": "SKTH",
+        "order": 15
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.173601,
+          39.405878
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Shin-Hanamaki (新花巻)",
+        "alternate_names": [
+          "新花巻",
+          "Shin-Hanamaki"
+        ],
+        "line": "SKTH",
+        "order": 16
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.136575,
+          39.701516
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Morioka (盛岡)",
+        "alternate_names": [
+          "盛岡",
+          "もりおか",
+          "Morioka"
+        ],
+        "line": "SKTH",
+        "order": 17
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.217576,
+          39.960575
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Iwate-Numakunai (いわて沼宮内)",
+        "alternate_names": [
+          "いわて沼宮内",
+          "Iwate-Numakunai"
+        ],
+        "line": "SKTH",
+        "order": 18
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.285855,
+          40.260191
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Ninohe (二戸)",
+        "alternate_names": [
+          "二戸",
+          "にのへ",
+          "Ninohe"
+        ],
+        "line": "SKTH",
+        "order": 19
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.430915,
+          40.509329
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Hachinohe (八戸)",
+        "alternate_names": [
+          "八戸",
+          "はちのへ",
+          "Hachinohe"
+        ],
+        "line": "SKTH",
+        "order": 20
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.153517,
+          40.720033
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Shichinohe-Towada (七戸十和田)",
+        "alternate_names": [
+          "七戸十和田",
+          "Shichinohe-Towada"
+        ],
+        "line": "SKTH",
+        "order": 21
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.693447,
+          40.828259
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Shin-Aomori (新青森)",
+        "alternate_names": [
+          "新青森",
+          "Shin-Aomori"
+        ],
+        "line": "SKTH",
+        "order": 22
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.693447,
+          40.828259
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Shin-Aomori (新青森)",
+        "alternate_names": [
+          "新青森",
+          "Shin-Aomori"
+        ],
+        "line": "SKHD",
+        "order": 0
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.51568,
+          41.145024
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Okutsugaru-imabetsu (奥津軽いまべつ)",
+        "alternate_names": [
+          "奥津軽いまべつ",
+          "おくつがるいまべつ",
+          "Okutsugaru-imabetsu"
+        ],
+        "line": "SKHD",
+        "order": 1
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.434237,
+          41.678571
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Kikonai (木古内)",
+        "alternate_names": [
+          "木古内",
+          "Kikonai"
+        ],
+        "line": "SKHD",
+        "order": 2
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.648543,
+          41.9047
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Shin-Hakodate-Hokuto (新函館北斗)",
+        "alternate_names": [
+          "新函館北斗",
+          "Shin-Hakodate-Hokuto"
+        ],
+        "line": "SKHD",
+        "order": 3
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.623454,
+          35.906143
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Omiya (大宮)",
+        "alternate_names": [
+          "大宮",
+          "おおみや",
+          "Omiya"
+        ],
+        "line": "SKJE",
+        "order": 0
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.390348,
+          36.139242
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Kumagaya (熊谷)",
+        "alternate_names": [
+          "熊谷",
+          "Kumagaya"
+        ],
+        "line": "SKJE",
+        "order": 1
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.179486,
+          36.218861
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Honjō-Waseda (本庄早稲田)",
+        "alternate_names": [
+          "本庄早稲田",
+          "ほんじょうわせだ",
+          "Honjō-Waseda"
+        ],
+        "line": "SKJE",
+        "order": 2
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.012966,
+          36.322399
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Takasaki (高崎)",
+        "alternate_names": [
+          "高崎",
+          "Takasaki"
+        ],
+        "line": "SKJE",
+        "order": 3
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.977618,
+          36.693168
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Jomo-Kogen (上毛高原)",
+        "alternate_names": [
+          "上毛高原",
+          "じょうもうこうげん",
+          "Jomo-Kogen"
+        ],
+        "line": "SKJE",
+        "order": 4
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.809371,
+          36.935848
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Echigo-Yuzawa (越後湯沢)",
+        "alternate_names": [
+          "越後湯沢",
+          "Echigo-Yuzawa"
+        ],
+        "line": "SKJE",
+        "order": 5
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.798322,
+          36.949687
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Gala-Yuzawa (ガーラ湯沢)",
+        "alternate_names": [
+          "ガーラ湯沢",
+          "Gala-Yuzawa"
+        ],
+        "line": "SKJE",
+        "order": 6
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.922743,
+          37.167229
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Urasa (浦佐)",
+        "alternate_names": [
+          "浦佐",
+          "Urasa"
+        ],
+        "line": "SKJE",
+        "order": 7
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.854099,
+          37.447895
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Nagaoka (長岡)",
+        "alternate_names": [
+          "長岡",
+          "Nagaoka"
+        ],
+        "line": "SKJE",
+        "order": 8
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.939066,
+          37.648378
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Tsubame-Sanjo (燕三条)",
+        "alternate_names": [
+          "燕三条",
+          "Tsubame-Sanjo"
+        ],
+        "line": "SKJE",
+        "order": 9
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.061408,
+          37.912032
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Niigata (新潟)",
+        "alternate_names": [
+          "新潟",
+          "Niigata"
+        ],
+        "line": "SKJE",
+        "order": 10
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.012806,
+          36.322385
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Takasaki (高崎)",
+        "alternate_names": [
+          "高崎",
+          "Takasaki"
+        ],
+        "line": "SKHR",
+        "order": 0
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.849398,
+          36.362558
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Annaka-Haruna (安中榛名)",
+        "alternate_names": [
+          "安中榛名",
+          "あんなかはるな",
+          "Annaka-Haruna"
+        ],
+        "line": "SKHR",
+        "order": 1
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.634163,
+          36.34256
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Karuizawa (軽井沢)",
+        "alternate_names": [
+          "軽井沢",
+          "Karuizawa"
+        ],
+        "line": "SKHR",
+        "order": 2
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.463475,
+          36.277684
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Sakudaira (佐久平)",
+        "alternate_names": [
+          "佐久平",
+          "さくだいら",
+          "Sakudaira"
+        ],
+        "line": "SKHR",
+        "order": 3
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.24893,
+          36.397164
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Ueda (上田)",
+        "alternate_names": [
+          "上田",
+          "Ueda"
+        ],
+        "line": "SKHR",
+        "order": 4
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.188821,
+          36.642794
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Nagano (長野)",
+        "alternate_names": [
+          "長野",
+          "ながの",
+          "Nagano"
+        ],
+        "line": "SKHR",
+        "order": 5
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.358292,
+          36.846015
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Iiyama (飯山)",
+        "alternate_names": [
+          "飯山",
+          "Iiyama"
+        ],
+        "line": "SKHR",
+        "order": 6
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.248663,
+          37.081207
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Joetsu-Myoko (上越妙高)",
+        "alternate_names": [
+          "上越妙高",
+          "じょうえつみょうこう",
+          "Joetsu-Myoko"
+        ],
+        "line": "SKHR",
+        "order": 7
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.861786,
+          37.043231
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Itoigawa (糸魚川)",
+        "alternate_names": [
+          "糸魚川",
+          "Itoigawa"
+        ],
+        "line": "SKHR",
+        "order": 8
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.481452,
+          36.874308
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Kurobe-Unazuki-Onsen (黒部宇奈月温泉)",
+        "alternate_names": [
+          "黒部宇奈月温泉",
+          "くろべうなづきおんせん",
+          "Kurobe-Unazuki-Onsen"
+        ],
+        "line": "SKHR",
+        "order": 9
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.213267,
+          36.701434
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Toyama (富山)",
+        "alternate_names": [
+          "富山",
+          "とやま",
+          "Toyama"
+        ],
+        "line": "SKHR",
+        "order": 10
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.011988,
+          36.726947
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Shin-Takaoka (新高岡)",
+        "alternate_names": [
+          "新高岡",
+          "しんたかおか",
+          "Shin-Takaoka"
+        ],
+        "line": "SKHR",
+        "order": 11
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.648125,
+          36.578002
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Kanazawa (金沢)",
+        "alternate_names": [
+          "金沢",
+          "Kanazawa"
+        ],
+        "line": "SKHR",
+        "order": 12
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.453127,
+          36.401832
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Komatsu (小松)",
+        "alternate_names": [
+          "小松",
+          "Komatsu"
+        ],
+        "line": "SKHR",
+        "order": 13
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.350601,
+          36.320146
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Kagaonsen (加賀温泉)",
+        "alternate_names": [
+          "加賀温泉",
+          "Kagaonsen"
+        ],
+        "line": "SKHR",
+        "order": 14
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.235474,
+          36.214602
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Awaraonsen (芦原温泉)",
+        "alternate_names": [
+          "芦原温泉",
+          "あわらおんせん",
+          "Awaraonsen"
+        ],
+        "line": "SKHR",
+        "order": 15
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.223868,
+          36.062202
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Fukui (福井)",
+        "alternate_names": [
+          "福井",
+          "Fukui"
+        ],
+        "line": "SKHR",
+        "order": 16
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.198961,
+          35.895504
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Echizen-Takefu (越前たけふ)",
+        "alternate_names": [
+          "越前たけふ",
+          "Echizen-Takefu"
+        ],
+        "line": "SKHR",
+        "order": 17
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.078081,
+          35.64503
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Tsuruga (敦賀)",
+        "alternate_names": [
+          "敦賀",
+          "つるが",
+          "Tsuruga"
+        ],
+        "line": "SKHR",
+        "order": 18
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.458743,
+          37.754542
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Fukushima (福島)",
+        "alternate_names": [
+          "福島",
+          "ふくしま",
+          "Fukushima"
+        ],
+        "line": "SKYM",
+        "order": 0
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.128305,
+          37.909491
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Yonezawa (米沢)",
+        "alternate_names": [
+          "米沢",
+          "よねざわ",
+          "Yonezawa"
+        ],
+        "line": "SKYM",
+        "order": 1
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.152919,
+          37.992419
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Takahata (高畠)",
+        "alternate_names": [
+          "高畠",
+          "たかはた",
+          "Takahata"
+        ],
+        "line": "SKYM",
+        "order": 2
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.148928,
+          38.047384
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Akayu (赤湯)",
+        "alternate_names": [
+          "赤湯",
+          "あかゆ",
+          "Akayu"
+        ],
+        "line": "SKYM",
+        "order": 3
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.278572,
+          38.15208
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Kaminoyama-Onsen (かみのやま温泉)",
+        "alternate_names": [
+          "かみのやま温泉",
+          "かみのやまおんせん",
+          "Kaminoyama-Onsen"
+        ],
+        "line": "SKYM",
+        "order": 4
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.327595,
+          38.248546
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Yamagata (山形)",
+        "alternate_names": [
+          "山形",
+          "やまがた",
+          "Yamagata"
+        ],
+        "line": "SKYM",
+        "order": 5
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.369491,
+          38.359972
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Tendo (天童)",
+        "alternate_names": [
+          "天童",
+          "てんどう",
+          "Tendo"
+        ],
+        "line": "SKYM",
+        "order": 6
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.38086,
+          38.428518
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Sakurambo-Higashine (さくらんぼ東根)",
+        "alternate_names": [
+          "さくらんぼ東根",
+          "さくらんぼひがしね",
+          "Sakurambo-Higashine"
+        ],
+        "line": "SKYM",
+        "order": 7
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.386405,
+          38.477077
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Murayama (村山)",
+        "alternate_names": [
+          "村山",
+          "むらやま",
+          "Murayama"
+        ],
+        "line": "SKYM",
+        "order": 8
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.375451,
+          38.595695
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Oishida (大石田)",
+        "alternate_names": [
+          "大石田",
+          "おおいしだ",
+          "Oishida"
+        ],
+        "line": "SKYM",
+        "order": 9
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.306009,
+          38.762555
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Shinjo (新庄)",
+        "alternate_names": [
+          "新庄",
+          "しんじょう",
+          "Shinjo"
+        ],
+        "line": "SKYM",
+        "order": 10
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.136575,
+          39.701516
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Morioka (盛岡)",
+        "alternate_names": [
+          "盛岡",
+          "もりおか",
+          "Morioka"
+        ],
+        "line": "SKAK",
+        "order": 0
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.974446,
+          39.689271
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Shizukuishi (雫石)",
+        "alternate_names": [
+          "雫石",
+          "しずくいし",
+          "Shizukuishi"
+        ],
+        "line": "SKAK",
+        "order": 1
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.722266,
+          39.700425
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Tazawako (田沢湖)",
+        "alternate_names": [
+          "田沢湖",
+          "Tazawako"
+        ],
+        "line": "SKAK",
+        "order": 2
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.571211,
+          39.591732
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Kakunodate (角館)",
+        "alternate_names": [
+          "角館",
+          "かくのだて",
+          "Kakunodate"
+        ],
+        "line": "SKAK",
+        "order": 3
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.479891,
+          39.465682
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Omagari (大曲)",
+        "alternate_names": [
+          "大曲",
+          "おおまがり",
+          "Omagari"
+        ],
+        "line": "SKAK",
+        "order": 4
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.129993,
+          39.71688
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Akita (秋田)",
+        "alternate_names": [
+          "秋田",
+          "あきた",
+          "Akita"
+        ],
+        "line": "SKAK",
+        "order": 5
+      },
+      "id": 126
+    }
+  ]
+}

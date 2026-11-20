@@ -1,0 +1,585 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.779338,
+          -36.84853
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "The Strand",
+        "alternate_names": [
+          "Te Tōangaroa"
+        ],
+        "line": "KRNorthernExplorer",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.946343,
+          -37.064439
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Papakura",
+        "line": "KRNorthernExplorer",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.265228,
+          -37.79092
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Kirikiriroa / Hamilton",
+        "alternate_names": [
+          "Kirikiriroa"
+        ],
+        "line": "KRNorthernExplorer",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.21235,
+          -38.186742
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Ōtorohanga",
+        "line": "KRNorthernExplorer",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.264747,
+          -38.882671
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Taumarunui",
+        "line": "KRNorthernExplorer",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.393037,
+          -39.175525
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Waimarino National Park",
+        "line": "KRNorthernExplorer",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.415558,
+          -39.402354
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Ohakune",
+        "line": "KRNorthernExplorer",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.594287,
+          -40.34417
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Palmerston North",
+        "alternate_names": [
+          "Te Papa-i-Oea"
+        ],
+        "line": "KRNorthernExplorer",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.007266,
+          -40.916664
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Paraparaumu",
+        "line": "KRNorthernExplorer",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.780675,
+          -41.278798
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Wellington",
+        "line": "KRNorthernExplorer",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.758929,
+          -43.057702
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Waipara",
+        "line": "KRCoastalPacific",
+        "order": 0
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.219289,
+          -42.861562
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Domett",
+        "line": "KRCoastalPacific",
+        "order": 1
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.680756,
+          -42.395918
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Kaikōura",
+        "line": "KRCoastalPacific",
+        "order": 2
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.960101,
+          -41.511947
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Beaver",
+        "line": "KRCoastalPacific",
+        "order": 3
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.383688,
+          -43.588771
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Rolleston",
+        "alternate_names": [
+          "Tauwharekākaho"
+        ],
+        "line": "KRTranzAlpine",
+        "order": 0
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.112839,
+          -43.489271
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Darfield",
+        "alternate_names": [
+          "Whenua Kura"
+        ],
+        "line": "KRTranzAlpine",
+        "order": 1
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.930605,
+          -43.334208
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Springfield",
+        "alternate_names": [
+          "Tawera"
+        ],
+        "line": "KRTranzAlpine",
+        "order": 2
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.756972,
+          -43.03612
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Cass",
+        "line": "KRTranzAlpine",
+        "order": 3
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.564624,
+          -42.944223
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Arthur's Pass",
+        "alternate_names": [
+          "Tarahaka o Kaimatau"
+        ],
+        "line": "KRTranzAlpine",
+        "order": 4
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.562792,
+          -42.828768
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Otira",
+        "line": "KRTranzAlpine",
+        "order": 5
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.478551,
+          -42.576984
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Moana",
+        "line": "KRTranzAlpine",
+        "order": 6
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.214593,
+          -42.448293
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Greymouth",
+        "alternate_names": [
+          "Māwhera"
+        ],
+        "line": "KRTranzAlpine",
+        "order": 7
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.780675,
+          -41.278798
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Wellington",
+        "line": "KRCapitalConnection",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.594287,
+          -40.34417
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Palmerston North",
+        "alternate_names": [
+          "Te Papa-i-Oea"
+        ],
+        "line": "KRCapitalConnection",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.411038,
+          -40.546479
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Shannon",
+        "line": "KRCapitalConnection",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.779338,
+          -36.84853
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "The Strand",
+        "alternate_names": [
+          "Te Tōangaroa"
+        ],
+        "line": "KRTeHuia",
+        "order": 0
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.856074,
+          -36.98959
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Puhinui",
+        "line": "KRTeHuia",
+        "order": 1
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.946343,
+          -37.064439
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Papakura",
+        "line": "KRTeHuia",
+        "order": 2
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.910623,
+          -37.203403
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Pukekohe",
+        "line": "KRTeHuia",
+        "order": 3
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.159708,
+          -37.557819
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Raahui Pookeka / Huntly",
+        "alternate_names": [
+          "Raahui Pookeka"
+        ],
+        "line": "KRTeHuia",
+        "order": 4
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.230523,
+          -37.749341
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Rotokauri",
+        "line": "KRTeHuia",
+        "order": 5
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.265228,
+          -37.79092
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Kirikiriroa / Hamilton",
+        "alternate_names": [
+          "Kirikiriroa"
+        ],
+        "line": "KRTeHuia",
+        "order": 6
+      },
+      "id": 31
+    }
+  ]
+}

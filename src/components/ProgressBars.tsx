@@ -3,7 +3,12 @@
 import OverflowMarquee from '@/components/OverflowMarquee'
 import { useSettings } from '@/context/SettingsContext'
 import { formatLocalizedChinaUiTitle } from '@/lib/chinaUiText'
-import { isColorLight } from '@/lib/colorUtils'
+import {
+  NEAR_BLACK_DARK_MODE_COLOR,
+  isColorLight,
+  isColorNearBlack,
+  isYellowColor,
+} from '@/lib/colorUtils'
 import { useConfig } from '@/lib/configContext'
 import { formatLocalizedLineName } from '@/lib/lineNameDisplay'
 import { getCompletionColor } from '@/lib/progressColors'
@@ -12,7 +17,7 @@ import Image from 'next/image'
 import { useTheme } from 'next-themes'
 import { useEffect, useMemo, useRef } from 'react'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
-import LineBadge, { getLineBadgeMetrics } from './LineBadge'
+import LineBadge, { getLineBadgeAspectRatio, getLineBadgeMetrics } from './LineBadge'
 
 /** Path of a rounded rectangle starting at the middle of the top edge, clockwise. */
 const roundedRectPath = (
@@ -38,12 +43,16 @@ const roundedRectPath = (
   ].join(' ')
 }
 
+const diamondPath = (x: number, y: number, w: number, h: number) =>
+  `M ${x + w / 2} ${y} L ${x + w} ${y + h / 2} L ${x + w / 2} ${y + h} L ${x} ${y + h / 2} Z`
+
 /**
  * Progress ring for non-circular badges: a stroke that follows the badge's own
  * rounded-rectangle outline, filling clockwise from the top centre like the
  * circular gauge does.
  */
 const BadgeProgressRing = ({
+  shape,
   width,
   height,
   badgeRadius,
@@ -55,6 +64,7 @@ const BadgeProgressRing = ({
   contrastOutline,
   className,
 }: {
+  shape?: string
   width: number
   height: number
   badgeRadius: number
@@ -67,14 +77,13 @@ const BadgeProgressRing = ({
   className?: string
 }) => {
   const half = ringWidth / 2
-  // Centre line of the stroke: concentric with the badge corners.
-  const ring = roundedRectPath(
-    half,
-    half,
-    width - ringWidth,
-    height - ringWidth,
-    badgeRadius + half,
-  )
+  // Centre line of the stroke: concentric with the badge corners. A diamond's
+  // ring sits ringWidth out from its edges, i.e. ringWidth·√2 out at the tips.
+  const tip = half * Math.SQRT2
+  const ring =
+    shape === 'diamond'
+      ? diamondPath(tip, tip, width - 2 * tip, height - 2 * tip)
+      : roundedRectPath(half, half, width - ringWidth, height - ringWidth, badgeRadius + half)
   const pct = Math.max(0, Math.min(1, progress)) * 100
   return (
     <svg
@@ -89,7 +98,11 @@ const BadgeProgressRing = ({
       <path d={ring} fill="none" stroke={trailColor} strokeWidth={ringWidth} />
       {contrastOutline && (
         <path
-          d={roundedRectPath(0.5, 0.5, width - 1, height - 1, badgeRadius + ringWidth - 0.5)}
+          d={
+            shape === 'diamond'
+              ? diamondPath(0.5, 0.5, width - 1, height - 1)
+              : roundedRectPath(0.5, 0.5, width - 1, height - 1, badgeRadius + ringWidth - 0.5)
+          }
           fill="none"
           stroke="rgba(161,161,170,0.7)"
           strokeWidth={1}
@@ -352,7 +365,30 @@ const ProgressBars = ({
     let progressColor: string
     let trailColor: string
 
-    if (gaugeMode === 'inverted') {
+    // A yellow ring can barely be seen on a white (or its own yellow) gauge, so
+    // yellow lines show their progress in black instead. Dark mode keeps the
+    // yellow ring on the inverted gauge, where it already stands out.
+    const useBlackProgress =
+      !customProgressColor &&
+      isYellowColor(meta.color) &&
+      (gaugeMode !== 'inverted' || !isDark)
+
+    if (useBlackProgress) {
+      progressColor = '#000000'
+      trailColor =
+        gaugeMode === 'inverted'
+          ? mixHexColors('#000000', gaugeBackground, 0.85)
+          : mixHexColors(meta.color || '#000000', '#000000', 0.2)
+    } else if (
+      gaugeMode === 'inverted' &&
+      isDark &&
+      !customProgressColor &&
+      isColorNearBlack(meta.color)
+    ) {
+      // A black ring disappears on the dark gauge, so show it light grey.
+      progressColor = NEAR_BLACK_DARK_MODE_COLOR
+      trailColor = mixHexColors(NEAR_BLACK_DARK_MODE_COLOR, gaugeBackground, 0.8)
+    } else if (gaugeMode === 'inverted') {
       progressColor = baseProgressColor
       trailColor = mixHexColors(baseProgressColor, gaugeBackground, 0.8)
     } else {
@@ -372,11 +408,13 @@ const ProgressBars = ({
     const completionColor = getCompletionColor(percentComplete)
     const badgeShape = meta.badgeShape ?? 'circle'
     const usesFramedShell = badgeShape !== 'circle'
-    const badgeMetrics = getLineBadgeMetrics(badgeShape, 'small', meta.badgeAspectRatio)
+    const badgeMetrics = getLineBadgeMetrics(badgeShape, 'small', getLineBadgeAspectRatio(meta))
     // The ring hugs the badge: same inset on every side, corners concentric with the badge's.
     const ringWidth = 3
-    const shellWidth = badgeMetrics.width + ringWidth * 2
-    const shellHeight = badgeMetrics.height + ringWidth * 2
+    // a diamond's ring reaches √2 further out at its tips
+    const ringOut = badgeShape === 'diamond' ? Math.ceil(ringWidth * Math.SQRT2) : ringWidth
+    const shellWidth = badgeMetrics.width + ringOut * 2
+    const shellHeight = badgeMetrics.height + ringOut * 2
 
     const isHighlighted = highlightedLineId === line
 
@@ -384,11 +422,13 @@ const ProgressBars = ({
       <div 
         key={line} 
         className={clsx(
-            "flex items-center gap-2 transition-colors duration-300",
+            "flex items-center gap-2 transition-[color,background-color,box-shadow,transform] duration-300",
             compact ? "rounded-full" : "rounded-lg",
             isHighlighted && [
-                "bg-yellow-200 dark:bg-yellow-500/40",
-                "ring-4 ring-yellow-200 dark:ring-yellow-500 z-10"
+                "relative z-10 bg-amber-100 dark:bg-yellow-500/40",
+                "ring-[3px] ring-zinc-900 ring-offset-2 ring-offset-white",
+                "dark:ring-yellow-400 dark:ring-offset-zinc-900",
+                compact && "scale-110"
             ]
         )}
         ref={(el) => {
@@ -406,6 +446,7 @@ const ProgressBars = ({
           {usesFramedShell ? (
             <>
               <BadgeProgressRing
+                shape={badgeShape}
                 width={shellWidth}
                 height={shellHeight}
                 badgeRadius={badgeMetrics.radius}

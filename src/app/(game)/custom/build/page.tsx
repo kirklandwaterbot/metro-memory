@@ -24,7 +24,7 @@ type CityLine = {
   color: string
   order: number
   icon?: string
-  badgeShape?: 'circle' | 'capsule' | 'square' | 'wide'
+  badgeShape?: 'circle' | 'capsule' | 'square' | 'wide' | 'diamond'
   badgeFit?: 'contain' | 'cover'
   badgeAspectRatio?: number
 }

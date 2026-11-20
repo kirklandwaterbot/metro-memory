@@ -32,7 +32,7 @@ import {
 } from 'react-icons/md'
 import { createPortal } from 'react-dom'
 import CloseButton from './CloseButton'
-import LineBadge, { getLineBadgeMetrics } from './LineBadge'
+import LineBadge, { getLineBadgeAspectRatio, getLineBadgeMetrics } from './LineBadge'
 
 type CityStatsPanelProps = {
   cityDisplayName: string
@@ -164,7 +164,16 @@ const resolveGroupTitleImageSrc = (
   cityPath: string | null | undefined,
   titleImage: string | null | undefined,
 ) => {
-  if (!cityPath || !titleImage) {
+  if (!titleImage) {
+    return null
+  }
+
+  // a path like "asia/china/gba/BYD.png" is already relative to /images
+  if (titleImage.includes('/')) {
+    return `/images/${titleImage.replace(/^\/+/, '')}`
+  }
+
+  if (!cityPath) {
     return null
   }
 
@@ -900,7 +909,7 @@ const CityStatsPanel = ({
                         const badgeMetrics = getLineBadgeMetrics(
                           line.badgeShape,
                           'medium',
-                          line.badgeAspectRatio,
+                          getLineBadgeAspectRatio(line),
                         )
                         const badgeColumnWidth = Math.min(badgeMetrics.width, 96)
                         return (

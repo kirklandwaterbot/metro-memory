@@ -1,0 +1,501 @@
+{
+  "slug": "ice",
+  "path": "europe/germany/ice",
+  "gameTitle": "Intercity-Express (ICE) Memory",
+  "description": "How many ICE stations can you name from memory?",
+  "locale": "de_DE",
+  "bbox": [
+    45.4,
+    2.0,
+    56.2,
+    17.5
+  ],
+  "stripPrefix": "^Bahnhof ",
+  "altTags": [
+    "name:en",
+    "name:de"
+  ],
+  "stationRadius": 500,
+  "simplifyM": 80,
+  "minZoom": 4.5,
+  "lineGroups": [
+    {
+      "title": "Intercity-Express",
+      "lines": [
+        "ICE1",
+        "ICE2",
+        "ICE4",
+        "ICE8",
+        "ICE10",
+        "ICE11",
+        "ICE12",
+        "ICE13",
+        "ICE15",
+        "ICE16",
+        "ICE18",
+        "ICE19",
+        "ICE20",
+        "ICE22",
+        "ICE25",
+        "ICE26",
+        "ICE28",
+        "ICE29",
+        "ICE33",
+        "ICE39",
+        "ICE41",
+        "ICE42",
+        "ICE43",
+        "ICE45",
+        "ICE47",
+        "ICE49",
+        "ICE50",
+        "ICE60",
+        "ICE78",
+        "ICE79",
+        "ICE82",
+        "ICE83",
+        "ICE84",
+        "ICE90",
+        "ICE91",
+        "ICE9590"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ICE1",
+      "name": "ICE 1: Hamburg – Köln",
+      "match": {
+        "@id": "^(6188944|6188945)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "ICE1.svg"
+    },
+    {
+      "id": "ICE2",
+      "name": "ICE 2: München – Düsseldorf",
+      "match": {
+        "@id": "^(18793171|18793172)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "ICE2.svg"
+    },
+    {
+      "id": "ICE4",
+      "name": "ICE 4: Frankfurt – Hamburg",
+      "match": {
+        "@id": "^(6188946|6188947)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "4",
+      "icon": "ICE4.svg"
+    },
+    {
+      "id": "ICE8",
+      "name": "ICE 8: München – Berlin",
+      "match": {
+        "@id": "^(18294715|18294716)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "8",
+      "icon": "ICE8.svg"
+    },
+    {
+      "id": "ICE10",
+      "name": "ICE 10: Köln/Bonn Flughafen – Berlin-Gesundbrunnen",
+      "match": {
+        "@id": "^(1278346|1311835|1801790|2522653)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "10",
+      "icon": "ICE10.svg"
+    },
+    {
+      "id": "ICE11",
+      "name": "ICE 11: Berlin – München",
+      "match": {
+        "@id": "^(1085699|1797144)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "11",
+      "icon": "ICE11.svg"
+    },
+    {
+      "id": "ICE12",
+      "name": "ICE 12: Berlin Ostbahnhof – Interlaken Ost",
+      "match": {
+        "@id": "^(1085700|1798225)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "12",
+      "icon": "ICE12.svg"
+    },
+    {
+      "id": "ICE13",
+      "name": "ICE 13: Berlin – Frankfurt",
+      "match": {
+        "@id": "^(5491473|6188745|7797053|7797054)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "13",
+      "icon": "ICE13.svg"
+    },
+    {
+      "id": "ICE15",
+      "name": "ICE 15: Ostseebad Binz – Frankfurt",
+      "match": {
+        "@id": "^(6147984|6147989)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "15",
+      "icon": "ICE15.svg"
+    },
+    {
+      "id": "ICE16",
+      "name": "ICE 16",
+      "match": {
+        "@id": "^(18794220|18794221)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "16",
+      "icon": "ICE16.svg"
+    },
+    {
+      "id": "ICE18",
+      "name": "ICE 18: München – Hamburg Hbf",
+      "match": {
+        "@id": "^(7796960|7796961)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "18",
+      "icon": "ICE18.svg"
+    },
+    {
+      "id": "ICE19",
+      "name": "ICE 19: Koblenz – Berlin",
+      "match": {
+        "@id": "^(18799606|18799607)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "19",
+      "icon": "ICE19.svg"
+    },
+    {
+      "id": "ICE20",
+      "name": "ICE 20: Hamburg – Basel",
+      "match": {
+        "@id": "^(1083201|1856647)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "20",
+      "icon": "ICE20.svg"
+    },
+    {
+      "id": "ICE22",
+      "name": "ICE 22: Hamburg-Altona – Stuttgart",
+      "match": {
+        "@id": "^(3431945|5515482|6354182|6354183|6926535)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "22",
+      "icon": "ICE22.svg"
+    },
+    {
+      "id": "ICE25",
+      "name": "ICE 25: München – Hamburg-Altona",
+      "match": {
+        "@id": "^(1788865|2178679|9498293|9498343|9498504)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "25",
+      "icon": "ICE25.svg"
+    },
+    {
+      "id": "ICE26",
+      "name": "ICE 26: Karlsruhe – Hamburg-Altona",
+      "match": {
+        "@id": "^(7819672|9352200)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "26",
+      "icon": "ICE26.svg"
+    },
+    {
+      "id": "ICE28",
+      "name": "ICE 28: München – Hamburg",
+      "match": {
+        "@id": "^(1926823|2178680)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "28",
+      "icon": "ICE28.svg"
+    },
+    {
+      "id": "ICE29",
+      "name": "ICE 29: Berlin – München",
+      "match": {
+        "@id": "^(7796142|7796226)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "29",
+      "icon": "ICE29.svg"
+    },
+    {
+      "id": "ICE33",
+      "name": "ICE 33: Binz – Hamburg",
+      "match": {
+        "@id": "^(1304745|1304746)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "33",
+      "icon": "ICE33.svg"
+    },
+    {
+      "id": "ICE39",
+      "name": "ICE 39: Passau – Hamburg",
+      "match": {
+        "@id": "^(18799927)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "39",
+      "icon": "ICE39.svg"
+    },
+    {
+      "id": "ICE41",
+      "name": "ICE 41: München – Essen",
+      "match": {
+        "@id": "^(382440|1311413)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "41",
+      "icon": "ICE41.svg"
+    },
+    {
+      "id": "ICE42",
+      "name": "ICE 42: Dortmund – München",
+      "match": {
+        "@id": "^(6010586|6334363)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "42",
+      "icon": "ICE42.svg"
+    },
+    {
+      "id": "ICE43",
+      "name": "ICE 43: Hannover – Basel",
+      "match": {
+        "@id": "^(3430768|4065325|4459027|13348084|13348086)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "43",
+      "icon": "ICE43.svg"
+    },
+    {
+      "id": "ICE45",
+      "name": "ICE 45: Mainz – Köln",
+      "match": {
+        "@id": "^(375331|1913523)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "45",
+      "icon": "ICE45.svg"
+    },
+    {
+      "id": "ICE47",
+      "name": "ICE 47: Dortmund – München",
+      "match": {
+        "@id": "^(1311834|1918493)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "47",
+      "icon": "ICE47.svg"
+    },
+    {
+      "id": "ICE49",
+      "name": "ICE 49: Köln Hbf – Frankfurt (Main) Hbf",
+      "match": {
+        "@id": "^(5373662|6124561)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "49",
+      "icon": "ICE49.svg"
+    },
+    {
+      "id": "ICE50",
+      "name": "ICE 50: Frankfurt Flughafen – Leipzig",
+      "match": {
+        "@id": "^(1907911|6052104|6502120|6502121)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "50",
+      "icon": "ICE50.svg"
+    },
+    {
+      "id": "ICE60",
+      "name": "ICE 60: Basel Bad Bf – München",
+      "match": {
+        "@id": "^(2890957|6167773)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "60",
+      "icon": "ICE60.svg"
+    },
+    {
+      "id": "ICE78",
+      "name": "ICE 78: Amsterdam – Frankfurt",
+      "match": {
+        "@id": "^(379647|4065727)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "78",
+      "icon": "ICE78.svg"
+    },
+    {
+      "id": "ICE79",
+      "name": "ICE 79: Bruxelles-Midi – Frankfurt",
+      "match": {
+        "@id": "^(1398522|3545363)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "79",
+      "icon": "ICE79.svg"
+    },
+    {
+      "id": "ICE82",
+      "name": "ICE/TGV 82: Paris Est – Frankfurt (Main) Hbf",
+      "match": {
+        "@id": "^(2078076|3812487|6379086|6379087)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "82",
+      "icon": "ICE82.svg"
+    },
+    {
+      "id": "ICE83",
+      "name": "ICE/TGV 83: München Hbf – Paris Est",
+      "match": {
+        "@id": "^(5920986|6149052|6149053|6870792|21154857|21154858)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "83",
+      "icon": "ICE83.svg"
+    },
+    {
+      "id": "ICE84",
+      "name": "ICE/TGV 84: Frankfurt (Main) Hbf – Marseille Saint-Charles",
+      "match": {
+        "@id": "^(2466527|2900462)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "84",
+      "icon": "ICE84.svg"
+    },
+    {
+      "id": "ICE90",
+      "name": "ICE 90: München – Budapest",
+      "match": {
+        "@id": "^(2167317)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "90",
+      "icon": "ICE90.svg"
+    },
+    {
+      "id": "ICE91",
+      "name": "ICE 91: Dortmund – Wien Hauptbahnhof",
+      "match": {
+        "@id": "^(1085747|1884019)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "91",
+      "icon": "ICE91.svg"
+    },
+    {
+      "id": "ICE9590",
+      "name": "ICE/TGV 9590: Berlin – Paris Est",
+      "match": {
+        "@id": "^(21151417|21151418)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "9590",
+      "icon": "ICE9590.svg"
+    }
+  ],
+  "register": {
+    "name": "Intercity-Express (ICE), DE",
+    "continent": "Europe",
+    "coordinates": [
+      10.45,
+      51.16
+    ],
+    "zh": "德国城际特快, DE",
+    "achievement": {
+      "title": "Hauptbahnhof Hopper",
+      "description": "You've named every ICE station."
+    }
+  },
+  "nameReplace": [
+    [
+      "\\s*Hauptbahnhof\\b",
+      " Hbf"
+    ],
+    [
+      "\\s*\\((tief|Tief)\\)",
+      ""
+    ],
+    [
+      "\\s+Gleis.*$",
+      ""
+    ],
+    [
+      "^Gare de l\\'Est$",
+      "Paris Est"
+    ],
+    [
+      "\\s*/\\s*Universität$",
+      ""
+    ],
+    [
+      "^Frankfurt am Main Flughafen Fernbahnhof$",
+      "Frankfurt (Main) Flughafen Fernbf"
+    ]
+  ]
+}

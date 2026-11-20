@@ -5,9 +5,26 @@
   "stationRadius": 500,
   "english": {
     "合肥火车站": "Hefei Railway Station",
-    "合肥南站": "Hefei South Railway Station"
+    "合肥南站": "Hefei South Railway Station",
+    "省中医院西区": "Shengzhongyiyuan West"
   },
-  "alternates": {},
+  "alternates": {
+    "省中医院西区": [
+      "Shengzhongyiyuanxiqu",
+      "Shengzhongyiyuan Xiqu",
+      "Provincial TCM Hospital West"
+    ],
+    "新桥2号航站楼": [
+      "T2",
+      "Xinqiao T2",
+      "Terminal 2",
+      "T2 Terminal"
+    ],
+    "未来大科学城": [
+      "Weilai Dakexuecheng",
+      "Future Science City"
+    ]
+  },
   "lines": [
     {
       "id": "hefei1",
@@ -15,7 +32,10 @@
       "match": {
         "ref": "^1$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line1Tile.png",
+      "color": "#E71F24",
+      "backgroundColor": "#E71F24"
     },
     {
       "id": "hefei2",
@@ -23,7 +43,10 @@
       "match": {
         "ref": "^2$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line2Tile.png",
+      "color": "#0167B1",
+      "backgroundColor": "#0167B1"
     },
     {
       "id": "hefei3",
@@ -31,7 +54,10 @@
       "match": {
         "ref": "^3$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line3Tile.png",
+      "color": "#00863E",
+      "backgroundColor": "#00863E"
     },
     {
       "id": "hefei4",
@@ -39,7 +65,10 @@
       "match": {
         "ref": "^4$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line4Tile.png",
+      "color": "#F79826",
+      "backgroundColor": "#F79826"
     },
     {
       "id": "hefei5",
@@ -47,7 +76,10 @@
       "match": {
         "ref": "^5$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line5Tile.png",
+      "color": "#C0D92E",
+      "backgroundColor": "#C0D92E"
     },
     {
       "id": "hefei6",
@@ -55,7 +87,10 @@
       "match": {
         "ref": "^6$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line6Tile.png",
+      "color": "#C99FCD",
+      "backgroundColor": "#C99FCD"
     },
     {
       "id": "hefei7",
@@ -63,7 +98,10 @@
       "match": {
         "ref": "^7$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line7Tile.png",
+      "color": "#F1CC40",
+      "backgroundColor": "#F1CC40"
     },
     {
       "id": "hefei8",
@@ -71,13 +109,28 @@
       "match": {
         "ref": "^8$",
         "network": "合肥轨道交通"
-      }
+      },
+      "icon": "asia/china/hefei/Line8Tile.png",
+      "color": "#64AEE3",
+      "backgroundColor": "#64AEE3"
+    },
+    {
+      "id": "hefeis1",
+      "name": "Line S1",
+      "match": {
+        "ref": "^S1$"
+      },
+      "icon": "asia/china/hefei/LineS1.png",
+      "color": "#BAA284",
+      "backgroundColor": "#BAA284",
+      "textColor": "#ffffff"
     }
   ],
   "cityName": "Hefei",
   "groups": [
     {
       "title": "Hefei Rail Transit",
+      "titleImage": "asia/china/hefei/icon.ico",
       "lines": [
         "hefei1",
         "hefei2",
@@ -86,7 +139,8 @@
         "hefei5",
         "hefei6",
         "hefei7",
-        "hefei8"
+        "hefei8",
+        "hefeis1"
       ]
     }
   ]

@@ -10,10 +10,11 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Hefei Rail Transit',
+    titleImage: 'asia/china/hefei/icon.ico',
     items: [
       {
         type: 'lines',
-        lines: ['hefei1', 'hefei2', 'hefei3', 'hefei4', 'hefei5', 'hefei6', 'hefei7', 'hefei8'],
+        lines: ['hefei1', 'hefei2', 'hefei3', 'hefei4', 'hefei5', 'hefei6', 'hefei7', 'hefei8', 'hefeis1'],
       },
     ],
   },
@@ -39,7 +40,7 @@ export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
-    [117.04, 31.649],
+    [116.94, 31.649],
     [117.529, 32.105],
   ],
   maxBounds: [

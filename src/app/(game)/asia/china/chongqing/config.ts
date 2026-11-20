@@ -10,15 +10,17 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Chongqing Rail Transit',
+    titleImage: 'asia/china/chongqing/icon.ico',
     items: [
       {
         type: 'lines',
-        lines: ['chongqing1', 'chongqing2', 'chongqing3', 'chongqing4', 'chongqing5', 'chongqing6', 'chongqing9', 'chongqing10', 'chongqing15', 'chongqing18', 'chongqingloop', 'chongqingbitong', 'chongqingjiangtiao'],
+        lines: ['chongqing1', 'chongqing2', 'chongqing3', 'chongqing3k', 'chongqing4', 'chongqing5', 'chongqing6', 'chongqing6i', 'chongqing9', 'chongqing10', 'chongqing15', 'chongqing18', 'chongqingloop', 'chongqingbitong', 'chongqingjiangtiao'],
       },
     ],
   },
   {
-    title: 'Bishan Yunba',
+    title: 'BYD',
+    titleImage: 'asia/china/gba/BYD.png',
     items: [
       {
         type: 'lines',

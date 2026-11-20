@@ -1,0 +1,69 @@
+{
+  "slug": "xishui",
+  "path": "asia/china/xishui",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "鳛部田园": "Xibu Tianyuan",
+    "鳛湖酒香": "Xihu Jiuxiang",
+    "鳛人九仟": "Xiren Jiuqian",
+    "鳛鱼龙门": "Xiyu Longmen",
+    "鳛源菁山": "Xiyuan Jingshan"
+  },
+  "alternates": {
+    "鳛部田园": [
+      "Xibu Rural",
+      "习部田园",
+      "鰼部田园"
+    ],
+    "鳛湖酒香": [
+      "习湖酒香",
+      "鰼湖酒香"
+    ],
+    "鳛人九仟": [
+      "Nine Thousand Xi Peoples",
+      "习人九仟",
+      "鰼人九仟"
+    ],
+    "鳛鱼龙门": [
+      "Xi's Fish & Dragon's Gate",
+      "习鱼龙门",
+      "鰼鱼龙门"
+    ],
+    "鳛源菁山": [
+      "Mount Jing",
+      "习源箐山",
+      "鰼源箐山",
+      "鳛源箐山"
+    ]
+  },
+  "lines": [
+    {
+      "id": "xishuiforest",
+      "name": "Xishui Forest Train",
+      "match": {
+        "name": "习水森林小火车"
+      },
+      "stations": [
+        "鳛部田园",
+        "鳛湖酒香",
+        "鳛人九仟",
+        "鳛鱼龙门",
+        "鳛源菁山"
+      ],
+      "color": "#2E8B57"
+    }
+  ],
+  "cityName": "Xishui",
+  "gameTitle": "Xishui Forest Train Memory",
+  "description": "How many stations of the Xishui Forest Train can you name from memory?",
+  "groups": [
+    {
+      "title": "Xibu Forest Sightseeing Train",
+      "titleImage": "asia/china/xishui/icon.ico",
+      "lines": [
+        "xishuiforest"
+      ]
+    }
+  ]
+}

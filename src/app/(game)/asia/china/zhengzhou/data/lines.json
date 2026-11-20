@@ -4,90 +4,103 @@
     "color": "#E60012",
     "backgroundColor": "#E60012",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/zhengzhou/1.png"
   },
   "zhengzhou2": {
     "name": "Line 2",
     "color": "#FFF100",
     "backgroundColor": "#FFF100",
-    "textColor": "#ffffff",
-    "order": 2
+    "textColor": "#000000",
+    "order": 2,
+    "icon": "asia/china/zhengzhou/2.png"
   },
   "zhengzhou3": {
     "name": "Line 3",
     "color": "#F39939",
     "backgroundColor": "#F39939",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/zhengzhou/3.png"
   },
   "zhengzhou4": {
     "name": "Line 4",
     "color": "#00A0E9",
     "backgroundColor": "#00A0E9",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/zhengzhou/4.png"
   },
   "zhengzhou5": {
     "name": "Line 5",
-    "color": "#8A2BE2",
-    "backgroundColor": "#8A2BE2",
+    "color": "#006934",
+    "backgroundColor": "#006934",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/zhengzhou/5.png"
   },
   "zhengzhou6": {
     "name": "Line 6",
     "color": "#920783",
     "backgroundColor": "#920783",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/zhengzhou/6.png"
   },
   "zhengzhou7": {
     "name": "Line 7",
     "color": "#D6A053",
     "backgroundColor": "#D6A053",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/zhengzhou/7.png"
   },
   "zhengzhou8": {
     "name": "Line 8",
     "color": "#E5E289",
     "backgroundColor": "#E5E289",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/zhengzhou/8.png"
   },
   "zhengzhou10": {
     "name": "Line 10",
     "color": "#BE6254",
     "backgroundColor": "#BE6254",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/zhengzhou/10.png"
   },
   "zhengzhou12": {
     "name": "Line 12",
     "color": "#1A60A5",
     "backgroundColor": "#1A60A5",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/zhengzhou/12.png"
   },
   "zhengzhou9": {
-    "name": "Chengjiao Line (Line 9)",
+    "name": "Chengjiao Line",
     "color": "#A2AE73",
     "backgroundColor": "#A2AE73",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/zhengzhou/chengjiao.png"
   },
   "zhengzhou14": {
     "name": "Line 14",
     "color": "#B289BC",
     "backgroundColor": "#B289BC",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "asia/china/zhengzhou/14.png"
   },
   "zhengzhouzhengxu": {
     "name": "Zhengxu Line",
     "color": "#0B4355",
     "backgroundColor": "#0B4355",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 13,
+    "icon": "asia/china/zhengzhou/zhengxu.png"
   }
 }

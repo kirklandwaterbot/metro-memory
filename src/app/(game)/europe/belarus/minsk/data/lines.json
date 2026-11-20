@@ -1,0 +1,26 @@
+{
+  "MSQ1": {
+    "name": "Maskouskaya line",
+    "color": "#0072BC",
+    "backgroundColor": "#0072BC",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "MSQ1.svg"
+  },
+  "MSQ2": {
+    "name": "Autazavodskaya line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "MSQ2.svg"
+  },
+  "MSQ3": {
+    "name": "Zelenaluzhskaya line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "MSQ3.svg"
+  }
+}

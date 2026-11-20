@@ -1,0 +1,99 @@
+{
+  "slug": "cairo",
+  "path": "africa/egypt/cairo",
+  "gameTitle": "Cairo Metro Memory",
+  "description": "How many Cairo Metro stations can you name from memory?",
+  "locale": "ar_EG",
+  "bbox": [
+    29.79,
+    30.988,
+    30.33,
+    31.612
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Cairo Metro",
+      "lines": [
+        "CAIR1",
+        "CAIR2",
+        "CAIR3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "CAIR1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(421705|2826217)$"
+      },
+      "color": "#0000FF",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "CAIR1.svg"
+    },
+    {
+      "id": "CAIR2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(421706|7927231)$"
+      },
+      "color": "#FF7000",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "CAIR2.svg"
+    },
+    {
+      "id": "CAIR3",
+      "name": "Line 3",
+      "match": {
+        "@id": "^(2063304|7686561|17625744|17625746)$"
+      },
+      "color": "#00AF23",
+      "textColor": "#FFFFFF",
+      "badge": "3",
+      "icon": "CAIR3.svg"
+    }
+  ],
+  "register": {
+    "name": "Cairo (القاهرة), EG",
+    "continent": "Africa",
+    "coordinates": [
+      31.3,
+      30.06
+    ],
+    "zh": "开罗, EG",
+    "achievement": {
+      "title": "Cairo Metro Master",
+      "description": "You've named every Cairo Metro station."
+    }
+  }
+}

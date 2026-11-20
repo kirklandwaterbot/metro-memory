@@ -1,0 +1,50 @@
+{
+  "slug": "adana",
+  "path": "europe/turkey/adana",
+  "gameTitle": "Adana Metro Memory",
+  "description": "How many Adana Metro stations can you name from memory?",
+  "locale": "tr_TR",
+  "bbox": [
+    36.892,
+    35.185,
+    37.108,
+    35.455
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Adana Metro",
+      "lines": [
+        "ADANM1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ADANM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(7838816|7838817)$"
+      },
+      "color": "#F7941D",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "ADANM1.svg"
+    }
+  ],
+  "register": {
+    "name": "Adana, TR",
+    "continent": "Europe",
+    "coordinates": [
+      35.32,
+      37.0
+    ],
+    "zh": "阿达纳, TR",
+    "achievement": {
+      "title": "Adana Metro Master",
+      "description": "You've named every Adana Metro station."
+    }
+  }
+}

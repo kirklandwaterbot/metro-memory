@@ -1,0 +1,76 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "CM_Istanbulmetro_m1": [
+      7719077,
+      4289712,
+      305496,
+      7719075
+    ],
+    "CM_Istanbulmetro_m2": [
+      7719074,
+      7719795,
+      11341406,
+      7719796
+    ],
+    "CM_Istanbulmetro_m3": [
+      7719073,
+      4289797
+    ],
+    "CM_Istanbulmetro_m4": [
+      11341395,
+      2396287
+    ],
+    "CM_Istanbulmetro_m5": [
+      11344904,
+      11344905
+    ],
+    "CM_Istanbulmetro_m6": [
+      7719781,
+      7719780
+    ],
+    "CM_Istanbulmetro_m7": [
+      11799409,
+      15085834,
+      11799410,
+      15085833
+    ],
+    "CM_Istanbulmetro_m8": [
+      14900217,
+      14900216
+    ],
+    "CM_Istanbulmetro_m9": [
+      4289800,
+      7719072
+    ],
+    "CM_Istanbulmetro_m10": [],
+    "CM_Istanbulmetro_m11": [
+      15083963,
+      15083964
+    ],
+    "CM_CagdasTramvay_t1": [
+      2962729,
+      151819
+    ],
+    "CM_NostaljikTramvay_t2": [
+      4488483,
+      301617
+    ],
+    "CM_NostaljikTramvay_t3": [
+      2409338
+    ],
+    "CM_CagdasTramvay_t4": [
+      11344896,
+      7420264,
+      7420265,
+      11344897
+    ],
+    "CM_CagdasTramvay_t5": [
+      12174616,
+      12174615
+    ]
+  }
+}

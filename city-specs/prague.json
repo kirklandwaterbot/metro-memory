@@ -1,0 +1,74 @@
+{
+  "slug": "prague",
+  "path": "europe/czechia/prague",
+  "gameTitle": "Prague Metro Memory",
+  "description": "How many Prague Metro stations can you name from memory?",
+  "locale": "cs_CZ",
+  "bbox": [
+    49.931,
+    14.212,
+    50.219,
+    14.662
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Prague Metro",
+      "lines": [
+        "PRAGA",
+        "PRAGB",
+        "PRAGC"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "PRAGA",
+      "name": "Line A",
+      "match": {
+        "@id": "^(58899|7772996)$"
+      },
+      "color": "#75AC40",
+      "textColor": "#FFFFFF",
+      "badge": "A",
+      "icon": "PRAGA.svg"
+    },
+    {
+      "id": "PRAGB",
+      "name": "Line B",
+      "match": {
+        "@id": "^(58900|7772995)$"
+      },
+      "color": "#F5D30F",
+      "textColor": "#222222",
+      "badge": "B",
+      "icon": "PRAGB.svg"
+    },
+    {
+      "id": "PRAGC",
+      "name": "Line C",
+      "match": {
+        "@id": "^(58898|7772994)$"
+      },
+      "color": "#E63323",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "PRAGC.svg"
+    }
+  ],
+  "register": {
+    "name": "Prague, CZ",
+    "continent": "Europe",
+    "coordinates": [
+      14.437,
+      50.075
+    ],
+    "zh": "布拉格, CZ",
+    "achievement": {
+      "title": "Prague Metro Master",
+      "description": "You've named every Prague Metro station."
+    }
+  }
+}

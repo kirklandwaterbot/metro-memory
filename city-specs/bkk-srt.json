@@ -1,0 +1,123 @@
+{
+  "slug": "bkk-srt",
+  "path": "../../../data-sources/extras/bkk-srt",
+  "gameTitle": "x",
+  "description": "x",
+  "locale": "th_TH",
+  "bbox": [
+    13.3,
+    99.6,
+    15.0,
+    101.6
+  ],
+  "altTags": [],
+  "trackStationDistance": 120,
+  "simplifyM": 10,
+  "stationTagsExclude": {
+    "network": "ARL|Airport|BTS|MRT|Purple|Blue|Gold|Pink|Yellow",
+    "station": "subway|light_rail|monorail",
+    "operator": "BTS|BEM|Asia Era|Airport"
+  },
+  "lineGroups": [
+    {
+      "title": "SRT Commuter Rail",
+      "lines": [
+        "BangkokSRTLopburi",
+        "BangkokSRTKaengKhoi",
+        "BangkokSRTPrachinburi",
+        "BangkokSRTRatchaburi",
+        "BangkokSRTSuphanburi"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BangkokSRTLopburi",
+      "name": "Lopburi Line",
+      "match": {
+        "@id": "^(1820650)$"
+      },
+      "color": "#0B6E4F",
+      "textColor": "#FFFFFF",
+      "badge": "L",
+      "icon": "BangkokSRTLopburi.svg",
+      "pathBetween": [
+        "Bangkok",
+        "Lop Buri"
+      ]
+    },
+    {
+      "id": "BangkokSRTKaengKhoi",
+      "name": "Kaeng Khoi Line",
+      "match": {
+        "@id": "^(1820650|1820651)$"
+      },
+      "color": "#B5651D",
+      "textColor": "#FFFFFF",
+      "badge": "K",
+      "icon": "BangkokSRTKaengKhoi.svg",
+      "pathBetween": [
+        "Bangkok",
+        "Kaeng Khoi Junction"
+      ]
+    },
+    {
+      "id": "BangkokSRTPrachinburi",
+      "name": "Prachinburi Line",
+      "match": {
+        "@id": "^(1820650|1820706)$"
+      },
+      "color": "#1565C0",
+      "textColor": "#FFFFFF",
+      "badge": "P",
+      "icon": "BangkokSRTPrachinburi.svg",
+      "pathBetween": [
+        "Bangkok",
+        "Prachin Buri"
+      ]
+    },
+    {
+      "id": "BangkokSRTRatchaburi",
+      "name": "Ratchaburi Line",
+      "match": {
+        "@id": "^(8425165)$"
+      },
+      "color": "#C62828",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "BangkokSRTRatchaburi.svg",
+      "pathBetween": [
+        "Thonburi",
+        "Ratchaburi"
+      ]
+    },
+    {
+      "id": "BangkokSRTSuphanburi",
+      "name": "Suphanburi Line",
+      "match": {
+        "@id": "^(1820650|8425165|13327648)$"
+      },
+      "color": "#6A1B9A",
+      "textColor": "#FFFFFF",
+      "badge": "S",
+      "icon": "BangkokSRTSuphanburi.svg",
+      "pathBetween": [
+        "Bangkok",
+        "Suphan Buri"
+      ],
+      "trackJoinM": 8000
+    }
+  ],
+  "trackJoinM": 2500,
+  "rename": {
+    "Don Muang (ดอนเมือง)": "Don Mueang (ดอนเมือง)"
+  },
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en"
+    ],
+    "altTags": [],
+    "strip": "^สถานีรถไฟ"
+  }
+}

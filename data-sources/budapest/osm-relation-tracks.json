@@ -1,0 +1,65 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "BudapestMetro1": [
+      1771522,
+      1771521
+    ],
+    "BudapestMetro2": [
+      12719883,
+      4121431,
+      4121432
+    ],
+    "BudapestMetro3": [
+      4121434,
+      4121433
+    ],
+    "BudapestMetro4": [
+      4121436,
+      4121435
+    ],
+    "BudapestHEV5": [
+      1103019,
+      1103017
+    ],
+    "BudapestHEV6": [
+      5752954,
+      5752955,
+      5752957,
+      5752959,
+      5752960,
+      5752961,
+      5752964,
+      5752965,
+      5752966,
+      5752968,
+      5752971,
+      5752972,
+      7347923,
+      7347924,
+      7347925,
+      7347926,
+      7347927,
+      7347928,
+      7347929,
+      7687040
+    ],
+    "BudapestHEV7": [
+      1358700,
+      1358701
+    ],
+    "BudapestHEV8": [
+      1647374,
+      1647375
+    ],
+    "BudapestHEV9": [
+      1647377,
+      9768484,
+      1647376,
+      5752977
+    ]
+  }
+}

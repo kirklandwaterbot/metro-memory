@@ -1,15 +1,17 @@
-import PlaceholderPage from '@/app/(game)/_placeholder/PlaceholderPage'
-import { buildPlaceholderConfig } from '@/app/(game)/_placeholder/config'
+export { metadata } from './metadata'
+import CityDataGamePage from '@/components/CityDataGamePage'
+import Main from '@/components/Main'
+import { Provider } from '@/lib/configContext'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
 
-const config = buildPlaceholderConfig({
-  citySlug: 'zhangjiakou',
-  cityPath: 'asia/china/zhangjiakou',
-  cityTitle: 'Zhangjiakou (张家口)',
-})
-
-
-export const metadata = config.METADATA
-
-export default function Page() {
-  return <PlaceholderPage config={config} />
+export default function ZhangjiakouPage() {
+  return (
+    <Provider value={config}>
+      <Main className="min-h-screen">
+        <CityDataGamePage slug="zhangjiakou" />
+      </Main>
+    </Provider>
+  )
 }

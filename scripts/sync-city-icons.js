@@ -34,7 +34,15 @@ async function main() {
   for (const relPath of matches) {
     const slug = path.basename(path.dirname(relPath))
     if (slug === '_default') continue
-    const src = path.join(SOURCE_ROOT, relPath)
+    // A city can keep a wide logo as icon.ico (used as its line-group header)
+    // and put a square tab-icon.ico next to it for the browser tab.
+    const tabIcon = path.join(SOURCE_ROOT, path.dirname(relPath), 'tab-icon.ico')
+    const src = (await fs
+      .access(tabIcon)
+      .then(() => true)
+      .catch(() => false))
+      ? tabIcon
+      : path.join(SOURCE_ROOT, relPath)
     const dest = path.join(DEST_ROOT, `${slug}.ico`)
     await fs.copyFile(src, dest)
     copied++

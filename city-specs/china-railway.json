@@ -1,0 +1,2054 @@
+{
+  "slug": "china-railway",
+  "path": "asia/china/china-railway",
+  "gameTitle": "China Railway High-Speed Memory",
+  "description": "How many China Railway high-speed stations can you name from memory?",
+  "locale": "zh_CN",
+  "bbox": [
+    18,
+    73,
+    53.6,
+    135.1
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en_best"
+    ],
+    "altTags": [
+      "name:en",
+      "name:zh_pinyin"
+    ],
+    "strip": "(火车站|站)$"
+  },
+  "trackStationDistance": 200,
+  "simplifyM": 120,
+  "minZoom": 3.5,
+  "stationTagsExclude": {
+    "station": "subway|light_rail|monorail"
+  },
+  "lineGroups": [
+    {
+      "title": "China Railway High-speed (CRH)",
+      "lines": [
+        "CR1",
+        "CR2",
+        "CR3",
+        "CR4",
+        "CR5",
+        "CR6",
+        "CR7",
+        "CR8",
+        "CR9",
+        "CR10",
+        "CR11",
+        "CR12",
+        "CR13",
+        "CR14",
+        "CR15",
+        "CR16",
+        "CR17",
+        "CR18",
+        "CR19",
+        "CR20",
+        "CR21",
+        "CR22",
+        "CR23",
+        "CR24",
+        "CR25",
+        "CR26",
+        "CR27",
+        "CR28",
+        "CR29",
+        "CR30",
+        "CR31",
+        "CR32",
+        "CR33",
+        "CR34",
+        "CR35",
+        "CR36",
+        "CR37",
+        "CR38",
+        "CR39",
+        "CR40",
+        "CR41",
+        "CR42",
+        "CR43",
+        "CR44",
+        "CR45",
+        "CR46",
+        "CR47",
+        "CR48",
+        "CR49",
+        "CR50",
+        "CR51",
+        "CR52",
+        "CR53",
+        "CR54",
+        "CR55",
+        "CR56",
+        "CR57",
+        "CR58",
+        "CR59",
+        "CR60",
+        "CR61",
+        "CR62",
+        "CR63",
+        "CR64",
+        "CR65",
+        "CR66",
+        "CR67",
+        "CR68",
+        "CR69",
+        "CR70",
+        "CR71",
+        "CR72",
+        "CR73",
+        "CR74",
+        "CR75",
+        "CR76",
+        "CR77",
+        "CR78",
+        "CR79",
+        "CR80",
+        "CR81",
+        "CR82",
+        "CR83",
+        "CR84",
+        "CR85",
+        "CR86",
+        "CR87",
+        "CR88",
+        "CR89",
+        "CR90",
+        "CR91",
+        "CR92",
+        "CR93",
+        "CR94",
+        "CR95",
+        "CR96",
+        "CR97",
+        "CR98",
+        "CR99",
+        "CR100",
+        "CR101",
+        "CR102",
+        "CR103",
+        "CR104",
+        "CR105",
+        "CR106",
+        "CR107",
+        "CR108",
+        "CR109",
+        "CR110",
+        "CR111",
+        "CR112",
+        "CR113",
+        "CR114",
+        "CR115",
+        "CR116",
+        "CR117",
+        "CR118",
+        "CR119",
+        "CR120",
+        "CR121",
+        "CR122",
+        "CR123",
+        "CR124",
+        "CR125",
+        "CR126",
+        "CR127",
+        "CR128",
+        "CR129",
+        "CR130",
+        "CR131",
+        "CR132",
+        "CR133",
+        "CR134",
+        "CR135",
+        "CR136",
+        "CR137",
+        "CR138",
+        "CR139",
+        "CR140",
+        "CR141",
+        "CR142",
+        "CR143",
+        "CR144",
+        "CR145",
+        "CR146",
+        "CR147",
+        "CR148",
+        "CR149",
+        "CR150",
+        "CR151",
+        "CR152",
+        "CR153",
+        "CR154"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "CR1",
+      "name": "Hukun High-Speed Railway",
+      "match": {
+        "@id": "^(9000000164)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "CR1.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR2",
+      "name": "Jingguang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000046)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "CR2.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR3",
+      "name": "Jinggang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000049)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "3",
+      "icon": "CR3.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR4",
+      "name": "Lanxin Passenger Railway",
+      "match": {
+        "@id": "^(9000000055)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "4",
+      "icon": "CR4.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR5",
+      "name": "Hurong Railway",
+      "match": {
+        "@id": "^(9000000168)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "5",
+      "icon": "CR5.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR6",
+      "name": "Hangshen Railway",
+      "match": {
+        "@id": "^(9000000143)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "6",
+      "icon": "CR6.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR7",
+      "name": "Xulan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000120)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "7",
+      "icon": "CR7.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR8",
+      "name": "Jinghu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000047)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "8",
+      "icon": "CR8.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR9",
+      "name": "Jingha High-Speed Railway",
+      "match": {
+        "@id": "^(9000000044)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "9",
+      "icon": "CR9.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR10",
+      "name": "Zhengyu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000237)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "10",
+      "icon": "CR10.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR11",
+      "name": "Shenjia High-Speed Railway",
+      "match": {
+        "@id": "^(9000000159)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "11",
+      "icon": "CR11.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR12",
+      "name": "Guiguang Passenger Railway",
+      "match": {
+        "@id": "^(9000000226)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "12",
+      "icon": "CR12.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR13",
+      "name": "Hefu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000076)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "13",
+      "icon": "CR13.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR14",
+      "name": "Yusha High-Speed Railway",
+      "match": {
+        "@id": "^(9000000188)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "14",
+      "icon": "CR14.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR15",
+      "name": "Nankun Passenger Railway",
+      "match": {
+        "@id": "^(9000000068)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "15",
+      "icon": "CR15.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR16",
+      "name": "Xicheng Passenger Railway",
+      "match": {
+        "@id": "^(9000000223)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "16",
+      "icon": "CR16.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR17",
+      "name": "Chenggui Passenger Railway",
+      "match": {
+        "@id": "^(9000000129)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "17",
+      "icon": "CR17.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR18",
+      "name": "Yongguang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000202)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "18",
+      "icon": "CR18.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR19",
+      "name": "Hangchang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000142)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "19",
+      "icon": "CR19.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR20",
+      "name": "Nanguang Railway",
+      "match": {
+        "@id": "^(9000000066)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "20",
+      "icon": "CR20.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR21",
+      "name": "Changfu Railway",
+      "match": {
+        "@id": "^(9000000138)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "21",
+      "icon": "CR21.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR22",
+      "name": "Yinxi High-Speed Railway",
+      "match": {
+        "@id": "^(9000000246)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "22",
+      "icon": "CR22.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR23",
+      "name": "Wuxi High-Speed Railway",
+      "match": {
+        "@id": "^(9000000153)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "23",
+      "icon": "CR23.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR24",
+      "name": "Daxi High-Speed Railway",
+      "match": {
+        "@id": "^(9000000091)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "24",
+      "icon": "CR24.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR25",
+      "name": "Jingbao Passenger Railway",
+      "match": {
+        "@id": "^(9000000042)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "25",
+      "icon": "CR25.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR26",
+      "name": "Baoyin High-Speed Railway",
+      "match": {
+        "@id": "^(9000000063)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "26",
+      "icon": "CR26.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR27",
+      "name": "Hengliu Railway",
+      "match": {
+        "@id": "^(9000000218)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "27",
+      "icon": "CR27.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR28",
+      "name": "Guinan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000225)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "28",
+      "icon": "CR28.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR29",
+      "name": "Rilan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000135)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "29",
+      "icon": "CR29.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR30",
+      "name": "Hehang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000074)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "30",
+      "icon": "CR30.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR31",
+      "name": "Zhengtai Passenger Railway",
+      "match": {
+        "@id": "^(9000000232)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "31",
+      "icon": "CR31.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR32",
+      "name": "Yinlan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000244)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "32",
+      "icon": "CR32.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR33",
+      "name": "Qingyan Railway",
+      "match": {
+        "@id": "^(9000000253)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "33",
+      "icon": "CR33.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR34",
+      "name": "Jizheng High-Speed Railway",
+      "match": {
+        "@id": "^(9000000179)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "34",
+      "icon": "CR34.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR35",
+      "name": "Guangzhan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000113)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "35",
+      "icon": "CR35.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR36",
+      "name": "Jingha Railway",
+      "match": {
+        "@id": "^(9000000043)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "36",
+      "icon": "CR36.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR37",
+      "name": "Shenda High-Speed Railway",
+      "match": {
+        "@id": "^(9000000160)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "37",
+      "icon": "CR37.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR38",
+      "name": "Yugui Railway",
+      "match": {
+        "@id": "^(9000000192)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "38",
+      "icon": "CR38.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR39",
+      "name": "Jiaoji Passenger Railway",
+      "match": {
+        "@id": "^(9000000216)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "39",
+      "icon": "CR39.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR40",
+      "name": "Shenzhan Railway",
+      "match": {
+        "@id": "^(9000000186)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "40",
+      "icon": "CR40.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR41",
+      "name": "Hainanxihuan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000183)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "41",
+      "icon": "CR41.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR42",
+      "name": "Changhui Intercity Railway",
+      "match": {
+        "@id": "^(9000000247)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "42",
+      "icon": "CR42.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR43",
+      "name": "Huaiheng Railway",
+      "match": {
+        "@id": "^(9000000124)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "43",
+      "icon": "CR43.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR44",
+      "name": "Weirong High-Speed Railway",
+      "match": {
+        "@id": "^(9000000200)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "44",
+      "icon": "CR44.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR45",
+      "name": "Xuyan Passenger Railway",
+      "match": {
+        "@id": "^(9000000121)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "45",
+      "icon": "CR45.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR46",
+      "name": "Shiji Passenger Railway",
+      "match": {
+        "@id": "^(9000000209)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "46",
+      "icon": "CR46.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR47",
+      "name": "Hainandonghuan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000181)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "47",
+      "icon": "CR47.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR48",
+      "name": "Lianzhen Passenger Railway",
+      "match": {
+        "@id": "^(9000000229)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "48",
+      "icon": "CR48.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR49",
+      "name": "Baoxi High-Speed Railway",
+      "match": {
+        "@id": "^(9000000062)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "49",
+      "icon": "CR49.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR50",
+      "name": "Jiqing High-Speed Railway",
+      "match": {
+        "@id": "^(9000000180)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "50",
+      "icon": "CR50.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR51",
+      "name": "Chengyu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000127)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "51",
+      "icon": "CR51.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR52",
+      "name": "Huning Intercity Railway",
+      "match": {
+        "@id": "^(9000000161)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "52",
+      "icon": "CR52.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR53",
+      "name": "Qingrong Intercity Railway",
+      "match": {
+        "@id": "^(9000000254)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "53",
+      "icon": "CR53.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR54",
+      "name": "Hayi High-Speed Railway",
+      "match": {
+        "@id": "^(9000000080)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "54",
+      "icon": "CR54.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR55",
+      "name": "Hamu Passenger Railway",
+      "match": {
+        "@id": "^(9000000081)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "55",
+      "icon": "CR55.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR56",
+      "name": "Huyurong High-Speed Railway",
+      "match": {
+        "@id": "^(9000000165)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "56",
+      "icon": "CR56.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR57",
+      "name": "Jinqin High-Speed Railway",
+      "match": {
+        "@id": "^(9000000172)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "57",
+      "icon": "CR57.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR58",
+      "name": "Haqi Passenger Railway",
+      "match": {
+        "@id": "^(9000000084)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "58",
+      "icon": "CR58.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR59",
+      "name": "Lanyu Railway",
+      "match": {
+        "@id": "^(9000000056)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "59",
+      "icon": "CR59.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR60",
+      "name": "Huningyanjiang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000162)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "60",
+      "icon": "CR60.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR61",
+      "name": "Chuanqing Railway",
+      "match": {
+        "@id": "^(9000000108)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "61",
+      "icon": "CR61.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR62",
+      "name": "Nanzhu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000070)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "62",
+      "icon": "CR62.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR63",
+      "name": "Qujiu Railway",
+      "match": {
+        "@id": "^(9000000220)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "63",
+      "icon": "CR63.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR64",
+      "name": "Hangtai High-Speed Railway",
+      "match": {
+        "@id": "^(9000000141)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "64",
+      "icon": "CR64.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR65",
+      "name": "Hangwen High-Speed Railway",
+      "match": {
+        "@id": "^(9000000144)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "65",
+      "icon": "CR65.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR66",
+      "name": "Ningan Passenger Railway",
+      "match": {
+        "@id": "^(9000000094)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "66",
+      "icon": "CR66.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR67",
+      "name": "Ninghang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000096)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "67",
+      "icon": "CR67.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR68",
+      "name": "Yuwan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000187)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "68",
+      "icon": "CR68.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR69",
+      "name": "Danda Railway",
+      "match": {
+        "@id": "^(9000000040)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "69",
+      "icon": "CR69.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR70",
+      "name": "Ganruilong Railway",
+      "match": {
+        "@id": "^(9000000228)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "70",
+      "icon": "CR70.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR71",
+      "name": "Zhangjihuai High-Speed Railway",
+      "match": {
+        "@id": "^(9000000117)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "71",
+      "icon": "CR71.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR72",
+      "name": "Chengyi High-Speed Railway",
+      "match": {
+        "@id": "^(9000000126)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "72",
+      "icon": "CR72.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR73",
+      "name": "Weiyan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000199)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "73",
+      "icon": "CR73.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR74",
+      "name": "Liunan Passenger Railway",
+      "match": {
+        "@id": "^(9000000146)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "74",
+      "icon": "CR74.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR75",
+      "name": "Yukun High-Speed Railway",
+      "match": {
+        "@id": "^(9000000191)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "75",
+      "icon": "CR75.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR76",
+      "name": "Wujiu Passenger Railway",
+      "match": {
+        "@id": "^(9000000149)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "76",
+      "icon": "CR76.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR77",
+      "name": "Shendan Passenger Railway",
+      "match": {
+        "@id": "^(9000000158)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "77",
+      "icon": "CR77.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR78",
+      "name": "Shitai Passenger Railway",
+      "match": {
+        "@id": "^(9000000208)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "78",
+      "icon": "CR78.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR79",
+      "name": "Nanping High-Speed Railway",
+      "match": {
+        "@id": "^(9000000065)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "79",
+      "icon": "CR79.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR80",
+      "name": "Xintong Passenger Railway",
+      "match": {
+        "@id": "^(9000000134)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "80",
+      "icon": "CR80.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR81",
+      "name": "Lanzhang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000054)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "81",
+      "icon": "CR81.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR82",
+      "name": "Jinwen Railway",
+      "match": {
+        "@id": "^(9000000242)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "82",
+      "icon": "CR82.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR83",
+      "name": "Zhengfu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000238)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "83",
+      "icon": "CR83.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR84",
+      "name": "Xulian High-Speed Railway",
+      "match": {
+        "@id": "^(9000000122)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "84",
+      "icon": "CR84.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR85",
+      "name": "Nanlong Railway",
+      "match": {
+        "@id": "^(9000000071)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "85",
+      "icon": "CR85.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR86",
+      "name": "Chuda Railway",
+      "match": {
+        "@id": "^(9000000148)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "86",
+      "icon": "CR86.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR87",
+      "name": "Xiyu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000224)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "87",
+      "icon": "CR87.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR88",
+      "name": "Jingjin Intercity Railway",
+      "match": {
+        "@id": "^(9000000048)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "88",
+      "icon": "CR88.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR89",
+      "name": "Husuhu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000166)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "89",
+      "icon": "CR89.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR90",
+      "name": "Longlong High-Speed Railway",
+      "match": {
+        "@id": "^(9000000257)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "90",
+      "icon": "CR90.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR91",
+      "name": "Yantong High-Speed Railway",
+      "match": {
+        "@id": "^(9000000205)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "91",
+      "icon": "CR91.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR92",
+      "name": "Jingtang Intercity Railway",
+      "match": {
+        "@id": "^(9000000045)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "92",
+      "icon": "CR92.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR93",
+      "name": "Husutong Railway",
+      "match": {
+        "@id": "^(9000000167)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "93",
+      "icon": "CR93.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR94",
+      "name": "Banan High-Speed Railway",
+      "match": {
+        "@id": "^(9000000110)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "94",
+      "icon": "CR94.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR95",
+      "name": "Chuancang Railway",
+      "match": {
+        "@id": "^(9000000106)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "95",
+      "icon": "CR95.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR96",
+      "name": "Changjiu Intercity Railway",
+      "match": {
+        "@id": "^(9000000137)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "96",
+      "icon": "CR96.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR97",
+      "name": "Hexin High-Speed Railway",
+      "match": {
+        "@id": "^(9000000073)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "97",
+      "icon": "CR97.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR98",
+      "name": "Hebang Passenger Railway",
+      "match": {
+        "@id": "^(9000000077)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "98",
+      "icon": "CR98.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR99",
+      "name": "Mianlu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000214)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "99",
+      "icon": "CR99.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR100",
+      "name": "Yongbei Railway",
+      "match": {
+        "@id": "^(9000000231)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "100",
+      "icon": "CR100.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR101",
+      "name": "Meishan Railway",
+      "match": {
+        "@id": "^(9000000147)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "101",
+      "icon": "CR101.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR102",
+      "name": "Anliu Passenger Railway",
+      "match": {
+        "@id": "^(9000000099)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "102",
+      "icon": "CR102.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR103",
+      "name": "Longzhang Railway",
+      "match": {
+        "@id": "^(9000000256)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "103",
+      "icon": "CR103.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR104",
+      "name": "Henggang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000219)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "104",
+      "icon": "CR104.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR105",
+      "name": "Guangzhu Intercity Railway",
+      "match": {
+        "@id": "^(9000000114)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "105",
+      "icon": "CR105.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR106",
+      "name": "Guangshengang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000112)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "106",
+      "icon": "CR106.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR107",
+      "name": "Jilai High-Speed Railway",
+      "match": {
+        "@id": "^(9000000178)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "107",
+      "icon": "CR107.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR108",
+      "name": "Guangkun Railway",
+      "match": {
+        "@id": "^(9000000111)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "108",
+      "icon": "CR108.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR109",
+      "name": "Xuanji High-Speed Railway",
+      "match": {
+        "@id": "^(9000000101)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "109",
+      "icon": "CR109.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR110",
+      "name": "Mimeng High-Speed Railway",
+      "match": {
+        "@id": "^(9000000119)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "110",
+      "icon": "CR110.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR111",
+      "name": "Chaoling High-Speed Railway",
+      "match": {
+        "@id": "^(9000000140)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "111",
+      "icon": "CR111.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR112",
+      "name": "Yixing High-Speed Railway",
+      "match": {
+        "@id": "^(9000000100)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "112",
+      "icon": "CR112.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR113",
+      "name": "Fuhuang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000249)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "113",
+      "icon": "CR113.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR114",
+      "name": "Yizhan Railway",
+      "match": {
+        "@id": "^(9000000204)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "114",
+      "icon": "CR114.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR115",
+      "name": "Huaibang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000184)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "115",
+      "icon": "CR115.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR116",
+      "name": "Zhangda Passenger Railway",
+      "match": {
+        "@id": "^(9000000118)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "116",
+      "icon": "CR116.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR117",
+      "name": "Jingxiong Intercity Railway",
+      "match": {
+        "@id": "^(9000000051)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "117",
+      "icon": "CR117.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR118",
+      "name": "Hangqu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000145)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "118",
+      "icon": "CR118.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR119",
+      "name": "Panying High-Speed Railway",
+      "match": {
+        "@id": "^(9000000207)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "119",
+      "icon": "CR119.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR120",
+      "name": "Fuping Railway",
+      "match": {
+        "@id": "^(9000000211)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "120",
+      "icon": "CR120.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR121",
+      "name": "Xiangjing High-Speed Railway",
+      "match": {
+        "@id": "^(9000000221)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "121",
+      "icon": "CR121.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR122",
+      "name": "Jibin High-Speed Railway",
+      "match": {
+        "@id": "^(9000000177)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "122",
+      "icon": "CR122.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR123",
+      "name": "Kachi Passenger Railway",
+      "match": {
+        "@id": "^(9000000089)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "123",
+      "icon": "CR123.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR124",
+      "name": "Tianpu Railway",
+      "match": {
+        "@id": "^(9000000092)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "124",
+      "icon": "CR124.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR125",
+      "name": "Wuxiao Intercity Railway",
+      "match": {
+        "@id": "^(9000000152)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "125",
+      "icon": "CR125.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR126",
+      "name": "Wuda High-Speed Railway",
+      "match": {
+        "@id": "^(9000000041)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "126",
+      "icon": "CR126.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR127",
+      "name": "Huaifu High-Speed Railway",
+      "match": {
+        "@id": "^(9000000185)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "127",
+      "icon": "CR127.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR128",
+      "name": "Jingjing High-Speed Railway",
+      "match": {
+        "@id": "^(9000000217)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "128",
+      "icon": "CR128.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR129",
+      "name": "Zhonglaokunwan Railway",
+      "match": {
+        "@id": "^(9000000037)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "129",
+      "icon": "CR129.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR130",
+      "name": "Wuxian Intercity Railway",
+      "match": {
+        "@id": "^(9000000151)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "130",
+      "icon": "CR130.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR131",
+      "name": "Chihuang High-Speed Railway",
+      "match": {
+        "@id": "^(9000000157)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "131",
+      "icon": "CR131.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR132",
+      "name": "Jinba Passenger Railway",
+      "match": {
+        "@id": "^(9000000173)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "132",
+      "icon": "CR132.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR133",
+      "name": "Jinxing Intercity Railway",
+      "match": {
+        "@id": "^(9000000169)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "133",
+      "icon": "CR133.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR134",
+      "name": "Baxu Railway",
+      "match": {
+        "@id": "^(9000000251)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "134",
+      "icon": "CR134.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR135",
+      "name": "Chengguan Railway",
+      "match": {
+        "@id": "^(9000000128)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "135",
+      "icon": "CR135.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR136",
+      "name": "Chaoma High-Speed Railway",
+      "match": {
+        "@id": "^(9000000109)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "136",
+      "icon": "CR136.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR137",
+      "name": "Chongli Railway",
+      "match": {
+        "@id": "^(9000000105)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "137",
+      "icon": "CR137.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR138",
+      "name": "Yongpu Railway",
+      "match": {
+        "@id": "^(9000000155)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "138",
+      "icon": "CR138.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR139",
+      "name": "Yinba Railway",
+      "match": {
+        "@id": "^(9000000245)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "139",
+      "icon": "CR139.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR140",
+      "name": "Jingbin Intercity Railway",
+      "match": {
+        "@id": "^(9000000050)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "140",
+      "icon": "CR140.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR141",
+      "name": "Panxing High-Speed Railway",
+      "match": {
+        "@id": "^(9000000206)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "141",
+      "icon": "CR141.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR142",
+      "name": "Wugang Intercity Railway",
+      "match": {
+        "@id": "^(9000000150)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "142",
+      "icon": "CR142.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR143",
+      "name": "Qinfang Railway",
+      "match": {
+        "@id": "^(9000000243)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "143",
+      "icon": "CR143.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR144",
+      "name": "Huaixing Intercity Railway",
+      "match": {
+        "@id": "^(9000000123)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "144",
+      "icon": "CR144.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR145",
+      "name": "Fangdong Railway",
+      "match": {
+        "@id": "^(9000000250)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "145",
+      "icon": "CR145.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR146",
+      "name": "Jiangmen Railway",
+      "match": {
+        "@id": "^(9000000156)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "146",
+      "icon": "CR146.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR147",
+      "name": "Emeishan Railway",
+      "match": {
+        "@id": "^(9000000104)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "147",
+      "icon": "CR147.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR148",
+      "name": "Jiyu Railway",
+      "match": {
+        "@id": "^(9000000078)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "148",
+      "icon": "CR148.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR149",
+      "name": "Guangshenganggaosutielu Guangzhou–Shenzhen–Hong Kong High Speed Rail Railway",
+      "match": {
+        "@id": "^(9000000116)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "149",
+      "icon": "CR149.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR150",
+      "name": "Jinjian High-Speed Railway",
+      "match": {
+        "@id": "^(9000000241)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "150",
+      "icon": "CR150.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR151",
+      "name": "Pipeng Railway",
+      "match": {
+        "@id": "^(9000000239)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "151",
+      "icon": "CR151.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR152",
+      "name": "Qingyanzhitong Railway",
+      "match": {
+        "@id": "^(9000000252)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "152",
+      "icon": "CR152.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR153",
+      "name": "Yongquan Railway",
+      "match": {
+        "@id": "^(9000000154)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "153",
+      "icon": "CR153.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "CR154",
+      "name": "Xiantao Intercity Railway",
+      "match": {
+        "@id": "^(9000000053)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "154",
+      "icon": "CR154.svg",
+      "stationsFromTrack": true
+    }
+  ],
+  "register": {
+    "name": "China Railway High-speed (中国高铁), CN",
+    "continent": "Asia",
+    "coordinates": [
+      110,
+      33
+    ],
+    "zh": "中国高铁, CN",
+    "achievement": {
+      "title": "Fuxing Flyer",
+      "description": "You've named every China Railway high-speed station."
+    }
+  }
+}

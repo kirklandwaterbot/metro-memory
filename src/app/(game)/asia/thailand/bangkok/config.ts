@@ -68,6 +68,16 @@ export const LINE_GROUPS: LineGroup[] = [
       },
     ],
   },
+  // merged: bkk-srt
+  {
+    title: "SRT Commuter Rail",
+    items: [
+      {
+        type: 'lines',
+        lines: ['BangkokSRTLopburi', 'BangkokSRTKaengKhoi', 'BangkokSRTPrachinburi', 'BangkokSRTRatchaburi', 'BangkokSRTSuphanburi'],
+      },
+    ],
+  },
 ]
 
 export const METADATA: Metadata = {

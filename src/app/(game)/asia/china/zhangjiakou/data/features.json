@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.443385,
+          40.916144
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Taizicheng Ruins Park",
+        "display_name": "Taizicheng Ruins Park (太子城遗址公园)",
+        "alternate_names": [
+          "Taizicheng Ruins Park",
+          "太子城遗址公园",
+          "太子城遺址公園",
+          "Taizichengyizhigongyuan",
+          "tai zi cheng yi zhi gong yuan",
+          "Taizicheng Heritage Park"
+        ],
+        "line": "chonglitram",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.442586,
+          40.914437
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Taizicheng Avenue",
+        "display_name": "Taizicheng Avenue (太子城大道)",
+        "alternate_names": [
+          "Taizicheng Avenue",
+          "太子城大道",
+          "Taizichengdadao",
+          "tai zi cheng da dao"
+        ],
+        "line": "chonglitram",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.444492,
+          40.913659
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Olympic Medals Plaza",
+        "display_name": "Olympic Medals Plaza (奥林匹克颁奖广场)",
+        "alternate_names": [
+          "Olympic Medals Plaza",
+          "奥林匹克颁奖广场",
+          "奧林匹克頒獎廣場",
+          "Aolinpikebanjiangguangchang",
+          "ao lin pi ke ban jiang guang chang",
+          "Medals Plaza",
+          "Olympic Plaza"
+        ],
+        "line": "chonglitram",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.445911,
+          40.912452
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Four Seasons Street",
+        "display_name": "Four Seasons Street (四季商街)",
+        "alternate_names": [
+          "Four Seasons Street",
+          "四季商街",
+          "Sijishangjie",
+          "si ji shang jie"
+        ],
+        "line": "chonglitram",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44505,
+          40.910243
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Yunhu",
+        "display_name": "Yunhu (云湖)",
+        "alternate_names": [
+          "Yunhu",
+          "云湖",
+          "雲湖",
+          "yun hu",
+          "Cloud Lake"
+        ],
+        "line": "chonglitram",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.448202,
+          40.908473
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Ice and Snow Hall",
+        "display_name": "Ice and Snow Hall (冰雪会堂)",
+        "alternate_names": [
+          "Ice and Snow Hall",
+          "冰雪会堂",
+          "冰雪會堂",
+          "Bingxuehuitang",
+          "bing xue hui tang",
+          "Snow Hall"
+        ],
+        "line": "chonglitram",
+        "order": 5
+      },
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.926747,
+          48.47922
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Pokrovska",
+        "alternate_names": [
+          "Покровська"
+        ],
+        "line": "DNP1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.944806,
+          48.480204
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Prospekt Svobody",
+        "alternate_names": [
+          "Проспект Свободи",
+          "Prospekt Svobodi"
+        ],
+        "line": "DNP1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.960577,
+          48.475764
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Zavodska",
+        "alternate_names": [
+          "Заводська",
+          "Заводская",
+          "Zavodskaya"
+        ],
+        "line": "DNP1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.978536,
+          48.476581
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Metalurhiv",
+        "alternate_names": [
+          "Металургів",
+          "Металлургов",
+          "Metallurgov",
+          "Metalurgіv"
+        ],
+        "line": "DNP1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.996873,
+          48.474879
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Metrobudivnykiv",
+        "alternate_names": [
+          "Метробудівників",
+          "Метростроителей",
+          "Metrostroiteley",
+          "Metrobudіvnikіv"
+        ],
+        "line": "DNP1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.017562,
+          48.475152
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Vokzalna",
+        "alternate_names": [
+          "Вокзальна",
+          "Вокзальная",
+          "Vokzalnaya"
+        ],
+        "line": "DNP1",
+        "order": 5
+      },
+      "id": 5
+    }
+  ]
+}

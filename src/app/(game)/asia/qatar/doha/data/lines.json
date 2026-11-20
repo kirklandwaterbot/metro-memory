@@ -1,0 +1,26 @@
+{
+  "DOHAGOLD": {
+    "name": "Gold Line",
+    "color": "#F9B428",
+    "backgroundColor": "#F9B428",
+    "textColor": "#222222",
+    "order": 0,
+    "icon": "DOHAGOLD.svg"
+  },
+  "DOHAGREEN": {
+    "name": "Green Line",
+    "color": "#009530",
+    "backgroundColor": "#009530",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "DOHAGREEN.svg"
+  },
+  "DOHARED": {
+    "name": "Red Line",
+    "color": "#E2251C",
+    "backgroundColor": "#E2251C",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "DOHARED.svg"
+  }
+}

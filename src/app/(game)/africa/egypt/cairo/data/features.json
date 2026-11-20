@@ -1,0 +1,1941 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.334203,
+          29.848884
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Helwan",
+        "alternate_names": [
+          "حلوان",
+          "ഹെൽവാൻ"
+        ],
+        "line": "CAIR1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.325007,
+          29.862659
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Ain Helwan",
+        "alternate_names": [
+          "عين حلوان",
+          "ഐൻ ഹെൽവാൻ"
+        ],
+        "line": "CAIR1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.320366,
+          29.86902
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Helwan University",
+        "alternate_names": [
+          "جامعة حلوان",
+          "دانشگاه حلوان",
+          "ഹെൽവാൻ സർവകലാശാല"
+        ],
+        "line": "CAIR1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.313404,
+          29.879438
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Wadi Hof",
+        "alternate_names": [
+          "وادي حوف",
+          "وادی حوف",
+          "വാദി ഹോഫ്"
+        ],
+        "line": "CAIR1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.304067,
+          29.897187
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hadayeq Helwan",
+        "alternate_names": [
+          "حدائق حلوان",
+          "ഹദായിഖ് ഹെൽവാൻ"
+        ],
+        "line": "CAIR1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.299726,
+          29.906104
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Al-Maasara",
+        "alternate_names": [
+          "المعصرة",
+          "معصره",
+          "അൽ-മഅസറ"
+        ],
+        "line": "CAIR1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.287694,
+          29.925848
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tora El-Asmant",
+        "alternate_names": [
+          "طرة الأسمنت",
+          "طرا آل اسمنت",
+          "ത്വറ അൽ-അസ്മന്ത്"
+        ],
+        "line": "CAIR1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.281707,
+          29.936151
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Kozzika",
+        "alternate_names": [
+          "كوتسكا",
+          "കൊസിക്ക"
+        ],
+        "line": "CAIR1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.273581,
+          29.94633
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Tora El-Balad",
+        "alternate_names": [
+          "طرة البلد",
+          "طرا البلد",
+          "ത്വറ അൽബലദ്"
+        ],
+        "line": "CAIR1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.263467,
+          29.952843
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Thakanat El-Maadi",
+        "alternate_names": [
+          "ثكنات المعادي",
+          "ثكنات المعادی",
+          "തക്കാനാത്ത് അൽ-മഅദി"
+        ],
+        "line": "CAIR1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.258074,
+          29.95984
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Maadi",
+        "alternate_names": [
+          "المعادى",
+          "معادى",
+          "മഅദി"
+        ],
+        "line": "CAIR1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.250671,
+          29.970101
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hadayeq El-Maadi",
+        "alternate_names": [
+          "محطة مترو حدائق المعادى",
+          "حدائق المعادى",
+          "മഅദി തോട്ടങ്ങൾ"
+        ],
+        "line": "CAIR1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.242204,
+          29.98203
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Dar Al-Salam",
+        "alternate_names": [
+          "محطة مترو دار السلام",
+          "دار السلام",
+          "ദാർ അൽ-സലാം"
+        ],
+        "line": "CAIR1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.231359,
+          29.995438
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Al-Zahraa",
+        "alternate_names": [
+          "محطة مترو الزهراء",
+          "زهرا",
+          "അൽ-സഹ്‌റ"
+        ],
+        "line": "CAIR1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.229523,
+          30.00585
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Mar Girgis",
+        "alternate_names": [
+          "محطة مترو مار جرجس",
+          "مار جرجس",
+          "മാർ ഗിർഗിസ്"
+        ],
+        "line": "CAIR1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.231207,
+          30.017683
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Al-Malek Al-Saleh",
+        "alternate_names": [
+          "الملك الصالح",
+          "الملک الصالح",
+          "അൽ-മലിക് അൽ-സാലെഹ്"
+        ],
+        "line": "CAIR1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.235386,
+          30.029249
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Sayyeda Zeinab",
+        "alternate_names": [
+          "السيدة زينب",
+          "سیده زینب",
+          "സയ്യിദ സൈനബ്"
+        ],
+        "line": "CAIR1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.238082,
+          30.036568
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Saad Zaghloul",
+        "alternate_names": [
+          "سعد زغلول",
+          "സഅദ് സഗ്ലൂൽ"
+        ],
+        "line": "CAIR1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.235379,
+          30.043949
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Sadat",
+        "alternate_names": [
+          "السادات",
+          "سادات",
+          "സാദാത്ത്"
+        ],
+        "line": "CAIR1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.238802,
+          30.053557
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nasser",
+        "alternate_names": [
+          "ناصر",
+          "നാസർ"
+        ],
+        "line": "CAIR1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.242538,
+          30.057332
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Orabi",
+        "alternate_names": [
+          "عرابي",
+          "عرابی",
+          "ഒറാബി"
+        ],
+        "line": "CAIR1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.246017,
+          30.061851
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Shuhada",
+        "alternate_names": [
+          "الشهداء",
+          "شهدا",
+          "ഷൂഹദ"
+        ],
+        "line": "CAIR1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.264674,
+          30.068964
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ghamra",
+        "alternate_names": [
+          "غمرة",
+          "الغمرة",
+          "غمره",
+          "ഗമ്ര"
+        ],
+        "line": "CAIR1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.277813,
+          30.077283
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Al-Demerdash",
+        "alternate_names": [
+          "الدمرداش",
+          "دمرداش",
+          "അൽ-ദമർദാഷ്"
+        ],
+        "line": "CAIR1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.287841,
+          30.082206
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Manshiet Al-Sadr",
+        "alternate_names": [
+          "منشية الصدر",
+          "منشیت الصدر",
+          "മൻഷിയത്ത് അൽ-സദർ"
+        ],
+        "line": "CAIR1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.293818,
+          30.086969
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Kobri Al-Qobba",
+        "alternate_names": [
+          "كوبري القبة",
+          "كوبری القبه",
+          "കോബ്രി അൽ-ഖുബ്ബ"
+        ],
+        "line": "CAIR1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.298111,
+          30.090339
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Hammamat Al-Qobba",
+        "alternate_names": [
+          "حمامات القبة",
+          "حمامات القبه",
+          "ഹമാമാത്ത് അൽ-ഖുബ്ബ"
+        ],
+        "line": "CAIR1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.304749,
+          30.09807
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Saray Al-Qobba",
+        "alternate_names": [
+          "سراي القبة",
+          "سرای القبه",
+          "സറായ് അൽ-ഖുബ്ബ"
+        ],
+        "line": "CAIR1",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.309937,
+          30.105199
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Hadayeq Al-Zaitoun",
+        "alternate_names": [
+          "حدائق الزيتون",
+          "ഹദായിഖ് അൽ-സൈത്തൂൺ"
+        ],
+        "line": "CAIR1",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3139,
+          30.114346
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Helmeyet Al-Zaitoun",
+        "alternate_names": [
+          "حلمية الزيتون",
+          "حلمیت الزيتون",
+          "ഹെൽമിയത്ത് അൽ-സൈത്തൂൺ"
+        ],
+        "line": "CAIR1",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.313975,
+          30.12138
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "El-Matareyya",
+        "alternate_names": [
+          "المطرية",
+          "مطريه",
+          "അൽ-മത്തറിയ"
+        ],
+        "line": "CAIR1",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.319075,
+          30.131038
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Ain Shams",
+        "alternate_names": [
+          "عين شمس",
+          "ഐൻ ഷംസ്"
+        ],
+        "line": "CAIR1",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.324493,
+          30.139283
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Ezbet En Nakhl",
+        "alternate_names": [
+          "محطة عزبة النخل",
+          "عزبت النخل",
+          "എസ്ബെത്ത് അൽ-നഖൽ"
+        ],
+        "line": "CAIR1",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.335767,
+          30.152082
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Al Marj",
+        "alternate_names": [
+          "المرج",
+          "مرج",
+          "അൽ-മർഗ്"
+        ],
+        "line": "CAIR1",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.338272,
+          30.16351
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "New El-Marg",
+        "alternate_names": [
+          "المرج الجديدة",
+          "مرج جديد",
+          "പുതിയ അൽ-മർഗ്"
+        ],
+        "line": "CAIR1",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.211967,
+          29.981137
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Al-Mounib",
+        "alternate_names": [
+          "المنيب",
+          "منيب",
+          "അൽ-മുനീബ്"
+        ],
+        "line": "CAIR2",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.208614,
+          29.995485
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Sakiat Mekki",
+        "alternate_names": [
+          "ساقية مكي",
+          "ساقیت مکی",
+          "സാഖിയത്ത് മെക്കി"
+        ],
+        "line": "CAIR2",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.207964,
+          30.005208
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Omm El Misryeen",
+        "alternate_names": [
+          "أم المصريين",
+          "ام المصریین",
+          "ഉമ്മുൽ മിസ്രിയീൻ"
+        ],
+        "line": "CAIR2",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.207125,
+          30.01057
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Giza",
+        "alternate_names": [
+          "جيزة",
+          "جیزه",
+          "ഗിസ"
+        ],
+        "line": "CAIR2",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.204035,
+          30.017295
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Faisal",
+        "alternate_names": [
+          "فيصل",
+          "ഫൈസൽ"
+        ],
+        "line": "CAIR2",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.201203,
+          30.025994
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Cairo University",
+        "alternate_names": [
+          "جامعة القاهرة",
+          "دانشگاه قاهره",
+          "കെയ്റോ സർവകലാശാല"
+        ],
+        "line": "CAIR2",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.200344,
+          30.03578
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Behooth",
+        "alternate_names": [
+          "البحوث",
+          "بحوث",
+          "ബെഹൂസ്"
+        ],
+        "line": "CAIR2",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.212045,
+          30.038222
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Dokki",
+        "alternate_names": [
+          "الدقى",
+          "دقى",
+          "ദക്കി"
+        ],
+        "line": "CAIR2",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.225059,
+          30.041958
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Opera",
+        "alternate_names": [
+          "الأوبرا",
+          "اپرا",
+          "ഓപ്പറ"
+        ],
+        "line": "CAIR2",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.235379,
+          30.043949
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Sadat",
+        "alternate_names": [
+          "السادات",
+          "سادات",
+          "സാദാത്ത്"
+        ],
+        "line": "CAIR2",
+        "order": 9
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.244276,
+          30.045392
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Mohamed Naguib",
+        "alternate_names": [
+          "نجيب",
+          "محمد نجيب",
+          "മുഹമ്മദ് നഗീബ്"
+        ],
+        "line": "CAIR2",
+        "order": 10
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.246899,
+          30.05243
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Attaba",
+        "alternate_names": [
+          "العتبة",
+          "عتبه",
+          "അത്തബ"
+        ],
+        "line": "CAIR2",
+        "order": 11
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.246017,
+          30.061851
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Shuhada",
+        "alternate_names": [
+          "الشهداء",
+          "شهدا",
+          "ഷൂഹദ"
+        ],
+        "line": "CAIR2",
+        "order": 12
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.245019,
+          30.071101
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Massara",
+        "alternate_names": [
+          "مسره",
+          "മസറ"
+        ],
+        "line": "CAIR2",
+        "order": 13
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.245351,
+          30.080565
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Rawd El-Farag",
+        "alternate_names": [
+          "محطة مترو روض الفرج",
+          "روض الفرج",
+          "റൗദ് അൽ-ഫറഗ്"
+        ],
+        "line": "CAIR2",
+        "order": 14
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.24541,
+          30.088303
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Sainte Teresa",
+        "alternate_names": [
+          "سانت تيريزا",
+          "سنت ترزا",
+          "സെൻ്റ് തെരേസ"
+        ],
+        "line": "CAIR2",
+        "order": 15
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.245437,
+          30.09779
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Al-Khalafawy",
+        "alternate_names": [
+          "الخلفاوي",
+          "خلفاوی",
+          "അൽ-ഖലഫാവി"
+        ],
+        "line": "CAIR2",
+        "order": 16
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.246125,
+          30.104091
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Al-Mezallat",
+        "alternate_names": [
+          "المظلات",
+          "مظلات",
+          "അൽ-മെസല്ലത്ത്"
+        ],
+        "line": "CAIR2",
+        "order": 17
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.248743,
+          30.113764
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Koliet El-Zeraa",
+        "alternate_names": [
+          "كلية الزراعة",
+          "دانشکده کشاورزی",
+          "കലിയത്ത് അൽ-സറഅ"
+        ],
+        "line": "CAIR2",
+        "order": 18
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.243493,
+          30.124093
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Shobra Al-Kheima",
+        "alternate_names": [
+          "شبرا الخيمة",
+          "شبرا الخیمه",
+          "ഷുബ്ര അൽ-ഖൈമ"
+        ],
+        "line": "CAIR2",
+        "order": 19
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.421517,
+          30.147032
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Adly Mansour",
+        "alternate_names": [
+          "عدلى منصور"
+        ],
+        "line": "CAIR3",
+        "order": 0
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.404849,
+          30.143883
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "El Haykestep",
+        "alternate_names": [
+          "الهايكستب‎",
+          "هایکستپ",
+          "അൽ-ഹൈക്കെസ്തെപ്പ്"
+        ],
+        "line": "CAIR3",
+        "order": 1
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.39448,
+          30.140408
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Omar Ebn Elkhatab",
+        "alternate_names": [
+          "عمر بن الخطاب‎",
+          "ഉമർ ഇബ്നു അൽ ഖത്താബ്"
+        ],
+        "line": "CAIR3",
+        "order": 2
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.384062,
+          30.13476
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Qubaa",
+        "alternate_names": [
+          "قباء‎",
+          "قبا",
+          "ഖുബ"
+        ],
+        "line": "CAIR3",
+        "order": 3
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.37309,
+          30.130965
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Hesham Barakat",
+        "alternate_names": [
+          "هشام بركات‎",
+          "ഹിഷാം ബറക്കാത്ത്"
+        ],
+        "line": "CAIR3",
+        "order": 4
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.36052,
+          30.128117
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "El Nozha",
+        "alternate_names": [
+          "النزهة‎",
+          "نزهه",
+          "അൽ-നുസ്ഹ"
+        ],
+        "line": "CAIR3",
+        "order": 5
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.343972,
+          30.122306
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "El Shams Club",
+        "alternate_names": [
+          "نادي الشمس‎",
+          "باشگاه الشمس",
+          "നാദി അൽ-ഷംസ്"
+        ],
+        "line": "CAIR3",
+        "order": 6
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.339827,
+          30.118073
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Alf Maskan",
+        "alternate_names": [
+          "محطة مترو ألف مسكن",
+          "مترو ألف مسكن",
+          "الف مسکن",
+          "അൽഫ് മസ്‌കാൻ"
+        ],
+        "line": "CAIR3",
+        "order": 7
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.338182,
+          30.10796
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Heliopolis",
+        "alternate_names": [
+          "هليوبوليس",
+          "هلیوپولیس",
+          "ഹീലിയോപോളിസ്"
+        ],
+        "line": "CAIR3",
+        "order": 8
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.332762,
+          30.101109
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Haroun",
+        "alternate_names": [
+          "هارون",
+          "ഹാറൂൺ"
+        ],
+        "line": "CAIR3",
+        "order": 9
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.326497,
+          30.091318
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Al Ahram",
+        "alternate_names": [
+          "الاهرام",
+          "اهرام",
+          "അൽ-അഹ്റാം"
+        ],
+        "line": "CAIR3",
+        "order": 10
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.32925,
+          30.084367
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Koleyet El Banat Subway",
+        "alternate_names": [
+          "محطة مترو كلية البنات",
+          "کلیت البنات",
+          "കുലയത്ത് അൽ-ബനാത്ത്"
+        ],
+        "line": "CAIR3",
+        "order": 11
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.317396,
+          30.072948
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Stadium",
+        "alternate_names": [
+          "الإستاد",
+          "ورزشگاه",
+          "സ്റ്റേഡിയം"
+        ],
+        "line": "CAIR3",
+        "order": 12
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.301148,
+          30.073329
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Cairo Fairground",
+        "alternate_names": [
+          "أرض المعارض",
+          "نمایشگاه قاهره",
+          "ഫെയർസോൺ"
+        ],
+        "line": "CAIR3",
+        "order": 13
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.284089,
+          30.072786
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Abbassia",
+        "alternate_names": [
+          "العباسية",
+          "عباسیه",
+          "അബ്ബാസിയ"
+        ],
+        "line": "CAIR3",
+        "order": 14
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.276441,
+          30.065363
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Abdou Pasha",
+        "alternate_names": [
+          "عبده باشا",
+          "عبدو پاشا",
+          "അബ്ദു പാഷ"
+        ],
+        "line": "CAIR3",
+        "order": 15
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.267974,
+          30.062262
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "El Geish",
+        "alternate_names": [
+          "الجيش",
+          "جيش",
+          "അൽ-ഗെയ്ഷ്"
+        ],
+        "line": "CAIR3",
+        "order": 16
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.255875,
+          30.053711
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Bab El Shaaria",
+        "alternate_names": [
+          "باب الشعرية",
+          "باب الشعریه",
+          "ബാബ് അൽ-ഷഅറിയ"
+        ],
+        "line": "CAIR3",
+        "order": 17
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.246899,
+          30.05243
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Attaba",
+        "alternate_names": [
+          "العتبة",
+          "عتبه",
+          "അത്തബ"
+        ],
+        "line": "CAIR3",
+        "order": 18
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.238802,
+          30.053557
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Nasser",
+        "alternate_names": [
+          "ناصر",
+          "നാസർ"
+        ],
+        "line": "CAIR3",
+        "order": 19
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.23221,
+          30.055491
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Masbero",
+        "alternate_names": [
+          "ماسبيرو",
+          "മാസ്ബെറോ"
+        ],
+        "line": "CAIR3",
+        "order": 20
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.222516,
+          30.062404
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Safaa Hegazy",
+        "alternate_names": [
+          "صفاء حجازي",
+          "صفا حجازی",
+          "സഫാ ഹിഗാസി"
+        ],
+        "line": "CAIR3",
+        "order": 21
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.21299,
+          30.066794
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Kit-Kat",
+        "alternate_names": [
+          "الکيت کات",
+          "کيت-کات",
+          "കിറ്റ്-കാറ്റ്"
+        ],
+        "line": "CAIR3",
+        "order": 22
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.205335,
+          30.069782
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Sudan",
+        "alternate_names": [
+          "السودان",
+          "سودان",
+          "സുഡാൻ"
+        ],
+        "line": "CAIR3",
+        "order": 23
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.207561,
+          30.075949
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Imbaba",
+        "alternate_names": [
+          "إمبابة",
+          "امبابه",
+          "ഇംബാബ"
+        ],
+        "line": "CAIR3",
+        "order": 24
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.210486,
+          30.082115
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Al-Bohy",
+        "alternate_names": [
+          "البوهي",
+          "بوهی"
+        ],
+        "line": "CAIR3",
+        "order": 25
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.20888,
+          30.093203
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Al-Kawmeiah",
+        "alternate_names": [
+          "القومية"
+        ],
+        "line": "CAIR3",
+        "order": 26
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.199582,
+          30.096411
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Ring Road",
+        "alternate_names": [
+          "الطريق الدائري",
+          "جاده کمربندی"
+        ],
+        "line": "CAIR3",
+        "order": 27
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.184166,
+          30.101884
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "El-Dabaa Axis Metro Station (Rod El-Farag Axis)",
+        "alternate_names": [
+          "محطه مترو محور الضبعة (محور روض الفرج)"
+        ],
+        "line": "CAIR3",
+        "order": 28
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.20136,
+          30.0249
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Cairo University",
+        "alternate_names": [
+          "جامعة القاهرة",
+          "കെയ്റോ സർവകലാശാല"
+        ],
+        "line": "CAIR3",
+        "order": 29
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.195503,
+          30.037545
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Bulaq El-Dakroor",
+        "alternate_names": [
+          "محطة مترو بولاق الدكرور",
+          "بولاق الدكرور",
+          "ബുലാഖ് അൽ-ദക്രൂർ"
+        ],
+        "line": "CAIR3",
+        "order": 30
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.199687,
+          30.050955
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Gamet El Dowel",
+        "alternate_names": [
+          "جامعة الدول",
+          "جامعت الدول",
+          "ഗാമഅത്ത് അൽ-ദുവൽ"
+        ],
+        "line": "CAIR3",
+        "order": 31
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.201018,
+          30.058462
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Wadi El Nile",
+        "alternate_names": [
+          "وادي النيل",
+          "وادی نیل",
+          "വാദി അൽ-നീൽ"
+        ],
+        "line": "CAIR3",
+        "order": 32
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.202156,
+          30.065074
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Al-Tawfikia",
+        "alternate_names": [
+          "التوفيقية",
+          "توفیقیه",
+          "അൽ-തൗഫീഖിയ"
+        ],
+        "line": "CAIR3",
+        "order": 33
+      },
+      "id": 88
+    }
+  ]
+}

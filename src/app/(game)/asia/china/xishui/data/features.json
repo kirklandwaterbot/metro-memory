@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.231032,
+          28.313001
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Xibu Tianyuan",
+        "display_name": "Xibu Tianyuan (鳛部田园)",
+        "alternate_names": [
+          "Xibu Tianyuan",
+          "鳛部田园",
+          "鰼部田園",
+          "Xibutianyuan",
+          "xi bu tian yuan",
+          "Xibu Rural",
+          "习部田园",
+          "鰼部田园"
+        ],
+        "line": "xishuiforest",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.228372,
+          28.327537
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Xihu Jiuxiang",
+        "display_name": "Xihu Jiuxiang (鳛湖酒香)",
+        "alternate_names": [
+          "Xihu Jiuxiang",
+          "鳛湖酒香",
+          "鰼湖酒香",
+          "Xihujiuxiang",
+          "xi hu jiu xiang",
+          "习湖酒香",
+          "Xi Lake & Fragrant Wine"
+        ],
+        "line": "xishuiforest",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.220923,
+          28.332694
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Xiren Jiuqian",
+        "display_name": "Xiren Jiuqian (鳛人九仟)",
+        "alternate_names": [
+          "Xiren Jiuqian",
+          "鳛人九仟",
+          "鰼人九仟",
+          "Xirenjiuqian",
+          "xi ren jiu qian",
+          "Nine Thousand Xi Peoples",
+          "习人九仟"
+        ],
+        "line": "xishuiforest",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.203788,
+          28.335941
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Xiyu Longmen",
+        "display_name": "Xiyu Longmen (鳛鱼龙门)",
+        "alternate_names": [
+          "Xiyu Longmen",
+          "鳛鱼龙门",
+          "鰼魚龍門",
+          "Xiyulongmen",
+          "xi yu long men",
+          "Xi's Fish & Dragon's Gate",
+          "习鱼龙门",
+          "鰼鱼龙门"
+        ],
+        "line": "xishuiforest",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.179973,
+          28.347497
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Xiyuan Jingshan",
+        "display_name": "Xiyuan Jingshan (鳛源菁山)",
+        "alternate_names": [
+          "Xiyuan Jingshan",
+          "鳛源菁山",
+          "鰼源菁山",
+          "Xiyuanjingshan",
+          "xi yuan jing shan",
+          "Mount Jing",
+          "习源箐山",
+          "鰼源箐山",
+          "鳛源箐山",
+          "Mount Jing : Source of Xi"
+        ],
+        "line": "xishuiforest",
+        "order": 4
+      },
+      "id": 5
+    }
+  ]
+}

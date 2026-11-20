@@ -1,0 +1,8741 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.950776,
+          47.358436
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Savenay",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556209,
+          47.464361
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Angers Saint-Laud",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.177833,
+          47.369508
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Voie",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.542029,
+          47.217262
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nantes",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.211163,
+          47.286638
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Saint-Nazaire",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.389184,
+          47.288641
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "La Baule-Escoublac",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.342193,
+          47.841812
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Sablé",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.192179,
+          47.99529
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Le Mans",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.211841,
+          48.122522
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Vitré",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.760912,
+          48.076339
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Laval",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319109,
+          48.840062
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Paris Montparnasse",
+        "alternate_names": [
+          "Gare Montparnasse"
+        ],
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.511222,
+          48.46588
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Lamballe",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.765014,
+          48.507429
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Saint-Brieuc",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672381,
+          48.103193
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Rennes",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.750143,
+          48.544168
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Dol-de-Bretagne",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.003981,
+          48.646604
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Saint-Malo",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.143341,
+          48.555493
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Guingamp",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.832594,
+          48.578121
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Morlaix",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.256702,
+          48.453776
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Landerneau",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.480093,
+          48.387694
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Brest",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.08842,
+          47.651864
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Redon",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.75259,
+          47.665299
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Vannes",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.999337,
+          47.680252
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Auray",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.366716,
+          47.755307
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Lorient",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.553014,
+          47.86947
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Quimperlé",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.832768,
+          47.960434
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Rosporden",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.092211,
+          47.994698
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Quimper",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.506964,
+          47.28988
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Le Croisic",
+        "line": "SNCFTGVAtlantiqueBretagn",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.050308,
+          43.720604
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Dax",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 0
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.042179,
+          43.100511
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Lourdes",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 1
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.069356,
+          43.240216
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Tarbes",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 2
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.699358,
+          44.772042
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Gazinet-Cestas",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 3
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.470343,
+          43.497099
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Bayonne",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 4
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.545875,
+          43.459107
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Biarritz",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 5
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.661045,
+          43.385718
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Saint-Jean-de-Luz - Ciboure",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 6
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.781954,
+          43.353151
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Hendaye",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 7
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.767645,
+          43.484215
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Orthez",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 8
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.369733,
+          43.291542
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Pau",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 9
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319109,
+          48.840062
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Paris Montparnasse",
+        "alternate_names": [
+          "Gare Montparnasse"
+        ],
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 10
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.020737,
+          47.822023
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Vendôme - Villiers-sur-Loir TGV",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 11
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.723788,
+          47.38567
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Saint-Pierre-des-Corps",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 12
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.694228,
+          47.389443
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Tours",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 13
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.762091,
+          46.113341
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Surgères",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 14
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.332711,
+          46.582522
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Poitiers",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 15
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556066,
+          44.825802
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Bordeaux Saint-Jean",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 16
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.164325,
+          45.653731
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Angoulême",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 17
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.236057,
+          44.915831
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Libourne",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 18
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.966151,
+          44.637197
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Facture-Biganos",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 19
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.142934,
+          44.636973
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "La Teste",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 20
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.16557,
+          44.658966
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Arcachon",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 21
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.145473,
+          46.152587
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "La Rochelle",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 22
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.201119,
+          46.406436
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Saint-Maixent-l'École",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 23
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.454275,
+          46.31936
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Niort",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 24
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.549288,
+          46.818699
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Châtellerault",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 25
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.378161,
+          46.669654
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Futuroscope",
+        "line": "SNCFTGVAtlantiqueSudOues",
+        "order": 26
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261598,
+          43.704745
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Nice-Ville",
+        "line": "SNCFTGVSudEst",
+        "order": 0
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.493116,
+          43.774703
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Menton",
+        "line": "SNCFTGVSudEst",
+        "order": 1
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.419537,
+          43.738244
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Monaco - Monte Carlo",
+        "line": "SNCFTGVSudEst",
+        "order": 2
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.482459,
+          43.455613
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Les Arcs - Draguignan",
+        "line": "SNCFTGVSudEst",
+        "order": 3
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770226,
+          43.422784
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Saint-Raphaël-Valescure",
+        "line": "SNCFTGVSudEst",
+        "order": 4
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.020224,
+          43.554208
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Cannes",
+        "line": "SNCFTGVSudEst",
+        "order": 5
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.010064,
+          43.118711
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "La Garde",
+        "line": "SNCFTGVSudEst",
+        "order": 6
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.381193,
+          43.303264
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Marseille Saint-Charles",
+        "line": "SNCFTGVSudEst",
+        "order": 7
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.124109,
+          43.108762
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Hyères",
+        "line": "SNCFTGVSudEst",
+        "order": 8
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.929521,
+          43.128642
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Toulon",
+        "line": "SNCFTGVSudEst",
+        "order": 9
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119422,
+          43.58595
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Antibes",
+        "line": "SNCFTGVSudEst",
+        "order": 10
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.609882,
+          43.792687
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Ventimiglia",
+        "alternate_names": [
+          "Vintimille"
+        ],
+        "line": "SNCFTGVSudEst",
+        "order": 11
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.317287,
+          43.455145
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Aix-en-Provence TGV",
+        "line": "SNCFTGVSudEst",
+        "order": 12
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.978434,
+          44.991932
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Valence TGV Sud Rhône-Alpes",
+        "line": "SNCFTGVSudEst",
+        "order": 13
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.373876,
+          48.844542
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Paris Gare de Lyon",
+        "line": "SNCFTGVSudEst",
+        "order": 14
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.336225,
+          47.618681
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Montbard",
+        "line": "SNCFTGVSudEst",
+        "order": 15
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.84854,
+          47.02294
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Beaune",
+        "line": "SNCFTGVSudEst",
+        "order": 16
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.843433,
+          46.781585
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Chalon-sur-Saône",
+        "line": "SNCFTGVSudEst",
+        "order": 17
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.026979,
+          47.323037
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Dijon-Ville",
+        "line": "SNCFTGVSudEst",
+        "order": 18
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.487907,
+          47.096508
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Dole",
+        "line": "SNCFTGVSudEst",
+        "order": 19
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.021899,
+          47.24741
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Besançon Viotte",
+        "line": "SNCFTGVSudEst",
+        "order": 20
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.953317,
+          47.307991
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Besançon Franche-Comté TGV",
+        "line": "SNCFTGVSudEst",
+        "order": 21
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897455,
+          47.585983
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Belfort - Montbéliard TGV",
+        "line": "SNCFTGVSudEst",
+        "order": 22
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.343046,
+          47.741676
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Mulhouse-Ville",
+        "line": "SNCFTGVSudEst",
+        "order": 23
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.860345,
+          45.760538
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Lyon Part-Dieu",
+        "line": "SNCFTGVSudEst",
+        "order": 24
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.399607,
+          45.443615
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Saint-Étienne Châteaucreux",
+        "line": "SNCFTGVSudEst",
+        "order": 25
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.471616,
+          45.216902
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Saint-Michel - Valloire",
+        "line": "SNCFTGVSudEst",
+        "order": 26
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.301744,
+          45.353557
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Saint-Avre - La Chambre",
+        "line": "SNCFTGVSudEst",
+        "order": 27
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.659131,
+          45.193394
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Modane",
+        "line": "SNCFTGVSudEst",
+        "order": 28
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.786072,
+          43.921783
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Avignon TGV",
+        "line": "SNCFTGVSudEst",
+        "order": 29
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03499,
+          43.136323
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "La Pauline",
+        "line": "SNCFTGVSudEst",
+        "order": 30
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.214988,
+          46.200093
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Bourg-en-Bresse",
+        "line": "SNCFTGVSudEst",
+        "order": 31
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.237111,
+          46.199589
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Annemasse",
+        "line": "SNCFTGVSudEst",
+        "order": 32
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.48157,
+          46.368964
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Thonon-les-Bains",
+        "line": "SNCFTGVSudEst",
+        "order": 33
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.636513,
+          45.935849
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Sallanches - Combloux - Megeve",
+        "line": "SNCFTGVSudEst",
+        "order": 34
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.701457,
+          45.906572
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Saint-Gervais-les-Bains - Le Fayet",
+        "line": "SNCFTGVSudEst",
+        "order": 35
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.582997,
+          46.061229
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Cluses",
+        "line": "SNCFTGVSudEst",
+        "order": 36
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.825958,
+          46.110906
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Bellegarde",
+        "line": "SNCFTGVSudEst",
+        "order": 37
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.778849,
+          46.282912
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Mâcon-Loché-TGV",
+        "line": "SNCFTGVSudEst",
+        "order": 38
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.82528,
+          45.747934
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Lyon Perrache",
+        "line": "SNCFTGVSudEst",
+        "order": 39
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.499502,
+          46.765315
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Le Creusot TGV (Montceau - Montchanin)",
+        "line": "SNCFTGVSudEst",
+        "order": 40
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.919873,
+          45.571474
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Chambéry - Challes-les-Eaux",
+        "line": "SNCFTGVSudEst",
+        "order": 41
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.383243,
+          45.673192
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Albertville",
+        "line": "SNCFTGVSudEst",
+        "order": 42
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.531432,
+          45.486711
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Moûtiers-Salins-Brides-les-Bains",
+        "line": "SNCFTGVSudEst",
+        "order": 43
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.733589,
+          45.574244
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Landry",
+        "line": "SNCFTGVSudEst",
+        "order": 44
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.648892,
+          45.554265
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Aime - La Plagne",
+        "line": "SNCFTGVSudEst",
+        "order": 45
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.771617,
+          45.618805
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Bourg-Saint-Maurice",
+        "line": "SNCFTGVSudEst",
+        "order": 46
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.075805,
+          45.721029
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Lyon-Saint-Exupéry TGV",
+        "line": "SNCFTGVSudEst",
+        "order": 47
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.714258,
+          45.19144
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Grenoble",
+        "line": "SNCFTGVSudEst",
+        "order": 48
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.352781,
+          45.279204
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Saint-Jean-de-Maurienne Arvan",
+        "line": "SNCFTGVSudEst",
+        "order": 49
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.908928,
+          45.688138
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Aix-les-Bains - Le Revard",
+        "line": "SNCFTGVSudEst",
+        "order": 50
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.120712,
+          45.902023
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Annecy",
+        "line": "SNCFTGVSudEst",
+        "order": 51
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.879479,
+          42.696205
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Perpignan",
+        "line": "SNCFTGVSudEst",
+        "order": 52
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.005666,
+          43.190616
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Narbonne",
+        "line": "SNCFTGVSudEst",
+        "order": 53
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.218801,
+          43.336181
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Béziers",
+        "line": "SNCFTGVSudEst",
+        "order": 54
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.465509,
+          43.317397
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Agde",
+        "line": "SNCFTGVSudEst",
+        "order": 55
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.696523,
+          43.4129
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Sète",
+        "line": "SNCFTGVSudEst",
+        "order": 56
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.924194,
+          43.595455
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Montpellier-Sud-de-France",
+        "line": "SNCFTGVSudEst",
+        "order": 57
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.507393,
+          43.816795
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Nîmes Pont du Gard",
+        "line": "SNCFTGVSudEst",
+        "order": 58
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880235,
+          43.604305
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Montpellier Saint-Roch",
+        "line": "SNCFTGVSudEst",
+        "order": 59
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366315,
+          43.832545
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Nîmes Centre",
+        "line": "SNCFTGVSudEst",
+        "order": 60
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.893463,
+          44.927984
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Valence-Ville",
+        "line": "SNCFTGVSudEst",
+        "order": 61
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.819474,
+          44.137489
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Orange",
+        "line": "SNCFTGVSudEst",
+        "order": 62
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.805266,
+          43.94139
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Avignon-Centre",
+        "line": "SNCFTGVSudEst",
+        "order": 63
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.632572,
+          43.684851
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Arles",
+        "line": "SNCFTGVSudEst",
+        "order": 64
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.999477,
+          43.581158
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Miramas",
+        "line": "SNCFTGVSudEst",
+        "order": 65
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.744561,
+          44.559041
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Montélimar",
+        "line": "SNCFTGVSudEst",
+        "order": 66
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.577778,
+          46.39791
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Évian-les-Bains",
+        "line": "SNCFTGVSudEst",
+        "order": 67
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.174117,
+          48.689732
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Nancy",
+        "line": "SNCFTGVEst",
+        "order": 0
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.733966,
+          48.585249
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Strasbourg",
+        "line": "SNCFTGVEst",
+        "order": 1
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.361943,
+          48.744749
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Saverne",
+        "line": "SNCFTGVEst",
+        "order": 2
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.052079,
+          48.738597
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Sarrebourg",
+        "line": "SNCFTGVEst",
+        "order": 3
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.497073,
+          48.587837
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Lunéville",
+        "line": "SNCFTGVEst",
+        "order": 4
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35907,
+          48.877642
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Paris Est",
+        "alternate_names": [
+          "Gare de l'Est"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 5
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.023857,
+          49.259276
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Reims",
+        "line": "SNCFTGVEst",
+        "order": 6
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.369641,
+          49.504297
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Rethel",
+        "line": "SNCFTGVEst",
+        "order": 7
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.725267,
+          49.767835
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Charleville-Mézières",
+        "line": "SNCFTGVEst",
+        "order": 8
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.930128,
+          49.694834
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Sedan",
+        "line": "SNCFTGVEst",
+        "order": 9
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.169759,
+          48.947274
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Lorraine TGV",
+        "line": "SNCFTGVEst",
+        "order": 10
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.270818,
+          48.978642
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Meuse TGV",
+        "line": "SNCFTGVEst",
+        "order": 11
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.994115,
+          49.214255
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Champagne-Ardenne TGV",
+        "line": "SNCFTGVEst",
+        "order": 12
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.349078,
+          48.955241
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Châlons-en-Champagne",
+        "line": "SNCFTGVEst",
+        "order": 13
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.587639,
+          48.717818
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Vitry-le-François",
+        "line": "SNCFTGVEst",
+        "order": 14
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.167319,
+          48.773694
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Bar-le-Duc",
+        "line": "SNCFTGVEst",
+        "order": 15
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.571109,
+          49.004016
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Aéroport Charles de Gaulle 2 TGV",
+        "line": "SNCFTGVEst",
+        "order": 16
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.831846,
+          49.859237
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "TGV Haute-Picardie",
+        "line": "SNCFTGVEst",
+        "order": 17
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.075714,
+          50.638983
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Lille-Europe",
+        "line": "SNCFTGVEst",
+        "order": 18
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.334986,
+          50.835877
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Bruxelles-Midi - Brussel-Zuid",
+        "line": "SNCFTGVEst",
+        "order": 19
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.782971,
+          48.870264
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Marne-la-Vallée - Chessy",
+        "line": "SNCFTGVEst",
+        "order": 20
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.261344,
+          48.725842
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Massy-TGV",
+        "line": "SNCFTGVEst",
+        "order": 21
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.723788,
+          47.38567
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Saint-Pierre-des-Corps",
+        "line": "SNCFTGVEst",
+        "order": 22
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556209,
+          47.464361
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Angers Saint-Laud",
+        "line": "SNCFTGVEst",
+        "order": 23
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.541953,
+          47.217079
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Nantes",
+        "line": "SNCFTGVEst",
+        "order": 24
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.332711,
+          46.582522
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Poitiers",
+        "line": "SNCFTGVEst",
+        "order": 25
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.164325,
+          45.653731
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Angoulême",
+        "line": "SNCFTGVEst",
+        "order": 26
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.55589,
+          44.825769
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Bordeaux Saint-Jean",
+        "line": "SNCFTGVEst",
+        "order": 27
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.192195,
+          47.995318
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Le Mans",
+        "line": "SNCFTGVEst",
+        "order": 28
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672381,
+          48.103193
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Rennes",
+        "line": "SNCFTGVEst",
+        "order": 29
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.75259,
+          47.665299
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Vannes",
+        "line": "SNCFTGVEst",
+        "order": 30
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.999345,
+          47.680215
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Auray",
+        "line": "SNCFTGVEst",
+        "order": 31
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.366704,
+          47.75527
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Lorient",
+        "line": "SNCFTGVEst",
+        "order": 32
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.092211,
+          47.994698
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Quimper",
+        "line": "SNCFTGVEst",
+        "order": 33
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.346526,
+          48.072503
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Colmar",
+        "line": "SNCFTGVEst",
+        "order": 34
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.442841,
+          48.260112
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Sélestat",
+        "line": "SNCFTGVEst",
+        "order": 35
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.343188,
+          47.741559
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Mulhouse-Ville",
+        "line": "SNCFTGVEst",
+        "order": 36
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897543,
+          47.58583
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Belfort - Montbéliard TGV",
+        "line": "SNCFTGVEst",
+        "order": 37
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.953427,
+          47.307831
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Besançon Franche-Comté TGV",
+        "line": "SNCFTGVEst",
+        "order": 38
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.026979,
+          47.323037
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Dijon-Ville",
+        "line": "SNCFTGVEst",
+        "order": 39
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.84854,
+          47.02294
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Beaune",
+        "line": "SNCFTGVEst",
+        "order": 40
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.824774,
+          46.30267
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Mâcon-Ville",
+        "line": "SNCFTGVEst",
+        "order": 41
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.860655,
+          45.760527
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Lyon Part-Dieu",
+        "line": "SNCFTGVEst",
+        "order": 42
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.843433,
+          46.781585
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Chalon-sur-Saône",
+        "line": "SNCFTGVEst",
+        "order": 43
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.978434,
+          44.991932
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Valence TGV Sud Rhône-Alpes",
+        "line": "SNCFTGVEst",
+        "order": 44
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.786072,
+          43.921783
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Avignon TGV",
+        "line": "SNCFTGVEst",
+        "order": 45
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.317287,
+          43.455145
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Aix-en-Provence TGV",
+        "line": "SNCFTGVEst",
+        "order": 46
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.381193,
+          43.303264
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Marseille Saint-Charles",
+        "line": "SNCFTGVEst",
+        "order": 47
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.929521,
+          43.128642
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Toulon",
+        "line": "SNCFTGVEst",
+        "order": 48
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.482459,
+          43.455613
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Les Arcs - Draguignan",
+        "line": "SNCFTGVEst",
+        "order": 49
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770226,
+          43.422784
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Saint-Raphaël-Valescure",
+        "line": "SNCFTGVEst",
+        "order": 50
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.020224,
+          43.554208
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Cannes",
+        "line": "SNCFTGVEst",
+        "order": 51
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119233,
+          43.585955
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Antibes",
+        "line": "SNCFTGVEst",
+        "order": 52
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261598,
+          43.704745
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Nice-Ville",
+        "line": "SNCFTGVEst",
+        "order": 53
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.13572,
+          49.599833
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Luxembourg",
+        "line": "SNCFTGVEst",
+        "order": 54
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.169935,
+          49.353896
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Thionville",
+        "line": "SNCFTGVEst",
+        "order": 55
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.177013,
+          49.109277
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Metz",
+        "line": "SNCFTGVEst",
+        "order": 56
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.879111,
+          42.696123
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Perpignan",
+        "line": "SNCFTGVEst",
+        "order": 57
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.00553,
+          43.190704
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Narbonne",
+        "line": "SNCFTGVEst",
+        "order": 58
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.218801,
+          43.336181
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Béziers",
+        "line": "SNCFTGVEst",
+        "order": 59
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.696515,
+          43.41293
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Sète",
+        "line": "SNCFTGVEst",
+        "order": 60
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880265,
+          43.604284
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Montpellier Saint-Roch",
+        "line": "SNCFTGVEst",
+        "order": 61
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36623,
+          43.832605
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Nîmes Centre",
+        "line": "SNCFTGVEst",
+        "order": 62
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663209,
+          50.105995
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 63
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 64
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768933,
+          49.435986
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Kaiserslautern Hbf",
+        "alternate_names": [
+          "Kaiserslautern Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 65
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.991047,
+          49.241379
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Saarbrücken Hbf",
+        "alternate_names": [
+          "Saarbrücken Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 66
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.900931,
+          49.189463
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Forbach",
+        "line": "SNCFTGVEst",
+        "order": 67
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402005,
+          48.993967
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 68
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.300332,
+          48.738671
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Esslingen (Neckar)",
+        "line": "SNCFTGVEst",
+        "order": 69
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.190464,
+          48.790505
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Baden-Baden",
+        "line": "SNCFTGVEst",
+        "order": 70
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.14536,
+          46.152478
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "La Rochelle",
+        "line": "SNCFTGVEst",
+        "order": 71
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.454275,
+          46.31936
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Niort",
+        "line": "SNCFTGVEst",
+        "order": 72
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98294,
+          48.399317
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Ulm Hbf",
+        "line": "SNCFTGVEst",
+        "order": 73
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183426,
+          48.785349
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Stuttgart Hbf",
+        "alternate_names": [
+          "Stuttgart Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 74
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.957761,
+          48.948192
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Vaihingen (Enz)",
+        "line": "SNCFTGVEst",
+        "order": 75
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.599177,
+          48.016553
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Remiremont",
+        "line": "SNCFTGVEst",
+        "order": 76
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.441197,
+          48.17798
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Épinal",
+        "line": "SNCFTGVEst",
+        "order": 77
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.948295,
+          48.281743
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Saint-Dié-des-Vosges",
+        "line": "SNCFTGVEst",
+        "order": 78
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.841102,
+          47.997531
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Freiburg (Breisgau) Hbf",
+        "alternate_names": [
+          "Freiburg (Breisgau) Hauptbahnhof"
+        ],
+        "line": "SNCFTGVEst",
+        "order": 79
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.772949,
+          48.24849
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Ringsheim/Europa-Park",
+        "line": "SNCFTGVEst",
+        "order": 80
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.836181,
+          48.341806
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Lahr (Schwarzwald)",
+        "line": "SNCFTGVEst",
+        "order": 81
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.946161,
+          48.475963
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Offenburg",
+        "line": "SNCFTGVEst",
+        "order": 82
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.355008,
+          48.880619
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Paris Gare du Nord",
+        "alternate_names": [
+          "Paris Gare du Nord - Voie"
+        ],
+        "line": "SNCFTGVNord",
+        "order": 0
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.781695,
+          50.286641
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Arras",
+        "line": "SNCFTGVNord",
+        "order": 1
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.090751,
+          50.371876
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Douai",
+        "line": "SNCFTGVNord",
+        "order": 2
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.516916,
+          50.363489
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Valenciennes",
+        "line": "SNCFTGVNord",
+        "order": 3
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.827892,
+          50.426434
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Lens",
+        "line": "SNCFTGVNord",
+        "order": 4
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.640294,
+          50.521241
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Béthune",
+        "line": "SNCFTGVNord",
+        "order": 5
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.541439,
+          50.725163
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Hazebrouck",
+        "line": "SNCFTGVNord",
+        "order": 6
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.368477,
+          51.030401
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Dunkerque",
+        "line": "SNCFTGVNord",
+        "order": 7
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.07053,
+          50.63638
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Lille-Flandres",
+        "line": "SNCFTGVNord",
+        "order": 8
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.138027,
+          50.678746
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Croix – Wasquehal",
+        "line": "SNCFTGVNord",
+        "order": 9
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.163034,
+          50.695757
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Roubaix",
+        "line": "SNCFTGVNord",
+        "order": 10
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.16816,
+          50.716605
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Tourcoing",
+        "line": "SNCFTGVNord",
+        "order": 11
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.075714,
+          50.638983
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Lille-Europe",
+        "line": "SNCFTGVNord",
+        "order": 12
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.812012,
+          50.902111
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Calais - Fréthun",
+        "line": "SNCFTGVNord",
+        "order": 13
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.610265,
+          50.71543
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Boulogne-Ville",
+        "line": "SNCFTGVNord",
+        "order": 14
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.642737,
+          50.517031
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Étaples - Le Touquet",
+        "line": "SNCFTGVNord",
+        "order": 15
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.648357,
+          50.41576
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Rang-du-Fliers - Verton - Berck",
+        "line": "SNCFTGVNord",
+        "order": 16
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.571109,
+          49.004016
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Aéroport Charles de Gaulle 2 TGV",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 0
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.075714,
+          50.638983
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Lille-Europe",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 1
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.334719,
+          50.836004
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Bruxelles-Midi - Brussel-Zuid",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 2
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.782637,
+          48.870288
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Marne-la-Vallée - Chessy",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 3
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.499502,
+          46.765315
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Le Creusot TGV (Montceau - Montchanin)",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 4
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672381,
+          48.103193
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Rennes",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 5
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.261344,
+          48.725842
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Massy-TGV",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 6
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.135672,
+          48.794966
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Versailles-Chantiers",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 7
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.703707,
+          48.989485
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Mantes-la-Jolie",
+        "alternate_names": [
+          "Mantes-la-Jolie - Voie C"
+        ],
+        "line": "SNCFTGVIntersecteurs",
+        "order": 8
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.094217,
+          49.449227
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Rouen Rive-Droite",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 9
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.125502,
+          49.492585
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Le Havre",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 10
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.750143,
+          48.544168
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Dol-de-Bretagne",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 11
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.003981,
+          48.646604
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Saint-Malo",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 12
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.75259,
+          47.665299
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Vannes",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 13
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.999337,
+          47.680252
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Auray",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 14
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.366716,
+          47.755307
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Lorient",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 15
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.553014,
+          47.86947
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Quimperlé",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 16
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.781695,
+          50.286641
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Arras",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 17
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.832768,
+          47.960434
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Rosporden",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 18
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.831846,
+          49.859237
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "TGV Haute-Picardie",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 19
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.723788,
+          47.38567
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Saint-Pierre-des-Corps",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 20
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.332711,
+          46.582522
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Poitiers",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 21
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556066,
+          44.825802
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Bordeaux Saint-Jean",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 22
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.164325,
+          45.653731
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Angoulême",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 23
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.192452,
+          47.99535
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Le Mans",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 24
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.08842,
+          47.651864
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Redon",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 25
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.092211,
+          47.994698
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Quimper",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 26
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.07053,
+          50.63638
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Lille-Flandres",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 27
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.760912,
+          48.076339
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Laval",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 28
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.142622,
+          46.210229
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Genève",
+        "alternate_names": [
+          "Genève-Cornavin"
+        ],
+        "line": "SNCFTGVIntersecteurs",
+        "order": 29
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.825958,
+          46.110906
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Bellegarde",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 30
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.778793,
+          45.842934
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Culoz",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 31
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.860345,
+          45.760538
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Lyon Part-Dieu",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 32
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.825438,
+          45.748114
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Lyon Perrache",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 33
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.978434,
+          44.991932
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Valence TGV Sud Rhône-Alpes",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 34
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366549,
+          43.832416
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Nîmes Centre",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 35
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880352,
+          43.604216
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Montpellier Saint-Roch",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 36
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.786072,
+          43.921783
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Avignon TGV",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 37
+      },
+      "id": 260
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.317287,
+          43.455145
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Aix-en-Provence TGV",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 38
+      },
+      "id": 261
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.381193,
+          43.303264
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Marseille Saint-Charles",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 39
+      },
+      "id": 262
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.929521,
+          43.128642
+        ]
+      },
+      "properties": {
+        "id": 263,
+        "name": "Toulon",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 40
+      },
+      "id": 263
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.010064,
+          43.118711
+        ]
+      },
+      "properties": {
+        "id": 264,
+        "name": "La Garde",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 41
+      },
+      "id": 264
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03499,
+          43.136323
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "name": "La Pauline",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 42
+      },
+      "id": 265
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.482459,
+          43.455613
+        ]
+      },
+      "properties": {
+        "id": 266,
+        "name": "Les Arcs - Draguignan",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 43
+      },
+      "id": 266
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770226,
+          43.422784
+        ]
+      },
+      "properties": {
+        "id": 267,
+        "name": "Saint-Raphaël-Valescure",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 44
+      },
+      "id": 267
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.020224,
+          43.554208
+        ]
+      },
+      "properties": {
+        "id": 268,
+        "name": "Cannes",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 45
+      },
+      "id": 268
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119422,
+          43.58595
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "name": "Antibes",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 46
+      },
+      "id": 269
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261598,
+          43.704745
+        ]
+      },
+      "properties": {
+        "id": 270,
+        "name": "Nice-Ville",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 47
+      },
+      "id": 270
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.771617,
+          45.618805
+        ]
+      },
+      "properties": {
+        "id": 271,
+        "name": "Bourg-Saint-Maurice",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 48
+      },
+      "id": 271
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.383243,
+          45.673192
+        ]
+      },
+      "properties": {
+        "id": 272,
+        "name": "Albertville",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 49
+      },
+      "id": 272
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.531432,
+          45.486711
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "name": "Moûtiers-Salins-Brides-les-Bains",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 50
+      },
+      "id": 273
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.648892,
+          45.554265
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "name": "Aime - La Plagne",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 51
+      },
+      "id": 274
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.733589,
+          45.574244
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "name": "Landry",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 52
+      },
+      "id": 275
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.919873,
+          45.571474
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "name": "Chambéry - Challes-les-Eaux",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 53
+      },
+      "id": 276
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.879479,
+          42.696205
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "name": "Perpignan",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 54
+      },
+      "id": 277
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.005593,
+          43.190659
+        ]
+      },
+      "properties": {
+        "id": 278,
+        "name": "Narbonne",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 55
+      },
+      "id": 278
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.218801,
+          43.336181
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "name": "Béziers",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 56
+      },
+      "id": 279
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.465509,
+          43.317397
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "name": "Agde",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 57
+      },
+      "id": 280
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.696523,
+          43.4129
+        ]
+      },
+      "properties": {
+        "id": 281,
+        "name": "Sète",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 58
+      },
+      "id": 281
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.924194,
+          43.595455
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "name": "Montpellier-Sud-de-France",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 59
+      },
+      "id": 282
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.507393,
+          43.816795
+        ]
+      },
+      "properties": {
+        "id": 283,
+        "name": "Nîmes Pont du Gard",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 60
+      },
+      "id": 283
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.542053,
+          47.217297
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "name": "Nantes",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 61
+      },
+      "id": 284
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556209,
+          47.464361
+        ]
+      },
+      "properties": {
+        "id": 285,
+        "name": "Angers Saint-Laud",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 62
+      },
+      "id": 285
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.453998,
+          43.611415
+        ]
+      },
+      "properties": {
+        "id": 286,
+        "name": "Toulouse-Matabiau",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 63
+      },
+      "id": 286
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.351814,
+          43.218251
+        ]
+      },
+      "properties": {
+        "id": 287,
+        "name": "Carcassonne",
+        "line": "SNCFTGVIntersecteurs",
+        "order": 64
+      },
+      "id": 287
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261598,
+          43.704745
+        ]
+      },
+      "properties": {
+        "id": 288,
+        "name": "Nice-Ville",
+        "line": "SNCFTGVLyria",
+        "order": 0
+      },
+      "id": 288
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.482459,
+          43.455613
+        ]
+      },
+      "properties": {
+        "id": 289,
+        "name": "Les Arcs - Draguignan",
+        "line": "SNCFTGVLyria",
+        "order": 1
+      },
+      "id": 289
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770226,
+          43.422784
+        ]
+      },
+      "properties": {
+        "id": 290,
+        "name": "Saint-Raphaël-Valescure",
+        "line": "SNCFTGVLyria",
+        "order": 2
+      },
+      "id": 290
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.020224,
+          43.554208
+        ]
+      },
+      "properties": {
+        "id": 291,
+        "name": "Cannes",
+        "line": "SNCFTGVLyria",
+        "order": 3
+      },
+      "id": 291
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.010064,
+          43.118711
+        ]
+      },
+      "properties": {
+        "id": 292,
+        "name": "La Garde",
+        "line": "SNCFTGVLyria",
+        "order": 4
+      },
+      "id": 292
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.825958,
+          46.110906
+        ]
+      },
+      "properties": {
+        "id": 293,
+        "name": "Bellegarde",
+        "line": "SNCFTGVLyria",
+        "order": 5
+      },
+      "id": 293
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.142622,
+          46.210229
+        ]
+      },
+      "properties": {
+        "id": 294,
+        "name": "Genève",
+        "alternate_names": [
+          "Genève-Cornavin"
+        ],
+        "line": "SNCFTGVLyria",
+        "order": 6
+      },
+      "id": 294
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.86057,
+          45.76053
+        ]
+      },
+      "properties": {
+        "id": 295,
+        "name": "Lyon Part-Dieu",
+        "line": "SNCFTGVLyria",
+        "order": 7
+      },
+      "id": 295
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.978434,
+          44.991932
+        ]
+      },
+      "properties": {
+        "id": 296,
+        "name": "Valence TGV Sud Rhône-Alpes",
+        "line": "SNCFTGVLyria",
+        "order": 8
+      },
+      "id": 296
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.778793,
+          45.842934
+        ]
+      },
+      "properties": {
+        "id": 297,
+        "name": "Culoz",
+        "line": "SNCFTGVLyria",
+        "order": 9
+      },
+      "id": 297
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.381193,
+          43.303264
+        ]
+      },
+      "properties": {
+        "id": 298,
+        "name": "Marseille Saint-Charles",
+        "line": "SNCFTGVLyria",
+        "order": 10
+      },
+      "id": 298
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.317287,
+          43.455145
+        ]
+      },
+      "properties": {
+        "id": 299,
+        "name": "Aix-en-Provence TGV",
+        "line": "SNCFTGVLyria",
+        "order": 11
+      },
+      "id": 299
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.786072,
+          43.921783
+        ]
+      },
+      "properties": {
+        "id": 300,
+        "name": "Avignon TGV",
+        "line": "SNCFTGVLyria",
+        "order": 12
+      },
+      "id": 300
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.929521,
+          43.128642
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Toulon",
+        "line": "SNCFTGVLyria",
+        "order": 13
+      },
+      "id": 301
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119422,
+          43.58595
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Antibes",
+        "line": "SNCFTGVLyria",
+        "order": 14
+      },
+      "id": 302
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03499,
+          43.136323
+        ]
+      },
+      "properties": {
+        "id": 303,
+        "name": "La Pauline",
+        "line": "SNCFTGVLyria",
+        "order": 15
+      },
+      "id": 303
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.374164,
+          48.844765
+        ]
+      },
+      "properties": {
+        "id": 304,
+        "name": "Paris Gare de Lyon",
+        "line": "SNCFTGVLyria",
+        "order": 16
+      },
+      "id": 304
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.214988,
+          46.200093
+        ]
+      },
+      "properties": {
+        "id": 305,
+        "name": "Bourg-en-Bresse",
+        "line": "SNCFTGVLyria",
+        "order": 17
+      },
+      "id": 305
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.532659,
+          46.184091
+        ]
+      },
+      "properties": {
+        "id": 306,
+        "name": "Nurieux",
+        "line": "SNCFTGVLyria",
+        "order": 18
+      },
+      "id": 306
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.027001,
+          47.323107
+        ]
+      },
+      "properties": {
+        "id": 307,
+        "name": "Dijon-Ville",
+        "line": "SNCFTGVLyria",
+        "order": 19
+      },
+      "id": 307
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897455,
+          47.585983
+        ]
+      },
+      "properties": {
+        "id": 308,
+        "name": "Belfort - Montbéliard TGV",
+        "line": "SNCFTGVLyria",
+        "order": 20
+      },
+      "id": 308
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.342934,
+          47.741776
+        ]
+      },
+      "properties": {
+        "id": 309,
+        "name": "Mulhouse-Ville",
+        "line": "SNCFTGVLyria",
+        "order": 21
+      },
+      "id": 309
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589161,
+          47.546786
+        ]
+      },
+      "properties": {
+        "id": 310,
+        "name": "Basel SBB",
+        "line": "SNCFTGVLyria",
+        "order": 22
+      },
+      "id": 310
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.539318,
+          47.3784
+        ]
+      },
+      "properties": {
+        "id": 311,
+        "name": "Zürich Hbf",
+        "alternate_names": [
+          "Zürich Hauptbahnhof"
+        ],
+        "line": "SNCFTGVLyria",
+        "order": 23
+      },
+      "id": 311
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.487907,
+          47.096508
+        ]
+      },
+      "properties": {
+        "id": 312,
+        "name": "Dole",
+        "line": "SNCFTGVLyria",
+        "order": 24
+      },
+      "id": 312
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.799844,
+          46.976973
+        ]
+      },
+      "properties": {
+        "id": 313,
+        "name": "Mouchard",
+        "line": "SNCFTGVLyria",
+        "order": 25
+      },
+      "id": 313
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.157812,
+          46.857834
+        ]
+      },
+      "properties": {
+        "id": 314,
+        "name": "Frasne",
+        "line": "SNCFTGVLyria",
+        "order": 26
+      },
+      "id": 314
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.370794,
+          46.712897
+        ]
+      },
+      "properties": {
+        "id": 315,
+        "name": "Vallorbe",
+        "line": "SNCFTGVLyria",
+        "order": 27
+      },
+      "id": 315
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.629193,
+          46.516735
+        ]
+      },
+      "properties": {
+        "id": 316,
+        "name": "Lausanne",
+        "line": "SNCFTGVLyria",
+        "order": 28
+      },
+      "id": 316
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.782637,
+          48.870288
+        ]
+      },
+      "properties": {
+        "id": 317,
+        "name": "Marne-la-Vallée - Chessy",
+        "line": "SNCFOuigo",
+        "order": 0
+      },
+      "id": 317
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.786072,
+          43.921783
+        ]
+      },
+      "properties": {
+        "id": 318,
+        "name": "Avignon TGV",
+        "line": "SNCFOuigo",
+        "order": 1
+      },
+      "id": 318
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.317287,
+          43.455145
+        ]
+      },
+      "properties": {
+        "id": 319,
+        "name": "Aix-en-Provence TGV",
+        "line": "SNCFOuigo",
+        "order": 2
+      },
+      "id": 319
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.075805,
+          45.721029
+        ]
+      },
+      "properties": {
+        "id": 320,
+        "name": "Lyon-Saint-Exupéry TGV",
+        "line": "SNCFOuigo",
+        "order": 3
+      },
+      "id": 320
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366348,
+          43.832521
+        ]
+      },
+      "properties": {
+        "id": 321,
+        "name": "Nîmes Centre",
+        "line": "SNCFOuigo",
+        "order": 4
+      },
+      "id": 321
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880391,
+          43.604195
+        ]
+      },
+      "properties": {
+        "id": 322,
+        "name": "Montpellier Saint-Roch",
+        "line": "SNCFOuigo",
+        "order": 5
+      },
+      "id": 322
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.381193,
+          43.303264
+        ]
+      },
+      "properties": {
+        "id": 323,
+        "name": "Marseille Saint-Charles",
+        "line": "SNCFOuigo",
+        "order": 6
+      },
+      "id": 323
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.453947,
+          43.611406
+        ]
+      },
+      "properties": {
+        "id": 324,
+        "name": "Toulouse-Matabiau",
+        "line": "SNCFOuigo",
+        "order": 7
+      },
+      "id": 324
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.413815,
+          43.663887
+        ]
+      },
+      "properties": {
+        "id": 325,
+        "name": "Lacourtensourt",
+        "line": "SNCFOuigo",
+        "order": 8
+      },
+      "id": 325
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.341185,
+          44.014308
+        ]
+      },
+      "properties": {
+        "id": 326,
+        "name": "Montauban Ville Bourbon",
+        "line": "SNCFOuigo",
+        "order": 9
+      },
+      "id": 326
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.891645,
+          44.11179
+        ]
+      },
+      "properties": {
+        "id": 327,
+        "name": "Valence d'Agen",
+        "line": "SNCFOuigo",
+        "order": 10
+      },
+      "id": 327
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.319109,
+          48.840062
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "name": "Paris Montparnasse",
+        "alternate_names": [
+          "Gare Montparnasse"
+        ],
+        "line": "SNCFOuigo",
+        "order": 11
+      },
+      "id": 328
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.315832,
+          48.838385
+        ]
+      },
+      "properties": {
+        "id": 329,
+        "name": "Paris Montparnasse 3 - Vaugirard",
+        "line": "SNCFOuigo",
+        "order": 12
+      },
+      "id": 329
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556066,
+          44.825802
+        ]
+      },
+      "properties": {
+        "id": 330,
+        "name": "Bordeaux Saint-Jean",
+        "line": "SNCFOuigo",
+        "order": 13
+      },
+      "id": 330
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.621014,
+          44.208367
+        ]
+      },
+      "properties": {
+        "id": 331,
+        "name": "Agen",
+        "line": "SNCFOuigo",
+        "order": 14
+      },
+      "id": 331
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672381,
+          48.103193
+        ]
+      },
+      "properties": {
+        "id": 332,
+        "name": "Rennes",
+        "line": "SNCFOuigo",
+        "order": 15
+      },
+      "id": 332
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.760907,
+          48.076387
+        ]
+      },
+      "properties": {
+        "id": 333,
+        "name": "Laval",
+        "line": "SNCFOuigo",
+        "order": 16
+      },
+      "id": 333
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.192246,
+          47.995409
+        ]
+      },
+      "properties": {
+        "id": 334,
+        "name": "Le Mans",
+        "line": "SNCFOuigo",
+        "order": 17
+      },
+      "id": 334
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556209,
+          47.464361
+        ]
+      },
+      "properties": {
+        "id": 335,
+        "name": "Angers Saint-Laud",
+        "line": "SNCFOuigo",
+        "order": 18
+      },
+      "id": 335
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07148,
+          47.268996
+        ]
+      },
+      "properties": {
+        "id": 336,
+        "name": "Saumur",
+        "line": "SNCFOuigo",
+        "order": 19
+      },
+      "id": 336
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.723788,
+          47.38567
+        ]
+      },
+      "properties": {
+        "id": 337,
+        "name": "Saint-Pierre-des-Corps",
+        "line": "SNCFOuigo",
+        "order": 20
+      },
+      "id": 337
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.323522,
+          47.585456
+        ]
+      },
+      "properties": {
+        "id": 338,
+        "name": "Blois - Chambord",
+        "alternate_names": [
+          "Blois - Chambord - Voie"
+        ],
+        "line": "SNCFOuigo",
+        "order": 21
+      },
+      "id": 338
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.905922,
+          47.926639
+        ]
+      },
+      "properties": {
+        "id": 339,
+        "name": "Les Aubrais",
+        "alternate_names": [
+          "Les Aubrais - Voie"
+        ],
+        "line": "SNCFOuigo",
+        "order": 22
+      },
+      "id": 339
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.541953,
+          47.217079
+        ]
+      },
+      "properties": {
+        "id": 340,
+        "name": "Nantes",
+        "line": "SNCFOuigo",
+        "order": 23
+      },
+      "id": 340
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.480812,
+          48.448467
+        ]
+      },
+      "properties": {
+        "id": 341,
+        "name": "Chartres",
+        "line": "SNCFOuigo",
+        "order": 24
+      },
+      "id": 341
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.135631,
+          48.79506
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "name": "Versailles-Chantiers",
+        "line": "SNCFOuigo",
+        "order": 25
+      },
+      "id": 342
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.261344,
+          48.725842
+        ]
+      },
+      "properties": {
+        "id": 343,
+        "name": "Massy-TGV",
+        "line": "SNCFOuigo",
+        "order": 26
+      },
+      "id": 343
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.382766,
+          48.689863
+        ]
+      },
+      "properties": {
+        "id": 344,
+        "name": "Juvisy",
+        "line": "SNCFOuigo",
+        "order": 27
+      },
+      "id": 344
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.366455,
+          48.841244
+        ]
+      },
+      "properties": {
+        "id": 345,
+        "name": "Paris Austerlitz",
+        "line": "SNCFOuigo",
+        "order": 28
+      },
+      "id": 345
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.355185,
+          48.880583
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "name": "Paris Gare du Nord",
+        "alternate_names": [
+          "Paris Gare du Nord - Voie"
+        ],
+        "line": "SNCFOuigo",
+        "order": 29
+      },
+      "id": 346
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.468769,
+          49.263844
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "name": "Creil",
+        "line": "SNCFOuigo",
+        "order": 30
+      },
+      "id": 347
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.297328,
+          49.839714
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "name": "Saint-Quentin",
+        "line": "SNCFOuigo",
+        "order": 31
+      },
+      "id": 348
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.84353,
+          50.197351
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "name": "Aulnoye-Aymeries",
+        "line": "SNCFOuigo",
+        "order": 32
+      },
+      "id": 349
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.941939,
+          50.454054
+        ]
+      },
+      "properties": {
+        "id": 350,
+        "name": "Mons",
+        "line": "SNCFOuigo",
+        "order": 33
+      },
+      "id": 350
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.335205,
+          50.835766
+        ]
+      },
+      "properties": {
+        "id": 351,
+        "name": "Bruxelles-Midi - Brussel-Zuid",
+        "line": "SNCFOuigo",
+        "order": 34
+      },
+      "id": 351
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.360597,
+          48.877273
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Paris Est",
+        "alternate_names": [
+          "Gare de l'Est"
+        ],
+        "line": "SNCFOuigo",
+        "order": 35
+      },
+      "id": 352
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.177302,
+          49.109022
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "name": "Metz",
+        "line": "SNCFOuigo",
+        "order": 36
+      },
+      "id": 353
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.734213,
+          48.585154
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "name": "Strasbourg",
+        "line": "SNCFOuigo",
+        "order": 37
+      },
+      "id": 354
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.571109,
+          49.004016
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Aéroport Charles de Gaulle 2 TGV",
+        "line": "SNCFOuigo",
+        "order": 38
+      },
+      "id": 355
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07148,
+          47.268996
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "name": "Saumur",
+        "line": "SNCFIntercits",
+        "order": 0
+      },
+      "id": 356
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556209,
+          47.464361
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "name": "Angers Saint-Laud",
+        "line": "SNCFIntercits",
+        "order": 1
+      },
+      "id": 357
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.150722,
+          46.987297
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "name": "Nevers",
+        "line": "SNCFIntercits",
+        "order": 2
+      },
+      "id": 358
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.723788,
+          47.38567
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "name": "Saint-Pierre-des-Corps",
+        "line": "SNCFIntercits",
+        "order": 3
+      },
+      "id": 359
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85998,
+          45.76055
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "name": "Lyon Part-Dieu",
+        "line": "SNCFIntercits",
+        "order": 4
+      },
+      "id": 360
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.824462,
+          46.302786
+        ]
+      },
+      "properties": {
+        "id": 361,
+        "name": "Mâcon-Ville",
+        "line": "SNCFIntercits",
+        "order": 5
+      },
+      "id": 361
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.843433,
+          46.781585
+        ]
+      },
+      "properties": {
+        "id": 362,
+        "name": "Chalon-sur-Saône",
+        "line": "SNCFIntercits",
+        "order": 6
+      },
+      "id": 362
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.02689,
+          47.322758
+        ]
+      },
+      "properties": {
+        "id": 363,
+        "name": "Dijon-Ville",
+        "line": "SNCFIntercits",
+        "order": 7
+      },
+      "id": 363
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.443036,
+          47.809862
+        ]
+      },
+      "properties": {
+        "id": 364,
+        "name": "Culmont - Chalindrey",
+        "line": "SNCFIntercits",
+        "order": 8
+      },
+      "id": 364
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.690277,
+          48.358263
+        ]
+      },
+      "properties": {
+        "id": 365,
+        "name": "Neufchâteau",
+        "line": "SNCFIntercits",
+        "order": 9
+      },
+      "id": 365
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.880541,
+          48.679213
+        ]
+      },
+      "properties": {
+        "id": 366,
+        "name": "Toul",
+        "line": "SNCFIntercits",
+        "order": 10
+      },
+      "id": 366
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.174117,
+          48.689732
+        ]
+      },
+      "properties": {
+        "id": 367,
+        "name": "Nancy",
+        "line": "SNCFIntercits",
+        "order": 11
+      },
+      "id": 367
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.827157,
+          45.747845
+        ]
+      },
+      "properties": {
+        "id": 368,
+        "name": "Lyon Perrache",
+        "line": "SNCFIntercits",
+        "order": 12
+      },
+      "id": 368
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.071691,
+          46.931423
+        ]
+      },
+      "properties": {
+        "id": 369,
+        "name": "Saincaize",
+        "line": "SNCFIntercits",
+        "order": 13
+      },
+      "id": 369
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.059953,
+          47.226721
+        ]
+      },
+      "properties": {
+        "id": 370,
+        "name": "Vierzon",
+        "line": "SNCFIntercits",
+        "order": 14
+      },
+      "id": 370
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.833411,
+          42.724879
+        ]
+      },
+      "properties": {
+        "id": 371,
+        "name": "Ax-les-Thermes",
+        "line": "SNCFIntercits",
+        "order": 15
+      },
+      "id": 371
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.905043,
+          42.458588
+        ]
+      },
+      "properties": {
+        "id": 372,
+        "name": "Latour-de-Carol - Enveitg",
+        "line": "SNCFIntercits",
+        "order": 16
+      },
+      "id": 372
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.394302,
+          47.094328
+        ]
+      },
+      "properties": {
+        "id": 373,
+        "name": "Bourges",
+        "line": "SNCFIntercits",
+        "order": 17
+      },
+      "id": 373
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.339369,
+          46.561595
+        ]
+      },
+      "properties": {
+        "id": 374,
+        "name": "Moulins-sur-Allier",
+        "line": "SNCFIntercits",
+        "order": 18
+      },
+      "id": 374
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.430973,
+          46.126535
+        ]
+      },
+      "properties": {
+        "id": 375,
+        "name": "Vichy",
+        "line": "SNCFIntercits",
+        "order": 19
+      },
+      "id": 375
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.120917,
+          45.889919
+        ]
+      },
+      "properties": {
+        "id": 376,
+        "name": "Riom - Châtel-Guyon",
+        "line": "SNCFIntercits",
+        "order": 20
+      },
+      "id": 376
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.430426,
+          46.209052
+        ]
+      },
+      "properties": {
+        "id": 377,
+        "name": "Saint-Germain-des-Fossés",
+        "line": "SNCFIntercits",
+        "order": 21
+      },
+      "id": 377
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.062974,
+          46.039296
+        ]
+      },
+      "properties": {
+        "id": 378,
+        "name": "Roanne",
+        "line": "SNCFIntercits",
+        "order": 22
+      },
+      "id": 378
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.542029,
+          47.217262
+        ]
+      },
+      "properties": {
+        "id": 379,
+        "name": "Nantes",
+        "line": "SNCFIntercits",
+        "order": 23
+      },
+      "id": 379
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.556066,
+          44.825802
+        ]
+      },
+      "properties": {
+        "id": 380,
+        "name": "Bordeaux Saint-Jean",
+        "line": "SNCFIntercits",
+        "order": 24
+      },
+      "id": 380
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.168264,
+          44.503219
+        ]
+      },
+      "properties": {
+        "id": 381,
+        "name": "Marmande",
+        "line": "SNCFIntercits",
+        "order": 25
+      },
+      "id": 381
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.396011,
+          45.280573
+        ]
+      },
+      "properties": {
+        "id": 382,
+        "name": "Montendre",
+        "line": "SNCFIntercits",
+        "order": 26
+      },
+      "id": 382
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.441778,
+          45.438647
+        ]
+      },
+      "properties": {
+        "id": 383,
+        "name": "Jonzac",
+        "line": "SNCFIntercits",
+        "order": 27
+      },
+      "id": 383
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.440476,
+          44.990993
+        ]
+      },
+      "properties": {
+        "id": 384,
+        "name": "Saint-André-de-Cubzac",
+        "line": "SNCFIntercits",
+        "order": 28
+      },
+      "id": 384
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.391468,
+          45.139161
+        ]
+      },
+      "properties": {
+        "id": 385,
+        "name": "Saint-Mariens - Saint-Yzan",
+        "line": "SNCFIntercits",
+        "order": 29
+      },
+      "id": 385
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.693869,
+          47.389338
+        ]
+      },
+      "properties": {
+        "id": 386,
+        "name": "Tours",
+        "line": "SNCFIntercits",
+        "order": 30
+      },
+      "id": 386
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.171815,
+          47.34366
+        ]
+      },
+      "properties": {
+        "id": 387,
+        "name": "Montrichard",
+        "line": "SNCFIntercits",
+        "order": 31
+      },
+      "id": 387
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.229514,
+          43.46758
+        ]
+      },
+      "properties": {
+        "id": 388,
+        "name": "Magalas",
+        "line": "SNCFIntercits",
+        "order": 32
+      },
+      "id": 388
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.149594,
+          43.608687
+        ]
+      },
+      "properties": {
+        "id": 389,
+        "name": "Bédarieux",
+        "line": "SNCFIntercits",
+        "order": 33
+      },
+      "id": 389
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.16908,
+          43.69127
+        ]
+      },
+      "properties": {
+        "id": 390,
+        "name": "Le Bousquet d'Orb",
+        "line": "SNCFIntercits",
+        "order": 34
+      },
+      "id": 390
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.155196,
+          43.812358
+        ]
+      },
+      "properties": {
+        "id": 391,
+        "name": "Ceilhes - Roqueredonde",
+        "line": "SNCFIntercits",
+        "order": 35
+      },
+      "id": 391
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.016528,
+          43.96989
+        ]
+      },
+      "properties": {
+        "id": 392,
+        "name": "Tournemire - Roquefort",
+        "line": "SNCFIntercits",
+        "order": 36
+      },
+      "id": 392
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.967359,
+          44.013991
+        ]
+      },
+      "properties": {
+        "id": 393,
+        "name": "Saint-Rome-de-Cernon",
+        "line": "SNCFIntercits",
+        "order": 37
+      },
+      "id": 393
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.056986,
+          44.324634
+        ]
+      },
+      "properties": {
+        "id": 394,
+        "name": "Sévérac-le-Château",
+        "line": "SNCFIntercits",
+        "order": 38
+      },
+      "id": 394
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.066396,
+          44.422
+        ]
+      },
+      "properties": {
+        "id": 395,
+        "name": "Campagnac - Saint-Geniez",
+        "line": "SNCFIntercits",
+        "order": 39
+      },
+      "id": 395
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.281096,
+          44.544659
+        ]
+      },
+      "properties": {
+        "id": 396,
+        "name": "Marvejols",
+        "line": "SNCFIntercits",
+        "order": 40
+      },
+      "id": 396
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.283559,
+          44.718252
+        ]
+      },
+      "properties": {
+        "id": 397,
+        "name": "Aumont-Aubrac",
+        "line": "SNCFIntercits",
+        "order": 41
+      },
+      "id": 397
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.106217,
+          45.03502
+        ]
+      },
+      "properties": {
+        "id": 398,
+        "name": "Saint-Flour - Chaudes-Aigues",
+        "line": "SNCFIntercits",
+        "order": 42
+      },
+      "id": 398
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.134209,
+          45.767007
+        ]
+      },
+      "properties": {
+        "id": 399,
+        "name": "Clermont - La Pardieu",
+        "line": "SNCFIntercits",
+        "order": 43
+      },
+      "id": 399
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.253997,
+          45.544032
+        ]
+      },
+      "properties": {
+        "id": 400,
+        "name": "Issoire",
+        "line": "SNCFIntercits",
+        "order": 44
+      },
+      "id": 400
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.310427,
+          45.365429
+        ]
+      },
+      "properties": {
+        "id": 401,
+        "name": "Arvant",
+        "line": "SNCFIntercits",
+        "order": 45
+      },
+      "id": 401
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.218801,
+          43.336181
+        ]
+      },
+      "properties": {
+        "id": 402,
+        "name": "Béziers",
+        "line": "SNCFIntercits",
+        "order": 46
+      },
+      "id": 402
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.983573,
+          44.066574
+        ]
+      },
+      "properties": {
+        "id": 403,
+        "name": "Saint-Georges-de-Luzençon",
+        "line": "SNCFIntercits",
+        "order": 47
+      },
+      "id": 403
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.074441,
+          44.102389
+        ]
+      },
+      "properties": {
+        "id": 404,
+        "name": "Millau",
+        "line": "SNCFIntercits",
+        "order": 48
+      },
+      "id": 404
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.100758,
+          45.778736
+        ]
+      },
+      "properties": {
+        "id": 405,
+        "name": "Clermont-Ferrand",
+        "line": "SNCFIntercits",
+        "order": 49
+      },
+      "id": 405
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.733713,
+          47.646455
+        ]
+      },
+      "properties": {
+        "id": 406,
+        "name": "Briare",
+        "line": "SNCFIntercits",
+        "order": 50
+      },
+      "id": 406
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0872,
+          47.018973
+        ]
+      },
+      "properties": {
+        "id": 407,
+        "name": "Fourchambault",
+        "line": "SNCFIntercits",
+        "order": 51
+      },
+      "id": 407
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.094009,
+          47.076791
+        ]
+      },
+      "properties": {
+        "id": 408,
+        "name": "Pougues-les-Eaux",
+        "line": "SNCFIntercits",
+        "order": 52
+      },
+      "id": 408
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.023924,
+          47.179959
+        ]
+      },
+      "properties": {
+        "id": 409,
+        "name": "La Charité-sur-Loire",
+        "line": "SNCFIntercits",
+        "order": 53
+      },
+      "id": 409
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93215,
+          47.414015
+        ]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Cosne-sur-Loire",
+        "line": "SNCFIntercits",
+        "order": 54
+      },
+      "id": 410
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.737601,
+          47.852778
+        ]
+      },
+      "properties": {
+        "id": 411,
+        "name": "Nogent-sur-Vernisson",
+        "line": "SNCFIntercits",
+        "order": 55
+      },
+      "id": 411
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.743219,
+          48.006948
+        ]
+      },
+      "properties": {
+        "id": 412,
+        "name": "Montargis",
+        "line": "SNCFIntercits",
+        "order": 56
+      },
+      "id": 412
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.366455,
+          48.841244
+        ]
+      },
+      "properties": {
+        "id": 413,
+        "name": "Paris Austerlitz",
+        "line": "SNCFIntercits",
+        "order": 57
+      },
+      "id": 413
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.657185,
+          44.818315
+        ]
+      },
+      "properties": {
+        "id": 414,
+        "name": "Rocamadour - Padirac",
+        "line": "SNCFIntercits",
+        "order": 58
+      },
+      "id": 414
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.722349,
+          44.77351
+        ]
+      },
+      "properties": {
+        "id": 415,
+        "name": "Gramat",
+        "line": "SNCFIntercits",
+        "order": 59
+      },
+      "id": 415
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.666192,
+          44.94597
+        ]
+      },
+      "properties": {
+        "id": 416,
+        "name": "Saint-Denis-près-Martel",
+        "line": "SNCFIntercits",
+        "order": 60
+      },
+      "id": 416
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.869768,
+          44.67462
+        ]
+      },
+      "properties": {
+        "id": 417,
+        "name": "Assier",
+        "line": "SNCFIntercits",
+        "order": 61
+      },
+      "id": 417
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.037109,
+          44.603263
+        ]
+      },
+      "properties": {
+        "id": 418,
+        "name": "Figeac",
+        "line": "SNCFIntercits",
+        "order": 62
+      },
+      "id": 418
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.152114,
+          44.048632
+        ]
+      },
+      "properties": {
+        "id": 419,
+        "name": "Carmaux",
+        "line": "SNCFIntercits",
+        "order": 63
+      },
+      "id": 419
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.580597,
+          44.362753
+        ]
+      },
+      "properties": {
+        "id": 420,
+        "name": "Rodez",
+        "line": "SNCFIntercits",
+        "order": 64
+      },
+      "id": 420
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.137947,
+          43.922403
+        ]
+      },
+      "properties": {
+        "id": 421,
+        "name": "Albi-Ville",
+        "line": "SNCFIntercits",
+        "order": 65
+      },
+      "id": 421
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.078061,
+          44.578392
+        ]
+      },
+      "properties": {
+        "id": 422,
+        "name": "Capdenac",
+        "line": "SNCFIntercits",
+        "order": 66
+      },
+      "id": 422
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.271987,
+          44.52282
+        ]
+      },
+      "properties": {
+        "id": 423,
+        "name": "Cransac",
+        "line": "SNCFIntercits",
+        "order": 67
+      },
+      "id": 423
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.239323,
+          44.527294
+        ]
+      },
+      "properties": {
+        "id": 424,
+        "name": "Aubin",
+        "line": "SNCFIntercits",
+        "order": 68
+      },
+      "id": 424
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.267435,
+          45.836138
+        ]
+      },
+      "properties": {
+        "id": 425,
+        "name": "Limoges-Bénédictins",
+        "line": "SNCFIntercits",
+        "order": 69
+      },
+      "id": 425
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.906482,
+          47.926743
+        ]
+      },
+      "properties": {
+        "id": 426,
+        "name": "Les Aubrais",
+        "alternate_names": [
+          "Les Aubrais - Voie"
+        ],
+        "line": "SNCFIntercits",
+        "order": 70
+      },
+      "id": 426
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.407633,
+          44.464585
+        ]
+      },
+      "properties": {
+        "id": 427,
+        "name": "Saint-Christophe",
+        "line": "SNCFIntercits",
+        "order": 71
+      },
+      "id": 427
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.466647,
+          44.902229
+        ]
+      },
+      "properties": {
+        "id": 428,
+        "name": "Souillac",
+        "line": "SNCFIntercits",
+        "order": 72
+      },
+      "id": 428
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.389563,
+          44.741955
+        ]
+      },
+      "properties": {
+        "id": 429,
+        "name": "Gourdon",
+        "line": "SNCFIntercits",
+        "order": 73
+      },
+      "id": 429
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.433129,
+          44.449222
+        ]
+      },
+      "properties": {
+        "id": 430,
+        "name": "Cahors",
+        "line": "SNCFIntercits",
+        "order": 74
+      },
+      "id": 430
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.533527,
+          44.162281
+        ]
+      },
+      "properties": {
+        "id": 431,
+        "name": "Caussade",
+        "line": "SNCFIntercits",
+        "order": 75
+      },
+      "id": 431
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.341185,
+          44.014308
+        ]
+      },
+      "properties": {
+        "id": 432,
+        "name": "Montauban Ville Bourbon",
+        "line": "SNCFIntercits",
+        "order": 76
+      },
+      "id": 432
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.620999,
+          44.208334
+        ]
+      },
+      "properties": {
+        "id": 433,
+        "name": "Agen",
+        "line": "SNCFIntercits",
+        "order": 77
+      },
+      "id": 433
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.413853,
+          43.663902
+        ]
+      },
+      "properties": {
+        "id": 434,
+        "name": "Lacourtensourt",
+        "line": "SNCFIntercits",
+        "order": 78
+      },
+      "id": 434
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.454292,
+          43.611445
+        ]
+      },
+      "properties": {
+        "id": 435,
+        "name": "Toulouse-Matabiau",
+        "line": "SNCFIntercits",
+        "order": 79
+      },
+      "id": 435
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.729214,
+          43.10487
+        ]
+      },
+      "properties": {
+        "id": 436,
+        "name": "Saint-Gaudens",
+        "line": "SNCFIntercits",
+        "order": 80
+      },
+      "id": 436
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.573484,
+          43.077943
+        ]
+      },
+      "properties": {
+        "id": 437,
+        "name": "Montréjeau - Gourdan-Polignan",
+        "line": "SNCFIntercits",
+        "order": 81
+      },
+      "id": 437
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.069356,
+          43.240216
+        ]
+      },
+      "properties": {
+        "id": 438,
+        "name": "Tarbes",
+        "line": "SNCFIntercits",
+        "order": 82
+      },
+      "id": 438
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.042185,
+          43.100545
+        ]
+      },
+      "properties": {
+        "id": 439,
+        "name": "Lourdes",
+        "line": "SNCFIntercits",
+        "order": 83
+      },
+      "id": 439
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.369745,
+          43.291508
+        ]
+      },
+      "properties": {
+        "id": 440,
+        "name": "Pau",
+        "line": "SNCFIntercits",
+        "order": 84
+      },
+      "id": 440
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.767645,
+          43.484215
+        ]
+      },
+      "properties": {
+        "id": 441,
+        "name": "Orthez",
+        "line": "SNCFIntercits",
+        "order": 85
+      },
+      "id": 441
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.470301,
+          43.497034
+        ]
+      },
+      "properties": {
+        "id": 442,
+        "name": "Bayonne",
+        "line": "SNCFIntercits",
+        "order": 86
+      },
+      "id": 442
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.545875,
+          43.459107
+        ]
+      },
+      "properties": {
+        "id": 443,
+        "name": "Biarritz",
+        "line": "SNCFIntercits",
+        "order": 87
+      },
+      "id": 443
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.661024,
+          43.385697
+        ]
+      },
+      "properties": {
+        "id": 444,
+        "name": "Saint-Jean-de-Luz - Ciboure",
+        "line": "SNCFIntercits",
+        "order": 88
+      },
+      "id": 444
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.781954,
+          43.353151
+        ]
+      },
+      "properties": {
+        "id": 445,
+        "name": "Hendaye",
+        "line": "SNCFIntercits",
+        "order": 89
+      },
+      "id": 445
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.950292,
+          43.31211
+        ]
+      },
+      "properties": {
+        "id": 446,
+        "name": "Castelnaudary",
+        "line": "SNCFIntercits",
+        "order": 90
+      },
+      "id": 446
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.351814,
+          43.218251
+        ]
+      },
+      "properties": {
+        "id": 447,
+        "name": "Carcassonne",
+        "line": "SNCFIntercits",
+        "order": 91
+      },
+      "id": 447
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.769926,
+          43.200035
+        ]
+      },
+      "properties": {
+        "id": 448,
+        "name": "Lézignan-Corbières",
+        "line": "SNCFIntercits",
+        "order": 92
+      },
+      "id": 448
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.879525,
+          42.696215
+        ]
+      },
+      "properties": {
+        "id": 449,
+        "name": "Perpignan",
+        "line": "SNCFIntercits",
+        "order": 93
+      },
+      "id": 449
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.963475,
+          42.597138
+        ]
+      },
+      "properties": {
+        "id": 450,
+        "name": "Elne",
+        "line": "SNCFIntercits",
+        "order": 94
+      },
+      "id": 450
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.022134,
+          42.54379
+        ]
+      },
+      "properties": {
+        "id": 451,
+        "name": "Argelès-sur-Mer",
+        "line": "SNCFIntercits",
+        "order": 95
+      },
+      "id": 451
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.078135,
+          42.526891
+        ]
+      },
+      "properties": {
+        "id": 452,
+        "name": "Collioure",
+        "line": "SNCFIntercits",
+        "order": 96
+      },
+      "id": 452
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.102605,
+          42.513495
+        ]
+      },
+      "properties": {
+        "id": 453,
+        "name": "Port-Vendres",
+        "line": "SNCFIntercits",
+        "order": 97
+      },
+      "id": 453
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.124931,
+          42.483033
+        ]
+      },
+      "properties": {
+        "id": 454,
+        "name": "Banyuls-sur-Mer",
+        "line": "SNCFIntercits",
+        "order": 98
+      },
+      "id": 454
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.163567,
+          42.441498
+        ]
+      },
+      "properties": {
+        "id": 455,
+        "name": "Cerbère",
+        "line": "SNCFIntercits",
+        "order": 99
+      },
+      "id": 455
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.158169,
+          42.424765
+        ]
+      },
+      "properties": {
+        "id": 456,
+        "name": "Portbou",
+        "line": "SNCFIntercits",
+        "order": 100
+      },
+      "id": 456
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.570645,
+          43.239466
+        ]
+      },
+      "properties": {
+        "id": 457,
+        "name": "Saverdun",
+        "line": "SNCFIntercits",
+        "order": 101
+      },
+      "id": 457
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.619491,
+          43.116213
+        ]
+      },
+      "properties": {
+        "id": 458,
+        "name": "Pamiers",
+        "line": "SNCFIntercits",
+        "order": 102
+      },
+      "id": 458
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.606912,
+          42.969748
+        ]
+      },
+      "properties": {
+        "id": 459,
+        "name": "Foix",
+        "line": "SNCFIntercits",
+        "order": 103
+      },
+      "id": 459
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.599932,
+          42.849539
+        ]
+      },
+      "properties": {
+        "id": 460,
+        "name": "Tarascon-sur-Ariège",
+        "line": "SNCFIntercits",
+        "order": 104
+      },
+      "id": 460
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.686157,
+          42.786452
+        ]
+      },
+      "properties": {
+        "id": 461,
+        "name": "Les Cabannes",
+        "line": "SNCFIntercits",
+        "order": 105
+      },
+      "id": 461
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.753094,
+          42.764423
+        ]
+      },
+      "properties": {
+        "id": 462,
+        "name": "Luzenac-Garanou",
+        "line": "SNCFIntercits",
+        "order": 106
+      },
+      "id": 462
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.837128,
+          42.659488
+        ]
+      },
+      "properties": {
+        "id": 463,
+        "name": "Mérens-les-Vals",
+        "line": "SNCFIntercits",
+        "order": 107
+      },
+      "id": 463
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.80085,
+          42.58995
+        ]
+      },
+      "properties": {
+        "id": 464,
+        "name": "Andorre - L'Hospitalet",
+        "line": "SNCFIntercits",
+        "order": 108
+      },
+      "id": 464
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.824895,
+          42.53914
+        ]
+      },
+      "properties": {
+        "id": 465,
+        "name": "Porté-Puymorens",
+        "line": "SNCFIntercits",
+        "order": 109
+      },
+      "id": 465
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.382849,
+          48.839196
+        ]
+      },
+      "properties": {
+        "id": 466,
+        "name": "Paris-Bercy - Bourgogne-Pays d'Auvergne",
+        "line": "SNCFIntercits",
+        "order": 110
+      },
+      "id": 466
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.435972,
+          46.672148
+        ]
+      },
+      "properties": {
+        "id": 467,
+        "name": "La Roche-sur-Yon",
+        "line": "SNCFIntercits",
+        "order": 111
+      },
+      "id": 467
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.145473,
+          46.152587
+        ]
+      },
+      "properties": {
+        "id": 468,
+        "name": "La Rochelle",
+        "line": "SNCFIntercits",
+        "order": 112
+      },
+      "id": 468
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.167469,
+          46.463822
+        ]
+      },
+      "properties": {
+        "id": 469,
+        "name": "Luçon",
+        "line": "SNCFIntercits",
+        "order": 113
+      },
+      "id": 469
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.538849,
+          45.578212
+        ]
+      },
+      "properties": {
+        "id": 470,
+        "name": "Pons",
+        "line": "SNCFIntercits",
+        "order": 114
+      },
+      "id": 470
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.617378,
+          45.748914
+        ]
+      },
+      "properties": {
+        "id": 471,
+        "name": "Saintes",
+        "line": "SNCFIntercits",
+        "order": 115
+      },
+      "id": 471
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.963706,
+          45.947269
+        ]
+      },
+      "properties": {
+        "id": 472,
+        "name": "Rochefort",
+        "line": "SNCFIntercits",
+        "order": 116
+      },
+      "id": 472
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.381193,
+          43.303264
+        ]
+      },
+      "properties": {
+        "id": 473,
+        "name": "Marseille Saint-Charles",
+        "line": "SNCFIntercits",
+        "order": 117
+      },
+      "id": 473
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.632237,
+          43.684802
+        ]
+      },
+      "properties": {
+        "id": 474,
+        "name": "Arles",
+        "line": "SNCFIntercits",
+        "order": 118
+      },
+      "id": 474
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366549,
+          43.832416
+        ]
+      },
+      "properties": {
+        "id": 475,
+        "name": "Nîmes Centre",
+        "line": "SNCFIntercits",
+        "order": 119
+      },
+      "id": 475
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880391,
+          43.604195
+        ]
+      },
+      "properties": {
+        "id": 476,
+        "name": "Montpellier Saint-Roch",
+        "line": "SNCFIntercits",
+        "order": 120
+      },
+      "id": 476
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.696547,
+          43.412814
+        ]
+      },
+      "properties": {
+        "id": 477,
+        "name": "Sète",
+        "line": "SNCFIntercits",
+        "order": 121
+      },
+      "id": 477
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.005706,
+          43.190592
+        ]
+      },
+      "properties": {
+        "id": 478,
+        "name": "Narbonne",
+        "line": "SNCFIntercits",
+        "order": 122
+      },
+      "id": 478
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.632652,
+          44.88992
+        ]
+      },
+      "properties": {
+        "id": 479,
+        "name": "Briançon",
+        "line": "SNCFIntercits",
+        "order": 123
+      },
+      "id": 479
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.556269,
+          44.790943
+        ]
+      },
+      "properties": {
+        "id": 480,
+        "name": "L'Argentière-les-Écrins",
+        "line": "SNCFIntercits",
+        "order": 124
+      },
+      "id": 480
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.615529,
+          44.674603
+        ]
+      },
+      "properties": {
+        "id": 481,
+        "name": "Montdauphin-Guillestre",
+        "line": "SNCFIntercits",
+        "order": 125
+      },
+      "id": 481
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.49667,
+          44.567056
+        ]
+      },
+      "properties": {
+        "id": 482,
+        "name": "Embrun",
+        "line": "SNCFIntercits",
+        "order": 126
+      },
+      "id": 482
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.271732,
+          44.545777
+        ]
+      },
+      "properties": {
+        "id": 483,
+        "name": "Chorges",
+        "line": "SNCFIntercits",
+        "order": 127
+      },
+      "id": 483
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.08573,
+          44.563801
+        ]
+      },
+      "properties": {
+        "id": 484,
+        "name": "Gap",
+        "line": "SNCFIntercits",
+        "order": 128
+      },
+      "id": 484
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.815948,
+          44.5318
+        ]
+      },
+      "properties": {
+        "id": 485,
+        "name": "Veynes-Dévoluy",
+        "line": "SNCFIntercits",
+        "order": 129
+      },
+      "id": 485
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.454737,
+          44.613646
+        ]
+      },
+      "properties": {
+        "id": 486,
+        "name": "Luc-en-Diois",
+        "line": "SNCFIntercits",
+        "order": 130
+      },
+      "id": 486
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.363158,
+          44.75814
+        ]
+      },
+      "properties": {
+        "id": 487,
+        "name": "Die",
+        "line": "SNCFIntercits",
+        "order": 131
+      },
+      "id": 487
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.015943,
+          44.730081
+        ]
+      },
+      "properties": {
+        "id": 488,
+        "name": "Crest",
+        "line": "SNCFIntercits",
+        "order": 132
+      },
+      "id": 488
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.89351,
+          44.927971
+        ]
+      },
+      "properties": {
+        "id": 489,
+        "name": "Valence-Ville",
+        "line": "SNCFIntercits",
+        "order": 133
+      },
+      "id": 489
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.141019,
+          41.379933
+        ]
+      },
+      "properties": {
+        "id": 490,
+        "name": "Barcelona - Sants",
+        "line": "SNCFInternational",
+        "order": 0
+      },
+      "id": 490
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.815823,
+          41.979094
+        ]
+      },
+      "properties": {
+        "id": 491,
+        "name": "Girona",
+        "line": "SNCFInternational",
+        "order": 1
+      },
+      "id": 491
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.942828,
+          42.264658
+        ]
+      },
+      "properties": {
+        "id": 492,
+        "name": "Figueres - Vilafant",
+        "line": "SNCFInternational",
+        "order": 2
+      },
+      "id": 492
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.879157,
+          42.696133
+        ]
+      },
+      "properties": {
+        "id": 493,
+        "name": "Perpignan",
+        "line": "SNCFInternational",
+        "order": 3
+      },
+      "id": 493
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.005666,
+          43.190616
+        ]
+      },
+      "properties": {
+        "id": 494,
+        "name": "Narbonne",
+        "line": "SNCFInternational",
+        "order": 4
+      },
+      "id": 494
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.218801,
+          43.336181
+        ]
+      },
+      "properties": {
+        "id": 495,
+        "name": "Béziers",
+        "line": "SNCFInternational",
+        "order": 5
+      },
+      "id": 495
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.465509,
+          43.317397
+        ]
+      },
+      "properties": {
+        "id": 496,
+        "name": "Agde",
+        "line": "SNCFInternational",
+        "order": 6
+      },
+      "id": 496
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.696523,
+          43.4129
+        ]
+      },
+      "properties": {
+        "id": 497,
+        "name": "Sète",
+        "line": "SNCFInternational",
+        "order": 7
+      },
+      "id": 497
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880235,
+          43.604305
+        ]
+      },
+      "properties": {
+        "id": 498,
+        "name": "Montpellier Saint-Roch",
+        "line": "SNCFInternational",
+        "order": 8
+      },
+      "id": 498
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366315,
+          43.832545
+        ]
+      },
+      "properties": {
+        "id": 499,
+        "name": "Nîmes Centre",
+        "line": "SNCFInternational",
+        "order": 9
+      },
+      "id": 499
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.978434,
+          44.991932
+        ]
+      },
+      "properties": {
+        "id": 500,
+        "name": "Valence TGV Sud Rhône-Alpes",
+        "line": "SNCFInternational",
+        "order": 10
+      },
+      "id": 500
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.373876,
+          48.844542
+        ]
+      },
+      "properties": {
+        "id": 501,
+        "name": "Paris Gare de Lyon",
+        "line": "SNCFInternational",
+        "order": 11
+      },
+      "id": 501
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.075805,
+          45.721029
+        ]
+      },
+      "properties": {
+        "id": 502,
+        "name": "Lyon-Saint-Exupéry TGV",
+        "line": "SNCFInternational",
+        "order": 12
+      },
+      "id": 502
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.919873,
+          45.571474
+        ]
+      },
+      "properties": {
+        "id": 503,
+        "name": "Chambéry - Challes-les-Eaux",
+        "line": "SNCFInternational",
+        "order": 13
+      },
+      "id": 503
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.659131,
+          45.193394
+        ]
+      },
+      "properties": {
+        "id": 504,
+        "name": "Modane",
+        "line": "SNCFInternational",
+        "order": 14
+      },
+      "id": 504
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.70999,
+          45.076667
+        ]
+      },
+      "properties": {
+        "id": 505,
+        "name": "Bardonecchia",
+        "line": "SNCFInternational",
+        "order": 15
+      },
+      "id": 505
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.831389,
+          45.038854
+        ]
+      },
+      "properties": {
+        "id": 506,
+        "name": "Oulx - Cesana - Claviere - Sestriere",
+        "line": "SNCFInternational",
+        "order": 16
+      },
+      "id": 506
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.665929,
+          45.072665
+        ]
+      },
+      "properties": {
+        "id": 507,
+        "name": "Torino Porta Susa",
+        "line": "SNCFInternational",
+        "order": 17
+      },
+      "id": 507
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.185708,
+          45.485652
+        ]
+      },
+      "properties": {
+        "id": 508,
+        "name": "Milano Porta Garibaldi (superficie)",
+        "line": "SNCFInternational",
+        "order": 18
+      },
+      "id": 508
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.860119,
+          45.760545
+        ]
+      },
+      "properties": {
+        "id": 509,
+        "name": "Lyon Part-Dieu",
+        "line": "SNCFInternational",
+        "order": 19
+      },
+      "id": 509
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "mecca",
+  "path": "asia/saudi-arabia/mecca",
+  "gameTitle": "Mecca Metro Memory",
+  "description": "How many Mecca Metro stations can you name from memory?",
+  "locale": "ar_SA",
+  "bbox": [
+    21.264,
+    39.765,
+    21.516,
+    40.035
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Mecca Metro",
+      "lines": [
+        "MECCS"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MECCS",
+      "name": "Al Mashaaer Al Mugaddassah Line",
+      "match": {
+        "@id": "^(1273546|7734267)$"
+      },
+      "color": "#FFC0CB",
+      "textColor": "#222222",
+      "badge": "S",
+      "icon": "MECCS.svg"
+    }
+  ],
+  "register": {
+    "name": "Mecca (مكة), SA",
+    "continent": "Asia",
+    "coordinates": [
+      39.9,
+      21.39
+    ],
+    "zh": "麦加, SA",
+    "achievement": {
+      "title": "Mecca Metro Master",
+      "description": "You've named every Mecca Metro station."
+    }
+  }
+}

@@ -164,10 +164,12 @@ export const getCityIconMetadataPath = (
   // the city's folder). Served from the CDN, so it doesn't depend on the
   // /api/city-icon function being able to read public/ at runtime.
   const iconFileName = assetRoutePath.split('/').pop()
-  return appendVersionQuery(
-    `/city-icons/${iconFileName}.ico`,
-    CITY_ASSET_MANIFEST[assetSlug]?.iconVersion,
-  )
+  // Always versioned, dev included: browsers cache tab icons by URL and
+  // ignore a hard refresh, so a changed icon needs a changed URL.
+  const iconVersion = CITY_ASSET_MANIFEST[assetSlug]?.iconVersion
+  return iconVersion
+    ? `/city-icons/${iconFileName}.ico?v=${iconVersion}`
+    : `/city-icons/${iconFileName}.ico`
 }
 
 export const getCityOpenGraphImagePath = (

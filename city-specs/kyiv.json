@@ -1,0 +1,89 @@
+{
+  "slug": "kyiv",
+  "path": "europe/ukraine/kyiv",
+  "gameTitle": "Kyiv Metro Memory",
+  "description": "How many Kyiv Metro stations can you name from memory?",
+  "locale": "uk_UA",
+  "bbox": [
+    50.34,
+    30.3,
+    50.56,
+    30.76
+  ],
+  "transliterate": "uk",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Kyiv Metro",
+      "lines": [
+        "KYIVM1",
+        "KYIVM2",
+        "KYIVM3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KYIVM1",
+      "name": "Sviatoshynsko-Brovarska line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^M1$"
+      },
+      "color": "#DD2A26",
+      "badge": "M1",
+      "textColor": "#FFFFFF",
+      "icon": "KYIVM1.svg"
+    },
+    {
+      "id": "KYIVM2",
+      "name": "Obolonsko-Teremkivska line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^M2$"
+      },
+      "color": "#2782C5",
+      "badge": "M2",
+      "textColor": "#FFFFFF",
+      "icon": "KYIVM2.svg"
+    },
+    {
+      "id": "KYIVM3",
+      "name": "Syretsko-Pecherska line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^M3$"
+      },
+      "color": "#35AB52",
+      "badge": "M3",
+      "textColor": "#FFFFFF",
+      "icon": "KYIVM3.svg"
+    }
+  ],
+  "register": {
+    "name": "Kyiv (Київ), UA",
+    "continent": "Europe",
+    "coordinates": [
+      30.5234,
+      50.4501
+    ],
+    "achievement": {
+      "title": "Arsenalna Deep Diver",
+      "description": "You've named every Kyiv Metro station."
+    },
+    "zh": "基辅, UA"
+  },
+  "display": "translit"
+}

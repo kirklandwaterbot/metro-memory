@@ -1,0 +1,1526 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.252018,
+          59.84195
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Prospekt Veteranov",
+        "alternate_names": [
+          "Проспект Ветеранов"
+        ],
+        "line": "SPB1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.268388,
+          59.850646
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Leninsky Prospekt",
+        "alternate_names": [
+          "Ленинский проспект",
+          "Leninskiy prospekt"
+        ],
+        "line": "SPB1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.261004,
+          59.866479
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Avtovo",
+        "alternate_names": [
+          "Автово"
+        ],
+        "line": "SPB1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.260573,
+          59.878232
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Kirovsky Zavod",
+        "alternate_names": [
+          "Кировский завод",
+          "Kirovskiy zavod"
+        ],
+        "line": "SPB1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.274058,
+          59.899708
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Narvskaya",
+        "alternate_names": [
+          "Нарвская"
+        ],
+        "line": "SPB1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.302677,
+          59.907681
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Baltiyskaya",
+        "alternate_names": [
+          "Балтийская"
+        ],
+        "line": "SPB1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.318387,
+          59.915336
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tekhnologichesky Institut",
+        "alternate_names": [
+          "Технологический институт",
+          "Tekhnologicheskiy institut",
+          "Технологический институт 2"
+        ],
+        "line": "SPB1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.332857,
+          59.921298
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Pushkinskaya",
+        "alternate_names": [
+          "Пушкинская"
+        ],
+        "line": "SPB1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.347344,
+          59.925985
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Vladimirskaya",
+        "alternate_names": [
+          "Владимирская"
+        ],
+        "line": "SPB1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.359024,
+          59.929993
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Ploshchad Vosstaniya",
+        "alternate_names": [
+          "Площадь Восстания",
+          "Ploschad' Vosstaniya"
+        ],
+        "line": "SPB1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.360777,
+          59.94311
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Chernyshevskaya",
+        "alternate_names": [
+          "Чернышевская"
+        ],
+        "line": "SPB1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.355349,
+          59.957216
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Ploshchad Lenina",
+        "alternate_names": [
+          "Площадь Ленина",
+          "Ploschad' Lenina"
+        ],
+        "line": "SPB1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.34951,
+          59.969371
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Vyborgskaya",
+        "alternate_names": [
+          "Выборгская"
+        ],
+        "line": "SPB1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.34566,
+          59.986547
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Lesnaya",
+        "alternate_names": [
+          "Лесная"
+        ],
+        "line": "SPB1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.367352,
+          60.001492
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Ploshchad Muzhestva",
+        "alternate_names": [
+          "Площадь Мужества",
+          "Ploschad' Muzhestva"
+        ],
+        "line": "SPB1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.370763,
+          60.008959
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Politekhnicheskaya",
+        "alternate_names": [
+          "Политехническая"
+        ],
+        "line": "SPB1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.392738,
+          60.012116
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Akademicheskaya",
+        "alternate_names": [
+          "Академическая"
+        ],
+        "line": "SPB1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.416814,
+          60.033241
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Grazhdansky Prospekt",
+        "alternate_names": [
+          "Гражданский проспект",
+          "Grazhdanskiy prospekt"
+        ],
+        "line": "SPB1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.442807,
+          60.050526
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Devyatkino",
+        "alternate_names": [
+          "Девяткино"
+        ],
+        "line": "SPB1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.334045,
+          60.066904
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Parnas",
+        "alternate_names": [
+          "Парнас"
+        ],
+        "line": "SPB2",
+        "order": 0
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.332904,
+          60.049423
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Prospekt Prosveshcheniya",
+        "alternate_names": [
+          "Проспект Просвещения",
+          "Prospekt Prosvescheniya"
+        ],
+        "line": "SPB2",
+        "order": 1
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.32103,
+          60.035319
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Ozerki",
+        "alternate_names": [
+          "Озерки"
+        ],
+        "line": "SPB2",
+        "order": 2
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.318159,
+          60.017931
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Udelnaya",
+        "alternate_names": [
+          "Удельная"
+        ],
+        "line": "SPB2",
+        "order": 3
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.296348,
+          60.004309
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Pionerskaya",
+        "alternate_names": [
+          "Пионерская"
+        ],
+        "line": "SPB2",
+        "order": 4
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.300904,
+          59.987227
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Chyornaya Rechka",
+        "alternate_names": [
+          "Чёрная речка"
+        ],
+        "line": "SPB2",
+        "order": 5
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.31284,
+          59.964913
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Petrogradskaya",
+        "alternate_names": [
+          "Петроградская"
+        ],
+        "line": "SPB2",
+        "order": 6
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.319457,
+          59.955156
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Gorkovskaya",
+        "alternate_names": [
+          "Горьковская"
+        ],
+        "line": "SPB2",
+        "order": 7
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.328402,
+          59.933976
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Nevsky Prospekt",
+        "alternate_names": [
+          "Невский проспект",
+          "Nevskiy prospekt"
+        ],
+        "line": "SPB2",
+        "order": 8
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.320052,
+          59.925977
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Sennaya Ploshchad",
+        "alternate_names": [
+          "Сенная площадь",
+          "Sennaya ploschad'"
+        ],
+        "line": "SPB2",
+        "order": 9
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.317338,
+          59.915188
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Tekhnologichesky Institut",
+        "alternate_names": [
+          "Технологический институт",
+          "Tekhnologicheskiy institut",
+          "Технологический институт 1"
+        ],
+        "line": "SPB2",
+        "order": 10
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3175,
+          59.9063
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Frunzenskaya",
+        "alternate_names": [
+          "Фрунзенская"
+        ],
+        "line": "SPB2",
+        "order": 11
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.318071,
+          59.892649
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Moskovskiye Vorota",
+        "alternate_names": [
+          "Московские ворота"
+        ],
+        "line": "SPB2",
+        "order": 12
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.319072,
+          59.88026
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Elektrosila",
+        "alternate_names": [
+          "Электросила",
+          "Elekrosila"
+        ],
+        "line": "SPB2",
+        "order": 13
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3218,
+          59.8664
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Park Pobedy",
+        "alternate_names": [
+          "Парк Победы"
+        ],
+        "line": "SPB2",
+        "order": 14
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.322382,
+          59.851403
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Moskovskaya",
+        "alternate_names": [
+          "Московская"
+        ],
+        "line": "SPB2",
+        "order": 15
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.351466,
+          59.832875
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Zvyozdnaya",
+        "alternate_names": [
+          "Звёздная"
+        ],
+        "line": "SPB2",
+        "order": 16
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.375491,
+          59.829681
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Kupchino",
+        "alternate_names": [
+          "Купчино"
+        ],
+        "line": "SPB2",
+        "order": 17
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.500291,
+          59.83084
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Rybatskoye",
+        "alternate_names": [
+          "Рыбацкое"
+        ],
+        "line": "SPB3",
+        "order": 0
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.459925,
+          59.849783
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Obukhovo",
+        "alternate_names": [
+          "Обухово"
+        ],
+        "line": "SPB3",
+        "order": 1
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.467311,
+          59.866265
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Proletarskaya",
+        "alternate_names": [
+          "Пролетарская"
+        ],
+        "line": "SPB3",
+        "order": 2
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.440148,
+          59.878826
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Lomonosovskaya",
+        "alternate_names": [
+          "Ломоносовская"
+        ],
+        "line": "SPB3",
+        "order": 3
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.421701,
+          59.898062
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Yelizarovskaya",
+        "alternate_names": [
+          "Елизаровская"
+        ],
+        "line": "SPB3",
+        "order": 4
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.386834,
+          59.923347
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Ploshchad Aleksandra Nevskogo",
+        "alternate_names": [
+          "Площадь Александра Невского",
+          "Ploschad' Aleksandra Nevskogo",
+          "Площадь Александра Невского 1"
+        ],
+        "line": "SPB3",
+        "order": 5
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.35762,
+          59.930542
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Mayakovskaya",
+        "alternate_names": [
+          "Маяковская"
+        ],
+        "line": "SPB3",
+        "order": 6
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.330203,
+          59.934244
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Gostiny Dvor",
+        "alternate_names": [
+          "Гостиный двор"
+        ],
+        "line": "SPB3",
+        "order": 7
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.275359,
+          59.943177
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Vasileostrovskaya",
+        "alternate_names": [
+          "Василеостровская"
+        ],
+        "line": "SPB3",
+        "order": 8
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.23794,
+          59.948736
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Primorskaya",
+        "alternate_names": [
+          "Приморская"
+        ],
+        "line": "SPB3",
+        "order": 9
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.211916,
+          59.971956
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Zenit",
+        "alternate_names": [
+          "Зенит"
+        ],
+        "line": "SPB3",
+        "order": 10
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.202194,
+          59.987266
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Begovaya",
+        "alternate_names": [
+          "Беговая"
+        ],
+        "line": "SPB3",
+        "order": 11
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.481764,
+          59.909009
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ulitsa Dybenko",
+        "alternate_names": [
+          "Улица Дыбенко"
+        ],
+        "line": "SPB4",
+        "order": 0
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.464006,
+          59.921034
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Prospekt Bolshevikov",
+        "alternate_names": [
+          "Проспект Большевиков"
+        ],
+        "line": "SPB4",
+        "order": 1
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.442437,
+          59.931526
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Ladozhskaya",
+        "alternate_names": [
+          "Ладожская"
+        ],
+        "line": "SPB4",
+        "order": 2
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.415209,
+          59.929595
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Novocherkasskaya",
+        "alternate_names": [
+          "Новочеркасская"
+        ],
+        "line": "SPB4",
+        "order": 3
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.38486,
+          59.922223
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Ploshchad Aleksandra Nevskogo",
+        "alternate_names": [
+          "Площадь Александра Невского",
+          "Ploschad' Aleksandra Nevskogo",
+          "Площадь Александра Невского 2"
+        ],
+        "line": "SPB4",
+        "order": 4
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.359266,
+          59.921589
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Ligovsky Prospekt",
+        "alternate_names": [
+          "Лиговский проспект",
+          "Ligovskiy prospekt"
+        ],
+        "line": "SPB4",
+        "order": 5
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.345848,
+          59.926826
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Dostoyevskaya",
+        "alternate_names": [
+          "Достоевская"
+        ],
+        "line": "SPB4",
+        "order": 6
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.317694,
+          59.926262
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Spasskaya",
+        "alternate_names": [
+          "Спасская"
+        ],
+        "line": "SPB4",
+        "order": 7
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.263811,
+          59.931152
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Gorny Institut",
+        "alternate_names": [
+          "Горный институт"
+        ],
+        "line": "SPB4",
+        "order": 8
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.432824,
+          59.82007
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Shushary",
+        "alternate_names": [
+          "Шушары"
+        ],
+        "line": "SPB5",
+        "order": 0
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.410896,
+          59.839993
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Dunayskaya",
+        "alternate_names": [
+          "Дунайская"
+        ],
+        "line": "SPB5",
+        "order": 1
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.395301,
+          59.856713
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Prospekt Slavy",
+        "alternate_names": [
+          "Проспект Славы"
+        ],
+        "line": "SPB5",
+        "order": 2
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.381878,
+          59.868623
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Mezhdunarodnaya",
+        "alternate_names": [
+          "Международная"
+        ],
+        "line": "SPB5",
+        "order": 3
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.370319,
+          59.882328
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Bukharestskaya",
+        "alternate_names": [
+          "Бухарестская"
+        ],
+        "line": "SPB5",
+        "order": 4
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.360401,
+          59.896578
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Volkovskaya",
+        "alternate_names": [
+          "Волковская"
+        ],
+        "line": "SPB5",
+        "order": 5
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.350888,
+          59.913169
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Obvodny Kanal",
+        "alternate_names": [
+          "Обводный канал"
+        ],
+        "line": "SPB5",
+        "order": 6
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.332765,
+          59.921906
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Zvenigorodskaya",
+        "alternate_names": [
+          "Звенигородская"
+        ],
+        "line": "SPB5",
+        "order": 7
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.319383,
+          59.927603
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Sadovaya",
+        "alternate_names": [
+          "Садовая"
+        ],
+        "line": "SPB5",
+        "order": 8
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.313898,
+          59.936134
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Admiralteyskaya",
+        "alternate_names": [
+          "Адмиралтейская"
+        ],
+        "line": "SPB5",
+        "order": 9
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.289065,
+          59.950129
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Sportivnaya",
+        "alternate_names": [
+          "Спортивная"
+        ],
+        "line": "SPB5",
+        "order": 10
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.29242,
+          59.959334
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Chkalovskaya",
+        "alternate_names": [
+          "Чкаловская"
+        ],
+        "line": "SPB5",
+        "order": 11
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.262192,
+          59.970596
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Krestovsky Ostrov",
+        "alternate_names": [
+          "Крестовский остров",
+          "Krestovskiy ostrov"
+        ],
+        "line": "SPB5",
+        "order": 12
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.255635,
+          59.987678
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Staraya Derevnya",
+        "alternate_names": [
+          "Старая Деревня"
+        ],
+        "line": "SPB5",
+        "order": 13
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.256485,
+          60.01032
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Komendantsky Prospekt",
+        "alternate_names": [
+          "Комендантский проспект",
+          "Komendantskiy prospekt"
+        ],
+        "line": "SPB5",
+        "order": 14
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.231328,
+          59.86003
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Yugo-Zapadnaya",
+        "alternate_names": [
+          "Юго-Западная"
+        ],
+        "line": "SPB6",
+        "order": 0
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.262416,
+          59.877739
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Putilovskaya",
+        "alternate_names": [
+          "Путиловская"
+        ],
+        "line": "SPB6",
+        "order": 1
+      },
+      "id": 74
+    }
+  ]
+}

@@ -4,97 +4,127 @@
     "color": "#E4002B",
     "backgroundColor": "#E4002B",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/chongqing/line1.png"
   },
   "chongqing2": {
     "name": "Line 2",
     "color": "#007A33",
     "backgroundColor": "#007A33",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/chongqing/line2.png"
   },
   "chongqing3": {
     "name": "Line 3",
     "color": "#003DA5",
     "backgroundColor": "#003DA5",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/chongqing/line3.png"
+  },
+  "chongqing3k": {
+    "name": "Konggang Branch",
+    "color": "#003DA5",
+    "backgroundColor": "#003DA5",
+    "textColor": "#ffffff",
+    "order": 4,
+    "icon": "asia/china/chongqing/line3k.png"
   },
   "chongqing4": {
     "name": "Line 4",
     "color": "#DC8633",
     "backgroundColor": "#DC8633",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 5,
+    "icon": "asia/china/chongqing/line4.png"
   },
   "chongqing5": {
     "name": "Line 5",
     "color": "#00A3E0",
     "backgroundColor": "#00A3E0",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 6,
+    "icon": "asia/china/chongqing/line5.png"
   },
   "chongqing6": {
     "name": "Line 6",
     "color": "#F67599",
     "backgroundColor": "#F67599",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 7,
+    "icon": "asia/china/chongqing/line6.png"
+  },
+  "chongqing6i": {
+    "name": "International Expo Branch",
+    "color": "#F67599",
+    "backgroundColor": "#F67599",
+    "textColor": "#ffffff",
+    "order": 8,
+    "icon": "asia/china/chongqing/line6i.png"
   },
   "chongqing9": {
     "name": "Line 9",
-    "color": "#862041",
-    "backgroundColor": "#862041",
+    "color": "#861F41",
+    "backgroundColor": "#861F41",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 9,
+    "icon": "asia/china/chongqing/line9.png"
   },
   "chongqing10": {
     "name": "Line 10",
-    "color": "#3C1053",
-    "backgroundColor": "#3C1053",
+    "color": "#5F259F",
+    "backgroundColor": "#5F259F",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 10,
+    "icon": "asia/china/chongqing/line10.png"
   },
   "chongqing15": {
     "name": "Line 15",
     "color": "#0057B8",
     "backgroundColor": "#0057B8",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 11,
+    "icon": "asia/china/chongqing/line15.png"
   },
   "chongqing18": {
     "name": "Line 18",
     "color": "#2CD5C4",
     "backgroundColor": "#2CD5C4",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 12,
+    "icon": "asia/china/chongqing/line18.png"
   },
   "chongqingloop": {
     "name": "Loop Line",
     "color": "#F2A900",
     "backgroundColor": "#F2A900",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 13,
+    "icon": "asia/china/chongqing/line0.png"
   },
   "chongqingbitong": {
     "name": "Bitong Line",
     "color": "#0057B8",
     "backgroundColor": "#0057B8",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 14,
+    "icon": "asia/china/chongqing/linebitong.png"
   },
   "chongqingjiangtiao": {
     "name": "Jiangtiao Line",
-    "color": "#8A2BE2",
-    "backgroundColor": "#8A2BE2",
+    "color": "#0057B8",
+    "backgroundColor": "#0057B8",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 15,
+    "icon": "asia/china/chongqing/linejiangtiao.png"
   },
   "chongqingyunba": {
     "name": "Bishan Yunba",
-    "color": "#1974D2",
-    "backgroundColor": "#1974D2",
+    "color": "#808080",
+    "backgroundColor": "#808080",
     "textColor": "#ffffff",
-    "order": 14
+    "order": 16,
+    "icon": "asia/china/chongqing/linebishan.png"
   }
 }

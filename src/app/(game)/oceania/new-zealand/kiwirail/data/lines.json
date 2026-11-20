@@ -1,0 +1,42 @@
+{
+  "KRNorthernExplorer": {
+    "name": "Northern Explorer",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "KRNorthernExplorer.svg"
+  },
+  "KRCoastalPacific": {
+    "name": "Coastal Pacific",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "KRCoastalPacific.svg"
+  },
+  "KRTranzAlpine": {
+    "name": "TranzAlpine",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "KRTranzAlpine.svg"
+  },
+  "KRCapitalConnection": {
+    "name": "Capital Connection",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "KRCapitalConnection.svg"
+  },
+  "KRTeHuia": {
+    "name": "Te Huia",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 4,
+    "icon": "KRTeHuia.svg"
+  }
+}

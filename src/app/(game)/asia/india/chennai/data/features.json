@@ -1,0 +1,1535 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.164203,
+          12.980809
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Chennai International Airport",
+        "alternate_names": [
+          "சென்னை விமான நிலையம்",
+          "ചെന്നൈ വിമാനത്താവളം"
+        ],
+        "line": "CHEN1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.176479,
+          12.987673
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Meenambakkam",
+        "alternate_names": [
+          "மீனம்பாக்கம்",
+          "മീനമ്പാക്കം"
+        ],
+        "line": "CHEN1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.19401,
+          12.99988
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nanganallur Road",
+        "alternate_names": [
+          "நங்கநல்லூர் சாலை",
+          "നങ്കനല്ലൂർ റോഡ്"
+        ],
+        "line": "CHEN1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.201453,
+          13.004256
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Alandur",
+        "alternate_names": [
+          "ஆலந்தூர்",
+          "ആലന്തൂർ"
+        ],
+        "line": "CHEN1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.213085,
+          13.009275
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Guindy",
+        "alternate_names": [
+          "கிண்டி",
+          "ഗിണ്ടി"
+        ],
+        "line": "CHEN1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.224167,
+          13.014663
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Little Mount",
+        "alternate_names": [
+          "சின்னமலை",
+          "ചിന്നമല"
+        ],
+        "line": "CHEN1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.228124,
+          13.023995
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Saidapet",
+        "alternate_names": [
+          "சைதாப்பேட்டை",
+          "സൈദാപേട്ട"
+        ],
+        "line": "CHEN1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.241196,
+          13.031709
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nandanam",
+        "alternate_names": [
+          "நந்தனம்",
+          "നന്ദനം"
+        ],
+        "line": "CHEN1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.246419,
+          13.0368
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Teynampet",
+        "alternate_names": [
+          "தேனாம்பேட்டை",
+          "തേനാംപേട്ട"
+        ],
+        "line": "CHEN1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.248285,
+          13.045885
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "AG-DMS",
+        "alternate_names": [
+          "ஏ ஜி டி.எம்.எஸ்",
+          "എജി - ഡിഎംഎസ്"
+        ],
+        "line": "CHEN1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.258783,
+          13.058516
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Thousand Lights",
+        "alternate_names": [
+          "ஆயிரம் விளக்கு",
+          "ആയിരം വിളക്ക്"
+        ],
+        "line": "CHEN1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.265847,
+          13.064372
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "LIC",
+        "alternate_names": [
+          "எல் ஐ சி",
+          "എൽഐസി"
+        ],
+        "line": "CHEN1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.273036,
+          13.069635
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Government Estate",
+        "alternate_names": [
+          "அரசினர் தோட்டம்",
+          "സർക്കാർ എസ്റ്റേറ്റ്"
+        ],
+        "line": "CHEN1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.273916,
+          13.081725
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Central Metro",
+        "alternate_names": [
+          "सेंट्रल मेट्रो",
+          "சென்னை மத்திய ரயில் நிலையம்",
+          "ചെന്നൈ സെൻട്രൽ"
+        ],
+        "line": "CHEN1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.284985,
+          13.087268
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "High Court",
+        "alternate_names": [
+          "हाई कोर्ट",
+          "உயர்நீதிமன்றம்",
+          "ഹൈക്കോടതി"
+        ],
+        "line": "CHEN1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.286131,
+          13.095447
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Mannadi",
+        "alternate_names": [
+          "மண்ணடி",
+          "മണ്ണടി"
+        ],
+        "line": "CHEN1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.280949,
+          13.107847
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Washermanpet",
+        "alternate_names": [
+          "வண்ணாரப்பேட்டை",
+          "വണ്ണാരപ്പേട്ട"
+        ],
+        "line": "CHEN1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.284744,
+          13.115755
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Sir Theagaraya College",
+        "alternate_names": [
+          "सर त्यागराया कॉलेज",
+          "தியாகராயா கல்லூரி",
+          "ത്യാഗരായ കോളേജ്"
+        ],
+        "line": "CHEN1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.288856,
+          13.124528
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Tondiarpet",
+        "alternate_names": [
+          "தொண்டையார்பேட்டை",
+          "തണ്ടയാർപേട്ട"
+        ],
+        "line": "CHEN1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.293001,
+          13.13452
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "New Washermanpet",
+        "alternate_names": [
+          "புது வண்ணாரப்பேட்டை",
+          "പുതിയ വണ്ണാരപ്പേട്ട"
+        ],
+        "line": "CHEN1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.296329,
+          13.143134
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Tollgate",
+        "alternate_names": [
+          "சுங்கச்சாவடி",
+          "ടോൾഗേറ്റ്"
+        ],
+        "line": "CHEN1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.299393,
+          13.150667
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Kaladipet",
+        "alternate_names": [
+          "காலடிபேட்டை",
+          "കാലടിപേട്ട"
+        ],
+        "line": "CHEN1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.302448,
+          13.160215
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Thiruvottiyur Theradi",
+        "alternate_names": [
+          "திருவொற்றியூர் தேரடி",
+          "തിരുവൊറ്റിയൂർ തേരടി"
+        ],
+        "line": "CHEN1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.305269,
+          13.171803
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Thiruvottriyur",
+        "alternate_names": [
+          "திருவொற்றியூர்",
+          "തിരുവൊറ്റിയൂർ"
+        ],
+        "line": "CHEN1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.307344,
+          13.17929
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Wimco Nagar",
+        "alternate_names": [
+          "विम्को नगर",
+          "விம்கோ நகர்",
+          "വിംകോ നഗർ"
+        ],
+        "line": "CHEN1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.308994,
+          13.183971
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Wimco Nagar Depot",
+        "alternate_names": [
+          "विम्को नगर डीपो",
+          "விம்கோ நகர் டிப்போ",
+          "വിംകോ നഗർ ഡിപ്പോ"
+        ],
+        "line": "CHEN1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.198375,
+          12.995044
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "St. Thomas Mount Metro",
+        "alternate_names": [
+          "பரங்கிமலை",
+          "സെന്റ് തോമസ് മൗണ്ട്"
+        ],
+        "line": "CHEN2",
+        "order": 0
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.201453,
+          13.004256
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Alandur",
+        "alternate_names": [
+          "ஆலந்தூர்",
+          "ആലന്തൂർ"
+        ],
+        "line": "CHEN2",
+        "order": 1
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.205424,
+          13.016922
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Ekkattuthangal",
+        "alternate_names": [
+          "ஈக்காட்டுத்தாங்கல்",
+          "ഈക്കാട്ടുത്താങ്കൽ"
+        ],
+        "line": "CHEN2",
+        "order": 2
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.211108,
+          13.035477
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Ashok Nagar",
+        "alternate_names": [
+          "அசோக் நகர்",
+          "അശോക് നഗർ"
+        ],
+        "line": "CHEN2",
+        "order": 3
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.212065,
+          13.050937
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Vadapalani",
+        "alternate_names": [
+          "வடபழநி",
+          "വടപഴനി"
+        ],
+        "line": "CHEN2",
+        "order": 4
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.211656,
+          13.061675
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Arumbakkam",
+        "alternate_names": [
+          "அரும்பாக்கம்",
+          "അരുമ്പാക്കം"
+        ],
+        "line": "CHEN2",
+        "order": 5
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.203984,
+          13.06852
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "CMBT",
+        "alternate_names": [
+          "சென்னை புறநகர் பேருந்து நிலையம்",
+          "ചെന്നൈ നഗരപ്രാന്ത ബഹുവാഹക നിലയം"
+        ],
+        "line": "CHEN2",
+        "order": 6
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.194836,
+          13.07345
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Koyambedu",
+        "alternate_names": [
+          "கோயம்பேடு",
+          "കോയമ്പേട്"
+        ],
+        "line": "CHEN2",
+        "order": 7
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.20152,
+          13.08528
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Thirumangalam",
+        "alternate_names": [
+          "திருமங்கலம்",
+          "തിരുമംഗലം"
+        ],
+        "line": "CHEN2",
+        "order": 8
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2086,
+          13.08514
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Anna Nagar Tower",
+        "alternate_names": [
+          "அண்ணா நகர் கோபுரம்",
+          "അണ്ണാ നഗർ ഗോപുരം"
+        ],
+        "line": "CHEN2",
+        "order": 9
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.219112,
+          13.084659
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Anna Nagar East",
+        "alternate_names": [
+          "अन्ना नगर पूर्व",
+          "அண்ணா நகர் கிழக்கு",
+          "അണ്ണാ നഗർ കിഴക്ക്"
+        ],
+        "line": "CHEN2",
+        "order": 10
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.225201,
+          13.078954
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Shenoy Nagar",
+        "alternate_names": [
+          "Shenoy Nagar Metro",
+          "செனாய் நகர்",
+          "ഷേണായി നഗർ"
+        ],
+        "line": "CHEN2",
+        "order": 11
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.232852,
+          13.075547
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Pachaiyappa's College",
+        "alternate_names": [
+          "பச்சையப்பன் கல்லூரி",
+          "പച്ചയ്യപ്പൻ കോളേജ്"
+        ],
+        "line": "CHEN2",
+        "order": 12
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.242619,
+          13.077637
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Kilpauk",
+        "alternate_names": [
+          "கீழ்பாக்கம்",
+          "കീഴ്പാക്കം"
+        ],
+        "line": "CHEN2",
+        "order": 13
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.250473,
+          13.078784
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Nehru Park",
+        "alternate_names": [
+          "நேரு பூங்கா",
+          "നെഹ്റു പാർക്ക്"
+        ],
+        "line": "CHEN2",
+        "order": 14
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.263055,
+          13.080281
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Egmore",
+        "alternate_names": [
+          "எழும்பூர்",
+          "എഴുമ്പൂർ"
+        ],
+        "line": "CHEN2",
+        "order": 15
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.273916,
+          13.081725
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Central Metro",
+        "alternate_names": [
+          "सेंट्रल मेट्रो",
+          "சென்னை மத்திய ரயில் நிலையம்",
+          "ചെന്നൈ സെൻട്രൽ"
+        ],
+        "line": "CHEN2",
+        "order": 16
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.164203,
+          12.980809
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Chennai International Airport",
+        "alternate_names": [
+          "சென்னை விமான நிலையம்",
+          "ചെന്നൈ വിമാനത്താവളം"
+        ],
+        "line": "CHEN2A",
+        "order": 0
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.176479,
+          12.987673
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Meenambakkam",
+        "alternate_names": [
+          "மீனம்பாக்கம்",
+          "മീനമ്പാക്കം"
+        ],
+        "line": "CHEN2A",
+        "order": 1
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.19401,
+          12.99988
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Nanganallur Road",
+        "alternate_names": [
+          "நங்கநல்லூர் சாலை",
+          "നങ്കനല്ലൂർ റോഡ്"
+        ],
+        "line": "CHEN2A",
+        "order": 2
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.201453,
+          13.004256
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Alandur",
+        "alternate_names": [
+          "ஆலந்தூர்",
+          "ആലന്തൂർ"
+        ],
+        "line": "CHEN2A",
+        "order": 3
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.205424,
+          13.016922
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Ekkattuthangal",
+        "alternate_names": [
+          "ஈக்காட்டுத்தாங்கல்",
+          "ഈക്കാട്ടുത്താങ്കൽ"
+        ],
+        "line": "CHEN2A",
+        "order": 4
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.211108,
+          13.035477
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Ashok Nagar",
+        "alternate_names": [
+          "அசோக் நகர்",
+          "അശോക് നഗർ"
+        ],
+        "line": "CHEN2A",
+        "order": 5
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.212065,
+          13.050937
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Vadapalani",
+        "alternate_names": [
+          "வடபழநி",
+          "വടപഴനി"
+        ],
+        "line": "CHEN2A",
+        "order": 6
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.211656,
+          13.061675
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Arumbakkam",
+        "alternate_names": [
+          "அரும்பாக்கம்",
+          "അരുമ്പാക്കം"
+        ],
+        "line": "CHEN2A",
+        "order": 7
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.203984,
+          13.06852
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "CMBT",
+        "alternate_names": [
+          "சென்னை புறநகர் பேருந்து நிலையம்",
+          "ചെന്നൈ നഗരപ്രാന്ത ബഹുവാഹക നിലയം"
+        ],
+        "line": "CHEN2A",
+        "order": 8
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.194836,
+          13.07345
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Koyambedu",
+        "alternate_names": [
+          "கோயம்பேடு",
+          "കോയമ്പേട്"
+        ],
+        "line": "CHEN2A",
+        "order": 9
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.20152,
+          13.08528
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Thirumangalam",
+        "alternate_names": [
+          "திருமங்கலம்",
+          "തിരുമംഗലം"
+        ],
+        "line": "CHEN2A",
+        "order": 10
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2086,
+          13.08514
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Anna Nagar Tower",
+        "alternate_names": [
+          "அண்ணா நகர் கோபுரம்",
+          "അണ്ണാ നഗർ ഗോപുരം"
+        ],
+        "line": "CHEN2A",
+        "order": 11
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.219112,
+          13.084659
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Anna Nagar East",
+        "alternate_names": [
+          "अन्ना नगर पूर्व",
+          "அண்ணா நகர் கிழக்கு",
+          "അണ്ണാ നഗർ കിഴക്ക്"
+        ],
+        "line": "CHEN2A",
+        "order": 12
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.225201,
+          13.078954
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Shenoy Nagar",
+        "alternate_names": [
+          "Shenoy Nagar Metro",
+          "செனாய் நகர்",
+          "ഷേണായി നഗർ"
+        ],
+        "line": "CHEN2A",
+        "order": 13
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.232852,
+          13.075547
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Pachaiyappa's College",
+        "alternate_names": [
+          "பச்சையப்பன் கல்லூரி",
+          "പച്ചയ്യപ്പൻ കോളേജ്"
+        ],
+        "line": "CHEN2A",
+        "order": 14
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.242619,
+          13.077637
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Kilpauk",
+        "alternate_names": [
+          "கீழ்பாக்கம்",
+          "കീഴ്പാക്കം"
+        ],
+        "line": "CHEN2A",
+        "order": 15
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.250473,
+          13.078784
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Nehru Park",
+        "alternate_names": [
+          "நேரு பூங்கா",
+          "നെഹ്റു പാർക്ക്"
+        ],
+        "line": "CHEN2A",
+        "order": 16
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.263055,
+          13.080281
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Egmore",
+        "alternate_names": [
+          "எழும்பூர்",
+          "എഴുമ്പൂർ"
+        ],
+        "line": "CHEN2A",
+        "order": 17
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.273916,
+          13.081725
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Central Metro",
+        "alternate_names": [
+          "सेंट्रल मेट्रो",
+          "சென்னை மத்திய ரயில் நிலையம்",
+          "ചെന്നൈ സെൻട്രൽ"
+        ],
+        "line": "CHEN2A",
+        "order": 18
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.211243,
+          13.049805
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Vadapalani",
+        "alternate_names": [
+          "வடபழனி மெட்ரோ ரயில் நிலையம்"
+        ],
+        "line": "CHEN4",
+        "order": 0
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.156752,
+          13.035868
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Porur Junction",
+        "alternate_names": [
+          "போரூர் சந்திப்பு மெட்ரோ"
+        ],
+        "line": "CHEN4",
+        "order": 1
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.149971,
+          13.036226
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Porur Bypass",
+        "alternate_names": [
+          "போரூர் புறவழிச் சாலை மெட்ரோ"
+        ],
+        "line": "CHEN4",
+        "order": 2
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.141529,
+          13.036912
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Thelliyaragaram",
+        "line": "CHEN4",
+        "order": 3
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.134702,
+          13.038298
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Iyappanthangal",
+        "alternate_names": [
+          "அய்யப்பன்தாங்கல்"
+        ],
+        "line": "CHEN4",
+        "order": 4
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.125174,
+          13.04206
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Kattupakkam",
+        "alternate_names": [
+          "காட்டுப்பாக்கம்"
+        ],
+        "line": "CHEN4",
+        "order": 5
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.118545,
+          13.044761
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Kumananchavadi",
+        "alternate_names": [
+          "குமணன்சாவடி"
+        ],
+        "line": "CHEN4",
+        "order": 6
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.110713,
+          13.046734
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Karayanchavadi",
+        "alternate_names": [
+          "கரையன்சாவடி"
+        ],
+        "line": "CHEN4",
+        "order": 7
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.102075,
+          13.049712
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Poonamallee Government Hospital",
+        "alternate_names": [
+          "பூவிருந்தவல்லி அரசு மருத்துவமனை"
+        ],
+        "line": "CHEN4",
+        "order": 8
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.094741,
+          13.050888
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Poonamallee Bus Stand",
+        "alternate_names": [
+          "பூவிருந்தவல்லி பேருந்து நிலையம் மெட்ரோ"
+        ],
+        "line": "CHEN4",
+        "order": 9
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.081977,
+          13.048059
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Poonamallee Bypass",
+        "alternate_names": [
+          "பூவிருந்தவல்லி புறவழிச்சாலை மெட்ரோ"
+        ],
+        "line": "CHEN4",
+        "order": 10
+      },
+      "id": 72
+    }
+  ]
+}

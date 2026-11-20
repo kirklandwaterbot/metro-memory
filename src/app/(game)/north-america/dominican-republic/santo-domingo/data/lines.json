@@ -1,0 +1,37 @@
+{
+  "SDQ1": {
+    "name": "Línea 1",
+    "color": "#1F4FA0",
+    "backgroundColor": "#1F4FA0",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "SDQ2": {
+    "name": "Línea 2",
+    "color": "#E31E24",
+    "backgroundColor": "#E31E24",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "SDQT1": {
+    "name": "Teleférico Línea 1",
+    "color": "#F39200",
+    "backgroundColor": "#F39200",
+    "textColor": "#FFFFFF",
+    "order": 2
+  },
+  "SDQT2": {
+    "name": "Teleférico Línea 2",
+    "color": "#009A44",
+    "backgroundColor": "#009A44",
+    "textColor": "#FFFFFF",
+    "order": 3
+  },
+  "SDQT3": {
+    "name": "Teleférico Línea 3",
+    "color": "#7B3F98",
+    "backgroundColor": "#7B3F98",
+    "textColor": "#FFFFFF",
+    "order": 4
+  }
+}

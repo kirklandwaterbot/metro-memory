@@ -1,0 +1,34 @@
+{
+  "SOFIM1": {
+    "name": "Line M1",
+    "color": "#FF0000",
+    "backgroundColor": "#FF0000",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "SOFIM1.svg"
+  },
+  "SOFIM2": {
+    "name": "Line M2",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "SOFIM2.svg"
+  },
+  "SOFIM3": {
+    "name": "Line M3",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "SOFIM3.svg"
+  },
+  "SOFIM4": {
+    "name": "Line M4",
+    "color": "#FFD100",
+    "backgroundColor": "#FFD100",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "SOFIM4.svg"
+  }
+}

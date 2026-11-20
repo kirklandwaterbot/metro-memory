@@ -1,0 +1,34 @@
+{
+  "LISBAMARELA": {
+    "name": "Yellow Line",
+    "color": "#F4BC18",
+    "backgroundColor": "#F4BC18",
+    "textColor": "#222222",
+    "order": 0,
+    "icon": "LISBAMARELA.svg"
+  },
+  "LISBAZUL": {
+    "name": "Blue Line",
+    "color": "#4E84C4",
+    "backgroundColor": "#4E84C4",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "LISBAZUL.svg"
+  },
+  "LISBVERDE": {
+    "name": "Green Line",
+    "color": "#00AAA6",
+    "backgroundColor": "#00AAA6",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "LISBVERDE.svg"
+  },
+  "LISBVERMELHA": {
+    "name": "Red Line",
+    "color": "#DF096F",
+    "backgroundColor": "#DF096F",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "LISBVERMELHA.svg"
+  }
+}

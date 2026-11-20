@@ -1,0 +1,63 @@
+{
+  "slug": "almaty",
+  "path": "asia/kazakhstan/almaty",
+  "gameTitle": "Almaty Metro Memory",
+  "description": "How many Almaty Metro stations can you name from memory?",
+  "locale": "kk_KZ",
+  "bbox": [
+    43.18,
+    76.8,
+    43.3,
+    77.0
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Almaty Metro",
+      "lines": [
+        "ALA1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ALA1",
+      "name": "Line 1",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E4002B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "ALA1.svg"
+    }
+  ],
+  "register": {
+    "name": "Almaty (Алматы), KZ",
+    "continent": "Asia",
+    "coordinates": [
+      76.8512,
+      43.222
+    ],
+    "achievement": {
+      "title": "Apple City Underground",
+      "description": "You've named every Almaty Metro station."
+    },
+    "zh": "阿拉木图, KZ"
+  },
+  "display": "en"
+}

@@ -1,0 +1,58 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "MarylandLightRailLightRaillink": [],
+    "WMATAMetroGreen": [
+      7919784,
+      2609895
+    ],
+    "WMATAMetroYellow": [
+      918503,
+      7572166,
+      20048303,
+      20048304
+    ],
+    "WMATAMetroSilver": [
+      19274066,
+      3031441,
+      19274067,
+      7919736
+    ],
+    "WMATAMetroOrange": [
+      400284,
+      7919600
+    ],
+    "WMATAMetroBlue": [
+      7919757,
+      270832
+    ],
+    "WMATAMetroRed": [
+      192836,
+      1405414,
+      7919629,
+      1405415,
+      1405856,
+      1405857,
+      12252790,
+      12252791,
+      12252792
+    ],
+    "MarylandMetroMetroSubwaylink": [],
+    "VREManassasLine": [],
+    "VREFredericksburgLine": [],
+    "MARCPennLine": [],
+    "MARCCamdenLine": [],
+    "MARCBrunswickLine": [],
+    "MTAPurpleLine": [],
+    "MWAAAeroTrain": [],
+    "AOCSenateCapitolSubway": [
+      19278551,
+      19278552,
+      19278550,
+      13896286
+    ]
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.900979,
+          18.546659
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Mamá Tingó",
+        "line": "SDQ1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.904463,
+          18.539966
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Gregorio Urbano Gilbert",
+        "line": "SDQ1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.908453,
+          18.529519
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Gregorio Luperón",
+        "line": "SDQ1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.916249,
+          18.525351
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "José Francisco Peña Gómez",
+        "line": "SDQ1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.915005,
+          18.517915
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hermanas Mirabal",
+        "line": "SDQ1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.915823,
+          18.507571
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Máximo Gómez",
+        "line": "SDQ1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.915505,
+          18.499982
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Los Taínos",
+        "line": "SDQ1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.915104,
+          18.493858
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Pedro Livio Cedeño",
+        "line": "SDQ1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.914489,
+          18.485796
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Manuel Arturo Peña Batlle",
+        "line": "SDQ1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.914426,
+          18.481621
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Juan Pablo Duarte",
+        "line": "SDQ1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.913857,
+          18.476668
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Profesor Juan Bosch",
+        "line": "SDQ1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.912154,
+          18.471209
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Casandra Damirón",
+        "line": "SDQ1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.909976,
+          18.46456
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Joaquín Balaguer",
+        "line": "SDQ1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.916314,
+          18.459159
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Amín Abel Hasbún",
+        "line": "SDQ1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.924055,
+          18.455582
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Francisco Alberto Caamaño Deñó",
+        "line": "SDQ1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.927498,
+          18.450832
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Centro de los Héroes",
+        "line": "SDQ1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.010352,
+          18.519653
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Pablo Adón Guzmán",
+        "line": "SDQ2",
+        "order": 0
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.008233,
+          18.510482
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Freddy Gatón Arce",
+        "line": "SDQ2",
+        "order": 1
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.999373,
+          18.502649
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "27 de Febrero",
+        "line": "SDQ2",
+        "order": 2
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.991062,
+          18.496463
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Franklin Mieses Burgos",
+        "line": "SDQ2",
+        "order": 3
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.978145,
+          18.485788
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Pedro Martínez",
+        "line": "SDQ2",
+        "order": 4
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.968194,
+          18.478737
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "María Montez",
+        "line": "SDQ2",
+        "order": 5
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.962018,
+          18.479869
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Pedro Francisco Bonó",
+        "line": "SDQ2",
+        "order": 6
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.954479,
+          18.481467
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Francisco Gregorio Billini",
+        "line": "SDQ2",
+        "order": 7
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.946569,
+          18.482046
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Ulises Francisco Espaillat",
+        "line": "SDQ2",
+        "order": 8
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.940786,
+          18.483769
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Pedro Mir",
+        "line": "SDQ2",
+        "order": 9
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.930826,
+          18.482529
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Freddy Beras Goico",
+        "line": "SDQ2",
+        "order": 10
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.920469,
+          18.481976
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Juan Ulises García Saleta",
+        "line": "SDQ2",
+        "order": 11
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.914377,
+          18.481536
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Juan Pablo Duarte",
+        "line": "SDQ2",
+        "order": 12
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.906847,
+          18.481852
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Coronel Rafael Tomás Fernández Domínguez",
+        "line": "SDQ2",
+        "order": 13
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.904575,
+          18.487615
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Mauricio Báez",
+        "line": "SDQ2",
+        "order": 14
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.899212,
+          18.492903
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Ramón Cáceres",
+        "line": "SDQ2",
+        "order": 15
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.896161,
+          18.495716
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Horacio Vásquez",
+        "line": "SDQ2",
+        "order": 16
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.889916,
+          18.499789
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Manuel de Jesús Galván",
+        "line": "SDQ2",
+        "order": 17
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.883934,
+          18.504354
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Eduardo Brito",
+        "line": "SDQ2",
+        "order": 18
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.876086,
+          18.509905
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Ercilia Pepín",
+        "line": "SDQ2",
+        "order": 19
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.86954,
+          18.51011
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Rosa Duarte",
+        "line": "SDQ2",
+        "order": 20
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.863001,
+          18.509916
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Trina de Moya de Vásquez",
+        "line": "SDQ2",
+        "order": 21
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.857748,
+          18.505239
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Concepción Bona",
+        "line": "SDQ2",
+        "order": 22
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.883383,
+          18.504995
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Gualey",
+        "line": "SDQT1",
+        "order": 0
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.881961,
+          18.51761
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Tres Brazos",
+        "line": "SDQT1",
+        "order": 1
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.866464,
+          18.53023
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Sabana Perdida",
+        "line": "SDQT1",
+        "order": 2
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.860028,
+          18.543388
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Charles de Gaulle",
+        "line": "SDQT1",
+        "order": 3
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.010807,
+          18.519718
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Los Alcarrizos",
+        "line": "SDQT2",
+        "order": 0
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.021265,
+          18.521478
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Las Toronjas",
+        "line": "SDQT2",
+        "order": 1
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.033079,
+          18.523323
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Puente Blanco",
+        "line": "SDQT2",
+        "order": 2
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.049809,
+          18.521419
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Los Americanos",
+        "line": "SDQT2",
+        "order": 3
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.96814,
+          18.478193
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Kilómetro 9",
+        "line": "SDQT3",
+        "order": 0,
+        "alternate_names": [
+          "Kilómetro 9 Autopista Duarte",
+          "Km 9"
+        ]
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.980235,
+          18.469429
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Buenos Aires de Herrera",
+        "line": "SDQT3",
+        "order": 1
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.979637,
+          18.452874
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "27 de Febrero",
+        "line": "SDQT3",
+        "order": 2,
+        "alternate_names": [
+          "Pintura",
+          "La Pintura",
+          "27 de Febrero (Pintura)"
+        ]
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.988629,
+          18.444843
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Ensanche Altagracia",
+        "line": "SDQT3",
+        "order": 3
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.998805,
+          18.438541
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Café de Herrera",
+        "line": "SDQT3",
+        "order": 4
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.003299,
+          18.431462
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Carretera Sánchez",
+        "line": "SDQT3",
+        "order": 5
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.007129,
+          18.4261
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Kilómetro 12 de Haina",
+        "line": "SDQT3",
+        "order": 6,
+        "alternate_names": [
+          "Kilómetro 12",
+          "Km 12"
+        ]
+      },
+      "id": 53
+    }
+  ]
+}

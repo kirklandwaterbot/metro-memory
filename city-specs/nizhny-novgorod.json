@@ -1,0 +1,76 @@
+{
+  "slug": "nizhny-novgorod",
+  "path": "europe/russia/nizhny-novgorod",
+  "gameTitle": "Nizhny Novgorod Metro Memory",
+  "description": "How many Nizhny Novgorod Metro stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    56.2,
+    43.75,
+    56.36,
+    44.1
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Nizhny Novgorod Metro",
+      "lines": [
+        "NN1",
+        "NN2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "NN1",
+      "name": "Avtozavodskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E50B00",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "NN1.svg"
+    },
+    {
+      "id": "NN2",
+      "name": "Sormovsko-Meshcherskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#006ABC",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "NN2.svg"
+    }
+  ],
+  "register": {
+    "name": "Nizhny Novgorod (Нижний Новгород), RU",
+    "continent": "Europe",
+    "coordinates": [
+      44.002,
+      56.3269
+    ],
+    "achievement": {
+      "title": "Volga Confluence",
+      "description": "You've named every Nizhny Novgorod Metro station."
+    },
+    "zh": "下诺夫哥罗德, RU"
+  },
+  "display": "translit"
+}

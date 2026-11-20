@@ -1,0 +1,63 @@
+{
+  "slug": "samara",
+  "path": "europe/russia/samara",
+  "gameTitle": "Samara Metro Memory",
+  "description": "How many Samara Metro stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    53.15,
+    50.05,
+    53.28,
+    50.31
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Samara Metro",
+      "lines": [
+        "SAM1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SAM1",
+      "name": "Line 1",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E42313",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "SAM1.svg"
+    }
+  ],
+  "register": {
+    "name": "Samara (Самара), RU",
+    "continent": "Europe",
+    "coordinates": [
+      50.1002,
+      53.1959
+    ],
+    "achievement": {
+      "title": "Samara Underground",
+      "description": "You've named every Samara Metro station."
+    },
+    "zh": "萨马拉, RU"
+  },
+  "display": "translit"
+}

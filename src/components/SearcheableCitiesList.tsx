@@ -41,7 +41,7 @@ import { ICity, cities, isCityDisabled as isCityDisabledFlag } from '@/lib/citie
 import { readLastPlayedCities, type LastPlayedCityEntry } from '@/lib/lastPlayedCities'
 import { CITY_COORDINATES } from '@/lib/cityCoordinates'
 import { formatDisplayCountryLabel } from '@/lib/countryNameDisplay'
-import { getFlagEmojiFromCountryCode } from '@/lib/countryFlags'
+import { getCountryCodeFromSlug, getFlagEmojiFromCountryCode } from '@/lib/countryFlags'
 import { GLOBAL_ACHIEVEMENTS } from '@/lib/globalAchievements'
 import { resolveI18nLocaleCode } from '@/lib/i18n'
 import {
@@ -538,7 +538,7 @@ const getCountryFlagEmoji = (slug: string | null) => {
     return FALLBACK_COUNTRY_FLAG
   }
 
-  const countryCode = COUNTRY_FLAG_ISO_CODES[slug]
+  const countryCode = COUNTRY_FLAG_ISO_CODES[slug] ?? getCountryCodeFromSlug(slug)
   return countryCode ? getFlagEmojiFromCountryCode(countryCode) : FALLBACK_COUNTRY_FLAG
 }
 
@@ -4576,6 +4576,11 @@ const Achievements = ({
                           sectionId={countrySectionId}
                           title={
                             <span style={{ color: countryHeaderColor }}>
+                              {group.continent !== 'Global' && country.country && (
+                                <span aria-hidden="true" className="mr-1.5">
+                                  {getCountryFlagEmoji(country.country)}
+                                </span>
+                              )}
                               {countryLabel}{' \u00b7 '}{countryCountLabel}{' '}
                               <span
                                 className="text-sm font-semibold"

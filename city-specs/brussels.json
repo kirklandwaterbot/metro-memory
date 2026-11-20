@@ -1,0 +1,86 @@
+{
+  "slug": "brussels",
+  "path": "europe/belgium/brussels",
+  "gameTitle": "Brussels Metro Memory",
+  "description": "How many Brussels Metro stations can you name from memory?",
+  "locale": "fr_BE",
+  "bbox": [
+    50.72,
+    4.152,
+    50.972,
+    4.552
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Brussels Metro",
+      "lines": [
+        "BRUS1",
+        "BRUS2",
+        "BRUS5",
+        "BRUS6"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BRUS1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(58240|7006075|7756456)$"
+      },
+      "color": "#B5378C",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "BRUS1.svg"
+    },
+    {
+      "id": "BRUS2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(58242|7305691|7756427|7756453)$"
+      },
+      "color": "#ED6C23",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "BRUS2.svg"
+    },
+    {
+      "id": "BRUS5",
+      "name": "Line 5",
+      "match": {
+        "@id": "^(58241|6996916|7756476)$"
+      },
+      "color": "#F6A90B",
+      "textColor": "#222222",
+      "badge": "5",
+      "icon": "BRUS5.svg"
+    },
+    {
+      "id": "BRUS6",
+      "name": "Line 6",
+      "match": {
+        "@id": "^(108101|7927168|7927908)$"
+      },
+      "color": "#0066A3",
+      "textColor": "#FFFFFF",
+      "badge": "6",
+      "icon": "BRUS6.svg"
+    }
+  ],
+  "register": {
+    "name": "Brussels, BE",
+    "continent": "Europe",
+    "coordinates": [
+      4.352,
+      50.846
+    ],
+    "zh": "布鲁塞尔, BE",
+    "achievement": {
+      "title": "Brussels Metro Master",
+      "description": "You've named every Brussels Metro station."
+    }
+  }
+}

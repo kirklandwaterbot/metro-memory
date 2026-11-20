@@ -1,0 +1,872 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.885405,
+          -8.06915
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Recife",
+        "line": "REC1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.895408,
+          -8.073165
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Joana Bezerra",
+        "line": "REC1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.906295,
+          -8.077284
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Afogados",
+        "line": "REC1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.913335,
+          -8.077719
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Ipiranga",
+        "line": "REC1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.921185,
+          -8.079318
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Mangueira",
+        "line": "REC1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.930141,
+          -8.084138
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Santa Luzia",
+        "line": "REC1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.936252,
+          -8.085966
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Werneck",
+        "line": "REC1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.945812,
+          -8.088858
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Barro",
+        "line": "REC1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.956648,
+          -8.09033
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Tejipió",
+        "line": "REC1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.964728,
+          -8.091474
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Coqueiral",
+        "line": "REC1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.974976,
+          -8.084792
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Alto do Céu",
+        "line": "REC1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.978817,
+          -8.075973
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Curado",
+        "line": "REC1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.980987,
+          -8.064159
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Rodoviária",
+        "line": "REC1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.988569,
+          -8.036434
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Cosme e Damião",
+        "line": "REC1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.995367,
+          -8.024654
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Camaragibe",
+        "line": "REC1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.015251,
+          -8.111169
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Jaboatão",
+        "line": "REC2",
+        "order": 0
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.005165,
+          -8.107996
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Engenho Velho",
+        "line": "REC2",
+        "order": 1
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.993058,
+          -8.106962
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Floriano",
+        "line": "REC2",
+        "order": 2
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.972796,
+          -8.093962
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Cavaleiro",
+        "line": "REC2",
+        "order": 3
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.964705,
+          -8.091404
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Coqueiral",
+        "line": "REC2",
+        "order": 4
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.956648,
+          -8.09033
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Tejipió",
+        "line": "REC2",
+        "order": 5
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.945812,
+          -8.088858
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Barro",
+        "line": "REC2",
+        "order": 6
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.936252,
+          -8.085966
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Werneck",
+        "line": "REC2",
+        "order": 7
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.930141,
+          -8.084138
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Santa Luzia",
+        "line": "REC2",
+        "order": 8
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.921185,
+          -8.079318
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Mangueira",
+        "line": "REC2",
+        "order": 9
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.913335,
+          -8.077719
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Ipiranga",
+        "line": "REC2",
+        "order": 10
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.906295,
+          -8.077284
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Afogados",
+        "line": "REC2",
+        "order": 11
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.895408,
+          -8.073165
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Joana Bezerra",
+        "line": "REC2",
+        "order": 12
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.885405,
+          -8.06915
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Recife",
+        "line": "REC2",
+        "order": 13
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.885328,
+          -8.069199
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Recife",
+        "line": "RECS",
+        "order": 0
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.89538,
+          -8.073262
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Joana Bezerra",
+        "line": "RECS",
+        "order": 1
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.904879,
+          -8.08154
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Largo da Paz",
+        "line": "RECS",
+        "order": 2
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.907465,
+          -8.090216
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Imbiribeira",
+        "line": "RECS",
+        "order": 3
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.909042,
+          -8.109902
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Antônio Falcão",
+        "line": "RECS",
+        "order": 4
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.910518,
+          -8.116209
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Shopping",
+        "line": "RECS",
+        "order": 5
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.911879,
+          -8.122342
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Tancredo Neves",
+        "line": "RECS",
+        "order": 6
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.914708,
+          -8.134164
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Aeroporto",
+        "line": "RECS",
+        "order": 7
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.917633,
+          -8.147059
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Porta Larga",
+        "line": "RECS",
+        "order": 8
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.920206,
+          -8.154448
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Monte dos Guararapes",
+        "line": "RECS",
+        "order": 9
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.926737,
+          -8.161136
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Prazeres",
+        "line": "RECS",
+        "order": 10
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.934058,
+          -8.168415
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Cajueiro Seco",
+        "line": "RECS",
+        "order": 11
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.933992,
+          -8.168507
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Cajueiro Seco",
+        "line": "RECVC",
+        "order": 0
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.956549,
+          -8.19472
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Ângelo de Souza",
+        "line": "RECVC",
+        "order": 1
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.965351,
+          -8.221774
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Pontezinha",
+        "line": "RECVC",
+        "order": 2
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.977277,
+          -8.245423
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Ponte dos Carvalhos",
+        "line": "RECVC",
+        "order": 3
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.023945,
+          -8.279789
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Santo Inácio",
+        "line": "RECVC",
+        "order": 4
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.03656,
+          -8.286574
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Cabo",
+        "line": "RECVC",
+        "order": 5
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.979372,
+          -8.075213
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Curado",
+        "line": "RECVK",
+        "order": 0
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.983389,
+          -8.10611
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Jorge Lins",
+        "line": "RECVK",
+        "order": 1
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.968066,
+          -8.138383
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Marcos Freire",
+        "line": "RECVK",
+        "order": 2
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.933992,
+          -8.168507
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Cajueiro Seco",
+        "line": "RECVK",
+        "order": 3
+      },
+      "id": 50
+    }
+  ]
+}

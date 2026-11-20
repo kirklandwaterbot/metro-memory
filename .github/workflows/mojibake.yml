@@ -1,0 +1,21 @@
+name: Text checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check for mojibake and non-UTF-8 text files
+        run: node scripts/check-mojibake.js
+      - name: Install dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Check translations in every supported language
+        run: node scripts/i18n-check.js

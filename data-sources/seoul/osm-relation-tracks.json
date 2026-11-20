@@ -1,0 +1,145 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "none",
+  "lines": {
+    "SeoulSubway1Hoseon": [
+      12773146,
+      15833199,
+      10776791,
+      11073606,
+      15044498,
+      15044499,
+      15044580,
+      16850863,
+      16851102
+    ],
+    "SeoulSubway2Hoseon": [
+      4729409,
+      4729406,
+      4729407,
+      2404374,
+      4729405,
+      10722439,
+      4729408
+    ],
+    "SeoulSubway3Hoseon": [
+      4729445,
+      443803
+    ],
+    "SeoulSubway4Hoseon": [
+      2718884,
+      13675921,
+      4744311,
+      10727606,
+      10727607,
+      10727608,
+      10947038,
+      10727605,
+      10746635,
+      13675922,
+      13938877,
+      13938878
+    ],
+    "SeoulSubway5Hoseon": [
+      12497485,
+      4744338,
+      4744339,
+      4744340,
+      12497486,
+      4744337
+    ],
+    "SeoulSubway6Hoseon": [
+      12080315,
+      4727111,
+      11509732
+    ],
+    "SeoulSubway7Hoseon": [
+      12746498,
+      12746493,
+      12746494,
+      12746499
+    ],
+    "SeoulSubway8Hoseon": [
+      17953733,
+      2718901,
+      7919018,
+      17953734
+    ],
+    "SeoulSubway9Hoseon": [
+      7883314,
+      2718888,
+      4784126,
+      9079536
+    ],
+    "SeoulMTRGyeonggangseon": [
+      6462562,
+      6462563
+    ],
+    "SeoulMTRGyeongyijungangseon": [
+      5993211,
+      12623856,
+      8667955,
+      5993212,
+      8667956
+    ],
+    "SeoulMTRGyeongcunseon": [
+      8656358,
+      8656359,
+      8656357,
+      8656362,
+      8656363,
+      8656364
+    ],
+    "SeoulAirportRailroadGonghangceoldo": [
+      9961459,
+      9961460
+    ],
+    "SeoulMTRSuinbundangseon": [
+      11634611,
+      11625555,
+      11625556,
+      11627303,
+      11634612
+    ],
+    "SeoulMTRSinbundangseon": [
+      12814871,
+      6060963
+    ],
+    "SeoulIncheonMetroInceon1Hoseon": [
+      19425645,
+      19425646
+    ],
+    "CM_SeoulIncheonMetro2_inceon2hoseon": [
+      7527497,
+      7527496
+    ],
+    "CM_SeoulLightRailTransit_gimpogoldeurain": [
+      10092720,
+      10092719
+    ],
+    "SeoulLightRailTransitSeohaeseon": [
+      8725314,
+      8725315,
+      16244687,
+      16244688
+    ],
+    "SeoulLightRailTransitSinrimseon": [
+      14191876,
+      14191877
+    ],
+    "SeoulLightRailTransitEverline": [
+      6064093,
+      3573517
+    ],
+    "SeoulLightRailTransitUisinseolgyeongjeonceol": [
+      7533582,
+      7533583
+    ],
+    "SeoulLightRailTransitUijeongbu": [
+      7530880,
+      7530881
+    ]
+  },
+  "connectStations": true
+}

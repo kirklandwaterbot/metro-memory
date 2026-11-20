@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.282584,
+          53.212474
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Yungorodok",
+        "alternate_names": [
+          "Юнгородок"
+        ],
+        "line": "SAM1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.269532,
+          53.211291
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Kirovskaya",
+        "alternate_names": [
+          "Кировская"
+        ],
+        "line": "SAM1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.248438,
+          53.212837
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Bezymyanka",
+        "alternate_names": [
+          "Безымянка"
+        ],
+        "line": "SAM1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.23577,
+          53.206983
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Pobeda",
+        "alternate_names": [
+          "Победа"
+        ],
+        "line": "SAM1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.220441,
+          53.201554
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sovetskaya",
+        "alternate_names": [
+          "Советская"
+        ],
+        "line": "SAM1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.199578,
+          53.200956
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Sportivnaya",
+        "alternate_names": [
+          "Спортивная"
+        ],
+        "line": "SAM1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.176512,
+          53.200274
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Gagarinskaya",
+        "alternate_names": [
+          "Гагаринская"
+        ],
+        "line": "SAM1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.160496,
+          53.202809
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Moskovskaya",
+        "alternate_names": [
+          "Московская"
+        ],
+        "line": "SAM1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.148987,
+          53.211918
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Rossiyskaya",
+        "alternate_names": [
+          "Российская"
+        ],
+        "line": "SAM1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.134186,
+          53.209582
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Alabinskaya",
+        "alternate_names": [
+          "Алабинская"
+        ],
+        "line": "SAM1",
+        "order": 9
+      },
+      "id": 9
+    }
+  ]
+}

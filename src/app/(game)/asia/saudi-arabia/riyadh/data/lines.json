@@ -1,0 +1,50 @@
+{
+  "RIYA1": {
+    "name": "Blue Line",
+    "color": "#00AEE6",
+    "backgroundColor": "#00AEE6",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "RIYA1.svg"
+  },
+  "RIYA2": {
+    "name": "Red Line",
+    "color": "#EF3434",
+    "backgroundColor": "#EF3434",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "RIYA2.svg"
+  },
+  "RIYA3": {
+    "name": "Orange Line",
+    "color": "#ED872D",
+    "backgroundColor": "#ED872D",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "RIYA3.svg"
+  },
+  "RIYA4": {
+    "name": "Yellow Line",
+    "color": "#FFD009",
+    "backgroundColor": "#FFD009",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "RIYA4.svg"
+  },
+  "RIYA5": {
+    "name": "Green Line",
+    "color": "#008000",
+    "backgroundColor": "#008000",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "RIYA5.svg"
+  },
+  "RIYA6": {
+    "name": "Purple Line",
+    "color": "#7F00FF",
+    "backgroundColor": "#7F00FF",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "RIYA6.svg"
+  }
+}

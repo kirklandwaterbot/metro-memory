@@ -1,0 +1,44 @@
+{
+  "CCS1": {
+    "name": "Línea 1",
+    "color": "#FF7400",
+    "backgroundColor": "#FF7400",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "CCS2": {
+    "name": "Línea 2",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "CCS3": {
+    "name": "Línea 3",
+    "color": "#0887FF",
+    "backgroundColor": "#0887FF",
+    "textColor": "#FFFFFF",
+    "order": 2
+  },
+  "CCS4": {
+    "name": "Línea 4",
+    "color": "#FFD200",
+    "backgroundColor": "#FFD200",
+    "textColor": "#000000",
+    "order": 3
+  },
+  "CCSCT": {
+    "name": "Cabletrén Bolivariano",
+    "color": "#008F75",
+    "backgroundColor": "#008F75",
+    "textColor": "#FFFFFF",
+    "order": 4
+  },
+  "LTQ1": {
+    "name": "Los Teques Línea 1",
+    "color": "#1E4FA1",
+    "backgroundColor": "#1E4FA1",
+    "textColor": "#FFFFFF",
+    "order": 5
+  }
+}

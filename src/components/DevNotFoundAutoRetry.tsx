@@ -2,8 +2,12 @@
 
 import { useEffect } from 'react'
 
-const RETRY_WINDOW_MS = 10000
-const MAX_RETRIES = 2
+// In dev, a page can 404 for a few seconds while Next compiles it or after
+// files change. Keep reloading, backing off, until it shows up (or give up
+// after about a minute, so a real 404 doesn't reload forever).
+const RETRY_WINDOW_MS = 60000
+const RETRY_DELAYS_MS = [250, 750, 1500, 2500, 4000, 6000, 8000, 10000, 12000]
+const MAX_RETRIES = RETRY_DELAYS_MS.length
 const RETRY_STATE_PREFIX = 'metro-memory:dev-not-found-retry:'
 const TOAST_STORAGE_KEY = 'metro-memory:dev-site-refresh-toast'
 
@@ -59,7 +63,7 @@ export default function DevNotFoundAutoRetry() {
       )
       writeToastPayload()
       window.location.reload()
-    }, 10)
+    }, RETRY_DELAYS_MS[retries])
 
     return () => window.clearTimeout(timeout)
   }, [])

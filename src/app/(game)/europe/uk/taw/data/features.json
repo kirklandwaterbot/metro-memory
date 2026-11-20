@@ -3,444 +3,1168 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.7111468104386827, 55.03575654563876] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.711199,
+          55.035752
+        ]
+      },
       "properties": {
         "name": "Airport",
         "line": "Green",
         "id": 0,
-        "alternate_names": ["Newcastle Airport", "NCL", "Newcastle International Airport"]
+        "alternate_names": [
+          "Newcastle Airport",
+          "NCL",
+          "Newcastle International Airport"
+        ]
       },
       "id": 0
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.703527916933845, 55.02784205150513] },
-      "properties": { "name": "Callerton Parkway", "line": "Green", "id": 1 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.703527916933845,
+          55.02784205150513
+        ]
+      },
+      "properties": {
+        "name": "Callerton Parkway",
+        "line": "Green",
+        "id": 1
+      },
       "id": 1
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.678190881626356, 55.01401996386687] },
-      "properties": { "name": "Bank Foot", "line": "Green", "id": 2 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.678229,
+          55.01393
+        ]
+      },
+      "properties": {
+        "name": "Bank Foot",
+        "line": "Green",
+        "id": 2
+      },
       "id": 2
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6651776252332575, 55.014495236336224] },
-      "properties": { "name": "Kingston Park", "line": "Green", "id": 3 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.665175,
+          55.014474
+        ]
+      },
+      "properties": {
+        "name": "Kingston Park",
+        "line": "Green",
+        "id": 3
+      },
       "id": 3
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6448513436231373, 55.013580916405154] },
-      "properties": { "name": "Fawdon", "line": "Green", "id": 4 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.644839,
+          55.013547
+        ]
+      },
+      "properties": {
+        "name": "Fawdon",
+        "line": "Green",
+        "id": 4
+      },
       "id": 4
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6348897597622887, 55.014289136130536] },
-      "properties": { "name": "Wansbeck Road", "line": "Green", "id": 5 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.63491,
+          55.014211
+        ]
+      },
+      "properties": {
+        "name": "Wansbeck Road",
+        "line": "Green",
+        "id": 5
+      },
       "id": 5
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.621609510787912, 55.01201646060871] },
-      "properties": { "name": "Regent Centre", "line": "Green", "id": 6 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621627,
+          55.011968
+        ]
+      },
+      "properties": {
+        "name": "Regent Centre",
+        "line": "Green",
+        "id": 6
+      },
       "id": 6
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6081668370198388, 55.00617180536719] },
-      "properties": { "name": "South Gosforth", "line": "Green", "id": 7 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6081668370198388,
+          55.00617180536719
+        ]
+      },
+      "properties": {
+        "name": "South Gosforth",
+        "line": "Green",
+        "id": 7
+      },
       "id": 7
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6109511254677578, 55.000222260376916] },
-      "properties": { "name": "Ilford Road", "line": "Green", "id": 8 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.610814,
+          55.000202
+        ]
+      },
+      "properties": {
+        "name": "Ilford Road",
+        "line": "Green",
+        "id": 8
+      },
       "id": 8
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.609991241503654, 54.99361619409009] },
-      "properties": { "name": "West Jesmond", "line": "Green", "id": 9 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.609991241503654,
+          54.99361619409009
+        ]
+      },
+      "properties": {
+        "name": "West Jesmond",
+        "line": "Green",
+        "id": 9
+      },
       "id": 9
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6057506997083906, 54.98290809260421] },
-      "properties": { "name": "Jesmond", "line": "Green", "id": 10 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.605688,
+          54.982898
+        ]
+      },
+      "properties": {
+        "name": "Jesmond",
+        "line": "Green",
+        "id": 10
+      },
       "id": 10
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.613924478997261, 54.97752147285365] },
-      "properties": { "name": "Haymarket", "line": "Green", "id": 11 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.613799,
+          54.977499
+        ]
+      },
+      "properties": {
+        "name": "Haymarket",
+        "line": "Green",
+        "id": 11
+      },
       "id": 11
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6134323367406638, 54.97399806857028] },
-      "properties": { "name": "Monument", "line": "Green", "id": 12 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6134323367406638,
+          54.97399806857028
+        ]
+      },
+      "properties": {
+        "name": "Monument",
+        "line": "Green",
+        "id": 12
+      },
       "id": 12
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.616701, 54.969245] },
-      "properties": { "name": "Central", "line": "Green", "id": 13, "alternate_names": ["Newcastle"] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.616701,
+          54.969245
+        ]
+      },
+      "properties": {
+        "name": "Central",
+        "line": "Green",
+        "id": 13,
+        "alternate_names": [
+          "Newcastle"
+        ]
+      },
       "id": 13
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.604611, 54.961636] },
-      "properties": { "name": "Gateshead", "line": "Green", "id": 14 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.604611,
+          54.961636
+        ]
+      },
+      "properties": {
+        "name": "Gateshead",
+        "line": "Green",
+        "id": 14
+      },
       "id": 14
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5884325531384842, 54.95780719776693] },
-      "properties": { "name": "Gateshead Stadium", "line": "Green", "id": 15 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.588376,
+          54.95785
+        ]
+      },
+      "properties": {
+        "name": "Gateshead Stadium",
+        "line": "Green",
+        "id": 15
+      },
       "id": 15
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5717855676502837, 54.95318568186925] },
-      "properties": { "name": "Felling", "line": "Green", "id": 16 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.571771,
+          54.953206
+        ]
+      },
+      "properties": {
+        "name": "Felling",
+        "line": "Green",
+        "id": 16
+      },
       "id": 16
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5556459507430167, 54.951600952892726] },
-      "properties": { "name": "Heworth", "line": "Green", "id": 17 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.555641,
+          54.951585
+        ]
+      },
+      "properties": {
+        "name": "Heworth",
+        "line": "Green",
+        "id": 17
+      },
       "id": 17
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.541951713931369, 54.95268827842985] },
-      "properties": { "name": "Pelaw", "line": "Green", "id": 18 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.541942,
+          54.95261
+        ]
+      },
+      "properties": {
+        "name": "Pelaw",
+        "line": "Green",
+        "id": 18
+      },
       "id": 18
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4855928750017988, 54.957510305478664] },
-      "properties": { "name": "Fellgate", "line": "Green", "id": 19 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.485581,
+          54.957462
+        ]
+      },
+      "properties": {
+        "name": "Fellgate",
+        "line": "Green",
+        "id": 19
+      },
       "id": 19
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4608642495862587, 54.959561315718396] },
-      "properties": { "name": "Brockley Whins", "line": "Green", "id": 20 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.460854,
+          54.959516
+        ]
+      },
+      "properties": {
+        "name": "Brockley Whins",
+        "line": "Green",
+        "id": 20
+      },
       "id": 20
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4203050214495883, 54.94644528448654] },
-      "properties": { "name": "East Boldon", "line": "Green", "id": 21 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.42035,
+          54.946409
+        ]
+      },
+      "properties": {
+        "name": "East Boldon",
+        "line": "Green",
+        "id": 21
+      },
       "id": 21
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.3864385489534907, 54.929481997013575] },
-      "properties": { "name": "Seaburn", "line": "Green", "id": 22 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3864385489534907,
+          54.929481997013575
+        ]
+      },
+      "properties": {
+        "name": "Seaburn",
+        "line": "Green",
+        "id": 22
+      },
       "id": 22
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.3828921585612453, 54.91821403669682] },
-      "properties": { "name": "Stadium of Light", "line": "Green", "id": 23 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3828921585612453,
+          54.91821403669682
+        ]
+      },
+      "properties": {
+        "name": "Stadium of Light",
+        "line": "Green",
+        "id": 23
+      },
       "id": 23
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.3837016925520913, 54.91111928309467] },
-      "properties": { "name": "St Peter's", "line": "Green", "id": 24 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.383796,
+          54.911114
+        ]
+      },
+      "properties": {
+        "name": "St Peter's",
+        "line": "Green",
+        "id": 24
+      },
       "id": 24
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.3827341062918699, 54.90659501380862] },
-      "properties": { "name": "Sunderland", "line": "Green", "id": 25 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.382664,
+          54.906601
+        ]
+      },
+      "properties": {
+        "name": "Sunderland",
+        "line": "Green",
+        "id": 25
+      },
       "id": 25
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.3843620161181958, 54.902349441123725] },
-      "properties": { "name": "Park Lane", "line": "Green", "id": 26 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3843620161181958,
+          54.902349441123725
+        ]
+      },
+      "properties": {
+        "name": "Park Lane",
+        "line": "Green",
+        "id": 26
+      },
       "id": 26
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.3922477943927765, 54.90282878162587] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.392259,
+          54.902796
+        ]
+      },
       "properties": {
         "name": "University",
         "line": "Green",
         "id": 27,
-        "alternate_names": ["University of Sunderland"]
+        "alternate_names": [
+          "University of Sunderland"
+        ]
       },
       "id": 27
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.401012819531365, 54.90654626605308] },
-      "properties": { "name": "Millfield", "line": "Green", "id": 28 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.401098,
+          54.906506
+        ]
+      },
+      "properties": {
+        "name": "Millfield",
+        "line": "Green",
+        "id": 28
+      },
       "id": 28
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4177663429653868, 54.91279791287571] },
-      "properties": { "name": "Pallion", "line": "Green", "id": 29 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.417755,
+          54.912734
+        ]
+      },
+      "properties": {
+        "name": "Pallion",
+        "line": "Green",
+        "id": 29
+      },
       "id": 29
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4479880382594585, 54.90423602631376] },
-      "properties": { "name": "South Hylton", "line": "Green", "id": 30 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.447871,
+          54.904166
+        ]
+      },
+      "properties": {
+        "name": "South Hylton",
+        "line": "Green",
+        "id": 30
+      },
       "id": 30
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4329951127975311, 54.99750629618678] },
-      "properties": { "name": "South Shields", "line": "Orange", "id": 31 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.43306,
+          54.997421
+        ]
+      },
+      "properties": {
+        "name": "South Shields",
+        "line": "Orange",
+        "id": 31
+      },
       "id": 31
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4320527807646837, 54.98653016443942] },
-      "properties": { "name": "Chichester", "line": "Orange", "id": 32 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.432013,
+          54.98653
+        ]
+      },
+      "properties": {
+        "name": "Chichester",
+        "line": "Orange",
+        "id": 32
+      },
       "id": 32
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4416151042040255, 54.976146472651926] },
-      "properties": { "name": "Tyne Dock", "line": "Orange", "id": 33 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.441586,
+          54.976136
+        ]
+      },
+      "properties": {
+        "name": "Tyne Dock",
+        "line": "Orange",
+        "id": 33
+      },
       "id": 33
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4554449676273336, 54.97170399590893] },
-      "properties": { "name": "Simonside", "line": "Orange", "id": 34 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4554449676273336,
+          54.97170399590893
+        ]
+      },
+      "properties": {
+        "name": "Simonside",
+        "line": "Orange",
+        "id": 34
+      },
       "id": 34
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.466150117502857, 54.97442834672535] },
-      "properties": { "name": "Bede", "line": "Orange", "id": 35 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.466169,
+          54.9744
+        ]
+      },
+      "properties": {
+        "name": "Bede",
+        "line": "Orange",
+        "id": 35
+      },
       "id": 35
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4935934850534935, 54.97962271734465] },
-      "properties": { "name": "Jarrow", "line": "Orange", "id": 36 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.493631,
+          54.979594
+        ]
+      },
+      "properties": {
+        "name": "Jarrow",
+        "line": "Orange",
+        "id": 36
+      },
       "id": 36
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.520618911211766, 54.975723495380805] },
-      "properties": { "name": "Hebburn", "line": "Orange", "id": 37 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.520593,
+          54.975709
+        ]
+      },
+      "properties": {
+        "name": "Hebburn",
+        "line": "Orange",
+        "id": 37
+      },
       "id": 37
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6081668370198388, 55.00617180536719] },
-      "properties": { "name": "South Gosforth", "line": "Orange", "id": 38 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6081668370198388,
+          55.00617180536719
+        ]
+      },
+      "properties": {
+        "name": "South Gosforth",
+        "line": "Orange",
+        "id": 38
+      },
       "id": 38
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6109511254677578, 55.000222260376916] },
-      "properties": { "name": "Ilford Road", "line": "Orange", "id": 39 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.610814,
+          55.000202
+        ]
+      },
+      "properties": {
+        "name": "Ilford Road",
+        "line": "Orange",
+        "id": 39
+      },
       "id": 39
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.609991241503654, 54.99361619409009] },
-      "properties": { "name": "West Jesmond", "line": "Orange", "id": 40 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.609991241503654,
+          54.99361619409009
+        ]
+      },
+      "properties": {
+        "name": "West Jesmond",
+        "line": "Orange",
+        "id": 40
+      },
       "id": 40
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6057506997083906, 54.98290809260421] },
-      "properties": { "name": "Jesmond", "line": "Orange", "id": 41 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.605688,
+          54.982898
+        ]
+      },
+      "properties": {
+        "name": "Jesmond",
+        "line": "Orange",
+        "id": 41
+      },
       "id": 41
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.613924478997261, 54.97752147285365] },
-      "properties": { "name": "Haymarket", "line": "Orange", "id": 42 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.613799,
+          54.977499
+        ]
+      },
+      "properties": {
+        "name": "Haymarket",
+        "line": "Orange",
+        "id": 42
+      },
       "id": 42
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.6134323367406638, 54.97399806857028] },
-      "properties": { "name": "Monument", "line": "Orange", "id": 43 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6134323367406638,
+          54.97399806857028
+        ]
+      },
+      "properties": {
+        "name": "Monument",
+        "line": "Orange",
+        "id": 43
+      },
       "id": 43
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.616701, 54.969245] },
-      "properties": { "name": "Central", "line": "Orange", "id": 44, "alternate_names": ["Newcastle"] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.616701,
+          54.969245
+        ]
+      },
+      "properties": {
+        "name": "Central",
+        "line": "Orange",
+        "id": 44,
+        "alternate_names": [
+          "Newcastle"
+        ]
+      },
       "id": 44
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.604611, 54.961636] },
-      "properties": { "name": "Gateshead", "line": "Orange", "id": 45 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.604611,
+          54.961636
+        ]
+      },
+      "properties": {
+        "name": "Gateshead",
+        "line": "Orange",
+        "id": 45
+      },
       "id": 45
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5884325531384842, 54.95780719776693] },
-      "properties": { "name": "Gateshead Stadium", "line": "Orange", "id": 46 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.588376,
+          54.95785
+        ]
+      },
+      "properties": {
+        "name": "Gateshead Stadium",
+        "line": "Orange",
+        "id": 46
+      },
       "id": 46
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5717855676502837, 54.95318568186925] },
-      "properties": { "name": "Felling", "line": "Orange", "id": 47 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.571771,
+          54.953206
+        ]
+      },
+      "properties": {
+        "name": "Felling",
+        "line": "Orange",
+        "id": 47
+      },
       "id": 47
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5556459507430167, 54.951600952892726] },
-      "properties": { "name": "Heworth", "line": "Orange", "id": 48 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.555641,
+          54.951585
+        ]
+      },
+      "properties": {
+        "name": "Heworth",
+        "line": "Orange",
+        "id": 48
+      },
       "id": 48
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.541951713931369, 54.95268827842985] },
-      "properties": { "name": "Pelaw", "line": "Orange", "id": 49 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.541942,
+          54.95261
+        ]
+      },
+      "properties": {
+        "name": "Pelaw",
+        "line": "Orange",
+        "id": 49
+      },
       "id": 49
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5914329977432853, 55.0089311840578] },
-      "properties": { "name": "Longbenton", "line": "Orange", "id": 50 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.591447,
+          55.008886
+        ]
+      },
+      "properties": {
+        "name": "Longbenton",
+        "line": "Orange",
+        "id": 50
+      },
       "id": 50
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.578656305390465, 55.01015474569504] },
-      "properties": { "name": "Four Lane Ends", "line": "Orange", "id": 51 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.578608,
+          55.010107
+        ]
+      },
+      "properties": {
+        "name": "Four Lane Ends",
+        "line": "Orange",
+        "id": 51
+      },
       "id": 51
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5678199637131183, 55.01385921935474] },
-      "properties": { "name": "Benton", "line": "Orange", "id": 52 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5678199637131183,
+          55.01385921935474
+        ]
+      },
+      "properties": {
+        "name": "Benton",
+        "line": "Orange",
+        "id": 52
+      },
       "id": 52
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5408185225754254, 55.02391490591515] },
-      "properties": { "name": "Palmersville", "line": "Orange", "id": 53 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.540785,
+          55.02389
+        ]
+      },
+      "properties": {
+        "name": "Palmersville",
+        "line": "Orange",
+        "id": 53
+      },
       "id": 53
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5197803722649408, 55.03313890452447] },
-      "properties": { "name": "Northumberland Park", "line": "Orange", "id": 54 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.519705,
+          55.033081
+        ]
+      },
+      "properties": {
+        "name": "Northumberland Park",
+        "line": "Orange",
+        "id": 54
+      },
       "id": 54
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.504826506274428, 55.03698982695693] },
-      "properties": { "name": "Shiremoor", "line": "Orange", "id": 55 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.504826506274428,
+          55.03698982695693
+        ]
+      },
+      "properties": {
+        "name": "Shiremoor",
+        "line": "Orange",
+        "id": 55
+      },
       "id": 55
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4766701465133396, 55.04034386546903] },
-      "properties": { "name": "West Monkseaton", "line": "Orange", "id": 56 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.476635,
+          55.040308
+        ]
+      },
+      "properties": {
+        "name": "West Monkseaton",
+        "line": "Orange",
+        "id": 56
+      },
       "id": 56
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4583582905325727, 55.042280157432074] },
-      "properties": { "name": "Monkseaton", "line": "Orange", "id": 57 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.458403,
+          55.042234
+        ]
+      },
+      "properties": {
+        "name": "Monkseaton",
+        "line": "Orange",
+        "id": 57
+      },
       "id": 57
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4427759397138933, 55.03982341878909] },
-      "properties": { "name": "Whitley Bay", "line": "Orange", "id": 58 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4427759397138933,
+          55.03982341878909
+        ]
+      },
+      "properties": {
+        "name": "Whitley Bay",
+        "line": "Orange",
+        "id": 58
+      },
       "id": 58
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4363592037206656, 55.03502539573696] },
-      "properties": { "name": "Cullercoats", "line": "Orange", "id": 59 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.436398,
+          55.035017
+        ]
+      },
+      "properties": {
+        "name": "Cullercoats",
+        "line": "Orange",
+        "id": 59
+      },
       "id": 59
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4289021627435694, 55.017280393119556] },
-      "properties": { "name": "Tynemouth", "line": "Orange", "id": 60 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4289021627435694,
+          55.017280393119556
+        ]
+      },
+      "properties": {
+        "name": "Tynemouth",
+        "line": "Orange",
+        "id": 60
+      },
       "id": 60
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.448833896244916, 55.00821582423881] },
-      "properties": { "name": "North Shields", "line": "Orange", "id": 61 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.448833896244916,
+          55.00821582423881
+        ]
+      },
+      "properties": {
+        "name": "North Shields",
+        "line": "Orange",
+        "id": 61
+      },
       "id": 61
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.465672355295276, 55.0015846525474] },
-      "properties": { "name": "Meadow Well", "line": "Orange", "id": 62 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.465672355295276,
+          55.0015846525474
+        ]
+      },
+      "properties": {
+        "name": "Meadow Well",
+        "line": "Orange",
+        "id": 62
+      },
       "id": 62
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4745344338703583, 54.99959591461527] },
-      "properties": { "name": "Percy Main", "line": "Orange", "id": 63 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4745344338703583,
+          54.99959591461527
+        ]
+      },
+      "properties": {
+        "name": "Percy Main",
+        "line": "Orange",
+        "id": 63
+      },
       "id": 63
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.4941728796368887, 54.99590741556366] },
-      "properties": { "name": "Howdon", "line": "Orange", "id": 64 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4941728796368887,
+          54.99590741556366
+        ]
+      },
+      "properties": {
+        "name": "Howdon",
+        "line": "Orange",
+        "id": 64
+      },
       "id": 64
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5158123733303919, 54.99230303312126] },
-      "properties": { "name": "Hadrian Road", "line": "Orange", "id": 65 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5158123733303919,
+          54.99230303312126
+        ]
+      },
+      "properties": {
+        "name": "Hadrian Road",
+        "line": "Orange",
+        "id": 65
+      },
       "id": 65
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5324202732227417, 54.98966756221883] },
-      "properties": { "name": "Wallsend", "line": "Orange", "id": 66 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5324202732227417,
+          54.98966756221883
+        ]
+      },
+      "properties": {
+        "name": "Wallsend",
+        "line": "Orange",
+        "id": 66
+      },
       "id": 66
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5592776018943704, 54.98539109696667] },
-      "properties": { "name": "Walkergate", "line": "Orange", "id": 67 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.559267,
+          54.985368
+        ]
+      },
+      "properties": {
+        "name": "Walkergate",
+        "line": "Orange",
+        "id": 67
+      },
       "id": 67
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.571848887863594, 54.98297434420918] },
-      "properties": { "name": "Chillingham Road", "line": "Orange", "id": 68 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.571848887863594,
+          54.98297434420918
+        ]
+      },
+      "properties": {
+        "name": "Chillingham Road",
+        "line": "Orange",
+        "id": 68
+      },
       "id": 68
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.580068844611533, 54.976101286296284] },
-      "properties": { "name": "Byker", "line": "Orange", "id": 69 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.580068844611533,
+          54.976101286296284
+        ]
+      },
+      "properties": {
+        "name": "Byker",
+        "line": "Orange",
+        "id": 69
+      },
       "id": 69
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.60477, 54.974004] },
-      "properties": { "name": "Manors", "line": "Orange", "id": 70 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.60477,
+          54.974004
+        ]
+      },
+      "properties": {
+        "name": "Manors",
+        "line": "Orange",
+        "id": 70
+      },
       "id": 70
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.621458, 54.974268] },
-      "properties": { "name": "St James", "line": "Orange", "id": 71 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621458,
+          54.974268
+        ]
+      },
+      "properties": {
+        "name": "St James",
+        "line": "Orange",
+        "id": 71
+      },
       "id": 71
     }
   ]

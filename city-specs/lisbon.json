@@ -1,0 +1,86 @@
+{
+  "slug": "lisbon",
+  "path": "europe/portugal/lisbon",
+  "gameTitle": "Lisbon Metro Memory",
+  "description": "How many Lisbon Metro stations can you name from memory?",
+  "locale": "pt_PT",
+  "bbox": [
+    38.614,
+    -9.312,
+    38.866,
+    -8.988
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Lisbon Metro",
+      "lines": [
+        "LISBAMARELA",
+        "LISBAZUL",
+        "LISBVERDE",
+        "LISBVERMELHA"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LISBAMARELA",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(370761|7734162)$"
+      },
+      "color": "#F4BC18",
+      "textColor": "#222222",
+      "badge": "Y",
+      "icon": "LISBAMARELA.svg"
+    },
+    {
+      "id": "LISBAZUL",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(371021|7734161)$"
+      },
+      "color": "#4E84C4",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "LISBAZUL.svg"
+    },
+    {
+      "id": "LISBVERDE",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(371080|7734160)$"
+      },
+      "color": "#00AAA6",
+      "textColor": "#FFFFFF",
+      "badge": "G",
+      "icon": "LISBVERDE.svg"
+    },
+    {
+      "id": "LISBVERMELHA",
+      "name": "Red Line",
+      "match": {
+        "@id": "^(371084|7734159)$"
+      },
+      "color": "#DF096F",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "LISBVERMELHA.svg"
+    }
+  ],
+  "register": {
+    "name": "Lisbon, PT",
+    "continent": "Europe",
+    "coordinates": [
+      -9.15,
+      38.74
+    ],
+    "zh": "里斯本, PT",
+    "achievement": {
+      "title": "Lisbon Metro Master",
+      "description": "You've named every Lisbon Metro station."
+    }
+  }
+}

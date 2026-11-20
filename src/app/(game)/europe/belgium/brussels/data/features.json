@@ -1,0 +1,1626 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.321067,
+          50.848643
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Gare de l'Ouest - Weststation",
+        "line": "BRUS1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.318033,
+          50.843838
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Jacques Brel",
+        "line": "BRUS1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.322972,
+          50.853444
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Beekkant",
+        "line": "BRUS1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.332196,
+          50.857058
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Étangs Noirs - Zwarte Vijvers",
+        "line": "BRUS1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.340564,
+          50.854711
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Comte de Flandre - Graaf van Vlaanderen",
+        "line": "BRUS1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.347843,
+          50.85214
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Sainte-Catherine - Sint-Katelijne",
+        "line": "BRUS1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35238,
+          50.849923
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "De Brouckère",
+        "line": "BRUS1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.358783,
+          50.846496
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Gare Centrale - Centraal",
+        "alternate_names": [
+          "Central"
+        ],
+        "line": "BRUS1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.362255,
+          50.845607
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Parc - Park",
+        "line": "BRUS1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.368794,
+          50.845504
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Arts-Loi - Kunst-Wet",
+        "line": "BRUS1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.376969,
+          50.843834
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Maelbeek - Maalbeek",
+        "line": "BRUS1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.382225,
+          50.842799
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Schuman",
+        "line": "BRUS1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.398454,
+          50.839317
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Merode",
+        "line": "BRUS1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.407569,
+          50.837836
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Montgomery",
+        "line": "BRUS1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.413697,
+          50.840273
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Joséphine-Charlotte",
+        "line": "BRUS1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.418476,
+          50.842487
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Gribaumont",
+        "line": "BRUS1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.425775,
+          50.844337
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Tomberg",
+        "line": "BRUS1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.435967,
+          50.847554
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Roodebeek",
+        "line": "BRUS1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.44747,
+          50.847484
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Vandervelde",
+        "line": "BRUS1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.452925,
+          50.849723
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Alma",
+        "line": "BRUS1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.458546,
+          50.848912
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Crainhem - Kraainem",
+        "line": "BRUS1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.46426,
+          50.842004
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Stockel - Stokkel",
+        "line": "BRUS1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.330489,
+          50.863192
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Simonis",
+        "line": "BRUS2",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.325184,
+          50.8569
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Osseghem - Ossegem",
+        "line": "BRUS2",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.323411,
+          50.853283
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Beekkant",
+        "line": "BRUS2",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.321067,
+          50.848643
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Gare de l'Ouest - Weststation",
+        "line": "BRUS2",
+        "order": 3
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.324236,
+          50.845276
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Delacroix",
+        "line": "BRUS2",
+        "order": 4
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.330855,
+          50.841129
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Clemenceau",
+        "line": "BRUS2",
+        "order": 5
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.337896,
+          50.836486
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Gare du Midi - Zuidstation",
+        "line": "BRUS2",
+        "order": 6
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.342882,
+          50.833992
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Porte de Hal - Hallepoort",
+        "line": "BRUS2",
+        "order": 7
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.349351,
+          50.833536
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Hôtel des Monnaies - Munthof",
+        "line": "BRUS2",
+        "order": 8
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.354668,
+          50.835392
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Louise - Louiza",
+        "line": "BRUS2",
+        "order": 9
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.362036,
+          50.83846
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Porte de Namur - Naamsepoort",
+        "line": "BRUS2",
+        "order": 10
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366516,
+          50.841247
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Trône - Troon",
+        "line": "BRUS2",
+        "order": 11
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36877,
+          50.845545
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Arts-Loi - Kunst-Wet",
+        "line": "BRUS2",
+        "order": 12
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.369107,
+          50.849968
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Madou",
+        "line": "BRUS2",
+        "order": 13
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.365713,
+          50.853954
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Botanique - Kruidtuin",
+        "line": "BRUS2",
+        "order": 14
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.358082,
+          50.855569
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Rogier",
+        "line": "BRUS2",
+        "order": 15
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.351315,
+          50.857301
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Yser - IJzer",
+        "line": "BRUS2",
+        "order": 16
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.339315,
+          50.860562
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Ribaucourt",
+        "line": "BRUS2",
+        "order": 17
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.330979,
+          50.863048
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Elisabeth",
+        "line": "BRUS2",
+        "order": 18
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.267242,
+          50.815281
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Erasme - Erasmus",
+        "line": "BRUS5",
+        "order": 0
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.280742,
+          50.816702
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Eddy Merckx",
+        "line": "BRUS5",
+        "order": 1
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.289826,
+          50.816503
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "CERIA - COOVI",
+        "line": "BRUS5",
+        "order": 2
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.293915,
+          50.821117
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "La Roue - Het Rad",
+        "line": "BRUS5",
+        "order": 3
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.297191,
+          50.825002
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Bizet",
+        "line": "BRUS5",
+        "order": 4
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.300651,
+          50.829479
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Veeweyde - Veeweide",
+        "line": "BRUS5",
+        "order": 5
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.305343,
+          50.834989
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Saint-Guidon - Sint-Guido",
+        "line": "BRUS5",
+        "order": 6
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.312492,
+          50.839681
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Aumale",
+        "line": "BRUS5",
+        "order": 7
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.318033,
+          50.843838
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Jacques Brel",
+        "line": "BRUS5",
+        "order": 8
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.321067,
+          50.848643
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Gare de l'Ouest - Weststation",
+        "line": "BRUS5",
+        "order": 9
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.322972,
+          50.853444
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Beekkant",
+        "line": "BRUS5",
+        "order": 10
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.332196,
+          50.857058
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Étangs Noirs - Zwarte Vijvers",
+        "line": "BRUS5",
+        "order": 11
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.340564,
+          50.854711
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Comte de Flandre - Graaf van Vlaanderen",
+        "line": "BRUS5",
+        "order": 12
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.347843,
+          50.85214
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Sainte-Catherine - Sint-Katelijne",
+        "line": "BRUS5",
+        "order": 13
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35238,
+          50.849923
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "De Brouckère",
+        "line": "BRUS5",
+        "order": 14
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.358783,
+          50.846496
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Gare Centrale - Centraal",
+        "alternate_names": [
+          "Central"
+        ],
+        "line": "BRUS5",
+        "order": 15
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.362255,
+          50.845607
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Parc - Park",
+        "line": "BRUS5",
+        "order": 16
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.368794,
+          50.845504
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Arts-Loi - Kunst-Wet",
+        "line": "BRUS5",
+        "order": 17
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.376969,
+          50.843834
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Maelbeek - Maalbeek",
+        "line": "BRUS5",
+        "order": 18
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.382225,
+          50.842799
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Schuman",
+        "line": "BRUS5",
+        "order": 19
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.398454,
+          50.839317
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Merode",
+        "line": "BRUS5",
+        "order": 20
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.401765,
+          50.833461
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Thieffry",
+        "line": "BRUS5",
+        "order": 21
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.403881,
+          50.827722
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Pétillon",
+        "line": "BRUS5",
+        "order": 22
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.405433,
+          50.821296
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Hankar",
+        "line": "BRUS5",
+        "order": 23
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.403757,
+          50.818136
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Delta",
+        "line": "BRUS5",
+        "order": 24
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.409643,
+          50.815096
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Beaulieu",
+        "line": "BRUS5",
+        "order": 25
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.420934,
+          50.813452
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Demey",
+        "line": "BRUS5",
+        "order": 26
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.428692,
+          50.812216
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Herrmann-Debroux",
+        "line": "BRUS5",
+        "order": 27
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.328,
+          50.896427
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Roi Baudouin - Koning Boudewijn",
+        "line": "BRUS6",
+        "order": 0
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.336649,
+          50.896694
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Heysel - Heizel",
+        "line": "BRUS6",
+        "order": 1
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.337767,
+          50.889489
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Houba-Brugmann",
+        "line": "BRUS6",
+        "order": 2
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.342564,
+          50.885655
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Stuyvenbergh",
+        "line": "BRUS6",
+        "order": 3
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.347972,
+          50.878849
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Bockstael",
+        "line": "BRUS6",
+        "order": 4
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.342765,
+          50.873376
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Pannenhuis",
+        "line": "BRUS6",
+        "order": 5
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.336412,
+          50.868122
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Belgica",
+        "line": "BRUS6",
+        "order": 6
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.330489,
+          50.863192
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Simonis",
+        "line": "BRUS6",
+        "order": 7
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.325184,
+          50.8569
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Osseghem - Ossegem",
+        "line": "BRUS6",
+        "order": 8
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.323411,
+          50.853283
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Beekkant",
+        "line": "BRUS6",
+        "order": 9
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.321067,
+          50.848643
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Gare de l'Ouest - Weststation",
+        "line": "BRUS6",
+        "order": 10
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.324236,
+          50.845276
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Delacroix",
+        "line": "BRUS6",
+        "order": 11
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.330855,
+          50.841129
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Clemenceau",
+        "line": "BRUS6",
+        "order": 12
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.337896,
+          50.836486
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Gare du Midi - Zuidstation",
+        "line": "BRUS6",
+        "order": 13
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.342882,
+          50.833992
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Porte de Hal - Hallepoort",
+        "line": "BRUS6",
+        "order": 14
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.349351,
+          50.833536
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Hôtel des Monnaies - Munthof",
+        "line": "BRUS6",
+        "order": 15
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.354668,
+          50.835392
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Louise - Louiza",
+        "line": "BRUS6",
+        "order": 16
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.362036,
+          50.83846
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Porte de Namur - Naamsepoort",
+        "line": "BRUS6",
+        "order": 17
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366516,
+          50.841247
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Trône - Troon",
+        "line": "BRUS6",
+        "order": 18
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36877,
+          50.845545
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Arts-Loi - Kunst-Wet",
+        "line": "BRUS6",
+        "order": 19
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.369107,
+          50.849968
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Madou",
+        "line": "BRUS6",
+        "order": 20
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.365713,
+          50.853954
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Botanique - Kruidtuin",
+        "line": "BRUS6",
+        "order": 21
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.358082,
+          50.855569
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Rogier",
+        "line": "BRUS6",
+        "order": 22
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.351315,
+          50.857301
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Yser - IJzer",
+        "line": "BRUS6",
+        "order": 23
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.339315,
+          50.860562
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Ribaucourt",
+        "line": "BRUS6",
+        "order": 24
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.330979,
+          50.863048
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Elisabeth",
+        "line": "BRUS6",
+        "order": 25
+      },
+      "id": 94
+    }
+  ]
+}

@@ -6,99 +6,591 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.89304,
-          34.563504
+          105.65059,
+          34.56727
         ]
       },
       "properties": {
-        "id": 1,
-        "name": "Tianshui Railway Station",
-        "display_name": "Tianshui Railway Station (天水火车站)",
+        "id": 24,
+        "name": "Jingkun Xijun Sanzhong",
+        "display_name": "Jingkun Xijun Sanzhong (景坤西郡三中)",
         "alternate_names": [
-          "Tianshui Railway Station",
-          "天水火车站",
-          "天水火車站",
-          "Tianshui",
-          "Tianshuihuochezhan",
-          "tian shui huo che zhan"
+          "Jingkun Xijun Sanzhong",
+          "景坤西郡三中",
+          "Jingkunxijunsanzhong",
+          "jing kun xi jun san zhong",
+          "Jingkun Xijun",
+          "Sanzhong",
+          "No. 3 Middle School",
+          "Tianshui No. 3 Middle School"
         ],
         "line": "tianshui1",
         "order": 0
       },
-      "id": 1
+      "id": 24
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.876688,
-          34.567054
+          105.6623,
+          34.56825
         ]
       },
       "properties": {
-        "id": 2,
-        "name": "Maijigongjiaozong",
-        "display_name": "Maijigongjiaozong (麦积公交总)",
+        "id": 25,
+        "name": "Jidianxueyuan",
+        "display_name": "Jidianxueyuan (机电学院)",
         "alternate_names": [
-          "Maijigongjiaozong",
-          "麦积公交总",
-          "麥積公交總",
-          "mai ji gong jiao zong",
-          "Maiji Bus"
+          "Jidianxueyuan",
+          "机电学院",
+          "機電學院",
+          "ji dian xue yuan"
         ],
         "line": "tianshui1",
         "order": 1
       },
-      "id": 2
+      "id": 25
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.860475,
-          34.566206
+          105.67045,
+          34.56882
         ]
       },
       "properties": {
-        "id": 3,
-        "name": "Chengjixinjiayuan",
-        "display_name": "Chengjixinjiayuan (成纪新家园)",
+        "id": 26,
+        "name": "Xishili",
+        "display_name": "Xishili (西十里)",
         "alternate_names": [
-          "Chengjixinjiayuan",
-          "成纪新家园",
-          "成紀新家園",
-          "cheng ji xin jia yuan"
+          "Xishili",
+          "西十里",
+          "xi shi li"
         ],
         "line": "tianshui1",
         "order": 2
       },
-      "id": 3
+      "id": 26
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.853566,
-          34.566509
+          105.68031,
+          34.57228
         ]
       },
       "properties": {
-        "id": 4,
-        "name": "Shiyizhong",
-        "display_name": "Shiyizhong (市一中)",
+        "id": 27,
+        "name": "Chiyu Road",
+        "display_name": "Chiyu Road (赤峪路)",
         "alternate_names": [
-          "Shiyizhong",
-          "市一中",
-          "shi yi zhong",
-          "First Middle School"
+          "Chiyu Road",
+          "赤峪路",
+          "Chiyulu",
+          "chi yu lu"
         ],
         "line": "tianshui1",
         "order": 3
       },
-      "id": 4
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.69442,
+          34.57401
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Tianshuishida",
+        "display_name": "Tianshuishida (天水师大)",
+        "alternate_names": [
+          "Tianshuishida",
+          "天水师大",
+          "天水師大",
+          "tian shui shi da",
+          "Tianshui Normal University"
+        ],
+        "line": "tianshui1",
+        "order": 4
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.70825,
+          34.57143
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Fuximiao",
+        "display_name": "Fuximiao (伏羲庙)",
+        "alternate_names": [
+          "Fuximiao",
+          "伏羲庙",
+          "伏羲廟",
+          "fu xi miao"
+        ],
+        "line": "tianshui1",
+        "order": 5
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.72174,
+          34.5753
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Lantian Square",
+        "display_name": "Lantian Square (兰天广场)",
+        "alternate_names": [
+          "Lantian Square",
+          "兰天广场",
+          "蘭天廣場",
+          "Lantianguangchang",
+          "lan tian guang chang"
+        ],
+        "line": "tianshui1",
+        "order": 6
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.73015,
+          34.57711
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Nongfahang",
+        "display_name": "Nongfahang (农发行)",
+        "alternate_names": [
+          "Nongfahang",
+          "农发行",
+          "農發行",
+          "nong fa hang",
+          "Agricultural Development Bank"
+        ],
+        "line": "tianshui1",
+        "order": 7
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7418,
+          34.57388
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Zhugejunlei",
+        "display_name": "Zhugejunlei (诸葛军垒)",
+        "alternate_names": [
+          "Zhugejunlei",
+          "诸葛军垒",
+          "諸葛軍壘",
+          "zhu ge jun lei"
+        ],
+        "line": "tianshui1",
+        "order": 8
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.75755,
+          34.57767
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Industrial Museum",
+        "display_name": "Industrial Museum (工业博物馆)",
+        "alternate_names": [
+          "Industrial Museum",
+          "工业博物馆",
+          "工業博物館",
+          "Gongyebowuguan",
+          "gong ye bo wu guan",
+          "Gongye Museum"
+        ],
+        "line": "tianshui1",
+        "order": 9
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.760965,
+          34.582419
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Wulipu",
+        "display_name": "Wulipu (五里铺)",
+        "alternate_names": [
+          "Wulipu",
+          "五里铺",
+          "五里鋪",
+          "wu li pu"
+        ],
+        "line": "tianshui1",
+        "order": 10
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776169,
+          34.581152
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Yanhecun",
+        "display_name": "Yanhecun (闫河村)",
+        "alternate_names": [
+          "Yanhecun",
+          "闫河村",
+          "閆河村",
+          "yan he cun"
+        ],
+        "line": "tianshui1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.786592,
+          34.578668
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Xianjia Road",
+        "display_name": "Xianjia Road (县家路)",
+        "alternate_names": [
+          "Xianjia Road",
+          "县家路",
+          "縣家路",
+          "Xianjialu",
+          "xian jia lu"
+        ],
+        "line": "tianshui1",
+        "order": 12
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.798031,
+          34.576255
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Chengjixincheng",
+        "display_name": "Chengjixincheng (成纪新城)",
+        "alternate_names": [
+          "Chengjixincheng",
+          "成纪新城",
+          "成紀新城",
+          "cheng ji xin cheng",
+          "Chengji New Town"
+        ],
+        "line": "tianshui1",
+        "order": 13
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.808752,
+          34.576341
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Tianxiudaqiao",
+        "display_name": "Tianxiudaqiao (天秀大桥)",
+        "alternate_names": [
+          "Tianxiudaqiao",
+          "天秀大桥",
+          "天秀大橋",
+          "tian xiu da qiao",
+          "Tianxiu Bridge"
+        ],
+        "line": "tianshui1",
+        "order": 14
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.820691,
+          34.577393
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Jiehejingguan Park",
+        "display_name": "Jiehejingguan Park (藉河景观公园)",
+        "alternate_names": [
+          "Jiehejingguan Park",
+          "藉河景观公园",
+          "藉河景觀公園",
+          "Jiehejingguangongyuan",
+          "jie he jing guan gong yuan",
+          "Xihe Landscape Park"
+        ],
+        "line": "tianshui1",
+        "order": 15
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83179,
+          34.571554
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Yangpo East",
+        "display_name": "Yangpo East (阳坡东)",
+        "alternate_names": [
+          "Yangpo East",
+          "阳坡东",
+          "陽坡東",
+          "Yangpodong",
+          "yang po dong"
+        ],
+        "line": "tianshui1",
+        "order": 16
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.836216,
+          34.562883
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Dong'ershilipu",
+        "display_name": "Dong'ershilipu (东二十里铺)",
+        "alternate_names": [
+          "Dong'ershilipu",
+          "东二十里铺",
+          "東二十里鋪",
+          "dong er shi li pu",
+          "Dong Ershilipu"
+        ],
+        "line": "tianshui1",
+        "order": 17
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843851,
+          34.560865
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Baiyacun",
+        "display_name": "Baiyacun (白崖村)",
+        "alternate_names": [
+          "Baiyacun",
+          "白崖村",
+          "bai ya cun"
+        ],
+        "line": "tianshui1",
+        "order": 18
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853808,
+          34.552539
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Tianshui South Railway Station",
+        "display_name": "Tianshui South Railway Station (天水南站)",
+        "alternate_names": [
+          "Tianshui South Railway Station",
+          "天水南站",
+          "Tianshui South",
+          "Tianshuinanzhan",
+          "tian shui nan zhan"
+        ],
+        "line": "tianshui1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.863549,
+          34.555314
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Tianshui Airport",
+        "display_name": "Tianshui Airport (天水机场)",
+        "alternate_names": [
+          "Tianshui Airport",
+          "天水机场",
+          "天水機場",
+          "Tianshuijichang",
+          "tian shui ji chang"
+        ],
+        "line": "tianshui1",
+        "order": 20
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.871593,
+          34.552813
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Huaniu",
+        "display_name": "Huaniu (花牛)",
+        "alternate_names": [
+          "Huaniu",
+          "花牛",
+          "hua niu"
+        ],
+        "line": "tianshui1",
+        "order": 21
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.889153,
+          34.54673
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Fenlukou",
+        "display_name": "Fenlukou (分路口)",
+        "alternate_names": [
+          "Fenlukou",
+          "分路口",
+          "fen lu kou"
+        ],
+        "line": "tianshui1",
+        "order": 22
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83179,
+          34.571554
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Yangpo East",
+        "display_name": "Yangpo East (阳坡东)",
+        "alternate_names": [
+          "Yangpo East",
+          "阳坡东",
+          "陽坡東",
+          "Yangpodong",
+          "yang po dong"
+        ],
+        "line": "tianshui2",
+        "order": 0
+      },
+      "id": 22
     },
     {
       "type": "Feature",
@@ -120,8 +612,8 @@
           "Pujingjiulu",
           "pu jing jiu lu"
         ],
-        "line": "tianshui1",
-        "order": 4
+        "line": "tianshui2",
+        "order": 1
       },
       "id": 5
     },
@@ -130,445 +622,99 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.831776,
-          34.57154
+          105.853566,
+          34.566509
         ]
       },
       "properties": {
-        "id": 6,
-        "name": "Yangpo East",
-        "display_name": "Yangpo East (阳坡东)",
+        "id": 4,
+        "name": "Shiyizhong",
+        "display_name": "Shiyizhong (市一中)",
         "alternate_names": [
-          "Yangpo East",
-          "阳坡东",
-          "陽坡東",
-          "Yangpodong",
-          "yang po dong"
-        ],
-        "line": "tianshui1",
-        "order": 5
-      },
-      "id": 6
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.820696,
-          34.577414
-        ]
-      },
-      "properties": {
-        "id": 7,
-        "name": "Jiehejingguan Park",
-        "display_name": "Jiehejingguan Park (藉河景观公园)",
-        "alternate_names": [
-          "Jiehejingguan Park",
-          "藉河景观公园",
-          "藉河景觀公園",
-          "Jiehejingguangongyuan",
-          "jie he jing guan gong yuan",
-          "Xihe Landscape Park"
-        ],
-        "line": "tianshui1",
-        "order": 6
-      },
-      "id": 7
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.808744,
-          34.57637
-        ]
-      },
-      "properties": {
-        "id": 8,
-        "name": "Tianxiudaqiao",
-        "display_name": "Tianxiudaqiao (天秀大桥)",
-        "alternate_names": [
-          "Tianxiudaqiao",
-          "天秀大桥",
-          "天秀大橋",
-          "tian xiu da qiao",
-          "Tianxiu Bridge"
-        ],
-        "line": "tianshui1",
-        "order": 7
-      },
-      "id": 8
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.798023,
-          34.576234
-        ]
-      },
-      "properties": {
-        "id": 9,
-        "name": "Chengjixincheng",
-        "display_name": "Chengjixincheng (成纪新城)",
-        "alternate_names": [
-          "Chengjixincheng",
-          "成纪新城",
-          "成紀新城",
-          "cheng ji xin cheng",
-          "Chengji New Town"
-        ],
-        "line": "tianshui1",
-        "order": 8
-      },
-      "id": 9
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.786596,
-          34.578685
-        ]
-      },
-      "properties": {
-        "id": 10,
-        "name": "Xianjia Road",
-        "display_name": "Xianjia Road (县家路)",
-        "alternate_names": [
-          "Xianjia Road",
-          "县家路",
-          "縣家路",
-          "Xianjialu",
-          "xian jia lu"
-        ],
-        "line": "tianshui1",
-        "order": 9
-      },
-      "id": 10
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.776155,
-          34.581131
-        ]
-      },
-      "properties": {
-        "id": 11,
-        "name": "Yanhecun",
-        "display_name": "Yanhecun (闫河村)",
-        "alternate_names": [
-          "Yanhecun",
-          "闫河村",
-          "閆河村",
-          "yan he cun"
-        ],
-        "line": "tianshui1",
-        "order": 10
-      },
-      "id": 11
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.760976,
-          34.582406
-        ]
-      },
-      "properties": {
-        "id": 12,
-        "name": "Wulipu",
-        "display_name": "Wulipu (五里铺)",
-        "alternate_names": [
-          "Wulipu",
-          "五里铺",
-          "五里鋪",
-          "wu li pu"
-        ],
-        "line": "tianshui1",
-        "order": 11
-      },
-      "id": 12
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.911386,
-          34.542282
-        ]
-      },
-      "properties": {
-        "id": 13,
-        "name": "Yingchuanhe Road West",
-        "display_name": "Yingchuanhe Road West (颍川河西路)",
-        "alternate_names": [
-          "Yingchuanhe Road West",
-          "颍川河西路",
-          "潁川河西路",
-          "Yingchuanhexilu",
-          "ying chuan he xi lu"
-        ],
-        "line": "tianshui2",
-        "order": 0
-      },
-      "id": 13
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.898256,
-          34.543894
-        ]
-      },
-      "properties": {
-        "id": 14,
-        "name": "Shifo Road",
-        "display_name": "Shifo Road (石佛路)",
-        "alternate_names": [
-          "Shifo Road",
-          "石佛路",
-          "Shifolu",
-          "shi fo lu"
-        ],
-        "line": "tianshui2",
-        "order": 1
-      },
-      "id": 14
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.888837,
-          34.546867
-        ]
-      },
-      "properties": {
-        "id": 15,
-        "name": "Bunan Road",
-        "display_name": "Bunan Road (埠南路)",
-        "alternate_names": [
-          "Bunan Road",
-          "埠南路",
-          "Bunanlu",
-          "bu nan lu"
+          "Shiyizhong",
+          "市一中",
+          "shi yi zhong",
+          "First Middle School"
         ],
         "line": "tianshui2",
         "order": 2
       },
-      "id": 15
+      "id": 4
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.878838,
-          34.550552
+          105.860474,
+          34.566187
         ]
       },
       "properties": {
-        "id": 16,
-        "name": "Jing'ershi 8th Road",
-        "display_name": "Jing'ershi 8th Road (经二十八路)",
+        "id": 3,
+        "name": "Chengjixinjiayuan",
+        "display_name": "Chengjixinjiayuan (成纪新家园)",
         "alternate_names": [
-          "Jing'ershi 8th Road",
-          "经二十八路",
-          "經二十八路",
-          "Jing'ershibalu",
-          "jing er shi ba lu"
+          "Chengjixinjiayuan",
+          "成纪新家园",
+          "成紀新家園",
+          "cheng ji xin jia yuan"
         ],
         "line": "tianshui2",
         "order": 3
       },
-      "id": 16
+      "id": 3
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.87145,
-          34.552846
+          105.876694,
+          34.567074
         ]
       },
       "properties": {
-        "id": 17,
-        "name": "Dianligongsi",
-        "display_name": "Dianligongsi (电力公司)",
+        "id": 2,
+        "name": "Maijigongjiaozong",
+        "display_name": "Maijigongjiaozong (麦积公交总)",
         "alternate_names": [
-          "Dianligongsi",
-          "电力公司",
-          "電力公司",
-          "dian li gong si"
+          "Maijigongjiaozong",
+          "麦积公交总",
+          "麥積公交總",
+          "mai ji gong jiao zong",
+          "Maiji Bus"
         ],
         "line": "tianshui2",
         "order": 4
       },
-      "id": 17
+      "id": 2
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.863539,
-          34.555291
+          105.893034,
+          34.563486
         ]
       },
       "properties": {
-        "id": 18,
-        "name": "Tianshui Airport",
-        "display_name": "Tianshui Airport (天水机场)",
+        "id": 1,
+        "name": "Tianshui Railway Station",
+        "display_name": "Tianshui Railway Station (天水火车站)",
         "alternate_names": [
-          "Tianshui Airport",
-          "天水机场",
-          "天水機場",
-          "Tianshuijichang",
-          "tian shui ji chang"
+          "Tianshui Railway Station",
+          "天水火车站",
+          "天水火車站",
+          "Tianshui",
+          "Tianshuihuochezhan",
+          "tian shui huo che zhan"
         ],
         "line": "tianshui2",
         "order": 5
       },
-      "id": 18
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.853788,
-          34.552507
-        ]
-      },
-      "properties": {
-        "id": 19,
-        "name": "Tianshui South Railway Station",
-        "display_name": "Tianshui South Railway Station (天水南站)",
-        "alternate_names": [
-          "Tianshui South Railway Station",
-          "天水南站",
-          "Tianshui South",
-          "Tianshuinanzhan",
-          "tian shui nan zhan"
-        ],
-        "line": "tianshui2",
-        "order": 6
-      },
-      "id": 19
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.843841,
-          34.560846
-        ]
-      },
-      "properties": {
-        "id": 20,
-        "name": "Baiyacun",
-        "display_name": "Baiyacun (白崖村)",
-        "alternate_names": [
-          "Baiyacun",
-          "白崖村",
-          "bai ya cun"
-        ],
-        "line": "tianshui2",
-        "order": 7
-      },
-      "id": 20
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.836209,
-          34.56286
-        ]
-      },
-      "properties": {
-        "id": 21,
-        "name": "Dong'ershilipu",
-        "display_name": "Dong'ershilipu (东二十里铺)",
-        "alternate_names": [
-          "Dong'ershilipu",
-          "东二十里铺",
-          "東二十里鋪",
-          "dong er shi li pu",
-          "Dong Ershilipu"
-        ],
-        "line": "tianshui2",
-        "order": 8
-      },
-      "id": 21
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.831776,
-          34.57154
-        ]
-      },
-      "properties": {
-        "id": 22,
-        "name": "Yangpo East",
-        "display_name": "Yangpo East (阳坡东)",
-        "alternate_names": [
-          "Yangpo East",
-          "阳坡东",
-          "陽坡東",
-          "Yangpodong",
-          "yang po dong"
-        ],
-        "line": "tianshui2",
-        "order": 9
-      },
-      "id": 22
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.820696,
-          34.577414
-        ]
-      },
-      "properties": {
-        "id": 23,
-        "name": "Jiehejingguan Park",
-        "display_name": "Jiehejingguan Park (藉河景观公园)",
-        "alternate_names": [
-          "Jiehejingguan Park",
-          "藉河景观公园",
-          "藉河景觀公園",
-          "Jiehejingguangongyuan",
-          "jie he jing guan gong yuan",
-          "Xihe Landscape Park"
-        ],
-        "line": "tianshui2",
-        "order": 10
-      },
-      "id": 23
+      "id": 1
     }
   ]
 }

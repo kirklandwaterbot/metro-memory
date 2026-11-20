@@ -161,7 +161,11 @@ const buildManifest = async (routePaths) => {
 
     if (await fileExists(path.join(cityDir, 'icon.ico'))) {
       entry.icon = true
-      const iconHash = await hashFileIfPresent(path.join(cityDir, 'icon.ico'))
+      // the browser tab shows tab-icon.ico when the city has one (see sync-city-icons.js)
+      const tabIconPath = path.join(cityDir, 'tab-icon.ico')
+      const iconHash = await hashFileIfPresent(
+        (await fileExists(tabIconPath)) ? tabIconPath : path.join(cityDir, 'icon.ico'),
+      )
       if (iconHash) {
         entry.iconVersion = iconHash.slice(0, 12)
       }

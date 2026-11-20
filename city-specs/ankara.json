@@ -1,0 +1,98 @@
+{
+  "slug": "ankara",
+  "path": "europe/turkey/ankara",
+  "gameTitle": "Ankara Metro Memory",
+  "description": "How many Ankara Metro stations can you name from memory?",
+  "locale": "tr_TR",
+  "bbox": [
+    39.705,
+    32.506,
+    40.155,
+    33.094
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Ankara Metro",
+      "lines": [
+        "ANKAA",
+        "ANKAM1",
+        "ANKAM2",
+        "ANKAM3",
+        "ANKAM4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ANKAA",
+      "name": "Ankaray (A1)",
+      "match": {
+        "@id": "^(456693|7877738)$"
+      },
+      "color": "#056D2E",
+      "textColor": "#FFFFFF",
+      "badge": "A1",
+      "icon": "ANKAA.svg"
+    },
+    {
+      "id": "ANKAM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(456707|7877769)$"
+      },
+      "color": "#BF0E1C",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "ANKAM1.svg"
+    },
+    {
+      "id": "ANKAM2",
+      "name": "Line M2",
+      "match": {
+        "@id": "^(3604162|7877885)$"
+      },
+      "color": "#BF0E1C",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "ANKAM2.svg"
+    },
+    {
+      "id": "ANKAM3",
+      "name": "Line M3",
+      "match": {
+        "@id": "^(7878077|7981706)$"
+      },
+      "color": "#BF0E1C",
+      "textColor": "#FFFFFF",
+      "badge": "M3",
+      "icon": "ANKAM3.svg"
+    },
+    {
+      "id": "ANKAM4",
+      "name": "Line M4",
+      "match": {
+        "@id": "^(7981739|7981745)$"
+      },
+      "color": "#EDAF2E",
+      "textColor": "#222222",
+      "badge": "M4",
+      "icon": "ANKAM4.svg"
+    }
+  ],
+  "register": {
+    "name": "Ankara, TR",
+    "continent": "Europe",
+    "coordinates": [
+      32.8,
+      39.93
+    ],
+    "zh": "安卡拉, TR",
+    "achievement": {
+      "title": "Ankara Metro Master",
+      "description": "You've named every Ankara Metro station."
+    }
+  }
+}

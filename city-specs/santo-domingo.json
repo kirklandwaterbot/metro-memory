@@ -1,0 +1,58 @@
+{
+  "slug": "santo-domingo",
+  "path": "north-america/dominican-republic/santo-domingo",
+  "gameTitle": "Santo Domingo Metro Memory",
+  "description": "How many Metro de Santo Domingo stations can you name from memory?",
+  "locale": "es_DO",
+  "bbox": [
+    18.4,
+    -70.05,
+    18.6,
+    -69.8
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Santo Domingo",
+      "lines": [
+        "SDQ1",
+        "SDQ2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SDQ1",
+      "name": "Línea 1",
+      "match": {
+        "route": "subway",
+        "network": "Santo Domingo",
+        "ref": "^1$"
+      },
+      "color": "#1F4FA0"
+    },
+    {
+      "id": "SDQ2",
+      "name": "Línea 2",
+      "match": {
+        "route": "subway",
+        "network": "Santo Domingo",
+        "ref": "^2$"
+      },
+      "color": "#E31E24"
+    }
+  ],
+  "register": {
+    "name": "Santo Domingo, DO",
+    "continent": "North America",
+    "coordinates": [
+      -69.9312,
+      18.4861
+    ],
+    "achievement": {
+      "title": "Primada de América",
+      "description": "You've named every Metro de Santo Domingo station."
+    }
+  }
+}

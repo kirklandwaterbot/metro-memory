@@ -1,0 +1,82 @@
+{
+  "SNCFTGVAtlantiqueBretagn": {
+    "name": "TGV Atlantique (Bretagne & Pays de la Loire)",
+    "color": "#0088CE",
+    "backgroundColor": "#0088CE",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "SNCFTGVAtlantiqueBretagn.svg"
+  },
+  "SNCFTGVAtlantiqueSudOues": {
+    "name": "TGV Atlantique (Sud-Ouest)",
+    "color": "#00A1A6",
+    "backgroundColor": "#00A1A6",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "SNCFTGVAtlantiqueSudOues.svg"
+  },
+  "SNCFTGVSudEst": {
+    "name": "TGV Sud-Est",
+    "color": "#E05206",
+    "backgroundColor": "#E05206",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "SNCFTGVSudEst.svg"
+  },
+  "SNCFTGVEst": {
+    "name": "TGV Est",
+    "color": "#A1006B",
+    "backgroundColor": "#A1006B",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "SNCFTGVEst.svg"
+  },
+  "SNCFTGVNord": {
+    "name": "TGV Nord",
+    "color": "#6E2C8F",
+    "backgroundColor": "#6E2C8F",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "SNCFTGVNord.svg"
+  },
+  "SNCFTGVIntersecteurs": {
+    "name": "TGV Intersecteurs",
+    "color": "#C1002A",
+    "backgroundColor": "#C1002A",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "SNCFTGVIntersecteurs.svg"
+  },
+  "SNCFTGVLyria": {
+    "name": "TGV Lyria",
+    "color": "#B2003A",
+    "backgroundColor": "#B2003A",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "SNCFTGVLyria.svg"
+  },
+  "SNCFOuigo": {
+    "name": "Ouigo",
+    "color": "#E6007E",
+    "backgroundColor": "#E6007E",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "SNCFOuigo.svg"
+  },
+  "SNCFIntercits": {
+    "name": "Intercités",
+    "color": "#5E6A71",
+    "backgroundColor": "#5E6A71",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "SNCFIntercits.svg"
+  },
+  "SNCFInternational": {
+    "name": "International",
+    "color": "#2E7D32",
+    "backgroundColor": "#2E7D32",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "SNCFInternational.svg"
+  }
+}

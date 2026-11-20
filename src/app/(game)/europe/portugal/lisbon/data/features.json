@@ -1,0 +1,957 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.154839,
+          38.720103
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Rato",
+        "line": "LISBAMARELA",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.150331,
+          38.724717
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Marquês de Pombal",
+        "line": "LISBAMARELA",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.146739,
+          38.730395
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Picoas",
+        "line": "LISBAMARELA",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.144005,
+          38.734706
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Saldanha",
+        "line": "LISBAMARELA",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.146784,
+          38.741115
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Campo Pequeno",
+        "line": "LISBAMARELA",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.148202,
+          38.747046
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Entrecampos",
+        "line": "LISBAMARELA",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.159039,
+          38.75152
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Cidade Universitária",
+        "line": "LISBAMARELA",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.157871,
+          38.76017
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Campo Grande",
+        "line": "LISBAMARELA",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.155547,
+          38.767398
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Quinta das Conchas",
+        "line": "LISBAMARELA",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.159255,
+          38.772928
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Lumiar",
+        "line": "LISBAMARELA",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.159457,
+          38.779605
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Ameixoeira",
+        "line": "LISBAMARELA",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.171818,
+          38.785608
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Senhor Roubado",
+        "line": "LISBAMARELA",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.172982,
+          38.793269
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Odivelas",
+        "line": "LISBAMARELA",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.122454,
+          38.71369
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Santa Apolónia",
+        "line": "LISBAZUL",
+        "order": 0
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.134434,
+          38.707018
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Terreiro do Paço",
+        "line": "LISBAZUL",
+        "order": 1
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.140604,
+          38.710415
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Baixa-Chiado",
+        "line": "LISBAZUL",
+        "order": 2
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.142699,
+          38.716149
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Glória - Restauradores",
+        "line": "LISBAZUL",
+        "order": 3
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.144814,
+          38.719019
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Avenida",
+        "line": "LISBAZUL",
+        "order": 4
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.14915,
+          38.724159
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Marquês de Pombal",
+        "line": "LISBAZUL",
+        "order": 5
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.150153,
+          38.728789
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Parque",
+        "line": "LISBAZUL",
+        "order": 6
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.152712,
+          38.734067
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "São Sebastião",
+        "line": "LISBAZUL",
+        "order": 7
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.159247,
+          38.737684
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Praça de Espanha",
+        "line": "LISBAZUL",
+        "order": 8
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.168913,
+          38.742088
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Jardim Zoológico",
+        "line": "LISBAZUL",
+        "order": 9
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.173036,
+          38.74825
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Laranjeiras",
+        "line": "LISBAZUL",
+        "order": 10
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.179795,
+          38.749895
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Alto dos Moinhos",
+        "line": "LISBAZUL",
+        "order": 11
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.189273,
+          38.753403
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Colégio Militar/Luz",
+        "line": "LISBAZUL",
+        "order": 12
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.192713,
+          38.759229
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Carnide",
+        "line": "LISBAZUL",
+        "order": 13
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.196855,
+          38.762252
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Pontinha",
+        "line": "LISBAZUL",
+        "order": 14
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.20455,
+          38.760329
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Alfornelos",
+        "line": "LISBAZUL",
+        "order": 15
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.21833,
+          38.758424
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Amadora Este",
+        "line": "LISBAZUL",
+        "order": 16
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.224149,
+          38.751964
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Reboleira",
+        "line": "LISBAZUL",
+        "order": 17
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.146826,
+          38.70615
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Cais do Sodré",
+        "line": "LISBVERDE",
+        "order": 0
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.140604,
+          38.710415
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Baixa-Chiado",
+        "line": "LISBVERDE",
+        "order": 1
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.13813,
+          38.714011
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Rossio",
+        "line": "LISBVERDE",
+        "order": 2
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.136007,
+          38.717502
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Martim Moniz",
+        "line": "LISBVERDE",
+        "order": 3
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.135242,
+          38.72309
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Intendente",
+        "line": "LISBVERDE",
+        "order": 4
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.134859,
+          38.726991
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Anjos",
+        "line": "LISBVERDE",
+        "order": 5
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.134226,
+          38.732687
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Arroios",
+        "line": "LISBVERDE",
+        "order": 6
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.132883,
+          38.737134
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Alameda",
+        "line": "LISBVERDE",
+        "order": 7
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.13338,
+          38.742316
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Areeiro",
+        "line": "LISBVERDE",
+        "order": 8
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.141249,
+          38.74801
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Roma",
+        "line": "LISBVERDE",
+        "order": 9
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.143995,
+          38.753127
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Alvalade",
+        "line": "LISBVERDE",
+        "order": 10
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.157871,
+          38.76017
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Campo Grande",
+        "line": "LISBVERDE",
+        "order": 11
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.166424,
+          38.760074
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Telheiras",
+        "line": "LISBVERDE",
+        "order": 12
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.152712,
+          38.734067
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "São Sebastião",
+        "line": "LISBVERMELHA",
+        "order": 0
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.144005,
+          38.734706
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Saldanha",
+        "line": "LISBVERMELHA",
+        "order": 1
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.132883,
+          38.737134
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Alameda",
+        "line": "LISBVERMELHA",
+        "order": 2
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.123946,
+          38.739465
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Olaias",
+        "line": "LISBVERMELHA",
+        "order": 3
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.117662,
+          38.747535
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Bela Vista",
+        "line": "LISBVERMELHA",
+        "order": 4
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.11387,
+          38.754825
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Chelas",
+        "line": "LISBVERMELHA",
+        "order": 5
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.111761,
+          38.760801
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Olivais",
+        "line": "LISBVERMELHA",
+        "order": 6
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.104055,
+          38.762962
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Cabo Ruivo",
+        "line": "LISBVERMELHA",
+        "order": 7
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.099702,
+          38.76801
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Oriente",
+        "line": "LISBVERMELHA",
+        "order": 8
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.103005,
+          38.774909
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Moscavide",
+        "line": "LISBVERMELHA",
+        "order": 9
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.115528,
+          38.77508
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Encarnação",
+        "line": "LISBVERMELHA",
+        "order": 10
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.128272,
+          38.768624
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Aeroporto",
+        "line": "LISBVERMELHA",
+        "order": 11
+      },
+      "id": 55
+    }
+  ]
+}

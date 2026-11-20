@@ -9,7 +9,12 @@
     "大雁塔": "Big Wild Goose Pagoda",
     "西安北站": "Xi'an North Railway Station"
   },
-  "alternates": {},
+  "alternates": {
+    "户县": [
+      "Huxian Railway Station",
+      "Huxian Station"
+    ]
+  },
   "lines": [
     {
       "id": "xian1",
@@ -17,7 +22,11 @@
       "match": {
         "ref": "^1$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line1.png",
+      "color": "#0077C8",
+      "backgroundColor": "#0077C8",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian2",
@@ -25,7 +34,11 @@
       "match": {
         "ref": "^2$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line2.png",
+      "color": "#EF3340",
+      "backgroundColor": "#EF3340",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian3",
@@ -33,7 +46,11 @@
       "match": {
         "ref": "^3$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line3.png",
+      "color": "#CE70CC",
+      "backgroundColor": "#CE70CC",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian4",
@@ -41,7 +58,11 @@
       "match": {
         "ref": "^4$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line4.png",
+      "color": "#2CCCD3",
+      "backgroundColor": "#2CCCD3",
+      "textColor": "#000000"
     },
     {
       "id": "xian5",
@@ -49,7 +70,11 @@
       "match": {
         "ref": "^5$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line5.png",
+      "color": "#A6E35F",
+      "backgroundColor": "#A6E35F",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian6",
@@ -57,7 +82,11 @@
       "match": {
         "ref": "^6$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line6.png",
+      "color": "#485CC7",
+      "backgroundColor": "#485CC7",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian8",
@@ -65,7 +94,11 @@
       "match": {
         "ref": "^8$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line8.png",
+      "color": "#DEAE39",
+      "backgroundColor": "#DEAE39",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian9",
@@ -73,7 +106,11 @@
       "match": {
         "ref": "^9$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line9.png",
+      "color": "#FF9E1B",
+      "backgroundColor": "#FF9E1B",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian10",
@@ -81,7 +118,11 @@
       "match": {
         "ref": "^10$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line10.png",
+      "color": "#4AAA94",
+      "backgroundColor": "#4AAA94",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian14",
@@ -89,7 +130,11 @@
       "match": {
         "ref": "^14$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line14.png",
+      "color": "#00C1D4",
+      "backgroundColor": "#00C1D4",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian15",
@@ -97,7 +142,11 @@
       "match": {
         "ref": "^15$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line15.png",
+      "color": "#CE607E",
+      "backgroundColor": "#CE607E",
+      "textColor": "#ffffff"
     },
     {
       "id": "xian16",
@@ -105,20 +154,41 @@
       "match": {
         "ref": "^16$",
         "network": "西安地铁"
-      }
+      },
+      "icon": "asia/china/xian/line16.png",
+      "color": "#DE8663",
+      "backgroundColor": "#DE8663",
+      "textColor": "#ffffff"
+    },
+    {
+      "id": "xianxihu",
+      "name": "Xihu Line",
+      "match": {
+        "name": "^西户线"
+      },
+      "icon": "asia/china/xian/xihu.png",
+      "color": "#11385B",
+      "backgroundColor": "#11385B",
+      "textColor": "#ffffff"
     },
     {
       "id": "xianyunba",
-      "name": "Gaoxin Yunba",
+      "name": "Xi'an Skyshuttle",
       "match": {
         "network": "西安云巴"
-      }
+      },
+      "icon": "asia/china/xian/skyshuttle.png",
+      "badgeShape": "square",
+      "color": "#B9241F",
+      "backgroundColor": "#B9241F",
+      "textColor": "#ffffff"
     }
   ],
   "cityName": "Xi'an",
   "groups": [
     {
       "title": "Xi'an Metro",
+      "titleImage": "asia/china/xian/icon.ico",
       "lines": [
         "xian1",
         "xian2",
@@ -131,14 +201,16 @@
         "xian10",
         "xian14",
         "xian15",
-        "xian16"
+        "xian16",
+        "xianxihu"
       ]
     },
     {
-      "title": "Xi'an Yunba",
+      "title": "BYD",
       "lines": [
         "xianyunba"
-      ]
+      ],
+      "titleImage": "asia/china/gba/BYD.png"
     }
   ]
 }

@@ -1,0 +1,114 @@
+{
+  "slug": "buenos-aires",
+  "path": "south-america/argentina/buenos-aires",
+  "gameTitle": "Buenos Aires Metro Memory",
+  "description": "How many Buenos Aires Subte and Premetro stations can you name from memory?",
+  "locale": "es_AR",
+  "bbox": [
+    -34.72,
+    -58.56,
+    -34.52,
+    -58.34
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Subte de Buenos Aires",
+      "lines": [
+        "BAA",
+        "BAB",
+        "BAC",
+        "BAD",
+        "BAE",
+        "BAH",
+        "BAP"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BAA",
+      "name": "Línea A",
+      "match": {
+        "route": "subway",
+        "network": "Subte",
+        "ref": "^A$"
+      },
+      "color": "#1CA4CB"
+    },
+    {
+      "id": "BAB",
+      "name": "Línea B",
+      "match": {
+        "route": "subway",
+        "network": "Subte",
+        "ref": "^B$"
+      },
+      "color": "#C20924"
+    },
+    {
+      "id": "BAC",
+      "name": "Línea C",
+      "match": {
+        "route": "subway",
+        "network": "Subte",
+        "ref": "^C$"
+      },
+      "color": "#003EA1"
+    },
+    {
+      "id": "BAD",
+      "name": "Línea D",
+      "match": {
+        "route": "subway",
+        "network": "Subte",
+        "ref": "^D$"
+      },
+      "color": "#217861"
+    },
+    {
+      "id": "BAE",
+      "name": "Línea E",
+      "match": {
+        "route": "subway",
+        "network": "Subte",
+        "ref": "^E$"
+      },
+      "color": "#6B297E"
+    },
+    {
+      "id": "BAH",
+      "name": "Línea H",
+      "match": {
+        "route": "subway",
+        "network": "Subte",
+        "ref": "^H$"
+      },
+      "color": "#F4CC21",
+      "textColor": "#000000"
+    },
+    {
+      "id": "BAP",
+      "name": "Premetro",
+      "match": {
+        "route": "tram",
+        "network": "Subte",
+        "ref": "^P$"
+      },
+      "color": "#F38733"
+    }
+  ],
+  "register": {
+    "name": "Buenos Aires, AR",
+    "continent": "South America",
+    "coordinates": [
+      -58.3816,
+      -34.6037
+    ],
+    "achievement": {
+      "title": "Porteño Underground",
+      "description": "You've named every Subte station in Buenos Aires."
+    }
+  }
+}

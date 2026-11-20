@@ -1,0 +1,50 @@
+{
+  "slug": "izmir",
+  "path": "europe/turkey/izmir",
+  "gameTitle": "İzmir Metro Memory",
+  "description": "How many İzmir Metro stations can you name from memory?",
+  "locale": "tr_TR",
+  "bbox": [
+    38.258,
+    26.923,
+    38.582,
+    27.337
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "İzmir Metro",
+      "lines": [
+        "IZMIM1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "IZMIM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(2707717|7981826)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "IZMIM1.svg"
+    }
+  ],
+  "register": {
+    "name": "İzmir, TR",
+    "continent": "Europe",
+    "coordinates": [
+      27.13,
+      38.42
+    ],
+    "zh": "伊兹密尔, TR",
+    "achievement": {
+      "title": "İzmir Metro Master",
+      "description": "You've named every İzmir Metro station."
+    }
+  }
+}

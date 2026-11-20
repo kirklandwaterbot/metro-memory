@@ -1,0 +1,1043 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.341298,
+          50.075313
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Nemocnice Motol",
+        "line": "PRAGA",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.345063,
+          50.086635
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Petřiny",
+        "line": "PRAGA",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.348491,
+          50.095918
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Nádraží Veleslavín",
+        "line": "PRAGA",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.362883,
+          50.098379
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Bořislavka",
+        "line": "PRAGA",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.393065,
+          50.100463
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Dejvická",
+        "line": "PRAGA",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.403177,
+          50.097441
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Hradčanská",
+        "line": "PRAGA",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.40932,
+          50.091523
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Malostranská",
+        "line": "PRAGA",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.417628,
+          50.088216
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Staroměstská",
+        "line": "PRAGA",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.42436,
+          50.083687
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Můstek",
+        "line": "PRAGA",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.431659,
+          50.079484
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Muzeum",
+        "alternate_names": [
+          "Museum"
+        ],
+        "line": "PRAGA",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.440667,
+          50.075324
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Náměstí Míru",
+        "line": "PRAGA",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.45073,
+          50.077712
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Jiřího z Poděbrad",
+        "line": "PRAGA",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.475941,
+          50.078171
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Želivského",
+        "line": "PRAGA",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.49075,
+          50.072965
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Strašnická",
+        "line": "PRAGA",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.507967,
+          50.068465
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Skalka",
+        "line": "PRAGA",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.515153,
+          50.075044
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Depo Hostivař",
+        "alternate_names": [
+          "Hostivař depot"
+        ],
+        "line": "PRAGA",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.576777,
+          50.108933
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Černý Most",
+        "line": "PRAGB",
+        "order": 0
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.560499,
+          50.106844
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Rajská zahrada",
+        "line": "PRAGB",
+        "order": 1
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.536646,
+          50.10665
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Hloubětín",
+        "line": "PRAGB",
+        "order": 2
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.516579,
+          50.110384
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Kolbenova",
+        "line": "PRAGB",
+        "order": 3
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.501272,
+          50.110115
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Vysočanská",
+        "line": "PRAGB",
+        "order": 4
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.491625,
+          50.106081
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Českomoravská",
+        "line": "PRAGB",
+        "order": 5
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.47434,
+          50.10392
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Palmovka",
+        "line": "PRAGB",
+        "order": 6
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.463526,
+          50.096951
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Invalidovna",
+        "line": "PRAGB",
+        "order": 7
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.451785,
+          50.09339
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Křižíkova",
+        "line": "PRAGB",
+        "order": 8
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.437535,
+          50.090474
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Florenc",
+        "line": "PRAGB",
+        "order": 9
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.430639,
+          50.088799
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Náměstí Republiky",
+        "alternate_names": [
+          "Republic Square"
+        ],
+        "line": "PRAGB",
+        "order": 10
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.423345,
+          50.083413
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Můstek",
+        "line": "PRAGB",
+        "order": 11
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.420295,
+          50.079952
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Národní třída",
+        "line": "PRAGB",
+        "order": 12
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.416928,
+          50.074583
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Karlovo náměstí",
+        "alternate_names": [
+          "Charles Square"
+        ],
+        "line": "PRAGB",
+        "order": 13
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.403919,
+          50.070247
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Anděl",
+        "line": "PRAGB",
+        "order": 14
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.40909,
+          50.061198
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Smíchovské nádraží",
+        "line": "PRAGB",
+        "order": 15
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.38775,
+          50.058115
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Radlická",
+        "line": "PRAGB",
+        "order": 16
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.369769,
+          50.054176
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Jinonice",
+        "line": "PRAGB",
+        "order": 17
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.352134,
+          50.050846
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Nové Butovice",
+        "line": "PRAGB",
+        "order": 18
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.342789,
+          50.050011
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Hůrka",
+        "line": "PRAGB",
+        "order": 19
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.330481,
+          50.044504
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Lužiny",
+        "line": "PRAGB",
+        "order": 20
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.321378,
+          50.045675
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Luka",
+        "line": "PRAGB",
+        "order": 21
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.306217,
+          50.046677
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Stodůlky",
+        "line": "PRAGB",
+        "order": 22
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.291165,
+          50.053242
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Zličín",
+        "line": "PRAGB",
+        "order": 23
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.516215,
+          50.124734
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Letňany",
+        "line": "PRAGC",
+        "order": 0
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.498497,
+          50.119334
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Prosek",
+        "line": "PRAGC",
+        "order": 1
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.489592,
+          50.126174
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Střížkov",
+        "line": "PRAGC",
+        "order": 2
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.469579,
+          50.126637
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Ládví",
+        "line": "PRAGC",
+        "order": 3
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.454235,
+          50.124138
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Kobylisy",
+        "line": "PRAGC",
+        "order": 4
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.440134,
+          50.109009
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Nádraží Holešovice",
+        "line": "PRAGC",
+        "order": 5
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.438507,
+          50.100166
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Vltavská",
+        "line": "PRAGC",
+        "order": 6
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.439262,
+          50.090219
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Florenc",
+        "line": "PRAGC",
+        "order": 7
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.434126,
+          50.083504
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Hlavní nádraží",
+        "alternate_names": [
+          "Main"
+        ],
+        "line": "PRAGC",
+        "order": 8
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.431139,
+          50.080272
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Muzeum",
+        "alternate_names": [
+          "Museum"
+        ],
+        "line": "PRAGC",
+        "order": 9
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.430311,
+          50.07433
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "I. P. Pavlova",
+        "line": "PRAGC",
+        "order": 10
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.43052,
+          50.063172
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Vyšehrad",
+        "line": "PRAGC",
+        "order": 11
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.433362,
+          50.056826
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Pražského povstání",
+        "line": "PRAGC",
+        "order": 12
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.43963,
+          50.051077
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Pankrác",
+        "line": "PRAGC",
+        "order": 13
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.448761,
+          50.044417
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Budějovická",
+        "line": "PRAGC",
+        "order": 14
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.459293,
+          50.041845
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Kačerov",
+        "line": "PRAGC",
+        "order": 15
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.477093,
+          50.037557
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Roztyly",
+        "line": "PRAGC",
+        "order": 16
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.491142,
+          50.031582
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Chodov",
+        "line": "PRAGC",
+        "order": 17
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.509207,
+          50.027898
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Opatov",
+        "line": "PRAGC",
+        "order": 18
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.527235,
+          50.030867
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Háje",
+        "line": "PRAGC",
+        "order": 19
+      },
+      "id": 59
+    }
+  ]
+}

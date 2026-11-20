@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.942993,
+          35.836794
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Chehel-O-Panj Metri Golshahr",
+        "alternate_names": [
+          "ایستگاه مترو ۴۵ متری گلشهر",
+          "خمسة وأربعون مترا من غلشهر",
+          "۴۵ متری گلشهر",
+          "गुलशहर से पैंतालीस मीटर"
+        ],
+        "line": "KARA2",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.968537,
+          35.828859
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Rajaei Shahr",
+        "alternate_names": [
+          "ایستگاه مترو رجایی‌شهر",
+          "رجايي شهر",
+          "رجایی‌شهر",
+          "रजाई शहर"
+        ],
+        "line": "KARA2",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.988327,
+          35.822161
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Ayatollah Taleghani",
+        "alternate_names": [
+          "ایستگاه مترو آیت الله طالقانی",
+          "مفترق طالقاني",
+          "چهارراه طالقانی",
+          "तालिकानी चौराहा"
+        ],
+        "line": "KARA2",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.005983,
+          35.785883
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shahid Soltani",
+        "alternate_names": [
+          "ایستگاه مترو شهید سلطانی",
+          "الشهيد سلطاني",
+          "شهید سلطانی",
+          "शहीद सुल्तानी"
+        ],
+        "line": "KARA2",
+        "order": 3
+      },
+      "id": 3
+    }
+  ]
+}

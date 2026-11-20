@@ -1,0 +1,991 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.798501,
+          10.478805
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Palo Verde",
+        "line": "CCS1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.807224,
+          10.478661
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Petare",
+        "line": "CCS1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.818345,
+          10.482027
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "La California",
+        "line": "CCS1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.826761,
+          10.489533
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Los Cortijos",
+        "line": "CCS1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.832318,
+          10.494229
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Los Dos Caminos",
+        "line": "CCS1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.841409,
+          10.497375
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Miranda",
+        "line": "CCS1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.848834,
+          10.495501
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Altamira",
+        "line": "CCS1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.854556,
+          10.493078
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Chacao",
+        "line": "CCS1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.868354,
+          10.490991
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Chacaíto",
+        "line": "CCS1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8762,
+          10.493851
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Sabana Grande",
+        "line": "CCS1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.881519,
+          10.495821
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Plaza Venezuela",
+        "line": "CCS1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.892496,
+          10.501223
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Colegio de Ingenieros",
+        "line": "CCS1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.901106,
+          10.501291
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bellas Artes",
+        "line": "CCS1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.905432,
+          10.50239
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Parque Carabobo",
+        "line": "CCS1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.910527,
+          10.50337
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "La Hoyada",
+        "line": "CCS1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.917601,
+          10.504897
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Capitolio",
+        "line": "CCS1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.923285,
+          10.508755
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Caño Amarillo",
+        "line": "CCS1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.930762,
+          10.513332
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Agua Salud",
+        "line": "CCS1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9394,
+          10.51563
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Gato Negro",
+        "line": "CCS1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.946399,
+          10.514529
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Plaza Sucre",
+        "line": "CCS1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.947794,
+          10.508442
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Pérez Bonalde",
+        "line": "CCS1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.955963,
+          10.504694
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Propatria",
+        "line": "CCS1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.972706,
+          10.432901
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Zoológico",
+        "line": "CCS2",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.981247,
+          10.434762
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Caricuao",
+        "line": "CCS2",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.986595,
+          10.459044
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Mamera",
+        "line": "CCS2",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.978577,
+          10.465476
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Antímano",
+        "line": "CCS2",
+        "order": 3
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.970959,
+          10.470803
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Carapita",
+        "line": "CCS2",
+        "order": 4
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.959485,
+          10.47686
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "La Yaguara",
+        "line": "CCS2",
+        "order": 5
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.948098,
+          10.483701
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "La Paz",
+        "line": "CCS2",
+        "order": 6
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.941298,
+          10.491017
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Artigas",
+        "line": "CCS2",
+        "order": 7
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.932687,
+          10.495457
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Maternidad",
+        "line": "CCS2",
+        "order": 8
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.925358,
+          10.498895
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Capuchinos",
+        "line": "CCS2",
+        "order": 9
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.918813,
+          10.506035
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "El Silencio",
+        "line": "CCS2",
+        "order": 10
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.012917,
+          10.425558
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Las Adjuntas",
+        "line": "CCS2",
+        "order": 11
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.997109,
+          10.437097
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Ruiz Pineda",
+        "line": "CCS2",
+        "order": 12
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.881229,
+          10.495759
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Plaza Venezuela",
+        "line": "CCS3",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.889187,
+          10.4881
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Ciudad Universitaria",
+        "line": "CCS3",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.895142,
+          10.483741
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Los Símbolos",
+        "line": "CCS3",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.900938,
+          10.479435
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "La Bandera",
+        "line": "CCS3",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.904964,
+          10.468466
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "El Valle",
+        "line": "CCS3",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.916566,
+          10.458991
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Los Jardines",
+        "line": "CCS3",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.923433,
+          10.447798
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Coche",
+        "line": "CCS3",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.926026,
+          10.440433
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Mercado",
+        "line": "CCS3",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.936409,
+          10.434658
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "La Rinconada",
+        "line": "CCS3",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.925415,
+          10.498973
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Capuchinos",
+        "line": "CCS4",
+        "order": 0
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.916696,
+          10.501036
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Teatros",
+        "line": "CCS4",
+        "order": 1
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.908715,
+          10.499346
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Nuevo Circo",
+        "line": "CCS4",
+        "order": 2
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.902075,
+          10.497941
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Parque Central",
+        "line": "CCS4",
+        "order": 3
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.882946,
+          10.495107
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Zona Rental",
+        "line": "CCS4",
+        "order": 4
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.87489,
+          10.487284
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Bello Monte",
+        "line": "CCS4",
+        "order": 5
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.806372,
+          10.478846
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Petare II",
+        "line": "CCSCT",
+        "order": 0
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.80402,
+          10.482759
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "19 de Abril",
+        "line": "CCSCT",
+        "order": 1
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.803485,
+          10.485625
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "5 de Julio",
+        "line": "CCSCT",
+        "order": 2
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.038245,
+          10.341039
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Independencia",
+        "line": "LTQ1",
+        "order": 0
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.042751,
+          10.346154
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Guaicaipuro",
+        "line": "LTQ1",
+        "order": 1
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.038892,
+          10.35242
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Alí Primera",
+        "line": "LTQ1",
+        "order": 2
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.029378,
+          10.361552
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Ayacucho",
+        "line": "LTQ1",
+        "order": 3
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.012772,
+          10.425481
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Las Adjuntas",
+        "line": "LTQ1",
+        "order": 4
+      },
+      "id": 57
+    }
+  ]
+}

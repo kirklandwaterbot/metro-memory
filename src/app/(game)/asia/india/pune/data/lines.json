@@ -1,0 +1,26 @@
+{
+  "PUNE1": {
+    "name": "Purple Line",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "PUNE1.svg"
+  },
+  "PUNE2": {
+    "name": "Aqua Line",
+    "color": "#00B3E3",
+    "backgroundColor": "#00B3E3",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "PUNE2.svg"
+  },
+  "PUNE3": {
+    "name": "Pink Line",
+    "color": "#F91C91",
+    "backgroundColor": "#F91C91",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "PUNE3.svg"
+  }
+}

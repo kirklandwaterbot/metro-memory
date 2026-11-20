@@ -146,7 +146,13 @@ async function resolveTranslation({
   }
 
   if (backend === 'copy') {
-    return { value: englishValue.value, source: 'copy' }
+    // Copying the English made untranslated text look translated and hid gaps
+    // from i18n-check. Translations are now written by hand or by a coding agent
+    // (see "Translations" in AGENTS.md); Ollama remains as an optional helper.
+    throw new Error(
+      'The "copy" backend was removed: it filled languages with English text. ' +
+        'Add real translations (see AGENTS.md) or use --backend=ollama.',
+    )
   }
 
   if (backend === 'ollama') {
@@ -161,7 +167,7 @@ async function resolveTranslation({
 
 async function main() {
   const args = parseArgs(process.argv.slice(2))
-  const backend = String(args.backend || 'copy')
+  const backend = String(args.backend || 'ollama')
   const model = String(args.model || 'qwen2.5:7b-instruct')
   const ollamaUrl = String(args['ollama-url'] || 'http://127.0.0.1:11434/api/generate')
   const dryRun = Boolean(args['dry-run'])

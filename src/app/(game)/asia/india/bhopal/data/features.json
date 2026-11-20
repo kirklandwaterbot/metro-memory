@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.456049,
+          23.209843
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "AIIMS",
+        "line": "BHOP1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.451039,
+          23.216484
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Alkapuri",
+        "alternate_names": [
+          "अलकापुरी"
+        ],
+        "line": "BHOP1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.443271,
+          23.216162
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "DRM Office",
+        "alternate_names": [
+          "डी आर एम ऑफिस"
+        ],
+        "line": "BHOP1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.438351,
+          23.221271
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Rani Kamalapati",
+        "alternate_names": [
+          "रानी कमलापति रेलवे स्टेशन"
+        ],
+        "line": "BHOP1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.435206,
+          23.227653
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "MP Nagar",
+        "alternate_names": [
+          "एम पी नगर"
+        ],
+        "line": "BHOP1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.431667,
+          23.232464
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Board Office Chauraha",
+        "alternate_names": [
+          "बोर्ड ऑफिस चौराहा"
+        ],
+        "line": "BHOP1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.431582,
+          23.240245
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Kendriya Vidyalaya",
+        "alternate_names": [
+          "केन्द्रीय विद्यालय"
+        ],
+        "line": "BHOP1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.429998,
+          23.247797
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Subhash Nagar",
+        "alternate_names": [
+          "सुभाष नगर"
+        ],
+        "line": "BHOP1",
+        "order": 7
+      },
+      "id": 7
+    }
+  ]
+}

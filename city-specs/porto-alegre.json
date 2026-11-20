@@ -1,0 +1,62 @@
+{
+  "slug": "porto-alegre",
+  "path": "south-america/brazil/porto-alegre",
+  "gameTitle": "Porto Alegre Metro Memory",
+  "description": "How many Trensurb stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -30.1,
+    -51.26,
+    -29.64,
+    -51.04
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "primaryBeforeSlash": true,
+  "lineGroups": [
+    {
+      "title": "Trensurb",
+      "lines": [
+        "POA1",
+        "POAAM"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "POA1",
+      "name": "Linha 1",
+      "match": {
+        "route": "subway",
+        "network": "Trensurb",
+        "ref": "^1$"
+      },
+      "color": "#000080"
+    },
+    {
+      "id": "POAAM",
+      "name": "Aeromóvel",
+      "match": {
+        "route": "subway",
+        "network": "Trensurb",
+        "ref": "Aeroporto"
+      },
+      "color": "#555555"
+    }
+  ],
+  "register": {
+    "name": "Porto Alegre, BR",
+    "continent": "South America",
+    "coordinates": [
+      -51.2177,
+      -30.0346
+    ],
+    "achievement": {
+      "title": "Gaúcho Glider",
+      "description": "You've named every Trensurb station."
+    }
+  },
+  "rename": {
+    "Aeromóvel": "Terminal 1"
+  }
+}

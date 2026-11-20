@@ -1,0 +1,75 @@
+{
+  "slug": "agra",
+  "path": "asia/india/agra",
+  "gameTitle": "Agra Metro Memory",
+  "description": "How many Agra Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    27.072,
+    77.898,
+    27.288,
+    78.142
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Agra Metro",
+      "lines": [
+        "AGRA1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "AGRA1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(16087452|17332150)$"
+      },
+      "color": "#FFD700",
+      "textColor": "#222222",
+      "badge": "1",
+      "icon": "AGRA1.svg"
+    }
+  ],
+  "register": {
+    "name": "Agra (आगरा), IN",
+    "continent": "Asia",
+    "coordinates": [
+      78.02,
+      27.18
+    ],
+    "zh": "阿格拉, IN",
+    "achievement": {
+      "title": "Agra Metro Master",
+      "description": "You've named every Agra Metro station."
+    }
+  }
+}

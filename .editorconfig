@@ -1,0 +1,6 @@
+root = true
+
+# Every text file in this repo is UTF-8 without a byte-order mark.
+[*]
+charset = utf-8
+insert_final_newline = true

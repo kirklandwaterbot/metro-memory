@@ -1,6 +1,6 @@
 {
   "SeoulSubway1Hoseon": {
-    "name": "1호선",
+    "name": "Line 1",
     "color": "#00498B",
     "backgroundColor": "#002446",
     "textColor": "#FFFFFF",
@@ -8,7 +8,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway1Hoseon.svg"
   },
   "SeoulSubway2Hoseon": {
-    "name": "2호선",
+    "name": "Line 2",
     "color": "#009246",
     "backgroundColor": "#004923",
     "textColor": "#FFFFFF",
@@ -16,7 +16,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway2Hoseon.svg"
   },
   "SeoulSubway3Hoseon": {
-    "name": "3호선",
+    "name": "Line 3",
     "color": "#F36630",
     "backgroundColor": "#8A2C08",
     "textColor": "#FFFFFF",
@@ -24,7 +24,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway3Hoseon.svg"
   },
   "SeoulSubway4Hoseon": {
-    "name": "4호선",
+    "name": "Line 4",
     "color": "#00A2D1",
     "backgroundColor": "#005169",
     "textColor": "#FFFFFF",
@@ -32,7 +32,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway4Hoseon.svg"
   },
   "SeoulSubway5Hoseon": {
-    "name": "5호선",
+    "name": "Line 5",
     "color": "#A064A3",
     "backgroundColor": "#513153",
     "textColor": "#FFFFFF",
@@ -40,7 +40,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway5Hoseon.svg"
   },
   "SeoulSubway6Hoseon": {
-    "name": "6호선",
+    "name": "Line 6",
     "color": "#9E4510",
     "backgroundColor": "#4F2308",
     "textColor": "#FFFFFF",
@@ -48,7 +48,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway6Hoseon.svg"
   },
   "SeoulSubway7Hoseon": {
-    "name": "7호선",
+    "name": "Line 7",
     "color": "#5D6519",
     "backgroundColor": "#2E330C",
     "textColor": "#FFFFFF",
@@ -56,7 +56,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway7Hoseon.svg"
   },
   "SeoulSubway8Hoseon": {
-    "name": "8호선",
+    "name": "Line 8",
     "color": "#D6406A",
     "backgroundColor": "#721932",
     "textColor": "#FFFFFF",
@@ -64,7 +64,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway8Hoseon.svg"
   },
   "SeoulSubway9Hoseon": {
-    "name": "9호선",
+    "name": "Line 9",
     "color": "#8E764B",
     "backgroundColor": "#473B25",
     "textColor": "#FFFFFF",
@@ -72,7 +72,7 @@
     "icon": "asia/south-korea/seoul/SeoulSubway9Hoseon.svg"
   },
   "SeoulMTRGyeonggangseon": {
-    "name": "경강선",
+    "name": "Gyeonggang Line",
     "color": "#0086CD",
     "backgroundColor": "#004367",
     "textColor": "#FFFFFF",
@@ -80,7 +80,7 @@
     "icon": "asia/south-korea/seoul/SeoulMTRGyeonggangseon.svg"
   },
   "SeoulMTRGyeongyijungangseon": {
-    "name": "경의중앙선",
+    "name": "Gyeongui–Jungang Line",
     "color": "#72C7A6",
     "backgroundColor": "#2C7056",
     "textColor": "#FFFFFF",
@@ -88,7 +88,7 @@
     "icon": "asia/south-korea/seoul/SeoulMTRGyeongyijungangseon.svg"
   },
   "SeoulMTRGyeongcunseon": {
-    "name": "경춘선",
+    "name": "Gyeongchun Line",
     "color": "#048F73",
     "backgroundColor": "#02483A",
     "textColor": "#FFFFFF",
@@ -96,7 +96,7 @@
     "icon": "asia/south-korea/seoul/SeoulMTRGyeongcunseon.svg"
   },
   "SeoulAirportRailroadGonghangceoldo": {
-    "name": "공항철도",
+    "name": "AREX",
     "color": "#006D9D",
     "backgroundColor": "#00364F",
     "textColor": "#FFFFFF",
@@ -104,7 +104,7 @@
     "icon": "asia/south-korea/seoul/SeoulAirportRailroadGonghangceoldo.svg"
   },
   "SeoulMTRSuinbundangseon": {
-    "name": "수인분당선",
+    "name": "Suin–Bundang Line",
     "color": "#F99D1C",
     "backgroundColor": "#875004",
     "textColor": "#FFFFFF",
@@ -112,7 +112,7 @@
     "icon": "asia/south-korea/seoul/SeoulMTRSuinbundangseon.svg"
   },
   "SeoulMTRSinbundangseon": {
-    "name": "신분당선",
+    "name": "Shinbundang Line",
     "color": "#BB1833",
     "backgroundColor": "#5E0C1A",
     "textColor": "#FFFFFF",
@@ -120,7 +120,7 @@
     "icon": "asia/south-korea/seoul/SeoulMTRSinbundangseon.svg"
   },
   "SeoulIncheonMetroInceon1Hoseon": {
-    "name": "인천1호선",
+    "name": "Incheon Line 1",
     "color": "#6E98BB",
     "backgroundColor": "#2F4D65",
     "textColor": "#FFFFFF",
@@ -128,7 +128,7 @@
     "icon": "asia/south-korea/seoul/SeoulIncheonMetroInceon1Hoseon.svg"
   },
   "CM_SeoulIncheonMetro2_inceon2hoseon": {
-    "name": "인천2호선",
+    "name": "Incheon Line 2",
     "color": "#ED8000",
     "backgroundColor": "#764000",
     "textColor": "#FFFFFF",
@@ -136,7 +136,7 @@
     "icon": "asia/south-korea/seoul/CM_SeoulIncheonMetro2_inceon2hoseon.svg"
   },
   "CM_SeoulLightRailTransit_gimpogoldeurain": {
-    "name": "김포골드라인",
+    "name": "Gimpo Goldline",
     "color": "#AD8605",
     "backgroundColor": "#574302",
     "textColor": "#FFFFFF",
@@ -144,7 +144,7 @@
     "icon": "asia/south-korea/seoul/CM_SeoulLightRailTransit_gimpogoldeurain.svg"
   },
   "SeoulLightRailTransitSeohaeseon": {
-    "name": "서해선",
+    "name": "Seohae Line",
     "color": "#8EC31E",
     "backgroundColor": "#47620F",
     "textColor": "#FFFFFF",
@@ -152,7 +152,7 @@
     "icon": "asia/south-korea/seoul/SeoulLightRailTransitSeohaeseon.svg"
   },
   "SeoulLightRailTransitSinrimseon": {
-    "name": "신림선",
+    "name": "Sillim Line",
     "color": "#6789ca",
     "backgroundColor": "#274171",
     "textColor": "#FFFFFF",
@@ -160,7 +160,7 @@
     "icon": "asia/south-korea/seoul/SeoulLightRailTransitSinrimseon.svg"
   },
   "SeoulLightRailTransitEverline": {
-    "name": "에버라인",
+    "name": "Yongin EverLine",
     "color": "#509F22",
     "backgroundColor": "#285011",
     "textColor": "#FFFFFF",
@@ -168,7 +168,7 @@
     "icon": "asia/south-korea/seoul/SeoulLightRailTransitEverline.svg"
   },
   "SeoulLightRailTransitUisinseolgyeongjeonceol": {
-    "name": "우이신설경전철",
+    "name": "Ui–Sinseol Line",
     "color": "#B8C551",
     "backgroundColor": "#606823",
     "textColor": "#FFFFFF",
@@ -176,7 +176,7 @@
     "icon": "asia/south-korea/seoul/SeoulLightRailTransitUisinseolgyeongjeonceol.svg"
   },
   "SeoulLightRailTransitUijeongbu": {
-    "name": "의정부경전철",
+    "name": "Uijeongbu LRT",
     "color": "#FDA800",
     "backgroundColor": "#7F5400",
     "textColor": "#FFFFFF",

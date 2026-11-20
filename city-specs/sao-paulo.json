@@ -1,0 +1,240 @@
+{
+  "slug": "sao-paulo",
+  "path": "south-america/brazil/sao-paulo",
+  "gameTitle": "São Paulo Metro Memory",
+  "description": "How many São Paulo Metrô and CPTM stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -23.85,
+    -47.0,
+    -23.15,
+    -46.12
+  ],
+  "stripPrefix": "^Estação ",
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "splitHyphen": true,
+  "lineGroups": [
+    {
+      "title": "Metrô de São Paulo",
+      "lines": [
+        "SP1",
+        "SP2",
+        "SP3",
+        "SP4",
+        "SP5",
+        "SP6",
+        "SP15",
+        "SP17"
+      ]
+    },
+    {
+      "title": "Trens Metropolitanos",
+      "lines": [
+        "SP7",
+        "SP8",
+        "SP9",
+        "SP10",
+        "SP11",
+        "SP12",
+        "SP13"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SP1",
+      "name": "Linha 1-Azul",
+      "match": {
+        "route": "subway",
+        "network": "Metrô de São Paulo",
+        "ref": "^1$",
+        "name": "^Linha"
+      },
+      "color": "#0455A1"
+    },
+    {
+      "id": "SP2",
+      "name": "Linha 2-Verde",
+      "match": {
+        "route": "subway",
+        "network": "Metrô de São Paulo",
+        "ref": "^2$",
+        "name": "^Linha"
+      },
+      "color": "#007E5E"
+    },
+    {
+      "id": "SP3",
+      "name": "Linha 3-Vermelha",
+      "match": {
+        "route": "subway",
+        "network": "Metrô de São Paulo",
+        "ref": "^3$",
+        "name": "^Linha"
+      },
+      "color": "#EE372F"
+    },
+    {
+      "id": "SP4",
+      "name": "Linha 4-Amarela",
+      "match": {
+        "route": "subway",
+        "network": "Metrô de São Paulo",
+        "ref": "^4$",
+        "name": "^Linha"
+      },
+      "color": "#FFD700",
+      "textColor": "#000000"
+    },
+    {
+      "id": "SP5",
+      "name": "Linha 5-Lilás",
+      "match": {
+        "route": "subway",
+        "network": "Metrô de São Paulo",
+        "ref": "^5$",
+        "name": "^Linha"
+      },
+      "color": "#9B3894"
+    },
+    {
+      "id": "SP6",
+      "name": "Linha 6-Laranja",
+      "match": {
+        "route": "subway",
+        "network": "Metrô de São Paulo",
+        "ref": "^6$",
+        "name": "^Linha"
+      },
+      "color": "#F96815"
+    },
+    {
+      "id": "SP15",
+      "name": "Linha 15-Prata",
+      "match": {
+        "route": "monorail",
+        "network": "Metrô de São Paulo",
+        "ref": "^15$",
+        "name": "^Linha"
+      },
+      "color": "#868D8B"
+    },
+    {
+      "id": "SP17",
+      "name": "Linha 17-Ouro",
+      "match": {
+        "route": "monorail",
+        "network": "Metrô de São Paulo",
+        "ref": "^17$",
+        "name": "^Linha"
+      },
+      "color": "#DE7C00",
+      "addStations": [
+        {
+          "name": "Washington Luís",
+          "coordinates": [
+            -46.6683534,
+            -23.6344705
+          ],
+          "after": "Vereador José Diniz"
+        }
+      ]
+    },
+    {
+      "id": "SP7",
+      "name": "Linha 7-Rubi",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^7$",
+        "name": "^Linha"
+      },
+      "color": "#A8034F"
+    },
+    {
+      "id": "SP8",
+      "name": "Linha 8-Diamante",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^8$",
+        "name": "^Linha"
+      },
+      "color": "#97A098"
+    },
+    {
+      "id": "SP9",
+      "name": "Linha 9-Esmeralda",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^9$",
+        "name": "^Linha"
+      },
+      "color": "#01A9A7"
+    },
+    {
+      "id": "SP10",
+      "name": "Linha 10-Turquesa",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^10$",
+        "name": "^Linha"
+      },
+      "color": "#049FC3",
+      "addStations": [
+        {
+          "name": "Tamanduateí",
+          "after": "Ipiranga"
+        }
+      ]
+    },
+    {
+      "id": "SP11",
+      "name": "Linha 11-Coral",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^11$",
+        "name": "^Linha"
+      },
+      "color": "#F68368"
+    },
+    {
+      "id": "SP12",
+      "name": "Linha 12-Safira",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^12$",
+        "name": "^Linha"
+      },
+      "color": "#133C8D"
+    },
+    {
+      "id": "SP13",
+      "name": "Linha 13-Jade",
+      "match": {
+        "route": "train",
+        "network": "Companhia Paulista|Trem Metropolitano",
+        "ref": "^13$",
+        "name": "^Linha"
+      },
+      "color": "#00B352"
+    }
+  ],
+  "register": {
+    "name": "São Paulo, BR",
+    "continent": "South America",
+    "coordinates": [
+      -46.6333,
+      -23.5505
+    ],
+    "achievement": {
+      "title": "Paulistano Pro",
+      "description": "You've named every Metrô and CPTM station in São Paulo."
+    }
+  }
+}

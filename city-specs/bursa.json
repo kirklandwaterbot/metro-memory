@@ -1,0 +1,62 @@
+{
+  "slug": "bursa",
+  "path": "europe/turkey/bursa",
+  "gameTitle": "Bursa Metro Memory",
+  "description": "How many Bursaray stations can you name from memory?",
+  "locale": "tr_TR",
+  "bbox": [
+    40.038,
+    28.838,
+    40.362,
+    29.262
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Bursaray",
+      "lines": [
+        "BURSB1",
+        "BURSB2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BURSB1",
+      "name": "Line B1",
+      "match": {
+        "@id": "^(7868620|7868723)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "B1",
+      "icon": "BURSB1.svg"
+    },
+    {
+      "id": "BURSB2",
+      "name": "Line B2",
+      "match": {
+        "@id": "^(7869620|7869621)$"
+      },
+      "color": "#333333",
+      "textColor": "#FFFFFF",
+      "badge": "B2",
+      "icon": "BURSB2.svg"
+    }
+  ],
+  "register": {
+    "name": "Bursa, TR",
+    "continent": "Europe",
+    "coordinates": [
+      29.05,
+      40.2
+    ],
+    "zh": "布尔萨, TR",
+    "achievement": {
+      "title": "Bursaray Master",
+      "description": "You've named every Bursaray station."
+    }
+  }
+}

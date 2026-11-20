@@ -41,7 +41,7 @@ export interface Line {
   color: string
   backgroundColor: string
   textColor: string
-  badgeShape?: 'circle' | 'capsule' | 'square' | 'wide'
+  badgeShape?: 'circle' | 'capsule' | 'square' | 'wide' | 'diamond'
   badgeFit?: 'contain' | 'cover'
   badgeAspectRatio?: number
   progressOutlineColor?: string

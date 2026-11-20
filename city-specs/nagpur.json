@@ -1,0 +1,88 @@
+{
+  "slug": "nagpur",
+  "path": "asia/india/nagpur",
+  "gameTitle": "Nagpur Metro Memory",
+  "description": "How many Nagpur Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    21.006,
+    78.925,
+    21.294,
+    79.235
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "localStrip": "\\s*[\\(\\[](?:Ligne|Line)\\s+\\w+[\\)\\]]$|\\s*\\((?:\\w+\\s+)?Line\\)$|\\s+RMRG$",
+  "lineGroups": [
+    {
+      "title": "Nagpur Metro",
+      "lines": [
+        "NAGPAQUALINE",
+        "NAGPORANGELI"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "NAGPAQUALINE",
+      "name": "Aqua Line",
+      "match": {
+        "@id": "^(10659361|10659362)$"
+      },
+      "color": "#00B3E3",
+      "textColor": "#FFFFFF",
+      "badge": "A",
+      "icon": "NAGPAQUALINE.svg"
+    },
+    {
+      "id": "NAGPORANGELI",
+      "name": "Orange Line",
+      "match": {
+        "@id": "^(9565725|9571556)$"
+      },
+      "color": "#F7941D",
+      "textColor": "#FFFFFF",
+      "badge": "O",
+      "icon": "NAGPORANGELI.svg"
+    }
+  ],
+  "register": {
+    "name": "Nagpur (नागपूर), IN",
+    "continent": "Asia",
+    "coordinates": [
+      79.08,
+      21.15
+    ],
+    "zh": "那格浦尔, IN",
+    "achievement": {
+      "title": "Nagpur Metro Master",
+      "description": "You've named every Nagpur Metro station."
+    }
+  }
+}

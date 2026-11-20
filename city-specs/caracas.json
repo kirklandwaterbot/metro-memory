@@ -1,0 +1,118 @@
+{
+  "slug": "caracas",
+  "path": "south-america/venezuela/caracas",
+  "gameTitle": "Caracas Metro Memory",
+  "description": "How many Metro de Caracas, Cabletrén and Los Teques stations can you name from memory?",
+  "locale": "es_VE",
+  "bbox": [
+    10.3,
+    -67.1,
+    10.56,
+    -66.74
+  ],
+  "stripPrefix": "^Cabletr[eé]n ",
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Caracas",
+      "lines": [
+        "CCS1",
+        "CCS2",
+        "CCS3",
+        "CCS4",
+        "CCSCT"
+      ]
+    },
+    {
+      "title": "Metro de Los Teques",
+      "lines": [
+        "LTQ1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "CCS1",
+      "name": "Línea 1",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Caracas",
+        "ref": "^L1$"
+      },
+      "color": "#FF7400"
+    },
+    {
+      "id": "CCS2",
+      "name": "Línea 2",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Caracas",
+        "ref": "^L2$"
+      },
+      "color": "#00A651"
+    },
+    {
+      "id": "CCS3",
+      "name": "Línea 3",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Caracas",
+        "ref": "^L3$"
+      },
+      "color": "#0887FF"
+    },
+    {
+      "id": "CCS4",
+      "name": "Línea 4",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Caracas",
+        "ref": "^L4$"
+      },
+      "color": "#FFD200",
+      "textColor": "#000000",
+      "between": [
+        "Capuchinos",
+        "Zona Rental"
+      ],
+      "addStations": [
+        {
+          "name": "Bello Monte",
+          "after": "Zona Rental"
+        }
+      ]
+    },
+    {
+      "id": "CCSCT",
+      "name": "Cabletrén Bolivariano",
+      "match": {
+        "route": "light_rail",
+        "network": "Cabletrén"
+      },
+      "color": "#008F75"
+    },
+    {
+      "id": "LTQ1",
+      "name": "Los Teques Línea 1",
+      "match": {
+        "route": "subway",
+        "network": "Los Teques",
+        "ref": "^T1$"
+      },
+      "color": "#1E4FA1"
+    }
+  ],
+  "register": {
+    "name": "Caracas, VE",
+    "continent": "South America",
+    "coordinates": [
+      -66.9036,
+      10.4806
+    ],
+    "achievement": {
+      "title": "Caraqueño Commuter",
+      "description": "You've named every Metro de Caracas station."
+    }
+  }
+}

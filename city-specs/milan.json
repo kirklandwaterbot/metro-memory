@@ -1,0 +1,98 @@
+{
+  "slug": "milan",
+  "path": "europe/italy/milan",
+  "gameTitle": "Milan Metro Memory",
+  "description": "How many Milan Metro stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    45.308,
+    8.959,
+    45.632,
+    9.421
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Milan Metro",
+      "lines": [
+        "MILAM1",
+        "MILAM2",
+        "MILAM3",
+        "MILAM4",
+        "MILAM5"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MILAM1",
+      "name": "M1 Red",
+      "match": {
+        "@id": "^(919276|919277|919278|919279)$"
+      },
+      "color": "#EE333E",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "MILAM1.svg"
+    },
+    {
+      "id": "MILAM2",
+      "name": "M2 Green",
+      "match": {
+        "@id": "^(919290|919291|919292|919293|1576143|1576144)$"
+      },
+      "color": "#5D9842",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "MILAM2.svg"
+    },
+    {
+      "id": "MILAM3",
+      "name": "M3 Yellow",
+      "match": {
+        "@id": "^(919311|919312)$"
+      },
+      "color": "#FEBF2E",
+      "textColor": "#222222",
+      "badge": "M3",
+      "icon": "MILAM3.svg"
+    },
+    {
+      "id": "MILAM4",
+      "name": "M4 Blue",
+      "match": {
+        "@id": "^(14937462|14937463)$"
+      },
+      "color": "#224981",
+      "textColor": "#FFFFFF",
+      "badge": "M4",
+      "icon": "MILAM4.svg"
+    },
+    {
+      "id": "MILAM5",
+      "name": "M5 Lilac",
+      "match": {
+        "@id": "^(1275549|1275550)$"
+      },
+      "color": "#9D91C5",
+      "textColor": "#FFFFFF",
+      "badge": "M5",
+      "icon": "MILAM5.svg"
+    }
+  ],
+  "register": {
+    "name": "Milan, IT",
+    "continent": "Europe",
+    "coordinates": [
+      9.19,
+      45.47
+    ],
+    "zh": "米兰, IT",
+    "achievement": {
+      "title": "Milan Metro Master",
+      "description": "You've named every Milan Metro station."
+    }
+  }
+}

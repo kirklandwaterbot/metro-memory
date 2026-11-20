@@ -1,0 +1,3390 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6778,
+          45.061203
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Torino Porta Nuova",
+        "alternate_names": [
+          "Turin Porta Nuova"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.665855,
+          45.071577
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Torino Porta Susa",
+        "alternate_names": [
+          "Turin Porta Susa"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.204262,
+          45.485879
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Milano Centrale",
+        "alternate_names": [
+          "Milan Central"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.238601,
+          45.433595
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Milano Rogoredo",
+        "line": "ITFrecciarossaAV",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.655123,
+          44.7243
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Reggio Emilia AV Mediopadana",
+        "alternate_names": [
+          "Mediopadana",
+          "Reggio Emilia AV"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342818,
+          44.507188
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Bologna Centrale",
+        "line": "ITFrecciarossaAV",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.247418,
+          43.777572
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Firenze Santa Maria Novella",
+        "alternate_names": [
+          "Firenze SMN",
+          "Firenze S.M.N.",
+          "Florence Santa Maria Novella"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.502527,
+          41.900582
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Roma Termini",
+        "alternate_names": [
+          "Rome Termini"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.53156,
+          41.91119
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Roma Tiburtina",
+        "line": "ITFrecciarossaAV",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.331566,
+          40.931823
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Napoli Afragola",
+        "line": "ITFrecciarossaAV",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.27314,
+          40.853024
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Napoli Centrale",
+        "alternate_names": [
+          "Naples Central"
+        ],
+        "line": "ITFrecciarossaAV",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.772621,
+          40.675497
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Salerno",
+        "line": "ITFrecciarossaAV",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342818,
+          44.507188
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bologna Centrale",
+        "line": "ITFrecciarossaVenezia",
+        "order": 0
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.603903,
+          44.842878
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Ferrara",
+        "line": "ITFrecciarossaVenezia",
+        "order": 1
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.781292,
+          45.076997
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Rovigo",
+        "line": "ITFrecciarossaVenezia",
+        "order": 2
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.880498,
+          45.417742
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Padova",
+        "line": "ITFrecciarossaVenezia",
+        "order": 3
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.231702,
+          45.482462
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Venezia Mestre",
+        "alternate_names": [
+          "Mestre"
+        ],
+        "line": "ITFrecciarossaVenezia",
+        "order": 4
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.321032,
+          45.441075
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Venezia Santa Lucia",
+        "alternate_names": [
+          "Venezia S. Lucia",
+          "Venice Santa Lucia"
+        ],
+        "line": "ITFrecciarossaVenezia",
+        "order": 5
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.204262,
+          45.485879
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Milano Centrale",
+        "alternate_names": [
+          "Milan Central"
+        ],
+        "line": "ITTrasversalePadana",
+        "order": 0
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.212818,
+          45.532165
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Brescia",
+        "line": "ITTrasversalePadana",
+        "order": 1
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.536538,
+          45.462749
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Desenzano del Garda-Sirmione",
+        "line": "ITTrasversalePadana",
+        "order": 2
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.702309,
+          45.438575
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Peschiera del Garda",
+        "line": "ITTrasversalePadana",
+        "order": 3
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.982371,
+          45.429182
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Verona Porta Nuova",
+        "line": "ITTrasversalePadana",
+        "order": 4
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.540764,
+          45.541481
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Vicenza",
+        "line": "ITTrasversalePadana",
+        "order": 5
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.880498,
+          45.417742
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Padova",
+        "line": "ITTrasversalePadana",
+        "order": 6
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.231702,
+          45.482462
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Venezia Mestre",
+        "alternate_names": [
+          "Mestre"
+        ],
+        "line": "ITTrasversalePadana",
+        "order": 7
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.321032,
+          45.441075
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Venezia Santa Lucia",
+        "alternate_names": [
+          "Venezia S. Lucia",
+          "Venice Santa Lucia"
+        ],
+        "line": "ITTrasversalePadana",
+        "order": 8
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.231702,
+          45.482462
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Venezia Mestre",
+        "alternate_names": [
+          "Mestre"
+        ],
+        "line": "ITFriuli",
+        "order": 0
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.832221,
+          45.781216
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Portogruaro-Caorle",
+        "line": "ITFriuli",
+        "order": 1
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.000903,
+          45.777783
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Latisana-Lignano-Bibione",
+        "line": "ITFriuli",
+        "order": 2
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.34282,
+          45.823713
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Cervignano-Aquileia-Grado",
+        "line": "ITFriuli",
+        "order": 3
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.543043,
+          45.807512
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Monfalcone",
+        "line": "ITFriuli",
+        "order": 4
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.485537,
+          45.81743
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Trieste Airport",
+        "line": "ITFriuli",
+        "order": 5
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.771581,
+          45.658301
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Trieste Centrale",
+        "line": "ITFriuli",
+        "order": 6
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.231702,
+          45.482462
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Venezia Mestre",
+        "alternate_names": [
+          "Mestre"
+        ],
+        "line": "ITUdine",
+        "order": 0
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.245219,
+          45.660056
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Treviso Centrale",
+        "line": "ITUdine",
+        "order": 1
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.298996,
+          45.884697
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Conegliano",
+        "line": "ITUdine",
+        "order": 2
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.654223,
+          45.956491
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Pordenone",
+        "line": "ITUdine",
+        "order": 3
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.241926,
+          46.055927
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Udine",
+        "line": "ITUdine",
+        "order": 4
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.982371,
+          45.429182
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Verona Porta Nuova",
+        "line": "ITBrennero",
+        "order": 0
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.033906,
+          45.890823
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Rovereto",
+        "line": "ITBrennero",
+        "order": 1
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.119319,
+          46.072242
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Trento",
+        "line": "ITBrennero",
+        "order": 2
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.358805,
+          46.496429
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Bolzano",
+        "alternate_names": [
+          "Bolzano - Bozen",
+          "Bozen"
+        ],
+        "line": "ITBrennero",
+        "order": 3
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.204262,
+          45.485879
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Milano Centrale",
+        "alternate_names": [
+          "Milan Central"
+        ],
+        "line": "ITEmilia",
+        "order": 0
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.238601,
+          45.433595
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Milano Rogoredo",
+        "line": "ITEmilia",
+        "order": 1
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.497695,
+          45.309211
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Lodi",
+        "line": "ITEmilia",
+        "order": 2
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.706129,
+          45.05202
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Piacenza",
+        "line": "ITEmilia",
+        "order": 3
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.063423,
+          44.867621
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Fidenza",
+        "line": "ITEmilia",
+        "order": 4
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.328444,
+          44.809967
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Parma",
+        "line": "ITEmilia",
+        "order": 5
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.643268,
+          44.697623
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Reggio Emilia",
+        "line": "ITEmilia",
+        "order": 6
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.930529,
+          44.654331
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Modena",
+        "line": "ITEmilia",
+        "order": 7
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342818,
+          44.507188
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Bologna Centrale",
+        "line": "ITEmilia",
+        "order": 8
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342818,
+          44.507188
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Bologna Centrale",
+        "line": "ITAdriatica",
+        "order": 0
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.718727,
+          44.359341
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Imola",
+        "line": "ITAdriatica",
+        "order": 1
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.883222,
+          44.293591
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Faenza",
+        "line": "ITAdriatica",
+        "order": 2
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.054784,
+          44.224042
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Forlì",
+        "line": "ITAdriatica",
+        "order": 3
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.249479,
+          44.145395
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Cesena",
+        "line": "ITAdriatica",
+        "order": 4
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.573821,
+          44.063966
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Rimini",
+        "line": "ITAdriatica",
+        "order": 5
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.658739,
+          43.998979
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Riccione",
+        "line": "ITAdriatica",
+        "order": 6
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.745105,
+          43.959974
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Cattolica-San Giovanni-Gabicce",
+        "line": "ITAdriatica",
+        "order": 7
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.90484,
+          43.905961
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Pesaro",
+        "line": "ITAdriatica",
+        "order": 8
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.024704,
+          43.842921
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Fano",
+        "line": "ITAdriatica",
+        "order": 9
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.221753,
+          43.716256
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Senigallia",
+        "line": "ITAdriatica",
+        "order": 10
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.497593,
+          43.607407
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Ancona",
+        "line": "ITAdriatica",
+        "order": 11
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.725572,
+          43.309122
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Civitanova Marche-Montegranaro",
+        "line": "ITAdriatica",
+        "order": 12
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.797396,
+          43.179593
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Porto San Giorgio-Fermo",
+        "line": "ITAdriatica",
+        "order": 13
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.882224,
+          42.954379
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "San Benedetto del Tronto",
+        "line": "ITAdriatica",
+        "order": 14
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.965667,
+          42.751692
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Giulianova",
+        "line": "ITAdriatica",
+        "order": 15
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.015247,
+          42.677836
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Roseto degli Abruzzi",
+        "line": "ITAdriatica",
+        "order": 16
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.203958,
+          42.468623
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Pescara Centrale",
+        "line": "ITAdriatica",
+        "order": 17
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.407682,
+          42.353825
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Ortona",
+        "line": "ITAdriatica",
+        "order": 18
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.440483,
+          42.304845
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "San Vito-Lanciano",
+        "line": "ITAdriatica",
+        "order": 19
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.739442,
+          42.079932
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Vasto-San Salvo",
+        "line": "ITAdriatica",
+        "order": 20
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.992633,
+          42.000735
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Termoli",
+        "line": "ITAdriatica",
+        "order": 21
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.392597,
+          41.684547
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "San Severo",
+        "line": "ITAdriatica",
+        "order": 22
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.555825,
+          41.465921
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Foggia",
+        "line": "ITAdriatica",
+        "order": 23
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.278643,
+          41.315235
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Barletta",
+        "line": "ITAdriatica",
+        "order": 24
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.417687,
+          41.272696
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Trani",
+        "line": "ITAdriatica",
+        "order": 25
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.499503,
+          41.235425
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Bisceglie",
+        "line": "ITAdriatica",
+        "order": 26
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.59682,
+          41.195945
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Molfetta",
+        "line": "ITAdriatica",
+        "order": 27
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.870066,
+          41.117672
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Bari Centrale",
+        "line": "ITAdriatica",
+        "order": 28
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.292513,
+          40.952027
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Monopoli",
+        "line": "ITAdriatica",
+        "order": 29
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.385895,
+          40.851707
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Fasano",
+        "line": "ITAdriatica",
+        "order": 30
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.58086,
+          40.752305
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Ostuni",
+        "line": "ITAdriatica",
+        "order": 31
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.93905,
+          40.634164
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Brindisi Centrale",
+        "line": "ITAdriatica",
+        "order": 32
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.165722,
+          40.345681
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Lecce",
+        "line": "ITAdriatica",
+        "order": 33
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.502527,
+          41.900582
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Roma Termini",
+        "alternate_names": [
+          "Rome Termini"
+        ],
+        "line": "ITRomaNapoliFormia",
+        "order": 0
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.946307,
+          41.538208
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Latina",
+        "line": "ITRomaNapoliFormia",
+        "order": 1
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.606137,
+          41.258755
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Formia-Gaeta",
+        "line": "ITRomaNapoliFormia",
+        "order": 2
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.218384,
+          40.973283
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Aversa",
+        "line": "ITRomaNapoliFormia",
+        "order": 3
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.27314,
+          40.853024
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Napoli Centrale",
+        "alternate_names": [
+          "Naples Central"
+        ],
+        "line": "ITRomaNapoliFormia",
+        "order": 4
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.502527,
+          41.900582
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Roma Termini",
+        "alternate_names": [
+          "Rome Termini"
+        ],
+        "line": "ITRomaBari",
+        "order": 0
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.328236,
+          41.068526
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Caserta",
+        "line": "ITRomaBari",
+        "order": 1
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.770141,
+          41.141778
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Benevento",
+        "line": "ITRomaBari",
+        "order": 2
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.117493,
+          41.181916
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Ariano Irpino",
+        "line": "ITRomaBari",
+        "order": 3
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.555825,
+          41.465921
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Foggia",
+        "line": "ITRomaBari",
+        "order": 4
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.278643,
+          41.315235
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Barletta",
+        "line": "ITRomaBari",
+        "order": 5
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.870066,
+          41.117672
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Bari Centrale",
+        "line": "ITRomaBari",
+        "order": 6
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.772621,
+          40.675497
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Salerno",
+        "line": "ITTaranto",
+        "order": 0
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.982935,
+          40.605895
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Battipaglia",
+        "line": "ITTaranto",
+        "order": 1
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.806791,
+          40.629467
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Potenza Centrale",
+        "line": "ITTaranto",
+        "order": 2
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.475722,
+          40.516181
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Ferrandina Scalo-Matera",
+        "line": "ITTaranto",
+        "order": 3
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.815193,
+          40.368417
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Metaponto",
+        "line": "ITTaranto",
+        "order": 4
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.224215,
+          40.483693
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Taranto",
+        "line": "ITTaranto",
+        "order": 5
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.91663,
+          40.796873
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Gioia del Colle",
+        "line": "ITTaranto",
+        "order": 6
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.870066,
+          41.117672
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Bari Centrale",
+        "line": "ITTaranto",
+        "order": 7
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.772621,
+          40.675497
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Salerno",
+        "line": "ITCalabria",
+        "order": 0
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.002022,
+          40.351609
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Agropoli-Castellabate",
+        "line": "ITCalabria",
+        "order": 1
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.158137,
+          40.229471
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Vallo della Lucania-Castelnuovo",
+        "line": "ITCalabria",
+        "order": 2
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.627174,
+          40.07797
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Sapri",
+        "line": "ITCalabria",
+        "order": 3
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.709801,
+          39.995025
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Maratea",
+        "line": "ITCalabria",
+        "order": 4
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.780514,
+          39.900814
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Praja-Ajeta-Tortora",
+        "line": "ITCalabria",
+        "order": 5
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.801306,
+          39.808404
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Scalea-Santa Domenica Talao",
+        "line": "ITCalabria",
+        "order": 6
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.033009,
+          39.359458
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Paola",
+        "line": "ITCalabria",
+        "order": 7
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.068403,
+          39.134292
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Amantea",
+        "line": "ITCalabria",
+        "order": 8
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.255528,
+          38.921319
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Lamezia Terme Centrale",
+        "alternate_names": [
+          "Lamezia Terme"
+        ],
+        "line": "ITCalabria",
+        "order": 9
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.13989,
+          38.714668
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Vibo Valentia-Pizzo",
+        "line": "ITCalabria",
+        "order": 10
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.970102,
+          38.488699
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Rosarno",
+        "line": "ITCalabria",
+        "order": 11
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.897503,
+          38.423513
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Gioia Tauro",
+        "line": "ITCalabria",
+        "order": 12
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.634291,
+          38.21661
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Villa San Giovanni",
+        "line": "ITCalabria",
+        "order": 13
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.635938,
+          38.103811
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Reggio di Calabria Centrale",
+        "alternate_names": [
+          "Reggio Calabria Centrale"
+        ],
+        "line": "ITCalabria",
+        "order": 14
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.280743,
+          37.069091
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Siracusa",
+        "line": "ITSicilia",
+        "order": 0
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.099996,
+          37.506464
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Catania Centrale",
+        "line": "ITSicilia",
+        "order": 1
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.161757,
+          37.595706
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Acireale",
+        "line": "ITSicilia",
+        "order": 2
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.193646,
+          37.730257
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Giarre-Riposto",
+        "line": "ITSicilia",
+        "order": 3
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.28273,
+          37.8454
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Taormina-Giardini",
+        "line": "ITSicilia",
+        "order": 4
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.56136,
+          38.184887
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Messina Centrale",
+        "line": "ITSicilia",
+        "order": 5
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.258117,
+          38.197855
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Milazzo",
+        "line": "ITSicilia",
+        "order": 6
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.19946,
+          38.154009
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Barcellona-Castroreale",
+        "alternate_names": [
+          "Barcellona Pozzo di Gotto"
+        ],
+        "line": "ITSicilia",
+        "order": 7
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.975359,
+          38.146984
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Patti-San Piero Patti",
+        "line": "ITSicilia",
+        "order": 8
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.744883,
+          38.157931
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Capo d'Orlando-Naso",
+        "line": "ITSicilia",
+        "order": 9
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.640913,
+          38.073668
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Sant'Agata di Militello",
+        "line": "ITSicilia",
+        "order": 10
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.019557,
+          38.032803
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Cefalù",
+        "line": "ITSicilia",
+        "order": 11
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.704115,
+          37.979858
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Termini Imerese",
+        "line": "ITSicilia",
+        "order": 12
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36748,
+          38.109257
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Palermo Centrale",
+        "line": "ITSicilia",
+        "order": 13
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.502527,
+          41.900582
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Roma Termini",
+        "alternate_names": [
+          "Rome Termini"
+        ],
+        "line": "ITTirrenica",
+        "order": 0
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.79843,
+          42.088037
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Civitavecchia",
+        "line": "ITTirrenica",
+        "order": 1
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.248966,
+          42.450689
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Orbetello-Monte Argentario",
+        "line": "ITTirrenica",
+        "order": 2
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.10675,
+          42.767323
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Grosseto",
+        "line": "ITTirrenica",
+        "order": 3
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.755938,
+          42.926677
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Follonica",
+        "line": "ITTirrenica",
+        "order": 4
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.586568,
+          43.017283
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Campiglia Marittima",
+        "line": "ITTirrenica",
+        "order": 5
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.514453,
+          43.310456
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Cecina",
+        "line": "ITTirrenica",
+        "order": 6
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.336101,
+          43.554199
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Livorno Centrale",
+        "line": "ITTirrenica",
+        "order": 7
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.398389,
+          43.707863
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Pisa Centrale",
+        "line": "ITTirrenica",
+        "order": 8
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.252625,
+          43.873893
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Viareggio",
+        "line": "ITTirrenica",
+        "order": 9
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.136109,
+          44.023689
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Massa Centro",
+        "line": "ITTirrenica",
+        "order": 10
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.062878,
+          44.051295
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Carrara-Avenza",
+        "line": "ITTirrenica",
+        "order": 11
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.960463,
+          44.109103
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Sarzana",
+        "line": "ITTirrenica",
+        "order": 12
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.81358,
+          44.111564
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "La Spezia Centrale",
+        "line": "ITTirrenica",
+        "order": 13
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.648988,
+          44.14589
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Monterosso",
+        "line": "ITTirrenica",
+        "order": 14
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.616065,
+          44.174191
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Levanto",
+        "line": "ITTirrenica",
+        "order": 15
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.397579,
+          44.276231
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Sestri Levante",
+        "line": "ITTirrenica",
+        "order": 16
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.32242,
+          44.315059
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Chiavari",
+        "line": "ITTirrenica",
+        "order": 17
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.231307,
+          44.351178
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Rapallo",
+        "line": "ITTirrenica",
+        "order": 18
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.216862,
+          44.336637
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Santa Margherita Ligure-Portofino",
+        "line": "ITTirrenica",
+        "order": 19
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.156725,
+          44.348068
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Camogli-San Fruttuoso",
+        "line": "ITTirrenica",
+        "order": 20
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.146763,
+          44.361106
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Recco",
+        "line": "ITTirrenica",
+        "order": 21
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.946916,
+          44.406693
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Genova Brignole",
+        "alternate_names": [
+          "Genoa Brignole"
+        ],
+        "line": "ITTirrenica",
+        "order": 22
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.92113,
+          44.41702
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Genova Piazza Principe",
+        "alternate_names": [
+          "Genova P. Principe",
+          "Genoa Piazza Principe"
+        ],
+        "line": "ITTirrenica",
+        "order": 23
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.204262,
+          45.485879
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Milano Centrale",
+        "alternate_names": [
+          "Milan Central"
+        ],
+        "line": "ITPonente",
+        "order": 0
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.144903,
+          45.188796
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Pavia",
+        "line": "ITPonente",
+        "order": 1
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.008722,
+          44.997866
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Voghera",
+        "line": "ITPonente",
+        "order": 2
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.861795,
+          44.900152
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Tortona",
+        "line": "ITPonente",
+        "order": 3
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.92113,
+          44.41702
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Genova Piazza Principe",
+        "alternate_names": [
+          "Genova P. Principe",
+          "Genoa Piazza Principe"
+        ],
+        "line": "ITPonente",
+        "order": 4
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.471087,
+          44.306981
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Savona",
+        "line": "ITPonente",
+        "order": 5
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.340414,
+          44.1692
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Finale Ligure Marina",
+        "line": "ITPonente",
+        "order": 6
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.277307,
+          44.145252
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Pietra Ligure",
+        "line": "ITPonente",
+        "order": 7
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.254423,
+          44.122371
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Loano",
+        "line": "ITPonente",
+        "order": 8
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.221405,
+          44.047372
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Albenga",
+        "line": "ITPonente",
+        "order": 9
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.171521,
+          44.007856
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Alassio",
+        "line": "ITPonente",
+        "order": 10
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.138332,
+          43.960048
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Andora",
+        "line": "ITPonente",
+        "order": 11
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.031159,
+          43.897214
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Imperia",
+        "line": "ITPonente",
+        "order": 12
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.855335,
+          43.84455
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Taggia-Arma",
+        "line": "ITPonente",
+        "order": 13
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.784019,
+          43.826132
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Sanremo",
+        "line": "ITPonente",
+        "order": 14
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.663599,
+          43.77833
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Bordighera",
+        "line": "ITPonente",
+        "order": 15
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.609882,
+          43.792687
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Ventimiglia",
+        "line": "ITPonente",
+        "order": 16
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6778,
+          45.061203
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Torino Porta Nuova",
+        "alternate_names": [
+          "Turin Porta Nuova"
+        ],
+        "line": "ITTorinoGenova",
+        "order": 0
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.207598,
+          44.894737
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Asti",
+        "line": "ITTorinoGenova",
+        "order": 1
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.607443,
+          44.908778
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Alessandria",
+        "line": "ITTorinoGenova",
+        "order": 2
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.92113,
+          44.41702
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Genova Piazza Principe",
+        "alternate_names": [
+          "Genova P. Principe",
+          "Genoa Piazza Principe"
+        ],
+        "line": "ITTorinoGenova",
+        "order": 3
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.502527,
+          41.900582
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Roma Termini",
+        "alternate_names": [
+          "Rome Termini"
+        ],
+        "line": "ITRomaAncona",
+        "order": 0
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.408908,
+          42.43758
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Orte",
+        "line": "ITRomaAncona",
+        "order": 1
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.651254,
+          42.570593
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Terni",
+        "line": "ITRomaAncona",
+        "order": 2
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.736412,
+          42.748089
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Spoleto",
+        "line": "ITRomaAncona",
+        "order": 3
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.711143,
+          42.954299
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Foligno",
+        "line": "ITRomaAncona",
+        "order": 4
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.905349,
+          43.345486
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Fabriano",
+        "line": "ITRomaAncona",
+        "order": 5
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.25185,
+          43.5204
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Jesi",
+        "line": "ITRomaAncona",
+        "order": 6
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.397528,
+          43.630408
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Falconara Marittima",
+        "line": "ITRomaAncona",
+        "order": 7
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.497593,
+          43.607407
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Ancona",
+        "line": "ITRomaAncona",
+        "order": 8
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.247418,
+          43.777572
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Firenze Santa Maria Novella",
+        "alternate_names": [
+          "Firenze SMN",
+          "Firenze S.M.N.",
+          "Florence Santa Maria Novella"
+        ],
+        "line": "ITPerugia",
+        "order": 0
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.875495,
+          43.460955
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Arezzo",
+        "line": "ITPerugia",
+        "order": 1
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.008085,
+          43.210643
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Terontola-Cortona",
+        "line": "ITPerugia",
+        "order": 2
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375579,
+          43.103806
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Perugia",
+        "line": "ITPerugia",
+        "order": 3
+      },
+      "id": 192
+    }
+  ]
+}

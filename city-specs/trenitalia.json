@@ -1,0 +1,794 @@
+{
+  "slug": "trenitalia",
+  "path": "europe/italy/trenitalia",
+  "gameTitle": "Trenitalia Frecce & Intercity Memory",
+  "description": "How many Frecciarossa, Frecciabianca and Intercity stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    36.5,
+    6.5,
+    47.2,
+    18.6
+  ],
+  "altTags": [
+    "name:it"
+  ],
+  "trackStationDistance": 400,
+  "trackJoinM": 200,
+  "simplifyM": 80,
+  "minZoom": 5,
+  "nameReplace": [
+    [
+      "^Bolzano - Bozen$",
+      "Bolzano"
+    ],
+    [
+      "\\s+-\\s+",
+      "-"
+    ]
+  ],
+  "lineGroups": [
+    {
+      "title": "Frecciarossa",
+      "lines": [
+        "ITFrecciarossaAV",
+        "ITFrecciarossaVenezia",
+        "ITTrasversalePadana",
+        "ITFriuli",
+        "ITUdine",
+        "ITBrennero",
+        "ITPerugia"
+      ]
+    },
+    {
+      "title": "Intercity",
+      "lines": [
+        "ITEmilia",
+        "ITSicilia",
+        "ITPonente",
+        "ITTorinoGenova",
+        "ITRomaAncona"
+      ]
+    },
+    {
+      "title": "Frecciarossa & Intercity",
+      "lines": [
+        "ITAdriatica",
+        "ITRomaNapoliFormia",
+        "ITRomaBari",
+        "ITTaranto",
+        "ITCalabria"
+      ]
+    },
+    {
+      "title": "Frecciabianca & Intercity",
+      "lines": [
+        "ITTirrenica"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ITFrecciarossaAV",
+      "name": "Frecciarossa Torino – Milano – Roma – Salerno",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#C8102E",
+      "textColor": "#FFFFFF",
+      "badge": "FR",
+      "icon": "ITFrecciarossaAV.svg",
+      "pathBetween": [
+        "Torino Porta Nuova",
+        "Torino Porta Susa",
+        "Milano Centrale",
+        "Milano Rogoredo",
+        "Reggio Emilia AV Mediopadana",
+        "Bologna Centrale",
+        "Firenze Santa Maria Novella",
+        "Roma Termini",
+        "Roma Tiburtina",
+        "Napoli Afragola",
+        "Napoli Centrale",
+        "Salerno"
+      ],
+      "stationList": [
+        "Torino Porta Nuova",
+        "Torino Porta Susa",
+        "Milano Centrale",
+        "Milano Rogoredo",
+        "Reggio Emilia AV Mediopadana",
+        "Bologna Centrale",
+        "Firenze Santa Maria Novella",
+        "Roma Termini",
+        "Roma Tiburtina",
+        "Napoli Afragola",
+        "Napoli Centrale",
+        "Salerno"
+      ]
+    },
+    {
+      "id": "ITFrecciarossaVenezia",
+      "name": "Frecciarossa Bologna – Venezia",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "FRV",
+      "icon": "ITFrecciarossaVenezia.svg",
+      "pathBetween": [
+        "Bologna Centrale",
+        "Ferrara",
+        "Rovigo",
+        "Padova",
+        "Venezia Mestre",
+        "Venezia Santa Lucia"
+      ],
+      "stationList": [
+        "Bologna Centrale",
+        "Ferrara",
+        "Rovigo",
+        "Padova",
+        "Venezia Mestre",
+        "Venezia Santa Lucia"
+      ]
+    },
+    {
+      "id": "ITTrasversalePadana",
+      "name": "Milano – Verona – Venezia",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#A6192E",
+      "textColor": "#FFFFFF",
+      "badge": "MV",
+      "icon": "ITTrasversalePadana.svg",
+      "pathBetween": [
+        "Milano Centrale",
+        "Brescia",
+        "Desenzano del Garda-Sirmione",
+        "Peschiera del Garda",
+        "Verona Porta Nuova",
+        "Vicenza",
+        "Padova",
+        "Venezia Mestre",
+        "Venezia Santa Lucia"
+      ],
+      "stationList": [
+        "Milano Centrale",
+        "Brescia",
+        "Desenzano del Garda-Sirmione",
+        "Peschiera del Garda",
+        "Verona Porta Nuova",
+        "Vicenza",
+        "Padova",
+        "Venezia Mestre",
+        "Venezia Santa Lucia"
+      ]
+    },
+    {
+      "id": "ITFriuli",
+      "name": "Venezia – Trieste / Udine",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#7A1F2B",
+      "textColor": "#FFFFFF",
+      "badge": "FVG",
+      "icon": "ITFriuli.svg",
+      "pathBetween": [
+        "Venezia Mestre",
+        "Portogruaro - Caorle",
+        "Latisana - Lignano - Bibione",
+        "Cervignano - Aquileia - Grado",
+        "Monfalcone",
+        "Trieste Airport",
+        "Trieste Centrale"
+      ],
+      "stationList": [
+        "Venezia Mestre",
+        "Portogruaro - Caorle",
+        "Latisana - Lignano - Bibione",
+        "Cervignano - Aquileia - Grado",
+        "Monfalcone",
+        "Trieste Airport",
+        "Trieste Centrale"
+      ]
+    },
+    {
+      "id": "ITUdine",
+      "name": "Venezia – Treviso – Udine",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#9B2335",
+      "textColor": "#FFFFFF",
+      "badge": "UD",
+      "icon": "ITUdine.svg",
+      "pathBetween": [
+        "Venezia Mestre",
+        "Treviso Centrale",
+        "Conegliano",
+        "Pordenone",
+        "Udine"
+      ],
+      "stationList": [
+        "Venezia Mestre",
+        "Treviso Centrale",
+        "Conegliano",
+        "Pordenone",
+        "Udine"
+      ]
+    },
+    {
+      "id": "ITBrennero",
+      "name": "Verona – Trento – Bolzano",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#B5651D",
+      "textColor": "#FFFFFF",
+      "badge": "BR",
+      "icon": "ITBrennero.svg",
+      "pathBetween": [
+        "Verona Porta Nuova",
+        "Rovereto",
+        "Trento",
+        "Bolzano - Bozen"
+      ],
+      "stationList": [
+        "Verona Porta Nuova",
+        "Rovereto",
+        "Trento",
+        "Bolzano - Bozen"
+      ]
+    },
+    {
+      "id": "ITEmilia",
+      "name": "Milano – Bologna (via Parma)",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "EM",
+      "icon": "ITEmilia.svg",
+      "pathBetween": [
+        "Milano Centrale",
+        "Milano Rogoredo",
+        "Lodi",
+        "Piacenza",
+        "Fidenza",
+        "Parma",
+        "Reggio Emilia",
+        "Modena",
+        "Bologna Centrale"
+      ],
+      "stationList": [
+        "Milano Centrale",
+        "Milano Rogoredo",
+        "Lodi",
+        "Piacenza",
+        "Fidenza",
+        "Parma",
+        "Reggio Emilia",
+        "Modena",
+        "Bologna Centrale"
+      ]
+    },
+    {
+      "id": "ITAdriatica",
+      "name": "Adriatica: Bologna – Bari – Lecce",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#0091D5",
+      "textColor": "#FFFFFF",
+      "badge": "ADR",
+      "icon": "ITAdriatica.svg",
+      "pathBetween": [
+        "Bologna Centrale",
+        "Imola",
+        "Faenza",
+        "Forlì",
+        "Cesena",
+        "Rimini",
+        "Riccione",
+        "Cattolica-San Giovanni-Gabicce",
+        "Pesaro",
+        "Fano",
+        "Senigallia",
+        "Ancona",
+        "Civitanova Marche-Montegranaro",
+        "Porto San Giorgio-Fermo",
+        "San Benedetto del Tronto",
+        "Giulianova",
+        "Roseto degli Abruzzi",
+        "Pescara Centrale",
+        "Ortona",
+        "San Vito-Lanciano",
+        "Vasto-San Salvo",
+        "Termoli",
+        "San Severo",
+        "Foggia",
+        "Barletta",
+        "Trani",
+        "Bisceglie",
+        "Molfetta",
+        "Bari Centrale",
+        "Monopoli",
+        "Fasano",
+        "Ostuni",
+        "Brindisi Centrale",
+        "Lecce"
+      ],
+      "stationList": [
+        "Bologna Centrale",
+        "Imola",
+        "Faenza",
+        "Forlì",
+        "Cesena",
+        "Rimini",
+        "Riccione",
+        "Cattolica-San Giovanni-Gabicce",
+        "Pesaro",
+        "Fano",
+        "Senigallia",
+        "Ancona",
+        "Civitanova Marche-Montegranaro",
+        "Porto San Giorgio-Fermo",
+        "San Benedetto del Tronto",
+        "Giulianova",
+        "Roseto degli Abruzzi",
+        "Pescara Centrale",
+        "Ortona",
+        "San Vito-Lanciano",
+        "Vasto-San Salvo",
+        "Termoli",
+        "San Severo",
+        "Foggia",
+        "Barletta",
+        "Trani",
+        "Bisceglie",
+        "Molfetta",
+        "Bari Centrale",
+        "Monopoli",
+        "Fasano",
+        "Ostuni",
+        "Brindisi Centrale",
+        "Lecce"
+      ]
+    },
+    {
+      "id": "ITRomaNapoliFormia",
+      "name": "Roma – Formia – Napoli",
+      "color": "#1B5E9B",
+      "textColor": "#FFFFFF",
+      "badge": "RNF",
+      "icon": "ITRomaNapoliFormia.svg",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "stationList": [
+        "Roma Termini",
+        "Latina",
+        "Formia-Gaeta",
+        "Aversa",
+        "Napoli Centrale"
+      ],
+      "pathBetween": [
+        "Roma Termini",
+        "Latina",
+        "Formia-Gaeta",
+        "Aversa",
+        "Napoli Centrale"
+      ]
+    },
+    {
+      "id": "ITRomaBari",
+      "name": "Roma – Caserta – Foggia – Bari",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#3F4BA0",
+      "textColor": "#FFFFFF",
+      "badge": "RB",
+      "icon": "ITRomaBari.svg",
+      "pathBetween": [
+        "Roma Termini",
+        "Caserta",
+        "Benevento",
+        "Ariano Irpino",
+        "Foggia",
+        "Barletta",
+        "Bari Centrale"
+      ],
+      "stationList": [
+        "Roma Termini",
+        "Caserta",
+        "Benevento",
+        "Ariano Irpino",
+        "Foggia",
+        "Barletta",
+        "Bari Centrale"
+      ]
+    },
+    {
+      "id": "ITTaranto",
+      "name": "Bari / Salerno – Potenza – Taranto",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "TA",
+      "icon": "ITTaranto.svg",
+      "pathBetween": [
+        "Salerno",
+        "Battipaglia",
+        "Potenza Centrale",
+        "Ferrandina Scalo-Matera",
+        "Metaponto",
+        "Taranto",
+        "Gioia del Colle",
+        "Bari Centrale"
+      ],
+      "stationList": [
+        "Salerno",
+        "Battipaglia",
+        "Potenza Centrale",
+        "Ferrandina Scalo-Matera",
+        "Metaponto",
+        "Taranto",
+        "Gioia del Colle",
+        "Bari Centrale"
+      ]
+    },
+    {
+      "id": "ITCalabria",
+      "name": "Salerno – Reggio di Calabria",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#00843D",
+      "textColor": "#FFFFFF",
+      "badge": "CAL",
+      "icon": "ITCalabria.svg",
+      "pathBetween": [
+        "Salerno",
+        "Agropoli-Castellabate",
+        "Vallo della Lucania-Castelnuovo",
+        "Sapri",
+        "Maratea",
+        "Praja-Ajeta-Tortora",
+        "Scalea-Santa Domenica Talao",
+        "Paola",
+        "Amantea",
+        "Lamezia Terme Centrale",
+        "Vibo Valentia-Pizzo",
+        "Rosarno",
+        "Gioia Tauro",
+        "Villa San Giovanni",
+        "Reggio di Calabria Centrale"
+      ],
+      "stationList": [
+        "Salerno",
+        "Agropoli-Castellabate",
+        "Vallo della Lucania-Castelnuovo",
+        "Sapri",
+        "Maratea",
+        "Praja-Ajeta-Tortora",
+        "Scalea-Santa Domenica Talao",
+        "Paola",
+        "Amantea",
+        "Lamezia Terme Centrale",
+        "Vibo Valentia-Pizzo",
+        "Rosarno",
+        "Gioia Tauro",
+        "Villa San Giovanni",
+        "Reggio di Calabria Centrale"
+      ]
+    },
+    {
+      "id": "ITSicilia",
+      "name": "Sicilia: Messina – Catania – Siracusa / Palermo",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "SIC",
+      "icon": "ITSicilia.svg",
+      "pathBetween": [
+        "Siracusa",
+        "Catania Centrale",
+        "Acireale",
+        "Giarre-Riposto",
+        "Taormina-Giardini",
+        "Messina Centrale",
+        "Milazzo",
+        "Barcellona-Castroreale",
+        "Patti-San Piero Patti",
+        "Capo d'Orlando-Naso",
+        "Sant'Agata di Militello",
+        "Cefalù",
+        "Termini Imerese",
+        "Palermo Centrale"
+      ],
+      "stationList": [
+        "Siracusa",
+        "Catania Centrale",
+        "Acireale",
+        "Giarre-Riposto",
+        "Taormina-Giardini",
+        "Messina Centrale",
+        "Milazzo",
+        "Barcellona-Castroreale",
+        "Patti-San Piero Patti",
+        "Capo d'Orlando-Naso",
+        "Sant'Agata di Militello",
+        "Cefalù",
+        "Termini Imerese",
+        "Palermo Centrale"
+      ]
+    },
+    {
+      "id": "ITTirrenica",
+      "name": "Tirrenica: Roma – Pisa – Genova",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "TIR",
+      "icon": "ITTirrenica.svg",
+      "pathBetween": [
+        "Roma Termini",
+        "Civitavecchia",
+        "Orbetello-Monte Argentario",
+        "Grosseto",
+        "Follonica",
+        "Campiglia Marittima",
+        "Cecina",
+        "Livorno Centrale",
+        "Pisa Centrale",
+        "Viareggio",
+        "Massa Centro",
+        "Carrara-Avenza",
+        "Sarzana",
+        "La Spezia Centrale",
+        "Monterosso",
+        "Levanto",
+        "Sestri Levante",
+        "Chiavari",
+        "Rapallo",
+        "Santa Margherita Ligure - Portofino",
+        "Camogli-San Fruttuoso",
+        "Recco",
+        "Genova Brignole",
+        "Genova Piazza Principe"
+      ],
+      "stationList": [
+        "Roma Termini",
+        "Civitavecchia",
+        "Orbetello-Monte Argentario",
+        "Grosseto",
+        "Follonica",
+        "Campiglia Marittima",
+        "Cecina",
+        "Livorno Centrale",
+        "Pisa Centrale",
+        "Viareggio",
+        "Massa Centro",
+        "Carrara-Avenza",
+        "Sarzana",
+        "La Spezia Centrale",
+        "Monterosso",
+        "Levanto",
+        "Sestri Levante",
+        "Chiavari",
+        "Rapallo",
+        "Santa Margherita Ligure - Portofino",
+        "Camogli-San Fruttuoso",
+        "Recco",
+        "Genova Brignole",
+        "Genova Piazza Principe"
+      ]
+    },
+    {
+      "id": "ITPonente",
+      "name": "Milano – Genova – Ventimiglia",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#5BBF21",
+      "textColor": "#FFFFFF",
+      "badge": "PON",
+      "icon": "ITPonente.svg",
+      "pathBetween": [
+        "Milano Centrale",
+        "Pavia",
+        "Voghera",
+        "Tortona",
+        "Genova Piazza Principe",
+        "Savona",
+        "Finale Ligure Marina",
+        "Pietra Ligure",
+        "Loano",
+        "Albenga",
+        "Alassio",
+        "Andora",
+        "Imperia",
+        "Taggia-Arma",
+        "Sanremo",
+        "Bordighera",
+        "Ventimiglia"
+      ],
+      "stationList": [
+        "Milano Centrale",
+        "Pavia",
+        "Voghera",
+        "Tortona",
+        "Genova Piazza Principe",
+        "Savona",
+        "Finale Ligure Marina",
+        "Pietra Ligure",
+        "Loano",
+        "Albenga",
+        "Alassio",
+        "Andora",
+        "Imperia",
+        "Taggia-Arma",
+        "Sanremo",
+        "Bordighera",
+        "Ventimiglia"
+      ]
+    },
+    {
+      "id": "ITTorinoGenova",
+      "name": "Torino – Genova",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#8DC63F",
+      "textColor": "#222222",
+      "badge": "TG",
+      "icon": "ITTorinoGenova.svg",
+      "pathBetween": [
+        "Torino Porta Nuova",
+        "Asti",
+        "Alessandria",
+        "Genova Piazza Principe"
+      ],
+      "stationList": [
+        "Torino Porta Nuova",
+        "Asti",
+        "Alessandria",
+        "Genova Piazza Principe"
+      ]
+    },
+    {
+      "id": "ITRomaAncona",
+      "name": "Roma – Foligno – Ancona",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "RA",
+      "icon": "ITRomaAncona.svg",
+      "pathBetween": [
+        "Roma Termini",
+        "Orte",
+        "Terni",
+        "Spoleto",
+        "Foligno",
+        "Fabriano",
+        "Jesi",
+        "Falconara Marittima",
+        "Ancona"
+      ],
+      "stationList": [
+        "Roma Termini",
+        "Orte",
+        "Terni",
+        "Spoleto",
+        "Foligno",
+        "Fabriano",
+        "Jesi",
+        "Falconara Marittima",
+        "Ancona"
+      ]
+    },
+    {
+      "id": "ITPerugia",
+      "name": "Firenze – Arezzo – Perugia",
+      "match": {
+        "@id": "^(9100000000)$"
+      },
+      "color": "#9B59B6",
+      "textColor": "#FFFFFF",
+      "badge": "PG",
+      "icon": "ITPerugia.svg",
+      "pathBetween": [
+        "Firenze Santa Maria Novella",
+        "Arezzo",
+        "Terontola-Cortona",
+        "Perugia"
+      ],
+      "stationList": [
+        "Firenze Santa Maria Novella",
+        "Arezzo",
+        "Terontola-Cortona",
+        "Perugia"
+      ]
+    }
+  ],
+  "register": {
+    "name": "Trenitalia (Frecce & Intercity), IT",
+    "continent": "Europe",
+    "coordinates": [
+      12.5,
+      42.5
+    ],
+    "zh": "意大利国铁, IT",
+    "achievement": {
+      "title": "Freccia d'Oro",
+      "description": "You've named every Frecciarossa, Frecciabianca and Intercity station."
+    }
+  },
+  "hubM": 400,
+  "alternates": {
+    "Firenze Santa Maria Novella": [
+      "Firenze SMN",
+      "Firenze S.M.N.",
+      "Florence Santa Maria Novella"
+    ],
+    "Reggio Emilia AV Mediopadana": [
+      "Mediopadana",
+      "Reggio Emilia AV"
+    ],
+    "Bolzano": [
+      "Bozen"
+    ],
+    "Venezia Santa Lucia": [
+      "Venezia S. Lucia",
+      "Venice Santa Lucia"
+    ],
+    "Venezia Mestre": [
+      "Mestre"
+    ],
+    "Milano Centrale": [
+      "Milan Central"
+    ],
+    "Napoli Centrale": [
+      "Naples Central"
+    ],
+    "Roma Termini": [
+      "Rome Termini"
+    ],
+    "Torino Porta Nuova": [
+      "Turin Porta Nuova"
+    ],
+    "Torino Porta Susa": [
+      "Turin Porta Susa"
+    ],
+    "Genova Piazza Principe": [
+      "Genova P. Principe",
+      "Genoa Piazza Principe"
+    ],
+    "Genova Brignole": [
+      "Genoa Brignole"
+    ],
+    "Reggio di Calabria Centrale": [
+      "Reggio Calabria Centrale"
+    ],
+    "Lamezia Terme Centrale": [
+      "Lamezia Terme"
+    ],
+    "Barcellona-Castroreale": [
+      "Barcellona Pozzo di Gotto"
+    ]
+  }
+}

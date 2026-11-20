@@ -1,0 +1,240 @@
+{
+  "slug": "viarail",
+  "path": "north-america/canada/viarail",
+  "gameTitle": "VIA Rail Memory",
+  "description": "How many VIA Rail stations across Canada can you name from memory?",
+  "locale": "en_CA",
+  "bbox": [
+    41.5,
+    -141.0,
+    60.0,
+    -52.0
+  ],
+  "query": "[out:json][timeout:900][maxsize:536870912];\narea[\"ISO3166-1\"=\"CA\"][\"admin_level\"=\"2\"]->.ca;\n(\n  rel[\"type\"=\"route\"][\"route\"=\"train\"][\"operator\"~\"VIA\",i](area.ca);\n  rel[\"type\"=\"route\"][\"route\"=\"train\"][\"network\"~\"VIA\",i](area.ca);\n  rel[\"type\"=\"route\"][\"route\"=\"train\"][\"brand\"~\"VIA\",i](area.ca);\n)->.r;\n.r out body;\nway(r.r)->.w;\n.w out geom;\nnode(r.r)->.n;\n.n out;\n(\n  node(around.w:300)[\"railway\"~\"^(station|halt)$\"];\n  node(around.w:300)[\"public_transport\"=\"station\"][\"train\"=\"yes\"];\n)->.s;\n.s out;",
+  "splitDash": true,
+  "stationRadius": 600,
+  "lineGroups": [
+    {
+      "title": "Long Distance",
+      "lines": [
+        "VCAN",
+        "VOCE"
+      ]
+    },
+    {
+      "title": "Québec City–Windsor Corridor",
+      "lines": [
+        "VQMO",
+        "VMTO",
+        "VOTT",
+        "VWIN",
+        "VSAR",
+        "VMPL"
+      ]
+    },
+    {
+      "title": "Regional & Remote Services",
+      "lines": [
+        "VJPR",
+        "VCHU",
+        "VSWR",
+        "VJON",
+        "VSEN"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "VCAN",
+      "name": "The Canadian",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Canadian"
+      },
+      "color": "#CF2E2F"
+    },
+    {
+      "id": "VOCE",
+      "name": "The Ocean",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Ocean"
+      },
+      "color": "#3098FC",
+      "addStations": [
+        {
+          "name": "Halifax",
+          "coordinates": [
+            -63.5717,
+            44.638
+          ],
+          "after": "Truro"
+        }
+      ]
+    },
+    {
+      "id": "VQMO",
+      "name": "Corridor: Québec City–Montréal–Ottawa",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Ottawa => Montréal => Québec|Québec => Montréal => Ottawa"
+      },
+      "color": "#FFC20E"
+    },
+    {
+      "id": "VMTO",
+      "name": "Corridor: Montréal–Toronto",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Corridor: (Toronto => Montréal|Montréal => Toronto)"
+      },
+      "color": "#F7941D"
+    },
+    {
+      "id": "VOTT",
+      "name": "Corridor: Ottawa–Toronto",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Corridor: (Toronto => Ottawa|Ottawa => Toronto)"
+      },
+      "color": "#8DC63F"
+    },
+    {
+      "id": "VWIN",
+      "name": "Corridor: Toronto–Windsor",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Windsor"
+      },
+      "color": "#00A79D"
+    },
+    {
+      "id": "VSAR",
+      "name": "Corridor: Toronto–Sarnia",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Sarnia"
+      },
+      "color": "#0072BC"
+    },
+    {
+      "id": "VMPL",
+      "name": "Maple Leaf (Toronto–Niagara Falls)",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Maple Leaf"
+      },
+      "color": "#9B59B6"
+    },
+    {
+      "id": "VJPR",
+      "name": "Jasper–Prince Rupert",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Jasper => Prince Rupert|Prince Rupert => Jasper"
+      },
+      "color": "#2E8B57"
+    },
+    {
+      "id": "VCHU",
+      "name": "Winnipeg–Churchill",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Churchill"
+      },
+      "color": "#795548"
+    },
+    {
+      "id": "VSWR",
+      "name": "Sudbury–White River",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "White River"
+      },
+      "color": "#607D8B"
+    },
+    {
+      "id": "VJON",
+      "name": "Montréal–Jonquière",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Jonquière"
+      },
+      "color": "#C2185B"
+    },
+    {
+      "id": "VSEN",
+      "name": "Montréal–Senneterre",
+      "match": {
+        "route": "train",
+        "network": "VIA",
+        "name": "Senneterre"
+      },
+      "color": "#E91E63"
+    }
+  ],
+  "register": {
+    "name": "VIA Rail, CAN",
+    "continent": "North America",
+    "coordinates": [
+      -96.8,
+      56.1
+    ],
+    "achievement": {
+      "title": "Coast to Coast",
+      "description": "You've named every VIA Rail station in Canada."
+    }
+  },
+  "rename": {
+    "Gare centrale de Montréal": "Montréal",
+    "Toronto Union": "Toronto",
+    "Niagara Falls, Ontario": "Niagara Falls",
+    "Terrace (Kitimat)": "Terrace",
+    "Vancouver Pacific Central": "Vancouver"
+  },
+  "alternates": {
+    "Montréal": [
+      "Montreal",
+      "Gare Centrale",
+      "Montréal Central Station"
+    ],
+    "Toronto": [
+      "Union Station",
+      "Toronto Union"
+    ],
+    "Québec": [
+      "Québec City",
+      "Quebec City",
+      "Quebec",
+      "Gare du Palais"
+    ],
+    "Terrace": [
+      "Kitimat"
+    ],
+    "Sainte-Foy": [
+      "Ste-Foy"
+    ],
+    "Halifax": [
+      "Halifax Station"
+    ],
+    "Vancouver": [
+      "Pacific Central",
+      "Vancouver Pacific Central"
+    ],
+    "Kamloops North": [
+      "Kamloops"
+    ]
+  }
+}

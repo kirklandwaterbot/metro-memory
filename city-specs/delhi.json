@@ -1,0 +1,208 @@
+{
+  "slug": "delhi",
+  "path": "asia/india/delhi",
+  "gameTitle": "Delhi Metro Memory",
+  "description": "How many Delhi Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    28.195,
+    76.738,
+    29.005,
+    77.662
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "localStrip": "\\s*[\\(\\[](?:Ligne|Line)\\s+\\w+[\\)\\]]$|\\s*\\((?:\\w+\\s+)?Line\\)$|\\s+RMRG$",
+  "lineGroups": [
+    {
+      "title": "Delhi Metro",
+      "lines": [
+        "DELH1",
+        "DELH2",
+        "DELH3",
+        "DELH4",
+        "DELH5",
+        "DELH6",
+        "DELH7",
+        "DELH8",
+        "DELH9",
+        "DELHAEX",
+        "DELHAQUALINE",
+        "DELHRMGL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "DELH1",
+      "name": "Red Line",
+      "match": {
+        "@id": "^(447214|8037718|16661918|20268334)$"
+      },
+      "color": "#FF4040",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "DELH1.svg"
+    },
+    {
+      "id": "DELH2",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(447210|8037712)$"
+      },
+      "color": "#FFDF00",
+      "textColor": "#222222",
+      "badge": "Y",
+      "icon": "DELH2.svg"
+    },
+    {
+      "id": "DELH3",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(447209|8037669)$"
+      },
+      "color": "#4169E1",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "DELH3.svg"
+    },
+    {
+      "id": "DELH4",
+      "name": "Blue Line Branch",
+      "match": {
+        "@id": "^(2535795|8037670)$"
+      },
+      "color": "#4169E1",
+      "textColor": "#FFFFFF",
+      "badge": "B2",
+      "icon": "DELH4.svg"
+    },
+    {
+      "id": "DELH5",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(2535796|8037666|8037675|8037687)$"
+      },
+      "color": "#008000",
+      "textColor": "#FFFFFF",
+      "badge": "G",
+      "icon": "DELH5.svg"
+    },
+    {
+      "id": "DELH6",
+      "name": "Violet Line",
+      "match": {
+        "@id": "^(2535797|8037705)$"
+      },
+      "color": "#553592",
+      "textColor": "#FFFFFF",
+      "badge": "V",
+      "icon": "DELH6.svg"
+    },
+    {
+      "id": "DELH7",
+      "name": "Pink Line",
+      "match": {
+        "@id": "^(8241298|8242437)$"
+      },
+      "color": "#FC8EAC",
+      "textColor": "#FFFFFF",
+      "badge": "P",
+      "icon": "DELH7.svg"
+    },
+    {
+      "id": "DELH8",
+      "name": "Magenta Line",
+      "match": {
+        "@id": "^(8385429|8385430|20300114|20300115)$"
+      },
+      "color": "#CC338B",
+      "textColor": "#FFFFFF",
+      "badge": "M",
+      "icon": "DELH8.svg"
+    },
+    {
+      "id": "DELH9",
+      "name": "Grey Line",
+      "match": {
+        "@id": "^(3537978|8051592)$"
+      },
+      "color": "#838996",
+      "textColor": "#FFFFFF",
+      "badge": "Gy",
+      "icon": "DELH9.svg"
+    },
+    {
+      "id": "DELHAEX",
+      "name": "Airport Express Line",
+      "match": {
+        "@id": "^(2535798|8037715)$"
+      },
+      "color": "#FF8C00",
+      "textColor": "#FFFFFF",
+      "badge": "AE",
+      "icon": "DELHAEX.svg"
+    },
+    {
+      "id": "DELHAQUALINE",
+      "name": "Aqua Line (Noida Metro)",
+      "match": {
+        "@id": "^(9268568|9268569)$"
+      },
+      "color": "#00B3E3",
+      "textColor": "#FFFFFF",
+      "badge": "Aq",
+      "icon": "DELHAQUALINE.svg"
+    },
+    {
+      "id": "DELHRMGL",
+      "name": "Rapid Metro Gurgaon",
+      "match": {
+        "@id": "^(4481323|7890002)$"
+      },
+      "color": "#8C8C8C",
+      "textColor": "#FFFFFF",
+      "badge": "RM",
+      "icon": "DELHRMGL.svg"
+    }
+  ],
+  "register": {
+    "name": "Delhi NCR (दिल्ली), IN",
+    "continent": "Asia",
+    "coordinates": [
+      77.2,
+      28.6
+    ],
+    "zh": "德里, IN",
+    "achievement": {
+      "title": "Delhi Metro Master",
+      "description": "You've named every Delhi Metro station."
+    }
+  }
+}

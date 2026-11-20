@@ -89,7 +89,7 @@ export const LINE_GROUPS: LineGroup[] = [
           'NewYorkSubwayR',
           'NewYorkSubwayW',
           'NewYorkSubwayFS',
-          'NewYorkSubwayT',
+          'NewYorkSubwayH',
           'NewYorkSubwayZ',
         ],
       },

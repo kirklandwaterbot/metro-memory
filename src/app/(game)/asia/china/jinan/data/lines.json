@@ -4,55 +4,75 @@
     "color": "#b3499b",
     "backgroundColor": "#b3499b",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/jinan/Line1.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "jinan2": {
     "name": "Line 2",
     "color": "#efa93d",
     "backgroundColor": "#efa93d",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/jinan/Line2.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "jinan3": {
     "name": "Line 3",
     "color": "#18469d",
     "backgroundColor": "#18469d",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/jinan/Line3.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "jinan4": {
     "name": "Line 4",
     "color": "#2f9248",
     "backgroundColor": "#2f9248",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/jinan/Line4.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "jinan6": {
     "name": "Line 6",
     "color": "#26bff0",
     "backgroundColor": "#26bff0",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/jinan/Line6.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "jinan8": {
     "name": "Line 8",
     "color": "#62449b",
     "backgroundColor": "#62449b",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/jinan/line8.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "jinanjiyang": {
     "name": "Jiyang Line",
     "color": "#5ac4bd",
     "backgroundColor": "#5ac4bd",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/jinan/jiyang.png"
   },
   "jinanyunba": {
-    "name": "Yunba Line",
+    "name": "Jinan SkyShuttle Line 1",
     "color": "#277ba2",
     "backgroundColor": "#277ba2",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/gba/szbyd1.png"
   }
 }

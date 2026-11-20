@@ -159,7 +159,7 @@ const normName = (s) =>
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')
     .replace(/['’.]/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim()
 
 /** Split a polyline into the runs that lie inside bbox [s, w, n, e] (all of it when no bbox). */
@@ -310,6 +310,252 @@ function nearestStation(stations, point, radius, preferName) {
   return best
 }
 
+const TRANSLIT = {
+  ru: {
+    а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'yo', ж: 'zh', з: 'z',
+    и: 'i', й: 'y', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r',
+    с: 's', т: 't', у: 'u', ф: 'f', х: 'kh', ц: 'ts', ч: 'ch', ш: 'sh',
+    щ: 'shch', ъ: '', ы: 'y', ь: '', э: 'e', ю: 'yu', я: 'ya',
+  },
+  uk: {
+    а: 'a', б: 'b', в: 'v', г: 'h', ґ: 'g', д: 'd', е: 'e', є: 'ie', ж: 'zh',
+    з: 'z', и: 'y', і: 'i', ї: 'i', й: 'i', к: 'k', л: 'l', м: 'm', н: 'n',
+    о: 'o', п: 'p', р: 'r', с: 's', т: 't', у: 'u', ф: 'f', х: 'kh', ц: 'ts',
+    ч: 'ch', ш: 'sh', щ: 'shch', ь: '', ю: 'iu', я: 'ia', "'": '', '’': '',
+  },
+  be: {
+    а: 'a', б: 'b', в: 'v', г: 'h', д: 'd', е: 'ye', ё: 'yo', ж: 'zh', з: 'z',
+    і: 'i', й: 'y', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r',
+    с: 's', т: 't', у: 'u', ў: 'u', ф: 'f', х: 'kh', ц: 'ts', ч: 'ch',
+    ш: 'sh', ы: 'y', ь: '', э: 'e', ю: 'yu', я: 'ya', "'": '', '’': '',
+  },
+  ka: {
+    ა: 'a', ბ: 'b', გ: 'g', დ: 'd', ე: 'e', ვ: 'v', ზ: 'z', თ: 't', ი: 'i',
+    კ: 'k', ლ: 'l', მ: 'm', ნ: 'n', ო: 'o', პ: 'p', ჟ: 'zh', რ: 'r', ს: 's',
+    ტ: 't', უ: 'u', ფ: 'p', ქ: 'k', ღ: 'gh', ყ: 'q', შ: 'sh', ჩ: 'ch',
+    ც: 'ts', ძ: 'dz', წ: 'ts', ჭ: 'ch', ხ: 'kh', ჯ: 'j', ჰ: 'h',
+  },
+  hy: {
+    ա: 'a', բ: 'b', գ: 'g', դ: 'd', ե: 'e', զ: 'z', է: 'e', ը: 'y', թ: 't',
+    ժ: 'zh', ի: 'i', լ: 'l', խ: 'kh', ծ: 'ts', կ: 'k', հ: 'h', ձ: 'dz',
+    ղ: 'gh', ճ: 'ch', մ: 'm', յ: 'y', ն: 'n', շ: 'sh', ո: 'o', չ: 'ch',
+    պ: 'p', ջ: 'j', ռ: 'r', ս: 's', վ: 'v', տ: 't', ր: 'r', ց: 'ts',
+    ու: 'u', փ: 'p', ք: 'k', օ: 'o', ֆ: 'f', և: 'yev',
+  },
+}
+
+const VOWELS = 'аеёиоуыэюяіїєaeiouy'
+
+/**
+ * Romanises a station name the way English Wikipedia spells these systems
+ * (Russian: "Ploshchad Revolyutsii", Ukrainian national system "Maidan
+ * Nezalezhnosti"), word by word with each word capitalised.
+ */
+function transliterate(text, lang) {
+  const table = TRANSLIT[lang] || TRANSLIT.ru
+  const src = String(text || '')
+  if (lang === 'hy') {
+    let out = ''
+    for (const ch of src.replace(/ու/g, '\u0001').replace(/Ու|ՈՒ/g, '\u0002')) {
+      if (ch === '\u0001') out += 'u'
+      else if (ch === '\u0002') out += 'U'
+      else {
+        const lo = ch.toLowerCase()
+        const prevCh = out.slice(-1)
+        let m = table[lo]
+        if (lo === 'ե' && (!prevCh || /\s/.test(prevCh))) m = 'ye'
+        if (lo === 'և' && prevCh && !/\s/.test(prevCh)) m = 'ev'
+        out += m === undefined ? ch : ch !== lo && m ? m[0].toUpperCase() + m.slice(1) : m
+      }
+    }
+    return titleCase(out)
+  }
+  const chars = [...src]
+  let out = ''
+  for (let i = 0; i < chars.length; i += 1) {
+    const ch = chars[i]
+    const lo = ch.toLowerCase()
+    const prev = (chars[i - 1] || ' ').toLowerCase()
+    const next = (chars[i + 1] || ' ').toLowerCase()
+    const wordStart = !/[\p{L}'’ʼ]/u.test(prev)
+    const afterVowel = VOWELS.includes(prev) || 'ьъ\'’ʼ'.includes(prev)
+    const wordEnd = !/\p{L}/u.test(next)
+    let m = table[lo] ?? TRANSLIT.ru[lo]
+    if (m !== undefined && lang !== 'ka') {
+      if (lang === 'uk') {
+        if (wordStart && { є: 'ye', ї: 'yi', й: 'y', ю: 'yu', я: 'ya' }[lo])
+          m = { є: 'ye', ї: 'yi', й: 'y', ю: 'yu', я: 'ya' }[lo]
+        if (lo === 'г' && prev === 'з') m = 'gh'
+      } else {
+        // Russian / Belarusian
+        if (lo === 'е') m = (wordStart || afterVowel) && prev !== 'ы' ? 'ye' : 'e'
+        if ((lo === 'и' || lo === 'ы') && next === 'й' && wordEnd === false) {
+          const after = (chars[i + 2] || ' ').toLowerCase()
+          if (!/\p{L}/u.test(after)) {
+            out += ch !== lo ? 'Y' : 'y'
+            i += 1
+            continue
+          }
+        }
+        if (lo === 'ь' && next === 'и') m = 'y'
+      }
+    }
+    if (m === undefined) {
+      out += ch
+      continue
+    }
+    out += ch !== lo && m ? m[0].toUpperCase() + m.slice(1) : m
+  }
+  return titleCase(out)
+}
+
+const HANGUL_INITIAL = ['g', 'kk', 'n', 'd', 'tt', 'r', 'm', 'b', 'pp', 's', 'ss', '', 'j', 'jj', 'ch', 'k', 't', 'p', 'h']
+const HANGUL_MEDIAL = ['a', 'ae', 'ya', 'yae', 'eo', 'e', 'yeo', 'ye', 'o', 'wa', 'wae', 'oe', 'yo', 'u', 'wo', 'we', 'wi', 'yu', 'eu', 'ui', 'i']
+const HANGUL_FINAL = ['', 'k', 'k', 'k', 'n', 'n', 'n', 't', 'l', 'k', 'm', 'l', 'l', 'l', 'p', 'l', 'm', 'p', 'p', 't', 't', 'ng', 't', 't', 'k', 't', 'p', 't']
+
+/** Revised Romanization of Hangul (syllable by syllable, word-initial r -> r). */
+function romanizeKorean(text) {
+  let out = ''
+  for (const ch of String(text || '')) {
+    const c = ch.codePointAt(0) - 0xac00
+    if (c < 0 || c > 11171) {
+      out += ch
+      continue
+    }
+    const ini = Math.floor(c / 588)
+    const med = Math.floor((c % 588) / 28)
+    const fin = c % 28
+    let syl = HANGUL_INITIAL[ini] + HANGUL_MEDIAL[med] + HANGUL_FINAL[fin]
+    // a lone r at the start of a word reads as r in the North (Ryongsong)
+    out += syl
+  }
+  return titleCase(out)
+}
+
+/** "ploshchad revolyutsii" -> "Ploshchad Revolyutsii" (keeps "Moskva-Siti"). */
+function titleCase(s) {
+  return String(s)
+    .replace(/(^|[\s(«"„]|(?<!\d)[-–])(\p{Ll})/gu, (_, a, b) => a + b.toUpperCase())
+    .replace(/(?<=\p{L}\s)(I|Na|V|U|Pri|Imeni)(?=\s)/gu, (w) =>
+      w === 'Imeni' ? w : w.toLowerCase(),
+    )
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+}
+
+/**
+ * Station label. With spec.localName (e.g. Japan: {"tag": "name", "enTags":
+ * ["name:en", "name:ja-Latn"], "altTags": ["name:ja-Hira"], "strip": "駅$"})
+ * the name is "English (local)" and the local/kana names become answers.
+ * spec.altTags adds answers for Latin-script cities (e.g. "alt_name").
+ */
+function stationLabel(spec, tags, fallbackRaw) {
+  const t = tags || {}
+  const strip = spec.stripPrefix ? new RegExp(spec.stripPrefix, 'i') : null
+  const clean = (v) => {
+    const x = cleanStationName(v, spec.keepSuffix)
+    return strip ? x.replace(strip, '').trim() : x
+  }
+  const loc = spec.localName
+  let name
+  const alternates = []
+  if (loc) {
+    const strip = loc.strip ? new RegExp(loc.strip) : null
+    const tidyLocal = (v) => {
+      let x = String(v || '').trim()
+      x = x.replace(/[（(][^）)]*[）)]\s*$/, '').trim()
+      if (strip) x = x.replace(strip, '').trim()
+      return x
+    }
+    const local = tidyLocal(t[loc.tag || 'name'] || fallbackRaw)
+    const enRaw = (loc.enTags || ['name:en']).map((k) => t[k]).find(Boolean)
+    let en = enRaw ? clean(enRaw) : ''
+    if (!en && loc.romanize === 'ko' && local) en = romanizeKorean(local)
+    // "Hondori (Peace Memorial Park)": the bracket is an answer, not the name
+    const paren = en.match(/^(.+?)\s*\(([^)]+)\)$/)
+    if (paren) {
+      en = paren[1]
+      alternates.push(paren[2])
+    }
+    // One English spelling per local name across the city (OSM mixes
+    // "Hondōri" and "Hondori" for 本通), so same-named stops still group.
+    spec.__enByLocal = spec.__enByLocal || new Map()
+    if (local && en && !spec.__enByLocal.has(local)) spec.__enByLocal.set(local, en)
+    if (local && spec.__enByLocal.has(local)) {
+      const first = spec.__enByLocal.get(local)
+      if (en && first !== en) alternates.push(en)
+      en = first
+    }
+    if (en && local && normName(en) !== normName(local)) name = `${en} (${local})`
+    else name = en || local
+    if (local) alternates.push(local)
+    for (const k of loc.altTags || []) if (t[k]) alternates.push(tidyLocal(t[k]))
+    if (en) alternates.push(en)
+  } else if (spec.transliterate) {
+    // Cyrillic/Georgian/Armenian etc.: a Latin name is shown, and the local
+    // script, OSM's English name and romanised Russian names are answers.
+    const tidy = (v) => {
+      let x = clean(String(v || '').replace(/[«»"„“”]/g, ''))
+      if (spec.localStrip) x = x.replace(new RegExp(spec.localStrip), '').trim()
+      return x
+    }
+    const local = tidy(t.name || fallbackRaw)
+    const en = tidy((spec.enTags || ['name:en']).map((k) => t[k]).find(Boolean))
+    const auto = transliterate(local, spec.transliterate)
+    const mode = spec.display || 'translit'
+    if (mode === 'local') name = titleCase(local)
+    else if (mode === 'en') name = en ? titleCase(en) : auto
+    else name = auto
+    // Same spelling for every stop sharing a local name (transfers group).
+    spec.__enByLocal = spec.__enByLocal || new Map()
+    if (local && !spec.__enByLocal.has(local)) spec.__enByLocal.set(local, name)
+    if (local && spec.__enByLocal.get(local) !== name) {
+      alternates.push(name)
+      name = spec.__enByLocal.get(local)
+    }
+    alternates.push(local, en, auto)
+    const ru = tidy(t['name:ru'])
+    if (ru) alternates.push(ru, transliterate(ru, 'ru'))
+    if (spec.transliterate !== 'ru' && spec.transliterate !== 'uk' && spec.transliterate !== 'be') {
+      // nothing extra
+    } else if (spec.transliterate !== 'ru' && /[Ѐ-ӿ]/.test(local)) {
+      alternates.push(transliterate(local, 'ru'))
+    }
+  } else {
+    name = clean(t[spec.nameTag || 'name'] || t.name || fallbackRaw)
+    if (spec.localStrip) name = name.replace(new RegExp(spec.localStrip), '').trim()
+  }
+  for (const k of spec.altTags || []) {
+    for (const v of String(t[k] || '').split(';')) if (v.trim()) alternates.push(clean(v))
+  }
+  // "Callao (B)" -> "Callao": the line letter only disambiguates in OSM.
+  // "Uruguai / Tijuca" -> "Uruguai" (the neighbourhood stays an answer).
+  if (spec.primaryBeforeSlash && /\s\/\s/.test(name)) {
+    const parts = name.split(/\s+\/\s+/)
+    alternates.push(...parts.slice(1))
+    name = parts[0]
+  }
+  if (spec.stripLineSuffix) name = name.replace(/\s*\([A-Z0-9]{1,3}\)$/, '')
+  for (const [re, to] of spec.nameReplace || []) {
+    const next = name.replace(new RegExp(re, 'g'), to).replace(/\s{2,}/g, ' ').trim()
+    if (next !== name) {
+      alternates.push(name)
+      name = next
+    }
+  }
+  name = (spec.rename || {})[name] || name
+  for (const a of (spec.alternates || {})[name] || []) alternates.push(a)
+  // "Congreso - Raúl Alfonsín": each part is an answer too.
+  if (spec.splitDash) {
+    const sep = spec.splitHyphen
+      ? /\s*[-–—•]\s*|\s+\/\s+/
+      : /\s+[-–—•\/]\s+/
+    for (const part of name.split(sep)) if (part !== name) alternates.push(part)
+  }
+  const alts = [...new Set(alternates.filter((a) => a && a !== name))]
+  return { name, alternates: alts }
+}
+
 /** Stops of one relation in order, as {name, coordinates}. */
 function relationStops(rel, idx, spec, mode) {
   // Heavy rail stops shouldn't snap to tram stops on the street outside.
@@ -364,16 +610,14 @@ function relationStops(rel, idx, spec, mode) {
       radius,
       cleanStationName(ownName),
     )
-    const rawName =
-      st?.tags?.[spec.nameTag || 'name'] || st?.tags?.name || ownName
-    if (!rawName) continue
-    const name =
-      (spec.rename || {})[cleanStationName(rawName, spec.keepSuffix)] ||
-      cleanStationName(rawName, spec.keepSuffix)
+    const rawTags = st?.tags || (ownName ? { name: ownName } : null)
+    if (!rawTags?.name && !ownName) continue
+    const { name, alternates } = stationLabel(spec, rawTags, ownName)
+    if (!name) continue
     const coordinates = st ? st.coordinates : point
     const prev = out[out.length - 1]
     if (prev && normName(prev.name) === normName(name)) continue
-    out.push({ name, coordinates })
+    out.push({ name, alternates, coordinates })
   }
   return out
 }
@@ -423,12 +667,98 @@ function buildLine(line, rels, idx, spec) {
   // Some networks only tag the terminals as stops (e.g. Adelaide Metro):
   // fall back to the stations that sit on the line's own track.
   const forceTrack = spec.stationsFromTrack || line.stationsFromTrack
-  if (mode !== 'tram' && (forceTrack || stations.length < 3)) {
-    const along = stationsAlongTrack(rels, idx, spec, mode)
-    if (along.length > stations.length) {
+  // (skipped when the line is pinned by pathBetween/stationList: on a
+  // whole national network the greedy chaining would be wasted work)
+  if (!line.pathBetween && !line.stationList && (forceTrack || (mode !== 'tram' && stations.length < 3))) {
+    let along = stationsAlongTrack(rels, idx, spec, mode)
+    if (line.between) {
+      const [from, to] = line.between.map(normName)
+      const a = along.findIndex((x) => normName(x.name) === from)
+      const b = along.findIndex((x) => normName(x.name) === to)
+      if (a >= 0 && b >= 0)
+        along = a <= b ? along.slice(a, b + 1) : along.slice(b, a + 1).reverse()
+    }
+    if (along.length > stations.length || line.between) {
       stations.length = 0
       stations.push(...along)
     }
+  }
+  // National networks where every station belongs to the operator that
+  // manages it (UK TOCs): "stationTags": {"operator": "^ScotRail$"}.
+  if (line.stationTags) {
+    stations.length = 0
+    const picked = idx.stations.filter((st) => {
+      if (spec.bbox && !inBbox(st.coordinates, spec.bbox)) return false
+      return Object.entries(line.stationTags).every(([k, re]) =>
+        new RegExp(re, 'i').test(String(st.tags[k] ?? '')),
+      )
+    })
+    for (const st of picked) {
+      const { name, alternates } = stationLabel(spec, st.tags)
+      if (!name || stations.some((x) => normName(x.name) === normName(name))) continue
+      stations.push({ name, alternates, coordinates: st.coordinates })
+    }
+    stations.sort((a, b) => a.name.localeCompare(b.name))
+  }
+  let pathTrack = null
+  if (line.pathBetween) {
+    pathTrack = trackPathBetween(rels, idx, { ...spec, trackJoinM: line.trackJoinM ?? spec.trackJoinM }, line.pathBetween)
+    if (pathTrack) {
+      stations.length = 0
+      stations.push(...stationsAlongPath(pathTrack, idx, spec))
+    }
+  }
+  // An authoritative station list (e.g. from Wikipedia) for lines whose OSM
+  // relations list no stops: each name is matched to the OSM station of that
+  // name nearest the line's own track, so a same-named metro station nearby
+  // or a conventional station the viaduct passes isn't picked up.
+  if (line.stationList) {
+    const pts = []
+    for (const r of rels)
+      for (const w of trackWays(r, idx))
+        for (let i = 0; i < w.geometry.length; i += 3)
+          pts.push([w.geometry[i].lon, w.geometry[i].lat])
+    const distToTrack = (c) => {
+      let best = Infinity
+      for (const p of pts) {
+        const d = haversine(c, p)
+        if (d < best) best = d
+      }
+      return best
+    }
+    const strip = spec.localName?.strip ? new RegExp(spec.localName.strip) : null
+    const key = (v) => normName(String(v || '').replace(strip || /$^/, ''))
+    stations.length = 0
+    for (const wanted of line.stationList) {
+      const k = key(wanted)
+      let best = null
+      for (const st of idx.stations) {
+        const t = st.tags || {}
+        if (key(t[spec.localName?.tag || 'name']) !== k && key(t.name) !== k)
+          continue
+        if (t.railway === 'tram_stop' || t.subway === 'yes') continue
+        const d = pts.length ? distToTrack(st.coordinates) : 0
+        if (!best || d < best.d) best = { d, st }
+      }
+      if (!best || best.d > (line.stationListMaxM ?? 1500)) {
+        console.error(`  ${line.id}: no OSM station near the track for ${wanted}`)
+        continue
+      }
+      const { name, alternates } = stationLabel(spec, best.st.tags, wanted)
+      stations.push({ name, alternates, coordinates: best.st.coordinates })
+    }
+  }
+  // The same station twice on one line (a stray stop in the relation)
+  for (let i = stations.length - 1; i > 0; i -= 1) {
+    const k = normName(stations[i].name)
+    if (stations.slice(0, i).some((x) => normName(x.name) === k))
+      stations.splice(i, 1)
+  }
+  // Stations of another line that this service runs through (e.g. a line
+  // whose trains continue over a neighbour's track): drop them by name.
+  for (const drop of line.removeStations || []) {
+    const k = stations.findIndex((x) => normName(x.name) === normName(drop))
+    if (k >= 0) stations.splice(k, 1)
   }
   for (const extra of line.addStations || []) {
     if (stations.some((x) => normName(x.name) === normName(extra.name)))
@@ -446,7 +776,18 @@ function buildLine(line, rels, idx, spec) {
       if (!hit) continue
       coordinates = hit.coordinates
     }
-    const item = { name: extra.name, coordinates }
+    let item = {
+      name: extra.name,
+      ...(extra.alternates ? { alternates: extra.alternates } : {}),
+      coordinates,
+    }
+    if (extra.osmName && !extra.coordinates) {
+      const hitTags = idx.stations.find(
+        (st) =>
+          normName(cleanStationName(st.tags.name)) === normName(extra.osmName),
+      )?.tags
+      if (hitTags) item = { ...stationLabel(spec, hitTags), coordinates }
+    }
     const anchor = extra.before || extra.after
     const k = anchor
       ? stations.findIndex((x) => normName(x.name) === normName(anchor))
@@ -503,6 +844,15 @@ function buildLine(line, rels, idx, spec) {
   }
   const strings = []
   let lengthM = 0
+  if (pathTrack) {
+    const pts = simplify(pathTrack, spec.simplifyM ?? 2).map(round)
+    for (const run of lineStrings(pts, spec.bbox)) {
+      strings.push(run)
+      lengthM += run.slice(1).reduce((a, p, i) => a + haversine(run[i], p), 0)
+    }
+    wayIds.clear()
+    extraWayIds.clear()
+  }
   // Extra track (e.g. a newly converted section missing from the route relation)
   // is kept only near the line's stations.
   const nearLine = (pt) =>
@@ -543,22 +893,312 @@ function trackWays(rel, idx) {
     .filter(Boolean)
 }
 
+/**
+ * Shortest path along the line's track between two named stations (Dijkstra
+ * over the member ways), for national lines whose relations hold whole
+ * networks: "pathBetween": ["Bangkok", "Lop Buri"]. Returns the path as
+ * [lon, lat] points, or null when either station or a connection is missing.
+ */
+function trackPathBetween(rels, idx, spec, names) {
+  const key = (p) => `${p[0].toFixed(6)},${p[1].toFixed(6)}`
+  const coords = new Map()
+  const adj = new Map()
+  const link = (a, b) => {
+    const ka = key(a)
+    const kb = key(b)
+    if (ka === kb) return
+    coords.set(ka, a)
+    coords.set(kb, b)
+    const d = haversine(a, b)
+    if (!adj.has(ka)) adj.set(ka, [])
+    if (!adj.has(kb)) adj.set(kb, [])
+    adj.get(ka).push([kb, d])
+    adj.get(kb).push([ka, d])
+  }
+  for (const r of rels)
+    for (const w of trackWays(r, idx))
+      for (let i = 1; i < w.geometry.length; i += 1)
+        link(
+          [w.geometry[i - 1].lon, w.geometry[i - 1].lat],
+          [w.geometry[i].lon, w.geometry[i].lat],
+        )
+  if (!adj.size) return null
+  // Tracks of a double-track line or a junction often meet without sharing a
+  // node: join every way end to any track point within 30 m.
+  const grid = new Map()
+  const cell = (p) => `${Math.floor(p[0] / 0.0005)},${Math.floor(p[1] / 0.0005)}`
+  for (const [k, c] of coords) {
+    const g = cell(c)
+    if (!grid.has(g)) grid.set(g, [])
+    grid.get(g).push(k)
+  }
+  const ends = []
+  for (const r of rels)
+    for (const w of trackWays(r, idx)) {
+      const g = w.geometry
+      ends.push([g[0].lon, g[0].lat], [g[g.length - 1].lon, g[g.length - 1].lat])
+    }
+  const joinM = spec.trackJoinM ?? 30
+  const reach = Math.ceil(joinM / 50)
+  // union-find over track points, so gaps are bridged between different
+  // pieces only (never as shortcuts within a connected stretch)
+  const parent = new Map()
+  const find = (k) => {
+    let r = k
+    while (parent.has(r) && parent.get(r) !== r) r = parent.get(r)
+    let c = k
+    while (parent.has(c) && parent.get(c) !== r) {
+      const n = parent.get(c)
+      parent.set(c, r)
+      c = n
+    }
+    return r
+  }
+  const union = (a, b) => {
+    const ra = find(a)
+    const rb = find(b)
+    if (ra !== rb) parent.set(ra, rb)
+  }
+  for (const [k, list] of adj) for (const [n] of list) union(k, n)
+  // size of each piece of track as mapped (before any gap bridging), so a
+  // station can be snapped to the main line rather than a stub beside it
+  const rawSize = new Map()
+  {
+    const tally = new Map()
+    for (const k of coords.keys()) tally.set(find(k), (tally.get(find(k)) || 0) + 1)
+    for (const k of coords.keys()) rawSize.set(k, tally.get(find(k)))
+  }
+  const near = (e, maxD, otherComponentOnly) => {
+    const [cx, cy] = cell(e).split(',').map(Number)
+    const r = Math.ceil(maxD / 50)
+    let best = null
+    const ke = key(e)
+    for (let dx = -r; dx <= r; dx += 1)
+      for (let dy = -r; dy <= r; dy += 1)
+        for (const k of grid.get(`${cx + dx},${cy + dy}`) || []) {
+          if (k === ke) continue
+          if (otherComponentOnly && find(k) === find(ke)) continue
+          const d = haversine(e, coords.get(k))
+          if (d < maxD && (!best || d < best.d)) best = { d, k }
+        }
+    return best
+  }
+  for (const e of ends) {
+    const b = near(e, 30, true)
+    if (b) {
+      link(e, coords.get(b.k))
+      union(key(e), b.k)
+    }
+  }
+  if (joinM > 30) {
+    for (const e of ends) {
+      const b = near(e, joinM, true)
+      if (b) {
+        link(e, coords.get(b.k))
+        union(key(e), b.k)
+      }
+    }
+  }
+  void reach
+  const findStation = (name) => {
+    const want = normName(name)
+    const hits = idx.stations.filter(
+      (st) =>
+        normName(cleanStationName(st.tags['name:en'] || '')) === want ||
+        normName(cleanStationName(st.tags.name || '')) === want,
+    )
+    // Snap to the nearest track point, but prefer the main network over a
+    // stub (a siding or an isolated station track) that happens to be closer.
+    let best = null
+    for (const st of hits)
+      for (const [k, c] of coords) {
+        const d = haversine(st.coordinates, c)
+        if (d >= 1500) continue
+        const score = d + ((rawSize.get(k) || 0) < 2000 ? 3000 : 0)
+        if (!best || score < best.score) best = { d, k, score }
+      }
+    if (!best) return null
+    // "hubM": let the path change tracks anywhere inside the station (station
+    // throats are often mapped as service track, which isn't loaded)
+    const hubM = spec.hubM ?? 0
+    if (!hubM) return best.k
+    const hub = `hub:${want}:${best.k}`
+    const at = coords.get(best.k)
+    coords.set(hub, at)
+    adj.set(hub, [])
+    const [cx, cy] = cell(at).split(',').map(Number)
+    const r = Math.ceil(hubM / 40)
+    for (let dx = -r; dx <= r; dx += 1)
+      for (let dy = -r; dy <= r; dy += 1)
+        for (const k of grid.get(`${cx + dx},${cy + dy}`) || []) {
+          const d = haversine(at, coords.get(k))
+          if (d > hubM) continue
+          adj.get(hub).push([k, d])
+          adj.get(k).push([hub, d])
+        }
+    return hub
+  }
+  function shortest(from, to) {
+    const dist = new Map([[from, 0]])
+    const prev = new Map()
+    const done = new Set()
+    // simple binary heap
+    const heap = [[0, from]]
+    const push = (item) => {
+      heap.push(item)
+      let i = heap.length - 1
+      while (i > 0) {
+        const p = (i - 1) >> 1
+        if (heap[p][0] <= heap[i][0]) break
+        ;[heap[p], heap[i]] = [heap[i], heap[p]]
+        i = p
+      }
+    }
+    const pop = () => {
+      const top = heap[0]
+      const last = heap.pop()
+      if (heap.length) {
+        heap[0] = last
+        let i = 0
+        for (;;) {
+          const l = 2 * i + 1
+          const r = l + 1
+          let m = i
+          if (l < heap.length && heap[l][0] < heap[m][0]) m = l
+          if (r < heap.length && heap[r][0] < heap[m][0]) m = r
+          if (m === i) break
+          ;[heap[m], heap[i]] = [heap[i], heap[m]]
+          i = m
+        }
+      }
+      return top
+    }
+    while (heap.length) {
+      const [d, k] = pop()
+      if (done.has(k)) continue
+      done.add(k)
+      if (k === to) break
+      for (const [n, w] of adj.get(k) || []) {
+        const nd = d + w
+        if (nd < (dist.get(n) ?? Infinity)) {
+          dist.set(n, nd)
+          prev.set(n, k)
+          push([nd, n])
+        }
+      }
+    }
+    if (!done.has(to)) return null
+    const path = []
+    for (let k = to; k; k = prev.get(k)) path.push(coords.get(k))
+    return path.reverse()
+  }
+  // Two or more names: the path is chained through each in turn, so a long
+  // service can be pinned to the route it really takes.
+  const keys = names.map((n) => {
+    const k = findStation(n)
+    if (!k && names.length > 2 && n !== names[0] && n !== names[names.length - 1])
+      console.error(`  pathBetween: skipping waypoint not found (${n})`)
+    return k
+  })
+  if (!keys[0] || !keys[keys.length - 1]) {
+    console.error(`  pathBetween: station not found (${names.join(' → ')})`)
+    return null
+  }
+  const way = keys.filter(Boolean)
+  const full = []
+  for (let s = 1; s < way.length; s += 1) {
+    const seg = shortest(way[s - 1], way[s])
+    if (!seg) {
+      console.error(`  pathBetween: no track connection (${names.join(' → ')})`)
+      return null
+    }
+    if (process.env.DEBUG_PATH) {
+      let m = 0
+      for (let i = 1; i < seg.length; i += 1) m += haversine(seg[i - 1], seg[i])
+      console.error(`    seg ${s}: ${(m / 1000).toFixed(1)} km straight ${(haversine(coords.get(way[s - 1]), coords.get(way[s])) / 1000).toFixed(1)} km`)
+    }
+    full.push(...(full.length ? seg.slice(1) : seg))
+  }
+  return full
+}
+
+/** Stations within trackStationDistance of a polyline, in order along it. */
+function stationsAlongPath(path, idx, spec) {
+  const cum = [0]
+  for (let i = 1; i < path.length; i += 1)
+    cum.push(cum[i - 1] + haversine(path[i - 1], path[i]))
+  const maxD = spec.trackStationDistance ?? 80
+  const found = []
+  for (const st of idx.stations) {
+    if (st.tags.railway === 'tram_stop') continue
+    if (spec.bbox && !inBbox(st.coordinates, spec.bbox)) continue
+    let best = Infinity
+    let at = 0
+    for (let i = 1; i < path.length; i += 1) {
+      const [d, f] = pointSegment(st.coordinates, path[i - 1], path[i])
+      if (d < best) {
+        best = d
+        at = cum[i - 1] + f * (cum[i] - cum[i - 1])
+      }
+    }
+    if (best <= maxD) found.push({ st, at })
+  }
+  found.sort((a, b) => a.at - b.at)
+  const out = []
+  for (const { st } of found) {
+    const { name, alternates } = stationLabel(spec, st.tags)
+    if (out.some((x) => normName(x.name) === normName(name))) continue
+    out.push({ name, alternates, coordinates: st.coordinates })
+  }
+  return out
+}
+
 /** Rail stations within a few metres of the line's track, ordered along the longest relation. */
 function stationsAlongTrack(rels, idx, spec, mode) {
   const rel = [...rels].sort(
     (a, b) => trackWays(b, idx).length - trackWays(a, idx).length,
   )[0]
   if (!rel) return []
-  // Chain the member ways in order, flipping each to follow on from the last.
+  // Chain the member ways end to end. Relations often list them out of
+  // order, so start from a dangling end and keep taking the way whose end is
+  // nearest the current tip (flipping it to follow on).
+  const pieces = trackWays(rel, idx).map((w) =>
+    w.geometry.map((p) => [p.lon, p.lat]),
+  )
+  const key = (p) => `${p[0].toFixed(6)},${p[1].toFixed(6)}`
+  const degree = new Map()
+  for (const pts of pieces)
+    for (const p of [pts[0], pts[pts.length - 1]])
+      degree.set(key(p), (degree.get(key(p)) || 0) + 1)
+  let startIdx = pieces.findIndex(
+    (pts) =>
+      degree.get(key(pts[0])) === 1 || degree.get(key(pts[pts.length - 1])) === 1,
+  )
+  if (startIdx < 0) startIdx = 0
   const path = []
-  for (const w of trackWays(rel, idx)) {
-    let pts = w.geometry.map((p) => [p.lon, p.lat])
-    if (path.length) {
+  const used = new Set()
+  if (pieces.length) {
+    let first = pieces[startIdx]
+    if (degree.get(key(first[0])) !== 1 && degree.get(key(first[first.length - 1])) === 1)
+      first = [...first].reverse()
+    path.push(...first)
+    used.add(startIdx)
+    while (used.size < pieces.length) {
       const end = path[path.length - 1]
-      if (haversine(end, pts[pts.length - 1]) < haversine(end, pts[0]))
-        pts = pts.reverse()
+      let best = -1
+      let bestD = Infinity
+      let flip = false
+      pieces.forEach((pts, i) => {
+        if (used.has(i)) return
+        const d0 = haversine(end, pts[0])
+        const d1 = haversine(end, pts[pts.length - 1])
+        if (d0 < bestD) [best, bestD, flip] = [i, d0, false]
+        if (d1 < bestD) [best, bestD, flip] = [i, d1, true]
+      })
+      used.add(best)
+      const pts = flip ? [...pieces[best]].reverse() : pieces[best]
+      path.push(...pts)
     }
-    path.push(...pts)
   }
   if (path.length < 2) return []
   const cum = [0]
@@ -590,11 +1230,9 @@ function stationsAlongTrack(rels, idx, spec, mode) {
   found.sort((a, b) => a.at - b.at)
   const out = []
   for (const { st } of found) {
-    const raw = st.tags[spec.nameTag || 'name'] || st.tags.name
-    const clean = cleanStationName(raw, spec.keepSuffix)
-    const name = (spec.rename || {})[clean] || clean
+    const { name, alternates } = stationLabel(spec, st.tags)
     if (out.some((x) => normName(x.name) === normName(name))) continue
-    out.push({ name, coordinates: st.coordinates })
+    out.push({ name, alternates, coordinates: st.coordinates })
   }
   return out
 }
@@ -801,15 +1439,30 @@ async function buildCity(spec, args, osmCache) {
   if (!osm) {
     const t0 = Date.now()
     console.error(`${spec.slug}: querying Overpass…`)
-    osm = args.fixture
-      ? JSON.parse(fs.readFileSync(args.fixture, 'utf8'))
-      : await fetchOverpass(buildQuery(spec.bbox))
+    const fixture =
+      args.fixture ||
+      (args['osm-dir'] && path.join(args['osm-dir'], `${spec.slug}.json`))
+    osm = fixture
+      ? JSON.parse(fs.readFileSync(fixture, 'utf8'))
+      : await fetchOverpass(spec.query || buildQuery(spec.bbox))
     console.error(
       `${spec.slug}: ${(osm.elements || []).length} elements in ${Math.round((Date.now() - t0) / 1000)}s`,
     )
     osmCache.set(key, osm)
   }
   const idx = indexOsm(osm)
+  // Optional station filters, e.g. keep only the national operator's stops
+  // ("stationTagsInclude": {"operator": "臺灣鐵路|^$"}) or drop metro ones.
+  if (spec.stationTagsInclude || spec.stationTagsExclude) {
+    idx.stations = idx.stations.filter((st) => {
+      const t = st.tags || {}
+      for (const [k, re] of Object.entries(spec.stationTagsInclude || {}))
+        if (!new RegExp(re, 'i').test(String(t[k] ?? ''))) return false
+      for (const [k, re] of Object.entries(spec.stationTagsExclude || {}))
+        if (new RegExp(re, 'i').test(String(t[k] ?? ''))) return false
+      return true
+    })
+  }
 
   const report = [`## ${spec.slug}`]
   const features = []
@@ -818,7 +1471,9 @@ async function buildCity(spec, args, osmCache) {
   const used = new Set()
   let id = 0
   spec.lines.forEach((line, order) => {
-    const rels = idx.rels.filter((r) => matches(line.match, r.tags || {}))
+    const rels = idx.rels.filter((r) =>
+      matches(line.match, { ...(r.tags || {}), '@id': String(r.id) }),
+    )
     rels.forEach((r) => used.add(r.id))
     const built = buildLine(line, rels, idx, spec)
     const color =
@@ -835,7 +1490,13 @@ async function buildCity(spec, args, osmCache) {
       features.push({
         type: 'Feature',
         geometry: { type: 'Point', coordinates: round(s.coordinates) },
-        properties: { id, name: s.name, line: line.id, order: i },
+        properties: {
+          id,
+          name: s.name,
+          ...(s.alternates?.length ? { alternate_names: s.alternates } : {}),
+          line: line.id,
+          order: i,
+        },
         id,
       })
       id += 1
@@ -868,6 +1529,26 @@ async function buildCity(spec, args, osmCache) {
     if (built.stations.length)
       report.push(`  - ${built.stations.map((s) => s.name).join(' · ')}`)
   })
+
+  // An answer shared by differently named stations ("Tijuca" for four
+  // stations in Tijuca) would find all of them at once: drop it.
+  const owners = new Map()
+  for (const f of features) {
+    for (const a of f.properties.alternate_names || []) {
+      const k = normName(a)
+      if (!owners.has(k)) owners.set(k, new Set())
+      owners.get(k).add(normName(f.properties.name))
+    }
+  }
+  for (const f of features) {
+    const keep = (f.properties.alternate_names || []).filter(
+      (a) =>
+        owners.get(normName(a)).size === 1 &&
+        normName(a) !== normName(f.properties.name),
+    )
+    if (keep.length) f.properties.alternate_names = keep
+    else delete f.properties.alternate_names
+  }
 
   // Route relations in the area that no line claimed (helps fix the spec).
   const unused = idx.rels
@@ -949,6 +1630,10 @@ if (require.main === module) {
 }
 
 module.exports = {
+  romanizeKorean,
+  transliterate,
+  buildQuery,
+  fetchOverpass,
   cleanStationName,
   matches,
   buildLine,

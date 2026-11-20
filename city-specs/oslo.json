@@ -1,0 +1,98 @@
+{
+  "slug": "oslo",
+  "path": "europe/norway/oslo",
+  "gameTitle": "Oslo Metro Memory",
+  "description": "How many Oslo Metro stations can you name from memory?",
+  "locale": "nb_NO",
+  "bbox": [
+    59.768,
+    10.456,
+    60.092,
+    11.104
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Oslo Metro",
+      "lines": [
+        "OSLO1",
+        "OSLO2",
+        "OSLO3",
+        "OSLO4",
+        "OSLO5"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "OSLO1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(451860|2890636|6099199|6099200)$"
+      },
+      "color": "#0073DB",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "OSLO1.svg"
+    },
+    {
+      "id": "OSLO2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(452520|2636244)$"
+      },
+      "color": "#EC700C",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "OSLO2.svg"
+    },
+    {
+      "id": "OSLO3",
+      "name": "Line 3",
+      "match": {
+        "@id": "^(453207|2635251|6104597|6104599)$"
+      },
+      "color": "#A85FA5",
+      "textColor": "#FFFFFF",
+      "badge": "3",
+      "icon": "OSLO3.svg"
+    },
+    {
+      "id": "OSLO4",
+      "name": "Line 4",
+      "match": {
+        "@id": "^(421527|2826133)$"
+      },
+      "color": "#004A98",
+      "textColor": "#FFFFFF",
+      "badge": "4",
+      "icon": "OSLO4.svg"
+    },
+    {
+      "id": "OSLO5",
+      "name": "Line 5",
+      "match": {
+        "@id": "^(453461|2640903)$"
+      },
+      "color": "#32AA35",
+      "textColor": "#FFFFFF",
+      "badge": "5",
+      "icon": "OSLO5.svg"
+    }
+  ],
+  "register": {
+    "name": "Oslo, NO",
+    "continent": "Europe",
+    "coordinates": [
+      10.78,
+      59.93
+    ],
+    "zh": "奥斯陆, NO",
+    "achievement": {
+      "title": "Oslo Metro Master",
+      "description": "You've named every Oslo Metro station."
+    }
+  }
+}

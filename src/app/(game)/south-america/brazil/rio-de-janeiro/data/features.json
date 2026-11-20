@@ -1,0 +1,910 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.23827,
+          -22.930941
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Uruguai",
+        "line": "RJ1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.232594,
+          -22.924143
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Saens Peña",
+        "line": "RJ1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.223664,
+          -22.92083
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "São Francisco Xavier",
+        "line": "RJ1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.217745,
+          -22.918448
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Afonso Pena",
+        "line": "RJ1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.206672,
+          -22.913439
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Estácio",
+        "line": "RJ1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.200283,
+          -22.909917
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Praça Onze",
+        "line": "RJ1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.190852,
+          -22.905065
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Central do Brasil",
+        "line": "RJ1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.186184,
+          -22.903342
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Saara",
+        "alternate_names": [
+          "Presidente Vargas"
+        ],
+        "line": "RJ1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.181808,
+          -22.902913
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Uruguaiana",
+        "alternate_names": [
+          "Engenheiro Fernando Mac Dowell"
+        ],
+        "line": "RJ1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.178068,
+          -22.907577
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Carioca",
+        "line": "RJ1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.175662,
+          -22.910889
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Cinelândia",
+        "line": "RJ1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.176664,
+          -22.920628
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Glória",
+        "line": "RJ1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17655,
+          -22.925955
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Catete",
+        "line": "RJ1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.177677,
+          -22.931135
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Largo do Machado",
+        "line": "RJ1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.178539,
+          -22.93718
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Flamengo",
+        "line": "RJ1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.184223,
+          -22.950366
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Botafogo",
+        "line": "RJ1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.181385,
+          -22.963804
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Cardeal Arcoverde",
+        "line": "RJ1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.187317,
+          -22.967324
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Siqueira Campos",
+        "line": "RJ1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.194477,
+          -22.975486
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Cantagalo",
+        "line": "RJ1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.19647,
+          -22.981592
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "General Osório",
+        "line": "RJ1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.365465,
+          -22.806303
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Pavuna",
+        "line": "RJ2",
+        "order": 0
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.358465,
+          -22.816287
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Engenheiro Rubens Paiva",
+        "line": "RJ2",
+        "order": 1
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.349282,
+          -22.824982
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Acari",
+        "alternate_names": [
+          "Fazenda Botafogo"
+        ],
+        "line": "RJ2",
+        "order": 2
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.342919,
+          -22.831873
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Coelho Neto",
+        "line": "RJ2",
+        "order": 3
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.334548,
+          -22.842689
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Colégio",
+        "line": "RJ2",
+        "order": 4
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.323253,
+          -22.848002
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Irajá",
+        "line": "RJ2",
+        "order": 5
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.313154,
+          -22.854041
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Vicente de Carvalho",
+        "line": "RJ2",
+        "order": 6
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.306762,
+          -22.862594
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Thomáz Coelho",
+        "line": "RJ2",
+        "order": 7
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.297384,
+          -22.867949
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Engenho da Rainha",
+        "line": "RJ2",
+        "order": 8
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.283456,
+          -22.874568
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Inhaúma",
+        "line": "RJ2",
+        "order": 9
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.271927,
+          -22.879276
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Del Castilho",
+        "line": "RJ2",
+        "order": 10
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.260188,
+          -22.881494
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Maria da Graça",
+        "line": "RJ2",
+        "order": 11
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.244465,
+          -22.896844
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Triagem",
+        "line": "RJ2",
+        "order": 12
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.233909,
+          -22.909819
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Rei Pelé",
+        "alternate_names": [
+          "Maracanã"
+        ],
+        "line": "RJ2",
+        "order": 13
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.220994,
+          -22.909693
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "São Cristóvão",
+        "line": "RJ2",
+        "order": 14
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.206318,
+          -22.908707
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Cidade Nova",
+        "line": "RJ2",
+        "order": 15
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.190852,
+          -22.905065
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Central do Brasil",
+        "line": "RJ2",
+        "order": 16
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.186184,
+          -22.903342
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Saara",
+        "alternate_names": [
+          "Presidente Vargas"
+        ],
+        "line": "RJ2",
+        "order": 17
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.181808,
+          -22.902913
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Uruguaiana",
+        "alternate_names": [
+          "Engenheiro Fernando Mac Dowell"
+        ],
+        "line": "RJ2",
+        "order": 18
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.178068,
+          -22.907577
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Carioca",
+        "line": "RJ2",
+        "order": 19
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.175662,
+          -22.910889
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Cinelândia",
+        "line": "RJ2",
+        "order": 20
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.176664,
+          -22.920628
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Glória",
+        "line": "RJ2",
+        "order": 21
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17655,
+          -22.925955
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Catete",
+        "line": "RJ2",
+        "order": 22
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.177677,
+          -22.931135
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Largo do Machado",
+        "line": "RJ2",
+        "order": 23
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.178539,
+          -22.93718
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Flamengo",
+        "line": "RJ2",
+        "order": 24
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.184223,
+          -22.950364
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Botafogo",
+        "line": "RJ2",
+        "order": 25
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.196713,
+          -22.981957
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "General Osório",
+        "line": "RJ4",
+        "order": 0
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.206007,
+          -22.98375
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Nossa Senhora da Paz",
+        "line": "RJ4",
+        "order": 1
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.216266,
+          -22.98371
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Jardim de Alah",
+        "line": "RJ4",
+        "order": 2
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.223636,
+          -22.984513
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Antero de Quental",
+        "line": "RJ4",
+        "order": 3
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.255017,
+          -22.99126
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "São Conrado",
+        "line": "RJ4",
+        "order": 4
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.310956,
+          -23.006863
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Jardim Oceânico",
+        "alternate_names": [
+          "Barra da Tijuca"
+        ],
+        "line": "RJ4",
+        "order": 5
+      },
+      "id": 51
+    }
+  ]
+}

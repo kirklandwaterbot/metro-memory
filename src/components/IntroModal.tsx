@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 
 export default function IntroModal({
@@ -12,7 +12,22 @@ export default function IntroModal({
   inputRef: React.RefObject<HTMLInputElement>
   children: React.ReactNode
 }) {
-  inputRef.current?.focus()
+  // Focus the station input when the intro opens. This used to run on every
+  // render, which pulled focus (and typing) away from other fields such as
+  // "Search found stations" whenever the game page re-rendered.
+  useEffect(() => {
+    if (!open) return
+    const active = document.activeElement as HTMLElement | null
+    const typingElsewhere =
+      active &&
+      active !== inputRef.current &&
+      (active.tagName === 'INPUT' ||
+        active.tagName === 'TEXTAREA' ||
+        active.tagName === 'SELECT' ||
+        active.isContentEditable)
+    if (!typingElsewhere) inputRef.current?.focus()
+  }, [open, inputRef])
+
   return (
     <Transition.Root show={!!open} as={Fragment}>
       <div className="relative z-30 font-sans" onClick={() => setOpen(false)}>

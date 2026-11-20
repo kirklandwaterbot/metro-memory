@@ -1,0 +1,29 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "VancouverWestCoastExpressWce": [
+      7887550,
+      1861617
+    ],
+    "VancouverSkytrainExpoLine": [
+      207814,
+      5881297,
+      7882446,
+      207813
+    ],
+    "VancouverSkytrainMillenniumLine": [
+      5881418,
+      7252767
+    ],
+    "VancouverSkytrainCanadaLine": [
+      5881436,
+      207798,
+      5881437,
+      5881438
+    ],
+    "VancouverSeabusSeabus": []
+  }
+}

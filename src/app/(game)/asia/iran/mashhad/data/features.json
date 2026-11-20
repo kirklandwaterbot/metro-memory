@@ -1,0 +1,845 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.44215,
+          36.345095
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Vakilabad",
+        "alternate_names": [
+          "ایستگاه مترو وکیل آباد",
+          "وكيل آباد"
+        ],
+        "line": "MASH1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.452654,
+          36.342672
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Kuhestan Park",
+        "alternate_names": [
+          "ایستگاه مترو کوهستان پارک",
+          "حديقة كوهستان"
+        ],
+        "line": "MASH1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.463137,
+          36.339391
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Exhibition",
+        "alternate_names": [
+          "ایستگاه مترو نمایشگاه",
+          "معرض"
+        ],
+        "line": "MASH1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.474242,
+          36.335904
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Eghbal Lahuri",
+        "alternate_names": [
+          "ایستگاه مترو اقبال لاهوری",
+          "إقبال لاهوري"
+        ],
+        "line": "MASH1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.484824,
+          36.332596
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sayyad Shirazi",
+        "alternate_names": [
+          "ایستگاه مترو صیاد شیرازی",
+          "صیاد شيرازي"
+        ],
+        "line": "MASH1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.492898,
+          36.330084
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Sadaf",
+        "alternate_names": [
+          "ایستگاه مترو صدف",
+          "صدف"
+        ],
+        "line": "MASH1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.500404,
+          36.327738
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Haft-E Tir",
+        "alternate_names": [
+          "ایستگاه مترو هفت تیر",
+          "سبعة تير"
+        ],
+        "line": "MASH1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.508602,
+          36.325182
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Danesh Amouz",
+        "alternate_names": [
+          "ایستگاه مترو دانش آموز",
+          "دانش أموز"
+        ],
+        "line": "MASH1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.517026,
+          36.322551
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Seyyed Razi",
+        "alternate_names": [
+          "ایستگاه مترو سید رضی",
+          "سيد رضي"
+        ],
+        "line": "MASH1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.525641,
+          36.31987
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Kowsar",
+        "alternate_names": [
+          "ایستگاه مترو کوثر",
+          "کوثر"
+        ],
+        "line": "MASH1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.533886,
+          36.31731
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Mellat Park",
+        "alternate_names": [
+          "ایستگاه مترو پارک ملت",
+          "حديقة ملت"
+        ],
+        "line": "MASH1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.544517,
+          36.312552
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Azadi",
+        "alternate_names": [
+          "ایستگاه مترو آزادی",
+          "آزادي"
+        ],
+        "line": "MASH1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.552675,
+          36.307127
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Khayyam",
+        "alternate_names": [
+          "ایستگاه مترو خیام",
+          "خیام"
+        ],
+        "line": "MASH1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.563287,
+          36.3002
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Felestin",
+        "alternate_names": [
+          "ایستگاه مترو فلسطین",
+          "فلسطین"
+        ],
+        "line": "MASH1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.573013,
+          36.297171
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Taleghani",
+        "alternate_names": [
+          "ایستگاه مترو طالقانی",
+          "طالقاني"
+        ],
+        "line": "MASH1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.578796,
+          36.294282
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Ghaem",
+        "alternate_names": [
+          "ایستگاه مترو قائم",
+          "قائم"
+        ],
+        "line": "MASH1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.586103,
+          36.291075
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Shariati",
+        "alternate_names": [
+          "ایستگاه مترو شریعتی",
+          "شريعتي"
+        ],
+        "line": "MASH1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.595875,
+          36.281203
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Imam Khomeini",
+        "alternate_names": [
+          "ایستگاه مترو امام خمینی",
+          "الإمام الخميني"
+        ],
+        "line": "MASH1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.603554,
+          36.273563
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Basij",
+        "alternate_names": [
+          "ایستگاه مترو بسیج",
+          "بسیج"
+        ],
+        "line": "MASH1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.609217,
+          36.267729
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Hefdah-E Shahrivar",
+        "alternate_names": [
+          "ایستگاه مترو هفده شهریور",
+          "السابع عشر من سبتمبر"
+        ],
+        "line": "MASH1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.614185,
+          36.262783
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Parvin-E Etessami",
+        "alternate_names": [
+          "ایستگاه مترو پروین اعتصامی",
+          "بارفين إتصامي"
+        ],
+        "line": "MASH1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.620201,
+          36.256825
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Ghadir",
+        "alternate_names": [
+          "ایستگاه مترو غدیر",
+          "غدیر"
+        ],
+        "line": "MASH1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.623574,
+          36.24338
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Bustan-E Reyhaneh",
+        "alternate_names": [
+          "ایستگاه مترو بوستان ریحانه",
+          "حديقة ريحانة"
+        ],
+        "line": "MASH1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.640599,
+          36.228335
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Airport",
+        "alternate_names": [
+          "ایستگاه مترو فرودگاه",
+          "مطار"
+        ],
+        "line": "MASH1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.675271,
+          36.325074
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Tabarsi",
+        "alternate_names": [
+          "ایستگاه مترو طبرسی",
+          "الطبرسي"
+        ],
+        "line": "MASH2",
+        "order": 0
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.662237,
+          36.317012
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Velayat",
+        "alternate_names": [
+          "ایستگاه مترو ولایت",
+          "ولایت"
+        ],
+        "line": "MASH2",
+        "order": 1
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.655429,
+          36.312807
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Fajr",
+        "alternate_names": [
+          "ایستگاه مترو فجر",
+          "الفجر"
+        ],
+        "line": "MASH2",
+        "order": 2
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.644666,
+          36.305993
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Nabovvat",
+        "alternate_names": [
+          "ایستگاه مترو نبوت",
+          "نبوت"
+        ],
+        "line": "MASH2",
+        "order": 3
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.63772,
+          36.301705
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Mofatteh",
+        "alternate_names": [
+          "ایستگاه مترو مفتح",
+          "مفتح"
+        ],
+        "line": "MASH2",
+        "order": 4
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.622918,
+          36.303469
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Raah Ahan",
+        "alternate_names": [
+          "ایستگاه مترو راه آهن",
+          "السكك الحديدية"
+        ],
+        "line": "MASH2",
+        "order": 5
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.606553,
+          36.298281
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Shohada",
+        "alternate_names": [
+          "ایستگاه مترو شهدا",
+          "الشهداء"
+        ],
+        "line": "MASH2",
+        "order": 6
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.598242,
+          36.295331
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Sa'di",
+        "alternate_names": [
+          "ایستگاه مترو سعدی",
+          "سعدي"
+        ],
+        "line": "MASH2",
+        "order": 7
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.586103,
+          36.291075
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Shariati",
+        "alternate_names": [
+          "ایستگاه مترو شریعتی",
+          "شريعتي"
+        ],
+        "line": "MASH2",
+        "order": 8
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.576161,
+          36.287681
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Alandasht",
+        "alternate_names": [
+          "ایستگاه مترو الندشت",
+          "الندشت"
+        ],
+        "line": "MASH2",
+        "order": 9
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.563991,
+          36.283729
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Kouh Sangi",
+        "alternate_names": [
+          "ایستگاه مترو کوهسنگی",
+          "كوهسنكي"
+        ],
+        "line": "MASH2",
+        "order": 10
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.550012,
+          36.284587
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Shahid Kaveh",
+        "alternate_names": [
+          "ایستگاه مترو شهید کاوه",
+          "شهيد كافه"
+        ],
+        "line": "MASH2",
+        "order": 11
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.542552,
+          36.282949
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Shahid Fakouri",
+        "alternate_names": [
+          "ایستگاه مترو شهید فکوری",
+          "شهيد فكوري"
+        ],
+        "line": "MASH2",
+        "order": 12
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.606553,
+          36.298281
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Shohada",
+        "alternate_names": [
+          "ایستگاه مترو شهدا",
+          "الشهداء"
+        ],
+        "line": "MASH3",
+        "order": 0
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.611096,
+          36.285693
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Bab Ol-Javad",
+        "alternate_names": [
+          "ایستگاه مترو باب‌الجواد",
+          "باب الجواد",
+          "बाब अल जवाद"
+        ],
+        "line": "MASH3",
+        "order": 1
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.593152,
+          36.260111
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Imam Reza",
+        "alternate_names": [
+          "ایستگاه مترو امام رضا"
+        ],
+        "line": "MASH3",
+        "order": 2
+      },
+      "id": 39
+    }
+  ]
+}

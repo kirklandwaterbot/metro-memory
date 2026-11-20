@@ -1,0 +1,135 @@
+{
+  "slug": "riyadh",
+  "path": "asia/saudi-arabia/riyadh",
+  "gameTitle": "Riyadh Metro Memory",
+  "description": "How many Riyadh Metro stations can you name from memory?",
+  "locale": "ar_SA",
+  "bbox": [
+    24.48,
+    46.402,
+    25.02,
+    46.998
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Riyadh Metro",
+      "lines": [
+        "RIYA1",
+        "RIYA2",
+        "RIYA3",
+        "RIYA4",
+        "RIYA5",
+        "RIYA6"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "RIYA1",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(8857089|17168709)$"
+      },
+      "color": "#00AEE6",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "RIYA1.svg"
+    },
+    {
+      "id": "RIYA2",
+      "name": "Red Line",
+      "match": {
+        "@id": "^(8857429|17169524)$"
+      },
+      "color": "#EF3434",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "RIYA2.svg"
+    },
+    {
+      "id": "RIYA3",
+      "name": "Orange Line",
+      "match": {
+        "@id": "^(8857387|17172396)$"
+      },
+      "color": "#ED872D",
+      "textColor": "#FFFFFF",
+      "badge": "3",
+      "icon": "RIYA3.svg"
+    },
+    {
+      "id": "RIYA4",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(8857389|18367296)$"
+      },
+      "color": "#FFD009",
+      "textColor": "#222222",
+      "badge": "4",
+      "icon": "RIYA4.svg"
+    },
+    {
+      "id": "RIYA5",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(8857090|18359081)$"
+      },
+      "color": "#008000",
+      "textColor": "#FFFFFF",
+      "badge": "5",
+      "icon": "RIYA5.svg"
+    },
+    {
+      "id": "RIYA6",
+      "name": "Purple Line",
+      "match": {
+        "@id": "^(8857388|18360763)$"
+      },
+      "color": "#7F00FF",
+      "textColor": "#FFFFFF",
+      "badge": "6",
+      "icon": "RIYA6.svg"
+    }
+  ],
+  "register": {
+    "name": "Riyadh (الرياض), SA",
+    "continent": "Asia",
+    "coordinates": [
+      46.7,
+      24.75
+    ],
+    "zh": "利雅得, SA",
+    "achievement": {
+      "title": "Riyadh Metro Master",
+      "description": "You've named every Riyadh Metro station."
+    }
+  }
+}

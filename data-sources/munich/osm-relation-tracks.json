@@ -1,0 +1,84 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "MunichUBahn_UbahnU1": [
+      3502654,
+      3502653
+    ],
+    "MunichUBahn_UbahnU2": [
+      3502585,
+      3502584
+    ],
+    "MunichUBahn_UbahnU3": [
+      3484046,
+      3484043
+    ],
+    "MunichUBahn_UbahnU4": [
+      3328722,
+      3328723
+    ],
+    "MunichUBahn_UbahnU5": [
+      3475204,
+      3475205
+    ],
+    "MunichUBahn_UbahnU6": [
+      3476787,
+      3477961,
+      17356180,
+      17356181
+    ],
+    "MunichUBahn_UbahnU7": [
+      3502705,
+      3502706
+    ],
+    "MunichUBahn_UbahnU8": [
+      3502708,
+      3502707
+    ],
+    "MunichSBahn_DbRegioAgBayernS1": [
+      1773070,
+      1773068,
+      1773071,
+      1773072
+    ],
+    "MunichSBahn_DbRegioAgBayernS2": [
+      1854800,
+      1782540,
+      1854799,
+      1782541
+    ],
+    "MunichSBahn_DbRegioAgBayernS20": [
+      1844089,
+      1844088,
+      14050867,
+      14052077,
+      14052078,
+      14063575
+    ],
+    "MunichSBahn_DbRegioAgBayernS3": [
+      1792663,
+      1792662
+    ],
+    "MunichSBahn_DbRegioAgBayernS4": [
+      1794890,
+      1794891
+    ],
+    "MunichSBahn_DbRegioAgBayernS6": [
+      1796136,
+      1796137
+    ],
+    "MunichSBahn_DbRegioAgBayernS7": [
+      1796424,
+      18420792,
+      1796425,
+      18420791
+    ],
+    "MunichSBahn_DbRegioAgBayernS8": [
+      1843975,
+      1843976
+    ]
+  }
+}

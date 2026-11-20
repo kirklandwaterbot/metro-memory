@@ -1,0 +1,112 @@
+{
+  "slug": "bengaluru",
+  "path": "asia/india/bengaluru",
+  "gameTitle": "Namma Metro Memory",
+  "description": "How many Namma Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    12.718,
+    77.341,
+    13.222,
+    77.859
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "localStrip": "\\s*[\\(\\[](?:Ligne|Line)\\s+\\w+[\\)\\]]$|\\s*\\((?:\\w+\\s+)?Line\\)$|\\s+RMRG$",
+  "lineGroups": [
+    {
+      "title": "Namma Metro",
+      "lines": [
+        "BENGGREEN",
+        "BENGPINK",
+        "BENGPURPLE",
+        "BENGYELLOW"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BENGGREEN",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(1798772|7842287|16176489|16176490)$"
+      },
+      "color": "#009933",
+      "textColor": "#FFFFFF",
+      "badge": "G",
+      "icon": "BENGGREEN.svg"
+    },
+    {
+      "id": "BENGPINK",
+      "name": "Pink Line",
+      "match": {
+        "@id": "^(21817259|21817260)$"
+      },
+      "color": "#FF49A7",
+      "textColor": "#FFFFFF",
+      "badge": "Pi",
+      "icon": "BENGPINK.svg"
+    },
+    {
+      "id": "BENGPURPLE",
+      "name": "Purple Line",
+      "match": {
+        "@id": "^(1798771|7841331|17038841|17038842)$"
+      },
+      "color": "#E542DE",
+      "textColor": "#FFFFFF",
+      "badge": "Pu",
+      "icon": "BENGPURPLE.svg"
+    },
+    {
+      "id": "BENGYELLOW",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(19421927|19421944)$"
+      },
+      "color": "#FFD100",
+      "textColor": "#222222",
+      "badge": "Y",
+      "icon": "BENGYELLOW.svg"
+    }
+  ],
+  "register": {
+    "name": "Bengaluru (ಬೆಂಗಳೂರು), IN",
+    "continent": "Asia",
+    "coordinates": [
+      77.6,
+      12.97
+    ],
+    "zh": "班加罗尔, IN",
+    "achievement": {
+      "title": "Namma Metro Master",
+      "description": "You've named every Namma Metro station."
+    }
+  }
+}

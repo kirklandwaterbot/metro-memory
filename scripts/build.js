@@ -25,6 +25,7 @@ const steps = [
   ['node', ['scripts/sync-city-icons.js']],
   ['node', ['scripts/sync-city-card-images.js']],
   ['node', ['scripts/check-mojibake.js']],
+  ['node', ['scripts/snap-stations-to-tracks.js', '--write', '--quiet']],
   ['node', ['scripts/export-city-data.js']],
   ['node', ['scripts/generate-offline-manifest.js']],
   ['prisma', ['generate', '--no-hints']],

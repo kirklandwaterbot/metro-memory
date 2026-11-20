@@ -1,0 +1,98 @@
+{
+  "DELH1": {
+    "name": "Red Line",
+    "color": "#FF4040",
+    "backgroundColor": "#FF4040",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "DELH1.svg"
+  },
+  "DELH2": {
+    "name": "Yellow Line",
+    "color": "#FFDF00",
+    "backgroundColor": "#FFDF00",
+    "textColor": "#222222",
+    "order": 1,
+    "icon": "DELH2.svg"
+  },
+  "DELH3": {
+    "name": "Blue Line",
+    "color": "#4169E1",
+    "backgroundColor": "#4169E1",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "DELH3.svg"
+  },
+  "DELH4": {
+    "name": "Blue Line Branch",
+    "color": "#4169E1",
+    "backgroundColor": "#4169E1",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "DELH4.svg"
+  },
+  "DELH5": {
+    "name": "Green Line",
+    "color": "#008000",
+    "backgroundColor": "#008000",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "DELH5.svg"
+  },
+  "DELH6": {
+    "name": "Violet Line",
+    "color": "#553592",
+    "backgroundColor": "#553592",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "DELH6.svg"
+  },
+  "DELH7": {
+    "name": "Pink Line",
+    "color": "#FC8EAC",
+    "backgroundColor": "#FC8EAC",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "DELH7.svg"
+  },
+  "DELH8": {
+    "name": "Magenta Line",
+    "color": "#CC338B",
+    "backgroundColor": "#CC338B",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "DELH8.svg"
+  },
+  "DELH9": {
+    "name": "Grey Line",
+    "color": "#838996",
+    "backgroundColor": "#838996",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "DELH9.svg"
+  },
+  "DELHAEX": {
+    "name": "Airport Express Line",
+    "color": "#FF8C00",
+    "backgroundColor": "#FF8C00",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "DELHAEX.svg"
+  },
+  "DELHAQUALINE": {
+    "name": "Aqua Line (Noida Metro)",
+    "color": "#00B3E3",
+    "backgroundColor": "#00B3E3",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "DELHAQUALINE.svg"
+  },
+  "DELHRMGL": {
+    "name": "Rapid Metro Gurgaon",
+    "color": "#8C8C8C",
+    "backgroundColor": "#8C8C8C",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "DELHRMGL.svg"
+  }
+}

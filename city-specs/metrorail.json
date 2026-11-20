@@ -1,0 +1,514 @@
+{
+  "slug": "metrorail",
+  "path": "africa/south-africa/metrorail",
+  "gameTitle": "Metrorail Memory",
+  "description": "How many Metrorail stations across South Africa can you name from memory?",
+  "locale": "en_ZA",
+  "bbox": [
+    -34.5,
+    17.5,
+    -25.3,
+    32.0
+  ],
+  "altTags": [
+    "name:af",
+    "name:zu",
+    "name:xh"
+  ],
+  "stationRadius": 400,
+  "simplifyM": 15,
+  "minZoom": 4.5,
+  "lineGroups": [
+    {
+      "title": "Metrorail Western Cape",
+      "lines": [
+        "MRSouthernLine",
+        "MRCapeFlatsLine",
+        "MRCentralLine",
+        "MRNorthernLine",
+        "MRWorcesterLine",
+        "MRMalmesburyLine"
+      ]
+    },
+    {
+      "title": "Metrorail Gauteng",
+      "lines": [
+        "MRDaveytonJohannesburg",
+        "MRJohannesburgPretoria",
+        "MRJohannesburgLeralla",
+        "MRFaradayNaledi",
+        "MRGeorgeGochNaledi",
+        "MRNalediWestgate",
+        "MRGermistonKwesine",
+        "MRGermistonVereeniging",
+        "MRGermistonNewCanada",
+        "MRHerculesPienaarspoor",
+        "MRPretoriaSaulsville",
+        "MRPienaarspoortPretori",
+        "MRBelleOmbreMabopane",
+        "MRMabopanePretoria",
+        "MRJohannesburgOberholz",
+        "MRGeorgeGochVereenigin",
+        "MRJohannesburgSprings",
+        "MRNigelSprings",
+        "MRJohannesburgRandfont",
+        "MREersteFabriekeKoedoe",
+        "MRDeWildtPretoria"
+      ]
+    },
+    {
+      "title": "Metrorail KwaZulu-Natal",
+      "lines": [
+        "MRSouthCoastLine",
+        "MROldMainLine",
+        "MRkwaMashuLine",
+        "MRChatsworthBluff",
+        "MRWestLine",
+        "MRUmlaziLine",
+        "MRCrossmoorLine",
+        "MRNewMainLine",
+        "MRNorthCoastLine"
+      ]
+    },
+    {
+      "title": "Metrorail Eastern Cape",
+      "lines": [
+        "MRBerlinLine",
+        "MRKariegaLine"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MRSouthernLine",
+      "name": "Southern Line",
+      "match": {
+        "@id": "^(948941|9822440)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "S",
+      "icon": "MRSouthernLine.svg"
+    },
+    {
+      "id": "MRCapeFlatsLine",
+      "name": "Cape Flats Line",
+      "match": {
+        "@id": "^(952458|9812220)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "CF",
+      "icon": "MRCapeFlatsLine.svg"
+    },
+    {
+      "id": "MRCentralLine",
+      "name": "Central Line",
+      "match": {
+        "@id": "^(952469|952470|952471|1112508|1112509|1112512|9822423|10671153|10671154|10671155|10968900|10988709)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "MRCentralLine.svg"
+    },
+    {
+      "id": "MRNorthernLine",
+      "name": "Northern Line",
+      "match": {
+        "@id": "^(956847|956849|956850|957035|10671158|10671159|10671160|10968137|10968836|10968837|13296360)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "N",
+      "icon": "MRNorthernLine.svg"
+    },
+    {
+      "id": "MRWorcesterLine",
+      "name": "Worcester Line",
+      "match": {
+        "@id": "^(957084|13301013)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "W",
+      "icon": "MRWorcesterLine.svg"
+    },
+    {
+      "id": "MRMalmesburyLine",
+      "name": "Malmesbury Line",
+      "match": {
+        "@id": "^(957085|9822435)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "M",
+      "icon": "MRMalmesburyLine.svg"
+    },
+    {
+      "id": "MRDaveytonJohannesburg",
+      "name": "Daveyton – Johannesburg",
+      "match": {
+        "@id": "^(1024053|10670934)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "DJ",
+      "icon": "MRDaveytonJohannesburg.svg"
+    },
+    {
+      "id": "MRJohannesburgPretoria",
+      "name": "Johannesburg – Pretoria",
+      "match": {
+        "@id": "^(1026727|10671046)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "JP",
+      "icon": "MRJohannesburgPretoria.svg"
+    },
+    {
+      "id": "MRJohannesburgLeralla",
+      "name": "Johannesburg – Leralla",
+      "match": {
+        "@id": "^(1026738|10671047)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "JL",
+      "icon": "MRJohannesburgLeralla.svg"
+    },
+    {
+      "id": "MRFaradayNaledi",
+      "name": "Faraday – Naledi",
+      "match": {
+        "@id": "^(1112285|10671054)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "FN",
+      "icon": "MRFaradayNaledi.svg"
+    },
+    {
+      "id": "MRGeorgeGochNaledi",
+      "name": "George Goch – Naledi",
+      "match": {
+        "@id": "^(1112287|1112289|10670948|10670955)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "GG",
+      "icon": "MRGeorgeGochNaledi.svg"
+    },
+    {
+      "id": "MRNalediWestgate",
+      "name": "Naledi – Westgate",
+      "match": {
+        "@id": "^(1112288|10671053)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "NW",
+      "icon": "MRNalediWestgate.svg"
+    },
+    {
+      "id": "MRGermistonKwesine",
+      "name": "Germiston – Kwesine",
+      "match": {
+        "@id": "^(1112305|1112307|10672955|10672956)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "GK",
+      "icon": "MRGermistonKwesine.svg"
+    },
+    {
+      "id": "MRGermistonVereeniging",
+      "name": "Germiston – Vereeniging",
+      "match": {
+        "@id": "^(1112306|10671125)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "GV",
+      "icon": "MRGermistonVereeniging.svg"
+    },
+    {
+      "id": "MRGermistonNewCanada",
+      "name": "Germiston – New Canada",
+      "match": {
+        "@id": "^(1112313|10670932)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "GN",
+      "icon": "MRGermistonNewCanada.svg"
+    },
+    {
+      "id": "MRHerculesPienaarspoor",
+      "name": "Hercules – Pienaarspoort",
+      "match": {
+        "@id": "^(1112362|10671113)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "HP",
+      "icon": "MRHerculesPienaarspoor.svg"
+    },
+    {
+      "id": "MRPretoriaSaulsville",
+      "name": "Pretoria – Saulsville",
+      "match": {
+        "@id": "^(1112363|10415674)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "PS",
+      "icon": "MRPretoriaSaulsville.svg"
+    },
+    {
+      "id": "MRPienaarspoortPretori",
+      "name": "Pienaarspoort – Pretoria",
+      "match": {
+        "@id": "^(1112364|10671027)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "PP",
+      "icon": "MRPienaarspoortPretori.svg"
+    },
+    {
+      "id": "MRBelleOmbreMabopane",
+      "name": "Belle Ombre – Mabopane",
+      "match": {
+        "@id": "^(1112366|10670991)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "BO",
+      "icon": "MRBelleOmbreMabopane.svg"
+    },
+    {
+      "id": "MRMabopanePretoria",
+      "name": "Mabopane – Pretoria",
+      "match": {
+        "@id": "^(1112367|10670990)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "MP",
+      "icon": "MRMabopanePretoria.svg"
+    },
+    {
+      "id": "MRJohannesburgOberholz",
+      "name": "Johannesburg – Oberholzer",
+      "match": {
+        "@id": "^(1112478|10671076)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "JO",
+      "icon": "MRJohannesburgOberholz.svg"
+    },
+    {
+      "id": "MRGeorgeGochVereenigin",
+      "name": "George Goch – Vereeniging",
+      "match": {
+        "@id": "^(1112479|1112482|10671137|13315887)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "Geo",
+      "icon": "MRGeorgeGochVereenigin.svg"
+    },
+    {
+      "id": "MRJohannesburgSprings",
+      "name": "Johannesburg – Springs",
+      "match": {
+        "@id": "^(1112480|10670937)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "JS",
+      "icon": "MRJohannesburgSprings.svg"
+    },
+    {
+      "id": "MRNigelSprings",
+      "name": "Nigel – Springs",
+      "match": {
+        "@id": "^(1112481|10374913)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "NS",
+      "icon": "MRNigelSprings.svg"
+    },
+    {
+      "id": "MRJohannesburgRandfont",
+      "name": "Johannesburg – Randfontein",
+      "match": {
+        "@id": "^(1112483|10671077)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "JR",
+      "icon": "MRJohannesburgRandfont.svg"
+    },
+    {
+      "id": "MREersteFabriekeKoedoe",
+      "name": "Eerste Fabrieke – Koedoespoort",
+      "match": {
+        "@id": "^(10398176|10671112)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "EF",
+      "icon": "MREersteFabriekeKoedoe.svg"
+    },
+    {
+      "id": "MRDeWildtPretoria",
+      "name": "De Wildt – Pretoria",
+      "match": {
+        "@id": "^(10649225|10671014)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "DW",
+      "icon": "MRDeWildtPretoria.svg"
+    },
+    {
+      "id": "MRSouthCoastLine",
+      "name": "South Coast Line",
+      "match": {
+        "@id": "^(1112787|10646253)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "SC",
+      "icon": "MRSouthCoastLine.svg"
+    },
+    {
+      "id": "MROldMainLine",
+      "name": "Old Main Line",
+      "match": {
+        "@id": "^(1959553|10646656)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "OM",
+      "icon": "MROldMainLine.svg"
+    },
+    {
+      "id": "MRkwaMashuLine",
+      "name": "kwaMashu Line",
+      "match": {
+        "@id": "^(1967061|10646664)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "K",
+      "icon": "MRkwaMashuLine.svg"
+    },
+    {
+      "id": "MRChatsworthBluff",
+      "name": "Chatsworth – Bluff",
+      "match": {
+        "@id": "^(1994510)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "CB",
+      "icon": "MRChatsworthBluff.svg"
+    },
+    {
+      "id": "MRWestLine",
+      "name": "West Line",
+      "match": {
+        "@id": "^(1994511|10646659)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "We",
+      "icon": "MRWestLine.svg"
+    },
+    {
+      "id": "MRUmlaziLine",
+      "name": "Umlazi Line",
+      "match": {
+        "@id": "^(1994512|10646660)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "U",
+      "icon": "MRUmlaziLine.svg"
+    },
+    {
+      "id": "MRCrossmoorLine",
+      "name": "Crossmoor Line",
+      "match": {
+        "@id": "^(1994534|10646662)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "Cr",
+      "icon": "MRCrossmoorLine.svg"
+    },
+    {
+      "id": "MRNewMainLine",
+      "name": "New Main Line",
+      "match": {
+        "@id": "^(1994637|10646665)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "NM",
+      "icon": "MRNewMainLine.svg"
+    },
+    {
+      "id": "MRNorthCoastLine",
+      "name": "North Coast Line",
+      "match": {
+        "@id": "^(1994718|1994719)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "NC",
+      "icon": "MRNorthCoastLine.svg"
+    },
+    {
+      "id": "MRBerlinLine",
+      "name": "Berlin Line",
+      "match": {
+        "@id": "^(952426|10374783)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "MRBerlinLine.svg"
+    },
+    {
+      "id": "MRKariegaLine",
+      "name": "Kariega Line",
+      "match": {
+        "@id": "^(952460|10374692)$"
+      },
+      "color": "#33691E",
+      "textColor": "#FFFFFF",
+      "badge": "Ka",
+      "icon": "MRKariegaLine.svg"
+    }
+  ],
+  "register": {
+    "name": "Metrorail, ZA",
+    "continent": "Africa",
+    "coordinates": [
+      25.0,
+      -29.0
+    ],
+    "zh": "南非城铁, ZA",
+    "achievement": {
+      "title": "Rainbow Rails",
+      "description": "You've named every Metrorail station in South Africa."
+    }
+  }
+}

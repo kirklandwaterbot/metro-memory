@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.311701,
+          6.459876
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Mile 2",
+        "line": "LAGOBLUE",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.324479,
+          6.464388
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Alaba",
+        "line": "LAGOBLUE",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.343117,
+          6.477554
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Iganmu",
+        "line": "LAGOBLUE",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.368847,
+          6.474784
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "National Theatre",
+        "line": "LAGOBLUE",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.394823,
+          6.446131
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Marina",
+        "line": "LAGOBLUE",
+        "order": 4
+      },
+      "id": 4
+    }
+  ]
+}

@@ -75,6 +75,42 @@ const SIMPLIFIED_LINE_NAME_OVERRIDES: Record<string, string> = {
   'Yuen Long — Tin Yat': '元朗—天逸',
 }
 
+// Tokyo's lines in the Japanese interface.
+const JAPANESE_LINE_NAME_OVERRIDES: Record<string, string> = {
+  'Marunouchi Line': '丸ノ内線',
+  'Marunouchi Branch Line': '丸ノ内線支線',
+  'Fukutoshin Line': '副都心線',
+  'Chiyoda Line': '千代田線',
+  'Hanzomon Line': '半蔵門線',
+  'Namboku Line': '南北線',
+  'Hibiya Line': '日比谷線',
+  'Yurakucho Line': '有楽町線',
+  'Tozai Line': '東西線',
+  'Ginza Line': '銀座線',
+  'Mita Line': '三田線',
+  'Oedo Line': '大江戸線',
+  'Shinjuku Line': '新宿線',
+  'Asakusa Line': '浅草線',
+}
+
+// Seoul's lines in the Korean interface ("Line N" becomes "N호선" there).
+const KOREAN_LINE_NAME_OVERRIDES: Record<string, string> = {
+  'Gyeonggang Line': '경강선',
+  'Gyeongui–Jungang Line': '경의중앙선',
+  'Gyeongchun Line': '경춘선',
+  'AREX': '공항철도',
+  'Suin–Bundang Line': '수인분당선',
+  'Shinbundang Line': '신분당선',
+  'Incheon Line 1': '인천1호선',
+  'Incheon Line 2': '인천2호선',
+  'Gimpo Goldline': '김포골드라인',
+  'Seohae Line': '서해선',
+  'Sillim Line': '신림선',
+  'Yongin EverLine': '에버라인',
+  'Ui–Sinseol Line': '우이신설경전철',
+  'Uijeongbu LRT': '의정부경전철',
+}
+
 const TRADITIONAL_LINE_NAME_OVERRIDES: Record<string, string> = {
   'Mass Transit Railway (MTR)': '港鐵（MTR）',
   'Heavy Rail': '重鐵',
@@ -167,6 +203,28 @@ export const formatLocalizedLineName = (
       return SIMPLIFIED_LINE_NAME_OVERRIDES[cleaned]
     }
     return cleaned.replace(/^Line\s+(.+)$/i, '$1号线')
+  }
+
+  if (language === 'ja') {
+    if (JAPANESE_LINE_NAME_OVERRIDES[cleaned]) {
+      return JAPANESE_LINE_NAME_OVERRIDES[cleaned]
+    }
+    return cleaned.replace(/^Line\s+(.+)$/i, '$1号線')
+  }
+
+  if (language === 'fr') {
+    return cleaned.replace(/^Line\s+(.+)$/i, 'Ligne $1')
+  }
+
+  if (language === 'es' || language === 'ca') {
+    return cleaned.replace(/^Line\s+(.+)$/i, language === 'es' ? 'Línea $1' : 'Línia $1')
+  }
+
+  if (language === 'ko') {
+    if (KOREAN_LINE_NAME_OVERRIDES[cleaned]) {
+      return KOREAN_LINE_NAME_OVERRIDES[cleaned]
+    }
+    return cleaned.replace(/^Line\s+(\d+)$/i, '$1호선')
   }
 
   if (language === 'zh-TW') {

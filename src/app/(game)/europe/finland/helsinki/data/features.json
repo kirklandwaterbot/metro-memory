@@ -1,0 +1,811 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.636345,
+          60.155459
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Kivenlahti",
+        "line": "HELSM1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.654727,
+          60.149391
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Espoonlahti",
+        "line": "HELSM1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.669855,
+          60.141536
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Soukka",
+        "line": "HELSM1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.690789,
+          60.14959
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Kaitaa",
+        "line": "HELSM1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.711886,
+          60.153049
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Finnoo",
+        "line": "HELSM1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.739126,
+          60.15968
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Matinkylä",
+        "line": "HELSM1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.763017,
+          60.170365
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Niittykumpu",
+        "line": "HELSM1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.781082,
+          60.174559
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Urheilupuisto",
+        "line": "HELSM1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.803818,
+          60.175022
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Tapiola",
+        "line": "HELSM1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.823571,
+          60.184463
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Aalto-yliopisto",
+        "alternate_names": [
+          "Aalto university"
+        ],
+        "line": "HELSM1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.829476,
+          60.175648
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Keilaniemi",
+        "line": "HELSM1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.853767,
+          60.163564
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Koivusaari",
+        "line": "HELSM1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.878706,
+          60.159463
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Lauttasaari",
+        "line": "HELSM1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.915562,
+          60.163202
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Ruoholahti",
+        "line": "HELSM1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.932855,
+          60.169107
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Kamppi",
+        "alternate_names": [
+          "Kamppi Shopping Centre"
+        ],
+        "line": "HELSM1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.939846,
+          60.170384
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Rautatientori",
+        "alternate_names": [
+          "Central"
+        ],
+        "line": "HELSM1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.948601,
+          60.172764
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Helsingin yliopisto",
+        "alternate_names": [
+          "University of Helsinki"
+        ],
+        "line": "HELSM1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.950056,
+          60.180478
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Hakaniemi",
+        "line": "HELSM1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.959083,
+          60.186559
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Sörnäinen",
+        "line": "HELSM1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.976866,
+          60.187485
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Kalasatama",
+        "line": "HELSM1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.008119,
+          60.188836
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Kulosaari",
+        "line": "HELSM1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.030231,
+          60.194569
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Herttoniemi",
+        "line": "HELSM1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.044014,
+          60.205252
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Siilitie",
+        "line": "HELSM1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.077361,
+          60.209988
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Itäkeskus",
+        "line": "HELSM1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.093078,
+          60.214712
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Puotila",
+        "line": "HELSM1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.121578,
+          60.205363
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Rastila",
+        "line": "HELSM1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.142487,
+          60.207193
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Vuosaari",
+        "line": "HELSM1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.803818,
+          60.175022
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Tapiola",
+        "line": "HELSM2",
+        "order": 0
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.823571,
+          60.184463
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Aalto-yliopisto",
+        "alternate_names": [
+          "Aalto university"
+        ],
+        "line": "HELSM2",
+        "order": 1
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.829476,
+          60.175648
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Keilaniemi",
+        "line": "HELSM2",
+        "order": 2
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.853767,
+          60.163564
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Koivusaari",
+        "line": "HELSM2",
+        "order": 3
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.878706,
+          60.159463
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Lauttasaari",
+        "line": "HELSM2",
+        "order": 4
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.915562,
+          60.163202
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Ruoholahti",
+        "line": "HELSM2",
+        "order": 5
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.932855,
+          60.169107
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Kamppi",
+        "alternate_names": [
+          "Kamppi Shopping Centre"
+        ],
+        "line": "HELSM2",
+        "order": 6
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.939846,
+          60.170384
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Rautatientori",
+        "alternate_names": [
+          "Central"
+        ],
+        "line": "HELSM2",
+        "order": 7
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.948601,
+          60.172764
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Helsingin yliopisto",
+        "alternate_names": [
+          "University of Helsinki"
+        ],
+        "line": "HELSM2",
+        "order": 8
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.950056,
+          60.180478
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Hakaniemi",
+        "line": "HELSM2",
+        "order": 9
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.959083,
+          60.186559
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Sörnäinen",
+        "line": "HELSM2",
+        "order": 10
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.976866,
+          60.187485
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Kalasatama",
+        "line": "HELSM2",
+        "order": 11
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.008119,
+          60.188836
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Kulosaari",
+        "line": "HELSM2",
+        "order": 12
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.030231,
+          60.194569
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Herttoniemi",
+        "line": "HELSM2",
+        "order": 13
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.044014,
+          60.205252
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Siilitie",
+        "line": "HELSM2",
+        "order": 14
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.077361,
+          60.209988
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Itäkeskus",
+        "line": "HELSM2",
+        "order": 15
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.075749,
+          60.22501
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Myllypuro",
+        "line": "HELSM2",
+        "order": 16
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.083632,
+          60.235952
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Kontula",
+        "line": "HELSM2",
+        "order": 17
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.111153,
+          60.239198
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Mellunmäki",
+        "line": "HELSM2",
+        "order": 18
+      },
+      "id": 45
+    }
+  ]
+}

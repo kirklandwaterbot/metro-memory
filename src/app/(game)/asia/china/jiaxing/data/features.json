@@ -6,19 +6,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.796451,
-          30.716138
+          120.795823,
+          30.693737
         ]
       },
       "properties": {
         "id": 1,
-        "name": "Qingfenglujidi",
-        "display_name": "Qingfenglujidi (庆丰路基地)",
+        "name": "Jiaxing South Railway Station",
+        "display_name": "Jiaxing South Railway Station (嘉兴南站)",
         "alternate_names": [
-          "Qingfenglujidi",
-          "庆丰路基地",
-          "慶豐路基地",
-          "qing feng lu ji di"
+          "Jiaxing South Railway Station",
+          "嘉兴南站",
+          "嘉興南站",
+          "Jiaxing South",
+          "Jiaxingnanzhan",
+          "jia xing nan zhan",
+          "Jiaxingnan",
+          "South Jiaxing",
+          "嘉兴南"
         ],
         "line": "jiaxingt1",
         "order": 0
@@ -30,20 +35,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.79634,
-          30.723106
+          120.796469,
+          30.716138
         ]
       },
       "properties": {
         "id": 2,
-        "name": "Qingfeng Road & Changshui Road",
-        "display_name": "Qingfeng Road & Changshui Road (庆丰路长水路)",
+        "name": "Qingfeng Road Depot",
+        "display_name": "Qingfeng Road Depot (庆丰路基地)",
         "alternate_names": [
-          "Qingfeng Road & Changshui Road",
-          "庆丰路长水路",
-          "慶豐路長水路",
-          "Qingfengluchangshuilu",
-          "qing feng lu chang shui lu"
+          "Qingfeng Road Depot",
+          "庆丰路基地",
+          "慶豐路基地",
+          "Qingfenglujidi",
+          "qing feng lu ji di",
+          "有轨电车庆丰路基地",
+          "Tram Qingfeng Road Depot",
+          "Qingfeng Road Base"
         ],
         "line": "jiaxingt1",
         "order": 1
@@ -55,20 +63,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.785382,
-          30.732058
+          120.79634,
+          30.723106
         ]
       },
       "properties": {
         "id": 3,
-        "name": "Youquan Road & Shuangxi Road",
-        "display_name": "Youquan Road & Shuangxi Road (由拳路双溪路)",
+        "name": "Qingfeng Road & Changshui Road",
+        "display_name": "Qingfeng Road & Changshui Road (庆丰路长水路)",
         "alternate_names": [
-          "Youquan Road & Shuangxi Road",
-          "由拳路双溪路",
-          "由拳路雙溪路",
-          "Youquanlushuangxilu",
-          "you quan lu shuang xi lu"
+          "Qingfeng Road & Changshui Road",
+          "庆丰路长水路",
+          "慶豐路長水路",
+          "Qingfengluchangshuilu",
+          "qing feng lu chang shui lu"
         ],
         "line": "jiaxingt1",
         "order": 2
@@ -80,20 +88,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.77717,
-          30.732133
+          120.78538,
+          30.732001
         ]
       },
       "properties": {
         "id": 4,
-        "name": "Youquanlushangwu Avenue",
-        "display_name": "Youquanlushangwu Avenue (由拳路商务大道)",
+        "name": "Youquan Road & Shuangxi Road",
+        "display_name": "Youquan Road & Shuangxi Road (由拳路双溪路)",
         "alternate_names": [
-          "Youquanlushangwu Avenue",
-          "由拳路商务大道",
-          "由拳路商務大道",
-          "Youquanlushangwudadao",
-          "you quan lu shang wu da dao"
+          "Youquan Road & Shuangxi Road",
+          "由拳路双溪路",
+          "由拳路雙溪路",
+          "Youquanlushuangxilu",
+          "you quan lu shuang xi lu"
         ],
         "line": "jiaxingt1",
         "order": 3
@@ -105,20 +113,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.76684,
-          30.732969
+          120.77717,
+          30.732098
         ]
       },
       "properties": {
         "id": 5,
-        "name": "Fanggongluyouquanlu zhongyang Park",
-        "display_name": "Fanggongluyouquanlu zhongyang Park (纺工路由拳路 中央公园)",
+        "name": "Youquan Road & Shangwu Avenue",
+        "display_name": "Youquan Road & Shangwu Avenue (由拳路商务大道)",
         "alternate_names": [
-          "Fanggongluyouquanlu zhongyang Park",
-          "纺工路由拳路 中央公园",
-          "紡工路由拳路 中央公園",
-          "Fanggongluyouquanlu zhongyanggongyuan",
-          "fang gong lu you quan lu   zhong yang gong yuan"
+          "Youquan Road & Shangwu Avenue",
+          "由拳路商务大道",
+          "由拳路商務大道",
+          "Youquanlushangwudadao",
+          "you quan lu shang wu da dao",
+          "Youquanlushangwu Avenue"
         ],
         "line": "jiaxingt1",
         "order": 4
@@ -130,19 +139,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.766979,
-          30.741616
+          120.76684,
+          30.732969
         ]
       },
       "properties": {
         "id": 6,
-        "name": "Jiaxingyizhong",
-        "display_name": "Jiaxingyizhong (嘉兴一中)",
+        "name": "Fanggong Road & Youquan Road (Central Park)",
+        "display_name": "Fanggong Road & Youquan Road (Central Park) (纺工路由拳路 中央公园)",
         "alternate_names": [
-          "Jiaxingyizhong",
-          "嘉兴一中",
-          "嘉興一中",
-          "jia xing yi zhong"
+          "Fanggong Road & Youquan Road (Central Park)",
+          "纺工路由拳路 中央公园",
+          "紡工路由拳路 中央公園",
+          "Fanggongluyouquanlu zhongyanggongyuan",
+          "fang gong lu you quan lu   zhong yang gong yuan",
+          "纺工路由拳路",
+          "纺工路由拳路（中央公园）",
+          "中央公园",
+          "Central Park",
+          "Fanggong Road & Youquan Road",
+          "Fanggongluyouquanlu zhongyang Park"
         ],
         "line": "jiaxingt1",
         "order": 5
@@ -154,20 +170,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.765526,
-          30.748451
+          120.766939,
+          30.74161
         ]
       },
       "properties": {
         "id": 7,
-        "name": "Fanggong Road & Yanyu Road",
-        "display_name": "Fanggong Road & Yanyu Road (纺工路烟雨路)",
+        "name": "Jiaxing No. 1 Middle School",
+        "display_name": "Jiaxing No. 1 Middle School (嘉兴一中)",
         "alternate_names": [
-          "Fanggong Road & Yanyu Road",
-          "纺工路烟雨路",
-          "紡工路煙雨路",
-          "Fanggongluyanyulu",
-          "fang gong lu yan yu lu"
+          "Jiaxing No. 1 Middle School",
+          "嘉兴一中",
+          "嘉興一中",
+          "Jiaxingyizhong",
+          "jia xing yi zhong",
+          "Jiaxing No.1 Middle School",
+          "Jiaxing First Middle School",
+          "Jiaxing No. 1 High School"
         ],
         "line": "jiaxingt1",
         "order": 6
@@ -179,20 +198,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.764445,
-          30.752971
+          120.765546,
+          30.748454
         ]
       },
       "properties": {
         "id": 8,
-        "name": "Fanggong Road & Nanxi Road West",
-        "display_name": "Fanggong Road & Nanxi Road West (纺工路南溪西路)",
+        "name": "Fanggong Road & Yanyu Road",
+        "display_name": "Fanggong Road & Yanyu Road (纺工路烟雨路)",
         "alternate_names": [
-          "Fanggong Road & Nanxi Road West",
-          "纺工路南溪西路",
-          "紡工路南溪西路",
-          "Fanggonglunanxixilu",
-          "fang gong lu nan xi xi lu"
+          "Fanggong Road & Yanyu Road",
+          "纺工路烟雨路",
+          "紡工路煙雨路",
+          "Fanggongluyanyulu",
+          "fang gong lu yan yu lu"
         ],
         "line": "jiaxingt1",
         "order": 7
@@ -204,20 +223,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.763924,
-          30.757394
+          120.764419,
+          30.752968
         ]
       },
       "properties": {
         "id": 9,
-        "name": "Fanggong Road & Jinghu Road",
-        "display_name": "Fanggong Road & Jinghu Road (纺工路景湖路)",
+        "name": "Fanggong Road & Nanxi Road West (Nanhu Lakeside)",
+        "display_name": "Fanggong Road & Nanxi Road West (Nanhu Lakeside) (纺工路南溪西路)",
         "alternate_names": [
-          "Fanggong Road & Jinghu Road",
-          "纺工路景湖路",
-          "紡工路景湖路",
-          "Fanggonglujinghulu",
-          "fang gong lu jing hu lu"
+          "Fanggong Road & Nanxi Road West (Nanhu Lakeside)",
+          "纺工路南溪西路",
+          "紡工路南溪西路",
+          "Fanggonglunanxixilu",
+          "fang gong lu nan xi xi lu",
+          "纺工路南溪西路（南湖湖滨）",
+          "南湖湖滨",
+          "Nanhu Lakeside",
+          "Fanggong Road & Nanxi Road West"
         ],
         "line": "jiaxingt1",
         "order": 8
@@ -229,20 +252,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.762181,
-          30.76284
+          120.763905,
+          30.757393
         ]
       },
       "properties": {
         "id": 10,
-        "name": "Fanggong Road & Binhe Road",
-        "display_name": "Fanggong Road & Binhe Road (纺工路滨河路)",
+        "name": "Fanggong Road & Jinghu Road",
+        "display_name": "Fanggong Road & Jinghu Road (纺工路景湖路)",
         "alternate_names": [
-          "Fanggong Road & Binhe Road",
-          "纺工路滨河路",
-          "紡工路濱河路",
-          "Fanggonglubinhelu",
-          "fang gong lu bin he lu"
+          "Fanggong Road & Jinghu Road",
+          "纺工路景湖路",
+          "紡工路景湖路",
+          "Fanggonglujinghulu",
+          "fang gong lu jing hu lu"
         ],
         "line": "jiaxingt1",
         "order": 9
@@ -254,21 +277,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.761418,
-          30.767275
+          120.762165,
+          30.76284
         ]
       },
       "properties": {
         "id": 11,
-        "name": "Jiaxing Railway Station",
-        "display_name": "Jiaxing Railway Station (嘉兴火车站)",
+        "name": "Fanggong Road & Binhe Road",
+        "display_name": "Fanggong Road & Binhe Road (纺工路滨河路)",
         "alternate_names": [
-          "Jiaxing Railway Station",
-          "嘉兴火车站",
-          "嘉興火車站",
-          "Jiaxing",
-          "Jiaxinghuochezhan",
-          "jia xing huo che zhan"
+          "Fanggong Road & Binhe Road",
+          "纺工路滨河路",
+          "紡工路濱河路",
+          "Fanggonglubinhelu",
+          "fang gong lu bin he lu"
         ],
         "line": "jiaxingt1",
         "order": 10
@@ -280,21 +302,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.754958,
-          30.767792
+          120.761407,
+          30.767263
         ]
       },
       "properties": {
         "id": 12,
-        "name": "Renmin Park",
-        "display_name": "Renmin Park (人民公园)",
+        "name": "Jiaxing Railway Station",
+        "display_name": "Jiaxing Railway Station (嘉兴火车站)",
         "alternate_names": [
-          "Renmin Park",
-          "人民公园",
-          "人民公園",
-          "Renmingongyuan",
-          "ren min gong yuan",
-          "People's Park"
+          "Jiaxing Railway Station",
+          "嘉兴火车站",
+          "嘉興火車站",
+          "Jiaxing",
+          "Jiaxinghuochezhan",
+          "jia xing huo che zhan"
         ],
         "line": "jiaxingt1",
         "order": 11
@@ -306,21 +328,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.748961,
-          30.764835
+          120.754958,
+          30.767792
         ]
       },
       "properties": {
         "id": 13,
-        "name": "Zhongshan Road East & Jianguo Road South",
-        "display_name": "Zhongshan Road East & Jianguo Road South (中山东路建国南路)",
+        "name": "Renmin Park",
+        "display_name": "Renmin Park (人民公园)",
         "alternate_names": [
-          "Zhongshan Road East & Jianguo Road South",
-          "中山东路建国南路",
-          "中山東路建國南路",
-          "Zhongshandonglujianguonanlu",
-          "zhong shan dong lu jian guo nan lu",
-          "East Zhongshan Rd. South Jianguo Rd. (Pingshan)"
+          "Renmin Park",
+          "人民公园",
+          "人民公園",
+          "Renmingongyuan",
+          "ren min gong yuan",
+          "People's Park"
         ],
         "line": "jiaxingt1",
         "order": 12
@@ -332,21 +354,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.744156,
-          30.764113
+          120.748955,
+          30.764866
         ]
       },
       "properties": {
         "id": 14,
-        "name": "Zhongshan Road East & Hexing Road South",
-        "display_name": "Zhongshan Road East & Hexing Road South (中山东路禾兴南路)",
+        "name": "Zhongshan Road East & Jianguo Road South (Pingshan)",
+        "display_name": "Zhongshan Road East & Jianguo Road South (Pingshan) (中山东路建国南路)",
         "alternate_names": [
-          "Zhongshan Road East & Hexing Road South",
-          "中山东路禾兴南路",
-          "中山東路禾興南路",
-          "Zhongshandongluhexingnanlu",
-          "zhong shan dong lu he xing nan lu",
-          "East Zhongshan Rd. South Hexing Rd."
+          "Zhongshan Road East & Jianguo Road South (Pingshan)",
+          "中山东路建国南路",
+          "中山東路建國南路",
+          "Zhongshandonglujianguonanlu",
+          "zhong shan dong lu jian guo nan lu",
+          "中山东路建国南路（瓶山）",
+          "建国南路中山东路",
+          "瓶山",
+          "Pingshan",
+          "Zhongshan Road East & Jianguo Road South",
+          "East Zhongshan Rd. South Jianguo Rd. (Pingshan)"
         ],
         "line": "jiaxingt1",
         "order": 13
@@ -358,21 +385,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.739936,
-          30.763479
+          120.744156,
+          30.764113
         ]
       },
       "properties": {
         "id": 15,
-        "name": "Zhongshan Road East & Anle Road",
-        "display_name": "Zhongshan Road East & Anle Road (中山东路安乐路)",
+        "name": "Zhongshan Road East & Hexing Road South",
+        "display_name": "Zhongshan Road East & Hexing Road South (中山东路禾兴南路)",
         "alternate_names": [
-          "Zhongshan Road East & Anle Road",
-          "中山东路安乐路",
-          "中山東路安樂路",
-          "Zhongshandonglu'anlelu",
-          "zhong shan dong lu an le lu",
-          "East Zhongshan Rd. Anle Rd. (CIFI PLAZA)"
+          "Zhongshan Road East & Hexing Road South",
+          "中山东路禾兴南路",
+          "中山東路禾興南路",
+          "Zhongshandongluhexingnanlu",
+          "zhong shan dong lu he xing nan lu",
+          "East Zhongshan Rd. South Hexing Rd."
         ],
         "line": "jiaxingt1",
         "order": 14
@@ -384,429 +411,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.795528,
-          30.69329
-        ]
-      },
-      "properties": {
-        "id": 16,
-        "name": "Jiaxing South",
-        "display_name": "Jiaxing South (嘉兴南)",
-        "alternate_names": [
-          "Jiaxing South",
-          "嘉兴南",
-          "嘉興南",
-          "Jiaxingnan",
-          "jia xing nan"
-        ],
-        "line": "jiaxingt2",
-        "order": 0
-      },
-      "id": 16
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.795823,
-          30.693737
-        ]
-      },
-      "properties": {
-        "id": 17,
-        "name": "Jiaxing South Railway Station",
-        "display_name": "Jiaxing South Railway Station (嘉兴南站)",
-        "alternate_names": [
-          "Jiaxing South Railway Station",
-          "嘉兴南站",
-          "嘉興南站",
-          "Jiaxing South",
-          "Jiaxingnanzhan",
-          "jia xing nan zhan"
-        ],
-        "line": "jiaxingt2",
-        "order": 1
-      },
-      "id": 17
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.796451,
-          30.716138
-        ]
-      },
-      "properties": {
-        "id": 18,
-        "name": "Qingfenglujidi",
-        "display_name": "Qingfenglujidi (庆丰路基地)",
-        "alternate_names": [
-          "Qingfenglujidi",
-          "庆丰路基地",
-          "慶豐路基地",
-          "qing feng lu ji di"
-        ],
-        "line": "jiaxingt2",
-        "order": 2
-      },
-      "id": 18
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.79634,
-          30.723106
-        ]
-      },
-      "properties": {
-        "id": 19,
-        "name": "Qingfeng Road & Changshui Road",
-        "display_name": "Qingfeng Road & Changshui Road (庆丰路长水路)",
-        "alternate_names": [
-          "Qingfeng Road & Changshui Road",
-          "庆丰路长水路",
-          "慶豐路長水路",
-          "Qingfengluchangshuilu",
-          "qing feng lu chang shui lu"
-        ],
-        "line": "jiaxingt2",
-        "order": 3
-      },
-      "id": 19
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.785382,
-          30.732058
-        ]
-      },
-      "properties": {
-        "id": 20,
-        "name": "Youquan Road & Shuangxi Road",
-        "display_name": "Youquan Road & Shuangxi Road (由拳路双溪路)",
-        "alternate_names": [
-          "Youquan Road & Shuangxi Road",
-          "由拳路双溪路",
-          "由拳路雙溪路",
-          "Youquanlushuangxilu",
-          "you quan lu shuang xi lu"
-        ],
-        "line": "jiaxingt2",
-        "order": 4
-      },
-      "id": 20
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.77717,
-          30.732133
-        ]
-      },
-      "properties": {
-        "id": 21,
-        "name": "Youquanlushangwu Avenue",
-        "display_name": "Youquanlushangwu Avenue (由拳路商务大道)",
-        "alternate_names": [
-          "Youquanlushangwu Avenue",
-          "由拳路商务大道",
-          "由拳路商務大道",
-          "Youquanlushangwudadao",
-          "you quan lu shang wu da dao"
-        ],
-        "line": "jiaxingt2",
-        "order": 5
-      },
-      "id": 21
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.76684,
-          30.732969
-        ]
-      },
-      "properties": {
-        "id": 22,
-        "name": "Fanggongluyouquanlu zhongyang Park",
-        "display_name": "Fanggongluyouquanlu zhongyang Park (纺工路由拳路 中央公园)",
-        "alternate_names": [
-          "Fanggongluyouquanlu zhongyang Park",
-          "纺工路由拳路 中央公园",
-          "紡工路由拳路 中央公園",
-          "Fanggongluyouquanlu zhongyanggongyuan",
-          "fang gong lu you quan lu   zhong yang gong yuan"
-        ],
-        "line": "jiaxingt2",
-        "order": 6
-      },
-      "id": 22
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.766979,
-          30.741616
-        ]
-      },
-      "properties": {
-        "id": 23,
-        "name": "Jiaxingyizhong",
-        "display_name": "Jiaxingyizhong (嘉兴一中)",
-        "alternate_names": [
-          "Jiaxingyizhong",
-          "嘉兴一中",
-          "嘉興一中",
-          "jia xing yi zhong"
-        ],
-        "line": "jiaxingt2",
-        "order": 7
-      },
-      "id": 23
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.765526,
-          30.748451
-        ]
-      },
-      "properties": {
-        "id": 24,
-        "name": "Fanggong Road & Yanyu Road",
-        "display_name": "Fanggong Road & Yanyu Road (纺工路烟雨路)",
-        "alternate_names": [
-          "Fanggong Road & Yanyu Road",
-          "纺工路烟雨路",
-          "紡工路煙雨路",
-          "Fanggongluyanyulu",
-          "fang gong lu yan yu lu"
-        ],
-        "line": "jiaxingt2",
-        "order": 8
-      },
-      "id": 24
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.764445,
-          30.752971
-        ]
-      },
-      "properties": {
-        "id": 25,
-        "name": "Fanggong Road & Nanxi Road West",
-        "display_name": "Fanggong Road & Nanxi Road West (纺工路南溪西路)",
-        "alternate_names": [
-          "Fanggong Road & Nanxi Road West",
-          "纺工路南溪西路",
-          "紡工路南溪西路",
-          "Fanggonglunanxixilu",
-          "fang gong lu nan xi xi lu"
-        ],
-        "line": "jiaxingt2",
-        "order": 9
-      },
-      "id": 25
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.763924,
-          30.757394
-        ]
-      },
-      "properties": {
-        "id": 26,
-        "name": "Fanggong Road & Jinghu Road",
-        "display_name": "Fanggong Road & Jinghu Road (纺工路景湖路)",
-        "alternate_names": [
-          "Fanggong Road & Jinghu Road",
-          "纺工路景湖路",
-          "紡工路景湖路",
-          "Fanggonglujinghulu",
-          "fang gong lu jing hu lu"
-        ],
-        "line": "jiaxingt2",
-        "order": 10
-      },
-      "id": 26
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.762181,
-          30.76284
-        ]
-      },
-      "properties": {
-        "id": 27,
-        "name": "Fanggong Road & Binhe Road",
-        "display_name": "Fanggong Road & Binhe Road (纺工路滨河路)",
-        "alternate_names": [
-          "Fanggong Road & Binhe Road",
-          "纺工路滨河路",
-          "紡工路濱河路",
-          "Fanggonglubinhelu",
-          "fang gong lu bin he lu"
-        ],
-        "line": "jiaxingt2",
-        "order": 11
-      },
-      "id": 27
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           120.739936,
           30.763479
         ]
       },
       "properties": {
-        "id": 28,
-        "name": "Zhongshan Road East & Anle Road",
-        "display_name": "Zhongshan Road East & Anle Road (中山东路安乐路)",
+        "id": 16,
+        "name": "Zhongshan Road East & Anle Road (Xuhui Plaza)",
+        "display_name": "Zhongshan Road East & Anle Road (Xuhui Plaza) (中山东路安乐路)",
         "alternate_names": [
-          "Zhongshan Road East & Anle Road",
+          "Zhongshan Road East & Anle Road (Xuhui Plaza)",
           "中山东路安乐路",
           "中山東路安樂路",
           "Zhongshandonglu'anlelu",
           "zhong shan dong lu an le lu",
+          "中山东路安乐路（旭辉广场）",
+          "旭辉广场",
+          "Xuhui Plaza",
+          "Zhongshan Road East & Anle Road",
           "East Zhongshan Rd. Anle Rd. (CIFI PLAZA)"
         ],
-        "line": "jiaxingt2",
-        "order": 12
-      },
-      "id": 28
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.761418,
-          30.767275
-        ]
-      },
-      "properties": {
-        "id": 29,
-        "name": "Jiaxing Railway Station",
-        "display_name": "Jiaxing Railway Station (嘉兴火车站)",
-        "alternate_names": [
-          "Jiaxing Railway Station",
-          "嘉兴火车站",
-          "嘉興火車站",
-          "Jiaxing",
-          "Jiaxinghuochezhan",
-          "jia xing huo che zhan"
-        ],
-        "line": "jiaxingt2",
-        "order": 13
-      },
-      "id": 29
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.744156,
-          30.764113
-        ]
-      },
-      "properties": {
-        "id": 30,
-        "name": "Zhongshan Road East & Hexing Road South",
-        "display_name": "Zhongshan Road East & Hexing Road South (中山东路禾兴南路)",
-        "alternate_names": [
-          "Zhongshan Road East & Hexing Road South",
-          "中山东路禾兴南路",
-          "中山東路禾興南路",
-          "Zhongshandongluhexingnanlu",
-          "zhong shan dong lu he xing nan lu",
-          "East Zhongshan Rd. South Hexing Rd."
-        ],
-        "line": "jiaxingt2",
-        "order": 14
-      },
-      "id": 30
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.748961,
-          30.764835
-        ]
-      },
-      "properties": {
-        "id": 31,
-        "name": "Zhongshan Road East & Jianguo Road South",
-        "display_name": "Zhongshan Road East & Jianguo Road South (中山东路建国南路)",
-        "alternate_names": [
-          "Zhongshan Road East & Jianguo Road South",
-          "中山东路建国南路",
-          "中山東路建國南路",
-          "Zhongshandonglujianguonanlu",
-          "zhong shan dong lu jian guo nan lu",
-          "East Zhongshan Rd. South Jianguo Rd. (Pingshan)"
-        ],
-        "line": "jiaxingt2",
+        "line": "jiaxingt1",
         "order": 15
       },
-      "id": 31
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.754958,
-          30.767792
-        ]
-      },
-      "properties": {
-        "id": 32,
-        "name": "Renmin Park",
-        "display_name": "Renmin Park (人民公园)",
-        "alternate_names": [
-          "Renmin Park",
-          "人民公园",
-          "人民公園",
-          "Renmingongyuan",
-          "ren min gong yuan",
-          "People's Park"
-        ],
-        "line": "jiaxingt2",
-        "order": 16
-      },
-      "id": 32
+      "id": 16
     }
   ]
 }

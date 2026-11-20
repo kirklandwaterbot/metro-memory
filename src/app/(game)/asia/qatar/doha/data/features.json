@@ -1,0 +1,871 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.444135,
+          25.257657
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Al Aziziyah",
+        "alternate_names": [
+          "العزيزية",
+          "عزیزیه",
+          "അൽ-അസീസിയ"
+        ],
+        "line": "DOHAGOLD",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.452464,
+          25.259366
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Sport City",
+        "alternate_names": [
+          "المدينة الرياضية",
+          "സ്പോർട് സിറ്റി"
+        ],
+        "line": "DOHAGOLD",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.46883,
+          25.267573
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Al Waab",
+        "alternate_names": [
+          "الوعب",
+          "وعب",
+          "അൽ-വാബ്"
+        ],
+        "line": "DOHAGOLD",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.485254,
+          25.272743
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Al Sudan",
+        "alternate_names": [
+          "السودان",
+          "سودان",
+          "അൽ-സൂദാൻ"
+        ],
+        "line": "DOHAGOLD",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.496927,
+          25.280713
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Joaan",
+        "alternate_names": [
+          "جوعان",
+          "ജുവാൻ"
+        ],
+        "line": "DOHAGOLD",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.505041,
+          25.282419
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Al Sadd",
+        "alternate_names": [
+          "السد",
+          "അൽ-സദ്ദ്"
+        ],
+        "line": "DOHAGOLD",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.514938,
+          25.280427
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Bin Mahmoud",
+        "alternate_names": [
+          "بن محمود",
+          "ബിൻ മഹമൂദ്"
+        ],
+        "line": "DOHAGOLD",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.525577,
+          25.282817
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Msheireb",
+        "alternate_names": [
+          "مشيرب",
+          "മഷീറബ്"
+        ],
+        "line": "DOHAGOLD",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.536215,
+          25.286606
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Souq Waqif",
+        "alternate_names": [
+          "سوق واقف",
+          "സൂഖ് വാഖിഫ്"
+        ],
+        "line": "DOHAGOLD",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.549337,
+          25.284693
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "National Museum",
+        "alternate_names": [
+          "المتحف الوطني",
+          "موزه ملی",
+          "قومی عجائب گھر"
+        ],
+        "line": "DOHAGOLD",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.570848,
+          25.279035
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Ras Bu Abboud",
+        "alternate_names": [
+          "راس بو عبود",
+          "റാസ് ബു അബൂദ്"
+        ],
+        "line": "DOHAGOLD",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.534974,
+          25.270452
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Al Mansoura",
+        "alternate_names": [
+          "المنصورة",
+          "منصوره",
+          "അൽ-മൻസൂറ"
+        ],
+        "line": "DOHAGREEN",
+        "order": 0
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.525577,
+          25.282817
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Msheireb",
+        "alternate_names": [
+          "مشيرب",
+          "മഷീറബ്"
+        ],
+        "line": "DOHAGREEN",
+        "order": 1
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.52008,
+          25.291262
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Al Bidda",
+        "alternate_names": [
+          "البدع",
+          "അൽ-ബിദ്ദ"
+        ],
+        "line": "DOHAGREEN",
+        "order": 2
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.506019,
+          25.292431
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "The White Palace",
+        "alternate_names": [
+          "القصر الأبيض",
+          "کاخ سفید",
+          "അൽ-ഖസർ അൽ-അബൈദ്"
+        ],
+        "line": "DOHAGREEN",
+        "order": 3
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.500525,
+          25.290545
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Hamad Hospital",
+        "alternate_names": [
+          "مستشفى حمد",
+          "بیمارستان حمد",
+          "ഹമദ് ആശുപത്രി"
+        ],
+        "line": "DOHAGREEN",
+        "order": 4
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.484007,
+          25.293165
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Al Messila",
+        "alternate_names": [
+          "المسيلة",
+          "مسیله",
+          "അൽ-മെസില"
+        ],
+        "line": "DOHAGREEN",
+        "order": 5
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.460906,
+          25.301397
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Al Rayyan Al Qadeem",
+        "alternate_names": [
+          "الريان القديم",
+          "الریان قدیم",
+          "അൽ-റയ്യാൻ അൽ-ഖദീം"
+        ],
+        "line": "DOHAGREEN",
+        "order": 6
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.453168,
+          25.309354
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Al Shaqab",
+        "alternate_names": [
+          "الشقب",
+          "شقب",
+          "അൽ-ഷഖബ്"
+        ],
+        "line": "DOHAGREEN",
+        "order": 7
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.441836,
+          25.31933
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Qatar National Library",
+        "alternate_names": [
+          "مكتبة قطر الوطنية",
+          "کتابخانه ملی قطر",
+          "ഖത്തർ നാഷണൽ ലൈബ്രറി"
+        ],
+        "line": "DOHAGREEN",
+        "order": 8
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.426098,
+          25.317083
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Education City",
+        "alternate_names": [
+          "المدينة التعليمية",
+          "شهر آموزشی",
+          "എജ്യുക്കേഷൻ സിറ്റി"
+        ],
+        "line": "DOHAGREEN",
+        "order": 9
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.347991,
+          25.324314
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Al Riffa",
+        "alternate_names": [
+          "الرفاع",
+          "رفاع",
+          "അൽ-റിഫ"
+        ],
+        "line": "DOHAGREEN",
+        "order": 10
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.487739,
+          25.415041
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Lusail QNB",
+        "alternate_names": [
+          "لوسيل QNB",
+          "لوسیل کیو ان بی",
+          "ലുസൈൽ"
+        ],
+        "line": "DOHARED",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.493005,
+          25.382341
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Qatar University",
+        "alternate_names": [
+          "جامعة قطر",
+          "دانشگاه قطر",
+          "ഖത്തർ യൂണിവേഴ്സിറ്റി"
+        ],
+        "line": "DOHARED",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.52484,
+          25.370847
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Legtaifiya",
+        "alternate_names": [
+          "لقطيفية",
+          "لقطیفیه",
+          "ലെഗ്തൈഫിയ"
+        ],
+        "line": "DOHARED",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.521709,
+          25.362097
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Katara",
+        "alternate_names": [
+          "كتارا",
+          "കത്താറ"
+        ],
+        "line": "DOHARED",
+        "order": 3
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.523998,
+          25.350139
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Al Qassar",
+        "alternate_names": [
+          "القصار",
+          "قصار",
+          "അൽ-ഖസ്സാർ"
+        ],
+        "line": "DOHARED",
+        "order": 4
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.527729,
+          25.322921
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "DECC",
+        "alternate_names": [
+          "مركز المعارض",
+          "مرکز نمایشگاه‌",
+          "ഡി.ഇ.സി.സി"
+        ],
+        "line": "DOHARED",
+        "order": 5
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.519823,
+          25.315152
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "West Bay",
+        "alternate_names": [
+          "الخليج الغربي",
+          "خلیج غربی",
+          "വെസ്റ്റ് ബേ"
+        ],
+        "line": "DOHARED",
+        "order": 6
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.515723,
+          25.307624
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Corniche",
+        "alternate_names": [
+          "الكورنيش",
+          "کورنیش",
+          "കോർണിഷ്"
+        ],
+        "line": "DOHARED",
+        "order": 7
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.52008,
+          25.291262
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Al Bidda",
+        "alternate_names": [
+          "البدع",
+          "അൽ-ബിദ്ദ"
+        ],
+        "line": "DOHARED",
+        "order": 8
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.525577,
+          25.282817
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Msheireb",
+        "alternate_names": [
+          "مشيرب",
+          "മഷീറബ്"
+        ],
+        "line": "DOHARED",
+        "order": 9
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.539675,
+          25.274796
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Al Doha Al Jadeda",
+        "alternate_names": [
+          "الدوحة الجديدة",
+          "دوحه جدید",
+          "അൽ-ദോഹ അൽ-ജദീദ"
+        ],
+        "line": "DOHARED",
+        "order": 10
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.549435,
+          25.269415
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Umm Ghuwailina",
+        "alternate_names": [
+          "أم غويلينة",
+          "ام غویلینه"
+        ],
+        "line": "DOHARED",
+        "order": 11
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.558095,
+          25.263421
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Al Matar Al Qadeem",
+        "alternate_names": [
+          "المطار القديم",
+          "فرودگاه قدیم",
+          "അൽ മതാർ അൽ ഖദീം"
+        ],
+        "line": "DOHARED",
+        "order": 12
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.566803,
+          25.249651
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Oqba Ibn Nafie",
+        "alternate_names": [
+          "عقبة بن نافع",
+          "عقبه بن نافع",
+          "ഒക്ബ ഇബ്നു നാഫിയ"
+        ],
+        "line": "DOHARED",
+        "order": 13
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.578301,
+          25.228468
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Free Zone",
+        "alternate_names": [
+          "المنطقة الاقتصادية",
+          "منطقه اقتصادی",
+          "ഫ്രീ സോൺ"
+        ],
+        "line": "DOHARED",
+        "order": 14
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.586483,
+          25.211547
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Ras Bu Fontas",
+        "alternate_names": [
+          "رأس بوفنطاس",
+          "റാസ് ബു ഫോണ്ടാസ്"
+        ],
+        "line": "DOHARED",
+        "order": 15
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.596056,
+          25.193588
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Al Wakra",
+        "alternate_names": [
+          "الوكرة",
+          "الوکره",
+          "അൽ-വക്ര"
+        ],
+        "line": "DOHARED",
+        "order": 16
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.614862,
+          25.257036
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Hamad International Airport",
+        "alternate_names": [
+          "مطار حمد الدولي مبنى 1",
+          "فرودگاه بین‌المللی حمد - ترمینال ۱",
+          "ഹമദ് അന്താരാഷ്ട്ര വിമാനത്താവളം"
+        ],
+        "line": "DOHARED",
+        "order": 17
+      },
+      "id": 39
+    }
+  ]
+}

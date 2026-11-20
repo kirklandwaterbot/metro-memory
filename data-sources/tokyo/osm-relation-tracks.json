@@ -1,0 +1,72 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "TokyoMetroM": [
+      443282,
+      8015932
+    ],
+    "TokyoMetroMb": [
+      8015930,
+      8015931
+    ],
+    "TokyoMetroF": [
+      8026168,
+      5375678,
+      12250433
+    ],
+    "TokyoMetroC": [
+      21780069,
+      443284,
+      8026050,
+      21780070
+    ],
+    "TokyoMetroZ": [
+      443279,
+      8026159
+    ],
+    "TokyoMetroN": [
+      8026070,
+      7730199
+    ],
+    "TokyoMetroH": [
+      443272,
+      8026155
+    ],
+    "TokyoMetroY": [
+      11371520,
+      443269
+    ],
+    "TokyoMetroT": [
+      9812332,
+      5371620,
+      8026141,
+      9812331,
+      10840434
+    ],
+    "TokyoMetroG": [
+      8026074,
+      443281
+    ],
+    "ToeiSubwayI": [
+      8019910,
+      443286
+    ],
+    "ToeiSubwayE": [
+      3355612,
+      8019883
+    ],
+    "ToeiSubwayS": [
+      9973139,
+      443259,
+      8019858,
+      9973140
+    ],
+    "ToeiSubwayA": [
+      8019849,
+      3302734
+    ]
+  }
+}

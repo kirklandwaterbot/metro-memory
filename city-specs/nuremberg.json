@@ -1,0 +1,74 @@
+{
+  "slug": "nuremberg",
+  "path": "europe/germany/nuremberg",
+  "gameTitle": "Nuremberg Metro Memory",
+  "description": "How many Nuremberg U-Bahn stations can you name from memory?",
+  "locale": "de_DE",
+  "bbox": [
+    49.326,
+    10.883,
+    49.578,
+    11.271
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Nuremberg U-Bahn",
+      "lines": [
+        "NUREU1",
+        "NUREU2",
+        "NUREU3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "NUREU1",
+      "name": "U-Bahn U1",
+      "match": {
+        "@id": "^(538906|538907|10517754|10517755|10517756|10517757|10517758|10517759|10517760|10517761|10517762)$"
+      },
+      "color": "#000066",
+      "textColor": "#FFFFFF",
+      "badge": "U1",
+      "icon": "NUREU1.svg"
+    },
+    {
+      "id": "NUREU2",
+      "name": "U-Bahn U2",
+      "match": {
+        "@id": "^(905096|1168226)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "U2",
+      "icon": "NUREU2.svg"
+    },
+    {
+      "id": "NUREU3",
+      "name": "U-Bahn U3",
+      "match": {
+        "@id": "^(905097|1168225)$"
+      },
+      "color": "#00868B",
+      "textColor": "#FFFFFF",
+      "badge": "U3",
+      "icon": "NUREU3.svg"
+    }
+  ],
+  "register": {
+    "name": "Nuremberg, BY",
+    "continent": "Europe",
+    "coordinates": [
+      11.077,
+      49.452
+    ],
+    "zh": "纽伦堡, BY",
+    "achievement": {
+      "title": "Nuremberg U-Bahn Master",
+      "description": "You've named every Nuremberg U-Bahn station."
+    }
+  }
+}

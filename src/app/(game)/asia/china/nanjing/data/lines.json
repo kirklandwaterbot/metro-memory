@@ -4,125 +4,175 @@
     "color": "#00a2df",
     "backgroundColor": "#00a2df",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/nanjing/Line1Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing2": {
     "name": "Line 2",
     "color": "#c7003f",
     "backgroundColor": "#c7003f",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/nanjing/Line2Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing3": {
     "name": "Line 3",
     "color": "#009651",
     "backgroundColor": "#009651",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/nanjing/Line3Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing4": {
     "name": "Line 4",
     "color": "#a513c0",
     "backgroundColor": "#a513c0",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/nanjing/Line4Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing5": {
     "name": "Line 5",
     "color": "#f2da51",
     "backgroundColor": "#f2da51",
-    "textColor": "#ffffff",
-    "order": 5
+    "textColor": "#000000",
+    "order": 5,
+    "icon": "asia/china/nanjing/Line5Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing6": {
     "name": "Line 6",
     "color": "#4BBBB4",
     "backgroundColor": "#4BBBB4",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/nanjing/Line6Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing7": {
     "name": "Line 7",
     "color": "#4A7729",
     "backgroundColor": "#4A7729",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/nanjing/Line7Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjing10": {
     "name": "Line 10",
     "color": "#eac384",
     "backgroundColor": "#eac384",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/nanjing/Line10Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings1": {
     "name": "Line S1",
     "color": "#4BBBB4",
     "backgroundColor": "#4BBBB4",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/nanjing/LineS1Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings3": {
     "name": "Line S3",
     "color": "#BA84AC",
     "backgroundColor": "#BA84AC",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/nanjing/LineS3Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings6": {
     "name": "Line S6",
     "color": "#b58bd7",
     "backgroundColor": "#b58bd7",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/nanjing/LineS6Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings7": {
     "name": "Line S7",
     "color": "#ca8687",
     "backgroundColor": "#ca8687",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "asia/china/nanjing/LineS7Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings8": {
     "name": "Line S8",
     "color": "#eca153",
     "backgroundColor": "#eca153",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 13,
+    "icon": "asia/china/nanjing/LineS8Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings9": {
     "name": "Line S9",
     "color": "#f1bc1a",
     "backgroundColor": "#f1bc1a",
     "textColor": "#ffffff",
-    "order": 14
+    "order": 14,
+    "icon": "asia/china/nanjing/LineS9Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjings2": {
-    "name": "Line S2",
+    "name": "Line S2 (Nanjing-Ma'anshan Line)",
     "color": "#92282b",
     "backgroundColor": "#92282b",
     "textColor": "#ffffff",
-    "order": 15
+    "order": 15,
+    "icon": "asia/china/nanjing/LineS2Square.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "nanjingningchu": {
     "name": "Ningchu Line",
     "color": "#FF631B",
     "backgroundColor": "#FF631B",
     "textColor": "#ffffff",
-    "order": 16
+    "order": 16,
+    "icon": "asia/china/nanjing/1920px-Nanjing-Chuzhou_Line_logo.svg_png.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "nanjinghexi": {
     "name": "Hexi Tram",
-    "color": "#46F0FF",
-    "backgroundColor": "#46F0FF",
+    "color": "#141414",
+    "backgroundColor": "#141414",
     "textColor": "#ffffff",
-    "order": 17
+    "order": 17,
+    "icon": "asia/china/nanjing/hexi.png"
   },
   "nanjingqilin": {
     "name": "Qilin Tram",
     "color": "#57C45B",
     "backgroundColor": "#57C45B",
     "textColor": "#ffffff",
-    "order": 18
+    "order": 18,
+    "icon": "asia/china/nanjing/qilintram.png"
   }
 }

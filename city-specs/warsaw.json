@@ -1,0 +1,62 @@
+{
+  "slug": "warsaw",
+  "path": "europe/poland/warsaw",
+  "gameTitle": "Warsaw Metro Memory",
+  "description": "How many Warsaw Metro stations can you name from memory?",
+  "locale": "pl_PL",
+  "bbox": [
+    52.086,
+    20.775,
+    52.374,
+    21.245
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Warsaw Metro",
+      "lines": [
+        "WARSM1",
+        "WARSM2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "WARSM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(4236800|4236801)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "WARSM1.svg"
+    },
+    {
+      "id": "WARSM2",
+      "name": "Line M2",
+      "match": {
+        "@id": "^(4232533|4232534)$"
+      },
+      "color": "#C60C30",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "WARSM2.svg"
+    }
+  ],
+  "register": {
+    "name": "Warsaw, PL",
+    "continent": "Europe",
+    "coordinates": [
+      21.01,
+      52.23
+    ],
+    "zh": "华沙, PL",
+    "achievement": {
+      "title": "Warsaw Metro Master",
+      "description": "You've named every Warsaw Metro station."
+    }
+  }
+}

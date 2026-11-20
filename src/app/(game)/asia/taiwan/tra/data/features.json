@@ -1,0 +1,5487 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302559,
+          22.639532
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Kaohsiung",
+        "alternate_names": [
+          "高雄",
+          "Ko-hiông"
+        ],
+        "line": "TRAWestern",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293921,
+          22.639231
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Sankuaicuo",
+        "alternate_names": [
+          "三塊厝",
+          "Saⁿ-tè-chhù"
+        ],
+        "line": "TRAWestern",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.280926,
+          22.641978
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Gushan",
+        "alternate_names": [
+          "鼓山",
+          "Kó͘-san"
+        ],
+        "line": "TRAWestern",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.281551,
+          22.651987
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Fine Art Museum",
+        "alternate_names": [
+          "美術館",
+          "Bí-su̍t-koán"
+        ],
+        "line": "TRAWestern",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286979,
+          22.665879
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Neiwei",
+        "alternate_names": [
+          "內惟",
+          "Lāi-ûi"
+        ],
+        "line": "TRAWestern",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293754,
+          22.67399
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Zuoying(Jiucheng)",
+        "alternate_names": [
+          "左營(舊城)",
+          "Chó-iâⁿ (Kū-siâⁿ)"
+        ],
+        "line": "TRAWestern",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.307352,
+          22.687568
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Xinzuoying",
+        "alternate_names": [
+          "新左營",
+          "Sin-chó-iâⁿ"
+        ],
+        "line": "TRAWestern",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324127,
+          22.727141
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nanzi",
+        "alternate_names": [
+          "楠梓",
+          "Lâm-á-kheⁿ"
+        ],
+        "line": "TRAWestern",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310255,
+          22.761098
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Qiaotou",
+        "alternate_names": [
+          "橋頭",
+          "Kiô-á-thâu"
+        ],
+        "line": "TRAWestern",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300467,
+          22.792315
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Gangshan",
+        "alternate_names": [
+          "岡山",
+          "Kong-san"
+        ],
+        "line": "TRAWestern",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.266634,
+          22.853861
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Luzhu",
+        "alternate_names": [
+          "路竹",
+          "Lō͘-tek"
+        ],
+        "line": "TRAWestern",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.254112,
+          22.878341
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Dahu",
+        "alternate_names": [
+          "大湖",
+          "Tōa-ô͘"
+        ],
+        "line": "TRAWestern",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.25263,
+          22.903906
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Zhongzhou",
+        "alternate_names": [
+          "中洲",
+          "Tiong-chiu"
+        ],
+        "line": "TRAWestern",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.240518,
+          22.923396
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Rende",
+        "alternate_names": [
+          "仁德",
+          "Jîn-tek"
+        ],
+        "line": "TRAWestern",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.231705,
+          22.933044
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Bao'an",
+        "alternate_names": [
+          "保安",
+          "Pó-an"
+        ],
+        "line": "TRAWestern",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.213324,
+          22.99714
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Tainan",
+        "alternate_names": [
+          "臺南",
+          "Tâi-lâm"
+        ],
+        "line": "TRAWestern",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.224293,
+          23.019376
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Daqiao",
+        "alternate_names": [
+          "大橋",
+          "Tōa-kiô"
+        ],
+        "line": "TRAWestern",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.253444,
+          23.038556
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Yongkang",
+        "alternate_names": [
+          "永康",
+          "Éng-khong"
+        ],
+        "line": "TRAWestern",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289721,
+          23.068223
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Xinshi",
+        "alternate_names": [
+          "新市",
+          "Sin-chhī"
+        ],
+        "line": "TRAWestern",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301968,
+          23.107245
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nanke",
+        "alternate_names": [
+          "南科",
+          "Lâm-kho"
+        ],
+        "line": "TRAWestern",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306622,
+          23.133037
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Shanhua",
+        "alternate_names": [
+          "善化",
+          "Siān-hòa"
+        ],
+        "line": "TRAWestern",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321322,
+          23.172789
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Balin",
+        "alternate_names": [
+          "拔林",
+          "Pa̍t-á-nâ"
+        ],
+        "line": "TRAWestern",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31949,
+          23.192747
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Longtian",
+        "alternate_names": [
+          "隆田",
+          "Liông-tiân"
+        ],
+        "line": "TRAWestern",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321135,
+          23.242596
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Linfengying",
+        "alternate_names": [
+          "林鳳營",
+          "Lîm-hōng-iâⁿ"
+        ],
+        "line": "TRAWestern",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322515,
+          23.277431
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Liuying",
+        "alternate_names": [
+          "柳營",
+          "Liú-iâⁿ"
+        ],
+        "line": "TRAWestern",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323338,
+          23.306398
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Xinying",
+        "alternate_names": [
+          "新營",
+          "Sin-iâⁿ"
+        ],
+        "line": "TRAWestern",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360352,
+          23.36615
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Houbi",
+        "alternate_names": [
+          "後壁",
+          "Āu-piah"
+        ],
+        "line": "TRAWestern",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.386834,
+          23.41319
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Nanjing",
+        "alternate_names": [
+          "南靖",
+          "Lâm-chēng"
+        ],
+        "line": "TRAWestern",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.399632,
+          23.433705
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Shuishang",
+        "alternate_names": [
+          "水上",
+          "Chúi-siōng"
+        ],
+        "line": "TRAWestern",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.441584,
+          23.479904
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Chiayi",
+        "alternate_names": [
+          "嘉義",
+          "Ka-gī"
+        ],
+        "line": "TRAWestern",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.448423,
+          23.499842
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Jiabei",
+        "alternate_names": [
+          "嘉北",
+          "Ka-pak"
+        ],
+        "line": "TRAWestern",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.431682,
+          23.555228
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Minxiong",
+        "alternate_names": [
+          "民雄",
+          "Bîn-hiông"
+        ],
+        "line": "TRAWestern",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.455979,
+          23.600814
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Dalin",
+        "alternate_names": [
+          "大林",
+          "Tōa-nâ"
+        ],
+        "line": "TRAWestern",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.470958,
+          23.639562
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Shigui",
+        "alternate_names": [
+          "石龜",
+          "Chio̍h-ku-khe"
+        ],
+        "line": "TRAWestern",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.481102,
+          23.672699
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Dounan",
+        "alternate_names": [
+          "斗南",
+          "Táu-lâm"
+        ],
+        "line": "TRAWestern",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.541155,
+          23.711808
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Douliu",
+        "alternate_names": [
+          "斗六",
+          "Táu-la̍k"
+        ],
+        "line": "TRAWestern",
+        "order": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.579796,
+          23.731738
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Shiliu",
+        "alternate_names": [
+          "石榴",
+          "Sia̍h-liû-pan"
+        ],
+        "line": "TRAWestern",
+        "order": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.614563,
+          23.759775
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Linnei",
+        "alternate_names": [
+          "林內",
+          "Nâ-lāi"
+        ],
+        "line": "TRAWestern",
+        "order": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6184,
+          23.813291
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Ershui",
+        "alternate_names": [
+          "二水",
+          "Jī-chúi"
+        ],
+        "line": "TRAWestern",
+        "order": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.591569,
+          23.858369
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Tianzhong",
+        "alternate_names": [
+          "田中",
+          "Tiân-tiong"
+        ],
+        "line": "TRAWestern",
+        "order": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.580485,
+          23.895825
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Shetou",
+        "alternate_names": [
+          "社頭",
+          "Siā-thâu"
+        ],
+        "line": "TRAWestern",
+        "order": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571641,
+          23.928192
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Yongjing",
+        "alternate_names": [
+          "永靖",
+          "Éng-chēng"
+        ],
+        "line": "TRAWestern",
+        "order": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.569632,
+          23.959349
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Yuanlin",
+        "alternate_names": [
+          "員林",
+          "Oân-lîm"
+        ],
+        "line": "TRAWestern",
+        "order": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.560572,
+          23.990052
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Dacun",
+        "alternate_names": [
+          "大村",
+          "Tāi-chhoan"
+        ],
+        "line": "TRAWestern",
+        "order": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.537228,
+          24.024992
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Huatan",
+        "alternate_names": [
+          "花壇",
+          "Hoe-tôaⁿ"
+        ],
+        "line": "TRAWestern",
+        "order": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.538205,
+          24.081673
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Changhua",
+        "alternate_names": [
+          "彰化",
+          "Chiong-hòa"
+        ],
+        "line": "TRAWestern",
+        "order": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.880749,
+          24.68656
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Zhunan",
+        "alternate_names": [
+          "竹南",
+          "Tek-lâm"
+        ],
+        "line": "TRAWestern",
+        "order": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.87174,
+          24.723075
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Qiding",
+        "alternate_names": [
+          "崎頂",
+          "Kiā-téng"
+        ],
+        "line": "TRAWestern",
+        "order": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.91407,
+          24.762919
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Xiangshan",
+        "alternate_names": [
+          "香山",
+          "Hiong-san"
+        ],
+        "line": "TRAWestern",
+        "order": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.92822,
+          24.787232
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Sanxingqiao",
+        "alternate_names": [
+          "三姓橋",
+          "Sam-sèng-kiô"
+        ],
+        "line": "TRAWestern",
+        "order": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.971678,
+          24.801403
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Hsinchu",
+        "alternate_names": [
+          "新竹",
+          "Sin-tek"
+        ],
+        "line": "TRAWestern",
+        "order": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98379,
+          24.808631
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "North Hsinchu",
+        "alternate_names": [
+          "北新竹",
+          "Pak-sin-tek"
+        ],
+        "line": "TRAWestern",
+        "order": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.009226,
+          24.839127
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Zhubei",
+        "alternate_names": [
+          "竹北",
+          "Tek-pak"
+        ],
+        "line": "TRAWestern",
+        "order": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.996534,
+          24.869277
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Xinfeng",
+        "alternate_names": [
+          "新豐",
+          "Sin-hong"
+        ],
+        "line": "TRAWestern",
+        "order": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.043748,
+          24.902802
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Hukou",
+        "alternate_names": [
+          "湖口",
+          "Ô͘-kháu"
+        ],
+        "line": "TRAWestern",
+        "order": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0559,
+          24.922491
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Beihu",
+        "alternate_names": [
+          "北湖",
+          "Pak-ô͘"
+        ],
+        "line": "TRAWestern",
+        "order": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.067557,
+          24.931095
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Xinfu",
+        "alternate_names": [
+          "新富",
+          "Sin-hù"
+        ],
+        "line": "TRAWestern",
+        "order": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.082822,
+          24.934091
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Fugang",
+        "alternate_names": [
+          "富岡",
+          "Hù-kong"
+        ],
+        "line": "TRAWestern",
+        "order": 57
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.146507,
+          24.914352
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Yangmei",
+        "alternate_names": [
+          "楊梅",
+          "Iûⁿ-mûi"
+        ],
+        "line": "TRAWestern",
+        "order": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.18353,
+          24.919609
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Puxin",
+        "alternate_names": [
+          "埔心",
+          "Po͘-sim"
+        ],
+        "line": "TRAWestern",
+        "order": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.214543,
+          24.942908
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Pingzhen",
+        "alternate_names": [
+          "平鎮"
+        ],
+        "line": "TRAWestern",
+        "order": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.22616,
+          24.953317
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Zhongli",
+        "alternate_names": [
+          "中壢",
+          "Tiong-le̍k"
+        ],
+        "line": "TRAWestern",
+        "order": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.258353,
+          24.97256
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Neili",
+        "alternate_names": [
+          "內壢",
+          "Lāi-le̍k"
+        ],
+        "line": "TRAWestern",
+        "order": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.313777,
+          24.988726
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Taoyuan",
+        "alternate_names": [
+          "桃園",
+          "Thô-hn̂g"
+        ],
+        "line": "TRAWestern",
+        "order": 63
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.336797,
+          24.972497
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Fong Ming",
+        "alternate_names": [
+          "鳳鳴"
+        ],
+        "line": "TRAWestern",
+        "order": 64
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.35516,
+          24.954555
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Yingge",
+        "alternate_names": [
+          "鶯歌",
+          "Eng-ko"
+        ],
+        "line": "TRAWestern",
+        "order": 65
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.392587,
+          24.972689
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Shanjia",
+        "alternate_names": [
+          "山佳",
+          "Soaⁿ-á-kha"
+        ],
+        "line": "TRAWestern",
+        "order": 66
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.408387,
+          24.980368
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "South Shulin",
+        "alternate_names": [
+          "南樹林",
+          "Lâm-chhiū-nâ"
+        ],
+        "line": "TRAWestern",
+        "order": 67
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424413,
+          24.99135
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Shulin",
+        "alternate_names": [
+          "樹林",
+          "Chhiū-nâ-á"
+        ],
+        "line": "TRAWestern",
+        "order": 68
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.444762,
+          25.004192
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Fuzhou",
+        "alternate_names": [
+          "浮洲",
+          "Phû-chiu-á"
+        ],
+        "line": "TRAWestern",
+        "order": 69
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.464128,
+          25.01381
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Banqiao",
+        "alternate_names": [
+          "板橋",
+          "Pang-kiô"
+        ],
+        "line": "TRAWestern",
+        "order": 70
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499927,
+          25.03344
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Wanhua",
+        "alternate_names": [
+          "萬華",
+          "Báng-kah"
+        ],
+        "line": "TRAWestern",
+        "order": 71
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517005,
+          25.047931
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Taipei",
+        "alternate_names": [
+          "臺北",
+          "Tâi-pak"
+        ],
+        "line": "TRAWestern",
+        "order": 72
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.578164,
+          25.049154
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Songshan",
+        "alternate_names": [
+          "松山",
+          "Siông-san"
+        ],
+        "line": "TRAWestern",
+        "order": 73
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.607258,
+          25.052869
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Nangang",
+        "alternate_names": [
+          "南港",
+          "Lâm-káng"
+        ],
+        "line": "TRAWestern",
+        "order": 74
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.648624,
+          25.062829
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Xike",
+        "alternate_names": [
+          "汐科",
+          "Se̍k-kho"
+        ],
+        "line": "TRAWestern",
+        "order": 75
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.660685,
+          25.067421
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Xizhi",
+        "alternate_names": [
+          "汐止",
+          "Se̍k-chí"
+        ],
+        "line": "TRAWestern",
+        "order": 76
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.667631,
+          25.077905
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Wudu",
+        "alternate_names": [
+          "五堵",
+          "Gō͘-tó͘"
+        ],
+        "line": "TRAWestern",
+        "order": 77
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.694768,
+          25.078171
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Baifu",
+        "alternate_names": [
+          "百福",
+          "Pah-hok"
+        ],
+        "line": "TRAWestern",
+        "order": 78
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.713857,
+          25.092975
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Qidu",
+        "alternate_names": [
+          "七堵",
+          "Chhit-tó͘"
+        ],
+        "line": "TRAWestern",
+        "order": 79
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.729007,
+          25.108495
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Badu",
+        "alternate_names": [
+          "八堵",
+          "Peh-tó͘"
+        ],
+        "line": "TRAWestern",
+        "order": 80
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.742098,
+          25.122217
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Sankeng",
+        "alternate_names": [
+          "三坑",
+          "Saⁿ-kheⁿ-á"
+        ],
+        "line": "TRAWestern",
+        "order": 81
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73923,
+          25.133032
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Keelung",
+        "alternate_names": [
+          "基隆",
+          "Ke-lâng"
+        ],
+        "line": "TRAWestern",
+        "order": 82
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.056022,
+          24.777593
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Shangyuan",
+        "alternate_names": [
+          "上員",
+          "Siōng-goân"
+        ],
+        "line": "TRAWestern",
+        "order": 83
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59056,
+          24.114336
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Chenggong",
+        "alternate_names": [
+          "成功",
+          "Sêng-kong"
+        ],
+        "line": "TRATaichung",
+        "order": 0
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.701955,
+          24.179872
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Songzhu",
+        "alternate_names": [
+          "松竹",
+          "Siông-tek"
+        ],
+        "line": "TRATaichung",
+        "order": 1
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703942,
+          24.195261
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Toujiacuo",
+        "alternate_names": [
+          "頭家厝",
+          "Thâu-ke-chhù"
+        ],
+        "line": "TRATaichung",
+        "order": 2
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.705865,
+          24.212502
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Tanzi",
+        "alternate_names": [
+          "潭子",
+          "Thâm-chú"
+        ],
+        "line": "TRATaichung",
+        "order": 3
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.686867,
+          24.137066
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Taichung",
+        "alternate_names": [
+          "臺中",
+          "Tâi-tiong"
+        ],
+        "line": "TRATaichung",
+        "order": 4
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.666686,
+          24.128809
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Wuquan",
+        "alternate_names": [
+          "五權",
+          "Ngó͘-khoân"
+        ],
+        "line": "TRATaichung",
+        "order": 5
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648774,
+          24.119426
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Daqing",
+        "alternate_names": [
+          "大慶",
+          "Tāi-khèng"
+        ],
+        "line": "TRATaichung",
+        "order": 6
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.622407,
+          24.108912
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Wuri",
+        "alternate_names": [
+          "烏日",
+          "O͘-ji̍t"
+        ],
+        "line": "TRATaichung",
+        "order": 7
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.614252,
+          24.109784
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Xinwuri",
+        "alternate_names": [
+          "新烏日",
+          "Sin-o͘-ji̍t"
+        ],
+        "line": "TRATaichung",
+        "order": 8
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.538205,
+          24.081673
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Changhua",
+        "alternate_names": [
+          "彰化",
+          "Chiong-hòa"
+        ],
+        "line": "TRATaichung",
+        "order": 9
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.697801,
+          24.149326
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Jingwu",
+        "alternate_names": [
+          "精武",
+          "Cheng-bú"
+        ],
+        "line": "TRATaichung",
+        "order": 10
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.699952,
+          24.16419
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Taiyuan",
+        "alternate_names": [
+          "太原",
+          "Thài-goân"
+        ],
+        "line": "TRATaichung",
+        "order": 11
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.710628,
+          24.2346
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Lilin",
+        "alternate_names": [
+          "栗林",
+          "Ka-la̍t-nâ"
+        ],
+        "line": "TRATaichung",
+        "order": 12
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.774238,
+          24.420567
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Sanyi",
+        "alternate_names": [
+          "三義",
+          "Sam-gī"
+        ],
+        "line": "TRATaichung",
+        "order": 13
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.786007,
+          24.486326
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Tongluo",
+        "alternate_names": [
+          "銅鑼",
+          "Tâng-lô"
+        ],
+        "line": "TRATaichung",
+        "order": 14
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.791428,
+          24.522633
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Nanshi",
+        "alternate_names": [
+          "南勢",
+          "Lâm-sì"
+        ],
+        "line": "TRATaichung",
+        "order": 15
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.822265,
+          24.569232
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Miaoli",
+        "alternate_names": [
+          "苗栗",
+          "Biâu-le̍k"
+        ],
+        "line": "TRATaichung",
+        "order": 16
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.826295,
+          24.604399
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Fengfu",
+        "alternate_names": [
+          "豐富",
+          "Hong-hù"
+        ],
+        "line": "TRATaichung",
+        "order": 17
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.867435,
+          24.641736
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Zaoqiao",
+        "alternate_names": [
+          "造橋",
+          "Chō-kiô"
+        ],
+        "line": "TRATaichung",
+        "order": 18
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.880749,
+          24.68656
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Zhunan",
+        "alternate_names": [
+          "竹南",
+          "Tek-lâm"
+        ],
+        "line": "TRATaichung",
+        "order": 19
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.741782,
+          24.331219
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Tai'an",
+        "alternate_names": [
+          "泰安",
+          "Thài-an"
+        ],
+        "line": "TRATaichung",
+        "order": 20
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.733107,
+          24.309206
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Houli",
+        "alternate_names": [
+          "后里",
+          "Āu-lí"
+        ],
+        "line": "TRATaichung",
+        "order": 21
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.723684,
+          24.254542
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Fengyuan",
+        "alternate_names": [
+          "豐原",
+          "Hong-goân"
+        ],
+        "line": "TRATaichung",
+        "order": 22
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.542181,
+          24.154332
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Dadu",
+        "alternate_names": [
+          "大肚",
+          "Tōa-tō͘"
+        ],
+        "line": "TRACoast",
+        "order": 0
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.543139,
+          24.197532
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Longjing",
+        "alternate_names": [
+          "龍井",
+          "Liông-chéⁿ"
+        ],
+        "line": "TRACoast",
+        "order": 1
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.557368,
+          24.23713
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Shalu",
+        "alternate_names": [
+          "沙鹿",
+          "Soa-lak"
+        ],
+        "line": "TRACoast",
+        "order": 2
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.602681,
+          24.304341
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Taichung Port",
+        "alternate_names": [
+          "臺中港",
+          "台中港",
+          "Tâi-tiong-káng"
+        ],
+        "line": "TRACoast",
+        "order": 3
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62729,
+          24.344254
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Dajia",
+        "alternate_names": [
+          "大甲",
+          "Tāi-kah"
+        ],
+        "line": "TRACoast",
+        "order": 4
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6544,
+          24.377832
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Rinan",
+        "alternate_names": [
+          "日南",
+          "Ji̍t-lâm"
+        ],
+        "line": "TRACoast",
+        "order": 5
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.678372,
+          24.49175
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Tongxiao",
+        "alternate_names": [
+          "通霄",
+          "Thong-siau"
+        ],
+        "line": "TRACoast",
+        "order": 6
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.695503,
+          24.540268
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Xinpu",
+        "alternate_names": [
+          "新埔",
+          "Sin-po͘"
+        ],
+        "line": "TRACoast",
+        "order": 7
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.651208,
+          24.443494
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Yuanli",
+        "alternate_names": [
+          "苑裡",
+          "Oán-lí"
+        ],
+        "line": "TRACoast",
+        "order": 8
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56884,
+          24.263526
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Qingshui",
+        "alternate_names": [
+          "清水",
+          "Chheng-chúi"
+        ],
+        "line": "TRACoast",
+        "order": 9
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570124,
+          24.120227
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Zhuifen",
+        "alternate_names": [
+          "追分",
+          "Tui-hun"
+        ],
+        "line": "TRACoast",
+        "order": 10
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.538205,
+          24.081673
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Changhua",
+        "alternate_names": [
+          "彰化",
+          "Chiong-hòa"
+        ],
+        "line": "TRACoast",
+        "order": 11
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707945,
+          24.564931
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Baishatun",
+        "alternate_names": [
+          "白沙屯",
+          "Pe̍h-soa-tun"
+        ],
+        "line": "TRACoast",
+        "order": 12
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.758119,
+          24.611907
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Longgang",
+        "alternate_names": [
+          "龍港",
+          "Lêng-káng"
+        ],
+        "line": "TRACoast",
+        "order": 13
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.787224,
+          24.616249
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Houlong",
+        "alternate_names": [
+          "後龍",
+          "Āu-lâng"
+        ],
+        "line": "TRACoast",
+        "order": 14
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.80363,
+          24.645692
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Dashan",
+        "alternate_names": [
+          "大山",
+          "Tōa-soaⁿ-kha"
+        ],
+        "line": "TRACoast",
+        "order": 15
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.858225,
+          24.656555
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Tanwen",
+        "alternate_names": [
+          "談文",
+          "Tām-bûn-ô͘"
+        ],
+        "line": "TRACoast",
+        "order": 16
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.880749,
+          24.68656
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Zhunan",
+        "alternate_names": [
+          "竹南",
+          "Tek-lâm"
+        ],
+        "line": "TRACoast",
+        "order": 17
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.729007,
+          25.108495
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Badu",
+        "alternate_names": [
+          "八堵",
+          "Peh-tó͘"
+        ],
+        "line": "TRAYilan",
+        "order": 0
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.740726,
+          25.102217
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Nuannuan",
+        "alternate_names": [
+          "暖暖",
+          "Loán-loán"
+        ],
+        "line": "TRAYilan",
+        "order": 1
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.761821,
+          25.102636
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Sijiaoting",
+        "alternate_names": [
+          "四腳亭",
+          "Sì-kha-têng"
+        ],
+        "line": "TRAYilan",
+        "order": 2
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.806559,
+          25.109011
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Ruifang",
+        "alternate_names": [
+          "瑞芳",
+          "Sūi-hong"
+        ],
+        "line": "TRAYilan",
+        "order": 3
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.827214,
+          25.087019
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Houtong",
+        "alternate_names": [
+          "猴硐",
+          "Kâu-tōng-á"
+        ],
+        "line": "TRAYilan",
+        "order": 4
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.822376,
+          25.066101
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Sandiaoling",
+        "alternate_names": [
+          "三貂嶺",
+          "Sam-tiau-niá"
+        ],
+        "line": "TRAYilan",
+        "order": 5
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.852061,
+          25.058515
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Mudan",
+        "alternate_names": [
+          "牡丹",
+          "Bó͘-tan"
+        ],
+        "line": "TRAYilan",
+        "order": 6
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.866974,
+          25.038828
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Shuangxi",
+        "alternate_names": [
+          "雙溪",
+          "Siang-khe"
+        ],
+        "line": "TRAYilan",
+        "order": 7
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.908826,
+          25.021812
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Gongliao",
+        "alternate_names": [
+          "貢寮",
+          "Khōng-á-liâu"
+        ],
+        "line": "TRAYilan",
+        "order": 8
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.944576,
+          25.015692
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Fulong",
+        "alternate_names": [
+          "福隆",
+          "Hok-liông"
+        ],
+        "line": "TRAYilan",
+        "order": 9
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.945422,
+          24.978318
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Shicheng",
+        "alternate_names": [
+          "石城",
+          "Chio̍h-siâⁿ-á"
+        ],
+        "line": "TRAYilan",
+        "order": 10
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.922515,
+          24.966761
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Dali",
+        "alternate_names": [
+          "大里",
+          "Tāi-lí"
+        ],
+        "line": "TRAYilan",
+        "order": 11
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.889806,
+          24.938363
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Daxi",
+        "alternate_names": [
+          "大溪",
+          "Tōa-khe"
+        ],
+        "line": "TRAYilan",
+        "order": 12
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.868746,
+          24.905066
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Guishan",
+        "alternate_names": [
+          "龜山",
+          "Ku-soaⁿ"
+        ],
+        "line": "TRAYilan",
+        "order": 13
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.84554,
+          24.883635
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Wai'ao",
+        "alternate_names": [
+          "外澳",
+          "Gōa-ò"
+        ],
+        "line": "TRAYilan",
+        "order": 14
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.822294,
+          24.859046
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Toucheng",
+        "alternate_names": [
+          "頭城",
+          "Thâu-siâⁿ"
+        ],
+        "line": "TRAYilan",
+        "order": 15
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80897,
+          24.843954
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Dingpu",
+        "alternate_names": [
+          "頂埔",
+          "Téng-po͘"
+        ],
+        "line": "TRAYilan",
+        "order": 16
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.775485,
+          24.826803
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Jiaoxi",
+        "alternate_names": [
+          "礁溪",
+          "Ta-khe"
+        ],
+        "line": "TRAYilan",
+        "order": 17
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.762903,
+          24.786859
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Sicheng",
+        "alternate_names": [
+          "四城",
+          "Sì-siâⁿ"
+        ],
+        "line": "TRAYilan",
+        "order": 18
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.758311,
+          24.75456
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Yilan",
+        "alternate_names": [
+          "宜蘭",
+          "Gî-lân"
+        ],
+        "line": "TRAYilan",
+        "order": 19
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77421,
+          24.706
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Erjie",
+        "alternate_names": [
+          "二結",
+          "Jī-kiat"
+        ],
+        "line": "TRAYilan",
+        "order": 20
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.775226,
+          24.695076
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Zhongli",
+        "alternate_names": [
+          "中里",
+          "Tiong-lí"
+        ],
+        "line": "TRAYilan",
+        "order": 21
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774599,
+          24.677978
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Luodong",
+        "alternate_names": [
+          "羅東",
+          "Lô-tong"
+        ],
+        "line": "TRAYilan",
+        "order": 22
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.792074,
+          24.636824
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Dongshan",
+        "alternate_names": [
+          "冬山",
+          "Tang-soaⁿ"
+        ],
+        "line": "TRAYilan",
+        "order": 23
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.828149,
+          24.608249
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Su'aoxin",
+        "alternate_names": [
+          "蘇澳新",
+          "So͘-ò-sin-chām"
+        ],
+        "line": "TRAYilan",
+        "order": 24
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.851454,
+          24.595177
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Su'ao",
+        "alternate_names": [
+          "蘇澳",
+          "So͘-ò"
+        ],
+        "line": "TRAYilan",
+        "order": 25
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.828149,
+          24.608249
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Su'aoxin",
+        "alternate_names": [
+          "蘇澳新",
+          "So͘-ò-sin-chām"
+        ],
+        "line": "TRANorthLink",
+        "order": 0
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.844557,
+          24.568388
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Yongle",
+        "alternate_names": [
+          "永樂",
+          "Éng-lo̍k"
+        ],
+        "line": "TRANorthLink",
+        "order": 1
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.830712,
+          24.517779
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Dong'ao",
+        "alternate_names": [
+          "東澳",
+          "Tang-ò"
+        ],
+        "line": "TRANorthLink",
+        "order": 2
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.801342,
+          24.463079
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Nan'ao",
+        "alternate_names": [
+          "南澳",
+          "Lâm-ò"
+        ],
+        "line": "TRANorthLink",
+        "order": 3
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.775894,
+          24.448732
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Wuta",
+        "alternate_names": [
+          "武塔",
+          "Bú-thah"
+        ],
+        "line": "TRANorthLink",
+        "order": 4
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.768126,
+          24.333803
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Hanben",
+        "alternate_names": [
+          "漢本",
+          "Hàn-pún"
+        ],
+        "line": "TRANorthLink",
+        "order": 5
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.754702,
+          24.297845
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Heping",
+        "alternate_names": [
+          "和平",
+          "Hô-pêng"
+        ],
+        "line": "TRANorthLink",
+        "order": 6
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.712464,
+          24.241583
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Heren",
+        "alternate_names": [
+          "和仁",
+          "Hô-jîn"
+        ],
+        "line": "TRANorthLink",
+        "order": 7
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.655688,
+          24.171734
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Chongde",
+        "alternate_names": [
+          "崇德",
+          "Chông-tek"
+        ],
+        "line": "TRANorthLink",
+        "order": 8
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.640702,
+          24.128049
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Xincheng (Taroko)",
+        "alternate_names": [
+          "新城 (太魯閣)",
+          "新城（太魯閣）",
+          "Sin-siâⁿ (Thāi-ló͘-ko͘h)"
+        ],
+        "line": "TRANorthLink",
+        "order": 9
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.610607,
+          24.090395
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Jingmei",
+        "alternate_names": [
+          "景美",
+          "Kéng-bí"
+        ],
+        "line": "TRANorthLink",
+        "order": 10
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60135,
+          24.032755
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Beipu",
+        "alternate_names": [
+          "北埔",
+          "Pak-po͘"
+        ],
+        "line": "TRANorthLink",
+        "order": 11
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.600952,
+          23.99264
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Hualien",
+        "alternate_names": [
+          "花蓮",
+          "Hoa-liân"
+        ],
+        "line": "TRANorthLink",
+        "order": 12
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.582794,
+          23.967825
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Ji'an",
+        "alternate_names": [
+          "吉安",
+          "Kiat-an"
+        ],
+        "line": "TRATaitung",
+        "order": 0
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529281,
+          23.907817
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Zhixue",
+        "alternate_names": [
+          "志學",
+          "Chì-ha̍k"
+        ],
+        "line": "TRATaitung",
+        "order": 1
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.520729,
+          23.882674
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Pinghe",
+        "alternate_names": [
+          "平和",
+          "Pêng-hô"
+        ],
+        "line": "TRATaitung",
+        "order": 2
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.495981,
+          23.848533
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Fengtian",
+        "alternate_names": [
+          "豐田",
+          "Hong-tiân"
+        ],
+        "line": "TRATaitung",
+        "order": 3
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.446713,
+          23.746295
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Fenglin",
+        "alternate_names": [
+          "鳳林",
+          "Hōng-lîm"
+        ],
+        "line": "TRATaitung",
+        "order": 4
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418837,
+          23.712
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Wanrong",
+        "alternate_names": [
+          "萬榮",
+          "Bān-êng"
+        ],
+        "line": "TRATaitung",
+        "order": 5
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.389416,
+          23.606034
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Dafu",
+        "alternate_names": [
+          "大富",
+          "Tāi-hô"
+        ],
+        "line": "TRATaitung",
+        "order": 6
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.380266,
+          23.580319
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Fuyuan",
+        "alternate_names": [
+          "富源",
+          "Hù-goân"
+        ],
+        "line": "TRATaitung",
+        "order": 7
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.303996,
+          23.272428
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Dongli",
+        "alternate_names": [
+          "東里",
+          "Tong-lí"
+        ],
+        "line": "TRATaitung",
+        "order": 8
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.311556,
+          23.331559
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Yuli",
+        "alternate_names": [
+          "玉里",
+          "Gio̍k-lí"
+        ],
+        "line": "TRATaitung",
+        "order": 9
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.278258,
+          23.225984
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Dongzhu",
+        "alternate_names": [
+          "東竹",
+          "Tang-tek"
+        ],
+        "line": "TRATaitung",
+        "order": 10
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.248447,
+          23.179152
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Fuli",
+        "alternate_names": [
+          "富里",
+          "Hù-lí"
+        ],
+        "line": "TRATaitung",
+        "order": 11
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.219432,
+          23.12632
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Chishang",
+        "alternate_names": [
+          "池上",
+          "Tî-siōng"
+        ],
+        "line": "TRATaitung",
+        "order": 12
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.177301,
+          23.102121
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Haiduan",
+        "alternate_names": [
+          "海端",
+          "Hái-toan"
+        ],
+        "line": "TRATaitung",
+        "order": 13
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.164491,
+          23.045621
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Guanshan",
+        "alternate_names": [
+          "關山",
+          "Koan-san"
+        ],
+        "line": "TRATaitung",
+        "order": 14
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.156092,
+          22.979974
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Ruihe",
+        "alternate_names": [
+          "瑞和",
+          "Sūi-hô"
+        ],
+        "line": "TRATaitung",
+        "order": 15
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.159212,
+          22.956028
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Ruiyuan",
+        "alternate_names": [
+          "瑞源",
+          "Sūi-goân"
+        ],
+        "line": "TRATaitung",
+        "order": 16
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.137141,
+          22.912393
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Luye",
+        "alternate_names": [
+          "鹿野",
+          "Lo̍k-iá"
+        ],
+        "line": "TRATaitung",
+        "order": 17
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.137991,
+          22.861815
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Shanli",
+        "alternate_names": [
+          "山里",
+          "San-lí"
+        ],
+        "line": "TRATaitung",
+        "order": 18
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.122432,
+          22.79346
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Taitung",
+        "alternate_names": [
+          "臺東",
+          "Tâi-tang"
+        ],
+        "line": "TRATaitung",
+        "order": 19
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.345241,
+          23.424664
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Sanmin",
+        "alternate_names": [
+          "三民",
+          "Sam-bîn"
+        ],
+        "line": "TRATaitung",
+        "order": 20
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.376567,
+          23.497742
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Ruisui",
+        "alternate_names": [
+          "瑞穗",
+          "Chúi-bóe"
+        ],
+        "line": "TRATaitung",
+        "order": 21
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.421164,
+          23.666355
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Guangfu",
+        "alternate_names": [
+          "光復",
+          "Kong-ho̍k"
+        ],
+        "line": "TRATaitung",
+        "order": 22
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458093,
+          23.782428
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Nanping",
+        "alternate_names": [
+          "南平",
+          "Lâm-pêng"
+        ],
+        "line": "TRATaitung",
+        "order": 23
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.462022,
+          23.80259
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Linrong Shin Kong",
+        "alternate_names": [
+          "林榮新光",
+          "Lîm-êng Sin-kong"
+        ],
+        "line": "TRATaitung",
+        "order": 24
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510811,
+          23.868919
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Shoufeng",
+        "alternate_names": [
+          "壽豐",
+          "Siū-hong"
+        ],
+        "line": "TRATaitung",
+        "order": 25
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.600952,
+          23.99264
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Hualien",
+        "alternate_names": [
+          "花蓮",
+          "Hoa-liân"
+        ],
+        "line": "TRATaitung",
+        "order": 26
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.595289,
+          22.368249
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Fangliao",
+        "alternate_names": [
+          "枋寮",
+          "Pang-liâu"
+        ],
+        "line": "TRASouthLink",
+        "order": 0
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624979,
+          22.330937
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Jialu",
+        "alternate_names": [
+          "加祿",
+          "Ka-lo̍k"
+        ],
+        "line": "TRASouthLink",
+        "order": 1
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643614,
+          22.306243
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Neishi",
+        "alternate_names": [
+          "內獅",
+          "Lāi-sai"
+        ],
+        "line": "TRASouthLink",
+        "order": 2
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.659562,
+          22.267225
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Fangshan",
+        "alternate_names": [
+          "枋山",
+          "Pang-soaⁿ"
+        ],
+        "line": "TRASouthLink",
+        "order": 3
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.716994,
+          22.280872
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Fangye",
+        "alternate_names": [
+          "枋野",
+          "Pang-iá"
+        ],
+        "line": "TRASouthLink",
+        "order": 4
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.900649,
+          22.365485
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Dawu",
+        "alternate_names": [
+          "大武",
+          "Tāi-bú"
+        ],
+        "line": "TRASouthLink",
+        "order": 5
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.942019,
+          22.460911
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Longxi",
+        "alternate_names": [
+          "瀧溪",
+          "Liông-khe"
+        ],
+        "line": "TRASouthLink",
+        "order": 6
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.967496,
+          22.53133
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Jinlun",
+        "alternate_names": [
+          "金崙",
+          "Kim-lūn"
+        ],
+        "line": "TRASouthLink",
+        "order": 7
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.004692,
+          22.618963
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Taimali",
+        "alternate_names": [
+          "太麻里",
+          "Thài-mâ-lí"
+        ],
+        "line": "TRASouthLink",
+        "order": 8
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.060657,
+          22.71017
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Zhiben",
+        "alternate_names": [
+          "知本",
+          "Ti-pún"
+        ],
+        "line": "TRASouthLink",
+        "order": 9
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.093311,
+          22.764473
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Kangle",
+        "alternate_names": [
+          "康樂",
+          "Khong-lo̍k"
+        ],
+        "line": "TRASouthLink",
+        "order": 10
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.122432,
+          22.79346
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Taitung",
+        "alternate_names": [
+          "臺東",
+          "Tâi-tang"
+        ],
+        "line": "TRASouthLink",
+        "order": 11
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302559,
+          22.639532
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Kaohsiung",
+        "alternate_names": [
+          "高雄",
+          "Ko-hiông"
+        ],
+        "line": "TRAPingtung",
+        "order": 0
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.315096,
+          22.6387
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Minzu",
+        "alternate_names": [
+          "民族",
+          "Bîn-cho̍k"
+        ],
+        "line": "TRAPingtung",
+        "order": 1
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.342738,
+          22.634116
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Zhengyi",
+        "alternate_names": [
+          "正義",
+          "Chèng-gī"
+        ],
+        "line": "TRAPingtung",
+        "order": 2
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.356677,
+          22.631597
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Fengshan",
+        "alternate_names": [
+          "鳳山",
+          "Hōng-soaⁿ"
+        ],
+        "line": "TRAPingtung",
+        "order": 3
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.391047,
+          22.640464
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Houzhuang",
+        "alternate_names": [
+          "後庄",
+          "Āu-chng"
+        ],
+        "line": "TRAPingtung",
+        "order": 4
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.421202,
+          22.655965
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Jiuqutang",
+        "alternate_names": [
+          "九曲堂",
+          "Kiú-khiok-tông"
+        ],
+        "line": "TRAPingtung",
+        "order": 5
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.464819,
+          22.665782
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Liukuaicuo",
+        "alternate_names": [
+          "六塊厝",
+          "La̍k-tè-chhù"
+        ],
+        "line": "TRAPingtung",
+        "order": 6
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.539751,
+          22.586577
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Zhutian",
+        "alternate_names": [
+          "竹田",
+          "Tek-chhân"
+        ],
+        "line": "TRAPingtung",
+        "order": 7
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.536062,
+          22.549979
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Chaozhou",
+        "alternate_names": [
+          "潮州",
+          "Tiô-chiu"
+        ],
+        "line": "TRAPingtung",
+        "order": 8
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.526511,
+          22.616244
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Xishi",
+        "alternate_names": [
+          "西勢",
+          "Sai-sì"
+        ],
+        "line": "TRAPingtung",
+        "order": 9
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.514297,
+          22.634689
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Linluo",
+        "alternate_names": [
+          "麟洛",
+          "Lîn-lo̍k"
+        ],
+        "line": "TRAPingtung",
+        "order": 10
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.502794,
+          22.652275
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Guilai",
+        "alternate_names": [
+          "歸來",
+          "Kui-lâi"
+        ],
+        "line": "TRAPingtung",
+        "order": 11
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.486126,
+          22.668853
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Pingtung",
+        "alternate_names": [
+          "屏東",
+          "Pîn-tong"
+        ],
+        "line": "TRAPingtung",
+        "order": 12
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326278,
+          22.637062
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Science And Technology Museum",
+        "alternate_names": [
+          "科工館",
+          "Kho-kang-koán"
+        ],
+        "line": "TRAPingtung",
+        "order": 13
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.514844,
+          22.513159
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Kanding",
+        "alternate_names": [
+          "崁頂",
+          "Khàm-téng"
+        ],
+        "line": "TRAPingtung",
+        "order": 14
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.511152,
+          22.457991
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Zhen'an",
+        "alternate_names": [
+          "鎮安",
+          "Tìn-an"
+        ],
+        "line": "TRAPingtung",
+        "order": 15
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.515028,
+          22.431493
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Linbian",
+        "alternate_names": [
+          "林邊",
+          "Nâ-á-piⁿ"
+        ],
+        "line": "TRAPingtung",
+        "order": 16
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.547579,
+          22.413826
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Jiadong",
+        "alternate_names": [
+          "佳冬",
+          "Ka-tang"
+        ],
+        "line": "TRAPingtung",
+        "order": 17
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.572316,
+          22.398942
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Donghai",
+        "alternate_names": [
+          "東海",
+          "Tang-hái"
+        ],
+        "line": "TRAPingtung",
+        "order": 18
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.595289,
+          22.368249
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Fangliao",
+        "alternate_names": [
+          "枋寮",
+          "Pang-liâu"
+        ],
+        "line": "TRAPingtung",
+        "order": 19
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512004,
+          22.491869
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Nanzhou",
+        "alternate_names": [
+          "南州",
+          "Lâm-chiu"
+        ],
+        "line": "TRAPingtung",
+        "order": 20
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.723869,
+          25.023978
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Jingtong",
+        "alternate_names": [
+          "菁桐",
+          "Chheng-tông"
+        ],
+        "line": "TRAPingxi",
+        "order": 0
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.740012,
+          25.025663
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Pingxi",
+        "alternate_names": [
+          "平溪",
+          "Pêng-khe"
+        ],
+        "line": "TRAPingxi",
+        "order": 1
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.748485,
+          25.02959
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Lingjiao",
+        "alternate_names": [
+          "嶺腳",
+          "Niá-kha"
+        ],
+        "line": "TRAPingxi",
+        "order": 2
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.763598,
+          25.034506
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Wanggu",
+        "alternate_names": [
+          "望古",
+          "Bōng-kó͘"
+        ],
+        "line": "TRAPingxi",
+        "order": 3
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.797478,
+          25.049857
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Dahua",
+        "alternate_names": [
+          "大華",
+          "Tāi-hôa"
+        ],
+        "line": "TRAPingxi",
+        "order": 4
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.822376,
+          25.066101
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Sandiaoling",
+        "alternate_names": [
+          "三貂嶺",
+          "Sam-tiau-niá"
+        ],
+        "line": "TRAPingxi",
+        "order": 5
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.775247,
+          25.04109
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Shifen",
+        "alternate_names": [
+          "十分",
+          "Cha̍p-hūn"
+        ],
+        "line": "TRAPingxi",
+        "order": 6
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.802958,
+          25.135287
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Badouzi",
+        "alternate_names": [
+          "八斗子",
+          "Peh-táu-á"
+        ],
+        "line": "TRAShenao",
+        "order": 0
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80005,
+          25.137402
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Haikeguan",
+        "alternate_names": [
+          "海科館",
+          "Hái-kho-koán"
+        ],
+        "line": "TRAShenao",
+        "order": 1
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.806559,
+          25.109011
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Ruifang",
+        "alternate_names": [
+          "瑞芳",
+          "Sūi-hong"
+        ],
+        "line": "TRAShenao",
+        "order": 2
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.971678,
+          24.801403
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Hsinchu",
+        "alternate_names": [
+          "新竹",
+          "Sin-tek"
+        ],
+        "line": "TRANeiwan",
+        "order": 0
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98379,
+          24.808631
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "North Hsinchu",
+        "alternate_names": [
+          "北新竹",
+          "Pak-sin-tek"
+        ],
+        "line": "TRANeiwan",
+        "order": 1
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00341,
+          24.806617
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Qianjia",
+        "alternate_names": [
+          "千甲",
+          "Chhian-kah"
+        ],
+        "line": "TRANeiwan",
+        "order": 2
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.021958,
+          24.788093
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Xinzhuang",
+        "alternate_names": [
+          "新莊",
+          "Sin-chng-á"
+        ],
+        "line": "TRANeiwan",
+        "order": 3
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0312,
+          24.781713
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Zhuzhong",
+        "alternate_names": [
+          "竹中",
+          "Tek-tiong"
+        ],
+        "line": "TRANeiwan",
+        "order": 4
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.056022,
+          24.777593
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Shangyuan",
+        "alternate_names": [
+          "上員",
+          "Siōng-goân"
+        ],
+        "line": "TRANeiwan",
+        "order": 5
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.083372,
+          24.748265
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Ronghua",
+        "alternate_names": [
+          "榮華",
+          "Êng-hôa"
+        ],
+        "line": "TRANeiwan",
+        "order": 6
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.094903,
+          24.738321
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Zhudong",
+        "alternate_names": [
+          "竹東",
+          "Tek-tang"
+        ],
+        "line": "TRANeiwan",
+        "order": 7
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.11774,
+          24.720367
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Hengshan",
+        "alternate_names": [
+          "橫山",
+          "Hoâiⁿ-soaⁿ"
+        ],
+        "line": "TRANeiwan",
+        "order": 8
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.135986,
+          24.720399
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Jiuzantou",
+        "alternate_names": [
+          "九讚頭",
+          "Káu-chàn-thâu"
+        ],
+        "line": "TRANeiwan",
+        "order": 9
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.155697,
+          24.717275
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Hexing",
+        "alternate_names": [
+          "合興",
+          "Ha̍p-heng"
+        ],
+        "line": "TRANeiwan",
+        "order": 10
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.167674,
+          24.715234
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Fugui",
+        "alternate_names": [
+          "富貴(南河)",
+          "富貴",
+          "Hù-kùi (Lâm-hô)"
+        ],
+        "line": "TRANeiwan",
+        "order": 11
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.182679,
+          24.705346
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Neiwan",
+        "alternate_names": [
+          "內灣",
+          "Lāi-oan"
+        ],
+        "line": "TRANeiwan",
+        "order": 12
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.039414,
+          24.807126
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Liujia",
+        "alternate_names": [
+          "六家",
+          "La̍k-ka"
+        ],
+        "line": "TRALiujia",
+        "order": 0
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0312,
+          24.781713
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Zhuzhong",
+        "alternate_names": [
+          "竹中",
+          "Tek-tiong"
+        ],
+        "line": "TRALiujia",
+        "order": 1
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6184,
+          23.813291
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Ershui",
+        "alternate_names": [
+          "二水",
+          "Jī-chúi"
+        ],
+        "line": "TRAJiji",
+        "order": 0
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704792,
+          23.834535
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Zhuoshui",
+        "alternate_names": [
+          "濁水",
+          "Lô-chúi"
+        ],
+        "line": "TRAJiji",
+        "order": 1
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.750042,
+          23.835276
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Longquan",
+        "alternate_names": [
+          "龍泉",
+          "Liông-chôaⁿ"
+        ],
+        "line": "TRAJiji",
+        "order": 2
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.784958,
+          23.826268
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Jiji",
+        "alternate_names": [
+          "集集",
+          "Chi̍p-chi̍p"
+        ],
+        "line": "TRAJiji",
+        "order": 3
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.853268,
+          23.818699
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Shuili",
+        "alternate_names": [
+          "水里",
+          "Chúi-lí"
+        ],
+        "line": "TRAJiji",
+        "order": 4
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.866327,
+          23.832783
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Checheng",
+        "alternate_names": [
+          "車埕",
+          "Chhia-tiâⁿ"
+        ],
+        "line": "TRAJiji",
+        "order": 5
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.642133,
+          23.798483
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Yuanquan",
+        "alternate_names": [
+          "源泉",
+          "Goân-chôaⁿ"
+        ],
+        "line": "TRAJiji",
+        "order": 6
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.25263,
+          22.903906
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Zhongzhou",
+        "alternate_names": [
+          "中洲",
+          "Tiong-chiu"
+        ],
+        "line": "TRAShalun",
+        "order": 0
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.272368,
+          22.90718
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Chang Jung Christian University",
+        "alternate_names": [
+          "長榮大學",
+          "Tióng-êng Tāi-ha̍k"
+        ],
+        "line": "TRAShalun",
+        "order": 1
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28633,
+          22.923877
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Shalun",
+        "alternate_names": [
+          "沙崙",
+          "Soa-lūn"
+        ],
+        "line": "TRAShalun",
+        "order": 2
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570124,
+          24.120227
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Zhuifen",
+        "alternate_names": [
+          "追分",
+          "Tui-hun"
+        ],
+        "line": "TRAChengzhui",
+        "order": 0
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59056,
+          24.114336
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Chenggong",
+        "alternate_names": [
+          "成功",
+          "Sêng-kong"
+        ],
+        "line": "TRAChengzhui",
+        "order": 1
+      },
+      "id": 260
+    }
+  ]
+}

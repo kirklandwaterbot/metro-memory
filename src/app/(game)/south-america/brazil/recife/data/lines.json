@@ -1,0 +1,37 @@
+{
+  "REC1": {
+    "name": "Linha Centro (Camaragibe)",
+    "color": "#E77405",
+    "backgroundColor": "#E77405",
+    "textColor": "#FFFFFF",
+    "order": 0
+  },
+  "REC2": {
+    "name": "Linha Centro (Jaboatão)",
+    "color": "#D9001C",
+    "backgroundColor": "#D9001C",
+    "textColor": "#FFFFFF",
+    "order": 1
+  },
+  "RECS": {
+    "name": "Linha Sul",
+    "color": "#1A5BA3",
+    "backgroundColor": "#1A5BA3",
+    "textColor": "#FFFFFF",
+    "order": 2
+  },
+  "RECVC": {
+    "name": "VLT Cajueiro Seco–Cabo",
+    "color": "#008000",
+    "backgroundColor": "#008000",
+    "textColor": "#FFFFFF",
+    "order": 3
+  },
+  "RECVK": {
+    "name": "VLT Cajueiro Seco–Curado",
+    "color": "#999E9E",
+    "backgroundColor": "#999E9E",
+    "textColor": "#FFFFFF",
+    "order": 4
+  }
+}

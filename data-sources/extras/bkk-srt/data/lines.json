@@ -1,0 +1,42 @@
+{
+  "BangkokSRTLopburi": {
+    "name": "Lopburi Line",
+    "color": "#0B6E4F",
+    "backgroundColor": "#0B6E4F",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "BangkokSRTLopburi.svg"
+  },
+  "BangkokSRTKaengKhoi": {
+    "name": "Kaeng Khoi Line",
+    "color": "#B5651D",
+    "backgroundColor": "#B5651D",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "BangkokSRTKaengKhoi.svg"
+  },
+  "BangkokSRTPrachinburi": {
+    "name": "Prachinburi Line",
+    "color": "#1565C0",
+    "backgroundColor": "#1565C0",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "BangkokSRTPrachinburi.svg"
+  },
+  "BangkokSRTRatchaburi": {
+    "name": "Ratchaburi Line",
+    "color": "#C62828",
+    "backgroundColor": "#C62828",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "BangkokSRTRatchaburi.svg"
+  },
+  "BangkokSRTSuphanburi": {
+    "name": "Suphanburi Line",
+    "color": "#6A1B9A",
+    "backgroundColor": "#6A1B9A",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "BangkokSRTSuphanburi.svg"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "baku",
+  "path": "asia/azerbaijan/baku",
+  "gameTitle": "Baku Metro Memory",
+  "description": "How many Baku Metro stations can you name from memory?",
+  "locale": "az_AZ",
+  "bbox": [
+    40.33,
+    49.75,
+    40.45,
+    50.0
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Baku Metro",
+      "lines": [
+        "BAK1",
+        "BAK2",
+        "BAK2B",
+        "BAK3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BAK1",
+      "name": "Red line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E4002B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "BAK1.svg"
+    },
+    {
+      "id": "BAK2",
+      "name": "Green line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#00A651",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "BAK2.svg"
+    },
+    {
+      "id": "BAK2B",
+      "name": "Light Green line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2B$"
+      },
+      "color": "#8DC63F",
+      "badge": "2B",
+      "textColor": "#FFFFFF",
+      "removeStations": [
+        "28 May",
+        "Bakı Dəmiryol Stansiyası"
+      ],
+      "icon": "BAK2B.svg"
+    },
+    {
+      "id": "BAK3",
+      "name": "Purple line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^3$"
+      },
+      "color": "#8E3E97",
+      "badge": "3",
+      "textColor": "#FFFFFF",
+      "icon": "BAK3.svg"
+    }
+  ],
+  "register": {
+    "name": "Baku, AZ",
+    "continent": "Asia",
+    "coordinates": [
+      49.8671,
+      40.4093
+    ],
+    "achievement": {
+      "title": "Land of Fire Underground",
+      "description": "You've named every Baku Metro station."
+    },
+    "zh": "巴库, AZ"
+  },
+  "display": "local"
+}

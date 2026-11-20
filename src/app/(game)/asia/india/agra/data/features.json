@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.017103,
+          27.178286
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Mankameshwar Mandir",
+        "alternate_names": [
+          "मनकामेश्वर मंदिर"
+        ],
+        "line": "AGRA1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.022205,
+          27.174968
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Dr. Ambedkar Chowk",
+        "alternate_names": [
+          "डॉ. अंबेडकर चौक"
+        ],
+        "line": "AGRA1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.035963,
+          27.168067
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Taj Mahal",
+        "alternate_names": [
+          "ताज महल"
+        ],
+        "line": "AGRA1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.042659,
+          27.160159
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Fatehabad Road",
+        "alternate_names": [
+          "फतेहाबाद रोड"
+        ],
+        "line": "AGRA1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.050737,
+          27.157844
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Shaheed Captain Shubham Gupta",
+        "alternate_names": [
+          "शहीद कैप्टन शुभम गुप्ता"
+        ],
+        "line": "AGRA1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057906,
+          27.158415
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Taj East Gate",
+        "alternate_names": [
+          "ताज ईस्ट गेट"
+        ],
+        "line": "AGRA1",
+        "order": 5
+      },
+      "id": 5
+    }
+  ]
+}

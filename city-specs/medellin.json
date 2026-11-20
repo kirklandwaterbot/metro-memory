@@ -1,0 +1,63 @@
+{
+  "slug": "medellin",
+  "path": "south-america/colombia/medellin",
+  "gameTitle": "Medellín Metro Memory",
+  "description": "How many Metro de Medellín stations can you name from memory?",
+  "locale": "es_CO",
+  "bbox": [
+    6.1,
+    -75.68,
+    6.42,
+    -75.48
+  ],
+  "stripPrefix": "^Estaci[oó]n (del? Metro (del? )?)?",
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Medellín",
+      "lines": [
+        "MDEA",
+        "MDEB"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MDEA",
+      "name": "Línea A",
+      "match": {
+        "route": "subway",
+        "network": "Medellín",
+        "ref": "^A$"
+      },
+      "color": "#00579C"
+    },
+    {
+      "id": "MDEB",
+      "name": "Línea B",
+      "match": {
+        "route": "subway",
+        "network": "Medellín",
+        "ref": "^B$"
+      },
+      "color": "#F7931D"
+    }
+  ],
+  "register": {
+    "name": "Medellín, CO",
+    "continent": "South America",
+    "coordinates": [
+      -75.5636,
+      6.2518
+    ],
+    "achievement": {
+      "title": "Paisa Pathfinder",
+      "description": "You've named every Metro de Medellín station."
+    }
+  },
+  "rename": {
+    "la Estrella": "La Estrella",
+    "Estrella": "La Estrella"
+  }
+}

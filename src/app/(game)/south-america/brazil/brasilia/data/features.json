@@ -1,0 +1,702 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.884624,
+          -15.793254
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Central",
+        "line": "DFL",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.886042,
+          -15.799493
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Galeria",
+        "line": "DFL",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.889476,
+          -15.805711
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "102 Sul",
+        "line": "DFL",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.898677,
+          -15.814956
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "106 Sul",
+        "line": "DFL",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.903942,
+          -15.818993
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "108 Sul",
+        "line": "DFL",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.909323,
+          -15.822872
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "110 Sul",
+        "line": "DFL",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.914707,
+          -15.826753
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "112 Sul",
+        "line": "DFL",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.920099,
+          -15.83066
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "114 Sul",
+        "line": "DFL",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.932523,
+          -15.837054
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Asa Sul",
+        "line": "DFL",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.95067,
+          -15.832429
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Shopping",
+        "line": "DFL",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.975029,
+          -15.823017
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Feira",
+        "line": "DFL",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.983392,
+          -15.82666
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Guará",
+        "line": "DFL",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.017062,
+          -15.836714
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Arniqueiras",
+        "line": "DFL",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.028252,
+          -15.839888
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Águas Claras",
+        "line": "DFL",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.041904,
+          -15.851807
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Taguatinga Sul",
+        "line": "DFL",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.059828,
+          -15.864902
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Furnas",
+        "line": "DFL",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.071582,
+          -15.869091
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Samambaia Sul",
+        "line": "DFL",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.084893,
+          -15.873719
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Samambaia",
+        "line": "DFL",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.884624,
+          -15.793254
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Central",
+        "line": "DFV",
+        "order": 0
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.886042,
+          -15.799493
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Galeria",
+        "line": "DFV",
+        "order": 1
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.889476,
+          -15.805711
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "102 Sul",
+        "line": "DFV",
+        "order": 2
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.898677,
+          -15.814956
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "106 Sul",
+        "line": "DFV",
+        "order": 3
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.903942,
+          -15.818993
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "108 Sul",
+        "line": "DFV",
+        "order": 4
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.909323,
+          -15.822872
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "110 Sul",
+        "line": "DFV",
+        "order": 5
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.914707,
+          -15.826753
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "112 Sul",
+        "line": "DFV",
+        "order": 6
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.920099,
+          -15.83066
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "114 Sul",
+        "line": "DFV",
+        "order": 7
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.932523,
+          -15.837054
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Asa Sul",
+        "line": "DFV",
+        "order": 8
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.95067,
+          -15.832429
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Shopping",
+        "line": "DFV",
+        "order": 9
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.975029,
+          -15.823017
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Feira",
+        "line": "DFV",
+        "order": 10
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.983392,
+          -15.82666
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Guará",
+        "line": "DFV",
+        "order": 11
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.017062,
+          -15.836714
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Arniqueiras",
+        "line": "DFV",
+        "order": 12
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.028256,
+          -15.840001
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Águas Claras",
+        "line": "DFV",
+        "order": 13
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.038633,
+          -15.835151
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Concessionárias",
+        "line": "DFV",
+        "order": 14
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.045283,
+          -15.832409
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Estrada Parque",
+        "line": "DFV",
+        "order": 15
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.056326,
+          -15.833293
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Praça do Relógio",
+        "line": "DFV",
+        "order": 16
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.086159,
+          -15.835421
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Centro Metropolitano",
+        "line": "DFV",
+        "order": 17
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.103328,
+          -15.837797
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Ceilândia Sul",
+        "line": "DFV",
+        "order": 18
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.107354,
+          -15.830645
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Guariroba",
+        "line": "DFV",
+        "order": 19
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.11191,
+          -15.822278
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Ceilândia Centro",
+        "line": "DFV",
+        "order": 20
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.116175,
+          -15.814906
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Ceilândia Norte",
+        "line": "DFV",
+        "order": 21
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.121351,
+          -15.805591
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Ceilândia",
+        "line": "DFV",
+        "order": 22
+      },
+      "id": 40
+    }
+  ]
+}

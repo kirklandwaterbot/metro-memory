@@ -1,0 +1,99 @@
+{
+  "slug": "bucharest",
+  "path": "europe/romania/bucharest",
+  "gameTitle": "Bucharest Metro Memory",
+  "description": "How many Bucharest Metro stations can you name from memory?",
+  "locale": "ro_RO",
+  "bbox": [
+    44.286,
+    25.898,
+    44.574,
+    26.302
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "localStrip": "\\s+[12]$",
+  "lineGroups": [
+    {
+      "title": "Bucharest Metro",
+      "lines": [
+        "BUCHM1",
+        "BUCHM2",
+        "BUCHM3",
+        "BUCHM4",
+        "BUCHM5"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BUCHM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(358046|7772817)$"
+      },
+      "color": "#FFFF00",
+      "textColor": "#222222",
+      "badge": "M1",
+      "icon": "BUCHM1.svg"
+    },
+    {
+      "id": "BUCHM2",
+      "name": "Line M2",
+      "match": {
+        "@id": "^(2947020|2947113)$"
+      },
+      "color": "#003399",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "BUCHM2.svg"
+    },
+    {
+      "id": "BUCHM3",
+      "name": "Line M3",
+      "match": {
+        "@id": "^(358039|7772843)$"
+      },
+      "color": "#BC1725",
+      "textColor": "#FFFFFF",
+      "badge": "M3",
+      "icon": "BUCHM3.svg"
+    },
+    {
+      "id": "BUCHM4",
+      "name": "Line M4",
+      "match": {
+        "@id": "^(380909|2565649)$"
+      },
+      "color": "#347C11",
+      "textColor": "#FFFFFF",
+      "badge": "M4",
+      "icon": "BUCHM4.svg"
+    },
+    {
+      "id": "BUCHM5",
+      "name": "Line M5",
+      "match": {
+        "@id": "^(11697878|11697879|11697882|11697884)$"
+      },
+      "color": "#FF8040",
+      "textColor": "#FFFFFF",
+      "badge": "M5",
+      "icon": "BUCHM5.svg"
+    }
+  ],
+  "register": {
+    "name": "Bucharest, RO",
+    "continent": "Europe",
+    "coordinates": [
+      26.1,
+      44.43
+    ],
+    "zh": "布加勒斯特, RO",
+    "achievement": {
+      "title": "Bucharest Metro Master",
+      "description": "You've named every Bucharest Metro station."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "zhangjiakou",
+  "path": "asia/china/zhangjiakou",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "太子城大道": "Taizicheng Avenue",
+    "奥林匹克颁奖广场": "Olympic Medals Plaza",
+    "四季商街": "Four Seasons Street",
+    "太子城遗址公园": "Taizicheng Ruins Park",
+    "云湖": "Yunhu",
+    "冰雪会堂": "Ice and Snow Hall"
+  },
+  "alternates": {
+    "奥林匹克颁奖广场": [
+      "Medals Plaza",
+      "Olympic Plaza"
+    ],
+    "云湖": [
+      "Cloud Lake"
+    ],
+    "太子城遗址公园": [
+      "Taizicheng Heritage Park"
+    ],
+    "冰雪会堂": [
+      "Snow Hall"
+    ]
+  },
+  "lines": [
+    {
+      "id": "chonglitram",
+      "name": "Chongli Tram",
+      "match": {
+        "name": "太子城冰雪小镇有轨电车"
+      },
+      "fromTrack": true,
+      "color": "#0072BC"
+    }
+  ],
+  "cityName": "Zhangjiakou",
+  "gameTitle": "Zhangjiakou Tram Memory",
+  "description": "How many stops of the Chongli Taizicheng tram can you name from memory?",
+  "groups": [
+    {
+      "title": "Taizicheng Ice Town Tram",
+      "titleImage": "asia/china/zhangjiakou/icon.ico",
+      "lines": [
+        "chonglitram"
+      ]
+    }
+  ]
+}

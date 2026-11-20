@@ -1,0 +1,87 @@
+{
+  "slug": "jakarta-krl",
+  "path": "../../../data-sources/extras/jakarta-krl",
+  "gameTitle": "x",
+  "description": "x",
+  "locale": "id_ID",
+  "bbox": [
+    -6.75,
+    106.15,
+    -5.95,
+    107.3
+  ],
+  "stripPrefix": "^Stasiun ",
+  "altTags": [
+    "name:en"
+  ],
+  "stationsFromTrack": false,
+  "lineGroups": [
+    {
+      "title": "KRL Commuterline",
+      "lines": [
+        "KRLBogor",
+        "KRLCikarang",
+        "KRLRangkasbitung",
+        "KRLTangerang",
+        "KRLTanjungPriok"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KRLBogor",
+      "name": "KRL Bogor Line",
+      "match": {
+        "@id": "^(16877210|16877211|16877212|16877213)$"
+      },
+      "color": "#E30A16",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "KRLBogor.svg"
+    },
+    {
+      "id": "KRLCikarang",
+      "name": "KRL Cikarang Loop Line",
+      "match": {
+        "@id": "^(2922163|15094545|15097496|15097497|15097498|15097499|15097500|15097501|15097502|15097503|15097504|15097505|15097506|15097507)$"
+      },
+      "color": "#0084D8",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "KRLCikarang.svg"
+    },
+    {
+      "id": "KRLRangkasbitung",
+      "name": "KRL Rangkasbitung Line",
+      "match": {
+        "@id": "^(2922215|15094546)$"
+      },
+      "color": "#16812B",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "KRLRangkasbitung.svg"
+    },
+    {
+      "id": "KRLTangerang",
+      "name": "KRL Tangerang Line",
+      "match": {
+        "@id": "^(2922235|17193463)$"
+      },
+      "color": "#623814",
+      "textColor": "#FFFFFF",
+      "badge": "T",
+      "icon": "KRLTangerang.svg"
+    },
+    {
+      "id": "KRLTanjungPriok",
+      "name": "KRL Tanjung Priok Line",
+      "match": {
+        "@id": "^(2922237|17193008)$"
+      },
+      "color": "#DD0067",
+      "textColor": "#FFFFFF",
+      "badge": "TP",
+      "icon": "KRLTanjungPriok.svg"
+    }
+  ]
+}

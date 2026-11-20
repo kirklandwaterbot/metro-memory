@@ -1,1565 +1,1565 @@
 {
-    "type":  "FeatureCollection",
-    "features":  [
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.01806831,
-                                                              40.4478331600001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Allegheny",
-                                            "line":  "RD",
-                                            "id":  0
-                                        },
-                         "id":  0
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.009535,
-                                                              40.448003
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "North Side",
-                                            "line":  "RD",
-                                            "id":  1
-                                        },
-                         "id":  1
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.003962,
-                                                              40.441798
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Gateway",
-                                            "line":  "RD",
-                                            "id":  2
-                                        },
-                         "id":  2
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.999673903,
-                                                              40.4421727960001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Wood Street",
-                                            "line":  "RD",
-                                            "id":  3
-                                        },
-                         "id":  3
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.995402068,
-                                                              40.4405719270001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Steel Plaza",
-                                            "line":  "RD",
-                                            "id":  4
-                                        },
-                         "id":  4
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.996595,
-                                                              40.4354164000001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "First Avenue",
-                                            "line":  "RD",
-                                            "id":  5,
-                                            "alternate_names":  [
-                                                                    "First Ave",
-                                                                    "1st Avenue",
-                                                                    "1st Ave"
-                                                                ]
-                                        },
-                         "id":  5
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.003483681,
-                                                              40.431703831
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Station Square",
-                                            "line":  "RD",
-                                            "id":  6,
-                                            "alternate_names":  [
-                                                                    "Station Sq"
-                                                                ],
-                                            "cluster_key":  "station-square-monongahela-complex"
-                                        },
-                         "id":  6
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.00701789,
-                                                              40.42104105
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Hills Junction",
-                                            "line":  "RD",
-                                            "id":  7,
-                                            "alternate_names":  [
-                                                                    "South Hills Jct"
-                                                                ]
-                                        },
-                         "id":  7
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.010365,
-                                                              40.416618
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Palm Garden",
-                                            "line":  "RD",
-                                            "id":  8
-                                        },
-                         "id":  8
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.008581,
-                                                              40.414894
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Dawn",
-                                            "line":  "RD",
-                                            "id":  9
-                                        },
-                         "id":  9
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0199211,
-                                                              40.4103447200001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Westfield",
-                                            "line":  "RD",
-                                            "id":  10
-                                        },
-                         "id":  10
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.023331,
-                                                              40.4111505400001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Fallowfield",
-                                            "line":  "RD",
-                                            "id":  11
-                                        },
-                         "id":  11
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02465913,
-                                                              40.41075318
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Hampshire",
-                                            "line":  "RD",
-                                            "id":  12
-                                        },
-                         "id":  12
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.026982603,
-                                                              40.407123901
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Belasco",
-                                            "line":  "RD",
-                                            "id":  13
-                                        },
-                         "id":  13
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0302824199999,
-                                                              40.40392158
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Shiras",
-                                            "line":  "RD",
-                                            "id":  14
-                                        },
-                         "id":  14
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0337664799999,
-                                                              40.3993810600001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Stevenson",
-                                            "line":  "RD",
-                                            "id":  15
-                                        },
-                         "id":  15
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0367730199999,
-                                                              40.3970797100001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Potomac",
-                                            "line":  "RD",
-                                            "id":  16
-                                        },
-                         "id":  16
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0409116,
-                                                              40.3917208600001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Dormont Junction",
-                                            "line":  "RD",
-                                            "id":  17
-                                        },
-                         "id":  17
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.04329253,
-                                                              40.38240976
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Mt. Lebanon",
-                                            "line":  "RD",
-                                            "id":  18,
-                                            "alternate_names":  [
-                                                                    "Mount Lebanon",
-                                                                    "Mt Lebanon"
-                                                                ]
-                                        },
-                         "id":  18
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03835809,
-                                                              40.37521543
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Poplar",
-                                            "line":  "RD",
-                                            "id":  19
-                                        },
-                         "id":  19
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03337296,
-                                                              40.36996092
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Arlington",
-                                            "line":  "RD",
-                                            "id":  20
-                                        },
-                         "id":  20
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03011952,
-                                                              40.36812501
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Castle Shannon",
-                                            "line":  "RD",
-                                            "id":  21
-                                        },
-                         "id":  21
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.026743246,
-                                                              40.3652230590001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Overbrook Junction",
-                                            "line":  "RD",
-                                            "id":  22
-                                        },
-                         "id":  22
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02926961,
-                                                              40.3608413800001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "St. Anne\u0027s",
-                                            "line":  "RD",
-                                            "id":  23,
-                                            "alternate_names":  [
-                                                                    "St Annes",
-                                                                    "St Anne\u0027s",
-                                                                    "St Anne’s",
-                                                                    "Saint Annes",
-                                                                    "Saint Anne"
-                                                                ]
-                                        },
-                         "id":  23
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02923115,
-                                                              40.3568373300001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Smith Road",
-                                            "line":  "RD",
-                                            "id":  24
-                                        },
-                         "id":  24
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0280815,
-                                                              40.3536061
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Washington Junction",
-                                            "line":  "RD",
-                                            "id":  25
-                                        },
-                         "id":  25
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03389376,
-                                                              40.3492952500001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Casswell",
-                                            "line":  "RD",
-                                            "id":  26,
-                                            "alternate_names":  [
-                                                                    "Caswell"
-                                                                ]
-                                        },
-                         "id":  26
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0396140999999,
-                                                              40.3483851
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Highland",
-                                            "line":  "RD",
-                                            "id":  27
-                                        },
-                         "id":  27
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.04648184,
-                                                              40.3441165
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Bethel Village",
-                                            "line":  "RD",
-                                            "id":  28
-                                        },
-                         "id":  28
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0480113799999,
-                                                              40.34100555
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Dorchester",
-                                            "line":  "RD",
-                                            "id":  29
-                                        },
-                         "id":  29
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.05318261,
-                                                              40.33930159
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Hills Village",
-                                            "line":  "RD",
-                                            "id":  30,
-                                            "alternate_names":  [
-                                                                    "SHV"
-                                                                ]
-                                        },
-                         "id":  30
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.01806831,
-                                                              40.4478331600001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Allegheny",
-                                            "line":  "SV",
-                                            "id":  31
-                                        },
-                         "id":  31
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.009535,
-                                                              40.448003
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "North Side",
-                                            "line":  "SV",
-                                            "id":  32
-                                        },
-                         "id":  32
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.003962,
-                                                              40.441798
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Gateway",
-                                            "line":  "SV",
-                                            "id":  33
-                                        },
-                         "id":  33
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.999673903,
-                                                              40.4421727960001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Wood Street",
-                                            "line":  "SV",
-                                            "id":  34
-                                        },
-                         "id":  34
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.995402068,
-                                                              40.4405719270001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Steel Plaza",
-                                            "line":  "SV",
-                                            "id":  35
-                                        },
-                         "id":  35
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.996595,
-                                                              40.4354164000001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "First Avenue",
-                                            "line":  "SV",
-                                            "id":  36,
-                                            "alternate_names":  [
-                                                                    "First Ave",
-                                                                    "1st Avenue",
-                                                                    "1st Ave"
-                                                                ]
-                                        },
-                         "id":  36
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.003483681,
-                                                              40.431703831
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Station Square",
-                                            "line":  "SV",
-                                            "id":  37,
-                                            "alternate_names":  [
-                                                                    "Station Sq"
-                                                                ],
-                                            "cluster_key":  "station-square-monongahela-complex"
-                                        },
-                         "id":  37
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.00701789,
-                                                              40.42104105
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Hills Junction",
-                                            "line":  "SV",
-                                            "id":  38,
-                                            "alternate_names":  [
-                                                                    "South Hills Jct"
-                                                                ]
-                                        },
-                         "id":  38
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0118,
-                                                              40.416175
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Boggs",
-                                            "line":  "SV",
-                                            "id":  39
-                                        },
-                         "id":  39
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.00325832,
-                                                              40.4083291100001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Bon Air",
-                                            "line":  "SV",
-                                            "id":  40
-                                        },
-                         "id":  40
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.99891645,
-                                                              40.39927892
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Denise",
-                                            "line":  "SV",
-                                            "id":  41
-                                        },
-                         "id":  41
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.9982825,
-                                                              40.39283928
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Bank",
-                                            "line":  "SV",
-                                            "id":  42
-                                        },
-                         "id":  42
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0048047,
-                                                              40.377618
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "McNeilly",
-                                            "line":  "SV",
-                                            "id":  43,
-                                            "alternate_names":  [
-                                                                    "McNeely"
-                                                                ]
-                                        },
-                         "id":  43
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0079248,
-                                                              40.3737896800001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Killarney",
-                                            "line":  "SV",
-                                            "id":  44
-                                        },
-                         "id":  44
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0164266,
-                                                              40.3665209700001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Memorial Hall",
-                                            "line":  "SV",
-                                            "id":  45
-                                        },
-                         "id":  45
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.026743246,
-                                                              40.3652230590001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Willow",
-                                            "line":  "SV",
-                                            "id":  46
-                                        },
-                         "id":  46
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02926961,
-                                                              40.3608413800001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "St. Anne\u0027s",
-                                            "line":  "SV",
-                                            "id":  47,
-                                            "alternate_names":  [
-                                                                    "St Annes",
-                                                                    "St Anne\u0027s",
-                                                                    "St Anne’s",
-                                                                    "Saint Annes",
-                                                                    "Saint Anne"
-                                                                ]
-                                        },
-                         "id":  47
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02923115,
-                                                              40.3568373300001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Smith Road",
-                                            "line":  "SV",
-                                            "id":  48
-                                        },
-                         "id":  48
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0280815,
-                                                              40.3536061
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Washington Junction",
-                                            "line":  "SV",
-                                            "id":  49
-                                        },
-                         "id":  49
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02886683,
-                                                              40.34553262
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Hillcrest",
-                                            "line":  "SV",
-                                            "id":  50
-                                        },
-                         "id":  50
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03102963,
-                                                              40.33425644
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Lytle",
-                                            "line":  "SV",
-                                            "id":  51
-                                        },
-                         "id":  51
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.030751875,
-                                                              40.3305234220001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Mesta",
-                                            "line":  "SV",
-                                            "id":  52
-                                        },
-                         "id":  52
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03055863,
-                                                              40.3280267700001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Park Road",
-                                            "line":  "SV",
-                                            "id":  53
-                                        },
-                         "id":  53
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0297439999999,
-                                                              40.3228671800001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Munroe",
-                                            "line":  "SV",
-                                            "id":  54
-                                        },
-                         "id":  54
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02975553,
-                                                              40.31581242
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Sarah",
-                                            "line":  "SV",
-                                            "id":  55
-                                        },
-                         "id":  55
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03316118,
-                                                              40.3117358200001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Logan Road",
-                                            "line":  "SV",
-                                            "id":  56
-                                        },
-                         "id":  56
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03332098,
-                                                              40.3083693400001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "King\u0027s School Road",
-                                            "line":  "SV",
-                                            "id":  57,
-                                            "alternate_names":  [
-                                                                    "Kings School Road",
-                                                                    "King’s School Road",
-                                                                    "King School Road"
-                                                                ]
-                                        },
-                         "id":  57
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03148686,
-                                                              40.30091351
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Beagle",
-                                            "line":  "SV",
-                                            "id":  58
-                                        },
-                         "id":  58
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03041142,
-                                                              40.29648316
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Sandy Creek",
-                                            "line":  "SV",
-                                            "id":  59
-                                        },
-                         "id":  59
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02984738,
-                                                              40.2942567600001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "West Library",
-                                            "line":  "SV",
-                                            "id":  60
-                                        },
-                         "id":  60
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02067635,
-                                                              40.2870122900001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Library",
-                                            "line":  "SV",
-                                            "id":  61
-                                        },
-                         "id":  61
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.01806831,
-                                                              40.4478331600001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Allegheny",
-                                            "line":  "BL",
-                                            "id":  62
-                                        },
-                         "id":  62
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.009535,
-                                                              40.448003
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "North Side",
-                                            "line":  "BL",
-                                            "id":  63
-                                        },
-                         "id":  63
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.003962,
-                                                              40.441798
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Gateway",
-                                            "line":  "BL",
-                                            "id":  64
-                                        },
-                         "id":  64
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.999673903,
-                                                              40.4421727960001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Wood Street",
-                                            "line":  "BL",
-                                            "id":  65
-                                        },
-                         "id":  65
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.995402068,
-                                                              40.4405719270001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Steel Plaza",
-                                            "line":  "BL",
-                                            "id":  66
-                                        },
-                         "id":  66
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.996595,
-                                                              40.4354164000001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "First Avenue",
-                                            "line":  "BL",
-                                            "id":  67,
-                                            "alternate_names":  [
-                                                                    "First Ave",
-                                                                    "1st Avenue",
-                                                                    "1st Ave"
-                                                                ]
-                                        },
-                         "id":  67
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.003483681,
-                                                              40.431703831
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Station Square",
-                                            "line":  "BL",
-                                            "id":  68,
-                                            "alternate_names":  [
-                                                                    "Station Sq"
-                                                                ],
-                                            "cluster_key":  "station-square-monongahela-complex"
-                                        },
-                         "id":  68
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.00701789,
-                                                              40.42104105
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Hills Junction",
-                                            "line":  "BL",
-                                            "id":  69,
-                                            "alternate_names":  [
-                                                                    "South Hills Jct"
-                                                                ]
-                                        },
-                         "id":  69
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.01022124,
-                                                              40.4163634400001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Boggs",
-                                            "line":  "BL",
-                                            "id":  70
-                                        },
-                         "id":  70
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.00325832,
-                                                              40.4083291100001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Bon Air",
-                                            "line":  "BL",
-                                            "id":  71
-                                        },
-                         "id":  71
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.99891645,
-                                                              40.39927892
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Denise",
-                                            "line":  "BL",
-                                            "id":  72
-                                        },
-                         "id":  72
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -79.9982825,
-                                                              40.39283928
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Bank",
-                                            "line":  "BL",
-                                            "id":  73
-                                        },
-                         "id":  73
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0048047,
-                                                              40.377618
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "McNeilly",
-                                            "line":  "BL",
-                                            "id":  74,
-                                            "alternate_names":  [
-                                                                    "McNeely"
-                                                                ]
-                                        },
-                         "id":  74
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0079248,
-                                                              40.3737896800001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Killarney",
-                                            "line":  "BL",
-                                            "id":  75
-                                        },
-                         "id":  75
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0164266,
-                                                              40.3665209700001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Memorial Hall",
-                                            "line":  "BL",
-                                            "id":  76
-                                        },
-                         "id":  76
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.026743246,
-                                                              40.3652230590001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Willow",
-                                            "line":  "BL",
-                                            "id":  77
-                                        },
-                         "id":  77
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02926961,
-                                                              40.3608413800001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "St. Anne\u0027s",
-                                            "line":  "BL",
-                                            "id":  78,
-                                            "alternate_names":  [
-                                                                    "St Annes",
-                                                                    "St Anne\u0027s",
-                                                                    "St Anne’s",
-                                                                    "Saint Annes",
-                                                                    "Saint Anne"
-                                                                ]
-                                        },
-                         "id":  78
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.02923115,
-                                                              40.3568373300001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Smith Road",
-                                            "line":  "BL",
-                                            "id":  79
-                                        },
-                         "id":  79
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0280815,
-                                                              40.3536061
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Washington Junction",
-                                            "line":  "BL",
-                                            "id":  80
-                                        },
-                         "id":  80
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.03389376,
-                                                              40.3492952500001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Casswell",
-                                            "line":  "BL",
-                                            "id":  81,
-                                            "alternate_names":  [
-                                                                    "Caswell"
-                                                                ]
-                                        },
-                         "id":  81
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0396140999999,
-                                                              40.3483851
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Highland",
-                                            "line":  "BL",
-                                            "id":  82
-                                        },
-                         "id":  82
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.04648184,
-                                                              40.3441165
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Bethel Village",
-                                            "line":  "BL",
-                                            "id":  83
-                                        },
-                         "id":  83
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.0480113799999,
-                                                              40.34100555
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Dorchester",
-                                            "line":  "BL",
-                                            "id":  84
-                                        },
-                         "id":  84
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.05318261,
-                                                              40.33930159
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "South Hills Village",
-                                            "line":  "BL",
-                                            "id":  85,
-                                            "alternate_names":  [
-                                                                    "SHV"
-                                                                ]
-                                        },
-                         "id":  85
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.25496382887232,
-                                                              40.496007310486476
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Landside Terminal",
-                                            "line":  "pittsburghAPM",
-                                            "id":  86
-                                        },
-                         "id":  86
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.246198,
-                                                              40.49571
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Airside Terminal",
-                                            "line":  "pittsburghAPM",
-                                            "id":  87,
-                                            "alternate_names":  [
-                                                                    "Midfield Terminal"
-                                                                ]
-                                        },
-                         "id":  87
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.018778,
-                                                              40.438299
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Duquesne Upper",
-                                            "line":  "DQ",
-                                            "id":  88
-                                        },
-                         "id":  88
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.017609,
-                                                              40.439885
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Duquesne Lower",
-                                            "line":  "DQ",
-                                            "id":  89
-                                        },
-                         "id":  89
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.005918,
-                                                              40.431358
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Monongahela Upper",
-                                            "line":  "MG",
-                                            "id":  90
-                                        },
-                         "id":  90
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              -80.004885,
-                                                              40.432495
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "name":  "Monongahela Lower",
-                                            "line":  "MG",
-                                            "id":  91,
-                                            "cluster_key":  "station-square-monongahela-complex"
-                                        },
-                         "id":  91
-                     }
-                 ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.01806831,
+          40.4478331600001
+        ]
+      },
+      "properties": {
+        "name": "Allegheny",
+        "line": "RD",
+        "id": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.009535,
+          40.448003
+        ]
+      },
+      "properties": {
+        "name": "North Side",
+        "line": "RD",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003962,
+          40.441798
+        ]
+      },
+      "properties": {
+        "name": "Gateway",
+        "line": "RD",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.999635,
+          40.442231
+        ]
+      },
+      "properties": {
+        "name": "Wood Street",
+        "line": "RD",
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.995487,
+          40.440499
+        ]
+      },
+      "properties": {
+        "name": "Steel Plaza",
+        "line": "RD",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.996595,
+          40.4354164000001
+        ]
+      },
+      "properties": {
+        "name": "First Avenue",
+        "line": "RD",
+        "id": 5,
+        "alternate_names": [
+          "First Ave",
+          "1st Avenue",
+          "1st Ave"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003458,
+          40.431733
+        ]
+      },
+      "properties": {
+        "name": "Station Square",
+        "line": "RD",
+        "id": 6,
+        "alternate_names": [
+          "Station Sq"
+        ],
+        "cluster_key": "station-square-monongahela-complex"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.006974,
+          40.420999
+        ]
+      },
+      "properties": {
+        "name": "South Hills Junction",
+        "line": "RD",
+        "id": 7,
+        "alternate_names": [
+          "South Hills Jct"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.010365,
+          40.416618
+        ]
+      },
+      "properties": {
+        "name": "Palm Garden",
+        "line": "RD",
+        "id": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.008581,
+          40.414894
+        ]
+      },
+      "properties": {
+        "name": "Dawn",
+        "line": "RD",
+        "id": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0199211,
+          40.4103447200001
+        ]
+      },
+      "properties": {
+        "name": "Westfield",
+        "line": "RD",
+        "id": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.023331,
+          40.4111505400001
+        ]
+      },
+      "properties": {
+        "name": "Fallowfield",
+        "line": "RD",
+        "id": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02465913,
+          40.41075318
+        ]
+      },
+      "properties": {
+        "name": "Hampshire",
+        "line": "RD",
+        "id": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.026982603,
+          40.407123901
+        ]
+      },
+      "properties": {
+        "name": "Belasco",
+        "line": "RD",
+        "id": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0302824199999,
+          40.40392158
+        ]
+      },
+      "properties": {
+        "name": "Shiras",
+        "line": "RD",
+        "id": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0337664799999,
+          40.3993810600001
+        ]
+      },
+      "properties": {
+        "name": "Stevenson",
+        "line": "RD",
+        "id": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0367730199999,
+          40.3970797100001
+        ]
+      },
+      "properties": {
+        "name": "Potomac",
+        "line": "RD",
+        "id": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0409116,
+          40.3917208600001
+        ]
+      },
+      "properties": {
+        "name": "Dormont Junction",
+        "line": "RD",
+        "id": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.04329253,
+          40.38240976
+        ]
+      },
+      "properties": {
+        "name": "Mt. Lebanon",
+        "line": "RD",
+        "id": 18,
+        "alternate_names": [
+          "Mount Lebanon",
+          "Mt Lebanon"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03835809,
+          40.37521543
+        ]
+      },
+      "properties": {
+        "name": "Poplar",
+        "line": "RD",
+        "id": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03337296,
+          40.36996092
+        ]
+      },
+      "properties": {
+        "name": "Arlington",
+        "line": "RD",
+        "id": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03011952,
+          40.36812501
+        ]
+      },
+      "properties": {
+        "name": "Castle Shannon",
+        "line": "RD",
+        "id": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.026647,
+          40.365153
+        ]
+      },
+      "properties": {
+        "name": "Overbrook Junction",
+        "line": "RD",
+        "id": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02926961,
+          40.3608413800001
+        ]
+      },
+      "properties": {
+        "name": "St. Anne's",
+        "line": "RD",
+        "id": 23,
+        "alternate_names": [
+          "St Annes",
+          "St Anne's",
+          "St Anne’s",
+          "Saint Annes",
+          "Saint Anne"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02923115,
+          40.3568373300001
+        ]
+      },
+      "properties": {
+        "name": "Smith Road",
+        "line": "RD",
+        "id": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0280815,
+          40.3536061
+        ]
+      },
+      "properties": {
+        "name": "Washington Junction",
+        "line": "RD",
+        "id": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03389376,
+          40.3492952500001
+        ]
+      },
+      "properties": {
+        "name": "Casswell",
+        "line": "RD",
+        "id": 26,
+        "alternate_names": [
+          "Caswell"
+        ]
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0396140999999,
+          40.3483851
+        ]
+      },
+      "properties": {
+        "name": "Highland",
+        "line": "RD",
+        "id": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.04648184,
+          40.3441165
+        ]
+      },
+      "properties": {
+        "name": "Bethel Village",
+        "line": "RD",
+        "id": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0480113799999,
+          40.34100555
+        ]
+      },
+      "properties": {
+        "name": "Dorchester",
+        "line": "RD",
+        "id": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.05318261,
+          40.33930159
+        ]
+      },
+      "properties": {
+        "name": "South Hills Village",
+        "line": "RD",
+        "id": 30,
+        "alternate_names": [
+          "SHV"
+        ]
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.01806831,
+          40.4478331600001
+        ]
+      },
+      "properties": {
+        "name": "Allegheny",
+        "line": "SV",
+        "id": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.009535,
+          40.448003
+        ]
+      },
+      "properties": {
+        "name": "North Side",
+        "line": "SV",
+        "id": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003962,
+          40.441798
+        ]
+      },
+      "properties": {
+        "name": "Gateway",
+        "line": "SV",
+        "id": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.999635,
+          40.442231
+        ]
+      },
+      "properties": {
+        "name": "Wood Street",
+        "line": "SV",
+        "id": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.995487,
+          40.440499
+        ]
+      },
+      "properties": {
+        "name": "Steel Plaza",
+        "line": "SV",
+        "id": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.996595,
+          40.4354164000001
+        ]
+      },
+      "properties": {
+        "name": "First Avenue",
+        "line": "SV",
+        "id": 36,
+        "alternate_names": [
+          "First Ave",
+          "1st Avenue",
+          "1st Ave"
+        ]
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003458,
+          40.431733
+        ]
+      },
+      "properties": {
+        "name": "Station Square",
+        "line": "SV",
+        "id": 37,
+        "alternate_names": [
+          "Station Sq"
+        ],
+        "cluster_key": "station-square-monongahela-complex"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.006974,
+          40.420999
+        ]
+      },
+      "properties": {
+        "name": "South Hills Junction",
+        "line": "SV",
+        "id": 38,
+        "alternate_names": [
+          "South Hills Jct"
+        ]
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0118,
+          40.416175
+        ]
+      },
+      "properties": {
+        "name": "Boggs",
+        "line": "SV",
+        "id": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.00325832,
+          40.4083291100001
+        ]
+      },
+      "properties": {
+        "name": "Bon Air",
+        "line": "SV",
+        "id": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99891645,
+          40.39927892
+        ]
+      },
+      "properties": {
+        "name": "Denise",
+        "line": "SV",
+        "id": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9982825,
+          40.39283928
+        ]
+      },
+      "properties": {
+        "name": "South Bank",
+        "line": "SV",
+        "id": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0048047,
+          40.377618
+        ]
+      },
+      "properties": {
+        "name": "McNeilly",
+        "line": "SV",
+        "id": 43,
+        "alternate_names": [
+          "McNeely"
+        ]
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0079248,
+          40.3737896800001
+        ]
+      },
+      "properties": {
+        "name": "Killarney",
+        "line": "SV",
+        "id": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0164266,
+          40.3665209700001
+        ]
+      },
+      "properties": {
+        "name": "Memorial Hall",
+        "line": "SV",
+        "id": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.026896,
+          40.365223
+        ]
+      },
+      "properties": {
+        "name": "Willow",
+        "line": "SV",
+        "id": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02926961,
+          40.3608413800001
+        ]
+      },
+      "properties": {
+        "name": "St. Anne's",
+        "line": "SV",
+        "id": 47,
+        "alternate_names": [
+          "St Annes",
+          "St Anne's",
+          "St Anne’s",
+          "Saint Annes",
+          "Saint Anne"
+        ]
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02923115,
+          40.3568373300001
+        ]
+      },
+      "properties": {
+        "name": "Smith Road",
+        "line": "SV",
+        "id": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0280815,
+          40.3536061
+        ]
+      },
+      "properties": {
+        "name": "Washington Junction",
+        "line": "SV",
+        "id": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02886683,
+          40.34553262
+        ]
+      },
+      "properties": {
+        "name": "Hillcrest",
+        "line": "SV",
+        "id": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03102963,
+          40.33425644
+        ]
+      },
+      "properties": {
+        "name": "Lytle",
+        "line": "SV",
+        "id": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.030751875,
+          40.3305234220001
+        ]
+      },
+      "properties": {
+        "name": "Mesta",
+        "line": "SV",
+        "id": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03055863,
+          40.3280267700001
+        ]
+      },
+      "properties": {
+        "name": "South Park Road",
+        "line": "SV",
+        "id": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0297439999999,
+          40.3228671800001
+        ]
+      },
+      "properties": {
+        "name": "Munroe",
+        "line": "SV",
+        "id": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02975553,
+          40.31581242
+        ]
+      },
+      "properties": {
+        "name": "Sarah",
+        "line": "SV",
+        "id": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03316118,
+          40.3117358200001
+        ]
+      },
+      "properties": {
+        "name": "Logan Road",
+        "line": "SV",
+        "id": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03332098,
+          40.3083693400001
+        ]
+      },
+      "properties": {
+        "name": "King's School Road",
+        "line": "SV",
+        "id": 57,
+        "alternate_names": [
+          "Kings School Road",
+          "King’s School Road",
+          "King School Road"
+        ]
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03148686,
+          40.30091351
+        ]
+      },
+      "properties": {
+        "name": "Beagle",
+        "line": "SV",
+        "id": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.03041142,
+          40.29648316
+        ]
+      },
+      "properties": {
+        "name": "Sandy Creek",
+        "line": "SV",
+        "id": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02984738,
+          40.2942567600001
+        ]
+      },
+      "properties": {
+        "name": "West Library",
+        "line": "SV",
+        "id": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02067635,
+          40.2870122900001
+        ]
+      },
+      "properties": {
+        "name": "Library",
+        "line": "SV",
+        "id": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.01806831,
+          40.4478331600001
+        ]
+      },
+      "properties": {
+        "name": "Allegheny",
+        "line": "BL",
+        "id": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.009535,
+          40.448003
+        ]
+      },
+      "properties": {
+        "name": "North Side",
+        "line": "BL",
+        "id": 63
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003962,
+          40.441798
+        ]
+      },
+      "properties": {
+        "name": "Gateway",
+        "line": "BL",
+        "id": 64
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.999635,
+          40.442231
+        ]
+      },
+      "properties": {
+        "name": "Wood Street",
+        "line": "BL",
+        "id": 65
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.995487,
+          40.440499
+        ]
+      },
+      "properties": {
+        "name": "Steel Plaza",
+        "line": "BL",
+        "id": 66
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.996595,
+          40.4354164000001
+        ]
+      },
+      "properties": {
+        "name": "First Avenue",
+        "line": "BL",
+        "id": 67,
+        "alternate_names": [
+          "First Ave",
+          "1st Avenue",
+          "1st Ave"
+        ]
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.003458,
+          40.431733
+        ]
+      },
+      "properties": {
+        "name": "Station Square",
+        "line": "BL",
+        "id": 68,
+        "alternate_names": [
+          "Station Sq"
+        ],
+        "cluster_key": "station-square-monongahela-complex"
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.006974,
+          40.420999
+        ]
+      },
+      "properties": {
+        "name": "South Hills Junction",
+        "line": "BL",
+        "id": 69,
+        "alternate_names": [
+          "South Hills Jct"
+        ]
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.01022124,
+          40.4163634400001
+        ]
+      },
+      "properties": {
+        "name": "Boggs",
+        "line": "BL",
+        "id": 70
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.00325832,
+          40.4083291100001
+        ]
+      },
+      "properties": {
+        "name": "Bon Air",
+        "line": "BL",
+        "id": 71
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99891645,
+          40.39927892
+        ]
+      },
+      "properties": {
+        "name": "Denise",
+        "line": "BL",
+        "id": 72
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9982825,
+          40.39283928
+        ]
+      },
+      "properties": {
+        "name": "South Bank",
+        "line": "BL",
+        "id": 73
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0048047,
+          40.377618
+        ]
+      },
+      "properties": {
+        "name": "McNeilly",
+        "line": "BL",
+        "id": 74,
+        "alternate_names": [
+          "McNeely"
+        ]
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0079248,
+          40.3737896800001
+        ]
+      },
+      "properties": {
+        "name": "Killarney",
+        "line": "BL",
+        "id": 75
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.01644,
+          40.366544
+        ]
+      },
+      "properties": {
+        "name": "Memorial Hall",
+        "line": "BL",
+        "id": 76
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.026647,
+          40.365153
+        ]
+      },
+      "properties": {
+        "name": "Willow",
+        "line": "BL",
+        "id": 77
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02926961,
+          40.3608413800001
+        ]
+      },
+      "properties": {
+        "name": "St. Anne's",
+        "line": "BL",
+        "id": 78,
+        "alternate_names": [
+          "St Annes",
+          "St Anne's",
+          "St Anne’s",
+          "Saint Annes",
+          "Saint Anne"
+        ]
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.02923115,
+          40.3568373300001
+        ]
+      },
+      "properties": {
+        "name": "Smith Road",
+        "line": "BL",
+        "id": 79
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0280815,
+          40.3536061
+        ]
+      },
+      "properties": {
+        "name": "Washington Junction",
+        "line": "BL",
+        "id": 80
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.033898,
+          40.349312
+        ]
+      },
+      "properties": {
+        "name": "Casswell",
+        "line": "BL",
+        "id": 81,
+        "alternate_names": [
+          "Caswell"
+        ]
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0396140999999,
+          40.3483851
+        ]
+      },
+      "properties": {
+        "name": "Highland",
+        "line": "BL",
+        "id": 82
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.04648184,
+          40.3441165
+        ]
+      },
+      "properties": {
+        "name": "Bethel Village",
+        "line": "BL",
+        "id": 83
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0480113799999,
+          40.34100555
+        ]
+      },
+      "properties": {
+        "name": "Dorchester",
+        "line": "BL",
+        "id": 84
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.053187,
+          40.339316
+        ]
+      },
+      "properties": {
+        "name": "South Hills Village",
+        "line": "BL",
+        "id": 85,
+        "alternate_names": [
+          "SHV"
+        ]
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.254967,
+          40.495949
+        ]
+      },
+      "properties": {
+        "name": "Landside Terminal",
+        "line": "pittsburghAPM",
+        "id": 86
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.246198,
+          40.49571
+        ]
+      },
+      "properties": {
+        "name": "Airside Terminal",
+        "line": "pittsburghAPM",
+        "id": 87,
+        "alternate_names": [
+          "Midfield Terminal"
+        ]
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.018778,
+          40.438299
+        ]
+      },
+      "properties": {
+        "name": "Duquesne Upper",
+        "line": "DQ",
+        "id": 88
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.017609,
+          40.439885
+        ]
+      },
+      "properties": {
+        "name": "Duquesne Lower",
+        "line": "DQ",
+        "id": 89
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.005918,
+          40.431358
+        ]
+      },
+      "properties": {
+        "name": "Monongahela Upper",
+        "line": "MG",
+        "id": 90
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.004885,
+          40.432495
+        ]
+      },
+      "properties": {
+        "name": "Monongahela Lower",
+        "line": "MG",
+        "id": 91,
+        "cluster_key": "station-square-monongahela-complex"
+      },
+      "id": 91
+    }
+  ]
 }

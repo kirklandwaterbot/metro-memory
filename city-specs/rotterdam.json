@@ -1,0 +1,98 @@
+{
+  "slug": "rotterdam",
+  "path": "europe/netherlands/rotterdam",
+  "gameTitle": "Rotterdam Metro Memory",
+  "description": "How many Rotterdam Metro stations can you name from memory?",
+  "locale": "nl_NL",
+  "bbox": [
+    51.668,
+    3.991,
+    52.172,
+    4.809
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Rotterdam Metro",
+      "lines": [
+        "ROTTA",
+        "ROTTB",
+        "ROTTC",
+        "ROTTD",
+        "ROTTE"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ROTTA",
+      "name": "Line A",
+      "match": {
+        "@id": "^(11174054|11174055|11174056|11174057)$"
+      },
+      "color": "#00AA50",
+      "textColor": "#FFFFFF",
+      "badge": "A",
+      "icon": "ROTTA.svg"
+    },
+    {
+      "id": "ROTTB",
+      "name": "Line B",
+      "match": {
+        "@id": "^(2785674|2785675|11171043|11171044)$"
+      },
+      "color": "#FFD301",
+      "textColor": "#222222",
+      "badge": "B",
+      "icon": "ROTTB.svg"
+    },
+    {
+      "id": "ROTTC",
+      "name": "Line C",
+      "match": {
+        "@id": "^(2785676|2785677)$"
+      },
+      "color": "#EF1F1F",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "ROTTC.svg"
+    },
+    {
+      "id": "ROTTD",
+      "name": "Line D",
+      "match": {
+        "@id": "^(2785504|2785505)$"
+      },
+      "color": "#1BC5E9",
+      "textColor": "#222222",
+      "badge": "D",
+      "icon": "ROTTD.svg"
+    },
+    {
+      "id": "ROTTE",
+      "name": "Line E",
+      "match": {
+        "@id": "^(2777286|2777287)$"
+      },
+      "color": "#1A389A",
+      "textColor": "#FFFFFF",
+      "badge": "E",
+      "icon": "ROTTE.svg"
+    }
+  ],
+  "register": {
+    "name": "Rotterdam, NL",
+    "continent": "Europe",
+    "coordinates": [
+      4.4,
+      51.92
+    ],
+    "zh": "鹿特丹, NL",
+    "achievement": {
+      "title": "Rotterdam Metro Master",
+      "description": "You've named every Rotterdam Metro station."
+    }
+  }
+}

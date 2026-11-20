@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.613998,
+          56.901392
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Prospekt Kosmonavtov",
+        "alternate_names": [
+          "Проспект Космонавтов",
+          "Проспект Космонавтів"
+        ],
+        "line": "EKB1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.613498,
+          56.888256
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Uralmash",
+        "alternate_names": [
+          "Уралмаш"
+        ],
+        "line": "EKB1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.61166,
+          56.877011
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Mashinostroiteley",
+        "alternate_names": [
+          "Машиностроителей",
+          "Машинобудівників"
+        ],
+        "line": "EKB1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.600381,
+          56.857471
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Uralskaya",
+        "alternate_names": [
+          "Уральская",
+          "Уральська"
+        ],
+        "line": "EKB1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.59931,
+          56.847612
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Dinamo",
+        "alternate_names": [
+          "Динамо"
+        ],
+        "line": "EKB1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.599164,
+          56.836868
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Ploshchad 1905 Goda",
+        "alternate_names": [
+          "Площадь 1905 года"
+        ],
+        "line": "EKB1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.602239,
+          56.827831
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Geologicheskaya",
+        "alternate_names": [
+          "Геологическая"
+        ],
+        "line": "EKB1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.610299,
+          56.807699
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Chkalovskaya",
+        "alternate_names": [
+          "Чкаловская",
+          "Чкаловська"
+        ],
+        "line": "EKB1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.631543,
+          56.797441
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Botanicheskaya",
+        "alternate_names": [
+          "Ботаническая"
+        ],
+        "line": "EKB1",
+        "order": 8
+      },
+      "id": 8
+    }
+  ]
+}

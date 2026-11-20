@@ -3,8 +3,20 @@ import type { Config } from './types'
 // Auto-generated from src/lib/cityPathMap.ts and available route config files.
 export const loadCityConfig = async (slug: string): Promise<Config | null> => {
   switch (slug) {
+    case 'adana': {
+      const configModule = await import('@/app/(game)/europe/turkey/adana/config')
+      return configModule.default
+    }
     case 'adelaide': {
       const configModule = await import('@/app/(game)/oceania/australia/adelaide/config')
+      return configModule.default
+    }
+    case 'agra': {
+      const configModule = await import('@/app/(game)/asia/india/agra/config')
+      return configModule.default
+    }
+    case 'ahmedabad': {
+      const configModule = await import('@/app/(game)/asia/india/ahmedabad/config')
       return configModule.default
     }
     case 'albuquerque': {
@@ -15,8 +27,28 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/africa/algeria/algiers/config')
       return configModule.default
     }
+    case 'almaty': {
+      const configModule = await import('@/app/(game)/asia/kazakhstan/almaty/config')
+      return configModule.default
+    }
+    case 'amsterdam': {
+      const configModule = await import('@/app/(game)/europe/netherlands/amsterdam/config')
+      return configModule.default
+    }
     case 'amtrak': {
       const configModule = await import('@/app/(game)/north-america/usa/amtrak/config')
+      return configModule.default
+    }
+    case 'ankara': {
+      const configModule = await import('@/app/(game)/europe/turkey/ankara/config')
+      return configModule.default
+    }
+    case 'astana': {
+      const configModule = await import('@/app/(game)/asia/kazakhstan/astana/config')
+      return configModule.default
+    }
+    case 'athens': {
+      const configModule = await import('@/app/(game)/europe/greece/athens/config')
       return configModule.default
     }
     case 'atlanta': {
@@ -31,6 +63,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/austin/config')
       return configModule.default
     }
+    case 'baku': {
+      const configModule = await import('@/app/(game)/asia/azerbaijan/baku/config')
+      return configModule.default
+    }
     case 'bangkok': {
       const configModule = await import('@/app/(game)/asia/thailand/bangkok/config')
       return configModule.default
@@ -43,8 +79,24 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/beijing/config')
       return configModule.default
     }
+    case 'belo-horizonte': {
+      const configModule = await import('@/app/(game)/south-america/brazil/belo-horizonte/config')
+      return configModule.default
+    }
+    case 'bengaluru': {
+      const configModule = await import('@/app/(game)/asia/india/bengaluru/config')
+      return configModule.default
+    }
     case 'berlin': {
       const configModule = await import('@/app/(game)/europe/germany/berlin/config')
+      return configModule.default
+    }
+    case 'bhopal': {
+      const configModule = await import('@/app/(game)/asia/india/bhopal/config')
+      return configModule.default
+    }
+    case 'bilbao': {
+      const configModule = await import('@/app/(game)/europe/spain/bilbao/config')
       return configModule.default
     }
     case 'blackpool': {
@@ -55,20 +107,48 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/boston/config')
       return configModule.default
     }
+    case 'brasilia': {
+      const configModule = await import('@/app/(game)/south-america/brazil/brasilia/config')
+      return configModule.default
+    }
+    case 'brescia': {
+      const configModule = await import('@/app/(game)/europe/italy/brescia/config')
+      return configModule.default
+    }
     case 'brisbane': {
       const configModule = await import('@/app/(game)/oceania/australia/brisbane/config')
+      return configModule.default
+    }
+    case 'brussels': {
+      const configModule = await import('@/app/(game)/europe/belgium/brussels/config')
+      return configModule.default
+    }
+    case 'bucharest': {
+      const configModule = await import('@/app/(game)/europe/romania/bucharest/config')
       return configModule.default
     }
     case 'budapest': {
       const configModule = await import('@/app/(game)/europe/hungary/budapest/config')
       return configModule.default
     }
+    case 'buenos-aires': {
+      const configModule = await import('@/app/(game)/south-america/argentina/buenos-aires/config')
+      return configModule.default
+    }
     case 'buffalo': {
       const configModule = await import('@/app/(game)/north-america/usa/buffalo/config')
       return configModule.default
     }
+    case 'bursa': {
+      const configModule = await import('@/app/(game)/europe/turkey/bursa/config')
+      return configModule.default
+    }
     case 'busan': {
       const configModule = await import('@/app/(game)/asia/south-korea/busan/config')
+      return configModule.default
+    }
+    case 'cairo': {
+      const configModule = await import('@/app/(game)/africa/egypt/cairo/config')
       return configModule.default
     }
     case 'calgary': {
@@ -81,6 +161,14 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'canberra': {
       const configModule = await import('@/app/(game)/oceania/australia/canberra/config')
+      return configModule.default
+    }
+    case 'caracas': {
+      const configModule = await import('@/app/(game)/south-america/venezuela/caracas/config')
+      return configModule.default
+    }
+    case 'catania': {
+      const configModule = await import('@/app/(game)/europe/italy/catania/config')
       return configModule.default
     }
     case 'changchun': {
@@ -103,8 +191,16 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/chengdu/config')
       return configModule.default
     }
+    case 'chennai': {
+      const configModule = await import('@/app/(game)/asia/india/chennai/config')
+      return configModule.default
+    }
     case 'chicago': {
       const configModule = await import('@/app/(game)/north-america/usa/chicago/config')
+      return configModule.default
+    }
+    case 'china-railway': {
+      const configModule = await import('@/app/(game)/asia/china/china-railway/config')
       return configModule.default
     }
     case 'chongqing': {
@@ -117,6 +213,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'cleveland': {
       const configModule = await import('@/app/(game)/north-america/usa/cleveland/config')
+      return configModule.default
+    }
+    case 'copenhagen': {
+      const configModule = await import('@/app/(game)/europe/denmark/copenhagen/config')
       return configModule.default
     }
     case 'daegu': {
@@ -139,6 +239,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/dc/config')
       return configModule.default
     }
+    case 'delhi': {
+      const configModule = await import('@/app/(game)/asia/india/delhi/config')
+      return configModule.default
+    }
     case 'denver': {
       const configModule = await import('@/app/(game)/north-america/usa/denver/config')
       return configModule.default
@@ -147,16 +251,28 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/detroit/config')
       return configModule.default
     }
+    case 'dhaka': {
+      const configModule = await import('@/app/(game)/asia/bangladesh/dhaka/config')
+      return configModule.default
+    }
+    case 'dnipro': {
+      const configModule = await import('@/app/(game)/europe/ukraine/dnipro/config')
+      return configModule.default
+    }
+    case 'doha': {
+      const configModule = await import('@/app/(game)/asia/qatar/doha/config')
+      return configModule.default
+    }
     case 'dresden': {
       const configModule = await import('@/app/(game)/europe/germany/dresden/config')
       return configModule.default
     }
-    case 'dublin': {
-      const configModule = await import('@/app/(game)/europe/ireland/dublin/config')
+    case 'dubai': {
+      const configModule = await import('@/app/(game)/asia/uae/dubai/config')
       return configModule.default
     }
-    case 'dujiangyan': {
-      const configModule = await import('@/app/(game)/asia/china/dujiangyan/config')
+    case 'dublin': {
+      const configModule = await import('@/app/(game)/europe/ireland/dublin/config')
       return configModule.default
     }
     case 'edinburgh': {
@@ -179,6 +295,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/florida-state/config')
       return configModule.default
     }
+    case 'fortaleza': {
+      const configModule = await import('@/app/(game)/south-america/brazil/fortaleza/config')
+      return configModule.default
+    }
     case 'fukuoka': {
       const configModule = await import('@/app/(game)/asia/japan/fukuoka/config')
       return configModule.default
@@ -193,6 +313,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
     }
     case 'gba': {
       const configModule = await import('@/app/(game)/asia/china/gba/config')
+      return configModule.default
+    }
+    case 'genoa': {
+      const configModule = await import('@/app/(game)/europe/italy/genoa/config')
       return configModule.default
     }
     case 'glasgow': {
@@ -235,6 +359,14 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/hefei/config')
       return configModule.default
     }
+    case 'helsinki': {
+      const configModule = await import('@/app/(game)/europe/finland/helsinki/config')
+      return configModule.default
+    }
+    case 'hiroshima': {
+      const configModule = await import('@/app/(game)/asia/japan/hiroshima/config')
+      return configModule.default
+    }
     case 'hochiminhcity': {
       const configModule = await import('@/app/(game)/asia/vietnam/hochiminhcity/config')
       return configModule.default
@@ -259,8 +391,32 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/huangshi/config')
       return configModule.default
     }
+    case 'hyderabad': {
+      const configModule = await import('@/app/(game)/asia/india/hyderabad/config')
+      return configModule.default
+    }
+    case 'ice': {
+      const configModule = await import('@/app/(game)/europe/germany/ice/config')
+      return configModule.default
+    }
+    case 'indore': {
+      const configModule = await import('@/app/(game)/asia/india/indore/config')
+      return configModule.default
+    }
+    case 'isfahan': {
+      const configModule = await import('@/app/(game)/asia/iran/isfahan/config')
+      return configModule.default
+    }
     case 'istanbul': {
       const configModule = await import('@/app/(game)/europe/turkey/istanbul/config')
+      return configModule.default
+    }
+    case 'izmir': {
+      const configModule = await import('@/app/(game)/europe/turkey/izmir/config')
+      return configModule.default
+    }
+    case 'jaipur': {
+      const configModule = await import('@/app/(game)/asia/india/jaipur/config')
       return configModule.default
     }
     case 'jakarta': {
@@ -279,16 +435,60 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/jinhua/config')
       return configModule.default
     }
+    case 'kanpur': {
+      const configModule = await import('@/app/(game)/asia/india/kanpur/config')
+      return configModule.default
+    }
     case 'kaohsiung': {
       const configModule = await import('@/app/(game)/asia/taiwan/kaohsiung/config')
+      return configModule.default
+    }
+    case 'karaj': {
+      const configModule = await import('@/app/(game)/asia/iran/karaj/config')
       return configModule.default
     }
     case 'karlsruhe': {
       const configModule = await import('@/app/(game)/europe/germany/karlsruhe/config')
       return configModule.default
     }
+    case 'kazan': {
+      const configModule = await import('@/app/(game)/europe/russia/kazan/config')
+      return configModule.default
+    }
     case 'kc': {
       const configModule = await import('@/app/(game)/north-america/usa/kc/config')
+      return configModule.default
+    }
+    case 'kharkiv': {
+      const configModule = await import('@/app/(game)/europe/ukraine/kharkiv/config')
+      return configModule.default
+    }
+    case 'kiwirail': {
+      const configModule = await import('@/app/(game)/oceania/new-zealand/kiwirail/config')
+      return configModule.default
+    }
+    case 'kochi': {
+      const configModule = await import('@/app/(game)/asia/india/kochi/config')
+      return configModule.default
+    }
+    case 'kolkata': {
+      const configModule = await import('@/app/(game)/asia/india/kolkata/config')
+      return configModule.default
+    }
+    case 'komuter-utara': {
+      const configModule = await import('@/app/(game)/asia/malaysia/komuter-utara/config')
+      return configModule.default
+    }
+    case 'korail': {
+      const configModule = await import('@/app/(game)/asia/south-korea/korail/config')
+      return configModule.default
+    }
+    case 'korean-state-railway': {
+      const configModule = await import('@/app/(game)/asia/north-korea/korean-state-railway/config')
+      return configModule.default
+    }
+    case 'kryvyi-rih': {
+      const configModule = await import('@/app/(game)/europe/ukraine/kryvyi-rih/config')
       return configModule.default
     }
     case 'kuala-lumpur': {
@@ -299,16 +499,44 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/kunming/config')
       return configModule.default
     }
+    case 'kyiv': {
+      const configModule = await import('@/app/(game)/europe/ukraine/kyiv/config')
+      return configModule.default
+    }
     case 'kyoto': {
       const configModule = await import('@/app/(game)/asia/japan/kyoto/config')
+      return configModule.default
+    }
+    case 'lagos': {
+      const configModule = await import('@/app/(game)/africa/nigeria/lagos/config')
+      return configModule.default
+    }
+    case 'lahore': {
+      const configModule = await import('@/app/(game)/asia/pakistan/lahore/config')
       return configModule.default
     }
     case 'lanzhou': {
       const configModule = await import('@/app/(game)/asia/china/lanzhou/config')
       return configModule.default
     }
+    case 'lausanne': {
+      const configModule = await import('@/app/(game)/europe/switzerland/lausanne/config')
+      return configModule.default
+    }
     case 'lijiang': {
       const configModule = await import('@/app/(game)/asia/china/lijiang/config')
+      return configModule.default
+    }
+    case 'lille': {
+      const configModule = await import('@/app/(game)/europe/france/lille/config')
+      return configModule.default
+    }
+    case 'lima': {
+      const configModule = await import('@/app/(game)/south-america/peru/lima/config')
+      return configModule.default
+    }
+    case 'lisbon': {
+      const configModule = await import('@/app/(game)/europe/portugal/lisbon/config')
       return configModule.default
     }
     case 'liupanshui': {
@@ -327,12 +555,20 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/lr/config')
       return configModule.default
     }
+    case 'lucknow': {
+      const configModule = await import('@/app/(game)/asia/india/lucknow/config')
+      return configModule.default
+    }
     case 'luoyang': {
       const configModule = await import('@/app/(game)/asia/china/luoyang/config')
       return configModule.default
     }
     case 'lv': {
       const configModule = await import('@/app/(game)/north-america/usa/lv/config')
+      return configModule.default
+    }
+    case 'lyon': {
+      const configModule = await import('@/app/(game)/europe/france/lyon/config')
       return configModule.default
     }
     case 'madrid': {
@@ -351,6 +587,26 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/south-america/venezuela/maracaibo/config')
       return configModule.default
     }
+    case 'marseille': {
+      const configModule = await import('@/app/(game)/europe/france/marseille/config')
+      return configModule.default
+    }
+    case 'mashhad': {
+      const configModule = await import('@/app/(game)/asia/iran/mashhad/config')
+      return configModule.default
+    }
+    case 'mecca': {
+      const configModule = await import('@/app/(game)/asia/saudi-arabia/mecca/config')
+      return configModule.default
+    }
+    case 'medellin': {
+      const configModule = await import('@/app/(game)/south-america/colombia/medellin/config')
+      return configModule.default
+    }
+    case 'meerut': {
+      const configModule = await import('@/app/(game)/asia/india/meerut/config')
+      return configModule.default
+    }
     case 'melbourne': {
       const configModule = await import('@/app/(game)/oceania/australia/melbourne/config')
       return configModule.default
@@ -363,12 +619,24 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/mengzhi/config')
       return configModule.default
     }
+    case 'metrorail': {
+      const configModule = await import('@/app/(game)/africa/south-africa/metrorail/config')
+      return configModule.default
+    }
     case 'mexico-city': {
       const configModule = await import('@/app/(game)/north-america/mexico/mexico-city/config')
       return configModule.default
     }
+    case 'milan': {
+      const configModule = await import('@/app/(game)/europe/italy/milan/config')
+      return configModule.default
+    }
     case 'milwaukee': {
       const configModule = await import('@/app/(game)/north-america/usa/milwaukee/config')
+      return configModule.default
+    }
+    case 'minsk': {
+      const configModule = await import('@/app/(game)/europe/belarus/minsk/config')
       return configModule.default
     }
     case 'monterrey': {
@@ -383,8 +651,24 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/morgantown/config')
       return configModule.default
     }
+    case 'moscow': {
+      const configModule = await import('@/app/(game)/europe/russia/moscow/config')
+      return configModule.default
+    }
+    case 'mumbai': {
+      const configModule = await import('@/app/(game)/asia/india/mumbai/config')
+      return configModule.default
+    }
     case 'munich': {
       const configModule = await import('@/app/(game)/europe/germany/munich/config')
+      return configModule.default
+    }
+    case 'nagoya': {
+      const configModule = await import('@/app/(game)/asia/japan/nagoya/config')
+      return configModule.default
+    }
+    case 'nagpur': {
+      const configModule = await import('@/app/(game)/asia/india/nagpur/config')
       return configModule.default
     }
     case 'nanchang': {
@@ -407,8 +691,16 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/nantong/config')
       return configModule.default
     }
+    case 'naples': {
+      const configModule = await import('@/app/(game)/europe/italy/naples/config')
+      return configModule.default
+    }
     case 'nashville': {
       const configModule = await import('@/app/(game)/north-america/usa/nashville/config')
+      return configModule.default
+    }
+    case 'national-rail': {
+      const configModule = await import('@/app/(game)/europe/uk/national-rail/config')
       return configModule.default
     }
     case 'newcastle': {
@@ -423,12 +715,24 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/ningbo/config')
       return configModule.default
     }
+    case 'nizhny-novgorod': {
+      const configModule = await import('@/app/(game)/europe/russia/nizhny-novgorod/config')
+      return configModule.default
+    }
     case 'norfolk': {
       const configModule = await import('@/app/(game)/north-america/usa/norfolk/config')
       return configModule.default
     }
     case 'nottingham': {
       const configModule = await import('@/app/(game)/europe/uk/nottingham/config')
+      return configModule.default
+    }
+    case 'novosibirsk': {
+      const configModule = await import('@/app/(game)/asia/russia/novosibirsk/config')
+      return configModule.default
+    }
+    case 'nuremberg': {
+      const configModule = await import('@/app/(game)/europe/germany/nuremberg/config')
       return configModule.default
     }
     case 'nyc': {
@@ -443,6 +747,14 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/okc/config')
       return configModule.default
     }
+    case 'osaka-kobe': {
+      const configModule = await import('@/app/(game)/asia/japan/osaka-kobe/config')
+      return configModule.default
+    }
+    case 'oslo': {
+      const configModule = await import('@/app/(game)/europe/norway/oslo/config')
+      return configModule.default
+    }
     case 'ottawa': {
       const configModule = await import('@/app/(game)/north-america/canada/ottawa/config')
       return configModule.default
@@ -451,8 +763,16 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/indonesia/palembang/config')
       return configModule.default
     }
+    case 'panama-city': {
+      const configModule = await import('@/app/(game)/north-america/panama/panama-city/config')
+      return configModule.default
+    }
     case 'paris': {
       const configModule = await import('@/app/(game)/europe/france/paris/config')
+      return configModule.default
+    }
+    case 'patna': {
+      const configModule = await import('@/app/(game)/asia/india/patna/config')
       return configModule.default
     }
     case 'perth': {
@@ -475,8 +795,20 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/north-america/usa/portland/config')
       return configModule.default
     }
+    case 'porto-alegre': {
+      const configModule = await import('@/app/(game)/south-america/brazil/porto-alegre/config')
+      return configModule.default
+    }
     case 'potsdam': {
       const configModule = await import('@/app/(game)/europe/germany/potsdam/config')
+      return configModule.default
+    }
+    case 'prague': {
+      const configModule = await import('@/app/(game)/europe/czechia/prague/config')
+      return configModule.default
+    }
+    case 'pune': {
+      const configModule = await import('@/app/(game)/asia/india/pune/config')
       return configModule.default
     }
     case 'pyongyang': {
@@ -491,12 +823,64 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/qiubei/config')
       return configModule.default
     }
+    case 'quito': {
+      const configModule = await import('@/app/(game)/south-america/ecuador/quito/config')
+      return configModule.default
+    }
+    case 'recife': {
+      const configModule = await import('@/app/(game)/south-america/brazil/recife/config')
+      return configModule.default
+    }
+    case 'rennes': {
+      const configModule = await import('@/app/(game)/europe/france/rennes/config')
+      return configModule.default
+    }
+    case 'rio-de-janeiro': {
+      const configModule = await import('@/app/(game)/south-america/brazil/rio-de-janeiro/config')
+      return configModule.default
+    }
+    case 'riyadh': {
+      const configModule = await import('@/app/(game)/asia/saudi-arabia/riyadh/config')
+      return configModule.default
+    }
+    case 'rotterdam': {
+      const configModule = await import('@/app/(game)/europe/netherlands/rotterdam/config')
+      return configModule.default
+    }
+    case 'russian-railways': {
+      const configModule = await import('@/app/(game)/europe/russia/russian-railways/config')
+      return configModule.default
+    }
+    case 'saint-petersburg': {
+      const configModule = await import('@/app/(game)/europe/russia/saint-petersburg/config')
+      return configModule.default
+    }
+    case 'salvador': {
+      const configModule = await import('@/app/(game)/south-america/brazil/salvador/config')
+      return configModule.default
+    }
+    case 'samara': {
+      const configModule = await import('@/app/(game)/europe/russia/samara/config')
+      return configModule.default
+    }
     case 'san-juan': {
       const configModule = await import('@/app/(game)/north-america/usa/san-juan/config')
       return configModule.default
     }
+    case 'santiago': {
+      const configModule = await import('@/app/(game)/south-america/chile/santiago/config')
+      return configModule.default
+    }
+    case 'santo-domingo': {
+      const configModule = await import('@/app/(game)/north-america/dominican-republic/santo-domingo/config')
+      return configModule.default
+    }
     case 'sanya': {
       const configModule = await import('@/app/(game)/asia/china/sanya/config')
+      return configModule.default
+    }
+    case 'sao-paulo': {
+      const configModule = await import('@/app/(game)/south-america/brazil/sao-paulo/config')
       return configModule.default
     }
     case 'sapporo': {
@@ -531,12 +915,28 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/shijiazhuang/config')
       return configModule.default
     }
+    case 'shinkansen': {
+      const configModule = await import('@/app/(game)/asia/japan/shinkansen/config')
+      return configModule.default
+    }
+    case 'shiraz': {
+      const configModule = await import('@/app/(game)/asia/iran/shiraz/config')
+      return configModule.default
+    }
     case 'singapore': {
       const configModule = await import('@/app/(game)/asia/singapore/config')
       return configModule.default
     }
     case 'slc': {
       const configModule = await import('@/app/(game)/north-america/usa/slc/config')
+      return configModule.default
+    }
+    case 'sncf': {
+      const configModule = await import('@/app/(game)/europe/france/sncf/config')
+      return configModule.default
+    }
+    case 'sofia': {
+      const configModule = await import('@/app/(game)/europe/bulgaria/sofia/config')
       return configModule.default
     }
     case 'stl': {
@@ -555,6 +955,10 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/oceania/australia/sydney/config')
       return configModule.default
     }
+    case 'tabriz': {
+      const configModule = await import('@/app/(game)/asia/iran/tabriz/config')
+      return configModule.default
+    }
     case 'taichung': {
       const configModule = await import('@/app/(game)/asia/taiwan/taichung/config')
       return configModule.default
@@ -571,8 +975,24 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/taizhou/config')
       return configModule.default
     }
+    case 'tashkent': {
+      const configModule = await import('@/app/(game)/asia/uzbekistan/tashkent/config')
+      return configModule.default
+    }
     case 'taw': {
       const configModule = await import('@/app/(game)/europe/uk/taw/config')
+      return configModule.default
+    }
+    case 'tbilisi': {
+      const configModule = await import('@/app/(game)/asia/georgia/tbilisi/config')
+      return configModule.default
+    }
+    case 'tehran': {
+      const configModule = await import('@/app/(game)/asia/iran/tehran/config')
+      return configModule.default
+    }
+    case 'thessaloniki': {
+      const configModule = await import('@/app/(game)/europe/greece/thessaloniki/config')
       return configModule.default
     }
     case 'thsr': {
@@ -591,12 +1011,36 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/japan/tokyo/config')
       return configModule.default
     }
+    case 'tokyo-area': {
+      const configModule = await import('@/app/(game)/asia/japan/tokyo-area/config')
+      return configModule.default
+    }
     case 'toronto-waterloo': {
       const configModule = await import('@/app/(game)/north-america/canada/toronto-waterloo/config')
       return configModule.default
     }
+    case 'toulouse': {
+      const configModule = await import('@/app/(game)/europe/france/toulouse/config')
+      return configModule.default
+    }
+    case 'tra': {
+      const configModule = await import('@/app/(game)/asia/taiwan/tra/config')
+      return configModule.default
+    }
+    case 'tren-maya': {
+      const configModule = await import('@/app/(game)/north-america/mexico/tren-maya/config')
+      return configModule.default
+    }
+    case 'trenitalia': {
+      const configModule = await import('@/app/(game)/europe/italy/trenitalia/config')
+      return configModule.default
+    }
     case 'tucson': {
       const configModule = await import('@/app/(game)/north-america/usa/tucson/config')
+      return configModule.default
+    }
+    case 'turin': {
+      const configModule = await import('@/app/(game)/europe/italy/turin/config')
       return configModule.default
     }
     case 'twincities': {
@@ -607,12 +1051,28 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/urumqi/config')
       return configModule.default
     }
+    case 'valencia': {
+      const configModule = await import('@/app/(game)/south-america/venezuela/valencia/config')
+      return configModule.default
+    }
     case 'vancouver': {
       const configModule = await import('@/app/(game)/north-america/canada/vancouver/config')
       return configModule.default
     }
+    case 'viarail': {
+      const configModule = await import('@/app/(game)/north-america/canada/viarail/config')
+      return configModule.default
+    }
     case 'vienna': {
       const configModule = await import('@/app/(game)/europe/austria/vienna/config')
+      return configModule.default
+    }
+    case 'volgograd': {
+      const configModule = await import('@/app/(game)/europe/russia/volgograd/config')
+      return configModule.default
+    }
+    case 'warsaw': {
+      const configModule = await import('@/app/(game)/europe/poland/warsaw/config')
       return configModule.default
     }
     case 'wellington': {
@@ -647,12 +1107,40 @@ export const loadCityConfig = async (slug: string): Promise<Config | null> => {
       const configModule = await import('@/app/(game)/asia/china/xian/config')
       return configModule.default
     }
+    case 'xishui': {
+      const configModule = await import('@/app/(game)/asia/china/xishui/config')
+      return configModule.default
+    }
     case 'xuzhou': {
       const configModule = await import('@/app/(game)/asia/china/xuzhou/config')
       return configModule.default
     }
     case 'yarra': {
       const configModule = await import('@/app/(game)/oceania/australia/yarra/config')
+      return configModule.default
+    }
+    case 'yekaterinburg': {
+      const configModule = await import('@/app/(game)/asia/russia/yekaterinburg/config')
+      return configModule.default
+    }
+    case 'yerevan': {
+      const configModule = await import('@/app/(game)/asia/armenia/yerevan/config')
+      return configModule.default
+    }
+    case 'yinchuan': {
+      const configModule = await import('@/app/(game)/asia/china/yinchuan/config')
+      return configModule.default
+    }
+    case 'yogyakarta': {
+      const configModule = await import('@/app/(game)/asia/indonesia/yogyakarta/config')
+      return configModule.default
+    }
+    case 'yokohama': {
+      const configModule = await import('@/app/(game)/asia/japan/yokohama/config')
+      return configModule.default
+    }
+    case 'zhangjiakou': {
+      const configModule = await import('@/app/(game)/asia/china/zhangjiakou/config')
       return configModule.default
     }
     case 'zhengzhou': {

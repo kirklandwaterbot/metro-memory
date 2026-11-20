@@ -1,0 +1,98 @@
+{
+  "slug": "amsterdam",
+  "path": "europe/netherlands/amsterdam",
+  "gameTitle": "Amsterdam Metro Memory",
+  "description": "How many Amsterdam Metro stations can you name from memory?",
+  "locale": "nl_NL",
+  "bbox": [
+    52.216,
+    4.664,
+    52.504,
+    5.136
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Amsterdam Metro",
+      "lines": [
+        "AMST50",
+        "AMST51",
+        "AMST52",
+        "AMST53",
+        "AMST54"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "AMST50",
+      "name": "Line 50",
+      "match": {
+        "@id": "^(18683|4515354)$"
+      },
+      "color": "#29AB4D",
+      "textColor": "#FFFFFF",
+      "badge": "50",
+      "icon": "AMST50.svg"
+    },
+    {
+      "id": "AMST51",
+      "name": "Line 51",
+      "match": {
+        "@id": "^(31249|4515355)$"
+      },
+      "color": "#F69931",
+      "textColor": "#FFFFFF",
+      "badge": "51",
+      "icon": "AMST51.svg"
+    },
+    {
+      "id": "AMST52",
+      "name": "Line 52",
+      "match": {
+        "@id": "^(8466667|8466671)$"
+      },
+      "color": "#00ADEF",
+      "textColor": "#FFFFFF",
+      "badge": "52",
+      "icon": "AMST52.svg"
+    },
+    {
+      "id": "AMST53",
+      "name": "Line 53",
+      "match": {
+        "@id": "^(18532|4515356)$"
+      },
+      "color": "#FF0000",
+      "textColor": "#FFFFFF",
+      "badge": "53",
+      "icon": "AMST53.svg"
+    },
+    {
+      "id": "AMST54",
+      "name": "Line 54",
+      "match": {
+        "@id": "^(18423|4515357)$"
+      },
+      "color": "#FCFB05",
+      "textColor": "#222222",
+      "badge": "54",
+      "icon": "AMST54.svg"
+    }
+  ],
+  "register": {
+    "name": "Amsterdam, NL",
+    "continent": "Europe",
+    "coordinates": [
+      4.9,
+      52.36
+    ],
+    "zh": "阿姆斯特丹, NL",
+    "achievement": {
+      "title": "Amsterdam Metro Master",
+      "description": "You've named every Amsterdam Metro station."
+    }
+  }
+}

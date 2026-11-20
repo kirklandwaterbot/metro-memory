@@ -1,0 +1,498 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.630333,
+          46.520673
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Lausanne-Flon",
+        "line": "LAUSM1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.623968,
+          46.521585
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Vigie",
+        "line": "LAUSM1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.613306,
+          46.521901
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Montelly",
+        "line": "LAUSM1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.608646,
+          46.523259
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Provence",
+        "line": "LAUSM1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.60307,
+          46.524206
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Malley",
+        "line": "LAUSM1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.590199,
+          46.523331
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Bourdonnette",
+        "line": "LAUSM1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.584784,
+          46.524185
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "UNIL-Chamberonne",
+        "line": "LAUSM1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.579168,
+          46.524999
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "UNIL-Mouline",
+        "line": "LAUSM1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.573219,
+          46.522223
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "UNIL-Sorge",
+        "line": "LAUSM1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.566154,
+          46.522198
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "EPFL",
+        "line": "LAUSM1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.56483,
+          46.524975
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Bassenges",
+        "line": "LAUSM1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.566646,
+          46.527909
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Cerisaie",
+        "line": "LAUSM1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.570067,
+          46.532798
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Crochy",
+        "line": "LAUSM1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.573426,
+          46.537509
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Epenex",
+        "line": "LAUSM1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.578283,
+          46.537374
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Renens-Gare",
+        "line": "LAUSM1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.626552,
+          46.507245
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Ouchy-Olympique",
+        "line": "LAUSM2",
+        "order": 0
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.627364,
+          46.50991
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Jordils",
+        "line": "LAUSM2",
+        "order": 1
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.628065,
+          46.512222
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Délices",
+        "line": "LAUSM2",
+        "order": 2
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.628868,
+          46.514931
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Grancy",
+        "line": "LAUSM2",
+        "order": 3
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.629633,
+          46.517528
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Lausanne-Gare",
+        "line": "LAUSM2",
+        "order": 4
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.630333,
+          46.520673
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Lausanne-Flon",
+        "line": "LAUSM2",
+        "order": 5
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.632647,
+          46.522908
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Riponne - Maurice Béjart",
+        "line": "LAUSM2",
+        "order": 6
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.63699,
+          46.520792
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Bessières",
+        "line": "LAUSM2",
+        "order": 7
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.640671,
+          46.521236
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Ours",
+        "line": "LAUSM2",
+        "order": 8
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.641539,
+          46.526474
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "CHUV",
+        "line": "LAUSM2",
+        "order": 9
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.646187,
+          46.532839
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Sallaz",
+        "line": "LAUSM2",
+        "order": 10
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.65116,
+          46.538862
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Fourmi",
+        "line": "LAUSM2",
+        "order": 11
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.657598,
+          46.54123
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Vennes",
+        "line": "LAUSM2",
+        "order": 12
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.661511,
+          46.542885
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Croisettes",
+        "line": "LAUSM2",
+        "order": 13
+      },
+      "id": 28
+    }
+  ]
+}

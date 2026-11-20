@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.211163,
+          38.548439
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Four Seasons Pavilion",
+        "display_name": "Four Seasons Pavilion (四季馆)",
+        "alternate_names": [
+          "Four Seasons Pavilion",
+          "四季馆",
+          "四季館",
+          "Sijiguan",
+          "si ji guan",
+          "Four Seasons",
+          "Four Seasons Exploer"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 0
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.20715,
+          38.550339
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Garden Greenhouse",
+        "display_name": "Garden Greenhouse (花园温室)",
+        "alternate_names": [
+          "Garden Greenhouse",
+          "花园温室",
+          "花園溫室",
+          "Huayuanwenshi",
+          "hua yuan wen shi"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 1
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.207299,
+          38.542351
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Gaoqushao",
+        "display_name": "Gaoqushao (高渠梢)",
+        "alternate_names": [
+          "Gaoqushao",
+          "高渠梢",
+          "gao qu shao"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 2
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.210888,
+          38.53632
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Expo Central Axis West",
+        "display_name": "Expo Central Axis West (绿博中轴西)",
+        "alternate_names": [
+          "Expo Central Axis West",
+          "绿博中轴西",
+          "綠博中軸西",
+          "Lubozhongzhouxi",
+          "lu bo zhong zhou xi",
+          "West Central Line",
+          "Central Axis West"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 3
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.216059,
+          38.531651
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Expo Park South Gate",
+        "display_name": "Expo Park South Gate (绿博园南门)",
+        "alternate_names": [
+          "Expo Park South Gate",
+          "绿博园南门",
+          "綠博園南門",
+          "Luboyuannanmen",
+          "lu bo yuan nan men",
+          "Flower Garden South Entrance",
+          "South Gate"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 4
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.21807,
+          38.536424
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Expo Central Axis East",
+        "display_name": "Expo Central Axis East (绿博中轴东)",
+        "alternate_names": [
+          "Expo Central Axis East",
+          "绿博中轴东",
+          "綠博中軸東",
+          "Lubozhongzhoudong",
+          "lu bo zhong zhou dong",
+          "East Central Line",
+          "Central Axis East"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 5
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.217477,
+          38.541944
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "North Gate Car Park",
+        "display_name": "North Gate Car Park (北门停车场)",
+        "alternate_names": [
+          "North Gate Car Park",
+          "北门停车场",
+          "北門停車場",
+          "Beimentingchechang",
+          "bei men ting che chang",
+          "North Entrance Parking Lot",
+          "North Gate Parking",
+          "Flower-Garden North Entrance Parking Lot"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 6
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.217359,
+          38.54721
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Expo Park North Gate",
+        "display_name": "Expo Park North Gate (绿博园北门)",
+        "alternate_names": [
+          "Expo Park North Gate",
+          "绿博园北门",
+          "綠博園北門",
+          "Luboyuanbeimen",
+          "lu bo yuan bei men",
+          "Flower-Garden North Entrance",
+          "North Gate"
+        ],
+        "line": "yinchuanmonorail",
+        "order": 7
+      },
+      "id": 8
+    }
+  ]
+}

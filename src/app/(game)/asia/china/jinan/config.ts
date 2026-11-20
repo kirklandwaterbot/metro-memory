@@ -10,6 +10,7 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Jinan Metro',
+    titleImage: 'asia/china/jinan/jinanmetro.png',
     items: [
       {
         type: 'lines',
@@ -18,7 +19,8 @@ export const LINE_GROUPS: LineGroup[] = [
     ],
   },
   {
-    title: 'Jinan Yunba',
+    title: 'BYD',
+    titleImage: 'asia/china/gba/BYD.png',
     items: [
       {
         type: 'lines',
@@ -48,12 +50,12 @@ export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
-    [116.724, 36.454],
-    [117.545, 36.978],
+    [116.724, 36.448],
+    [117.545, 37.055],
   ],
   maxBounds: [
-    [116.428, 36.22],
-    [117.841, 37.212],
+    [116.428, 36.197],
+    [117.841, 37.306],
   ],
   minZoom: 8.5,
   fadeDuration: 50,

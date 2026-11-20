@@ -689,7 +689,29 @@ function main() {
   const lines = {}
   const report = []
   const used = new Set()
-  let id = 1
+  // Saved progress stores station ids, so keep every existing station's id
+  // (matched by line + Chinese name) and give new stations ids after the
+  // highest one in use. Renumbering would make players' found stations point
+  // at the wrong stations.
+  const previousFeatures = readOld('features.json')
+  const oldIds = new Map()
+  let nextId = 1
+  for (const f of previousFeatures?.features || []) {
+    const p = f.properties || {}
+    const zh = (p.alternate_names || []).find((a) => HAN.test(a))
+    const fid = f.id ?? p.id
+    if (typeof fid === 'number') nextId = Math.max(nextId, fid + 1)
+    if (!zh || typeof fid !== 'number') continue
+    const key = `${p.line}|${cleanZh(zh)}`
+    ;(oldIds.get(key) ?? oldIds.set(key, []).get(key)).push(fid)
+  }
+  const takeId = (lineId, zh) => {
+    const reuse = oldIds.get(`${lineId}|${zh}`)
+    if (reuse && reuse.length) return reuse.shift()
+    const fresh = nextId
+    nextId += 1
+    return fresh
+  }
   spec.lines.forEach((line, order) => {
     const rels = probe.relations.filter((r) => matches(line.match, r.tags))
     rels.forEach((r) => used.add(r.id))
@@ -743,9 +765,12 @@ function main() {
     }
     const wayIds = new Set()
     for (const r of rels) for (const w of r.ways || []) wayIds.add(w)
-    const strings = joinWays(
-      [...wayIds].map((w) => probe.routeWays[w]).filter(Boolean),
-    )
+    const strings = joinWays([
+      ...[...wayIds].map((w) => probe.routeWays[w]).filter(Boolean),
+      // physical track that exists in OSM but belongs to no route relation,
+      // so the probe snapshot doesn't have it: [{ osmWay, coords }]
+      ...(line.extraTrack || []).map((t) => t.coords || t),
+    ])
     if (line.fromTrack || (stops.length < 2 && strings.length)) {
       // relations that list no stops (common for trams): take the named
       // stations along the line's own track, in order along it
@@ -788,13 +813,13 @@ function main() {
         ...osmEn.map((v) => v.replace(/\s+(Railway\s+)?(Station|Stn)$/i, '')),
         ...(oldAnswers.get(s.zh) || []),
       ])
+      const id = takeId(line.id, s.zh)
       features.push({
         type: 'Feature',
         geometry: { type: 'Point', coordinates: [R(coords[0]), R(coords[1])] },
         properties: { id, ...names, line: line.id, order: i },
         id,
       })
-      id += 1
     })
 
     if (strings.length)
@@ -871,6 +896,14 @@ function main() {
     `${JSON.stringify(lines, null, 2)}\n`,
   )
   if (spec.groups) writeCity(spec, features)
+  // put each line's station on its own track (see scripts/snap-stations-to-tracks.js)
+  if (!args['dry-run']) {
+    const snap = require('../snap-stations-to-tracks.js').snapCity(dataDir, {
+      write: true,
+      previousFeatures: previousFeatures?.features,
+    })
+    if (snap.moved.length) log(`snapped ${snap.moved.length} station point(s) onto their tracks`)
+  }
   log(
     `wrote ${features.length} stations, ${routes.length} routes to ${dataDir}`,
   )

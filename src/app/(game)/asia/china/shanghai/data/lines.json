@@ -6,8 +6,8 @@
     "textColor": "#ffffff",
     "order": 1,
     "icon": "asia/china/shanghai/1.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8451
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai2": {
     "name": "Line 2",
@@ -16,8 +16,8 @@
     "textColor": "#ffffff",
     "order": 2,
     "icon": "asia/china/shanghai/2.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8451
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai3": {
     "name": "Line 3",
@@ -26,8 +26,8 @@
     "textColor": "#000000",
     "order": 3,
     "icon": "asia/china/shanghai/3.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8451
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai4": {
     "name": "Line 4",
@@ -36,8 +36,8 @@
     "textColor": "#ffffff",
     "order": 4,
     "icon": "asia/china/shanghai/4.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8488
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai5": {
     "name": "Line 5",
@@ -46,8 +46,8 @@
     "textColor": "#ffffff",
     "order": 5,
     "icon": "asia/china/shanghai/5.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8488
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai6": {
     "name": "Line 6",
@@ -56,8 +56,8 @@
     "textColor": "#ffffff",
     "order": 6,
     "icon": "asia/china/shanghai/6.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8496
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai7": {
     "name": "Line 7",
@@ -66,8 +66,8 @@
     "textColor": "#ffffff",
     "order": 7,
     "icon": "asia/china/shanghai/7.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8496
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai8": {
     "name": "Line 8",
@@ -76,8 +76,8 @@
     "textColor": "#ffffff",
     "order": 8,
     "icon": "asia/china/shanghai/8.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8496
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai9": {
     "name": "Line 9",
@@ -86,8 +86,8 @@
     "textColor": "#ffffff",
     "order": 9,
     "icon": "asia/china/shanghai/9.png",
-    "badgeFit": "contain",
-    "badgeAspectRatio": 0.8451
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai10": {
     "name": "Line 10",
@@ -95,7 +95,9 @@
     "backgroundColor": "#C7AFD3",
     "textColor": "#000000",
     "order": 10,
-    "icon": "asia/china/shanghai/10.png"
+    "icon": "asia/china/shanghai/10.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai11": {
     "name": "Line 11",
@@ -103,7 +105,9 @@
     "backgroundColor": "#871C2B",
     "textColor": "#ffffff",
     "order": 11,
-    "icon": "asia/china/shanghai/11.png"
+    "icon": "asia/china/shanghai/11.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai12": {
     "name": "Line 12",
@@ -111,7 +115,9 @@
     "backgroundColor": "#007A61",
     "textColor": "#ffffff",
     "order": 12,
-    "icon": "asia/china/shanghai/12.png"
+    "icon": "asia/china/shanghai/12.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai13": {
     "name": "Line 13",
@@ -119,7 +125,9 @@
     "backgroundColor": "#E999C0",
     "textColor": "#ffffff",
     "order": 13,
-    "icon": "asia/china/shanghai/13.png"
+    "icon": "asia/china/shanghai/13.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai14": {
     "name": "Line 14",
@@ -127,7 +135,9 @@
     "backgroundColor": "#626020",
     "textColor": "#ffffff",
     "order": 14,
-    "icon": "asia/china/shanghai/14.png"
+    "icon": "asia/china/shanghai/14.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai15": {
     "name": "Line 15",
@@ -135,7 +145,9 @@
     "backgroundColor": "#BCA886",
     "textColor": "#ffffff",
     "order": 15,
-    "icon": "asia/china/shanghai/15.png"
+    "icon": "asia/china/shanghai/15.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai16": {
     "name": "Line 16",
@@ -143,7 +155,9 @@
     "backgroundColor": "#98D1C0",
     "textColor": "#000000",
     "order": 16,
-    "icon": "asia/china/shanghai/16.png"
+    "icon": "asia/china/shanghai/16.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai17": {
     "name": "Line 17",
@@ -151,7 +165,9 @@
     "backgroundColor": "#BC796F",
     "textColor": "#ffffff",
     "order": 17,
-    "icon": "asia/china/shanghai/17.png"
+    "icon": "asia/china/shanghai/17.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghai18": {
     "name": "Line 18",
@@ -159,7 +175,9 @@
     "backgroundColor": "#C4984F",
     "textColor": "#000000",
     "order": 18,
-    "icon": "asia/china/shanghai/18.png"
+    "icon": "asia/china/shanghai/18.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   },
   "shanghaipujiang": {
     "name": "Pujiang",

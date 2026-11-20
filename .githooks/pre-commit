@@ -1,0 +1,24 @@
+#!/bin/sh
+# Blocks commits that would ship broken text. Installed by `npm install`
+# (scripts/install-git-hooks.js sets core.hooksPath). Skip once: git commit --no-verify
+
+# 1. Mojibake, UTF-16 or BOM-prefixed text files
+node scripts/check-mojibake.js --staged || {
+  echo ""
+  echo "Commit blocked: fix with 'npm run fix:mojibake', then git add the files again."
+  exit 1
+}
+
+# 2. Translations: every UI string in every supported language
+if git diff --cached --name-only | grep -qE '^(src/lib/i18n\.tsx|src/lib/i18nAutoOverrides\.json|scripts/i18n-same-as-english\.json)$'; then
+  if [ ! -d node_modules/typescript ]; then
+    echo "Commit blocked: run 'npm install' first so the translation check can run."
+    exit 1
+  fi
+  node scripts/i18n-check.js >/dev/null 2>&1 || {
+    node scripts/i18n-check.js 2>&1 | grep -v '^\[warn\]'
+    echo ""
+    echo "Commit blocked: add the missing translations (see \"Translations\" in AGENTS.md)."
+    exit 1
+  }
+fi

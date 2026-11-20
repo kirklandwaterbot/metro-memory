@@ -1,0 +1,64 @@
+{
+  "slug": "yinchuan",
+  "path": "asia/china/yinchuan",
+  "style": "generic",
+  "stationRadius": 500,
+  "english": {
+    "四季馆": "Four Seasons Pavilion",
+    "花园温室": "Garden Greenhouse",
+    "高渠梢": "Gaoqushao",
+    "绿博中轴西": "Expo Central Axis West",
+    "绿博园南门": "Expo Park South Gate",
+    "绿博中轴东": "Expo Central Axis East",
+    "北门停车场": "North Gate Car Park",
+    "绿博园北门": "Expo Park North Gate"
+  },
+  "alternates": {
+    "四季馆": [
+      "Four Seasons"
+    ],
+    "绿博中轴西": [
+      "West Central Line",
+      "Central Axis West"
+    ],
+    "绿博中轴东": [
+      "East Central Line",
+      "Central Axis East"
+    ],
+    "绿博园南门": [
+      "Flower Garden South Entrance",
+      "South Gate"
+    ],
+    "绿博园北门": [
+      "Flower-Garden North Entrance",
+      "North Gate"
+    ],
+    "北门停车场": [
+      "North Entrance Parking Lot",
+      "North Gate Parking"
+    ]
+  },
+  "lines": [
+    {
+      "id": "yinchuanmonorail",
+      "name": "Flower Expo Park Monorail",
+      "match": {
+        "route": "monorail",
+        "name": "绿博园"
+      },
+      "color": "#E4007F"
+    }
+  ],
+  "cityName": "Yinchuan",
+  "gameTitle": "Yinchuan Monorail Memory",
+  "description": "How many stations of the Yinchuan Flower Expo Park monorail can you name from memory?",
+  "groups": [
+    {
+      "title": "Yinchuan Flower Expo Park SkyRail",
+      "titleImage": "asia/china/yinchuan/icon.ico",
+      "lines": [
+        "yinchuanmonorail"
+      ]
+    }
+  ]
+}

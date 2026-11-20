@@ -1,0 +1,668 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.929868,
+          52.29077
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Młociny",
+        "line": "WARSM1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.939515,
+          52.286347
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Wawrzyszew",
+        "line": "WARSM1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.949351,
+          52.281828
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Stare Bielany",
+        "line": "WARSM1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.960126,
+          52.276826
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Słodowiec",
+        "line": "WARSM1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.97194,
+          52.271577
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Marymont",
+        "line": "WARSM1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.984497,
+          52.269262
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Plac Wilsona",
+        "line": "WARSM1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.994186,
+          52.258059
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Dworzec Gdański",
+        "line": "WARSM1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.000882,
+          52.245216
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Ratusz-Arsenał",
+        "line": "WARSM1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.007899,
+          52.235095
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Świętokrzyska",
+        "line": "WARSM1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.010186,
+          52.231007
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Centrum",
+        "line": "WARSM1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.015303,
+          52.218658
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Politechnika",
+        "line": "WARSM1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.00793,
+          52.208778
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Pole Mokotowskie",
+        "line": "WARSM1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.012235,
+          52.198864
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Racławicka",
+        "line": "WARSM1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.016797,
+          52.189872
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Wierzbno",
+        "line": "WARSM1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.023145,
+          52.181817
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Wilanowska",
+        "line": "WARSM1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.026287,
+          52.172762
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Służew",
+        "line": "WARSM1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.027628,
+          52.162046
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Ursynów",
+        "line": "WARSM1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.034723,
+          52.156076
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Stokłosy",
+        "line": "WARSM1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.046106,
+          52.1493
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Imielin",
+        "line": "WARSM1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.056435,
+          52.141101
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Natolin",
+        "line": "WARSM1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.065071,
+          52.132077
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Kabaty",
+        "line": "WARSM1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.028939,
+          52.293585
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Bródno",
+        "line": "WARSM2",
+        "order": 0
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.048689,
+          52.292085
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Kondratowicza",
+        "line": "WARSM2",
+        "order": 1
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.062148,
+          52.28375
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Zacisze",
+        "line": "WARSM2",
+        "order": 2
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.055059,
+          52.275102
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Trocka",
+        "line": "WARSM2",
+        "order": 3
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.051366,
+          52.269252
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Targówek Mieszkaniowy",
+        "line": "WARSM2",
+        "order": 4
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.045523,
+          52.263471
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Szwedzka",
+        "line": "WARSM2",
+        "order": 5
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.035797,
+          52.253777
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Dworzec Wileński",
+        "line": "WARSM2",
+        "order": 6
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.042847,
+          52.246835
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Stadion Narodowy",
+        "line": "WARSM2",
+        "order": 7
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.031788,
+          52.239915
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Centrum Nauki Kopernik",
+        "line": "WARSM2",
+        "order": 8
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.016817,
+          52.23682
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Nowy Świat-Uniwersytet",
+        "line": "WARSM2",
+        "order": 9
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.007899,
+          52.235095
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Świętokrzyska",
+        "line": "WARSM2",
+        "order": 10
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.998102,
+          52.233074
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Rondo ONZ",
+        "line": "WARSM2",
+        "order": 11
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.982895,
+          52.230083
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Rondo Daszyńskiego",
+        "line": "WARSM2",
+        "order": 12
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.966385,
+          52.232454
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Płocka",
+        "line": "WARSM2",
+        "order": 13
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.960105,
+          52.237662
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Młynów",
+        "line": "WARSM2",
+        "order": 14
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.944377,
+          52.239182
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Księcia Janusza",
+        "line": "WARSM2",
+        "order": 15
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.929865,
+          52.240331
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Ulrychów",
+        "line": "WARSM2",
+        "order": 16
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.915499,
+          52.239207
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Bemowo",
+        "line": "WARSM2",
+        "order": 17
+      },
+      "id": 38
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "PotsdamTram91": [
+      273891,
+      11098137,
+      1492310,
+      11098138
+    ],
+    "PotsdamTram92": [
+      300929,
+      1505927
+    ],
+    "PotsdamTram93": [
+      142135,
+      12012031,
+      1509471
+    ],
+    "PotsdamTram94": [
+      172570,
+      1512259,
+      12012352
+    ],
+    "PotsdamTram96": [
+      178663,
+      1585203
+    ],
+    "PotsdamTram98": [
+      12013205,
+      12013203,
+      302038,
+      1490386,
+      12013204,
+      12013206
+    ],
+    "PotsdamTram99": [
+      12013334,
+      12013333
+    ]
+  }
+}

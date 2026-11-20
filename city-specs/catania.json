@@ -1,0 +1,50 @@
+{
+  "slug": "catania",
+  "path": "europe/italy/catania",
+  "gameTitle": "Catania Metro Memory",
+  "description": "How many Catania Metro stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    37.42,
+    14.966,
+    37.6,
+    15.194
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Catania Metro",
+      "lines": [
+        "CATA1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "CATA1",
+      "name": "Catania Metro",
+      "match": {
+        "@id": "^(6878036|13325365)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "M",
+      "icon": "CATA1.svg"
+    }
+  ],
+  "register": {
+    "name": "Catania, IT",
+    "continent": "Europe",
+    "coordinates": [
+      15.08,
+      37.51
+    ],
+    "zh": "卡塔尼亚, IT",
+    "achievement": {
+      "title": "Catania Metro Master",
+      "description": "You've named every Catania Metro station."
+    }
+  }
+}

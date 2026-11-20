@@ -3,1134 +3,2888 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3474786610227687, 53.38728011646377] },
-      "properties": { "name": "Altrincham", "line": "Green", "id": 0 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.347453,
+          53.387296
+        ]
+      },
+      "properties": {
+        "name": "Altrincham",
+        "line": "Green",
+        "id": 0
+      },
       "id": 0
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.343354916352631, 53.39558683778434] },
-      "properties": { "name": "Navigation Road", "line": "Green", "id": 1 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.343386,
+          53.39559
+        ]
+      },
+      "properties": {
+        "name": "Navigation Road",
+        "line": "Green",
+        "id": 1
+      },
       "id": 1
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.338346723285079, 53.40433971513082] },
-      "properties": { "name": "Timperley", "line": "Green", "id": 2 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.338346723285079,
+          53.40433971513082
+        ]
+      },
+      "properties": {
+        "name": "Timperley",
+        "line": "Green",
+        "id": 2
+      },
       "id": 2
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3260481396326504, 53.417130238301446] },
-      "properties": { "name": "Brooklands", "line": "Green", "id": 3 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.326001,
+          53.417114
+        ]
+      },
+      "properties": {
+        "name": "Brooklands",
+        "line": "Green",
+        "id": 3
+      },
       "id": 3
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3190952878875186, 53.42424418631092] },
-      "properties": { "name": "Sale", "line": "Green", "id": 4 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3190952878875186,
+          53.42424418631092
+        ]
+      },
+      "properties": {
+        "name": "Sale",
+        "line": "Green",
+        "id": 4
+      },
       "id": 4
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.311649063957717, 53.4300406041665] },
-      "properties": { "name": "Dane Road", "line": "Green", "id": 5 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.311611,
+          53.430027
+        ]
+      },
+      "properties": {
+        "name": "Dane Road",
+        "line": "Green",
+        "id": 5
+      },
       "id": 5
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3037709102795447, 53.446093572171165] },
-      "properties": { "name": "Stretford", "line": "Green", "id": 6 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3037709102795447,
+          53.446093572171165
+        ]
+      },
+      "properties": {
+        "name": "Stretford",
+        "line": "Green",
+        "id": 6
+      },
       "id": 6
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.284803946584878, 53.45628862882138] },
-      "properties": { "name": "Old Trafford", "line": "Green", "id": 7 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.284743,
+          53.456262
+        ]
+      },
+      "properties": {
+        "name": "Old Trafford",
+        "line": "Green",
+        "id": 7
+      },
       "id": 7
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2774220787446176, 53.46171659496968] },
-      "properties": { "name": "Trafford Bar", "line": "Green", "id": 8 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277371,
+          53.461679
+        ]
+      },
+      "properties": {
+        "name": "Trafford Bar",
+        "line": "Green",
+        "id": 8
+      },
       "id": 8
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Green", "id": 9 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Green",
+        "id": 9
+      },
       "id": 9
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Green",
         "id": 10,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 10
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Green", "id": 11 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.243127,
+          53.478367
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Green",
+        "id": 11
+      },
       "id": 11
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2388321184796935, 53.48195982485973] },
-      "properties": { "name": "Market Street", "line": "Green", "id": 12 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.238879,
+          53.4819
+        ]
+      },
+      "properties": {
+        "name": "Market Street",
+        "line": "Green",
+        "id": 12
+      },
       "id": 12
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.239209667108682, 53.48535777227059] },
-      "properties": { "name": "Shudehill", "line": "Green", "id": 13 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.239185,
+          53.485367
+        ]
+      },
+      "properties": {
+        "name": "Shudehill",
+        "line": "Green",
+        "id": 13
+      },
       "id": 13
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.241719339727282, 53.48781471831173] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.241683,
+          53.487794
+        ]
+      },
       "properties": {
         "name": "Victoria",
         "line": "Green",
         "id": 14,
-        "alternate_names": ["Manchester Victoria"]
+        "alternate_names": [
+          "Manchester Victoria"
+        ]
       },
       "id": 14
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2266628455854165, 53.50172071141792] },
-      "properties": { "name": "Queens Road", "line": "Green", "id": 15 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2266628455854165,
+          53.50172071141792
+        ]
+      },
+      "properties": {
+        "name": "Queens Road",
+        "line": "Green",
+        "id": 15
+      },
       "id": 15
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.236033993075549, 53.51083571140798] },
-      "properties": { "name": "Abraham Moss", "line": "Green", "id": 16 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.236033993075549,
+          53.51083571140798
+        ]
+      },
+      "properties": {
+        "name": "Abraham Moss",
+        "line": "Green",
+        "id": 16
+      },
       "id": 16
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2410764249586546, 53.51733047284832] },
-      "properties": { "name": "Crumpsall", "line": "Green", "id": 17 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.241038,
+          53.517337
+        ]
+      },
+      "properties": {
+        "name": "Crumpsall",
+        "line": "Green",
+        "id": 17
+      },
       "id": 17
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.249800607983388, 53.52487469888426] },
-      "properties": { "name": "Bowker Vale", "line": "Green", "id": 18 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.249825,
+          53.52485
+        ]
+      },
+      "properties": {
+        "name": "Bowker Vale",
+        "line": "Green",
+        "id": 18
+      },
       "id": 18
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.267304252101808, 53.530528832824444] },
-      "properties": { "name": "Heaton Park", "line": "Green", "id": 19 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267304252101808,
+          53.530528832824444
+        ]
+      },
+      "properties": {
+        "name": "Heaton Park",
+        "line": "Green",
+        "id": 19
+      },
       "id": 19
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2819184012674336, 53.5333305454984] },
-      "properties": { "name": "Prestwich", "line": "Green", "id": 20 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2819184012674336,
+          53.5333305454984
+        ]
+      },
+      "properties": {
+        "name": "Prestwich",
+        "line": "Green",
+        "id": 20
+      },
       "id": 20
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.28603322938517, 53.541860312241496] },
-      "properties": { "name": "Besses o’ th’ Barn", "line": "Green", "id": 21 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.285922,
+          53.541884
+        ]
+      },
+      "properties": {
+        "name": "Besses o’ th’ Barn",
+        "line": "Green",
+        "id": 21
+      },
       "id": 21
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2951206885226005, 53.551171445877614] },
-      "properties": { "name": "Whitefield", "line": "Green", "id": 22 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2951206885226005,
+          53.551171445877614
+        ]
+      },
+      "properties": {
+        "name": "Whitefield",
+        "line": "Green",
+        "id": 22
+      },
       "id": 22
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3210425014483684, 53.5624354504378] },
-      "properties": { "name": "Radcliffe", "line": "Green", "id": 23 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3210425014483684,
+          53.5624354504378
+        ]
+      },
+      "properties": {
+        "name": "Radcliffe",
+        "line": "Green",
+        "id": 23
+      },
       "id": 23
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2972153737419534, 53.59079959057634] },
-      "properties": { "name": "Bury", "line": "Green", "id": 24 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.297322,
+          53.590767
+        ]
+      },
+      "properties": {
+        "name": "Bury",
+        "line": "Green",
+        "id": 24
+      },
       "id": 24
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3474786610227687, 53.38728011646377] },
-      "properties": { "name": "Altrincham", "line": "Purple", "id": 25 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.347453,
+          53.387296
+        ]
+      },
+      "properties": {
+        "name": "Altrincham",
+        "line": "Purple",
+        "id": 25
+      },
       "id": 25
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.343354916352631, 53.39558683778434] },
-      "properties": { "name": "Navigation Road", "line": "Purple", "id": 26 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.343386,
+          53.39559
+        ]
+      },
+      "properties": {
+        "name": "Navigation Road",
+        "line": "Purple",
+        "id": 26
+      },
       "id": 26
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.338346723285079, 53.40433971513082] },
-      "properties": { "name": "Timperley", "line": "Purple", "id": 27 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.338346723285079,
+          53.40433971513082
+        ]
+      },
+      "properties": {
+        "name": "Timperley",
+        "line": "Purple",
+        "id": 27
+      },
       "id": 27
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3260481396326504, 53.417130238301446] },
-      "properties": { "name": "Brooklands", "line": "Purple", "id": 28 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.326001,
+          53.417114
+        ]
+      },
+      "properties": {
+        "name": "Brooklands",
+        "line": "Purple",
+        "id": 28
+      },
       "id": 28
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3190952878875186, 53.42424418631092] },
-      "properties": { "name": "Sale", "line": "Purple", "id": 29 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3190952878875186,
+          53.42424418631092
+        ]
+      },
+      "properties": {
+        "name": "Sale",
+        "line": "Purple",
+        "id": 29
+      },
       "id": 29
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.311649063957717, 53.4300406041665] },
-      "properties": { "name": "Dane Road", "line": "Purple", "id": 30 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.311611,
+          53.430027
+        ]
+      },
+      "properties": {
+        "name": "Dane Road",
+        "line": "Purple",
+        "id": 30
+      },
       "id": 30
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3037709102795447, 53.446093572171165] },
-      "properties": { "name": "Stretford", "line": "Purple", "id": 31 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3037709102795447,
+          53.446093572171165
+        ]
+      },
+      "properties": {
+        "name": "Stretford",
+        "line": "Purple",
+        "id": 31
+      },
       "id": 31
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.284803946584878, 53.45628862882138] },
-      "properties": { "name": "Old Trafford", "line": "Purple", "id": 32 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.284743,
+          53.456262
+        ]
+      },
+      "properties": {
+        "name": "Old Trafford",
+        "line": "Purple",
+        "id": 32
+      },
       "id": 32
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2774220787446176, 53.46171659496968] },
-      "properties": { "name": "Trafford Bar", "line": "Purple", "id": 33 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277371,
+          53.461679
+        ]
+      },
+      "properties": {
+        "name": "Trafford Bar",
+        "line": "Purple",
+        "id": 33
+      },
       "id": 33
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Purple", "id": 34 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Purple",
+        "id": 34
+      },
       "id": 34
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Purple",
         "id": 35,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 35
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Purple", "id": 36 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.24312,
+          53.478368
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Purple",
+        "id": 36
+      },
       "id": 36
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2369949037336685, 53.48030468961694] },
-      "properties": { "name": "Piccadilly Gardens", "line": "Purple", "id": 37 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.237053,
+          53.480264
+        ]
+      },
+      "properties": {
+        "name": "Piccadilly Gardens",
+        "line": "Purple",
+        "id": 37
+      },
       "id": 37
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.230619645226021, 53.477161175237775] },
-      "properties": { "name": "Piccadilly", "line": "Purple", "id": 38 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.230653,
+          53.47711
+        ]
+      },
+      "properties": {
+        "name": "Piccadilly",
+        "line": "Purple",
+        "id": 38
+      },
       "id": 38
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.219630466944585, 53.48114869442568] },
-      "properties": { "name": "New Islington", "line": "Purple", "id": 39 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.219630466944585,
+          53.48114869442568
+        ]
+      },
+      "properties": {
+        "name": "New Islington",
+        "line": "Purple",
+        "id": 39
+      },
       "id": 39
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2121744576402897, 53.48323823684292] },
-      "properties": { "name": "Holt Town", "line": "Purple", "id": 40 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.212157,
+          53.483224
+        ]
+      },
+      "properties": {
+        "name": "Holt Town",
+        "line": "Purple",
+        "id": 40
+      },
       "id": 40
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2012921880508274, 53.485371161392294] },
-      "properties": { "name": "Etihad Campus", "line": "Purple", "id": 41 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.201314,
+          53.485367
+        ]
+      },
+      "properties": {
+        "name": "Etihad Campus",
+        "line": "Purple",
+        "id": 41
+      },
       "id": 41
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.334449807517586, 53.48315528874107] },
-      "properties": { "name": "Eccles", "line": "Cyan", "id": 42 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.334422,
+          53.483081
+        ]
+      },
+      "properties": {
+        "name": "Eccles",
+        "line": "Cyan",
+        "id": 42
+      },
       "id": 42
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.327037791007262, 53.48404833128581] },
-      "properties": { "name": "Ladywell", "line": "Cyan", "id": 43 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.327039,
+          53.483972
+        ]
+      },
+      "properties": {
+        "name": "Ladywell",
+        "line": "Cyan",
+        "id": 43
+      },
       "id": 43
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.307422720203507, 53.482430489386424] },
-      "properties": { "name": "Weaste", "line": "Cyan", "id": 44 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.307439,
+          53.482393
+        ]
+      },
+      "properties": {
+        "name": "Weaste",
+        "line": "Cyan",
+        "id": 44
+      },
       "id": 44
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.296283767741847, 53.48073563936417] },
-      "properties": { "name": "Langworthy", "line": "Cyan", "id": 45 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.296307,
+          53.480671
+        ]
+      },
+      "properties": {
+        "name": "Langworthy",
+        "line": "Cyan",
+        "id": 45
+      },
       "id": 45
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2949097084971966, 53.47480089832028] },
-      "properties": { "name": "Broadway", "line": "Cyan", "id": 46 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2949097084971966,
+          53.47480089832028
+        ]
+      },
+      "properties": {
+        "name": "Broadway",
+        "line": "Cyan",
+        "id": 46
+      },
       "id": 46
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2973330859387904, 53.47213752687931] },
-      "properties": { "name": "MediaCityUK", "line": "Cyan", "id": 47 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.297162,
+          53.472172
+        ]
+      },
+      "properties": {
+        "name": "MediaCityUK",
+        "line": "Cyan",
+        "id": 47
+      },
       "id": 47
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2915185427128537, 53.47409289648628] },
-      "properties": { "name": "Harbour City", "line": "Cyan", "id": 48 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.291492,
+          53.474039
+        ]
+      },
+      "properties": {
+        "name": "Harbour City",
+        "line": "Cyan",
+        "id": 48
+      },
       "id": 48
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.286033978755987, 53.47445348161328] },
-      "properties": { "name": "Anchorage", "line": "Cyan", "id": 49 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.286077,
+          53.474443
+        ]
+      },
+      "properties": {
+        "name": "Anchorage",
+        "line": "Cyan",
+        "id": 49
+      },
       "id": 49
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2840261357962146, 53.470335665648186] },
-      "properties": { "name": "Salford Quays", "line": "Cyan", "id": 50 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2840261357962146,
+          53.470335665648186
+        ]
+      },
+      "properties": {
+        "name": "Salford Quays",
+        "line": "Cyan",
+        "id": 50
+      },
       "id": 50
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2823786502817724, 53.46779222225608] },
-      "properties": { "name": "Exchange Quay", "line": "Cyan", "id": 51 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.282346,
+          53.467791
+        ]
+      },
+      "properties": {
+        "name": "Exchange Quay",
+        "line": "Cyan",
+        "id": 51
+      },
       "id": 51
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2778805405630624, 53.46527653740694] },
-      "properties": { "name": "Pomona", "line": "Cyan", "id": 52 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277872,
+          53.465263
+        ]
+      },
+      "properties": {
+        "name": "Pomona",
+        "line": "Cyan",
+        "id": 52
+      },
       "id": 52
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Cyan", "id": 53 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Cyan",
+        "id": 53
+      },
       "id": 53
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Cyan",
         "id": 54,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 54
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Cyan", "id": 55 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.24312,
+          53.478368
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Cyan",
+        "id": 55
+      },
       "id": 55
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2369949037336685, 53.48030468961694] },
-      "properties": { "name": "Piccadilly Gardens", "line": "Cyan", "id": 56 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.237053,
+          53.480264
+        ]
+      },
+      "properties": {
+        "name": "Piccadilly Gardens",
+        "line": "Cyan",
+        "id": 56
+      },
       "id": 56
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.230619645226021, 53.477161175237775] },
-      "properties": { "name": "Piccadilly", "line": "Cyan", "id": 57 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.230653,
+          53.47711
+        ]
+      },
+      "properties": {
+        "name": "Piccadilly",
+        "line": "Cyan",
+        "id": 57
+      },
       "id": 57
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.219630466944585, 53.48114869442568] },
-      "properties": { "name": "New Islington", "line": "Cyan", "id": 58 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.219630466944585,
+          53.48114869442568
+        ]
+      },
+      "properties": {
+        "name": "New Islington",
+        "line": "Cyan",
+        "id": 58
+      },
       "id": 58
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2121744576402897, 53.48323823684292] },
-      "properties": { "name": "Holt Town", "line": "Cyan", "id": 59 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.212157,
+          53.483224
+        ]
+      },
+      "properties": {
+        "name": "Holt Town",
+        "line": "Cyan",
+        "id": 59
+      },
       "id": 59
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2012921880508274, 53.485371161392294] },
-      "properties": { "name": "Etihad Campus", "line": "Cyan", "id": 60 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2012921880508274,
+          53.485371161392294
+        ]
+      },
+      "properties": {
+        "name": "Etihad Campus",
+        "line": "Cyan",
+        "id": 60
+      },
       "id": 60
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.192974970564558, 53.48230818432633] },
-      "properties": { "name": "Velopark", "line": "Cyan", "id": 61 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.192974970564558,
+          53.48230818432633
+        ]
+      },
+      "properties": {
+        "name": "Velopark",
+        "line": "Cyan",
+        "id": 61
+      },
       "id": 61
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1822071981545883, 53.4828151085759] },
-      "properties": { "name": "Clayton Hall", "line": "Cyan", "id": 62 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.182205,
+          53.482801
+        ]
+      },
+      "properties": {
+        "name": "Clayton Hall",
+        "line": "Cyan",
+        "id": 62
+      },
       "id": 62
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1652946821579007, 53.480905629745735] },
-      "properties": { "name": "Edge Lane", "line": "Cyan", "id": 63 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.165291,
+          53.480926
+        ]
+      },
+      "properties": {
+        "name": "Edge Lane",
+        "line": "Cyan",
+        "id": 63
+      },
       "id": 63
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.155235038204922, 53.479907422569724] },
-      "properties": { "name": "Cemetery Road", "line": "Cyan", "id": 64 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.155235038204922,
+          53.479907422569724
+        ]
+      },
+      "properties": {
+        "name": "Cemetery Road",
+        "line": "Cyan",
+        "id": 64
+      },
       "id": 64
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1448098375766294, 53.47950570685087] },
-      "properties": { "name": "Droylsden", "line": "Cyan", "id": 65 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.144806,
+          53.47952
+        ]
+      },
+      "properties": {
+        "name": "Droylsden",
+        "line": "Cyan",
+        "id": 65
+      },
       "id": 65
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.131143309317486, 53.47824150340883] },
-      "properties": { "name": "Audenshaw", "line": "Cyan", "id": 66 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.131143309317486,
+          53.47824150340883
+        ]
+      },
+      "properties": {
+        "name": "Audenshaw",
+        "line": "Cyan",
+        "id": 66
+      },
       "id": 66
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1220025481880103, 53.483589762547666] },
-      "properties": { "name": "Ashton Moss", "line": "Cyan", "id": 67 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.122041,
+          53.483603
+        ]
+      },
+      "properties": {
+        "name": "Ashton Moss",
+        "line": "Cyan",
+        "id": 67
+      },
       "id": 67
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1097321928233774, 53.490264012972624] },
-      "properties": { "name": "Ashton West", "line": "Cyan", "id": 68 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1097321928233774,
+          53.490264012972624
+        ]
+      },
+      "properties": {
+        "name": "Ashton West",
+        "line": "Cyan",
+        "id": 68
+      },
       "id": 68
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.098071525682139, 53.49036539681214] },
-      "properties": { "name": "Ashton-under-Lyne", "line": "Cyan", "id": 69 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.098071525682139,
+          53.49036539681214
+        ]
+      },
+      "properties": {
+        "name": "Ashton-under-Lyne",
+        "line": "Cyan",
+        "id": 69
+      },
       "id": 69
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2973330859387904, 53.47213752687931] },
-      "properties": { "name": "MediaCityUK", "line": "Orange", "id": 70 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.297162,
+          53.472172
+        ]
+      },
+      "properties": {
+        "name": "MediaCityUK",
+        "line": "Orange",
+        "id": 70
+      },
       "id": 70
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2915185427128537, 53.47409289648628] },
-      "properties": { "name": "Harbour City", "line": "Orange", "id": 71 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.291492,
+          53.474039
+        ]
+      },
+      "properties": {
+        "name": "Harbour City",
+        "line": "Orange",
+        "id": 71
+      },
       "id": 71
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.286033978755987, 53.47445348161328] },
-      "properties": { "name": "Anchorage", "line": "Orange", "id": 72 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.286077,
+          53.474443
+        ]
+      },
+      "properties": {
+        "name": "Anchorage",
+        "line": "Orange",
+        "id": 72
+      },
       "id": 72
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2840261357962146, 53.470335665648186] },
-      "properties": { "name": "Salford Quays", "line": "Orange", "id": 73 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2840261357962146,
+          53.470335665648186
+        ]
+      },
+      "properties": {
+        "name": "Salford Quays",
+        "line": "Orange",
+        "id": 73
+      },
       "id": 73
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2823786502817724, 53.46779222225608] },
-      "properties": { "name": "Exchange Quay", "line": "Orange", "id": 74 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.282346,
+          53.467791
+        ]
+      },
+      "properties": {
+        "name": "Exchange Quay",
+        "line": "Orange",
+        "id": 74
+      },
       "id": 74
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2778805405630624, 53.46527653740694] },
-      "properties": { "name": "Pomona", "line": "Orange", "id": 75 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277872,
+          53.465263
+        ]
+      },
+      "properties": {
+        "name": "Pomona",
+        "line": "Orange",
+        "id": 75
+      },
       "id": 75
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Orange", "id": 76 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Orange",
+        "id": 76
+      },
       "id": 76
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Orange",
         "id": 77,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 77
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Orange", "id": 78 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.24312,
+          53.478368
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Orange",
+        "id": 78
+      },
       "id": 78
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2369949037336685, 53.48030468961694] },
-      "properties": { "name": "Piccadilly Gardens", "line": "Orange", "id": 79 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.237053,
+          53.480264
+        ]
+      },
+      "properties": {
+        "name": "Piccadilly Gardens",
+        "line": "Orange",
+        "id": 79
+      },
       "id": 79
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.230619645226021, 53.477161175237775] },
-      "properties": { "name": "Piccadilly", "line": "Orange", "id": 80 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.230653,
+          53.47711
+        ]
+      },
+      "properties": {
+        "name": "Piccadilly",
+        "line": "Orange",
+        "id": 80
+      },
       "id": 80
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.219630466944585, 53.48114869442568] },
-      "properties": { "name": "New Islington", "line": "Orange", "id": 81 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.219630466944585,
+          53.48114869442568
+        ]
+      },
+      "properties": {
+        "name": "New Islington",
+        "line": "Orange",
+        "id": 81
+      },
       "id": 81
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2121744576402897, 53.48323823684292] },
-      "properties": { "name": "Holt Town", "line": "Orange", "id": 82 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.212157,
+          53.483224
+        ]
+      },
+      "properties": {
+        "name": "Holt Town",
+        "line": "Orange",
+        "id": 82
+      },
       "id": 82
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2012921880508274, 53.485371161392294] },
-      "properties": { "name": "Etihad Campus", "line": "Orange", "id": 83 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.201314,
+          53.485367
+        ]
+      },
+      "properties": {
+        "name": "Etihad Campus",
+        "line": "Orange",
+        "id": 83
+      },
       "id": 83
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2721802283964077, 53.36544920761489] },
-      "properties": { "name": "Manchester Airport", "line": "Blue", "id": 84 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.272163,
+          53.365387
+        ]
+      },
+      "properties": {
+        "name": "Manchester Airport",
+        "line": "Blue",
+        "id": 84
+      },
       "id": 84
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.25245372408246, 53.367867011102376] },
-      "properties": { "name": "Shadowmoss", "line": "Blue", "id": 85 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.25245372408246,
+          53.367867011102376
+        ]
+      },
+      "properties": {
+        "name": "Shadowmoss",
+        "line": "Blue",
+        "id": 85
+      },
       "id": 85
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.250452648706817, 53.37374046568315] },
-      "properties": { "name": "Peel Hall", "line": "Blue", "id": 86 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250452648706817,
+          53.37374046568315
+        ]
+      },
+      "properties": {
+        "name": "Peel Hall",
+        "line": "Blue",
+        "id": 86
+      },
       "id": 86
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.259907488016886, 53.37676678399745] },
-      "properties": { "name": "Robinswood Road", "line": "Blue", "id": 87 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.25993,
+          53.37674
+        ]
+      },
+      "properties": {
+        "name": "Robinswood Road",
+        "line": "Blue",
+        "id": 87
+      },
       "id": 87
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2637538825638246, 53.38012758699782] },
-      "properties": { "name": "Wythenshawe Town Centre", "line": "Blue", "id": 88 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2637538825638246,
+          53.38012758699782
+        ]
+      },
+      "properties": {
+        "name": "Wythenshawe Town Centre",
+        "line": "Blue",
+        "id": 88
+      },
       "id": 88
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2562820388257565, 53.38333668823002] },
-      "properties": { "name": "Crossacres", "line": "Blue", "id": 89 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2562820388257565,
+          53.38333668823002
+        ]
+      },
+      "properties": {
+        "name": "Crossacres",
+        "line": "Blue",
+        "id": 89
+      },
       "id": 89
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2562244605963806, 53.38739988882852] },
-      "properties": { "name": "Benchill", "line": "Blue", "id": 90 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2562244605963806,
+          53.38739988882852
+        ]
+      },
+      "properties": {
+        "name": "Benchill",
+        "line": "Blue",
+        "id": 90
+      },
       "id": 90
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2798256809779067, 53.39191188894169] },
-      "properties": { "name": "Martinscroft", "line": "Blue", "id": 91 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2798256809779067,
+          53.39191188894169
+        ]
+      },
+      "properties": {
+        "name": "Martinscroft",
+        "line": "Blue",
+        "id": 91
+      },
       "id": 91
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.289153956288106, 53.392672930049834] },
-      "properties": { "name": "Roundthorn", "line": "Blue", "id": 92 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.289153956288106,
+          53.392672930049834
+        ]
+      },
+      "properties": {
+        "name": "Roundthorn",
+        "line": "Blue",
+        "id": 92
+      },
       "id": 92
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.292629488790722, 53.3967720649694] },
-      "properties": { "name": "Baguley", "line": "Blue", "id": 93 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.292629488790722,
+          53.3967720649694
+        ]
+      },
+      "properties": {
+        "name": "Baguley",
+        "line": "Blue",
+        "id": 93
+      },
       "id": 93
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2952106752646375, 53.403472159157374] },
-      "properties": { "name": "Moor Road", "line": "Blue", "id": 94 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2952106752646375,
+          53.403472159157374
+        ]
+      },
+      "properties": {
+        "name": "Moor Road",
+        "line": "Blue",
+        "id": 94
+      },
       "id": 94
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2957233020447694, 53.407758488462235] },
-      "properties": { "name": "Wythenshawe Park", "line": "Blue", "id": 95 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2957233020447694,
+          53.407758488462235
+        ]
+      },
+      "properties": {
+        "name": "Wythenshawe Park",
+        "line": "Blue",
+        "id": 95
+      },
       "id": 95
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.288103613963253, 53.414593898307864] },
-      "properties": { "name": "Northern Moor", "line": "Blue", "id": 96 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.288103613963253,
+          53.414593898307864
+        ]
+      },
+      "properties": {
+        "name": "Northern Moor",
+        "line": "Blue",
+        "id": 96
+      },
       "id": 96
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.290963364316791, 53.42821569652202] },
-      "properties": { "name": "Sale Water Park", "line": "Blue", "id": 97 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.290978,
+          53.428229
+        ]
+      },
+      "properties": {
+        "name": "Sale Water Park",
+        "line": "Blue",
+        "id": 97
+      },
       "id": 97
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.269445854755345, 53.43282867505797] },
-      "properties": { "name": "Barlow Moor Road", "line": "Blue", "id": 98 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.269436,
+          53.432816
+        ]
+      },
+      "properties": {
+        "name": "Barlow Moor Road",
+        "line": "Blue",
+        "id": 98
+      },
       "id": 98
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.265805983162509, 53.438910078894246] },
-      "properties": { "name": "St Werburgh's Road", "line": "Blue", "id": 99 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.265805983162509,
+          53.438910078894246
+        ]
+      },
+      "properties": {
+        "name": "St Werburgh's Road",
+        "line": "Blue",
+        "id": 99
+      },
       "id": 99
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.273519142522952, 53.44281751449] },
-      "properties": { "name": "Chorlton", "line": "Blue", "id": 100 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.273519142522952,
+          53.44281751449
+        ]
+      },
+      "properties": {
+        "name": "Chorlton",
+        "line": "Blue",
+        "id": 100
+      },
       "id": 100
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2776916524726807, 53.45124060636917] },
-      "properties": { "name": "Firswood", "line": "Blue", "id": 101 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2776916524726807,
+          53.45124060636917
+        ]
+      },
+      "properties": {
+        "name": "Firswood",
+        "line": "Blue",
+        "id": 101
+      },
       "id": 101
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2774220787446176, 53.46171659496968] },
-      "properties": { "name": "Trafford Bar", "line": "Blue", "id": 102 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277371,
+          53.461679
+        ]
+      },
+      "properties": {
+        "name": "Trafford Bar",
+        "line": "Blue",
+        "id": 102
+      },
       "id": 102
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Blue", "id": 103 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Blue",
+        "id": 103
+      },
       "id": 103
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Blue",
         "id": 104,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 104
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Blue", "id": 105 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.243127,
+          53.478367
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Blue",
+        "id": 105
+      },
       "id": 105
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2388321184796935, 53.48195982485973] },
-      "properties": { "name": "Market Street", "line": "Blue", "id": 106 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.238879,
+          53.4819
+        ]
+      },
+      "properties": {
+        "name": "Market Street",
+        "line": "Blue",
+        "id": 106
+      },
       "id": 106
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.239209667108682, 53.48535777227059] },
-      "properties": { "name": "Shudehill", "line": "Blue", "id": 107 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.239185,
+          53.485367
+        ]
+      },
+      "properties": {
+        "name": "Shudehill",
+        "line": "Blue",
+        "id": 107
+      },
       "id": 107
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.241719339727282, 53.48781471831173] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.241785,
+          53.487731
+        ]
+      },
       "properties": {
         "name": "Victoria",
         "line": "Blue",
         "id": 108,
-        "alternate_names": ["Manchester Victoria"]
+        "alternate_names": [
+          "Manchester Victoria"
+        ]
       },
       "id": 108
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.217236482832795, 53.41215707685273] },
-      "properties": { "name": "East Didsbury", "line": "Pink", "id": 109 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.217269,
+          53.412118
+        ]
+      },
+      "properties": {
+        "name": "East Didsbury",
+        "line": "Pink",
+        "id": 109
+      },
       "id": 109
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2285673530685783, 53.416761583539746] },
-      "properties": { "name": "Didsbury Village", "line": "Pink", "id": 110 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2285673530685783,
+          53.416761583539746
+        ]
+      },
+      "properties": {
+        "name": "Didsbury Village",
+        "line": "Pink",
+        "id": 110
+      },
       "id": 110
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.236042637964206, 53.42447857251725] },
-      "properties": { "name": "West Didsbury", "line": "Pink", "id": 111 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.236042637964206,
+          53.42447857251725
+        ]
+      },
+      "properties": {
+        "name": "West Didsbury",
+        "line": "Pink",
+        "id": 111
+      },
       "id": 111
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2405810605086978, 53.4291668799962] },
-      "properties": { "name": "Burton Road", "line": "Pink", "id": 112 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2405810605086978,
+          53.4291668799962
+        ]
+      },
+      "properties": {
+        "name": "Burton Road",
+        "line": "Pink",
+        "id": 112
+      },
       "id": 112
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2495198368545157, 53.43287313508662] },
-      "properties": { "name": "Withington", "line": "Pink", "id": 113 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2495198368545157,
+          53.43287313508662
+        ]
+      },
+      "properties": {
+        "name": "Withington",
+        "line": "Pink",
+        "id": 113
+      },
       "id": 113
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.265805983162509, 53.438910078894246] },
-      "properties": { "name": "St Werburgh's Road", "line": "Pink", "id": 114 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.265805983162509,
+          53.438910078894246
+        ]
+      },
+      "properties": {
+        "name": "St Werburgh's Road",
+        "line": "Pink",
+        "id": 114
+      },
       "id": 114
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.273519142522952, 53.44281751449] },
-      "properties": { "name": "Chorlton", "line": "Pink", "id": 115 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.273519142522952,
+          53.44281751449
+        ]
+      },
+      "properties": {
+        "name": "Chorlton",
+        "line": "Pink",
+        "id": 115
+      },
       "id": 115
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2776916524726807, 53.45124060636917] },
-      "properties": { "name": "Firswood", "line": "Pink", "id": 116 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2776916524726807,
+          53.45124060636917
+        ]
+      },
+      "properties": {
+        "name": "Firswood",
+        "line": "Pink",
+        "id": 116
+      },
       "id": 116
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2774220787446176, 53.46171659496968] },
-      "properties": { "name": "Trafford Bar", "line": "Pink", "id": 117 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277371,
+          53.461679
+        ]
+      },
+      "properties": {
+        "name": "Trafford Bar",
+        "line": "Pink",
+        "id": 117
+      },
       "id": 117
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Pink", "id": 118 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Pink",
+        "id": 118
+      },
       "id": 118
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Pink",
         "id": 119,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 119
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Pink", "id": 120 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.243146,
+          53.478357
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Pink",
+        "id": 120
+      },
       "id": 120
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.24274060247779, 53.48443700502542] },
-      "properties": { "name": "Exchange Square", "line": "Pink", "id": 121 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.242778,
+          53.484448
+        ]
+      },
+      "properties": {
+        "name": "Exchange Square",
+        "line": "Pink",
+        "id": 121
+      },
       "id": 121
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.241719339727282, 53.48781471831173] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.241683,
+          53.487794
+        ]
+      },
       "properties": {
         "name": "Victoria",
         "line": "Pink",
         "id": 122,
-        "alternate_names": ["Manchester Victoria"]
+        "alternate_names": [
+          "Manchester Victoria"
+        ]
       },
       "id": 122
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.210662882762202, 53.50115928121808] },
-      "properties": { "name": "Monsall", "line": "Pink", "id": 123 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.210662,
+          53.501106
+        ]
+      },
+      "properties": {
+        "name": "Monsall",
+        "line": "Pink",
+        "id": 123
+      },
       "id": 123
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1991535529435544, 53.50166594812617] },
-      "properties": { "name": "Central Park", "line": "Pink", "id": 124 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.199128,
+          53.501604
+        ]
+      },
+      "properties": {
+        "name": "Central Park",
+        "line": "Pink",
+        "id": 124
+      },
       "id": 124
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.183713220862181, 53.50428121894402] },
-      "properties": { "name": "Newton Heath and Moston", "line": "Pink", "id": 125 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.183696,
+          53.504234
+        ]
+      },
+      "properties": {
+        "name": "Newton Heath and Moston",
+        "line": "Pink",
+        "id": 125
+      },
       "id": 125
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.162920183034922, 53.51066613390105] },
-      "properties": { "name": "Failsworth", "line": "Pink", "id": 126 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.162894,
+          53.51065
+        ]
+      },
+      "properties": {
+        "name": "Failsworth",
+        "line": "Pink",
+        "id": 126
+      },
       "id": 126
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.147410924255156, 53.52000272387068] },
-      "properties": { "name": "Hollinwood", "line": "Pink", "id": 127 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.147365,
+          53.519986
+        ]
+      },
+      "properties": {
+        "name": "Hollinwood",
+        "line": "Pink",
+        "id": 127
+      },
       "id": 127
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1451655163418786, 53.526761484408084] },
-      "properties": { "name": "South Chadderton", "line": "Pink", "id": 128 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1451655163418786,
+          53.526761484408084
+        ]
+      },
+      "properties": {
+        "name": "South Chadderton",
+        "line": "Pink",
+        "id": 128
+      },
       "id": 128
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.137948102401878, 53.53777576558574] },
-      "properties": { "name": "Freehold", "line": "Pink", "id": 129 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.137948102401878,
+          53.53777576558574
+        ]
+      },
+      "properties": {
+        "name": "Freehold",
+        "line": "Pink",
+        "id": 129
+      },
       "id": 129
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1256872779926272, 53.54239183518426] },
-      "properties": { "name": "Westwood", "line": "Pink", "id": 130 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.125707,
+          53.542328
+        ]
+      },
+      "properties": {
+        "name": "Westwood",
+        "line": "Pink",
+        "id": 130
+      },
       "id": 130
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.117399953916995, 53.539623063612254] },
-      "properties": { "name": "Oldham King Street", "line": "Pink", "id": 131 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.117401,
+          53.539594
+        ]
+      },
+      "properties": {
+        "name": "Oldham King Street",
+        "line": "Pink",
+        "id": 131
+      },
       "id": 131
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.112176529447027, 53.54037901810092] },
-      "properties": { "name": "Oldham Central", "line": "Pink", "id": 132 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.112164,
+          53.540354
+        ]
+      },
+      "properties": {
+        "name": "Oldham Central",
+        "line": "Pink",
+        "id": 132
+      },
       "id": 132
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.103424691145721, 53.54249241318992] },
-      "properties": { "name": "Oldham Mumps", "line": "Pink", "id": 133 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.103392,
+          53.542443
+        ]
+      },
+      "properties": {
+        "name": "Oldham Mumps",
+        "line": "Pink",
+        "id": 133
+      },
       "id": 133
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.101632641118202, 53.54985219855062] },
-      "properties": { "name": "Derker", "line": "Pink", "id": 134 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.101632641118202,
+          53.54985219855062
+        ]
+      },
+      "properties": {
+        "name": "Derker",
+        "line": "Pink",
+        "id": 134
+      },
       "id": 134
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.089554840994256, 53.576258545126734] },
-      "properties": { "name": "Shaw and Crompton", "line": "Pink", "id": 135 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.089554840994256,
+          53.576258545126734
+        ]
+      },
+      "properties": {
+        "name": "Shaw and Crompton",
+        "line": "Pink",
+        "id": 135
+      },
       "id": 135
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.0946914180048513, 53.60088186561575] },
-      "properties": { "name": "Newhey", "line": "Pink", "id": 136 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.094713,
+          53.600852
+        ]
+      },
+      "properties": {
+        "name": "Newhey",
+        "line": "Pink",
+        "id": 136
+      },
       "id": 136
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1121603997883636, 53.60824273783319] },
-      "properties": { "name": "Milnrow", "line": "Pink", "id": 137 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.112201,
+          53.608216
+        ]
+      },
+      "properties": {
+        "name": "Milnrow",
+        "line": "Pink",
+        "id": 137
+      },
       "id": 137
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1237579437614422, 53.61115684061964] },
-      "properties": { "name": "Kingsway Business Park", "line": "Pink", "id": 138 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.123771,
+          53.611132
+        ]
+      },
+      "properties": {
+        "name": "Kingsway Business Park",
+        "line": "Pink",
+        "id": 138
+      },
       "id": 138
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1355571119399444, 53.61346572067322] },
-      "properties": { "name": "Newbold", "line": "Pink", "id": 139 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.135567,
+          53.613447
+        ]
+      },
+      "properties": {
+        "name": "Newbold",
+        "line": "Pink",
+        "id": 139
+      },
       "id": 139
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.154476742902765, 53.61114947790976] },
-      "properties": { "name": "Rochdale", "line": "Pink", "id": 140 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.15445,
+          53.611154
+        ]
+      },
+      "properties": {
+        "name": "Rochdale",
+        "line": "Pink",
+        "id": 140
+      },
       "id": 140
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1554192808026578, 53.61739661649225] },
-      "properties": { "name": "Rochdale Town Centre", "line": "Pink", "id": 141 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.155456,
+          53.61735
+        ]
+      },
+      "properties": {
+        "name": "Rochdale Town Centre",
+        "line": "Pink",
+        "id": 141
+      },
       "id": 141
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.217236482832795, 53.41215707685273] },
-      "properties": { "name": "East Didsbury", "line": "Grey", "id": 142 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.217269,
+          53.412118
+        ]
+      },
+      "properties": {
+        "name": "East Didsbury",
+        "line": "Grey",
+        "id": 142
+      },
       "id": 142
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2285673530685783, 53.416761583539746] },
-      "properties": { "name": "Didsbury Village", "line": "Grey", "id": 143 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2285673530685783,
+          53.416761583539746
+        ]
+      },
+      "properties": {
+        "name": "Didsbury Village",
+        "line": "Grey",
+        "id": 143
+      },
       "id": 143
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.236042637964206, 53.42447857251725] },
-      "properties": { "name": "West Didsbury", "line": "Grey", "id": 144 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.236042637964206,
+          53.42447857251725
+        ]
+      },
+      "properties": {
+        "name": "West Didsbury",
+        "line": "Grey",
+        "id": 144
+      },
       "id": 144
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2405810605086978, 53.4291668799962] },
-      "properties": { "name": "Burton Road", "line": "Grey", "id": 145 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2405810605086978,
+          53.4291668799962
+        ]
+      },
+      "properties": {
+        "name": "Burton Road",
+        "line": "Grey",
+        "id": 145
+      },
       "id": 145
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2495198368545157, 53.43287313508662] },
-      "properties": { "name": "Withington", "line": "Grey", "id": 146 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2495198368545157,
+          53.43287313508662
+        ]
+      },
+      "properties": {
+        "name": "Withington",
+        "line": "Grey",
+        "id": 146
+      },
       "id": 146
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.265805983162509, 53.438910078894246] },
-      "properties": { "name": "St Werburgh's Road", "line": "Grey", "id": 147 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.265805983162509,
+          53.438910078894246
+        ]
+      },
+      "properties": {
+        "name": "St Werburgh's Road",
+        "line": "Grey",
+        "id": 147
+      },
       "id": 147
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.273519142522952, 53.44281751449] },
-      "properties": { "name": "Chorlton", "line": "Grey", "id": 148 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.273519142522952,
+          53.44281751449
+        ]
+      },
+      "properties": {
+        "name": "Chorlton",
+        "line": "Grey",
+        "id": 148
+      },
       "id": 148
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2776916524726807, 53.45124060636917] },
-      "properties": { "name": "Firswood", "line": "Grey", "id": 149 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2776916524726807,
+          53.45124060636917
+        ]
+      },
+      "properties": {
+        "name": "Firswood",
+        "line": "Grey",
+        "id": 149
+      },
       "id": 149
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2774220787446176, 53.46171659496968] },
-      "properties": { "name": "Trafford Bar", "line": "Grey", "id": 150 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277371,
+          53.461679
+        ]
+      },
+      "properties": {
+        "name": "Trafford Bar",
+        "line": "Grey",
+        "id": 150
+      },
       "id": 150
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Grey", "id": 151 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Grey",
+        "id": 151
+      },
       "id": 151
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250351,
+          53.47483
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Grey",
         "id": 152,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 152
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.243081106992232, 53.47832408716725] },
-      "properties": { "name": "St Peter's Square", "line": "Grey", "id": 153 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.243146,
+          53.478357
+        ]
+      },
+      "properties": {
+        "name": "St Peter's Square",
+        "line": "Grey",
+        "id": 153
+      },
       "id": 153
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.24274060247779, 53.48443700502542] },
-      "properties": { "name": "Exchange Square", "line": "Grey", "id": 154 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.242778,
+          53.484448
+        ]
+      },
+      "properties": {
+        "name": "Exchange Square",
+        "line": "Grey",
+        "id": 154
+      },
       "id": 154
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.241719339727282, 53.48781471831173] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.241683,
+          53.487794
+        ]
+      },
       "properties": {
         "name": "Victoria",
         "line": "Grey",
         "id": 155,
-        "alternate_names": ["Manchester Victoria"]
+        "alternate_names": [
+          "Manchester Victoria"
+        ]
       },
       "id": 155
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.210662882762202, 53.50115928121808] },
-      "properties": { "name": "Monsall", "line": "Grey", "id": 156 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.210662,
+          53.501106
+        ]
+      },
+      "properties": {
+        "name": "Monsall",
+        "line": "Grey",
+        "id": 156
+      },
       "id": 156
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1991535529435544, 53.50166594812617] },
-      "properties": { "name": "Central Park", "line": "Grey", "id": 157 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.199128,
+          53.501604
+        ]
+      },
+      "properties": {
+        "name": "Central Park",
+        "line": "Grey",
+        "id": 157
+      },
       "id": 157
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.183713220862181, 53.50428121894402] },
-      "properties": { "name": "Newton Heath and Moston", "line": "Grey", "id": 158 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.183696,
+          53.504234
+        ]
+      },
+      "properties": {
+        "name": "Newton Heath and Moston",
+        "line": "Grey",
+        "id": 158
+      },
       "id": 158
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.162920183034922, 53.51066613390105] },
-      "properties": { "name": "Failsworth", "line": "Grey", "id": 159 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.162894,
+          53.51065
+        ]
+      },
+      "properties": {
+        "name": "Failsworth",
+        "line": "Grey",
+        "id": 159
+      },
       "id": 159
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.147410924255156, 53.52000272387068] },
-      "properties": { "name": "Hollinwood", "line": "Grey", "id": 160 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.147365,
+          53.519986
+        ]
+      },
+      "properties": {
+        "name": "Hollinwood",
+        "line": "Grey",
+        "id": 160
+      },
       "id": 160
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1451655163418786, 53.526761484408084] },
-      "properties": { "name": "South Chadderton", "line": "Grey", "id": 161 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1451655163418786,
+          53.526761484408084
+        ]
+      },
+      "properties": {
+        "name": "South Chadderton",
+        "line": "Grey",
+        "id": 161
+      },
       "id": 161
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.137948102401878, 53.53777576558574] },
-      "properties": { "name": "Freehold", "line": "Grey", "id": 162 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.137948102401878,
+          53.53777576558574
+        ]
+      },
+      "properties": {
+        "name": "Freehold",
+        "line": "Grey",
+        "id": 162
+      },
       "id": 162
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.1256872779926272, 53.54239183518426] },
-      "properties": { "name": "Westwood", "line": "Grey", "id": 163 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.125707,
+          53.542328
+        ]
+      },
+      "properties": {
+        "name": "Westwood",
+        "line": "Grey",
+        "id": 163
+      },
       "id": 163
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.117399953916995, 53.539623063612254] },
-      "properties": { "name": "Oldham King Street", "line": "Grey", "id": 164 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.117401,
+          53.539594
+        ]
+      },
+      "properties": {
+        "name": "Oldham King Street",
+        "line": "Grey",
+        "id": 164
+      },
       "id": 164
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.112176529447027, 53.54037901810092] },
-      "properties": { "name": "Oldham Central", "line": "Grey", "id": 165 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.112164,
+          53.540354
+        ]
+      },
+      "properties": {
+        "name": "Oldham Central",
+        "line": "Grey",
+        "id": 165
+      },
       "id": 165
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.103424691145721, 53.54249241318992] },
-      "properties": { "name": "Oldham Mumps", "line": "Grey", "id": 166 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.103392,
+          53.542443
+        ]
+      },
+      "properties": {
+        "name": "Oldham Mumps",
+        "line": "Grey",
+        "id": 166
+      },
       "id": 166
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.101632641118202, 53.54985219855062] },
-      "properties": { "name": "Derker", "line": "Grey", "id": 167 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.101632641118202,
+          53.54985219855062
+        ]
+      },
+      "properties": {
+        "name": "Derker",
+        "line": "Grey",
+        "id": 167
+      },
       "id": 167
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.089554840994256, 53.576258545126734] },
-      "properties": { "name": "Shaw and Crompton", "line": "Grey", "id": 168 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.089554840994256,
+          53.576258545126734
+        ]
+      },
+      "properties": {
+        "name": "Shaw and Crompton",
+        "line": "Grey",
+        "id": 168
+      },
       "id": 168
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.347678677053285, 53.46788012097164] },
-      "properties": { "name": "The Trafford Centre", "line": "Red", "id": 169 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.347654,
+          53.467899
+        ]
+      },
+      "properties": {
+        "name": "The Trafford Centre",
+        "line": "Red",
+        "id": 169
+      },
       "id": 169
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.342086371518613, 53.465792774418] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.342086371518613,
+          53.465792774418
+        ]
+      },
       "properties": {
         "name": "Trafford Palazzo",
         "line": "Red",
         "id": 170,
-        "alternate_names": ["Barton Dock Road"]
+        "alternate_names": [
+          "Barton Dock Road"
+        ]
       },
       "id": 170
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.3238965439946964, 53.46825005330088] },
-      "properties": { "name": "Parkway", "line": "Red", "id": 171 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.323903,
+          53.468228
+        ]
+      },
+      "properties": {
+        "name": "Parkway",
+        "line": "Red",
+        "id": 171
+      },
       "id": 171
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.309138349682776, 53.467451733707335] },
-      "properties": { "name": "Village", "line": "Red", "id": 172 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.30914,
+          53.467426
+        ]
+      },
+      "properties": {
+        "name": "Village",
+        "line": "Red",
+        "id": 172
+      },
       "id": 172
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.296819840304183, 53.4686696931955] },
-      "properties": { "name": "Imperial War Museum", "line": "Red", "id": 173 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.296819840304183,
+          53.4686696931955
+        ]
+      },
+      "properties": {
+        "name": "Imperial War Museum",
+        "line": "Red",
+        "id": 173
+      },
       "id": 173
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2878855013296318, 53.466365491166506] },
-      "properties": { "name": "Wharfside", "line": "Red", "id": 174 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.28792,
+          53.466322
+        ]
+      },
+      "properties": {
+        "name": "Wharfside",
+        "line": "Red",
+        "id": 174
+      },
       "id": 174
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2778805405630624, 53.46527653740694] },
-      "properties": { "name": "Pomona", "line": "Red", "id": 175 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.277872,
+          53.465263
+        ]
+      },
+      "properties": {
+        "name": "Pomona",
+        "line": "Red",
+        "id": 175
+      },
       "id": 175
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2675609675010033, 53.46999738207391] },
-      "properties": { "name": "Cornbrook", "line": "Red", "id": 176 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.267643,
+          53.470037
+        ]
+      },
+      "properties": {
+        "name": "Cornbrook",
+        "line": "Red",
+        "id": 176
+      },
       "id": 176
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-2.2503541314352864, 53.474794968270324] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.250386,
+          53.474831
+        ]
+      },
       "properties": {
         "name": "Deansgate-Castlefield",
         "line": "Red",
         "id": 177,
-        "alternate_names": ["Deansgate"]
+        "alternate_names": [
+          "Deansgate"
+        ]
       },
       "id": 177
     }

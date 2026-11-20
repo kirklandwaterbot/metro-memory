@@ -1,0 +1,1484 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81462,
+          -6.137583
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Jakarta Kota",
+        "line": "KRLBogor",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.823084,
+          -6.141339
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Jayakarta",
+        "line": "KRLBogor",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.826994,
+          -6.149797
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Mangga Besar",
+        "line": "KRLBogor",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.827643,
+          -6.160667
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Sawah Besar",
+        "line": "KRLBogor",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.830461,
+          -6.166675
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Juanda",
+        "line": "KRLBogor",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.832566,
+          -6.185911
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Gondangdia",
+        "line": "KRLBogor",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.841243,
+          -6.198517
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Cikini",
+        "line": "KRLBogor",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.849935,
+          -6.21017
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Manggarai",
+        "line": "KRLBogor",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.858439,
+          -6.226398
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Tebet",
+        "line": "KRLBogor",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85869,
+          -6.242552
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Cawang",
+        "line": "KRLBogor",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.855167,
+          -6.255201
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Duren Kalibata",
+        "line": "KRLBogor",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.851796,
+          -6.262798
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Pasar Minggu Baru",
+        "line": "KRLBogor",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.844856,
+          -6.283332
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Pasar Minggu",
+        "line": "KRLBogor",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.838949,
+          -6.308041
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Tanjung Barat",
+        "line": "KRLBogor",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.834679,
+          -6.330308
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Lenteng Agung",
+        "line": "KRLBogor",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.834263,
+          -6.339345
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Universitas Pancasila",
+        "line": "KRLBogor",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.831782,
+          -6.360431
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Universitas Indonesia",
+        "line": "KRLBogor",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.832084,
+          -6.369059
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Pondok Cina",
+        "line": "KRLBogor",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.821641,
+          -6.391129
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Depok Baru",
+        "line": "KRLBogor",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.817084,
+          -6.404826
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Depok",
+        "line": "KRLBogor",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.802362,
+          -6.448824
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Citayam",
+        "line": "KRLBogor",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85252,
+          -6.464248
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Cibinong",
+        "line": "KRLBogor",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.906269,
+          -6.466282
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Nambo",
+        "line": "KRLBogor",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.795025,
+          -6.493234
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Bojonggede",
+        "line": "KRLBogor",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.800688,
+          -6.530724
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Cilebut",
+        "line": "KRLBogor",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79077,
+          -6.594289
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Bogor",
+        "line": "KRLBogor",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.145073,
+          -6.255314
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Cikarang",
+        "line": "KRLCikarang",
+        "order": 0
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.111227,
+          -6.257474
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Metland Telagamurni",
+        "line": "KRLCikarang",
+        "order": 1
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.083798,
+          -6.261824
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Cibitung",
+        "line": "KRLCikarang",
+        "order": 2
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.055804,
+          -6.25855
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Tambun",
+        "line": "KRLCikarang",
+        "order": 3
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.018105,
+          -6.246795
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Bekasi Timur",
+        "line": "KRLCikarang",
+        "order": 4
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.998744,
+          -6.236214
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Bekasi",
+        "line": "KRLCikarang",
+        "order": 5
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.979827,
+          -6.224513
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Kranji",
+        "line": "KRLCikarang",
+        "order": 6
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.952479,
+          -6.219081
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Cakung",
+        "line": "KRLCikarang",
+        "order": 7
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.940183,
+          -6.217659
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Klender Baru",
+        "line": "KRLCikarang",
+        "order": 8
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92316,
+          -6.215606
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Buaran",
+        "line": "KRLCikarang",
+        "order": 9
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.899413,
+          -6.213319
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Klender",
+        "line": "KRLCikarang",
+        "order": 10
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.870339,
+          -6.214925
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Jatinegara",
+        "line": "KRLCikarang",
+        "order": 11
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.862342,
+          -6.209124
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Pondok Jati",
+        "line": "KRLCikarang",
+        "order": 12
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85645,
+          -6.193566
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Kramat",
+        "line": "KRLCikarang",
+        "order": 13
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.850763,
+          -6.186038
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Gang Sentiong",
+        "line": "KRLCikarang",
+        "order": 14
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.844574,
+          -6.174423
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Pasar Senen",
+        "line": "KRLCikarang",
+        "order": 15
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84152,
+          -6.161678
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Kemayoran",
+        "line": "KRLCikarang",
+        "order": 16
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.836813,
+          -6.145087
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Rajawali",
+        "line": "KRLCikarang",
+        "order": 17
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.828488,
+          -6.132702
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Kampung Bandan",
+        "line": "KRLCikarang",
+        "order": 18
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.800779,
+          -6.144737
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Angke",
+        "line": "KRLCikarang",
+        "order": 19
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.801297,
+          -6.155276
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Duri",
+        "line": "KRLCikarang",
+        "order": 20
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.810894,
+          -6.185713
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Tanah Abang",
+        "line": "KRLCikarang",
+        "order": 21
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.819717,
+          -6.201594
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "BNI City",
+        "line": "KRLCikarang",
+        "order": 22
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.823449,
+          -6.202408
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Sudirman",
+        "line": "KRLCikarang",
+        "order": 23
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.849935,
+          -6.21017
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Manggarai",
+        "line": "KRLCikarang",
+        "order": 24
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.859753,
+          -6.212567
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Matraman",
+        "line": "KRLCikarang",
+        "order": 25
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.251525,
+          -6.352779
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Rangkasbitung",
+        "line": "KRLRangkasbitung",
+        "order": 0
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.332669,
+          -6.335058
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Citeras",
+        "line": "KRLRangkasbitung",
+        "order": 1
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.396479,
+          -6.332503
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Maja",
+        "line": "KRLRangkasbitung",
+        "order": 2
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.43406,
+          -6.328836
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Tigaraksa",
+        "line": "KRLRangkasbitung",
+        "order": 3
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.461659,
+          -6.327318
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Tenjo",
+        "line": "KRLRangkasbitung",
+        "order": 4
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.492563,
+          -6.33797
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Daru",
+        "line": "KRLRangkasbitung",
+        "order": 5
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.509643,
+          -6.354265
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Cilejit",
+        "line": "KRLRangkasbitung",
+        "order": 6
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.569846,
+          -6.344344
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Parungpanjang",
+        "line": "KRLRangkasbitung",
+        "order": 7
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.606613,
+          -6.334994
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Jatake",
+        "line": "KRLRangkasbitung",
+        "order": 8
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.618971,
+          -6.329683
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Cicayur",
+        "line": "KRLRangkasbitung",
+        "order": 9
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.641626,
+          -6.324444
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Cisauk",
+        "line": "KRLRangkasbitung",
+        "order": 10
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.665584,
+          -6.320153
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Serpong",
+        "line": "KRLRangkasbitung",
+        "order": 11
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.676152,
+          -6.314884
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Rawa Buntu",
+        "line": "KRLRangkasbitung",
+        "order": 12
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.712647,
+          -6.296844
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Sudimara",
+        "line": "KRLRangkasbitung",
+        "order": 13
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.729146,
+          -6.288582
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Jurangmangu",
+        "line": "KRLRangkasbitung",
+        "order": 14
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.744693,
+          -6.276683
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Pondok Ranji",
+        "line": "KRLRangkasbitung",
+        "order": 15
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.782535,
+          -6.23723
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Kebayoran",
+        "line": "KRLRangkasbitung",
+        "order": 16
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.797232,
+          -6.20792
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Palmerah",
+        "line": "KRLRangkasbitung",
+        "order": 17
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.810894,
+          -6.185713
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Tanah Abang",
+        "line": "KRLRangkasbitung",
+        "order": 18
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.632011,
+          -6.176975
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Tangerang",
+        "line": "KRLTangerang",
+        "order": 0
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.64671,
+          -6.17517
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Tanah Tinggi",
+        "line": "KRLTangerang",
+        "order": 1
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.665287,
+          -6.172027
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Batu Ceper",
+        "line": "KRLTangerang",
+        "order": 2
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.680752,
+          -6.169735
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Poris",
+        "line": "KRLTangerang",
+        "order": 3
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.703728,
+          -6.165966
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Kalideres",
+        "line": "KRLTangerang",
+        "order": 4
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.722754,
+          -6.162744
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Rawa Buaya",
+        "line": "KRLTangerang",
+        "order": 5
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.736134,
+          -6.160214
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Bojong Indah",
+        "line": "KRLTangerang",
+        "order": 6
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.756573,
+          -6.158627
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Taman Kota",
+        "line": "KRLTangerang",
+        "order": 7
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.771908,
+          -6.161252
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Pesing",
+        "line": "KRLTangerang",
+        "order": 8
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78961,
+          -6.162035
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Grogol",
+        "line": "KRLTangerang",
+        "order": 9
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.801297,
+          -6.155276
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Duri",
+        "line": "KRLTangerang",
+        "order": 10
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.881498,
+          -6.110691
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Tanjung Priuk",
+        "line": "KRLTanjungPriok",
+        "order": 0
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86136,
+          -6.122821
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Jakarta International Stadium",
+        "line": "KRLTanjungPriok",
+        "order": 1
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.845137,
+          -6.128115
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Ancol",
+        "line": "KRLTanjungPriok",
+        "order": 2
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.828488,
+          -6.132702
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Kampung Bandan",
+        "line": "KRLTanjungPriok",
+        "order": 3
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81462,
+          -6.137583
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Jakarta Kota",
+        "line": "KRLTanjungPriok",
+        "order": 4
+      },
+      "id": 86
+    }
+  ]
+}

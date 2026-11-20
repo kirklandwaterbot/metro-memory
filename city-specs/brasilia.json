@@ -1,0 +1,58 @@
+{
+  "slug": "brasilia",
+  "path": "south-america/brazil/brasilia",
+  "gameTitle": "Brasília Metro Memory",
+  "description": "How many Metrô-DF stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -15.92,
+    -48.15,
+    -15.74,
+    -47.84
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metrô-DF",
+      "lines": [
+        "DFL",
+        "DFV"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "DFL",
+      "name": "Linha Laranja",
+      "match": {
+        "route": "subway",
+        "network": "Metrô-DF",
+        "ref": "^Laranja$"
+      },
+      "color": "#EB9710"
+    },
+    {
+      "id": "DFV",
+      "name": "Linha Verde",
+      "match": {
+        "route": "subway",
+        "network": "Metrô-DF",
+        "ref": "^Verde$"
+      },
+      "color": "#076C57"
+    }
+  ],
+  "register": {
+    "name": "Brasília, BR",
+    "continent": "South America",
+    "coordinates": [
+      -47.8825,
+      -15.7942
+    ],
+    "achievement": {
+      "title": "Capital Planner",
+      "description": "You've named every Metrô-DF station in Brasília."
+    }
+  }
+}

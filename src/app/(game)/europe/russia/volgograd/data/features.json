@@ -1,0 +1,815 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.602591,
+          48.797964
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "VGTZ",
+        "alternate_names": [
+          "ВГТЗ"
+        ],
+        "line": "VLGST",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.598603,
+          48.792064
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Khlebozavod",
+        "alternate_names": [
+          "Хлебозавод"
+        ],
+        "line": "VLGST",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.592104,
+          48.78655
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Vodootstoy / Avtotsentr",
+        "alternate_names": [
+          "Водоотстой / Автоцентр",
+          "Vodootstoy",
+          "Avtotsentr"
+        ],
+        "line": "VLGST",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.582696,
+          48.781777
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Bolnitsa Ilyicha",
+        "alternate_names": [
+          "Больница Ильича"
+        ],
+        "line": "VLGST",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.575743,
+          48.777138
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Zavod Barrikady",
+        "alternate_names": [
+          "Завод Баррикады"
+        ],
+        "line": "VLGST",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.571152,
+          48.773983
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Gimnaziya №14 / Shkola № 31",
+        "alternate_names": [
+          "Гимназия №14 / Школа № 31",
+          "Gimnaziya №14",
+          "Shkola № 31"
+        ],
+        "line": "VLGST",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.567539,
+          48.770995
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Stadion Monolit",
+        "alternate_names": [
+          "Стадион Монолит"
+        ],
+        "line": "VLGST",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.560074,
+          48.763042
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Zavod Krasny Oktyabr",
+        "alternate_names": [
+          "Завод Красный Октябрь"
+        ],
+        "line": "VLGST",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.554716,
+          48.757089
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Ulitsa Imeni 39-y Gvardeyskoy Divizii",
+        "alternate_names": [
+          "Улица имени 39-й Гвардейской дивизии"
+        ],
+        "line": "VLGST",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.549861,
+          48.751012
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Ploshchad Vozrozhdeniya",
+        "alternate_names": [
+          "Площадь Возрождения"
+        ],
+        "line": "VLGST",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.548974,
+          48.746391
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Dvorets Sporta",
+        "alternate_names": [
+          "Дворец спорта"
+        ],
+        "line": "VLGST",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.54715,
+          48.739382
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Mamayev Kurgan",
+        "alternate_names": [
+          "Мамаев курган"
+        ],
+        "line": "VLGST",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.544408,
+          48.735693
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Stadion Volgograd-Arena",
+        "alternate_names": [
+          "Стадион Волгоград-Арена",
+          "Volgograd-Arena Stadium"
+        ],
+        "line": "VLGST",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.539847,
+          48.729815
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Tsentralny Park Kultury i Otdykha",
+        "alternate_names": [
+          "Центральный парк культуры и отдыха"
+        ],
+        "line": "VLGST",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.538202,
+          48.727295
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "TRK Yevropa",
+        "alternate_names": [
+          "ТРК Европа"
+        ],
+        "line": "VLGST",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.530549,
+          48.717689
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Ploshchad Lenina",
+        "alternate_names": [
+          "Площадь Ленина"
+        ],
+        "line": "VLGST",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.520311,
+          48.708977
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Komsomolskaya",
+        "alternate_names": [
+          "Комсомольская"
+        ],
+        "line": "VLGST",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.509595,
+          48.702965
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Pionerskaya",
+        "alternate_names": [
+          "Пионерская"
+        ],
+        "line": "VLGST",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.505461,
+          48.702288
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Ploshchad Chekistov",
+        "alternate_names": [
+          "Площадь Чекистов"
+        ],
+        "line": "VLGST",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.47096,
+          48.680934
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Yelshanka",
+        "alternate_names": [
+          "Ельшанка"
+        ],
+        "line": "VLGST2",
+        "order": 0
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.488946,
+          48.690445
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "TYuZ",
+        "alternate_names": [
+          "ТЮЗ"
+        ],
+        "line": "VLGST2",
+        "order": 1
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.500132,
+          48.697127
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Profsoyuznaya",
+        "alternate_names": [
+          "Профсоюзная"
+        ],
+        "line": "VLGST2",
+        "order": 2
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.509601,
+          48.702923
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Pionerskaya",
+        "alternate_names": [
+          "Пионерская"
+        ],
+        "line": "VLGST2",
+        "order": 3
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.519999,
+          48.709187
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Komsomolskaya",
+        "alternate_names": [
+          "Комсомольская"
+        ],
+        "line": "VLGST2",
+        "order": 4
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.530361,
+          48.717739
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Ploshchad Lenina",
+        "alternate_names": [
+          "Площадь Ленина"
+        ],
+        "line": "VLGST2",
+        "order": 5
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.538261,
+          48.727288
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "TRK Yevropa",
+        "alternate_names": [
+          "ТРК Европа"
+        ],
+        "line": "VLGST2",
+        "order": 6
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.53989,
+          48.729799
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Tsentralny Park Kultury i Otdykha",
+        "alternate_names": [
+          "Центральный парк культуры и отдыха"
+        ],
+        "line": "VLGST2",
+        "order": 7
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.54463,
+          48.73589
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Stadion Volgograd-Arena",
+        "alternate_names": [
+          "Стадион Волгоград-Арена",
+          "Volgograd-Arena Stadium"
+        ],
+        "line": "VLGST2",
+        "order": 8
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.547166,
+          48.739295
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Mamayev Kurgan",
+        "alternate_names": [
+          "Мамаев курган"
+        ],
+        "line": "VLGST2",
+        "order": 9
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.549013,
+          48.746378
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Dvorets Sporta",
+        "alternate_names": [
+          "Дворец спорта"
+        ],
+        "line": "VLGST2",
+        "order": 10
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.549884,
+          48.750856
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Ploshchad Vozrozhdeniya",
+        "alternate_names": [
+          "Площадь Возрождения"
+        ],
+        "line": "VLGST2",
+        "order": 11
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.554677,
+          48.75697
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Ulitsa Imeni 39-y Gvardeyskoy Divizii",
+        "alternate_names": [
+          "Улица имени 39-й Гвардейской дивизии"
+        ],
+        "line": "VLGST2",
+        "order": 12
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.560144,
+          48.76307
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Zavod Krasny Oktyabr",
+        "alternate_names": [
+          "Завод Красный Октябрь"
+        ],
+        "line": "VLGST2",
+        "order": 13
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.56753,
+          48.770873
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Stadion Monolit",
+        "alternate_names": [
+          "Стадион Монолит"
+        ],
+        "line": "VLGST2",
+        "order": 14
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.571184,
+          48.773969
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Gimnaziya №14 / Shkola № 31",
+        "alternate_names": [
+          "Гимназия №14 / Школа № 31",
+          "Gimnaziya №14",
+          "Shkola № 31"
+        ],
+        "line": "VLGST2",
+        "order": 15
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.575374,
+          48.776842
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Zavod Barrikady",
+        "alternate_names": [
+          "Завод Баррикады"
+        ],
+        "line": "VLGST2",
+        "order": 16
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.582695,
+          48.781743
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Bolnitsa Ilyicha",
+        "alternate_names": [
+          "Больница Ильича"
+        ],
+        "line": "VLGST2",
+        "order": 17
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.592077,
+          48.786503
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Vodootstoy / Avtotsentr",
+        "alternate_names": [
+          "Водоотстой / Автоцентр",
+          "Vodootstoy",
+          "Avtotsentr"
+        ],
+        "line": "VLGST2",
+        "order": 18
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.598649,
+          48.792054
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Khlebozavod",
+        "alternate_names": [
+          "Хлебозавод"
+        ],
+        "line": "VLGST2",
+        "order": 19
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.602591,
+          48.797964
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "VGTZ",
+        "alternate_names": [
+          "ВГТЗ"
+        ],
+        "line": "VLGST2",
+        "order": 20
+      },
+      "id": 39
+    }
+  ]
+}

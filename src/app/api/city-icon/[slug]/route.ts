@@ -125,7 +125,10 @@ export async function GET(request: NextRequest, { params }: RouteParams) {
     ...(resolvedAssetSlug
       ? [
           ...(resolvedAssetRoutePath
-            ? [path.join(IMAGES_ROOT, ...resolvedAssetRoutePath.split('/'), 'icon.ico')]
+            ? [
+                path.join(IMAGES_ROOT, ...resolvedAssetRoutePath.split('/'), 'tab-icon.ico'),
+                path.join(IMAGES_ROOT, ...resolvedAssetRoutePath.split('/'), 'icon.ico'),
+              ]
             : []),
           path.join(LEGACY_ICON_ROOT, `${resolvedAssetSlug}.ico`),
         ]

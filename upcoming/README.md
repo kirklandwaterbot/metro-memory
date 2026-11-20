@@ -32,6 +32,19 @@ Each `<city>.json` lists stations that are announced or under construction but n
 | `in-game` | someone added it to the game data by hand |
 | `ignored` | dismissed by you; never touched again |
 
+## The admin page
+
+Open **/admin/upcoming** (admin accounts only). It lists every tracked station in six tabs: *Due now*, *Needs a line*, *Check*, *Coming later*, *Added* and *Ignored*. Each row links to its OSM, Wikidata, web and OpenRailwayMap sources.
+
+On the local dev server (`npm run dev`) the page can also make changes:
+
+- **Add**: put the station into the game now (same as the automatic promotion; station totals and city data are regenerated).
+- **Pick line**: choose the line (★ marks the tracker's best guesses).
+- **Ignore / Restore**: dismiss a false positive, or undo that.
+- **Re-check a city now**: run the tracker for one city.
+
+The deployed site shows the page read-only (its files can't be written); set `UPCOMING_ADMIN_WRITE=1` to allow changes anyway. The same actions work from the terminal: `node scripts/upcoming/act.js --city=<slug> --id=<id> --action=add|line|ignore|restore [--line=<lineId>]`.
+
 ## Correcting it by hand
 
 Edit the entry in `<city>.json`:

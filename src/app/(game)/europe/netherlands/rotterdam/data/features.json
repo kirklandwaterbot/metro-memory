@@ -1,0 +1,2011 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.535654,
+          51.960332
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Binnenhof",
+        "line": "ROTTA",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.542871,
+          51.961509
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Romeynshof",
+        "line": "ROTTA",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.549449,
+          51.957222
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Graskruid",
+        "line": "ROTTA",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55191,
+          51.951428
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Alexander",
+        "line": "ROTTA",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.554632,
+          51.945229
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Oosterflank",
+        "line": "ROTTA",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55654,
+          51.940769
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Prinsenlaan",
+        "line": "ROTTA",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.563473,
+          51.931937
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Schenkel",
+        "line": "ROTTA",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.557959,
+          51.921453
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Capelsebrug",
+        "line": "ROTTA",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.533851,
+          51.92141
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Kralingse Zoom",
+        "line": "ROTTA",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.513058,
+          51.925001
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Voorschoterlaan",
+        "line": "ROTTA",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.505848,
+          51.925903
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Gerdesiaweg",
+        "line": "ROTTA",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.496986,
+          51.923361
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Oostplein",
+        "line": "ROTTA",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.489074,
+          51.920072
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Rotterdam Blaak",
+        "line": "ROTTA",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.480863,
+          51.917999
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Beurs",
+        "line": "ROTTA",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.473738,
+          51.916333
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Eendrachtsplein",
+        "line": "ROTTA",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.466116,
+          51.912238
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Dijkzigt",
+        "line": "ROTTA",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.458303,
+          51.909486
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Coolhaven",
+        "line": "ROTTA",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4457,
+          51.909995
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Delfshaven",
+        "line": "ROTTA",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.433592,
+          51.913024
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Marconiplein",
+        "line": "ROTTA",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.408743,
+          51.922035
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Schiedam Centrum",
+        "line": "ROTTA",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.586543,
+          51.979685
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Nesselande",
+        "line": "ROTTB",
+        "order": 0
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.578469,
+          51.968871
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "De Tochten",
+        "line": "ROTTB",
+        "order": 1
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.570267,
+          51.965766
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ambachtsland",
+        "line": "ROTTB",
+        "order": 2
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.561452,
+          51.964821
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Nieuw Verlaat",
+        "line": "ROTTB",
+        "order": 3
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.553164,
+          51.963209
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Hesseplaats",
+        "line": "ROTTB",
+        "order": 4
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.549449,
+          51.957222
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Graskruid",
+        "line": "ROTTB",
+        "order": 5
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55191,
+          51.951428
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Alexander",
+        "line": "ROTTB",
+        "order": 6
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.554632,
+          51.945229
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Oosterflank",
+        "line": "ROTTB",
+        "order": 7
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55654,
+          51.940769
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Prinsenlaan",
+        "line": "ROTTB",
+        "order": 8
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.563473,
+          51.931937
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Schenkel",
+        "line": "ROTTB",
+        "order": 9
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.557959,
+          51.921453
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Capelsebrug",
+        "line": "ROTTB",
+        "order": 10
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.533851,
+          51.92141
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Kralingse Zoom",
+        "line": "ROTTB",
+        "order": 11
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.513058,
+          51.925001
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Voorschoterlaan",
+        "line": "ROTTB",
+        "order": 12
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.505848,
+          51.925903
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Gerdesiaweg",
+        "line": "ROTTB",
+        "order": 13
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.496986,
+          51.923361
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Oostplein",
+        "line": "ROTTB",
+        "order": 14
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.489074,
+          51.920072
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Rotterdam Blaak",
+        "line": "ROTTB",
+        "order": 15
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.480863,
+          51.917999
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Beurs",
+        "line": "ROTTB",
+        "order": 16
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.473738,
+          51.916333
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Eendrachtsplein",
+        "line": "ROTTB",
+        "order": 17
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.466116,
+          51.912238
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Dijkzigt",
+        "line": "ROTTB",
+        "order": 18
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.458303,
+          51.909486
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Coolhaven",
+        "line": "ROTTB",
+        "order": 19
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4457,
+          51.909995
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Delfshaven",
+        "line": "ROTTB",
+        "order": 20
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.433592,
+          51.913024
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Marconiplein",
+        "line": "ROTTB",
+        "order": 21
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.408743,
+          51.922035
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Schiedam Centrum",
+        "line": "ROTTB",
+        "order": 22
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.383435,
+          51.922766
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Schiedam Nieuwland",
+        "line": "ROTTB",
+        "order": 23
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.361647,
+          51.910157
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Vlaardingen Oost",
+        "line": "ROTTB",
+        "order": 24
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.343813,
+          51.903136
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Vlaardingen Centrum",
+        "line": "ROTTB",
+        "order": 25
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.315118,
+          51.903771
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Vlaardingen West",
+        "line": "ROTTB",
+        "order": 26
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.253732,
+          51.916431
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Maassluis Centrum",
+        "line": "ROTTB",
+        "order": 27
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.235402,
+          51.926071
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Maassluis West",
+        "line": "ROTTB",
+        "order": 28
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.224853,
+          51.932597
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Steendijkpolder",
+        "line": "ROTTB",
+        "order": 29
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.127506,
+          51.976668
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Hoek van Holland Haven",
+        "line": "ROTTB",
+        "order": 30
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.105454,
+          51.986992
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Hoek van Holland Strand",
+        "line": "ROTTB",
+        "order": 31
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.319899,
+          51.833319
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "De Akkers",
+        "line": "ROTTC",
+        "order": 0
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.331637,
+          51.83775
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Heemraadlaan",
+        "line": "ROTTC",
+        "order": 1
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.334457,
+          51.846546
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Spijkenisse Centrum",
+        "line": "ROTTC",
+        "order": 2
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.362522,
+          51.854942
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Zalmplaat",
+        "line": "ROTTC",
+        "order": 3
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366781,
+          51.860617
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Hoogvliet",
+        "line": "ROTTC",
+        "order": 4
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.376772,
+          51.86263
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Tussenwater",
+        "line": "ROTTC",
+        "order": 5
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.38179,
+          51.884943
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Pernis",
+        "line": "ROTTC",
+        "order": 6
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.37199,
+          51.909154
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Vijfsluizen",
+        "line": "ROTTC",
+        "order": 7
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.384634,
+          51.91555
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Troelstralaan",
+        "line": "ROTTC",
+        "order": 8
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.393958,
+          51.92127
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Parkweg",
+        "line": "ROTTC",
+        "order": 9
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.408743,
+          51.922035
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Schiedam Centrum",
+        "line": "ROTTC",
+        "order": 10
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.433592,
+          51.913024
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Marconiplein",
+        "line": "ROTTC",
+        "order": 11
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4457,
+          51.909995
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Delfshaven",
+        "line": "ROTTC",
+        "order": 12
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.458289,
+          51.909471
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Coolhaven",
+        "line": "ROTTC",
+        "order": 13
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.466116,
+          51.912238
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Dijkzigt",
+        "line": "ROTTC",
+        "order": 14
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.473738,
+          51.916333
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Eendrachtsplein",
+        "line": "ROTTC",
+        "order": 15
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.480863,
+          51.917999
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Beurs",
+        "line": "ROTTC",
+        "order": 16
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.489074,
+          51.920072
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Rotterdam Blaak",
+        "line": "ROTTC",
+        "order": 17
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.496986,
+          51.923361
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Oostplein",
+        "line": "ROTTC",
+        "order": 18
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.505848,
+          51.925903
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Gerdesiaweg",
+        "line": "ROTTC",
+        "order": 19
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.513058,
+          51.925001
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Voorschoterlaan",
+        "line": "ROTTC",
+        "order": 20
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.533851,
+          51.92141
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Kralingse Zoom",
+        "line": "ROTTC",
+        "order": 21
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.557959,
+          51.921453
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Capelsebrug",
+        "line": "ROTTC",
+        "order": 22
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.578324,
+          51.928478
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Slotlaan",
+        "line": "ROTTC",
+        "order": 23
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.589559,
+          51.93138
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Capelle Centrum",
+        "line": "ROTTC",
+        "order": 24
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.600382,
+          51.935947
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "De Terp",
+        "line": "ROTTC",
+        "order": 25
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.319899,
+          51.833319
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "De Akkers",
+        "line": "ROTTD",
+        "order": 0
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.331637,
+          51.83775
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Heemraadlaan",
+        "line": "ROTTD",
+        "order": 1
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.334457,
+          51.846546
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Spijkenisse Centrum",
+        "line": "ROTTD",
+        "order": 2
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.362522,
+          51.854942
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Zalmplaat",
+        "line": "ROTTD",
+        "order": 3
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.366781,
+          51.860617
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Hoogvliet",
+        "line": "ROTTD",
+        "order": 4
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.376772,
+          51.86263
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Tussenwater",
+        "line": "ROTTD",
+        "order": 5
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.395793,
+          51.861724
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Poortugaal",
+        "line": "ROTTD",
+        "order": 6
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.419492,
+          51.859136
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Rhoon",
+        "line": "ROTTD",
+        "order": 7
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.477732,
+          51.874588
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Slinge",
+        "line": "ROTTD",
+        "order": 8
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.488327,
+          51.886895
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Zuidplein",
+        "line": "ROTTD",
+        "order": 9
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.494757,
+          51.897194
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Maashaven",
+        "line": "ROTTD",
+        "order": 10
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.496798,
+          51.903584
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Rijnhaven",
+        "line": "ROTTD",
+        "order": 11
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.492376,
+          51.907808
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Wilhelminaplein",
+        "line": "ROTTD",
+        "order": 12
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.481991,
+          51.914034
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Leuvehaven",
+        "line": "ROTTD",
+        "order": 13
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.480863,
+          51.917999
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Beurs",
+        "line": "ROTTD",
+        "order": 14
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.478512,
+          51.923237
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Stadhuis",
+        "line": "ROTTD",
+        "order": 15
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.469799,
+          51.923968
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Rotterdam Centraal",
+        "line": "ROTTD",
+        "order": 16
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.325531,
+          52.080763
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Den Haag Centraal",
+        "line": "ROTTE",
+        "order": 0
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.343264,
+          52.078971
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Den Haag Laan van NOI",
+        "line": "ROTTE",
+        "order": 1
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.365315,
+          52.082329
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Voorburg 't Loo",
+        "line": "ROTTE",
+        "order": 2
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.382061,
+          52.07758
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Leidschendam-Voorburg",
+        "line": "ROTTE",
+        "order": 3
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.392994,
+          52.06988
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Forepark",
+        "line": "ROTTE",
+        "order": 4
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.400391,
+          52.06473
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Leidschenveen",
+        "line": "ROTTE",
+        "order": 5
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.414704,
+          52.047552
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Nootdorp",
+        "line": "ROTTE",
+        "order": 6
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.436975,
+          52.020566
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Pijnacker Centrum",
+        "line": "ROTTE",
+        "order": 7
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.445805,
+          52.005003
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Pijnacker Zuid",
+        "line": "ROTTE",
+        "order": 8
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.45436,
+          51.990077
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Berkel Westpolder",
+        "line": "ROTTE",
+        "order": 9
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.460835,
+          51.975401
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Rodenrijs",
+        "line": "ROTTE",
+        "order": 10
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.462225,
+          51.955921
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Meijersplein / Airport",
+        "line": "ROTTE",
+        "order": 11
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.464634,
+          51.948473
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Melanchthonweg",
+        "line": "ROTTE",
+        "order": 12
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.458176,
+          51.930616
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Blijdorp",
+        "line": "ROTTE",
+        "order": 13
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.469799,
+          51.923968
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Rotterdam Centraal",
+        "line": "ROTTE",
+        "order": 14
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.478512,
+          51.923237
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Stadhuis",
+        "line": "ROTTE",
+        "order": 15
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.480863,
+          51.917999
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Beurs",
+        "line": "ROTTE",
+        "order": 16
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.481991,
+          51.914034
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Leuvehaven",
+        "line": "ROTTE",
+        "order": 17
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.492376,
+          51.907808
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Wilhelminaplein",
+        "line": "ROTTE",
+        "order": 18
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.496798,
+          51.903584
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Rijnhaven",
+        "line": "ROTTE",
+        "order": 19
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.494757,
+          51.897194
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Maashaven",
+        "line": "ROTTE",
+        "order": 20
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.488327,
+          51.886895
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Zuidplein",
+        "line": "ROTTE",
+        "order": 21
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.477732,
+          51.874588
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Slinge",
+        "line": "ROTTE",
+        "order": 22
+      },
+      "id": 117
+    }
+  ]
+}

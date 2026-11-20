@@ -1,0 +1,90 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "CTAMetroBlueLine": [
+      122020,
+      2672369
+    ],
+    "CTAMetroBrownLine": [
+      2562970
+    ],
+    "CTAMetroGreenLine": [
+      2613597,
+      2613598,
+      2613595,
+      2613596
+    ],
+    "CTAMetroOrangeLine": [
+      2578311
+    ],
+    "CTAMetroPinkLine": [
+      443970
+    ],
+    "CTAMetroPurpleLine": [
+      122552
+    ],
+    "CTAMetroRedLine": [
+      2584584,
+      2223300,
+      124354
+    ],
+    "CTAMetroYellowLine": [
+      2400823,
+      92653
+    ],
+    "ChicagoATS": [
+      9452050,
+      9452035
+    ],
+    "kenoshaStreetcar": [],
+    "Metra_UPN": [],
+    "Metra_BNSF": [
+      933014,
+      3117618
+    ],
+    "Metra_ME": [],
+    "Metra_ME_SC": [
+      8434938
+    ],
+    "Metra_RI_Bev": [
+      3117629,
+      3117628
+    ],
+    "Metra_MDW": [
+      3117611,
+      3117612
+    ],
+    "Metra_ME_BI": [
+      3117665,
+      3117669,
+      3117666,
+      933013
+    ],
+    "Metra_NCS": [],
+    "Metra_UPNW": [
+      3117605,
+      932963,
+      3117604,
+      3117606
+    ],
+    "Metra_UPW": [
+      3117614,
+      932961
+    ],
+    "Metra_RI": [],
+    "Metra_SWS": [
+      933012,
+      3117663
+    ],
+    "Metra_MDN": [],
+    "Metra_HC": [
+      933016,
+      3117624
+    ],
+    "NICTD_SSL": [],
+    "NICTD_MCL": []
+  }
+}

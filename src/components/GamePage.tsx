@@ -10,6 +10,7 @@ import FoundList from '@/components/FoundList'
 import FoundSummary from '@/components/FoundSummary'
 import Input from '@/components/Input'
 import IntroModal from '@/components/IntroModal'
+import LineBadge from '@/components/LineBadge'
 import MenuComponent from '@/components/Menu'
 import MiniCityLinksPanel from '@/components/MiniCityLinksPanel'
 import CustomGameModal from '@/components/CustomGameModal'
@@ -30,6 +31,7 @@ import useTranslation from '@/hooks/useTranslation'
 import { getAchievementForCity } from '@/lib/achievements'
 import { transformFeatureCollectionForAmapCached } from '@/lib/amapCoordinateTransform'
 import { appConfig } from '@/lib/appConfig'
+import { NEAR_BLACK_DARK_MODE_COLOR, isColorNearBlack } from '@/lib/colorUtils'
 import { useConfig } from '@/lib/configContext'
 import {
     formatLocalizedChinaUiDescription,
@@ -37,6 +39,7 @@ import {
 } from '@/lib/chinaUiText'
 import { buildChinaSafeMapStyle, buildOfflineMapStyle } from '@/lib/chinaSafeMapStyle'
 import { formatLocalizedCityName } from '@/lib/cityNameDisplay'
+import { formatLocalizedLineName } from '@/lib/lineNameDisplay'
 import { getCityStationAliases } from '@/lib/cityStationAliases'
 import { generateChineseDirectionalAlternates } from '@/lib/chineseDirectionalAliases'
 import {
@@ -676,7 +679,7 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = repairManualComplexGrou
   [
     { name: 'Livonia Av', line: 'NewYorkSubwayL' },
     { name: 'Livonia Av', line: 'IBX' },
-    { name: 'Junius St', line: 'NewYorkSubway4' },
+    { name: 'Junius St', line: 'NewYorkSubway3' },
   ],
   [
     { name: 'Lorimer St', line: 'NewYorkSubwayJ' },
@@ -686,11 +689,6 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = repairManualComplexGrou
   [
     { name: '2 Av', line: 'NewYorkSubwayF' },
     { name: '2 Av', line: 'NewYorkSubwayFX' },
-    { name: 'Houston St', line: 'NewYorkSubwayT' },
-  ],
-  [
-    { name: '42 St', line: 'NewYorkSubwayT' },
-    { name: 'Grand Central - 42 St' },
   ],
   [
     { name: 'Far Rockaway - Mott Av', line: 'NewYorkSubwayA' },
@@ -707,7 +705,6 @@ const MANUAL_COMPLEX_GROUPS: ManualComplexSelector[][] = repairManualComplexGrou
     { name: '125 St', line: 'NewYorkSubway6' },
     { name: '125 St', line: 'NewYorkSubway6X' },
     { name: '125 St', line: 'NewYorkSubwayQ' },
-    { name: '125 St', line: 'NewYorkSubwayT' },
   ],
   [
     { name: 'Times Sq - 42 St' },
@@ -2599,7 +2596,7 @@ function GamePageContent({
     if (highlightedLineId) {
         const timer = setTimeout(() => {
             setHighlightedLineId(null)
-        }, 3000)
+        }, 5000)
         return () => clearTimeout(timer)
     }
   }, [highlightedLineId])
@@ -3085,6 +3082,56 @@ function GamePageContent({
   useEffect(() => {
     foundRef.current = found
   }, [found])
+
+  // Stations (or lines) added after a player found a station: count every
+  // station that a guess for it would have counted too (same transfer group,
+  // or the same station name), so saved progress picks up new transfers.
+  const sameStationIdsById = useMemo(() => {
+    const byName = new Map<string, number[]>()
+    idMap.forEach((feature, id) => {
+      const name = (feature.properties?.name ?? '').trim().toLowerCase()
+      if (!name) return
+      const ids = byName.get(name)
+      if (ids) ids.push(id)
+      else byName.set(name, [id])
+    })
+    const result = new Map<number, number[]>()
+    idMap.forEach((feature, id) => {
+      const name = (feature.properties?.name ?? '').trim().toLowerCase()
+      const ids = new Set<number>([
+        ...(clusterMembersById.get(id) ?? []),
+        ...(name ? byName.get(name) ?? [] : []),
+      ])
+      ids.delete(id)
+      if (ids.size > 0) result.set(id, Array.from(ids))
+    })
+    return result
+  }, [clusterMembersById, idMap])
+
+  useEffect(() => {
+    if (!localFound || found.length === 0) return
+    const foundSet = new Set(found)
+    const sourceById = new Map<number, number>()
+    for (const id of found) {
+      for (const other of sameStationIdsById.get(id) ?? []) {
+        if (!foundSet.has(other) && !sourceById.has(other)) {
+          sourceById.set(other, id)
+        }
+      }
+    }
+    if (sourceById.size === 0) return
+    setFound([...found, ...sourceById.keys()])
+    setFoundTimestamps((prev) => {
+      const next = { ...prev }
+      sourceById.forEach((sourceId, id) => {
+        const key = String(id)
+        if (!next[key]) {
+          next[key] = prev[String(sourceId)] ?? new Date().toISOString()
+        }
+      })
+      return next
+    })
+  }, [found, localFound, sameStationIdsById, setFound, setFoundTimestamps])
 
   useEffect(() => {
     if (miniCityLinks?.mode !== 'child') {
@@ -4894,7 +4941,27 @@ function GamePageContent({
       const hoverHaloColor = isDarkTheme
         ? 'rgba(0, 0, 0, 0.85)'
         : 'rgb(255, 255, 255)'
-      const routeColorExpression: any = ['get', 'color']
+      // Near-black lines (e.g. Nanjing's Hexi Tram) vanish on the dark map, so
+      // draw them light grey there; every other line keeps its own colour.
+      const nearBlackRouteColors = isDarkTheme
+        ? Array.from(
+            new Set(
+              (renderDisplayRoutes?.features ?? [])
+                .map((feature: any) => feature?.properties?.color)
+                .filter((color: unknown): color is string => typeof color === 'string')
+                .filter((color: string) => isColorNearBlack(color)),
+            ),
+          )
+        : []
+      const routeColorExpression: any =
+        nearBlackRouteColors.length > 0
+          ? [
+              'case',
+              ['in', ['get', 'color'], ['literal', nearBlackRouteColors]],
+              NEAR_BLACK_DARK_MODE_COLOR,
+              ['get', 'color'],
+            ]
+          : ['get', 'color']
       const initialRenderedCollections = renderCullingEnabled
         ? getRenderedCollections(getMapBoundsTuple(mapboxMap.getBounds()))
         : {
@@ -5648,6 +5715,149 @@ function GamePageContent({
     reapplyFoundFeatureState(map)
   }, [found, map, reapplyFoundFeatureState])
 
+  // Double-clicking a route highlights that line on the map itself: the
+  // other lines fade back and the picked one gets a contrasting halo, so it
+  // stands out in light mode too (where the sidebar's yellow ring is faint).
+  const routeOpacityBackupRef = useRef<Record<string, any>>({})
+  useEffect(() => {
+    if (!map) return
+
+    const HALO_ID = 'game-routes-highlight-halo'
+    const LINE_ID = 'game-routes-highlight-line'
+    const DIMMABLE_LAYERS = [
+      'game-routes-line-casing',
+      'game-routes-line',
+      'sir-local-line-casing',
+      'sir-local-line',
+      'pascack-line-casing',
+      'pascack-line',
+      'game-routes-line-future',
+    ]
+    const backups = routeOpacityBackupRef.current
+
+    const restore = () => {
+      try {
+        if (map.getLayer(LINE_ID)) map.removeLayer(LINE_ID)
+        if (map.getLayer(HALO_ID)) map.removeLayer(HALO_ID)
+        for (const layerId of DIMMABLE_LAYERS) {
+          if (!(layerId in backups)) continue
+          if (map.getLayer(layerId)) {
+            map.setPaintProperty(layerId, 'line-opacity', backups[layerId])
+          }
+          delete backups[layerId]
+        }
+      } catch {
+        // style may be mid-reload; nothing to restore then
+      }
+    }
+
+    if (!highlightedLineId) {
+      restore()
+      return
+    }
+
+    const isDarkTheme = resolvedTheme === 'dark'
+    const apply = () => {
+      try {
+        if (!map.getSource('game-routes') || !map.getLayer('game-routes-line')) return
+        const isPicked: any = ['==', ['get', 'line'], highlightedLineId]
+
+        for (const layerId of DIMMABLE_LAYERS) {
+          if (!map.getLayer(layerId)) continue
+          if (!(layerId in backups)) {
+            backups[layerId] = map.getPaintProperty(layerId, 'line-opacity') ?? 1
+          }
+          const base = typeof backups[layerId] === 'number' ? backups[layerId] : 0.9
+          map.setPaintProperty(layerId, 'line-opacity', [
+            'case',
+            isPicked,
+            base,
+            Math.min(base, 0.18),
+          ])
+        }
+
+        const beforeId = map.getLayer('stations') ? 'stations' : undefined
+        const widthScale = (scale: number): any => [
+          'interpolate',
+          ['linear'],
+          ['zoom'],
+          9,
+          2.5 * scale,
+          16,
+          6 * scale,
+          22,
+          8 * scale,
+        ]
+
+        if (!map.getLayer(HALO_ID)) {
+          map.addLayer(
+            {
+              id: HALO_ID,
+              type: 'line',
+              source: 'game-routes',
+              filter: isPicked,
+              layout: { 'line-cap': 'round', 'line-join': 'round' },
+              paint: {
+                'line-width': widthScale(2.6),
+                'line-color': isDarkTheme ? '#ffffff' : '#18181b',
+                'line-opacity': isDarkTheme ? 0.9 : 0.85,
+                'line-blur': 0.5,
+              },
+            },
+            beforeId,
+          )
+        } else {
+          map.setFilter(HALO_ID, isPicked)
+          map.setPaintProperty(HALO_ID, 'line-color', isDarkTheme ? '#ffffff' : '#18181b')
+        }
+
+        if (!map.getLayer(LINE_ID)) {
+          map.addLayer(
+            {
+              id: LINE_ID,
+              type: 'line',
+              source: 'game-routes',
+              filter: isPicked,
+              layout: { 'line-cap': 'round', 'line-join': 'round' },
+              paint: {
+                'line-width': widthScale(1.6),
+                'line-color': map.getPaintProperty('game-routes-line', 'line-color') as any,
+                'line-opacity': 1,
+              },
+            },
+            beforeId,
+          )
+        } else {
+          map.setFilter(LINE_ID, isPicked)
+        }
+      } catch (error) {
+        console.error('Failed to highlight line', error)
+      }
+    }
+
+    apply()
+    map.on('styledata', apply)
+    return () => {
+      map.off('styledata', apply)
+    }
+  }, [map, highlightedLineId, resolvedTheme])
+
+  useEffect(() => {
+    if (!map || !highlightedLineId) return
+    // a single click anywhere else dismisses the highlight early
+    const clear = (event: mapboxgl.MapMouseEvent) => {
+      const hits = map.getLayer('game-routes-line')
+        ? map.queryRenderedFeatures(event.point, { layers: ['game-routes-line'] })
+        : []
+      if (hits.some((f) => f.properties?.line === highlightedLineId)) return
+      setHighlightedLineId(null)
+    }
+    map.on('click', clear)
+    return () => {
+      map.off('click', clear)
+    }
+  }, [map, highlightedLineId])
+
   useEffect(() => {
     if (!map) {
       return
@@ -5868,6 +6078,29 @@ function GamePageContent({
       ) : null}
       <div className="relative flex-1 min-w-0 h-full">
         <div ref={mapContainerRef} className="absolute inset-0 h-full w-full" />
+        {highlightedLineId && LINES[highlightedLineId] ? (
+          <div
+            key={highlightedLineId}
+            role="status"
+            className="pointer-events-none absolute bottom-10 left-1/2 z-30 flex max-w-[calc(100%-7rem)] -translate-x-1/2 items-center gap-2.5 rounded-full bg-zinc-900/90 py-1.5 pl-1.5 pr-4 text-sm font-semibold text-white shadow-xl ring-2 ring-white/80 backdrop-blur dark:bg-white/95 dark:text-zinc-900 dark:ring-zinc-900/60"
+          >
+            <LineBadge
+              lineId={highlightedLineId}
+              line={LINES[highlightedLineId]}
+              iconBasePath={cityPath}
+              defaultFit="cover"
+            />
+            <span className="truncate">
+              {formatLocalizedLineName(LINES[highlightedLineId].name, settings.language) ||
+                LINES[highlightedLineId].name}
+            </span>
+            {typeof stationsPerLine[highlightedLineId] === 'number' ? (
+              <span className="shrink-0 font-normal opacity-75">
+                {foundStationsPerLine[highlightedLineId] ?? 0}/{stationsPerLine[highlightedLineId]}
+              </span>
+            ) : null}
+          </div>
+        ) : null}
         {!zenMode && map ? (
           <div className="pointer-events-auto absolute bottom-10 left-3 z-30 flex flex-col overflow-hidden rounded-[1.5rem] bg-white/90 text-zinc-700 shadow-lg ring-1 ring-white/60 backdrop-blur dark:bg-zinc-900/80 dark:text-zinc-100 dark:ring-black/50">
             <button

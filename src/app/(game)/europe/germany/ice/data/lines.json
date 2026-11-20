@@ -1,0 +1,290 @@
+{
+  "ICE1": {
+    "name": "ICE 1: Hamburg – Köln",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "ICE1.svg"
+  },
+  "ICE2": {
+    "name": "ICE 2: München – Düsseldorf",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "ICE2.svg"
+  },
+  "ICE4": {
+    "name": "ICE 4: Frankfurt – Hamburg",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "ICE4.svg"
+  },
+  "ICE8": {
+    "name": "ICE 8: München – Berlin",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "ICE8.svg"
+  },
+  "ICE10": {
+    "name": "ICE 10: Köln/Bonn Flughafen – Berlin-Gesundbrunnen",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "ICE10.svg"
+  },
+  "ICE11": {
+    "name": "ICE 11: Berlin – München",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "ICE11.svg"
+  },
+  "ICE12": {
+    "name": "ICE 12: Berlin Ostbahnhof – Interlaken Ost",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "ICE12.svg"
+  },
+  "ICE13": {
+    "name": "ICE 13: Berlin – Frankfurt",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "ICE13.svg"
+  },
+  "ICE15": {
+    "name": "ICE 15: Ostseebad Binz – Frankfurt",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "ICE15.svg"
+  },
+  "ICE16": {
+    "name": "ICE 16",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "ICE16.svg"
+  },
+  "ICE18": {
+    "name": "ICE 18: München – Hamburg Hbf",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "ICE18.svg"
+  },
+  "ICE19": {
+    "name": "ICE 19: Koblenz – Berlin",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "ICE19.svg"
+  },
+  "ICE20": {
+    "name": "ICE 20: Hamburg – Basel",
+    "color": "#0D47A1",
+    "backgroundColor": "#0D47A1",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "ICE20.svg"
+  },
+  "ICE22": {
+    "name": "ICE 22: Hamburg-Altona – Stuttgart",
+    "color": "#4A148C",
+    "backgroundColor": "#4A148C",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "ICE22.svg"
+  },
+  "ICE25": {
+    "name": "ICE 25: München – Hamburg-Altona",
+    "color": "#E65100",
+    "backgroundColor": "#E65100",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "ICE25.svg"
+  },
+  "ICE26": {
+    "name": "ICE 26: Karlsruhe – Hamburg-Altona",
+    "color": "#006064",
+    "backgroundColor": "#006064",
+    "textColor": "#FFFFFF",
+    "order": 15,
+    "icon": "ICE26.svg"
+  },
+  "ICE28": {
+    "name": "ICE 28: München – Hamburg",
+    "color": "#880E4F",
+    "backgroundColor": "#880E4F",
+    "textColor": "#FFFFFF",
+    "order": 16,
+    "icon": "ICE28.svg"
+  },
+  "ICE29": {
+    "name": "ICE 29: Berlin – München",
+    "color": "#33691E",
+    "backgroundColor": "#33691E",
+    "textColor": "#FFFFFF",
+    "order": 17,
+    "icon": "ICE29.svg"
+  },
+  "ICE33": {
+    "name": "ICE 33: Binz – Hamburg",
+    "color": "#3E2723",
+    "backgroundColor": "#3E2723",
+    "textColor": "#FFFFFF",
+    "order": 18,
+    "icon": "ICE33.svg"
+  },
+  "ICE39": {
+    "name": "ICE 39: Passau – Hamburg",
+    "color": "#263238",
+    "backgroundColor": "#263238",
+    "textColor": "#FFFFFF",
+    "order": 19,
+    "icon": "ICE39.svg"
+  },
+  "ICE41": {
+    "name": "ICE 41: München – Essen",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 20,
+    "icon": "ICE41.svg"
+  },
+  "ICE42": {
+    "name": "ICE 42: Dortmund – München",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 21,
+    "icon": "ICE42.svg"
+  },
+  "ICE43": {
+    "name": "ICE 43: Hannover – Basel",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 22,
+    "icon": "ICE43.svg"
+  },
+  "ICE45": {
+    "name": "ICE 45: Mainz – Köln",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 23,
+    "icon": "ICE45.svg"
+  },
+  "ICE47": {
+    "name": "ICE 47: Dortmund – München",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 24,
+    "icon": "ICE47.svg"
+  },
+  "ICE49": {
+    "name": "ICE 49: Köln Hbf – Frankfurt (Main) Hbf",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 25,
+    "icon": "ICE49.svg"
+  },
+  "ICE50": {
+    "name": "ICE 50: Frankfurt Flughafen – Leipzig",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 26,
+    "icon": "ICE50.svg"
+  },
+  "ICE60": {
+    "name": "ICE 60: Basel Bad Bf – München",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 27,
+    "icon": "ICE60.svg"
+  },
+  "ICE78": {
+    "name": "ICE 78: Amsterdam – Frankfurt",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 28,
+    "icon": "ICE78.svg"
+  },
+  "ICE79": {
+    "name": "ICE 79: Bruxelles-Midi – Frankfurt",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 29,
+    "icon": "ICE79.svg"
+  },
+  "ICE82": {
+    "name": "ICE/TGV 82: Paris Est – Frankfurt (Main) Hbf",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 30,
+    "icon": "ICE82.svg"
+  },
+  "ICE83": {
+    "name": "ICE/TGV 83: München Hbf – Paris Est",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 31,
+    "icon": "ICE83.svg"
+  },
+  "ICE84": {
+    "name": "ICE/TGV 84: Frankfurt (Main) Hbf – Marseille Saint-Charles",
+    "color": "#0D47A1",
+    "backgroundColor": "#0D47A1",
+    "textColor": "#FFFFFF",
+    "order": 32,
+    "icon": "ICE84.svg"
+  },
+  "ICE90": {
+    "name": "ICE 90: München – Budapest",
+    "color": "#4A148C",
+    "backgroundColor": "#4A148C",
+    "textColor": "#FFFFFF",
+    "order": 33,
+    "icon": "ICE90.svg"
+  },
+  "ICE91": {
+    "name": "ICE 91: Dortmund – Wien Hauptbahnhof",
+    "color": "#E65100",
+    "backgroundColor": "#E65100",
+    "textColor": "#FFFFFF",
+    "order": 34,
+    "icon": "ICE91.svg"
+  },
+  "ICE9590": {
+    "name": "ICE/TGV 9590: Berlin – Paris Est",
+    "color": "#006064",
+    "backgroundColor": "#006064",
+    "textColor": "#FFFFFF",
+    "order": 35,
+    "icon": "ICE9590.svg"
+  }
+}

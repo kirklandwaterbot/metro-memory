@@ -1,0 +1,209 @@
+{
+  "slug": "sncf",
+  "path": "europe/france/sncf",
+  "gameTitle": "SNCF TGV & Intercités Memory",
+  "description": "How many TGV, Ouigo and Intercités stations can you name from memory?",
+  "locale": "fr_FR",
+  "bbox": [
+    41.0,
+    -5.5,
+    52.0,
+    10.5
+  ],
+  "altTags": [
+    "name:fr"
+  ],
+  "stationRadius": 500,
+  "simplifyM": 80,
+  "minZoom": 4.5,
+  "nameReplace": [
+    [
+      "^Gare Montparnasse$",
+      "Paris Montparnasse"
+    ],
+    [
+      "^Gare de l'Est$",
+      "Paris Est"
+    ],
+    [
+      "^Gare du Nord$",
+      "Paris Gare du Nord"
+    ],
+    [
+      "^Gare de Lyon$",
+      "Paris Gare de Lyon"
+    ],
+    [
+      "^Gare d'Austerlitz$",
+      "Paris Austerlitz"
+    ],
+    [
+      "^Paris[- ]Gare[- ]de[- ]Lyon.*$",
+      "Paris Gare de Lyon"
+    ],
+    [
+      "^Paris[- ]Gare[- ]du[- ]Nord$",
+      "Paris Gare du Nord"
+    ],
+    [
+      "\\s+Hauptbahnhof$",
+      " Hbf"
+    ],
+    [
+      "\\s*-\\s*Voie.*$",
+      ""
+    ]
+  ],
+  "lineGroups": [
+    {
+      "title": "TGV inOui",
+      "lines": [
+        "SNCFTGVAtlantiqueBretagn",
+        "SNCFTGVAtlantiqueSudOues",
+        "SNCFTGVSudEst",
+        "SNCFTGVEst",
+        "SNCFTGVNord",
+        "SNCFTGVIntersecteurs"
+      ]
+    },
+    {
+      "title": "Ouigo & Intercités",
+      "lines": [
+        "SNCFOuigo",
+        "SNCFIntercits"
+      ]
+    },
+    {
+      "title": "International",
+      "lines": [
+        "SNCFTGVLyria",
+        "SNCFInternational"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SNCFTGVAtlantiqueBretagn",
+      "name": "TGV Atlantique (Bretagne & Pays de la Loire)",
+      "match": {
+        "@id": "^(395151|1560893|2826656|2826657|5926938|5926939)$"
+      },
+      "color": "#0088CE",
+      "textColor": "#FFFFFF",
+      "badge": "AB",
+      "icon": "SNCFTGVAtlantiqueBretagn.svg"
+    },
+    {
+      "id": "SNCFTGVAtlantiqueSudOues",
+      "name": "TGV Atlantique (Sud-Ouest)",
+      "match": {
+        "@id": "^(5928760|5928761|5928799|5928800|5928812)$"
+      },
+      "color": "#00A1A6",
+      "textColor": "#FFFFFF",
+      "badge": "AS",
+      "icon": "SNCFTGVAtlantiqueSudOues.svg"
+    },
+    {
+      "id": "SNCFTGVSudEst",
+      "name": "TGV Sud-Est",
+      "match": {
+        "@id": "^(3209287|3227018|3265872|3876675|3989302|3989305|3989311|3989312|3989313|4465331|4465900|5930349|5932019|5932020|5932021|5932596|5946428|9775190|11748382|11748383|11748384|11748385|11748386|11748387|11748388|11748389|11748390|11748391|11748392|11748393|11748394|11748395|11748396|6363004|6363326|6363999|6364727|6365150|6365686)$"
+      },
+      "color": "#E05206",
+      "textColor": "#FFFFFF",
+      "badge": "SE",
+      "icon": "SNCFTGVSudEst.svg"
+    },
+    {
+      "id": "SNCFTGVEst",
+      "name": "TGV Est",
+      "match": {
+        "@id": "^(2078076|2466527|2900462|3812487|5920986|5922256|5922736|5922762|5922800|5934468|5934469|5934470|5935098|5935099|6149052|6149053|6379086|6379087|6786083|6786086|6786087|6786088|6870792|8536525|8536526|8536617|8536618|11775025|11775028|11879297|11889376|21143903|21143905|21151417|21151418|21154857|21154858|21157650|21157651|21157652|21157748|21158032|21158033|21158034|21158035|21158036|21158037|21158498|21158499|21158500|21158501|21158502|21158503|21158504|21158505|21158506|21158507|21158508|21158752|21158753|21158754|21158755|21158756|21158757|21158758|21158759|21158760|21158761|21161913|21161915|21161916|21161918|21161919|21161920|21161921|21161922|21162677|21162678|21162679|21162680|21162681|21162682)$"
+      },
+      "color": "#A1006B",
+      "textColor": "#FFFFFF",
+      "badge": "E",
+      "icon": "SNCFTGVEst.svg"
+    },
+    {
+      "id": "SNCFTGVNord",
+      "name": "TGV Nord",
+      "match": {
+        "@id": "^(5926413|5926414|5926450|5926451|11950388|11961075|12028196|19506494|19506495|19506496|19506497|19506498)$"
+      },
+      "color": "#6E2C8F",
+      "textColor": "#FFFFFF",
+      "badge": "N",
+      "icon": "SNCFTGVNord.svg"
+    },
+    {
+      "id": "SNCFTGVIntersecteurs",
+      "name": "TGV Intersecteurs",
+      "match": {
+        "@id": "^(3876792|5936703|5936705|5936706|5936708|5936748|5938182|5943884|5946426|6375972|6376192|9190793|11741862|11741863|11741864|11891954|12027955|21290925|21301113|21305476|21305476|21305477|21420937|21420938)$"
+      },
+      "color": "#C1002A",
+      "textColor": "#FFFFFF",
+      "badge": "IS",
+      "icon": "SNCFTGVIntersecteurs.svg"
+    },
+    {
+      "id": "SNCFTGVLyria",
+      "name": "TGV Lyria",
+      "match": {
+        "@id": "^(331730|3093216|3310799|5948662|6166346|19963226|19964300)$"
+      },
+      "color": "#B2003A",
+      "textColor": "#FFFFFF",
+      "badge": "Ly",
+      "icon": "SNCFTGVLyria.svg"
+    },
+    {
+      "id": "SNCFOuigo",
+      "name": "Ouigo",
+      "match": {
+        "@id": "^(5928816|5945160|5945161|5945164|6786089|19302063|19302064|21159004|21159005|21159006|21371338|21371422|21371432|21373748|21373749|21373750|21373751|21373752|21373753|21373754|21376005|21376006|21376007|21376008|21379394|21379395|21379396|21379397|21379398)$"
+      },
+      "color": "#E6007E",
+      "textColor": "#FFFFFF",
+      "badge": "O",
+      "icon": "SNCFOuigo.svg"
+    },
+    {
+      "id": "SNCFIntercits",
+      "name": "Intercités",
+      "match": {
+        "@id": "^(401466|406826|407260|1085896|2827379|3975044|3975278|5929295|5929296|5945014|5945361|5946427|8388268|11757759|11757760|11757761|11757762|11757763|11757764|11757765|11757766|11757767|11757768|11757769|11757770|11783093|11783094|11783095|21145047|21145048|10597036)$"
+      },
+      "color": "#5E6A71",
+      "textColor": "#FFFFFF",
+      "badge": "IC",
+      "icon": "SNCFIntercits.svg"
+    },
+    {
+      "id": "SNCFInternational",
+      "name": "International",
+      "match": {
+        "@id": "^(5946430|11799465|11799466|11799467|11799468|11874224|11874225)$"
+      },
+      "color": "#2E7D32",
+      "textColor": "#FFFFFF",
+      "badge": "Int",
+      "icon": "SNCFInternational.svg"
+    }
+  ],
+  "register": {
+    "name": "SNCF (TGV & Intercités), FR",
+    "continent": "Europe",
+    "coordinates": [
+      2.35,
+      46.6
+    ],
+    "zh": "法国国铁, FR",
+    "achievement": {
+      "title": "Grande Vitesse",
+      "description": "You've named every TGV, Ouigo and Intercités station."
+    }
+  }
+}

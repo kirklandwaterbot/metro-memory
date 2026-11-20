@@ -1,0 +1,74 @@
+{
+  "slug": "panama-city",
+  "path": "north-america/panama/panama-city",
+  "gameTitle": "Panama Metro Memory",
+  "description": "How many Panama Metro stations can you name from memory?",
+  "locale": "es_PA",
+  "bbox": [
+    8.795,
+    -79.728,
+    9.245,
+    -79.272
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Panama Metro",
+      "lines": [
+        "PANAL1",
+        "PANAL2",
+        "PANARAMALLNE"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "PANAL1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(7706228|7712335)$"
+      },
+      "color": "#DF2937",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "PANAL1.svg"
+    },
+    {
+      "id": "PANAL2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(9502695|9502696)$"
+      },
+      "color": "#48A23E",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "PANAL2.svg"
+    },
+    {
+      "id": "PANARAMALLNE",
+      "name": "Line 2 Airport Branch",
+      "match": {
+        "@id": "^(15624911|15656057)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "2A",
+      "icon": "PANARAMALLNE.svg"
+    }
+  ],
+  "register": {
+    "name": "Panama City, PA",
+    "continent": "North America",
+    "coordinates": [
+      -79.5,
+      9.02
+    ],
+    "zh": "巴拿马城, PA",
+    "achievement": {
+      "title": "Panama Metro Master",
+      "description": "You've named every Panama Metro station."
+    }
+  }
+}

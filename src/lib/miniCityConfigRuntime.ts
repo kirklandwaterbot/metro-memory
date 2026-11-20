@@ -1,4 +1,5 @@
 import type { Config } from './types'
+import { loadCityConfig } from './cityConfigRuntime'
 
 export const loadMiniCityParentConfig = async (
   parentSlug: string,
@@ -54,6 +55,7 @@ export const loadMiniCityParentConfig = async (
       return configModule.default
     }
     default:
-      return null
+      // every other parent city loads through the generic city config loader
+      return loadCityConfig(parentSlug).catch(() => null)
   }
 }

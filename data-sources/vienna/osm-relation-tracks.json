@@ -1,0 +1,40 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "ViennaUBahnU1": [
+      22494,
+      2928586,
+      20288740,
+      20288741
+    ],
+    "ViennaUBahnU2": [
+      27114,
+      2919734,
+      14543015,
+      14543016
+    ],
+    "ViennaUBahnU3": [
+      2928575,
+      20309
+    ],
+    "ViennaUBahnU4": [
+      2852864,
+      5954448
+    ],
+    "ViennaUBahnU6": [
+      2853012,
+      5954449
+    ],
+    "ViennaStrassenbahn38": [
+      2294914,
+      2294915
+    ],
+    "ViennaStrassenbahn44": [
+      1799482,
+      1799481
+    ]
+  }
+}

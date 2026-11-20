@@ -1,0 +1,120 @@
+{
+  "slug": "tokyo-area",
+  "path": "asia/japan/tokyo-area",
+  "gameTitle": "Greater Tokyo Metros Memory",
+  "description": "How many Greater Tokyo Metros stations can you name from memory?",
+  "locale": "ja_JP",
+  "bbox": [
+    35.435,
+    139.411,
+    36.065,
+    140.189
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ja-Latn",
+      "name:ja_rm"
+    ],
+    "altTags": [
+      "name:ja-Hira",
+      "name:ja_kana"
+    ],
+    "strip": "(駅|停留場|停留所)$"
+  },
+  "lineGroups": [
+    {
+      "title": "Greater Tokyo Metros",
+      "lines": [
+        "TOKYNS",
+        "TOKYNT",
+        "TOKYR",
+        "TOKYSR",
+        "TOKYTR",
+        "TOKYU"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "TOKYNS",
+      "name": "New Shuttle",
+      "match": {
+        "@id": "^(1949290|9346453)$"
+      },
+      "color": "#10A899",
+      "textColor": "#FFFFFF",
+      "badge": "NS",
+      "icon": "TOKYNS.svg"
+    },
+    {
+      "id": "TOKYNT",
+      "name": "Nippori-Toneri Liner",
+      "match": {
+        "@id": "^(3423146|9253570)$"
+      },
+      "color": "#FF69B4",
+      "textColor": "#FFFFFF",
+      "badge": "NT",
+      "icon": "TOKYNT.svg"
+    },
+    {
+      "id": "TOKYR",
+      "name": "Rinkai Line",
+      "match": {
+        "@id": "^(3304256|7963668)$"
+      },
+      "color": "#00389E",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "TOKYR.svg"
+    },
+    {
+      "id": "TOKYSR",
+      "name": "Saitama Rapid Railway Line",
+      "match": {
+        "@id": "^(7002081|9336149)$"
+      },
+      "color": "#3564AF",
+      "textColor": "#FFFFFF",
+      "badge": "SR",
+      "icon": "TOKYSR.svg"
+    },
+    {
+      "id": "TOKYTR",
+      "name": "Tōyō Rapid Railway Line",
+      "match": {
+        "@id": "^(6683982|9283468)$"
+      },
+      "color": "#02AC39",
+      "textColor": "#FFFFFF",
+      "badge": "TR",
+      "icon": "TOKYTR.svg"
+    },
+    {
+      "id": "TOKYU",
+      "name": "Yurikamome",
+      "match": {
+        "@id": "^(3300716|3670770)$"
+      },
+      "color": "#1662B8",
+      "textColor": "#FFFFFF",
+      "badge": "U",
+      "icon": "TOKYU.svg"
+    }
+  ],
+  "register": {
+    "name": "Greater Tokyo (首都圏), TKY",
+    "continent": "Asia",
+    "coordinates": [
+      139.8,
+      35.75
+    ],
+    "zh": "东京周边地铁, JP",
+    "achievement": {
+      "title": "Greater Tokyo Metros Master",
+      "description": "You've named every Greater Tokyo Metros station."
+    }
+  }
+}

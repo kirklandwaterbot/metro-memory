@@ -3,32 +3,213 @@
   "path": "asia/china/jiaxing",
   "style": "generic",
   "stationRadius": 500,
-  "english": {},
-  "alternates": {},
+  "english": {
+    "嘉兴南站": "Jiaxing South Railway Station",
+    "庆丰路基地": "Qingfeng Road Depot",
+    "由拳路商务大道": "Youquan Road & Shangwu Avenue",
+    "纺工路由拳路 中央公园": "Fanggong Road & Youquan Road (Central Park)",
+    "嘉兴一中": "Jiaxing No. 1 Middle School",
+    "纺工路南溪西路": "Fanggong Road & Nanxi Road West (Nanhu Lakeside)",
+    "中山东路建国南路": "Zhongshan Road East & Jianguo Road South (Pingshan)",
+    "中山东路安乐路": "Zhongshan Road East & Anle Road (Xuhui Plaza)"
+  },
+  "alternates": {
+    "嘉兴南站": [
+      "Jiaxing South",
+      "Jiaxingnan",
+      "South Jiaxing",
+      "嘉兴南"
+    ],
+    "庆丰路基地": [
+      "有轨电车庆丰路基地",
+      "Tram Qingfeng Road Depot",
+      "Qingfeng Road Base"
+    ],
+    "纺工路由拳路 中央公园": [
+      "纺工路由拳路",
+      "纺工路由拳路（中央公园）",
+      "中央公园",
+      "Central Park",
+      "Fanggong Road & Youquan Road"
+    ],
+    "嘉兴一中": [
+      "Jiaxing No.1 Middle School",
+      "Jiaxing First Middle School",
+      "Jiaxing No. 1 High School"
+    ],
+    "纺工路南溪西路": [
+      "纺工路南溪西路（南湖湖滨）",
+      "南湖湖滨",
+      "Nanhu Lakeside",
+      "Fanggong Road & Nanxi Road West"
+    ],
+    "中山东路建国南路": [
+      "中山东路建国南路（瓶山）",
+      "建国南路中山东路",
+      "瓶山",
+      "Pingshan",
+      "Zhongshan Road East & Jianguo Road South"
+    ],
+    "中山东路安乐路": [
+      "中山东路安乐路（旭辉广场）",
+      "旭辉广场",
+      "Xuhui Plaza",
+      "Zhongshan Road East & Anle Road"
+    ]
+  },
   "lines": [
     {
       "id": "jiaxingt1",
       "name": "Tram T1",
       "match": {
-        "network": "嘉兴有轨电车"
-      }
-    },
-    {
-      "id": "jiaxingt2",
-      "name": "Tram T2",
-      "match": {
         "route": "tram",
-        "name": "嘉兴南站==>"
-      }
+        "name": "嘉兴有轨电车T1线|嘉兴南站==>"
+      },
+      "stations": [
+        "嘉兴南站",
+        "庆丰路基地",
+        "庆丰路长水路",
+        "由拳路双溪路",
+        "由拳路商务大道",
+        "纺工路由拳路 中央公园",
+        "嘉兴一中",
+        "纺工路烟雨路",
+        "纺工路南溪西路",
+        "纺工路景湖路",
+        "纺工路滨河路",
+        "嘉兴火车站",
+        "人民公园",
+        "中山东路建国南路",
+        "中山东路禾兴南路",
+        "中山东路安乐路"
+      ],
+      "color": "#E8171A",
+      "icon": "asia/china/jiaxing/jiaxingt1.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
+      },
+      "extraTrack": [
+        {
+          "osmWay": 959269377,
+          "coords": [
+            [
+              120.797036,
+              30.699193
+            ],
+            [
+              120.797091,
+              30.697978
+            ],
+            [
+              120.797136,
+              30.697455
+            ],
+            [
+              120.797186,
+              30.696974
+            ],
+            [
+              120.797194,
+              30.696898
+            ],
+            [
+              120.797199,
+              30.696847
+            ],
+            [
+              120.797214,
+              30.696764
+            ],
+            [
+              120.797222,
+              30.696725
+            ],
+            [
+              120.797239,
+              30.696638
+            ],
+            [
+              120.797255,
+              30.69656
+            ],
+            [
+              120.797269,
+              30.69652
+            ],
+            [
+              120.797302,
+              30.696426
+            ],
+            [
+              120.797319,
+              30.696386
+            ],
+            [
+              120.79734,
+              30.696335
+            ],
+            [
+              120.797727,
+              30.695529
+            ],
+            [
+              120.797905,
+              30.695098
+            ],
+            [
+              120.797935,
+              30.694993
+            ],
+            [
+              120.797916,
+              30.694884
+            ],
+            [
+              120.797885,
+              30.694806
+            ],
+            [
+              120.79787,
+              30.694777
+            ],
+            [
+              120.797764,
+              30.694672
+            ],
+            [
+              120.797255,
+              30.694423
+            ],
+            [
+              120.795199,
+              30.693548
+            ]
+          ]
+        },
+        {
+          "osmWay": 959269378,
+          "coords": [
+            [
+              120.797036,
+              30.699193
+            ],
+            [
+              120.796966,
+              30.700601
+            ]
+          ]
+        }
+      ]
     }
   ],
   "cityName": "Jiaxing",
   "groups": [
     {
-      "title": "Jiaxing Tram",
+      "title": "Jiaxing Shenjia Tram Operation Management Co., Ltd",
+      "titleImage": "asia/china/jiaxing/icon.ico",
       "lines": [
-        "jiaxingt1",
-        "jiaxingt2"
+        "jiaxingt1"
       ]
     }
   ]

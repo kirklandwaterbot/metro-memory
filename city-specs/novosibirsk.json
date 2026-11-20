@@ -1,0 +1,76 @@
+{
+  "slug": "novosibirsk",
+  "path": "asia/russia/novosibirsk",
+  "gameTitle": "Novosibirsk Metro Memory",
+  "description": "How many Novosibirsk Metro stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    54.95,
+    82.8,
+    55.1,
+    83.05
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Novosibirsk Metro",
+      "lines": [
+        "NSK1",
+        "NSK2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "NSK1",
+      "name": "Leninskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E4282B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "NSK1.svg"
+    },
+    {
+      "id": "NSK2",
+      "name": "Dzerzhinskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#00A650",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "NSK2.svg"
+    }
+  ],
+  "register": {
+    "name": "Novosibirsk (Новосибирск), RU",
+    "continent": "Asia",
+    "coordinates": [
+      82.9204,
+      55.0302
+    ],
+    "achievement": {
+      "title": "Siberian Express",
+      "description": "You've named every Novosibirsk Metro station."
+    },
+    "zh": "新西伯利亚, RU"
+  },
+  "display": "translit"
+}

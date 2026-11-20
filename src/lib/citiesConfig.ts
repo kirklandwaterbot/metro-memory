@@ -140,14 +140,103 @@ const rawCities: CityBase[] = [
     link: '/africa/algeria/algiers',
     continent: 'Africa',
     keywords: ['Alger', 'Algérie'],
-    disabled: true,
+  },
+  {
+    name: 'Cairo (القاهرة), EG',
+    link: '/africa/egypt/cairo',
+    continent: 'Africa',
+  },
+  {
+    name: 'Lagos, NG',
+    link: '/africa/nigeria/lagos',
+    continent: 'Africa',
+  },
+  {
+    name: 'Metrorail, ZA',
+    link: '/africa/south-africa/metrorail',
+    continent: 'Africa',
   },
   // South America
+  {
+    name: 'Belo Horizonte, BR',
+    link: '/south-america/brazil/belo-horizonte',
+    continent: 'South America',
+  },
+  {
+    name: 'Brasília, BR',
+    link: '/south-america/brazil/brasilia',
+    continent: 'South America',
+  },
+  {
+    name: 'Buenos Aires, AR',
+    link: '/south-america/argentina/buenos-aires',
+    continent: 'South America',
+  },
+  {
+    name: 'Caracas, VE',
+    link: '/south-america/venezuela/caracas',
+    continent: 'South America',
+  },
+  {
+    name: 'Fortaleza, BR',
+    link: '/south-america/brazil/fortaleza',
+    continent: 'South America',
+  },
+  {
+    name: 'Lima, PE',
+    link: '/south-america/peru/lima',
+    continent: 'South America',
+  },
   {
     name: 'Maracaibo, VE',
     link: '/south-america/venezuela/maracaibo',
     continent: 'South America',
     keywords: ['Zulia', 'Venezuela', 'Lago de Maracaibo'],
+  },
+  {
+    name: 'Medellín, CO',
+    link: '/south-america/colombia/medellin',
+    continent: 'South America',
+  },
+  {
+    name: 'Porto Alegre, BR',
+    link: '/south-america/brazil/porto-alegre',
+    continent: 'South America',
+  },
+  {
+    name: 'Quito, EC',
+    link: '/south-america/ecuador/quito',
+    continent: 'South America',
+  },
+  {
+    name: 'Recife, BR',
+    link: '/south-america/brazil/recife',
+    continent: 'South America',
+  },
+  {
+    name: 'Rio de Janeiro, BR',
+    link: '/south-america/brazil/rio-de-janeiro',
+    continent: 'South America',
+  },
+  {
+    name: 'Salvador, BR',
+    link: '/south-america/brazil/salvador',
+    continent: 'South America',
+  },
+  {
+    name: 'Santiago, CL',
+    link: '/south-america/chile/santiago',
+    continent: 'South America',
+  },
+  {
+    name: 'São Paulo, BR',
+    link: '/south-america/brazil/sao-paulo',
+    continent: 'South America',
+  },
+  {
+    name: 'Valencia, VE',
+    link: '/south-america/venezuela/valencia',
+    continent: 'South America',
   },
   {
     name: 'Honolulu, HI',
@@ -198,6 +287,11 @@ const rawCities: CityBase[] = [
     name: 'Florida State, USA',
     link: '/north-america/usa/florida-state',
     keywords: ['Florida', 'Miami', 'Orlando', 'Tampa', 'Jacksonville'],
+    continent: 'North America',
+  },
+  {
+    name: 'Panama City, PA',
+    link: '/north-america/panama/panama-city',
     continent: 'North America',
   },
   {
@@ -285,6 +379,11 @@ const rawCities: CityBase[] = [
     continent: 'North America',
   },
   {
+    name: 'Santo Domingo, DO',
+    link: '/north-america/dominican-republic/santo-domingo',
+    continent: 'North America',
+  },
+  {
     name: 'Seattle—Tacoma, WA',
     link: '/north-america/usa/seattle',
     continent: 'North America',
@@ -297,6 +396,11 @@ const rawCities: CityBase[] = [
   {
     name: 'Toronto—Waterloo, ON',
     link: '/north-america/canada/toronto-waterloo',
+    continent: 'North America',
+  },
+  {
+    name: 'Tren Maya, MX',
+    link: '/north-america/mexico/tren-maya',
     continent: 'North America',
   },
   {
@@ -314,7 +418,6 @@ const rawCities: CityBase[] = [
     name: 'Via Rail, CAN',
     link: '/north-america/canada/viarail',
     continent: 'North America',
-    hideInStats: true,
   },
   {
     name: 'Washington DC—Baltimore, DC/MD',
@@ -322,6 +425,26 @@ const rawCities: CityBase[] = [
     continent: 'North America',
   },
   // Europe
+  {
+    name: 'Adana, TR',
+    link: '/europe/turkey/adana',
+    continent: 'Europe',
+  },
+  {
+    name: 'Amsterdam, NL',
+    link: '/europe/netherlands/amsterdam',
+    continent: 'Europe',
+  },
+  {
+    name: 'Ankara, TR',
+    link: '/europe/turkey/ankara',
+    continent: 'Europe',
+  },
+  {
+    name: 'Athens (Αθήνα), GR',
+    link: '/europe/greece/athens',
+    continent: 'Europe',
+  },
   {
     name: 'Barcelona, CT',
     link: '/europe/spain/barcelona',
@@ -333,13 +456,53 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Bilbao, ES',
+    link: '/europe/spain/bilbao',
+    continent: 'Europe',
+  },
+  {
     name: 'Blackpool, ENG',
     link: '/europe/uk/blackpool',
     continent: 'Europe',
   },
   {
+    name: 'Brescia, IT',
+    link: '/europe/italy/brescia',
+    continent: 'Europe',
+  },
+  {
+    name: 'Brussels, BE',
+    link: '/europe/belgium/brussels',
+    continent: 'Europe',
+  },
+  {
+    name: 'Bucharest, RO',
+    link: '/europe/romania/bucharest',
+    continent: 'Europe',
+  },
+  {
     name: 'Budapest, HU',
     link: '/europe/hungary/budapest',
+    continent: 'Europe',
+  },
+  {
+    name: 'Bursa, TR',
+    link: '/europe/turkey/bursa',
+    continent: 'Europe',
+  },
+  {
+    name: 'Catania, IT',
+    link: '/europe/italy/catania',
+    continent: 'Europe',
+  },
+  {
+    name: 'Copenhagen, DK',
+    link: '/europe/denmark/copenhagen',
+    continent: 'Europe',
+  },
+  {
+    name: 'Dnipro (Дніпро), UA',
+    link: '/europe/ukraine/dnipro',
     continent: 'Europe',
   },
   {
@@ -358,6 +521,11 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Genoa, IT',
+    link: '/europe/italy/genoa',
+    continent: 'Europe',
+  },
+  {
     name: 'Glasgow, SCT',
     link: '/europe/uk/glasgow',
     continent: 'Europe',
@@ -368,13 +536,63 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Helsinki, FI',
+    link: '/europe/finland/helsinki',
+    continent: 'Europe',
+  },
+  {
+    name: 'Intercity-Express (ICE), DE',
+    link: '/europe/germany/ice',
+    continent: 'Europe',
+  },
+  {
     name: 'Istanbul, TR',
     link: '/europe/turkey/istanbul',
     continent: 'Europe',
   },
   {
+    name: 'İzmir, TR',
+    link: '/europe/turkey/izmir',
+    continent: 'Europe',
+  },
+  {
     name: 'Karlsruhe, BW',
     link: '/europe/germany/karlsruhe',
+    continent: 'Europe',
+  },
+  {
+    name: 'Kazan (Казань), RU',
+    link: '/europe/russia/kazan',
+    continent: 'Europe',
+  },
+  {
+    name: 'Kharkiv (Харків), UA',
+    link: '/europe/ukraine/kharkiv',
+    continent: 'Europe',
+  },
+  {
+    name: 'Kryvyi Rih (Кривий Ріг), UA',
+    link: '/europe/ukraine/kryvyi-rih',
+    continent: 'Europe',
+  },
+  {
+    name: 'Kyiv (Київ), UA',
+    link: '/europe/ukraine/kyiv',
+    continent: 'Europe',
+  },
+  {
+    name: 'Lausanne, CH',
+    link: '/europe/switzerland/lausanne',
+    continent: 'Europe',
+  },
+  {
+    name: 'Lille, FR',
+    link: '/europe/france/lille',
+    continent: 'Europe',
+  },
+  {
+    name: 'Lisbon, PT',
+    link: '/europe/portugal/lisbon',
     continent: 'Europe',
   },
   {
@@ -388,8 +606,68 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Lyon, FR',
+    link: '/europe/france/lyon',
+    continent: 'Europe',
+  },
+  {
     name: 'Madrid, MD',
     link: '/europe/spain/madrid',
+    continent: 'Europe',
+  },
+  {
+    name: 'Marseille, FR',
+    link: '/europe/france/marseille',
+    continent: 'Europe',
+  },
+  {
+    name: 'Milan, IT',
+    link: '/europe/italy/milan',
+    continent: 'Europe',
+  },
+  {
+    name: 'Minsk (Мінск), BY',
+    link: '/europe/belarus/minsk',
+    continent: 'Europe',
+  },
+  {
+    name: 'Moscow (Москва), RU',
+    link: '/europe/russia/moscow',
+    continent: 'Europe',
+  },
+  {
+    name: 'Naples, IT',
+    link: '/europe/italy/naples',
+    continent: 'Europe',
+  },
+  {
+    name: 'National Rail, GB',
+    link: '/europe/uk/national-rail',
+    continent: 'Europe',
+  },
+  {
+    name: 'Nizhny Novgorod (Нижний Новгород), RU',
+    link: '/europe/russia/nizhny-novgorod',
+    continent: 'Europe',
+  },
+  {
+    name: 'Nuremberg, BY',
+    link: '/europe/germany/nuremberg',
+    continent: 'Europe',
+  },
+  {
+    name: 'Oslo, NO',
+    link: '/europe/norway/oslo',
+    continent: 'Europe',
+  },
+  {
+    name: 'Prague, CZ',
+    link: '/europe/czechia/prague',
+    continent: 'Europe',
+  },
+  {
+    name: 'Rennes, FR',
+    link: '/europe/france/rennes',
     continent: 'Europe',
   },
   {
@@ -424,13 +702,63 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Rotterdam, NL',
+    link: '/europe/netherlands/rotterdam',
+    continent: 'Europe',
+  },
+  {
+    name: 'Russian Railways (РЖД), RU',
+    link: '/europe/russia/russian-railways',
+    continent: 'Europe',
+  },
+  {
+    name: 'Saint Petersburg (Санкт-Петербург), RU',
+    link: '/europe/russia/saint-petersburg',
+    continent: 'Europe',
+  },
+  {
+    name: 'Samara (Самара), RU',
+    link: '/europe/russia/samara',
+    continent: 'Europe',
+  },
+  {
     name: 'Sheffield, ENG',
     link: '/europe/uk/sheffield',
     continent: 'Europe',
   },
   {
+    name: 'SNCF (TGV & Intercités), FR',
+    link: '/europe/france/sncf',
+    continent: 'Europe',
+  },
+  {
+    name: 'Sofia (София), BG',
+    link: '/europe/bulgaria/sofia',
+    continent: 'Europe',
+  },
+  {
     name: 'Stockholm, SE',
     link: '/europe/sweden/stockholm',
+    continent: 'Europe',
+  },
+  {
+    name: 'Thessaloniki (Θεσσαλονίκη), GR',
+    link: '/europe/greece/thessaloniki',
+    continent: 'Europe',
+  },
+  {
+    name: 'Toulouse, FR',
+    link: '/europe/france/toulouse',
+    continent: 'Europe',
+  },
+  {
+    name: 'Trenitalia (Frecce & Intercity), IT',
+    link: '/europe/italy/trenitalia',
+    continent: 'Europe',
+  },
+  {
+    name: 'Turin, IT',
+    link: '/europe/italy/turin',
     continent: 'Europe',
   },
   {
@@ -444,6 +772,16 @@ const rawCities: CityBase[] = [
     continent: 'Europe',
   },
   {
+    name: 'Volgograd (Волгоград), RU',
+    link: '/europe/russia/volgograd',
+    continent: 'Europe',
+  },
+  {
+    name: 'Warsaw, PL',
+    link: '/europe/poland/warsaw',
+    continent: 'Europe',
+  },
+  {
     name: 'West Midlands, ENG',
     link: '/europe/uk/wm',
     continent: 'Europe',
@@ -451,6 +789,76 @@ const rawCities: CityBase[] = [
   },
 
   // Asia
+  {
+    name: 'Agra (आगरा), IN',
+    link: '/asia/india/agra',
+    continent: 'Asia',
+  },
+  {
+    name: 'Ahmedabad (અમદાવાદ), IN',
+    link: '/asia/india/ahmedabad',
+    continent: 'Asia',
+  },
+  {
+    name: 'Almaty (Алматы), KZ',
+    link: '/asia/kazakhstan/almaty',
+    continent: 'Asia',
+  },
+  {
+    name: 'Astana (Астана), KZ',
+    link: '/asia/kazakhstan/astana',
+    continent: 'Asia',
+  },
+  {
+    name: 'Baku, AZ',
+    link: '/asia/azerbaijan/baku',
+    continent: 'Asia',
+  },
+  {
+    name: 'Bengaluru (ಬೆಂಗಳೂರು), IN',
+    link: '/asia/india/bengaluru',
+    continent: 'Asia',
+  },
+  {
+    name: 'Bhopal (भोपाल), IN',
+    link: '/asia/india/bhopal',
+    continent: 'Asia',
+  },
+  {
+    name: 'Chennai (சென்னை), IN',
+    link: '/asia/india/chennai',
+    continent: 'Asia',
+  },
+  {
+    name: 'China Railway High-speed (中国高铁), CN',
+    link: '/asia/china/china-railway',
+    continent: 'Asia',
+  },
+  {
+    name: 'Delhi NCR (दिल्ली), IN',
+    link: '/asia/india/delhi',
+    continent: 'Asia',
+  },
+  {
+    name: 'Dhaka (ঢাকা), BD',
+    link: '/asia/bangladesh/dhaka',
+    continent: 'Asia',
+  },
+  {
+    name: 'Doha (الدوحة), QA',
+    link: '/asia/qatar/doha',
+    continent: 'Asia',
+  },
+  {
+    name: 'Dubai (دبي), AE',
+    link: '/asia/uae/dubai',
+    continent: 'Asia',
+  },
+  {
+    name: 'Greater Tokyo (首都圏), TKY',
+    link: '/asia/japan/tokyo-area',
+    continent: 'Asia',
+  },
   {
     name: 'Guangdong–Hong Kong–Macao Greater Bay Area (粤港澳大湾区), GD/HK/MO',
     link: '/asia/china/gba',
@@ -485,6 +893,111 @@ const rawCities: CityBase[] = [
     hideInStats: true,
   },
   {
+    name: 'Hyderabad (హైదరాబాద్), IN',
+    link: '/asia/india/hyderabad',
+    continent: 'Asia',
+  },
+  {
+    name: 'Indore (इंदौर), IN',
+    link: '/asia/india/indore',
+    continent: 'Asia',
+  },
+  {
+    name: 'Isfahan (اصفهان), IR',
+    link: '/asia/iran/isfahan',
+    continent: 'Asia',
+  },
+  {
+    name: 'Jaipur (जयपुर), IN',
+    link: '/asia/india/jaipur',
+    continent: 'Asia',
+  },
+  {
+    name: 'Kanpur (कानपुर), IN',
+    link: '/asia/india/kanpur',
+    continent: 'Asia',
+  },
+  {
+    name: 'Karaj (کرج), IR',
+    link: '/asia/iran/karaj',
+    continent: 'Asia',
+  },
+  {
+    name: 'Kochi (കൊച്ചി), IN',
+    link: '/asia/india/kochi',
+    continent: 'Asia',
+  },
+  {
+    name: 'Kolkata (কলকাতা), IN',
+    link: '/asia/india/kolkata',
+    continent: 'Asia',
+  },
+  {
+    name: 'Korail (코레일), KR',
+    link: '/asia/south-korea/korail',
+    continent: 'Asia',
+  },
+  {
+    name: 'Korean State Railway (조선철도), KP',
+    link: '/asia/north-korea/korean-state-railway',
+    continent: 'Asia',
+  },
+  {
+    name: 'KTM Komuter Northern, MY',
+    link: '/asia/malaysia/komuter-utara',
+    continent: 'Asia',
+  },
+  {
+    name: 'Lahore (لاہور), PK',
+    link: '/asia/pakistan/lahore',
+    continent: 'Asia',
+  },
+  {
+    name: 'Lucknow (लखनऊ), IN',
+    link: '/asia/india/lucknow',
+    continent: 'Asia',
+  },
+  {
+    name: 'Mashhad (مشهد), IR',
+    link: '/asia/iran/mashhad',
+    continent: 'Asia',
+  },
+  {
+    name: 'Mecca (مكة), SA',
+    link: '/asia/saudi-arabia/mecca',
+    continent: 'Asia',
+  },
+  {
+    name: 'Meerut (मेरठ), IN',
+    link: '/asia/india/meerut',
+    continent: 'Asia',
+  },
+  {
+    name: 'Mumbai (मुंबई), IN',
+    link: '/asia/india/mumbai',
+    continent: 'Asia',
+  },
+  {
+    name: 'Nagpur (नागपूर), IN',
+    link: '/asia/india/nagpur',
+    continent: 'Asia',
+  },
+  {
+    name: 'Novosibirsk (Новосибирск), RU',
+    link: '/asia/russia/novosibirsk',
+    continent: 'Asia',
+  },
+  {
+    name: 'Patna (पटना), IN',
+    link: '/asia/india/patna',
+    continent: 'Asia',
+  },
+  {
+    name: 'Pune (पुणे), IN',
+    link: '/asia/india/pune',
+    continent: 'Asia',
+  },
+  {
     name: 'Pyongyang (평양), KP',
     link: '/asia/north-korea/pyongyang',
     continent: 'Asia',
@@ -516,6 +1029,11 @@ const rawCities: CityBase[] = [
     hideInStats: true,
   },
   {
+    name: 'Riyadh (الرياض), SA',
+    link: '/asia/saudi-arabia/riyadh',
+    continent: 'Asia',
+  },
+  {
     name: 'Seoul (서울), SE',
     link: '/asia/south-korea/seoul',
     continent: 'Asia',
@@ -543,6 +1061,26 @@ const rawCities: CityBase[] = [
     hideInStats: true,
   },
   {
+    name: 'Shinkansen (新幹線), JP',
+    link: '/asia/japan/shinkansen',
+    continent: 'Asia',
+  },
+  {
+    name: 'Shiraz (شیراز), IR',
+    link: '/asia/iran/shiraz',
+    continent: 'Asia',
+  },
+  {
+    name: 'Tabriz (تبریز), IR',
+    link: '/asia/iran/tabriz',
+    continent: 'Asia',
+  },
+  {
+    name: 'Taiwan Railway (臺鐵), TW',
+    link: '/asia/taiwan/tra',
+    continent: 'Asia',
+  },
+  {
     name: 'Taiyuan (太原), SX',
     link: '/asia/china/taiyuan',
     continent: 'Asia',
@@ -553,6 +1091,21 @@ const rawCities: CityBase[] = [
     link: '/asia/china/taizhou',
     continent: 'Asia',
     hideInStats: true,
+  },
+  {
+    name: 'Tashkent, UZ',
+    link: '/asia/uzbekistan/tashkent',
+    continent: 'Asia',
+  },
+  {
+    name: 'Tbilisi (თბილისი), GE',
+    link: '/asia/georgia/tbilisi',
+    continent: 'Asia',
+  },
+  {
+    name: 'Tehran (تهران), IR',
+    link: '/asia/iran/tehran',
+    continent: 'Asia',
   },
   {
     name: 'Wenzhou (温州), ZJ',
@@ -654,6 +1207,26 @@ const rawCities: CityBase[] = [
     continent: 'Asia',
   },
   {
+    name: 'Yekaterinburg (Екатеринбург), RU',
+    link: '/asia/russia/yekaterinburg',
+    continent: 'Asia',
+  },
+  {
+    name: 'Yerevan (Երևան), AM',
+    link: '/asia/armenia/yerevan',
+    continent: 'Asia',
+  },
+  {
+    name: 'Yogyakarta–Solo, ID',
+    link: '/asia/indonesia/yogyakarta',
+    continent: 'Asia',
+  },
+  {
+    name: 'Yokohama (横浜), KNG',
+    link: '/asia/japan/yokohama',
+    continent: 'Asia',
+  },
+  {
     name: 'Zhengzhou (郑州), HA',
     link: '/asia/china/zhengzhou',
     continent: 'Asia',
@@ -684,7 +1257,7 @@ const rawCities: CityBase[] = [
     continent: 'Asia',
   },
   {
-    name: 'Chengdu (成都), SC',
+    name: 'Chengdu–Dujiangyan (成都-都江堰), SC',
     link: '/asia/china/chengdu',
     continent: 'Asia',
   },
@@ -699,13 +1272,11 @@ const rawCities: CityBase[] = [
     name: 'Hiroshima (広島), HRS',
     link: '/asia/japan/hiroshima',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Nagoya (名古屋), AIC',
     link: '/asia/japan/nagoya',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Okayama (岡山), OKY',
@@ -718,7 +1289,6 @@ const rawCities: CityBase[] = [
     name: 'Osaka–Kobe (大阪・神戸), OSK-HYG',
     link: '/asia/japan/osaka-kobe',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Kyoto (京都), KYT',
@@ -854,12 +1424,6 @@ const rawCities: CityBase[] = [
     name: 'Zhangjiakou (张家口), HE',
     link: '/asia/china/zhangjiakou',
     continent: 'Asia',
-    hideInStats: true,
-  },
-  {
-    name: 'Dujiangyan (都江堰), SC',
-    link: '/asia/china/dujiangyan',
-    continent: 'Asia',
   },
   {
     name: 'Lijiang (丽江), YN',
@@ -879,16 +1443,14 @@ const rawCities: CityBase[] = [
     continent: 'Asia',
   },
   {
-    name: 'Xishui (浠水), HB',
+    name: 'Xishui (习水), GZ',
     link: '/asia/china/xishui',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Yinchuan (银川), NX',
     link: '/asia/china/yinchuan',
     continent: 'Asia',
-    hideInStats: true,
   },
   {
     name: 'Liupanshui (六盘水), GZ',
@@ -988,6 +1550,11 @@ const rawCities: CityBase[] = [
     continent: 'Oceania',
   },
   {
+    name: 'KiwiRail, NZ',
+    link: '/oceania/new-zealand/kiwirail',
+    continent: 'Oceania',
+  },
+  {
     name: 'Melbourne, VIC',
     link: '/oceania/australia/melbourne',
     continent: 'Oceania',
@@ -1041,18 +1608,10 @@ const PLACEHOLDER_CITY_PATHS = new Set([
   'asia/china/guangan',
   'asia/china/guilin',
   'asia/china/jining',
-  'asia/china/xishui',
-  'asia/china/yinchuan',
-  'asia/china/zhangjiakou',
   'asia/china/zhangye',
   'asia/indonesia/jakarta',
-  'asia/indonesia/palembang',
-  'asia/japan/hiroshima',
-  'asia/japan/nagoya',
-  'asia/japan/osaka-kobe',
   'asia/malaysia/kuala-lumpur',
   'north-america/canada/toronto',
-  'north-america/canada/viarail',
 ])
 
 const getCityImagePath = (link: string): string => {

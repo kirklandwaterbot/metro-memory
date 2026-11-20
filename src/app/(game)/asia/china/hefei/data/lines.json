@@ -1,58 +1,82 @@
 {
   "hefei1": {
     "name": "Line 1",
-    "color": "#F50000",
-    "backgroundColor": "#F50000",
+    "color": "#E71F24",
+    "backgroundColor": "#E71F24",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/hefei/Line1Tile.png",
+    "badgeShape": "square"
   },
   "hefei2": {
     "name": "Line 2",
-    "color": "#006BFA",
-    "backgroundColor": "#006BFA",
+    "color": "#0167B1",
+    "backgroundColor": "#0167B1",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/hefei/Line2Tile.png",
+    "badgeShape": "square"
   },
   "hefei3": {
     "name": "Line 3",
-    "color": "#098137",
-    "backgroundColor": "#098137",
+    "color": "#00863E",
+    "backgroundColor": "#00863E",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/hefei/Line3Tile.png",
+    "badgeShape": "square"
   },
   "hefei4": {
     "name": "Line 4",
-    "color": "#FF850D",
-    "backgroundColor": "#FF850D",
+    "color": "#F79826",
+    "backgroundColor": "#F79826",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/hefei/Line4Tile.png",
+    "badgeShape": "square"
   },
   "hefei5": {
     "name": "Line 5",
-    "color": "#C1D522",
-    "backgroundColor": "#C1D522",
+    "color": "#C0D92E",
+    "backgroundColor": "#C0D92E",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/hefei/Line5Tile.png",
+    "badgeShape": "square"
   },
   "hefei6": {
     "name": "Line 6",
     "color": "#C99FCD",
     "backgroundColor": "#C99FCD",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/hefei/Line6Tile.png",
+    "badgeShape": "square"
   },
   "hefei7": {
     "name": "Line 7",
     "color": "#F1CC40",
     "backgroundColor": "#F1CC40",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/hefei/Line7Tile.png",
+    "badgeShape": "square"
   },
   "hefei8": {
     "name": "Line 8",
-    "color": "#64aee3",
-    "backgroundColor": "#64aee3",
+    "color": "#64AEE3",
+    "backgroundColor": "#64AEE3",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/hefei/Line8Tile.png",
+    "badgeShape": "square"
+  },
+  "hefeis1": {
+    "name": "Line S1",
+    "color": "#BAA284",
+    "backgroundColor": "#BAA284",
+    "textColor": "#ffffff",
+    "order": 9,
+    "icon": "asia/china/hefei/LineS1.png"
   }
 }

@@ -1,0 +1,583 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.527199,
+          9.079829
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Villa Zaita",
+        "line": "PANAL1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51408,
+          9.064951
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "San Isidro",
+        "line": "PANAL1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.508445,
+          9.049169
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Los Andes",
+        "line": "PANAL1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.508388,
+          9.040983
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Pan de Azúcar",
+        "line": "PANAL1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.506549,
+          9.030094
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "San Miguelito",
+        "line": "PANAL1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51264,
+          9.023376
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Pueblo Nuevo",
+        "line": "PANAL1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.517391,
+          9.016776
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "12 de Octubre",
+        "line": "PANAL1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.519053,
+          9.007949
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "El Ingenio",
+        "line": "PANAL1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.519788,
+          8.99709
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Fernández de Córdoba",
+        "line": "PANAL1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52264,
+          8.988833
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Vía Argentina",
+        "line": "PANAL1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.526978,
+          8.982515
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Iglesia del Carmen",
+        "line": "PANAL1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.532714,
+          8.972859
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Santo Tomás",
+        "line": "PANAL1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.535316,
+          8.968417
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Lotería",
+        "line": "PANAL1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.539403,
+          8.9627
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "5 de Mayo",
+        "line": "PANAL1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.549502,
+          8.973489
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Albrook",
+        "line": "PANAL1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.353472,
+          9.101916
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Nuevo Tocumen",
+        "line": "PANAL2",
+        "order": 0
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.370965,
+          9.103381
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "24 de Diciembre",
+        "line": "PANAL2",
+        "order": 1
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380287,
+          9.103332
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Altos de Tocumen",
+        "line": "PANAL2",
+        "order": 2
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.394333,
+          9.093591
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Hospital del Este",
+        "line": "PANAL2",
+        "order": 3
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.400115,
+          9.079459
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Las Mañanitas",
+        "line": "PANAL2",
+        "order": 4
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.407118,
+          9.068809
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Corredor Sur",
+        "line": "PANAL2",
+        "order": 5
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.420376,
+          9.063107
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Don Bosco",
+        "line": "PANAL2",
+        "order": 6
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.429275,
+          9.059825
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Pedregal - Las Acacias",
+        "line": "PANAL2",
+        "order": 7
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44503,
+          9.051888
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "San Antonio",
+        "line": "PANAL2",
+        "order": 8
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.451416,
+          9.050542
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Cerro Viento",
+        "line": "PANAL2",
+        "order": 9
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45895,
+          9.049204
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Brisas Del Golf",
+        "line": "PANAL2",
+        "order": 10
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.471683,
+          9.043791
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "El Crisol",
+        "line": "PANAL2",
+        "order": 11
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.481395,
+          9.037143
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Villa Lucre",
+        "line": "PANAL2",
+        "order": 12
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.491515,
+          9.030144
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Cincuentenario",
+        "line": "PANAL2",
+        "order": 13
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.498771,
+          9.029952
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Paraiso",
+        "line": "PANAL2",
+        "order": 14
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.506549,
+          9.030094
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "San Miguelito",
+        "line": "PANAL2",
+        "order": 15
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.407118,
+          9.068809
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Corredor Sur",
+        "line": "PANARAMALLNE",
+        "order": 0
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.398924,
+          9.069355
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "ITSE",
+        "line": "PANARAMALLNE",
+        "order": 1
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.390046,
+          9.065952
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Aeropuerto",
+        "line": "PANARAMALLNE",
+        "order": 2
+      },
+      "id": 33
+    }
+  ]
+}

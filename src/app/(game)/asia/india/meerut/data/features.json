@@ -1,0 +1,247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.632839,
+          28.904729
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Meerut South",
+        "alternate_names": [
+          "Южный Мирут",
+          "Yuzhny Mirut",
+          "मेरठ दक्षिण"
+        ],
+        "line": "MEER1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.650585,
+          28.922018
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Partapur",
+        "alternate_names": [
+          "परतापुर"
+        ],
+        "line": "MEER1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.660548,
+          28.932038
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Rithani",
+        "alternate_names": [
+          "रिठानी"
+        ],
+        "line": "MEER1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.673876,
+          28.947748
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shatabdi Nagar",
+        "alternate_names": [
+          "शताब्दी नगर"
+        ],
+        "line": "MEER1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.684812,
+          28.960296
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Brahmapuri",
+        "alternate_names": [
+          "ब्रह्मापुरी"
+        ],
+        "line": "MEER1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.690603,
+          28.972872
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Meerut Central",
+        "alternate_names": [
+          "मेरठ केंद्रीय"
+        ],
+        "line": "MEER1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.700317,
+          28.988092
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Bhainsali",
+        "alternate_names": [
+          "भैंसाली"
+        ],
+        "line": "MEER1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.705602,
+          28.996738
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Begumpul",
+        "alternate_names": [
+          "बेगमपुल"
+        ],
+        "line": "MEER1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.704621,
+          29.015964
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "MES Colony",
+        "alternate_names": [
+          "मेस कॉलोनी"
+        ],
+        "line": "MEER1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.706856,
+          29.040706
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Daurli",
+        "alternate_names": [
+          "डौरली"
+        ],
+        "line": "MEER1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.708017,
+          29.053349
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Meerut North",
+        "alternate_names": [
+          "मेरठ उत्तर"
+        ],
+        "line": "MEER1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.708884,
+          29.072329
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Modipuram",
+        "alternate_names": [
+          "मोदीपुरम"
+        ],
+        "line": "MEER1",
+        "order": 11
+      },
+      "id": 11
+    }
+  ]
+}

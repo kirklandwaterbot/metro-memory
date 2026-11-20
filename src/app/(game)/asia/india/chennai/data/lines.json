@@ -1,0 +1,34 @@
+{
+  "CHEN1": {
+    "name": "Blue Line",
+    "color": "#3281C4",
+    "backgroundColor": "#3281C4",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "CHEN1.svg"
+  },
+  "CHEN2": {
+    "name": "Green Line",
+    "color": "#53B848",
+    "backgroundColor": "#53B848",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "CHEN2.svg"
+  },
+  "CHEN2A": {
+    "name": "Inter-Corridor Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "CHEN2A.svg"
+  },
+  "CHEN4": {
+    "name": "Yellow Line",
+    "color": "#FFDF00",
+    "backgroundColor": "#FFDF00",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "CHEN4.svg"
+  }
+}

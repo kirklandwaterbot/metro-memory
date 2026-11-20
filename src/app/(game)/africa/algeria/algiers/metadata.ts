@@ -7,12 +7,12 @@ export const metadata: Metadata = withCityAssetMetadata('algiers', {
     apple: '/api/city-icon/algiers',
   },
   title: 'Algiers Metro Memory',
-  description: 'How many of the Algiers metro stations can you name from memory?',
+  description: 'How many Algiers Metro and tram stations can you name from memory?',
   openGraph: {
     title: 'Algiers Metro Memory',
-    description: 'How many of the Algiers metro stations can you name from memory?',
+    description: 'How many Algiers Metro and tram stations can you name from memory?',
     type: 'website',
-    locale: 'en_US',
+    locale: 'fr_DZ',
     url: 'https://metro-memory.xyz/africa/algeria/algiers',
   },
 })

@@ -1,0 +1,738 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.148823,
+          21.150149
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Prajapati Nagar",
+        "line": "NAGPAQUALINE",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.136406,
+          21.148027
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Vaishnodevi Square",
+        "alternate_names": [
+          "वैष्णोदेवी चौक"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.129494,
+          21.148325
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Ambedkar Square",
+        "alternate_names": [
+          "आंबेडकर चौक"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.118243,
+          21.148814
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Telephone Exchange",
+        "alternate_names": [
+          "टेलिफोन एक्सचेंज"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.110394,
+          21.149639
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Chitroli Square",
+        "line": "NAGPAQUALINE",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.102913,
+          21.151053
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Agrasen Square",
+        "alternate_names": [
+          "अग्रसेन चौक"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.094916,
+          21.152973
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Dosar Vaisya Square",
+        "alternate_names": [
+          "दोसर वैश्य चौक"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.090436,
+          21.151377
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Nagpur",
+        "alternate_names": [
+          "नागपुर रेल्वे स्टेशन"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.089773,
+          21.14599
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Cotton Market",
+        "alternate_names": [
+          "कॉटन मार्केट"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.082871,
+          21.141538
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Sitabuldi",
+        "line": "NAGPAQUALINE",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.077827,
+          21.140718
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Jhasi Rani Square",
+        "alternate_names": [
+          "झाशी राणी चौक"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.070094,
+          21.138315
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Institute Of Engineers",
+        "alternate_names": [
+          "इन्स्टिट्यूट ऑफ इंजिनीअर्स"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.061644,
+          21.136213
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Shankar Nagar Square",
+        "line": "NAGPAQUALINE",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.054798,
+          21.132916
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "LAD College",
+        "line": "NAGPAQUALINE",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.045745,
+          21.128692
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Ambazari Lake",
+        "line": "NAGPAQUALINE",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.042053,
+          21.123316
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Subhash Nagar",
+        "alternate_names": [
+          "सुभाष नगर"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.029412,
+          21.121523
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Rachna Ring Road",
+        "line": "NAGPAQUALINE",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.019466,
+          21.118785
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Vasudev Nagar",
+        "alternate_names": [
+          "वासुदेव नगर"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.012603,
+          21.1162
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Bansi Nagar",
+        "line": "NAGPAQUALINE",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.001754,
+          21.110805
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Lokmanya Nagar",
+        "alternate_names": [
+          "लोकमान्य नगर"
+        ],
+        "line": "NAGPAQUALINE",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.047845,
+          21.049348
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Khapri",
+        "alternate_names": [
+          "खापरी"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 0
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.055832,
+          21.066041
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "New Airport",
+        "alternate_names": [
+          "नवीन विमानतळ"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 1
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.060526,
+          21.079056
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Airport South",
+        "alternate_names": [
+          "दक्षिण विमानतळ"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 2
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.063788,
+          21.086216
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Airport",
+        "alternate_names": [
+          "विमानतळ"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 3
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.066319,
+          21.09635
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Ujjwal Nagar",
+        "alternate_names": [
+          "उज्जवल नगर"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 4
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.068179,
+          21.10364
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Jaiprakash Nagar",
+        "alternate_names": [
+          "जयप्रकाश नगर"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 5
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.069611,
+          21.109139
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Chhatrapati Square",
+        "alternate_names": [
+          "छत्रपती चौक"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 6
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.072107,
+          21.118212
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Ajni Square",
+        "alternate_names": [
+          "अजनी चौक"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 7
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.075398,
+          21.127385
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Rahate Colony",
+        "alternate_names": [
+          "राहाटे कॉलनी"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 8
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.082553,
+          21.128198
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Congress Nagar",
+        "alternate_names": [
+          "काँग्रेस नगर"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 9
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.082308,
+          21.141778
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Sitabuldi",
+        "line": "NAGPORANGELI",
+        "order": 10
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.080635,
+          21.146695
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Zero Mile",
+        "alternate_names": [
+          "झीरो माईल"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 11
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.081477,
+          21.154365
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Kasturchand Park",
+        "alternate_names": [
+          "कस्तुरचंद पार्क"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 12
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.083725,
+          21.161631
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Gaddi Godam Square",
+        "alternate_names": [
+          "गड्डीगोदाम चौक"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 13
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.092424,
+          21.168667
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Kadvi Square",
+        "alternate_names": [
+          "कडवी चौक"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 14
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.100728,
+          21.173687
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Indora Square",
+        "alternate_names": [
+          "इंदोरा चौक"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 15
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.109778,
+          21.1795
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Nari Road",
+        "alternate_names": [
+          "नरी रोड"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 16
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.119507,
+          21.185792
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Automotive Square",
+        "alternate_names": [
+          "ऑटोमोटिव्ह चौक"
+        ],
+        "line": "NAGPORANGELI",
+        "order": 17
+      },
+      "id": 37
+    }
+  ]
+}

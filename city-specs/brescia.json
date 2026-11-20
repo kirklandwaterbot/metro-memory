@@ -1,0 +1,50 @@
+{
+  "slug": "brescia",
+  "path": "europe/italy/brescia",
+  "gameTitle": "Brescia Metro Memory",
+  "description": "How many Brescia Metro stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    45.459,
+    10.104,
+    45.621,
+    10.336
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Brescia Metro",
+      "lines": [
+        "BRESMETROPOL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BRESMETROPOL",
+      "name": "Brescia Metro",
+      "match": {
+        "@id": "^(2797902|2797903)$"
+      },
+      "color": "#ED1C24",
+      "textColor": "#FFFFFF",
+      "badge": "M",
+      "icon": "BRESMETROPOL.svg"
+    }
+  ],
+  "register": {
+    "name": "Brescia, IT",
+    "continent": "Europe",
+    "coordinates": [
+      10.22,
+      45.54
+    ],
+    "zh": "布雷西亚, IT",
+    "achievement": {
+      "title": "Brescia Metro Master",
+      "description": "You've named every Brescia Metro station."
+    }
+  }
+}

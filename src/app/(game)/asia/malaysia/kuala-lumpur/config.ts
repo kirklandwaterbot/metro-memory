@@ -19,6 +19,7 @@ export const LINE_GROUPS: LineGroup[] = [
           'KualaLumpurKLMonorail',
           'KualaLumpurMRTKajang',
           'KualaLumpurMRTPutrajaya',
+          'KualaLumpurLRTShahAlam',
         ],
       },
     ],
@@ -40,6 +41,16 @@ export const LINE_GROUPS: LineGroup[] = [
       {
         type: 'lines',
         lines: ['KualaLumpurKLIAAerotrain'],
+      },
+    ],
+  },
+  // merged: kl-komuter
+  {
+    title: "KTM Komuter",
+    items: [
+      {
+        type: 'lines',
+        lines: ['KualaLumpurKTMSeremban', 'KualaLumpurKTMPortKlang', 'KualaLumpurKTMSkypark'],
       },
     ],
   },

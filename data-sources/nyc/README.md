@@ -22,6 +22,28 @@ OpenStreetMap* GitHub Action whenever this file changes. Route features built
 this way carry an `osm_route` property and are © OpenStreetMap contributors,
 available under the [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/).
 
+## `osm-relation-tracks.json`
+
+The NYC subway, PATH and Staten Island Railway are drawn as the tracks their
+own **OpenStreetMap** route relations use (every track a service runs on, and
+none of the neighbouring lines'), by `scripts/routes/osm-relation-tracks.py`.
+The file maps each game line to its relation ids (everyday variants, one per
+direction). Where a line runs somewhere its relations don't (Second Avenue
+Subway Phase 2, still under construction), the line's centreline from
+`track-centrelines.json` is kept for that stretch.
+
+To rebuild (no Overpass needed):
+
+```
+# a .osm.pbf covering the city, e.g. https://download.bbbike.org/osm/bbbike/NewYork/NewYork.osm.pbf
+pip install osmium
+python3 scripts/routes/osm-pbf-extract.py NewYork.osm.pbf .tmp/osm/nyc
+python3 scripts/routes/osm-relation-tracks.py nyc .tmp/osm/nyc
+node scripts/routes/fill-gaps.js --city=nyc --check
+```
+
+Geometry © OpenStreetMap contributors (ODbL).
+
 ## License of the njtrains files
 
 MIT License

@@ -43,7 +43,7 @@ const NYCTA_B = [
   'NewYorkSubwayR',
   'NewYorkSubwayW',
   'NewYorkSubwayFS',
-  'NewYorkSubwayT',
+  'NewYorkSubwayH',
   'NewYorkSubwayZ',
 ]
 

@@ -1,0 +1,70 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "MadridMetroL1": [
+      62146,
+      7831480
+    ],
+    "MadridMetroL2": [
+      61833,
+      7838962
+    ],
+    "MadridMetroL3": [
+      7838837,
+      57356
+    ],
+    "MadridMetroL4": [
+      2588492,
+      7827779
+    ],
+    "MadridMetroL5": [
+      7838613,
+      61834
+    ],
+    "MadridMetroL6": [
+      56791,
+      7842093
+    ],
+    "MadridMetroL7": [
+      7840622,
+      62901
+    ],
+    "MadridMetroL8": [
+      7837168,
+      62917
+    ],
+    "MadridMetroL9": [
+      85222,
+      6623406
+    ],
+    "MadridMetroL10": [
+      14614366,
+      3113079,
+      14614365,
+      58267
+    ],
+    "MadridMetroL11": [
+      7842126,
+      56044
+    ],
+    "MadridMetroL12": [
+      7841410,
+      2325279
+    ],
+    "MetroLigeroMl1": [
+      7849380,
+      87128
+    ],
+    "MetroLigeroMl2": [
+      7853071,
+      61879
+    ],
+    "MetroLigeroMl3": [
+      7853482,
+      61878
+    ]
+  }
+}

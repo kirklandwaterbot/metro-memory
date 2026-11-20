@@ -114,7 +114,14 @@ const nextConfig = {
     return config
   },
   async redirects() {
-    return []
+    return [
+      // Dujiangyan's M-TR tram is now part of the Chengdu game.
+      {
+        source: '/asia/china/dujiangyan',
+        destination: '/asia/china/chengdu',
+        permanent: false,
+      },
+    ]
   },
   async rewrites() {
     // Fallback rewrites: a file that is in the deployment (e.g. a preview's

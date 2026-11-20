@@ -45,9 +45,9 @@ export const i18n = rosetta({
     enterZenMode: 'Enter Zen Mode',
     exitZenMode: 'Exit Zen Mode',
     zenModeToastOn: ({ key }: { key: string }): string =>
-      key ? `Zen Mode On - press  to turn off` : 'Zen Mode On',
+      key ? `Zen Mode On - press ${key} to turn off` : 'Zen Mode On',
     zenModeToastOff: ({ key }: { key: string }): string =>
-      key ? `Zen Mode Off - press  to turn on` : 'Zen Mode Off',
+      key ? `Zen Mode Off - press ${key} to turn on` : 'Zen Mode Off',
     about: 'Credits',
     cityStats: 'City Statistics',
     cityStatsStationsProgress: 'Stations progress',
@@ -231,9 +231,9 @@ opensANewTab:
     keybindingOpenAccount: 'Open Account',
     keybindingOpenSettings: 'Open Settings',
     adminTools: 'Admin tools',
-    adminToolsDesc: 'Review monthly automation runs, approve staged changes, and open apply or revert PRs.',
+    adminToolsDesc: 'See stations that are under construction or about to open, and add them to the game.',
     adminToolsAccess: 'Access is restricted to approved signed-in admin accounts.',
-    openAutomationAdminPanel: 'Open automation admin panel',
+    openAutomationAdminPanel: 'Open upcoming stations',
     resetSavedProgressTitle: 'Reset saved progress',
     resetSavedProgressDesc:
       'Hold the button for 5 seconds to erase the selected cities and achievements. Only cities where you have progress appear below. This cannot be undone.',
@@ -602,9 +602,9 @@ opensANewTab:
     resetSavedProgressTitle: 'Réinitialiser la progression sauvegardée',
     resetSavedProgressDesc:
       'Maintenez le bouton pendant 5 secondes pour effacer les villes sélectionnées. Seules les villes où vous avez du progrès apparaissent ci-dessous. Cette action est irréversible.',
-    resetNoProgress: "Vous n'avez encore aucun progrÃƒÂ¨s enregistrÃƒÂ©.",
+    resetNoProgress: "Vous n'avez encore aucun progrès enregistré.",
     resetChooseCities: 'Choisissez les villes à réinitialiser :',
-    resetFoundLabel: ({ count }: { count: number }): string => `${count} trouvÃƒÂ©e${count > 1 ? 's' : ''}`,
+    resetFoundLabel: ({ count }: { count: number }): string => `${count} trouvée${count > 1 ? 's' : ''}`,
     resetSelectPrompt:
       'Sélectionnez au moins une ville pour activer le bouton de réinitialisation.',
     resetButtonResetting: 'Réinitialisation…',
@@ -711,9 +711,9 @@ opensANewTab:
     privacyProgressLabel: 'Données de progression',
     privacyProgressDesc:
       'ne sont enregistrées sur votre compte que si vous créez un compte. Les invités utilisent le stockage local du navigateur.',
-    privacyVerificationLabel: "VÃƒÂ©rification d'email et rÃƒÂ©initialisation de mot de passe",
+    privacyVerificationLabel: "Vérification d'email et réinitialisation de mot de passe",
     privacyVerificationDesc:
-      "sont requises ÃƒÂ  l'inscription pour ÃƒÂ©viter les abus et garder vos succÃƒÂ¨s liÃƒÂ©s ÃƒÂ  votre boÃƒÂ®te mail.",
+      "sont requises à l'inscription pour éviter les abus et garder vos succès liés à votre boîte mail.",
     // Account
     accountIntro:
       'Créez un compte pour synchroniser vos progrès et succès Metro Memory en toute sécurité entre vos appareils.',
@@ -725,7 +725,7 @@ opensANewTab:
     accountLogout: 'Se déconnecter',
     accountSyncedCities: 'Villes synchronisées',
     accountSyncedCitiesCount: ({ count }: { count: number }): string =>
-      `${count} ${count > 1 ? 'villes synchronisÃƒÂ©es' : 'ville synchronisÃƒÂ©e'}`,
+      `${count} ${count > 1 ? 'villes synchronisées' : 'ville synchronisée'}`,
     accountSearchSynced: 'Rechercher dans les villes synchronisées…',
     accountSortNameAsc: 'Nom (A-Z)',
     accountSortNameDesc: 'Nom (Z-A)',
@@ -775,7 +775,7 @@ opensANewTab:
     accountEmailMismatch: 'Les adresses email ne correspondent pas.',
     accountPasswordRequirementError: 'Le mot de passe doit répondre à toutes les exigences.',
     accountPasswordMismatch: 'Les mots de passe ne correspondent pas.',
-    accountEmailUpdateError: "Impossible de mettre ÃƒÂ  jour l'email.",
+    accountEmailUpdateError: "Impossible de mettre à jour l'email.",
     accountEmailUpdateSuccess:
       'Email mis à jour. Vérifiez votre boîte mail pour valider la nouvelle adresse.',
     accountPasswordUpdateError: 'Impossible de mettre à jour le mot de passe.',
@@ -787,6 +787,41 @@ opensANewTab:
     accountRememberMe: 'Se souvenir de moi sur cet appareil',
     accountSignInTitle: 'Se connecter',
     accountCheckingStatus: 'Vérification de l’état de votre compte…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Mode Zen activé – appuyez sur ${key} pour le désactiver` : 'Mode Zen activé',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Mode Zen désactivé – appuyez sur ${key} pour l’activer` : 'Mode Zen désactivé',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Essayez des versions ciblées de ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Passez de ${city} à ses versions réduites, et inversement.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count <= 1 ? `${count} mini-ville` : `${count} mini-villes`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Jouer à Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} mini-villes · ${found} / ${total} stations`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count <= 1 ? `${count} réussite` : `${count} réussites`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Déplier ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Replier ${label}`,
   },
   es: {
     restartWarning:
@@ -794,7 +829,7 @@ opensANewTab:
     introInstruction: 'Escribe el nombre de una estación, y pulsa Enter',
     backToTheGame: 'Volver al juego',
     stations: ({ count }: { count: number }) =>
-      `${count} estaciÃƒÂ³n${count > 1 ? 'es' : ''}`,
+      `${count} estación${count > 1 ? 'es' : ''}`,
     stationsFound: 'estaciones encontradas',
     inputPlaceholder: 'Estación',
     alreadyFound: 'Ya encontrada',
@@ -808,7 +843,7 @@ opensANewTab:
     cityStatsStationsProgress: 'Progreso de estaciones',
     cityStatsTimeSpent: 'Tiempo invertido',
     cityStatsAvgPerStation: ({ duration }: { duration: string }): string => `Promedio ${duration} por estación`,
-    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} dÃƒÂ­a de juego${count === 1 ? "" : "s"}`,
+    cityStatsPlayDays: ({ count }: { count: number }): string => `${count} día de juego${count === 1 ? "" : "s"}`,
     cityStatsFirstLatest: 'Primeros y últimos hallazgos',
     cityStatsFirst: ({ value }: { value: string }): string => `Primero: ${value}`,
     cityStatsLatest: ({ value }: { value: string }): string => `Último: ${value}`,
@@ -1031,7 +1066,7 @@ opensANewTab:
     accountSortProgressDesc: 'Progreso (mayor a menor)',
     accountSortProgressAsc: 'Progreso (menor a mayor)',
     accountStationsFound: ({ count }: { count: number }) =>
-      `${count} estaciÃƒÂ³n${count === 1 ? '' : 'es'}`,
+      `${count} estación${count === 1 ? '' : 'es'}`,
     accountNoSyncedCities:
       'Aún no hay ciudades sincronizadas. Juega una ciudad para empezar a guardar tu progreso.',
     accountChangeEmail: 'Cambiar email',
@@ -1086,14 +1121,49 @@ opensANewTab:
     accountRememberMe: 'Recordarme en este dispositivo',
     accountSignInTitle: 'Iniciar sesión',
     accountCheckingStatus: 'Comprobando el estado de tu cuenta…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Modo Zen activado: pulsa ${key} para desactivarlo` : 'Modo Zen activado',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Modo Zen desactivado: pulsa ${key} para activarlo` : 'Modo Zen desactivado',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Prueba versiones enfocadas de ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Cambia entre ${city} y sus versiones más pequeñas.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} miniciudad` : `${count} miniciudades`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Jugar a Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} miniciudades · ${found} / ${total} estaciones`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} logro` : `${count} logros`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Expandir ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Contraer ${label}`,
   },
   ca: {
     restartWarning:
       'Perdràs tot el teu progrés. Estàs segur que vols començar de nou?',
-    introInstruction: "Escriu el nom d'una estaciÃƒÂ³, i prem Enter",
+    introInstruction: "Escriu el nom d'una estació, i prem Enter",
     backToTheGame: 'Torna al joc',
     stations: ({ count }: { count: number }) =>
-      `${count} estaciÃƒÂ³${count > 1 ? 's' : ''}`,
+      `${count} estació${count > 1 ? 's' : ''}`,
     stationsFound: 'estacions trobades',
     inputPlaceholder: 'Estació',
     alreadyFound: 'Ja trobada',
@@ -1321,7 +1391,7 @@ opensANewTab:
     accountSortProgressDesc: 'Progrés (alt a baix)',
     accountSortProgressAsc: 'Progrés (baix a alt)',
     accountStationsFound: ({ count }: { count: number }) =>
-      `${count} estaciÃƒÂ³${count === 1 ? '' : 's'}`,
+      `${count} estació${count === 1 ? '' : 's'}`,
     accountNoSyncedCities:
       'Encara no hi ha ciutats sincronitzades. Juga una ciutat per començar a desar el progrés.',
     accountChangeEmail: 'Canvia el correu',
@@ -1376,6 +1446,41 @@ opensANewTab:
     accountRememberMe: 'Recorda’m en aquest dispositiu',
     accountSignInTitle: 'Inicia sessió',
     accountCheckingStatus: 'Comprovant l’estat del compte…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Mode Zen activat: prem ${key} per desactivar-lo` : 'Mode Zen activat',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Mode Zen desactivat: prem ${key} per activar-lo` : 'Mode Zen desactivat',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Prova versions centrades de ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Canvia entre ${city} i les seves versions més petites.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} miniciutat` : `${count} miniciutats`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Juga a Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} miniciutats · ${found} / ${total} estacions`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} assoliment` : `${count} assoliments`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Desplega ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Plega ${label}`,
   },
   de: {
     restartWarning:
@@ -1431,7 +1536,7 @@ opensANewTab:
     searchFoundStations: 'Stationen durchsuchen…',
     noStationsFound: ({ query }: { query?: string }): string =>
       query && query.length > 0
-        ? `Keine Stationen fÃƒÂ¼r "${query}" gefunden`
+        ? `Keine Stationen für "${query}" gefunden`
         : 'Keine Stationen gefunden',
     // New UI Keys
     language: 'Sprache',
@@ -1450,7 +1555,7 @@ opensANewTab:
     light: 'Hell',
     dark: 'Dunkel',
     accentColor: 'Akzentfarbe',
-    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'Stadt' : 'StÃƒÂ¤dte'}`,
+    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'Stadt' : 'Städte'}`,
     accentAmber: 'Bernstein',
     accentBubbleGum: 'Kaugummi',
     accentCoffee: 'Kaffee',
@@ -1604,7 +1709,7 @@ opensANewTab:
     accountLogout: 'Abmelden',
     accountSyncedCities: 'Synchronisierte Städte',
     accountSyncedCitiesCount: ({ count }: { count: number }): string =>
-      `${count} ${count === 1 ? 'Stadt synchronisiert' : 'StÃƒÂ¤dte synchronisiert'}`,
+      `${count} ${count === 1 ? 'Stadt synchronisiert' : 'Städte synchronisiert'}`,
     accountSearchSynced: 'Synchronisierte Städte durchsuchen…',
     accountSortNameAsc: 'Name (A-Z)',
     accountSortNameDesc: 'Name (Z-A)',
@@ -1666,6 +1771,41 @@ opensANewTab:
     accountRememberMe: 'Auf diesem Gerät angemeldet bleiben',
     accountSignInTitle: 'Anmelden',
     accountCheckingStatus: 'Kontostatus wird geprüft…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Zen-Modus an – drücke ${key} zum Ausschalten` : 'Zen-Modus an',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Zen-Modus aus – drücke ${key} zum Einschalten` : 'Zen-Modus aus',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Probiere fokussierte Versionen von ${city} aus.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Wechsle zwischen ${city} und den kleineren Versionen.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} Mini-Stadt` : `${count} Mini-Städte`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `${city} Metro Memory spielen`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} Mini-Städte · ${found} / ${total} Stationen`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} Erfolg` : `${count} Erfolge`,
+    expandSectionLabel: ({ label }: { label: string }): string => `${label} ausklappen`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `${label} einklappen`,
   },
   ko: {
     restartWarning: '진행한 모든 내용이 사라집니다. 계속하시겠습니까?',
@@ -1933,6 +2073,39 @@ opensANewTab:
     accountRememberMe: '이 기기에서 기억하기',
     accountSignInTitle: '로그인',
     accountCheckingStatus: '계정 상태를 확인하는 중…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `젠 모드 켜짐 - ${key} 키를 눌러 끄기` : '젠 모드 켜짐',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `젠 모드 꺼짐 - ${key} 키를 눌러 켜기` : '젠 모드 꺼짐',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `${city}의 집중 버전을 플레이해 보세요.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `${city}와 작은 버전 사이를 전환합니다.`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `미니 도시 ${count}개`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `${city} Metro Memory 플레이`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `미니 도시 ${cityCount}개 · ${found} / ${total}개 역`,
+    achievementCountLabel: ({ count }: { count: number }): string => `업적 ${count}개`,
+    expandSectionLabel: ({ label }: { label: string }): string => `${label} 펼치기`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `${label} 접기`,
   },
   tr: {
     restartWarning:
@@ -1974,7 +2147,7 @@ opensANewTab:
     openCityStats: 'Şehir istatistiklerini aç',
     goToMain: 'Ana sayfaya dön',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
-      `Tebrikler, ${Math.floor(foundProportion * 100)}%'ye ulaÅŸtÄ±nÄ±z!`,
+      `Tebrikler, ${Math.floor(foundProportion * 100)}%'ye ulaştınız!`,
     freeGame: 'Bu oyun ücretsizdir.',
 opensANewTab:
       'Bu bağlantı yeni bir sekmede açılır ve ilerlemeniz tarayıcınızda kaydedilir.',
@@ -2007,7 +2180,7 @@ opensANewTab:
     light: 'Açık',
     dark: 'Koyu',
     accentColor: 'Vurgu rengi',
-    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'ÅŸehir' : 'ÅŸehir'}`,
+    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'şehir' : 'şehir'}`,
     accentAmber: 'Kehribar',
     accentBubbleGum: 'Sakız',
     accentCoffee: 'Kahve',
@@ -2145,7 +2318,7 @@ opensANewTab:
     accountLogout: 'Çıkış yap',
     accountSyncedCities: 'Senkronlanan şehirler',
     accountSyncedCitiesCount: ({ count }: { count: number }): string =>
-      `${count} ${count === 1 ? 'ÅŸehir senkronlandÄ±' : 'ÅŸehir senkronlandÄ±'}`,
+      `${count} ${count === 1 ? 'şehir senkronlandı' : 'şehir senkronlandı'}`,
     accountSearchSynced: 'Senkronlanan şehirlerde ara…',
     accountSortNameAsc: 'İsim (A-Z)',
     accountSortNameDesc: 'İsim (Z-A)',
@@ -2204,6 +2377,39 @@ opensANewTab:
     accountRememberMe: 'Bu cihazda beni hatırla',
     accountSignInTitle: 'Giriş yap',
     accountCheckingStatus: 'Hesap durumunuz kontrol ediliyor…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Zen modu açık – kapatmak için ${key} tuşuna bas` : 'Zen modu açık',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Zen modu kapalı – açmak için ${key} tuşuna bas` : 'Zen modu kapalı',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `${city} için odaklanmış sürümleri dene.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `${city} ile daha küçük sürümleri arasında geçiş yap.`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `${count} mini şehir`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `${city} Metro Memory oyna`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} mini şehir · ${found} / ${total} istasyon`,
+    achievementCountLabel: ({ count }: { count: number }): string => `${count} başarı`,
+    expandSectionLabel: ({ label }: { label: string }): string => `${label} bölümünü genişlet`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `${label} bölümünü daralt`,
   },
   jp: {
     restartWarning: '進捗が失われます。本当にやり直しますか？',
@@ -2474,6 +2680,39 @@ opensANewTab:
     accountRememberMe: 'このデバイスで記憶する',
     accountSignInTitle: 'サインイン',
     accountCheckingStatus: 'アカウント状況を確認中…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Zen モード オン - ${key} キーでオフ` : 'Zen モード オン',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Zen モード オフ - ${key} キーでオン` : 'Zen モード オフ',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `${city}の小さいバージョンを試してみましょう。`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `${city}とその小さいバージョンを切り替えます。`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `ミニ都市 ${count} 件`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `${city} の Metro Memory をプレイ`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `ミニ都市 ${cityCount} 件 · ${found} / ${total} 駅`,
+    achievementCountLabel: ({ count }: { count: number }): string => `実績 ${count} 件`,
+    expandSectionLabel: ({ label }: { label: string }): string => `${label}を展開`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `${label}を折りたたむ`,
   },
   sv: {
     restartWarning:
@@ -2501,7 +2740,7 @@ opensANewTab:
     cityStatsLatest: ({ value }: { value: string }): string => `Senaste: ${value}`,
     cityStatsPercentFound: ({ percent }: { percent: string }): string => `${percent} hittade`,
     cityStatsCompletedLines: 'Färdiga linjer',
-    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Snabbast: ${line}${duration ? ` pÃƒÆ’Ã‚Â¥ ${duration}` : ""}`,
+    cityStatsFastestLine: ({ line, duration }: { line: string; duration?: string }): string => `Snabbast: ${line}${duration ? ` på ${duration}` : ""}`,
     cityStatsLineBreakdown: 'Linjesammanställning',
     cityStatsNoTimeData: 'Inga tidsdata ännu',
     cityStatsTimelineTitle: 'Stationstidslinje',
@@ -2529,7 +2768,7 @@ opensANewTab:
     searchFoundStations: 'Sök stationer…',
     noStationsFound: ({ query }: { query?: string }): string =>
       query && query.length > 0
-        ? `Inga stationer hittades fÃƒÂ¶r "${query}"`
+        ? `Inga stationer hittades för "${query}"`
         : 'Inga stationer hittades',
     // New UI Keys
     language: 'Språk',
@@ -2548,7 +2787,7 @@ opensANewTab:
     light: 'Ljust',
     dark: 'Mörkt',
     accentColor: 'Accentfärg',
-    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'stad' : 'stÃƒÂ¤der'}`,
+    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'stad' : 'städer'}`,
     accentAmber: 'Bärnsten',
     accentBubbleGum: 'Tuggummi',
     accentCoffee: 'Kaffe',
@@ -2686,7 +2925,7 @@ opensANewTab:
     accountLogout: 'Logga ut',
     accountSyncedCities: 'Synkade städer',
     accountSyncedCitiesCount: ({ count }: { count: number }): string =>
-      `${count} ${count === 1 ? 'stad synkad' : 'stÃƒÂ¤der synkade'}`,
+      `${count} ${count === 1 ? 'stad synkad' : 'städer synkade'}`,
     accountSearchSynced: 'Sök bland synkade städer…',
     accountSortNameAsc: 'Namn (A-Z)',
     accountSortNameDesc: 'Namn (Z-A)',
@@ -2746,13 +2985,48 @@ opensANewTab:
     accountRememberMe: 'Kom ihåg mig på den här enheten',
     accountSignInTitle: 'Logga in',
     accountCheckingStatus: 'Kontrollerar ditt kontostatus…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Zenläge på – tryck på ${key} för att stänga av` : 'Zenläge på',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Zenläge av – tryck på ${key} för att slå på` : 'Zenläge av',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Testa fokuserade versioner av ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Växla mellan ${city} och dess mindre versioner.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} ministad` : `${count} ministäder`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Spela ${city} Metro Memory`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} ministäder · ${found} / ${total} stationer`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} prestation` : `${count} prestationer`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Expandera ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Fäll ihop ${label}`,
   },
   hu: {
     restartWarning: 'Minden eddigi eredményed elveszik. Biztosan újrakezded?',
     introInstruction: 'Írd be egy állomás nevét, majd nyomj Entert',
     backToTheGame: 'Vissza a játékhoz',
     stations: ({ count }: { count: number }) =>
-      `${count} ÃƒÂ¡llomÃƒÂ¡s${count > 1 ? '' : ''}`,
+      `${count} állomás${count > 1 ? '' : ''}`,
     stationsFound: 'állomás megtalálva',
     inputPlaceholder: 'Állomás',
     alreadyFound: 'Már megtalálva',
@@ -2786,9 +3060,9 @@ opensANewTab:
     openCityStats: 'Városstatisztika megnyitása',
     goToMain: 'Vissza a főoldalra',
     congrats: ({ foundProportion }: { foundProportion: number }) =>
-      `ÃƒÅ“gyes vagy! Az ÃƒÂ¡llomÃƒÂ¡sok ${
+      `Ügyes vagy! Az állomások ${
         10 * Math.floor((foundProportion * 100) / 10)
-      } szÃƒÂ¡zalÃƒÂ©kÃƒÂ¡t nevezted meg!`,
+      } százalékát nevezted meg!`,
     freeGame: 'Ez a játék ingyenes.',
 opensANewTab:
       'Ez a link új lapot nyit meg, és a haladásod a böngésződben mentésre kerül.',
@@ -2802,7 +3076,7 @@ opensANewTab:
     searchFoundStations: 'Állomások keresése…',
     noStationsFound: ({ query }: { query?: string }): string =>
       query && query.length > 0
-        ? `Nem talÃƒÂ¡lhatÃƒÂ³ ÃƒÂ¡llomÃƒÂ¡s erre: "${query}"`
+        ? `Nem található állomás erre: "${query}"`
         : 'Nem található állomás',
     // New UI Keys
     language: 'Nyelv',
@@ -2821,7 +3095,7 @@ opensANewTab:
     light: 'Világos',
     dark: 'Sötét',
     accentColor: 'Kiemelő szín',
-    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'vÃƒÂ¡ros' : 'vÃƒÂ¡ros'}`,
+    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'város' : 'város'}`,
     accentAmber: 'Borostyán',
     accentBubbleGum: 'Rágógumi',
     accentCoffee: 'Kávé',
@@ -2959,7 +3233,7 @@ opensANewTab:
     accountLogout: 'Kijelentkezés',
     accountSyncedCities: 'Szinkronizált városok',
     accountSyncedCitiesCount: ({ count }: { count: number }): string =>
-      `${count} ${count === 1 ? 'vÃƒÂ¡ros szinkronizÃƒÂ¡lva' : 'vÃƒÂ¡ros szinkronizÃƒÂ¡lva'}`,
+      `${count} ${count === 1 ? 'város szinkronizálva' : 'város szinkronizálva'}`,
     accountSearchSynced: 'Szinkronizált városok keresése…',
     accountSortNameAsc: 'Név (A-Z)',
     accountSortNameDesc: 'Név (Z-A)',
@@ -3018,6 +3292,39 @@ opensANewTab:
     accountRememberMe: 'Emlékezzen erre az eszközre',
     accountSignInTitle: 'Bejelentkezés',
     accountCheckingStatus: 'Fiókállapot ellenőrzése…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Zen mód bekapcsolva – kikapcsolás: ${key}` : 'Zen mód bekapcsolva',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Zen mód kikapcsolva – bekapcsolás: ${key}` : 'Zen mód kikapcsolva',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Próbáld ki ${city} célzott változatait.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Válts ${city} és kisebb változatai között.`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `${count} miniváros`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `${city} Metro Memory játék`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} miniváros · ${found} / ${total} állomás`,
+    achievementCountLabel: ({ count }: { count: number }): string => `${count} teljesítmény`,
+    expandSectionLabel: ({ label }: { label: string }): string => `${label} kibontása`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `${label} összecsukása`,
   },
   'zh-CN': {
     restartWarning: '您将丢失所有进度。确定要重新开始吗？',
@@ -3402,6 +3709,12 @@ opensANewTab:
     accountRememberMe: '在此设备上记住我',
     accountSignInTitle: '登录',
     accountCheckingStatus: '正在检查你的账号状态…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `禅模式已开启 - 按 ${key} 关闭` : '禅模式已开启',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `禅模式已关闭 - 按 ${key} 开启` : '禅模式已关闭',
   },
   'zh-TW': {
     restartWarning: '您將遺失所有進度。確定要重新開始嗎？',
@@ -3786,6 +4099,12 @@ opensANewTab:
     accountRememberMe: '在此裝置上記住我',
     accountSignInTitle: '登入',
     accountCheckingStatus: '正在檢查你的帳戶狀態…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `禪模式已開啟 - 按 ${key} 關閉` : '禪模式已開啟',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `禪模式已關閉 - 按 ${key} 開啟` : '禪模式已關閉',
   },
   vi: {
     restartWarning:
@@ -4057,6 +4376,39 @@ opensANewTab:
     accountRememberMe: 'Ghi nhớ trên thiết bị này',
     accountSignInTitle: 'Đăng nhập',
     accountCheckingStatus: 'Đang kiểm tra trạng thái tài khoản…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Đã bật chế độ Zen – nhấn ${key} để tắt` : 'Đã bật chế độ Zen',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Đã tắt chế độ Zen – nhấn ${key} để bật` : 'Đã tắt chế độ Zen',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Thử các phiên bản tập trung của ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Chuyển giữa ${city} và các phiên bản nhỏ hơn.`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `${count} thành phố mini`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Chơi Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} thành phố mini · ${found} / ${total} ga`,
+    achievementCountLabel: ({ count }: { count: number }): string => `${count} thành tích`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Mở rộng ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Thu gọn ${label}`,
   },
   pt: {
     restartWarning:
@@ -4064,7 +4416,7 @@ opensANewTab:
     introInstruction: 'Digite o nome de uma estação e pressione Enter',
     backToTheGame: 'Voltar ao jogo',
     stations: ({ count }: { count: number }) =>
-      `${count} estaÃƒÂ§ÃƒÂ£o${count > 1 ? 'ÃƒÂµes' : ''}`,
+      `${count} estação${count > 1 ? 'ões' : ''}`,
     stationsFound: 'estações encontradas',
     inputPlaceholder: 'Estação',
     alreadyFound: 'Já encontrada',
@@ -4112,7 +4464,7 @@ opensANewTab:
     searchFoundStations: 'Pesquisar estações encontradas…',
     noStationsFound: ({ query }: { query?: string }): string =>
       query && query.length > 0
-        ? `Nenhuma estaÃƒÂ§ÃƒÂ£o encontrada para "${query}"`
+        ? `Nenhuma estação encontrada para "${query}"`
         : 'Nenhuma estação encontrada',
     // New UI Keys
     language: 'Idioma',
@@ -4275,7 +4627,7 @@ opensANewTab:
     accountSortNameDesc: 'Nome (Z-A)',
     accountSortProgressDesc: 'Progresso (maior para menor)',
     accountSortProgressAsc: 'Progresso (menor para maior)',
-    accountStationsFound: ({ count }: { count: number }): string => `${count} estaÃƒÂ§ÃƒÂ£o${count === 1 ? '' : 's'}`,
+    accountStationsFound: ({ count }: { count: number }): string => `${count} estação${count === 1 ? '' : 's'}`,
     accountNoSyncedCities:
       'Ainda não há cidades sincronizadas. Jogue uma cidade para começar a salvar seu progresso.',
     accountChangeEmail: 'Alterar email',
@@ -4329,6 +4681,41 @@ opensANewTab:
     accountRememberMe: 'Lembrar neste dispositivo',
     accountSignInTitle: 'Entrar',
     accountCheckingStatus: 'Verificando o status da sua conta…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Modo Zen ativado – pressione ${key} para desativar` : 'Modo Zen ativado',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Modo Zen desativado – pressione ${key} para ativar` : 'Modo Zen desativado',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Experimente versões focadas de ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Alterne entre ${city} e suas versões menores.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} minicidade` : `${count} minicidades`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Jogar Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} minicidades · ${found} / ${total} estações`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} conquista` : `${count} conquistas`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Expandir ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Recolher ${label}`,
   },
   it: {
     restartWarning:
@@ -4403,7 +4790,7 @@ opensANewTab:
     light: 'Chiaro',
     dark: 'Scuro',
     accentColor: 'Colore di accento',
-    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'cittÃƒÂ ' : 'cittÃƒÂ '}`,
+    cityCount: ({ count }: { count: number }): string => `${count} ${count === 1 ? 'città' : 'città'}`,
     accentAmber: 'Ambra',
     accentBubbleGum: 'Bubble Gum',
     accentCoffee: 'Caffè',
@@ -4541,7 +4928,7 @@ opensANewTab:
     accountLogout: 'Esci',
     accountSyncedCities: 'Città sincronizzate',
     accountSyncedCitiesCount: ({ count }: { count: number }): string =>
-      `${count} ${count === 1 ? 'cittÃƒÂ  sincronizzata' : 'cittÃƒÂ  sincronizzate'}`,
+      `${count} ${count === 1 ? 'città sincronizzata' : 'città sincronizzate'}`,
     accountSearchSynced: 'Cerca città sincronizzate…',
     accountSortNameAsc: 'Nome (A-Z)',
     accountSortNameDesc: 'Nome (Z-A)',
@@ -4585,7 +4972,7 @@ opensANewTab:
       'Se l’account esiste, una nuova email di verifica è in arrivo.',
     accountNetworkError: 'Errore di rete. Riprova.',
     accountSignupError: 'Impossibile creare l’account. Riprova.',
-    accountEmailRequired: "L'email ÃƒÂ¨ obbligatoria.",
+    accountEmailRequired: "L'email è obbligatoria.",
     accountEmailInvalid: 'Inserisci un indirizzo email valido.',
     accountEmailMismatch: 'Gli indirizzi email non corrispondono.',
     accountPasswordRequirementError: 'La password deve soddisfare tutti i requisiti.',
@@ -4602,6 +4989,40 @@ opensANewTab:
     accountRememberMe: 'Ricordami su questo dispositivo',
     accountSignInTitle: 'Accedi',
     accountCheckingStatus: 'Verifica dello stato del tuo account…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Modalità Zen attiva: premi ${key} per disattivarla` : 'Modalità Zen attiva',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Modalità Zen disattivata: premi ${key} per attivarla` : 'Modalità Zen disattivata',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Prova versioni mirate di ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Passa da ${city} alle sue versioni ridotte e viceversa.`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `${count} mini città`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Gioca a Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} mini città · ${found} / ${total} stazioni`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} traguardo` : `${count} traguardi`,
+    expandSectionLabel: ({ label }: { label: string }): string => `Espandi ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `Comprimi ${label}`,
   },
   nl: {
     restartWarning:
@@ -4875,6 +5296,41 @@ opensANewTab:
     accountRememberMe: 'Onthoud mij op dit apparaat',
     accountSignInTitle: 'Inloggen',
     accountCheckingStatus: 'Accountstatus controleren…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `Zen-modus aan – druk op ${key} om uit te zetten` : 'Zen-modus aan',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `Zen-modus uit – druk op ${key} om aan te zetten` : 'Zen-modus uit',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `Probeer gerichte versies van ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `Wissel tussen ${city} en de kleinere versies.`,
+    miniCityCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} ministad` : `${count} ministeden`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `Speel ${city} Metro Memory`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `${cityCount} ministeden · ${found} / ${total} stations`,
+    achievementCountLabel: ({ count }: { count: number }): string =>
+      count === 1 ? `${count} prestatie` : `${count} prestaties`,
+    expandSectionLabel: ({ label }: { label: string }): string => `${label} uitklappen`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `${label} inklappen`,
   },
   ar: {
     restartWarning: 'ستفقد كل تقدمك. هل أنت متأكد أنك تريد البدء من جديد؟',
@@ -5145,6 +5601,39 @@ opensANewTab:
     accountRememberMe: 'تذكرني على هذا الجهاز',
     accountSignInTitle: 'تسجيل الدخول',
     accountCheckingStatus: 'جارٍ التحقق من حالة حسابك…',
+
+    // Added translations (agent-maintained)
+    zenModeToastOn: ({ key }: { key: string }): string =>
+      key ? `وضع Zen مفعّل – اضغط ${key} لإيقافه` : 'وضع Zen مفعّل',
+    zenModeToastOff: ({ key }: { key: string }): string =>
+      key ? `وضع Zen متوقف – اضغط ${key} لتفعيله` : 'وضع Zen متوقف',
+    playSmallerVersionsDesc: ({ city }: { city: string }): string => `جرّب نسخًا مركّزة من ${city}.`,
+    relatedVersionsDesc: ({ city }: { city: string }): string => `بدّل بين ${city} ونسخها الأصغر.`,
+    miniCityCountLabel: ({ count }: { count: number }): string => `عدد المدن المصغّرة: ${count}`,
+    playMetroMemoryCta: ({ city }: { city: string }): string => `العب Metro Memory ${city}`,
+    globalContinentDetail: ({
+      cityCount,
+      found,
+      total,
+      stations,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+      stations: string
+    }): string => `${cityCount} · ${found} / ${total} ${stations}`,
+    globalMiniContinentDetail: ({
+      cityCount,
+      found,
+      total,
+    }: {
+      cityCount: string
+      found: string
+      total: string
+    }): string => `المدن المصغّرة: ${cityCount} · ${found} / ${total} محطة`,
+    achievementCountLabel: ({ count }: { count: number }): string => `عدد الإنجازات: ${count}`,
+    expandSectionLabel: ({ label }: { label: string }): string => `توسيع ${label}`,
+    collapseSectionLabel: ({ label }: { label: string }): string => `طيّ ${label}`,
   },
 })
 

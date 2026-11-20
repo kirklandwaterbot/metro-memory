@@ -1,0 +1,26 @@
+{
+  "MASH1": {
+    "name": "Line 1",
+    "color": "#0026FF",
+    "backgroundColor": "#0026FF",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "MASH1.svg"
+  },
+  "MASH2": {
+    "name": "Line 2",
+    "color": "#66CC00",
+    "backgroundColor": "#66CC00",
+    "textColor": "#222222",
+    "order": 1,
+    "icon": "MASH2.svg"
+  },
+  "MASH3": {
+    "name": "Line 3",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "MASH3.svg"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.363659,
+          38.020099
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "El Goli",
+        "alternate_names": [
+          "ایستگاه مترو ائل‌گلی"
+        ],
+        "line": "TABR1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.360778,
+          38.029991
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Sahand",
+        "alternate_names": [
+          "ایستگاه مترو سهند"
+        ],
+        "line": "TABR1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.355569,
+          38.040121
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Emam Reza",
+        "alternate_names": [
+          "ایستگاه مترو امام رضا"
+        ],
+        "line": "TABR1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.351989,
+          38.047038
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Khayyam",
+        "alternate_names": [
+          "ایستگاه مترو خیام"
+        ],
+        "line": "TABR1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.346969,
+          38.054267
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "29 Bahman",
+        "alternate_names": [
+          "ایستگاه مترو ۲۹ بهمن"
+        ],
+        "line": "TABR1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.340966,
+          38.060621
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Ostad Shahriar",
+        "alternate_names": [
+          "ایستگاه مترو استاد شهریار"
+        ],
+        "line": "TABR1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.330144,
+          38.064392
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Daneshgah",
+        "alternate_names": [
+          "ایستگاه مترو دانشگاه"
+        ],
+        "line": "TABR1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.320384,
+          38.067169
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Abresan",
+        "alternate_names": [
+          "ایستگاه مترو ابرسان"
+        ],
+        "line": "TABR1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.312829,
+          38.069422
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Meydan-E Qhotb",
+        "alternate_names": [
+          "ایستگاه مترو میدان قطب"
+        ],
+        "line": "TABR1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.304782,
+          38.071797
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Mansour–Beheshti Intersection",
+        "alternate_names": [
+          "ایستگاه مترو چهار راه منصور-بهشتی"
+        ],
+        "line": "TABR1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.29693,
+          38.074062
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Meydan-E Saat",
+        "alternate_names": [
+          "ایستگاه مترو میدان ساعت"
+        ],
+        "line": "TABR1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.289056,
+          38.076565
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Meydan-E Kohan",
+        "alternate_names": [
+          "ایستگاه مترو میدان کهن",
+          "مترو میدان کهن"
+        ],
+        "line": "TABR1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.279266,
+          38.076243
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Ghongha",
+        "alternate_names": [
+          "ایستگاه مترو قونقا"
+        ],
+        "line": "TABR1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.27138,
+          38.067588
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Gazeran",
+        "alternate_names": [
+          "ایستگاه مترو گازران"
+        ],
+        "line": "TABR1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.261706,
+          38.063222
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Laleh",
+        "alternate_names": [
+          "ایستگاه مترو لاله"
+        ],
+        "line": "TABR1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.24794,
+          38.05644
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Meydan-E Emam Hossein",
+        "alternate_names": [
+          "ایستگاه مترو میدان امام حسین"
+        ],
+        "line": "TABR1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.240738,
+          38.054146
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Shahid Bakeri",
+        "alternate_names": [
+          "ایستگاه مترو شهید باکری"
+        ],
+        "line": "TABR1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.231282,
+          38.051716
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Noor",
+        "alternate_names": [
+          "ایستگاه مترو نور"
+        ],
+        "line": "TABR1",
+        "order": 17
+      },
+      "id": 17
+    }
+  ]
+}

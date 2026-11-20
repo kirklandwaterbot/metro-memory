@@ -1,0 +1,62 @@
+{
+  "slug": "lille",
+  "path": "europe/france/lille",
+  "gameTitle": "Lille Metro Memory",
+  "description": "How many Lille Metro stations can you name from memory?",
+  "locale": "fr_FR",
+  "bbox": [
+    50.493,
+    2.836,
+    50.781,
+    3.29
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Lille Metro",
+      "lines": [
+        "LILL1",
+        "LILL2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LILL1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(171691|7786750)$"
+      },
+      "color": "#FFD400",
+      "textColor": "#222222",
+      "badge": "1",
+      "icon": "LILL1.svg"
+    },
+    {
+      "id": "LILL2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(449485|7786749)$"
+      },
+      "color": "#ED1D24",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "LILL2.svg"
+    }
+  ],
+  "register": {
+    "name": "Lille, FR",
+    "continent": "Europe",
+    "coordinates": [
+      3.063,
+      50.637
+    ],
+    "zh": "里尔, FR",
+    "achievement": {
+      "title": "Lille Metro Master",
+      "description": "You've named every Lille Metro station."
+    }
+  }
+}

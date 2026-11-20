@@ -1,0 +1,64 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "SingaporeNSL": [
+      2312797,
+      445768
+    ],
+    "SingaporeEWL": [
+      445764,
+      7981691,
+      2312796,
+      7981690
+    ],
+    "SingaporeNEL": [
+      7981648,
+      2293545
+    ],
+    "SingaporeCCL": [
+      7981669,
+      2076291,
+      7981667,
+      7981668
+    ],
+    "SingaporeDTL": [
+      2313458,
+      7981642
+    ],
+    "SingaporeTEL": [
+      2383439,
+      9627856
+    ],
+    "SingaporeBPLRT": [
+      9664084,
+      1159434
+    ],
+    "SingaporeSKLRT": [
+      9663108,
+      9663107,
+      1146941,
+      2312985
+    ],
+    "SingaporePGLRT": [
+      9663920,
+      9663919,
+      2312984,
+      1146942
+    ],
+    "SingaporeRTS": [],
+    "SingaporeCableMountFaber": [],
+    "SingaporeCableSentosa": [
+      9663249,
+      2353581
+    ],
+    "SingaporePMSNorth": [],
+    "SingaporePMSSouth": [],
+    "SingaporeSentosaExpress": [
+      9663249,
+      2353581
+    ]
+  }
+}

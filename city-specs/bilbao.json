@@ -1,0 +1,74 @@
+{
+  "slug": "bilbao",
+  "path": "europe/spain/bilbao",
+  "gameTitle": "Bilbao Metro Memory",
+  "description": "How many Bilbao Metro stations can you name from memory?",
+  "locale": "es_ES",
+  "bbox": [
+    43.12,
+    -3.198,
+    43.48,
+    -2.702
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Bilbao Metro",
+      "lines": [
+        "BILBL1",
+        "BILBL2",
+        "BILBL3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BILBL1",
+      "name": "Line L1",
+      "match": {
+        "@id": "^(7106861|7184278|7184296|7184297|7184308|7184309)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "L1",
+      "icon": "BILBL1.svg"
+    },
+    {
+      "id": "BILBL2",
+      "name": "Line L2",
+      "match": {
+        "@id": "^(6661418|6727389)$"
+      },
+      "color": "#333333",
+      "textColor": "#FFFFFF",
+      "badge": "L2",
+      "icon": "BILBL2.svg"
+    },
+    {
+      "id": "BILBL3",
+      "name": "Line L3",
+      "match": {
+        "@id": "^(7141755|7141756)$"
+      },
+      "color": "#E3007D",
+      "textColor": "#FFFFFF",
+      "badge": "L3",
+      "icon": "BILBL3.svg"
+    }
+  ],
+  "register": {
+    "name": "Bilbao, ES",
+    "continent": "Europe",
+    "coordinates": [
+      -2.95,
+      43.3
+    ],
+    "zh": "毕尔巴鄂, ES",
+    "achievement": {
+      "title": "Bilbao Metro Master",
+      "description": "You've named every Bilbao Metro station."
+    }
+  }
+}

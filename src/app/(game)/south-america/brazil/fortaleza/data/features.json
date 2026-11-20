@@ -1,0 +1,744 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.620647,
+          -3.894858
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Carlito Benevides",
+        "line": "FORS",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.626975,
+          -3.887494
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Francisco Alves Marinho",
+        "line": "FORS",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.625621,
+          -3.877935
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Maracanaú",
+        "line": "FORS",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.620211,
+          -3.867418
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Virgílio Távora",
+        "line": "FORS",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.608418,
+          -3.850747
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Rachel de Queiroz",
+        "line": "FORS",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.600669,
+          -3.839509
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Alto Alegre",
+        "line": "FORS",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.591881,
+          -3.826798
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Aracapé",
+        "line": "FORS",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.585669,
+          -3.817212
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Esperança",
+        "line": "FORS",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.577565,
+          -3.807608
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Mondubim",
+        "line": "FORS",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.574838,
+          -3.798637
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Manoel Sátiro",
+        "line": "FORS",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.572329,
+          -3.784198
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Vila Pery",
+        "line": "FORS",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.563883,
+          -3.775824
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Parangaba",
+        "line": "FORS",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.560097,
+          -3.766069
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Juscelino Kubitschek",
+        "line": "FORS",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.557464,
+          -3.757276
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Couto Fernandes",
+        "line": "FORS",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.551664,
+          -3.751447
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Porangabussu",
+        "line": "FORS",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.54581,
+          -3.745594
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Padre Cícero",
+        "line": "FORS",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.539625,
+          -3.739551
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Benfica",
+        "line": "FORS",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.53456,
+          -3.731819
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "São Benedito",
+        "line": "FORS",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.532842,
+          -3.72614
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "José de Alencar",
+        "line": "FORS",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.535281,
+          -3.720156
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Central - Chico da Silva",
+        "alternate_names": [
+          "Central",
+          "Chico da Silva"
+        ],
+        "line": "FORS",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.537002,
+          -3.719303
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Tirol - Moura Brasil",
+        "alternate_names": [
+          "Tirol",
+          "Moura Brasil"
+        ],
+        "line": "FORO",
+        "order": 0
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.564893,
+          -3.720341
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Álvaro Weyne",
+        "line": "FORO",
+        "order": 1
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.581063,
+          -3.730078
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Padre Andrade",
+        "line": "FORO",
+        "order": 2
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.59201,
+          -3.734939
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Antônio Bezerra",
+        "line": "FORO",
+        "order": 3
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.602382,
+          -3.749229
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "São Miguel",
+        "line": "FORO",
+        "order": 4
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.611916,
+          -3.757564
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Parque Albano",
+        "line": "FORO",
+        "order": 5
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.615333,
+          -3.765322
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Conjunto Ceará",
+        "line": "FORO",
+        "order": 6
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.622827,
+          -3.769413
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Jurema",
+        "line": "FORO",
+        "order": 7
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.639798,
+          -3.762613
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Araturi",
+        "line": "FORO",
+        "order": 8
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.660353,
+          -3.735841
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Caucaia",
+        "line": "FORO",
+        "order": 9
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.563697,
+          -3.776033
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Parangaba",
+        "line": "FORPM",
+        "order": 0
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.552969,
+          -3.773404
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Montese",
+        "line": "FORPM",
+        "order": 1
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.543122,
+          -3.771417
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Expedicionários",
+        "line": "FORPM",
+        "order": 2
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.534354,
+          -3.769794
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Vila União",
+        "line": "FORPM",
+        "order": 3
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.529002,
+          -3.761045
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Borges de Melo",
+        "line": "FORPM",
+        "order": 4
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.512524,
+          -3.760809
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "São João do Tauape",
+        "line": "FORPM",
+        "order": 5
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.500534,
+          -3.752165
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Pontes Vieira",
+        "line": "FORPM",
+        "order": 6
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.49371,
+          -3.748933
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Antônio Sales",
+        "line": "FORPM",
+        "order": 7
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.486564,
+          -3.738725
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Papicu",
+        "line": "FORPM",
+        "order": 8
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.480245,
+          -3.726164
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Mucuripe",
+        "line": "FORPM",
+        "order": 9
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.477036,
+          -3.720625
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Iate",
+        "line": "FORPM",
+        "order": 10
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.543193,
+          -3.771348
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Expedicionários",
+        "line": "FORAE",
+        "order": 0
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.541529,
+          -3.78022
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Aeroporto",
+        "line": "FORAE",
+        "order": 1
+      },
+      "id": 42
+    }
+  ]
+}

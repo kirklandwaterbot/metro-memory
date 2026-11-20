@@ -1,0 +1,42 @@
+{
+  "ROTTA": {
+    "name": "Line A",
+    "color": "#00AA50",
+    "backgroundColor": "#00AA50",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "ROTTA.svg"
+  },
+  "ROTTB": {
+    "name": "Line B",
+    "color": "#FFD301",
+    "backgroundColor": "#FFD301",
+    "textColor": "#222222",
+    "order": 1,
+    "icon": "ROTTB.svg"
+  },
+  "ROTTC": {
+    "name": "Line C",
+    "color": "#EF1F1F",
+    "backgroundColor": "#EF1F1F",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "ROTTC.svg"
+  },
+  "ROTTD": {
+    "name": "Line D",
+    "color": "#1BC5E9",
+    "backgroundColor": "#1BC5E9",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "ROTTD.svg"
+  },
+  "ROTTE": {
+    "name": "Line E",
+    "color": "#1A389A",
+    "backgroundColor": "#1A389A",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "ROTTE.svg"
+  }
+}

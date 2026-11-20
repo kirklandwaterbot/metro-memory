@@ -1,0 +1,62 @@
+{
+  "slug": "marseille",
+  "path": "europe/france/marseille",
+  "gameTitle": "Marseille Metro Memory",
+  "description": "How many Marseille Metro stations can you name from memory?",
+  "locale": "fr_FR",
+  "bbox": [
+    43.188,
+    5.232,
+    43.404,
+    5.53
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Marseille Metro",
+      "lines": [
+        "MARSM1",
+        "MARSM2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MARSM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(6274530|6274531)$"
+      },
+      "color": "#0075BE",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "MARSM1.svg"
+    },
+    {
+      "id": "MARSM2",
+      "name": "Line M2",
+      "match": {
+        "@id": "^(6274532|6274533)$"
+      },
+      "color": "#E30513",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "MARSM2.svg"
+    }
+  ],
+  "register": {
+    "name": "Marseille, FR",
+    "continent": "Europe",
+    "coordinates": [
+      5.381,
+      43.296
+    ],
+    "zh": "马赛, FR",
+    "achievement": {
+      "title": "Marseille Metro Master",
+      "description": "You've named every Marseille Metro station."
+    }
+  }
+}
