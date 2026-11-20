@@ -27,6 +27,7 @@ export default function MenuComponent({
   onToggleSatellite,
   showMapNames,
   onToggleMapNames,
+  achievementsHref = '/?tab=achievements',
 }: {
   hideLabels: boolean
   setHideLabels: (hide: boolean) => void
@@ -44,6 +45,7 @@ export default function MenuComponent({
   onToggleSatellite: () => void
   showMapNames: boolean
   onToggleMapNames: () => void
+  achievementsHref?: string
 }) {
   const [mounted, setMounted] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)
@@ -215,6 +217,21 @@ export default function MenuComponent({
                 )}
               </Menu.Item>
             )}
+            <Menu.Item>
+              {({ active }) => (
+                <Link
+                  className={classNames(
+                    active
+                      ? 'bg-gray-100 text-gray-900 dark:bg-zinc-700 dark:text-zinc-100'
+                      : 'text-gray-700 dark:text-zinc-100',
+                    'block w-full px-4 py-2 text-left text-sm transition',
+                  )}
+                  href={achievementsHref}
+                >
+                  {t('tabAchievements')}
+                </Link>
+              )}
+            </Menu.Item>
             {showMissedGuessInputs && onOpenMissedGuessInputs && (
               <Menu.Item>
                 {({ active }) => (

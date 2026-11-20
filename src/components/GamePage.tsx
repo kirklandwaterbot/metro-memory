@@ -6613,6 +6613,7 @@ function GamePageContent({
                 onToggleSatellite={handleToggleSatellite}
                 showMapNames={showMapNames}
                 onToggleMapNames={handleToggleMapNames}
+                achievementsHref={`/?tab=achievements&city=${encodeURIComponent(CITY_NAME)}`}
               />
               {customSharePath ? (
                 <button
