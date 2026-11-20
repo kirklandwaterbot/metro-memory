@@ -567,6 +567,8 @@ type AchievementContinentGroup = {
 type SearcheableCitiesListProps = {
   testimonialsContent?: ReactNode
   pressContent?: ReactNode
+  /** Render only one tab's content (e.g. inside the in-game achievements panel). */
+  embeddedTab?: 'achievements'
 }
 
 type AchievementMetrics = {
@@ -687,10 +689,12 @@ type GlobalStats = {
 const SearcheableCitiesList = ({
   testimonialsContent,
   pressContent,
+  embeddedTab,
 }: SearcheableCitiesListProps) => {
   const searchParams = useSearchParams()
   const tabDebugEnabledRef = useRef(false)
-  const [activeTab, setActiveTab] = useState<TabOption>('cities')
+  const isEmbedded = Boolean(embeddedTab)
+  const [activeTab, setActiveTab] = useState<TabOption>(embeddedTab ?? 'cities')
   const [search, setSearch] = useState('')
   const [continentNavOpen, setContinentNavOpen] = useState(true)
   const [collapsedContinents, setCollapsedContinents] = useState<Record<string, boolean>>({})
@@ -1460,6 +1464,7 @@ const SearcheableCitiesList = ({
   }, [continentNavOpen, uiPreferences.continentNavOpen])
 
   useEffect(() => {
+    if (isEmbedded) return
     const tabParam = searchParams?.get('tab')
     logTabDebug('url-tab-effect', {
       tabParam,
@@ -1480,10 +1485,10 @@ const SearcheableCitiesList = ({
     if (!tabPrefsHydratedRef.current) {
       tabPrefsHydratedRef.current = true
     }
-  }, [activeTab, isValidTab, logTabDebug, searchParams])
+  }, [activeTab, isEmbedded, isValidTab, logTabDebug, searchParams])
 
   useEffect(() => {
-    if (tabPrefsHydratedRef.current) {
+    if (isEmbedded || tabPrefsHydratedRef.current) {
       return
     }
 
@@ -1508,7 +1513,7 @@ const SearcheableCitiesList = ({
     }
 
     tabPrefsHydratedRef.current = true
-  }, [activeTab, isValidTab, logTabDebug, uiPreferences.homeActiveTab])
+  }, [activeTab, isEmbedded, isValidTab, logTabDebug, uiPreferences.homeActiveTab])
 
   useEffect(() => {
     let nextProvider: HomeMapProvider = requestInMainlandChina ? 'amap' : 'mapbox'
@@ -1596,7 +1601,7 @@ const SearcheableCitiesList = ({
   }, [continentNavOpen, updateUiPreferences])
 
   useEffect(() => {
-    if (!tabPrefsHydratedRef.current) return
+    if (isEmbedded || !tabPrefsHydratedRef.current) return
     if (typeof window !== 'undefined') {
       window.localStorage.setItem(HOME_ACTIVE_TAB_STORAGE_KEY, activeTab)
     }
@@ -1606,11 +1611,11 @@ const SearcheableCitiesList = ({
     if (isPersistedHomeTab(activeTab)) {
       updateUiPreferences({ homeActiveTab: activeTab })
     }
-  }, [activeTab, logTabDebug, updateUiPreferences])
+  }, [activeTab, isEmbedded, logTabDebug, updateUiPreferences])
 
   // Restore scroll position per tab (account > localStorage)
   useEffect(() => {
-    if (typeof window === 'undefined') return
+    if (isEmbedded || typeof window === 'undefined') return
     const storedFromAccount = isPersistedHomeTab(activeTab)
       ? uiPreferences.homeScrollPositions?.[activeTab]
       : undefined
@@ -1627,11 +1632,11 @@ const SearcheableCitiesList = ({
         window.scrollTo({ top: target!, behavior: 'auto' })
       })
     }
-  }, [activeTab, uiPreferences.homeScrollPositions])
+  }, [activeTab, isEmbedded, uiPreferences.homeScrollPositions])
 
   // Persist scroll position per tab (localStorage + account)
   useEffect(() => {
-    if (typeof window === 'undefined') return
+    if (isEmbedded || typeof window === 'undefined') return
     let rafId: number | null = null
     let timeoutId: number | null = null
     let latestY = 0
@@ -1658,7 +1663,7 @@ const SearcheableCitiesList = ({
        if (timeoutId !== null) window.clearTimeout(timeoutId)
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [activeTab, updateUiPreferences])
+  }, [activeTab, isEmbedded, updateUiPreferences])
 
   useEffect(() => {
     if (cityViewMode !== 'globe' && cityViewMode !== 'map') {
@@ -3091,6 +3096,93 @@ const SearcheableCitiesList = ({
     )
   }
 
+  const achievementControls = (
+    <div className="flex flex-col gap-2 transition-all lg:flex-row lg:items-center lg:justify-between">
+      <div className="relative w-full">
+        <input
+          value={achievementSearch}
+          onChange={(event) => setAchievementSearch(event.target.value)}
+          type="text"
+          placeholder={t('searchAchievements')}
+          className="block w-full rounded-full border-0 px-4 py-2.5 pl-10 text-base text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] sm:px-10 sm:py-4 sm:leading-6 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
+        />
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400 dark:text-zinc-400 sm:left-auto sm:right-0 sm:pl-0 sm:pr-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" className="sm:h-8 sm:w-8">
+            <path
+              fill="currentColor"
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-row sm:items-center lg:w-auto">
+        <div className="w-full sm:w-56">
+          <label className="sr-only" htmlFor="achievement-sort">
+            {t('sortAchievements')}
+          </label>
+          <select
+            id="achievement-sort"
+            value={achievementSort}
+            onChange={(event) => setAchievementSort(event.target.value as AchievementSortOption)}
+            className="w-full rounded-full border-0 bg-white px-4 py-2.5 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:py-3 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
+          >
+            {ACHIEVEMENT_SORT_OPTIONS.map((option) => (
+              <option key={option.value} value={option.value}>
+                {t(option.label)}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+    </div>
+  )
+
+  const achievementContent = (
+    <div className="space-y-8">
+      <div>
+        <h3 className="mb-4 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+          {t('mainCitiesTitle')}
+        </h3>
+        <Achievements
+          items={visibleAchievements}
+          groups={achievementGroups}
+          unlockedData={unlockedData}
+          progressMap={achievementProgress}
+          totalCount={achievementCatalog.length}
+          totalUnlocked={achievementCatalog.filter((entry) => unlockedData.has(entry.slug)).length}
+          timezone={settings.timezone}
+          language={settings.language}
+        />
+      </div>
+      <div>
+        <h3 className="mb-4 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+          {t('globalMiniCitiesTitle')}
+        </h3>
+        <Achievements
+          items={visibleMiniAchievements}
+          groups={miniAchievementGroups}
+          unlockedData={unlockedData}
+          progressMap={achievementProgress}
+          totalCount={miniCityAchievementCatalog.length}
+          totalUnlocked={miniCityAchievementCatalog.filter((entry) => unlockedData.has(entry.slug)).length}
+          timezone={settings.timezone}
+          language={settings.language}
+        />
+      </div>
+    </div>
+  )
+
+  if (embeddedTab === 'achievements') {
+    return (
+      <div className="space-y-6">
+        <div className="sticky top-0 z-30 rounded-3xl border border-zinc-200/80 bg-white/90 p-3 shadow-sm backdrop-blur dark:border-zinc-800/80 dark:bg-zinc-900/90">
+          {achievementControls}
+        </div>
+        {achievementContent}
+      </div>
+    )
+  }
+
   return (
     <>
       {shouldShowContinentNav && (
@@ -3687,44 +3779,7 @@ const SearcheableCitiesList = ({
         {activeTab === 'achievements' && (
           <>
             <div className="h-px w-full bg-zinc-200/80 dark:bg-zinc-800/80" />
-            <div className="flex flex-col gap-2 transition-all lg:flex-row lg:items-center lg:justify-between">
-              <div className="relative w-full">
-                <input
-                  value={achievementSearch}
-                  onChange={(event) => setAchievementSearch(event.target.value)}
-                  type="text"
-                  placeholder={t('searchAchievements')}
-                  className="block w-full rounded-full border-0 px-4 py-2.5 pl-10 text-base text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--accent-600)] sm:px-10 sm:py-4 sm:leading-6 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:placeholder:text-zinc-500 dark:focus:ring-[var(--accent-400)]"
-                />
-                <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400 dark:text-zinc-400 sm:left-auto sm:right-0 sm:pl-0 sm:pr-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" className="sm:h-8 sm:w-8">
-                    <path
-                      fill="currentColor"
-                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-row sm:items-center lg:w-auto">
-                <div className="w-full sm:w-56">
-                  <label className="sr-only" htmlFor="achievement-sort">
-                    {t('sortAchievements')}
-                  </label>
-                  <select
-                    id="achievement-sort"
-                    value={achievementSort}
-                    onChange={(event) => setAchievementSort(event.target.value as AchievementSortOption)}
-                    className="w-full rounded-full border-0 bg-white px-4 py-2.5 text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[var(--accent-600)] sm:py-3 dark:bg-zinc-900 dark:text-zinc-100 dark:ring-zinc-700 dark:focus:ring-[var(--accent-400)]"
-                  >
-                    {ACHIEVEMENT_SORT_OPTIONS.map((option) => (
-                      <option key={option.value} value={option.value}>
-                        {t(option.label)}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-            </div>
+            {achievementControls}
           </>
         )}
         </div>
@@ -4249,38 +4304,7 @@ const SearcheableCitiesList = ({
           </div>
         </div>
       ) : activeTab === 'achievements' ? (
-        <div className="space-y-8">
-          <div>
-            <h3 className="mb-4 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
-              {t('mainCitiesTitle')}
-            </h3>
-            <Achievements
-              items={visibleAchievements}
-              groups={achievementGroups}
-              unlockedData={unlockedData}
-              progressMap={achievementProgress}
-              totalCount={achievementCatalog.length}
-              totalUnlocked={achievementCatalog.filter((entry) => unlockedData.has(entry.slug)).length}
-              timezone={settings.timezone}
-              language={settings.language}
-            />
-          </div>
-          <div>
-            <h3 className="mb-4 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
-              {t('globalMiniCitiesTitle')}
-            </h3>
-            <Achievements
-              items={visibleMiniAchievements}
-              groups={miniAchievementGroups}
-              unlockedData={unlockedData}
-              progressMap={achievementProgress}
-              totalCount={miniCityAchievementCatalog.length}
-              totalUnlocked={miniCityAchievementCatalog.filter((entry) => unlockedData.has(entry.slug)).length}
-              timezone={settings.timezone}
-              language={settings.language}
-            />
-          </div>
-        </div>
+        achievementContent
       ) : activeTab === 'updateLog' ? (
         <UpdateLogPanel state={updateLogState} />
       ) : activeTab === 'credits' ? (

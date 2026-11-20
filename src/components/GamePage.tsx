@@ -12,6 +12,7 @@ import Input from '@/components/Input'
 import IntroModal from '@/components/IntroModal'
 import LineBadge from '@/components/LineBadge'
 import MenuComponent from '@/components/Menu'
+import dynamic from 'next/dynamic'
 import MiniCityLinksPanel from '@/components/MiniCityLinksPanel'
 import CustomGameModal from '@/components/CustomGameModal'
 import CustomLayoutsPanel from '@/components/CustomLayoutsPanel'
@@ -127,6 +128,11 @@ import {
     useState,
 } from 'react'
 import 'react-circular-progressbar/dist/styles.css'
+
+// Loaded on demand so the home page's achievements list doesn't bloat the game bundle.
+const EmbeddedAchievementsList = dynamic(() => import('@/components/SearcheableCitiesList'), {
+  ssr: false,
+})
 
 function SidebarArrowUpIcon(props: ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -2652,6 +2658,7 @@ function GamePageContent({
   const [mapCoordsToast, setMapCoordsToast] = useState<string | null>(null)
   const [settingsModalOpen, setSettingsModalOpen] = useState(false)
   const [cityStatsOpen, setCityStatsOpen] = useState(false)
+  const [achievementsPanelOpen, setAchievementsPanelOpen] = useState(false)
   const [missedGuessInputsOpen, setMissedGuessInputsOpen] = useState(false)
   const [accountModalOpen, setAccountModalOpen] = useState(false)
   const [privacyModalOpen, setPrivacyModalOpen] = useState(false)
@@ -3061,6 +3068,15 @@ function GamePageContent({
       }
     }
   }, [])
+
+  useEffect(() => {
+    if (!achievementsPanelOpen) return
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setAchievementsPanelOpen(false)
+    }
+    window.addEventListener('keydown', handleEscape)
+    return () => window.removeEventListener('keydown', handleEscape)
+  }, [achievementsPanelOpen])
 
   const openSettingsModal = useCallback(() => setSettingsModalOpen(true), [])
   const closeSettingsModal = useCallback(() => setSettingsModalOpen(false), [])
@@ -6613,7 +6629,7 @@ function GamePageContent({
                 onToggleSatellite={handleToggleSatellite}
                 showMapNames={showMapNames}
                 onToggleMapNames={handleToggleMapNames}
-                achievementsHref={`/?tab=achievements&city=${encodeURIComponent(CITY_NAME)}`}
+                onOpenAchievements={() => setAchievementsPanelOpen(true)}
               />
               {customSharePath ? (
                 <button
@@ -6872,6 +6888,32 @@ function GamePageContent({
             </p>
             <div className="mt-4 max-h-[70vh] overflow-y-auto">
               <PrivacyPanel />
+            </div>
+          </div>
+        </div>
+      )}
+      {achievementsPanelOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
+          onClick={() => setAchievementsPanelOpen(false)}
+        >
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label={t('tabAchievements')}
+            className="mx-2 flex max-h-[92vh] w-full max-w-5xl flex-col rounded-3xl border border-zinc-200 bg-white p-4 shadow-2xl sm:mx-4 sm:p-6 dark:border-[#18181b] dark:bg-zinc-900"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-center justify-between">
+              <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+                {t('tabAchievements')}
+              </h2>
+              <CloseButton onClick={() => setAchievementsPanelOpen(false)} ariaLabel="Close achievements" />
+            </div>
+            <div className="mt-4 min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
+              <Suspense fallback={null}>
+                <EmbeddedAchievementsList embeddedTab="achievements" />
+              </Suspense>
             </div>
           </div>
         </div>
