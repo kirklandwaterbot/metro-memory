@@ -21,6 +21,12 @@ type CollapsibleSectionProps = {
   className?: string
   headingClassName?: string
   contentClassName?: string
+  /**
+   * Open or close the section from outside (an "Expand all" / "Collapse all"
+   * button). Applied whenever `nonce` changes; the caller saves the account
+   * preference for all sections in one request.
+   */
+  command?: { open: boolean; nonce: number } | null
 }
 
 const STORAGE_PREFIX = 'metro-memory:section:'
@@ -53,6 +59,7 @@ export default function CollapsibleSection({
   className,
   headingClassName,
   contentClassName,
+  command,
 }: CollapsibleSectionProps) {
   const { user, uiPreferences, setCollapsedSectionPreference } = useAuth()
   const [isOpen, setIsOpen] = useState(defaultOpen)
@@ -84,6 +91,16 @@ export default function CollapsibleSection({
       }
     }
   }, [sectionId, storageKey, uiPreferences])
+
+  useEffect(() => {
+    if (!command) return
+    setIsOpen(command.open)
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(storageKey, command.open ? 'false' : 'true')
+    }
+    // `command` is a fresh object per Expand/Collapse click, so this only
+    // re-runs on a new command, not on the section's own toggles.
+  }, [command, storageKey])
 
   const toggleSection = useCallback(() => {
     userTogglePendingRef.current = true

@@ -4357,8 +4357,24 @@ const Achievements = ({
   language?: string
 }) => {
   const { t } = useTranslation()
+  const { user, setCollapsedSectionsPreference } = useAuth()
   const unlockedSet = useMemo(() => new Set(unlockedData.keys()), [unlockedData])
   const hasResults = items.length > 0
+  const [sectionCommand, setSectionCommand] = useState<{ open: boolean; nonce: number } | null>(
+    null,
+  )
+  const setAllSections = (open: boolean) => {
+    setSectionCommand({ open, nonce: Date.now() })
+    if (!user) return
+    const sections: Record<string, boolean> = {}
+    for (const group of groups) {
+      sections[getContinentSectionId(group.continent)] = !open
+      for (const country of group.countries) {
+        sections[getCountrySectionId(group.continent, country.country)] = !open
+      }
+    }
+    void setCollapsedSectionsPreference(sections)
+  }
   const totalProgress = totalCount > 0 ? totalUnlocked / totalCount : 0
   const totalProgressColor = getGradientColor(totalProgress)
 
@@ -4515,6 +4531,24 @@ const Achievements = ({
         <span className="text-red-500">
           {t('lockedAchievements', { locked: Math.max(totalCount - totalUnlocked, 0) })}
         </span>
+        {hasResults && (
+          <span className="flex gap-2 md:ml-auto">
+            <button
+              type="button"
+              onClick={() => setAllSections(true)}
+              className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700 transition hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:border-zinc-700 dark:hover:text-white"
+            >
+              {t('expandAllSections')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setAllSections(false)}
+              className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700 transition hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:border-zinc-700 dark:hover:text-white"
+            >
+              {t('collapseAllSections')}
+            </button>
+          </span>
+        )}
         </div>
       </div>
 
@@ -4553,6 +4587,7 @@ const Achievements = ({
                   className="space-y-6"
                   headingClassName="text-xl font-semibold text-zinc-800 dark:text-zinc-100"
                   contentClassName="mt-4"
+                  command={sectionCommand}
                 >
                   <div className="space-y-8">
                     {group.countries.map((country) => {
@@ -4594,6 +4629,7 @@ const Achievements = ({
                           className="space-y-4"
                           headingClassName="text-lg font-semibold"
                           contentClassName="mt-4"
+                          command={sectionCommand}
                         >
                           <div className="space-y-4">
                             {country.entries.map((meta) => renderAchievementCard(meta))}

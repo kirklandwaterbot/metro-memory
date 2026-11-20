@@ -179,7 +179,9 @@
       "upcomingSignInPrompt": "Connectez-vous avec un compte administrateur Metro Memory pour voir les stations à venir.",
       "upcomingNotAdmin": "{email} ne figure pas dans la liste des administrateurs.",
       "upcomingAdminOff": "L’accès administrateur est désactivé. Définissez AUTOMATION_ADMIN_ALLOWED_EMAILS pour l’activer.",
-      "upcomingSignIn": "Se connecter"
+      "upcomingSignIn": "Se connecter",
+      "expandAllSections": "Tout déplier",
+      "collapseAllSections": "Tout replier"
     },
     "es": {
       "tabHome": "Inicio",
@@ -359,7 +361,9 @@
       "upcomingSignInPrompt": "Inicia sesión con una cuenta de administrador de Metro Memory para ver las próximas estaciones.",
       "upcomingNotAdmin": "{email} no está en la lista de administradores.",
       "upcomingAdminOff": "El acceso de administrador está desactivado. Define AUTOMATION_ADMIN_ALLOWED_EMAILS para activarlo.",
-      "upcomingSignIn": "Iniciar sesión"
+      "upcomingSignIn": "Iniciar sesión",
+      "expandAllSections": "Expandir todo",
+      "collapseAllSections": "Contraer todo"
     },
     "ca": {
       "tabHome": "Inici",
@@ -548,7 +552,9 @@
       "upcomingSignInPrompt": "Inicia la sessió amb un compte d’administrador de Metro Memory per veure les properes estacions.",
       "upcomingNotAdmin": "{email} no és a la llista d’administradors.",
       "upcomingAdminOff": "L’accés d’administrador està desactivat. Defineix AUTOMATION_ADMIN_ALLOWED_EMAILS per activar-lo.",
-      "upcomingSignIn": "Inicia la sessió"
+      "upcomingSignIn": "Inicia la sessió",
+      "expandAllSections": "Desplega-ho tot",
+      "collapseAllSections": "Plega-ho tot"
     },
     "de": {
       "tabHome": "Start",
@@ -737,7 +743,9 @@
       "upcomingSignInPrompt": "Melde dich mit einem Metro-Memory-Adminkonto an, um kommende Stationen zu sehen.",
       "upcomingNotAdmin": "{email} steht nicht auf der Adminliste.",
       "upcomingAdminOff": "Der Adminzugang ist ausgeschaltet. Setze AUTOMATION_ADMIN_ALLOWED_EMAILS, um ihn einzuschalten.",
-      "upcomingSignIn": "Anmelden"
+      "upcomingSignIn": "Anmelden",
+      "expandAllSections": "Alle ausklappen",
+      "collapseAllSections": "Alle einklappen"
     },
     "ko": {
       "tabHome": "홈",
@@ -937,7 +945,9 @@
       "upcomingSignInPrompt": "개통 예정 역을 보려면 Metro Memory 관리자 계정으로 로그인하세요.",
       "upcomingNotAdmin": "{email}은(는) 관리자 목록에 없습니다.",
       "upcomingAdminOff": "관리자 접근이 꺼져 있습니다. 켜려면 AUTOMATION_ADMIN_ALLOWED_EMAILS를 설정하세요.",
-      "upcomingSignIn": "로그인"
+      "upcomingSignIn": "로그인",
+      "expandAllSections": "모두 펼치기",
+      "collapseAllSections": "모두 접기"
     },
     "tr": {
       "tabHome": "Ana sayfa",
@@ -1137,7 +1147,9 @@
       "upcomingSignInPrompt": "Yakında açılacak istasyonları görmek için bir Metro Memory yönetici hesabıyla giriş yapın.",
       "upcomingNotAdmin": "{email} yönetici listesinde değil.",
       "upcomingAdminOff": "Yönetici erişimi kapalı. Açmak için AUTOMATION_ADMIN_ALLOWED_EMAILS değerini ayarlayın.",
-      "upcomingSignIn": "Giriş yap"
+      "upcomingSignIn": "Giriş yap",
+      "expandAllSections": "Tümünü genişlet",
+      "collapseAllSections": "Tümünü daralt"
     },
     "ja": {
       "tabHome": "ホーム",
@@ -1337,7 +1349,9 @@
       "upcomingSignInPrompt": "開業予定の駅を見るには、Metro Memory の管理者アカウントでログインしてください。",
       "upcomingNotAdmin": "{email} は管理者リストに登録されていません。",
       "upcomingAdminOff": "管理者アクセスはオフです。有効にするには AUTOMATION_ADMIN_ALLOWED_EMAILS を設定してください。",
-      "upcomingSignIn": "ログイン"
+      "upcomingSignIn": "ログイン",
+      "expandAllSections": "すべて展開",
+      "collapseAllSections": "すべて折りたたむ"
     },
     "sv": {
       "tabHome": "Hem",
@@ -1537,7 +1551,9 @@
       "upcomingSignInPrompt": "Logga in med ett administratörskonto för Metro Memory för att se kommande stationer.",
       "upcomingNotAdmin": "{email} finns inte på administratörslistan.",
       "upcomingAdminOff": "Administratörsåtkomst är avstängd. Ange AUTOMATION_ADMIN_ALLOWED_EMAILS för att slå på den.",
-      "upcomingSignIn": "Logga in"
+      "upcomingSignIn": "Logga in",
+      "expandAllSections": "Expandera alla",
+      "collapseAllSections": "Fäll ihop alla"
     },
     "hu": {
       "tabHome": "Kezdőlap",
@@ -1737,7 +1753,9 @@
       "upcomingSignInPrompt": "A hamarosan nyíló állomások megtekintéséhez jelentkezz be egy Metro Memory adminfiókkal.",
       "upcomingNotAdmin": "{email} nem szerepel az adminlistán.",
       "upcomingAdminOff": "Az admin hozzáférés ki van kapcsolva. A bekapcsoláshoz állítsd be az AUTOMATION_ADMIN_ALLOWED_EMAILS értékét.",
-      "upcomingSignIn": "Bejelentkezés"
+      "upcomingSignIn": "Bejelentkezés",
+      "expandAllSections": "Összes kibontása",
+      "collapseAllSections": "Összes összecsukása"
     },
     "zh-CN": {
       "sortAchievedInOrder": "已达成",
@@ -1848,7 +1866,9 @@
       "upcomingSignInPrompt": "使用 Metro Memory 管理员账号登录以查看即将开通的车站。",
       "upcomingNotAdmin": "{email} 不在管理员名单中。",
       "upcomingAdminOff": "管理员访问已关闭。设置 AUTOMATION_ADMIN_ALLOWED_EMAILS 即可开启。",
-      "upcomingSignIn": "登录"
+      "upcomingSignIn": "登录",
+      "expandAllSections": "全部展开",
+      "collapseAllSections": "全部收起"
     },
     "zh-TW": {
       "sortAchievedInOrder": "已達成",
@@ -1959,7 +1979,9 @@
       "upcomingSignInPrompt": "請以 Metro Memory 管理員帳號登入，查看即將通車的車站。",
       "upcomingNotAdmin": "{email} 不在管理員名單中。",
       "upcomingAdminOff": "管理員權限已關閉。設定 AUTOMATION_ADMIN_ALLOWED_EMAILS 即可開啟。",
-      "upcomingSignIn": "登入"
+      "upcomingSignIn": "登入",
+      "expandAllSections": "全部展開",
+      "collapseAllSections": "全部收合"
     },
     "vi": {
       "tabHome": "Trang chủ",
@@ -2159,7 +2181,9 @@
       "upcomingSignInPrompt": "Đăng nhập bằng tài khoản quản trị Metro Memory để xem các ga sắp mở.",
       "upcomingNotAdmin": "{email} không có trong danh sách quản trị.",
       "upcomingAdminOff": "Quyền quản trị đang tắt. Đặt AUTOMATION_ADMIN_ALLOWED_EMAILS để bật.",
-      "upcomingSignIn": "Đăng nhập"
+      "upcomingSignIn": "Đăng nhập",
+      "expandAllSections": "Mở rộng tất cả",
+      "collapseAllSections": "Thu gọn tất cả"
     },
     "pt": {
       "tabHome": "Início",
@@ -2359,7 +2383,9 @@
       "upcomingSignInPrompt": "Entre com uma conta de administrador do Metro Memory para ver as próximas estações.",
       "upcomingNotAdmin": "{email} não está na lista de administradores.",
       "upcomingAdminOff": "O acesso de administrador está desativado. Defina AUTOMATION_ADMIN_ALLOWED_EMAILS para ativá-lo.",
-      "upcomingSignIn": "Entrar"
+      "upcomingSignIn": "Entrar",
+      "expandAllSections": "Expandir tudo",
+      "collapseAllSections": "Recolher tudo"
     },
     "it": {
       "tabHome": "Home",
@@ -2559,7 +2585,9 @@
       "upcomingSignInPrompt": "Accedi con un account amministratore di Metro Memory per vedere le stazioni in arrivo.",
       "upcomingNotAdmin": "{email} non è nell’elenco degli amministratori.",
       "upcomingAdminOff": "L’accesso amministratore è disattivato. Imposta AUTOMATION_ADMIN_ALLOWED_EMAILS per attivarlo.",
-      "upcomingSignIn": "Accedi"
+      "upcomingSignIn": "Accedi",
+      "expandAllSections": "Espandi tutto",
+      "collapseAllSections": "Comprimi tutto"
     },
     "nl": {
       "tabHome": "Start",
@@ -2759,7 +2787,9 @@
       "upcomingSignInPrompt": "Log in met een Metro Memory-beheerdersaccount om komende stations te zien.",
       "upcomingNotAdmin": "{email} staat niet op de beheerderslijst.",
       "upcomingAdminOff": "Beheerderstoegang staat uit. Stel AUTOMATION_ADMIN_ALLOWED_EMAILS in om die aan te zetten.",
-      "upcomingSignIn": "Inloggen"
+      "upcomingSignIn": "Inloggen",
+      "expandAllSections": "Alles uitvouwen",
+      "collapseAllSections": "Alles samenvouwen"
     },
     "ar": {
       "tabHome": "الرئيسية",
@@ -2959,7 +2989,9 @@
       "upcomingSignInPrompt": "سجّل الدخول بحساب مسؤول في Metro Memory لرؤية المحطات القادمة.",
       "upcomingNotAdmin": "{email} ليس في قائمة المسؤولين.",
       "upcomingAdminOff": "وصول المسؤول متوقف. اضبط AUTOMATION_ADMIN_ALLOWED_EMAILS لتفعيله.",
-      "upcomingSignIn": "تسجيل الدخول"
+      "upcomingSignIn": "تسجيل الدخول",
+      "expandAllSections": "توسيع الكل",
+      "collapseAllSections": "طي الكل"
     }
   }
 }

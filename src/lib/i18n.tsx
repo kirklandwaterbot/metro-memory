@@ -374,6 +374,8 @@ opensANewTab:
     mainCitiesTitle: 'Main Cities',
     expandSectionLabel: ({ label }: { label: string }): string => `Expand ${label}`,
     collapseSectionLabel: ({ label }: { label: string }): string => `Collapse ${label}`,
+    expandAllSections: 'Expand all',
+    collapseAllSections: 'Collapse all',
 
     // Continents
     continents: 'Table of Contents',
