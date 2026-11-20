@@ -635,7 +635,6 @@ const getBarBackground = (percent: number) => {
 }
 
 const HIDDEN_CITY_SLUGS = new Set([
-  'viarail',
   'bengbu',
   'guangan',
   'guilin',

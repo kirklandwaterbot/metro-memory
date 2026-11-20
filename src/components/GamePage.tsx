@@ -1660,6 +1660,63 @@ const shouldRestoreMainInputFocus = (inputElement: HTMLInputElement | null) => {
   return !isTextEntryElement(activeElement)
 }
 
+type LngLatBox = [number, number, number, number]
+
+const toLngLatBox = (bounds: unknown): LngLatBox | null => {
+  if (!Array.isArray(bounds)) return null
+  const flat = (bounds as unknown[]).flat(2).map(Number)
+  if (flat.length !== 4 || !flat.every((n) => Number.isFinite(n))) return null
+  const [a, b, c, d] = flat
+  return [Math.min(a, c), Math.min(b, d), Math.max(a, c), Math.max(b, d)]
+}
+
+const mercatorY = (lat: number) => {
+  const clamped = Math.max(-85, Math.min(85, lat))
+  return Math.log(Math.tan(Math.PI / 4 + (clamped * Math.PI) / 360))
+}
+
+/**
+ * Some configs set a minZoom (and maxBounds) sized for one city, which on
+ * country-wide networks (Shinkansen, VIA Rail, …) stops you from zooming out
+ * far enough to see the whole network. Loosen both so it always fits on screen.
+ */
+const relaxZoomLimitsToFitNetwork = (
+  options: Record<string, any>,
+  dataBounds: LngLatBox | undefined,
+  container: HTMLElement | null,
+) => {
+  const box = dataBounds ?? toLngLatBox(options.bounds)
+  if (!box) return
+  const width = Math.max(container?.clientWidth ?? 0, 320)
+  const height = Math.max(container?.clientHeight ?? 0, 320)
+  const lngSpan = Math.max(box[2] - box[0], 1e-6)
+  const ySpan = Math.max(mercatorY(box[3]) - mercatorY(box[1]), 1e-6)
+  const fitZoom = Math.min(
+    Math.log2((width * 360) / (512 * lngSpan)),
+    Math.log2((height * 2 * Math.PI) / (512 * ySpan)),
+  )
+  const loosestZoom = Math.max(0, Math.floor((fitZoom - 1) * 2) / 2)
+  if (typeof options.minZoom === 'number' && options.minZoom > loosestZoom) {
+    options.minZoom = loosestZoom
+  }
+
+  const maxBox = toLngLatBox(options.maxBounds)
+  if (maxBox) {
+    const padLng = (box[2] - box[0]) * 0.75
+    const padLat = (box[3] - box[1]) * 0.75
+    options.maxBounds = [
+      [
+        Math.max(-180, Math.min(maxBox[0], box[0] - padLng)),
+        Math.max(-85, Math.min(maxBox[1], box[1] - padLat)),
+      ],
+      [
+        Math.min(180, Math.max(maxBox[2], box[2] + padLng)),
+        Math.min(85, Math.max(maxBox[3], box[3] + padLat)),
+      ],
+    ]
+  }
+}
+
 export default function GamePage({
   fc,
   routes,
@@ -4913,6 +4970,8 @@ function GamePageContent({
         options.fitBoundsOptions = { padding: 100 }
       }
 
+      relaxZoomLimitsToFitNetwork(options, initialBounds, mapContainerRef.current)
+
       mapboxMap = new mapboxgl.Map(options)
     } catch (error) {
       console.error('Failed to initialize map', error)
@@ -5307,10 +5366,17 @@ function GamePageContent({
           source: 'features',
           id: 'stations',
           paint: {
+            // Stay thinner than the 2.5px route lines when zoomed far out:
+            // on country-wide networks the stations sit a few pixels apart,
+            // and bigger white dots would hide the lines between them.
             'circle-radius': [
               'interpolate',
               ['linear'],
               ['zoom'],
+              3,
+              0.5,
+              6,
+              0.8,
               9,
               1.5,
               16,
@@ -5322,6 +5388,8 @@ function GamePageContent({
               'interpolate',
               ['linear'],
               ['zoom'],
+              4,
+              0.15,
               8,
               0.5,
               22,
@@ -5398,6 +5466,11 @@ function GamePageContent({
             'interpolate',
             ['linear'],
             ['zoom'],
+            // tiny when zoomed far out so dense stations don't hide the lines
+            3,
+            ['case', ['to-boolean', ['feature-state', 'found']], 1, 0.4],
+            6,
+            ['case', ['to-boolean', ['feature-state', 'found']], 1.4, 0.6],
             9,
             ['case', ['to-boolean', ['feature-state', 'found']], 2, 1],
             16,
@@ -5432,10 +5505,13 @@ function GamePageContent({
             'rgba(120, 120, 120, 0.6)',
           ],
           'circle-stroke-width': [
-            'case',
-            ['to-boolean', ['feature-state', 'found']],
-            1,
-            0.75,
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            4,
+            ['case', ['to-boolean', ['feature-state', 'found']], 0.4, 0.15],
+            9,
+            ['case', ['to-boolean', ['feature-state', 'found']], 1, 0.75],
           ],
         },
         layout: {
