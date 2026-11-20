@@ -1,0 +1,1346 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.46381,
+          47.964003
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Maidan Pratsi",
+        "alternate_names": [
+          "Майдан Праці",
+          "Площадь Труда",
+          "Ploshchad Truda",
+          "Maydan Pratsі"
+        ],
+        "line": "KR1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.456654,
+          47.956882
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Soniachna",
+        "alternate_names": [
+          "Сонячна",
+          "Солнечная",
+          "Solnechnaya",
+          "Sonyachna"
+        ],
+        "line": "KR1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.449019,
+          47.950538
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Miska Likarnia",
+        "alternate_names": [
+          "Міська лікарня",
+          "Городская больница",
+          "Gorodskaya Bolnitsa",
+          "Mіska Lіkarnya"
+        ],
+        "line": "KR1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.421267,
+          47.937071
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Vechirnii Bulvar",
+        "alternate_names": [
+          "Вечірній бульвар",
+          "Vechirniy bulvar",
+          "Вечерний бульвар",
+          "Vecherny Bulvar",
+          "Vechіrnіy Bulvar"
+        ],
+        "line": "KR1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.399249,
+          47.91773
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Mudrona",
+        "alternate_names": [
+          "Мудрьона",
+          "Mudriona",
+          "Мудрёная",
+          "Mudryonaya"
+        ],
+        "line": "KR1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.396365,
+          47.908644
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Miska Rada",
+        "alternate_names": [
+          "Міська Рада",
+          "Городской Совет",
+          "Gorodskoy Sovet",
+          "Mіska Rada"
+        ],
+        "line": "KR1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.394239,
+          47.89702
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Prospekt Metalurhiv",
+        "alternate_names": [
+          "Проспект Металургів",
+          "Проспект Металлургов",
+          "Prospekt Metallurgov",
+          "Prospekt Metalurgіv"
+        ],
+        "line": "KR1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.387188,
+          47.888585
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Kiltseva",
+        "alternate_names": [
+          "Кільцева",
+          "Кольцевая",
+          "Koltsevaya",
+          "Kіltseva"
+        ],
+        "line": "KR1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.387188,
+          47.888585
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Kiltseva",
+        "alternate_names": [
+          "Кільцева",
+          "Кольцевая",
+          "Koltsevaya",
+          "Kіltseva"
+        ],
+        "line": "KR2",
+        "order": 0
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.394239,
+          47.89702
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Prospekt Metalurhiv",
+        "alternate_names": [
+          "Проспект Металургів",
+          "Проспект Металлургов",
+          "Prospekt Metallurgov",
+          "Prospekt Metalurgіv"
+        ],
+        "line": "KR2",
+        "order": 1
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.396365,
+          47.908644
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Miska Rada",
+        "alternate_names": [
+          "Міська Рада",
+          "Городской Совет",
+          "Gorodskoy Sovet",
+          "Mіska Rada"
+        ],
+        "line": "KR2",
+        "order": 2
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.399249,
+          47.91773
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Mudrona",
+        "alternate_names": [
+          "Мудрьона",
+          "Mudriona",
+          "Мудрёная",
+          "Mudryonaya"
+        ],
+        "line": "KR2",
+        "order": 3
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.421267,
+          47.937071
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Vechirnii Bulvar",
+        "alternate_names": [
+          "Вечірній бульвар",
+          "Vechirniy bulvar",
+          "Вечерний бульвар",
+          "Vecherny Bulvar",
+          "Vechіrnіy Bulvar"
+        ],
+        "line": "KR2",
+        "order": 4
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.449019,
+          47.950538
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Miska Likarnia",
+        "alternate_names": [
+          "Міська лікарня",
+          "Городская больница",
+          "Gorodskaya Bolnitsa",
+          "Mіska Lіkarnya"
+        ],
+        "line": "KR2",
+        "order": 5
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.456654,
+          47.956882
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Soniachna",
+        "alternate_names": [
+          "Сонячна",
+          "Солнечная",
+          "Solnechnaya",
+          "Sonyachna"
+        ],
+        "line": "KR2",
+        "order": 6
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.471907,
+          47.969505
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Industrialna",
+        "alternate_names": [
+          "Індустріальна",
+          "Индустриальная",
+          "Industrialnaya",
+          "Іndustrіalna"
+        ],
+        "line": "KR2",
+        "order": 7
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.492537,
+          47.995375
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Elektrozavodska",
+        "alternate_names": [
+          "Електрозаводська",
+          "Yelektrozavodska"
+        ],
+        "line": "KR2",
+        "order": 8
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.498271,
+          48.003332
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Zarichna",
+        "alternate_names": [
+          "Зарічна",
+          "Zarіchna"
+        ],
+        "line": "KR2",
+        "order": 9
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.393548,
+          47.884925
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Kiltse PAT ArselorMittal Kryvyi Rih",
+        "alternate_names": [
+          "Кільце ПАТ АрселорМіттал Кривий Ріг",
+          "Кольцо ПАО АрселорМиттал Кривой Рог",
+          "Koltso PAO ArselorMittal Krivoy Rog",
+          "Kіltse PAT ArselorMіttal Krivy Rіg",
+          "Кольцо ПАО «АрселорМиттал Кривой Рог»",
+          "Кільце ПАТ «АрселорМіттал Кривий Ріг»"
+        ],
+        "line": "KR3",
+        "order": 0
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.391694,
+          47.884489
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "PAT ArselorMittal Kryvyi Rih",
+        "alternate_names": [
+          "ПАТ АрселорМіттал Кривий Ріг",
+          "ПАО АрселорМиттал Кривой Рог",
+          "PAO ArselorMittal Krivoy Rog",
+          "PAT ArselorMіttal Krivy Rіg",
+          "ПАО «АрселорМиттал Кривой Рог»",
+          "ПАТ «АрселорМіттал Кривий Ріг»"
+        ],
+        "line": "KR3",
+        "order": 1
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.389282,
+          47.884498
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Vulytsia Vitchyzny",
+        "alternate_names": [
+          "вулиця Вітчизни",
+          "Vitchyzny Street",
+          "улица Отчизны",
+          "Ulitsa Otchizny",
+          "Vulitsya Vіtchizni"
+        ],
+        "line": "KR3",
+        "order": 2
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.386832,
+          47.888064
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Ekonomichnyi Universytet",
+        "alternate_names": [
+          "Економічний університет",
+          "Экономический университет",
+          "Ekonomichesky Universitet",
+          "Yekonomіchny Unіversitet"
+        ],
+        "line": "KR3",
+        "order": 3
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.394239,
+          47.89702
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Prospekt Metalurhiv",
+        "alternate_names": [
+          "Проспект Металургів",
+          "Проспект Металлургов",
+          "Prospekt Metallurgov",
+          "Prospekt Metalurgіv"
+        ],
+        "line": "KR3",
+        "order": 4
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.396365,
+          47.908644
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Miska Rada",
+        "alternate_names": [
+          "Міська Рада",
+          "Городской Совет",
+          "Gorodskoy Sovet",
+          "Mіska Rada"
+        ],
+        "line": "KR3",
+        "order": 5
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.399249,
+          47.91773
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Mudrona",
+        "alternate_names": [
+          "Мудрьона",
+          "Mudriona",
+          "Мудрёная",
+          "Mudryonaya"
+        ],
+        "line": "KR3",
+        "order": 6
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.421267,
+          47.937071
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Vechirnii Bulvar",
+        "alternate_names": [
+          "Вечірній бульвар",
+          "Vechirniy bulvar",
+          "Вечерний бульвар",
+          "Vecherny Bulvar",
+          "Vechіrnіy Bulvar"
+        ],
+        "line": "KR3",
+        "order": 7
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.449019,
+          47.950538
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Miska Likarnia",
+        "alternate_names": [
+          "Міська лікарня",
+          "Городская больница",
+          "Gorodskaya Bolnitsa",
+          "Mіska Lіkarnya"
+        ],
+        "line": "KR3",
+        "order": 8
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.456654,
+          47.956882
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Soniachna",
+        "alternate_names": [
+          "Сонячна",
+          "Солнечная",
+          "Solnechnaya",
+          "Sonyachna"
+        ],
+        "line": "KR3",
+        "order": 9
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.471907,
+          47.969505
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Industrialna",
+        "alternate_names": [
+          "Індустріальна",
+          "Индустриальная",
+          "Industrialnaya",
+          "Іndustrіalna"
+        ],
+        "line": "KR3",
+        "order": 10
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.492537,
+          47.995375
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Elektrozavodska",
+        "alternate_names": [
+          "Електрозаводська",
+          "Yelektrozavodska"
+        ],
+        "line": "KR3",
+        "order": 11
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.498271,
+          48.003332
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Zarichna",
+        "alternate_names": [
+          "Зарічна",
+          "Zarіchna"
+        ],
+        "line": "KR3",
+        "order": 12
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.34512,
+          47.825944
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "PHZK",
+        "alternate_names": [
+          "ПГЗК",
+          "PGZK"
+        ],
+        "line": "KR4",
+        "order": 0
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.344307,
+          47.833152
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Tsentr Nadannia Administratyvnykh Posluh",
+        "alternate_names": [
+          "Центр надання адміністративних послуг",
+          "Центр предоставления административных услуг",
+          "Tsentr Predostavleniya Administrativnykh Uslug",
+          "Tsentr Nadannya Admіnіstrativnikh Poslug"
+        ],
+        "line": "KR4",
+        "order": 1
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.34564,
+          47.825808
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "PivdHZK",
+        "alternate_names": [
+          "ПівдГЗК",
+          "PіvdGZK"
+        ],
+        "line": "KR4",
+        "order": 2
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.345787,
+          47.836473
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Inhuletskyi Raivykonkom",
+        "alternate_names": [
+          "Інгулецький райвиконком",
+          "Ингулецкий райисполком",
+          "Inguletsky Rayispolkom",
+          "Іnguletsky Rayvikonkom"
+        ],
+        "line": "KR4",
+        "order": 3
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.347077,
+          47.839412
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Pivdennyi Prospekt",
+        "alternate_names": [
+          "Південний проспект",
+          "Южный проспект",
+          "Yuzhny Prospekt",
+          "Pіvdenny Prospekt"
+        ],
+        "line": "KR4",
+        "order": 4
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.348366,
+          47.842617
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Rynok PHZK",
+        "alternate_names": [
+          "Ринок ПГЗК",
+          "Рынок ЮГОК",
+          "Rynok YuGOK",
+          "Rinok PGZK"
+        ],
+        "line": "KR4",
+        "order": 5
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.353197,
+          47.846657
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Vulytsia Promenysta",
+        "alternate_names": [
+          "вулиця Промениста",
+          "Vulitsya Promenista"
+        ],
+        "line": "KR4",
+        "order": 6
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.356049,
+          47.850768
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Dachna",
+        "alternate_names": [
+          "Дачна",
+          "Дачная",
+          "Dachnaya"
+        ],
+        "line": "KR4",
+        "order": 7
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.359544,
+          47.858683
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Rudnychna",
+        "alternate_names": [
+          "Руднична",
+          "Рудничная",
+          "Rudnichnaya",
+          "Rudnichna"
+        ],
+        "line": "KR4",
+        "order": 8
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.359944,
+          47.861044
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Baza Mekhanizatsii",
+        "alternate_names": [
+          "База механізації",
+          "База механизации",
+          "Baza Mekhanіzatsії"
+        ],
+        "line": "KR4",
+        "order": 9
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.358031,
+          47.865454
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Polova",
+        "alternate_names": [
+          "Польова",
+          "Полевая",
+          "Polevaya"
+        ],
+        "line": "KR4",
+        "order": 10
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.358755,
+          47.874264
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Selyshche Shevchenko",
+        "alternate_names": [
+          "селище Шевченко",
+          "поселок Шевченко",
+          "Poselok Shevchenko",
+          "Selishche Shevchenko"
+        ],
+        "line": "KR4",
+        "order": 11
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.35902,
+          47.876463
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Vulytsia Halakhivska",
+        "alternate_names": [
+          "вулиця Галахівська",
+          "Vulitsya Galakhіvska"
+        ],
+        "line": "KR4",
+        "order": 12
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.361504,
+          47.881088
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Trampark",
+        "alternate_names": [
+          "Трампарк"
+        ],
+        "line": "KR4",
+        "order": 13
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.369391,
+          47.87961
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "1-a Dilnytsia",
+        "alternate_names": [
+          "1-а дільниця",
+          "1-й участок",
+          "1-y Uchastok",
+          "1-a Dіlnitsya"
+        ],
+        "line": "KR4",
+        "order": 14
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.376775,
+          47.880971
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Shkola №15 Imeni Mykoly Reshetniaka",
+        "alternate_names": [
+          "Школа №15 імені Миколи Решетняка",
+          "Школа №15 имени Николая Решетняка",
+          "Shkola №15 Imeni Nikolaya Reshetnyaka",
+          "Shkola №15 Іmenі Mikoli Reshetnyaka"
+        ],
+        "line": "KR4",
+        "order": 15
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.382362,
+          47.882235
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Stantsiia Kryvyi Rih",
+        "alternate_names": [
+          "станція Кривий Ріг",
+          "станция Кривой Рог",
+          "Stantsiya Krivoy Rog",
+          "Stantsіya Krivy Rіg"
+        ],
+        "line": "KR4",
+        "order": 16
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.389282,
+          47.884498
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Vulytsia Vitchyzny",
+        "alternate_names": [
+          "вулиця Вітчизни",
+          "Vitchyzny Street",
+          "улица Отчизны",
+          "Ulitsa Otchizny",
+          "Vulitsya Vіtchizni"
+        ],
+        "line": "KR4",
+        "order": 17
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.386832,
+          47.888064
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ekonomichnyi Universytet",
+        "alternate_names": [
+          "Економічний університет",
+          "Экономический университет",
+          "Ekonomichesky Universitet",
+          "Yekonomіchny Unіversitet"
+        ],
+        "line": "KR4",
+        "order": 18
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.394239,
+          47.89702
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Prospekt Metalurhiv",
+        "alternate_names": [
+          "Проспект Металургів",
+          "Проспект Металлургов",
+          "Prospekt Metallurgov",
+          "Prospekt Metalurgіv"
+        ],
+        "line": "KR4",
+        "order": 19
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.396365,
+          47.908644
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Miska Rada",
+        "alternate_names": [
+          "Міська Рада",
+          "Городской Совет",
+          "Gorodskoy Sovet",
+          "Mіska Rada"
+        ],
+        "line": "KR4",
+        "order": 20
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.399249,
+          47.91773
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Mudrona",
+        "alternate_names": [
+          "Мудрьона",
+          "Mudriona",
+          "Мудрёная",
+          "Mudryonaya"
+        ],
+        "line": "KR4",
+        "order": 21
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.421267,
+          47.937071
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Vechirnii Bulvar",
+        "alternate_names": [
+          "Вечірній бульвар",
+          "Vechirniy bulvar",
+          "Вечерний бульвар",
+          "Vecherny Bulvar",
+          "Vechіrnіy Bulvar"
+        ],
+        "line": "KR4",
+        "order": 22
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.449019,
+          47.950538
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Miska Likarnia",
+        "alternate_names": [
+          "Міська лікарня",
+          "Городская больница",
+          "Gorodskaya Bolnitsa",
+          "Mіska Lіkarnya"
+        ],
+        "line": "KR4",
+        "order": 23
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.456654,
+          47.956882
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Soniachna",
+        "alternate_names": [
+          "Сонячна",
+          "Солнечная",
+          "Solnechnaya",
+          "Sonyachna"
+        ],
+        "line": "KR4",
+        "order": 24
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.471907,
+          47.969505
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Industrialna",
+        "alternate_names": [
+          "Індустріальна",
+          "Индустриальная",
+          "Industrialnaya",
+          "Іndustrіalna"
+        ],
+        "line": "KR4",
+        "order": 25
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.492537,
+          47.995375
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Elektrozavodska",
+        "alternate_names": [
+          "Електрозаводська",
+          "Yelektrozavodska"
+        ],
+        "line": "KR4",
+        "order": 26
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.498271,
+          48.003332
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Zarichna",
+        "alternate_names": [
+          "Зарічна",
+          "Zarіchna"
+        ],
+        "line": "KR4",
+        "order": 27
+      },
+      "id": 58
+    }
+  ]
+}

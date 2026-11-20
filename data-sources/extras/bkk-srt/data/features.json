@@ -1,0 +1,3405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.51665,
+          13.739311
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Bangkok (กรุงเทพ)",
+        "alternate_names": [
+          "กรุงเทพ",
+          "Bangkok"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.521315,
+          13.75822
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Yommarat (ยมราช)",
+        "alternate_names": [
+          "ยมราช",
+          "Yommarat"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.524707,
+          13.766539
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Chitlada (จิตรลดา)",
+        "alternate_names": [
+          "จิตรลดา",
+          "Chitlada"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52553,
+          13.768495
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Ramathibodi Hospital (โรงพยาบาลรามาธิบดี)",
+        "alternate_names": [
+          "โรงพยาบาลรามาธิบดี",
+          "Ramathibodi Hospital"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.529937,
+          13.779445
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sam Sen (สามเสน)",
+        "alternate_names": [
+          "สามเสน",
+          "Sam Sen"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.540029,
+          13.804115
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Bang Sue Junction (ชุมทางบางซื่อ)",
+        "alternate_names": [
+          "ชุมทางบางซื่อ",
+          "Bang Sue Junction"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.549474,
+          13.826618
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Chatuchak (จตุจักร)",
+        "alternate_names": [
+          "จตุจักร",
+          "Chatuchak"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.557499,
+          13.841593
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Wat Samian Nari (วัดเสมียนนารี)",
+        "alternate_names": [
+          "วัดเสมียนนารี",
+          "Wat Samian Nari"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.561672,
+          13.849366
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Bang Khen (บางเขน)",
+        "alternate_names": [
+          "บางเขน",
+          "Bang Khen"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.567531,
+          13.860206
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Thung Song Hong (ทุ่งสองห้อง)",
+        "alternate_names": [
+          "ทุ่งสองห้อง",
+          "Thung Song Hong"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.581936,
+          13.886314
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Lak Si (หลักสี่)",
+        "alternate_names": [
+          "หลักสี่",
+          "Lak Si"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.588873,
+          13.898657
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Kan Kheha (การเคหะ)",
+        "alternate_names": [
+          "การเคหะ",
+          "Kan Kheha"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.597869,
+          13.914688
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Don Mueang (ดอนเมือง)",
+        "alternate_names": [
+          "ดอนเมือง",
+          "Don Muang"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.605375,
+          13.965723
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Lak Hok (หลักหก)",
+        "alternate_names": [
+          "Rangsit U.",
+          "หลักหก",
+          "Lak Hok"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.602154,
+          13.990542
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Rangsit (รังสิต)",
+        "alternate_names": [
+          "รังสิต",
+          "Rangsit"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.598065,
+          14.023168
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Khlong Nueng (คลองหนึ่ง)",
+        "alternate_names": [
+          "คลองหนึ่ง",
+          "Khlong Nueng"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.592385,
+          14.055337
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Chiang Rak (เชียงราก)",
+        "alternate_names": [
+          "เชียงราก",
+          "Chiang Rak"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.588538,
+          14.079379
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Thammasat University (มหาวิทยาลัยธรรมศาสตร์)",
+        "alternate_names": [
+          "มหาวิทยาลัยธรรมศาสตร์",
+          "Thammasat University"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.584002,
+          14.114653
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Nawa Nakhon (นวนคร)",
+        "alternate_names": [
+          "นวนคร",
+          "Nawa Nakhon"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.582098,
+          14.130544
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Chiang Rak Noi (เชียงรากน้อย)",
+        "alternate_names": [
+          "เชียงรากน้อย",
+          "Chiang Rak Noi"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.578299,
+          14.185876
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Khlong Phutsa (คลองพุทรา)",
+        "alternate_names": [
+          "คลองพุทรา",
+          "Khlong Phutsa"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.584589,
+          14.239351
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Bang Pa-in (บางปะอิน)",
+        "alternate_names": [
+          "บางปะอิน",
+          "Bang Pa-in"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.588675,
+          14.282151
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ban Pho (บ้านโพ)",
+        "alternate_names": [
+          "บ้านโพ",
+          "Ban Pho"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5832,
+          14.356713
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Ayutthaya (อยุธยา)",
+        "alternate_names": [
+          "อยุธยา",
+          "Ayutthaya"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.597101,
+          14.384102
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Ban Ma (บ้านม้า)",
+        "alternate_names": [
+          "บ้านม้า",
+          "Ban Ma"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.632081,
+          14.402284
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Map Phra Chan (มาบพระจันทร์)",
+        "alternate_names": [
+          "มาบพระจันทร์",
+          "Map Phra Chan"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.659603,
+          14.415711
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Ban Don Klang (บ้านดอนกลาง)",
+        "alternate_names": [
+          "บ้านดอนกลาง",
+          "Ban Don Klang"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.685547,
+          14.428702
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Phra Kaeo (พระแก้ว)",
+        "alternate_names": [
+          "พระแก้ว",
+          "Phra Kaeo"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.720772,
+          14.450557
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Ban Phachi Junction (ชุมทางบ้านภาชี)",
+        "alternate_names": [
+          "ชุมทางบ้านภาชี",
+          "Ban Phachi Junction"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.728397,
+          14.479724
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Don Ya Nang (ดอนหญ้านาง)",
+        "alternate_names": [
+          "ดอนหญ้านาง",
+          "Don Ya Nang"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.727156,
+          14.505601
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Nong Wiwat (หนองวิวัฒน์)",
+        "alternate_names": [
+          "หนองวิวัฒน์",
+          "Nong Wiwat"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.725988,
+          14.530074
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Ban Plak Raet (บ้านปลักแรด)",
+        "alternate_names": [
+          "บ้านปลักแรด",
+          "Ban Plak Raet"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.724397,
+          14.562436
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Tha Rua (ท่าเรือ)",
+        "alternate_names": [
+          "ท่าเรือ",
+          "Tha Rua"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.726416,
+          14.616661
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Ban Mo (บ้านหมอ)",
+        "alternate_names": [
+          "บ้านหมอ",
+          "Ban Mo"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.706207,
+          14.683411
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Nong Don (หนองโดน)",
+        "alternate_names": [
+          "หนองโดน",
+          "Nong Don"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.678375,
+          14.72072
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Ban Klap Junction (ชุมทางบ้านกลับ)",
+        "alternate_names": [
+          "ชุมทางบ้านกลับ",
+          "Ban Klap Junction"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.643237,
+          14.759453
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Ban Pa Wai (บ้านป่าหวาย)",
+        "alternate_names": [
+          "บ้านป่าหวาย",
+          "Ban Pa Wai"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.615379,
+          14.798526
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Lop Buri (ลพบุรี)",
+        "alternate_names": [
+          "ลพบุรี",
+          "Lop Buri"
+        ],
+        "line": "BangkokSRTLopburi",
+        "order": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.51665,
+          13.739311
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Bangkok (กรุงเทพ)",
+        "alternate_names": [
+          "กรุงเทพ",
+          "Bangkok"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 0
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.521315,
+          13.75822
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Yommarat (ยมราช)",
+        "alternate_names": [
+          "ยมราช",
+          "Yommarat"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 1
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.524707,
+          13.766539
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Chitlada (จิตรลดา)",
+        "alternate_names": [
+          "จิตรลดา",
+          "Chitlada"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 2
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52553,
+          13.768495
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Ramathibodi Hospital (โรงพยาบาลรามาธิบดี)",
+        "alternate_names": [
+          "โรงพยาบาลรามาธิบดี",
+          "Ramathibodi Hospital"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 3
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.529937,
+          13.779445
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Sam Sen (สามเสน)",
+        "alternate_names": [
+          "สามเสน",
+          "Sam Sen"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 4
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.540029,
+          13.804115
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Bang Sue Junction (ชุมทางบางซื่อ)",
+        "alternate_names": [
+          "ชุมทางบางซื่อ",
+          "Bang Sue Junction"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 5
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.549474,
+          13.826618
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Chatuchak (จตุจักร)",
+        "alternate_names": [
+          "จตุจักร",
+          "Chatuchak"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 6
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.557499,
+          13.841593
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Wat Samian Nari (วัดเสมียนนารี)",
+        "alternate_names": [
+          "วัดเสมียนนารี",
+          "Wat Samian Nari"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 7
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.561672,
+          13.849366
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Bang Khen (บางเขน)",
+        "alternate_names": [
+          "บางเขน",
+          "Bang Khen"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 8
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.567531,
+          13.860206
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Thung Song Hong (ทุ่งสองห้อง)",
+        "alternate_names": [
+          "ทุ่งสองห้อง",
+          "Thung Song Hong"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 9
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.581936,
+          13.886314
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Lak Si (หลักสี่)",
+        "alternate_names": [
+          "หลักสี่",
+          "Lak Si"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 10
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.588873,
+          13.898657
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Kan Kheha (การเคหะ)",
+        "alternate_names": [
+          "การเคหะ",
+          "Kan Kheha"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 11
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.597869,
+          13.914688
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Don Mueang (ดอนเมือง)",
+        "alternate_names": [
+          "ดอนเมือง",
+          "Don Muang"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 12
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.605375,
+          13.965723
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Lak Hok (หลักหก)",
+        "alternate_names": [
+          "Rangsit U.",
+          "หลักหก",
+          "Lak Hok"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 13
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.602154,
+          13.990542
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Rangsit (รังสิต)",
+        "alternate_names": [
+          "รังสิต",
+          "Rangsit"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 14
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.598065,
+          14.023168
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Khlong Nueng (คลองหนึ่ง)",
+        "alternate_names": [
+          "คลองหนึ่ง",
+          "Khlong Nueng"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 15
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.592385,
+          14.055337
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Chiang Rak (เชียงราก)",
+        "alternate_names": [
+          "เชียงราก",
+          "Chiang Rak"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 16
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.588538,
+          14.079379
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Thammasat University (มหาวิทยาลัยธรรมศาสตร์)",
+        "alternate_names": [
+          "มหาวิทยาลัยธรรมศาสตร์",
+          "Thammasat University"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 17
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.584002,
+          14.114653
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Nawa Nakhon (นวนคร)",
+        "alternate_names": [
+          "นวนคร",
+          "Nawa Nakhon"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 18
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.582098,
+          14.130544
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Chiang Rak Noi (เชียงรากน้อย)",
+        "alternate_names": [
+          "เชียงรากน้อย",
+          "Chiang Rak Noi"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 19
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.578299,
+          14.185876
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Khlong Phutsa (คลองพุทรา)",
+        "alternate_names": [
+          "คลองพุทรา",
+          "Khlong Phutsa"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 20
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.584589,
+          14.239351
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Bang Pa-in (บางปะอิน)",
+        "alternate_names": [
+          "บางปะอิน",
+          "Bang Pa-in"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 21
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.588675,
+          14.282151
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Ban Pho (บ้านโพ)",
+        "alternate_names": [
+          "บ้านโพ",
+          "Ban Pho"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 22
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5832,
+          14.356713
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Ayutthaya (อยุธยา)",
+        "alternate_names": [
+          "อยุธยา",
+          "Ayutthaya"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 23
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.597101,
+          14.384102
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Ban Ma (บ้านม้า)",
+        "alternate_names": [
+          "บ้านม้า",
+          "Ban Ma"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 24
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.632081,
+          14.402284
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Map Phra Chan (มาบพระจันทร์)",
+        "alternate_names": [
+          "มาบพระจันทร์",
+          "Map Phra Chan"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 25
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.659603,
+          14.415711
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Ban Don Klang (บ้านดอนกลาง)",
+        "alternate_names": [
+          "บ้านดอนกลาง",
+          "Ban Don Klang"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 26
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.685547,
+          14.428702
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Phra Kaeo (พระแก้ว)",
+        "alternate_names": [
+          "พระแก้ว",
+          "Phra Kaeo"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 27
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.720772,
+          14.450557
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Ban Phachi Junction (ชุมทางบ้านภาชี)",
+        "alternate_names": [
+          "ชุมทางบ้านภาชี",
+          "Ban Phachi Junction"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 28
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.757211,
+          14.473741
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Nong Kuai (หนองกวย)",
+        "alternate_names": [
+          "หนองกวย",
+          "Nong Kuai"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 29
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.784439,
+          14.490775
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Nong Saeng (หนองแซง)",
+        "alternate_names": [
+          "หนองแซง",
+          "Nong Saeng"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 30
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.824755,
+          14.516131
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Nong Sida (หนองสีดา)",
+        "alternate_names": [
+          "หนองสีดา",
+          "Nong Sida"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 31
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.864298,
+          14.522363
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Ban Pok Paek (บ้านป๊อกแป๊ก)",
+        "alternate_names": [
+          "บ้านป๊อกแป๊ก",
+          "Ban Pok Paek"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 32
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.916216,
+          14.527388
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Saraburi (สระบุรี)",
+        "alternate_names": [
+          "สระบุรี",
+          "Saraburi"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 33
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.962799,
+          14.555771
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Nong Bua Junction (ชุมทางหนองบัว)",
+        "alternate_names": [
+          "ชุมทางหนองบัว",
+          "Nong Bua Junction"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 34
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.005335,
+          14.58748
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Kaeng Khoi Junction (ชุมทางแก่งคอย)",
+        "alternate_names": [
+          "ชุมทางแก่งคอย",
+          "Kaeng Khoi Junction"
+        ],
+        "line": "BangkokSRTKaengKhoi",
+        "order": 35
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.51665,
+          13.739311
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Bangkok (กรุงเทพ)",
+        "alternate_names": [
+          "กรุงเทพ",
+          "Bangkok"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 0
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.521315,
+          13.75822
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Yommarat (ยมราช)",
+        "alternate_names": [
+          "ยมราช",
+          "Yommarat"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 1
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.526306,
+          13.758575
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Uruphong (อุรุพงษ์)",
+        "alternate_names": [
+          "อุรุพงษ์",
+          "Uruphong"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 2
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.533195,
+          13.757024
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Phaya Thai (พญาไท)",
+        "alternate_names": [
+          "พญาไท",
+          "Phaya Thai"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 3
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.541873,
+          13.755085
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Ratchaprarop (ราชปรารภ)",
+        "alternate_names": [
+          "ราชปรารภ",
+          "Ratchaprarop"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 4
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.547366,
+          13.753861
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Makkasan (มักกะสัน)",
+        "alternate_names": [
+          "มักกะสัน",
+          "Makkasan"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 5
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.56442,
+          13.749955
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Asok (อโศก)",
+        "alternate_names": [
+          "อโศก",
+          "Asok"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 6
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.589697,
+          13.744308
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Khlong Tan (คลองตัน)",
+        "alternate_names": [
+          "คลองตัน",
+          "Khlong Tan"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 7
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.600614,
+          13.742834
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Sukhumvit 71 (สุขุมวิท 71)",
+        "alternate_names": [
+          "สุขุมวิท 71",
+          "Sukhumvit 71"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 8
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.639745,
+          13.738394
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Hua Mak (หัวหมาก)",
+        "alternate_names": [
+          "หัวหมาก",
+          "Hua Mak"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 9
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.688741,
+          13.732936
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Ban Thap Chang (บ้านทับช้าง)",
+        "alternate_names": [
+          "บ้านทับช้าง",
+          "Ban Thap Chang"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 10
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.718202,
+          13.729648
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Soi Wat Lan Boon (ซอยวัดลานบุญ)",
+        "alternate_names": [
+          "ซอยวัดลานบุญ",
+          "Soi Wat Lan Boon"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 11
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.748616,
+          13.727511
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Lat Krabang (ลาดกระบัง)",
+        "alternate_names": [
+          "ลาดกระบัง",
+          "Lat Krabang"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 12
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.775468,
+          13.72818
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Phra Chom Klao (พระจอมเกล้า)",
+        "alternate_names": [
+          "พระจอมเกล้า",
+          "Phra Chom Klao"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 13
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.782897,
+          13.728424
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Hua Takhe (หัวตะเข้)",
+        "alternate_names": [
+          "หัวตะเข้",
+          "Hua Takhe"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 14
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.824379,
+          13.724805
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "คลองมอญ",
+        "line": "BangkokSRTPrachinburi",
+        "order": 15
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.863061,
+          13.720074
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Khlong Luang Phaeng (คลองหลวงแพ่ง)",
+        "alternate_names": [
+          "คลองหลวงแพ่ง",
+          "Khlong Luang Phaeng"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 16
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.896926,
+          13.715862
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Khlong Udom Chonlajorn (คลองอุดมชลจร)",
+        "alternate_names": [
+          "คลองอุดมชลจร",
+          "Khlong Udom Chonlajorn"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 17
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.924938,
+          13.712368
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Preng (เปรง)",
+        "alternate_names": [
+          "เปรง",
+          "Preng"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 18
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.966572,
+          13.707114
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Khlong Kwaeng Klan (คลองแขวงกลั่น)",
+        "alternate_names": [
+          "คลองแขวงกลั่น",
+          "Khlong Kwaeng Klan"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 19
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.991378,
+          13.704041
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Khlong Bang Phra (คลองบางพระ)",
+        "alternate_names": [
+          "คลองบางพระ",
+          "Khlong Bang Phra"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 20
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.018657,
+          13.700628
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Bang Toey (บางเตย)",
+        "alternate_names": [
+          "บางเตย",
+          "Bang Toey"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 21
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.058881,
+          13.695576
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Chachoengsao Junction (ชุมทางฉะเชิงเทรา)",
+        "alternate_names": [
+          "ชุมทางฉะเชิงเทรา",
+          "Chachoengsao Junction"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 22
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.094369,
+          13.808915
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Phrong Akat (โพรงอากาศ)",
+        "alternate_names": [
+          "โพรงอากาศ",
+          "Phrong Akat"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 23
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.102,
+          13.850057
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Bang Nam Priao (บางน้ำเปรี้ยว)",
+        "alternate_names": [
+          "บางน้ำเปรี้ยว",
+          "Bang Nam Priao"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 24
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.113812,
+          13.907221
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Khlong Sip Kao Junction (ชุมทางคลองสิบเก้า)",
+        "alternate_names": [
+          "ชุมทางคลองสิบเก้า",
+          "Khlong Sip Kao Junction"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 25
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.127111,
+          13.938625
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Klong Yi Sib Et (คลองยี่สิบเอ็ด)",
+        "alternate_names": [
+          "คลองยี่สิบเอ็ด",
+          "Klong Yi Sib Et"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 26
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.149568,
+          13.970815
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Yothaka (โยทะกา)",
+        "alternate_names": [
+          "โยทะกา",
+          "Yothaka"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 27
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.202881,
+          14.015153
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Ban Sang (บ้านสร้าง)",
+        "alternate_names": [
+          "บ้านสร้าง",
+          "Ban Sang"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 28
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.268334,
+          14.049509
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Nong Nam Khao (หนองน้ำขาว)",
+        "alternate_names": [
+          "หนองน้ำขาว",
+          "Nong Nam Khao"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 29
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.315333,
+          14.074157
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Ban Pak Phli (บ้านปากพลี)",
+        "alternate_names": [
+          "บ้านปากพลี",
+          "Ban Pak Phli"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 30
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.37368,
+          14.070937
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Prachin Buri (ปราจีนบุรี)",
+        "alternate_names": [
+          "ปราจีนบุรี",
+          "Prachin Buri"
+        ],
+        "line": "BangkokSRTPrachinburi",
+        "order": 31
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.478774,
+          13.760697
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Thonburi (ธนบุรี)",
+        "alternate_names": [
+          "ธนบุรี",
+          "Thonburi"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 0
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.472582,
+          13.763179
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Charan Sanitwong (จรัลสนิทวงศ์)",
+        "alternate_names": [
+          "จรัลสนิทวงศ์",
+          "Charan Sanitwong"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 1
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.453511,
+          13.778456
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Bang Ramat (บางระมาด)",
+        "alternate_names": [
+          "บางระมาด",
+          "Bang Ramat"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 2
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.440083,
+          13.789269
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Taling Chan Junction (ชุมทางตลิ่งชัน)",
+        "alternate_names": [
+          "ชุมทางตลิ่งชัน",
+          "Taling Chan Junction"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 3
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.420598,
+          13.799161
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Ban Chimphli (บ้านฉิมพลี)",
+        "alternate_names": [
+          "บ้านฉิมพลี",
+          "Ban Chimphli"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 4
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.395061,
+          13.800037
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Phutthamonthon Sai 2 (พุทธมณฑลสาย 2)",
+        "alternate_names": [
+          "พุทธมณฑลสาย 2",
+          "Phutthamonthon Sai 2"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 5
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.371224,
+          13.800879
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Sala Thammasop (ศาลาธรรมสพน์)",
+        "alternate_names": [
+          "ศาลาธรรมสพน์",
+          "Sala Thammasop"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 6
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.324334,
+          13.802502
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Sala Ya (ศาลายา)",
+        "alternate_names": [
+          "ศาลายา",
+          "Sala Ya"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 7
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.28371,
+          13.80567
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Wat Suwan (วัดสุวรรณ)",
+        "alternate_names": [
+          "วัดสุวรรณ",
+          "Wat Suwan"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 8
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.250731,
+          13.808855
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Khlong Maha Sawat (คลองมหาสวัสดิ์)",
+        "alternate_names": [
+          "คลองมหาสวัสดิ์",
+          "Khlong Maha Sawat"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 9
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.216175,
+          13.807993
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Wat Ngio Rai (วัดงิ้วราย)",
+        "alternate_names": [
+          "วัดงิ้วราย",
+          "Wat Ngio Rai"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 10
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.176116,
+          13.806194
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Nakhon Chai Si (นครชัยศรี)",
+        "alternate_names": [
+          "นครชัยศรี",
+          "Nakhon Chai Si"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 11
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.131751,
+          13.81224
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Tha Chalaep (ท่าแฉลบ)",
+        "alternate_names": [
+          "ท่าแฉลบ",
+          "Tha Chalaep"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 12
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.091299,
+          13.825603
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Ton Samrong (ต้นสำโรง)",
+        "alternate_names": [
+          "ต้นสำโรง",
+          "Ton Samrong"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 13
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.058739,
+          13.824503
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Nakhon Pathom (นครปฐม)",
+        "alternate_names": [
+          "นครปฐม",
+          "Nakhon Pathom"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 14
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.041321,
+          13.823887
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Sanam Chandra Palace (พระราชวังสนามจันทร์)",
+        "alternate_names": [
+          "พระราชวังสนามจันทร์",
+          "Sanam Chandra Palace"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 15
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.992481,
+          13.822278
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Prong Maduea (โพรงมะเดื่อ)",
+        "alternate_names": [
+          "โพรงมะเดื่อ",
+          "Prong Maduea"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 16
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.958662,
+          13.82124
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Khlong Bang Tan (คลองบางตาล)",
+        "alternate_names": [
+          "คลองบางตาล",
+          "Khlong Bang Tan"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 17
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.910879,
+          13.817681
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Nong Pla Duk Junction (ชุมทางหนองปลาดุก)",
+        "alternate_names": [
+          "ชุมทางหนองปลาดุก",
+          "Nong Pla Duk Junction"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 18
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.875146,
+          13.809701
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Ban Pong (บ้านโป่ง)",
+        "alternate_names": [
+          "บ้านโป่ง",
+          "Ban Pong"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 19
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.855448,
+          13.765976
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Nakhon Chum (นครชุมน์)",
+        "alternate_names": [
+          "นครชุมน์",
+          "Nakhon Chum"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 20
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.849967,
+          13.734453
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Khlong Ta Khot (คลองตาคด)",
+        "alternate_names": [
+          "คลองตาคด",
+          "Khlong Ta Khot"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 21
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.850584,
+          13.69328
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Photharam (โพธาราม)",
+        "alternate_names": [
+          "โพธาราม",
+          "Photharam"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 22
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.82133,
+          13.636304
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Chet Samian old (เจ็ดเสมียนเก่า)",
+        "alternate_names": [
+          "เจ็ดเสมียนเก่า",
+          "Chet Samian old"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 23
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.820369,
+          13.633939
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Chet Samian (เจ็ดเสมียน)",
+        "alternate_names": [
+          "เจ็ดเสมียน",
+          "Chet Samian"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 24
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.815652,
+          13.588354
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Ban Kluai (บ้านกล้วย)",
+        "alternate_names": [
+          "บ้านกล้วย",
+          "Ban Kluai"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 25
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.824061,
+          13.529866
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Ratchaburi (ราชบุรี)",
+        "alternate_names": [
+          "ราชบุรี",
+          "Ratchaburi"
+        ],
+        "line": "BangkokSRTRatchaburi",
+        "order": 26
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.51665,
+          13.739311
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Bangkok (กรุงเทพ)",
+        "alternate_names": [
+          "กรุงเทพ",
+          "Bangkok"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 0
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.521315,
+          13.75822
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Yommarat (ยมราช)",
+        "alternate_names": [
+          "ยมราช",
+          "Yommarat"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 1
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.524707,
+          13.766539
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Chitlada (จิตรลดา)",
+        "alternate_names": [
+          "จิตรลดา",
+          "Chitlada"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 2
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52553,
+          13.768495
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Ramathibodi Hospital (โรงพยาบาลรามาธิบดี)",
+        "alternate_names": [
+          "โรงพยาบาลรามาธิบดี",
+          "Ramathibodi Hospital"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 3
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.529937,
+          13.779445
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Sam Sen (สามเสน)",
+        "alternate_names": [
+          "สามเสน",
+          "Sam Sen"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 4
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.540029,
+          13.804115
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Bang Sue Junction (ชุมทางบางซื่อ)",
+        "alternate_names": [
+          "ชุมทางบางซื่อ",
+          "Bang Sue Junction"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 5
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.534213,
+          13.822133
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Bang Son (บางซ่อน)",
+        "alternate_names": [
+          "บางซ่อน",
+          "Bang Son"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 6
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.477442,
+          13.792188
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Bang Bamru (บางบำหรุ)",
+        "alternate_names": [
+          "บางบำหรุ",
+          "Bang Bamru"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 7
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.440083,
+          13.789269
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Taling Chan Junction (ชุมทางตลิ่งชัน)",
+        "alternate_names": [
+          "ชุมทางตลิ่งชัน",
+          "Taling Chan Junction"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 8
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.420598,
+          13.799161
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Ban Chimphli (บ้านฉิมพลี)",
+        "alternate_names": [
+          "บ้านฉิมพลี",
+          "Ban Chimphli"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 9
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.395061,
+          13.800037
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Phutthamonthon Sai 2 (พุทธมณฑลสาย 2)",
+        "alternate_names": [
+          "พุทธมณฑลสาย 2",
+          "Phutthamonthon Sai 2"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 10
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.371224,
+          13.800879
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Sala Thammasop (ศาลาธรรมสพน์)",
+        "alternate_names": [
+          "ศาลาธรรมสพน์",
+          "Sala Thammasop"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 11
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.324334,
+          13.802502
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Sala Ya (ศาลายา)",
+        "alternate_names": [
+          "ศาลายา",
+          "Sala Ya"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 12
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.28371,
+          13.80567
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Wat Suwan (วัดสุวรรณ)",
+        "alternate_names": [
+          "วัดสุวรรณ",
+          "Wat Suwan"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 13
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.250731,
+          13.808855
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Khlong Maha Sawat (คลองมหาสวัสดิ์)",
+        "alternate_names": [
+          "คลองมหาสวัสดิ์",
+          "Khlong Maha Sawat"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 14
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.216175,
+          13.807993
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Wat Ngio Rai (วัดงิ้วราย)",
+        "alternate_names": [
+          "วัดงิ้วราย",
+          "Wat Ngio Rai"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 15
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.176116,
+          13.806194
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Nakhon Chai Si (นครชัยศรี)",
+        "alternate_names": [
+          "นครชัยศรี",
+          "Nakhon Chai Si"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 16
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.131751,
+          13.81224
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Tha Chalaep (ท่าแฉลบ)",
+        "alternate_names": [
+          "ท่าแฉลบ",
+          "Tha Chalaep"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 17
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.091299,
+          13.825603
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Ton Samrong (ต้นสำโรง)",
+        "alternate_names": [
+          "ต้นสำโรง",
+          "Ton Samrong"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 18
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.058739,
+          13.824503
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Nakhon Pathom (นครปฐม)",
+        "alternate_names": [
+          "นครปฐม",
+          "Nakhon Pathom"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 19
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.041321,
+          13.823887
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Sanam Chandra Palace (พระราชวังสนามจันทร์)",
+        "alternate_names": [
+          "พระราชวังสนามจันทร์",
+          "Sanam Chandra Palace"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 20
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.992481,
+          13.822278
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Prong Maduea (โพรงมะเดื่อ)",
+        "alternate_names": [
+          "โพรงมะเดื่อ",
+          "Prong Maduea"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 21
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.958662,
+          13.82124
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Khlong Bang Tan (คลองบางตาล)",
+        "alternate_names": [
+          "คลองบางตาล",
+          "Khlong Bang Tan"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 22
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.910879,
+          13.817681
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Nong Pla Duk Junction (ชุมทางหนองปลาดุก)",
+        "alternate_names": [
+          "ชุมทางหนองปลาดุก",
+          "Nong Pla Duk Junction"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 23
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.955819,
+          14.010905
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Thung Bua (ทุ่งบัว)",
+        "alternate_names": [
+          "ทุ่งบัว",
+          "Thung Bua"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 24
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.956692,
+          14.087006
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Flying Training School (โรงเรียนการบิน)",
+        "alternate_names": [
+          "โรงเรียนการบิน",
+          "Flying Training School"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 25
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.007735,
+          14.226342
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Si Samran (ศรีสำราญ)",
+        "alternate_names": [
+          "ศรีสำราญ",
+          "Si Samran"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 26
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.016394,
+          14.30978
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Don Thong (ดอนทอง)",
+        "alternate_names": [
+          "ดอนทอง",
+          "Don Thong"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 27
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.094974,
+          14.465647
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Suphan Buri (สุพรรณบุรี)",
+        "alternate_names": [
+          "สุพรรณบุรี",
+          "Suphan Buri"
+        ],
+        "line": "BangkokSRTSuphanburi",
+        "order": 28
+      },
+      "id": 161
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "kolkata",
+  "path": "asia/india/kolkata",
+  "gameTitle": "Kolkata Metro Memory",
+  "description": "How many Kolkata Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    22.372,
+    88.185,
+    22.768,
+    88.615
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "localStrip": "\\s*[\\(\\[](?:Ligne|Line)\\s+\\w+[\\)\\]]$|\\s*\\((?:\\w+\\s+)?Line\\)$|\\s+RMRG$",
+  "lineGroups": [
+    {
+      "title": "Kolkata Metro",
+      "lines": [
+        "KOLKBLUE",
+        "KOLKGREEN",
+        "KOLKORANGE",
+        "KOLKPURPLE",
+        "KOLKYELLOW"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KOLKBLUE",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(8033916|8034180)$"
+      },
+      "color": "#0000FF",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "KOLKBLUE.svg"
+    },
+    {
+      "id": "KOLKGREEN",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(11720071|11720072)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "G",
+      "icon": "KOLKGREEN.svg"
+    },
+    {
+      "id": "KOLKORANGE",
+      "name": "Orange Line",
+      "match": {
+        "@id": "^(17320237|17320238)$"
+      },
+      "color": "#F47421",
+      "textColor": "#FFFFFF",
+      "badge": "O",
+      "icon": "KOLKORANGE.svg"
+    },
+    {
+      "id": "KOLKPURPLE",
+      "name": "Purple Line",
+      "match": {
+        "@id": "^(15068961|15068962)$"
+      },
+      "color": "#800080",
+      "textColor": "#FFFFFF",
+      "badge": "P",
+      "icon": "KOLKPURPLE.svg"
+    },
+    {
+      "id": "KOLKYELLOW",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(19508978|19508983)$"
+      },
+      "color": "#FFFF00",
+      "textColor": "#222222",
+      "badge": "Y",
+      "icon": "KOLKYELLOW.svg"
+    }
+  ],
+  "register": {
+    "name": "Kolkata (কলকাতা), IN",
+    "continent": "Asia",
+    "coordinates": [
+      88.4,
+      22.57
+    ],
+    "zh": "加尔各答, IN",
+    "achievement": {
+      "title": "Kolkata Metro Master",
+      "description": "You've named every Kolkata Metro station."
+    }
+  }
+}

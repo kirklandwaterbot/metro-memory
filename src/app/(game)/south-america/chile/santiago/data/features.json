@@ -1,0 +1,2444 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.544995,
+          -33.407871
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Los Dominicos",
+        "line": "SCL1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.555845,
+          -33.407935
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Hernando de Magallanes",
+        "line": "SCL1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.569733,
+          -33.409464
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Manquehue",
+        "line": "SCL1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.58268,
+          -33.413482
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Escuela Militar",
+        "line": "SCL1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.589991,
+          -33.415447
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Alcántara",
+        "line": "SCL1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.596066,
+          -33.416683
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "El Golf",
+        "line": "SCL1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.601648,
+          -33.418286
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tobalaba",
+        "line": "SCL1",
+        "order": 6,
+        "cluster_key": "stn-6-2"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.608561,
+          -33.422019
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Los Leones",
+        "line": "SCL1",
+        "order": 7,
+        "cluster_key": "stn-7-2"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.613796,
+          -33.425483
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Pedro de Valdivia",
+        "line": "SCL1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.619646,
+          -33.428553
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Manuel Montt",
+        "line": "SCL1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.626074,
+          -33.43273
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Salvador",
+        "line": "SCL1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.633405,
+          -33.437231
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Baquedano",
+        "line": "SCL1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.639892,
+          -33.439762
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Universidad Católica",
+        "line": "SCL1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.64475,
+          -33.442451
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Santa Lucía",
+        "line": "SCL1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.650665,
+          -33.443867
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Universidad de Chile",
+        "line": "SCL1",
+        "order": 14,
+        "cluster_key": "stn-14-2"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.654871,
+          -33.444871
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "La Moneda",
+        "line": "SCL1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.660446,
+          -33.446185
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Los Héroes",
+        "line": "SCL1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.666844,
+          -33.447634
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "República",
+        "line": "SCL1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.673356,
+          -33.449348
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Unión Latinoamericana",
+        "line": "SCL1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.678958,
+          -33.450836
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Estación Central",
+        "line": "SCL1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.686482,
+          -33.45284
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Universidad de Santiago",
+        "line": "SCL1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.692272,
+          -33.454202
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "San Alberto Hurtado",
+        "line": "SCL1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.699757,
+          -33.455921
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ecuador",
+        "line": "SCL1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.706665,
+          -33.457518
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Las Rejas",
+        "line": "SCL1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.715447,
+          -33.457475
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Pajaritos",
+        "line": "SCL1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7227,
+          -33.451581
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Neptuno",
+        "line": "SCL1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.723227,
+          -33.444219
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "San Pablo",
+        "line": "SCL1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.64633,
+          -33.380739
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Vespucio Norte",
+        "line": "SCL2",
+        "order": 0
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.642438,
+          -33.390944
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Zapadores",
+        "line": "SCL2",
+        "order": 1
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.64274,
+          -33.396962
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Dorsal",
+        "line": "SCL2",
+        "order": 2
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.643194,
+          -33.405945
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Einstein",
+        "line": "SCL2",
+        "order": 3
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.643597,
+          -33.413981
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Cementerios",
+        "line": "SCL2",
+        "order": 4
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.645075,
+          -33.422746
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Cerro Blanco",
+        "line": "SCL2",
+        "order": 5
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6471,
+          -33.429736
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Patronato",
+        "line": "SCL2",
+        "order": 6
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.653075,
+          -33.432812
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Puente Cal y Canto",
+        "line": "SCL2",
+        "order": 7
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.659896,
+          -33.43825
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Santa Ana",
+        "line": "SCL2",
+        "order": 8
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.660426,
+          -33.446183
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Los Héroes",
+        "line": "SCL2",
+        "order": 9
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.658585,
+          -33.452975
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Toesca",
+        "line": "SCL2",
+        "order": 10
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.656847,
+          -33.460847
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Parque O'Higgins",
+        "line": "SCL2",
+        "order": 11
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.656354,
+          -33.469657
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Rondizzoni",
+        "line": "SCL2",
+        "order": 12
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.649477,
+          -33.47666
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Franklin",
+        "line": "SCL2",
+        "order": 13
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.649381,
+          -33.482601
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "El Llano",
+        "line": "SCL2",
+        "order": 14
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.651053,
+          -33.48872
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "San Miguel",
+        "line": "SCL2",
+        "order": 15
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.653015,
+          -33.496829
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Lo Vial",
+        "line": "SCL2",
+        "order": 16
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.654653,
+          -33.502436
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Departamental",
+        "line": "SCL2",
+        "order": 17
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.656629,
+          -33.509546
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Ciudad del Niño",
+        "line": "SCL2",
+        "order": 18
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65882,
+          -33.51727
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Lo Ovalle",
+        "line": "SCL2",
+        "order": 19
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.661404,
+          -33.526432
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "El Parrón",
+        "line": "SCL2",
+        "order": 20
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.664314,
+          -33.537353
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "La Cisterna",
+        "line": "SCL2",
+        "order": 21
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.66673,
+          -33.546576
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "El Bosque",
+        "line": "SCL2",
+        "order": 22
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.670549,
+          -33.560404
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Observatorio",
+        "line": "SCL2",
+        "order": 23
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.673363,
+          -33.570671
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Copa Lo Martínez",
+        "line": "SCL2",
+        "order": 24
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.676794,
+          -33.582883
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Hospital El Pino",
+        "line": "SCL2",
+        "order": 25
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.728894,
+          -33.365719
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Plaza Quilicura",
+        "line": "SCL3",
+        "order": 0
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.719776,
+          -33.366848
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Lo Cruzat",
+        "line": "SCL3",
+        "order": 1
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.705537,
+          -33.365467
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Ferrocarril",
+        "line": "SCL3",
+        "order": 2
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.69199,
+          -33.365446
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Los Libertadores",
+        "line": "SCL3",
+        "order": 3
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.686353,
+          -33.37326
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Cardenal Caro",
+        "line": "SCL3",
+        "order": 4
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.679654,
+          -33.385389
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Vivaceta",
+        "line": "SCL3",
+        "order": 5
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6696,
+          -33.39789
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Conchalí",
+        "line": "SCL3",
+        "order": 6
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.660969,
+          -33.406771
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Plaza Chacabuco",
+        "line": "SCL3",
+        "order": 7
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.656456,
+          -33.417674
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Hospitales",
+        "line": "SCL3",
+        "order": 8
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.653221,
+          -33.432845
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Puente Cal y Canto",
+        "line": "SCL3",
+        "order": 9
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.652621,
+          -33.437546
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Plaza de Armas",
+        "line": "SCL3",
+        "order": 10,
+        "cluster_key": "stn-63-2"
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.651732,
+          -33.443971
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Universidad de Chile",
+        "line": "SCL3",
+        "order": 11,
+        "cluster_key": "stn-14-2"
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.650544,
+          -33.451391
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Parque Almagro",
+        "line": "SCL3",
+        "order": 12
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.643081,
+          -33.458255
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Matta",
+        "line": "SCL3",
+        "order": 13
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.628315,
+          -33.455053
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Irarrázaval",
+        "line": "SCL3",
+        "order": 14
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.613517,
+          -33.45318
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Monseñor Eyzaguirre",
+        "line": "SCL3",
+        "order": 15
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.604969,
+          -33.454172
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Ñuñoa",
+        "line": "SCL3",
+        "order": 16
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.598139,
+          -33.454893
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Chile España",
+        "line": "SCL3",
+        "order": 17
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.581483,
+          -33.45467
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Villa Frei",
+        "line": "SCL3",
+        "order": 18
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.570823,
+          -33.453494
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Plaza Egaña",
+        "line": "SCL3",
+        "order": 19
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.55812,
+          -33.452088
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Fernando Castillo Velasco",
+        "line": "SCL3",
+        "order": 20
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.600859,
+          -33.418751
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Tobalaba",
+        "line": "SCL4",
+        "order": 0,
+        "cluster_key": "stn-6-2"
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.590981,
+          -33.426316
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Cristóbal Colón",
+        "line": "SCL4",
+        "order": 1
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.584703,
+          -33.431793
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Francisco Bilbao",
+        "line": "SCL4",
+        "order": 2
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.573132,
+          -33.439203
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Príncipe de Gales",
+        "line": "SCL4",
+        "order": 3
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.571926,
+          -33.446184
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Simón Bolívar",
+        "line": "SCL4",
+        "order": 4
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.570823,
+          -33.453494
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Plaza Egaña",
+        "line": "SCL4",
+        "order": 5
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.573924,
+          -33.462618
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Los Orientales",
+        "line": "SCL4",
+        "order": 6
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.576503,
+          -33.469534
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Grecia",
+        "line": "SCL4",
+        "order": 7
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.578666,
+          -33.479837
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Los Presidentes",
+        "line": "SCL4",
+        "order": 8
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.580434,
+          -33.488262
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Quilín",
+        "line": "SCL4",
+        "order": 9
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.586564,
+          -33.4991
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Las Torres",
+        "line": "SCL4",
+        "order": 10
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.590028,
+          -33.50924
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Macul",
+        "line": "SCL4",
+        "order": 11
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.596238,
+          -33.519749
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Vicuña Mackenna",
+        "line": "SCL4",
+        "order": 12
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.596792,
+          -33.526419
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Vicente Valdés",
+        "line": "SCL4",
+        "order": 13
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.592713,
+          -33.536112
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Rojas Magallanes",
+        "line": "SCL4",
+        "order": 14
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.588086,
+          -33.546289
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Trinidad",
+        "line": "SCL4",
+        "order": 15
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.586557,
+          -33.553821
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "San José de la Estrella",
+        "line": "SCL4",
+        "order": 16
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.58527,
+          -33.561225
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Los Quillayes",
+        "line": "SCL4",
+        "order": 17
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.583808,
+          -33.569294
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Elisa Correa",
+        "line": "SCL4",
+        "order": 18
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.582317,
+          -33.576898
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Hospital Sótero del Río",
+        "line": "SCL4",
+        "order": 19
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.579833,
+          -33.589574
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Protectora de la Infancia",
+        "line": "SCL4",
+        "order": 20
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.577496,
+          -33.601385
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Las Mercedes",
+        "line": "SCL4",
+        "order": 21
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.575859,
+          -33.609525
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Plaza de Puente Alto",
+        "line": "SCL4",
+        "order": 22
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.596223,
+          -33.519757
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Vicuña Mackenna",
+        "line": "SCL4A",
+        "order": 0
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.605521,
+          -33.531109
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Santa Julia",
+        "line": "SCL4A",
+        "order": 1
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.616047,
+          -33.54113
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "La Granja",
+        "line": "SCL4A",
+        "order": 2
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.634127,
+          -33.542388
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Santa Rosa",
+        "line": "SCL4A",
+        "order": 3
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.643127,
+          -33.541229
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "San Ramón",
+        "line": "SCL4A",
+        "order": 4
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.664333,
+          -33.53735
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "La Cisterna",
+        "line": "SCL4A",
+        "order": 5
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.757293,
+          -33.510202
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Plaza de Maipú",
+        "line": "SCL5",
+        "order": 0
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.757435,
+          -33.496241
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Santiago Bueras",
+        "line": "SCL5",
+        "order": 1
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.753115,
+          -33.490236
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Del Sol",
+        "line": "SCL5",
+        "order": 2
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.745438,
+          -33.482286
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Monte Tabor",
+        "line": "SCL5",
+        "order": 3
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.739979,
+          -33.475272
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Las Parcelas",
+        "line": "SCL5",
+        "order": 4
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.737907,
+          -33.462163
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Laguna Sur",
+        "line": "SCL5",
+        "order": 5
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.739037,
+          -33.452981
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Barrancas",
+        "line": "SCL5",
+        "order": 6
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.741153,
+          -33.444851
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Pudahuel",
+        "line": "SCL5",
+        "order": 7
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.723249,
+          -33.44422
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "San Pablo",
+        "line": "SCL5",
+        "order": 8
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.716756,
+          -33.443395
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Lo Prado",
+        "line": "SCL5",
+        "order": 9
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.706656,
+          -33.441318
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Blanqueado",
+        "line": "SCL5",
+        "order": 10
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.691032,
+          -33.437997
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Gruta de Lourdes",
+        "line": "SCL5",
+        "order": 11
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.680291,
+          -33.440368
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Quinta Normal",
+        "line": "SCL5",
+        "order": 12
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.668536,
+          -33.43913
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Cumming",
+        "line": "SCL5",
+        "order": 13
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.659896,
+          -33.43825
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Santa Ana",
+        "line": "SCL5",
+        "order": 14
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.651282,
+          -33.437389
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Plaza de Armas",
+        "line": "SCL5",
+        "order": 15,
+        "cluster_key": "stn-63-2"
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.644133,
+          -33.436632
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Bellas Artes",
+        "line": "SCL5",
+        "order": 16
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.633411,
+          -33.437217
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Baquedano",
+        "line": "SCL5",
+        "order": 17
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.631959,
+          -33.442804
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Parque Bustamante",
+        "line": "SCL5",
+        "order": 18
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.630434,
+          -33.44712
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Santa Isabel",
+        "line": "SCL5",
+        "order": 19
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.628315,
+          -33.455053
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Irarrázaval",
+        "line": "SCL5",
+        "order": 20
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.624757,
+          -33.467363
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Ñuble",
+        "line": "SCL5",
+        "order": 21
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.622283,
+          -33.477821
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Rodrigo de Araya",
+        "line": "SCL5",
+        "order": 22
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.619182,
+          -33.486398
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Carlos Valdovinos",
+        "line": "SCL5",
+        "order": 23
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.617502,
+          -33.491788
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Camino Agrícola",
+        "line": "SCL5",
+        "order": 24
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.615826,
+          -33.499336
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "San Joaquín",
+        "line": "SCL5",
+        "order": 25
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.612447,
+          -33.50795
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Pedrero",
+        "line": "SCL5",
+        "order": 26
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.605928,
+          -33.513314
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Mirador",
+        "line": "SCL5",
+        "order": 27
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.600041,
+          -33.51953
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Bellavista de La Florida",
+        "line": "SCL5",
+        "order": 28
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.596792,
+          -33.526419
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Vicente Valdés",
+        "line": "SCL5",
+        "order": 29
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.695556,
+          -33.483434
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Cerrillos",
+        "line": "SCL6",
+        "order": 0
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.680899,
+          -33.47842
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Lo Valledor",
+        "line": "SCL6",
+        "order": 1
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.664787,
+          -33.478691
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Presidente Pedro Aguirre Cerda",
+        "line": "SCL6",
+        "order": 2
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.649478,
+          -33.476675
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Franklin",
+        "line": "SCL6",
+        "order": 3
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.642178,
+          -33.476591
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Bío Bío",
+        "line": "SCL6",
+        "order": 4
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.624757,
+          -33.467363
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Ñuble",
+        "line": "SCL6",
+        "order": 5
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.606218,
+          -33.462381
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Estadio Nacional",
+        "line": "SCL6",
+        "order": 6
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.604972,
+          -33.454189
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Ñuñoa",
+        "line": "SCL6",
+        "order": 7
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.607355,
+          -33.438725
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Inés de Suárez",
+        "line": "SCL6",
+        "order": 8
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.609097,
+          -33.421389
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Los Leones",
+        "line": "SCL6",
+        "order": 9,
+        "cluster_key": "stn-7-2"
+      },
+      "id": 142
+    }
+  ]
+}

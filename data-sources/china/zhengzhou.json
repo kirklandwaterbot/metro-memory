@@ -17,7 +17,8 @@
       "match": {
         "ref": "^1$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/1.png"
     },
     {
       "id": "zhengzhou2",
@@ -25,7 +26,11 @@
       "match": {
         "ref": "^2$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/2.png",
+      "color": "#FFF100",
+      "backgroundColor": "#FFF100",
+      "textColor": "#000000"
     },
     {
       "id": "zhengzhou3",
@@ -33,7 +38,8 @@
       "match": {
         "ref": "^3$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/3.png"
     },
     {
       "id": "zhengzhou4",
@@ -41,7 +47,8 @@
       "match": {
         "ref": "^4$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/4.png"
     },
     {
       "id": "zhengzhou5",
@@ -49,7 +56,10 @@
       "match": {
         "ref": "^5$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/5.png",
+      "color": "#006934",
+      "backgroundColor": "#006934"
     },
     {
       "id": "zhengzhou6",
@@ -57,7 +67,8 @@
       "match": {
         "ref": "^6$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/6.png"
     },
     {
       "id": "zhengzhou7",
@@ -65,7 +76,8 @@
       "match": {
         "ref": "^7$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/7.png"
     },
     {
       "id": "zhengzhou8",
@@ -73,7 +85,8 @@
       "match": {
         "ref": "^8$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/8.png"
     },
     {
       "id": "zhengzhou10",
@@ -81,7 +94,8 @@
       "match": {
         "ref": "^10$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/10.png"
     },
     {
       "id": "zhengzhou12",
@@ -89,35 +103,40 @@
       "match": {
         "ref": "^12$",
         "route": "subway"
-      }
+      },
+      "icon": "asia/china/zhengzhou/12.png"
     },
     {
       "id": "zhengzhou9",
-      "name": "Chengjiao Line (Line 9)",
+      "name": "Chengjiao Line",
       "match": {
         "route": "subway",
         "ref": "^9$"
-      }
+      },
+      "icon": "asia/china/zhengzhou/chengjiao.png"
     },
     {
       "id": "zhengzhou14",
       "name": "Line 14",
       "match": {
         "name": "14号线"
-      }
+      },
+      "icon": "asia/china/zhengzhou/14.png"
     },
     {
       "id": "zhengzhouzhengxu",
       "name": "Zhengxu Line",
       "match": {
         "ref": "^Zhengxu$"
-      }
+      },
+      "icon": "asia/china/zhengzhou/zhengxu.png"
     }
   ],
   "cityName": "Zhengzhou",
   "groups": [
     {
       "title": "Zhengzhou Metro",
+      "titleImage": "asia/china/zhengzhou/icon.ico",
       "lines": [
         "zhengzhou1",
         "zhengzhou2",

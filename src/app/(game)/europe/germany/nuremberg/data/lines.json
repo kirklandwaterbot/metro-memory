@@ -1,0 +1,26 @@
+{
+  "NUREU1": {
+    "name": "U-Bahn U1",
+    "color": "#000066",
+    "backgroundColor": "#000066",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "NUREU1.svg"
+  },
+  "NUREU2": {
+    "name": "U-Bahn U2",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "NUREU2.svg"
+  },
+  "NUREU3": {
+    "name": "U-Bahn U3",
+    "color": "#00868B",
+    "backgroundColor": "#00868B",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "NUREU3.svg"
+  }
+}

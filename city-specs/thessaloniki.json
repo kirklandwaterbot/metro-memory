@@ -1,0 +1,87 @@
+{
+  "slug": "thessaloniki",
+  "path": "europe/greece/thessaloniki",
+  "gameTitle": "Thessaloniki Metro Memory",
+  "description": "How many Thessaloniki Metro stations can you name from memory?",
+  "locale": "el_GR",
+  "bbox": [
+    40.54,
+    22.831,
+    40.72,
+    23.069
+  ],
+  "transliterate": "el",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Thessaloniki Metro",
+      "lines": [
+        "THES1",
+        "THES2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "THES1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(6152448|7885077)$"
+      },
+      "color": "#FF0000",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "THES1.svg"
+    },
+    {
+      "id": "THES2",
+      "name": "Line 2 (Kalamaria)",
+      "match": {
+        "@id": "^(7898293|7898294)$"
+      },
+      "color": "#0070FF",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "THES2.svg"
+    }
+  ],
+  "register": {
+    "name": "Thessaloniki (Θεσσαλονίκη), GR",
+    "continent": "Europe",
+    "coordinates": [
+      22.95,
+      40.63
+    ],
+    "zh": "塞萨洛尼基, GR",
+    "achievement": {
+      "title": "Thessaloniki Metro Master",
+      "description": "You've named every Thessaloniki Metro station."
+    }
+  }
+}

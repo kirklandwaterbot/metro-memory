@@ -53,7 +53,8 @@
     "backgroundColor": "#00532E",
     "textColor": "#FFFFFF",
     "order": 6,
-    "icon": "north-america/usa/nyc/6X.png"
+    "icon": "north-america/usa/nyc/6X.png",
+    "badgeShape": "diamond"
   },
   "NewYorkSubway7": {
     "name": "7",
@@ -69,7 +70,8 @@
     "backgroundColor": "#5C1A56",
     "textColor": "#FFFFFF",
     "order": 8,
-    "icon": "north-america/usa/nyc/7X.png"
+    "icon": "north-america/usa/nyc/7X.png",
+    "badgeShape": "diamond"
   },
   "NewYorkSubwayA": {
     "name": "A",
@@ -125,7 +127,8 @@
     "backgroundColor": "#8C2D00",
     "textColor": "#FFFFFF",
     "order": 15,
-    "icon": "north-america/usa/nyc/FX.png"
+    "icon": "north-america/usa/nyc/FX.png",
+    "badgeShape": "diamond"
   },
   "NewYorkSubwayM": {
     "name": "M",
@@ -183,13 +186,13 @@
     "order": 21,
     "icon": "north-america/usa/nyc/Q.png"
   },
-  "NewYorkSubwayT": {
-    "name": "T",
-    "color": "#00AFD1",
-    "backgroundColor": "#00728A",
+  "NewYorkSubwayH": {
+    "name": "Rockaway Park Shuttle",
+    "color": "#6D6E71",
+    "backgroundColor": "#373739",
     "textColor": "#FFFFFF",
     "order": 29,
-    "icon": "north-america/usa/nyc/T.png"
+    "icon": "north-america/usa/nyc/rockawayshuttle.png"
   },
   "NewYorkSubwayR": {
     "name": "R",

@@ -1,0 +1,62 @@
+{
+  "slug": "toulouse",
+  "path": "europe/france/toulouse",
+  "gameTitle": "Toulouse Metro Memory",
+  "description": "How many Toulouse Metro stations can you name from memory?",
+  "locale": "fr_FR",
+  "bbox": [
+    43.497,
+    1.295,
+    43.713,
+    1.593
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Toulouse Metro",
+      "lines": [
+        "TOULA",
+        "TOULB"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "TOULA",
+      "name": "Line A",
+      "match": {
+        "@id": "^(179515|1557126)$"
+      },
+      "color": "#DB001B",
+      "textColor": "#FFFFFF",
+      "badge": "A",
+      "icon": "TOULA.svg"
+    },
+    {
+      "id": "TOULB",
+      "name": "Line B",
+      "match": {
+        "@id": "^(179514|1557171)$"
+      },
+      "color": "#FFD900",
+      "textColor": "#222222",
+      "badge": "B",
+      "icon": "TOULB.svg"
+    }
+  ],
+  "register": {
+    "name": "Toulouse, FR",
+    "continent": "Europe",
+    "coordinates": [
+      1.444,
+      43.605
+    ],
+    "zh": "图卢兹, FR",
+    "achievement": {
+      "title": "Toulouse Metro Master",
+      "description": "You've named every Toulouse Metro station."
+    }
+  }
+}

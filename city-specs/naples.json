@@ -1,0 +1,62 @@
+{
+  "slug": "naples",
+  "path": "europe/italy/naples",
+  "gameTitle": "Naples Metro Memory",
+  "description": "How many Naples Metro stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    40.742,
+    14.107,
+    40.958,
+    14.393
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Naples Metro",
+      "lines": [
+        "NAPL1",
+        "NAPL6"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "NAPL1",
+      "name": "Linea 1",
+      "match": {
+        "@id": "^(386098|2168102)$"
+      },
+      "color": "#FECA1B",
+      "textColor": "#222222",
+      "badge": "1",
+      "icon": "NAPL1.svg"
+    },
+    {
+      "id": "NAPL6",
+      "name": "Linea 6",
+      "match": {
+        "@id": "^(446007|2168104)$"
+      },
+      "color": "#0099CC",
+      "textColor": "#FFFFFF",
+      "badge": "6",
+      "icon": "NAPL6.svg"
+    }
+  ],
+  "register": {
+    "name": "Naples, IT",
+    "continent": "Europe",
+    "coordinates": [
+      14.25,
+      40.85
+    ],
+    "zh": "那不勒斯, IT",
+    "achievement": {
+      "title": "Naples Metro Master",
+      "description": "You've named every Naples Metro station."
+    }
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.979598,
+          17.533689
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Palenque",
+        "line": "TM1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.495749,
+          17.429779
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Boca del Cerro",
+        "line": "TM1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.430602,
+          17.460388
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Tenosique",
+        "line": "TM1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17099,
+          17.923839
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "El Triunfo",
+        "line": "TM1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.044479,
+          18.184296
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Candelaria",
+        "line": "TM1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.731325,
+          18.612709
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Escárcega",
+        "line": "TM1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.731325,
+          18.612709
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Escárcega",
+        "line": "TM2",
+        "order": 0
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.523111,
+          19.092718
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Carrillo Puerto",
+        "line": "TM2",
+        "order": 1
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.368957,
+          19.58878
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Edzná",
+        "line": "TM2",
+        "order": 2
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.47644,
+          19.823441
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Campeche",
+        "line": "TM2",
+        "order": 3
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.244654,
+          20.039731
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Tenabo",
+        "line": "TM2",
+        "order": 4
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.152133,
+          20.174966
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hecelchakán",
+        "line": "TM2",
+        "order": 5
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.067852,
+          20.377257
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Calkiní",
+        "line": "TM2",
+        "order": 6
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.067852,
+          20.377257
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Calkiní",
+        "line": "TM3",
+        "order": 0
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.974953,
+          20.602829
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Maxcanú",
+        "line": "TM3",
+        "order": 1
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.755597,
+          20.849007
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Umán",
+        "line": "TM3",
+        "order": 2
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.514338,
+          20.929307
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Teya-Mérida",
+        "line": "TM3",
+        "order": 3
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.398475,
+          20.987192
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Tixkokob",
+        "line": "TM3",
+        "order": 4
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.085401,
+          20.936267
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Izamal",
+        "line": "TM3",
+        "order": 5
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.085401,
+          20.936267
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Izamal",
+        "line": "TM4",
+        "order": 0
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.548757,
+          20.720609
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Chichen-Itzá",
+        "line": "TM4",
+        "order": 1
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.193438,
+          20.739666
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Valladolid",
+        "line": "TM4",
+        "order": 2
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.602644,
+          20.878446
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Nuevo Xcán",
+        "line": "TM4",
+        "order": 3
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.196699,
+          20.979468
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Leona Vicario",
+        "line": "TM4",
+        "order": 4
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.875033,
+          21.028357
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Cancún",
+        "line": "TM4",
+        "order": 5
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.875033,
+          21.028357
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Cancún",
+        "line": "TM5",
+        "order": 0
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.950263,
+          20.85067
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Puerto Morelos",
+        "line": "TM5",
+        "order": 1
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.116203,
+          20.678113
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Playa del Carmen",
+        "line": "TM5",
+        "order": 2
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.453556,
+          20.245818
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Tulum",
+        "line": "TM5",
+        "order": 3
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.453556,
+          20.245818
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Tulum",
+        "line": "TM6",
+        "order": 0
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.639832,
+          20.151417
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Tulúm Aeropuerto",
+        "line": "TM6",
+        "order": 1
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.074476,
+          19.593152
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Felipe Carrillo Puerto",
+        "line": "TM6",
+        "order": 2
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.118083,
+          19.027558
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Limones/Chacchoben",
+        "line": "TM6",
+        "order": 3
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.397467,
+          18.708663
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Bacalar",
+        "line": "TM6",
+        "order": 4
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.324237,
+          18.508162
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Chetumal Aeropuerto",
+        "line": "TM6",
+        "order": 5
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.324237,
+          18.508162
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Chetumal Aeropuerto",
+        "line": "TM7",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.879239,
+          18.453288
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Nicolás Bravo / Kohunlich",
+        "line": "TM7",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.396527,
+          18.526526
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Xpujil",
+        "line": "TM7",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.903292,
+          18.531446
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Calakmul",
+        "line": "TM7",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.285856,
+          18.655836
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Centenario",
+        "line": "TM7",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.731325,
+          18.612709
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Escárcega",
+        "line": "TM7",
+        "order": 5
+      },
+      "id": 40
+    }
+  ]
+}

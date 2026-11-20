@@ -1,0 +1,36 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "Tunnelbana10": [
+      6286470,
+      6286469
+    ],
+    "Tunnelbana11": [
+      6286471,
+      6286472
+    ],
+    "Tunnelbana13": [
+      6286473,
+      6286474
+    ],
+    "Tunnelbana14": [
+      6286476,
+      6286475
+    ],
+    "Tunnelbana17": [
+      6286478,
+      6286477
+    ],
+    "Tunnelbana18": [
+      6286479,
+      6286480
+    ],
+    "Tunnelbana19": [
+      6286482,
+      6286481
+    ]
+  }
+}

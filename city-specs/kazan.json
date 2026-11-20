@@ -1,0 +1,63 @@
+{
+  "slug": "kazan",
+  "path": "europe/russia/kazan",
+  "gameTitle": "Kazan Metro Memory",
+  "description": "How many Kazan Metro stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    55.7,
+    49.05,
+    55.88,
+    49.25
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Kazan Metro",
+      "lines": [
+        "KZN1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KZN1",
+      "name": "Central line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#D52B1E",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "KZN1.svg"
+    }
+  ],
+  "register": {
+    "name": "Kazan (Казань), RU",
+    "continent": "Europe",
+    "coordinates": [
+      49.1221,
+      55.7887
+    ],
+    "achievement": {
+      "title": "Kremlin to Kremlin",
+      "description": "You've named every Kazan Metro station."
+    },
+    "zh": "喀山, RU"
+  },
+  "display": "translit"
+}

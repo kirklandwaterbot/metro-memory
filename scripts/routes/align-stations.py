@@ -11,6 +11,7 @@ reported (usually a missing stretch of route or a misplaced station).
   python3 scripts/routes/align-stations.py               # dry run, report only
   python3 scripts/routes/align-stations.py --write       # apply
   python3 scripts/routes/align-stations.py --write gba   # one city (path substring)
+  python3 scripts/routes/align-stations.py --write seoul --max-move=500 --max-extend=450   # allow bigger moves
 """
 import json,math,sys,os,glob,re,collections
 
@@ -33,9 +34,12 @@ only=[a for a in sys.argv[1:] if not a.startswith('--')]
 TOL=12        # leave stations closer than this to their line alone (m)
 PAR=45        # lines whose drawn routes are this close at a station are "parallel"
 GROUP=400     # same-name stations this close are one interchange
-MAXMOVE=300   # never move a station further than this; report instead
+MAXMOVE=300   # never move a station further than this; report instead (--max-move=N)
 EXT_MIN=40     # a terminus this far past its line's end: draw the line on to it
 EXT_MAX=300   # ...but no more than this; longer gaps are reported
+for _a in sys.argv[1:]:
+    if _a.startswith('--max-move='): MAXMOVE=float(_a.split('=',1)[1])
+    if _a.startswith('--max-extend='): EXT_MAX=float(_a.split('=',1)[1])
 COORD_RE=re.compile(r'("coordinates"\s*:\s*\[\s*)(-?[0-9.eE+-]+)(\s*,\s*)(-?[0-9.eE+-]+)')
 
 def norm(n): return re.sub(r'\s+',' ',(n or '').strip().lower())

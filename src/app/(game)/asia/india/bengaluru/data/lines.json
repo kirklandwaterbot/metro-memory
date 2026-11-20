@@ -1,0 +1,34 @@
+{
+  "BENGGREEN": {
+    "name": "Green Line",
+    "color": "#009933",
+    "backgroundColor": "#009933",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "BENGGREEN.svg"
+  },
+  "BENGPINK": {
+    "name": "Pink Line",
+    "color": "#FF49A7",
+    "backgroundColor": "#FF49A7",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "BENGPINK.svg"
+  },
+  "BENGPURPLE": {
+    "name": "Purple Line",
+    "color": "#E542DE",
+    "backgroundColor": "#E542DE",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "BENGPURPLE.svg"
+  },
+  "BENGYELLOW": {
+    "name": "Yellow Line",
+    "color": "#FFD100",
+    "backgroundColor": "#FFD100",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "BENGYELLOW.svg"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "slug": "moscow",
+  "path": "europe/russia/moscow",
+  "gameTitle": "Moscow Metro Memory",
+  "description": "How many Moscow Metro, MCC and MCD stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    55.3,
+    36.8,
+    56.1,
+    38.26
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Moscow Metro",
+      "lines": [
+        "MOS1",
+        "MOS2",
+        "MOS3",
+        "MOS4",
+        "MOS5",
+        "MOS6",
+        "MOS7",
+        "MOS8",
+        "MOS8A",
+        "MOS9",
+        "MOS10",
+        "MOS11",
+        "MOS12",
+        "MOS15",
+        "MOS16",
+        "MOS17"
+      ]
+    },
+    {
+      "title": "Moscow Central Circle",
+      "lines": [
+        "MOS14"
+      ]
+    },
+    {
+      "title": "Moscow Central Diameters",
+      "lines": [
+        "MOSD1",
+        "MOSD2",
+        "MOSD3",
+        "MOSD4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MOS1",
+      "name": "Sokolnicheskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E42313",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "MOS1.svg"
+    },
+    {
+      "id": "MOS2",
+      "name": "Zamoskvoretskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#4FB04F",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "MOS2.svg"
+    },
+    {
+      "id": "MOS3",
+      "name": "Arbatsko-Pokrovskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^3$"
+      },
+      "color": "#0072BA",
+      "badge": "3",
+      "textColor": "#FFFFFF",
+      "icon": "MOS3.svg"
+    },
+    {
+      "id": "MOS4",
+      "name": "Filyovskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^4А?$"
+      },
+      "color": "#1EBCEF",
+      "badge": "4",
+      "textColor": "#FFFFFF",
+      "icon": "MOS4.svg"
+    },
+    {
+      "id": "MOS5",
+      "name": "Koltsevaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^5$"
+      },
+      "color": "#915133",
+      "badge": "5",
+      "textColor": "#FFFFFF",
+      "icon": "MOS5.svg"
+    },
+    {
+      "id": "MOS6",
+      "name": "Kaluzhsko-Rizhskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^6$"
+      },
+      "color": "#F07E23",
+      "badge": "6",
+      "textColor": "#FFFFFF",
+      "icon": "MOS6.svg"
+    },
+    {
+      "id": "MOS7",
+      "name": "Tagansko-Krasnopresnenskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^7$"
+      },
+      "color": "#943E90",
+      "badge": "7",
+      "textColor": "#FFFFFF",
+      "icon": "MOS7.svg"
+    },
+    {
+      "id": "MOS8",
+      "name": "Kalininskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^8$"
+      },
+      "color": "#FFCD1C",
+      "badge": "8",
+      "textColor": "#222222",
+      "icon": "MOS8.svg"
+    },
+    {
+      "id": "MOS8A",
+      "name": "Solntsevskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^8А$"
+      },
+      "color": "#FFCD1C",
+      "badge": "8A",
+      "textColor": "#222222",
+      "icon": "MOS8A.svg"
+    },
+    {
+      "id": "MOS9",
+      "name": "Serpukhovsko-Timiryazevskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^9$"
+      },
+      "color": "#ADACAC",
+      "badge": "9",
+      "textColor": "#FFFFFF",
+      "icon": "MOS9.svg"
+    },
+    {
+      "id": "MOS10",
+      "name": "Lyublinsko-Dmitrovskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^10$"
+      },
+      "color": "#BED12C",
+      "badge": "10",
+      "textColor": "#FFFFFF",
+      "icon": "MOS10.svg"
+    },
+    {
+      "id": "MOS11",
+      "name": "Bolshaya Koltsevaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^11$"
+      },
+      "color": "#78C7C9",
+      "badge": "11",
+      "textColor": "#FFFFFF",
+      "icon": "MOS11.svg"
+    },
+    {
+      "id": "MOS12",
+      "name": "Butovskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^12$"
+      },
+      "color": "#BAC8E8",
+      "badge": "12",
+      "textColor": "#222222",
+      "icon": "MOS12.svg"
+    },
+    {
+      "id": "MOS15",
+      "name": "Nekrasovskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^15$"
+      },
+      "color": "#DE64A1",
+      "badge": "15",
+      "textColor": "#FFFFFF",
+      "icon": "MOS15.svg"
+    },
+    {
+      "id": "MOS16",
+      "name": "Troitskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^16$"
+      },
+      "color": "#007763",
+      "badge": "16",
+      "textColor": "#FFFFFF",
+      "icon": "MOS16.svg"
+    },
+    {
+      "id": "MOS17",
+      "name": "Rublyovo-Arkhangelskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^17$"
+      },
+      "color": "#474A51",
+      "badge": "17",
+      "textColor": "#FFFFFF",
+      "icon": "MOS17.svg"
+    },
+    {
+      "id": "MOS14",
+      "name": "Moscow Central Circle",
+      "match": {
+        "route": "^train$",
+        "ref": "^14$"
+      },
+      "color": "#E84F5A",
+      "badge": "14",
+      "textColor": "#FFFFFF",
+      "icon": "MOS14.svg"
+    },
+    {
+      "id": "MOSD1",
+      "name": "MCD-1 Belorussko-Savyolovsky",
+      "match": {
+        "route": "^train$",
+        "network": "МЦД",
+        "ref": "^D1$"
+      },
+      "color": "#ED9F2D",
+      "badge": "D1",
+      "textColor": "#FFFFFF",
+      "icon": "MOSD1.svg"
+    },
+    {
+      "id": "MOSD2",
+      "name": "MCD-2 Kursko-Rizhsky",
+      "match": {
+        "route": "^train$",
+        "network": "МЦД",
+        "ref": "^D2$"
+      },
+      "color": "#DF477C",
+      "badge": "D2",
+      "textColor": "#FFFFFF",
+      "icon": "MOSD2.svg"
+    },
+    {
+      "id": "MOSD3",
+      "name": "MCD-3 Leningradsko-Kazansky",
+      "match": {
+        "route": "^train$",
+        "network": "МЦД",
+        "ref": "^D3$"
+      },
+      "color": "#E15D29",
+      "badge": "D3",
+      "textColor": "#FFFFFF",
+      "icon": "MOSD3.svg"
+    },
+    {
+      "id": "MOSD4",
+      "name": "MCD-4 Kaluzhsko-Nizhegorodsky",
+      "match": {
+        "route": "^train$",
+        "network": "МЦД",
+        "ref": "^D4А?$"
+      },
+      "color": "#3FB485",
+      "badge": "D4",
+      "textColor": "#FFFFFF",
+      "icon": "MOSD4.svg"
+    }
+  ],
+  "register": {
+    "name": "Moscow (Москва), RU",
+    "continent": "Europe",
+    "coordinates": [
+      37.6173,
+      55.7558
+    ],
+    "achievement": {
+      "title": "Underground Palaces",
+      "description": "You've named every Moscow Metro, MCC and MCD station."
+    },
+    "zh": "莫斯科, RU"
+  },
+  "minZoom": 7.5,
+  "display": "translit",
+  "rename": {
+    "Moskva-Butyrskaya": "Savyolovskaya",
+    "Moskva-Passazhirskaya-Smolenskaya": "Belorusskaya",
+    "Moskva-Passazhirskaya-Kurskaya": "Kurskaya"
+  },
+  "alternates": {
+    "Savyolovskaya": [
+      "Moskva-Butyrskaya",
+      "Savyolovsky"
+    ],
+    "Belorusskaya": [
+      "Moskva-Passazhirskaya-Smolenskaya",
+      "Belorussky"
+    ],
+    "Kurskaya": [
+      "Moskva-Passazhirskaya-Kurskaya",
+      "Kursky"
+    ]
+  }
+}

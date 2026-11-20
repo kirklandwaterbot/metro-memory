@@ -1,0 +1,89 @@
+{
+  "slug": "kharkiv",
+  "path": "europe/ukraine/kharkiv",
+  "gameTitle": "Kharkiv Metro Memory",
+  "description": "How many Kharkiv Metro stations can you name from memory?",
+  "locale": "uk_UA",
+  "bbox": [
+    49.92,
+    36.15,
+    50.08,
+    36.42
+  ],
+  "transliterate": "uk",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Kharkiv Metro",
+      "lines": [
+        "KHK1",
+        "KHK2",
+        "KHK3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KHK1",
+      "name": "Kholodnohirsko-Zavodska line",
+      "match": {
+        "route": "^subway$",
+        "colour": "#dd2a26"
+      },
+      "color": "#DD2A26",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "KHK1.svg"
+    },
+    {
+      "id": "KHK2",
+      "name": "Saltivska line",
+      "match": {
+        "route": "^subway$",
+        "colour": "#2782c5"
+      },
+      "color": "#2782C5",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "KHK2.svg"
+    },
+    {
+      "id": "KHK3",
+      "name": "Oleksiivska line",
+      "match": {
+        "route": "^subway$",
+        "colour": "#37b957"
+      },
+      "color": "#37B957",
+      "badge": "3",
+      "textColor": "#FFFFFF",
+      "icon": "KHK3.svg"
+    }
+  ],
+  "register": {
+    "name": "Kharkiv (Харків), UA",
+    "continent": "Europe",
+    "coordinates": [
+      36.2304,
+      49.9935
+    ],
+    "achievement": {
+      "title": "Kharkiv Underground",
+      "description": "You've named every Kharkiv Metro station."
+    },
+    "zh": "哈尔科夫, UA"
+  },
+  "display": "translit"
+}

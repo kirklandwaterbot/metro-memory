@@ -1,15 +1,17 @@
-import PlaceholderPage from '@/app/(game)/_placeholder/PlaceholderPage'
-import { buildPlaceholderConfig } from '@/app/(game)/_placeholder/config'
+export { metadata } from './metadata'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
+import CityDataGamePage from '@/components/CityDataGamePage'
+import { Provider } from '@/lib/configContext'
+import Main from '@/components/Main'
 
-const config = buildPlaceholderConfig({
-  citySlug: 'osaka-kobe',
-  cityPath: 'asia/japan/osaka-kobe',
-  cityTitle: 'Osaka\u2013Kobe (\u5927\u962a\u30fb\u795e\u6238)',
-})
-
-
-export const metadata = config.METADATA
-
-export default function Page() {
-  return <PlaceholderPage config={config} />
+export default function OsakaKobePage() {
+  return (
+    <Provider value={config}>
+      <Main className="min-h-screen">
+        <CityDataGamePage slug="osaka-kobe" />
+      </Main>
+    </Provider>
+  )
 }

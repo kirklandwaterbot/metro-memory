@@ -1,0 +1,50 @@
+{
+  "slug": "lagos",
+  "path": "africa/nigeria/lagos",
+  "gameTitle": "Lagos Metro Memory",
+  "description": "How many Lagos Rail Mass Transit stations can you name from memory?",
+  "locale": "en_NG",
+  "bbox": [
+    6.335,
+    3.234,
+    6.605,
+    3.506
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Lagos Rail Mass Transit",
+      "lines": [
+        "LAGOBLUE"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LAGOBLUE",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(15668733|15668734)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "LAGOBLUE.svg"
+    }
+  ],
+  "register": {
+    "name": "Lagos, NG",
+    "continent": "Africa",
+    "coordinates": [
+      3.37,
+      6.47
+    ],
+    "zh": "拉各斯, NG",
+    "achievement": {
+      "title": "Lagos Rail Mass Transit Master",
+      "description": "You've named every Lagos Rail Mass Transit station."
+    }
+  }
+}

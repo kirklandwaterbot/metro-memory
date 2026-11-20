@@ -1,0 +1,75 @@
+{
+  "slug": "astana",
+  "path": "asia/kazakhstan/astana",
+  "gameTitle": "Astana Light Metro Memory",
+  "description": "How many Astana Light Metro stations can you name from memory?",
+  "locale": "kk_KZ",
+  "bbox": [
+    50.986,
+    71.2,
+    51.274,
+    71.66
+  ],
+  "transliterate": "ru",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Astana Light Metro",
+      "lines": [
+        "ASTALRT"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ASTALRT",
+      "name": "LRT Line 1",
+      "match": {
+        "@id": "^(19988457|20279176)$"
+      },
+      "color": "#7AE7B4",
+      "textColor": "#222222",
+      "badge": "1",
+      "icon": "ASTALRT.svg"
+    }
+  ],
+  "register": {
+    "name": "Astana (Астана), KZ",
+    "continent": "Asia",
+    "coordinates": [
+      71.43,
+      51.13
+    ],
+    "zh": "阿斯塔纳, KZ",
+    "achievement": {
+      "title": "Astana Light Metro Master",
+      "description": "You've named every Astana Light Metro station."
+    }
+  }
+}

@@ -17,6 +17,11 @@
       "match": {
         "ref": "^1$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line1.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -25,6 +30,11 @@
       "match": {
         "ref": "^2$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line2.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -33,6 +43,11 @@
       "match": {
         "ref": "^3$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line3.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -41,6 +56,11 @@
       "match": {
         "ref": "^4$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line4.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -49,6 +69,11 @@
       "match": {
         "ref": "^5$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line5.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -57,6 +82,11 @@
       "match": {
         "ref": "^6$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line6.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -65,6 +95,11 @@
       "match": {
         "ref": "^7$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line7.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -73,6 +108,11 @@
       "match": {
         "ref": "^8$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line8.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -81,6 +121,11 @@
       "match": {
         "ref": "^9$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line9.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -89,6 +134,11 @@
       "match": {
         "ref": "^10$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line10.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -97,6 +147,11 @@
       "match": {
         "ref": "^11$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/Line11.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     },
     {
@@ -105,6 +160,11 @@
       "match": {
         "ref": "^Z4$",
         "network": "天津地铁"
+      },
+      "icon": "asia/china/tianjin/LineZ4.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -113,6 +173,11 @@
       "match": {
         "network": "天津地铁",
         "ref": "^津静线$"
+      },
+      "icon": "asia/china/tianjin/jinjing.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     }
   ],
@@ -134,7 +199,8 @@
         "tianjin11",
         "tianjinz4",
         "tianjinjinjing"
-      ]
+      ],
+      "titleImage": "asia/china/tianjin/tianjinmetrologo.png"
     }
   ]
 }

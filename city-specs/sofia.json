@@ -1,0 +1,112 @@
+{
+  "slug": "sofia",
+  "path": "europe/bulgaria/sofia",
+  "gameTitle": "Sofia Metro Memory",
+  "description": "How many Sofia Metro stations can you name from memory?",
+  "locale": "bg_BG",
+  "bbox": [
+    42.572,
+    23.15,
+    42.824,
+    23.494
+  ],
+  "transliterate": "bg",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "localStrip": "\\s+II$",
+  "lineGroups": [
+    {
+      "title": "Sofia Metro",
+      "lines": [
+        "SOFIM1",
+        "SOFIM2",
+        "SOFIM3",
+        "SOFIM4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SOFIM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(406492|7734090)$"
+      },
+      "color": "#FF0000",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "SOFIM1.svg"
+    },
+    {
+      "id": "SOFIM2",
+      "name": "Line M2",
+      "match": {
+        "@id": "^(3549690|7734091)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "M2",
+      "icon": "SOFIM2.svg"
+    },
+    {
+      "id": "SOFIM3",
+      "name": "Line M3",
+      "match": {
+        "@id": "^(8403504|11299963)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "M3",
+      "icon": "SOFIM3.svg"
+    },
+    {
+      "id": "SOFIM4",
+      "name": "Line M4",
+      "match": {
+        "@id": "^(11613156|11613157)$"
+      },
+      "color": "#FFD100",
+      "textColor": "#222222",
+      "badge": "M4",
+      "icon": "SOFIM4.svg"
+    }
+  ],
+  "register": {
+    "name": "Sofia (София), BG",
+    "continent": "Europe",
+    "coordinates": [
+      23.322,
+      42.698
+    ],
+    "zh": "索非亚, BG",
+    "achievement": {
+      "title": "Sofia Metro Master",
+      "description": "You've named every Sofia Metro station."
+    }
+  }
+}

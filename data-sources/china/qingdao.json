@@ -17,6 +17,11 @@
       "match": {
         "ref": "^1$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/Line1Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -25,6 +30,11 @@
       "match": {
         "ref": "^2$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/Line2Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -33,6 +43,11 @@
       "match": {
         "ref": "^3$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/Line3Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -41,6 +56,11 @@
       "match": {
         "ref": "^4$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/Line4Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -49,6 +69,11 @@
       "match": {
         "ref": "^6$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/Line6Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -57,36 +82,53 @@
       "match": {
         "ref": "^8$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/Line8Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
       "id": "qingdao11",
-      "name": "Line 11",
+      "name": "Oceantec Valley Line",
       "match": {
         "ref": "^11$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/OceantecValley.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
       "id": "qingdao13",
-      "name": "Line 13",
+      "name": "West Coast Line",
       "match": {
         "ref": "^13$",
         "route": "subway"
+      },
+      "icon": "asia/china/qingdao/WestCoast.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
       "id": "qingdaotram",
-      "name": "Chengyang Tram",
+      "name": "Qingdao Tram Line 1",
       "match": {
         "network": "青岛有轨电车"
-      }
+      },
+      "icon": "asia/china/qingdao/qingdaotramline1.png"
     }
   ],
   "cityName": "Qingdao",
   "groups": [
     {
       "title": "Qingdao Metro",
+      "titleImage": "asia/china/qingdao/qingdaometro.png",
       "lines": [
         "qingdao1",
         "qingdao2",
@@ -100,6 +142,7 @@
     },
     {
       "title": "Qingdao Tram",
+      "titleImage": "asia/china/qingdao/qingdaoatram.png",
       "lines": [
         "qingdaotram"
       ]

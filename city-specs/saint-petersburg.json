@@ -1,0 +1,153 @@
+{
+  "slug": "saint-petersburg",
+  "path": "europe/russia/saint-petersburg",
+  "gameTitle": "Saint Petersburg Metro Memory",
+  "description": "How many Saint Petersburg Metro stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    59.75,
+    30.1,
+    60.1,
+    30.55
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Saint Petersburg Metro",
+      "lines": [
+        "SPB1",
+        "SPB2",
+        "SPB3",
+        "SPB4",
+        "SPB5",
+        "SPB6"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SPB1",
+      "name": "Kirovsko-Vyborgskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#D6083B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "SPB1.svg"
+    },
+    {
+      "id": "SPB2",
+      "name": "Moskovsko-Petrogradskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#0078C9",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "addStations": [
+        {
+          "name": "Frunzenskaya",
+          "alternates": [
+            "Фрунзенская"
+          ],
+          "coordinates": [
+            30.3175,
+            59.9063
+          ],
+          "after": "Tekhnologichesky Institut"
+        },
+        {
+          "name": "Park Pobedy",
+          "alternates": [
+            "Парк Победы"
+          ],
+          "coordinates": [
+            30.3218,
+            59.8664
+          ],
+          "after": "Elektrosila"
+        }
+      ],
+      "icon": "SPB2.svg"
+    },
+    {
+      "id": "SPB3",
+      "name": "Nevsko-Vasileostrovskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^3$"
+      },
+      "color": "#009A49",
+      "badge": "3",
+      "textColor": "#FFFFFF",
+      "icon": "SPB3.svg"
+    },
+    {
+      "id": "SPB4",
+      "name": "Pravoberezhnaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^4$"
+      },
+      "color": "#EA7125",
+      "badge": "4",
+      "textColor": "#FFFFFF",
+      "icon": "SPB4.svg"
+    },
+    {
+      "id": "SPB5",
+      "name": "Frunzensko-Primorskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^5$"
+      },
+      "color": "#702785",
+      "badge": "5",
+      "textColor": "#FFFFFF",
+      "icon": "SPB5.svg"
+    },
+    {
+      "id": "SPB6",
+      "name": "Krasnoselsko-Kalininskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^6$"
+      },
+      "color": "#8B5A2B",
+      "badge": "6",
+      "textColor": "#FFFFFF",
+      "icon": "SPB6.svg"
+    }
+  ],
+  "register": {
+    "name": "Saint Petersburg (Санкт-Петербург), RU",
+    "continent": "Europe",
+    "coordinates": [
+      30.3351,
+      59.9343
+    ],
+    "achievement": {
+      "title": "White Nights Rider",
+      "description": "You've named every Saint Petersburg Metro station."
+    },
+    "zh": "圣彼得堡, RU"
+  },
+  "display": "translit",
+  "localStrip": "\\s+[12]$"
+}

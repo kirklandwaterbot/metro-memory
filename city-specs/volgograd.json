@@ -1,0 +1,77 @@
+{
+  "slug": "volgograd",
+  "path": "europe/russia/volgograd",
+  "gameTitle": "Volgograd Metrotram Memory",
+  "description": "How many Volgograd Metrotram stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    48.62,
+    44.38,
+    48.85,
+    44.63
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Volgograd Metrotram",
+      "lines": [
+        "VLGST",
+        "VLGST2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "VLGST",
+      "name": "ST",
+      "match": {
+        "route": "^light_rail$",
+        "ref": "^СТ$"
+      },
+      "color": "#E30613",
+      "badge": "ST",
+      "textColor": "#FFFFFF",
+      "icon": "VLGST.svg"
+    },
+    {
+      "id": "VLGST2",
+      "name": "ST2",
+      "match": {
+        "route": "^light_rail$",
+        "ref": "^СТ-?2$"
+      },
+      "color": "#F39200",
+      "badge": "ST2",
+      "textColor": "#FFFFFF",
+      "icon": "VLGST2.svg"
+    }
+  ],
+  "register": {
+    "name": "Volgograd (Волгоград), RU",
+    "continent": "Europe",
+    "coordinates": [
+      44.5133,
+      48.708
+    ],
+    "achievement": {
+      "title": "Metrotram Master",
+      "description": "You've named every Volgograd Metrotram stop."
+    },
+    "zh": "伏尔加格勒, RU"
+  },
+  "display": "translit",
+  "splitDash": true
+}

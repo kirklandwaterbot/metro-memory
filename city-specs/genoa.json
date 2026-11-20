@@ -1,0 +1,50 @@
+{
+  "slug": "genoa",
+  "path": "europe/italy/genoa",
+  "gameTitle": "Genoa Metro Memory",
+  "description": "How many Genoa Metro stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    44.338,
+    8.829,
+    44.482,
+    9.031
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Genoa Metro",
+      "lines": [
+        "GENOMETROPOL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "GENOMETROPOL",
+      "name": "Genoa Metro",
+      "match": {
+        "@id": "^(386165|2177189)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "M",
+      "icon": "GENOMETROPOL.svg"
+    }
+  ],
+  "register": {
+    "name": "Genoa, IT",
+    "continent": "Europe",
+    "coordinates": [
+      8.93,
+      44.41
+    ],
+    "zh": "热那亚, IT",
+    "achievement": {
+      "title": "Genoa Metro Master",
+      "description": "You've named every Genoa Metro station."
+    }
+  }
+}

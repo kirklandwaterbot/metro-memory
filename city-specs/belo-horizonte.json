@@ -1,0 +1,60 @@
+{
+  "slug": "belo-horizonte",
+  "path": "south-america/brazil/belo-horizonte",
+  "gameTitle": "Belo Horizonte Metro Memory",
+  "description": "How many Metrô BH stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -19.98,
+    -44.1,
+    -19.76,
+    -43.88
+  ],
+  "stripPrefix": "^Esta[cç][aã]o (de Metr[oô] )?",
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "primaryBeforeSlash": true,
+  "lineGroups": [
+    {
+      "title": "Metrô BH",
+      "lines": [
+        "BH1",
+        "BH2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "BH1",
+      "name": "Linha 1",
+      "match": {
+        "route": "subway",
+        "ref": "^1$",
+        "name": "Laranja"
+      },
+      "color": "#FF7400"
+    },
+    {
+      "id": "BH2",
+      "name": "Linha 2",
+      "match": {
+        "route": "subway",
+        "ref": "^2$",
+        "name": "Amazonas"
+      },
+      "color": "#2F1F85"
+    }
+  ],
+  "register": {
+    "name": "Belo Horizonte, BR",
+    "continent": "South America",
+    "coordinates": [
+      -43.9378,
+      -19.9208
+    ],
+    "achievement": {
+      "title": "Mineiro on the Move",
+      "description": "You've named every Metrô BH station."
+    }
+  }
+}

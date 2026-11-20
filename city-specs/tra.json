@@ -1,0 +1,273 @@
+{
+  "slug": "tra",
+  "path": "asia/taiwan/tra",
+  "gameTitle": "Taiwan Railway Memory",
+  "description": "How many Taiwan Railway (TRA) stations can you name from memory?",
+  "locale": "zh_TW",
+  "bbox": [
+    21.8,
+    119.9,
+    25.4,
+    122.1
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:zh",
+    "name:zh-Hant",
+    "name:nan-Latn-pehoeji"
+  ],
+  "trackStationDistance": 120,
+  "mergeRadius": 800,
+  "simplifyM": 15,
+  "stationTagsInclude": {
+    "operator": "臺灣鐵路|台灣鐵路|^$"
+  },
+  "stationTagsExclude": {
+    "station": "subway|light_rail|monorail",
+    "name": "號誌"
+  },
+  "lineGroups": [
+    {
+      "title": "Main lines",
+      "lines": [
+        "TRAWestern",
+        "TRATaichung",
+        "TRACoast",
+        "TRAYilan",
+        "TRANorthLink",
+        "TRATaitung",
+        "TRASouthLink",
+        "TRAPingtung"
+      ]
+    },
+    {
+      "title": "Branch lines",
+      "lines": [
+        "TRAPingxi",
+        "TRAShenao",
+        "TRANeiwan",
+        "TRALiujia",
+        "TRAJiji",
+        "TRAShalun",
+        "TRAChengzhui"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "TRAWestern",
+      "name": "Western Line",
+      "match": {
+        "@id": "^(5867233|5867234)$"
+      },
+      "color": "#1F5DA0",
+      "textColor": "#FFFFFF",
+      "badge": "W",
+      "icon": "TRAWestern.svg",
+      "stationsFromTrack": true,
+      "removeStations": [
+        "Zhuifen",
+        "Dadu",
+        "Longjing",
+        "Shalu",
+        "Qingshui",
+        "Taichung Port",
+        "Dajia",
+        "Rinan",
+        "Yuanli",
+        "Tongxiao",
+        "Xinpu",
+        "Baishatun",
+        "Longgang",
+        "Houlong",
+        "Dashan",
+        "Tanwen"
+      ]
+    },
+    {
+      "id": "TRATaichung",
+      "name": "Taichung Line",
+      "match": {
+        "@id": "^(5571202)$"
+      },
+      "color": "#4CAF50",
+      "textColor": "#FFFFFF",
+      "badge": "TC",
+      "icon": "TRATaichung.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRACoast",
+      "name": "Coast Line",
+      "match": {
+        "@id": "^(1827334)$"
+      },
+      "color": "#00A0C8",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "TRACoast.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAYilan",
+      "name": "Yilan Line",
+      "match": {
+        "@id": "^(5867231|5867232)$"
+      },
+      "color": "#E6A23C",
+      "textColor": "#FFFFFF",
+      "badge": "Y",
+      "icon": "TRAYilan.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRANorthLink",
+      "name": "North-link Line",
+      "match": {
+        "@id": "^(5867230|5872818)$"
+      },
+      "color": "#8E44AD",
+      "textColor": "#FFFFFF",
+      "badge": "N",
+      "icon": "TRANorthLink.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRATaitung",
+      "name": "Taitung Line",
+      "match": {
+        "@id": "^(5571509|20450147|21055406)$"
+      },
+      "color": "#D32F2F",
+      "textColor": "#FFFFFF",
+      "badge": "T",
+      "icon": "TRATaitung.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRASouthLink",
+      "name": "South-link Line",
+      "match": {
+        "@id": "^(5571467)$"
+      },
+      "color": "#F57C00",
+      "textColor": "#FFFFFF",
+      "badge": "S",
+      "icon": "TRASouthLink.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAPingtung",
+      "name": "Pingtung Line",
+      "match": {
+        "@id": "^(1827336)$"
+      },
+      "color": "#795548",
+      "textColor": "#FFFFFF",
+      "badge": "P",
+      "icon": "TRAPingtung.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAPingxi",
+      "name": "Pingxi Line",
+      "match": {
+        "@id": "^(5149859)$"
+      },
+      "color": "#8BC34A",
+      "textColor": "#222222",
+      "badge": "PX",
+      "icon": "TRAPingxi.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAShenao",
+      "name": "Shen'ao Line",
+      "match": {
+        "@id": "^(5149860)$"
+      },
+      "color": "#607D8B",
+      "textColor": "#FFFFFF",
+      "badge": "SA",
+      "icon": "TRAShenao.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRANeiwan",
+      "name": "Neiwan Line",
+      "match": {
+        "@id": "^(5207992)$"
+      },
+      "color": "#3F51B5",
+      "textColor": "#FFFFFF",
+      "badge": "NW",
+      "icon": "TRANeiwan.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRALiujia",
+      "name": "Liujia Line",
+      "match": {
+        "@id": "^(5224213|5224214)$"
+      },
+      "color": "#009688",
+      "textColor": "#FFFFFF",
+      "badge": "LJ",
+      "icon": "TRALiujia.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAJiji",
+      "name": "Jiji Line",
+      "match": {
+        "@id": "^(5224252)$"
+      },
+      "color": "#C0A000",
+      "textColor": "#FFFFFF",
+      "badge": "JJ",
+      "icon": "TRAJiji.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAShalun",
+      "name": "Shalun Line",
+      "match": {
+        "@id": "^(4252440|4252441)$"
+      },
+      "color": "#E91E63",
+      "textColor": "#FFFFFF",
+      "badge": "SL",
+      "icon": "TRAShalun.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "TRAChengzhui",
+      "name": "Chengzhui Line",
+      "match": {
+        "@id": "^(5224215)$"
+      },
+      "color": "#FF9800",
+      "textColor": "#FFFFFF",
+      "badge": "CZ",
+      "icon": "TRAChengzhui.svg",
+      "stationsFromTrack": true
+    }
+  ],
+  "register": {
+    "name": "Taiwan Railway (臺鐵), TW",
+    "continent": "Asia",
+    "coordinates": [
+      121.0,
+      23.7
+    ],
+    "zh": "台湾铁路, TW",
+    "achievement": {
+      "title": "Round-the-Island",
+      "description": "You've named every Taiwan Railway station."
+    }
+  }
+}

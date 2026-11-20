@@ -1,0 +1,53 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "HamburgSBahnS1": [
+      1540437,
+      1660619,
+      1660618,
+      1660621
+    ],
+    "HamburgSBahnS2": [
+      2089730,
+      2064636,
+      20193387,
+      20193388
+    ],
+    "HamburgSBahnS3": [
+      1727354,
+      5233893,
+      1727355
+    ],
+    "HamburgSBahnS5": [
+      61612,
+      16818144,
+      1660619,
+      5454170,
+      16818145,
+      1540437,
+      1660618,
+      1660621
+    ],
+    "HamburgUBahnU1": [
+      1687358,
+      12044390,
+      62923,
+      12044389
+    ],
+    "HamburgUBahnU2": [
+      1686087,
+      60691
+    ],
+    "HamburgUBahnU3": [
+      1643324,
+      1643221
+    ],
+    "HamburgUBahnU4": [
+      2872789,
+      2390138
+    ]
+  }
+}

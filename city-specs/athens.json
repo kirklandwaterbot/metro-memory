@@ -1,0 +1,99 @@
+{
+  "slug": "athens",
+  "path": "europe/greece/athens",
+  "gameTitle": "Athens Metro Memory",
+  "description": "How many Athens Metro stations can you name from memory?",
+  "locale": "el_GR",
+  "bbox": [
+    37.755,
+    23.444,
+    38.205,
+    24.016
+  ],
+  "transliterate": "el",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Athens Metro",
+      "lines": [
+        "ATHE1",
+        "ATHE2",
+        "ATHE3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ATHE1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(445858|7963473)$"
+      },
+      "color": "#007A33",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "ATHE1.svg"
+    },
+    {
+      "id": "ATHE2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(3095900|7963539)$"
+      },
+      "color": "#DA291C",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "ATHE2.svg"
+    },
+    {
+      "id": "ATHE3",
+      "name": "Line 3",
+      "match": {
+        "@id": "^(445945|2473157|3165353|7927355)$"
+      },
+      "color": "#10069F",
+      "textColor": "#FFFFFF",
+      "badge": "3",
+      "icon": "ATHE3.svg"
+    }
+  ],
+  "register": {
+    "name": "Athens (Αθήνα), GR",
+    "continent": "Europe",
+    "coordinates": [
+      23.73,
+      37.98
+    ],
+    "zh": "雅典, GR",
+    "achievement": {
+      "title": "Athens Metro Master",
+      "description": "You've named every Athens Metro station."
+    }
+  }
+}

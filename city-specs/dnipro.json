@@ -1,0 +1,63 @@
+{
+  "slug": "dnipro",
+  "path": "europe/ukraine/dnipro",
+  "gameTitle": "Dnipro Metro Memory",
+  "description": "How many Dnipro Metro stations can you name from memory?",
+  "locale": "uk_UA",
+  "bbox": [
+    48.42,
+    34.88,
+    48.52,
+    35.1
+  ],
+  "transliterate": "uk",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Dnipro Metro",
+      "lines": [
+        "DNP1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "DNP1",
+      "name": "Tsentralno-Zavodska line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E4002B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "DNP1.svg"
+    }
+  ],
+  "register": {
+    "name": "Dnipro (Дніпро), UA",
+    "continent": "Europe",
+    "coordinates": [
+      35.0462,
+      48.4647
+    ],
+    "achievement": {
+      "title": "Dnipro Diver",
+      "description": "You've named every Dnipro Metro station."
+    },
+    "zh": "第聂伯, UA"
+  },
+  "display": "translit"
+}

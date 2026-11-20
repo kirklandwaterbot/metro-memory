@@ -1,0 +1,87 @@
+{
+  "slug": "dubai",
+  "path": "asia/uae/dubai",
+  "gameTitle": "Dubai Metro Memory",
+  "description": "How many Dubai Metro stations can you name from memory?",
+  "locale": "ar_AE",
+  "bbox": [
+    24.88,
+    54.951,
+    25.42,
+    55.549
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Dubai Metro",
+      "lines": [
+        "DUBAGREEN",
+        "DUBARED"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "DUBAGREEN",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(2767663|7734261)$"
+      },
+      "color": "#00CC00",
+      "textColor": "#FFFFFF",
+      "badge": "G",
+      "icon": "DUBAGREEN.svg"
+    },
+    {
+      "id": "DUBARED",
+      "name": "Red Line",
+      "match": {
+        "@id": "^(420297|7734260|12820284|12820285)$"
+      },
+      "color": "#CC0000",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "DUBARED.svg"
+    }
+  ],
+  "register": {
+    "name": "Dubai (دبي), AE",
+    "continent": "Asia",
+    "coordinates": [
+      55.25,
+      25.15
+    ],
+    "zh": "迪拜, AE",
+    "achievement": {
+      "title": "Dubai Metro Master",
+      "description": "You've named every Dubai Metro station."
+    }
+  }
+}

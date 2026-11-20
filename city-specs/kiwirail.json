@@ -1,0 +1,105 @@
+{
+  "slug": "kiwirail",
+  "path": "oceania/new-zealand/kiwirail",
+  "gameTitle": "KiwiRail Memory",
+  "description": "How many KiwiRail passenger stations can you name from memory?",
+  "locale": "en_NZ",
+  "bbox": [
+    -44.0,
+    169.5,
+    -36.7,
+    176.5
+  ],
+  "altTags": [
+    "name:mi"
+  ],
+  "stationRadius": 600,
+  "minZoom": 4.5,
+  "lineGroups": [
+    {
+      "title": "Great Journeys of New Zealand",
+      "lines": [
+        "KRNorthernExplorer",
+        "KRCoastalPacific",
+        "KRTranzAlpine"
+      ]
+    },
+    {
+      "title": "Regional",
+      "lines": [
+        "KRCapitalConnection",
+        "KRTeHuia"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KRNorthernExplorer",
+      "name": "Northern Explorer",
+      "match": {
+        "@id": "^(1597603)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "NE",
+      "icon": "KRNorthernExplorer.svg"
+    },
+    {
+      "id": "KRCoastalPacific",
+      "name": "Coastal Pacific",
+      "match": {
+        "@id": "^(1598959)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "CP",
+      "icon": "KRCoastalPacific.svg"
+    },
+    {
+      "id": "KRTranzAlpine",
+      "name": "TranzAlpine",
+      "match": {
+        "@id": "^(1598960)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "TA",
+      "icon": "KRTranzAlpine.svg"
+    },
+    {
+      "id": "KRCapitalConnection",
+      "name": "Capital Connection",
+      "match": {
+        "@id": "^(1597602)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "CC",
+      "icon": "KRCapitalConnection.svg"
+    },
+    {
+      "id": "KRTeHuia",
+      "name": "Te Huia",
+      "match": {
+        "@id": "^(17601165|17601166)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "TH",
+      "icon": "KRTeHuia.svg"
+    }
+  ],
+  "register": {
+    "name": "KiwiRail, NZ",
+    "continent": "Oceania",
+    "coordinates": [
+      174.0,
+      -41.0
+    ],
+    "zh": "新西兰铁路, NZ",
+    "achievement": {
+      "title": "Great Journeys",
+      "description": "You've named every KiwiRail passenger station."
+    }
+  }
+}

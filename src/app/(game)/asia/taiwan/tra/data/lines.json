@@ -1,0 +1,122 @@
+{
+  "TRAWestern": {
+    "name": "Western Line",
+    "color": "#1F5DA0",
+    "backgroundColor": "#1F5DA0",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "TRAWestern.svg"
+  },
+  "TRATaichung": {
+    "name": "Taichung Line",
+    "color": "#4CAF50",
+    "backgroundColor": "#4CAF50",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "TRATaichung.svg"
+  },
+  "TRACoast": {
+    "name": "Coast Line",
+    "color": "#00A0C8",
+    "backgroundColor": "#00A0C8",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "TRACoast.svg"
+  },
+  "TRAYilan": {
+    "name": "Yilan Line",
+    "color": "#E6A23C",
+    "backgroundColor": "#E6A23C",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "TRAYilan.svg"
+  },
+  "TRANorthLink": {
+    "name": "North-link Line",
+    "color": "#8E44AD",
+    "backgroundColor": "#8E44AD",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "TRANorthLink.svg"
+  },
+  "TRATaitung": {
+    "name": "Taitung Line",
+    "color": "#D32F2F",
+    "backgroundColor": "#D32F2F",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "TRATaitung.svg"
+  },
+  "TRASouthLink": {
+    "name": "South-link Line",
+    "color": "#F57C00",
+    "backgroundColor": "#F57C00",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "TRASouthLink.svg"
+  },
+  "TRAPingtung": {
+    "name": "Pingtung Line",
+    "color": "#795548",
+    "backgroundColor": "#795548",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "TRAPingtung.svg"
+  },
+  "TRAPingxi": {
+    "name": "Pingxi Line",
+    "color": "#8BC34A",
+    "backgroundColor": "#8BC34A",
+    "textColor": "#222222",
+    "order": 8,
+    "icon": "TRAPingxi.svg"
+  },
+  "TRAShenao": {
+    "name": "Shen'ao Line",
+    "color": "#607D8B",
+    "backgroundColor": "#607D8B",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "TRAShenao.svg"
+  },
+  "TRANeiwan": {
+    "name": "Neiwan Line",
+    "color": "#3F51B5",
+    "backgroundColor": "#3F51B5",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "TRANeiwan.svg"
+  },
+  "TRALiujia": {
+    "name": "Liujia Line",
+    "color": "#009688",
+    "backgroundColor": "#009688",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "TRALiujia.svg"
+  },
+  "TRAJiji": {
+    "name": "Jiji Line",
+    "color": "#C0A000",
+    "backgroundColor": "#C0A000",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "TRAJiji.svg"
+  },
+  "TRAShalun": {
+    "name": "Shalun Line",
+    "color": "#E91E63",
+    "backgroundColor": "#E91E63",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "TRAShalun.svg"
+  },
+  "TRAChengzhui": {
+    "name": "Chengzhui Line",
+    "color": "#FF9800",
+    "backgroundColor": "#FF9800",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "TRAChengzhui.svg"
+  }
+}

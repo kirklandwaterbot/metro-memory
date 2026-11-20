@@ -77,6 +77,19 @@
     "badgeFit": "contain",
     "badgeAspectRatio": 1.7143
   },
+  "KualaLumpurLRTShahAlam": {
+    "name": "LRT Shah Alam",
+    "color": "#87CEFA",
+    "backgroundColor": "#87CEFA",
+    "textColor": "#1F1F1F",
+    "progressOutlineColor": "#87CEFA",
+    "statsColor": "#87CEFA",
+    "order": 6,
+    "icon": "asia/malaysia/kuala-lumpur/Line11.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain",
+    "badgeAspectRatio": 1.7329
+  },
   "KualaLumpurERLKliaEkspres": {
     "name": "ERL KLIA Ekspres",
     "color": "#9A0E8D",
@@ -84,7 +97,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#9A0E8D",
     "statsColor": "#9A0E8D",
-    "order": 6,
+    "order": 7,
     "icon": "asia/malaysia/kuala-lumpur/Line6.png",
     "badgeShape": "wide",
     "badgeFit": "contain",
@@ -97,7 +110,7 @@
     "textColor": "#FFFFFF",
     "progressOutlineColor": "#3CA6B5",
     "statsColor": "#3CA6B5",
-    "order": 7,
+    "order": 8,
     "icon": "asia/malaysia/kuala-lumpur/Line7.png",
     "badgeShape": "wide",
     "badgeFit": "contain",
@@ -110,10 +123,34 @@
     "textColor": "#1F1F1F",
     "progressOutlineColor": "#FAA831",
     "statsColor": "#FAA831",
-    "order": 8,
+    "order": 9,
     "icon": "asia/malaysia/kuala-lumpur/KLIA.png",
     "badgeShape": "wide",
     "badgeFit": "contain",
     "badgeAspectRatio": 4.2225
+  },
+  "KualaLumpurKTMSeremban": {
+    "name": "KTM Batu Caves–Pulau Sebang",
+    "color": "#1964B7",
+    "backgroundColor": "#1964B7",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "KualaLumpurKTMSeremban.svg"
+  },
+  "KualaLumpurKTMPortKlang": {
+    "name": "KTM Tanjung Malim–Port Klang",
+    "color": "#E0115F",
+    "backgroundColor": "#E0115F",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "KualaLumpurKTMPortKlang.svg"
+  },
+  "KualaLumpurKTMSkypark": {
+    "name": "KTM Skypark Link",
+    "color": "#F58220",
+    "backgroundColor": "#F58220",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "KualaLumpurKTMSkypark.svg"
   }
 }

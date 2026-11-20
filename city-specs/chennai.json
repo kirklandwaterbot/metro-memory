@@ -1,0 +1,112 @@
+{
+  "slug": "chennai",
+  "path": "asia/india/chennai",
+  "gameTitle": "Chennai Metro Memory",
+  "description": "How many Chennai Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    12.832,
+    80.017,
+    13.228,
+    80.423
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "localStrip": "\\s*[\\(\\[](?:Ligne|Line)\\s+\\w+[\\)\\]]$|\\s*\\((?:\\w+\\s+)?Line\\)$|\\s+RMRG$",
+  "lineGroups": [
+    {
+      "title": "Chennai Metro",
+      "lines": [
+        "CHEN1",
+        "CHEN2",
+        "CHEN2A",
+        "CHEN4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "CHEN1",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(7845610|8037595)$"
+      },
+      "color": "#3281C4",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "CHEN1.svg"
+    },
+    {
+      "id": "CHEN2",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(7845612|8037605)$"
+      },
+      "color": "#53B848",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "CHEN2.svg"
+    },
+    {
+      "id": "CHEN2A",
+      "name": "Inter-Corridor Line",
+      "match": {
+        "@id": "^(18214852|18214853)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "2A",
+      "icon": "CHEN2A.svg"
+    },
+    {
+      "id": "CHEN4",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(12824987|12940680)$"
+      },
+      "color": "#FFDF00",
+      "textColor": "#222222",
+      "badge": "4",
+      "icon": "CHEN4.svg"
+    }
+  ],
+  "register": {
+    "name": "Chennai (சென்னை), IN",
+    "continent": "Asia",
+    "coordinates": [
+      80.22,
+      13.03
+    ],
+    "zh": "金奈, IN",
+    "achievement": {
+      "title": "Chennai Metro Master",
+      "description": "You've named every Chennai Metro station."
+    }
+  }
+}

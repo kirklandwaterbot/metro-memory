@@ -1,0 +1,34 @@
+{
+  "LYONA": {
+    "name": "Line A",
+    "color": "#E03F89",
+    "backgroundColor": "#E03F89",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "LYONA.svg"
+  },
+  "LYONB": {
+    "name": "Line B",
+    "color": "#2575BC",
+    "backgroundColor": "#2575BC",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "LYONB.svg"
+  },
+  "LYONC": {
+    "name": "Line C",
+    "color": "#EB6736",
+    "backgroundColor": "#EB6736",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "LYONC.svg"
+  },
+  "LYOND": {
+    "name": "Line D",
+    "color": "#489E43",
+    "backgroundColor": "#489E43",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "LYOND.svg"
+  }
+}

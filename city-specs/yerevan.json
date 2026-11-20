@@ -1,0 +1,63 @@
+{
+  "slug": "yerevan",
+  "path": "asia/armenia/yerevan",
+  "gameTitle": "Yerevan Metro Memory",
+  "description": "How many Yerevan Metro stations can you name from memory?",
+  "locale": "hy_AM",
+  "bbox": [
+    40.12,
+    44.45,
+    40.22,
+    44.58
+  ],
+  "transliterate": "hy",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Yerevan Metro",
+      "lines": [
+        "EVN1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "EVN1",
+      "name": "Line 1",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E4002B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "EVN1.svg"
+    }
+  ],
+  "register": {
+    "name": "Yerevan (Երևան), AM",
+    "continent": "Asia",
+    "coordinates": [
+      44.5152,
+      40.1872
+    ],
+    "achievement": {
+      "title": "Pink City Rider",
+      "description": "You've named every Yerevan Metro station."
+    },
+    "zh": "埃里温, AM"
+  },
+  "display": "en"
+}

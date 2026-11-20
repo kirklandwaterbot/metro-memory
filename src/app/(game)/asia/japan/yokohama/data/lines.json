@@ -1,0 +1,34 @@
+{
+  "YOKOB": {
+    "name": "Blue Line",
+    "color": "#005BA5",
+    "backgroundColor": "#005BA5",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "YOKOB.svg"
+  },
+  "YOKOG": {
+    "name": "Green Line",
+    "color": "#048D58",
+    "backgroundColor": "#048D58",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "YOKOG.svg"
+  },
+  "YOKOMM": {
+    "name": "Yokohama Minatomirai Line",
+    "color": "#C61094",
+    "backgroundColor": "#C61094",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "YOKOMM.svg"
+  },
+  "YOKOSL": {
+    "name": "Kanazawa Seaside Line",
+    "color": "#004EA2",
+    "backgroundColor": "#004EA2",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "YOKOSL.svg"
+  }
+}

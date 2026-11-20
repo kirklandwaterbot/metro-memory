@@ -6,7 +6,6 @@ import GamePage from '@/components/GamePage'
 import { DataFeatureCollection, RoutesFeatureCollection } from '@/lib/types'
 
 import config from './config'
-import NyFutureMapNotice, { useNyFutureMapNotice } from '../FutureMapNotice'
 
 const NY_FEATURES_URL = '/city-data/nyc-features.json'
 const NY_ROUTES_URL = '/city-data/nyc-routes.json'
@@ -34,7 +33,6 @@ export default function NYRegionalRailClient() {
   const [fc, setFc] = useState<DataFeatureCollection | null>(null)
   const [routes, setRoutes] = useState<RoutesFeatureCollection | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const notice = useNyFutureMapNotice()
 
   useEffect(() => {
     let active = true
@@ -87,18 +85,5 @@ export default function NYRegionalRailClient() {
     return <GamePage fc={fc} routes={routes} />
   }, [error, fc, routes])
 
-  const showNotice = notice.hydrated && notice.open && !error && Boolean(fc && routes)
-
-  return (
-    <>
-      <div className={showNotice ? 'pointer-events-none select-none blur-sm' : ''}>
-        {content}
-      </div>
-      <NyFutureMapNotice
-        open={showNotice}
-        onAcknowledge={notice.acknowledge}
-        onAcknowledgePermanently={notice.acknowledgeAndDontShowAgain}
-      />
-    </>
-  )
+  return content
 }

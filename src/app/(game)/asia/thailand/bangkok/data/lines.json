@@ -120,5 +120,45 @@
     "badgeShape": "wide",
     "badgeFit": "contain",
     "badgeAspectRatio": 1.4362
+  },
+  "BangkokSRTLopburi": {
+    "name": "Lopburi Line",
+    "color": "#0B6E4F",
+    "backgroundColor": "#0B6E4F",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "BangkokSRTLopburi.svg"
+  },
+  "BangkokSRTKaengKhoi": {
+    "name": "Kaeng Khoi Line",
+    "color": "#B5651D",
+    "backgroundColor": "#B5651D",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "BangkokSRTKaengKhoi.svg"
+  },
+  "BangkokSRTPrachinburi": {
+    "name": "Prachinburi Line",
+    "color": "#1565C0",
+    "backgroundColor": "#1565C0",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "BangkokSRTPrachinburi.svg"
+  },
+  "BangkokSRTRatchaburi": {
+    "name": "Ratchaburi Line",
+    "color": "#C62828",
+    "backgroundColor": "#C62828",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "BangkokSRTRatchaburi.svg"
+  },
+  "BangkokSRTSuphanburi": {
+    "name": "Suphanburi Line",
+    "color": "#6A1B9A",
+    "backgroundColor": "#6A1B9A",
+    "textColor": "#FFFFFF",
+    "order": 15,
+    "icon": "BangkokSRTSuphanburi.svg"
   }
 }

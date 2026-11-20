@@ -1,0 +1,63 @@
+{
+  "slug": "kl-komuter",
+  "path": "../../../data-sources/extras/kl-komuter",
+  "gameTitle": "x",
+  "description": "x",
+  "locale": "ms_MY",
+  "bbox": [
+    2.4,
+    101.3,
+    3.75,
+    102.3
+  ],
+  "stripPrefix": "^(Stesen |KTM |[A-Z]{2}\\d+[A-Z]?\\s+)",
+  "altTags": [
+    "name:en",
+    "name:zh"
+  ],
+  "lineGroups": [
+    {
+      "title": "KTM Komuter",
+      "lines": [
+        "KualaLumpurKTMSeremban",
+        "KualaLumpurKTMPortKlang",
+        "KualaLumpurKTMSkypark"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KualaLumpurKTMSeremban",
+      "name": "KTM Batu Caves–Pulau Sebang",
+      "match": {
+        "@id": "^(8390976|9985624)$"
+      },
+      "color": "#1964B7",
+      "textColor": "#FFFFFF",
+      "badge": "KA",
+      "icon": "KualaLumpurKTMSeremban.svg"
+    },
+    {
+      "id": "KualaLumpurKTMPortKlang",
+      "name": "KTM Tanjung Malim–Port Klang",
+      "match": {
+        "@id": "^(2565937|9984969)$"
+      },
+      "color": "#E0115F",
+      "textColor": "#FFFFFF",
+      "badge": "KC",
+      "icon": "KualaLumpurKTMPortKlang.svg"
+    },
+    {
+      "id": "KualaLumpurKTMSkypark",
+      "name": "KTM Skypark Link",
+      "match": {
+        "@id": "^(8391024|9985660)$"
+      },
+      "color": "#F58220",
+      "textColor": "#FFFFFF",
+      "badge": "KS",
+      "icon": "KualaLumpurKTMSkypark.svg"
+    }
+  ]
+}

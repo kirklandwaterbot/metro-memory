@@ -1,0 +1,90 @@
+{
+  "slug": "lyon",
+  "path": "europe/france/lyon",
+  "gameTitle": "Lyon Metro Memory",
+  "description": "How many Lyon Metro stations can you name from memory?",
+  "locale": "fr_FR",
+  "bbox": [
+    45.656,
+    4.681,
+    45.872,
+    4.991
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "localStrip": "\\s*[\\(\\[](?:Ligne|Line)\\s+\\w+[\\)\\]]$|\\s*\\((?:\\w+\\s+)?Line\\)$|\\s+RMRG$",
+  "rename": {
+    "Saxe - Gambetta": "Saxe-Gambetta"
+  },
+  "lineGroups": [
+    {
+      "title": "Lyon Metro",
+      "lines": [
+        "LYONA",
+        "LYONB",
+        "LYONC",
+        "LYOND"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LYONA",
+      "name": "Line A",
+      "match": {
+        "@id": "^(153123|3687319)$"
+      },
+      "color": "#E03F89",
+      "textColor": "#FFFFFF",
+      "badge": "A",
+      "icon": "LYONA.svg"
+    },
+    {
+      "id": "LYONB",
+      "name": "Line B",
+      "match": {
+        "@id": "^(113907|3687320)$"
+      },
+      "color": "#2575BC",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "LYONB.svg"
+    },
+    {
+      "id": "LYONC",
+      "name": "Line C",
+      "match": {
+        "@id": "^(113906|3687321)$"
+      },
+      "color": "#EB6736",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "LYONC.svg"
+    },
+    {
+      "id": "LYOND",
+      "name": "Line D",
+      "match": {
+        "@id": "^(113903|3687322)$"
+      },
+      "color": "#489E43",
+      "textColor": "#FFFFFF",
+      "badge": "D",
+      "icon": "LYOND.svg"
+    }
+  ],
+  "register": {
+    "name": "Lyon, FR",
+    "continent": "Europe",
+    "coordinates": [
+      4.836,
+      45.764
+    ],
+    "zh": "里昂, FR",
+    "achievement": {
+      "title": "Lyon Metro Master",
+      "description": "You've named every Lyon Metro station."
+    }
+  }
+}

@@ -1,9 +1,16 @@
 {
-  "PL0": {
-    "name": "Placeholder Line",
-    "color": "#6366f1",
-    "backgroundColor": "#6366f1",
-    "textColor": "#ffffff",
+  "ALG1": {
+    "name": "Ligne 1",
+    "color": "#659ACD",
+    "backgroundColor": "#659ACD",
+    "textColor": "#FFFFFF",
     "order": 0
+  },
+  "ALGT1": {
+    "name": "Tramway T1",
+    "color": "#0363FF",
+    "backgroundColor": "#0363FF",
+    "textColor": "#FFFFFF",
+    "order": 1
   }
 }

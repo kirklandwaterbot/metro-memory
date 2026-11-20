@@ -1,0 +1,62 @@
+{
+  "slug": "rennes",
+  "path": "europe/france/rennes",
+  "gameTitle": "Rennes Metro Memory",
+  "description": "How many Rennes Metro stations can you name from memory?",
+  "locale": "fr_FR",
+  "bbox": [
+    48.021,
+    -1.815,
+    48.201,
+    -1.545
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Rennes Metro",
+      "lines": [
+        "RENNA",
+        "RENNB"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "RENNA",
+      "name": "Line a",
+      "match": {
+        "@id": "^(23518|3889840)$"
+      },
+      "color": "#ED1C24",
+      "textColor": "#FFFFFF",
+      "badge": "a",
+      "icon": "RENNA.svg"
+    },
+    {
+      "id": "RENNB",
+      "name": "Line b",
+      "match": {
+        "@id": "^(4521994|6659012)$"
+      },
+      "color": "#00893E",
+      "textColor": "#FFFFFF",
+      "badge": "b",
+      "icon": "RENNB.svg"
+    }
+  ],
+  "register": {
+    "name": "Rennes, FR",
+    "continent": "Europe",
+    "coordinates": [
+      -1.68,
+      48.111
+    ],
+    "zh": "雷恩, FR",
+    "achievement": {
+      "title": "Rennes Metro Master",
+      "description": "You've named every Rennes Metro station."
+    }
+  }
+}

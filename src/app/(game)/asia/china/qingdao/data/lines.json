@@ -4,62 +4,87 @@
     "color": "#F7B000",
     "backgroundColor": "#F7B000",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/qingdao/Line1Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "qingdao2": {
     "name": "Line 2",
     "color": "#C42C05",
     "backgroundColor": "#C42C05",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/qingdao/Line2Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "qingdao3": {
     "name": "Line 3",
     "color": "#006DBB",
     "backgroundColor": "#006DBB",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/qingdao/Line3Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "qingdao4": {
     "name": "Line 4",
     "color": "#007A33",
     "backgroundColor": "#007A33",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/qingdao/Line4Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "qingdao6": {
     "name": "Line 6",
     "color": "#6CACE4",
     "backgroundColor": "#6CACE4",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/qingdao/Line6Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "qingdao8": {
     "name": "Line 8",
     "color": "#DF1995",
     "backgroundColor": "#DF1995",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/qingdao/Line8Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "qingdao11": {
-    "name": "Line 11",
+    "name": "Oceantec Valley Line",
     "color": "#3850a2",
     "backgroundColor": "#3850a2",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/qingdao/OceantecValley.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "qingdao13": {
-    "name": "Line 13",
+    "name": "West Coast Line",
     "color": "#00AB84",
     "backgroundColor": "#00AB84",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/qingdao/WestCoast.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   },
   "qingdaotram": {
-    "name": "Chengyang Tram",
+    "name": "Qingdao Tram Line 1",
     "color": "#E4002B",
     "backgroundColor": "#E4002B",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/qingdao/qingdaotramline1.png"
   }
 }

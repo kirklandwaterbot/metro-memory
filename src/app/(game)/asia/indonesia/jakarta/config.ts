@@ -66,6 +66,16 @@ export const LINE_GROUPS: LineGroup[] = [
       },
     ],
   },
+  // merged: jakarta-krl
+  {
+    title: "KRL Commuterline",
+    items: [
+      {
+        type: 'lines',
+        lines: ['KRLBogor', 'KRLCikarang', 'KRLRangkasbitung', 'KRLTangerang', 'KRLTanjungPriok'],
+      },
+    ],
+  },
 ]
 
 export const METADATA: Metadata = {

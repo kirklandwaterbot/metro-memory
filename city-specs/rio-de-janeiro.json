@@ -1,0 +1,71 @@
+{
+  "slug": "rio-de-janeiro",
+  "path": "south-america/brazil/rio-de-janeiro",
+  "gameTitle": "Rio de Janeiro Metro Memory",
+  "description": "How many MetrôRio stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -23.05,
+    -43.48,
+    -22.78,
+    -43.15
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "primaryBeforeSlash": true,
+  "lineGroups": [
+    {
+      "title": "MetrôRio",
+      "lines": [
+        "RJ1",
+        "RJ2",
+        "RJ4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "RJ1",
+      "name": "Linha 1",
+      "match": {
+        "route": "subway",
+        "network": "Metrô Rio",
+        "ref": "^1$"
+      },
+      "color": "#E77405"
+    },
+    {
+      "id": "RJ2",
+      "name": "Linha 2",
+      "match": {
+        "route": "subway",
+        "network": "Metrô Rio",
+        "ref": "^2$"
+      },
+      "color": "#028F34"
+    },
+    {
+      "id": "RJ4",
+      "name": "Linha 4",
+      "match": {
+        "route": "subway",
+        "network": "Metrô Rio",
+        "ref": "^4$"
+      },
+      "color": "#FFCC29",
+      "textColor": "#000000"
+    }
+  ],
+  "register": {
+    "name": "Rio de Janeiro, BR",
+    "continent": "South America",
+    "coordinates": [
+      -43.1729,
+      -22.9068
+    ],
+    "achievement": {
+      "title": "Carioca Commuter",
+      "description": "You've named every MetrôRio station."
+    }
+  }
+}

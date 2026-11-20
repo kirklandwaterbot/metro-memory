@@ -10,6 +10,7 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Tianshui Tram',
+    titleImage: 'asia/china/tianshui/icon.ico',
     items: [
       {
         type: 'lines',
@@ -39,8 +40,8 @@ export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
-    [105.739, 34.529],
-    [105.933, 34.596],
+    [105.64, 34.535],
+    [105.92, 34.592],
   ],
   maxBounds: [
     [105.573, 34.389],

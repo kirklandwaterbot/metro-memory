@@ -1,0 +1,58 @@
+{
+  "TM1": {
+    "name": "Tramo 1: Palenque–Escárcega",
+    "color": "#8C1D40",
+    "backgroundColor": "#8C1D40",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "TM1.svg"
+  },
+  "TM2": {
+    "name": "Tramo 2: Escárcega–Calkiní",
+    "color": "#B5651D",
+    "backgroundColor": "#B5651D",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "TM2.svg"
+  },
+  "TM3": {
+    "name": "Tramo 3: Calkiní–Izamal",
+    "color": "#C9A100",
+    "backgroundColor": "#C9A100",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "TM3.svg"
+  },
+  "TM4": {
+    "name": "Tramo 4: Izamal–Cancún",
+    "color": "#2E7D32",
+    "backgroundColor": "#2E7D32",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "TM4.svg"
+  },
+  "TM5": {
+    "name": "Tramo 5: Cancún–Tulum",
+    "color": "#00838F",
+    "backgroundColor": "#00838F",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "TM5.svg"
+  },
+  "TM6": {
+    "name": "Tramo 6: Tulum–Chetumal",
+    "color": "#1565C0",
+    "backgroundColor": "#1565C0",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "TM6.svg"
+  },
+  "TM7": {
+    "name": "Tramo 7: Chetumal–Escárcega",
+    "color": "#6A1B9A",
+    "backgroundColor": "#6A1B9A",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "TM7.svg"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "kryvyi-rih",
+  "path": "europe/ukraine/kryvyi-rih",
+  "gameTitle": "Kryvyi Rih Metrotram Memory",
+  "description": "How many Kryvyi Rih Metrotram stations can you name from memory?",
+  "locale": "uk_UA",
+  "bbox": [
+    47.8,
+    33.22,
+    48.05,
+    33.52
+  ],
+  "transliterate": "uk",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Kryvyi Rih Metrotram",
+      "lines": [
+        "KR1",
+        "KR2",
+        "KR3",
+        "KR4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KR1",
+      "name": "Line 1M",
+      "match": {
+        "route": "^light_rail$",
+        "ref": "^1М$"
+      },
+      "color": "#0072BC",
+      "badge": "1M",
+      "textColor": "#FFFFFF",
+      "icon": "KR1.svg"
+    },
+    {
+      "id": "KR2",
+      "name": "Line 2M",
+      "match": {
+        "route": "^light_rail$",
+        "ref": "^2М$"
+      },
+      "color": "#E30613",
+      "badge": "2M",
+      "textColor": "#FFFFFF",
+      "icon": "KR2.svg"
+    },
+    {
+      "id": "KR3",
+      "name": "Line 3M",
+      "match": {
+        "route": "^light_rail$",
+        "ref": "^3М$"
+      },
+      "color": "#00A651",
+      "badge": "3M",
+      "textColor": "#FFFFFF",
+      "icon": "KR3.svg"
+    },
+    {
+      "id": "KR4",
+      "name": "Line 4M",
+      "match": {
+        "route": "^light_rail$",
+        "ref": "^4М$"
+      },
+      "color": "#F39200",
+      "badge": "4M",
+      "textColor": "#FFFFFF",
+      "icon": "KR4.svg"
+    }
+  ],
+  "register": {
+    "name": "Kryvyi Rih (Кривий Ріг), UA",
+    "continent": "Europe",
+    "coordinates": [
+      33.3918,
+      47.9105
+    ],
+    "achievement": {
+      "title": "Metrotram Miner",
+      "description": "You've named every Kryvyi Rih Metrotram stop."
+    },
+    "zh": "克里维里赫, UA"
+  },
+  "display": "translit",
+  "splitDash": true
+}

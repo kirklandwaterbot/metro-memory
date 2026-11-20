@@ -1,0 +1,276 @@
+{
+  "slug": "osaka-kobe",
+  "path": "asia/japan/osaka-kobe",
+  "gameTitle": "Osaka–Kobe Metro Memory",
+  "description": "How many Osaka Metro, Kobe Subway, monorail, new-transit and Hankai tram stations can you name from memory?",
+  "locale": "ja_JP",
+  "bbox": [
+    34.48,
+    134.95,
+    34.9,
+    135.62
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ja-Latn",
+      "name:ja_rm"
+    ],
+    "altTags": [
+      "name:ja-Hira",
+      "name:ja_kana"
+    ],
+    "strip": "(駅|停留場|停留所|電停)$"
+  },
+  "lineGroups": [
+    {
+      "title": "Osaka Metro",
+      "lines": [
+        "OSM",
+        "OST",
+        "OSY",
+        "OSC",
+        "OSS",
+        "OSK",
+        "OSN",
+        "OSI",
+        "OSP"
+      ]
+    },
+    {
+      "title": "Kita-Osaka Kyuko",
+      "lines": [
+        "KQ"
+      ]
+    },
+    {
+      "title": "Osaka Monorail",
+      "lines": [
+        "OMM",
+        "OMS"
+      ]
+    },
+    {
+      "title": "Hankai Tramway",
+      "lines": [
+        "HKH",
+        "HKU"
+      ]
+    },
+    {
+      "title": "Kobe Municipal Subway",
+      "lines": [
+        "KBS",
+        "KBK"
+      ]
+    },
+    {
+      "title": "Kobe New Transit",
+      "lines": [
+        "KBP",
+        "KBR"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "OSM",
+      "name": "Midōsuji Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^M$",
+        "name": "御堂筋"
+      },
+      "color": "#E5171F"
+    },
+    {
+      "id": "OST",
+      "name": "Tanimachi Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^T$",
+        "name": "谷町"
+      },
+      "color": "#522886"
+    },
+    {
+      "id": "OSY",
+      "name": "Yotsubashi Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^Y$",
+        "name": "四つ橋"
+      },
+      "color": "#0078BE"
+    },
+    {
+      "id": "OSC",
+      "name": "Chūō Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^C$",
+        "name": "中央線"
+      },
+      "color": "#019A66"
+    },
+    {
+      "id": "OSS",
+      "name": "Sennichimae Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^S$",
+        "name": "千日前"
+      },
+      "color": "#E44D93"
+    },
+    {
+      "id": "OSK",
+      "name": "Sakaisuji Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^K$",
+        "name": "堺筋"
+      },
+      "color": "#814721"
+    },
+    {
+      "id": "OSN",
+      "name": "Nagahori Tsurumi-ryokuchi Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^N$",
+        "name": "長堀"
+      },
+      "color": "#A9CC51"
+    },
+    {
+      "id": "OSI",
+      "name": "Imazatosuji Line",
+      "match": {
+        "route": "subway",
+        "network": "大阪市高速電気軌道",
+        "ref": "^I$",
+        "name": "今里筋"
+      },
+      "color": "#EE7B1A"
+    },
+    {
+      "id": "OSP",
+      "name": "Nankō Port Town Line (New Tram)",
+      "match": {
+        "route": "light_rail",
+        "name": "南港ポートタウン"
+      },
+      "color": "#00A0DE"
+    },
+    {
+      "id": "KQ",
+      "name": "Kita-Osaka Kyuko Line",
+      "match": {
+        "route": "subway",
+        "network": "北大阪急行"
+      },
+      "color": "#E5171F",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "OMM",
+      "name": "Osaka Monorail Main Line",
+      "match": {
+        "route": "monorail",
+        "name": "本線"
+      },
+      "color": "#2E4FB5"
+    },
+    {
+      "id": "OMS",
+      "name": "Osaka Monorail Saito Line",
+      "match": {
+        "route": "monorail",
+        "name": "彩都"
+      },
+      "color": "#5B7FD6"
+    },
+    {
+      "id": "HKH",
+      "name": "Hankai Line",
+      "match": {
+        "route": "tram",
+        "name": "阪堺線"
+      },
+      "color": "#00873C"
+    },
+    {
+      "id": "HKU",
+      "name": "Uemachi Line",
+      "match": {
+        "route": "tram",
+        "name": "上町線"
+      },
+      "color": "#E8941A"
+    },
+    {
+      "id": "KBS",
+      "name": "Seishin-Yamate & Hokushin Line",
+      "match": {
+        "route": "subway",
+        "network": "神戸市営",
+        "ref": "^S$"
+      },
+      "color": "#00AE8E"
+    },
+    {
+      "id": "KBK",
+      "name": "Kaigan Line",
+      "match": {
+        "route": "subway",
+        "network": "神戸市営",
+        "ref": "^K$"
+      },
+      "color": "#267DCE"
+    },
+    {
+      "id": "KBP",
+      "name": "Port Liner",
+      "match": {
+        "route": "light_rail",
+        "network": "神戸新交通",
+        "ref": "^P$"
+      },
+      "color": "#3573BD"
+    },
+    {
+      "id": "KBR",
+      "name": "Rokkō Liner",
+      "match": {
+        "route": "light_rail",
+        "network": "神戸新交通",
+        "ref": "^R$"
+      },
+      "color": "#3E754E"
+    }
+  ],
+  "register": {
+    "name": "Osaka–Kobe (大阪・神戸), OSK-HYG",
+    "continent": "Asia",
+    "coordinates": [
+      135.5023,
+      34.6937
+    ],
+    "achievement": {
+      "title": "Kansai Connoisseur",
+      "description": "You've named every metro, monorail and tram station in Osaka and Kobe."
+    }
+  },
+  "rename": {
+    "天王寺駅前": "Tennōji-ekimae (天王寺駅前)"
+  }
+}

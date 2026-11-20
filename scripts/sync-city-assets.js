@@ -161,7 +161,11 @@ const buildManifest = async (routePaths) => {
 
     if (await fileExists(path.join(cityDir, 'icon.ico'))) {
       entry.icon = true
-      const iconHash = await hashFileIfPresent(path.join(cityDir, 'icon.ico'))
+      // the browser tab shows tab-icon.ico when the city has one (see sync-city-icons.js)
+      const tabIconPath = path.join(cityDir, 'tab-icon.ico')
+      const iconHash = await hashFileIfPresent(
+        (await fileExists(tabIconPath)) ? tabIconPath : path.join(cityDir, 'icon.ico'),
+      )
       if (iconHash) {
         entry.iconVersion = iconHash.slice(0, 12)
       }
@@ -194,6 +198,12 @@ const buildManifest = async (routePaths) => {
 
   return Object.keys(sortedManifest).length
 }
+
+// "/asia/japan/tokyo-metro/" -> "asia/japan/tokyo-metro"
+const normalizePathFromLink = (link) =>
+  String(link || '')
+    .split(/[?#]/)[0]
+    .replace(/^\/+|\/+$/g, '')
 
 const syncMiniCityAssetSourceSlugs = async (routePaths) => {
   const registry = await readJsonIfPresent(MINI_CITY_REGISTRY_PATH)

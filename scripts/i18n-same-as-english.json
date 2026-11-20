@@ -1,0 +1,277 @@
+{
+  "$comment": "Translations that are intentionally identical to the English text (brand names, loanwords, units, city names). scripts/i18n-check.js fails on any other translation that equals the English, because that usually means the text was never translated. Add a key + language here only when the English word really is correct in that language.",
+  "about": [
+    "de",
+    "nl"
+  ],
+  "accentAmber": [
+    "nl"
+  ],
+  "accentBubbleGum": [
+    "fr",
+    "it"
+  ],
+  "accentGold": [
+    "de"
+  ],
+  "accentIndigo": [
+    "fr",
+    "de",
+    "sv",
+    "nl"
+  ],
+  "accentLime": [
+    "sv",
+    "hu",
+    "it"
+  ],
+  "accentRose": [
+    "fr",
+    "de"
+  ],
+  "account": [
+    "it",
+    "nl"
+  ],
+  "accountHeading": [
+    "it",
+    "nl"
+  ],
+  "accountPassword": [
+    "it"
+  ],
+  "accountSortNameAsc": [
+    "de"
+  ],
+  "accountSortNameDesc": [
+    "de"
+  ],
+  "achievementCategoryGlobal": [
+    "fr",
+    "es",
+    "de"
+  ],
+  "africa": [
+    "it"
+  ],
+  "antarctica": [
+    "nl"
+  ],
+  "asia": [
+    "es",
+    "it"
+  ],
+  "australia": [
+    "es",
+    "it"
+  ],
+  "cityViewGlobe": [
+    "fr"
+  ],
+  "creditsOriginalAuthor": [
+    "fr",
+    "es",
+    "ca",
+    "de",
+    "ko",
+    "tr",
+    "ja",
+    "sv",
+    "hu",
+    "zh-CN",
+    "zh-TW",
+    "vi",
+    "pt",
+    "it",
+    "nl",
+    "ar"
+  ],
+  "creditsTitle": [
+    "nl"
+  ],
+  "europe": [
+    "fr"
+  ],
+  "fontFamilyHumanist": [
+    "vi"
+  ],
+  "fontFamilySerif": [
+    "fr",
+    "tr"
+  ],
+  "fontFamilySystem": [
+    "de",
+    "sv"
+  ],
+  "heroTitle": [
+    "de",
+    "ko",
+    "tr",
+    "ja",
+    "sv",
+    "hu",
+    "zh-CN",
+    "zh-TW",
+    "vi",
+    "pt",
+    "it",
+    "nl",
+    "ar"
+  ],
+  "inputPlaceholder": [
+    "fr",
+    "de",
+    "sv",
+    "nl"
+  ],
+  "miniCityNameGbaDongguan": [
+    "fr",
+    "es",
+    "ca",
+    "de",
+    "tr",
+    "sv",
+    "hu",
+    "pt",
+    "it",
+    "nl"
+  ],
+  "miniCityNameGbaFoshan": [
+    "fr",
+    "es",
+    "ca",
+    "de",
+    "tr",
+    "sv",
+    "hu",
+    "pt",
+    "it",
+    "nl"
+  ],
+  "miniCityNameGbaGuangzhou": [
+    "de",
+    "tr",
+    "sv"
+  ],
+  "miniCityNameGbaHongKong": [
+    "fr",
+    "es",
+    "ca",
+    "tr",
+    "pt",
+    "it"
+  ],
+  "miniCityNameGbaMacau": [
+    "ca",
+    "de",
+    "pt",
+    "nl"
+  ],
+  "miniCityNameGbaShenzhen": [
+    "fr",
+    "es",
+    "ca",
+    "de",
+    "tr",
+    "sv",
+    "pt",
+    "it",
+    "nl"
+  ],
+  "miniCityParentGba": [
+    "de",
+    "sv",
+    "it",
+    "nl"
+  ],
+  "oceania": [
+    "ca",
+    "pt",
+    "it"
+  ],
+  "passphrase": [
+    "de",
+    "it"
+  ],
+  "password": [
+    "it"
+  ],
+  "pixelsAbbrev": [
+    "fr",
+    "es",
+    "ca",
+    "de",
+    "ko",
+    "tr",
+    "ja",
+    "sv",
+    "hu",
+    "vi",
+    "pt",
+    "it",
+    "nl",
+    "ar"
+  ],
+  "privacy": [
+    "it",
+    "nl"
+  ],
+  "privacySessionsLabel": [
+    "fr",
+    "ca"
+  ],
+  "satelliteView": [
+    "fr",
+    "it"
+  ],
+  "secondsAbbrev": [
+    "nl"
+  ],
+  "solutions": [
+    "fr"
+  ],
+  "sort.nameAsc": [
+    "de"
+  ],
+  "sort.nameDesc": [
+    "de"
+  ],
+  "sortContinentAsc": [
+    "fr",
+    "ca",
+    "nl"
+  ],
+  "sortContinentDesc": [
+    "fr",
+    "ca",
+    "nl"
+  ],
+  "sortNameAsc": [
+    "de"
+  ],
+  "sortNameDesc": [
+    "de"
+  ],
+  "stationMatchingNormal": [
+    "es",
+    "ca",
+    "de",
+    "tr",
+    "sv",
+    "pt"
+  ],
+  "tabAccount": [
+    "it",
+    "nl"
+  ],
+  "tabCredits": [
+    "nl"
+  ],
+  "tabHome": [
+    "it"
+  ],
+  "tabPrivacy": [
+    "it",
+    "nl"
+  ]
+}

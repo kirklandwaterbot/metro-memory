@@ -1,3 +1,5 @@
+import { getCountryCodeFromSlug } from '@/lib/countryFlags'
+
 const SIMPLIFIED_COUNTRY_NAMES: Record<string, string> = {
   unknown: '未知',
   global: '主要',
@@ -85,6 +87,21 @@ export const formatDisplayCountryLabel = (slug: string | null, language?: string
   }
   if (language === 'zh-TW' && TRADITIONAL_COUNTRY_NAMES[slug]) {
     return TRADITIONAL_COUNTRY_NAMES[slug]
+  }
+  // Every other country, in every non-English language, from the browser's
+  // own country-name data (so new countries are translated automatically).
+  if (language && language !== 'en') {
+    const code = getCountryCodeFromSlug(slug)
+    if (code) {
+      try {
+        const locale =
+          language === 'zh-CN' ? 'zh-Hans' : language === 'zh-TW' ? 'zh-Hant' : language
+        const name = new Intl.DisplayNames([locale], { type: 'region' }).of(code)
+        if (name && name !== code) return name
+      } catch {
+        // older browsers: fall back to the English label
+      }
+    }
   }
   return null
 }

@@ -1,0 +1,927 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85746,
+          18.499745
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Swargate",
+        "alternate_names": [
+          "स्वारगेट"
+        ],
+        "line": "PUNE1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.856953,
+          18.512904
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Mahatma Phule Mandai",
+        "alternate_names": [
+          "महात्मा फुले मंदाई"
+        ],
+        "line": "PUNE1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.859624,
+          18.521375
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Kasba Peth",
+        "alternate_names": [
+          "Kasba Peth कसबा पेठ",
+          "कसबा पेठ"
+        ],
+        "line": "PUNE1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.856899,
+          18.526786
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "District Court",
+        "alternate_names": [
+          "जिल्हा न्यायालय"
+        ],
+        "line": "PUNE1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.84966,
+          18.532172
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Shivaji Nagar",
+        "alternate_names": [
+          "शिवाजी नगर"
+        ],
+        "line": "PUNE1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.842083,
+          18.562262
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Khadki",
+        "line": "PUNE1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.838103,
+          18.569661
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Bopodi",
+        "alternate_names": [
+          "बोपोडी"
+        ],
+        "line": "PUNE1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.833766,
+          18.583765
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Dapodi",
+        "alternate_names": [
+          "दापोडी"
+        ],
+        "line": "PUNE1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831147,
+          18.591106
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Phugewadi",
+        "alternate_names": [
+          "फुगेवाडी"
+        ],
+        "line": "PUNE1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.827264,
+          18.59962
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Kasarwadi",
+        "alternate_names": [
+          "कासारवाडी"
+        ],
+        "line": "PUNE1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.820097,
+          18.609303
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Nashik Phata",
+        "alternate_names": [
+          "नाशिक फाटा"
+        ],
+        "line": "PUNE1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.815746,
+          18.614525
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Sant Tukaram Nagar",
+        "alternate_names": [
+          "संत तुकाराम नगर"
+        ],
+        "line": "PUNE1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.803286,
+          18.629319
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "alternate_names": [
+          "पिंपरी-चिंचवड मनपा भवन"
+        ],
+        "line": "PUNE1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.908563,
+          18.557028
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Ramwadi",
+        "alternate_names": [
+          "रामवाडी"
+        ],
+        "line": "PUNE2",
+        "order": 0
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.905698,
+          18.544481
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Kalyani Nagar",
+        "alternate_names": [
+          "कल्याणी नगर"
+        ],
+        "line": "PUNE2",
+        "order": 1
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.886621,
+          18.545303
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Yerwada",
+        "alternate_names": [
+          "येरवडा"
+        ],
+        "line": "PUNE2",
+        "order": 2
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.883439,
+          18.540593
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Bund Garden",
+        "alternate_names": [
+          "बंड गार्डन"
+        ],
+        "line": "PUNE2",
+        "order": 3
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.877749,
+          18.532718
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Ruby Hall Clinic",
+        "alternate_names": [
+          "रुबी हॉल क्लिनिक"
+        ],
+        "line": "PUNE2",
+        "order": 4
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872409,
+          18.529759
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Pune",
+        "alternate_names": [
+          "पुणे रेल्वे स्टेशन",
+          "पुणे रेल्वे स्थानक"
+        ],
+        "line": "PUNE2",
+        "order": 5
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.865104,
+          18.530069
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Mangalwar Peth",
+        "alternate_names": [
+          "मंगळवार पेठ"
+        ],
+        "line": "PUNE2",
+        "order": 6
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.857748,
+          18.52672
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "District Court",
+        "alternate_names": [
+          "जिल्हा न्यायालय"
+        ],
+        "line": "PUNE2",
+        "order": 7
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85335,
+          18.522744
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "PMC Bhavan",
+        "alternate_names": [
+          "पुणे मनपा स्थानक"
+        ],
+        "line": "PUNE2",
+        "order": 8
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.847383,
+          18.520081
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Chhatrapati Sambhaji Udyan",
+        "alternate_names": [
+          "छत्रपती संभाजी उद्यान"
+        ],
+        "line": "PUNE2",
+        "order": 9
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.844446,
+          18.516449
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Deccan Gymkhana",
+        "alternate_names": [
+          "डेक्कन जिमखाना"
+        ],
+        "line": "PUNE2",
+        "order": 10
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.838051,
+          18.511989
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Garware College",
+        "alternate_names": [
+          "गरवारे महाविद्यालय"
+        ],
+        "line": "PUNE2",
+        "order": 11
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.828782,
+          18.507357
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "SNDT College",
+        "alternate_names": [
+          "एसएनडीटी कॉलेज"
+        ],
+        "line": "PUNE2",
+        "order": 12
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.822144,
+          18.508885
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Paud Phata",
+        "alternate_names": [
+          "पौड फाटा"
+        ],
+        "line": "PUNE2",
+        "order": 13
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.814075,
+          18.509572
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Anandnagar",
+        "alternate_names": [
+          "आनंदनगर"
+        ],
+        "line": "PUNE2",
+        "order": 14
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805195,
+          18.507185
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Vanaz",
+        "alternate_names": [
+          "वनाज"
+        ],
+        "line": "PUNE2",
+        "order": 15
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.856012,
+          18.528395
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "District Court",
+        "alternate_names": [
+          "जिल्हा न्यायालय (गुलाबी लाईन)"
+        ],
+        "line": "PUNE3",
+        "order": 0
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.841487,
+          18.533006
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Agriculture College",
+        "alternate_names": [
+          "कृषि महाविद्यालय"
+        ],
+        "line": "PUNE3",
+        "order": 1
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.827173,
+          18.542347
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Savitribai Phule Pune University",
+        "alternate_names": [
+          "सावित्रीबाई फुले पुणे विद्यापीठ"
+        ],
+        "line": "PUNE3",
+        "order": 2
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.819665,
+          18.546325
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Sakal Nagar",
+        "alternate_names": [
+          "सकाळ नगर"
+        ],
+        "line": "PUNE3",
+        "order": 3
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.808257,
+          18.550306
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Aundh",
+        "alternate_names": [
+          "औंध"
+        ],
+        "line": "PUNE3",
+        "order": 4
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.771331,
+          18.574594
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "R K Laxman Museum Balewadi",
+        "line": "PUNE3",
+        "order": 5
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.766062,
+          18.575034
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Mitcon Balewadi",
+        "alternate_names": [
+          "मिटकॉन बालेवाडी"
+        ],
+        "line": "PUNE3",
+        "order": 6
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.761542,
+          18.579709
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Shree Shiv Chhatrapati Sports Complex Mahalunge",
+        "alternate_names": [
+          "श्री शिवछत्रपती क्रीडा संकुल महाळुंगे"
+        ],
+        "line": "PUNE3",
+        "order": 7
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.757559,
+          18.590299
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Wakad Chowk",
+        "alternate_names": [
+          "वाकड चौक"
+        ],
+        "line": "PUNE3",
+        "order": 8
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7463,
+          18.590967
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Hinjawadi Phase 1",
+        "alternate_names": [
+          "हिंजवडी फेज़ १",
+          "हिंजवडी फेज १"
+        ],
+        "line": "PUNE3",
+        "order": 9
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.737357,
+          18.592395
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Shree Shiv Chhatrapati Shivaji Maharaj Chowk Hinjawadi",
+        "alternate_names": [
+          "श्री शिव छत्रपती शिवाजी महाराज चौक हिंजवडी"
+        ],
+        "line": "PUNE3",
+        "order": 10
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.727826,
+          18.594487
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Padmabhushan Chowk",
+        "alternate_names": [
+          "पद्मभूषण चौक"
+        ],
+        "line": "PUNE3",
+        "order": 11
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.717161,
+          18.59659
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Hinjawadi Phase 2 Circle 1",
+        "alternate_names": [
+          "हिंजवडी फेज़ २ सर्कल १",
+          "हिंजवडी फेज २ सर्कल १"
+        ],
+        "line": "PUNE3",
+        "order": 12
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.709223,
+          18.594195
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Hinjawadi Phase 2 Circle 2",
+        "alternate_names": [
+          "हिंजवडी फेज़ २ सर्कल २",
+          "हिंजवडी फेज २ सर्कल २"
+        ],
+        "line": "PUNE3",
+        "order": 13
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.702895,
+          18.588102
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Maan Bus Depot",
+        "alternate_names": [
+          "मान बस डेपो",
+          "माण बस डेपो"
+        ],
+        "line": "PUNE3",
+        "order": 14
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.694818,
+          18.584019
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Maan MIDC Circle - Phase 2",
+        "alternate_names": [
+          "माण एमआयडीसी सर्कल - फेज़ २",
+          "मान एमआयडीसी सर्कल - फेज २"
+        ],
+        "line": "PUNE3",
+        "order": 15
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.688016,
+          18.579213
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Maan",
+        "alternate_names": [
+          "मान",
+          "माण"
+        ],
+        "line": "PUNE3",
+        "order": 16
+      },
+      "id": 45
+    }
+  ]
+}

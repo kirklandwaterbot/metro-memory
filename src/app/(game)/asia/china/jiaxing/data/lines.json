@@ -1,16 +1,12 @@
 {
   "jiaxingt1": {
     "name": "Tram T1",
-    "color": "#E4002B",
-    "backgroundColor": "#E4002B",
+    "color": "#E8171A",
+    "backgroundColor": "#E8171A",
     "textColor": "#ffffff",
-    "order": 1
-  },
-  "jiaxingt2": {
-    "name": "Tram T2",
-    "color": "#0072CE",
-    "backgroundColor": "#0072CE",
-    "textColor": "#ffffff",
-    "order": 2
+    "order": 1,
+    "icon": "asia/china/jiaxing/jiaxingt1.png",
+    "badgeShape": "wide",
+    "badgeFit": "contain"
   }
 }

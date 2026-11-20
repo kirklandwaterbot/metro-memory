@@ -1,0 +1,75 @@
+{
+  "slug": "indore",
+  "path": "asia/india/indore",
+  "gameTitle": "Indore Metro Memory",
+  "description": "How many Indore Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    22.576,
+    75.704,
+    22.864,
+    76.016
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Indore Metro",
+      "lines": [
+        "INDOYELLOW"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "INDOYELLOW",
+      "name": "Yellow Line",
+      "match": {
+        "@id": "^(19218605|19218606)$"
+      },
+      "color": "#FFD100",
+      "textColor": "#222222",
+      "badge": "Y",
+      "icon": "INDOYELLOW.svg"
+    }
+  ],
+  "register": {
+    "name": "Indore (इंदौर), IN",
+    "continent": "Asia",
+    "coordinates": [
+      75.86,
+      22.72
+    ],
+    "zh": "印多尔, IN",
+    "achievement": {
+      "title": "Indore Metro Master",
+      "description": "You've named every Indore Metro station."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "salvador",
+  "path": "south-america/brazil/salvador",
+  "gameTitle": "Salvador Metro Memory",
+  "description": "How many Metrô de Salvador stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -13.05,
+    -38.56,
+    -12.84,
+    -38.3
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "primaryBeforeSlash": true,
+  "lineGroups": [
+    {
+      "title": "Metrô de Salvador",
+      "lines": [
+        "SSA1",
+        "SSA2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SSA1",
+      "name": "Linha 1",
+      "match": {
+        "route": "subway",
+        "ref": "^1$",
+        "name": "Lapa"
+      },
+      "color": "#E2231A"
+    },
+    {
+      "id": "SSA2",
+      "name": "Linha 2",
+      "match": {
+        "route": "subway",
+        "ref": "^2$"
+      },
+      "color": "#00A859"
+    }
+  ],
+  "register": {
+    "name": "Salvador, BR",
+    "continent": "South America",
+    "coordinates": [
+      -38.5014,
+      -12.9714
+    ],
+    "achievement": {
+      "title": "Soteropolitano",
+      "description": "You've named every Metrô de Salvador station."
+    }
+  }
+}

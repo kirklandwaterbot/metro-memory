@@ -1,0 +1,585 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.928751,
+          40.643959
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Thessaloniki New",
+        "alternate_names": [
+          "Νέος Σιδηροδρομικός Σταθμός"
+        ],
+        "line": "THES1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934454,
+          40.640979
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Dimokratias",
+        "alternate_names": [
+          "Δημοκρατίας"
+        ],
+        "line": "THES1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942127,
+          40.636985
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Venizelou",
+        "alternate_names": [
+          "Βενιζέλου"
+        ],
+        "line": "THES1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946521,
+          40.634693
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Agias Sofias",
+        "alternate_names": [
+          "Αγίας Σοφίας"
+        ],
+        "line": "THES1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954192,
+          40.630804
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sintrivani",
+        "alternate_names": [
+          "Σιντριβάνι"
+        ],
+        "line": "THES1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960588,
+          40.62628
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Panepistimio",
+        "alternate_names": [
+          "Πανεπιστήμιο"
+        ],
+        "line": "THES1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963032,
+          40.619715
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Papafi",
+        "alternate_names": [
+          "Παπάφη"
+        ],
+        "line": "THES1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96046,
+          40.615834
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Efkleidis",
+        "alternate_names": [
+          "Ευκλείδης"
+        ],
+        "line": "THES1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957339,
+          40.611986
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Fleming",
+        "alternate_names": [
+          "Φλέμινγκ"
+        ],
+        "line": "THES1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957846,
+          40.606206
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Analipsi",
+        "alternate_names": [
+          "Ανάληψη"
+        ],
+        "line": "THES1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958531,
+          40.601075
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "25th Martiou",
+        "alternate_names": [
+          "25ης Μαρτίου"
+        ],
+        "line": "THES1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960684,
+          40.595041
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Voulgari",
+        "alternate_names": [
+          "Βούλγαρη"
+        ],
+        "line": "THES1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.968856,
+          40.593266
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Nea Elvetia",
+        "alternate_names": [
+          "Νέα Ελβετία"
+        ],
+        "line": "THES1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.966707,
+          40.567614
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Mikra",
+        "alternate_names": [
+          "Μίκρα"
+        ],
+        "line": "THES2",
+        "order": 0
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.961413,
+          40.57194
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nea Krini",
+        "alternate_names": [
+          "Νέα Κρήνη"
+        ],
+        "line": "THES2",
+        "order": 1
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954467,
+          40.578399
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Aretsou",
+        "alternate_names": [
+          "Αρετσού"
+        ],
+        "line": "THES2",
+        "order": 2
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.953095,
+          40.584719
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Kalamaria",
+        "alternate_names": [
+          "Καλαμαριά"
+        ],
+        "line": "THES2",
+        "order": 3
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957134,
+          40.591614
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nomarchia",
+        "alternate_names": [
+          "Νομαρχία"
+        ],
+        "line": "THES2",
+        "order": 4
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.958531,
+          40.601075
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "25th Martiou",
+        "alternate_names": [
+          "25ης Μαρτίου"
+        ],
+        "line": "THES2",
+        "order": 5
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957846,
+          40.606206
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Analipsi",
+        "alternate_names": [
+          "Ανάληψη"
+        ],
+        "line": "THES2",
+        "order": 6
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.957339,
+          40.611986
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Fleming",
+        "alternate_names": [
+          "Φλέμινγκ"
+        ],
+        "line": "THES2",
+        "order": 7
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.96046,
+          40.615834
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Efkleidis",
+        "alternate_names": [
+          "Ευκλείδης"
+        ],
+        "line": "THES2",
+        "order": 8
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.963032,
+          40.619715
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Papafi",
+        "alternate_names": [
+          "Παπάφη"
+        ],
+        "line": "THES2",
+        "order": 9
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.960588,
+          40.62628
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Panepistimio",
+        "alternate_names": [
+          "Πανεπιστήμιο"
+        ],
+        "line": "THES2",
+        "order": 10
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.954192,
+          40.630804
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Sintrivani",
+        "alternate_names": [
+          "Σιντριβάνι"
+        ],
+        "line": "THES2",
+        "order": 11
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.946521,
+          40.634693
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Agias Sofias",
+        "alternate_names": [
+          "Αγίας Σοφίας"
+        ],
+        "line": "THES2",
+        "order": 12
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.942127,
+          40.636985
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Venizelou",
+        "alternate_names": [
+          "Βενιζέλου"
+        ],
+        "line": "THES2",
+        "order": 13
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.934454,
+          40.640979
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Dimokratias",
+        "alternate_names": [
+          "Δημοκρατίας"
+        ],
+        "line": "THES2",
+        "order": 14
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.928751,
+          40.643959
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Thessaloniki New",
+        "alternate_names": [
+          "Νέος Σιδηροδρομικός Σταθμός"
+        ],
+        "line": "THES2",
+        "order": 15
+      },
+      "id": 28
+    }
+  ]
+}

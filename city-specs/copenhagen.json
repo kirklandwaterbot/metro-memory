@@ -1,0 +1,86 @@
+{
+  "slug": "copenhagen",
+  "path": "europe/denmark/copenhagen",
+  "gameTitle": "Copenhagen Metro Memory",
+  "description": "How many Copenhagen Metro stations can you name from memory?",
+  "locale": "da_DK",
+  "bbox": [
+    55.55,
+    12.344,
+    55.802,
+    12.792
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Copenhagen Metro",
+      "lines": [
+        "COPEM1",
+        "COPEM2",
+        "COPEM3",
+        "COPEM4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "COPEM1",
+      "name": "M1",
+      "match": {
+        "@id": "^(152202|152332)$"
+      },
+      "color": "#008D41",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "COPEM1.svg"
+    },
+    {
+      "id": "COPEM2",
+      "name": "M2",
+      "match": {
+        "@id": "^(152224|152339)$"
+      },
+      "color": "#FFC600",
+      "textColor": "#222222",
+      "badge": "M2",
+      "icon": "COPEM2.svg"
+    },
+    {
+      "id": "COPEM3",
+      "name": "M3 Cityringen",
+      "match": {
+        "@id": "^(10157170|10283922)$"
+      },
+      "color": "#FF0A0A",
+      "textColor": "#FFFFFF",
+      "badge": "M3",
+      "icon": "COPEM3.svg"
+    },
+    {
+      "id": "COPEM4",
+      "name": "M4",
+      "match": {
+        "@id": "^(10925796|10925797)$"
+      },
+      "color": "#009CD3",
+      "textColor": "#FFFFFF",
+      "badge": "M4",
+      "icon": "COPEM4.svg"
+    }
+  ],
+  "register": {
+    "name": "Copenhagen, DK",
+    "continent": "Europe",
+    "coordinates": [
+      12.568,
+      55.676
+    ],
+    "zh": "哥本哈根, DK",
+    "achievement": {
+      "title": "Copenhagen Metro Master",
+      "description": "You've named every Copenhagen Metro station."
+    }
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07339,
+          4.598149
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Ipoh",
+        "alternate_names": [
+          "怡保"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.071298,
+          4.818809
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Sungai Siput",
+        "alternate_names": [
+          "和丰"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.931885,
+          4.776241
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Kuala Kangsar",
+        "alternate_names": [
+          "江沙"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.857671,
+          4.777816
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Padang Rengas",
+        "alternate_names": [
+          "硝山"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.732126,
+          4.852939
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Taiping",
+        "alternate_names": [
+          "太平"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.719103,
+          4.89561
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Kamunting",
+        "alternate_names": [
+          "甘文丁"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.527265,
+          5.028448
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Bagan Serai",
+        "alternate_names": [
+          "峇眼色海"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.486372,
+          5.130748
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Parit Buntar",
+        "alternate_names": [
+          "巴里文打"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.479778,
+          5.16945
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nibong Tebal",
+        "alternate_names": [
+          "高渊"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.480866,
+          5.285929
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Simpang Ampat",
+        "alternate_names": [
+          "新邦安拔"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.447463,
+          5.366359
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Bukit Mertajam",
+        "alternate_names": [
+          "大山脚"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.421614,
+          5.364515
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Bukit Tengah",
+        "alternate_names": [
+          "武吉丁雅"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.366572,
+          5.393362
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Butterworth",
+        "alternate_names": [
+          "北海"
+        ],
+        "line": "KomuterUtaraButterworthIpoh",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.366572,
+          5.393362
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Butterworth",
+        "alternate_names": [
+          "北海"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 0
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.421614,
+          5.364515
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Bukit Tengah",
+        "alternate_names": [
+          "武吉丁雅"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 1
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.447463,
+          5.366359
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Bukit Mertajam",
+        "alternate_names": [
+          "大山脚"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 2
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.49791,
+          5.482127
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Tasek Gelugor",
+        "alternate_names": [
+          "打昔汝莪"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 3
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.490002,
+          5.642878
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Sungai Petani",
+        "line": "KomuterUtaraPadangBesar",
+        "order": 4
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.477747,
+          5.824352
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Gurun",
+        "alternate_names": [
+          "莪仑"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 5
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.440595,
+          5.972081
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Kobah",
+        "alternate_names": [
+          "哥峇"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 6
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.369612,
+          6.113032
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Alor Setar",
+        "line": "KomuterUtaraPadangBesar",
+        "order": 7
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.374806,
+          6.183313
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Anak Bukit",
+        "alternate_names": [
+          "安南武吉"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 8
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30283,
+          6.370773
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Kodiang",
+        "alternate_names": [
+          "高岭"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 9
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.268318,
+          6.431911
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Arau",
+        "alternate_names": [
+          "亚娄"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 10
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.256859,
+          6.523564
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Bukit Ketri",
+        "alternate_names": [
+          "武吉吉德里"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 11
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.320198,
+          6.662684
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Padang Besar",
+        "alternate_names": [
+          "巴东勿刹"
+        ],
+        "line": "KomuterUtaraPadangBesar",
+        "order": 12
+      },
+      "id": 25
+    }
+  ]
+}

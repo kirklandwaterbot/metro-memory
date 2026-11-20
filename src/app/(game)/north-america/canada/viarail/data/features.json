@@ -1,0 +1,7108 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380346,
+          43.644591
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Toronto",
+        "alternate_names": [
+          "Union Station",
+          "Toronto Union"
+        ],
+        "line": "VCAN",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.335192,
+          44.748837
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Washago",
+        "line": "VCAN",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.037906,
+          45.345922
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Parry Sound South",
+        "line": "VCAN",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.902148,
+          46.524669
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Sudbury Junction",
+        "line": "VCAN",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.037186,
+          45.350795
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Parry Sound",
+        "line": "VCAN",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.929636,
+          46.711074
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Capreol",
+        "line": "VCAN",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.211264,
+          47.032164
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Laforest",
+        "line": "VCAN",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.259041,
+          47.106461
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "McKee's Camp",
+        "line": "VCAN",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.408055,
+          47.204621
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Felix",
+        "line": "VCAN",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.474566,
+          47.262129
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Ruel",
+        "line": "VCAN",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.546328,
+          47.418073
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Westree",
+        "line": "VCAN",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.723843,
+          47.676273
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Gogama",
+        "line": "VCAN",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.439461,
+          48.246232
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Foleyet",
+        "line": "VCAN",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.903193,
+          48.521114
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Elsas",
+        "line": "VCAN",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.104558,
+          49.057657
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Oba",
+        "line": "VCAN",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.774123,
+          49.218605
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Hornepayne",
+        "line": "VCAN",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.548526,
+          49.451126
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Hillsport",
+        "line": "VCAN",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.127922,
+          49.615122
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Caramat",
+        "line": "VCAN",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.535033,
+          49.77199
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Longlac",
+        "line": "VCAN",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.713944,
+          50.177955
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Nakina",
+        "line": "VCAN",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.890028,
+          50.229124
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Auden",
+        "line": "VCAN",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.423208,
+          50.314403
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Ferland",
+        "line": "VCAN",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.521426,
+          50.316847
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Mud River",
+        "line": "VCAN",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.037836,
+          50.301417
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Armstrong",
+        "line": "VCAN",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.450077,
+          50.295576
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Collins",
+        "line": "VCAN",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.167679,
+          50.240576
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Allanwater Bridge",
+        "line": "VCAN",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.444503,
+          50.245038
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Flindt Landing",
+        "line": "VCAN",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.70504,
+          50.238458
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Savant Lake",
+        "line": "VCAN",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.916516,
+          50.097436
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Sioux Lookout",
+        "line": "VCAN",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.827079,
+          49.994709
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Richan",
+        "line": "VCAN",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.358268,
+          49.972977
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Red Lake Road",
+        "line": "VCAN",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.740655,
+          49.979641
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Canyon",
+        "line": "VCAN",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.204873,
+          50.008609
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Farlane",
+        "line": "VCAN",
+        "order": 32
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.394086,
+          49.978771
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Redditt",
+        "line": "VCAN",
+        "order": 33
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.669109,
+          49.985749
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Minaki",
+        "line": "VCAN",
+        "order": 34
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.93445,
+          49.924139
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Ottermere",
+        "line": "VCAN",
+        "order": 35
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.983567,
+          49.931536
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Malachi",
+        "line": "VCAN",
+        "order": 36
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.999106,
+          49.919056
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Copeland's Landing",
+        "line": "VCAN",
+        "order": 37
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.123891,
+          49.890266
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Rice Lake",
+        "line": "VCAN",
+        "order": 38
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.183715,
+          49.882326
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Winnitoba",
+        "line": "VCAN",
+        "order": 39
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.257821,
+          49.870939
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Ophir",
+        "line": "VCAN",
+        "order": 40
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.53063,
+          49.8805
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Brereton Lake",
+        "line": "VCAN",
+        "order": 41
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.910484,
+          49.874084
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Elma",
+        "line": "VCAN",
+        "order": 42
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.133507,
+          49.889135
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Winnipeg",
+        "line": "VCAN",
+        "order": 43
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.288838,
+          49.977406
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Portage la Prairie",
+        "line": "VCAN",
+        "order": 44
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.238903,
+          50.028887
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Rivers",
+        "line": "VCAN",
+        "order": 45
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.806455,
+          50.925705
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Melville",
+        "line": "VCAN",
+        "order": 46
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.469904,
+          51.671576
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Watrous",
+        "line": "VCAN",
+        "order": 47
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.738234,
+          52.104559
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Saskatoon",
+        "line": "VCAN",
+        "order": 48
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.986965,
+          52.053378
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Biggar",
+        "line": "VCAN",
+        "order": 49
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.160348,
+          52.441166
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Unity",
+        "line": "VCAN",
+        "order": 50
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.86259,
+          52.832118
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Wainwright",
+        "line": "VCAN",
+        "order": 51
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.77785,
+          53.092531
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Viking",
+        "line": "VCAN",
+        "order": 52
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.530946,
+          53.578793
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Edmonton",
+        "line": "VCAN",
+        "order": 53
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.008716,
+          53.594537
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Evansburg",
+        "line": "VCAN",
+        "order": 54
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.430285,
+          53.579616
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Edson",
+        "line": "VCAN",
+        "order": 55
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.587601,
+          53.401073
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Hinton",
+        "line": "VCAN",
+        "order": 56
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.079302,
+          52.876164
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Jasper",
+        "line": "VCAN",
+        "order": 57
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.261717,
+          52.834825
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Valemount",
+        "line": "VCAN",
+        "order": 58
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.300622,
+          52.104942
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Blue River",
+        "line": "VCAN",
+        "order": 59
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.033162,
+          51.637909
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Clearwater",
+        "line": "VCAN",
+        "order": 60
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.348472,
+          50.718238
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Kamloops North",
+        "alternate_names": [
+          "Kamloops"
+        ],
+        "line": "VCAN",
+        "order": 61
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.275635,
+          50.729742
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Ashcroft",
+        "line": "VCAN",
+        "order": 62
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.444666,
+          49.869492
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Boston Bar",
+        "line": "VCAN",
+        "order": 63
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.43629,
+          49.379082
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Hope",
+        "line": "VCAN",
+        "order": 64
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.949098,
+          49.164471
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Chilliwack",
+        "line": "VCAN",
+        "order": 65
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.276467,
+          49.116828
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Abbotsford",
+        "line": "VCAN",
+        "order": 66
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.097478,
+          49.273682
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Vancouver",
+        "alternate_names": [
+          "Pacific Central",
+          "Vancouver Pacific Central"
+        ],
+        "line": "VCAN",
+        "order": 67
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303243,
+          49.128214
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Mission Harbour",
+        "line": "VCAN",
+        "order": 68
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.765188,
+          49.239485
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Agassiz",
+        "line": "VCAN",
+        "order": 69
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.551623,
+          49.368306
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Katz",
+        "line": "VCAN",
+        "order": 70
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.449668,
+          49.876723
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "North Bend",
+        "line": "VCAN",
+        "order": 71
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568351,
+          45.501053
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Montréal",
+        "alternate_names": [
+          "Gare Centrale",
+          "Montréal Central Station"
+        ],
+        "line": "VOCE",
+        "order": 0
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.506668,
+          45.499285
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Saint-Lambert",
+        "line": "VOCE",
+        "order": 1
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.948912,
+          45.627681
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Saint-Hyacinthe",
+        "line": "VOCE",
+        "order": 2
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.488256,
+          45.882027
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Drummondville",
+        "line": "VOCE",
+        "order": 3
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.297616,
+          46.754226
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Sainte-Foy",
+        "alternate_names": [
+          "Ste-Foy"
+        ],
+        "line": "VOCE",
+        "order": 4
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.559663,
+          46.973243
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Montmagny",
+        "line": "VOCE",
+        "order": 5
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.02525,
+          47.361118
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "La Pocatière",
+        "line": "VOCE",
+        "order": 6
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.527401,
+          47.824966
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Rivière-du-Loup",
+        "line": "VOCE",
+        "order": 7
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.173351,
+          48.126996
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Trois-Pistoles",
+        "line": "VOCE",
+        "order": 8
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.521229,
+          48.450085
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Rimouski",
+        "line": "VOCE",
+        "order": 9
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.189615,
+          48.589094
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Mont-Joli",
+        "line": "VOCE",
+        "order": 10
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.689451,
+          48.558681
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Sayabec",
+        "line": "VOCE",
+        "order": 11
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.436161,
+          48.466356
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Amqui",
+        "line": "VOCE",
+        "order": 12
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.227165,
+          48.349706
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Causapscal",
+        "line": "VOCE",
+        "order": 13
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.939234,
+          47.974778
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Matapédia",
+        "line": "VOCE",
+        "order": 14
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.680693,
+          48.004315
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Campbellton",
+        "line": "VOCE",
+        "order": 15
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.305477,
+          47.994529
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Charlo",
+        "line": "VOCE",
+        "order": 16
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.001123,
+          47.920516
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Jacquet River",
+        "line": "VOCE",
+        "order": 17
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.729892,
+          47.778753
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Petit Rocher",
+        "line": "VOCE",
+        "order": 18
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.670869,
+          47.620172
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Bathurst",
+        "line": "VOCE",
+        "order": 19
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.573475,
+          47.004802
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Miramichi",
+        "line": "VOCE",
+        "order": 20
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.42555,
+          46.7295
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Rogersville",
+        "line": "VOCE",
+        "order": 21
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.785939,
+          46.083277
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Moncton",
+        "line": "VOCE",
+        "order": 22
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.367309,
+          45.890116
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Sackville",
+        "line": "VOCE",
+        "order": 23
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.212706,
+          45.830435
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Amherst",
+        "line": "VOCE",
+        "order": 24
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.111903,
+          45.691776
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Springhill Junction",
+        "line": "VOCE",
+        "order": 25
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.275497,
+          45.362523
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Truro",
+        "line": "VOCE",
+        "order": 26
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5717,
+          44.638
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Halifax",
+        "line": "VOCE",
+        "order": 27
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.736732,
+          45.299314
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Fallowfield",
+        "line": "VQMO",
+        "order": 0
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.651467,
+          45.415732
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Ottawa",
+        "line": "VQMO",
+        "order": 1
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.087255,
+          45.312313
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Casselman",
+        "line": "VQMO",
+        "order": 2
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.639915,
+          45.318038
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Alexandria",
+        "line": "VQMO",
+        "order": 3
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.232949,
+          45.274879
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Coteau",
+        "line": "VQMO",
+        "order": 4
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.741365,
+          45.448915
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Dorval",
+        "line": "VQMO",
+        "order": 5
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56839,
+          45.501011
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Montréal",
+        "alternate_names": [
+          "Gare Centrale",
+          "Montréal Central Station"
+        ],
+        "line": "VQMO",
+        "order": 6
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.506668,
+          45.499285
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Saint-Lambert",
+        "line": "VQMO",
+        "order": 7
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.948912,
+          45.627681
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Saint-Hyacinthe",
+        "line": "VQMO",
+        "order": 8
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.488256,
+          45.882027
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Drummondville",
+        "line": "VQMO",
+        "order": 9
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.270626,
+          46.713595
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Charny",
+        "line": "VQMO",
+        "order": 10
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.297616,
+          46.754226
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Sainte-Foy",
+        "alternate_names": [
+          "Ste-Foy"
+        ],
+        "line": "VQMO",
+        "order": 11
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.214349,
+          46.818417
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Québec",
+        "alternate_names": [
+          "Québec City",
+          "Quebec City",
+          "Gare du Palais"
+        ],
+        "line": "VQMO",
+        "order": 12
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380293,
+          43.644454
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Toronto",
+        "alternate_names": [
+          "Union Station",
+          "Toronto Union"
+        ],
+        "line": "VMTO",
+        "order": 0
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.196483,
+          43.755171
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Guildwood",
+        "line": "VMTO",
+        "order": 1
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88331,
+          43.871146
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Oshawa",
+        "line": "VMTO",
+        "order": 2
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.170209,
+          43.968153
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Cobourg",
+        "line": "VMTO",
+        "order": 3
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.375023,
+          44.179431
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Belleville",
+        "line": "VMTO",
+        "order": 4
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.954168,
+          44.25364
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Napanee",
+        "line": "VMTO",
+        "order": 5
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.536546,
+          44.257038
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Kingston",
+        "line": "VMTO",
+        "order": 6
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.692826,
+          44.592064
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Brockville",
+        "line": "VMTO",
+        "order": 7
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.743455,
+          45.042213
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Cornwall",
+        "line": "VMTO",
+        "order": 8
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.741365,
+          45.448915
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Dorval",
+        "line": "VMTO",
+        "order": 9
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56839,
+          45.501011
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Montréal",
+        "alternate_names": [
+          "Gare Centrale",
+          "Montréal Central Station"
+        ],
+        "line": "VMTO",
+        "order": 10
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380293,
+          43.644454
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Toronto",
+        "alternate_names": [
+          "Union Station",
+          "Toronto Union"
+        ],
+        "line": "VOTT",
+        "order": 0
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.196483,
+          43.755171
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Guildwood",
+        "line": "VOTT",
+        "order": 1
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88331,
+          43.871146
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Oshawa",
+        "line": "VOTT",
+        "order": 2
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.170209,
+          43.968153
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Cobourg",
+        "line": "VOTT",
+        "order": 3
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.375023,
+          44.179431
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Belleville",
+        "line": "VOTT",
+        "order": 4
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.536546,
+          44.257038
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Kingston",
+        "line": "VOTT",
+        "order": 5
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.692826,
+          44.592064
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Brockville",
+        "line": "VOTT",
+        "order": 6
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.024061,
+          44.912496
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Smiths Falls",
+        "line": "VOTT",
+        "order": 7
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.736732,
+          45.299314
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Fallowfield",
+        "line": "VOTT",
+        "order": 8
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.651505,
+          45.415971
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Ottawa",
+        "line": "VOTT",
+        "order": 9
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.007142,
+          42.324928
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Windsor",
+        "line": "VWIN",
+        "order": 0
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.17978,
+          42.397145
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Chatham",
+        "line": "VWIN",
+        "order": 1
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.711461,
+          42.745869
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Glencoe",
+        "line": "VWIN",
+        "order": 2
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.246116,
+          42.981018
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "London",
+        "line": "VWIN",
+        "order": 3
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.888065,
+          43.040578
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Ingersoll",
+        "line": "VWIN",
+        "order": 4
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.751411,
+          43.126625
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Woodstock",
+        "line": "VWIN",
+        "order": 5
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.264866,
+          43.146628
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Brantford",
+        "line": "VWIN",
+        "order": 6
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.855019,
+          43.312803
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Aldershot",
+        "line": "VWIN",
+        "order": 7
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.681224,
+          43.456039
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Oakville",
+        "line": "VWIN",
+        "order": 8
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38032,
+          43.644524
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Toronto",
+        "alternate_names": [
+          "Union Station",
+          "Toronto Union"
+        ],
+        "line": "VWIN",
+        "order": 9
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.380427,
+          43.644795
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Toronto",
+        "alternate_names": [
+          "Union Station",
+          "Toronto Union"
+        ],
+        "line": "VSAR",
+        "order": 0
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.918749,
+          43.655576
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Georgetown",
+        "line": "VSAR",
+        "order": 1
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.975518,
+          43.364414
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Stratford",
+        "line": "VSAR",
+        "order": 2
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.136389,
+          43.260483
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "St. Marys",
+        "line": "VSAR",
+        "order": 3
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.246177,
+          42.981128
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "London",
+        "line": "VSAR",
+        "order": 4
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.622955,
+          42.954656
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Strathroy",
+        "line": "VSAR",
+        "order": 5
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.120798,
+          42.94801
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Wyoming",
+        "line": "VSAR",
+        "order": 6
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.388321,
+          42.957117
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Sarnia",
+        "line": "VSAR",
+        "order": 7
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.256381,
+          43.147656
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "St. Catharines",
+        "line": "VMPL",
+        "order": 0
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55826,
+          43.196081
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Grimsby",
+        "line": "VMPL",
+        "order": 1
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.855019,
+          43.312803
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Aldershot",
+        "line": "VMPL",
+        "order": 2
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.681224,
+          43.456039
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Oakville",
+        "line": "VMPL",
+        "order": 3
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38032,
+          43.644524
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Toronto",
+        "alternate_names": [
+          "Union Station",
+          "Toronto Union"
+        ],
+        "line": "VMPL",
+        "order": 4
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.063619,
+          43.108944
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Niagara Falls",
+        "line": "VMPL",
+        "order": 5
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.079302,
+          52.876164
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Jasper",
+        "line": "VJPR",
+        "order": 0
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.447019,
+          52.95837
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Harvey",
+        "line": "VJPR",
+        "order": 1
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.837658,
+          53.123371
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Dunster",
+        "line": "VJPR",
+        "order": 2
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.170494,
+          53.300845
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "McBride",
+        "line": "VJPR",
+        "order": 3
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.592376,
+          53.537754
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Goat River",
+        "line": "VJPR",
+        "order": 4
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.723996,
+          53.608004
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Loos",
+        "line": "VJPR",
+        "order": 5
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.03016,
+          53.748222
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Dome Creek",
+        "line": "VJPR",
+        "order": 6
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.065084,
+          53.767764
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Bend",
+        "line": "VJPR",
+        "order": 7
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.290805,
+          53.843247
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Penny",
+        "line": "VJPR",
+        "order": 8
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.463367,
+          53.922165
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Longworth",
+        "line": "VJPR",
+        "order": 9
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6216,
+          53.988689
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Hutton",
+        "line": "VJPR",
+        "order": 10
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.679284,
+          54.019784
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Sinclair Mills",
+        "line": "VJPR",
+        "order": 11
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.844197,
+          54.076944
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "McGregor",
+        "line": "VJPR",
+        "order": 12
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.947923,
+          54.120594
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Upper Fraser",
+        "line": "VJPR",
+        "order": 13
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.053883,
+          54.1152
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Aleza Lake",
+        "line": "VJPR",
+        "order": 14
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.476967,
+          54.073818
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Willow River",
+        "line": "VJPR",
+        "order": 15
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.744071,
+          53.919246
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Prince George",
+        "line": "VJPR",
+        "order": 16
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.012902,
+          54.01465
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Vanderhoof",
+        "line": "VJPR",
+        "order": 17
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.552823,
+          54.058642
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Fort Fraser",
+        "line": "VJPR",
+        "order": 18
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.021844,
+          54.085339
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Endako",
+        "line": "VJPR",
+        "order": 19
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.763766,
+          54.228602
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Burns Lake",
+        "line": "VJPR",
+        "order": 20
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.65058,
+          54.400261
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Houston",
+        "line": "VJPR",
+        "order": 21
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.050433,
+          54.691345
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Telkwa",
+        "line": "VJPR",
+        "order": 22
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.176189,
+          54.777659
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Smithers",
+        "line": "VJPR",
+        "order": 23
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.578199,
+          55.250737
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "New Hazelton",
+        "line": "VJPR",
+        "order": 24
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.052084,
+          55.099385
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Kitwanga",
+        "line": "VJPR",
+        "order": 25
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.322824,
+          55.020922
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Cedarvale",
+        "line": "VJPR",
+        "order": 26
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.34414,
+          54.841063
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Dorreen",
+        "line": "VJPR",
+        "order": 27
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.271886,
+          54.769464
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Pacific",
+        "line": "VJPR",
+        "order": 28
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.416035,
+          54.636503
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Usk",
+        "line": "VJPR",
+        "order": 29
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.58694,
+          54.514521
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Terrace",
+        "alternate_names": [
+          "Kitimat"
+        ],
+        "line": "VJPR",
+        "order": 30
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.551548,
+          54.226256
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Kwinitsa",
+        "line": "VJPR",
+        "order": 31
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.176962,
+          54.178308
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Cassiar Cannery",
+        "line": "VJPR",
+        "order": 32
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.352264,
+          54.295919
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Prince Rupert",
+        "line": "VJPR",
+        "order": 33
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.133681,
+          49.889089
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "Winnipeg",
+        "line": "VCHU",
+        "order": 0
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.288838,
+          49.977406
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Portage la Prairie",
+        "line": "VCHU",
+        "order": 1
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.948289,
+          50.225372
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Gladstone",
+        "line": "VCHU",
+        "order": 2
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.08944,
+          50.384652
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Plumas",
+        "line": "VCHU",
+        "order": 3
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194912,
+          50.55613
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Glenella",
+        "line": "VCHU",
+        "order": 4
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.489456,
+          50.773611
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "McCreary",
+        "line": "VCHU",
+        "order": 5
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.560927,
+          50.887139
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Laurier",
+        "line": "VCHU",
+        "order": 6
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.78173,
+          51.061306
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Ochre River",
+        "line": "VCHU",
+        "order": 7
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.052433,
+          51.150374
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Dauphin",
+        "line": "VCHU",
+        "order": 8
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.489189,
+          51.147776
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Gilbert Plains",
+        "line": "VCHU",
+        "order": 9
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.700968,
+          51.173115
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Grandview",
+        "line": "VCHU",
+        "order": 10
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.352558,
+          51.230262
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Roblin",
+        "line": "VCHU",
+        "order": 11
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.58681,
+          51.403191
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Togo",
+        "line": "VCHU",
+        "order": 12
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.904034,
+          51.562053
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Kamsack",
+        "line": "VCHU",
+        "order": 13
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.077992,
+          51.581517
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Veregin",
+        "line": "VCHU",
+        "order": 14
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.270358,
+          51.609902
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Mikado",
+        "line": "VCHU",
+        "order": 15
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.43551,
+          51.637481
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Canora",
+        "line": "VCHU",
+        "order": 16
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.543267,
+          51.938197
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Sturgis",
+        "line": "VCHU",
+        "order": 17
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.652437,
+          52.158374
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Endeavour",
+        "line": "VCHU",
+        "order": 18
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.647276,
+          52.470719
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Reserve",
+        "line": "VCHU",
+        "order": 19
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.397521,
+          52.863236
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Hudson Bay",
+        "line": "VCHU",
+        "order": 20
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.247516,
+          53.824019
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "The Pas",
+        "line": "VCHU",
+        "order": 21
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.171678,
+          53.90904
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Tremaudan",
+        "line": "VCHU",
+        "order": 22
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.059131,
+          53.957599
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Orok",
+        "line": "VCHU",
+        "order": 23
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.934712,
+          53.987231
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Atikameg Lake",
+        "line": "VCHU",
+        "order": 24
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.873847,
+          54.006877
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Finger",
+        "line": "VCHU",
+        "order": 25
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.805057,
+          54.048771
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Budd",
+        "line": "VCHU",
+        "order": 26
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.630654,
+          54.17562
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Halcrow",
+        "line": "VCHU",
+        "order": 27
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.602459,
+          54.223228
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Cormorant",
+        "line": "VCHU",
+        "order": 28
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.53731,
+          54.253055
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Dering",
+        "line": "VCHU",
+        "order": 29
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.339659,
+          54.303327
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Rawebb",
+        "line": "VCHU",
+        "order": 30
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.170148,
+          54.364607
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Dyce",
+        "line": "VCHU",
+        "order": 31
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.996557,
+          54.426389
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Paterson",
+        "line": "VCHU",
+        "order": 32
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.753477,
+          54.503104
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Wekusko",
+        "line": "VCHU",
+        "order": 33
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.479853,
+          54.56591
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Turnbull",
+        "line": "VCHU",
+        "order": 34
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.161718,
+          54.642828
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Ponton",
+        "line": "VCHU",
+        "order": 35
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.985599,
+          54.681219
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Button",
+        "line": "VCHU",
+        "order": 36
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.863657,
+          54.742455
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Dunlop",
+        "line": "VCHU",
+        "order": 37
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.753101,
+          54.840068
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Pipun",
+        "line": "VCHU",
+        "order": 38
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.63073,
+          54.90908
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Wabowden",
+        "line": "VCHU",
+        "order": 39
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.41445,
+          55.029428
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Lyddal",
+        "line": "VCHU",
+        "order": 40
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.223485,
+          55.108676
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Odhill",
+        "line": "VCHU",
+        "order": 41
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.105482,
+          55.158614
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Earchman",
+        "line": "VCHU",
+        "order": 42
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.967837,
+          55.225969
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "La Pérouse",
+        "line": "VCHU",
+        "order": 43
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.832598,
+          55.275907
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Hockin",
+        "line": "VCHU",
+        "order": 44
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.687782,
+          55.31909
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Thicket Portage",
+        "line": "VCHU",
+        "order": 45
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.541396,
+          55.38122
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Leven",
+        "line": "VCHU",
+        "order": 46
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.831259,
+          55.740002
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Thompson",
+        "line": "VCHU",
+        "order": 47
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.387874,
+          55.462985
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Sipiwesk",
+        "line": "VCHU",
+        "order": 48
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.15391,
+          55.585728
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Pikwitonei",
+        "line": "VCHU",
+        "order": 49
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.061414,
+          55.636726
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Bridgar",
+        "line": "VCHU",
+        "order": 50
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.814156,
+          55.725958
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Wilde",
+        "line": "VCHU",
+        "order": 51
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.687918,
+          55.766521
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Arnot",
+        "line": "VCHU",
+        "order": 52
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.457321,
+          55.882568
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Boyd",
+        "line": "VCHU",
+        "order": 53
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.298976,
+          55.91537
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Pit Siding",
+        "line": "VCHU",
+        "order": 54
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.990435,
+          55.979425
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Munk",
+        "line": "VCHU",
+        "order": 55
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.604513,
+          56.065351
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Ilford",
+        "line": "VCHU",
+        "order": 56
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37991,
+          56.125401
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Nonsuch",
+        "line": "VCHU",
+        "order": 57
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.213624,
+          56.176659
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Wivenhoe",
+        "line": "VCHU",
+        "order": 58
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.865369,
+          56.29114
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Luke",
+        "line": "VCHU",
+        "order": 59
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.699314,
+          56.347232
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Gillam",
+        "line": "VCHU",
+        "order": 60
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.529812,
+          56.409851
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Kettle Rapids",
+        "line": "VCHU",
+        "order": 61
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.234688,
+          56.495428
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Bird",
+        "line": "VCHU",
+        "order": 62
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.07205,
+          56.558942
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Amery",
+        "line": "VCHU",
+        "order": 63
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.071389,
+          56.694312
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Charlebois",
+        "line": "VCHU",
+        "order": 64
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.093392,
+          56.818567
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Weir River",
+        "line": "VCHU",
+        "order": 65
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.118155,
+          56.954967
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Lawledge",
+        "line": "VCHU",
+        "order": 66
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.146362,
+          57.082919
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Thibaudeau",
+        "line": "VCHU",
+        "order": 67
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.168561,
+          57.197162
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Silcox",
+        "line": "VCHU",
+        "order": 68
+      },
+      "id": 260
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.190842,
+          57.387543
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Herchmer",
+        "line": "VCHU",
+        "order": 69
+      },
+      "id": 261
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.198219,
+          57.44683
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Kellett",
+        "line": "VCHU",
+        "order": 70
+      },
+      "id": 262
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.210077,
+          57.59767
+        ]
+      },
+      "properties": {
+        "id": 263,
+        "name": "O'Day",
+        "line": "VCHU",
+        "order": 71
+      },
+      "id": 263
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.231504,
+          57.715496
+        ]
+      },
+      "properties": {
+        "id": 264,
+        "name": "Back",
+        "line": "VCHU",
+        "order": 72
+      },
+      "id": 264
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.214341,
+          57.801091
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "name": "M'Clintock",
+        "line": "VCHU",
+        "order": 73
+      },
+      "id": 265
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.171962,
+          57.936662
+        ]
+      },
+      "properties": {
+        "id": 266,
+        "name": "Belcher",
+        "line": "VCHU",
+        "order": 74
+      },
+      "id": 266
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.151024,
+          58.057917
+        ]
+      },
+      "properties": {
+        "id": 267,
+        "name": "Cromarty",
+        "line": "VCHU",
+        "order": 75
+      },
+      "id": 267
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.146937,
+          58.195848
+        ]
+      },
+      "properties": {
+        "id": 268,
+        "name": "Chesnaye",
+        "line": "VCHU",
+        "order": 76
+      },
+      "id": 268
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15785,
+          58.3164
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "name": "Lamprey",
+        "line": "VCHU",
+        "order": 77
+      },
+      "id": 269
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.136361,
+          58.422792
+        ]
+      },
+      "properties": {
+        "id": 270,
+        "name": "Bylot",
+        "line": "VCHU",
+        "order": 78
+      },
+      "id": 270
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.130235,
+          58.540306
+        ]
+      },
+      "properties": {
+        "id": 271,
+        "name": "Digges",
+        "line": "VCHU",
+        "order": 79
+      },
+      "id": 271
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.121009,
+          58.659985
+        ]
+      },
+      "properties": {
+        "id": 272,
+        "name": "Tidal",
+        "line": "VCHU",
+        "order": 80
+      },
+      "id": 272
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.175367,
+          58.767962
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "name": "Churchill",
+        "line": "VCHU",
+        "order": 81
+      },
+      "id": 273
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.992216,
+          46.487346
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "name": "Sudbury",
+        "line": "VSWR",
+        "order": 0
+      },
+      "id": 274
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.104781,
+          46.551586
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "name": "Azilda",
+        "line": "VSWR",
+        "order": 1
+      },
+      "id": 275
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1966,
+          46.585701
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "name": "Chelmsford",
+        "line": "VSWR",
+        "order": 2
+      },
+      "id": 276
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.296033,
+          46.571023
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "name": "Larchwood",
+        "line": "VSWR",
+        "order": 3
+      },
+      "id": 277
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.406769,
+          46.601573
+        ]
+      },
+      "properties": {
+        "id": 278,
+        "name": "Levack",
+        "line": "VSWR",
+        "order": 4
+      },
+      "id": 278
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.557291,
+          46.706142
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "name": "Cartier",
+        "line": "VSWR",
+        "order": 5
+      },
+      "id": 279
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.629671,
+          46.781528
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "name": "Benny",
+        "line": "VSWR",
+        "order": 6
+      },
+      "id": 280
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.679756,
+          46.804601
+        ]
+      },
+      "properties": {
+        "id": 281,
+        "name": "Stralak",
+        "line": "VSWR",
+        "order": 7
+      },
+      "id": 281
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.773463,
+          46.909527
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "name": "Pogamasing",
+        "line": "VSWR",
+        "order": 8
+      },
+      "id": 282
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.79817,
+          46.940965
+        ]
+      },
+      "properties": {
+        "id": 283,
+        "name": "Sheahan",
+        "line": "VSWR",
+        "order": 9
+      },
+      "id": 283
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.866535,
+          47.052741
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "name": "Forks",
+        "line": "VSWR",
+        "order": 10
+      },
+      "id": 284
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.943344,
+          47.092049
+        ]
+      },
+      "properties": {
+        "id": 285,
+        "name": "Metagama",
+        "line": "VSWR",
+        "order": 11
+      },
+      "id": 285
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.960378,
+          47.146665
+        ]
+      },
+      "properties": {
+        "id": 286,
+        "name": "Sinker",
+        "line": "VSWR",
+        "order": 12
+      },
+      "id": 286
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.102962,
+          47.300033
+        ]
+      },
+      "properties": {
+        "id": 287,
+        "name": "Biscotasing",
+        "line": "VSWR",
+        "order": 13
+      },
+      "id": 287
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.198639,
+          47.330054
+        ]
+      },
+      "properties": {
+        "id": 288,
+        "name": "Roberts",
+        "line": "VSWR",
+        "order": 14
+      },
+      "id": 288
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.33887,
+          47.446557
+        ]
+      },
+      "properties": {
+        "id": 289,
+        "name": "Ramsey",
+        "line": "VSWR",
+        "order": 15
+      },
+      "id": 289
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.629488,
+          47.511971
+        ]
+      },
+      "properties": {
+        "id": 290,
+        "name": "Woman River",
+        "line": "VSWR",
+        "order": 16
+      },
+      "id": 290
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.772633,
+          47.594662
+        ]
+      },
+      "properties": {
+        "id": 291,
+        "name": "Sultan",
+        "line": "VSWR",
+        "order": 17
+      },
+      "id": 291
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.974168,
+          47.632277
+        ]
+      },
+      "properties": {
+        "id": 292,
+        "name": "Kormak",
+        "line": "VSWR",
+        "order": 18
+      },
+      "id": 292
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.014887,
+          47.645133
+        ]
+      },
+      "properties": {
+        "id": 293,
+        "name": "Kinogama",
+        "line": "VSWR",
+        "order": 19
+      },
+      "id": 293
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.202449,
+          47.725071
+        ]
+      },
+      "properties": {
+        "id": 294,
+        "name": "Nemegos",
+        "line": "VSWR",
+        "order": 20
+      },
+      "id": 294
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.367542,
+          47.76029
+        ]
+      },
+      "properties": {
+        "id": 295,
+        "name": "Devon",
+        "line": "VSWR",
+        "order": 21
+      },
+      "id": 295
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.403567,
+          47.841725
+        ]
+      },
+      "properties": {
+        "id": 296,
+        "name": "Chapleau",
+        "line": "VSWR",
+        "order": 22
+      },
+      "id": 296
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.562743,
+          47.852194
+        ]
+      },
+      "properties": {
+        "id": 297,
+        "name": "Esher",
+        "line": "VSWR",
+        "order": 23
+      },
+      "id": 297
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.708535,
+          47.949362
+        ]
+      },
+      "properties": {
+        "id": 298,
+        "name": "Musk",
+        "line": "VSWR",
+        "order": 24
+      },
+      "id": 298
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.765618,
+          47.957417
+        ]
+      },
+      "properties": {
+        "id": 299,
+        "name": "Nicholson",
+        "line": "VSWR",
+        "order": 25
+      },
+      "id": 299
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.909529,
+          48.108601
+        ]
+      },
+      "properties": {
+        "id": 300,
+        "name": "Bolkow",
+        "line": "VSWR",
+        "order": 26
+      },
+      "id": 300
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.033227,
+          48.152888
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Dalton",
+        "line": "VSWR",
+        "order": 27
+      },
+      "id": 301
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.084707,
+          48.311106
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Missanabie",
+        "line": "VSWR",
+        "order": 28
+      },
+      "id": 302
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.264616,
+          48.351579
+        ]
+      },
+      "properties": {
+        "id": 303,
+        "name": "Lochalsh",
+        "line": "VSWR",
+        "order": 29
+      },
+      "id": 303
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412888,
+          48.46553
+        ]
+      },
+      "properties": {
+        "id": 304,
+        "name": "Franz",
+        "line": "VSWR",
+        "order": 30
+      },
+      "id": 304
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.534713,
+          48.482708
+        ]
+      },
+      "properties": {
+        "id": 305,
+        "name": "Swanson",
+        "line": "VSWR",
+        "order": 31
+      },
+      "id": 305
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.76538,
+          48.460042
+        ]
+      },
+      "properties": {
+        "id": 306,
+        "name": "Girdwood",
+        "line": "VSWR",
+        "order": 32
+      },
+      "id": 306
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.954027,
+          48.482888
+        ]
+      },
+      "properties": {
+        "id": 307,
+        "name": "Amyot",
+        "line": "VSWR",
+        "order": 33
+      },
+      "id": 307
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.139572,
+          48.518113
+        ]
+      },
+      "properties": {
+        "id": 308,
+        "name": "O'Brien",
+        "line": "VSWR",
+        "order": 34
+      },
+      "id": 308
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.282675,
+          48.589657
+        ]
+      },
+      "properties": {
+        "id": 309,
+        "name": "White River",
+        "line": "VSWR",
+        "order": 35
+      },
+      "id": 309
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56839,
+          45.501011
+        ]
+      },
+      "properties": {
+        "id": 310,
+        "name": "Montréal",
+        "alternate_names": [
+          "Gare Centrale",
+          "Montréal Central Station"
+        ],
+        "line": "VJON",
+        "order": 0
+      },
+      "id": 310
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.653958,
+          45.550044
+        ]
+      },
+      "properties": {
+        "id": 311,
+        "name": "Sauvé",
+        "line": "VJON",
+        "order": 1
+      },
+      "id": 311
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.596446,
+          45.618042
+        ]
+      },
+      "properties": {
+        "id": 312,
+        "name": "Anjou",
+        "line": "VJON",
+        "order": 2
+      },
+      "id": 312
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.443872,
+          46.029544
+        ]
+      },
+      "properties": {
+        "id": 313,
+        "name": "Joliette",
+        "line": "VJON",
+        "order": 3
+      },
+      "id": 313
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.109424,
+          46.273492
+        ]
+      },
+      "properties": {
+        "id": 314,
+        "name": "Saint-Justin",
+        "line": "VJON",
+        "order": 4
+      },
+      "id": 314
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.016023,
+          46.401079
+        ]
+      },
+      "properties": {
+        "id": 315,
+        "name": "Saint-Paulin",
+        "line": "VJON",
+        "order": 5
+      },
+      "id": 315
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.922225,
+          46.441846
+        ]
+      },
+      "properties": {
+        "id": 316,
+        "name": "Charette",
+        "line": "VJON",
+        "order": 6
+      },
+      "id": 316
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.745242,
+          46.549851
+        ]
+      },
+      "properties": {
+        "id": 317,
+        "name": "Shawinigan",
+        "line": "VJON",
+        "order": 7
+      },
+      "id": 317
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.686518,
+          46.60612
+        ]
+      },
+      "properties": {
+        "id": 318,
+        "name": "Grand-Mère",
+        "line": "VJON",
+        "order": 8
+      },
+      "id": 318
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.638225,
+          46.640082
+        ]
+      },
+      "properties": {
+        "id": 319,
+        "name": "Garneau",
+        "line": "VJON",
+        "order": 9
+      },
+      "id": 319
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.564148,
+          46.723129
+        ]
+      },
+      "properties": {
+        "id": 320,
+        "name": "Saint-Tite",
+        "line": "VJON",
+        "order": 10
+      },
+      "id": 320
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.467888,
+          46.853557
+        ]
+      },
+      "properties": {
+        "id": 321,
+        "name": "Hervey",
+        "line": "VJON",
+        "order": 11
+      },
+      "id": 321
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.28683,
+          46.933743
+        ]
+      },
+      "properties": {
+        "id": 322,
+        "name": "Rousseau",
+        "line": "VJON",
+        "order": 12
+      },
+      "id": 322
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.179438,
+          46.989057
+        ]
+      },
+      "properties": {
+        "id": 323,
+        "name": "Rivière-à-Pierre",
+        "line": "VJON",
+        "order": 13
+      },
+      "id": 323
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.25142,
+          47.219883
+        ]
+      },
+      "properties": {
+        "id": 324,
+        "name": "Miquick",
+        "line": "VJON",
+        "order": 14
+      },
+      "id": 324
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.212526,
+          47.318598
+        ]
+      },
+      "properties": {
+        "id": 325,
+        "name": "Club Jacques-Cartier",
+        "line": "VJON",
+        "order": 15
+      },
+      "id": 325
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.202348,
+          47.337509
+        ]
+      },
+      "properties": {
+        "id": 326,
+        "name": "Falrie",
+        "line": "VJON",
+        "order": 16
+      },
+      "id": 326
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.199884,
+          47.355423
+        ]
+      },
+      "properties": {
+        "id": 327,
+        "name": "Pont Beaudet",
+        "line": "VJON",
+        "order": 17
+      },
+      "id": 327
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.211003,
+          47.366376
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "name": "Saint-Hilaire de Portneuf",
+        "line": "VJON",
+        "order": 18
+      },
+      "id": 328
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.221231,
+          47.381368
+        ]
+      },
+      "properties": {
+        "id": 329,
+        "name": "Bima",
+        "line": "VJON",
+        "order": 19
+      },
+      "id": 329
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.224371,
+          47.394465
+        ]
+      },
+      "properties": {
+        "id": 330,
+        "name": "Lac Malouin",
+        "line": "VJON",
+        "order": 20
+      },
+      "id": 330
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.232138,
+          47.419634
+        ]
+      },
+      "properties": {
+        "id": 331,
+        "name": "Club Iroquois",
+        "line": "VJON",
+        "order": 21
+      },
+      "id": 331
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.249067,
+          47.441416
+        ]
+      },
+      "properties": {
+        "id": 332,
+        "name": "Stadacona",
+        "line": "VJON",
+        "order": 22
+      },
+      "id": 332
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.218515,
+          47.482371
+        ]
+      },
+      "properties": {
+        "id": 333,
+        "name": "Sanford",
+        "line": "VJON",
+        "order": 23
+      },
+      "id": 333
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.234753,
+          47.532003
+        ]
+      },
+      "properties": {
+        "id": 334,
+        "name": "Lac-aux-Perles",
+        "line": "VJON",
+        "order": 24
+      },
+      "id": 334
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.243138,
+          47.536524
+        ]
+      },
+      "properties": {
+        "id": 335,
+        "name": "Hirondelle",
+        "line": "VJON",
+        "order": 25
+      },
+      "id": 335
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.240466,
+          47.575632
+        ]
+      },
+      "properties": {
+        "id": 336,
+        "name": "Club Nicol",
+        "line": "VJON",
+        "order": 26
+      },
+      "id": 336
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.24415,
+          47.613298
+        ]
+      },
+      "properties": {
+        "id": 337,
+        "name": "Club Triton",
+        "line": "VJON",
+        "order": 27
+      },
+      "id": 337
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.274182,
+          47.658725
+        ]
+      },
+      "properties": {
+        "id": 338,
+        "name": "Lac-Édouard",
+        "line": "VJON",
+        "order": 28
+      },
+      "id": 338
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.229883,
+          47.724342
+        ]
+      },
+      "properties": {
+        "id": 339,
+        "name": "Cherokee",
+        "line": "VJON",
+        "order": 29
+      },
+      "id": 339
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.216343,
+          47.733114
+        ]
+      },
+      "properties": {
+        "id": 340,
+        "name": "Caribou",
+        "line": "VJON",
+        "order": 30
+      },
+      "id": 340
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.182601,
+          47.769924
+        ]
+      },
+      "properties": {
+        "id": 341,
+        "name": "Club Grégoire",
+        "line": "VJON",
+        "order": 31
+      },
+      "id": 341
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.186698,
+          47.783431
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "name": "Club Sommet",
+        "line": "VJON",
+        "order": 32
+      },
+      "id": 342
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.185368,
+          47.788387
+        ]
+      },
+      "properties": {
+        "id": 343,
+        "name": "Summit",
+        "line": "VJON",
+        "order": 33
+      },
+      "id": 343
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.155969,
+          47.853779
+        ]
+      },
+      "properties": {
+        "id": 344,
+        "name": "Brooks",
+        "line": "VJON",
+        "order": 34
+      },
+      "id": 344
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.146353,
+          47.931573
+        ]
+      },
+      "properties": {
+        "id": 345,
+        "name": "Kiskisink",
+        "line": "VJON",
+        "order": 35
+      },
+      "id": 345
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.150124,
+          47.936664
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "name": "Van Bruyssels",
+        "line": "VJON",
+        "order": 36
+      },
+      "id": 346
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.183555,
+          47.999782
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "name": "Lac des Roches",
+        "line": "VJON",
+        "order": 37
+      },
+      "id": 347
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.181431,
+          48.016481
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "name": "Kondiaronk",
+        "line": "VJON",
+        "order": 38
+      },
+      "id": 348
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.178874,
+          48.100314
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "name": "Club Lizotte",
+        "line": "VJON",
+        "order": 39
+      },
+      "id": 349
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.172881,
+          48.269183
+        ]
+      },
+      "properties": {
+        "id": 350,
+        "name": "Lac Bouchette",
+        "line": "VJON",
+        "order": 40
+      },
+      "id": 350
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.058414,
+          48.421448
+        ]
+      },
+      "properties": {
+        "id": 351,
+        "name": "Chambord",
+        "line": "VJON",
+        "order": 41
+      },
+      "id": 351
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.662417,
+          48.443462
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Hébertville",
+        "line": "VJON",
+        "order": 42
+      },
+      "id": 352
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.253,
+          48.411635
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "name": "Jonquière",
+        "line": "VJON",
+        "order": 43
+      },
+      "id": 353
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56839,
+          45.501011
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "name": "Montréal",
+        "alternate_names": [
+          "Gare Centrale",
+          "Montréal Central Station"
+        ],
+        "line": "VSEN",
+        "order": 0
+      },
+      "id": 354
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.653958,
+          45.550044
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Sauvé",
+        "line": "VSEN",
+        "order": 1
+      },
+      "id": 355
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.596446,
+          45.618042
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "name": "Anjou",
+        "line": "VSEN",
+        "order": 2
+      },
+      "id": 356
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.443872,
+          46.029544
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "name": "Joliette",
+        "line": "VSEN",
+        "order": 3
+      },
+      "id": 357
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.109424,
+          46.273492
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "name": "Saint-Justin",
+        "line": "VSEN",
+        "order": 4
+      },
+      "id": 358
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.016023,
+          46.401079
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "name": "Saint-Paulin",
+        "line": "VSEN",
+        "order": 5
+      },
+      "id": 359
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.922225,
+          46.441846
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "name": "Charette",
+        "line": "VSEN",
+        "order": 6
+      },
+      "id": 360
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.745242,
+          46.549851
+        ]
+      },
+      "properties": {
+        "id": 361,
+        "name": "Shawinigan",
+        "line": "VSEN",
+        "order": 7
+      },
+      "id": 361
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.686518,
+          46.60612
+        ]
+      },
+      "properties": {
+        "id": 362,
+        "name": "Grand-Mère",
+        "line": "VSEN",
+        "order": 8
+      },
+      "id": 362
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.638496,
+          46.640206
+        ]
+      },
+      "properties": {
+        "id": 363,
+        "name": "Garneau",
+        "line": "VSEN",
+        "order": 9
+      },
+      "id": 363
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.564148,
+          46.723129
+        ]
+      },
+      "properties": {
+        "id": 364,
+        "name": "Saint-Tite",
+        "line": "VSEN",
+        "order": 10
+      },
+      "id": 364
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.467888,
+          46.853557
+        ]
+      },
+      "properties": {
+        "id": 365,
+        "name": "Hervey",
+        "line": "VSEN",
+        "order": 11
+      },
+      "id": 365
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.782396,
+          47.439417
+        ]
+      },
+      "properties": {
+        "id": 366,
+        "name": "La Tuque",
+        "line": "VSEN",
+        "order": 12
+      },
+      "id": 366
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.773553,
+          47.484747
+        ]
+      },
+      "properties": {
+        "id": 367,
+        "name": "Fitzpatrick",
+        "line": "VSEN",
+        "order": 13
+      },
+      "id": 367
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.917725,
+          47.619993
+        ]
+      },
+      "properties": {
+        "id": 368,
+        "name": "Cressman",
+        "line": "VSEN",
+        "order": 14
+      },
+      "id": 368
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.983893,
+          47.662169
+        ]
+      },
+      "properties": {
+        "id": 369,
+        "name": "Club Vermillon",
+        "line": "VSEN",
+        "order": 15
+      },
+      "id": 369
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.004076,
+          47.671682
+        ]
+      },
+      "properties": {
+        "id": 370,
+        "name": "Rapide Blanc",
+        "line": "VSEN",
+        "order": 16
+      },
+      "id": 370
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.140085,
+          47.670907
+        ]
+      },
+      "properties": {
+        "id": 371,
+        "name": "Lac Darey",
+        "line": "VSEN",
+        "order": 17
+      },
+      "id": 371
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.208084,
+          47.700406
+        ]
+      },
+      "properties": {
+        "id": 372,
+        "name": "Duplessis",
+        "line": "VSEN",
+        "order": 18
+      },
+      "id": 372
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.320093,
+          47.761668
+        ]
+      },
+      "properties": {
+        "id": 373,
+        "name": "McTavish Club",
+        "line": "VSEN",
+        "order": 19
+      },
+      "id": 373
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.334049,
+          47.771278
+        ]
+      },
+      "properties": {
+        "id": 374,
+        "name": "Windigo",
+        "line": "VSEN",
+        "order": 20
+      },
+      "id": 374
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.417964,
+          47.814066
+        ]
+      },
+      "properties": {
+        "id": 375,
+        "name": "Ferguson",
+        "line": "VSEN",
+        "order": 21
+      },
+      "id": 375
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.467845,
+          47.853256
+        ]
+      },
+      "properties": {
+        "id": 376,
+        "name": "Wigwam Club",
+        "line": "VSEN",
+        "order": 22
+      },
+      "id": 376
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.556373,
+          47.857579
+        ]
+      },
+      "properties": {
+        "id": 377,
+        "name": "Vandry",
+        "line": "VSEN",
+        "order": 23
+      },
+      "id": 377
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.640059,
+          47.885674
+        ]
+      },
+      "properties": {
+        "id": 378,
+        "name": "Dessane",
+        "line": "VSEN",
+        "order": 24
+      },
+      "id": 378
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.752937,
+          47.899083
+        ]
+      },
+      "properties": {
+        "id": 379,
+        "name": "Saint-Maurice Rivière Boom",
+        "line": "VSEN",
+        "order": 25
+      },
+      "id": 379
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.775102,
+          47.898152
+        ]
+      },
+      "properties": {
+        "id": 380,
+        "name": "Weymont",
+        "line": "VSEN",
+        "order": 26
+      },
+      "id": 380
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.792983,
+          47.893935
+        ]
+      },
+      "properties": {
+        "id": 381,
+        "name": "Sanmaur",
+        "line": "VSEN",
+        "order": 27
+      },
+      "id": 381
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881172,
+          47.90203
+        ]
+      },
+      "properties": {
+        "id": 382,
+        "name": "Cann",
+        "line": "VSEN",
+        "order": 28
+      },
+      "id": 382
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933528,
+          47.923957
+        ]
+      },
+      "properties": {
+        "id": 383,
+        "name": "Club Bélanger",
+        "line": "VSEN",
+        "order": 29
+      },
+      "id": 383
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.043937,
+          47.866132
+        ]
+      },
+      "properties": {
+        "id": 384,
+        "name": "Hibbard",
+        "line": "VSEN",
+        "order": 30
+      },
+      "id": 384
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.180292,
+          47.887732
+        ]
+      },
+      "properties": {
+        "id": 385,
+        "name": "Casey",
+        "line": "VSEN",
+        "order": 31
+      },
+      "id": 385
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.34908,
+          47.861301
+        ]
+      },
+      "properties": {
+        "id": 386,
+        "name": "McCarthy",
+        "line": "VSEN",
+        "order": 32
+      },
+      "id": 386
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.373886,
+          47.879067
+        ]
+      },
+      "properties": {
+        "id": 387,
+        "name": "Club Sisco",
+        "line": "VSEN",
+        "order": 33
+      },
+      "id": 387
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.470219,
+          47.872567
+        ]
+      },
+      "properties": {
+        "id": 388,
+        "name": "Manjobagues",
+        "line": "VSEN",
+        "order": 34
+      },
+      "id": 388
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.614638,
+          47.919704
+        ]
+      },
+      "properties": {
+        "id": 389,
+        "name": "Parent",
+        "line": "VSEN",
+        "order": 35
+      },
+      "id": 389
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.764919,
+          47.968394
+        ]
+      },
+      "properties": {
+        "id": 390,
+        "name": "Timbrell",
+        "line": "VSEN",
+        "order": 36
+      },
+      "id": 390
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.847984,
+          48.006545
+        ]
+      },
+      "properties": {
+        "id": 391,
+        "name": "Club Rita",
+        "line": "VSEN",
+        "order": 37
+      },
+      "id": 391
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.865944,
+          48.029787
+        ]
+      },
+      "properties": {
+        "id": 392,
+        "name": "Strachan",
+        "line": "VSEN",
+        "order": 38
+      },
+      "id": 392
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.895353,
+          48.067412
+        ]
+      },
+      "properties": {
+        "id": 393,
+        "name": "Club Maniwawa",
+        "line": "VSEN",
+        "order": 39
+      },
+      "id": 393
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.967327,
+          48.117107
+        ]
+      },
+      "properties": {
+        "id": 394,
+        "name": "Greening",
+        "line": "VSEN",
+        "order": 40
+      },
+      "id": 394
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.056558,
+          48.111169
+        ]
+      },
+      "properties": {
+        "id": 395,
+        "name": "Oskelaneo Lodge",
+        "line": "VSEN",
+        "order": 41
+      },
+      "id": 395
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.205103,
+          48.108146
+        ]
+      },
+      "properties": {
+        "id": 396,
+        "name": "Rivière Oskélanéo",
+        "line": "VSEN",
+        "order": 42
+      },
+      "id": 396
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.35983,
+          48.109646
+        ]
+      },
+      "properties": {
+        "id": 397,
+        "name": "Clova",
+        "line": "VSEN",
+        "order": 43
+      },
+      "id": 397
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.478577,
+          48.118627
+        ]
+      },
+      "properties": {
+        "id": 398,
+        "name": "Coquar",
+        "line": "VSEN",
+        "order": 44
+      },
+      "id": 398
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.641757,
+          48.168195
+        ]
+      },
+      "properties": {
+        "id": 399,
+        "name": "Monet",
+        "line": "VSEN",
+        "order": 45
+      },
+      "id": 399
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.749181,
+          48.194356
+        ]
+      },
+      "properties": {
+        "id": 400,
+        "name": "Consolidated Bathurst",
+        "line": "VSEN",
+        "order": 46
+      },
+      "id": 400
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.808647,
+          48.19653
+        ]
+      },
+      "properties": {
+        "id": 401,
+        "name": "Kapitachuan",
+        "line": "VSEN",
+        "order": 47
+      },
+      "id": 401
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.831668,
+          48.200502
+        ]
+      },
+      "properties": {
+        "id": 402,
+        "name": "Bourmont",
+        "line": "VSEN",
+        "order": 48
+      },
+      "id": 402
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.896645,
+          48.211014
+        ]
+      },
+      "properties": {
+        "id": 403,
+        "name": "Club Beaudin",
+        "line": "VSEN",
+        "order": 49
+      },
+      "id": 403
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.987352,
+          48.230314
+        ]
+      },
+      "properties": {
+        "id": 404,
+        "name": "Langlade",
+        "line": "VSEN",
+        "order": 50
+      },
+      "id": 404
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.998402,
+          48.229645
+        ]
+      },
+      "properties": {
+        "id": 405,
+        "name": "Da-Rou-Lac Lodge",
+        "line": "VSEN",
+        "order": 51
+      },
+      "id": 405
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.113195,
+          48.249532
+        ]
+      },
+      "properties": {
+        "id": 406,
+        "name": "Gagnon",
+        "line": "VSEN",
+        "order": 52
+      },
+      "id": 406
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.146928,
+          48.253329
+        ]
+      },
+      "properties": {
+        "id": 407,
+        "name": "Dix",
+        "line": "VSEN",
+        "order": 53
+      },
+      "id": 407
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.320137,
+          48.252535
+        ]
+      },
+      "properties": {
+        "id": 408,
+        "name": "Bolger",
+        "line": "VSEN",
+        "order": 54
+      },
+      "id": 408
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.428765,
+          48.235343
+        ]
+      },
+      "properties": {
+        "id": 409,
+        "name": "Forsythe",
+        "line": "VSEN",
+        "order": 55
+      },
+      "id": 409
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.733444,
+          48.242384
+        ]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Press",
+        "line": "VSEN",
+        "order": 56
+      },
+      "id": 410
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.830338,
+          48.296303
+        ]
+      },
+      "properties": {
+        "id": 411,
+        "name": "Signai",
+        "line": "VSEN",
+        "order": 57
+      },
+      "id": 411
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.084326,
+          48.333076
+        ]
+      },
+      "properties": {
+        "id": 412,
+        "name": "Mégiscane",
+        "line": "VSEN",
+        "order": 58
+      },
+      "id": 412
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.244231,
+          48.392276
+        ]
+      },
+      "properties": {
+        "id": 413,
+        "name": "Senneterre",
+        "line": "VSEN",
+        "order": 59
+      },
+      "id": 413
+    }
+  ]
+}

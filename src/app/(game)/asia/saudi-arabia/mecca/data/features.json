@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.975418,
+          21.336902
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Arafat 1",
+        "alternate_names": [
+          "محطة عرفات رقم 1"
+        ],
+        "line": "MECCS",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.969028,
+          21.341484
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Arafat 2",
+        "alternate_names": [
+          "محطة عرفات رقم 2"
+        ],
+        "line": "MECCS",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.961222,
+          21.34583
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Arafat 3",
+        "alternate_names": [
+          "محطة عرفات رقم 3"
+        ],
+        "line": "MECCS",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.917972,
+          21.378916
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Muzdalifah Station 1",
+        "alternate_names": [
+          "محطة مزدلفة رقم 1"
+        ],
+        "line": "MECCS",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.90675,
+          21.383029
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Muzdalifah Station 2",
+        "alternate_names": [
+          "محطة مزدلفة رقم 2"
+        ],
+        "line": "MECCS",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.90049,
+          21.390591
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Muzdalifah Station 3",
+        "alternate_names": [
+          "محطة مزدلفة رقم 3"
+        ],
+        "line": "MECCS",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.897893,
+          21.39918
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Mina Station 1",
+        "alternate_names": [
+          "محطة منى رقم 1"
+        ],
+        "line": "MECCS",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.891264,
+          21.404471
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Mina Station 2",
+        "alternate_names": [
+          "محطة منى رقم 2"
+        ],
+        "line": "MECCS",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.87064,
+          21.418396
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Jamarat (Mina Station 3)",
+        "alternate_names": [
+          "قطار المشاعر - محطة منى 3 - الجمرات"
+        ],
+        "line": "MECCS",
+        "order": 8
+      },
+      "id": 8
+    }
+  ]
+}

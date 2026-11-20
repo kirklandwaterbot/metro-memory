@@ -1,0 +1,96 @@
+{
+  "slug": "yokohama",
+  "path": "asia/japan/yokohama",
+  "gameTitle": "Yokohama Metros Memory",
+  "description": "How many Yokohama Metros stations can you name from memory?",
+  "locale": "ja_JP",
+  "bbox": [
+    35.252,
+    139.357,
+    35.648,
+    139.843
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ja-Latn",
+      "name:ja_rm"
+    ],
+    "altTags": [
+      "name:ja-Hira",
+      "name:ja_kana"
+    ],
+    "strip": "(駅|停留場|停留所)$"
+  },
+  "lineGroups": [
+    {
+      "title": "Yokohama Metros",
+      "lines": [
+        "YOKOB",
+        "YOKOG",
+        "YOKOMM",
+        "YOKOSL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "YOKOB",
+      "name": "Blue Line",
+      "match": {
+        "@id": "^(1905261|7732276)$"
+      },
+      "color": "#005BA5",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "YOKOB.svg"
+    },
+    {
+      "id": "YOKOG",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(3444217|7732275)$"
+      },
+      "color": "#048D58",
+      "textColor": "#FFFFFF",
+      "badge": "G",
+      "icon": "YOKOG.svg"
+    },
+    {
+      "id": "YOKOMM",
+      "name": "Yokohama Minatomirai Line",
+      "match": {
+        "@id": "^(1905260|7703632)$"
+      },
+      "color": "#C61094",
+      "textColor": "#FFFFFF",
+      "badge": "MM",
+      "icon": "YOKOMM.svg"
+    },
+    {
+      "id": "YOKOSL",
+      "name": "Kanazawa Seaside Line",
+      "match": {
+        "@id": "^(5503502|5503503)$"
+      },
+      "color": "#004EA2",
+      "textColor": "#FFFFFF",
+      "badge": "SL",
+      "icon": "YOKOSL.svg"
+    }
+  ],
+  "register": {
+    "name": "Yokohama (横浜), KNG",
+    "continent": "Asia",
+    "coordinates": [
+      139.6,
+      35.45
+    ],
+    "zh": "横滨, KN",
+    "achievement": {
+      "title": "Yokohama Metros Master",
+      "description": "You've named every Yokohama Metros station."
+    }
+  }
+}

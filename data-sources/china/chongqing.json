@@ -11,9 +11,44 @@
     "较场口": "Jiaochangkou",
     "朝天门": "Chaotianmen",
     "小什字": "Xiaoshizi",
-    "李子坝": "Liziba"
+    "李子坝": "Liziba",
+    "1号": "Bishan",
+    "曾家": "Zengjia",
+    "重庆城市管理职业大学": "Chongqing City Management University",
+    "重庆科技大学": "Chongqing University of Science and Technology",
+    "大学城北一路": "Daxuecheng North 1st Road"
   },
-  "alternates": {},
+  "alternates": {
+    "福惠大道": [
+      "现代大道",
+      "Xiandai Avenue"
+    ],
+    "1号": [
+      "璧山",
+      "1号地铁站",
+      "Subway Line 1",
+      "Line 1"
+    ],
+    "曾家": [
+      "Zengjia",
+      "zeng jia"
+    ],
+    "重庆城市管理职业大学": [
+      "Chongqingchengshiguanlizhiyedaxue",
+      "City Management University",
+      "重庆城市管理职业学院"
+    ],
+    "重庆科技大学": [
+      "Chongqingkejidaxue",
+      "CQUST",
+      "Chongqing University of Science & Technology"
+    ],
+    "大学城北一路": [
+      "Daxuechengbeiyilu",
+      "Daxuecheng North 1st Rd",
+      "重庆电子科技职业大学"
+    ]
+  },
   "lines": [
     {
       "id": "chongqing1",
@@ -21,7 +56,10 @@
       "match": {
         "ref": "^1$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line1.png",
+      "color": "#E4002B",
+      "backgroundColor": "#E4002B"
     },
     {
       "id": "chongqing2",
@@ -29,15 +67,33 @@
       "match": {
         "ref": "^2$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line2.png",
+      "color": "#007A33",
+      "backgroundColor": "#007A33"
     },
     {
       "id": "chongqing3",
       "name": "Line 3",
       "match": {
         "ref": "^3$",
-        "network": "重庆轨道交通"
-      }
+        "network": "重庆轨道交通",
+        "exclude": "空港"
+      },
+      "icon": "asia/china/chongqing/line3.png",
+      "color": "#003DA5",
+      "backgroundColor": "#003DA5"
+    },
+    {
+      "id": "chongqing3k",
+      "name": "Konggang Branch",
+      "match": {
+        "name": "空港"
+      },
+      "icon": "asia/china/chongqing/line3k.png",
+      "color": "#003DA5",
+      "backgroundColor": "#003DA5",
+      "textColor": "#ffffff"
     },
     {
       "id": "chongqing4",
@@ -45,7 +101,10 @@
       "match": {
         "ref": "^4$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line4.png",
+      "color": "#DC8633",
+      "backgroundColor": "#DC8633"
     },
     {
       "id": "chongqing5",
@@ -53,15 +112,33 @@
       "match": {
         "ref": "^5$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line5.png",
+      "color": "#00A3E0",
+      "backgroundColor": "#00A3E0"
     },
     {
       "id": "chongqing6",
       "name": "Line 6",
       "match": {
         "ref": "^6$",
-        "network": "重庆轨道交通"
-      }
+        "network": "重庆轨道交通",
+        "exclude": "国博"
+      },
+      "icon": "asia/china/chongqing/line6.png",
+      "color": "#F67599",
+      "backgroundColor": "#F67599"
+    },
+    {
+      "id": "chongqing6i",
+      "name": "International Expo Branch",
+      "match": {
+        "name": "国博"
+      },
+      "icon": "asia/china/chongqing/line6i.png",
+      "color": "#F67599",
+      "backgroundColor": "#F67599",
+      "textColor": "#ffffff"
     },
     {
       "id": "chongqing9",
@@ -69,7 +146,10 @@
       "match": {
         "ref": "^9$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line9.png",
+      "color": "#861F41",
+      "backgroundColor": "#861F41"
     },
     {
       "id": "chongqing10",
@@ -77,7 +157,10 @@
       "match": {
         "ref": "^10$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line10.png",
+      "color": "#5F259F",
+      "backgroundColor": "#5F259F"
     },
     {
       "id": "chongqing15",
@@ -85,7 +168,10 @@
       "match": {
         "ref": "^15$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line15.png",
+      "color": "#0057B8",
+      "backgroundColor": "#0057B8"
     },
     {
       "id": "chongqing18",
@@ -93,7 +179,10 @@
       "match": {
         "ref": "^18$",
         "network": "重庆轨道交通"
-      }
+      },
+      "icon": "asia/china/chongqing/line18.png",
+      "color": "#2CD5C4",
+      "backgroundColor": "#2CD5C4"
     },
     {
       "id": "chongqingloop",
@@ -101,7 +190,10 @@
       "match": {
         "network": "重庆轨道交通",
         "ref": "^环$"
-      }
+      },
+      "icon": "asia/china/chongqing/line0.png",
+      "color": "#F2A900",
+      "backgroundColor": "#F2A900"
     },
     {
       "id": "chongqingbitong",
@@ -109,7 +201,10 @@
       "match": {
         "network": "重庆轨道交通",
         "ref": "^BT$"
-      }
+      },
+      "icon": "asia/china/chongqing/linebitong.png",
+      "color": "#0057B8",
+      "backgroundColor": "#0057B8"
     },
     {
       "id": "chongqingjiangtiao",
@@ -117,27 +212,36 @@
       "match": {
         "network": "重庆轨道交通",
         "ref": "^JT$"
-      }
+      },
+      "icon": "asia/china/chongqing/linejiangtiao.png",
+      "color": "#0057B8",
+      "backgroundColor": "#0057B8"
     },
     {
       "id": "chongqingyunba",
       "name": "Bishan Yunba",
       "match": {
         "network": "重庆云巴"
-      }
+      },
+      "icon": "asia/china/chongqing/linebishan.png",
+      "color": "#808080",
+      "backgroundColor": "#808080"
     }
   ],
   "cityName": "Chongqing",
   "groups": [
     {
       "title": "Chongqing Rail Transit",
+      "titleImage": "asia/china/chongqing/icon.ico",
       "lines": [
         "chongqing1",
         "chongqing2",
         "chongqing3",
+        "chongqing3k",
         "chongqing4",
         "chongqing5",
         "chongqing6",
+        "chongqing6i",
         "chongqing9",
         "chongqing10",
         "chongqing15",
@@ -148,10 +252,11 @@
       ]
     },
     {
-      "title": "Bishan Yunba",
+      "title": "BYD",
       "lines": [
         "chongqingyunba"
-      ]
+      ],
+      "titleImage": "asia/china/gba/BYD.png"
     }
   ]
 }

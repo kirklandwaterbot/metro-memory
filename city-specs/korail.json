@@ -1,0 +1,516 @@
+{
+  "slug": "korail",
+  "path": "asia/south-korea/korail",
+  "gameTitle": "Korail Memory",
+  "description": "How many Korail (KTX, SRT, ITX, Mugunghwa and Korail metro) stations can you name from memory?",
+  "locale": "ko_KR",
+  "bbox": [
+    33.0,
+    125.5,
+    38.7,
+    130.0
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ko-Latn"
+    ],
+    "altTags": [
+      "name:ko-Hani",
+      "name:ko-Latn",
+      "alt_name"
+    ],
+    "strip": "역$",
+    "romanize": "ko"
+  },
+  "trackStationDistance": 200,
+  "simplifyM": 40,
+  "minZoom": 5.5,
+  "stationTagsInclude": {
+    "operator": "한국철도공사|코레일|에스알|SR|서해철도|^$"
+  },
+  "stationTagsExclude": {
+    "station": "^(light_rail|monorail)$"
+  },
+  "lineGroups": [
+    {
+      "title": "High-speed (KTX & SRT)",
+      "lines": [
+        "KRGyeongbuHighSpeed",
+        "KRHonamHighSpeed",
+        "KRSuseoPyeongtaekHig"
+      ]
+    },
+    {
+      "title": "Main lines",
+      "lines": [
+        "KRGyeongbu",
+        "KRHonam",
+        "KRJeolla",
+        "KRGyeongjeon",
+        "KRJungang",
+        "KRDonghae",
+        "KRGyeonggang",
+        "KRJanghang",
+        "KRSeohae",
+        "KRChungbuk",
+        "KRYeongdong",
+        "KRTaebaek",
+        "KRGyeongbuk",
+        "KRJungbuNaeryuk",
+        "KRGyeongchun",
+        "KRGyeongwon"
+      ]
+    },
+    {
+      "title": "Metropolitan & branch lines",
+      "lines": [
+        "KRGyeongui",
+        "KRGyeongin",
+        "KRBundang",
+        "KRSuin",
+        "KRAnsan",
+        "KRGwacheon",
+        "KRIlsan",
+        "KRGyooe",
+        "KRDaegu",
+        "KRJeongseon",
+        "KRMokpoBoseong",
+        "KRGwangju"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KRGyeongbuHighSpeed",
+      "name": "Gyeongbu High-Speed Line",
+      "match": {
+        "@id": "^(9000000003)$"
+      },
+      "color": "#1C5FA8",
+      "textColor": "#FFFFFF",
+      "badge": "KTX",
+      "icon": "KRGyeongbuHighSpeed.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRHonamHighSpeed",
+      "name": "Honam High-Speed Line",
+      "match": {
+        "@id": "^(9000000088)$"
+      },
+      "color": "#E3A100",
+      "textColor": "#FFFFFF",
+      "badge": "HHS",
+      "icon": "KRHonamHighSpeed.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRSuseoPyeongtaekHig",
+      "name": "Suseo–Pyeongtaek High-Speed Line",
+      "match": {
+        "@id": "^(9000000044)$"
+      },
+      "color": "#6B2C91",
+      "textColor": "#FFFFFF",
+      "badge": "SRT",
+      "icon": "KRSuseoPyeongtaekHig.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeongbu",
+      "name": "Gyeongbu Line",
+      "match": {
+        "@id": "^(9000000005)$"
+      },
+      "color": "#0052A4",
+      "textColor": "#FFFFFF",
+      "badge": "GB",
+      "icon": "KRGyeongbu.svg",
+      "stationsFromTrack": true,
+      "addStations": [
+        {
+          "name": "Seodongtan (서동탄)",
+          "osmName": "서동탄",
+          "after": "Byeongjeom (병점)"
+        }
+      ]
+    },
+    {
+      "id": "KRHonam",
+      "name": "Honam Line",
+      "match": {
+        "@id": "^(9000000090)$"
+      },
+      "color": "#F5A200",
+      "textColor": "#222222",
+      "badge": "HN",
+      "icon": "KRHonam.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRJeolla",
+      "name": "Jeolla Line",
+      "match": {
+        "@id": "^(9000000070)$"
+      },
+      "color": "#C7581C",
+      "textColor": "#FFFFFF",
+      "badge": "JL",
+      "icon": "KRJeolla.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeongjeon",
+      "name": "Gyeongjeon Line",
+      "match": {
+        "@id": "^(9000000013)$"
+      },
+      "color": "#2E8B57",
+      "textColor": "#FFFFFF",
+      "badge": "GJ",
+      "icon": "KRGyeongjeon.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRJungang",
+      "name": "Jungang Line",
+      "match": {
+        "@id": "^(9000000074)$"
+      },
+      "color": "#77C4A3",
+      "textColor": "#222222",
+      "badge": "JA",
+      "icon": "KRJungang.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRDonghae",
+      "name": "Donghae Line",
+      "match": {
+        "@id": "^(9000000028)$"
+      },
+      "color": "#0065B3",
+      "textColor": "#FFFFFF",
+      "badge": "DH",
+      "icon": "KRDonghae.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeonggang",
+      "name": "Gyeonggang Line",
+      "match": {
+        "@id": "^(9000000002)$"
+      },
+      "color": "#003DA5",
+      "textColor": "#FFFFFF",
+      "badge": "GG",
+      "icon": "KRGyeonggang.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRJanghang",
+      "name": "Janghang Line",
+      "match": {
+        "@id": "^(9000000068)$"
+      },
+      "color": "#7A5C3E",
+      "textColor": "#FFFFFF",
+      "badge": "JH",
+      "icon": "KRJanghang.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRSeohae",
+      "name": "Seohae Line",
+      "match": {
+        "@id": "^(9000000040)$"
+      },
+      "color": "#8FC31F",
+      "textColor": "#FFFFFF",
+      "badge": "SH",
+      "icon": "KRSeohae.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRChungbuk",
+      "name": "Chungbuk Line",
+      "match": {
+        "@id": "^(9000000079)$"
+      },
+      "color": "#B0469B",
+      "textColor": "#FFFFFF",
+      "badge": "CB",
+      "icon": "KRChungbuk.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRYeongdong",
+      "name": "Yeongdong Line",
+      "match": {
+        "@id": "^(9000000052)$"
+      },
+      "color": "#4C6A92",
+      "textColor": "#FFFFFF",
+      "badge": "YD",
+      "icon": "KRYeongdong.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRTaebaek",
+      "name": "Taebaek Line",
+      "match": {
+        "@id": "^(9000000082)$"
+      },
+      "color": "#5E5E5E",
+      "textColor": "#FFFFFF",
+      "badge": "TB",
+      "icon": "KRTaebaek.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeongbuk",
+      "name": "Gyeongbuk Line",
+      "match": {
+        "@id": "^(9000000007)$"
+      },
+      "color": "#A0522D",
+      "textColor": "#FFFFFF",
+      "badge": "GBK",
+      "icon": "KRGyeongbuk.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRJungbuNaeryuk",
+      "name": "Jungbu Naeryuk Line",
+      "match": {
+        "@id": "^(9000000073)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "JN",
+      "icon": "KRJungbuNaeryuk.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeongchun",
+      "name": "Gyeongchun Line",
+      "match": {
+        "@id": "^(9000000015)$"
+      },
+      "color": "#0C8E72",
+      "textColor": "#FFFFFF",
+      "badge": "GC",
+      "icon": "KRGyeongchun.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeongwon",
+      "name": "Gyeongwon Line",
+      "match": {
+        "@id": "^(9000000009)$"
+      },
+      "color": "#263C96",
+      "textColor": "#FFFFFF",
+      "badge": "GW",
+      "icon": "KRGyeongwon.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyeongui",
+      "name": "Gyeongui Line (incl. Yongsan Line)",
+      "match": {
+        "@id": "^(9000000011|9000000060)$"
+      },
+      "color": "#77C4A3",
+      "textColor": "#222222",
+      "badge": "GU",
+      "icon": "KRGyeongui.svg",
+      "stationsFromTrack": true,
+      "addStations": [
+        {
+          "name": "Hyochang Park (효창공원앞)",
+          "osmName": "효창공원앞",
+          "before": "Gajwa (가좌)"
+        },
+        {
+          "name": "Gongdeok (공덕)",
+          "osmName": "공덕",
+          "before": "Gajwa (가좌)"
+        },
+        {
+          "name": "Sogang University (서강대)",
+          "osmName": "서강대",
+          "alternates": [
+            "Sogang Univ.",
+            "서강대",
+            "Seogang University"
+          ],
+          "before": "Gajwa (가좌)"
+        },
+        {
+          "name": "Hongik University (홍대입구)",
+          "osmName": "홍대입구",
+          "alternates": [
+            "Hongik Univ.",
+            "홍대입구",
+            "Hongdae"
+          ],
+          "before": "Gajwa (가좌)"
+        }
+      ]
+    },
+    {
+      "id": "KRGyeongin",
+      "name": "Gyeongin Line",
+      "match": {
+        "@id": "^(9000000012)$"
+      },
+      "color": "#0D3692",
+      "textColor": "#FFFFFF",
+      "badge": "GI",
+      "icon": "KRGyeongin.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRBundang",
+      "name": "Bundang Line",
+      "match": {
+        "@id": "^(9000000038)$"
+      },
+      "color": "#F5A200",
+      "textColor": "#222222",
+      "badge": "BD",
+      "icon": "KRBundang.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRSuin",
+      "name": "Suin Line",
+      "match": {
+        "@id": "^(9000000045)$"
+      },
+      "color": "#FABE00",
+      "textColor": "#222222",
+      "badge": "SI",
+      "icon": "KRSuin.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRAnsan",
+      "name": "Ansan Line",
+      "match": {
+        "@id": "^(9000000050)$"
+      },
+      "color": "#00A5DE",
+      "textColor": "#FFFFFF",
+      "badge": "AS",
+      "icon": "KRAnsan.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGwacheon",
+      "name": "Gwacheon Line",
+      "match": {
+        "@id": "^(9000000016)$"
+      },
+      "color": "#00A5DE",
+      "textColor": "#FFFFFF",
+      "badge": "GCH",
+      "icon": "KRGwacheon.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRIlsan",
+      "name": "Ilsan Line",
+      "match": {
+        "@id": "^(9000000067)$"
+      },
+      "color": "#EF7C1C",
+      "textColor": "#FFFFFF",
+      "badge": "IS",
+      "icon": "KRIlsan.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGyooe",
+      "name": "Gyooe Line",
+      "match": {
+        "@id": "^(9000000020)$"
+      },
+      "color": "#8B5A2B",
+      "textColor": "#FFFFFF",
+      "badge": "GY",
+      "icon": "KRGyooe.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRDaegu",
+      "name": "Daegu Line",
+      "match": {
+        "@id": "^(9000000023)$"
+      },
+      "color": "#D62828",
+      "textColor": "#FFFFFF",
+      "badge": "DG",
+      "icon": "KRDaegu.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRJeongseon",
+      "name": "Jeongseon Line",
+      "match": {
+        "@id": "^(9000000071)$"
+      },
+      "color": "#6D6875",
+      "textColor": "#FFFFFF",
+      "badge": "JS",
+      "icon": "KRJeongseon.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRMokpoBoseong",
+      "name": "Mokpo–Boseong Line",
+      "match": {
+        "@id": "^(9000000030)$"
+      },
+      "color": "#00897B",
+      "textColor": "#FFFFFF",
+      "badge": "MB",
+      "icon": "KRMokpoBoseong.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KRGwangju",
+      "name": "Gwangju Line",
+      "match": {
+        "@id": "^(9000000018)$"
+      },
+      "color": "#009688",
+      "textColor": "#FFFFFF",
+      "badge": "GJU",
+      "icon": "KRGwangju.svg",
+      "stationsFromTrack": true
+    }
+  ],
+  "register": {
+    "name": "Korail (코레일), KR",
+    "continent": "Asia",
+    "coordinates": [
+      127.8,
+      36.4
+    ],
+    "zh": "韩国铁道, KR",
+    "achievement": {
+      "title": "KTX Commander",
+      "description": "You've named every Korail station."
+    }
+  },
+  "nameReplace": [
+    [
+      "([a-z])([A-Z])",
+      "$1 $2"
+    ]
+  ]
+}

@@ -1,16 +1,18 @@
 {
   "tianshui1": {
     "name": "Tram Line 1",
-    "color": "#E4002B",
-    "backgroundColor": "#E4002B",
+    "color": "#E0133A",
+    "backgroundColor": "#E0133A",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/tianshui/line1.png"
   },
   "tianshui2": {
     "name": "Tram Line 2",
-    "color": "#0072CE",
-    "backgroundColor": "#0072CE",
+    "color": "#1379CC",
+    "backgroundColor": "#1379CC",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/tianshui/line2.png"
   }
 }

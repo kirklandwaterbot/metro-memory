@@ -14,6 +14,7 @@
  * left alone.
  *
  *   node scripts/routes/osm-tracks.js --city=nyc [--lines=A,B] [--report=out.md] [--dry-run]
+ *   node scripts/routes/osm-tracks.js --city=nyc --overpass-file=.tmp/osm/nyc-tracks.json
  *
  * Needs network access to Overpass (runs in the Track Layouts workflow).
  * Geometry © OpenStreetMap contributors (ODbL).
@@ -29,6 +30,26 @@ const ENDPOINTS = [
   'https://overpass.private.coffee/api/interpreter',
 ]
 const CELL_DEG = 0.04
+// OSM railway=* values counted as running track. Subways and light rail are
+// tagged railway=subway / light_rail, so osm-tracks.json can widen this per
+// line: "railwaysByLine": { "^NewYorkSubway": "subway|construction" }
+// (a line not matched by any pattern keeps the default).
+const DEFAULT_RAILWAYS = 'rail|construction'
+
+/** Rail ways from a saved Overpass response (`out tags geom`), e.g. from scripts/cities/fetch-osm.js. */
+function readOverpassFile(file, railways = DEFAULT_RAILWAYS) {
+  const wanted = new Set(railways.split('|'))
+  const json = JSON.parse(fs.readFileSync(file, 'utf8'))
+  const ways = []
+  for (const el of json.elements || []) {
+    if (el.type !== 'way' || !el.geometry) continue
+    const tags = el.tags || {}
+    if (!wanted.has(tags.railway)) continue
+    if (['yard', 'spur'].includes(tags.service)) continue
+    ways.push({ id: el.id, tags, coords: el.geometry.map((g) => [g.lon, g.lat]) })
+  }
+  return ways
+}
 const MIN_RUN_M = 60
 const MAX_ANGLE_DEG = 30
 const SIMPLIFY_M = 2
@@ -176,7 +197,7 @@ async function overpass(query) {
 }
 
 /** OSM running track in the grid cells the given strings pass through. */
-async function fetchTracks(allStrings, log) {
+async function fetchTracks(allStrings, log, railways = DEFAULT_RAILWAYS) {
   const cells = new Set()
   for (const s of allStrings) {
     for (let i = 0; i < s.length; i += 1) {
@@ -198,7 +219,7 @@ async function fetchTracks(allStrings, log) {
     const w = (cx * CELL_DEG).toFixed(4)
     const n = ((cy + 1) * CELL_DEG).toFixed(4)
     const e = ((cx + 1) * CELL_DEG).toFixed(4)
-    const q = `[out:json][timeout:120];way["railway"~"^(rail|construction)$"]["service"!~"^(yard|spur)$"](${s},${w},${n},${e});out tags geom;`
+    const q = `[out:json][timeout:120];way["railway"~"^(${railways})$"]["service"!~"^(yard|spur)$"](${s},${w},${n},${e});out tags geom;`
     const res = await overpass(q)
     for (const el of res.elements || []) {
       if (el.type === 'way' && el.geometry) ways.set(el.id, el)
@@ -214,7 +235,8 @@ async function fetchTracks(allStrings, log) {
 }
 
 /** Rail ways from an `osmium export -f geojsonseq` file, filtered like the Overpass query. */
-function readOsmFile(file) {
+function readOsmFile(file, railways = DEFAULT_RAILWAYS) {
+  const wanted = new Set(railways.split('|'))
   const ways = []
   for (const raw of fs.readFileSync(file, 'utf8').split('\n')) {
     const line = raw.replace(/^\x1e/, '').trim()
@@ -226,7 +248,7 @@ function readOsmFile(file) {
       continue
     }
     const tags = f.properties || {}
-    if (!['rail', 'construction'].includes(tags.railway)) continue
+    if (!wanted.has(tags.railway)) continue
     if (['yard', 'spur'].includes(tags.service)) continue
     const strings =
       f.geometry?.type === 'LineString'
@@ -418,6 +440,9 @@ async function main() {
   const configPath = path.join(ROOT, 'data-sources', args.city, 'osm-tracks.json')
   const config = readJson(configPath) || {}
   const bufferM = Number(config.bufferM || 25)
+  const railwaysByLine = Object.entries(config.railwaysByLine || {}).map(([re, types]) => [new RegExp(re), String(types)])
+  const railwaysFor = (line) => (railwaysByLine.find(([re]) => re.test(line)) || [null, DEFAULT_RAILWAYS])[1]
+  const railways = [...new Set([DEFAULT_RAILWAYS, ...railwaysByLine.map(([, t]) => t)].join('|').split('|'))].join('|')
   const lines = args.lines ? String(args.lines).split(',') : config.lines || []
   const dir = resolveDataDir(args.city)
   const routesPath = path.join(dir, 'routes.json')
@@ -452,10 +477,12 @@ async function main() {
   if (args['osm-file']) {
     // GeoJSON sequence from `osmium export` of a Geofabrik extract: no
     // Overpass needed (the public servers are often too busy for a big area).
-    osmWays = readOsmFile(args['osm-file'])
+    osmWays = readOsmFile(args['osm-file'], railways)
+  } else if (args['overpass-file']) {
+    osmWays = readOverpassFile(args['overpass-file'], railways)
   } else {
     log(`Fetching OSM track for ${current.size} lines…`)
-    osmWays = await fetchTracks(all, log)
+    osmWays = await fetchTracks(all, log, railways)
   }
   log(`${osmWays.length} OSM track ways`)
 
@@ -465,7 +492,8 @@ async function main() {
       report.push(`- ⚠️ ${line}: no current route — skipped`)
       continue
     }
-    const runs = tracksAlong(strings, osmWays, bufferM, proj)
+    const allowed = new Set(railwaysFor(line).split('|'))
+    const runs = tracksAlong(strings, osmWays.filter((w) => allowed.has(w.tags.railway)), bufferM, proj)
     const old = uncovered(strings, runs, bufferM, proj)
     const trackKm = runs.reduce((s, r) => s + lengthM(r.coords), 0) / 1000
     const oldKm = old.reduce((s, r) => s + lengthM(r), 0) / 1000

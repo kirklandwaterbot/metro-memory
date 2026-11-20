@@ -23,6 +23,11 @@
       "match": {
         "ref": "^1$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line1Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -31,6 +36,11 @@
       "match": {
         "ref": "^2$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line2Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -39,6 +49,11 @@
       "match": {
         "ref": "^3$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line3Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -47,6 +62,11 @@
       "match": {
         "ref": "^4$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line4Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -55,6 +75,11 @@
       "match": {
         "ref": "^5$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line5Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -63,6 +88,11 @@
       "match": {
         "ref": "^6$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line6Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -71,6 +101,11 @@
       "match": {
         "ref": "^7$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line7Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -79,6 +114,11 @@
       "match": {
         "ref": "^8$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line8Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -87,6 +127,11 @@
       "match": {
         "ref": "^11$",
         "network": "苏州轨道交通"
+      },
+      "icon": "asia/china/suzhou/Line11Tile.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -94,20 +139,27 @@
       "name": "SND Tram Line 1",
       "match": {
         "network": "苏州高新区有轨电车"
-      }
+      },
+      "icon": "asia/china/suzhou/t1.png",
+      "color": "#B5CD56",
+      "backgroundColor": "#B5CD56"
     },
     {
       "id": "suzhoutram2",
       "name": "SND Tram Line 2",
       "match": {
         "name": "高新有轨电车2号线"
-      }
+      },
+      "icon": "asia/china/suzhou/t2.png",
+      "color": "#FF5637",
+      "backgroundColor": "#FF5637"
     }
   ],
   "cityName": "Suzhou",
   "groups": [
     {
       "title": "Suzhou Rail Transit",
+      "titleImage": "asia/china/suzhou/icon.ico",
       "lines": [
         "suzhou1",
         "suzhou2",
@@ -122,6 +174,7 @@
     },
     {
       "title": "Suzhou New District Tram",
+      "titleImage": "asia/china/suzhou/SND_Tram.png",
       "lines": [
         "suzhoutram1",
         "suzhoutram2"

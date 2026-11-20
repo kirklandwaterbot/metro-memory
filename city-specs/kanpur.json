@@ -1,0 +1,75 @@
+{
+  "slug": "kanpur",
+  "path": "asia/india/kanpur",
+  "gameTitle": "Kanpur Metro Memory",
+  "description": "How many Kanpur Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    26.344,
+    80.189,
+    26.596,
+    80.471
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Kanpur Metro",
+      "lines": [
+        "KANP1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KANP1",
+      "name": "Orange Line",
+      "match": {
+        "@id": "^(13615304|13615312)$"
+      },
+      "color": "#F7941D",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "KANP1.svg"
+    }
+  ],
+  "register": {
+    "name": "Kanpur (कानपुर), IN",
+    "continent": "Asia",
+    "coordinates": [
+      80.33,
+      26.47
+    ],
+    "zh": "坎普尔, IN",
+    "achievement": {
+      "title": "Kanpur Metro Master",
+      "description": "You've named every Kanpur Metro station."
+    }
+  }
+}

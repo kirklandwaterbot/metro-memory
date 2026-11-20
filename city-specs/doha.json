@@ -1,0 +1,99 @@
+{
+  "slug": "doha",
+  "path": "asia/qatar/doha",
+  "gameTitle": "Doha Metro Memory",
+  "description": "How many Doha Metro stations can you name from memory?",
+  "locale": "ar_QA",
+  "bbox": [
+    25.075,
+    51.251,
+    25.525,
+    51.749
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Doha Metro",
+      "lines": [
+        "DOHAGOLD",
+        "DOHAGREEN",
+        "DOHARED"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "DOHAGOLD",
+      "name": "Gold Line",
+      "match": {
+        "@id": "^(10322045|10322046)$"
+      },
+      "color": "#F9B428",
+      "textColor": "#222222",
+      "badge": "G",
+      "icon": "DOHAGOLD.svg"
+    },
+    {
+      "id": "DOHAGREEN",
+      "name": "Green Line",
+      "match": {
+        "@id": "^(10403416|10403424)$"
+      },
+      "color": "#009530",
+      "textColor": "#FFFFFF",
+      "badge": "Gr",
+      "icon": "DOHAGREEN.svg"
+    },
+    {
+      "id": "DOHARED",
+      "name": "Red Line",
+      "match": {
+        "@id": "^(9573801|9573802|10402958|10402959)$"
+      },
+      "color": "#E2251C",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "DOHARED.svg"
+    }
+  ],
+  "register": {
+    "name": "Doha (الدوحة), QA",
+    "continent": "Asia",
+    "coordinates": [
+      51.5,
+      25.3
+    ],
+    "zh": "多哈, QA",
+    "achievement": {
+      "title": "Doha Metro Master",
+      "description": "You've named every Doha Metro station."
+    }
+  }
+}

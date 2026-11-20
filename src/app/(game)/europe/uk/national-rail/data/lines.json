@@ -1,0 +1,194 @@
+{
+  "UKNT": {
+    "name": "Northern",
+    "color": "#262262",
+    "backgroundColor": "#262262",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "UKNT.svg"
+  },
+  "UKSR": {
+    "name": "ScotRail",
+    "color": "#1E467D",
+    "backgroundColor": "#1E467D",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "UKSR.svg"
+  },
+  "UKTFW": {
+    "name": "Transport for Wales",
+    "color": "#E50000",
+    "backgroundColor": "#E50000",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "UKTFW.svg"
+  },
+  "UKSWR": {
+    "name": "South Western Railway",
+    "color": "#24398C",
+    "backgroundColor": "#24398C",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "UKSWR.svg"
+  },
+  "UKGWR": {
+    "name": "Great Western Railway",
+    "color": "#0A493E",
+    "backgroundColor": "#0A493E",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "UKGWR.svg"
+  },
+  "UKSE": {
+    "name": "Southeastern",
+    "color": "#00AFE8",
+    "backgroundColor": "#00AFE8",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "UKSE.svg"
+  },
+  "UKSN": {
+    "name": "Southern",
+    "color": "#8CC63E",
+    "backgroundColor": "#8CC63E",
+    "textColor": "#222222",
+    "order": 6,
+    "icon": "UKSN.svg"
+  },
+  "UKGN": {
+    "name": "Great Northern",
+    "color": "#0099FF",
+    "backgroundColor": "#0099FF",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "UKGN.svg"
+  },
+  "UKTL": {
+    "name": "Thameslink",
+    "color": "#E9438D",
+    "backgroundColor": "#E9438D",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "UKTL.svg"
+  },
+  "UKLE": {
+    "name": "Greater Anglia",
+    "color": "#D70428",
+    "backgroundColor": "#D70428",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "UKLE.svg"
+  },
+  "UKWMR": {
+    "name": "West Midlands Railway",
+    "color": "#FF8300",
+    "backgroundColor": "#FF8300",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "UKWMR.svg"
+  },
+  "UKLNR": {
+    "name": "London Northwestern Railway",
+    "color": "#00BF6F",
+    "backgroundColor": "#00BF6F",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "UKLNR.svg"
+  },
+  "UKEMR": {
+    "name": "East Midlands Railway",
+    "color": "#713563",
+    "backgroundColor": "#713563",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "UKEMR.svg"
+  },
+  "UKME": {
+    "name": "Merseyrail",
+    "color": "#FFF200",
+    "backgroundColor": "#FFF200",
+    "textColor": "#222222",
+    "order": 13,
+    "icon": "UKME.svg"
+  },
+  "UKCH": {
+    "name": "Chiltern Railways",
+    "color": "#00BFFF",
+    "backgroundColor": "#00BFFF",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "UKCH.svg"
+  },
+  "UKCC": {
+    "name": "c2c",
+    "color": "#B7007C",
+    "backgroundColor": "#B7007C",
+    "textColor": "#FFFFFF",
+    "order": 15,
+    "icon": "UKCC.svg"
+  },
+  "UKTP": {
+    "name": "TransPennine Express",
+    "color": "#09A4EC",
+    "backgroundColor": "#09A4EC",
+    "textColor": "#FFFFFF",
+    "order": 16,
+    "icon": "UKTP.svg"
+  },
+  "UKVT": {
+    "name": "Avanti West Coast",
+    "color": "#004354",
+    "backgroundColor": "#004354",
+    "textColor": "#FFFFFF",
+    "order": 17,
+    "icon": "UKVT.svg"
+  },
+  "UKGR": {
+    "name": "LNER",
+    "color": "#CE0E2D",
+    "backgroundColor": "#CE0E2D",
+    "textColor": "#FFFFFF",
+    "order": 18,
+    "icon": "UKGR.svg"
+  },
+  "UKLO": {
+    "name": "London Overground",
+    "color": "#EE7C0E",
+    "backgroundColor": "#EE7C0E",
+    "textColor": "#FFFFFF",
+    "order": 19,
+    "icon": "UKLO.svg"
+  },
+  "UKXR": {
+    "name": "Elizabeth line",
+    "color": "#6950A1",
+    "backgroundColor": "#6950A1",
+    "textColor": "#FFFFFF",
+    "order": 20,
+    "icon": "UKXR.svg"
+  },
+  "UKIL": {
+    "name": "Island Line",
+    "color": "#1C3F94",
+    "backgroundColor": "#1C3F94",
+    "textColor": "#FFFFFF",
+    "order": 21,
+    "icon": "UKIL.svg"
+  },
+  "UKHX": {
+    "name": "Heathrow Express",
+    "color": "#532E63",
+    "backgroundColor": "#532E63",
+    "textColor": "#FFFFFF",
+    "order": 22,
+    "icon": "UKHX.svg"
+  },
+  "UKNR": {
+    "name": "Network Rail managed stations",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 23,
+    "icon": "UKNR.svg"
+  }
+}

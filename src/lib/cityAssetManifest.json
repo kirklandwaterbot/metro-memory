@@ -5,6 +5,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "a7f477528b5f"
   },
+  "adelaide-trains": {
+    "icon": true,
+    "iconVersion": "aae04f991a8b"
+  },
+  "adelaide-tram": {
+    "icon": true,
+    "iconVersion": "aae04f991a8b"
+  },
   "albuquerque": {
     "icon": true,
     "iconVersion": "86db0aa2b7e6",
@@ -17,17 +25,45 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "d978ac4689bf"
   },
+  "algiers-metro": {
+    "icon": true,
+    "iconVersion": "cc9cec62f419"
+  },
+  "algiers-tramway": {
+    "icon": true,
+    "iconVersion": "cc9cec62f419"
+  },
   "amtrak": {
     "icon": true,
     "iconVersion": "ec359bf1ddfa",
     "openGraphExtension": "jpg",
     "openGraphVersion": "047726f51fc8"
   },
+  "amtrak-long-distance-routes": {
+    "icon": true,
+    "iconVersion": "ec359bf1ddfa"
+  },
+  "amtrak-nec": {
+    "icon": true,
+    "iconVersion": "ec359bf1ddfa"
+  },
+  "amtrak-state-supported-routes": {
+    "icon": true,
+    "iconVersion": "ec359bf1ddfa"
+  },
   "atlanta": {
     "icon": true,
     "iconVersion": "ece131778376",
     "openGraphExtension": "jpg",
     "openGraphVersion": "8b3f2f0d1d81"
+  },
+  "atlanta-marta": {
+    "icon": true,
+    "iconVersion": "ece131778376"
+  },
+  "atlanta-plane-train": {
+    "icon": true,
+    "iconVersion": "ece131778376"
   },
   "auckland": {
     "icon": true,
@@ -47,17 +83,69 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "685b5161a91f"
   },
+  "bangkok-arl": {
+    "icon": true,
+    "iconVersion": "f9b66881e6d4"
+  },
+  "bangkok-bts": {
+    "icon": true,
+    "iconVersion": "f9b66881e6d4"
+  },
+  "bangkok-mrt": {
+    "icon": true,
+    "iconVersion": "f9b66881e6d4"
+  },
+  "bangkok-srt-commuter-rail": {
+    "icon": true,
+    "iconVersion": "f9b66881e6d4"
+  },
+  "bangkok-srt-red-lines": {
+    "icon": true,
+    "iconVersion": "f9b66881e6d4"
+  },
   "barcelona": {
     "icon": true,
     "iconVersion": "440470f7a0a8",
     "openGraphExtension": "jpg",
     "openGraphVersion": "ad8c58d6d3a9"
   },
+  "barcelona-metro": {
+    "icon": true,
+    "iconVersion": "440470f7a0a8"
+  },
+  "barcelona-trambaix-trambesos": {
+    "icon": true,
+    "iconVersion": "440470f7a0a8"
+  },
   "beijing": {
     "icon": true,
     "iconVersion": "8fbf165d491f",
     "openGraphExtension": "jpg",
     "openGraphVersion": "daf64433bf55"
+  },
+  "beijing-bjmoa": {
+    "icon": true,
+    "iconVersion": "8fbf165d491f"
+  },
+  "beijing-capital-metro": {
+    "icon": true,
+    "iconVersion": "8fbf165d491f"
+  },
+  "beijing-mtr": {
+    "icon": true,
+    "iconVersion": "8fbf165d491f"
+  },
+  "beijing-suburban-railway": {
+    "icon": true,
+    "iconVersion": "8fbf165d491f"
+  },
+  "beijing-subway-operation": {
+    "icon": true,
+    "iconVersion": "8fbf165d491f"
+  },
+  "beijing-tram": {
+    "icon": true,
+    "iconVersion": "8fbf165d491f"
   },
   "bengbu": {
     "icon": true,
@@ -119,6 +207,18 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "97214acc404c"
   },
+  "busan-gimhae-lrt": {
+    "icon": true,
+    "iconVersion": "471cac59ad0b"
+  },
+  "busan-haeundae-blue-line": {
+    "icon": true,
+    "iconVersion": "471cac59ad0b"
+  },
+  "busan-metro": {
+    "icon": true,
+    "iconVersion": "471cac59ad0b"
+  },
   "calgary": {
     "icon": true,
     "iconVersion": "970a7f69adf0",
@@ -169,9 +269,7 @@
   },
   "california-state-muni": {
     "icon": true,
-    "iconVersion": "bb8b25a8d8ba",
-    "openGraphExtension": "jpg",
-    "openGraphVersion": "87bacc9340c9"
+    "iconVersion": "bb8b25a8d8ba"
   },
   "california-state-sacramento": {
     "icon": true,
@@ -203,11 +301,27 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "74d9c98c3866"
   },
+  "changchun-rail-transit": {
+    "icon": true,
+    "iconVersion": "802b82d39726"
+  },
+  "changchun-tram": {
+    "icon": true,
+    "iconVersion": "802b82d39726"
+  },
   "changsha": {
     "icon": true,
     "iconVersion": "ba0bd637e9c5",
     "openGraphExtension": "jpg",
     "openGraphVersion": "ba6d248aff6e"
+  },
+  "changsha-maglev-yunba": {
+    "icon": true,
+    "iconVersion": "ba0bd637e9c5"
+  },
+  "changsha-metro": {
+    "icon": true,
+    "iconVersion": "ba0bd637e9c5"
   },
   "changzhou": {
     "icon": true,
@@ -223,9 +337,21 @@
   },
   "chengdu": {
     "icon": true,
-    "iconVersion": "03c92bd80b51",
+    "iconVersion": "6efd31f8a496",
     "openGraphExtension": "jpg",
     "openGraphVersion": "526979103230"
+  },
+  "chengdu-dujiangyan-m-tr": {
+    "icon": true,
+    "iconVersion": "6efd31f8a496"
+  },
+  "chengdu-metro": {
+    "icon": true,
+    "iconVersion": "6efd31f8a496"
+  },
+  "chengdu-tram": {
+    "icon": true,
+    "iconVersion": "6efd31f8a496"
   },
   "chicago": {
     "icon": true,
@@ -247,9 +373,17 @@
   },
   "chongqing": {
     "icon": true,
-    "iconVersion": "8086c60bc6ec",
+    "iconVersion": "2d51b98c5981",
     "openGraphExtension": "jpg",
     "openGraphVersion": "105d1bedd6b0"
+  },
+  "chongqing-byd": {
+    "icon": true,
+    "iconVersion": "2d51b98c5981"
+  },
+  "chongqing-rail-transit": {
+    "icon": true,
+    "iconVersion": "2d51b98c5981"
   },
   "cincinnati": {
     "icon": true,
@@ -279,11 +413,35 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "65ff693eb972"
   },
+  "dalian-metro": {
+    "icon": true,
+    "iconVersion": "7d8f302f2c39"
+  },
+  "dalian-trams": {
+    "icon": true,
+    "iconVersion": "7d8f302f2c39"
+  },
   "dallas": {
     "icon": true,
     "iconVersion": "031623992829",
     "openGraphExtension": "jpg",
     "openGraphVersion": "ca1f2cbf6e7c"
+  },
+  "dallas-dart": {
+    "icon": true,
+    "iconVersion": "031623992829"
+  },
+  "dallas-dcta": {
+    "icon": true,
+    "iconVersion": "031623992829"
+  },
+  "dallas-dfw-airport-board": {
+    "icon": true,
+    "iconVersion": "031623992829"
+  },
+  "dallas-trinity-metro": {
+    "icon": true,
+    "iconVersion": "031623992829"
   },
   "dc": {
     "icon": true,
@@ -313,11 +471,27 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "a9fddaec89ce"
   },
+  "denver-airport-train": {
+    "icon": true,
+    "iconVersion": "c897e6b8c885"
+  },
+  "denver-rtd": {
+    "icon": true,
+    "iconVersion": "c897e6b8c885"
+  },
   "detroit": {
     "icon": true,
     "iconVersion": "905b8a5922a1",
     "openGraphExtension": "jpg",
     "openGraphVersion": "76afa6993786"
+  },
+  "detroit-people-mover": {
+    "icon": true,
+    "iconVersion": "905b8a5922a1"
+  },
+  "detroit-qline": {
+    "icon": true,
+    "iconVersion": "905b8a5922a1"
   },
   "dresden": {
     "icon": true,
@@ -330,12 +504,6 @@
     "iconVersion": "ea85d41c0cb9",
     "openGraphExtension": "jpg",
     "openGraphVersion": "d458174a7734"
-  },
-  "dujiangyan": {
-    "icon": true,
-    "iconVersion": "ea345d8ad6b5",
-    "openGraphExtension": "jpg",
-    "openGraphVersion": "9145e4c34341"
   },
   "edinburgh": {
     "icon": true,
@@ -513,6 +681,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "ae52320e17d3"
   },
+  "hangzhou-metro": {
+    "icon": true,
+    "iconVersion": "cae86e5a4712"
+  },
+  "hangzhou-shaoxing-metro": {
+    "icon": true,
+    "iconVersion": "cae86e5a4712"
+  },
   "hanoi": {
     "icon": true,
     "iconVersion": "4019e0c093e3",
@@ -536,6 +712,14 @@
     "iconVersion": "c2ff9d879ace",
     "openGraphExtension": "jpg",
     "openGraphVersion": "4fa50c89ede8"
+  },
+  "hiroshima-astram-line": {
+    "icon": true,
+    "iconVersion": "c2ff9d879ace"
+  },
+  "hiroshima-hiroden": {
+    "icon": true,
+    "iconVersion": "c2ff9d879ace"
   },
   "hochiminhcity": {
     "icon": true,
@@ -561,6 +745,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "fceda0a4d6ab"
   },
+  "houston-airport": {
+    "icon": true,
+    "iconVersion": "6c40434a2da6"
+  },
+  "houston-metrorail": {
+    "icon": true,
+    "iconVersion": "6c40434a2da6"
+  },
   "huaian": {
     "icon": true,
     "iconVersion": "8d9b91acb866",
@@ -585,6 +777,34 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "15e1b3bae305"
   },
+  "jakarta-ancol-dreamland": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
+  "jakarta-injourney-airports": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
+  "jakarta-jabodebek-lrt": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
+  "jakarta-kai-commuter": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
+  "jakarta-krl-commuterline": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
+  "jakarta-lrt": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
+  "jakarta-mrt": {
+    "icon": true,
+    "iconVersion": "883315b5df25"
+  },
   "jiaxing": {
     "icon": true,
     "iconVersion": "2d08267a0d1d",
@@ -596,6 +816,14 @@
     "iconVersion": "b5698b263b7d",
     "openGraphExtension": "jpg",
     "openGraphVersion": "79110b36b111"
+  },
+  "jinan-byd": {
+    "icon": true,
+    "iconVersion": "b5698b263b7d"
+  },
+  "jinan-metro": {
+    "icon": true,
+    "iconVersion": "b5698b263b7d"
   },
   "jinhua": {
     "icon": true,
@@ -615,6 +843,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "2a9b7615f878"
   },
+  "kaohsiung-heavy-rail": {
+    "icon": true,
+    "iconVersion": "97baa176ec28"
+  },
+  "kaohsiung-light-rail": {
+    "icon": true,
+    "iconVersion": "97baa176ec28"
+  },
   "karlsruhe": {
     "icon": true,
     "iconVersion": "71a0653bd081",
@@ -633,6 +869,18 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "1870900f6b61"
   },
+  "kuala-lumpur-express-rail-link": {
+    "icon": true,
+    "iconVersion": "cb9f8ec1bff3"
+  },
+  "kuala-lumpur-ktm-komuter": {
+    "icon": true,
+    "iconVersion": "cb9f8ec1bff3"
+  },
+  "kuala-lumpur-rapid-kl": {
+    "icon": true,
+    "iconVersion": "cb9f8ec1bff3"
+  },
   "kunming": {
     "icon": true,
     "iconVersion": "f6e088b45c3e",
@@ -644,6 +892,18 @@
     "iconVersion": "81ee777b7483",
     "openGraphExtension": "jpg",
     "openGraphVersion": "7d64ae22d38c"
+  },
+  "kyoto-hieizan": {
+    "icon": true,
+    "iconVersion": "81ee777b7483"
+  },
+  "kyoto-randen-eizan": {
+    "icon": true,
+    "iconVersion": "81ee777b7483"
+  },
+  "kyoto-subway": {
+    "icon": true,
+    "iconVersion": "81ee777b7483"
   },
   "lanzhou": {
     "icon": true,
@@ -691,6 +951,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "4dd2fd934dec"
   },
+  "lv-airport": {
+    "icon": true,
+    "iconVersion": "634091fee0ca"
+  },
+  "lv-monorail-loop": {
+    "icon": true,
+    "iconVersion": "634091fee0ca"
+  },
   "madrid": {
     "icon": true,
     "iconVersion": "dc0065844efd",
@@ -709,6 +977,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "9e9177c46d20"
   },
+  "manila-lrt": {
+    "icon": true,
+    "iconVersion": "e91483751e11"
+  },
+  "manila-mrt": {
+    "icon": true,
+    "iconVersion": "e91483751e11"
+  },
   "maracaibo": {
     "icon": true,
     "iconVersion": "8eb93449de7e",
@@ -720,6 +996,26 @@
     "iconVersion": "48c8b3c3913f",
     "openGraphExtension": "jpg",
     "openGraphVersion": "3768f98cd954"
+  },
+  "melbourne-burnley-group": {
+    "icon": true,
+    "iconVersion": "48c8b3c3913f"
+  },
+  "melbourne-caulfield-metro-tunnel": {
+    "icon": true,
+    "iconVersion": "48c8b3c3913f"
+  },
+  "melbourne-clifton-hill-group": {
+    "icon": true,
+    "iconVersion": "48c8b3c3913f"
+  },
+  "melbourne-cross-city-frankston": {
+    "icon": true,
+    "iconVersion": "48c8b3c3913f"
+  },
+  "melbourne-northern-group": {
+    "icon": true,
+    "iconVersion": "48c8b3c3913f"
   },
   "memphis": {
     "icon": true,
@@ -791,6 +1087,18 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "b0c8d2c783b7"
   },
+  "nagoya-aonami-line": {
+    "icon": true,
+    "iconVersion": "47f81b615d8d"
+  },
+  "nagoya-linimo": {
+    "icon": true,
+    "iconVersion": "47f81b615d8d"
+  },
+  "nagoya-municipal-subway": {
+    "icon": true,
+    "iconVersion": "47f81b615d8d"
+  },
   "nanchang": {
     "icon": true,
     "iconVersion": "fef4ded7eb7a",
@@ -802,6 +1110,14 @@
     "iconVersion": "b38b05e34b92",
     "openGraphExtension": "jpg",
     "openGraphVersion": "55c59c356991"
+  },
+  "nanjing-metro": {
+    "icon": true,
+    "iconVersion": "b38b05e34b92"
+  },
+  "nanjing-tram": {
+    "icon": true,
+    "iconVersion": "b38b05e34b92"
   },
   "nanning": {
     "icon": true,
@@ -945,6 +1261,30 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "0f4764c39df6"
   },
+  "osaka-kobe-hankai-tramway": {
+    "icon": true,
+    "iconVersion": "d2fe2c5849f9"
+  },
+  "osaka-kobe-kita-osaka-kyuko": {
+    "icon": true,
+    "iconVersion": "d2fe2c5849f9"
+  },
+  "osaka-kobe-kobe-municipal-subway": {
+    "icon": true,
+    "iconVersion": "d2fe2c5849f9"
+  },
+  "osaka-kobe-kobe-new-transit": {
+    "icon": true,
+    "iconVersion": "d2fe2c5849f9"
+  },
+  "osaka-kobe-metro": {
+    "icon": true,
+    "iconVersion": "d2fe2c5849f9"
+  },
+  "osaka-kobe-monorail": {
+    "icon": true,
+    "iconVersion": "d2fe2c5849f9"
+  },
   "ottawa": {
     "icon": true,
     "iconVersion": "803375ed6e99",
@@ -993,17 +1333,45 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "68400f7a03f6"
   },
+  "phoenix-sky-train": {
+    "icon": true,
+    "iconVersion": "b6801a5de94f"
+  },
+  "phoenix-valley-metro": {
+    "icon": true,
+    "iconVersion": "b6801a5de94f"
+  },
   "pittsburgh": {
     "icon": true,
     "iconVersion": "b648342ab01a",
     "openGraphExtension": "jpg",
     "openGraphVersion": "329bce08201e"
   },
+  "pittsburgh-inclines": {
+    "icon": true,
+    "iconVersion": "b648342ab01a"
+  },
+  "pittsburgh-light-rail": {
+    "icon": true,
+    "iconVersion": "b648342ab01a"
+  },
   "portland": {
     "icon": true,
     "iconVersion": "dd52b48bda2d",
     "openGraphExtension": "jpg",
     "openGraphVersion": "1ce28a7d115b"
+  },
+  "portland-max-light-rail": {
+    "icon": true,
+    "iconVersion": "dd52b48bda2d"
+  },
+  "portland-streetcar": {
+    "icon": true,
+    "iconVersion": "dd52b48bda2d"
+  },
+  "portland-westside-express-service": {
+    "icon": true,
+    "iconVersion": "dd52b48bda2d"
   },
   "potsdam": {
     "icon": true,
@@ -1022,6 +1390,14 @@
     "iconVersion": "f9f4e7d0fe10",
     "openGraphExtension": "jpg",
     "openGraphVersion": "991e88f5b321"
+  },
+  "qingdao-metro": {
+    "icon": true,
+    "iconVersion": "f9f4e7d0fe10"
+  },
+  "qingdao-tram": {
+    "icon": true,
+    "iconVersion": "f9f4e7d0fe10"
   },
   "qiubei": {
     "openGraphExtension": "jpg",
@@ -1051,11 +1427,31 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "8348b483a1cd"
   },
+  "sapporo-municipal-subway": {
+    "icon": true,
+    "iconVersion": "522c0aed1218"
+  },
+  "sapporo-streetcar": {
+    "icon": true,
+    "iconVersion": "522c0aed1218"
+  },
   "seattle": {
     "icon": true,
     "iconVersion": "9a0ae0427de1",
     "openGraphExtension": "jpg",
     "openGraphVersion": "a620fc367082"
+  },
+  "seattle-airport": {
+    "icon": true,
+    "iconVersion": "9a0ae0427de1"
+  },
+  "seattle-kcm": {
+    "icon": true,
+    "iconVersion": "9a0ae0427de1"
+  },
+  "seattle-sound-transit": {
+    "icon": true,
+    "iconVersion": "9a0ae0427de1"
   },
   "sendai": {
     "icon": true,
@@ -1069,6 +1465,28 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "366d93c2e017"
   },
+  "shanghai": {
+    "icon": true,
+    "iconVersion": "1d51ba900232",
+    "openGraphExtension": "jpg",
+    "openGraphVersion": "e9b6dbe14384"
+  },
+  "shanghai-airport-authority": {
+    "icon": true,
+    "iconVersion": "1d51ba900232"
+  },
+  "shanghai-metro": {
+    "icon": true,
+    "iconVersion": "1d51ba900232"
+  },
+  "shanghai-songjiang-tram": {
+    "icon": true,
+    "iconVersion": "1d51ba900232"
+  },
+  "shanghai-suburban-railway": {
+    "icon": true,
+    "iconVersion": "1d51ba900232"
+  },
   "sheffield": {
     "icon": true,
     "iconVersion": "3e2c41c12024",
@@ -1080,6 +1498,14 @@
     "iconVersion": "0626385c15cb",
     "openGraphExtension": "jpg",
     "openGraphVersion": "52470cba603a"
+  },
+  "shenyang-metro": {
+    "icon": true,
+    "iconVersion": "0626385c15cb"
+  },
+  "shenyang-modern-tram": {
+    "icon": true,
+    "iconVersion": "0626385c15cb"
   },
   "shijiazhuang": {
     "icon": true,
@@ -1093,11 +1519,31 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "9267e8731afa"
   },
+  "slc-frontrunner": {
+    "icon": true,
+    "iconVersion": "b242f7cbf2d3"
+  },
+  "slc-s-line": {
+    "icon": true,
+    "iconVersion": "b242f7cbf2d3"
+  },
+  "slc-trax": {
+    "icon": true,
+    "iconVersion": "b242f7cbf2d3"
+  },
   "stl": {
     "icon": true,
     "iconVersion": "86599c88031d",
     "openGraphExtension": "jpg",
     "openGraphVersion": "3ee707035aa5"
+  },
+  "stl-loop-trolley": {
+    "icon": true,
+    "iconVersion": "86599c88031d"
+  },
+  "stl-metrolink": {
+    "icon": true,
+    "iconVersion": "86599c88031d"
   },
   "stockholm": {
     "icon": true,
@@ -1111,11 +1557,31 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "abf4e58c61dc"
   },
+  "suzhou-rail-transit": {
+    "icon": true,
+    "iconVersion": "8b1e3865f558"
+  },
+  "suzhou-tram": {
+    "icon": true,
+    "iconVersion": "8b1e3865f558"
+  },
   "sydney": {
     "icon": true,
     "iconVersion": "6566708d9dcd",
     "openGraphExtension": "jpg",
     "openGraphVersion": "5e48f56d020b"
+  },
+  "sydney-light-rail": {
+    "icon": true,
+    "iconVersion": "6566708d9dcd"
+  },
+  "sydney-metro": {
+    "icon": true,
+    "iconVersion": "6566708d9dcd"
+  },
+  "sydney-trains": {
+    "icon": true,
+    "iconVersion": "6566708d9dcd"
   },
   "taichung": {
     "icon": true,
@@ -1128,6 +1594,18 @@
     "iconVersion": "2a1fde5cc5cc",
     "openGraphExtension": "jpg",
     "openGraphVersion": "f3c866c11c8d"
+  },
+  "taipei-metro": {
+    "icon": true,
+    "iconVersion": "2a1fde5cc5cc"
+  },
+  "taipei-new-taipei-metro": {
+    "icon": true,
+    "iconVersion": "2a1fde5cc5cc"
+  },
+  "taipei-taoyuan-metro": {
+    "icon": true,
+    "iconVersion": "2a1fde5cc5cc"
   },
   "taiyuan": {
     "icon": true,
@@ -1170,6 +1648,14 @@
     "iconVersion": "5c4c6b9dcf28",
     "openGraphExtension": "jpg",
     "openGraphVersion": "f024ccce115e"
+  },
+  "tokyo-metro": {
+    "icon": true,
+    "iconVersion": "5c4c6b9dcf28"
+  },
+  "tokyo-toei-subway": {
+    "icon": true,
+    "iconVersion": "5c4c6b9dcf28"
   },
   "toronto": {
     "icon": true,
@@ -1225,6 +1711,14 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "83e21d866be0"
   },
+  "twincities-airport": {
+    "icon": true,
+    "iconVersion": "da977e4d25ab"
+  },
+  "twincities-metropolitan-council": {
+    "icon": true,
+    "iconVersion": "da977e4d25ab"
+  },
   "urumqi": {
     "icon": true,
     "iconVersion": "f56d613cfd46",
@@ -1237,11 +1731,31 @@
     "openGraphExtension": "jpg",
     "openGraphVersion": "04268a820b62"
   },
+  "vancouver-skytrain": {
+    "icon": true,
+    "iconVersion": "d782bbbd7d8a"
+  },
+  "vancouver-wce": {
+    "icon": true,
+    "iconVersion": "d782bbbd7d8a"
+  },
   "viarail": {
     "icon": true,
     "iconVersion": "9c280165a28b",
     "openGraphExtension": "jpg",
     "openGraphVersion": "8eafb17dcad7"
+  },
+  "viarail-corridor": {
+    "icon": true,
+    "iconVersion": "9c280165a28b"
+  },
+  "viarail-long-distance": {
+    "icon": true,
+    "iconVersion": "9c280165a28b"
+  },
+  "viarail-regional-remote-services": {
+    "icon": true,
+    "iconVersion": "9c280165a28b"
   },
   "vienna": {
     "icon": true,
@@ -1254,6 +1768,14 @@
     "iconVersion": "97120e62b720",
     "openGraphExtension": "jpg",
     "openGraphVersion": "29c65db46bee"
+  },
+  "wellington-cable-car": {
+    "icon": true,
+    "iconVersion": "97120e62b720"
+  },
+  "wellington-metlink-trains": {
+    "icon": true,
+    "iconVersion": "97120e62b720"
   },
   "wenzhou": {
     "icon": true,
@@ -1272,6 +1794,14 @@
     "iconVersion": "052a53df1f91",
     "openGraphExtension": "jpg",
     "openGraphVersion": "ae96d3b96870"
+  },
+  "wuhan-metro": {
+    "icon": true,
+    "iconVersion": "052a53df1f91"
+  },
+  "wuhan-trams": {
+    "icon": true,
+    "iconVersion": "052a53df1f91"
   },
   "wuhu": {
     "icon": true,
@@ -1296,6 +1826,14 @@
     "iconVersion": "8fd143000c55",
     "openGraphExtension": "jpg",
     "openGraphVersion": "3ce2ea246689"
+  },
+  "xian-byd": {
+    "icon": true,
+    "iconVersion": "8fd143000c55"
+  },
+  "xian-metro": {
+    "icon": true,
+    "iconVersion": "8fd143000c55"
   },
   "xishui": {
     "icon": true,

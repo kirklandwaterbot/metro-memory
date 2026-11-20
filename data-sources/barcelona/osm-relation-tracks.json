@@ -1,0 +1,101 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "TMBMetroFm": [
+      12315243,
+      2756041,
+      12315244
+    ],
+    "TMBMetroL1": [
+      195711,
+      4673507
+    ],
+    "TMBMetroL2": [
+      4671268,
+      195707
+    ],
+    "TMBMetroL3": [
+      4673508,
+      195705
+    ],
+    "TMBMetroL4": [
+      195706,
+      4671320
+    ],
+    "TMBMetroL5": [
+      4673509,
+      195713
+    ],
+    "TMBMetroL9": [
+      5972746,
+      4673513,
+      5972745,
+      2063281
+    ],
+    "TMBMetroL10": [
+      8663604,
+      2063280,
+      8663603,
+      4673505
+    ],
+    "TMBMetroL11": [
+      197493,
+      4673506
+    ],
+    "FGCL6": [
+      197475,
+      4673510
+    ],
+    "FGCL7": [
+      5402007,
+      197476
+    ],
+    "FGCL8": [
+      4673512,
+      195712
+    ],
+    "FGCL12": [
+      6699914,
+      6699915
+    ],
+    "BarcelonaFunicularFv": [
+      7910449,
+      7910448,
+      21177685
+    ],
+    "BarcelonaFunicularMm": [
+      1325772,
+      8032451
+    ],
+    "BarcelonaFunicularL1": [],
+    "TramCatT1": [
+      4666995,
+      4666996
+    ],
+    "TramCatT2": [
+      4666997,
+      4666998
+    ],
+    "TramCatT3": [
+      4666999,
+      4667000
+    ],
+    "TramCatT4": [
+      4665781,
+      21094973,
+      4665782,
+      21094971
+    ],
+    "TramCatT5": [
+      4665784,
+      4665783
+    ],
+    "TramCatT6": [
+      4665786,
+      4665785
+    ]
+  }
+}

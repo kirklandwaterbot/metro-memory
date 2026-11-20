@@ -1,0 +1,1477 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.600056,
+          36.013956
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Uchijuku (内宿)",
+        "alternate_names": [
+          "内宿",
+          "うちじゅく",
+          "Uchijuku"
+        ],
+        "line": "TOKYNS",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.608424,
+          36.007452
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Hanuki (羽貫)",
+        "alternate_names": [
+          "羽貫",
+          "はぬき",
+          "Hanuki"
+        ],
+        "line": "TOKYNS",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.617282,
+          35.999337
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Ina-Chuo (伊奈中央)",
+        "alternate_names": [
+          "伊奈中央",
+          "いなちゅうおう",
+          "Ina-Chuo"
+        ],
+        "line": "TOKYNS",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.622203,
+          35.99124
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shiku (志久)",
+        "alternate_names": [
+          "志久",
+          "しく",
+          "Shiku"
+        ],
+        "line": "TOKYNS",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.624703,
+          35.979921
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Maruyama (丸山)",
+        "alternate_names": [
+          "丸山",
+          "まるやま",
+          "Maruyama"
+        ],
+        "line": "TOKYNS",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.623685,
+          35.971111
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Shonan (沼南)",
+        "alternate_names": [
+          "沼南",
+          "しょうなん",
+          "Shonan"
+        ],
+        "line": "TOKYNS",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.622258,
+          35.963937
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Haraichi (原市)",
+        "alternate_names": [
+          "原市",
+          "はらいち",
+          "Haraichi"
+        ],
+        "line": "TOKYNS",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.620952,
+          35.957192
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Yoshinohara (吉野原)",
+        "alternate_names": [
+          "吉野原",
+          "よしのはら",
+          "Yoshinohara"
+        ],
+        "line": "TOKYNS",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.619606,
+          35.950087
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Komba (今羽)",
+        "alternate_names": [
+          "今羽",
+          "こんば",
+          "Komba"
+        ],
+        "line": "TOKYNS",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.618237,
+          35.942646
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Higashi-Miyahara (東宮原)",
+        "alternate_names": [
+          "東宮原",
+          "ひがしみやはら",
+          "Higashi-Miyahara"
+        ],
+        "line": "TOKYNS",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.616834,
+          35.93573
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Kamonomiya (加茂宮)",
+        "alternate_names": [
+          "加茂宮",
+          "かものみや",
+          "Kamonomiya"
+        ],
+        "line": "TOKYNS",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.617671,
+          35.920519
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Tetsudo Hakubutsukan (鉄道博物館)",
+        "alternate_names": [
+          "鉄道博物館",
+          "てつどうはくぶつかん",
+          "Tetsudo Hakubutsukan"
+        ],
+        "line": "TOKYNS",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62232,
+          35.90784
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Omiya (大宮)",
+        "alternate_names": [
+          "大宮",
+          "Omiya"
+        ],
+        "line": "TOKYNS",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771364,
+          35.72892
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nippori (日暮里)",
+        "alternate_names": [
+          "日暮里",
+          "にっぽり",
+          "Nippori"
+        ],
+        "line": "TOKYNT",
+        "order": 0
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768109,
+          35.733733
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Nishi-nippori (西日暮里)",
+        "alternate_names": [
+          "西日暮里",
+          "にしにっぽり",
+          "Nishi-nippori"
+        ],
+        "line": "TOKYNT",
+        "order": 1
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769042,
+          35.742861
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Akado-shogakkomae (赤土小学校前)",
+        "alternate_names": [
+          "赤土小学校前",
+          "あかどしょうがっこうまえ",
+          "Akado-shogakkomae"
+        ],
+        "line": "TOKYNT",
+        "order": 2
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769844,
+          35.748499
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Kumanomae (熊野前)",
+        "alternate_names": [
+          "熊野前",
+          "くまのまえ",
+          "Kumanomae"
+        ],
+        "line": "TOKYNT",
+        "order": 3
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770382,
+          35.754694
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Adachi-odai (足立小台)",
+        "alternate_names": [
+          "足立小台",
+          "あだちおだい",
+          "Adachi-odai"
+        ],
+        "line": "TOKYNT",
+        "order": 4
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770826,
+          35.763969
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Ogi-ohashi (扇大橋)",
+        "alternate_names": [
+          "扇大橋",
+          "おうぎおおはし",
+          "Ogi-ohashi"
+        ],
+        "line": "TOKYNT",
+        "order": 5
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770699,
+          35.76851
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Koya (高野)",
+        "alternate_names": [
+          "高野",
+          "こうや",
+          "Koya"
+        ],
+        "line": "TOKYNT",
+        "order": 6
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770311,
+          35.773808
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Kohoku (江北)",
+        "alternate_names": [
+          "江北",
+          "こうほく",
+          "Kohoku"
+        ],
+        "line": "TOKYNT",
+        "order": 7
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770084,
+          35.781512
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Nishiaraidaishi-nishi (西新井大師西)",
+        "alternate_names": [
+          "西新井大師西",
+          "にしあらいだいしにし",
+          "Nishiaraidaishi-nishi"
+        ],
+        "line": "TOKYNT",
+        "order": 8
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770052,
+          35.78873
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Yazaike (谷在家)",
+        "alternate_names": [
+          "谷在家",
+          "やざいけ",
+          "Yazaike"
+        ],
+        "line": "TOKYNT",
+        "order": 9
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770161,
+          35.796371
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Toneri-koen (舎人公園)",
+        "alternate_names": [
+          "舎人公園",
+          "とねりこうえん",
+          "Toneri-koen"
+        ],
+        "line": "TOKYNT",
+        "order": 10
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770116,
+          35.805663
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Toneri (舎人)",
+        "alternate_names": [
+          "舎人",
+          "とねり",
+          "Toneri"
+        ],
+        "line": "TOKYNT",
+        "order": 11
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770728,
+          35.814493
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Minumadai-shinsuikoen (見沼代親水公園)",
+        "alternate_names": [
+          "見沼代親水公園",
+          "みぬまだいしんすいこうえん",
+          "Minumadai-shinsuikoen"
+        ],
+        "line": "TOKYNT",
+        "order": 12
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82731,
+          35.646143
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Shin-kiba (新木場)",
+        "alternate_names": [
+          "新木場",
+          "しんきば",
+          "Shin-kiba"
+        ],
+        "line": "TOKYR",
+        "order": 0
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80362,
+          35.640735
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Shinonome (東雲)",
+        "alternate_names": [
+          "東雲",
+          "しののめ",
+          "Shinonome"
+        ],
+        "line": "TOKYR",
+        "order": 1
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791752,
+          35.634443
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Kokusai-tenjijo (国際展示場)",
+        "alternate_names": [
+          "国際展示場",
+          "こくさいてんじじょう",
+          "Kokusai-tenjijo"
+        ],
+        "line": "TOKYR",
+        "order": 2
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778084,
+          35.627091
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Tokyo Teleport (東京テレポート)",
+        "alternate_names": [
+          "東京テレポート",
+          "とうきょうてれぽーと",
+          "Tokyo Teleport"
+        ],
+        "line": "TOKYR",
+        "order": 3
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.750873,
+          35.62058
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Tennozu Isle (天王洲アイル)",
+        "alternate_names": [
+          "天王洲アイル",
+          "てんのうずあいる",
+          "Tennozu Isle"
+        ],
+        "line": "TOKYR",
+        "order": 4
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.749866,
+          35.609723
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Shinagawa Seaside (品川シーサイド)",
+        "alternate_names": [
+          "品川シーサイド",
+          "しながわしーさいど",
+          "Shinagawa Seaside"
+        ],
+        "line": "TOKYR",
+        "order": 5
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.734408,
+          35.607447
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Oimachi (大井町)",
+        "alternate_names": [
+          "大井町",
+          "おおいまち",
+          "Oimachi"
+        ],
+        "line": "TOKYR",
+        "order": 6
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.728487,
+          35.61939
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Osaki (大崎)",
+        "alternate_names": [
+          "大崎",
+          "おおさき",
+          "Osaki"
+        ],
+        "line": "TOKYR",
+        "order": 7
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7221,
+          35.783448
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Akabane-iwabuchi (赤羽岩淵)",
+        "alternate_names": [
+          "赤羽岩淵",
+          "Akabane-iwabuchi"
+        ],
+        "line": "TOKYSR",
+        "order": 0
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.730005,
+          35.800121
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Kawaguchi-motogo (川口元郷)",
+        "alternate_names": [
+          "川口元郷",
+          "かわぐちもとごう",
+          "Kawaguchi-motogo"
+        ],
+        "line": "TOKYSR",
+        "order": 1
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.736121,
+          35.816123
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Minami-hatogaya (南鳩ヶ谷)",
+        "alternate_names": [
+          "南鳩ヶ谷",
+          "みなみはとがや",
+          "Minami-hatogaya"
+        ],
+        "line": "TOKYSR",
+        "order": 2
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.736159,
+          35.830873
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Hatogaya (鳩ヶ谷)",
+        "alternate_names": [
+          "鳩ヶ谷",
+          "はとがや",
+          "Hatogaya"
+        ],
+        "line": "TOKYSR",
+        "order": 3
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73822,
+          35.842998
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Araijuku (新井宿)",
+        "alternate_names": [
+          "新井宿",
+          "あらいじゅく",
+          "Araijuku"
+        ],
+        "line": "TOKYSR",
+        "order": 4
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.753702,
+          35.858938
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Tozuka-angyo (戸塚安行)",
+        "alternate_names": [
+          "戸塚安行",
+          "とづかあんぎょう",
+          "Tozuka-angyo"
+        ],
+        "line": "TOKYSR",
+        "order": 5
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.743615,
+          35.876641
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Higashi-Kawaguchi (東川口)",
+        "alternate_names": [
+          "東川口",
+          "ひがしかわぐち",
+          "Higashi-Kawaguchi"
+        ],
+        "line": "TOKYSR",
+        "order": 6
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.727631,
+          35.893821
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Urawa-misono (浦和美園)",
+        "alternate_names": [
+          "浦和美園",
+          "うらわみその",
+          "Urawa-misono"
+        ],
+        "line": "TOKYSR",
+        "order": 7
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.126056,
+          35.71595
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Toyo-Katsutadai (東葉勝田台)",
+        "alternate_names": [
+          "東葉勝田台",
+          "とうようかつただい",
+          "Toyo-Katsutadai"
+        ],
+        "line": "TOKYTR",
+        "order": 0
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.118352,
+          35.723773
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Murakami (村上)",
+        "alternate_names": [
+          "村上",
+          "むらかみ",
+          "Murakami"
+        ],
+        "line": "TOKYTR",
+        "order": 1
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.10341,
+          35.727852
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Yachiyo-chuo (八千代中央)",
+        "alternate_names": [
+          "八千代中央",
+          "やちよちゅうおう",
+          "Yachiyo-chuo"
+        ],
+        "line": "TOKYTR",
+        "order": 2
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.072995,
+          35.72885
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Yachiyo-midorigaoka (八千代緑が丘)",
+        "alternate_names": [
+          "八千代緑が丘",
+          "やちよみどりがおか",
+          "Yachiyo-midorigaoka"
+        ],
+        "line": "TOKYTR",
+        "order": 3
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.058817,
+          35.726842
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Funabashi-nichidaimae (船橋日大前)",
+        "alternate_names": [
+          "船橋日大前",
+          "ふなばしにちだいまえ",
+          "Funabashi-nichidaimae"
+        ],
+        "line": "TOKYTR",
+        "order": 4
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.041715,
+          35.721454
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Kita-narashino (北習志野)",
+        "alternate_names": [
+          "北習志野",
+          "きたならしの",
+          "Kita-narashino"
+        ],
+        "line": "TOKYTR",
+        "order": 5
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.022164,
+          35.714005
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Hasama (飯山満)",
+        "alternate_names": [
+          "飯山満",
+          "はさま",
+          "Hasama"
+        ],
+        "line": "TOKYTR",
+        "order": 6
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.98055,
+          35.70596
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Higashi-Kaijin (東海神)",
+        "alternate_names": [
+          "東海神",
+          "ひがしかいじん",
+          "Higashi-Kaijin"
+        ],
+        "line": "TOKYTR",
+        "order": 7
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.958876,
+          35.707292
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Nishi-Funabashi (西船橋)",
+        "alternate_names": [
+          "西船橋",
+          "にしふなばし",
+          "Nishi-Funabashi"
+        ],
+        "line": "TOKYTR",
+        "order": 8
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.759837,
+          35.665365
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Shimbashi (新橋)",
+        "alternate_names": [
+          "新橋",
+          "しんばし",
+          "Shimbashi"
+        ],
+        "line": "TOKYU",
+        "order": 0
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.759981,
+          35.662921
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Shiodome (汐留)",
+        "alternate_names": [
+          "汐留",
+          "しおどめ",
+          "Shiodome"
+        ],
+        "line": "TOKYU",
+        "order": 1
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761916,
+          35.653987
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Takeshiba (竹芝)",
+        "alternate_names": [
+          "竹芝",
+          "たけしば",
+          "Takeshiba"
+        ],
+        "line": "TOKYU",
+        "order": 2
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.759088,
+          35.649151
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Hinode (日の出)",
+        "alternate_names": [
+          "日の出",
+          "ひので",
+          "Hinode"
+        ],
+        "line": "TOKYU",
+        "order": 3
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.757772,
+          35.641726
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Shibaura-futo (芝浦ふ頭)",
+        "alternate_names": [
+          "芝浦ふ頭",
+          "しばうらふとう",
+          "Shibaura-futo"
+        ],
+        "line": "TOKYU",
+        "order": 4
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778805,
+          35.629906
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Odaiba-kaihinkoen (お台場海浜公園)",
+        "alternate_names": [
+          "お台場海浜公園",
+          "おだいばかいひんこうえん",
+          "Odaiba-kaihinkoen"
+        ],
+        "line": "TOKYU",
+        "order": 5
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771407,
+          35.625885
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Daiba (台場)",
+        "alternate_names": [
+          "台場",
+          "だいば",
+          "Daiba"
+        ],
+        "line": "TOKYU",
+        "order": 6
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773081,
+          35.621401
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Tokyo International Cruise Terminal (東京国際クルーズターミナル)",
+        "alternate_names": [
+          "東京国際クルーズターミナル",
+          "とうきょうこくさいくるーずたーみなる",
+          "Tokyo International Cruise Terminal"
+        ],
+        "line": "TOKYU",
+        "order": 7
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779443,
+          35.617567
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Telecom Center (テレコムセンター)",
+        "alternate_names": [
+          "テレコムセンター",
+          "てれこむせんたー",
+          "Telecom Center"
+        ],
+        "line": "TOKYU",
+        "order": 8
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781233,
+          35.624717
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Aomi (青海)",
+        "alternate_names": [
+          "青海",
+          "あおみ",
+          "Aomi"
+        ],
+        "line": "TOKYU",
+        "order": 9
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791371,
+          35.630219
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Tokyo Big Sight (東京ビッグサイト)",
+        "alternate_names": [
+          "東京ビッグサイト",
+          "とうきょうびっぐさいと",
+          "Tokyo Big Sight"
+        ],
+        "line": "TOKYU",
+        "order": 10
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793326,
+          35.634534
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Ariake (有明)",
+        "alternate_names": [
+          "有明",
+          "ありあけ",
+          "Ariake"
+        ],
+        "line": "TOKYU",
+        "order": 11
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788786,
+          35.64011
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Ariake-Tennis-no-mori (有明テニスの森)",
+        "alternate_names": [
+          "有明テニスの森",
+          "ありあけてにすのもり",
+          "Ariake-Tennis-no-mori"
+        ],
+        "line": "TOKYU",
+        "order": 12
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.785778,
+          35.645763
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Shijo-mae (市場前)",
+        "alternate_names": [
+          "市場前",
+          "しじょうまえ",
+          "Shijo-mae"
+        ],
+        "line": "TOKYU",
+        "order": 13
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.790189,
+          35.648749
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Shin-Toyosu (新豊洲)",
+        "alternate_names": [
+          "新豊洲",
+          "しんとよす",
+          "Shin-Toyosu"
+        ],
+        "line": "TOKYU",
+        "order": 14
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.795431,
+          35.653748
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Toyosu (豊洲)",
+        "alternate_names": [
+          "豊洲",
+          "とよす",
+          "Toyosu"
+        ],
+        "line": "TOKYU",
+        "order": 15
+      },
+      "id": 66
+    }
+  ]
+}

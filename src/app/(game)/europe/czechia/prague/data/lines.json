@@ -1,0 +1,26 @@
+{
+  "PRAGA": {
+    "name": "Line A",
+    "color": "#75AC40",
+    "backgroundColor": "#75AC40",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "PRAGA.svg"
+  },
+  "PRAGB": {
+    "name": "Line B",
+    "color": "#F5D30F",
+    "backgroundColor": "#F5D30F",
+    "textColor": "#222222",
+    "order": 1,
+    "icon": "PRAGB.svg"
+  },
+  "PRAGC": {
+    "name": "Line C",
+    "color": "#E63323",
+    "backgroundColor": "#E63323",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "PRAGC.svg"
+  }
+}

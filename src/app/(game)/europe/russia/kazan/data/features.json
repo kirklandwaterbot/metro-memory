@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.084605,
+          55.855629
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Aviastroitelnaya",
+        "alternate_names": [
+          "Авиастроительная"
+        ],
+        "line": "KZN1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.082224,
+          55.841988
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Severny Vokzal",
+        "alternate_names": [
+          "Северный вокзал"
+        ],
+        "line": "KZN1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.082598,
+          55.828142
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Yashlek",
+        "alternate_names": [
+          "Яшьлек"
+        ],
+        "line": "KZN1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.098417,
+          55.816553
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Kozya Sloboda",
+        "alternate_names": [
+          "Козья слобода",
+          "Козина слобода"
+        ],
+        "line": "KZN1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.107009,
+          55.795177
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Kremlyovskaya",
+        "alternate_names": [
+          "Кремлёвская",
+          "Кремлівська"
+        ],
+        "line": "KZN1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.12496,
+          55.785591
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Ploshchad Gabdully Tukaya",
+        "alternate_names": [
+          "Площадь Габдуллы Тукая",
+          "Gabdulla Tukay Square",
+          "Площа Габдулли Тукая"
+        ],
+        "line": "KZN1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.142576,
+          55.776977
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Sukonnaya Sloboda",
+        "alternate_names": [
+          "Суконная слобода",
+          "Суконна слобода"
+        ],
+        "line": "KZN1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.166528,
+          55.765121
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Ametyevo",
+        "alternate_names": [
+          "Аметьево",
+          "Аметьєво"
+        ],
+        "line": "KZN1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.190965,
+          55.760181
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Gorki",
+        "alternate_names": [
+          "Горки",
+          "Гірки"
+        ],
+        "line": "KZN1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.208593,
+          55.749958
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Prospekt Pobedy",
+        "alternate_names": [
+          "Проспект Победы",
+          "Проспект Перемоги"
+        ],
+        "line": "KZN1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.219001,
+          55.743742
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Dubravnaya",
+        "alternate_names": [
+          "Дубравная"
+        ],
+        "line": "KZN1",
+        "order": 10
+      },
+      "id": 10
+    }
+  ]
+}

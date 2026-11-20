@@ -330,7 +330,10 @@ const buildSubsetMetadata = (
   parentMetadata: Metadata,
   definition: MiniCityDefinition,
 ): Metadata => {
-  const title = `${definition.name} Metro Memory`
+  // "Moscow Metro" -> "Moscow Metro Memory", not "Moscow Metro Metro Memory"
+  const title = /\b(Metro|Subway|U-Bahn|Métro|Metrô|MRT|Metropolitana)$/i.test(definition.name)
+    ? `${definition.name} Memory`
+    : `${definition.name} Metro Memory`
   const description = `How many stations in ${definition.name} can you name?`
   const icon = definition.icon ?? getCityIconPath(definition.slug)
   const openGraphImage =

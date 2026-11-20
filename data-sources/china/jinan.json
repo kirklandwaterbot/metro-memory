@@ -6,7 +6,13 @@
   "english": {
     "济南西站": "Jinan West Railway Station",
     "济南东站": "Jinan East Railway Station",
-    "济南站": "Jinan Railway Station"
+    "济南站": "Jinan Railway Station",
+    "新元学校": "Xinyuan School",
+    "济北小学": "Jibei Primary School",
+    "济阳市民中心": "Jiyang Citizen Service Center",
+    "济阳北": "Jiyang North",
+    "英才学院北校区": "Shandong Yingcai University North Campus",
+    "黄河会展中心": "Yellow River Convention and Exhibition Center"
   },
   "alternates": {},
   "lines": [
@@ -16,6 +22,11 @@
       "match": {
         "ref": "^1$",
         "route": "subway"
+      },
+      "icon": "asia/china/jinan/Line1.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -24,6 +35,11 @@
       "match": {
         "ref": "^2$",
         "route": "subway"
+      },
+      "icon": "asia/china/jinan/Line2.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -32,6 +48,11 @@
       "match": {
         "ref": "^3$",
         "route": "subway"
+      },
+      "icon": "asia/china/jinan/Line3.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -40,6 +61,11 @@
       "match": {
         "ref": "^4$",
         "route": "subway"
+      },
+      "icon": "asia/china/jinan/Line4.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -48,6 +74,11 @@
       "match": {
         "ref": "^6$",
         "route": "subway"
+      },
+      "icon": "asia/china/jinan/Line6.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -56,6 +87,11 @@
       "match": {
         "ref": "^8$",
         "route": "subway"
+      },
+      "icon": "asia/china/jinan/line8.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -63,20 +99,175 @@
       "name": "Jiyang Line",
       "match": {
         "ref": "^济阳线$"
-      }
+      },
+      "addStations": [
+        {
+          "zh": "新元学校",
+          "point": [
+            117.169243,
+            36.959294
+          ],
+          "after": "回河"
+        },
+        {
+          "zh": "济北小学",
+          "point": [
+            117.169066,
+            36.967821
+          ],
+          "after": "新元学校"
+        },
+        {
+          "zh": "济阳市民中心",
+          "point": [
+            117.169213,
+            36.979415
+          ],
+          "after": "济北小学"
+        },
+        {
+          "zh": "济阳北",
+          "point": [
+            117.169509,
+            37.00421
+          ],
+          "after": "济阳市民中心"
+        }
+      ],
+      "extraTrack": [
+        {
+          "osmWay": 1462598348,
+          "coords": [
+            [
+              117.169393,
+              36.985656
+            ],
+            [
+              117.169479,
+              36.990351
+            ],
+            [
+              117.169539,
+              36.993691
+            ],
+            [
+              117.169608,
+              36.998916
+            ],
+            [
+              117.169532,
+              37.004213
+            ]
+          ]
+        },
+        {
+          "osmWay": 1462598349,
+          "coords": [
+            [
+              117.169487,
+              37.004213
+            ],
+            [
+              117.169536,
+              36.99889
+            ],
+            [
+              117.169471,
+              36.993704
+            ],
+            [
+              117.169413,
+              36.990386
+            ],
+            [
+              117.169324,
+              36.985647
+            ]
+          ]
+        },
+        {
+          "osmWay": 1462598350,
+          "coords": [
+            [
+              117.171044,
+              37.005036
+            ],
+            [
+              117.17039,
+              37.005034
+            ],
+            [
+              117.169826,
+              37.004994
+            ],
+            [
+              117.169605,
+              37.004896
+            ],
+            [
+              117.169512,
+              37.004771
+            ],
+            [
+              117.169495,
+              37.004618
+            ],
+            [
+              117.169487,
+              37.004213
+            ]
+          ]
+        },
+        {
+          "osmWay": 1462598351,
+          "coords": [
+            [
+              117.169532,
+              37.004213
+            ],
+            [
+              117.16954,
+              37.004617
+            ],
+            [
+              117.169559,
+              37.004743
+            ],
+            [
+              117.169604,
+              37.004834
+            ],
+            [
+              117.169826,
+              37.004949
+            ],
+            [
+              117.17038,
+              37.004979
+            ],
+            [
+              117.171026,
+              37.004979
+            ]
+          ]
+        }
+      ],
+      "icon": "asia/china/jinan/jiyang.png"
     },
     {
       "id": "jinanyunba",
-      "name": "Yunba Line",
+      "name": "Jinan SkyShuttle Line 1",
       "match": {
         "ref": "^云巴线$"
-      }
+      },
+      "icon": "asia/china/gba/szbyd1.png"
     }
   ],
   "cityName": "Jinan",
   "groups": [
     {
       "title": "Jinan Metro",
+      "titleImage": "asia/china/jinan/jinanmetro.png",
       "lines": [
         "jinan1",
         "jinan2",
@@ -88,7 +279,8 @@
       ]
     },
     {
-      "title": "Jinan Yunba",
+      "title": "BYD",
+      "titleImage": "asia/china/gba/BYD.png",
       "lines": [
         "jinanyunba"
       ]

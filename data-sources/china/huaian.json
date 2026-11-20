@@ -11,13 +11,17 @@
       "name": "Tram T1",
       "match": {
         "network": "淮安轨道交通"
-      }
+      },
+      "color": "#800080",
+      "backgroundColor": "#800080",
+      "icon": "asia/china/huaian/tramt1.png"
     }
   ],
   "cityName": "Huai'an",
   "groups": [
     {
       "title": "Huai'an Tram",
+      "titleImage": "asia/china/huaian/icon.ico",
       "lines": [
         "huaiant1"
       ]

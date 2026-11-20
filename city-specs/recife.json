@@ -1,0 +1,97 @@
+{
+  "slug": "recife",
+  "path": "south-america/brazil/recife",
+  "gameTitle": "Recife Metro Memory",
+  "description": "How many Metrô do Recife and VLT stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -8.4,
+    -35.1,
+    -7.95,
+    -34.85
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "primaryBeforeSlash": true,
+  "lineGroups": [
+    {
+      "title": "Metrô do Recife",
+      "lines": [
+        "REC1",
+        "REC2",
+        "RECS"
+      ]
+    },
+    {
+      "title": "VLT",
+      "lines": [
+        "RECVC",
+        "RECVK"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "REC1",
+      "name": "Linha Centro (Camaragibe)",
+      "match": {
+        "route": "subway",
+        "network": "Recife",
+        "ref": "^1$"
+      },
+      "color": "#E77405"
+    },
+    {
+      "id": "REC2",
+      "name": "Linha Centro (Jaboatão)",
+      "match": {
+        "route": "subway",
+        "network": "Recife",
+        "ref": "^2$"
+      },
+      "color": "#D9001C"
+    },
+    {
+      "id": "RECS",
+      "name": "Linha Sul",
+      "match": {
+        "route": "subway",
+        "network": "Recife",
+        "ref": "^Sul$"
+      },
+      "color": "#1A5BA3"
+    },
+    {
+      "id": "RECVC",
+      "name": "VLT Cajueiro Seco–Cabo",
+      "match": {
+        "route": "light_rail",
+        "network": "Recife",
+        "name": "Cabo"
+      },
+      "color": "#008000"
+    },
+    {
+      "id": "RECVK",
+      "name": "VLT Cajueiro Seco–Curado",
+      "match": {
+        "route": "light_rail",
+        "network": "Recife",
+        "name": "Curado"
+      },
+      "color": "#999E9E"
+    }
+  ],
+  "register": {
+    "name": "Recife, BR",
+    "continent": "South America",
+    "coordinates": [
+      -34.877,
+      -8.0476
+    ],
+    "achievement": {
+      "title": "Venice of Brazil",
+      "description": "You've named every Metrô do Recife station."
+    }
+  }
+}

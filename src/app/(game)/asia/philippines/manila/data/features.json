@@ -1,1408 +1,1408 @@
 {
-    "type":  "FeatureCollection",
-    "features":  [
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0304494,
-                                                              14.6549939
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  1,
-                                            "name":  "Unified Grand Central Station",
-                                            "line":  "ManilaLRT1",
-                                            "order":  0,
-                                            "alternate_names":  [
-                                                                    "Unified Grand Central Station",
-                                                                    "North Triangle Common Station",
-                                                                    "North Triangle Common",
-                                                                    "North EDSA",
-                                                                    "Common Station",
-                                                                    "North Triangle station"
-                                                                ],
-                                            "cluster_key":  "manila-common-station-complex"
-                                        },
-                         "id":  1
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.02113700000001,
-                                                              14.657559
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  2,
-                                            "name":  "Fernando Poe Jr.",
-                                            "line":  "ManilaLRT1",
-                                            "order":  1,
-                                            "alternate_names":  [
-                                                                    "Fernando Poe Jr.",
-                                                                    "Roosevelt"
-                                                                ]
-                                        },
-                         "id":  2
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.003896,
-                                                              14.6574245
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  3,
-                                            "name":  "Balintawak",
-                                            "line":  "ManilaLRT1",
-                                            "order":  2,
-                                            "alternate_names":  [
-                                                                    "Balintawak"
-                                                                ]
-                                        },
-                         "id":  3
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9838745,
-                                                              14.654311499999999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  4,
-                                            "name":  "Monumento",
-                                            "line":  "ManilaLRT1",
-                                            "order":  3,
-                                            "alternate_names":  [
-                                                                    "Monumento",
-                                                                    "Yamaha Monumento"
-                                                                ]
-                                        },
-                         "id":  4
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.983536,
-                                                              14.6444065
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  5,
-                                            "name":  "5th Avenue",
-                                            "line":  "ManilaLRT1",
-                                            "order":  4,
-                                            "alternate_names":  [
-                                                                    "5th Avenue"
-                                                                ]
-                                        },
-                         "id":  5
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9822795,
-                                                              14.6360145
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  6,
-                                            "name":  "R. Papa",
-                                            "line":  "ManilaLRT1",
-                                            "order":  5,
-                                            "alternate_names":  [
-                                                                    "R. Papa"
-                                                                ]
-                                        },
-                         "id":  6
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.981405,
-                                                              14.630606499999999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  7,
-                                            "name":  "Abad Santos",
-                                            "line":  "ManilaLRT1",
-                                            "order":  6,
-                                            "alternate_names":  [
-                                                                    "Abad Santos"
-                                                                ]
-                                        },
-                         "id":  7
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.98289,
-                                                              14.622784
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  8,
-                                            "name":  "Blumentritt",
-                                            "line":  "ManilaLRT1",
-                                            "order":  7,
-                                            "alternate_names":  [
-                                                                    "Blumentritt"
-                                                                ]
-                                        },
-                         "id":  8
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.982723,
-                                                              14.6167155
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  9,
-                                            "name":  "Tayuman",
-                                            "line":  "ManilaLRT1",
-                                            "order":  8,
-                                            "alternate_names":  [
-                                                                    "Tayuman"
-                                                                ]
-                                        },
-                         "id":  9
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.98248699999999,
-                                                              14.611133
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  10,
-                                            "name":  "Bambang",
-                                            "line":  "ManilaLRT1",
-                                            "order":  9,
-                                            "alternate_names":  [
-                                                                    "Bambang"
-                                                                ]
-                                        },
-                         "id":  10
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.98204999999999,
-                                                              14.6053095
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  11,
-                                            "name":  "Doroteo Jose",
-                                            "line":  "ManilaLRT1",
-                                            "order":  10,
-                                            "alternate_names":  [
-                                                                    "Doroteo Jose"
-                                                                ],
-                                            "cluster_key":  "manila-doroteo-jose-recto-complex"
-                                        },
-                         "id":  11
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9813635,
-                                                              14.59917
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  12,
-                                            "name":  "Carriedo",
-                                            "line":  "ManilaLRT1",
-                                            "order":  11,
-                                            "alternate_names":  [
-                                                                    "Carriedo",
-                                                                    "Santa Cruz"
-                                                                ]
-                                        },
-                         "id":  12
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.98161999999999,
-                                                              14.592796499999999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  13,
-                                            "name":  "Central Terminal",
-                                            "line":  "ManilaLRT1",
-                                            "order":  12,
-                                            "alternate_names":  [
-                                                                    "Central Terminal",
-                                                                    "Arroceros"
-                                                                ]
-                                        },
-                         "id":  13
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9846245,
-                                                              14.5825265
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  14,
-                                            "name":  "United Nations",
-                                            "line":  "ManilaLRT1",
-                                            "order":  13,
-                                            "alternate_names":  [
-                                                                    "United Nations"
-                                                                ]
-                                        },
-                         "id":  14
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.98801950000001,
-                                                              14.5765755
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  15,
-                                            "name":  "Pedro Gil",
-                                            "line":  "ManilaLRT1",
-                                            "order":  14,
-                                            "alternate_names":  [
-                                                                    "Pedro Gil"
-                                                                ]
-                                        },
-                         "id":  15
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.991526,
-                                                              14.570288
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  16,
-                                            "name":  "Quirino",
-                                            "line":  "ManilaLRT1",
-                                            "order":  15,
-                                            "alternate_names":  [
-                                                                    "Quirino"
-                                                                ]
-                                        },
-                         "id":  16
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.99475100000001,
-                                                              14.56347
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  17,
-                                            "name":  "Vito Cruz",
-                                            "line":  "ManilaLRT1",
-                                            "order":  16,
-                                            "alternate_names":  [
-                                                                    "Vito Cruz"
-                                                                ]
-                                        },
-                         "id":  17
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.99716599999999,
-                                                              14.554181
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  18,
-                                            "name":  "Gil Puyat",
-                                            "line":  "ManilaLRT1",
-                                            "order":  17,
-                                            "alternate_names":  [
-                                                                    "Gil Puyat"
-                                                                ]
-                                        },
-                         "id":  18
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.998637,
-                                                              14.5477515
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  19,
-                                            "name":  "Libertad",
-                                            "line":  "ManilaLRT1",
-                                            "order":  18,
-                                            "alternate_names":  [
-                                                                    "Libertad"
-                                                                ]
-                                        },
-                         "id":  19
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0006195,
-                                                              14.538843499999999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  20,
-                                            "name":  "EDSA",
-                                            "line":  "ManilaLRT1",
-                                            "order":  19,
-                                            "alternate_names":  [
-                                                                    "EDSA"
-                                                                ],
-                                            "cluster_key":  "manila-edsa-taft-avenue-complex"
-                                        },
-                         "id":  20
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.99839800000001,
-                                                              14.5342875
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  21,
-                                            "name":  "Baclaran",
-                                            "line":  "ManilaLRT1",
-                                            "order":  20,
-                                            "alternate_names":  [
-                                                                    "Baclaran"
-                                                                ]
-                                        },
-                         "id":  21
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.992938,
-                                                              14.530279
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  22,
-                                            "name":  "Redemptorist–Aseana",
-                                            "line":  "ManilaLRT1",
-                                            "order":  21,
-                                            "alternate_names":  [
-                                                                    "Redemptorist–Aseana",
-                                                                    "Redemptorist Aseana"
-                                                                ]
-                                        },
-                         "id":  22
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9929875,
-                                                              14.518432
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  23,
-                                            "name":  "MIA Road",
-                                            "line":  "ManilaLRT1",
-                                            "order":  22,
-                                            "alternate_names":  [
-                                                                    "MIA Road",
-                                                                    "MIA"
-                                                                ]
-                                        },
-                         "id":  23
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.991254,
-                                                              14.508411500000001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  24,
-                                            "name":  "PITX",
-                                            "line":  "ManilaLRT1",
-                                            "order":  23,
-                                            "alternate_names":  [
-                                                                    "PITX",
-                                                                    "Asia World"
-                                                                ]
-                                        },
-                         "id":  24
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.99436700000001,
-                                                              14.498915
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  25,
-                                            "name":  "Ninoy Aquino Avenue",
-                                            "line":  "ManilaLRT1",
-                                            "order":  24,
-                                            "alternate_names":  [
-                                                                    "Ninoy Aquino Avenue",
-                                                                    "MIA",
-                                                                    "Ninoy Aquino International Airport",
-                                                                    "NAIA",
-                                                                    "Manila International Airport",
-                                                                    "Manila Airport",
-                                                                    "Terminal 1"
-                                                                ]
-                                        },
-                         "id":  25
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9894586,
-                                                              14.4853302
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  26,
-                                            "name":  "Dr. Santos",
-                                            "line":  "ManilaLRT1",
-                                            "order":  25,
-                                            "alternate_names":  [
-                                                                    "Dr. Santos",
-                                                                    "Sucat"
-                                                                ]
-                                        },
-                         "id":  26
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9776028,
-                                                              14.4744763
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  27,
-                                            "name":  "Las Piñas",
-                                            "line":  "ManilaLRT1",
-                                            "order":  26,
-                                            "alternate_names":  [
-                                                                    "Las Piñas"
-                                                                ]
-                                        },
-                         "id":  27
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9632194,
-                                                              14.4702458
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  28,
-                                            "name":  "Zapote",
-                                            "line":  "ManilaLRT1",
-                                            "order":  27,
-                                            "alternate_names":  [
-                                                                    "Zapote"
-                                                                ]
-                                        },
-                         "id":  28
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9594597,
-                                                              14.4635658
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  29,
-                                            "name":  "Talaba",
-                                            "line":  "ManilaLRT1",
-                                            "order":  28,
-                                            "alternate_names":  [
-                                                                    "Talaba"
-                                                                ]
-                                        },
-                         "id":  29
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9602799,
-                                                              14.4569501
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  30,
-                                            "name":  "Niog",
-                                            "line":  "ManilaLRT1",
-                                            "order":  29,
-                                            "alternate_names":  [
-                                                                    "Niog"
-                                                                ]
-                                        },
-                         "id":  30
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.121309,
-                                                              14.6247705
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  31,
-                                            "name":  "Antipolo",
-                                            "line":  "ManilaLRT2",
-                                            "order":  0,
-                                            "alternate_names":  [
-                                                                    "Antipolo",
-                                                                    "Masinag"
-                                                                ]
-                                        },
-                         "id":  31
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.100648,
-                                                              14.6204415
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  32,
-                                            "name":  "Marikina–Pasig",
-                                            "line":  "ManilaLRT2",
-                                            "order":  1,
-                                            "alternate_names":  [
-                                                                    "Marikina–Pasig",
-                                                                    "Marikina Pasig",
-                                                                    "Marikina-Pasig",
-                                                                    "Emerald"
-                                                                ]
-                                        },
-                         "id":  32
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.085964,
-                                                              14.6221075
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  33,
-                                            "name":  "Santolan",
-                                            "line":  "ManilaLRT2",
-                                            "order":  2,
-                                            "alternate_names":  [
-                                                                    "Santolan"
-                                                                ]
-                                        },
-                         "id":  33
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.072774,
-                                                              14.631064
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  34,
-                                            "name":  "Katipunan",
-                                            "line":  "ManilaLRT2",
-                                            "order":  3,
-                                            "alternate_names":  [
-                                                                    "Katipunan"
-                                                                ]
-                                        },
-                         "id":  34
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0644531,
-                                                              14.6279732
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  35,
-                                            "name":  "Anonas",
-                                            "line":  "ManilaLRT2",
-                                            "order":  4,
-                                            "alternate_names":  [
-                                                                    "Anonas"
-                                                                ]
-                                        },
-                         "id":  35
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0526629,
-                                                              14.6227402
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  36,
-                                            "name":  "Araneta Center–Cubao",
-                                            "line":  "ManilaLRT2",
-                                            "order":  5,
-                                            "alternate_names":  [
-                                                                    "Araneta Center–Cubao",
-                                                                    "Araneta Center Cubao",
-                                                                    "Araneta Center - Cubao"
-                                                                ]
-                                        },
-                         "id":  36
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.042706,
-                                                              14.618597
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  37,
-                                            "name":  "Betty Go-Belmonte",
-                                            "line":  "ManilaLRT2",
-                                            "order":  6,
-                                            "alternate_names":  [
-                                                                    "Betty Go-Belmonte"
-                                                                ]
-                                        },
-                         "id":  37
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.03414599999999,
-                                                              14.613536
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  38,
-                                            "name":  "Gilmore",
-                                            "line":  "ManilaLRT2",
-                                            "order":  7,
-                                            "alternate_names":  [
-                                                                    "Gilmore"
-                                                                ]
-                                        },
-                         "id":  38
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.026099,
-                                                              14.6105685
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  39,
-                                            "name":  "J. Ruiz",
-                                            "line":  "ManilaLRT2",
-                                            "order":  8,
-                                            "alternate_names":  [
-                                                                    "J. Ruiz"
-                                                                ]
-                                        },
-                         "id":  39
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.01711399999999,
-                                                              14.60409
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  40,
-                                            "name":  "V. Mapa",
-                                            "line":  "ManilaLRT2",
-                                            "order":  9,
-                                            "alternate_names":  [
-                                                                    "V. Mapa"
-                                                                ]
-                                        },
-                         "id":  40
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.005094,
-                                                              14.6016765
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  41,
-                                            "name":  "Pureza",
-                                            "line":  "ManilaLRT2",
-                                            "order":  10,
-                                            "alternate_names":  [
-                                                                    "Pureza"
-                                                                ]
-                                        },
-                         "id":  41
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.9925685,
-                                                              14.600877
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  42,
-                                            "name":  "Legarda",
-                                            "line":  "ManilaLRT2",
-                                            "order":  11,
-                                            "alternate_names":  [
-                                                                    "Legarda"
-                                                                ]
-                                        },
-                         "id":  42
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              120.983371,
-                                                              14.603507
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  43,
-                                            "name":  "Recto",
-                                            "line":  "ManilaLRT2",
-                                            "order":  12,
-                                            "alternate_names":  [
-                                                                    "Recto"
-                                                                ],
-                                            "cluster_key":  "manila-doroteo-jose-recto-complex"
-                                        },
-                         "id":  43
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0322965,
-                                                              14.6521685
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  47,
-                                            "name":  "North Avenue",
-                                            "line":  "ManilaMRT3",
-                                            "order":  0,
-                                            "alternate_names":  [
-                                                                    "North Avenue"
-                                                                ]
-                                        },
-                         "id":  47
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0386,
-                                                              14.642513000000001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  48,
-                                            "name":  "Quezon Avenue",
-                                            "line":  "ManilaMRT3",
-                                            "order":  1,
-                                            "alternate_names":  [
-                                                                    "Quezon Avenue"
-                                                                ]
-                                        },
-                         "id":  48
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.043294,
-                                                              14.6353465
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  49,
-                                            "name":  "GMA–Kamuning",
-                                            "line":  "ManilaMRT3",
-                                            "order":  2,
-                                            "alternate_names":  [
-                                                                    "GMA–Kamuning",
-                                                                    "GMA Kamuning"
-                                                                ]
-                                        },
-                         "id":  49
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.051073,
-                                                              14.619484
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  50,
-                                            "name":  "Araneta Center–Cubao",
-                                            "line":  "ManilaMRT3",
-                                            "order":  3,
-                                            "alternate_names":  [
-                                                                    "Araneta Center–Cubao",
-                                                                    "Cubao",
-                                                                    "Araneta Center Cubao"
-                                                                ]
-                                        },
-                         "id":  50
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.056524,
-                                                              14.6078565
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  51,
-                                            "name":  "Santolan–Annapolis",
-                                            "line":  "ManilaMRT3",
-                                            "order":  4,
-                                            "alternate_names":  [
-                                                                    "Santolan–Annapolis",
-                                                                    "Santolan Annapolis",
-                                                                    "Santolan-Annapolis"
-                                                                ]
-                                        },
-                         "id":  51
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.056716,
-                                                              14.587862
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  52,
-                                            "name":  "Ortigas",
-                                            "line":  "ManilaMRT3",
-                                            "order":  5,
-                                            "alternate_names":  [
-                                                                    "Ortigas"
-                                                                ]
-                                        },
-                         "id":  52
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.053479,
-                                                              14.581065
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  53,
-                                            "name":  "Shaw Boulevard",
-                                            "line":  "ManilaMRT3",
-                                            "order":  6,
-                                            "alternate_names":  [
-                                                                    "Shaw Boulevard"
-                                                                ]
-                                        },
-                         "id":  53
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0481885,
-                                                              14.573774499999999
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  54,
-                                            "name":  "Boni",
-                                            "line":  "ManilaMRT3",
-                                            "order":  7,
-                                            "alternate_names":  [
-                                                                    "Boni"
-                                                                ]
-                                        },
-                         "id":  54
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0455355,
-                                                              14.5671145
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  55,
-                                            "name":  "Guadalupe",
-                                            "line":  "ManilaMRT3",
-                                            "order":  8,
-                                            "alternate_names":  [
-                                                                    "Guadalupe"
-                                                                ]
-                                        },
-                         "id":  55
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0342225,
-                                                              14.554370500000001
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  56,
-                                            "name":  "Buendia",
-                                            "line":  "ManilaMRT3",
-                                            "order":  9,
-                                            "alternate_names":  [
-                                                                    "Buendia"
-                                                                ]
-                                        },
-                         "id":  56
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.027919,
-                                                              14.549194
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  57,
-                                            "name":  "Ayala",
-                                            "line":  "ManilaMRT3",
-                                            "order":  10,
-                                            "alternate_names":  [
-                                                                    "Ayala",
-                                                                    "MRT-3 Ayala"
-                                                                ]
-                                        },
-                         "id":  57
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.019392,
-                                                              14.541945
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  58,
-                                            "name":  "Magallanes",
-                                            "line":  "ManilaMRT3",
-                                            "order":  11,
-                                            "alternate_names":  [
-                                                                    "Magallanes"
-                                                                ]
-                                        },
-                         "id":  58
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0018185,
-                                                              14.5375645
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  59,
-                                            "name":  "Taft Avenue",
-                                            "line":  "ManilaMRT3",
-                                            "order":  12,
-                                            "alternate_names":  [
-                                                                    "Taft Avenue"
-                                                                ],
-                                            "cluster_key":  "manila-edsa-taft-avenue-complex"
-                                        },
-                         "id":  59
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.0319879,
-                                                              14.6552124
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  60,
-                                            "name":  "North EDSA",
-                                            "line":  "ManilaMRT7",
-                                            "order":  0,
-                                            "alternate_names":  [
-                                                                    "North EDSA",
-                                                                    "North Triangle Common Station",
-                                                                    "North Triangle Common",
-                                                                    "Common Station",
-                                                                    "Unified Grand Central Station",
-                                                                    "North Triangle station"
-                                                                ],
-                                            "cluster_key":  "manila-common-station-complex"
-                                        },
-                         "id":  60
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.047574,
-                                                              14.6522
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  61,
-                                            "name":  "Quezon Memorial Circle",
-                                            "line":  "ManilaMRT7",
-                                            "order":  1,
-                                            "alternate_names":  [
-                                                                    "Quezon Memorial Circle"
-                                                                ]
-                                        },
-                         "id":  61
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.05499,
-                                                              14.655068
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  62,
-                                            "name":  "University Avenue",
-                                            "line":  "ManilaMRT7",
-                                            "order":  2,
-                                            "alternate_names":  [
-                                                                    "University Avenue"
-                                                                ]
-                                        },
-                         "id":  62
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.06742,
-                                                              14.66342
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  63,
-                                            "name":  "Tandang Sora",
-                                            "line":  "ManilaMRT7",
-                                            "order":  3,
-                                            "alternate_names":  [
-                                                                    "Tandang Sora"
-                                                                ]
-                                        },
-                         "id":  63
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.082678,
-                                                              14.677038
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  64,
-                                            "name":  "Don Antonio",
-                                            "line":  "ManilaMRT7",
-                                            "order":  4,
-                                            "alternate_names":  [
-                                                                    "Don Antonio"
-                                                                ]
-                                        },
-                         "id":  64
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.086309,
-                                                              14.685119
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  65,
-                                            "name":  "Batasan",
-                                            "line":  "ManilaMRT7",
-                                            "order":  5,
-                                            "alternate_names":  [
-                                                                    "Batasan"
-                                                                ]
-                                        },
-                         "id":  65
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.087356,
-                                                              14.697524
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  66,
-                                            "name":  "Manggahan",
-                                            "line":  "ManilaMRT7",
-                                            "order":  6,
-                                            "alternate_names":  [
-                                                                    "Manggahan"
-                                                                ]
-                                        },
-                         "id":  66
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.07842,
-                                                              14.705132
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  67,
-                                            "name":  "Doña Carmen",
-                                            "line":  "ManilaMRT7",
-                                            "order":  7,
-                                            "alternate_names":  [
-                                                                    "Doña Carmen",
-                                                                    "Dona Carmen"
-                                                                ]
-                                        },
-                         "id":  67
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.067924,
-                                                              14.706508
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  68,
-                                            "name":  "Regalado Avenue",
-                                            "line":  "ManilaMRT7",
-                                            "order":  8,
-                                            "alternate_names":  [
-                                                                    "Regalado Avenue"
-                                                                ]
-                                        },
-                         "id":  68
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.061219,
-                                                              14.733069
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  69,
-                                            "name":  "Mindanao Avenue",
-                                            "line":  "ManilaMRT7",
-                                            "order":  9,
-                                            "alternate_names":  [
-                                                                    "Mindanao Avenue"
-                                                                ]
-                                        },
-                         "id":  69
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.066582,
-                                                              14.735458
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  70,
-                                            "name":  "Quirino",
-                                            "line":  "ManilaMRT7",
-                                            "order":  10,
-                                            "alternate_names":  [
-                                                                    "Quirino"
-                                                                ]
-                                        },
-                         "id":  70
-                     },
-                     {
-                         "type":  "Feature",
-                         "geometry":  {
-                                          "type":  "Point",
-                                          "coordinates":  [
-                                                              121.08382,
-                                                              14.750234
-                                                          ]
-                                      },
-                         "properties":  {
-                                            "id":  71,
-                                            "name":  "Sacred Heart",
-                                            "line":  "ManilaMRT7",
-                                            "order":  11,
-                                            "alternate_names":  [
-                                                                    "Sacred Heart"
-                                                                ]
-                                        },
-                         "id":  71
-                     }
-                 ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.030378,
+          14.655063
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Unified Grand Central Station",
+        "line": "ManilaLRT1",
+        "order": 0,
+        "alternate_names": [
+          "Unified Grand Central Station",
+          "North Triangle Common Station",
+          "North Triangle Common",
+          "North EDSA",
+          "Common Station",
+          "North Triangle station"
+        ],
+        "cluster_key": "manila-common-station-complex"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.02113700000001,
+          14.657559
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Fernando Poe Jr.",
+        "line": "ManilaLRT1",
+        "order": 1,
+        "alternate_names": [
+          "Fernando Poe Jr.",
+          "Roosevelt"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.003896,
+          14.6574245
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Balintawak",
+        "line": "ManilaLRT1",
+        "order": 2,
+        "alternate_names": [
+          "Balintawak"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9838745,
+          14.654311499999999
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Monumento",
+        "line": "ManilaLRT1",
+        "order": 3,
+        "alternate_names": [
+          "Monumento",
+          "Yamaha Monumento"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.983536,
+          14.6444065
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "5th Avenue",
+        "line": "ManilaLRT1",
+        "order": 4,
+        "alternate_names": [
+          "5th Avenue"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.982262,
+          14.636022
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "R. Papa",
+        "line": "ManilaLRT1",
+        "order": 5,
+        "alternate_names": [
+          "R. Papa"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.981405,
+          14.630606499999999
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Abad Santos",
+        "line": "ManilaLRT1",
+        "order": 6,
+        "alternate_names": [
+          "Abad Santos"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.982871,
+          14.622785
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Blumentritt",
+        "line": "ManilaLRT1",
+        "order": 7,
+        "alternate_names": [
+          "Blumentritt"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.982723,
+          14.6167155
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Tayuman",
+        "line": "ManilaLRT1",
+        "order": 8,
+        "alternate_names": [
+          "Tayuman"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98248699999999,
+          14.611133
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Bambang",
+        "line": "ManilaLRT1",
+        "order": 9,
+        "alternate_names": [
+          "Bambang"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98204999999999,
+          14.6053095
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Doroteo Jose",
+        "line": "ManilaLRT1",
+        "order": 10,
+        "alternate_names": [
+          "Doroteo Jose"
+        ],
+        "cluster_key": "manila-doroteo-jose-recto-complex"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.981381,
+          14.599168
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Carriedo",
+        "line": "ManilaLRT1",
+        "order": 11,
+        "alternate_names": [
+          "Carriedo",
+          "Santa Cruz"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.981635,
+          14.592801
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Central Terminal",
+        "line": "ManilaLRT1",
+        "order": 12,
+        "alternate_names": [
+          "Central Terminal",
+          "Arroceros"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.984637,
+          14.582533
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "United Nations",
+        "line": "ManilaLRT1",
+        "order": 13,
+        "alternate_names": [
+          "United Nations"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98801950000001,
+          14.5765755
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Pedro Gil",
+        "line": "ManilaLRT1",
+        "order": 14,
+        "alternate_names": [
+          "Pedro Gil"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.991526,
+          14.570288
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Quirino",
+        "line": "ManilaLRT1",
+        "order": 15,
+        "alternate_names": [
+          "Quirino"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.994736,
+          14.563463
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Vito Cruz",
+        "line": "ManilaLRT1",
+        "order": 16,
+        "alternate_names": [
+          "Vito Cruz"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.997152,
+          14.554178
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Gil Puyat",
+        "line": "ManilaLRT1",
+        "order": 17,
+        "alternate_names": [
+          "Gil Puyat"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.998637,
+          14.5477515
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Libertad",
+        "line": "ManilaLRT1",
+        "order": 18,
+        "alternate_names": [
+          "Libertad"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0006195,
+          14.538843499999999
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "EDSA",
+        "line": "ManilaLRT1",
+        "order": 19,
+        "alternate_names": [
+          "EDSA"
+        ],
+        "cluster_key": "manila-edsa-taft-avenue-complex"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99839800000001,
+          14.5342875
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Baclaran",
+        "line": "ManilaLRT1",
+        "order": 20,
+        "alternate_names": [
+          "Baclaran"
+        ]
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99292,
+          14.530277
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Redemptorist–Aseana",
+        "line": "ManilaLRT1",
+        "order": 21,
+        "alternate_names": [
+          "Redemptorist–Aseana",
+          "Redemptorist Aseana"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.993005,
+          14.51843
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "MIA Road",
+        "line": "ManilaLRT1",
+        "order": 22,
+        "alternate_names": [
+          "MIA Road",
+          "MIA"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.991254,
+          14.508411500000001
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "PITX",
+        "line": "ManilaLRT1",
+        "order": 23,
+        "alternate_names": [
+          "PITX",
+          "Asia World"
+        ]
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99436700000001,
+          14.498915
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Ninoy Aquino Avenue",
+        "line": "ManilaLRT1",
+        "order": 24,
+        "alternate_names": [
+          "Ninoy Aquino Avenue",
+          "MIA",
+          "Ninoy Aquino International Airport",
+          "NAIA",
+          "Manila International Airport",
+          "Manila Airport",
+          "Terminal 1"
+        ]
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.989477,
+          14.485322
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Dr. Santos",
+        "line": "ManilaLRT1",
+        "order": 25,
+        "alternate_names": [
+          "Dr. Santos",
+          "Sucat"
+        ]
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9776028,
+          14.4744763
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Las Piñas",
+        "line": "ManilaLRT1",
+        "order": 26,
+        "alternate_names": [
+          "Las Piñas"
+        ]
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9632194,
+          14.4702458
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Zapote",
+        "line": "ManilaLRT1",
+        "order": 27,
+        "alternate_names": [
+          "Zapote"
+        ]
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9594597,
+          14.4635658
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Talaba",
+        "line": "ManilaLRT1",
+        "order": 28,
+        "alternate_names": [
+          "Talaba"
+        ]
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9602799,
+          14.4569501
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Niog",
+        "line": "ManilaLRT1",
+        "order": 29,
+        "alternate_names": [
+          "Niog"
+        ]
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.121312,
+          14.624757
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Antipolo",
+        "line": "ManilaLRT2",
+        "order": 0,
+        "alternate_names": [
+          "Antipolo",
+          "Masinag"
+        ]
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.100648,
+          14.6204415
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Marikina–Pasig",
+        "line": "ManilaLRT2",
+        "order": 1,
+        "alternate_names": [
+          "Marikina–Pasig",
+          "Marikina Pasig",
+          "Marikina-Pasig",
+          "Emerald"
+        ]
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.085925,
+          14.622069
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Santolan",
+        "line": "ManilaLRT2",
+        "order": 2,
+        "alternate_names": [
+          "Santolan"
+        ]
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.072774,
+          14.631064
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Katipunan",
+        "line": "ManilaLRT2",
+        "order": 3,
+        "alternate_names": [
+          "Katipunan"
+        ]
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.064456,
+          14.627954
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Anonas",
+        "line": "ManilaLRT2",
+        "order": 4,
+        "alternate_names": [
+          "Anonas"
+        ]
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0526629,
+          14.6227402
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Araneta Center–Cubao",
+        "line": "ManilaLRT2",
+        "order": 5,
+        "alternate_names": [
+          "Araneta Center–Cubao",
+          "Araneta Center Cubao",
+          "Araneta Center - Cubao"
+        ]
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.042706,
+          14.618597
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Betty Go-Belmonte",
+        "line": "ManilaLRT2",
+        "order": 6,
+        "alternate_names": [
+          "Betty Go-Belmonte"
+        ]
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.034138,
+          14.61355
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Gilmore",
+        "line": "ManilaLRT2",
+        "order": 7,
+        "alternate_names": [
+          "Gilmore"
+        ]
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.026099,
+          14.6105685
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "J. Ruiz",
+        "line": "ManilaLRT2",
+        "order": 8,
+        "alternate_names": [
+          "J. Ruiz"
+        ]
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.017125,
+          14.604079
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "V. Mapa",
+        "line": "ManilaLRT2",
+        "order": 9,
+        "alternate_names": [
+          "V. Mapa"
+        ]
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.005094,
+          14.6016765
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Pureza",
+        "line": "ManilaLRT2",
+        "order": 10,
+        "alternate_names": [
+          "Pureza"
+        ]
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.992563,
+          14.600894
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Legarda",
+        "line": "ManilaLRT2",
+        "order": 11,
+        "alternate_names": [
+          "Legarda"
+        ]
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.983381,
+          14.603563
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Recto",
+        "line": "ManilaLRT2",
+        "order": 12,
+        "alternate_names": [
+          "Recto"
+        ],
+        "cluster_key": "manila-doroteo-jose-recto-complex"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0322965,
+          14.6521685
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "North Avenue",
+        "line": "ManilaMRT3",
+        "order": 0,
+        "alternate_names": [
+          "North Avenue"
+        ]
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.038583,
+          14.642503
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Quezon Avenue",
+        "line": "ManilaMRT3",
+        "order": 1,
+        "alternate_names": [
+          "Quezon Avenue"
+        ]
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.043294,
+          14.6353465
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "GMA–Kamuning",
+        "line": "ManilaMRT3",
+        "order": 2,
+        "alternate_names": [
+          "GMA–Kamuning",
+          "GMA Kamuning"
+        ]
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.051088,
+          14.61949
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Araneta Center–Cubao",
+        "line": "ManilaMRT3",
+        "order": 3,
+        "alternate_names": [
+          "Araneta Center–Cubao",
+          "Cubao",
+          "Araneta Center Cubao"
+        ]
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.056473,
+          14.607834
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Santolan–Annapolis",
+        "line": "ManilaMRT3",
+        "order": 4,
+        "alternate_names": [
+          "Santolan–Annapolis",
+          "Santolan Annapolis",
+          "Santolan-Annapolis"
+        ]
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.056732,
+          14.587857
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Ortigas",
+        "line": "ManilaMRT3",
+        "order": 5,
+        "alternate_names": [
+          "Ortigas"
+        ]
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.053479,
+          14.581065
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Shaw Boulevard",
+        "line": "ManilaMRT3",
+        "order": 6,
+        "alternate_names": [
+          "Shaw Boulevard"
+        ]
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0481885,
+          14.573774499999999
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Boni",
+        "line": "ManilaMRT3",
+        "order": 7,
+        "alternate_names": [
+          "Boni"
+        ]
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.045556,
+          14.567108
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Guadalupe",
+        "line": "ManilaMRT3",
+        "order": 8,
+        "alternate_names": [
+          "Guadalupe"
+        ]
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.034204,
+          14.554391
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Buendia",
+        "line": "ManilaMRT3",
+        "order": 9,
+        "alternate_names": [
+          "Buendia"
+        ]
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.027976,
+          14.549132
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Ayala",
+        "line": "ManilaMRT3",
+        "order": 10,
+        "alternate_names": [
+          "Ayala",
+          "MRT-3 Ayala"
+        ]
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.019392,
+          14.541945
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Magallanes",
+        "line": "ManilaMRT3",
+        "order": 11,
+        "alternate_names": [
+          "Magallanes"
+        ]
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.001815,
+          14.537587
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Taft Avenue",
+        "line": "ManilaMRT3",
+        "order": 12,
+        "alternate_names": [
+          "Taft Avenue"
+        ],
+        "cluster_key": "manila-edsa-taft-avenue-complex"
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.031993,
+          14.655234
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "North EDSA",
+        "line": "ManilaMRT7",
+        "order": 0,
+        "alternate_names": [
+          "North EDSA",
+          "North Triangle Common Station",
+          "North Triangle Common",
+          "Common Station",
+          "Unified Grand Central Station",
+          "North Triangle station"
+        ],
+        "cluster_key": "manila-common-station-complex"
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.047574,
+          14.6522
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Quezon Memorial Circle",
+        "line": "ManilaMRT7",
+        "order": 1,
+        "alternate_names": [
+          "Quezon Memorial Circle"
+        ]
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.05499,
+          14.655068
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "University Avenue",
+        "line": "ManilaMRT7",
+        "order": 2,
+        "alternate_names": [
+          "University Avenue"
+        ]
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.067439,
+          14.663393
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Tandang Sora",
+        "line": "ManilaMRT7",
+        "order": 3,
+        "alternate_names": [
+          "Tandang Sora"
+        ]
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.082678,
+          14.677038
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Don Antonio",
+        "line": "ManilaMRT7",
+        "order": 4,
+        "alternate_names": [
+          "Don Antonio"
+        ]
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.086309,
+          14.685119
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Batasan",
+        "line": "ManilaMRT7",
+        "order": 5,
+        "alternate_names": [
+          "Batasan"
+        ]
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.087356,
+          14.697524
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Manggahan",
+        "line": "ManilaMRT7",
+        "order": 6,
+        "alternate_names": [
+          "Manggahan"
+        ]
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.07842,
+          14.705132
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Doña Carmen",
+        "line": "ManilaMRT7",
+        "order": 7,
+        "alternate_names": [
+          "Doña Carmen",
+          "Dona Carmen"
+        ]
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.067924,
+          14.706508
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Regalado Avenue",
+        "line": "ManilaMRT7",
+        "order": 8,
+        "alternate_names": [
+          "Regalado Avenue"
+        ]
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.061219,
+          14.733069
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Mindanao Avenue",
+        "line": "ManilaMRT7",
+        "order": 9,
+        "alternate_names": [
+          "Mindanao Avenue"
+        ]
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.066582,
+          14.735458
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Quirino",
+        "line": "ManilaMRT7",
+        "order": 10,
+        "alternate_names": [
+          "Quirino"
+        ]
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.08382,
+          14.750234
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Sacred Heart",
+        "line": "ManilaMRT7",
+        "order": 11,
+        "alternate_names": [
+          "Sacred Heart"
+        ]
+      },
+      "id": 71
+    }
+  ]
 }

@@ -1,0 +1,69 @@
+{
+  "slug": "algiers",
+  "path": "africa/algeria/algiers",
+  "gameTitle": "Algiers Metro Memory",
+  "description": "How many Algiers Metro and tram stations can you name from memory?",
+  "locale": "fr_DZ",
+  "bbox": [
+    36.65,
+    2.95,
+    36.82,
+    3.26
+  ],
+  "splitDash": true,
+  "localName": {
+    "tag": "name:ar",
+    "enTags": [
+      "name:fr",
+      "name:en"
+    ],
+    "altTags": [
+      "alt_name:ar"
+    ]
+  },
+  "lineGroups": [
+    {
+      "title": "Métro d'Alger",
+      "lines": [
+        "ALG1"
+      ]
+    },
+    {
+      "title": "Tramway d'Alger",
+      "lines": [
+        "ALGT1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "ALG1",
+      "name": "Ligne 1",
+      "match": {
+        "route": "subway",
+        "network": "Alger",
+        "ref": "^L1$"
+      },
+      "color": "#659ACD"
+    },
+    {
+      "id": "ALGT1",
+      "name": "Tramway T1",
+      "match": {
+        "route": "tram",
+        "ref": "^T1"
+      },
+      "color": "#0363FF"
+    }
+  ],
+  "register": {},
+  "rename": {
+    "Station des Ateliers (وقف ورش العمل)": "Les Ateliers (وقف ورش العمل)"
+  },
+  "alternates": {
+    "Les Ateliers (وقف ورش العمل)": [
+      "Ateliers",
+      "Station des Ateliers"
+    ]
+  }
+}

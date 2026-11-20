@@ -1,0 +1,63 @@
+{
+  "slug": "yekaterinburg",
+  "path": "asia/russia/yekaterinburg",
+  "gameTitle": "Yekaterinburg Metro Memory",
+  "description": "How many Yekaterinburg Metro stations can you name from memory?",
+  "locale": "ru_RU",
+  "bbox": [
+    56.75,
+    60.5,
+    56.93,
+    60.7
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Yekaterinburg Metro",
+      "lines": [
+        "EKB1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "EKB1",
+      "name": "Line 1",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#1C8C3A",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "EKB1.svg"
+    }
+  ],
+  "register": {
+    "name": "Yekaterinburg (Екатеринбург), RU",
+    "continent": "Asia",
+    "coordinates": [
+      60.6057,
+      56.8389
+    ],
+    "achievement": {
+      "title": "Ural Explorer",
+      "description": "You've named every Yekaterinburg Metro station."
+    },
+    "zh": "叶卡捷琳堡, RU"
+  },
+  "display": "translit"
+}

@@ -1,0 +1,419 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.132851,
+          -29.686745
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Novo Hamburgo",
+        "line": "POA1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.135004,
+          -29.700945
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Fenac",
+        "line": "POA1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.13499,
+          -29.715896
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Industrial",
+        "alternate_names": [
+          "Tintas Killing"
+        ],
+        "line": "POA1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.140362,
+          -29.729732
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Santo Afonso",
+        "line": "POA1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.145181,
+          -29.749036
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Rio dos Sinos",
+        "line": "POA1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.141145,
+          -29.768902
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "São Leopoldo",
+        "line": "POA1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.140547,
+          -29.786934
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Unisinos",
+        "line": "POA1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.149117,
+          -29.823162
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Sapucaia",
+        "line": "POA1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.165541,
+          -29.832756
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Luiz Pasteur",
+        "line": "POA1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.179285,
+          -29.85203
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Esteio",
+        "line": "POA1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.180901,
+          -29.876813
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Petrobras",
+        "line": "POA1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.179573,
+          -29.887563
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "São Luís",
+        "line": "POA1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.178806,
+          -29.903707
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Mathias Velho",
+        "line": "POA1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.182026,
+          -29.918974
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Canoas",
+        "alternate_names": [
+          "La Salle"
+        ],
+        "line": "POA1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.17744,
+          -29.937982
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Fátima",
+        "line": "POA1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.176612,
+          -29.954647
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Niterói",
+        "line": "POA1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.178957,
+          -29.97676
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Anchieta",
+        "line": "POA1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.183035,
+          -29.98767
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Aeroporto",
+        "line": "POA1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.19749,
+          -29.997307
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Farrapos",
+        "line": "POA1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.209423,
+          -30.006313
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "São Pedro",
+        "line": "POA1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.219889,
+          -30.022194
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Rodoviária",
+        "line": "POA1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.228231,
+          -30.026241
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Mercado",
+        "line": "POA1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.175798,
+          -29.989579
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Terminal 1",
+        "line": "POAAM",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.182651,
+          -29.987387
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Aeroporto",
+        "line": "POAAM",
+        "order": 1
+      },
+      "id": 23
+    }
+  ]
+}

@@ -1,0 +1,1905 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.371135,
+          -34.60876
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Plaza de Mayo",
+        "line": "BAA",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3745,
+          -34.608578
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Perú",
+        "line": "BAA",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.378573,
+          -34.60884
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Piedras",
+        "line": "BAA",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.382646,
+          -34.609123
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Lima",
+        "line": "BAA",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.386753,
+          -34.60939
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Sáenz Peña",
+        "line": "BAA",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.392564,
+          -34.609221
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Congreso - Raúl Alfonsín",
+        "alternate_names": [
+          "Congreso",
+          "Raúl Alfonsín"
+        ],
+        "line": "BAA",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.400857,
+          -34.609862
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Alberti",
+        "line": "BAA",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.406292,
+          -34.609633
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Plaza Miserere",
+        "line": "BAA",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.398515,
+          -34.609661
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Pasco",
+        "line": "BAA",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41555,
+          -34.610828
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Loria",
+        "line": "BAA",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.421518,
+          -34.611706
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Castro Barros",
+        "line": "BAA",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.429492,
+          -34.615241
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Río de Janeiro",
+        "line": "BAA",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.435955,
+          -34.618105
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Acoyte",
+        "line": "BAA",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.441371,
+          -34.620622
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Primera Junta",
+        "line": "BAA",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.448639,
+          -34.623559
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Puan",
+        "line": "BAA",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.456107,
+          -34.626454
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Carabobo",
+        "line": "BAA",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46347,
+          -34.629092
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "San José de Flores",
+        "line": "BAA",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.470478,
+          -34.630987
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "San Pedrito",
+        "line": "BAA",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.369731,
+          -34.602951
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Leandro N. Alem",
+        "line": "BAB",
+        "order": 0
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.374565,
+          -34.603322
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Florida",
+        "line": "BAB",
+        "order": 1
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381273,
+          -34.603663
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Carlos Pellegrini",
+        "line": "BAB",
+        "order": 2
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.387086,
+          -34.604026
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Uruguay",
+        "line": "BAB",
+        "order": 3
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.392755,
+          -34.604437
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Callao",
+        "line": "BAB",
+        "order": 4
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.399415,
+          -34.604644
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Pasteur - AMIA",
+        "alternate_names": [
+          "Pasteur",
+          "AMIA"
+        ],
+        "line": "BAB",
+        "order": 5
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.405404,
+          -34.604581
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Pueyrredón",
+        "line": "BAB",
+        "order": 6
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.411353,
+          -34.604082
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Carlos Gardel",
+        "line": "BAB",
+        "order": 7
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.420813,
+          -34.603201
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Medrano - Almagro",
+        "alternate_names": [
+          "Medrano",
+          "Almagro"
+        ],
+        "line": "BAB",
+        "order": 8
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.431132,
+          -34.602148
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Ángel Gallardo",
+        "line": "BAB",
+        "order": 9
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.439693,
+          -34.599034
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Malabia - Osvaldo Pugliese",
+        "alternate_names": [
+          "Malabia",
+          "Osvaldo Pugliese"
+        ],
+        "line": "BAB",
+        "order": 10
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.447492,
+          -34.591764
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Dorrego",
+        "line": "BAB",
+        "order": 11
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.455151,
+          -34.587183
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Federico Lacroze",
+        "line": "BAB",
+        "order": 12
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.466386,
+          -34.58411
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Tronador - Villa Ortúzar",
+        "alternate_names": [
+          "Tronador",
+          "Villa Ortúzar"
+        ],
+        "line": "BAB",
+        "order": 13
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.474314,
+          -34.58119
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Los Incas - Parque Chas",
+        "alternate_names": [
+          "Los Incas",
+          "Parque Chas"
+        ],
+        "line": "BAB",
+        "order": 14
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.480748,
+          -34.577981
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Echeverría",
+        "line": "BAB",
+        "order": 15
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.486833,
+          -34.574001
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Juan Manuel de Rosas",
+        "line": "BAB",
+        "order": 16
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.374252,
+          -34.591349
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Retiro",
+        "line": "BAC",
+        "order": 0
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.377899,
+          -34.595023
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "General San Martín",
+        "line": "BAC",
+        "order": 1
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.378108,
+          -34.601739
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Lavalle",
+        "line": "BAC",
+        "order": 2
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.379511,
+          -34.604769
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Diagonal Norte",
+        "line": "BAC",
+        "order": 3
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.380632,
+          -34.608974
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Avenida de Mayo",
+        "line": "BAC",
+        "order": 4
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.380525,
+          -34.612468
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Moreno",
+        "line": "BAC",
+        "order": 5
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.380136,
+          -34.618091
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Independencia",
+        "line": "BAC",
+        "order": 6
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.379932,
+          -34.622236
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "San Juan",
+        "line": "BAC",
+        "order": 7
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381117,
+          -34.627394
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Constitución",
+        "line": "BAC",
+        "order": 8
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.37429,
+          -34.60757
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Catedral",
+        "line": "BAD",
+        "order": 0
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.380259,
+          -34.60442
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "9 de Julio",
+        "line": "BAD",
+        "order": 1
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.384846,
+          -34.601417
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Tribunales - Teatro Colón",
+        "alternate_names": [
+          "Tribunales",
+          "Teatro Colón"
+        ],
+        "line": "BAD",
+        "order": 2
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.392676,
+          -34.599637
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Callao",
+        "line": "BAD",
+        "order": 3
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.397739,
+          -34.599748
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Facultad de Medicina",
+        "line": "BAD",
+        "order": 4
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.403092,
+          -34.594903
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Pueyrredón",
+        "line": "BAD",
+        "order": 5
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.407071,
+          -34.59171
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Agüero",
+        "line": "BAD",
+        "order": 6
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.411213,
+          -34.588251
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Bulnes",
+        "line": "BAD",
+        "order": 7
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.415891,
+          -34.585166
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Scalabrini Ortiz",
+        "line": "BAD",
+        "order": 8
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.421139,
+          -34.581481
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Plaza Italia",
+        "line": "BAD",
+        "order": 9
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.425596,
+          -34.578463
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Palermo",
+        "line": "BAD",
+        "order": 10
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.434682,
+          -34.575201
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Ministro Carranza",
+        "line": "BAD",
+        "order": 11
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.444372,
+          -34.570268
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Olleros",
+        "line": "BAD",
+        "order": 12
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45207,
+          -34.566256
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "José Hernández",
+        "line": "BAD",
+        "order": 13
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45636,
+          -34.562424
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Juramento",
+        "line": "BAD",
+        "order": 14
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.462185,
+          -34.555782
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Congreso de Tucumán",
+        "line": "BAD",
+        "order": 15
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46166,
+          -34.642871
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Plaza de los Virreyes - Eva Perón",
+        "alternate_names": [
+          "Plaza de los Virreyes",
+          "Eva Perón"
+        ],
+        "line": "BAE",
+        "order": 0
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.458013,
+          -34.639816
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Varela",
+        "line": "BAE",
+        "order": 1
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.450191,
+          -34.636306
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Medalla Milagrosa",
+        "line": "BAE",
+        "order": 2
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.442342,
+          -34.63146
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Emilio Mitre",
+        "line": "BAE",
+        "order": 3
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.433889,
+          -34.628011
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "José María Moreno",
+        "line": "BAE",
+        "order": 4
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.426393,
+          -34.627025
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Avenida La Plata",
+        "line": "BAE",
+        "order": 5
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.416105,
+          -34.625534
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Boedo",
+        "line": "BAE",
+        "order": 6
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.409749,
+          -34.624689
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "General Urquiza",
+        "line": "BAE",
+        "order": 7
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40276,
+          -34.623842
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Jujuy",
+        "line": "BAE",
+        "order": 8
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.397572,
+          -34.623214
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Pichincha",
+        "line": "BAE",
+        "order": 9
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39145,
+          -34.622739
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Entre Ríos - Rodolfo Walsh",
+        "alternate_names": [
+          "Entre Ríos",
+          "Rodolfo Walsh"
+        ],
+        "line": "BAE",
+        "order": 10
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3852,
+          -34.622418
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "San José",
+        "line": "BAE",
+        "order": 11
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381485,
+          -34.61811
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Independencia - Santa Mama Antula",
+        "alternate_names": [
+          "Independencia",
+          "Santa Mama Antula"
+        ],
+        "line": "BAE",
+        "order": 12
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.377647,
+          -34.612958
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Belgrano",
+        "line": "BAE",
+        "order": 13
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.374111,
+          -34.609737
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Bolívar",
+        "line": "BAE",
+        "order": 14
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.370286,
+          -34.603705
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Correo Central",
+        "line": "BAE",
+        "order": 15
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.372157,
+          -34.596536
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Catalinas",
+        "line": "BAE",
+        "order": 16
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.376127,
+          -34.592146
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Retiro",
+        "line": "BAE",
+        "order": 17
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.391067,
+          -34.583076
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Facultad de Derecho - Julieta Lanteri",
+        "alternate_names": [
+          "Facultad de Derecho",
+          "Julieta Lanteri"
+        ],
+        "line": "BAH",
+        "order": 0
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39722,
+          -34.587552
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Las Heras",
+        "line": "BAH",
+        "order": 1
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.402402,
+          -34.594717
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Santa Fe - Carlos Jáuregui",
+        "alternate_names": [
+          "Santa Fe",
+          "Carlos Jáuregui"
+        ],
+        "line": "BAH",
+        "order": 2
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40392,
+          -34.599201
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Córdoba",
+        "line": "BAH",
+        "order": 3
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40536,
+          -34.604119
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Corrientes",
+        "line": "BAH",
+        "order": 4
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.405988,
+          -34.609155
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Once - 30 de Diciembre",
+        "alternate_names": [
+          "Once",
+          "30 de Diciembre"
+        ],
+        "line": "BAH",
+        "order": 5
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.404765,
+          -34.615216
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Venezuela",
+        "line": "BAH",
+        "order": 6
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40233,
+          -34.62307
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Humberto I",
+        "line": "BAH",
+        "order": 7
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.401001,
+          -34.629307
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Inclán-Mezquita Al Ahmad",
+        "line": "BAH",
+        "order": 8
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.399011,
+          -34.635428
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Caseros",
+        "line": "BAH",
+        "order": 9
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.406322,
+          -34.638463
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Parque Patricios",
+        "line": "BAH",
+        "order": 10
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.412628,
+          -34.641708
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Hospitales - Ringo Bonavena",
+        "alternate_names": [
+          "Hospitales",
+          "Ringo Bonavena"
+        ],
+        "line": "BAH",
+        "order": 11
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.460741,
+          -34.689517
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "General Savio",
+        "line": "BAP",
+        "order": 0
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.458155,
+          -34.685905
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Gabino Ezeiza",
+        "line": "BAP",
+        "order": 1
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.462347,
+          -34.682794
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Nicolás Descalzi",
+        "line": "BAP",
+        "order": 2
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.465343,
+          -34.680582
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Larrazábal",
+        "line": "BAP",
+        "order": 3
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.464001,
+          -34.677696
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Pola",
+        "line": "BAP",
+        "order": 4
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.460162,
+          -34.674522
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Escalada",
+        "line": "BAP",
+        "order": 5
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.457547,
+          -34.672195
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Cecilia Grierson",
+        "line": "BAP",
+        "order": 6
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.455105,
+          -34.669891
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Parque de la Ciudad",
+        "line": "BAP",
+        "order": 7
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.448514,
+          -34.665321
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Presidente Illia",
+        "line": "BAP",
+        "order": 8
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.446616,
+          -34.662203
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Fernández de la Cruz",
+        "line": "BAP",
+        "order": 9
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.448827,
+          -34.660462
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Nuestra Señora de Fátima",
+        "line": "BAP",
+        "order": 10
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.450046,
+          -34.659462
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Ana María Janer",
+        "line": "BAP",
+        "order": 11
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.453933,
+          -34.656427
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Somellera",
+        "line": "BAP",
+        "order": 12
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.456527,
+          -34.654413
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Mariano Acosta - Barrio Ramón Carrillo",
+        "alternate_names": [
+          "Mariano Acosta",
+          "Barrio Ramón Carrillo"
+        ],
+        "line": "BAP",
+        "order": 13
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.455565,
+          -34.649364
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Balbastro - Cementerio de Flores",
+        "alternate_names": [
+          "Balbastro",
+          "Cementerio de Flores"
+        ],
+        "line": "BAP",
+        "order": 14
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.461744,
+          -34.643109
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Intendente Saguier",
+        "line": "BAP",
+        "order": 15
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.465183,
+          -34.683482
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Centro Cívico Lugano",
+        "line": "BAP",
+        "order": 16
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.466873,
+          -34.680565
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Ana Díaz",
+        "line": "BAP",
+        "order": 17
+      },
+      "id": 107
+    }
+  ]
+}

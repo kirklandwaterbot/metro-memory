@@ -1,0 +1,143 @@
+{
+  "slug": "nagoya",
+  "path": "asia/japan/nagoya",
+  "gameTitle": "Nagoya Metro Memory",
+  "description": "How many Nagoya Subway, Aonami Line and Linimo stations can you name from memory?",
+  "locale": "ja_JP",
+  "bbox": [
+    35.0,
+    136.75,
+    35.26,
+    137.16
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ja-Latn",
+      "name:ja_rm"
+    ],
+    "altTags": [
+      "name:ja-Hira",
+      "name:ja_kana"
+    ],
+    "strip": "(駅|停留場|停留所|電停)$"
+  },
+  "lineGroups": [
+    {
+      "title": "Nagoya Municipal Subway",
+      "lines": [
+        "NGH",
+        "NGM",
+        "NGE",
+        "NGT",
+        "NGS",
+        "NGK"
+      ]
+    },
+    {
+      "title": "Aonami Line",
+      "lines": [
+        "NGAN"
+      ]
+    },
+    {
+      "title": "Linimo",
+      "lines": [
+        "NGL"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "NGH",
+      "name": "Higashiyama Line",
+      "match": {
+        "route": "subway",
+        "network": "名古屋市",
+        "ref": "^H$"
+      },
+      "color": "#FAB123"
+    },
+    {
+      "id": "NGM",
+      "name": "Meijō Line",
+      "match": {
+        "route": "subway",
+        "network": "名古屋市",
+        "ref": "^M$"
+      },
+      "color": "#B074D6"
+    },
+    {
+      "id": "NGE",
+      "name": "Meikō Line",
+      "match": {
+        "route": "subway",
+        "network": "名古屋市",
+        "ref": "^E$"
+      },
+      "color": "#7F4BAE"
+    },
+    {
+      "id": "NGT",
+      "name": "Tsurumai Line",
+      "match": {
+        "route": "subway",
+        "network": "名古屋市",
+        "ref": "^T$"
+      },
+      "color": "#009BBF"
+    },
+    {
+      "id": "NGS",
+      "name": "Sakura-dōri Line",
+      "match": {
+        "route": "subway",
+        "network": "名古屋市",
+        "ref": "^S$"
+      },
+      "color": "#C92F44"
+    },
+    {
+      "id": "NGK",
+      "name": "Kamiiida Line",
+      "match": {
+        "route": "subway",
+        "network": "名古屋市",
+        "ref": "^K$"
+      },
+      "color": "#EA7AB2"
+    },
+    {
+      "id": "NGAN",
+      "name": "Aonami Line",
+      "match": {
+        "route": "train",
+        "network": "あおなみ線"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "NGL",
+      "name": "Linimo",
+      "match": {
+        "route": "light_rail",
+        "name": "Linimo"
+      },
+      "color": "#0067C0"
+    }
+  ],
+  "register": {
+    "name": "Nagoya (名古屋), AIC",
+    "continent": "Asia",
+    "coordinates": [
+      136.9066,
+      35.1815
+    ],
+    "achievement": {
+      "title": "Castle Loop",
+      "description": "You've named every Nagoya Subway, Aonami and Linimo station."
+    }
+  }
+}

@@ -10,15 +10,17 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Xi\'an Metro',
+    titleImage: 'asia/china/xian/icon.ico',
     items: [
       {
         type: 'lines',
-        lines: ['xian1', 'xian2', 'xian3', 'xian4', 'xian5', 'xian6', 'xian8', 'xian9', 'xian10', 'xian14', 'xian15', 'xian16'],
+        lines: ['xian1', 'xian2', 'xian3', 'xian4', 'xian5', 'xian6', 'xian8', 'xian9', 'xian10', 'xian14', 'xian15', 'xian16', 'xianxihu'],
       },
     ],
   },
   {
-    title: 'Xi\'an Yunba',
+    title: 'BYD',
+    titleImage: 'asia/china/gba/BYD.png',
     items: [
       {
         type: 'lines',

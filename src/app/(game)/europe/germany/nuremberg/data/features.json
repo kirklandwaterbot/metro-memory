@@ -1,0 +1,974 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.957533,
+          49.480445
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Fürth Hardhöhe",
+        "line": "NUREU1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.968987,
+          49.48259
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Klinikum",
+        "line": "NUREU1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.981327,
+          49.480327
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Fürth-Stadthalle",
+        "line": "NUREU1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.988416,
+          49.477407
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Fürth Rathaus",
+        "line": "NUREU1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.991298,
+          49.470306
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Fürth Hauptbahnhof",
+        "line": "NUREU1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.000487,
+          49.46825
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Fürth Jakobinenstraße",
+        "line": "NUREU1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.011063,
+          49.465424
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Stadtgrenze",
+        "line": "NUREU1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.022722,
+          49.461693
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Muggenhof",
+        "line": "NUREU1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.03341,
+          49.458188
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Eberhardshof",
+        "line": "NUREU1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.042134,
+          49.455282
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Maximilianstraße",
+        "line": "NUREU1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.050853,
+          49.452506
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Bärenschanze",
+        "line": "NUREU1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.056864,
+          49.450522
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Gostenhof",
+        "line": "NUREU1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.065039,
+          49.448335
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Plärrer",
+        "line": "NUREU1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.070202,
+          49.450121
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Weißer Turm",
+        "line": "NUREU1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07773,
+          49.450947
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Lorenzkirche",
+        "line": "NUREU1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081849,
+          49.446862
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Nürnberg Hauptbahnhof",
+        "line": "NUREU1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.080249,
+          49.440791
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Aufseßplatz",
+        "line": "NUREU1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.083906,
+          49.435726
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Maffeiplatz",
+        "line": "NUREU1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.086354,
+          49.430161
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Frankenstraße",
+        "line": "NUREU1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.090413,
+          49.424076
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Hasenbuck",
+        "line": "NUREU1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.107975,
+          49.417122
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Bauernfeindstraße",
+        "line": "NUREU1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.114147,
+          49.415916
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Messe",
+        "line": "NUREU1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.121518,
+          49.412387
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Langwasser Nord",
+        "line": "NUREU1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.126576,
+          49.408561
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Scharfreiterring",
+        "line": "NUREU1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.131942,
+          49.404629
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Langwasser Mitte",
+        "line": "NUREU1",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.135909,
+          49.401263
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Gemeinschaftshaus",
+        "line": "NUREU1",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.140581,
+          49.398724
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Langwasser Süd",
+        "line": "NUREU1",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.03164,
+          49.420891
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Röthenbach",
+        "line": "NUREU2",
+        "order": 0
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.043917,
+          49.428971
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Hohe Marter",
+        "line": "NUREU2",
+        "order": 1
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.048393,
+          49.434355
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Schweinau",
+        "line": "NUREU2",
+        "order": 2
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.049941,
+          49.438785
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "St. Leonhard",
+        "line": "NUREU2",
+        "order": 3
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.055062,
+          49.444406
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Rothenburger Straße",
+        "line": "NUREU2",
+        "order": 4
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.065039,
+          49.448335
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Plärrer",
+        "line": "NUREU2",
+        "order": 5
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.074714,
+          49.446892
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Opernhaus",
+        "line": "NUREU2",
+        "order": 6
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081849,
+          49.446862
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Nürnberg Hauptbahnhof",
+        "line": "NUREU2",
+        "order": 7
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.086885,
+          49.452554
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Wöhrder Wiese",
+        "line": "NUREU2",
+        "order": 8
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.089479,
+          49.456902
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Rathenauplatz",
+        "line": "NUREU2",
+        "order": 9
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.093514,
+          49.461048
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Rennweg",
+        "line": "NUREU2",
+        "order": 10
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.100439,
+          49.464649
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Schoppershof",
+        "line": "NUREU2",
+        "order": 11
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.104473,
+          49.472181
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Nordostbahnhof",
+        "line": "NUREU2",
+        "order": 12
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.109956,
+          49.478531
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Herrnhütte",
+        "line": "NUREU2",
+        "order": 13
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.105232,
+          49.485061
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Ziegelstein",
+        "line": "NUREU2",
+        "order": 14
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0782,
+          49.494
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Flughafen",
+        "line": "NUREU2",
+        "order": 15
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.024307,
+          49.439292
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Großreuth bei Schweinau",
+        "line": "NUREU3",
+        "order": 0
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.036317,
+          49.439145
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Gustav-Adolf-Straße",
+        "line": "NUREU3",
+        "order": 1
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.043576,
+          49.441827
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Sündersbühl",
+        "line": "NUREU3",
+        "order": 2
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.055062,
+          49.444406
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Rothenburger Straße",
+        "line": "NUREU3",
+        "order": 3
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.065039,
+          49.448335
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Plärrer",
+        "line": "NUREU3",
+        "order": 4
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.074714,
+          49.446892
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Opernhaus",
+        "line": "NUREU3",
+        "order": 5
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081849,
+          49.446862
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Nürnberg Hauptbahnhof",
+        "line": "NUREU3",
+        "order": 6
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.086885,
+          49.452554
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Wöhrder Wiese",
+        "line": "NUREU3",
+        "order": 7
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.089479,
+          49.456902
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Rathenauplatz",
+        "line": "NUREU3",
+        "order": 8
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.08495,
+          49.463322
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Maxfeld",
+        "line": "NUREU3",
+        "order": 9
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.078535,
+          49.463323
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Kaulbachplatz",
+        "line": "NUREU3",
+        "order": 10
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.071314,
+          49.462471
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Friedrich-Ebert",
+        "line": "NUREU3",
+        "order": 11
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.064589,
+          49.463987
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Klinikum Nord",
+        "line": "NUREU3",
+        "order": 12
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.054928,
+          49.465717
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Nordwestring",
+        "line": "NUREU3",
+        "order": 13
+      },
+      "id": 56
+    }
+  ]
+}

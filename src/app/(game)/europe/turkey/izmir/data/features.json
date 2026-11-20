@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.991087,
+          38.394977
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Narlıdere Kaymakamlık",
+        "line": "IZMIM1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.000541,
+          38.395866
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "100. Yıl Cumhuriyet Şehitlik",
+        "line": "IZMIM1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.014981,
+          38.393725
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Narlıdere İtfaiye",
+        "line": "IZMIM1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.023493,
+          38.392502
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Güzel Sanatlar Fakültesi",
+        "line": "IZMIM1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.038207,
+          38.394169
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Dokuz Eylül Üniversitesi Hastanesi",
+        "line": "IZMIM1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.045429,
+          38.394541
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Çağdaş",
+        "line": "IZMIM1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.056943,
+          38.395723
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Balçova",
+        "line": "IZMIM1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.06994,
+          38.396983
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Fahrettin Altay",
+        "line": "IZMIM1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.084826,
+          38.393255
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Poligon",
+        "line": "IZMIM1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.094459,
+          38.395988
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Göztepe",
+        "line": "IZMIM1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.102823,
+          38.40153
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Hatay",
+        "line": "IZMIM1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.110429,
+          38.401742
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "İzmirspor",
+        "line": "IZMIM1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.120545,
+          38.405521
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Üçyol",
+        "line": "IZMIM1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.128058,
+          38.417033
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Konak",
+        "line": "IZMIM1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.135996,
+          38.422488
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Çankaya",
+        "line": "IZMIM1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.144836,
+          38.422815
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Basmane",
+        "line": "IZMIM1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.155109,
+          38.426945
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Hilal",
+        "line": "IZMIM1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.168873,
+          38.434827
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Halkapınar",
+        "line": "IZMIM1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.180685,
+          38.442387
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Stadyum",
+        "line": "IZMIM1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.190391,
+          38.448303
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Sanayi",
+        "line": "IZMIM1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.201354,
+          38.454961
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Bölge",
+        "line": "IZMIM1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.212603,
+          38.458387
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Bornova",
+        "line": "IZMIM1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.228824,
+          38.459693
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ege Üniversitesi",
+        "line": "IZMIM1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.228591,
+          38.465144
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Evka 3",
+        "line": "IZMIM1",
+        "order": 23
+      },
+      "id": 23
+    }
+  ]
+}

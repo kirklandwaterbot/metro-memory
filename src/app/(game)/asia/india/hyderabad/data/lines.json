@@ -1,0 +1,26 @@
+{
+  "HYDE1": {
+    "name": "Red Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "HYDE1.svg"
+  },
+  "HYDE2": {
+    "name": "Green Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "HYDE2.svg"
+  },
+  "HYDE3": {
+    "name": "Blue Line",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "HYDE3.svg"
+  }
+}

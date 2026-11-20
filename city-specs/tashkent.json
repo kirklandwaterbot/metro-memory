@@ -1,0 +1,102 @@
+{
+  "slug": "tashkent",
+  "path": "asia/uzbekistan/tashkent",
+  "gameTitle": "Tashkent Metro Memory",
+  "description": "How many Tashkent Metro stations can you name from memory?",
+  "locale": "uz_UZ",
+  "bbox": [
+    41.18,
+    69.1,
+    41.4,
+    69.4
+  ],
+  "transliterate": "ru",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Tashkent Metro",
+      "lines": [
+        "TAS1",
+        "TAS2",
+        "TAS3",
+        "TAS4"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "TAS1",
+      "name": "Chilonzor line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#E4002B",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "TAS1.svg"
+    },
+    {
+      "id": "TAS2",
+      "name": "Oʻzbekiston line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#0072BC",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "TAS2.svg"
+    },
+    {
+      "id": "TAS3",
+      "name": "Yunusobod line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^3$"
+      },
+      "color": "#00A651",
+      "badge": "3",
+      "textColor": "#FFFFFF",
+      "icon": "TAS3.svg"
+    },
+    {
+      "id": "TAS4",
+      "name": "Circle line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^4$"
+      },
+      "color": "#F7A800",
+      "badge": "4",
+      "textColor": "#222222",
+      "icon": "TAS4.svg"
+    }
+  ],
+  "register": {
+    "name": "Tashkent, UZ",
+    "continent": "Asia",
+    "coordinates": [
+      69.2401,
+      41.2995
+    ],
+    "achievement": {
+      "title": "Silk Road Subway",
+      "description": "You've named every Tashkent Metro station."
+    },
+    "zh": "塔什干, UZ"
+  },
+  "display": "local"
+}

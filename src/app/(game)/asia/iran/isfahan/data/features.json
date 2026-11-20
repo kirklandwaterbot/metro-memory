@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.603229,
+          32.714883
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Qods",
+        "alternate_names": [
+          "ایستگاه مترو قدس",
+          "ഖൊദ്‌സ്"
+        ],
+        "line": "ISFA1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.621118,
+          32.714882
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Baharestan",
+        "alternate_names": [
+          "ایستگاه مترو بهارستان",
+          "ബഹാറെസ്ഥാൻ"
+        ],
+        "line": "ISFA1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.631324,
+          32.715581
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Golestan",
+        "alternate_names": [
+          "ایستگاه مترو گلستان",
+          "ഗൊലെസ്ഥാൻ"
+        ],
+        "line": "ISFA1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.645354,
+          32.716328
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shahid Mofatteh",
+        "alternate_names": [
+          "ایستگاه مترو شهید مفتح",
+          "ഷഹീദ് മൊഫത്തെ"
+        ],
+        "line": "ISFA1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.659058,
+          32.71527
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Shahid Alikhani",
+        "alternate_names": [
+          "ایستگاه مترو شهید علیخانی",
+          "ഷഹീദ് അലിഖാനി"
+        ],
+        "line": "ISFA1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.666107,
+          32.708394
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Jaber",
+        "alternate_names": [
+          "ایستگاه مترو جابر"
+        ],
+        "line": "ISFA1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.672448,
+          32.698631
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Kaveh",
+        "alternate_names": [
+          "ایستگاه مترو کاوه",
+          "കാവെ"
+        ],
+        "line": "ISFA1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.673215,
+          32.687444
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Shahid Chamran",
+        "alternate_names": [
+          "ایستگاه مترو شهید چمران",
+          "ഷഹീദ് ചമ്രാൻ"
+        ],
+        "line": "ISFA1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.672198,
+          32.679601
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Shahid Bahonar",
+        "alternate_names": [
+          "ایستگاه مترو شهید باهنر",
+          "ഷഹീദ് ബാഹോനർ"
+        ],
+        "line": "ISFA1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.671257,
+          32.671975
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Shohada",
+        "alternate_names": [
+          "ایستگاه مترو شهدا",
+          "ഷൊഹദ"
+        ],
+        "line": "ISFA1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.670148,
+          32.664393
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Takhti",
+        "alternate_names": [
+          "ایستگاه مترو تختی",
+          "Тахти",
+          "തഖ്തി"
+        ],
+        "line": "ISFA1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.669357,
+          32.658118
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Imam Hossein",
+        "alternate_names": [
+          "ایستگاه مترو امام حسین",
+          "ഇമാം ഹൊസെയ്ൻ"
+        ],
+        "line": "ISFA1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.668157,
+          32.648819
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Enghelab",
+        "alternate_names": [
+          "ایستگاه مترو انقلاب",
+          "എങ്കെലാബ്"
+        ],
+        "line": "ISFA1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.666417,
+          32.638844
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Sie-O Se Pol",
+        "alternate_names": [
+          "ایستگاه مترو سی و سه پل",
+          "സിയെ-ഒ സെ പൊൽ"
+        ],
+        "line": "ISFA1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.665486,
+          32.629264
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Shari'ati",
+        "alternate_names": [
+          "ایستگاه مترو شریعتی",
+          "ഷറീയത്തി"
+        ],
+        "line": "ISFA1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.664498,
+          32.622152
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Azadi",
+        "alternate_names": [
+          "ایستگاه مترو آزادی",
+          "ആസാദി"
+        ],
+        "line": "ISFA1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.663536,
+          32.614866
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Daneshgah",
+        "alternate_names": [
+          "ایستگاه مترو دانشگاه",
+          "ദാനെഷ്ഗ"
+        ],
+        "line": "ISFA1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.664281,
+          32.60524
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Kargar",
+        "alternate_names": [
+          "ایستگاه مترو کارگر",
+          "കാർഗർ"
+        ],
+        "line": "ISFA1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.668229,
+          32.598487
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Kooye Emam",
+        "alternate_names": [
+          "ایستگاه مترو کوی امام",
+          "കൂയെ ഇമാം"
+        ],
+        "line": "ISFA1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.669684,
+          32.58813
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Defa-E Moghaddas (Sofeh)",
+        "alternate_names": [
+          "ایستگاه مترو دفاع مقدس (صفه)",
+          "സൊഫെ"
+        ],
+        "line": "ISFA1",
+        "order": 19
+      },
+      "id": 19
+    }
+  ]
+}

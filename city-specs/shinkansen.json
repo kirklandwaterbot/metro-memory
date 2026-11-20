@@ -1,0 +1,310 @@
+{
+  "slug": "shinkansen",
+  "path": "asia/japan/shinkansen",
+  "gameTitle": "Shinkansen Memory",
+  "description": "How many Shinkansen stations across Japan can you name from memory?",
+  "locale": "ja_JP",
+  "bbox": [
+    24.0,
+    122.0,
+    46.0,
+    146.0
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ja-Latn",
+      "name:ja_rm"
+    ],
+    "altTags": [
+      "name:ja-Hira",
+      "name:ja_kana"
+    ],
+    "strip": "(駅)$"
+  },
+  "query": "[out:json][timeout:900][maxsize:536870912];\narea[\"ISO3166-1\"=\"JP\"][\"admin_level\"=\"2\"]->.jp;\n(\n  rel[\"type\"=\"route\"][\"route\"~\"^(train|railway|high_speed)$\"][\"name\"~\"新幹線\"](area.jp);\n  rel[\"type\"=\"route\"][\"route\"~\"^(train|railway)$\"][\"name:en\"~\"Shinkansen\",i](area.jp);\n)->.r;\n.r out body;\nway(r.r)->.w;\n.w out geom;\nnode(r.r)->.n;\n.n out;\n(\n  node(around.w:400)[\"railway\"~\"^(station|halt)$\"];\n  node(around.w:400)[\"public_transport\"=\"station\"];\n)->.s;\n.s out;",
+  "lineGroups": [
+    {
+      "title": "JR Central & JR West",
+      "lines": [
+        "SKTK",
+        "SKSY"
+      ]
+    },
+    {
+      "title": "JR Kyushu",
+      "lines": [
+        "SKKY",
+        "SKNK"
+      ]
+    },
+    {
+      "title": "JR East",
+      "lines": [
+        "SKTH",
+        "SKJE",
+        "SKHR",
+        "SKYM",
+        "SKAK"
+      ]
+    },
+    {
+      "title": "JR Hokkaido",
+      "lines": [
+        "SKHD"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SKTK",
+      "name": "Tōkaidō Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^東海道新幹線( \\||$)"
+      },
+      "color": "#0072BC",
+      "stationList": [
+        "東京",
+        "品川",
+        "新横浜",
+        "小田原",
+        "熱海",
+        "三島",
+        "新富士",
+        "静岡",
+        "掛川",
+        "浜松",
+        "豊橋",
+        "三河安城",
+        "名古屋",
+        "岐阜羽島",
+        "米原",
+        "京都",
+        "新大阪"
+      ]
+    },
+    {
+      "id": "SKSY",
+      "name": "San'yō Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^山陽新幹線( \\||$)"
+      },
+      "color": "#253C8B",
+      "stationList": [
+        "新大阪",
+        "新神戸",
+        "西明石",
+        "姫路",
+        "相生",
+        "岡山",
+        "新倉敷",
+        "福山",
+        "新尾道",
+        "三原",
+        "東広島",
+        "広島",
+        "新岩国",
+        "徳山",
+        "新山口",
+        "厚狭",
+        "新下関",
+        "小倉",
+        "博多"
+      ]
+    },
+    {
+      "id": "SKKY",
+      "name": "Kyūshū Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^九州新幹線( \\||$)"
+      },
+      "color": "#E60012",
+      "stationList": [
+        "博多",
+        "新鳥栖",
+        "久留米",
+        "筑後船小屋",
+        "新大牟田",
+        "新玉名",
+        "熊本",
+        "新八代",
+        "新水俣",
+        "出水",
+        "川内",
+        "鹿児島中央"
+      ]
+    },
+    {
+      "id": "SKNK",
+      "name": "Nishi-Kyūshū Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^西九州新幹線( \\||$)"
+      },
+      "color": "#B6111E",
+      "stationList": [
+        "武雄温泉",
+        "嬉野温泉",
+        "新大村",
+        "諫早",
+        "長崎"
+      ]
+    },
+    {
+      "id": "SKTH",
+      "name": "Tōhoku Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^東北新幹線( \\||$)"
+      },
+      "color": "#00A960",
+      "stationList": [
+        "東京",
+        "上野",
+        "大宮",
+        "小山",
+        "宇都宮",
+        "那須塩原",
+        "新白河",
+        "郡山",
+        "福島",
+        "白石蔵王",
+        "仙台",
+        "古川",
+        "くりこま高原",
+        "一ノ関",
+        "水沢江刺",
+        "北上",
+        "新花巻",
+        "盛岡",
+        "いわて沼宮内",
+        "二戸",
+        "八戸",
+        "七戸十和田",
+        "新青森"
+      ]
+    },
+    {
+      "id": "SKHD",
+      "name": "Hokkaidō Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^北海道新幹線( \\||$)"
+      },
+      "color": "#6CBB3C",
+      "stationList": [
+        "新青森",
+        "奥津軽いまべつ",
+        "木古内",
+        "新函館北斗"
+      ]
+    },
+    {
+      "id": "SKJE",
+      "name": "Jōetsu Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^上越新幹線( \\||$)"
+      },
+      "color": "#EC6C9B",
+      "stationList": [
+        "大宮",
+        "熊谷",
+        "本庄早稲田",
+        "高崎",
+        "上毛高原",
+        "越後湯沢",
+        "ガーラ湯沢",
+        "浦佐",
+        "長岡",
+        "燕三条",
+        "新潟"
+      ]
+    },
+    {
+      "id": "SKHR",
+      "name": "Hokuriku Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^北陸新幹線( \\||$)"
+      },
+      "color": "#9B5CA7",
+      "stationList": [
+        "高崎",
+        "安中榛名",
+        "軽井沢",
+        "佐久平",
+        "上田",
+        "長野",
+        "飯山",
+        "上越妙高",
+        "糸魚川",
+        "黒部宇奈月温泉",
+        "富山",
+        "新高岡",
+        "金沢",
+        "小松",
+        "加賀温泉",
+        "芦原温泉",
+        "福井",
+        "越前たけふ",
+        "敦賀"
+      ]
+    },
+    {
+      "id": "SKYM",
+      "name": "Yamagata Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^山形新幹線( \\||$)"
+      },
+      "color": "#F39800",
+      "stationList": [
+        "福島",
+        "米沢",
+        "高畠",
+        "赤湯",
+        "かみのやま温泉",
+        "山形",
+        "天童",
+        "さくらんぼ東根",
+        "村山",
+        "大石田",
+        "新庄"
+      ]
+    },
+    {
+      "id": "SKAK",
+      "name": "Akita Shinkansen",
+      "match": {
+        "route": "railway",
+        "name": "^秋田新幹線( \\||$)"
+      },
+      "color": "#E4007F",
+      "stationList": [
+        "盛岡",
+        "雫石",
+        "田沢湖",
+        "角館",
+        "大曲",
+        "秋田"
+      ]
+    }
+  ],
+  "register": {
+    "name": "Shinkansen (新幹線), JP",
+    "continent": "Asia",
+    "coordinates": [
+      138.2529,
+      36.2048
+    ],
+    "achievement": {
+      "title": "Bullet Train Brain",
+      "description": "You've named every Shinkansen station in Japan."
+    }
+  }
+}

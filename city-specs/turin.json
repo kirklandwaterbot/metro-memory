@@ -1,0 +1,50 @@
+{
+  "slug": "turin",
+  "path": "europe/italy/turin",
+  "gameTitle": "Turin Metro Memory",
+  "description": "How many Turin Metro stations can you name from memory?",
+  "locale": "it_IT",
+  "bbox": [
+    44.962,
+    7.517,
+    45.178,
+    7.823
+  ],
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "Turin Metro",
+      "lines": [
+        "TURIM1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "TURIM1",
+      "name": "Line M1",
+      "match": {
+        "@id": "^(386242|1204590)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "M1",
+      "icon": "TURIM1.svg"
+    }
+  ],
+  "register": {
+    "name": "Turin, IT",
+    "continent": "Europe",
+    "coordinates": [
+      7.67,
+      45.07
+    ],
+    "zh": "都灵, IT",
+    "achievement": {
+      "title": "Turin Metro Master",
+      "description": "You've named every Turin Metro station."
+    }
+  }
+}

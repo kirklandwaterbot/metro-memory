@@ -20,7 +20,10 @@
       "match": {
         "ref": "^1$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line1.png",
+      "color": "#0F0F96",
+      "backgroundColor": "#0F0F96"
     },
     {
       "id": "chengdu2",
@@ -28,7 +31,10 @@
       "match": {
         "ref": "^2$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line2.png",
+      "color": "#FE633D",
+      "backgroundColor": "#FE633D"
     },
     {
       "id": "chengdu3",
@@ -36,7 +42,10 @@
       "match": {
         "ref": "^3$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line3.png",
+      "color": "#D60F6B",
+      "backgroundColor": "#D60F6B"
     },
     {
       "id": "chengdu4",
@@ -44,7 +53,10 @@
       "match": {
         "ref": "^4$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line4.png",
+      "color": "#1CAD64",
+      "backgroundColor": "#1CAD64"
     },
     {
       "id": "chengdu5",
@@ -52,7 +64,10 @@
       "match": {
         "ref": "^5$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line5.png",
+      "color": "#A03F92",
+      "backgroundColor": "#A03F92"
     },
     {
       "id": "chengdu6",
@@ -60,7 +75,10 @@
       "match": {
         "ref": "^6$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line6.png",
+      "color": "#BE7331",
+      "backgroundColor": "#BE7331"
     },
     {
       "id": "chengdu7",
@@ -68,7 +86,10 @@
       "match": {
         "ref": "^7$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line7.png",
+      "color": "#65D0DE",
+      "backgroundColor": "#65D0DE"
     },
     {
       "id": "chengdu8",
@@ -76,7 +97,10 @@
       "match": {
         "ref": "^8$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line8.png",
+      "color": "#A6C215",
+      "backgroundColor": "#A6C215"
     },
     {
       "id": "chengdu9",
@@ -84,7 +108,10 @@
       "match": {
         "ref": "^9$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line9.png",
+      "color": "#F1AD17",
+      "backgroundColor": "#F1AD17"
     },
     {
       "id": "chengdu10",
@@ -92,7 +119,10 @@
       "match": {
         "ref": "^10$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line10.png",
+      "color": "#0054BB",
+      "backgroundColor": "#0054BB"
     },
     {
       "id": "chengdu13",
@@ -100,7 +130,10 @@
       "match": {
         "ref": "^13$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line13.png",
+      "color": "#B2A225",
+      "backgroundColor": "#B2A225"
     },
     {
       "id": "chengdu17",
@@ -108,7 +141,10 @@
       "match": {
         "ref": "^17$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line17.png",
+      "color": "#87E0AA",
+      "backgroundColor": "#87E0AA"
     },
     {
       "id": "chengdu18",
@@ -116,7 +152,10 @@
       "match": {
         "ref": "^18$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line18.png",
+      "color": "#1A686E",
+      "backgroundColor": "#1A686E"
     },
     {
       "id": "chengdu19",
@@ -124,7 +163,10 @@
       "match": {
         "ref": "^19$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line19.png",
+      "color": "#94A2DC",
+      "backgroundColor": "#94A2DC"
     },
     {
       "id": "chengdu27",
@@ -132,7 +174,10 @@
       "match": {
         "ref": "^27$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line27.png",
+      "color": "#00A4E0",
+      "backgroundColor": "#00A4E0"
     },
     {
       "id": "chengdu30",
@@ -140,7 +185,10 @@
       "match": {
         "ref": "^30$",
         "network": "成都地铁"
-      }
+      },
+      "icon": "asia/china/chengdu/line30.png",
+      "color": "#E3718F",
+      "backgroundColor": "#E3718F"
     },
     {
       "id": "chengdus3",
@@ -148,6 +196,12 @@
       "match": {
         "network": "成都地铁",
         "name": "S3资阳线"
+      },
+      "icon": "asia/china/chengdu/lineS3.png",
+      "color": "#858686",
+      "backgroundColor": "#858686",
+      "extra": {
+        "badgeShape": "square"
       }
     },
     {
@@ -156,13 +210,36 @@
       "match": {
         "network": "成都有轨电车",
         "ref": "^T2B?$"
+      },
+      "icon": "asia/china/chengdu/lineT2.png",
+      "color": "#7EBB28",
+      "backgroundColor": "#7EBB28",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
+      }
+    },
+    {
+      "id": "dujiangyanmtr",
+      "name": "M-TR Tourist Line",
+      "match": {
+        "name": "都江堰M-TR"
+      },
+      "icon": "asia/china/chengdu/dujiangyan-mtr.png",
+      "color": "#248A3B",
+      "backgroundColor": "#248A3B",
+      "textColor": "#ffffff",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "contain"
       }
     }
   ],
-  "cityName": "Chengdu",
+  "cityName": "Chengdu–Dujiangyan",
   "groups": [
     {
       "title": "Chengdu Metro",
+      "titleImage": "asia/china/chengdu/icon.ico",
       "lines": [
         "chengdu1",
         "chengdu2",
@@ -187,6 +264,13 @@
       "title": "Chengdu Tram",
       "lines": [
         "chengdut2"
+      ]
+    },
+    {
+      "title": "Dujiangyan M-TR",
+      "titleImage": "asia/china/chengdu/dujiangyan-mtr.ico",
+      "lines": [
+        "dujiangyanmtr"
       ]
     }
   ]

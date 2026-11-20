@@ -1,128 +1,159 @@
 {
   "chengdu1": {
     "name": "Line 1",
-    "color": "#10069F",
-    "backgroundColor": "#10069F",
+    "color": "#0F0F96",
+    "backgroundColor": "#0F0F96",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/chengdu/line1.png"
   },
   "chengdu2": {
     "name": "Line 2",
-    "color": "#FF5C39",
-    "backgroundColor": "#FF5C39",
+    "color": "#FE633D",
+    "backgroundColor": "#FE633D",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/chengdu/line2.png"
   },
   "chengdu3": {
     "name": "Line 3",
-    "color": "#D40F7D",
-    "backgroundColor": "#D40F7D",
+    "color": "#D60F6B",
+    "backgroundColor": "#D60F6B",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/chengdu/line3.png"
   },
   "chengdu4": {
     "name": "Line 4",
-    "color": "#44AF52",
-    "backgroundColor": "#44AF52",
+    "color": "#1CAD64",
+    "backgroundColor": "#1CAD64",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/chengdu/line4.png"
   },
   "chengdu5": {
     "name": "Line 5",
-    "color": "#BB29BB",
-    "backgroundColor": "#BB29BB",
+    "color": "#A03F92",
+    "backgroundColor": "#A03F92",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/chengdu/line5.png"
   },
   "chengdu6": {
     "name": "Line 6",
-    "color": "#B36924",
-    "backgroundColor": "#B36924",
+    "color": "#BE7331",
+    "backgroundColor": "#BE7331",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/chengdu/line6.png"
   },
   "chengdu7": {
     "name": "Line 7",
-    "color": "#6AD1E3",
-    "backgroundColor": "#6AD1E3",
+    "color": "#65D0DE",
+    "backgroundColor": "#65D0DE",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/chengdu/line7.png"
   },
   "chengdu8": {
     "name": "Line 8",
-    "color": "#88DD00",
-    "backgroundColor": "#88DD00",
+    "color": "#A6C215",
+    "backgroundColor": "#A6C215",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/chengdu/line8.png"
   },
   "chengdu9": {
     "name": "Line 9",
-    "color": "#FFB81C",
-    "backgroundColor": "#FFB81C",
+    "color": "#F1AD17",
+    "backgroundColor": "#F1AD17",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/chengdu/line9.png"
   },
   "chengdu10": {
     "name": "Line 10",
-    "color": "#003DA5",
-    "backgroundColor": "#003DA5",
+    "color": "#0054BB",
+    "backgroundColor": "#0054BB",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/chengdu/line10.png"
   },
   "chengdu13": {
     "name": "Line 13",
-    "color": "#C5A900",
-    "backgroundColor": "#C5A900",
+    "color": "#B2A225",
+    "backgroundColor": "#B2A225",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/chengdu/line13.png"
   },
   "chengdu17": {
     "name": "Line 17",
-    "color": "#80E0A7",
-    "backgroundColor": "#80E0A7",
+    "color": "#87E0AA",
+    "backgroundColor": "#87E0AA",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "asia/china/chengdu/line17.png"
   },
   "chengdu18": {
     "name": "Line 18",
-    "color": "#006272",
-    "backgroundColor": "#006272",
+    "color": "#1A686E",
+    "backgroundColor": "#1A686E",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 13,
+    "icon": "asia/china/chengdu/line18.png"
   },
   "chengdu19": {
     "name": "Line 19",
-    "color": "#5c88db",
-    "backgroundColor": "#5c88db",
+    "color": "#94A2DC",
+    "backgroundColor": "#94A2DC",
     "textColor": "#ffffff",
-    "order": 14
+    "order": 14,
+    "icon": "asia/china/chengdu/line19.png"
   },
   "chengdu27": {
     "name": "Line 27",
-    "color": "#00A3E0",
-    "backgroundColor": "#00A3E0",
+    "color": "#00A4E0",
+    "backgroundColor": "#00A4E0",
     "textColor": "#ffffff",
-    "order": 15
+    "order": 15,
+    "icon": "asia/china/chengdu/line27.png"
   },
   "chengdu30": {
     "name": "Line 30",
-    "color": "#f63676",
-    "backgroundColor": "#f63676",
+    "color": "#E3718F",
+    "backgroundColor": "#E3718F",
     "textColor": "#ffffff",
-    "order": 16
+    "order": 16,
+    "icon": "asia/china/chengdu/line30.png"
   },
   "chengdus3": {
     "name": "Ziyang Line (S3)",
-    "color": "#9D9D9E",
-    "backgroundColor": "#9D9D9E",
+    "color": "#858686",
+    "backgroundColor": "#858686",
     "textColor": "#ffffff",
-    "order": 17
+    "order": 17,
+    "icon": "asia/china/chengdu/lineS3.png",
+    "badgeShape": "square"
   },
   "chengdut2": {
     "name": "Tram Line 2",
-    "color": "#6A911A",
-    "backgroundColor": "#6A911A",
+    "color": "#7EBB28",
+    "backgroundColor": "#7EBB28",
     "textColor": "#ffffff",
-    "order": 18
+    "order": 18,
+    "icon": "asia/china/chengdu/lineT2.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
+  },
+  "dujiangyanmtr": {
+    "name": "M-TR Tourist Line",
+    "color": "#248A3B",
+    "backgroundColor": "#248A3B",
+    "textColor": "#ffffff",
+    "order": 19,
+    "icon": "asia/china/chengdu/dujiangyan-mtr.png",
+    "badgeShape": "square",
+    "badgeFit": "contain"
   }
 }

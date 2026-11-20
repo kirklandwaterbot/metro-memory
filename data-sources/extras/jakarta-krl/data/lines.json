@@ -1,0 +1,42 @@
+{
+  "KRLBogor": {
+    "name": "KRL Bogor Line",
+    "color": "#E30A16",
+    "backgroundColor": "#E30A16",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "KRLBogor.svg"
+  },
+  "KRLCikarang": {
+    "name": "KRL Cikarang Loop Line",
+    "color": "#0084D8",
+    "backgroundColor": "#0084D8",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "KRLCikarang.svg"
+  },
+  "KRLRangkasbitung": {
+    "name": "KRL Rangkasbitung Line",
+    "color": "#16812B",
+    "backgroundColor": "#16812B",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "KRLRangkasbitung.svg"
+  },
+  "KRLTangerang": {
+    "name": "KRL Tangerang Line",
+    "color": "#623814",
+    "backgroundColor": "#623814",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "KRLTangerang.svg"
+  },
+  "KRLTanjungPriok": {
+    "name": "KRL Tanjung Priok Line",
+    "color": "#DD0067",
+    "backgroundColor": "#DD0067",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "KRLTanjungPriok.svg"
+  }
+}

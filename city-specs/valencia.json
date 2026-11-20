@@ -1,0 +1,47 @@
+{
+  "slug": "valencia",
+  "path": "south-america/venezuela/valencia",
+  "gameTitle": "Valencia Metro Memory",
+  "description": "How many Metro de Valencia stations can you name from memory?",
+  "locale": "es_VE",
+  "bbox": [
+    10.04,
+    -68.1,
+    10.3,
+    -67.88
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Valencia",
+      "lines": [
+        "VLN1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "VLN1",
+      "name": "Línea 1",
+      "match": {
+        "route": "light_rail",
+        "network": "Metro de Valencia",
+        "ref": "^1$"
+      },
+      "color": "#CC0000"
+    }
+  ],
+  "register": {
+    "name": "Valencia, VE",
+    "continent": "South America",
+    "coordinates": [
+      -68.0077,
+      10.162
+    ],
+    "achievement": {
+      "title": "Valenciano Voyager",
+      "description": "You've named every Metro de Valencia station."
+    }
+  }
+}

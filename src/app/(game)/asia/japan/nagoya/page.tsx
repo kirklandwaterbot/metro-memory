@@ -1,15 +1,17 @@
-import PlaceholderPage from '@/app/(game)/_placeholder/PlaceholderPage'
-import { buildPlaceholderConfig } from '@/app/(game)/_placeholder/config'
+export { metadata } from './metadata'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import 'react-circular-progressbar/dist/styles.css'
+import config from './config'
+import CityDataGamePage from '@/components/CityDataGamePage'
+import { Provider } from '@/lib/configContext'
+import Main from '@/components/Main'
 
-const config = buildPlaceholderConfig({
-  citySlug: 'nagoya',
-  cityPath: 'asia/japan/nagoya',
-  cityTitle: 'Nagoya (名古屋)',
-})
-
-
-export const metadata = config.METADATA
-
-export default function Page() {
-  return <PlaceholderPage config={config} />
+export default function NagoyaPage() {
+  return (
+    <Provider value={config}>
+      <Main className="min-h-screen">
+        <CityDataGamePage slug="nagoya" />
+      </Main>
+    </Provider>
+  )
 }

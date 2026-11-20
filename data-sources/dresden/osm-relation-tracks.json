@@ -1,0 +1,66 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "DresdenTram1": [
+      1812883,
+      1913600,
+      1810982,
+      1913601
+    ],
+    "DresdenTram2": [
+      1879856,
+      1879857
+    ],
+    "DresdenTram3": [
+      48496,
+      1432419
+    ],
+    "DresdenTram4": [
+      1895464,
+      1812889,
+      1895462,
+      1812888
+    ],
+    "DresdenTram6": [
+      2819864,
+      50962
+    ],
+    "DresdenTram7": [
+      1894481,
+      1894482
+    ],
+    "DresdenTram8": [
+      2816499,
+      48490
+    ],
+    "DresdenTram9": [
+      1812889,
+      2813811,
+      1812888,
+      1895461,
+      1895462,
+      1895463,
+      1895464,
+      2813709
+    ],
+    "DresdenTram10": [
+      2819852,
+      51822
+    ],
+    "DresdenTram11": [
+      51809,
+      2817120
+    ],
+    "DresdenTram12": [
+      1913600,
+      1913601
+    ],
+    "DresdenTram13": [
+      1812886,
+      1812887
+    ]
+  }
+}

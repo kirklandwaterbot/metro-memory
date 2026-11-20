@@ -1,0 +1,346 @@
+{
+  "KSR1": {
+    "name": "Pyongui Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "KSR1.svg"
+  },
+  "KSR2": {
+    "name": "Pyongbu Line",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "KSR2.svg"
+  },
+  "KSR3": {
+    "name": "Pyongna Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "KSR3.svg"
+  },
+  "KSR4": {
+    "name": "Kangwon Line",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 3,
+    "icon": "KSR4.svg"
+  },
+  "KSR5": {
+    "name": "Manpo Line",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "KSR5.svg"
+  },
+  "KSR6": {
+    "name": "Paektusan Ch'ŏngnyŏn Line",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "KSR6.svg"
+  },
+  "KSR7": {
+    "name": "Hambuk Line",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "KSR7.svg"
+  },
+  "KSR8": {
+    "name": "P'yŏngdŏk Line",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "KSR8.svg"
+  },
+  "KSR9": {
+    "name": "Chongnyon Ichon Line",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "KSR9.svg"
+  },
+  "KSR10": {
+    "name": "Hwanghae Chongnyon Line",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "KSR10.svg"
+  },
+  "KSR11": {
+    "name": "Pyongnam Line",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "KSR11.svg"
+  },
+  "KSR12": {
+    "name": "Kanggye Line",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "KSR12.svg"
+  },
+  "KSR15": {
+    "name": "Kumgangsan Chongnyon Line",
+    "color": "#E65100",
+    "backgroundColor": "#E65100",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "KSR15.svg"
+  },
+  "KSR16": {
+    "name": "Geumgol Line",
+    "color": "#006064",
+    "backgroundColor": "#006064",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "KSR16.svg"
+  },
+  "KSR19": {
+    "name": "Daegeon Line",
+    "color": "#3E2723",
+    "backgroundColor": "#3E2723",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "KSR19.svg"
+  },
+  "KSR20": {
+    "name": "Deokseong Line",
+    "color": "#263238",
+    "backgroundColor": "#263238",
+    "textColor": "#FFFFFF",
+    "order": 15,
+    "icon": "KSR20.svg"
+  },
+  "KSR21": {
+    "name": "Deokhyeon Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 16,
+    "icon": "KSR21.svg"
+  },
+  "KSR22": {
+    "name": "Tojiri Line",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 17,
+    "icon": "KSR22.svg"
+  },
+  "KSR23": {
+    "name": "Dumangang Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 18,
+    "icon": "KSR23.svg"
+  },
+  "KSR24": {
+    "name": "Dueon Line",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 19,
+    "icon": "KSR24.svg"
+  },
+  "KSR25": {
+    "name": "Ryonggang Line",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 20,
+    "icon": "KSR25.svg"
+  },
+  "KSR26": {
+    "name": "Ryongsong Line",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 21,
+    "icon": "KSR26.svg"
+  },
+  "KSR27": {
+    "name": "Mandeok Line",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 22,
+    "icon": "KSR27.svg"
+  },
+  "KSR28": {
+    "name": "Musan Line",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 23,
+    "icon": "KSR28.svg"
+  },
+  "KSR30": {
+    "name": "Paechon Line",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 24,
+    "icon": "KSR30.svg"
+  },
+  "KSR31": {
+    "name": "Paengmu Line",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 25,
+    "icon": "KSR31.svg"
+  },
+  "KSR32": {
+    "name": "Bupo Line",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 26,
+    "icon": "KSR32.svg"
+  },
+  "KSR33": {
+    "name": "Pukbunaeryuk Line",
+    "color": "#0D47A1",
+    "backgroundColor": "#0D47A1",
+    "textColor": "#FFFFFF",
+    "order": 27,
+    "icon": "KSR33.svg"
+  },
+  "KSR34": {
+    "name": "Pinallon Line",
+    "color": "#4A148C",
+    "backgroundColor": "#4A148C",
+    "textColor": "#FFFFFF",
+    "order": 28,
+    "icon": "KSR34.svg"
+  },
+  "KSR35": {
+    "name": "Samjiyon Line",
+    "color": "#E65100",
+    "backgroundColor": "#E65100",
+    "textColor": "#FFFFFF",
+    "order": 29,
+    "icon": "KSR35.svg"
+  },
+  "KSR36": {
+    "name": "Sohae Kammun Line",
+    "color": "#006064",
+    "backgroundColor": "#006064",
+    "textColor": "#FFFFFF",
+    "order": 30,
+    "icon": "KSR36.svg"
+  },
+  "KSR37": {
+    "name": "Sechŏn Line",
+    "color": "#880E4F",
+    "backgroundColor": "#880E4F",
+    "textColor": "#FFFFFF",
+    "order": 31,
+    "icon": "KSR37.svg"
+  },
+  "KSR39": {
+    "name": "Songrim Line",
+    "color": "#3E2723",
+    "backgroundColor": "#3E2723",
+    "textColor": "#FFFFFF",
+    "order": 32,
+    "icon": "KSR39.svg"
+  },
+  "KSR40": {
+    "name": "Sinhung Line",
+    "color": "#263238",
+    "backgroundColor": "#263238",
+    "textColor": "#FFFFFF",
+    "order": 33,
+    "icon": "KSR40.svg"
+  },
+  "KSR41": {
+    "name": "Ongjin Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 34,
+    "icon": "KSR41.svg"
+  },
+  "KSR43": {
+    "name": "Unnyul Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 35,
+    "icon": "KSR43.svg"
+  },
+  "KSR45": {
+    "name": "Changyon Line",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 36,
+    "icon": "KSR45.svg"
+  },
+  "KSR46": {
+    "name": "Jangjin Line",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 37,
+    "icon": "KSR46.svg"
+  },
+  "KSR48": {
+    "name": "Cheongnam Line",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 38,
+    "icon": "KSR48.svg"
+  },
+  "KSR49": {
+    "name": "Pyeongbuk Line",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 39,
+    "icon": "KSR49.svg"
+  },
+  "KSR50": {
+    "name": "Heocheon Line",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 40,
+    "icon": "KSR50.svg"
+  },
+  "KSR51": {
+    "name": "Hongui Line",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 41,
+    "icon": "KSR51.svg"
+  },
+  "KSR52": {
+    "name": "Husan Line",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 42,
+    "icon": "KSR52.svg"
+  }
+}

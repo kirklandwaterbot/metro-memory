@@ -1,0 +1,75 @@
+{
+  "slug": "lucknow",
+  "path": "asia/india/lucknow",
+  "gameTitle": "Lucknow Metro Memory",
+  "description": "How many Lucknow Metro stations can you name from memory?",
+  "locale": "en_IN",
+  "bbox": [
+    26.706,
+    80.788,
+    26.994,
+    81.112
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Lucknow Metro",
+      "lines": [
+        "LUCK1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LUCK1",
+      "name": "Red Line",
+      "match": {
+        "@id": "^(8299495|8299496)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "LUCK1.svg"
+    }
+  ],
+  "register": {
+    "name": "Lucknow (लखनऊ), IN",
+    "continent": "Asia",
+    "coordinates": [
+      80.95,
+      26.85
+    ],
+    "zh": "勒克瑙, IN",
+    "achievement": {
+      "title": "Lucknow Metro Master",
+      "description": "You've named every Lucknow Metro station."
+    }
+  }
+}

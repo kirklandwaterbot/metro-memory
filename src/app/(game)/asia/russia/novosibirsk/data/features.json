@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.912512,
+          55.059447
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Zayeltsovskaya",
+        "alternate_names": [
+          "Заельцовская",
+          "Zayeltsovksaya"
+        ],
+        "line": "NSK1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.914751,
+          55.051148
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Gagarinskaya",
+        "alternate_names": [
+          "Гагаринская"
+        ],
+        "line": "NSK1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.917391,
+          55.041388
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Krasny Prospekt",
+        "alternate_names": [
+          "Красный проспект",
+          "Krasnyi Prospekt"
+        ],
+        "line": "NSK1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.920499,
+          55.030108
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Ploshchad Lenina",
+        "alternate_names": [
+          "Площадь Ленина",
+          "Lenin Square"
+        ],
+        "line": "NSK1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.939144,
+          55.018957
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Oktyabrskaya",
+        "alternate_names": [
+          "Октябрьская"
+        ],
+        "line": "NSK1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.93838,
+          55.008947
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Rechnoy Vokzal",
+        "alternate_names": [
+          "Речной вокзал"
+        ],
+        "line": "NSK1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.920438,
+          54.996934
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Sportivnaya",
+        "alternate_names": [
+          "Спортивная"
+        ],
+        "line": "NSK1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.906637,
+          54.989308
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Studencheskaya",
+        "alternate_names": [
+          "Студенческая"
+        ],
+        "line": "NSK1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.893032,
+          54.983047
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Ploshchad Marksa",
+        "alternate_names": [
+          "Площадь Маркса",
+          "Ploschad Marksa"
+        ],
+        "line": "NSK1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.97672,
+          55.037685
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Zolotaya Niva",
+        "alternate_names": [
+          "Золотая нива"
+        ],
+        "line": "NSK2",
+        "order": 0
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.953116,
+          55.043332
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Beryozovaya Roshcha",
+        "alternate_names": [
+          "Берёзовая роща"
+        ],
+        "line": "NSK2",
+        "order": 1
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.935,
+          55.043702
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Marshala Pokryshkina",
+        "alternate_names": [
+          "Маршала Покрышкина"
+        ],
+        "line": "NSK2",
+        "order": 2
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.918705,
+          55.042318
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Sibirskaya",
+        "alternate_names": [
+          "Сибирская"
+        ],
+        "line": "NSK2",
+        "order": 3
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.898827,
+          55.035398
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Ploshchad Garina-Mikhaylovskogo",
+        "alternate_names": [
+          "Площадь Гарина-Михайловского",
+          "Garin-Mikhailovsky Square"
+        ],
+        "line": "NSK2",
+        "order": 4
+      },
+      "id": 13
+    }
+  ]
+}

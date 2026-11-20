@@ -1,0 +1,34 @@
+{
+  "AHME1": {
+    "name": "Blue Line",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "AHME1.svg"
+  },
+  "AHME2": {
+    "name": "Red Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "AHME2.svg"
+  },
+  "AHME3": {
+    "name": "Yellow Line",
+    "color": "#FFFF00",
+    "backgroundColor": "#FFFF00",
+    "textColor": "#222222",
+    "order": 2,
+    "icon": "AHME3.svg"
+  },
+  "AHME4": {
+    "name": "Violet Line",
+    "color": "#8E44AD",
+    "backgroundColor": "#8E44AD",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "AHME4.svg"
+  }
+}

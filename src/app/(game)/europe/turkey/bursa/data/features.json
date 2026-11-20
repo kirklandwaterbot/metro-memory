@@ -1,0 +1,906 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.948262,
+          40.267375
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Geçit/Balat",
+        "line": "BURSB1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.952562,
+          40.257043
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Emek",
+        "line": "BURSB1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.957198,
+          40.250712
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Korupark",
+        "line": "BURSB1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.967004,
+          40.243421
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Bursa Organize Sanayi Bölgesi / Akpınar",
+        "line": "BURSB1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.975537,
+          40.236949
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hamitler / Fethiye",
+        "line": "BURSB1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.986525,
+          40.229165
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Bağlarbaşı / Esentepe",
+        "line": "BURSB1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.993899,
+          40.223079
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "İhsaniye",
+        "line": "BURSB1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.000591,
+          40.216568
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Karaman / Hürriyet",
+        "line": "BURSB1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.015128,
+          40.213016
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Bursaspor/Acemler",
+        "line": "BURSB1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.025182,
+          40.209511
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Paşa Çiftliği",
+        "line": "BURSB1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.029776,
+          40.205271
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Sırameşeler / Kükürtlü",
+        "line": "BURSB1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.04065,
+          40.200314
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Kültürpark",
+        "line": "BURSB1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.049374,
+          40.197713
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Merinos",
+        "line": "BURSB1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.056507,
+          40.196066
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Osmangazi",
+        "line": "BURSB1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.06297,
+          40.18847
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Şehreküstü",
+        "line": "BURSB1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.069088,
+          40.187337
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Demirtaşpaşa / Abdal",
+        "line": "BURSB1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.078602,
+          40.188596
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Gökdere",
+        "line": "BURSB1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.08746,
+          40.191623
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Yıldırım / Davutdede",
+        "line": "BURSB1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.099235,
+          40.191564
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Duaçınarı",
+        "line": "BURSB1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.106436,
+          40.191541
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "152 Evler",
+        "line": "BURSB1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.11691,
+          40.19154
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Arabayatağı / Yavuz Selim",
+        "line": "BURSB1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.870045,
+          40.218146
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Uludağ Üniversitesi",
+        "line": "BURSB2",
+        "order": 0
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.891167,
+          40.220472
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Batıkent / 19 Mayıs",
+        "line": "BURSB2",
+        "order": 1
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.899866,
+          40.220205
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Yüzüncüyıl",
+        "line": "BURSB2",
+        "order": 2
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.911281,
+          40.219902
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Özlüce / 29 Ekim",
+        "line": "BURSB2",
+        "order": 3
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.921929,
+          40.219398
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Ertuğrul / Dörtçelik Çocuk Hastanesi",
+        "line": "BURSB2",
+        "order": 4
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.934079,
+          40.214808
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Altınşehir",
+        "line": "BURSB2",
+        "order": 5
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.941586,
+          40.212018
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Küçük Sanayi",
+        "line": "BURSB2",
+        "order": 6
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.949932,
+          40.21256
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Ataevler / 23 Nisan",
+        "line": "BURSB2",
+        "order": 7
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.966149,
+          40.213016
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Beşevler / Barış",
+        "line": "BURSB2",
+        "order": 8
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.975502,
+          40.211521
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Fatih Sultan Mehmet",
+        "line": "BURSB2",
+        "order": 9
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.98813,
+          40.211875
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Nilüfer",
+        "line": "BURSB2",
+        "order": 10
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.998759,
+          40.212092
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Odunluk",
+        "line": "BURSB2",
+        "order": 11
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.015128,
+          40.213016
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Bursaspor/Acemler",
+        "line": "BURSB2",
+        "order": 12
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.025182,
+          40.209511
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Paşa Çiftliği",
+        "line": "BURSB2",
+        "order": 13
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.029776,
+          40.205271
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Sırameşeler / Kükürtlü",
+        "line": "BURSB2",
+        "order": 14
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.04065,
+          40.200314
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Kültürpark",
+        "line": "BURSB2",
+        "order": 15
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.049374,
+          40.197713
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Merinos",
+        "line": "BURSB2",
+        "order": 16
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.056507,
+          40.196066
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Osmangazi",
+        "line": "BURSB2",
+        "order": 17
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.06297,
+          40.18847
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Şehreküstü",
+        "line": "BURSB2",
+        "order": 18
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.069088,
+          40.187337
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Demirtaşpaşa / Abdal",
+        "line": "BURSB2",
+        "order": 19
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.078602,
+          40.188596
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Gökdere",
+        "line": "BURSB2",
+        "order": 20
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.08746,
+          40.191623
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Yıldırım / Davutdede",
+        "line": "BURSB2",
+        "order": 21
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.099235,
+          40.191564
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Duaçınarı",
+        "line": "BURSB2",
+        "order": 22
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.106436,
+          40.191541
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "152 Evler",
+        "line": "BURSB2",
+        "order": 23
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.11691,
+          40.19154
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Arabayatağı / Yavuz Selim",
+        "line": "BURSB2",
+        "order": 24
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.132266,
+          40.191559
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Bursa Teknik Üniversitesi / Mimar Sinan",
+        "line": "BURSB2",
+        "order": 25
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.141635,
+          40.192193
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Hacivat / Esenevler",
+        "line": "BURSB2",
+        "order": 26
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.155011,
+          40.194573
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Şirinevler",
+        "line": "BURSB2",
+        "order": 27
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.167411,
+          40.19672
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Otosansit",
+        "line": "BURSB2",
+        "order": 28
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.174955,
+          40.197886
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Cumalıkızık / Değirmenönü",
+        "line": "BURSB2",
+        "order": 29
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.190424,
+          40.199239
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Gürsu",
+        "line": "BURSB2",
+        "order": 30
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.206964,
+          40.202625
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Kestel",
+        "line": "BURSB2",
+        "order": 31
+      },
+      "id": 52
+    }
+  ]
+}

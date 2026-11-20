@@ -1,0 +1,42 @@
+{
+  "KOLKBLUE": {
+    "name": "Blue Line",
+    "color": "#0000FF",
+    "backgroundColor": "#0000FF",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "KOLKBLUE.svg"
+  },
+  "KOLKGREEN": {
+    "name": "Green Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "KOLKGREEN.svg"
+  },
+  "KOLKORANGE": {
+    "name": "Orange Line",
+    "color": "#F47421",
+    "backgroundColor": "#F47421",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "KOLKORANGE.svg"
+  },
+  "KOLKPURPLE": {
+    "name": "Purple Line",
+    "color": "#800080",
+    "backgroundColor": "#800080",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "KOLKPURPLE.svg"
+  },
+  "KOLKYELLOW": {
+    "name": "Yellow Line",
+    "color": "#FFFF00",
+    "backgroundColor": "#FFFF00",
+    "textColor": "#222222",
+    "order": 4,
+    "icon": "KOLKYELLOW.svg"
+  }
+}

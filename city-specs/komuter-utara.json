@@ -1,0 +1,64 @@
+{
+  "slug": "komuter-utara",
+  "path": "asia/malaysia/komuter-utara",
+  "gameTitle": "KTM Komuter Northern Memory",
+  "description": "How many KTM Komuter Northern Sector stations can you name from memory?",
+  "locale": "ms_MY",
+  "bbox": [
+    4.4,
+    99.9,
+    6.8,
+    101.3
+  ],
+  "stripPrefix": "^(Stesen |KTM |[A-Z]{2}\\d+[A-Z]?\\s+)",
+  "altTags": [
+    "name:en",
+    "name:zh"
+  ],
+  "lineGroups": [
+    {
+      "title": "KTM Komuter Northern Sector",
+      "lines": [
+        "KomuterUtaraButterworthIpoh",
+        "KomuterUtaraPadangBesar"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KomuterUtaraButterworthIpoh",
+      "name": "Butterworth–Ipoh Line",
+      "match": {
+        "@id": "^(14744279|14744287)$"
+      },
+      "color": "#1964B7",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "KomuterUtaraButterworthIpoh.svg"
+    },
+    {
+      "id": "KomuterUtaraPadangBesar",
+      "name": "Butterworth–Padang Besar Line",
+      "match": {
+        "@id": "^(14729464|14729465)$"
+      },
+      "color": "#E0115F",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "KomuterUtaraPadangBesar.svg"
+    }
+  ],
+  "register": {
+    "name": "KTM Komuter Northern, MY",
+    "continent": "Asia",
+    "coordinates": [
+      100.3631,
+      5.3999
+    ],
+    "zh": "马来亚铁道北部通勤, MY",
+    "achievement": {
+      "title": "Northern Komuter",
+      "description": "You've named every KTM Komuter Northern Sector station."
+    }
+  }
+}

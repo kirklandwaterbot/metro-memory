@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.750239,
+          26.87944
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Manasarovar",
+        "alternate_names": [
+          "मानसरोवर"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.764466,
+          26.880154
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "New Aatish Market",
+        "alternate_names": [
+          "नया आतिश मार्केट"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.768407,
+          26.888454
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Vivek Vihar",
+        "alternate_names": [
+          "विवेक विहार"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.770628,
+          26.896477
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shyam Nagar",
+        "alternate_names": [
+          "श्याम नगर"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.77465,
+          26.901763
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Ram Nagar",
+        "alternate_names": [
+          "राम नगर"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.781249,
+          26.909678
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Civil Lines",
+        "alternate_names": [
+          "सिविल लाइन्स"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.790129,
+          26.918113
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Railway",
+        "alternate_names": [
+          "रेलवे स्टेशन"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.799635,
+          26.922474
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Sindhi Camp",
+        "alternate_names": [
+          "सिन्धी कैंप"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.807892,
+          26.926601
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Chandpole",
+        "alternate_names": [
+          "चांदपोल"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.818459,
+          26.924732
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Choti Chaupar",
+        "alternate_names": [
+          "छोटी चौपड़"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.826822,
+          26.922959
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Badi Chaupar",
+        "alternate_names": [
+          "बड़ी चौपड़"
+        ],
+        "line": "JAIPPINKLINE",
+        "order": 10
+      },
+      "id": 10
+    }
+  ]
+}

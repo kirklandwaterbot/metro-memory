@@ -343,7 +343,7 @@ const replacers: { [key: string]: (str: string) => string } = {
       .toLowerCase()
       .replace(/\([^()]*\)/g, '')
       .replace(/\([^<>]*\)/g, '')
-      .replace(/\([^ã€ˆã€‰]*\)/g, '')
+      .replace(/\([^〈〉]*\)/g, '')
       .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ')
       .replace(/\s+/g, ' ')
       .trim(),
@@ -414,7 +414,6 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'qiubei',
   'nanping',
   'zhangjiakou',
-  'dujiangyan',
   'delingha',
   'lijiang',
   'zhangye',
@@ -439,6 +438,68 @@ const NON_LATIN_ALLOWED_CITIES = new Set([
   'tokyo',
   'wuhu',
   'xiamen',
+  // Former Soviet Union: Cyrillic, Georgian and Armenian answers
+  'moscow',
+  'saint-petersburg',
+  'nizhny-novgorod',
+  'novosibirsk',
+  'samara',
+  'yekaterinburg',
+  'kazan',
+  'volgograd',
+  'kyiv',
+  'kharkiv',
+  'dnipro',
+  'kryvyi-rih',
+  'minsk',
+  'tbilisi',
+  'yerevan',
+  'baku',
+  'tashkent',
+  'almaty',
+  // Rest-of-world metros with non-Latin answers
+  'tra',
+  'korean-state-railway',
+  'korail',
+  'china-railway',
+  'russian-railways',
+  'sofia',
+  'athens',
+  'thessaloniki',
+  'cairo',
+  'dubai',
+  'doha',
+  'riyadh',
+  'mecca',
+  'tehran',
+  'mashhad',
+  'isfahan',
+  'shiraz',
+  'tabriz',
+  'karaj',
+  'lahore',
+  'dhaka',
+  'delhi',
+  'mumbai',
+  'kolkata',
+  'chennai',
+  'bengaluru',
+  'hyderabad',
+  'ahmedabad',
+  'pune',
+  'nagpur',
+  'kochi',
+  'lucknow',
+  'jaipur',
+  'kanpur',
+  'agra',
+  'bhopal',
+  'indore',
+  'meerut',
+  'patna',
+  'astana',
+  'yokohama',
+  'tokyo-area',
 ])
 
 const isNonLatinAllowedCity = (city: string): boolean => {
@@ -456,7 +517,7 @@ const getCustomReplacer = (cityName: string) => {
 }
 
 const NON_LATIN_ALLOWED_CHARACTERS_PATTERN =
-  /[^a-z0-9\u0600-\u06ff\u0b80-\u0bff\u0e00-\u0e7f\u1100-\u11ff\u3040-\u30ff\u3100-\u312f\u3130-\u318f\u31a0-\u31bf\u31f0-\u31ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]/g
+  /[^a-z0-9\u0370-\u03ff\u0400-\u04ff\u0531-\u0587\u10d0-\u10ff\u0600-\u06ff\u0900-\u0dff\u0b80-\u0bff\u0e00-\u0e7f\u1100-\u11ff\u3040-\u30ff\u3100-\u312f\u3130-\u318f\u31a0-\u31bf\u31f0-\u31ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]/g
 
 export const normalizeString = (city: string) => {
   const reorderSeparatedSegments = (str: string) => {
@@ -471,12 +532,14 @@ export const normalizeString = (city: string) => {
 
   const normalizeStringBefore = (str?: string) =>
     reorderSeparatedSegments(repairMojibakeString(str || '').toLowerCase())
-      .replace(/Å“/g, 'oe')
-      .replace(/Ã¦/g, 'ae')
+      .replace(/\u00c5\u201c/g, 'oe')
+      .replace(/\u00c3\u00a6/g, 'ae')
       .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()+]/g, ' ')
       .replace(/[\u2010-\u2015]/g, ' ')
       .replace(/[\u02c6-\u02cf\u02d8-\u02dd]/g, '')
       .replace(/[\u0300-\u036F]/g, '')
+      .replace(/\u0259/g, 'e')
+      .replace(/\u0131/g, 'i')
 
   const customReplacements = getCustomReplacer(city)
 

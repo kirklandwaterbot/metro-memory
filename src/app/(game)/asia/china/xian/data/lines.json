@@ -4,90 +4,112 @@
     "color": "#0077C8",
     "backgroundColor": "#0077C8",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/xian/line1.png"
   },
   "xian2": {
     "name": "Line 2",
     "color": "#EF3340",
     "backgroundColor": "#EF3340",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/xian/line2.png"
   },
   "xian3": {
     "name": "Line 3",
-    "color": "#B688A9",
-    "backgroundColor": "#B688A9",
+    "color": "#CE70CC",
+    "backgroundColor": "#CE70CC",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/xian/line3.png"
   },
   "xian4": {
     "name": "Line 4",
-    "color": "#39B09E",
-    "backgroundColor": "#39B09E",
-    "textColor": "#ffffff",
-    "order": 4
+    "color": "#2CCCD3",
+    "backgroundColor": "#2CCCD3",
+    "textColor": "#000000",
+    "order": 4,
+    "icon": "asia/china/xian/line4.png"
   },
   "xian5": {
     "name": "Line 5",
     "color": "#A6E35F",
     "backgroundColor": "#A6E35F",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/xian/line5.png"
   },
   "xian6": {
     "name": "Line 6",
     "color": "#485CC7",
     "backgroundColor": "#485CC7",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/xian/line6.png"
   },
   "xian8": {
     "name": "Line 8",
-    "color": "#E6B10B",
-    "backgroundColor": "#E6B10B",
+    "color": "#DEAE39",
+    "backgroundColor": "#DEAE39",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/xian/line8.png"
   },
   "xian9": {
     "name": "Line 9",
     "color": "#FF9E1B",
     "backgroundColor": "#FF9E1B",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/xian/line9.png"
   },
   "xian10": {
     "name": "Line 10",
-    "color": "#009F4D",
-    "backgroundColor": "#009F4D",
+    "color": "#4AAA94",
+    "backgroundColor": "#4AAA94",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/xian/line10.png"
   },
   "xian14": {
     "name": "Line 14",
-    "color": "#00C1D5",
-    "backgroundColor": "#00C1D5",
+    "color": "#00C1D4",
+    "backgroundColor": "#00C1D4",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/xian/line14.png"
   },
   "xian15": {
     "name": "Line 15",
-    "color": "#E06287",
-    "backgroundColor": "#E06287",
+    "color": "#CE607E",
+    "backgroundColor": "#CE607E",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/xian/line15.png"
   },
   "xian16": {
     "name": "Line 16",
-    "color": "#EA8464",
-    "backgroundColor": "#EA8464",
+    "color": "#DE8663",
+    "backgroundColor": "#DE8663",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "asia/china/xian/line16.png"
+  },
+  "xianxihu": {
+    "name": "Xihu Line",
+    "color": "#11385B",
+    "backgroundColor": "#11385B",
+    "textColor": "#ffffff",
+    "order": 13,
+    "icon": "asia/china/xian/xihu.png"
   },
   "xianyunba": {
-    "name": "Gaoxin Yunba",
-    "color": "#00a5ff",
-    "backgroundColor": "#00a5ff",
+    "name": "Xi'an Skyshuttle",
+    "color": "#B9241F",
+    "backgroundColor": "#B9241F",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 14,
+    "icon": "asia/china/xian/skyshuttle.png",
+    "badgeShape": "square"
   }
 }

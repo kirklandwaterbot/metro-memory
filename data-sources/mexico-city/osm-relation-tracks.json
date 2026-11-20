@@ -1,0 +1,56 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "DFMetro1": [
+      1432856,
+      7935037
+    ],
+    "DFMetro2": [
+      443191,
+      7935435
+    ],
+    "DFMetro3": [
+      443206,
+      7935445
+    ],
+    "DFMetro4": [
+      443196,
+      7935350
+    ],
+    "DFMetro5": [
+      7935362,
+      443204
+    ],
+    "DFMetro6": [
+      443209,
+      7935450
+    ],
+    "DFMetro7": [
+      5365308,
+      7935373
+    ],
+    "DFMetro8": [
+      7935421,
+      443195
+    ],
+    "DFMetro9": [
+      443224,
+      7935440
+    ],
+    "DFMetro12": [
+      3165694,
+      7935367
+    ],
+    "DFMetroA": [
+      7935379,
+      1429929
+    ],
+    "DFMetroB": [
+      7935432,
+      443198
+    ]
+  }
+}

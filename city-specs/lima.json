@@ -1,0 +1,60 @@
+{
+  "slug": "lima",
+  "path": "south-america/peru/lima",
+  "gameTitle": "Lima Metro Memory",
+  "description": "How many Metro de Lima y Callao stations can you name from memory?",
+  "locale": "es_PE",
+  "bbox": [
+    -12.26,
+    -77.16,
+    -11.9,
+    -76.88
+  ],
+  "stripPrefix": "^Estaci[oó]n ",
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Lima y Callao",
+      "lines": [
+        "LIM1",
+        "LIM2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "LIM1",
+      "name": "Línea 1",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Lima",
+        "ref": "^L1$"
+      },
+      "color": "#228B22"
+    },
+    {
+      "id": "LIM2",
+      "name": "Línea 2",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Lima",
+        "ref": "^L2$"
+      },
+      "color": "#FFC300",
+      "textColor": "#000000"
+    }
+  ],
+  "register": {
+    "name": "Lima, PE",
+    "continent": "South America",
+    "coordinates": [
+      -77.0428,
+      -12.0464
+    ],
+    "achievement": {
+      "title": "Limeño Line Rider",
+      "description": "You've named every Metro de Lima station."
+    }
+  }
+}

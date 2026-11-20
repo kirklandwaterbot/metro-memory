@@ -3,15 +3,46 @@
   "path": "asia/china/tianshui",
   "style": "generic",
   "stationRadius": 500,
-  "english": {},
-  "alternates": {},
+  "english": {
+    "景坤西郡三中": "Jingkun Xijun Sanzhong",
+    "农发行": "Nongfahang",
+    "工业博物馆": "Industrial Museum"
+  },
+  "alternates": {
+    "景坤西郡三中": [
+      "Jingkunxijunsanzhong",
+      "Jingkun Xijun",
+      "Sanzhong",
+      "No. 3 Middle School",
+      "Tianshui No. 3 Middle School"
+    ],
+    "农发行": [
+      "nong fa hang",
+      "Agricultural Development Bank"
+    ],
+    "工业博物馆": [
+      "Gongye Museum",
+      "Gongyebowuguan",
+      "gong ye bo wu guan"
+    ],
+    "天水师大": [
+      "Tianshui Normal University"
+    ],
+    "分路口": [
+      "Fen Lu Kou"
+    ]
+  },
   "lines": [
     {
       "id": "tianshui1",
       "name": "Tram Line 1",
       "match": {
         "ref": "^1$"
-      }
+      },
+      "icon": "asia/china/tianshui/line1.png",
+      "color": "#E0133A",
+      "backgroundColor": "#E0133A",
+      "textColor": "#ffffff"
     },
     {
       "id": "tianshui2",
@@ -19,13 +50,18 @@
       "match": {
         "route": "tram",
         "ref": "^2$"
-      }
+      },
+      "icon": "asia/china/tianshui/line2.png",
+      "color": "#1379CC",
+      "backgroundColor": "#1379CC",
+      "textColor": "#ffffff"
     }
   ],
   "cityName": "Tianshui",
   "groups": [
     {
       "title": "Tianshui Tram",
+      "titleImage": "asia/china/tianshui/icon.ico",
       "lines": [
         "tianshui1",
         "tianshui2"

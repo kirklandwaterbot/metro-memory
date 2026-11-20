@@ -3,398 +3,1058 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1958525643096607, 53.03832091178992] },
-      "properties": { "name": "Hucknall", "line": "Line1", "id": 0 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1958525643096607,
+          53.03832091178992
+        ]
+      },
+      "properties": {
+        "name": "Hucknall",
+        "line": "Line1",
+        "id": 0
+      },
       "id": 0
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1884564928092576, 53.02883492753184] },
-      "properties": { "name": "Butler's Hill", "line": "Line1", "id": 1 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.188511,
+          53.028824
+        ]
+      },
+      "properties": {
+        "name": "Butler's Hill",
+        "line": "Line1",
+        "id": 1
+      },
       "id": 1
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1870488328124396, 53.01451587410498] },
-      "properties": { "name": "Moor Bridge", "line": "Line1", "id": 2 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.186994,
+          53.014513
+        ]
+      },
+      "properties": {
+        "name": "Moor Bridge",
+        "line": "Line1",
+        "id": 2
+      },
       "id": 2
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1902125795775598, 53.00604102799018] },
-      "properties": { "name": "Bulwell Forest", "line": "Line1", "id": 3 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.190241,
+          53.00605
+        ]
+      },
+      "properties": {
+        "name": "Bulwell Forest",
+        "line": "Line1",
+        "id": 3
+      },
       "id": 3
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1956545995229753, 52.99923661370512] },
-      "properties": { "name": "Bulwell", "line": "Line1", "id": 4 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.195689,
+          52.999241
+        ]
+      },
+      "properties": {
+        "name": "Bulwell",
+        "line": "Line1",
+        "id": 4
+      },
       "id": 4
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1896689771451374, 52.98979780638648] },
-      "properties": { "name": "Highbury Vale", "line": "Line1", "id": 5 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1896689771451374,
+          52.98979780638648
+        ]
+      },
+      "properties": {
+        "name": "Highbury Vale",
+        "line": "Line1",
+        "id": 5
+      },
       "id": 5
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.18206638087359, 52.98493491051521] },
-      "properties": { "name": "David Lane", "line": "Line1", "id": 6 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.18206638087359,
+          52.98493491051521
+        ]
+      },
+      "properties": {
+        "name": "David Lane",
+        "line": "Line1",
+        "id": 6
+      },
       "id": 6
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.178383880567124, 52.981724447288435] },
-      "properties": { "name": "Basford", "line": "Line1", "id": 7 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.178405,
+          52.981716
+        ]
+      },
+      "properties": {
+        "name": "Basford",
+        "line": "Line1",
+        "id": 7
+      },
       "id": 7
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1781891981915342, 52.97200986425364] },
-      "properties": { "name": "Wilkinson Street", "line": "Line1", "id": 8 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1781891981915342,
+          52.97200986425364
+        ]
+      },
+      "properties": {
+        "name": "Wilkinson Street",
+        "line": "Line1",
+        "id": 8
+      },
       "id": 8
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1739653063710562, 52.96986203672737] },
-      "properties": { "name": "Radford Road", "line": "Line1", "id": 9 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.174013,
+          52.969847
+        ]
+      },
+      "properties": {
+        "name": "Radford Road",
+        "line": "Line1",
+        "id": 9
+      },
       "id": 9
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1709115083740407, 52.9663368334062] },
-      "properties": { "name": "Hyson Green Market", "line": "Line1", "id": 10 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.170957,
+          52.966323
+        ]
+      },
+      "properties": {
+        "name": "Hyson Green Market",
+        "line": "Line1",
+        "id": 10
+      },
       "id": 10
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.173672335936363, 52.97154842284654] },
-      "properties": { "name": "Shipstone Street", "line": "Line1", "id": 11 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.173672335936363,
+          52.97154842284654
+        ]
+      },
+      "properties": {
+        "name": "Shipstone Street",
+        "line": "Line1",
+        "id": 11
+      },
       "id": 11
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1704782979896264, 52.970294713104] },
-      "properties": { "name": "Beaconsfield Street", "line": "Line1", "id": 12 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1704782979896264,
+          52.970294713104
+        ]
+      },
+      "properties": {
+        "name": "Beaconsfield Street",
+        "line": "Line1",
+        "id": 12
+      },
       "id": 12
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1687242835875673, 52.96746394313148] },
-      "properties": { "name": "Noel Street", "line": "Line1", "id": 13 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.168756,
+          52.967457
+        ]
+      },
+      "properties": {
+        "name": "Noel Street",
+        "line": "Line1",
+        "id": 13
+      },
       "id": 13
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1672906357414983, 52.96539743114128] },
-      "properties": { "name": "The Forest", "line": "Line1", "id": 14 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.167328,
+          52.96539
+        ]
+      },
+      "properties": {
+        "name": "The Forest",
+        "line": "Line1",
+        "id": 14
+      },
       "id": 14
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1614467704980553, 52.96233925105909] },
-      "properties": { "name": "High School", "line": "Line1", "id": 15 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1614467704980553,
+          52.96233925105909
+        ]
+      },
+      "properties": {
+        "name": "High School",
+        "line": "Line1",
+        "id": 15
+      },
       "id": 15
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.15499974790015, 52.95793505091587] },
-      "properties": { "name": "Nottingham Trent University", "line": "Line1", "id": 16 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.155016,
+          52.957923
+        ]
+      },
+      "properties": {
+        "name": "Nottingham Trent University",
+        "line": "Line1",
+        "id": 16
+      },
       "id": 16
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1518867163093294, 52.95518934086972] },
-      "properties": { "name": "Royal Centre", "line": "Line1", "id": 17 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.151912,
+          52.955176
+        ]
+      },
+      "properties": {
+        "name": "Royal Centre",
+        "line": "Line1",
+        "id": 17
+      },
       "id": 17
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1499980104561174, 52.95312532827802] },
-      "properties": { "name": "Old Market Square", "line": "Line1", "id": 18 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.149987,
+          52.953095
+        ]
+      },
+      "properties": {
+        "name": "Old Market Square",
+        "line": "Line1",
+        "id": 18
+      },
       "id": 18
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1454444733617675, 52.953008598979295] },
-      "properties": { "name": "Lace Market", "line": "Line1", "id": 19 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1454444733617675,
+          52.953008598979295
+        ]
+      },
+      "properties": {
+        "name": "Lace Market",
+        "line": "Line1",
+        "id": 19
+      },
       "id": 19
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.145501824828256, 52.94798024428381] },
-      "properties": { "name": "Nottingham", "line": "Line1", "id": 20 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.145501824828256,
+          52.94798024428381
+        ]
+      },
+      "properties": {
+        "name": "Nottingham",
+        "line": "Line1",
+        "id": 20
+      },
       "id": 20
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1568225076561118, 52.94339146401893] },
-      "properties": { "name": "Meadows Way West", "line": "Line1", "id": 21 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1568225076561118,
+          52.94339146401893
+        ]
+      },
+      "properties": {
+        "name": "Meadows Way West",
+        "line": "Line1",
+        "id": 21
+      },
       "id": 21
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1652484617182353, 52.941881789491894] },
-      "properties": { "name": "NG2", "line": "Line1", "id": 22 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.165248,
+          52.941864
+        ]
+      },
+      "properties": {
+        "name": "NG2",
+        "line": "Line1",
+        "id": 22
+      },
       "id": 22
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1770391257656516, 52.94391773932807] },
-      "properties": { "name": "Gregory Street", "line": "Line1", "id": 23 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.177038,
+          52.943933
+        ]
+      },
+      "properties": {
+        "name": "Gregory Street",
+        "line": "Line1",
+        "id": 23
+      },
       "id": 23
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1836339501414914, 52.94257786183906] },
-      "properties": { "name": "Queen's Medical Centre", "line": "Line1", "id": 24 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1836339501414914,
+          52.94257786183906
+        ]
+      },
+      "properties": {
+        "name": "Queen's Medical Centre",
+        "line": "Line1",
+        "id": 24
+      },
       "id": 24
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1884544966840203, 52.93723693735523] },
-      "properties": { "name": "University of Nottingham", "line": "Line1", "id": 25 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.188429,
+          52.937217
+        ]
+      },
+      "properties": {
+        "name": "University of Nottingham",
+        "line": "Line1",
+        "id": 25
+      },
       "id": 25
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2021865959152158, 52.93224042899523] },
-      "properties": { "name": "University Boulevard", "line": "Line1", "id": 26 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.202188,
+          52.93222
+        ]
+      },
+      "properties": {
+        "name": "University Boulevard",
+        "line": "Line1",
+        "id": 26
+      },
       "id": 26
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2090946851385247, 52.927884688269586] },
-      "properties": { "name": "Middle Street", "line": "Line1", "id": 27 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.209104,
+          52.927899
+        ]
+      },
+      "properties": {
+        "name": "Middle Street",
+        "line": "Line1",
+        "id": 27
+      },
       "id": 27
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2146701896751861, 52.9254648596611] },
-      "properties": { "name": "Beeston Centre", "line": "Line1", "id": 28 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.21471,
+          52.925442
+        ]
+      },
+      "properties": {
+        "name": "Beeston Centre",
+        "line": "Line1",
+        "id": 28
+      },
       "id": 28
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2202198257494505, 52.92271896395351] },
-      "properties": { "name": "Chilwell Road", "line": "Line1", "id": 29 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2202198257494505,
+          52.92271896395351
+        ]
+      },
+      "properties": {
+        "name": "Chilwell Road",
+        "line": "Line1",
+        "id": 29
+      },
       "id": 29
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.223285520916701, 52.92130261671866] },
-      "properties": { "name": "High Road - Central College", "line": "Line1", "id": 30 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.223285520916701,
+          52.92130261671866
+        ]
+      },
+      "properties": {
+        "name": "High Road - Central College",
+        "line": "Line1",
+        "id": 30
+      },
       "id": 30
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2314658482579866, 52.92263777068684] },
-      "properties": { "name": "Cator Lane", "line": "Line1", "id": 31 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.231461,
+          52.922621
+        ]
+      },
+      "properties": {
+        "name": "Cator Lane",
+        "line": "Line1",
+        "id": 31
+      },
       "id": 31
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2362535786926534, 52.92158150167334] },
-      "properties": { "name": "Bramcote Lane", "line": "Line1", "id": 32 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2362535786926534,
+          52.92158150167334
+        ]
+      },
+      "properties": {
+        "name": "Bramcote Lane",
+        "line": "Line1",
+        "id": 32
+      },
       "id": 32
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.243241481911914, 52.92035293903478] },
-      "properties": { "name": "Eskdale Drive", "line": "Line1", "id": 33 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.243229,
+          52.920326
+        ]
+      },
+      "properties": {
+        "name": "Eskdale Drive",
+        "line": "Line1",
+        "id": 33
+      },
       "id": 33
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2514843899152601, 52.91959918937789] },
-      "properties": { "name": "Inham Road", "line": "Line1", "id": 34 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.251481,
+          52.919573
+        ]
+      },
+      "properties": {
+        "name": "Inham Road",
+        "line": "Line1",
+        "id": 34
+      },
       "id": 34
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2623657618241002, 52.918464713778725] },
-      "properties": { "name": "Toton Lane", "line": "Line1", "id": 35 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.262362,
+          52.918448
+        ]
+      },
+      "properties": {
+        "name": "Toton Lane",
+        "line": "Line1",
+        "id": 35
+      },
       "id": 35
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2068395637094937, 52.9888888458989] },
-      "properties": { "name": "Phoenix Park", "line": "Line2", "id": 36 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2068395637094937,
+          52.9888888458989
+        ]
+      },
+      "properties": {
+        "name": "Phoenix Park",
+        "line": "Line2",
+        "id": 36
+      },
       "id": 36
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.2007275912400306, 52.98901556239159] },
-      "properties": { "name": "Cinderhill", "line": "Line2", "id": 37 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.20072,
+          52.98896
+        ]
+      },
+      "properties": {
+        "name": "Cinderhill",
+        "line": "Line2",
+        "id": 37
+      },
       "id": 37
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.190653943651013, 52.98952040178358] },
-      "properties": { "name": "Highbury Vale", "line": "Line2", "id": 38 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.190653943651013,
+          52.98952040178358
+        ]
+      },
+      "properties": {
+        "name": "Highbury Vale",
+        "line": "Line2",
+        "id": 38
+      },
       "id": 38
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.18206638087359, 52.98493491051521] },
-      "properties": { "name": "David Lane", "line": "Line2", "id": 39 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.18206638087359,
+          52.98493491051521
+        ]
+      },
+      "properties": {
+        "name": "David Lane",
+        "line": "Line2",
+        "id": 39
+      },
       "id": 39
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.178383880567124, 52.981724447288435] },
-      "properties": { "name": "Basford", "line": "Line2", "id": 40 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.178383880567124,
+          52.981724447288435
+        ]
+      },
+      "properties": {
+        "name": "Basford",
+        "line": "Line2",
+        "id": 40
+      },
       "id": 40
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1781891981915342, 52.97200986425364] },
-      "properties": { "name": "Wilkinson Street", "line": "Line2", "id": 41 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1781891981915342,
+          52.97200986425364
+        ]
+      },
+      "properties": {
+        "name": "Wilkinson Street",
+        "line": "Line2",
+        "id": 41
+      },
       "id": 41
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1739653063710562, 52.96986203672737] },
-      "properties": { "name": "Radford Road", "line": "Line2", "id": 42 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1739653063710562,
+          52.96986203672737
+        ]
+      },
+      "properties": {
+        "name": "Radford Road",
+        "line": "Line2",
+        "id": 42
+      },
       "id": 42
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1709115083740407, 52.9663368334062] },
-      "properties": { "name": "Hyson Green Market", "line": "Line2", "id": 43 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1709115083740407,
+          52.9663368334062
+        ]
+      },
+      "properties": {
+        "name": "Hyson Green Market",
+        "line": "Line2",
+        "id": 43
+      },
       "id": 43
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.173672335936363, 52.97154842284654] },
-      "properties": { "name": "Shipstone Street", "line": "Line2", "id": 44 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.173672335936363,
+          52.97154842284654
+        ]
+      },
+      "properties": {
+        "name": "Shipstone Street",
+        "line": "Line2",
+        "id": 44
+      },
       "id": 44
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1704782979896264, 52.970294713104] },
-      "properties": { "name": "Beaconsfield Street", "line": "Line2", "id": 45 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1704782979896264,
+          52.970294713104
+        ]
+      },
+      "properties": {
+        "name": "Beaconsfield Street",
+        "line": "Line2",
+        "id": 45
+      },
       "id": 45
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1687242835875673, 52.96746394313148] },
-      "properties": { "name": "Noel Street", "line": "Line2", "id": 46 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1687242835875673,
+          52.96746394313148
+        ]
+      },
+      "properties": {
+        "name": "Noel Street",
+        "line": "Line2",
+        "id": 46
+      },
       "id": 46
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1672906357414983, 52.96539743114128] },
-      "properties": { "name": "The Forest", "line": "Line2", "id": 47 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1672906357414983,
+          52.96539743114128
+        ]
+      },
+      "properties": {
+        "name": "The Forest",
+        "line": "Line2",
+        "id": 47
+      },
       "id": 47
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1614467704980553, 52.96233925105909] },
-      "properties": { "name": "High School", "line": "Line2", "id": 48 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1614467704980553,
+          52.96233925105909
+        ]
+      },
+      "properties": {
+        "name": "High School",
+        "line": "Line2",
+        "id": 48
+      },
       "id": 48
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.15499974790015, 52.95793505091587] },
-      "properties": { "name": "Nottingham Trent University", "line": "Line2", "id": 49 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15499974790015,
+          52.95793505091587
+        ]
+      },
+      "properties": {
+        "name": "Nottingham Trent University",
+        "line": "Line2",
+        "id": 49
+      },
       "id": 49
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1518867163093294, 52.95518934086972] },
-      "properties": { "name": "Royal Centre", "line": "Line2", "id": 50 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1518867163093294,
+          52.95518934086972
+        ]
+      },
+      "properties": {
+        "name": "Royal Centre",
+        "line": "Line2",
+        "id": 50
+      },
       "id": 50
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1499980104561174, 52.95312532827802] },
-      "properties": { "name": "Old Market Square", "line": "Line2", "id": 51 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1499980104561174,
+          52.95312532827802
+        ]
+      },
+      "properties": {
+        "name": "Old Market Square",
+        "line": "Line2",
+        "id": 51
+      },
       "id": 51
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1454444733617675, 52.953008598979295] },
-      "properties": { "name": "Lace Market", "line": "Line2", "id": 52 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1454444733617675,
+          52.953008598979295
+        ]
+      },
+      "properties": {
+        "name": "Lace Market",
+        "line": "Line2",
+        "id": 52
+      },
       "id": 52
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.145501824828256, 52.94798024428381] },
-      "properties": { "name": "Nottingham", "line": "Line2", "id": 53 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.145501824828256,
+          52.94798024428381
+        ]
+      },
+      "properties": {
+        "name": "Nottingham",
+        "line": "Line2",
+        "id": 53
+      },
       "id": 53
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1504422909498018, 52.94273738253566] },
-      "properties": { "name": "Queens Walk", "line": "Line2", "id": 54 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1504422909498018,
+          52.94273738253566
+        ]
+      },
+      "properties": {
+        "name": "Queens Walk",
+        "line": "Line2",
+        "id": 54
+      },
       "id": 54
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.15379078672718, 52.93904261593477] },
-      "properties": { "name": "Meadows Embankment", "line": "Line2", "id": 55 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.153756,
+          52.93903
+        ]
+      },
+      "properties": {
+        "name": "Meadows Embankment",
+        "line": "Line2",
+        "id": 55
+      },
       "id": 55
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1557405126535298, 52.93568977164973] },
-      "properties": { "name": "Wilford Village", "line": "Line2", "id": 56 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.155779,
+          52.935705
+        ]
+      },
+      "properties": {
+        "name": "Wilford Village",
+        "line": "Line2",
+        "id": 56
+      },
       "id": 56
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1562312248707372, 52.92590254078192] },
-      "properties": { "name": "Wilford Lane", "line": "Line2", "id": 57 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.156195,
+          52.9259
+        ]
+      },
+      "properties": {
+        "name": "Wilford Lane",
+        "line": "Line2",
+        "id": 57
+      },
       "id": 57
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1575301057928837, 52.9191095050237] },
-      "properties": { "name": "Compton Acres", "line": "Line2", "id": 58 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1575301057928837,
+          52.9191095050237
+        ]
+      },
+      "properties": {
+        "name": "Compton Acres",
+        "line": "Line2",
+        "id": 58
+      },
       "id": 58
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1583972069611683, 52.914785518157835] },
-      "properties": { "name": "Ruddington Lane", "line": "Line2", "id": 59 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.158338,
+          52.914783
+        ]
+      },
+      "properties": {
+        "name": "Ruddington Lane",
+        "line": "Line2",
+        "id": 59
+      },
       "id": 59
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1703980086629402, 52.910779754224045] },
-      "properties": { "name": "Southchurch Drive North", "line": "Line2", "id": 60 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1703980086629402,
+          52.910779754224045
+        ]
+      },
+      "properties": {
+        "name": "Southchurch Drive North",
+        "line": "Line2",
+        "id": 60
+      },
       "id": 60
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1747937755522275, 52.90685757740979] },
-      "properties": { "name": "Rivergreen", "line": "Line2", "id": 61 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1747937755522275,
+          52.90685757740979
+        ]
+      },
+      "properties": {
+        "name": "Rivergreen",
+        "line": "Line2",
+        "id": 61
+      },
       "id": 61
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1770475541304126, 52.90370705854238] },
-      "properties": { "name": "Clifton Centre", "line": "Line2", "id": 62 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1770475541304126,
+          52.90370705854238
+        ]
+      },
+      "properties": {
+        "name": "Clifton Centre",
+        "line": "Line2",
+        "id": 62
+      },
       "id": 62
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.181257800638741, 52.89704375381509] },
-      "properties": { "name": "Holy Trinity", "line": "Line2", "id": 63 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.181257800638741,
+          52.89704375381509
+        ]
+      },
+      "properties": {
+        "name": "Holy Trinity",
+        "line": "Line2",
+        "id": 63
+      },
       "id": 63
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1879223986124376, 52.89698425466384] },
-      "properties": { "name": "Summerwood Lane", "line": "Line2", "id": 64 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.187931,
+          52.896955
+        ]
+      },
+      "properties": {
+        "name": "Summerwood Lane",
+        "line": "Line2",
+        "id": 64
+      },
       "id": 64
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.1927093765317496, 52.896684500816505] },
-      "properties": { "name": "Clifton South", "line": "Line2", "id": 65 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.192675,
+          52.896659
+        ]
+      },
+      "properties": {
+        "name": "Clifton South",
+        "line": "Line2",
+        "id": 65
+      },
       "id": 65
     }
   ]

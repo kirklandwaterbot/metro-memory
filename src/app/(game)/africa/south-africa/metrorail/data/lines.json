@@ -1,0 +1,306 @@
+{
+  "MRSouthernLine": {
+    "name": "Southern Line",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "MRSouthernLine.svg"
+  },
+  "MRCapeFlatsLine": {
+    "name": "Cape Flats Line",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 1,
+    "icon": "MRCapeFlatsLine.svg"
+  },
+  "MRCentralLine": {
+    "name": "Central Line",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "MRCentralLine.svg"
+  },
+  "MRNorthernLine": {
+    "name": "Northern Line",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "MRNorthernLine.svg"
+  },
+  "MRWorcesterLine": {
+    "name": "Worcester Line",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "MRWorcesterLine.svg"
+  },
+  "MRMalmesburyLine": {
+    "name": "Malmesbury Line",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "MRMalmesburyLine.svg"
+  },
+  "MRDaveytonJohannesburg": {
+    "name": "Daveyton – Johannesburg",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "MRDaveytonJohannesburg.svg"
+  },
+  "MRJohannesburgPretoria": {
+    "name": "Johannesburg – Pretoria",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "MRJohannesburgPretoria.svg"
+  },
+  "MRJohannesburgLeralla": {
+    "name": "Johannesburg – Leralla",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "MRJohannesburgLeralla.svg"
+  },
+  "MRFaradayNaledi": {
+    "name": "Faraday – Naledi",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "MRFaradayNaledi.svg"
+  },
+  "MRGeorgeGochNaledi": {
+    "name": "George Goch – Naledi",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "MRGeorgeGochNaledi.svg"
+  },
+  "MRNalediWestgate": {
+    "name": "Naledi – Westgate",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "MRNalediWestgate.svg"
+  },
+  "MRGermistonKwesine": {
+    "name": "Germiston – Kwesine",
+    "color": "#0D47A1",
+    "backgroundColor": "#0D47A1",
+    "textColor": "#FFFFFF",
+    "order": 12,
+    "icon": "MRGermistonKwesine.svg"
+  },
+  "MRGermistonVereeniging": {
+    "name": "Germiston – Vereeniging",
+    "color": "#4A148C",
+    "backgroundColor": "#4A148C",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "MRGermistonVereeniging.svg"
+  },
+  "MRGermistonNewCanada": {
+    "name": "Germiston – New Canada",
+    "color": "#E65100",
+    "backgroundColor": "#E65100",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "MRGermistonNewCanada.svg"
+  },
+  "MRHerculesPienaarspoor": {
+    "name": "Hercules – Pienaarspoort",
+    "color": "#006064",
+    "backgroundColor": "#006064",
+    "textColor": "#FFFFFF",
+    "order": 15,
+    "icon": "MRHerculesPienaarspoor.svg"
+  },
+  "MRPretoriaSaulsville": {
+    "name": "Pretoria – Saulsville",
+    "color": "#880E4F",
+    "backgroundColor": "#880E4F",
+    "textColor": "#FFFFFF",
+    "order": 16,
+    "icon": "MRPretoriaSaulsville.svg"
+  },
+  "MRPienaarspoortPretori": {
+    "name": "Pienaarspoort – Pretoria",
+    "color": "#33691E",
+    "backgroundColor": "#33691E",
+    "textColor": "#FFFFFF",
+    "order": 17,
+    "icon": "MRPienaarspoortPretori.svg"
+  },
+  "MRBelleOmbreMabopane": {
+    "name": "Belle Ombre – Mabopane",
+    "color": "#3E2723",
+    "backgroundColor": "#3E2723",
+    "textColor": "#FFFFFF",
+    "order": 18,
+    "icon": "MRBelleOmbreMabopane.svg"
+  },
+  "MRMabopanePretoria": {
+    "name": "Mabopane – Pretoria",
+    "color": "#263238",
+    "backgroundColor": "#263238",
+    "textColor": "#FFFFFF",
+    "order": 19,
+    "icon": "MRMabopanePretoria.svg"
+  },
+  "MRJohannesburgOberholz": {
+    "name": "Johannesburg – Oberholzer",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 20,
+    "icon": "MRJohannesburgOberholz.svg"
+  },
+  "MRGeorgeGochVereenigin": {
+    "name": "George Goch – Vereeniging",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 21,
+    "icon": "MRGeorgeGochVereenigin.svg"
+  },
+  "MRJohannesburgSprings": {
+    "name": "Johannesburg – Springs",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 22,
+    "icon": "MRJohannesburgSprings.svg"
+  },
+  "MRNigelSprings": {
+    "name": "Nigel – Springs",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 23,
+    "icon": "MRNigelSprings.svg"
+  },
+  "MRJohannesburgRandfont": {
+    "name": "Johannesburg – Randfontein",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 24,
+    "icon": "MRJohannesburgRandfont.svg"
+  },
+  "MREersteFabriekeKoedoe": {
+    "name": "Eerste Fabrieke – Koedoespoort",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 25,
+    "icon": "MREersteFabriekeKoedoe.svg"
+  },
+  "MRDeWildtPretoria": {
+    "name": "De Wildt – Pretoria",
+    "color": "#D4006A",
+    "backgroundColor": "#D4006A",
+    "textColor": "#FFFFFF",
+    "order": 26,
+    "icon": "MRDeWildtPretoria.svg"
+  },
+  "MRSouthCoastLine": {
+    "name": "South Coast Line",
+    "color": "#8C6E4A",
+    "backgroundColor": "#8C6E4A",
+    "textColor": "#FFFFFF",
+    "order": 27,
+    "icon": "MRSouthCoastLine.svg"
+  },
+  "MROldMainLine": {
+    "name": "Old Main Line",
+    "color": "#5C6670",
+    "backgroundColor": "#5C6670",
+    "textColor": "#FFFFFF",
+    "order": 28,
+    "icon": "MROldMainLine.svg"
+  },
+  "MRkwaMashuLine": {
+    "name": "kwaMashu Line",
+    "color": "#F26522",
+    "backgroundColor": "#F26522",
+    "textColor": "#FFFFFF",
+    "order": 29,
+    "icon": "MRkwaMashuLine.svg"
+  },
+  "MRChatsworthBluff": {
+    "name": "Chatsworth – Bluff",
+    "color": "#1B5E20",
+    "backgroundColor": "#1B5E20",
+    "textColor": "#FFFFFF",
+    "order": 30,
+    "icon": "MRChatsworthBluff.svg"
+  },
+  "MRWestLine": {
+    "name": "West Line",
+    "color": "#B71C1C",
+    "backgroundColor": "#B71C1C",
+    "textColor": "#FFFFFF",
+    "order": 31,
+    "icon": "MRWestLine.svg"
+  },
+  "MRUmlaziLine": {
+    "name": "Umlazi Line",
+    "color": "#0D47A1",
+    "backgroundColor": "#0D47A1",
+    "textColor": "#FFFFFF",
+    "order": 32,
+    "icon": "MRUmlaziLine.svg"
+  },
+  "MRCrossmoorLine": {
+    "name": "Crossmoor Line",
+    "color": "#4A148C",
+    "backgroundColor": "#4A148C",
+    "textColor": "#FFFFFF",
+    "order": 33,
+    "icon": "MRCrossmoorLine.svg"
+  },
+  "MRNewMainLine": {
+    "name": "New Main Line",
+    "color": "#E65100",
+    "backgroundColor": "#E65100",
+    "textColor": "#FFFFFF",
+    "order": 34,
+    "icon": "MRNewMainLine.svg"
+  },
+  "MRNorthCoastLine": {
+    "name": "North Coast Line",
+    "color": "#006064",
+    "backgroundColor": "#006064",
+    "textColor": "#FFFFFF",
+    "order": 35,
+    "icon": "MRNorthCoastLine.svg"
+  },
+  "MRBerlinLine": {
+    "name": "Berlin Line",
+    "color": "#880E4F",
+    "backgroundColor": "#880E4F",
+    "textColor": "#FFFFFF",
+    "order": 36,
+    "icon": "MRBerlinLine.svg"
+  },
+  "MRKariegaLine": {
+    "name": "Kariega Line",
+    "color": "#33691E",
+    "backgroundColor": "#33691E",
+    "textColor": "#FFFFFF",
+    "order": 37,
+    "icon": "MRKariegaLine.svg"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "yogyakarta",
+  "path": "asia/indonesia/yogyakarta",
+  "gameTitle": "Yogyakarta–Solo KRL Memory",
+  "description": "How many KRL Commuterline Yogyakarta–Solo stations can you name from memory?",
+  "locale": "id_ID",
+  "bbox": [
+    -7.95,
+    110.2,
+    -7.45,
+    110.95
+  ],
+  "stripPrefix": "^Stasiun ",
+  "altTags": [
+    "name:en"
+  ],
+  "lineGroups": [
+    {
+      "title": "KRL Commuterline Yogyakarta",
+      "lines": [
+        "KRLYogyakarta"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KRLYogyakarta",
+      "name": "KRL Yogyakarta Line",
+      "match": {
+        "@id": "^(17996053|17996054)$"
+      },
+      "color": "#E30A16",
+      "textColor": "#FFFFFF",
+      "badge": "Y",
+      "icon": "KRLYogyakarta.svg"
+    }
+  ],
+  "register": {
+    "name": "Yogyakarta–Solo, ID",
+    "continent": "Asia",
+    "coordinates": [
+      110.3695,
+      -7.7956
+    ],
+    "zh": "日惹–梭罗, ID",
+    "achievement": {
+      "title": "Jogja Commuter",
+      "description": "You've named every KRL Yogyakarta–Solo station."
+    }
+  }
+}

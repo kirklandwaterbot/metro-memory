@@ -1,0 +1,426 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.883639,
+          26.766282
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Chaudhary Charan Singh International Airport",
+        "alternate_names": [
+          "चौधरी चरण सिंह अंतरराष्ट्रीय हवाई अड्डा"
+        ],
+        "line": "LUCK1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.878698,
+          26.771364
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Amausi",
+        "alternate_names": [
+          "अमौसी"
+        ],
+        "line": "LUCK1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.882651,
+          26.777877
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Transport Nagar",
+        "alternate_names": [
+          "ट्रांसपोर्ट नगर"
+        ],
+        "line": "LUCK1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.891762,
+          26.794391
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Krishna Nagar",
+        "alternate_names": [
+          "कृष्णा नगर"
+        ],
+        "line": "LUCK1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.896427,
+          26.8031
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Singar Nagar",
+        "alternate_names": [
+          "सिंगार नगर"
+        ],
+        "line": "LUCK1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.902512,
+          26.81401
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Alambagh",
+        "alternate_names": [
+          "आलमबाग़"
+        ],
+        "line": "LUCK1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.907293,
+          26.818473
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Alambagh Bus",
+        "alternate_names": [
+          "आलमबाग बस स्टेशन"
+        ],
+        "line": "LUCK1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.909858,
+          26.82531
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Mawaiya",
+        "alternate_names": [
+          "मवईया"
+        ],
+        "line": "LUCK1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.915408,
+          26.832003
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Durgapuri",
+        "alternate_names": [
+          "दुर्गापुरी"
+        ],
+        "line": "LUCK1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.923113,
+          26.832402
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Charbagh",
+        "alternate_names": [
+          "चारबाग़ रेलवे स्टेशन",
+          "لکھنؤ چارباغ اسٹیشن"
+        ],
+        "line": "LUCK1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.93433,
+          26.838428
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Hussainganj",
+        "alternate_names": [
+          "हुसैनगंज"
+        ],
+        "line": "LUCK1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.939906,
+          26.841597
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Sachivalaya",
+        "alternate_names": [
+          "सचिवालय"
+        ],
+        "line": "LUCK1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.941594,
+          26.850034
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Hazratganj",
+        "alternate_names": [
+          "हज़रतगंज"
+        ],
+        "line": "LUCK1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.936808,
+          26.853945
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "KD Singh Babu Stadium",
+        "alternate_names": [
+          "केडी सिंह बाबू स्टेडियम"
+        ],
+        "line": "LUCK1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.939546,
+          26.865529
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Vishwavidyalaya",
+        "alternate_names": [
+          "विश्वविद्यालय"
+        ],
+        "line": "LUCK1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.945648,
+          26.871027
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "IT College",
+        "alternate_names": [
+          "आईटी कॉलेज"
+        ],
+        "line": "LUCK1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.961013,
+          26.870698
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Badshah Nagar",
+        "alternate_names": [
+          "बादशाह नगर"
+        ],
+        "line": "LUCK1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.973896,
+          26.870969
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Lekhraj Market",
+        "alternate_names": [
+          "लेखराज मार्केट"
+        ],
+        "line": "LUCK1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.982347,
+          26.872237
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Bhootnath Market",
+        "alternate_names": [
+          "भूतनाथ मार्केट"
+        ],
+        "line": "LUCK1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.990973,
+          26.872766
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Indira Nagar",
+        "alternate_names": [
+          "इंदिरा नगर"
+        ],
+        "line": "LUCK1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.995986,
+          26.887965
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Munshipulia",
+        "alternate_names": [
+          "मुंशी पुलिया"
+        ],
+        "line": "LUCK1",
+        "order": 20
+      },
+      "id": 20
+    }
+  ]
+}

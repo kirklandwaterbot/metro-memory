@@ -1,0 +1,87 @@
+{
+  "slug": "shiraz",
+  "path": "asia/iran/shiraz",
+  "gameTitle": "Shiraz Metro Memory",
+  "description": "How many Shiraz Metro stations can you name from memory?",
+  "locale": "fa_IR",
+  "bbox": [
+    29.466,
+    52.364,
+    29.754,
+    52.696
+  ],
+  "transliterate": "none",
+  "display": "en",
+  "enTags": [
+    "name:en",
+    "int_name",
+    "name:fa-Latn",
+    "name:ar-Latn",
+    "name:hi-Latn",
+    "name:el-Latn",
+    "name:bg-Latn"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:bg",
+    "name:el",
+    "name:ar",
+    "name:fa",
+    "name:hi",
+    "name:ur",
+    "name:bn",
+    "name:ta",
+    "name:te",
+    "name:kn",
+    "name:ml",
+    "name:mr",
+    "name:gu",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Shiraz Metro",
+      "lines": [
+        "SHIR1",
+        "SHIR2"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "SHIR1",
+      "name": "Line 1",
+      "match": {
+        "@id": "^(5727259|7705625)$"
+      },
+      "color": "#EE3C3C",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "SHIR1.svg"
+    },
+    {
+      "id": "SHIR2",
+      "name": "Line 2",
+      "match": {
+        "@id": "^(5744272|15510491)$"
+      },
+      "color": "#229954",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "SHIR2.svg"
+    }
+  ],
+  "register": {
+    "name": "Shiraz (شیراز), IR",
+    "continent": "Asia",
+    "coordinates": [
+      52.53,
+      29.61
+    ],
+    "zh": "设拉子, IR",
+    "achievement": {
+      "title": "Shiraz Metro Master",
+      "description": "You've named every Shiraz Metro station."
+    }
+  }
+}

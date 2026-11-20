@@ -1,0 +1,1368 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.553791,
+          35.568016
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Azamino (あざみ野)",
+        "alternate_names": [
+          "あざみ野",
+          "あざみの",
+          "Azamino"
+        ],
+        "line": "YOKOB",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.569952,
+          35.562907
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Nakagawa (中川)",
+        "alternate_names": [
+          "中川",
+          "なかがわ",
+          "Nakagawa"
+        ],
+        "line": "YOKOB",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.578261,
+          35.553405
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Center Kita (センター北)",
+        "alternate_names": [
+          "センター北",
+          "せんたーきた",
+          "Center Kita"
+        ],
+        "line": "YOKOB",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.574269,
+          35.54541
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Center Minami (センター南)",
+        "alternate_names": [
+          "センター南",
+          "せんたーみなみ",
+          "Center Minami"
+        ],
+        "line": "YOKOB",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.589601,
+          35.535309
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Nakamachidai (仲町台)",
+        "alternate_names": [
+          "仲町台",
+          "なかまちだい",
+          "Nakamachidai"
+        ],
+        "line": "YOKOB",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.612034,
+          35.527496
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Nippa (新羽)",
+        "alternate_names": [
+          "新羽",
+          "にっぱ",
+          "Nippa"
+        ],
+        "line": "YOKOB",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.612805,
+          35.519277
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Kita-shin-yokohama (北新横浜)",
+        "alternate_names": [
+          "北新横浜",
+          "きたしんよこはま",
+          "Kita-shin-yokohama"
+        ],
+        "line": "YOKOB",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.617311,
+          35.508888
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Shin-yokohama (新横浜)",
+        "alternate_names": [
+          "新横浜",
+          "しんよこはま",
+          "Shin-yokohama"
+        ],
+        "line": "YOKOB",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.616824,
+          35.496151
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Kishine-koen (岸根公園)",
+        "alternate_names": [
+          "岸根公園",
+          "きしねこうえん",
+          "Kishine-koen"
+        ],
+        "line": "YOKOB",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.606483,
+          35.490076
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Katakuracho (片倉町)",
+        "alternate_names": [
+          "片倉町",
+          "かたくらちょう",
+          "Katakuracho"
+        ],
+        "line": "YOKOB",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.605646,
+          35.476415
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Mitsuzawa-kamicho (三ツ沢上町)",
+        "alternate_names": [
+          "三ツ沢上町",
+          "みつざわかみちょう",
+          "Mitsuzawa-kamicho"
+        ],
+        "line": "YOKOB",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.616091,
+          35.476509
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Mitsuzawa-shimocho (三ツ沢下町)",
+        "alternate_names": [
+          "三ツ沢下町",
+          "みつざわしもちょう",
+          "Mitsuzawa-shimocho"
+        ],
+        "line": "YOKOB",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.620167,
+          35.465377
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Yokohama (横浜)",
+        "alternate_names": [
+          "横浜",
+          "よこはま",
+          "Yokohama"
+        ],
+        "line": "YOKOB",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.623858,
+          35.458451
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Takashimacho (高島町)",
+        "alternate_names": [
+          "高島町",
+          "たかしまちょう",
+          "Takashimacho"
+        ],
+        "line": "YOKOB",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630787,
+          35.449627
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Sakuragicho (桜木町)",
+        "alternate_names": [
+          "桜木町",
+          "さくらぎちょう",
+          "Sakuragicho"
+        ],
+        "line": "YOKOB",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.636704,
+          35.44533
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Kannai (関内)",
+        "alternate_names": [
+          "関内",
+          "かんない",
+          "Kannai"
+        ],
+        "line": "YOKOB",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632799,
+          35.441002
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Isezaki-chojamachi (伊勢佐木長者町)",
+        "alternate_names": [
+          "伊勢佐木長者町",
+          "いせざきちょうじゃまち",
+          "Isezaki-chojamachi"
+        ],
+        "line": "YOKOB",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.625149,
+          35.437627
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Bandobashi (阪東橋)",
+        "alternate_names": [
+          "阪東橋",
+          "ばんどうばし",
+          "Bandobashi"
+        ],
+        "line": "YOKOB",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.618715,
+          35.435433
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Yoshinocho (吉野町)",
+        "alternate_names": [
+          "吉野町",
+          "よしのちょう",
+          "Yoshinocho"
+        ],
+        "line": "YOKOB",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.609976,
+          35.429909
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Maita (蒔田)",
+        "alternate_names": [
+          "蒔田",
+          "まいた",
+          "Maita"
+        ],
+        "line": "YOKOB",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.60206,
+          35.423289
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Gumyoji (弘明寺)",
+        "alternate_names": [
+          "弘明寺",
+          "ぐみょうじ",
+          "Gumyoji"
+        ],
+        "line": "YOKOB",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.595977,
+          35.409033
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Kamiooka (上大岡)",
+        "alternate_names": [
+          "上大岡",
+          "かみおおおか",
+          "Kamiooka"
+        ],
+        "line": "YOKOB",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.591167,
+          35.4012
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Konan-chuo (港南中央)",
+        "alternate_names": [
+          "港南中央",
+          "こうなんちゅうおう",
+          "Konan-chuo"
+        ],
+        "line": "YOKOB",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.572534,
+          35.401516
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Kaminagaya (上永谷)",
+        "alternate_names": [
+          "上永谷",
+          "かみながや",
+          "Kaminagaya"
+        ],
+        "line": "YOKOB",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.559421,
+          35.402589
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Shimonagaya (下永谷)",
+        "alternate_names": [
+          "下永谷",
+          "しもながや",
+          "Shimonagaya"
+        ],
+        "line": "YOKOB",
+        "order": 24
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.550942,
+          35.402459
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Maioka (舞岡)",
+        "alternate_names": [
+          "舞岡",
+          "まいおか",
+          "Maioka"
+        ],
+        "line": "YOKOB",
+        "order": 25
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.535079,
+          35.401106
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Totsuka (戸塚)",
+        "alternate_names": [
+          "戸塚",
+          "とつか",
+          "Totsuka"
+        ],
+        "line": "YOKOB",
+        "order": 26
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.518531,
+          35.405659
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Odoriba (踊場)",
+        "alternate_names": [
+          "踊場",
+          "おどりば",
+          "Odoriba"
+        ],
+        "line": "YOKOB",
+        "order": 27
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.511331,
+          35.411145
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Nakada (中田)",
+        "alternate_names": [
+          "中田",
+          "なかだ",
+          "Nakada"
+        ],
+        "line": "YOKOB",
+        "order": 28
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.500199,
+          35.41427
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Tateba (立場)",
+        "alternate_names": [
+          "立場",
+          "たてば",
+          "Tateba"
+        ],
+        "line": "YOKOB",
+        "order": 29
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.483208,
+          35.403443
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Shimoiida (下飯田)",
+        "alternate_names": [
+          "下飯田",
+          "しもいいだ",
+          "Shimoiida"
+        ],
+        "line": "YOKOB",
+        "order": 30
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.467078,
+          35.396445
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Shonandai (湘南台)",
+        "alternate_names": [
+          "湘南台",
+          "しょうなんだい",
+          "Shonandai"
+        ],
+        "line": "YOKOB",
+        "order": 31
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.540189,
+          35.514805
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Nakayama (中山)",
+        "alternate_names": [
+          "中山",
+          "なかやま",
+          "Nakayama"
+        ],
+        "line": "YOKOG",
+        "order": 0
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54916,
+          35.52848
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Kawawacho (川和町)",
+        "alternate_names": [
+          "川和町",
+          "かわわちょう",
+          "Kawawacho"
+        ],
+        "line": "YOKOG",
+        "order": 1
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.561298,
+          35.536553
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Tsuzuki-fureainooka (都筑ふれあいの丘)",
+        "alternate_names": [
+          "都筑ふれあいの丘",
+          "つづきふれあいのおか",
+          "Tsuzuki-fureainooka"
+        ],
+        "line": "YOKOG",
+        "order": 2
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.574638,
+          35.54529
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Center Minami (センター南)",
+        "alternate_names": [
+          "センター南",
+          "せんたーみなみ",
+          "Center Minami"
+        ],
+        "line": "YOKOG",
+        "order": 3
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.578635,
+          35.553314
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Center Kita (センター北)",
+        "alternate_names": [
+          "センター北",
+          "せんたーきた",
+          "Center Kita"
+        ],
+        "line": "YOKOG",
+        "order": 4
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.592741,
+          35.560969
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Kita-yamata (北山田)",
+        "alternate_names": [
+          "北山田",
+          "きたやまた",
+          "Kita-yamata"
+        ],
+        "line": "YOKOG",
+        "order": 5
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.60469,
+          35.554173
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Higashi-yamata (東山田)",
+        "alternate_names": [
+          "東山田",
+          "ひがしやまた",
+          "Higashi-yamata"
+        ],
+        "line": "YOKOG",
+        "order": 6
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.620052,
+          35.549678
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Takata (高田)",
+        "alternate_names": [
+          "高田",
+          "たかた",
+          "Takata"
+        ],
+        "line": "YOKOG",
+        "order": 7
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633623,
+          35.550066
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Hiyoshi-honcho (日吉本町)",
+        "alternate_names": [
+          "日吉本町",
+          "ひよしほんちょう",
+          "Hiyoshi-honcho"
+        ],
+        "line": "YOKOG",
+        "order": 8
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.646482,
+          35.553444
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Hiyoshi (日吉)",
+        "alternate_names": [
+          "日吉",
+          "ひよし",
+          "Hiyoshi"
+        ],
+        "line": "YOKOG",
+        "order": 9
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.622081,
+          35.466292
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Yokohama (横浜)",
+        "alternate_names": [
+          "横浜",
+          "よこはま",
+          "Yokohama"
+        ],
+        "line": "YOKOMM",
+        "order": 0
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.626641,
+          35.461939
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Shin-Takashima (新高島)",
+        "alternate_names": [
+          "新高島",
+          "しんたかしま",
+          "Shin-Takashima"
+        ],
+        "line": "YOKOMM",
+        "order": 1
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632845,
+          35.457233
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Minatomirai (みなとみらい)",
+        "alternate_names": [
+          "みなとみらい",
+          "Minatomirai"
+        ],
+        "line": "YOKOMM",
+        "order": 2
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.636297,
+          35.450148
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Bashamichi (馬車道)",
+        "alternate_names": [
+          "馬車道",
+          "ばしゃみち",
+          "Bashamichi"
+        ],
+        "line": "YOKOMM",
+        "order": 3
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.642672,
+          35.446735
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Nihon-odori (日本大通り)",
+        "alternate_names": [
+          "日本大通り",
+          "にほんおおどおり",
+          "Nihon-odori"
+        ],
+        "line": "YOKOMM",
+        "order": 4
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.650913,
+          35.442117
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Motomachi-chukagai (元町・中華街)",
+        "alternate_names": [
+          "元町・中華街",
+          "もとまち・ちゅうかがい",
+          "Motomachi-chukagai"
+        ],
+        "line": "YOKOMM",
+        "order": 5
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.620894,
+          35.331568
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Kanazawa-Hakkei (金沢八景)",
+        "alternate_names": [
+          "金沢八景",
+          "かなざわはっけい",
+          "Kanazawa-Hakkei"
+        ],
+        "line": "YOKOSL",
+        "order": 0
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.631453,
+          35.330519
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Nojimakoen (野島公園)",
+        "alternate_names": [
+          "野島公園",
+          "のじまこうえん",
+          "Nojimakoen"
+        ],
+        "line": "YOKOSL",
+        "order": 1
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.632035,
+          35.337166
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Uminokoen-Minamiguchi (海の公園南口)",
+        "alternate_names": [
+          "海の公園南口",
+          "うみのこうえんみなみぐち",
+          "Uminokoen-Minamiguchi"
+        ],
+        "line": "YOKOSL",
+        "order": 2
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.635906,
+          35.342105
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Uminokoen-Shibaguchi (海の公園柴口)",
+        "alternate_names": [
+          "海の公園柴口",
+          "うみのこうえんしばぐち",
+          "Uminokoen-Shibaguchi"
+        ],
+        "line": "YOKOSL",
+        "order": 3
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.640836,
+          35.340823
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Hakkeijima (八景島)",
+        "alternate_names": [
+          "八景島",
+          "はっけいじま",
+          "Hakkeijima"
+        ],
+        "line": "YOKOSL",
+        "order": 4
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.650153,
+          35.343948
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Shidai-Igakubu (市大医学部)",
+        "alternate_names": [
+          "市大医学部",
+          "しだいいがくぶ",
+          "Shidai-Igakubu"
+        ],
+        "line": "YOKOSL",
+        "order": 5
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.648544,
+          35.349649
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Fukuura (福浦)",
+        "alternate_names": [
+          "福浦",
+          "ふくうら",
+          "Fukuura"
+        ],
+        "line": "YOKOSL",
+        "order": 6
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.646291,
+          35.353426
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Sangyoshinko Center (産業振興センター)",
+        "alternate_names": [
+          "産業振興センター",
+          "さんぎょうしんこうせんたー",
+          "Sangyoshinko Center"
+        ],
+        "line": "YOKOSL",
+        "order": 7
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.643739,
+          35.358338
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Sachiura (幸浦)",
+        "alternate_names": [
+          "幸浦",
+          "さちうら",
+          "Sachiura"
+        ],
+        "line": "YOKOSL",
+        "order": 8
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.642938,
+          35.365438
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Namiki-Chuo (並木中央)",
+        "alternate_names": [
+          "並木中央",
+          "なみきちゅうおう",
+          "Namiki-Chuo"
+        ],
+        "line": "YOKOSL",
+        "order": 9
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.642701,
+          35.371877
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Namiki-Kita (並木北)",
+        "alternate_names": [
+          "並木北",
+          "なみききた",
+          "Namiki-Kita"
+        ],
+        "line": "YOKOSL",
+        "order": 10
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.641739,
+          35.377064
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Torihama (鳥浜)",
+        "alternate_names": [
+          "鳥浜",
+          "とりはま",
+          "Torihama"
+        ],
+        "line": "YOKOSL",
+        "order": 11
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633233,
+          35.380179
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Nambu-Shijo (南部市場)",
+        "alternate_names": [
+          "南部市場",
+          "なんぶしじょう",
+          "Nambu-Shijo"
+        ],
+        "line": "YOKOSL",
+        "order": 12
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62041,
+          35.386002
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Shin-Sugita (新杉田)",
+        "alternate_names": [
+          "新杉田",
+          "しんすぎた",
+          "Shin-Sugita"
+        ],
+        "line": "YOKOSL",
+        "order": 13
+      },
+      "id": 61
+    }
+  ]
+}

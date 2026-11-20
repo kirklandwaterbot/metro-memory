@@ -1,0 +1,154 @@
+{
+  "slug": "tren-maya",
+  "path": "north-america/mexico/tren-maya",
+  "gameTitle": "Tren Maya Memory",
+  "description": "How many Tren Maya stations can you name from memory?",
+  "locale": "es_MX",
+  "bbox": [
+    17.3,
+    -92.2,
+    21.8,
+    -86.5
+  ],
+  "stripPrefix": "^Estación ",
+  "trackStationDistance": 600,
+  "trackJoinM": 3000,
+  "minZoom": 5.5,
+  "lineGroups": [
+    {
+      "title": "Tren Maya",
+      "lines": [
+        "TM1",
+        "TM2",
+        "TM3",
+        "TM4",
+        "TM5",
+        "TM6",
+        "TM7"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "TM1",
+      "name": "Tramo 1: Palenque–Escárcega",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#8C1D40",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "TM1.svg",
+      "pathBetween": [
+        "Estación Palenque",
+        "Estación Escárcega"
+      ],
+      "removeStations": [
+        "San Agustín ( La Placa )"
+      ]
+    },
+    {
+      "id": "TM2",
+      "name": "Tramo 2: Escárcega–Calkiní",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#B5651D",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "TM2.svg",
+      "pathBetween": [
+        "Estación Escárcega",
+        "Estación Calkiní"
+      ]
+    },
+    {
+      "id": "TM3",
+      "name": "Tramo 3: Calkiní–Izamal",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#C9A100",
+      "textColor": "#FFFFFF",
+      "badge": "3",
+      "icon": "TM3.svg",
+      "pathBetween": [
+        "Estación Calkiní",
+        "Estación Izamal"
+      ]
+    },
+    {
+      "id": "TM4",
+      "name": "Tramo 4: Izamal–Cancún",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#2E7D32",
+      "textColor": "#FFFFFF",
+      "badge": "4",
+      "icon": "TM4.svg",
+      "pathBetween": [
+        "Estación Izamal",
+        "Estación Cancún"
+      ]
+    },
+    {
+      "id": "TM5",
+      "name": "Tramo 5: Cancún–Tulum",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#00838F",
+      "textColor": "#FFFFFF",
+      "badge": "5",
+      "icon": "TM5.svg",
+      "pathBetween": [
+        "Estación Cancún",
+        "Estación Tulum"
+      ]
+    },
+    {
+      "id": "TM6",
+      "name": "Tramo 6: Tulum–Chetumal",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#1565C0",
+      "textColor": "#FFFFFF",
+      "badge": "6",
+      "icon": "TM6.svg",
+      "pathBetween": [
+        "Estación Tulum",
+        "Estación Chetumal Aeropuerto"
+      ]
+    },
+    {
+      "id": "TM7",
+      "name": "Tramo 7: Chetumal–Escárcega",
+      "match": {
+        "@id": "^(13196595)$"
+      },
+      "color": "#6A1B9A",
+      "textColor": "#FFFFFF",
+      "badge": "7",
+      "icon": "TM7.svg",
+      "pathBetween": [
+        "Estación Chetumal Aeropuerto",
+        "Estación Escárcega"
+      ]
+    }
+  ],
+  "register": {
+    "name": "Tren Maya, MX",
+    "continent": "North America",
+    "coordinates": [
+      -89.0,
+      19.6
+    ],
+    "zh": "玛雅铁路, MX",
+    "achievement": {
+      "title": "Maya Circuit",
+      "description": "You've named every Tren Maya station."
+    }
+  }
+}

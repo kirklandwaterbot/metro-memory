@@ -1,0 +1,47 @@
+{
+  "slug": "quito",
+  "path": "south-america/ecuador/quito",
+  "gameTitle": "Quito Metro Memory",
+  "description": "How many Metro de Quito stations can you name from memory?",
+  "locale": "es_EC",
+  "bbox": [
+    -0.36,
+    -78.6,
+    -0.08,
+    -78.42
+  ],
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "lineGroups": [
+    {
+      "title": "Metro de Quito",
+      "lines": [
+        "UIO1"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "UIO1",
+      "name": "Línea 1",
+      "match": {
+        "route": "subway",
+        "network": "Metro de Quito",
+        "ref": "^1$"
+      },
+      "color": "#E31D1B"
+    }
+  ],
+  "register": {
+    "name": "Quito, EC",
+    "continent": "South America",
+    "coordinates": [
+      -78.4678,
+      -0.1807
+    ],
+    "achievement": {
+      "title": "Mitad del Metro",
+      "description": "You've named every Metro de Quito station."
+    }
+  }
+}

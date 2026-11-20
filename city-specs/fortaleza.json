@@ -1,0 +1,82 @@
+{
+  "slug": "fortaleza",
+  "path": "south-america/brazil/fortaleza",
+  "gameTitle": "Fortaleza Metro Memory",
+  "description": "How many Metrofor stations can you name from memory?",
+  "locale": "pt_BR",
+  "bbox": [
+    -3.96,
+    -38.7,
+    -3.68,
+    -38.45
+  ],
+  "stripPrefix": "^Esta[cç][aã]o ",
+  "stripLineSuffix": true,
+  "splitDash": true,
+  "primaryBeforeSlash": true,
+  "lineGroups": [
+    {
+      "title": "Metrofor",
+      "lines": [
+        "FORS",
+        "FORO",
+        "FORPM",
+        "FORAE"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "FORS",
+      "name": "Linha Sul",
+      "match": {
+        "route": "subway",
+        "network": "Metrofor",
+        "ref": "^Sul$"
+      },
+      "color": "#E30613"
+    },
+    {
+      "id": "FORO",
+      "name": "Linha Oeste",
+      "match": {
+        "route": "light_rail",
+        "network": "Metrofor",
+        "ref": "^Oeste$"
+      },
+      "color": "#008000"
+    },
+    {
+      "id": "FORPM",
+      "name": "VLT Parangaba–Mucuripe",
+      "match": {
+        "route": "light_rail",
+        "network": "Metrofor",
+        "ref": "Parangaba"
+      },
+      "color": "#6B297E"
+    },
+    {
+      "id": "FORAE",
+      "name": "Ramal Aeroporto",
+      "match": {
+        "route": "light_rail",
+        "network": "Metrofor",
+        "ref": "^5$"
+      },
+      "color": "#FF6100"
+    }
+  ],
+  "register": {
+    "name": "Fortaleza, BR",
+    "continent": "South America",
+    "coordinates": [
+      -38.5267,
+      -3.7319
+    ],
+    "achievement": {
+      "title": "Cearense Cruiser",
+      "description": "You've named every Metrofor station in Fortaleza."
+    }
+  }
+}

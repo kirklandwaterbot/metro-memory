@@ -4,76 +4,105 @@
     "color": "#5CB439",
     "backgroundColor": "#5CB439",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/suzhou/Line1Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou2": {
     "name": "Line 2",
     "color": "#E60000",
     "backgroundColor": "#E60000",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/suzhou/Line2Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou3": {
     "name": "Line 3",
     "color": "#F57B00",
     "backgroundColor": "#F57B00",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/suzhou/Line3Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou4": {
     "name": "Line 4",
     "color": "#0072CE",
     "backgroundColor": "#0072CE",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/suzhou/Line4Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou5": {
     "name": "Line 5",
     "color": "#E93CAC",
     "backgroundColor": "#E93CAC",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/suzhou/Line5Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou6": {
     "name": "Line 6",
     "color": "#3FB9E4",
     "backgroundColor": "#3FB9E4",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/suzhou/Line6Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou7": {
     "name": "Line 7",
     "color": "#A77BCA",
     "backgroundColor": "#A77BCA",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/suzhou/Line7Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou8": {
     "name": "Line 8",
     "color": "#A09200",
     "backgroundColor": "#A09200",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/suzhou/Line8Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhou11": {
     "name": "Line 11",
     "color": "#f1c6a6",
     "backgroundColor": "#f1c6a6",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/suzhou/Line11Tile.png",
+    "badgeShape": "square",
+    "badgeFit": "cover"
   },
   "suzhoutram1": {
     "name": "SND Tram Line 1",
     "color": "#B5CD56",
     "backgroundColor": "#B5CD56",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/suzhou/t1.png"
   },
   "suzhoutram2": {
     "name": "SND Tram Line 2",
-    "color": "#850000",
-    "backgroundColor": "#850000",
+    "color": "#FF5637",
+    "backgroundColor": "#FF5637",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/suzhou/t2.png"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "note": "Matched by scripts/routes/osm-relation-match.py; check and edit by hand.",
+  "trim": true,
+  "keepCentreline": "stations",
+  "connectStations": true,
+  "lines": {
+    "STMMetroBleue": [
+      270255,
+      3228497
+    ],
+    "STMMetroJaune": [
+      270252,
+      3228498
+    ],
+    "STMMetroOrange": [
+      3228499,
+      270251
+    ],
+    "STMMetroVerte": [
+      3228500,
+      58433
+    ],
+    "AMTRailExo1": [
+      9288758,
+      2183946
+    ],
+    "AMTRailExo2": [
+      9326127,
+      3140019
+    ],
+    "AMTRailExo3": [
+      2710826,
+      9356555
+    ],
+    "AMTRailExo4": [
+      9298214,
+      2710827
+    ],
+    "AMTRailExo5": [
+      2710825,
+      9344069
+    ],
+    "MontrealREMA1": [
+      19668643,
+      19668926
+    ],
+    "MontrealREMA2": [
+      19668576
+    ],
+    "MontrealREMA4": [
+      6170038
+    ],
+    "MontrealREMA3": [
+      6170009
+    ]
+  }
+}

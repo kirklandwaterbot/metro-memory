@@ -20,6 +20,11 @@
       "match": {
         "ref": "^1$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line1Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -28,6 +33,11 @@
       "match": {
         "ref": "^2$",
         "name": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line2Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -36,6 +46,11 @@
       "match": {
         "ref": "^3$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line3Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -44,6 +59,11 @@
       "match": {
         "ref": "^4$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line4Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -52,6 +72,12 @@
       "match": {
         "ref": "^5$",
         "network": "南京地铁"
+      },
+      "textColor": "#000000",
+      "icon": "asia/china/nanjing/Line5Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -60,6 +86,11 @@
       "match": {
         "ref": "^6$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line6Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -68,6 +99,11 @@
       "match": {
         "ref": "^7$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line7Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -76,6 +112,11 @@
       "match": {
         "ref": "^10$",
         "name": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/Line10Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -84,6 +125,11 @@
       "match": {
         "ref": "^S1$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/LineS1Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -92,6 +138,11 @@
       "match": {
         "ref": "^S3$",
         "name": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/LineS3Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -100,6 +151,11 @@
       "match": {
         "ref": "^S6$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/LineS6Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -108,6 +164,11 @@
       "match": {
         "ref": "^S7$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/LineS7Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -116,6 +177,11 @@
       "match": {
         "ref": "^S8$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/LineS8Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -124,14 +190,24 @@
       "match": {
         "ref": "^S9$",
         "network": "南京地铁"
+      },
+      "icon": "asia/china/nanjing/LineS9Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
       "id": "nanjings2",
-      "name": "Line S2",
+      "name": "Line S2 (Nanjing-Ma'anshan Line)",
       "match": {
         "network": "南京地铁",
         "ref": "^S2$"
+      },
+      "icon": "asia/china/nanjing/LineS2Square.png",
+      "extra": {
+        "badgeShape": "square",
+        "badgeFit": "cover"
       }
     },
     {
@@ -139,6 +215,11 @@
       "name": "Ningchu Line",
       "match": {
         "network": "滁州轨道交通"
+      },
+      "icon": "asia/china/nanjing/1920px-Nanjing-Chuzhou_Line_logo.svg_png.png",
+      "extra": {
+        "badgeShape": "wide",
+        "badgeFit": "contain"
       }
     },
     {
@@ -149,7 +230,10 @@
         "ref": "^HEXI$"
       },
       "fromTrack": true,
-      "trackRadius": 40
+      "trackRadius": 40,
+      "color": "#141414",
+      "backgroundColor": "#141414",
+      "icon": "asia/china/nanjing/hexi.png"
     },
     {
       "id": "nanjingqilin",
@@ -159,13 +243,15 @@
         "ref": "^QILIN$"
       },
       "fromTrack": true,
-      "trackRadius": 40
+      "trackRadius": 40,
+      "icon": "asia/china/nanjing/qilintram.png"
     }
   ],
   "cityName": "Nanjing",
   "groups": [
     {
       "title": "Nanjing Metro",
+      "titleImage": "asia/china/nanjing/icon.ico",
       "lines": [
         "nanjing1",
         "nanjing2",

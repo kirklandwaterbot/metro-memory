@@ -1,0 +1,3852 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.457005,
+          34.393153
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Hondōri (本通)",
+        "alternate_names": [
+          "本通",
+          "ほんどおり",
+          "Hondōri"
+        ],
+        "line": "HRAST",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458145,
+          34.396685
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Kenchō-mae (県庁前)",
+        "alternate_names": [
+          "県庁前",
+          "Kenchō-mae"
+        ],
+        "line": "HRAST",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458793,
+          34.405379
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Jōhoku (城北)",
+        "alternate_names": [
+          "城北",
+          "Jōhoku"
+        ],
+        "line": "HRAST",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460328,
+          34.407532
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Shin-Hakushima (新白島)",
+        "alternate_names": [
+          "新白島",
+          "Shin-Hakushima"
+        ],
+        "line": "HRAST",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.462699,
+          34.410933
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Hakushima (白島)",
+        "alternate_names": [
+          "白島",
+          "Hakushima"
+        ],
+        "line": "HRAST",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464744,
+          34.417533
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Ushita (牛田)",
+        "alternate_names": [
+          "牛田",
+          "Ushita"
+        ],
+        "line": "HRAST",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.468873,
+          34.426598
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Fudōin-mae (不動院前)",
+        "alternate_names": [
+          "不動院前",
+          "Fudōin-mae"
+        ],
+        "line": "HRAST",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.470825,
+          34.435238
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Gion-shinbashi-kita (祗園新橋北)",
+        "alternate_names": [
+          "祗園新橋北",
+          "ぎおんしんばしきた",
+          "Gion-shinbashi-kita"
+        ],
+        "line": "HRAST",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.474786,
+          34.443368
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Nishihara (西原)",
+        "alternate_names": [
+          "西原",
+          "Nishihara"
+        ],
+        "line": "HRAST",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.47696,
+          34.451692
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Nakasuji (中筋)",
+        "alternate_names": [
+          "中筋",
+          "Nakasuji"
+        ],
+        "line": "HRAST",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.475234,
+          34.457738
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Furuichi (古市)",
+        "alternate_names": [
+          "古市",
+          "Furuichi"
+        ],
+        "line": "HRAST",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.47056,
+          34.461702
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Ōmachi (大町)",
+        "alternate_names": [
+          "大町",
+          "Ōmachi"
+        ],
+        "line": "HRAST",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.46271,
+          34.469633
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bishamondai (毘沙門台)",
+        "alternate_names": [
+          "毘沙門台",
+          "Bishamondai"
+        ],
+        "line": "HRAST",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.453362,
+          34.47501
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Yasuhigashi (安東)",
+        "alternate_names": [
+          "安東",
+          "Yasuhigashi"
+        ],
+        "line": "HRAST",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.444726,
+          34.475768
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Kamiyasu (上安)",
+        "alternate_names": [
+          "上安",
+          "Kamiyasu"
+        ],
+        "line": "HRAST",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.438146,
+          34.475129
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Takatori (高取)",
+        "alternate_names": [
+          "高取",
+          "Takatori"
+        ],
+        "line": "HRAST",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.430992,
+          34.472991
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Chōrakuji (長楽寺)",
+        "alternate_names": [
+          "長楽寺",
+          "Chōrakuji"
+        ],
+        "line": "HRAST",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.419098,
+          34.46994
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Tomo (伴)",
+        "alternate_names": [
+          "伴",
+          "Tomo"
+        ],
+        "line": "HRAST",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.412747,
+          34.463207
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Ōbara (大原)",
+        "alternate_names": [
+          "大原",
+          "Ōbara"
+        ],
+        "line": "HRAST",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.405191,
+          34.455991
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Tomo-chūō (伴中央)",
+        "alternate_names": [
+          "伴中央",
+          "Tomo-chūō"
+        ],
+        "line": "HRAST",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.402779,
+          34.441589
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Ōzuka (大塚)",
+        "alternate_names": [
+          "大塚",
+          "Ōzuka"
+        ],
+        "line": "HRAST",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.400194,
+          34.435379
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Kōiki-kōen-mae (広域公園前)",
+        "alternate_names": [
+          "広域公園前",
+          "Kōiki-kōen-mae"
+        ],
+        "line": "HRAST",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.475155,
+          34.396793
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Hiroshima (広島)",
+        "alternate_names": [
+          "広島",
+          "Hiroshima"
+        ],
+        "line": "HD1",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.472197,
+          34.393155
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Inari-machi (稲荷町)",
+        "alternate_names": [
+          "稲荷町",
+          "Inari-machi"
+        ],
+        "line": "HD1",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.466924,
+          34.393204
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Kanayama-cho (銀山町)",
+        "alternate_names": [
+          "銀山町",
+          "Kanayama-cho"
+        ],
+        "line": "HD1",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465117,
+          34.393377
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Ebisu-cho (胡町)",
+        "alternate_names": [
+          "胡町",
+          "Ebisu-cho"
+        ],
+        "line": "HD1",
+        "order": 3
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463968,
+          34.393659
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Hatchobori (八丁堀)",
+        "alternate_names": [
+          "八丁堀",
+          "Hatchobori"
+        ],
+        "line": "HD1",
+        "order": 4
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460935,
+          34.39444
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Tate-machi (立町)",
+        "alternate_names": [
+          "立町",
+          "Tate-machi"
+        ],
+        "line": "HD1",
+        "order": 5
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458596,
+          34.395032
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Kamiya-cho-higashi (紙屋町東)",
+        "alternate_names": [
+          "紙屋町東",
+          "Kamiya-cho-higashi"
+        ],
+        "line": "HD1",
+        "order": 6
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45716,
+          34.393841
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Hondōri (本通)",
+        "alternate_names": [
+          "Peace Memorial Park",
+          "Hondori",
+          "本通",
+          "Hondōri"
+        ],
+        "line": "HD1",
+        "order": 7
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456386,
+          34.391549
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Fukuro-machi (袋町)",
+        "alternate_names": [
+          "袋町",
+          "Fukuro-machi"
+        ],
+        "line": "HD1",
+        "order": 8
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455338,
+          34.388471
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Chuden-mae (中電前)",
+        "alternate_names": [
+          "中電前",
+          "Chuden-mae"
+        ],
+        "line": "HD1",
+        "order": 9
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454426,
+          34.385819
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Shiyakusho-mae (市役所前)",
+        "alternate_names": [
+          "市役所前",
+          "Shiyakusho-mae"
+        ],
+        "line": "HD1",
+        "order": 10
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454266,
+          34.383118
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Takano-bashi (鷹野橋)",
+        "alternate_names": [
+          "鷹野橋",
+          "Takano-bashi"
+        ],
+        "line": "HD1",
+        "order": 11
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455888,
+          34.380876
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Nisseki-byoin-mae (日赤病院前)",
+        "alternate_names": [
+          "日赤病院前",
+          "Nisseki-byoin-mae"
+        ],
+        "line": "HD1",
+        "order": 12
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458137,
+          34.377459
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Hiroden-honsha-mae (広電本社前)",
+        "alternate_names": [
+          "広電本社前",
+          "Hiroden-honsha-mae"
+        ],
+        "line": "HD1",
+        "order": 13
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45937,
+          34.375748
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Miyuki-bashi (御幸橋)",
+        "alternate_names": [
+          "御幸橋",
+          "Miyuki-bashi"
+        ],
+        "line": "HD1",
+        "order": 14
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464168,
+          34.374159
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Minami-machi 6-chome (皆実町6丁目)",
+        "alternate_names": [
+          "皆実町6丁目",
+          "Minami-machi 6-chome"
+        ],
+        "line": "HD1",
+        "order": 15
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464612,
+          34.371457
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Hirodaifuzokugakkou-mae (広大附属学校前)",
+        "alternate_names": [
+          "広大附属学校前",
+          "Hirodaifuzokugakkou-mae"
+        ],
+        "line": "HD1",
+        "order": 16
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464798,
+          34.36954
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Kenbyoin-mae (県病院前)",
+        "alternate_names": [
+          "県病院前",
+          "Kenbyoin-mae"
+        ],
+        "line": "HD1",
+        "order": 17
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464555,
+          34.366379
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Ujina 2-chome (宇品2丁目)",
+        "alternate_names": [
+          "宇品2丁目",
+          "Ujina 2-chome"
+        ],
+        "line": "HD1",
+        "order": 18
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464367,
+          34.364314
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Ujina 3-chome (宇品3丁目)",
+        "alternate_names": [
+          "宇品3丁目",
+          "Ujina 3-chome"
+        ],
+        "line": "HD1",
+        "order": 19
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464058,
+          34.360824
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Ujina 4-chome (宇品4丁目)",
+        "alternate_names": [
+          "宇品4丁目",
+          "Ujina 4-chome"
+        ],
+        "line": "HD1",
+        "order": 20
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463832,
+          34.358299
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Ujina 5-chome (宇品5丁目)",
+        "alternate_names": [
+          "宇品5丁目",
+          "Ujina 5-chome"
+        ],
+        "line": "HD1",
+        "order": 21
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463021,
+          34.355244
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Kaigan-dori (海岸通)",
+        "alternate_names": [
+          "海岸通",
+          "Kaigan-dori"
+        ],
+        "line": "HD1",
+        "order": 22
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460362,
+          34.353924
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Motoujina-guchi (元宇品口)",
+        "alternate_names": [
+          "元宇品口",
+          "Motoujina-guchi"
+        ],
+        "line": "HD1",
+        "order": 23
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455129,
+          34.352724
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Hiroshima Port (広島港)",
+        "alternate_names": [
+          "広島港",
+          "Hiroshima Port"
+        ],
+        "line": "HD1",
+        "order": 24
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.475158,
+          34.396797
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Hiroshima (広島)",
+        "alternate_names": [
+          "広島",
+          "Hiroshima"
+        ],
+        "line": "HD2",
+        "order": 0
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.472197,
+          34.393155
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Inari-machi (稲荷町)",
+        "alternate_names": [
+          "稲荷町",
+          "Inari-machi"
+        ],
+        "line": "HD2",
+        "order": 1
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.466924,
+          34.393204
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Kanayama-cho (銀山町)",
+        "alternate_names": [
+          "銀山町",
+          "Kanayama-cho"
+        ],
+        "line": "HD2",
+        "order": 2
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465117,
+          34.393377
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Ebisu-cho (胡町)",
+        "alternate_names": [
+          "胡町",
+          "Ebisu-cho"
+        ],
+        "line": "HD2",
+        "order": 3
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463968,
+          34.393659
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Hatchobori (八丁堀)",
+        "alternate_names": [
+          "八丁堀",
+          "Hatchobori"
+        ],
+        "line": "HD2",
+        "order": 4
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460935,
+          34.39444
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Tate-machi (立町)",
+        "alternate_names": [
+          "立町",
+          "Tate-machi"
+        ],
+        "line": "HD2",
+        "order": 5
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458596,
+          34.395032
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Kamiya-cho-higashi (紙屋町東)",
+        "alternate_names": [
+          "紙屋町東",
+          "Kamiya-cho-higashi"
+        ],
+        "line": "HD2",
+        "order": 6
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456814,
+          34.395468
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Kamiya-cho-nishi (紙屋町西)",
+        "alternate_names": [
+          "紙屋町西",
+          "Kamiya-cho-nishi"
+        ],
+        "line": "HD2",
+        "order": 7
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454115,
+          34.396099
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Genbaku Dome-mae (原爆ドーム前)",
+        "alternate_names": [
+          "原爆ドーム前",
+          "げんばくドームまえ",
+          "Genbaku Dome-mae"
+        ],
+        "line": "HD2",
+        "order": 8
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.450427,
+          34.396863
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Honkawa-cho (本川町)",
+        "alternate_names": [
+          "本川町",
+          "Honkawa-cho"
+        ],
+        "line": "HD2",
+        "order": 9
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446899,
+          34.396933
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Tokaichi-machi (十日市町)",
+        "alternate_names": [
+          "十日市町",
+          "Tokaichi-machi"
+        ],
+        "line": "HD2",
+        "order": 10
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446355,
+          34.394489
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Dobashi (土橋)",
+        "alternate_names": [
+          "土橋",
+          "Dobashi"
+        ],
+        "line": "HD2",
+        "order": 11
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.444321,
+          34.39447
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Koami-cho (小網町)",
+        "alternate_names": [
+          "小網町",
+          "Koami-cho"
+        ],
+        "line": "HD2",
+        "order": 12
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.440867,
+          34.395099
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Temma-cho (天満町)",
+        "alternate_names": [
+          "天満町",
+          "Temma-cho"
+        ],
+        "line": "HD2",
+        "order": 13
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.438533,
+          34.395501
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Kan-on-machi (観音町)",
+        "alternate_names": [
+          "観音町",
+          "Kan-on-machi"
+        ],
+        "line": "HD2",
+        "order": 14
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.436695,
+          34.394008
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Nishi-kan-on-machi (西観音町)",
+        "alternate_names": [
+          "西観音町",
+          "Nishi-kan-on-machi"
+        ],
+        "line": "HD2",
+        "order": 15
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.433967,
+          34.394899
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Fukushima-cho (福島町)",
+        "alternate_names": [
+          "福島町",
+          "Fukushima-cho"
+        ],
+        "line": "HD2",
+        "order": 16
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.427752,
+          34.396796
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Hiroden Nishi-Hiroshima (広電西広島)",
+        "alternate_names": [
+          "広電西広島",
+          "Hiroden Nishi-Hiroshima"
+        ],
+        "line": "HD2",
+        "order": 17
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.419718,
+          34.391529
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Higashi-takasu (東高須)",
+        "alternate_names": [
+          "東高須",
+          "Higashi-takasu"
+        ],
+        "line": "HD2",
+        "order": 18
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.416453,
+          34.389394
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Takasu (高須)",
+        "alternate_names": [
+          "高須",
+          "Takasu"
+        ],
+        "line": "HD2",
+        "order": 19
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.41057,
+          34.385716
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Furue (古江)",
+        "alternate_names": [
+          "古江",
+          "Furue"
+        ],
+        "line": "HD2",
+        "order": 20
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.403984,
+          34.381602
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Kusatsu (草津)",
+        "alternate_names": [
+          "草津",
+          "Kusatsu"
+        ],
+        "line": "HD2",
+        "order": 21
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.398626,
+          34.378132
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Kusatsu-minami (草津南)",
+        "alternate_names": [
+          "草津南",
+          "Kusatsu-minami"
+        ],
+        "line": "HD2",
+        "order": 22
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.392136,
+          34.375502
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Shoko Center-iriguchi (商工センター入口)",
+        "alternate_names": [
+          "商工センター入口",
+          "Shoko Center-iriguchi"
+        ],
+        "line": "HD2",
+        "order": 23
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.386013,
+          34.371828
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Inokuchi (井口)",
+        "alternate_names": [
+          "井口",
+          "Inokuchi"
+        ],
+        "line": "HD2",
+        "order": 24
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.374342,
+          34.368188
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Hiroshima Shudo University Hiroshima Kyoso Junior and High School (修大協創中高前)",
+        "alternate_names": [
+          "修大協創中高前",
+          "しゅうだいきょうそうちゅうこうまえ",
+          "Hiroshima Shudo University Hiroshima Kyoso Junior and High School"
+        ],
+        "line": "HD2",
+        "order": 25
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.367804,
+          34.366435
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Hiroden-itsukaichi (広電五日市)",
+        "alternate_names": [
+          "広電五日市",
+          "ひろでんいつかいち",
+          "Hiroden-itsukaichi"
+        ],
+        "line": "HD2",
+        "order": 26
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.360889,
+          34.365318
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Saeki-Kuyakusho-mae (佐伯区役所前)",
+        "alternate_names": [
+          "佐伯区役所前",
+          "さえきくやくしょまえ",
+          "Saeki-Kuyakusho-mae"
+        ],
+        "line": "HD2",
+        "order": 27
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.351456,
+          34.364168
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Rakurakuen (楽々園)",
+        "alternate_names": [
+          "楽々園",
+          "らくらくえん",
+          "Rakurakuen"
+        ],
+        "line": "HD2",
+        "order": 28
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.341183,
+          34.361786
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Sanyo Woman's College (山陽女学園前)",
+        "alternate_names": [
+          "山陽女学園前",
+          "さんようじょがくえんまえ",
+          "Sanyo Woman's College"
+        ],
+        "line": "HD2",
+        "order": 29
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.336719,
+          34.357045
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Hiroden-hatsukaichi (広電廿日市)",
+        "alternate_names": [
+          "広電廿日市",
+          "ひろでんはつかいち",
+          "Hiroden-hatsukaichi"
+        ],
+        "line": "HD2",
+        "order": 30
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.329481,
+          34.352517
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Hatsukaichi-shiyakusho-mae (廿日市市役所前)",
+        "alternate_names": [
+          "Hera",
+          "廿日市市役所前",
+          "はつかいちしやくしょまえ",
+          "Hatsukaichi-shiyakusho-mae"
+        ],
+        "line": "HD2",
+        "order": 31
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.32508,
+          34.347296
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Miyauchi (宮内)",
+        "alternate_names": [
+          "宮内",
+          "みやうち",
+          "Miyauchi"
+        ],
+        "line": "HD2",
+        "order": 32
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.322489,
+          34.343958
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "JA Hiroshimabyoin-mae (JA 広島病院前)",
+        "alternate_names": [
+          "JA 広島病院前",
+          "じぇいえーひろしまびょういんまえ",
+          "JA Hiroshimabyoin-mae"
+        ],
+        "line": "HD2",
+        "order": 33
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.319653,
+          34.33984
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Jigozen (地御前)",
+        "alternate_names": [
+          "地御前",
+          "じごぜん",
+          "Jigozen"
+        ],
+        "line": "HD2",
+        "order": 34
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.31858,
+          34.326824
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Ajina-higashi (阿品東)",
+        "alternate_names": [
+          "阿品東",
+          "あじなひがし",
+          "Ajina-higashi"
+        ],
+        "line": "HD2",
+        "order": 35
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.314849,
+          34.321921
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Hiroden-ajina (広電阿品)",
+        "alternate_names": [
+          "広電阿品",
+          "ひろでんあじな",
+          "Hiroden-ajina"
+        ],
+        "line": "HD2",
+        "order": 36
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.304973,
+          34.31435
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "宮島ボートレース場",
+        "alternate_names": [
+          "みやじまぼーとれーすじょう"
+        ],
+        "line": "HD2",
+        "order": 37
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.304941,
+          34.311779
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Hiroden-Miyajima-guchi (広電宮島口)",
+        "alternate_names": [
+          "広電宮島口",
+          "ひろでんみやじまぐち",
+          "Hiroden-Miyajima-guchi"
+        ],
+        "line": "HD2",
+        "order": 38
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458109,
+          34.377448
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Hiroden-honsha-mae (広電本社前)",
+        "alternate_names": [
+          "広電本社前",
+          "Hiroden-honsha-mae"
+        ],
+        "line": "HD3",
+        "order": 0
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455802,
+          34.380951
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Nisseki-byoin-mae (日赤病院前)",
+        "alternate_names": [
+          "日赤病院前",
+          "Nisseki-byoin-mae"
+        ],
+        "line": "HD3",
+        "order": 1
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454533,
+          34.382695
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Takano-bashi (鷹野橋)",
+        "alternate_names": [
+          "鷹野橋",
+          "Takano-bashi"
+        ],
+        "line": "HD3",
+        "order": 2
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454578,
+          34.386369
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Shiyakusho-mae (市役所前)",
+        "alternate_names": [
+          "市役所前",
+          "Shiyakusho-mae"
+        ],
+        "line": "HD3",
+        "order": 3
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455362,
+          34.38862
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Chuden-mae (中電前)",
+        "alternate_names": [
+          "中電前",
+          "Chuden-mae"
+        ],
+        "line": "HD3",
+        "order": 4
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456253,
+          34.391248
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Fukuro-machi (袋町)",
+        "alternate_names": [
+          "袋町",
+          "Fukuro-machi"
+        ],
+        "line": "HD3",
+        "order": 5
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456985,
+          34.393429
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Hondōri (本通)",
+        "alternate_names": [
+          "Peace Memorial Park",
+          "Hondori",
+          "本通",
+          "Hondōri"
+        ],
+        "line": "HD3",
+        "order": 6
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456814,
+          34.395468
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Kamiya-cho-nishi (紙屋町西)",
+        "alternate_names": [
+          "紙屋町西",
+          "Kamiya-cho-nishi"
+        ],
+        "line": "HD3",
+        "order": 7
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454115,
+          34.396099
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Genbaku Dome-mae (原爆ドーム前)",
+        "alternate_names": [
+          "原爆ドーム前",
+          "げんばくドームまえ",
+          "Genbaku Dome-mae"
+        ],
+        "line": "HD3",
+        "order": 8
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.450427,
+          34.396863
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Honkawa-cho (本川町)",
+        "alternate_names": [
+          "本川町",
+          "Honkawa-cho"
+        ],
+        "line": "HD3",
+        "order": 9
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446899,
+          34.396933
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Tokaichi-machi (十日市町)",
+        "alternate_names": [
+          "十日市町",
+          "Tokaichi-machi"
+        ],
+        "line": "HD3",
+        "order": 10
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446355,
+          34.394489
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Dobashi (土橋)",
+        "alternate_names": [
+          "土橋",
+          "Dobashi"
+        ],
+        "line": "HD3",
+        "order": 11
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.444321,
+          34.39447
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Koami-cho (小網町)",
+        "alternate_names": [
+          "小網町",
+          "Koami-cho"
+        ],
+        "line": "HD3",
+        "order": 12
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.440867,
+          34.395099
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Temma-cho (天満町)",
+        "alternate_names": [
+          "天満町",
+          "Temma-cho"
+        ],
+        "line": "HD3",
+        "order": 13
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.438533,
+          34.395501
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Kan-on-machi (観音町)",
+        "alternate_names": [
+          "観音町",
+          "Kan-on-machi"
+        ],
+        "line": "HD3",
+        "order": 14
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.436695,
+          34.394008
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Nishi-kan-on-machi (西観音町)",
+        "alternate_names": [
+          "西観音町",
+          "Nishi-kan-on-machi"
+        ],
+        "line": "HD3",
+        "order": 15
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.433967,
+          34.394899
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Fukushima-cho (福島町)",
+        "alternate_names": [
+          "福島町",
+          "Fukushima-cho"
+        ],
+        "line": "HD3",
+        "order": 16
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.427812,
+          34.396752
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Hiroden Nishi-Hiroshima (広電西広島)",
+        "alternate_names": [
+          "広電西広島",
+          "Hiroden Nishi-Hiroshima"
+        ],
+        "line": "HD3",
+        "order": 17
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.475214,
+          34.396769
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Hiroshima (広島)",
+        "alternate_names": [
+          "広島",
+          "Hiroshima"
+        ],
+        "line": "HD5",
+        "order": 0
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.472197,
+          34.393155
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Inari-machi (稲荷町)",
+        "alternate_names": [
+          "稲荷町",
+          "Inari-machi"
+        ],
+        "line": "HD5",
+        "order": 1
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.471298,
+          34.390237
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Matsukawa-cho (松川町)",
+        "alternate_names": [
+          "松川町",
+          "Matsukawa-cho"
+        ],
+        "line": "HD5",
+        "order": 2
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.47099,
+          34.386841
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Hijiyama-shita (比治山下)",
+        "alternate_names": [
+          "比治山下",
+          "Hijiyama-shita"
+        ],
+        "line": "HD5",
+        "order": 3
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.468621,
+          34.383193
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Hijiyama-bashi (比治山橋)",
+        "alternate_names": [
+          "比治山橋",
+          "Hijiyama-bashi"
+        ],
+        "line": "HD5",
+        "order": 4
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.467109,
+          34.380467
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Minami-kuyakusho-mae (南区役所前)",
+        "alternate_names": [
+          "南区役所前",
+          "Minami-kuyakusho-mae"
+        ],
+        "line": "HD5",
+        "order": 5
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465958,
+          34.377368
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Minami-machi 2-chome (皆実町2丁目)",
+        "alternate_names": [
+          "皆実町2丁目",
+          "Minami-machi 2-chome"
+        ],
+        "line": "HD5",
+        "order": 6
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464683,
+          34.374364
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Minami-machi 6-chome (皆実町6丁目)",
+        "alternate_names": [
+          "皆実町6丁目",
+          "Minami-machi 6-chome"
+        ],
+        "line": "HD5",
+        "order": 7
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464612,
+          34.371457
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Hirodaifuzokugakkou-mae (広大附属学校前)",
+        "alternate_names": [
+          "広大附属学校前",
+          "Hirodaifuzokugakkou-mae"
+        ],
+        "line": "HD5",
+        "order": 8
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464798,
+          34.36954
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Kenbyoin-mae (県病院前)",
+        "alternate_names": [
+          "県病院前",
+          "Kenbyoin-mae"
+        ],
+        "line": "HD5",
+        "order": 9
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464555,
+          34.366379
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Ujina 2-chome (宇品2丁目)",
+        "alternate_names": [
+          "宇品2丁目",
+          "Ujina 2-chome"
+        ],
+        "line": "HD5",
+        "order": 10
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464367,
+          34.364314
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Ujina 3-chome (宇品3丁目)",
+        "alternate_names": [
+          "宇品3丁目",
+          "Ujina 3-chome"
+        ],
+        "line": "HD5",
+        "order": 11
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464058,
+          34.360824
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Ujina 4-chome (宇品4丁目)",
+        "alternate_names": [
+          "宇品4丁目",
+          "Ujina 4-chome"
+        ],
+        "line": "HD5",
+        "order": 12
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463832,
+          34.358299
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Ujina 5-chome (宇品5丁目)",
+        "alternate_names": [
+          "宇品5丁目",
+          "Ujina 5-chome"
+        ],
+        "line": "HD5",
+        "order": 13
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463021,
+          34.355244
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Kaigan-dori (海岸通)",
+        "alternate_names": [
+          "海岸通",
+          "Kaigan-dori"
+        ],
+        "line": "HD5",
+        "order": 14
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460362,
+          34.353924
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Motoujina-guchi (元宇品口)",
+        "alternate_names": [
+          "元宇品口",
+          "Motoujina-guchi"
+        ],
+        "line": "HD5",
+        "order": 15
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455129,
+          34.352724
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Hiroshima Port (広島港)",
+        "alternate_names": [
+          "広島港",
+          "Hiroshima Port"
+        ],
+        "line": "HD5",
+        "order": 16
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.475082,
+          34.39677
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Hiroshima (広島)",
+        "alternate_names": [
+          "広島",
+          "Hiroshima"
+        ],
+        "line": "HD6",
+        "order": 0
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.472197,
+          34.393155
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Inari-machi (稲荷町)",
+        "alternate_names": [
+          "稲荷町",
+          "Inari-machi"
+        ],
+        "line": "HD6",
+        "order": 1
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.466924,
+          34.393204
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Kanayama-cho (銀山町)",
+        "alternate_names": [
+          "銀山町",
+          "Kanayama-cho"
+        ],
+        "line": "HD6",
+        "order": 2
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465117,
+          34.393377
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Ebisu-cho (胡町)",
+        "alternate_names": [
+          "胡町",
+          "Ebisu-cho"
+        ],
+        "line": "HD6",
+        "order": 3
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463968,
+          34.393659
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Hatchobori (八丁堀)",
+        "alternate_names": [
+          "八丁堀",
+          "Hatchobori"
+        ],
+        "line": "HD6",
+        "order": 4
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460935,
+          34.39444
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Tate-machi (立町)",
+        "alternate_names": [
+          "立町",
+          "Tate-machi"
+        ],
+        "line": "HD6",
+        "order": 5
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458596,
+          34.395032
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Kamiya-cho-higashi (紙屋町東)",
+        "alternate_names": [
+          "紙屋町東",
+          "Kamiya-cho-higashi"
+        ],
+        "line": "HD6",
+        "order": 6
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456814,
+          34.395468
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Kamiya-cho-nishi (紙屋町西)",
+        "alternate_names": [
+          "紙屋町西",
+          "Kamiya-cho-nishi"
+        ],
+        "line": "HD6",
+        "order": 7
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454115,
+          34.396099
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Genbaku Dome-mae (原爆ドーム前)",
+        "alternate_names": [
+          "原爆ドーム前",
+          "げんばくドームまえ",
+          "Genbaku Dome-mae"
+        ],
+        "line": "HD6",
+        "order": 8
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.450427,
+          34.396863
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Honkawa-cho (本川町)",
+        "alternate_names": [
+          "本川町",
+          "Honkawa-cho"
+        ],
+        "line": "HD6",
+        "order": 9
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446899,
+          34.396933
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Tokaichi-machi (十日市町)",
+        "alternate_names": [
+          "十日市町",
+          "Tokaichi-machi"
+        ],
+        "line": "HD6",
+        "order": 10
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446355,
+          34.394489
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Dobashi (土橋)",
+        "alternate_names": [
+          "土橋",
+          "Dobashi"
+        ],
+        "line": "HD6",
+        "order": 11
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.444794,
+          34.388938
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Funairi-machi (舟入町)",
+        "alternate_names": [
+          "舟入町",
+          "Funairi-machi"
+        ],
+        "line": "HD6",
+        "order": 12
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.442527,
+          34.385322
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Funairi-hon-machi (舟入本町)",
+        "alternate_names": [
+          "舟入本町",
+          "Funairi-hon-machi"
+        ],
+        "line": "HD6",
+        "order": 13
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.441045,
+          34.382922
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Funairi-saiwai-cho (舟入幸町)",
+        "alternate_names": [
+          "舟入幸町",
+          "Funairi-saiwai-cho"
+        ],
+        "line": "HD6",
+        "order": 14
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.439643,
+          34.380475
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Funairi-kawaguchi-cho (舟入川口町)",
+        "alternate_names": [
+          "舟入川口町",
+          "Funairi-kawaguchi-cho"
+        ],
+        "line": "HD6",
+        "order": 15
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.437259,
+          34.3751
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Funairi-minami (舟入南)",
+        "alternate_names": [
+          "舟入南",
+          "Funairi-minami"
+        ],
+        "line": "HD6",
+        "order": 16
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.43587,
+          34.372365
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Eba (江波)",
+        "alternate_names": [
+          "江波",
+          "Eba"
+        ],
+        "line": "HD6",
+        "order": 17
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45055,
+          34.40949
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Yokogawa (横川)",
+        "alternate_names": [
+          "横川",
+          "Yokogawa"
+        ],
+        "line": "HD7",
+        "order": 0
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.450018,
+          34.407434
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Yokogawa 1-chome (横川1丁目)",
+        "alternate_names": [
+          "横川1丁目",
+          "Yokogawa 1-chome"
+        ],
+        "line": "HD7",
+        "order": 1
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.449357,
+          34.404473
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Betsuin-mae (別院前)",
+        "alternate_names": [
+          "別院前",
+          "Betsuin-mae"
+        ],
+        "line": "HD7",
+        "order": 2
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.448095,
+          34.400775
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Tera-machi (寺町)",
+        "alternate_names": [
+          "寺町",
+          "Tera-machi"
+        ],
+        "line": "HD7",
+        "order": 3
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.447646,
+          34.397327
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Tokaichi-machi (十日市町)",
+        "alternate_names": [
+          "十日市町",
+          "Tokaichi-machi"
+        ],
+        "line": "HD7",
+        "order": 4
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.450561,
+          34.396868
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Honkawa-cho (本川町)",
+        "alternate_names": [
+          "本川町",
+          "Honkawa-cho"
+        ],
+        "line": "HD7",
+        "order": 5
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454117,
+          34.396126
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Genbaku Dome-mae (原爆ドーム前)",
+        "alternate_names": [
+          "原爆ドーム前",
+          "げんばくドームまえ",
+          "Genbaku Dome-mae"
+        ],
+        "line": "HD7",
+        "order": 6
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456828,
+          34.395495
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Kamiya-cho-nishi (紙屋町西)",
+        "alternate_names": [
+          "紙屋町西",
+          "Kamiya-cho-nishi"
+        ],
+        "line": "HD7",
+        "order": 7
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45716,
+          34.393841
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Hondōri (本通)",
+        "alternate_names": [
+          "Peace Memorial Park",
+          "Hondori",
+          "本通",
+          "Hondōri"
+        ],
+        "line": "HD7",
+        "order": 8
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.456386,
+          34.391549
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Fukuro-machi (袋町)",
+        "alternate_names": [
+          "袋町",
+          "Fukuro-machi"
+        ],
+        "line": "HD7",
+        "order": 9
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455338,
+          34.388471
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Chuden-mae (中電前)",
+        "alternate_names": [
+          "中電前",
+          "Chuden-mae"
+        ],
+        "line": "HD7",
+        "order": 10
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454426,
+          34.385819
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Shiyakusho-mae (市役所前)",
+        "alternate_names": [
+          "市役所前",
+          "Shiyakusho-mae"
+        ],
+        "line": "HD7",
+        "order": 11
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.454266,
+          34.383118
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Takano-bashi (鷹野橋)",
+        "alternate_names": [
+          "鷹野橋",
+          "Takano-bashi"
+        ],
+        "line": "HD7",
+        "order": 12
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455888,
+          34.380876
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Nisseki-byoin-mae (日赤病院前)",
+        "alternate_names": [
+          "日赤病院前",
+          "Nisseki-byoin-mae"
+        ],
+        "line": "HD7",
+        "order": 13
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.458137,
+          34.377459
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Hiroden-honsha-mae (広電本社前)",
+        "alternate_names": [
+          "広電本社前",
+          "Hiroden-honsha-mae"
+        ],
+        "line": "HD7",
+        "order": 14
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45937,
+          34.375748
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Miyuki-bashi (御幸橋)",
+        "alternate_names": [
+          "御幸橋",
+          "Miyuki-bashi"
+        ],
+        "line": "HD7",
+        "order": 15
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464168,
+          34.374159
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Minami-machi 6-chome (皆実町6丁目)",
+        "alternate_names": [
+          "皆実町6丁目",
+          "Minami-machi 6-chome"
+        ],
+        "line": "HD7",
+        "order": 16
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464612,
+          34.371457
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Hirodaifuzokugakkou-mae (広大附属学校前)",
+        "alternate_names": [
+          "広大附属学校前",
+          "Hirodaifuzokugakkou-mae"
+        ],
+        "line": "HD7",
+        "order": 17
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464798,
+          34.36954
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Kenbyoin-mae (県病院前)",
+        "alternate_names": [
+          "県病院前",
+          "Kenbyoin-mae"
+        ],
+        "line": "HD7",
+        "order": 18
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464555,
+          34.366379
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Ujina 2-chome (宇品2丁目)",
+        "alternate_names": [
+          "宇品2丁目",
+          "Ujina 2-chome"
+        ],
+        "line": "HD7",
+        "order": 19
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464367,
+          34.364314
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Ujina 3-chome (宇品3丁目)",
+        "alternate_names": [
+          "宇品3丁目",
+          "Ujina 3-chome"
+        ],
+        "line": "HD7",
+        "order": 20
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.464058,
+          34.360824
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Ujina 4-chome (宇品4丁目)",
+        "alternate_names": [
+          "宇品4丁目",
+          "Ujina 4-chome"
+        ],
+        "line": "HD7",
+        "order": 21
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463832,
+          34.358299
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Ujina 5-chome (宇品5丁目)",
+        "alternate_names": [
+          "宇品5丁目",
+          "Ujina 5-chome"
+        ],
+        "line": "HD7",
+        "order": 22
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463021,
+          34.355244
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Kaigan-dori (海岸通)",
+        "alternate_names": [
+          "海岸通",
+          "Kaigan-dori"
+        ],
+        "line": "HD7",
+        "order": 23
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.460362,
+          34.353924
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Motoujina-guchi (元宇品口)",
+        "alternate_names": [
+          "元宇品口",
+          "Motoujina-guchi"
+        ],
+        "line": "HD7",
+        "order": 24
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455129,
+          34.352724
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Hiroshima Port (広島港)",
+        "alternate_names": [
+          "広島港",
+          "Hiroshima Port"
+        ],
+        "line": "HD7",
+        "order": 25
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45055,
+          34.40949
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Yokogawa (横川)",
+        "alternate_names": [
+          "横川",
+          "Yokogawa"
+        ],
+        "line": "HD8",
+        "order": 0
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.450018,
+          34.407434
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Yokogawa 1-chome (横川1丁目)",
+        "alternate_names": [
+          "横川1丁目",
+          "Yokogawa 1-chome"
+        ],
+        "line": "HD8",
+        "order": 1
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.449357,
+          34.404473
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "Betsuin-mae (別院前)",
+        "alternate_names": [
+          "別院前",
+          "Betsuin-mae"
+        ],
+        "line": "HD8",
+        "order": 2
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.448095,
+          34.400775
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Tera-machi (寺町)",
+        "alternate_names": [
+          "寺町",
+          "Tera-machi"
+        ],
+        "line": "HD8",
+        "order": 3
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446899,
+          34.396933
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Tokaichi-machi (十日市町)",
+        "alternate_names": [
+          "十日市町",
+          "Tokaichi-machi"
+        ],
+        "line": "HD8",
+        "order": 4
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.446355,
+          34.394489
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Dobashi (土橋)",
+        "alternate_names": [
+          "土橋",
+          "Dobashi"
+        ],
+        "line": "HD8",
+        "order": 5
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.444794,
+          34.388938
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Funairi-machi (舟入町)",
+        "alternate_names": [
+          "舟入町",
+          "Funairi-machi"
+        ],
+        "line": "HD8",
+        "order": 6
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.442527,
+          34.385322
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Funairi-hon-machi (舟入本町)",
+        "alternate_names": [
+          "舟入本町",
+          "Funairi-hon-machi"
+        ],
+        "line": "HD8",
+        "order": 7
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.441045,
+          34.382922
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Funairi-saiwai-cho (舟入幸町)",
+        "alternate_names": [
+          "舟入幸町",
+          "Funairi-saiwai-cho"
+        ],
+        "line": "HD8",
+        "order": 8
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.439643,
+          34.380475
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Funairi-kawaguchi-cho (舟入川口町)",
+        "alternate_names": [
+          "舟入川口町",
+          "Funairi-kawaguchi-cho"
+        ],
+        "line": "HD8",
+        "order": 9
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.437259,
+          34.3751
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Funairi-minami (舟入南)",
+        "alternate_names": [
+          "舟入南",
+          "Funairi-minami"
+        ],
+        "line": "HD8",
+        "order": 10
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.43587,
+          34.372365
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Eba (江波)",
+        "alternate_names": [
+          "江波",
+          "Eba"
+        ],
+        "line": "HD8",
+        "order": 11
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465584,
+          34.404213
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Hakushima (白島)",
+        "alternate_names": [
+          "白島",
+          "Hakushima"
+        ],
+        "line": "HD9",
+        "order": 0
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.466034,
+          34.402067
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Katei Saibansho-mae (家庭裁判所前)",
+        "alternate_names": [
+          "家庭裁判所前",
+          "Katei Saibansho-mae"
+        ],
+        "line": "HD9",
+        "order": 1
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.465458,
+          34.400093
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Shukkeien-mae (縮景園前)",
+        "alternate_names": [
+          "縮景園前",
+          "Shukkeien-mae"
+        ],
+        "line": "HD9",
+        "order": 2
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.46468,
+          34.397558
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Jogakuin-mae (女学院前)",
+        "alternate_names": [
+          "女学院前",
+          "Jogakuin-mae"
+        ],
+        "line": "HD9",
+        "order": 3
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.463643,
+          34.394153
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Hatchobori (八丁堀)",
+        "alternate_names": [
+          "八丁堀",
+          "Hatchobori"
+        ],
+        "line": "HD9",
+        "order": 4
+      },
+      "id": 181
+    }
+  ]
+}

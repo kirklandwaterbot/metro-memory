@@ -3,18 +3,34 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.707793, 41.865619] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70775,
+          41.865698
+        ]
+      },
       "properties": {
         "name": "Monte Compatri - Pantano",
         "line": "Metro C",
         "id": 0,
-        "alternate_names": ["Monte Compatri Pantano", "Pantano", "Monte Compatri-Pantano"]
+        "alternate_names": [
+          "Monte Compatri Pantano",
+          "Pantano",
+          "Monte Compatri-Pantano"
+        ]
       },
       "id": 0
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.698219, 41.865674] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.698219,
+          41.865674
+        ]
+      },
       "properties": {
         "name": "Graniti",
         "line": "Metro C",
@@ -25,18 +41,34 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.687791, 41.865487] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.687791,
+          41.865487
+        ]
+      },
       "properties": {
         "name": "Finocchio",
         "line": "Metro C",
         "id": 2,
-        "alternate_names": ["Finocchio-Antica città di Gabii", "Finocchio Antica città di Gabii","Finocchio - Antica città di Gabii"]
+        "alternate_names": [
+          "Finocchio-Antica città di Gabii",
+          "Finocchio Antica città di Gabii",
+          "Finocchio - Antica città di Gabii"
+        ]
       },
       "id": 2
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.680795, 41.865115] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.680795,
+          41.865115
+        ]
+      },
       "properties": {
         "name": "Bolognetta",
         "line": "Metro C",
@@ -47,7 +79,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.667131, 41.864700] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.667131,
+          41.8647
+        ]
+      },
       "properties": {
         "name": "Borghesiana",
         "line": "Metro C",
@@ -58,18 +96,32 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.658175, 41.864892] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.658175,
+          41.864892
+        ]
+      },
       "properties": {
         "name": "Due Leoni - Fontana Candida",
         "line": "Metro C",
         "id": 5,
-        "alternate_names": ["Due Leoni Fontana Candida"]
+        "alternate_names": [
+          "Due Leoni Fontana Candida"
+        ]
       },
       "id": 5
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.645937, 41.862937] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.645937,
+          41.862937
+        ]
+      },
       "properties": {
         "name": "Grotte Celoni",
         "line": "Metro C",
@@ -80,7 +132,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.635660, 41.864157] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.63566,
+          41.864157
+        ]
+      },
       "properties": {
         "name": "Torre Gaia",
         "line": "Metro C",
@@ -91,7 +149,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.625602, 41.864330] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.625602,
+          41.86433
+        ]
+      },
       "properties": {
         "name": "Torre Angela",
         "line": "Metro C",
@@ -102,18 +166,32 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.616979, 41.863332] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.616979,
+          41.863332
+        ]
+      },
       "properties": {
         "name": "Torrenova",
         "line": "Metro C",
         "id": 9,
-        "alternate_names": ["Torre Nova"]
+        "alternate_names": [
+          "Torre Nova"
+        ]
       },
       "id": 9
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.610334, 41.864179] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.610334,
+          41.864179
+        ]
+      },
       "properties": {
         "name": "Giardinetti",
         "line": "Metro C",
@@ -124,7 +202,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.597019, 41.866779] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.597019,
+          41.866779
+        ]
+      },
       "properties": {
         "name": "Torre Maura",
         "line": "Metro C",
@@ -135,7 +219,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.587147, 41.868955] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.587147,
+          41.868955
+        ]
+      },
       "properties": {
         "name": "Torre Spaccata",
         "line": "Metro C",
@@ -146,7 +236,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.578158, 41.871248] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.578151,
+          41.871235
+        ]
+      },
       "properties": {
         "name": "Alessandrino",
         "line": "Metro C",
@@ -157,7 +253,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.568317, 41.874785] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.568317,
+          41.874785
+        ]
+      },
       "properties": {
         "name": "Parco di Centocelle",
         "line": "Metro C",
@@ -168,7 +270,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.566559, 41.881250] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.566559,
+          41.88125
+        ]
+      },
       "properties": {
         "name": "Mirti",
         "line": "Metro C",
@@ -179,7 +287,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.561667, 41.886295] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.561667,
+          41.886295
+        ]
+      },
       "properties": {
         "name": "Gardenie",
         "line": "Metro C",
@@ -190,7 +304,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.551273, 41.889336] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.551273,
+          41.889336
+        ]
+      },
       "properties": {
         "name": "Teano",
         "line": "Metro C",
@@ -201,7 +321,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.540149, 41.887278] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.540149,
+          41.887278
+        ]
+      },
       "properties": {
         "name": "Malatesta",
         "line": "Metro C",
@@ -212,7 +338,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.528231, 41.888491] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.528231,
+          41.888491
+        ]
+      },
       "properties": {
         "name": "Pigneto",
         "line": "Metro C",
@@ -223,7 +355,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.518180, 41.886865] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51818,
+          41.886865
+        ]
+      },
       "properties": {
         "name": "Lodi",
         "line": "Metro C",
@@ -234,7 +372,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.509890, 41.885519] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.50989,
+          41.885519
+        ]
+      },
       "properties": {
         "name": "San Giovanni",
         "line": "Metro C",
@@ -246,7 +390,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.503396, 41.882707] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.503396,
+          41.882707
+        ]
+      },
       "properties": {
         "name": "Porta Metronia",
         "line": "Metro C",
@@ -257,19 +407,36 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.490538, 41.891559] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.490538,
+          41.891559
+        ]
+      },
       "properties": {
         "name": "Colosseo - Fori Imperiali",
         "line": "Metro C",
         "id": 23,
         "cluster_key": "Colosseo",
-        "alternate_names": ["Colosseo", "Colosseo Fori Imperiali","Colosseo Fori","Colosseo-Fori Imperiali"]
+        "alternate_names": [
+          "Colosseo",
+          "Colosseo Fori Imperiali",
+          "Colosseo Fori",
+          "Colosseo-Fori Imperiali"
+        ]
       },
       "id": 23
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.586343, 41.842667] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.586343,
+          41.842667
+        ]
+      },
       "properties": {
         "name": "Anagnina",
         "line": "Metro A",
@@ -280,18 +447,32 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.574051, 41.849515] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.574051,
+          41.849515
+        ]
+      },
       "properties": {
         "name": "Cinecittà",
         "line": "Metro A",
         "id": 25,
-        "alternate_names": ["Cinecitta"]
+        "alternate_names": [
+          "Cinecitta"
+        ]
       },
       "id": 25
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.567711, 41.853821] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.567711,
+          41.853821
+        ]
+      },
       "properties": {
         "name": "Subaugusta",
         "line": "Metro A",
@@ -302,7 +483,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.562625, 41.856624] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.562625,
+          41.856624
+        ]
+      },
       "properties": {
         "name": "Giulio Agricola",
         "line": "Metro A",
@@ -313,7 +500,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.557150, 41.859757] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.55715,
+          41.859757
+        ]
+      },
       "properties": {
         "name": "Lucio Sestio",
         "line": "Metro A",
@@ -324,7 +517,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.552697, 41.862020] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.552697,
+          41.86202
+        ]
+      },
       "properties": {
         "name": "Numidio Quadrato",
         "line": "Metro A",
@@ -335,7 +534,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.548121, 41.863824] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.548121,
+          41.863824
+        ]
+      },
       "properties": {
         "name": "Porta Furba",
         "line": "Metro A",
@@ -346,7 +551,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.535066, 41.866469] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.535066,
+          41.866469
+        ]
+      },
       "properties": {
         "name": "Arco di Travertino",
         "line": "Metro A",
@@ -357,7 +568,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.529459, 41.869737] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.529459,
+          41.869737
+        ]
+      },
       "properties": {
         "name": "Colli Albani",
         "line": "Metro A",
@@ -368,7 +585,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.522777, 41.874763] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.522777,
+          41.874763
+        ]
+      },
       "properties": {
         "name": "Furio Camillo",
         "line": "Metro A",
@@ -379,7 +602,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.519040, 41.877791] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51904,
+          41.877791
+        ]
+      },
       "properties": {
         "name": "Ponte Lungo",
         "line": "Metro A",
@@ -390,7 +619,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.513594, 41.882355] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.513594,
+          41.882355
+        ]
+      },
       "properties": {
         "name": "Re di Roma",
         "line": "Metro A",
@@ -401,7 +636,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.509890, 41.885519] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.509843,
+          41.885488
+        ]
+      },
       "properties": {
         "name": "San Giovanni",
         "line": "Metro A",
@@ -413,7 +654,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.506562, 41.890336] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.506562,
+          41.890336
+        ]
+      },
       "properties": {
         "name": "Manzoni",
         "line": "Metro A",
@@ -424,7 +671,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.504360, 41.894514] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.50436,
+          41.894514
+        ]
+      },
       "properties": {
         "name": "Vittorio Emanuele",
         "line": "Metro A",
@@ -435,7 +688,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.500129, 41.900831] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.500129,
+          41.900831
+        ]
+      },
       "properties": {
         "name": "Termini",
         "line": "Metro A",
@@ -447,7 +706,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.495984, 41.902707] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.495984,
+          41.902707
+        ]
+      },
       "properties": {
         "name": "Repubblica",
         "line": "Metro A",
@@ -458,7 +723,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.488521, 41.903899] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.488521,
+          41.903899
+        ]
+      },
       "properties": {
         "name": "Barberini",
         "line": "Metro A",
@@ -469,7 +740,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.483732, 41.906744] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483732,
+          41.906744
+        ]
+      },
       "properties": {
         "name": "Spagna",
         "line": "Metro A",
@@ -480,7 +757,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.476326, 41.912773] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476326,
+          41.912773
+        ]
+      },
       "properties": {
         "name": "Flaminio",
         "line": "Metro A",
@@ -492,7 +775,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.466265, 41.911431] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466265,
+          41.911431
+        ]
+      },
       "properties": {
         "name": "Lepanto",
         "line": "Metro A",
@@ -503,7 +792,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.458118, 41.909465] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.458118,
+          41.909465
+        ]
+      },
       "properties": {
         "name": "Ottaviano",
         "line": "Metro A",
@@ -514,7 +809,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.447212, 41.907481] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.447212,
+          41.907481
+        ]
+      },
       "properties": {
         "name": "Cipro",
         "line": "Metro A",
@@ -525,7 +826,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.441990, 41.903116] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.44199,
+          41.903116
+        ]
+      },
       "properties": {
         "name": "Valle Aurelia",
         "line": "Metro A",
@@ -536,7 +843,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.433397311036614, 41.89899114641169] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.433397311036614,
+          41.89899114641169
+        ]
+      },
       "properties": {
         "name": "Baldo degli Ubaldi",
         "line": "Metro A",
@@ -547,7 +860,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.426389, 41.900627] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.426389,
+          41.900627
+        ]
+      },
       "properties": {
         "name": "Cornelia",
         "line": "Metro A",
@@ -558,7 +877,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.415108, 41.905994] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.415108,
+          41.905994
+        ]
+      },
       "properties": {
         "name": "Battistini",
         "line": "Metro A",
@@ -569,127 +894,208 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.481039, 41.827073] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481039,
+          41.827073
+        ]
+      },
       "properties": {
         "name": "Laurentina",
         "line": "Metro B",
         "id": 52,
-        "cluster_key":"Laurentina",
+        "cluster_key": "Laurentina",
         "alternate_names": []
       },
       "id": 52
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.470949, 41.828729] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.470949,
+          41.828729
+        ]
+      },
       "properties": {
         "name": "EUR Fermi",
         "line": "Metro B",
         "id": 53,
-        "cluster_key":"EUR Fermi",
-        "alternate_names": ["Fermi"]
+        "cluster_key": "EUR Fermi",
+        "alternate_names": [
+          "Fermi"
+        ]
       },
       "id": 53
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.466303, 41.830171] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466303,
+          41.830171
+        ]
+      },
       "properties": {
         "name": "EUR Palasport",
         "line": "Metro B",
         "id": 54,
-        "cluster_key":"EUR Palasport",
-        "alternate_names": ["Palasport"]
+        "cluster_key": "EUR Palasport",
+        "alternate_names": [
+          "Palasport"
+        ]
       },
       "id": 54
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.463485, 41.839572] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.463485,
+          41.839572
+        ]
+      },
       "properties": {
         "name": "EUR Magliana",
         "line": "Metro B",
         "id": 55,
-        "cluster_key":"EUR Magliana",
-        "alternate_names": ["Magliana"]
+        "cluster_key": "EUR Magliana",
+        "alternate_names": [
+          "Magliana"
+        ]
       },
       "id": 55
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.475564, 41.849279] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.475564,
+          41.849279
+        ]
+      },
       "properties": {
         "name": "Marconi",
         "line": "Metro B",
         "id": 56,
-        "cluster_key":"Marconi",
+        "cluster_key": "Marconi",
         "alternate_names": []
       },
       "id": 56
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.478234, 41.855833] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478234,
+          41.855833
+        ]
+      },
       "properties": {
         "name": "Basilica San Paolo",
         "line": "Metro B",
         "id": 57,
-        "cluster_key":"Basilica San Paolo",
-        "alternate_names": ["San Paolo"]
+        "cluster_key": "Basilica San Paolo",
+        "alternate_names": [
+          "San Paolo"
+        ]
       },
       "id": 57
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.483130, 41.866508] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48313,
+          41.866508
+        ]
+      },
       "properties": {
         "name": "Garbatella",
         "line": "Metro B",
         "id": 58,
-        "cluster_key":"Garbatella",
+        "cluster_key": "Garbatella",
         "alternate_names": []
       },
       "id": 58
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.482234, 41.875607] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.482234,
+          41.875607
+        ]
+      },
       "properties": {
         "name": "Piramide",
         "line": "Metro B",
         "id": 59,
-        "cluster_key":"Piramide",
-        "alternate_names": ["Porta San Paolo"]
+        "cluster_key": "Piramide",
+        "alternate_names": [
+          "Porta San Paolo"
+        ]
       },
       "id": 59
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.487807, 41.883347] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.487807,
+          41.883347
+        ]
+      },
       "properties": {
         "name": "Circo Massimo",
         "line": "Metro B",
         "id": 60,
-        "cluster_key":"Circo Massimo",
+        "cluster_key": "Circo Massimo",
         "alternate_names": []
       },
       "id": 60
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.491444, 41.891397] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.491444,
+          41.891397
+        ]
+      },
       "properties": {
         "name": "Colosseo",
         "line": "Metro B",
         "id": 61,
         "cluster_key": "Colosseo",
-        "alternate_names": ["Colosseo - Fori Imperiali", "Colosseo Fori Imperiali","Colosseo Fori","Colosseo-Fori Imperiali"]
+        "alternate_names": [
+          "Colosseo - Fori Imperiali",
+          "Colosseo Fori Imperiali",
+          "Colosseo Fori",
+          "Colosseo-Fori Imperiali"
+        ]
       },
       "id": 61
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.493591, 41.894987] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.493591,
+          41.894987
+        ]
+      },
       "properties": {
         "name": "Cavour",
         "line": "Metro B",
@@ -701,7 +1107,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.500563, 41.901183] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.500563,
+          41.901183
+        ]
+      },
       "properties": {
         "name": "Termini",
         "line": "Metro B",
@@ -713,7 +1125,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.505496, 41.906155] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.505496,
+          41.906155
+        ]
+      },
       "properties": {
         "name": "Castro Pretorio",
         "line": "Metro B",
@@ -725,7 +1143,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.511971, 41.908728] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.511971,
+          41.908728
+        ]
+      },
       "properties": {
         "name": "Policlinico",
         "line": "Metro B",
@@ -737,7 +1161,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.520685, 41.913583] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.520685,
+          41.913583
+        ]
+      },
       "properties": {
         "name": "Bologna",
         "line": "Metro B",
@@ -749,18 +1179,32 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.531564, 41.910635] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.531564,
+          41.910635
+        ]
+      },
       "properties": {
         "name": "Tiburtina FS",
         "line": "Metro B",
         "id": 67,
-        "alternate_names": ["Tiburtina"]
+        "alternate_names": [
+          "Tiburtina"
+        ]
       },
       "id": 67
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.539320, 41.914822] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.53932,
+          41.914822
+        ]
+      },
       "properties": {
         "name": "Quintiliani",
         "line": "Metro B",
@@ -771,7 +1215,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.547816, 41.915904] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.547816,
+          41.915904
+        ]
+      },
       "properties": {
         "name": "Monti Tiburtini",
         "line": "Metro B",
@@ -782,7 +1232,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.554792, 41.914248] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.554792,
+          41.914248
+        ]
+      },
       "properties": {
         "name": "Pietralata",
         "line": "Metro B",
@@ -793,7 +1249,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.560696, 41.915537] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.560696,
+          41.915537
+        ]
+      },
       "properties": {
         "name": "Santa Maria del Soccorso",
         "line": "Metro B",
@@ -804,7 +1266,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.565167, 41.920894] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.565167,
+          41.920894
+        ]
+      },
       "properties": {
         "name": "Ponte Mammolo",
         "line": "Metro B",
@@ -815,7 +1283,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.572774, 41.925881] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.572774,
+          41.925881
+        ]
+      },
       "properties": {
         "name": "Rebibbia",
         "line": "Metro B",
@@ -826,127 +1300,208 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.481039, 41.827073] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481039,
+          41.827073
+        ]
+      },
       "properties": {
         "name": "Laurentina",
         "line": "Metro B1",
         "id": 74,
-        "cluster_key":"Laurentina",
+        "cluster_key": "Laurentina",
         "alternate_names": []
       },
       "id": 74
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.470949, 41.828729] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.470949,
+          41.828729
+        ]
+      },
       "properties": {
         "name": "EUR Fermi",
         "line": "Metro B1",
         "id": 75,
-        "cluster_key":"EUR Fermi",
-        "alternate_names": ["Fermi"]
+        "cluster_key": "EUR Fermi",
+        "alternate_names": [
+          "Fermi"
+        ]
       },
       "id": 75
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.466303, 41.830171] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466303,
+          41.830171
+        ]
+      },
       "properties": {
         "name": "EUR Palasport",
         "line": "Metro B1",
         "id": 76,
-        "cluster_key":"EUR Palasport",
-        "alternate_names": ["Palasport"]
+        "cluster_key": "EUR Palasport",
+        "alternate_names": [
+          "Palasport"
+        ]
       },
       "id": 76
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.463485, 41.839572] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.463485,
+          41.839572
+        ]
+      },
       "properties": {
         "name": "EUR Magliana",
         "line": "Metro B1",
         "id": 77,
-        "cluster_key":"EUR Magliana",
-        "alternate_names": ["Magliana"]
+        "cluster_key": "EUR Magliana",
+        "alternate_names": [
+          "Magliana"
+        ]
       },
       "id": 77
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.475564, 41.849279] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.475564,
+          41.849279
+        ]
+      },
       "properties": {
         "name": "Marconi",
         "line": "Metro B1",
         "id": 78,
-        "cluster_key":"Marconi",
+        "cluster_key": "Marconi",
         "alternate_names": []
       },
       "id": 78
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.478234, 41.855833] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478234,
+          41.855833
+        ]
+      },
       "properties": {
         "name": "Basilica San Paolo",
         "line": "Metro B1",
         "id": 79,
-        "cluster_key":"Basilica San Paolo",
-        "alternate_names": ["San Paolo"]
+        "cluster_key": "Basilica San Paolo",
+        "alternate_names": [
+          "San Paolo"
+        ]
       },
       "id": 79
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.483130, 41.866508] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48313,
+          41.866508
+        ]
+      },
       "properties": {
         "name": "Garbatella",
         "line": "Metro B1",
         "id": 80,
-        "cluster_key":"Garbatella",
+        "cluster_key": "Garbatella",
         "alternate_names": []
       },
       "id": 80
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.482234, 41.875607] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.482234,
+          41.875607
+        ]
+      },
       "properties": {
         "name": "Piramide",
         "line": "Metro B1",
         "id": 81,
-        "cluster_key":"Piramide",
-        "alternate_names": ["Porta San Paolo"]
+        "cluster_key": "Piramide",
+        "alternate_names": [
+          "Porta San Paolo"
+        ]
       },
       "id": 81
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.487807, 41.883347] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.487807,
+          41.883347
+        ]
+      },
       "properties": {
         "name": "Circo Massimo",
         "line": "Metro B1",
         "id": 82,
-        "cluster_key":"Circo Massimo",
+        "cluster_key": "Circo Massimo",
         "alternate_names": []
       },
       "id": 82
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.491444, 41.891397] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.491444,
+          41.891397
+        ]
+      },
       "properties": {
         "name": "Colosseo",
         "line": "Metro B1",
         "id": 83,
         "cluster_key": "Colosseo",
-        "alternate_names": ["Colosseo - Fori Imperiali", "Colosseo Fori Imperiali","Colosseo Fori","Colosseo-Fori Imperiali"]
+        "alternate_names": [
+          "Colosseo - Fori Imperiali",
+          "Colosseo Fori Imperiali",
+          "Colosseo Fori",
+          "Colosseo-Fori Imperiali"
+        ]
       },
       "id": 83
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.493591, 41.894987] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.493591,
+          41.894987
+        ]
+      },
       "properties": {
         "name": "Cavour",
         "line": "Metro B1",
@@ -958,7 +1513,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.500563, 41.901183] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.500563,
+          41.901183
+        ]
+      },
       "properties": {
         "name": "Termini",
         "line": "Metro B1",
@@ -970,7 +1531,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.505496, 41.906155] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.505496,
+          41.906155
+        ]
+      },
       "properties": {
         "name": "Castro Pretorio",
         "line": "Metro B1",
@@ -982,7 +1549,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.511971, 41.908728] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.511971,
+          41.908728
+        ]
+      },
       "properties": {
         "name": "Policlinico",
         "line": "Metro B1",
@@ -994,7 +1567,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.520685, 41.913583] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.520685,
+          41.913583
+        ]
+      },
       "properties": {
         "name": "Bologna",
         "line": "Metro B1",
@@ -1006,18 +1585,32 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.516249, 41.923630] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.516249,
+          41.92363
+        ]
+      },
       "properties": {
         "name": "Sant'Agnese Annibaliano",
         "line": "Metro B1",
         "id": 89,
-        "alternate_names": ["Sant Agnese Annibaliano"]
+        "alternate_names": [
+          "Sant Agnese Annibaliano"
+        ]
       },
       "id": 89
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.519404, 41.931814] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.519404,
+          41.931814
+        ]
+      },
       "properties": {
         "name": "Libia",
         "line": "Metro B1",
@@ -1028,29 +1621,51 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.527984, 41.939646] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.527984,
+          41.939646
+        ]
+      },
       "properties": {
         "name": "Conca d'Oro",
         "line": "Metro B",
         "id": 91,
-        "alternate_names": ["Conca d Oro"]
+        "alternate_names": [
+          "Conca d Oro"
+        ]
       },
       "id": 91
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.527781, 41.947242] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.527781,
+          41.947242
+        ]
+      },
       "properties": {
         "name": "Jonio",
         "line": "Metro B",
         "id": 92,
-        "alternate_names": ["Ionio"]
+        "alternate_names": [
+          "Ionio"
+        ]
       },
       "id": 92
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.476355, 41.912911] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476355,
+          41.912911
+        ]
+      },
       "properties": {
         "name": "Flaminio",
         "line": "Roma-Viterbo",
@@ -1062,7 +1677,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.481583, 41.926677] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481583,
+          41.926677
+        ]
+      },
       "properties": {
         "name": "Euclide",
         "line": "Roma-Viterbo",
@@ -1073,7 +1694,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.487267, 41.931601] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.487267,
+          41.931601
+        ]
+      },
       "properties": {
         "name": "Acqua Acetosa",
         "line": "Roma-Viterbo",
@@ -1084,7 +1711,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.492602, 41.933857] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.492602,
+          41.933857
+        ]
+      },
       "properties": {
         "name": "Campi Sportivi",
         "line": "Roma-Viterbo",
@@ -1095,7 +1728,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.496358, 41.939045] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.496358,
+          41.939045
+        ]
+      },
       "properties": {
         "name": "Monte Antenne",
         "line": "Roma-Viterbo",
@@ -1106,7 +1745,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.489776, 41.950474] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.489776,
+          41.950474
+        ]
+      },
       "properties": {
         "name": "Tor di Quinto",
         "line": "Roma-Viterbo",
@@ -1117,7 +1762,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.486713, 41.957977] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486713,
+          41.957977
+        ]
+      },
       "properties": {
         "name": "Due Ponti",
         "line": "Roma-Viterbo",
@@ -1128,7 +1779,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.490538, 41.965740] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.490538,
+          41.96574
+        ]
+      },
       "properties": {
         "name": "Grotta Rossa",
         "line": "Roma-Viterbo",
@@ -1139,7 +1796,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.493144, 41.974649] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.493144,
+          41.974649
+        ]
+      },
       "properties": {
         "name": "Saxa Rubra",
         "line": "Roma-Viterbo",
@@ -1150,7 +1813,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.493642, 41.980651] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.493642,
+          41.980651
+        ]
+      },
       "properties": {
         "name": "Centro RAI",
         "line": "Roma-Viterbo",
@@ -1161,7 +1830,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.494517, 41.988158] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.494517,
+          41.988158
+        ]
+      },
       "properties": {
         "name": "Labaro",
         "line": "Roma-Viterbo",
@@ -1172,7 +1847,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.496868, 41.996511] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.496868,
+          41.996511
+        ]
+      },
       "properties": {
         "name": "La Celsa",
         "line": "Roma-Viterbo",
@@ -1183,7 +1864,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.493982, 41.999841] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.493982,
+          41.999841
+        ]
+      },
       "properties": {
         "name": "Prima Porta",
         "line": "Roma-Viterbo",
@@ -1194,7 +1881,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.489477, 42.001392] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.489477,
+          42.001392
+        ]
+      },
       "properties": {
         "name": "Giustiniana",
         "line": "Roma-Viterbo",
@@ -1205,7 +1898,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.488955, 42.011036] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.488955,
+          42.011036
+        ]
+      },
       "properties": {
         "name": "Montebello",
         "line": "Roma-Viterbo",
@@ -1216,43 +1915,73 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.481657, 41.875394] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481657,
+          41.875394
+        ]
+      },
       "properties": {
         "name": "Porta San Paolo",
         "line": "Roma-Lido",
         "id": 108,
-        "cluster_key":"Piramide",
-        "alternate_names": ["Piramide"]
+        "cluster_key": "Piramide",
+        "alternate_names": [
+          "Piramide"
+        ]
       },
       "id": 108
     },
-{
+    {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.478039, 41.855849] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478039,
+          41.855849
+        ]
+      },
       "properties": {
         "name": "Basilica San Paolo",
         "line": "Roma-Lido",
         "id": 109,
-        "cluster_key":"Basilica San Paolo",
-        "alternate_names": ["San Paolo"]
+        "cluster_key": "Basilica San Paolo",
+        "alternate_names": [
+          "San Paolo"
+        ]
       },
       "id": 109
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.463415, 41.839605] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.46329,
+          41.839694
+        ]
+      },
       "properties": {
         "name": "EUR Magliana",
         "line": "Roma-Lido",
         "id": 110,
-        "cluster_key":"EUR Magliana",
-        "alternate_names": ["Magliana"]
+        "cluster_key": "EUR Magliana",
+        "alternate_names": [
+          "Magliana"
+        ]
       },
       "id": 110
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.436713, 41.819501] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.436713,
+          41.819501
+        ]
+      },
       "properties": {
         "name": "Tor di Valle",
         "line": "Roma-Lido",
@@ -1263,7 +1992,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.403892, 41.795320] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.403892,
+          41.79532
+        ]
+      },
       "properties": {
         "name": "Vitinia",
         "line": "Roma-Lido",
@@ -1274,18 +2009,35 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.377930, 41.789625] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37793,
+          41.789625
+        ]
+      },
       "properties": {
         "name": "Casal Bernocchi - Centro Giano",
         "line": "Roma-Lido",
         "id": 113,
-        "alternate_names": ["Casal Bernocchi","Bernocchi","Casal Bernocchi Centro Giano","Casal Bernocchi-Centro Giano"]
+        "alternate_names": [
+          "Casal Bernocchi",
+          "Bernocchi",
+          "Casal Bernocchi Centro Giano",
+          "Casal Bernocchi-Centro Giano"
+        ]
       },
       "id": 113
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.360841, 41.783560] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.360841,
+          41.78356
+        ]
+      },
       "properties": {
         "name": "Acilia",
         "line": "Roma-Lido",
@@ -1296,18 +2048,34 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.341773, 41.775984] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.341773,
+          41.775984
+        ]
+      },
       "properties": {
         "name": "Acilia Sud - Dragona",
         "line": "Roma-Lido",
         "id": 115,
-        "alternate_names": ["Acilia Sud","Acilia Sud-Dragona","Acilia Sud Dragona"]
+        "alternate_names": [
+          "Acilia Sud",
+          "Acilia Sud-Dragona",
+          "Acilia Sud Dragona"
+        ]
       },
       "id": 115
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.302137, 41.756325] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.302137,
+          41.756325
+        ]
+      },
       "properties": {
         "name": "Ostia Antica",
         "line": "Roma-Lido",
@@ -1318,56 +2086,96 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.284396, 41.740197] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.284396,
+          41.740197
+        ]
+      },
       "properties": {
         "name": "Lido di Ostia Nord",
         "line": "Roma-Lido",
         "id": 117,
-        "alternate_names": ["Lido Nord"]
+        "alternate_names": [
+          "Lido Nord"
+        ]
       },
       "id": 117
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.283868, 41.733410] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.283868,
+          41.73341
+        ]
+      },
       "properties": {
         "name": "Lido di Ostia Centro",
         "line": "Roma-Lido",
         "id": 118,
-        "alternate_names": ["Lido Centro"]
+        "alternate_names": [
+          "Lido Centro"
+        ]
       },
       "id": 118
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.295190, 41.727317] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.29519,
+          41.727317
+        ]
+      },
       "properties": {
         "name": "Stella Polare",
         "line": "Roma-Lido",
         "id": 119,
-        "alternate_names": ["Ostia Stella Polare"]
+        "alternate_names": [
+          "Ostia Stella Polare"
+        ]
       },
       "id": 119
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.308877, 41.720550] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.308877,
+          41.72055
+        ]
+      },
       "properties": {
         "name": "Castel Fusano",
         "line": "Roma-Lido",
         "id": 120,
-        "alternate_names": ["Castelfusano"]
+        "alternate_names": [
+          "Castelfusano"
+        ]
       },
       "id": 120
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.322004, 41.714459] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.322004,
+          41.714459
+        ]
+      },
       "properties": {
         "name": "Cristoforo Colombo",
         "line": "Roma-Lido",
         "id": 121,
-        "alternate_names": ["Colombo"]
+        "alternate_names": [
+          "Colombo"
+        ]
       },
       "id": 121
     }

@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.483277,
+          40.15077
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Garegin Nzhdeh Square",
+        "alternate_names": [
+          "Գարեգին Նժդեհի հրապարակ",
+          "Garegin Nzhdehi Hraparak",
+          "Площадь Гарегина Нжде",
+          "Ploshchad Garegina Nzhde"
+        ],
+        "line": "EVN1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.485851,
+          40.144916
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Shengavit",
+        "alternate_names": [
+          "Շենգավիթ",
+          "Шенгавит"
+        ],
+        "line": "EVN1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.498656,
+          40.14107
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Gortsaranayin",
+        "alternate_names": [
+          "Գործարանային",
+          "Горцаранаин",
+          "Gortsaranain"
+        ],
+        "line": "EVN1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.507154,
+          40.154604
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Sasuntsi David",
+        "alternate_names": [
+          "Սասունցի Դավիթ",
+          "Sasuntsi Davit",
+          "Сасунци Давид"
+        ],
+        "line": "EVN1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.512189,
+          40.171253
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "General Andranik",
+        "alternate_names": [
+          "Զորավար Անդրանիկ",
+          "Zoravar Andranik",
+          "Зоравар Андраник"
+        ],
+        "line": "EVN1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.515535,
+          40.177581
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Republic Square",
+        "alternate_names": [
+          "Հանրապետության Հրապարակ",
+          "Hanrapetutyan Hraparak",
+          "Площадь Республики",
+          "Ploshchad Respubliki"
+        ],
+        "line": "EVN1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.519885,
+          40.186213
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Yeritasardakan",
+        "alternate_names": [
+          "Երիտասարդական",
+          "Еритасардакан (Молодёжная)",
+          "Yeritasardakan (Molodyozhnaya)"
+        ],
+        "line": "EVN1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.507895,
+          40.191494
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Marshal Baghramyan",
+        "alternate_names": [
+          "Մարշալ Բաղրամյան",
+          "Маршал Баграмян",
+          "Marshal Bagramyan"
+        ],
+        "line": "EVN1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.495032,
+          40.19694
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Barekamutyun",
+        "alternate_names": [
+          "Բարեկամություն",
+          "Дружба",
+          "Druzhba"
+        ],
+        "line": "EVN1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.470778,
+          40.140732
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Charbakh",
+        "alternate_names": [
+          "Չարբախ",
+          "Чарбах"
+        ],
+        "line": "EVN1",
+        "order": 9
+      },
+      "id": 9
+    }
+  ]
+}

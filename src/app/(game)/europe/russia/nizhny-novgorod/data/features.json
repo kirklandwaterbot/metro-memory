@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.993924,
+          56.313795
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Gorkovskaya",
+        "alternate_names": [
+          "Горьковская"
+        ],
+        "line": "NN1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.947106,
+          56.320976
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Moskovskaya",
+        "alternate_names": [
+          "Московская"
+        ],
+        "line": "NN1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.937234,
+          56.31059
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Chkalovskaya",
+        "alternate_names": [
+          "Чкаловская"
+        ],
+        "line": "NN1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.938208,
+          56.299045
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Leninskaya",
+        "alternate_names": [
+          "Ленинская"
+        ],
+        "line": "NN1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.927859,
+          56.285128
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Zarechnaya",
+        "alternate_names": [
+          "Заречная"
+        ],
+        "line": "NN1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.921392,
+          56.276446
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Dvigatel Revolyutsii",
+        "alternate_names": [
+          "Двигатель Революции"
+        ],
+        "line": "NN1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.913377,
+          56.266433
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Proletarskaya",
+        "alternate_names": [
+          "Пролетарская"
+        ],
+        "line": "NN1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.901371,
+          56.257243
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Avtozavodskaya",
+        "alternate_names": [
+          "Автозаводская"
+        ],
+        "line": "NN1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.890096,
+          56.252854
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Komsomolskaya",
+        "alternate_names": [
+          "Комсомольская"
+        ],
+        "line": "NN1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.876964,
+          56.247706
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Kirovskaya",
+        "alternate_names": [
+          "Кировская"
+        ],
+        "line": "NN1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.858015,
+          56.242062
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Park Kultury",
+        "alternate_names": [
+          "Парк культуры"
+        ],
+        "line": "NN1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.894839,
+          56.333259
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Burevestnik",
+        "alternate_names": [
+          "Буревестник"
+        ],
+        "line": "NN2",
+        "order": 0
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.912096,
+          56.325774
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Burnakovskaya",
+        "alternate_names": [
+          "Бурнаковская"
+        ],
+        "line": "NN2",
+        "order": 1
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.926558,
+          56.320593
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Kanavinskaya",
+        "alternate_names": [
+          "Канавинская"
+        ],
+        "line": "NN2",
+        "order": 2
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.947106,
+          56.320976
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Moskovskaya",
+        "alternate_names": [
+          "Московская"
+        ],
+        "line": "NN2",
+        "order": 3
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.949591,
+          56.335258
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Strelka",
+        "alternate_names": [
+          "Стрелка"
+        ],
+        "line": "NN2",
+        "order": 4
+      },
+      "id": 15
+    }
+  ]
+}

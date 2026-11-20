@@ -1,0 +1,146 @@
+{
+  "ITFrecciarossaAV": {
+    "name": "Frecciarossa Torino – Milano – Roma – Salerno",
+    "color": "#C8102E",
+    "backgroundColor": "#C8102E",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "ITFrecciarossaAV.svg"
+  },
+  "ITFrecciarossaVenezia": {
+    "name": "Frecciarossa Bologna – Venezia",
+    "color": "#E4002B",
+    "backgroundColor": "#E4002B",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "ITFrecciarossaVenezia.svg"
+  },
+  "ITTrasversalePadana": {
+    "name": "Milano – Verona – Venezia",
+    "color": "#A6192E",
+    "backgroundColor": "#A6192E",
+    "textColor": "#FFFFFF",
+    "order": 2,
+    "icon": "ITTrasversalePadana.svg"
+  },
+  "ITFriuli": {
+    "name": "Venezia – Trieste / Udine",
+    "color": "#7A1F2B",
+    "backgroundColor": "#7A1F2B",
+    "textColor": "#FFFFFF",
+    "order": 3,
+    "icon": "ITFriuli.svg"
+  },
+  "ITUdine": {
+    "name": "Venezia – Treviso – Udine",
+    "color": "#9B2335",
+    "backgroundColor": "#9B2335",
+    "textColor": "#FFFFFF",
+    "order": 4,
+    "icon": "ITUdine.svg"
+  },
+  "ITBrennero": {
+    "name": "Verona – Trento – Bolzano",
+    "color": "#B5651D",
+    "backgroundColor": "#B5651D",
+    "textColor": "#FFFFFF",
+    "order": 5,
+    "icon": "ITBrennero.svg"
+  },
+  "ITEmilia": {
+    "name": "Milano – Bologna (via Parma)",
+    "color": "#0072CE",
+    "backgroundColor": "#0072CE",
+    "textColor": "#FFFFFF",
+    "order": 6,
+    "icon": "ITEmilia.svg"
+  },
+  "ITAdriatica": {
+    "name": "Adriatica: Bologna – Bari – Lecce",
+    "color": "#0091D5",
+    "backgroundColor": "#0091D5",
+    "textColor": "#FFFFFF",
+    "order": 7,
+    "icon": "ITAdriatica.svg"
+  },
+  "ITRomaNapoliFormia": {
+    "name": "Roma – Formia – Napoli",
+    "color": "#1B5E9B",
+    "backgroundColor": "#1B5E9B",
+    "textColor": "#FFFFFF",
+    "order": 8,
+    "icon": "ITRomaNapoliFormia.svg"
+  },
+  "ITRomaBari": {
+    "name": "Roma – Caserta – Foggia – Bari",
+    "color": "#3F4BA0",
+    "backgroundColor": "#3F4BA0",
+    "textColor": "#FFFFFF",
+    "order": 9,
+    "icon": "ITRomaBari.svg"
+  },
+  "ITTaranto": {
+    "name": "Bari / Salerno – Potenza – Taranto",
+    "color": "#00A7B5",
+    "backgroundColor": "#00A7B5",
+    "textColor": "#FFFFFF",
+    "order": 10,
+    "icon": "ITTaranto.svg"
+  },
+  "ITCalabria": {
+    "name": "Salerno – Reggio di Calabria",
+    "color": "#00843D",
+    "backgroundColor": "#00843D",
+    "textColor": "#FFFFFF",
+    "order": 11,
+    "icon": "ITCalabria.svg"
+  },
+  "ITSicilia": {
+    "name": "Sicilia: Messina – Catania – Siracusa / Palermo",
+    "color": "#F7A800",
+    "backgroundColor": "#F7A800",
+    "textColor": "#222222",
+    "order": 12,
+    "icon": "ITSicilia.svg"
+  },
+  "ITTirrenica": {
+    "name": "Tirrenica: Roma – Pisa – Genova",
+    "color": "#00A651",
+    "backgroundColor": "#00A651",
+    "textColor": "#FFFFFF",
+    "order": 13,
+    "icon": "ITTirrenica.svg"
+  },
+  "ITPonente": {
+    "name": "Milano – Genova – Ventimiglia",
+    "color": "#5BBF21",
+    "backgroundColor": "#5BBF21",
+    "textColor": "#FFFFFF",
+    "order": 14,
+    "icon": "ITPonente.svg"
+  },
+  "ITTorinoGenova": {
+    "name": "Torino – Genova",
+    "color": "#8DC63F",
+    "backgroundColor": "#8DC63F",
+    "textColor": "#222222",
+    "order": 15,
+    "icon": "ITTorinoGenova.svg"
+  },
+  "ITRomaAncona": {
+    "name": "Roma – Foligno – Ancona",
+    "color": "#7D3F98",
+    "backgroundColor": "#7D3F98",
+    "textColor": "#FFFFFF",
+    "order": 16,
+    "icon": "ITRomaAncona.svg"
+  },
+  "ITPerugia": {
+    "name": "Firenze – Arezzo – Perugia",
+    "color": "#9B59B6",
+    "backgroundColor": "#9B59B6",
+    "textColor": "#FFFFFF",
+    "order": 17,
+    "icon": "ITPerugia.svg"
+  }
+}

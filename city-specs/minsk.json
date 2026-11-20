@@ -1,0 +1,89 @@
+{
+  "slug": "minsk",
+  "path": "europe/belarus/minsk",
+  "gameTitle": "Minsk Metro Memory",
+  "description": "How many Minsk Metro stations can you name from memory?",
+  "locale": "be_BY",
+  "bbox": [
+    53.82,
+    27.4,
+    53.97,
+    27.71
+  ],
+  "transliterate": "be",
+  "enTags": [
+    "name:en"
+  ],
+  "altTags": [
+    "name:ru",
+    "name:uk",
+    "name:be",
+    "name:ka",
+    "name:hy",
+    "name:az",
+    "name:uz",
+    "name:kk"
+  ],
+  "lineGroups": [
+    {
+      "title": "Minsk Metro",
+      "lines": [
+        "MSQ1",
+        "MSQ2",
+        "MSQ3"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "MSQ1",
+      "name": "Maskouskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^1$"
+      },
+      "color": "#0072BC",
+      "badge": "1",
+      "textColor": "#FFFFFF",
+      "icon": "MSQ1.svg"
+    },
+    {
+      "id": "MSQ2",
+      "name": "Autazavodskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^2$"
+      },
+      "color": "#E4002B",
+      "badge": "2",
+      "textColor": "#FFFFFF",
+      "icon": "MSQ2.svg"
+    },
+    {
+      "id": "MSQ3",
+      "name": "Zelenaluzhskaya line",
+      "match": {
+        "route": "^subway$",
+        "ref": "^3$"
+      },
+      "color": "#00A651",
+      "badge": "3",
+      "textColor": "#FFFFFF",
+      "icon": "MSQ3.svg"
+    }
+  ],
+  "register": {
+    "name": "Minsk (Мінск), BY",
+    "continent": "Europe",
+    "coordinates": [
+      27.5615,
+      53.9045
+    ],
+    "achievement": {
+      "title": "Minsk Mosaic",
+      "description": "You've named every Minsk Metro station."
+    },
+    "zh": "明斯克, BY"
+  },
+  "display": "translit"
+}

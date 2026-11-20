@@ -859,7 +859,7 @@ const SettingsPanel = ({ className, showHeading = true, disableScroll = false }:
           </p>
           <div className="mt-4">
             <Link
-              href="/admin/research"
+              href="/admin/upcoming"
               className="inline-flex rounded-xl bg-[var(--accent-600)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--accent-500)] dark:bg-[var(--accent-500)] dark:hover:bg-[var(--accent-400)]"
             >
               {t('openAutomationAdminPanel')}

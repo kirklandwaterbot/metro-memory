@@ -10,6 +10,7 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Honghe Tram',
+    titleImage: 'asia/china/mengzhi/icon.ico',
     items: [
       {
         type: 'lines',

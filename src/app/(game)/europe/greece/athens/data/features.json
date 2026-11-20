@@ -1,0 +1,1551 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.64343,
+          37.948144
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Piraeus",
+        "alternate_names": [
+          "Πειραιάς",
+          "Пирей",
+          "Pirey",
+          "പിറേയസ്"
+        ],
+        "line": "ATHE1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.665266,
+          37.945053
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Faliro",
+        "alternate_names": [
+          "Φάληρο",
+          "Фалиро",
+          "ഫാലിറോ"
+        ],
+        "line": "ATHE1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.680293,
+          37.955236
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Moschato",
+        "alternate_names": [
+          "Μοσχάτο",
+          "Мосхато",
+          "Moskhato",
+          "മോസ്ഖാറ്റോ"
+        ],
+        "line": "ATHE1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.69693,
+          37.96041
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Kallithea",
+        "alternate_names": [
+          "Καλλιθέα",
+          "Калитея",
+          "Kaliteya",
+          "കല്ലിത്തിയ"
+        ],
+        "line": "ATHE1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.703481,
+          37.962486
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Tavros-Eleftherios Venizelos",
+        "alternate_names": [
+          "Ταύρος-Ελευθέριος Βενιζέλος",
+          "Таврос-Элефтериос Винизелос",
+          "Tavros-Elefterios Vinizelos",
+          "ടാവ്റോസ്-എലിഫ്തീരിയോസ് വെനിസെലോസ്"
+        ],
+        "line": "ATHE1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.709044,
+          37.968347
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Petralona",
+        "alternate_names": [
+          "Πετράλωνα",
+          "Петралона",
+          "പെട്രലോണ"
+        ],
+        "line": "ATHE1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.720329,
+          37.976766
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Thiseio",
+        "alternate_names": [
+          "Θησείο",
+          "Тисио",
+          "Tisio",
+          "തീസീയോ"
+        ],
+        "line": "ATHE1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72563,
+          37.976096
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Monastiraki",
+        "alternate_names": [
+          "Μοναστηράκι",
+          "Монастираки",
+          "മൊണാസ്റ്റിറാക്കി"
+        ],
+        "line": "ATHE1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72799,
+          37.984113
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Omonia",
+        "alternate_names": [
+          "Ομόνοια",
+          "Омония",
+          "Omoniya",
+          "ഒമോനോയ"
+        ],
+        "line": "ATHE1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.730267,
+          37.993073
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Victoria",
+        "alternate_names": [
+          "Βικτώρια",
+          "Виктория",
+          "Viktoriya",
+          "വിക്ടോറിയ"
+        ],
+        "line": "ATHE1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.722838,
+          37.999524
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Attiki",
+        "alternate_names": [
+          "Αττική",
+          "Аттики",
+          "ആറ്റിക്കി"
+        ],
+        "line": "ATHE1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727705,
+          38.006989
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Agios Nikolaos",
+        "alternate_names": [
+          "Άγιος Νικόλαος",
+          "Айос Николас",
+          "Ayos Nikolas",
+          "ആഗിയോസ് നിക്കോളാവോസ്"
+        ],
+        "line": "ATHE1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.728648,
+          38.011923
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Kato Patisia",
+        "alternate_names": [
+          "Κάτω Πατήσια",
+          "Каато Патысия",
+          "Kaato Patysiya",
+          "കാറ്റോ പറ്റിസിയ"
+        ],
+        "line": "ATHE1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.731745,
+          38.020036
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Agios Eleftherios",
+        "alternate_names": [
+          "Άγιος Ελευθέριος",
+          "Айос Элефтэриос",
+          "Ayos Elefterios",
+          "ആഗിയോസ് എലിഫ്തീരിയോസ്"
+        ],
+        "line": "ATHE1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.736022,
+          38.023839
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Ano Patisia",
+        "alternate_names": [
+          "Άνω Πατήσια",
+          "Ано Патысия",
+          "Ano Patysiya",
+          "ആനോ പറ്റിസിയ"
+        ],
+        "line": "ATHE1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.744712,
+          38.032845
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Perissos",
+        "alternate_names": [
+          "Περισσός",
+          "Пэриссос",
+          "പെറിസോസ്"
+        ],
+        "line": "ATHE1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.750122,
+          38.037124
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Pefkakia",
+        "alternate_names": [
+          "Πευκάκια",
+          "Пэвкакья",
+          "Pevkakya",
+          "പെവ്കാക്കിയ"
+        ],
+        "line": "ATHE1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.754903,
+          38.041499
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Nea Ionia",
+        "alternate_names": [
+          "Νέα Ιωνία",
+          "Неа Иония",
+          "Nea Ioniya"
+        ],
+        "line": "ATHE1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.766037,
+          38.046266
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Irakleio",
+        "alternate_names": [
+          "Ηράκλειο",
+          "Ираклио",
+          "Iraklio",
+          "هيراكليون",
+          "ഹെരാക്ലിയോൺ"
+        ],
+        "line": "ATHE1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.783324,
+          38.043323
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Eirini",
+        "alternate_names": [
+          "Ειρήνη",
+          "Ирини (станция метро)",
+          "Irini (Stantsiya Metro)"
+        ],
+        "line": "ATHE1",
+        "order": 19
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.792985,
+          38.045158
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Nerantziotissa",
+        "alternate_names": [
+          "Νεραντζιώτισσα"
+        ],
+        "line": "ATHE1",
+        "order": 20
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.804941,
+          38.05624
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Marousi",
+        "alternate_names": [
+          "Μαρούσι",
+          "Маруси",
+          "Marusi",
+          "മറൂസി"
+        ],
+        "line": "ATHE1",
+        "order": 21
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.803992,
+          38.065598
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "KAT",
+        "alternate_names": [
+          "ΚΑΤ"
+        ],
+        "line": "ATHE1",
+        "order": 22
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.808224,
+          38.073608
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Kifissia",
+        "alternate_names": [
+          "Κηφισιά",
+          "Кифисия",
+          "Kifisiya",
+          "കിഫിസിയ"
+        ],
+        "line": "ATHE1",
+        "order": 23
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.747114,
+          37.892591
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Elliniko",
+        "alternate_names": [
+          "Ελληνικό",
+          "ഹെല്ലിനിക്കോ"
+        ],
+        "line": "ATHE2",
+        "order": 0
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.745499,
+          37.903027
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Argyroupoli",
+        "alternate_names": [
+          "Αργυρούπολη",
+          "അർഗിറോപോളി"
+        ],
+        "line": "ATHE2",
+        "order": 1
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.744225,
+          37.918092
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Alimos",
+        "alternate_names": [
+          "Άλιμος",
+          "ആലിമോസ്"
+        ],
+        "line": "ATHE2",
+        "order": 2
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.744468,
+          37.929661
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Ilioupoli",
+        "alternate_names": [
+          "Ηλιούπολη",
+          "ഹീലിയോപോളിസ്"
+        ],
+        "line": "ATHE2",
+        "order": 3
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.740704,
+          37.940433
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Agios Dimitrios",
+        "alternate_names": [
+          "Άγιος Δημήτριος",
+          "ആഗിയോസ് ഡിമിട്രിയോസ്"
+        ],
+        "line": "ATHE2",
+        "order": 4
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.737233,
+          37.94956
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Dafni",
+        "alternate_names": [
+          "Δάφνη",
+          "ഡാഫ്നി"
+        ],
+        "line": "ATHE2",
+        "order": 5
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.734686,
+          37.95643
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Agios Ioannis",
+        "alternate_names": [
+          "Άγιος Ιωάννης",
+          "ആഗിയോസ് യോവാന്നിസ്"
+        ],
+        "line": "ATHE2",
+        "order": 6
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.728372,
+          37.957671
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Neos Kosmos",
+        "alternate_names": [
+          "Νέος Κόσμος",
+          "Неос Космос",
+          "നിയോസ് കോസ്മോസ്"
+        ],
+        "line": "ATHE2",
+        "order": 7
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.726818,
+          37.964626
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Syngrou-Fix",
+        "alternate_names": [
+          "Συγγρού-Φιξ",
+          "Сингру-Фикс",
+          "Singru-Fiks",
+          "Συγγρού-Φίξ",
+          "സിഗ്രോ-ഫീക്സ്"
+        ],
+        "line": "ATHE2",
+        "order": 8
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.729531,
+          37.968859
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Akropoli",
+        "alternate_names": [
+          "Ακρόπολη",
+          "Акрополи",
+          "അക്രോപോളി"
+        ],
+        "line": "ATHE2",
+        "order": 9
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.735668,
+          37.975495
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Syntagma",
+        "alternate_names": [
+          "Σύνταγμα",
+          "Синтахма",
+          "Sintakhma",
+          "സിൻ്റാഗ്മ"
+        ],
+        "line": "ATHE2",
+        "order": 10
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.73302,
+          37.980355
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Panepistimio",
+        "alternate_names": [
+          "Πανεπιστήμιο",
+          "Панэпистимио",
+          "പനേപിസ്റ്റിമിയോ"
+        ],
+        "line": "ATHE2",
+        "order": 11
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72799,
+          37.984113
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Omonia",
+        "alternate_names": [
+          "Ομόνοια",
+          "Омония",
+          "Omoniya",
+          "ഒമോനോയ"
+        ],
+        "line": "ATHE2",
+        "order": 12
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72138,
+          37.985853
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Metaxourgeio",
+        "alternate_names": [
+          "Μεταξουργείο",
+          "Метаксурьио",
+          "Metaksuryio",
+          "മെറ്റാക്സോർജിയോ"
+        ],
+        "line": "ATHE2",
+        "order": 13
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72072,
+          37.992282
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Stathmos Larisis",
+        "alternate_names": [
+          "Σταθμός Λαρίσης",
+          "Статмос Ларисис",
+          "Statmos Larisis"
+        ],
+        "line": "ATHE2",
+        "order": 14
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.722838,
+          37.999524
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Attiki",
+        "alternate_names": [
+          "Αττική",
+          "Аттики",
+          "ആറ്റിക്കി"
+        ],
+        "line": "ATHE2",
+        "order": 15
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.71404,
+          38.00261
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Sepolia",
+        "alternate_names": [
+          "Σεπόλια",
+          "സെപോളിയ"
+        ],
+        "line": "ATHE2",
+        "order": 16
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.69973,
+          38.006104
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Agios Antonios",
+        "alternate_names": [
+          "Άγιος Αντώνιος",
+          "ആഗിയോസ് അൻ്റോണിയോസ്"
+        ],
+        "line": "ATHE2",
+        "order": 17
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.695776,
+          38.012895
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Peristeri",
+        "alternate_names": [
+          "Περιστέρι",
+          "Перистери",
+          "പെറിസ്റ്റേറി"
+        ],
+        "line": "ATHE2",
+        "order": 18
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.690911,
+          38.01714
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Anthoupoli",
+        "alternate_names": [
+          "Ανθούπολη",
+          "അന്തോപോളി"
+        ],
+        "line": "ATHE2",
+        "order": 19
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.647586,
+          37.942903
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Dimotiko Theatro",
+        "alternate_names": [
+          "Δημοτικό Θέατρο"
+        ],
+        "line": "ATHE3",
+        "order": 0
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.642306,
+          37.948113
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Piraeus",
+        "alternate_names": [
+          "Πειραιάς",
+          "പിറേയസ്"
+        ],
+        "line": "ATHE3",
+        "order": 1
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.639785,
+          37.959553
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Maniatika",
+        "alternate_names": [
+          "Μανιάτικα"
+        ],
+        "line": "ATHE3",
+        "order": 2
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.64733,
+          37.965751
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Nikaia",
+        "alternate_names": [
+          "Νίκαια"
+        ],
+        "line": "ATHE3",
+        "order": 3
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.650407,
+          37.977049
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Korydallos",
+        "alternate_names": [
+          "Κορυδαλλός"
+        ],
+        "line": "ATHE3",
+        "order": 4
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.659333,
+          37.989966
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Agia Varvara",
+        "alternate_names": [
+          "Αγία Βαρβάρα",
+          "ആഗിയ വാർവറ"
+        ],
+        "line": "ATHE3",
+        "order": 5
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.667122,
+          37.996908
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Agia Marina",
+        "alternate_names": [
+          "Αγία Μαρίνα",
+          "ആഗിയ മറീന"
+        ],
+        "line": "ATHE3",
+        "order": 6
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.681822,
+          37.991439
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Egaleo",
+        "alternate_names": [
+          "Αιγάλεω",
+          "ഈഗാലിയോ"
+        ],
+        "line": "ATHE3",
+        "order": 7
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.693366,
+          37.987764
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Eleonas",
+        "alternate_names": [
+          "Ελαιώνας",
+          "എലിയോനാസ്"
+        ],
+        "line": "ATHE3",
+        "order": 8
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.710957,
+          37.978743
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Kerameikos",
+        "alternate_names": [
+          "Κεραμεικός",
+          "Керамекос",
+          "Keramekos",
+          "കെറാമിക്കോസ്"
+        ],
+        "line": "ATHE3",
+        "order": 9
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72563,
+          37.976096
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Monastiraki",
+        "alternate_names": [
+          "Μοναστηράκι",
+          "Монастираки",
+          "മൊണാസ്റ്റിറാക്കി"
+        ],
+        "line": "ATHE3",
+        "order": 10
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.735668,
+          37.975495
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Syntagma",
+        "alternate_names": [
+          "Σύνταγμα",
+          "Синтахма",
+          "Sintakhma",
+          "സിൻ്റാഗ്മ"
+        ],
+        "line": "ATHE3",
+        "order": 11
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.747104,
+          37.976126
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Evangelismos",
+        "alternate_names": [
+          "Ευαγγελισμός",
+          "Евангелисмос",
+          "Yevangelismos",
+          "എവൻഗെലിസ്മോസ്"
+        ],
+        "line": "ATHE3",
+        "order": 12
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.753009,
+          37.979032
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Megaro Mousikis",
+        "alternate_names": [
+          "Μέγαρο Μουσικής",
+          "Мегаро Мусикис",
+          "Megaro Musikis",
+          "മെഗറോ മൗസിക്കീസ്"
+        ],
+        "line": "ATHE3",
+        "order": 13
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.75768,
+          37.987193
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Ambelokipi",
+        "alternate_names": [
+          "Αμπελόκηποι",
+          "Амбелокипи",
+          "അംബെലോക്കിപ്പി"
+        ],
+        "line": "ATHE3",
+        "order": 14
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.763577,
+          37.993212
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Panormou",
+        "alternate_names": [
+          "Πανόρμου",
+          "പനോർമോ"
+        ],
+        "line": "ATHE3",
+        "order": 15
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.776759,
+          37.99376
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Katechaki",
+        "alternate_names": [
+          "Κατεχάκη",
+          "കറ്റെഖാക്കി"
+        ],
+        "line": "ATHE3",
+        "order": 16
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.784475,
+          37.999184
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Ethniki Amyna",
+        "alternate_names": [
+          "Εθνική Άμυνα",
+          "എത്നിക്കി ആമിന"
+        ],
+        "line": "ATHE3",
+        "order": 17
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.794709,
+          38.00491
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Cholargos",
+        "alternate_names": [
+          "Χολαργός",
+          "ഖൊലർഗോസ്"
+        ],
+        "line": "ATHE3",
+        "order": 18
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.805776,
+          38.009099
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Nomismatokopio",
+        "alternate_names": [
+          "Νομισματοκοπείο",
+          "നോമിസ്മാറ്റോകോപ്പിയോ"
+        ],
+        "line": "ATHE3",
+        "order": 19
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.812484,
+          38.01713
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Agia Paraskevi",
+        "alternate_names": [
+          "Αγία Παρασκευή",
+          "ആഗിയ പരസ്കെവീ"
+        ],
+        "line": "ATHE3",
+        "order": 20
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.820755,
+          38.021712
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Chalandri",
+        "alternate_names": [
+          "Χαλάνδρι",
+          "ഖലാൻഡ്രി"
+        ],
+        "line": "ATHE3",
+        "order": 21
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.832549,
+          38.023992
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Doukissis Plakentias",
+        "alternate_names": [
+          "Δουκίσσης Πλακεντίας"
+        ],
+        "line": "ATHE3",
+        "order": 22
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.869604,
+          38.005762
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Pallini",
+        "alternate_names": [
+          "Παλλήνη"
+        ],
+        "line": "ATHE3",
+        "order": 23
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.869925,
+          37.984199
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Peania-Kantza",
+        "alternate_names": [
+          "Παιανία-Κάντζα"
+        ],
+        "line": "ATHE3",
+        "order": 24
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.895811,
+          37.913012
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Koropi",
+        "alternate_names": [
+          "Κορωπί",
+          "Коропи"
+        ],
+        "line": "ATHE3",
+        "order": 25
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.944807,
+          37.936977
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Airport",
+        "alternate_names": [
+          "Αεροδρόμιο",
+          "Аэропорт",
+          "Aeroport"
+        ],
+        "line": "ATHE3",
+        "order": 26
+      },
+      "id": 70
+    }
+  ]
+}

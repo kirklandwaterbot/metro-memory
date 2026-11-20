@@ -1,0 +1,615 @@
+{
+  "slug": "korean-state-railway",
+  "path": "asia/north-korea/korean-state-railway",
+  "gameTitle": "Korean State Railway Memory",
+  "description": "How many Korean State Railway stations can you name from memory?",
+  "locale": "ko_KP",
+  "bbox": [
+    37.6,
+    124.1,
+    43.1,
+    130.8
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ko-Latn"
+    ],
+    "altTags": [
+      "name:ko-Latn",
+      "name:ko-Hani"
+    ],
+    "strip": "역$",
+    "romanize": "ko"
+  },
+  "trackStationDistance": 150,
+  "simplifyM": 30,
+  "minZoom": 5,
+  "lineGroups": [
+    {
+      "title": "Trunk lines",
+      "lines": [
+        "KSR1",
+        "KSR2",
+        "KSR3",
+        "KSR4",
+        "KSR5",
+        "KSR6",
+        "KSR7",
+        "KSR8",
+        "KSR9",
+        "KSR10",
+        "KSR11"
+      ]
+    },
+    {
+      "title": "Other lines",
+      "lines": [
+        "KSR12",
+        "KSR15",
+        "KSR16",
+        "KSR19",
+        "KSR20",
+        "KSR21",
+        "KSR22",
+        "KSR23",
+        "KSR24",
+        "KSR25",
+        "KSR26",
+        "KSR27",
+        "KSR28",
+        "KSR30",
+        "KSR31",
+        "KSR32",
+        "KSR33",
+        "KSR34",
+        "KSR35",
+        "KSR36",
+        "KSR37",
+        "KSR39",
+        "KSR40",
+        "KSR41",
+        "KSR43",
+        "KSR45",
+        "KSR46",
+        "KSR48",
+        "KSR49",
+        "KSR50",
+        "KSR51",
+        "KSR52"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "KSR1",
+      "name": "Pyongui Line",
+      "match": {
+        "@id": "^(3839235)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "P",
+      "icon": "KSR1.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR2",
+      "name": "Pyongbu Line",
+      "match": {
+        "@id": "^(3836129)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "Py",
+      "icon": "KSR2.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR3",
+      "name": "Pyongna Line",
+      "match": {
+        "@id": "^(3837029)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "Pyo",
+      "icon": "KSR3.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR4",
+      "name": "Kangwon Line",
+      "match": {
+        "@id": "^(3839842)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "K",
+      "icon": "KSR4.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR5",
+      "name": "Manpo Line",
+      "match": {
+        "@id": "^(7783146)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "M",
+      "icon": "KSR5.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR6",
+      "name": "Paektusan Ch'ŏngnyŏn Line",
+      "match": {
+        "@id": "^(6346767)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "PC",
+      "icon": "KSR6.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR7",
+      "name": "Hambuk Line",
+      "match": {
+        "@id": "^(6346666)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "H",
+      "icon": "KSR7.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR8",
+      "name": "P'yŏngdŏk Line",
+      "match": {
+        "@id": "^(6359082)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "PY",
+      "icon": "KSR8.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR9",
+      "name": "Chongnyon Ichon Line",
+      "match": {
+        "@id": "^(7780636)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "CI",
+      "icon": "KSR9.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR10",
+      "name": "Hwanghae Chongnyon Line",
+      "match": {
+        "@id": "^(7783535)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "HC",
+      "icon": "KSR10.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR11",
+      "name": "Pyongnam Line",
+      "match": {
+        "@id": "^(3839265)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "Pyo",
+      "icon": "KSR11.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR12",
+      "name": "Kanggye Line",
+      "match": {
+        "@id": "^(13675477)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "Ka",
+      "icon": "KSR12.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR15",
+      "name": "Kumgangsan Chongnyon Line",
+      "match": {
+        "@id": "^(7780582)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "KC",
+      "icon": "KSR15.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR16",
+      "name": "Geumgol Line",
+      "match": {
+        "@id": "^(6908615)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "1",
+      "icon": "KSR16.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR19",
+      "name": "Daegeon Line",
+      "match": {
+        "@id": "^(6894945)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "19",
+      "icon": "KSR19.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR20",
+      "name": "Deokseong Line",
+      "match": {
+        "@id": "^(6908462)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "2",
+      "icon": "KSR20.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR21",
+      "name": "Deokhyeon Line",
+      "match": {
+        "@id": "^(14166434)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "21",
+      "icon": "KSR21.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR22",
+      "name": "Tojiri Line",
+      "match": {
+        "@id": "^(11647962)$"
+      },
+      "color": "#0072CE",
+      "textColor": "#FFFFFF",
+      "badge": "T",
+      "icon": "KSR22.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR23",
+      "name": "Dumangang Line",
+      "match": {
+        "@id": "^(6909109)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "23",
+      "icon": "KSR23.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR24",
+      "name": "Dueon Line",
+      "match": {
+        "@id": "^(6908491)$"
+      },
+      "color": "#F7A800",
+      "textColor": "#222222",
+      "badge": "24",
+      "icon": "KSR24.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR25",
+      "name": "Ryonggang Line",
+      "match": {
+        "@id": "^(11647844)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "R",
+      "icon": "KSR25.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR26",
+      "name": "Ryongsong Line",
+      "match": {
+        "@id": "^(6894830)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "Ry",
+      "icon": "KSR26.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR27",
+      "name": "Mandeok Line",
+      "match": {
+        "@id": "^(6946822)$"
+      },
+      "color": "#D4006A",
+      "textColor": "#FFFFFF",
+      "badge": "27",
+      "icon": "KSR27.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR28",
+      "name": "Musan Line",
+      "match": {
+        "@id": "^(11528050)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "Mu",
+      "icon": "KSR28.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR30",
+      "name": "Paechon Line",
+      "match": {
+        "@id": "^(11524971)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "Pa",
+      "icon": "KSR30.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR31",
+      "name": "Paengmu Line",
+      "match": {
+        "@id": "^(7786081|7786095)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "Pae",
+      "icon": "KSR31.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR32",
+      "name": "Bupo Line",
+      "match": {
+        "@id": "^(12310190)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "B",
+      "icon": "KSR32.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR33",
+      "name": "Pukbunaeryuk Line",
+      "match": {
+        "@id": "^(7783324)$"
+      },
+      "color": "#0D47A1",
+      "textColor": "#FFFFFF",
+      "badge": "Pu",
+      "icon": "KSR33.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR34",
+      "name": "Pinallon Line",
+      "match": {
+        "@id": "^(12268995)$"
+      },
+      "color": "#4A148C",
+      "textColor": "#FFFFFF",
+      "badge": "Pi",
+      "icon": "KSR34.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR35",
+      "name": "Samjiyon Line",
+      "match": {
+        "@id": "^(11528037)$"
+      },
+      "color": "#E65100",
+      "textColor": "#FFFFFF",
+      "badge": "S",
+      "icon": "KSR35.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR36",
+      "name": "Sohae Kammun Line",
+      "match": {
+        "@id": "^(11647790)$"
+      },
+      "color": "#006064",
+      "textColor": "#FFFFFF",
+      "badge": "SK",
+      "icon": "KSR36.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR37",
+      "name": "Sechŏn Line",
+      "match": {
+        "@id": "^(6353073)$"
+      },
+      "color": "#880E4F",
+      "textColor": "#FFFFFF",
+      "badge": "Se",
+      "icon": "KSR37.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR39",
+      "name": "Songrim Line",
+      "match": {
+        "@id": "^(11647990)$"
+      },
+      "color": "#3E2723",
+      "textColor": "#FFFFFF",
+      "badge": "So",
+      "icon": "KSR39.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR40",
+      "name": "Sinhung Line",
+      "match": {
+        "@id": "^(6897526|12249618)$"
+      },
+      "color": "#263238",
+      "textColor": "#FFFFFF",
+      "badge": "Si",
+      "icon": "KSR40.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR41",
+      "name": "Ongjin Line",
+      "match": {
+        "@id": "^(11522241)$"
+      },
+      "color": "#E4002B",
+      "textColor": "#FFFFFF",
+      "badge": "O",
+      "icon": "KSR41.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR43",
+      "name": "Unnyul Line",
+      "match": {
+        "@id": "^(7788048)$"
+      },
+      "color": "#00A651",
+      "textColor": "#FFFFFF",
+      "badge": "U",
+      "icon": "KSR43.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR45",
+      "name": "Changyon Line",
+      "match": {
+        "@id": "^(11647943)$"
+      },
+      "color": "#7D3F98",
+      "textColor": "#FFFFFF",
+      "badge": "C",
+      "icon": "KSR45.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR46",
+      "name": "Jangjin Line",
+      "match": {
+        "@id": "^(6897608)$"
+      },
+      "color": "#00A7B5",
+      "textColor": "#FFFFFF",
+      "badge": "46",
+      "icon": "KSR46.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR48",
+      "name": "Cheongnam Line",
+      "match": {
+        "@id": "^(6892405)$"
+      },
+      "color": "#8C6E4A",
+      "textColor": "#FFFFFF",
+      "badge": "48",
+      "icon": "KSR48.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR49",
+      "name": "Pyeongbuk Line",
+      "match": {
+        "@id": "^(5139896)$"
+      },
+      "color": "#5C6670",
+      "textColor": "#FFFFFF",
+      "badge": "49",
+      "icon": "KSR49.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR50",
+      "name": "Heocheon Line",
+      "match": {
+        "@id": "^(6908530)$"
+      },
+      "color": "#F26522",
+      "textColor": "#FFFFFF",
+      "badge": "5",
+      "icon": "KSR50.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR51",
+      "name": "Hongui Line",
+      "match": {
+        "@id": "^(6346667)$"
+      },
+      "color": "#1B5E20",
+      "textColor": "#FFFFFF",
+      "badge": "Ho",
+      "icon": "KSR51.svg",
+      "stationsFromTrack": true
+    },
+    {
+      "id": "KSR52",
+      "name": "Husan Line",
+      "match": {
+        "@id": "^(11647854)$"
+      },
+      "color": "#B71C1C",
+      "textColor": "#FFFFFF",
+      "badge": "Hu",
+      "icon": "KSR52.svg",
+      "stationsFromTrack": true
+    }
+  ],
+  "register": {
+    "name": "Korean State Railway (조선철도), KP",
+    "continent": "Asia",
+    "coordinates": [
+      126.5,
+      40.0
+    ],
+    "zh": "朝鲜国铁, KP",
+    "achievement": {
+      "title": "Juche Express",
+      "description": "You've named every Korean State Railway station."
+    }
+  }
+}

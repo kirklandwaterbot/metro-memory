@@ -10,6 +10,7 @@ export const LINES = linesData as { [name: string]: Line }
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Chengdu Metro',
+    titleImage: 'asia/china/chengdu/icon.ico',
     items: [
       {
         type: 'lines',
@@ -26,6 +27,16 @@ export const LINE_GROUPS: LineGroup[] = [
       },
     ],
   },
+  {
+    title: 'Dujiangyan M-TR',
+    titleImage: 'asia/china/chengdu/dujiangyan-mtr.ico',
+    items: [
+      {
+        type: 'lines',
+        lines: ['dujiangyanmtr'],
+      },
+    ],
+  },
 ]
 
 export const METADATA: Metadata = {
@@ -33,11 +44,11 @@ export const METADATA: Metadata = {
     icon: '/api/city-icon/chengdu',
     apple: '/api/city-icon/chengdu',
   },
-  title: 'Chengdu Metro Memory',
-  description: 'How many of the Chengdu rail transit stations can you name from memory?',
+  title: 'Chengdu–Dujiangyan Metro Memory',
+  description: 'How many of the Chengdu–Dujiangyan rail transit stations can you name from memory?',
   openGraph: {
-    title: 'Chengdu Metro Memory',
-    description: 'How many of the Chengdu rail transit stations can you name from memory?',
+    title: 'Chengdu–Dujiangyan Metro Memory',
+    description: 'How many of the Chengdu–Dujiangyan rail transit stations can you name from memory?',
     type: 'website',
     locale: 'en_US',
     url: 'https://metro-memory.xyz/asia/china/chengdu',
@@ -48,8 +59,8 @@ export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
-    [103.697, 30.045],
-    [104.76, 30.895],
+    [103.58, 30.045],
+    [104.76, 31.0],
   ],
   maxBounds: [
     [103.352, 29.743],

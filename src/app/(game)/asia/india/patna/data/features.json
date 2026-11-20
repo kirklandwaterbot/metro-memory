@@ -1,0 +1,99 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.189753,
+          25.576322
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Patliputra Bus Terminal",
+        "alternate_names": [
+          "पाटलिपुत्र बस टर्मिनल"
+        ],
+        "line": "PATN2",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.186752,
+          25.585671
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Zero Mile",
+        "alternate_names": [
+          "ज़ीरो माइल"
+        ],
+        "line": "PATN2",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.173576,
+          25.585475
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Bhootnath",
+        "alternate_names": [
+          "भूतनाथ"
+        ],
+        "line": "PATN2",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.163595,
+          25.584746
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Khemnichak",
+        "line": "PATN2",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.157117,
+          25.593508
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Malahi Pakri",
+        "line": "PATN2",
+        "order": 4
+      },
+      "id": 4
+    }
+  ]
+}

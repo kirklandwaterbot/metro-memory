@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.948501,
+          44.407269
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Brignole",
+        "line": "GENOMETROPOL",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.934765,
+          44.407213
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "De Ferrari",
+        "line": "GENOMETROPOL",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.931725,
+          44.404307
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Sarzano/Sant'Agostino",
+        "line": "GENOMETROPOL",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9286,
+          44.408782
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "San Giorgio",
+        "line": "GENOMETROPOL",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.926628,
+          44.413042
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Darsena",
+        "line": "GENOMETROPOL",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.918995,
+          44.416283
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Principe",
+        "line": "GENOMETROPOL",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.912229,
+          44.413958
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Dinegro",
+        "line": "GENOMETROPOL",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.895685,
+          44.427991
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Brin",
+        "line": "GENOMETROPOL",
+        "order": 7
+      },
+      "id": 7
+    }
+  ]
+}

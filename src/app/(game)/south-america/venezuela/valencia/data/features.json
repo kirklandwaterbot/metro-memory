@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.997317,
+          10.146448
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Monumental",
+        "line": "VLN1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.999399,
+          10.153643
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Las Ferias",
+        "line": "VLN1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.000224,
+          10.159574
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Palotal",
+        "line": "VLN1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.000931,
+          10.165038
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Santa Rosa",
+        "line": "VLN1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.001977,
+          10.171214
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Michelena",
+        "line": "VLN1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.002859,
+          10.17721
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Lara",
+        "line": "VLN1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.004492,
+          10.187737
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Cedeño",
+        "line": "VLN1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.005437,
+          10.193836
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Rafael Urdaneta",
+        "line": "VLN1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.006615,
+          10.201237
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Francisco de Miranda",
+        "line": "VLN1",
+        "order": 8
+      },
+      "id": 8
+    }
+  ]
+}

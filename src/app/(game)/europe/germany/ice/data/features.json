@@ -1,0 +1,7364 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.935472,
+          53.55307
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Hamburg-Altona",
+        "line": "ICE1",
+        "order": 0
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.988944,
+          53.56115
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Hamburg Dammtor",
+        "alternate_names": [
+          "Hamburg Dammtor / Universität"
+        ],
+        "line": "ICE1",
+        "order": 1
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.006462,
+          53.552168
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE1",
+        "order": 2
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.014411,
+          51.451206
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Essen Hbf",
+        "alternate_names": [
+          "Essen Hauptbahnhof"
+        ],
+        "line": "ICE1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.776086,
+          51.429684
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557451,
+          48.140196
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE2",
+        "order": 0
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082178,
+          49.4455
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE2",
+        "order": 1
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.569592,
+          50.052895
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE2",
+        "order": 2
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.973921,
+          50.94164
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Köln Messe/Deutz",
+        "alternate_names": [
+          "Köln Messe/Deutz (tief)"
+        ],
+        "line": "ICE2",
+        "order": 3
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.935639,
+          53.55322
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Hamburg-Altona",
+        "line": "ICE4",
+        "order": 0
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.988944,
+          53.56115
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Hamburg Dammtor",
+        "alternate_names": [
+          "Hamburg Dammtor / Universität"
+        ],
+        "line": "ICE4",
+        "order": 1
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0063,
+          53.55215
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE4",
+        "order": 2
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.74143,
+          52.376774
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE4",
+        "order": 3
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662831,
+          50.10642
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE4",
+        "order": 4
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.629636,
+          49.873317
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Darmstadt Hbf",
+        "alternate_names": [
+          "Darmstadt Hauptbahnhof"
+        ],
+        "line": "ICE4",
+        "order": 5
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557498,
+          48.140511
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE8",
+        "order": 0
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082178,
+          49.4455
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE8",
+        "order": 1
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038839,
+          50.972285
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Erfurt Hbf",
+        "line": "ICE8",
+        "order": 2
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.987232,
+          51.477098
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Halle (Saale) Hbf",
+        "alternate_names": [
+          "Halle (Saale) Hauptbahnhof"
+        ],
+        "line": "ICE8",
+        "order": 3
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.366757,
+          52.477549
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Berlin Südkreuz",
+        "line": "ICE8",
+        "order": 4
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.369613,
+          52.524846
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (Tief)",
+          "Berlin Hbf (Tief)"
+        ],
+        "line": "ICE8",
+        "order": 5
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.389449,
+          52.54887
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Berlin Gesundbrunnen",
+        "line": "ICE8",
+        "order": 6
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.389437,
+          52.548659
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Berlin Gesundbrunnen",
+        "line": "ICE10",
+        "order": 0
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.368715,
+          52.525995
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (tief)",
+          "Berlin Hbf (tief)"
+        ],
+        "line": "ICE10",
+        "order": 1
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195655,
+          52.534945
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Berlin-Spandau",
+        "line": "ICE10",
+        "order": 2
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.786274,
+          52.429567
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Wolfsburg Hbf",
+        "alternate_names": [
+          "Wolfsburg Hauptbahnhof"
+        ],
+        "line": "ICE10",
+        "order": 3
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.742237,
+          52.377427
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE10",
+        "order": 4
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.532934,
+          52.029635
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Bielefeld Hbf",
+        "line": "ICE10",
+        "order": 5
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.807354,
+          51.678068
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Hamm (Westf) Hbf",
+        "line": "ICE10",
+        "order": 6
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.460471,
+          51.362518
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Hagen Hbf",
+        "line": "ICE10",
+        "order": 7
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.150048,
+          51.254597
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Wuppertal Hbf",
+        "alternate_names": [
+          "Wuppertal Hauptbahnhof"
+        ],
+        "line": "ICE10",
+        "order": 8
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.096737,
+          50.732003
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Bonn Hbf",
+        "alternate_names": [
+          "Bonn Hauptbahnhof"
+        ],
+        "line": "ICE10",
+        "order": 9
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.405063,
+          50.434465
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Andernach",
+        "line": "ICE10",
+        "order": 10
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.588592,
+          50.350962
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Koblenz Hbf",
+        "line": "ICE10",
+        "order": 11
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.459266,
+          51.517829
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Dortmund Hbf",
+        "line": "ICE10",
+        "order": 12
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.014411,
+          51.451206
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Essen Hbf",
+        "alternate_names": [
+          "Essen Hauptbahnhof"
+        ],
+        "line": "ICE10",
+        "order": 13
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.776086,
+          51.429684
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE10",
+        "order": 14
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.786822,
+          51.291565
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Düsseldorf Flughafen",
+        "line": "ICE10",
+        "order": 15
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.973792,
+          50.94164
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Köln Messe/Deutz",
+        "alternate_names": [
+          "Köln Messe/Deutz (tief)"
+        ],
+        "line": "ICE10",
+        "order": 16
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119239,
+          50.878904
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Köln/Bonn Flughafen",
+        "line": "ICE10",
+        "order": 17
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.369531,
+          52.52483
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (Tief)",
+          "Berlin Hbf (Tief)"
+        ],
+        "line": "ICE11",
+        "order": 0
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.364904,
+          52.474767
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Berlin Südkreuz",
+        "line": "ICE11",
+        "order": 1
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.661528,
+          51.867593
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Lutherstadt Wittenberg Hbf",
+        "alternate_names": [
+          "Lutherstadt Wittenberg Hauptbahnhof"
+        ],
+        "line": "ICE11",
+        "order": 2
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.31687,
+          51.622638
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Bitterfeld",
+        "line": "ICE11",
+        "order": 3
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.381866,
+          51.345842
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Leipzig Hbf",
+        "alternate_names": [
+          "Leipzig Hauptbahnhof"
+        ],
+        "line": "ICE11",
+        "order": 4
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038125,
+          50.972616
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Erfurt Hbf",
+        "line": "ICE11",
+        "order": 5
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662917,
+          50.106324
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE11",
+        "order": 6
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469482,
+          49.47927
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE11",
+        "order": 7
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.184122,
+          48.785065
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Stuttgart Hbf",
+        "line": "ICE11",
+        "order": 8
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.982834,
+          48.399315
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ulm Hbf",
+        "line": "ICE11",
+        "order": 9
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.885869,
+          48.365419
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Augsburg Hbf",
+        "alternate_names": [
+          "Augsburg Hauptbahnhof"
+        ],
+        "line": "ICE11",
+        "order": 10
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.46175,
+          48.150152
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "München-Pasing",
+        "line": "ICE11",
+        "order": 11
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557434,
+          48.140079
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE11",
+        "order": 12
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.435059,
+          52.51057
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Berlin Ostbahnhof",
+        "line": "ICE12",
+        "order": 0
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.369442,
+          52.524939
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 1
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195602,
+          52.534844
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Berlin-Spandau",
+        "line": "ICE12",
+        "order": 2
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.786274,
+          52.429567
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Wolfsburg Hbf",
+        "alternate_names": [
+          "Wolfsburg Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 3
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.540525,
+          52.252049
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Braunschweig Hbf",
+        "alternate_names": [
+          "Braunschweig Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 4
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.954011,
+          52.1607
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Hildesheim Hbf",
+        "alternate_names": [
+          "Hildesheim Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 5
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.925739,
+          51.536962
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Göttingen",
+        "line": "ICE12",
+        "order": 6
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.447218,
+          51.31141
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Kassel-Wilhelmshöhe",
+        "line": "ICE12",
+        "order": 7
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.684221,
+          50.554775
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Fulda",
+        "line": "ICE12",
+        "order": 8
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.929302,
+          50.121168
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Hanau Hbf",
+        "line": "ICE12",
+        "order": 9
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662917,
+          50.106324
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 10
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469482,
+          49.47927
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 11
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402005,
+          48.993967
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 12
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.945893,
+          48.476017
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Offenburg",
+        "line": "ICE12",
+        "order": 13
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.841167,
+          47.997518
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Freiburg (Breisgau) Hbf",
+        "alternate_names": [
+          "Freiburg (Breisgau) Hauptbahnhof"
+        ],
+        "line": "ICE12",
+        "order": 14
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.607648,
+          47.567631
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Basel Badischer Bahnhof",
+        "line": "ICE12",
+        "order": 15
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589308,
+          47.546963
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Basel SBB",
+        "line": "ICE12",
+        "order": 16
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570425,
+          50.052865
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE13",
+        "order": 0
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.687202,
+          50.099458
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Frankfurt (Main) Süd",
+        "line": "ICE13",
+        "order": 1
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.684325,
+          50.554827
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Fulda",
+        "line": "ICE13",
+        "order": 2
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.447284,
+          51.311426
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Kassel-Wilhelmshöhe",
+        "line": "ICE13",
+        "order": 3
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9258,
+          51.536942
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Göttingen",
+        "line": "ICE13",
+        "order": 4
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.954043,
+          52.160649
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Hildesheim Hbf",
+        "alternate_names": [
+          "Hildesheim Hauptbahnhof"
+        ],
+        "line": "ICE13",
+        "order": 5
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.540573,
+          52.252018
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Braunschweig Hbf",
+        "alternate_names": [
+          "Braunschweig Hauptbahnhof"
+        ],
+        "line": "ICE13",
+        "order": 6
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195591,
+          52.534707
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Berlin-Spandau",
+        "line": "ICE13",
+        "order": 7
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662831,
+          50.10642
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE13",
+        "order": 8
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.369563,
+          52.524742
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof"
+        ],
+        "line": "ICE13",
+        "order": 9
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434702,
+          52.510257
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Berlin Ostbahnhof",
+        "line": "ICE13",
+        "order": 10
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.599669,
+          54.405621
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Ostseebad Binz",
+        "line": "ICE15",
+        "order": 0
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.417572,
+          54.420413
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Bergen auf Rügen",
+        "line": "ICE15",
+        "order": 1
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.078884,
+          54.307776
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Stralsund Hbf",
+        "line": "ICE15",
+        "order": 2
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.370273,
+          54.092933
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Greifswald",
+        "line": "ICE15",
+        "order": 3
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.549418,
+          53.97283
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Züssow",
+        "line": "ICE15",
+        "order": 4
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.701836,
+          53.856051
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Anklam",
+        "line": "ICE15",
+        "order": 5
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.988944,
+          53.515258
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Pasewalk",
+        "line": "ICE15",
+        "order": 6
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.866417,
+          53.321568
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Prenzlau",
+        "line": "ICE15",
+        "order": 7
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.796794,
+          52.833791
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Eberswalde Hbf",
+        "alternate_names": [
+          "Eberswalde Hauptbahnhof"
+        ],
+        "line": "ICE15",
+        "order": 8
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.389449,
+          52.54887
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Berlin Gesundbrunnen",
+        "line": "ICE15",
+        "order": 9
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.368715,
+          52.525995
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (tief)",
+          "Berlin Hbf (tief)"
+        ],
+        "line": "ICE15",
+        "order": 10
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.364904,
+          52.474767
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Berlin Südkreuz",
+        "line": "ICE15",
+        "order": 11
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.987065,
+          51.47704
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Halle (Saale) Hbf",
+        "alternate_names": [
+          "Halle (Saale) Hauptbahnhof"
+        ],
+        "line": "ICE15",
+        "order": 12
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038125,
+          50.972616
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Erfurt Hbf",
+        "line": "ICE15",
+        "order": 13
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663046,
+          50.106188
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE15",
+        "order": 14
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.435059,
+          52.51057
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Berlin Ostbahnhof",
+        "line": "ICE16",
+        "order": 0
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.369442,
+          52.524939
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 1
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195602,
+          52.534844
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "name": "Berlin-Spandau",
+        "line": "ICE16",
+        "order": 2
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662687,
+          50.106578
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 3
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.629135,
+          49.873296
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "name": "Darmstadt Hbf",
+        "alternate_names": [
+          "Darmstadt Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 4
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 5
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.141212,
+          49.349679
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Neustadt (Weinstr)Hbf",
+        "line": "ICE16",
+        "order": 6
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768933,
+          49.435986
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Kaiserslautern Hbf",
+        "alternate_names": [
+          "Kaiserslautern Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 7
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.336694,
+          49.327861
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Homburg (Saar) Hbf",
+        "alternate_names": [
+          "Homburg (Saar) Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 8
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.991031,
+          49.24125
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Saarbrücken Hbf",
+        "alternate_names": [
+          "Saarbrücken Hauptbahnhof"
+        ],
+        "line": "ICE16",
+        "order": 9
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557498,
+          48.140511
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE18",
+        "order": 0
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082178,
+          49.4455
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE18",
+        "order": 1
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038839,
+          50.972285
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Erfurt Hbf",
+        "line": "ICE18",
+        "order": 2
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.987783,
+          51.477388
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Halle (Saale) Hbf",
+        "alternate_names": [
+          "Halle (Saale) Hauptbahnhof"
+        ],
+        "line": "ICE18",
+        "order": 3
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.367007,
+          52.477468
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Berlin Südkreuz",
+        "line": "ICE18",
+        "order": 4
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36991,
+          52.524893
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (Tief)",
+          "Berlin Hbf (Tief)"
+        ],
+        "line": "ICE18",
+        "order": 5
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195655,
+          52.534945
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Berlin-Spandau",
+        "line": "ICE18",
+        "order": 6
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.763036,
+          53.003117
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Wittenberge",
+        "line": "ICE18",
+        "order": 7
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.494128,
+          53.334854
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Ludwigslust",
+        "line": "ICE18",
+        "order": 8
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.007446,
+          53.552499
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE18",
+        "order": 9
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.588879,
+          50.350944
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Koblenz Hbf",
+        "line": "ICE19",
+        "order": 0
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.973921,
+          50.94164
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Köln Messe/Deutz",
+        "alternate_names": [
+          "Köln Messe/Deutz (tief)"
+        ],
+        "line": "ICE19",
+        "order": 1
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.150059,
+          51.25456
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Wuppertal Hbf",
+        "alternate_names": [
+          "Wuppertal Hauptbahnhof"
+        ],
+        "line": "ICE19",
+        "order": 2
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.460587,
+          51.365089
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Hagen Hbf",
+        "line": "ICE19",
+        "order": 3
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533128,
+          52.029541
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Bielefeld Hbf",
+        "line": "ICE19",
+        "order": 4
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.741909,
+          52.377156
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE19",
+        "order": 5
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195591,
+          52.534707
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Berlin-Spandau",
+        "line": "ICE19",
+        "order": 6
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36946,
+          52.524913
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof"
+        ],
+        "line": "ICE19",
+        "order": 7
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.434702,
+          52.510257
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Berlin Ostbahnhof",
+        "line": "ICE19",
+        "order": 8
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.935472,
+          53.55307
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Hamburg-Altona",
+        "line": "ICE20",
+        "order": 0
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.988944,
+          53.56115
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Hamburg Dammtor",
+        "alternate_names": [
+          "Hamburg Dammtor / Universität"
+        ],
+        "line": "ICE20",
+        "order": 1
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0063,
+          53.55215
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE20",
+        "order": 2
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.741588,
+          52.376903
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE20",
+        "order": 3
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.925739,
+          51.536962
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Göttingen",
+        "line": "ICE20",
+        "order": 4
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663046,
+          50.106188
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE20",
+        "order": 5
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.447284,
+          51.311426
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Kassel-Wilhelmshöhe",
+        "line": "ICE20",
+        "order": 6
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE20",
+        "order": 7
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402005,
+          48.993967
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE20",
+        "order": 8
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.190464,
+          48.790505
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "name": "Baden-Baden",
+        "line": "ICE20",
+        "order": 9
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.945893,
+          48.476017
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Offenburg",
+        "line": "ICE20",
+        "order": 10
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.841167,
+          47.997518
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "name": "Freiburg (Breisgau) Hbf",
+        "alternate_names": [
+          "Freiburg (Breisgau) Hauptbahnhof"
+        ],
+        "line": "ICE20",
+        "order": 11
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.607648,
+          47.567631
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Basel Badischer Bahnhof",
+        "line": "ICE20",
+        "order": 12
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589308,
+          47.546963
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "name": "Basel SBB",
+        "line": "ICE20",
+        "order": 13
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183426,
+          48.785349
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "name": "Stuttgart Hbf",
+        "alternate_names": [
+          "Stuttgart Hauptbahnhof"
+        ],
+        "line": "ICE22",
+        "order": 0
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469527,
+          49.479305
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE22",
+        "order": 1
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570425,
+          50.052865
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE22",
+        "order": 2
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662917,
+          50.106324
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE22",
+        "order": 3
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.684325,
+          50.554827
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "name": "Fulda",
+        "line": "ICE22",
+        "order": 4
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.447284,
+          51.311426
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "name": "Kassel-Wilhelmshöhe",
+        "line": "ICE22",
+        "order": 5
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9258,
+          51.536942
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "name": "Göttingen",
+        "line": "ICE22",
+        "order": 6
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.741668,
+          52.376964
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE22",
+        "order": 7
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.81353,
+          53.083133
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Bremen Hbf",
+        "line": "ICE22",
+        "order": 8
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.222569,
+          53.143906
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "name": "Oldenburg (Oldb) Hbf",
+        "line": "ICE22",
+        "order": 9
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.006462,
+          53.552168
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE22",
+        "order": 10
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98909,
+          53.561209
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "name": "Hamburg Dammtor",
+        "alternate_names": [
+          "Hamburg Dammtor / Universität"
+        ],
+        "line": "ICE22",
+        "order": 11
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.934898,
+          53.553083
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Hamburg-Altona",
+        "line": "ICE22",
+        "order": 12
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.979889,
+          54.075722
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Neumünster",
+        "line": "ICE22",
+        "order": 13
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.131023,
+          54.313308
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Kiel Hbf",
+        "line": "ICE22",
+        "order": 14
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.222569,
+          53.143906
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "name": "Oldenburg (Oldb) Hbf",
+        "line": "ICE25",
+        "order": 0
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.629687,
+          53.052791
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "name": "Delmenhorst",
+        "line": "ICE25",
+        "order": 1
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.813373,
+          53.083015
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "name": "Bremen Hbf",
+        "line": "ICE25",
+        "order": 2
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.741588,
+          52.376903
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE25",
+        "order": 3
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.006462,
+          53.552168
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE25",
+        "order": 4
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98909,
+          53.561209
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "name": "Hamburg Dammtor",
+        "alternate_names": [
+          "Hamburg Dammtor / Universität"
+        ],
+        "line": "ICE25",
+        "order": 5
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.934898,
+          53.553083
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "name": "Hamburg-Altona",
+        "line": "ICE25",
+        "order": 6
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.925739,
+          51.536962
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "name": "Göttingen",
+        "line": "ICE25",
+        "order": 7
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.447218,
+          51.31141
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Kassel-Wilhelmshöhe",
+        "line": "ICE25",
+        "order": 8
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.684221,
+          50.554775
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "name": "Fulda",
+        "line": "ICE25",
+        "order": 9
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.936164,
+          49.802104
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "name": "Würzburg Hbf",
+        "alternate_names": [
+          "Würzburg Hauptbahnhof"
+        ],
+        "line": "ICE25",
+        "order": 10
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082294,
+          49.445253
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE25",
+        "order": 11
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.437353,
+          48.74443
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "name": "Ingolstadt Hbf",
+        "alternate_names": [
+          "Ingolstadt Hbf Gleis"
+        ],
+        "line": "ICE25",
+        "order": 12
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557498,
+          48.140511
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE25",
+        "order": 13
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402321,
+          48.993554
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE26",
+        "order": 0
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.589717,
+          49.124427
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "name": "Bruchsal",
+        "line": "ICE26",
+        "order": 1
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.462317,
+          49.002147
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "name": "Karlsruhe-Durlach",
+        "line": "ICE26",
+        "order": 2
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.664225,
+          49.290961
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "name": "Wiesloch-Walldorf",
+        "line": "ICE26",
+        "order": 3
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.675758,
+          49.403568
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "name": "Heidelberg Hbf",
+        "alternate_names": [
+          "Heidelberg Hauptbahnhof"
+        ],
+        "line": "ICE26",
+        "order": 4
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.665421,
+          49.55332
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Weinheim (Bergstr) Hbf",
+        "line": "ICE26",
+        "order": 5
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.616908,
+          49.681333
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "name": "Bensheim",
+        "line": "ICE26",
+        "order": 6
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.629803,
+          49.87333
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "name": "Darmstadt Hbf",
+        "alternate_names": [
+          "Darmstadt Hauptbahnhof"
+        ],
+        "line": "ICE26",
+        "order": 7
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662687,
+          50.106578
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE26",
+        "order": 8
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.761132,
+          50.332661
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "name": "Friedberg (Hessen)",
+        "line": "ICE26",
+        "order": 9
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662325,
+          50.579878
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "name": "Gießen",
+        "line": "ICE26",
+        "order": 10
+      },
+      "id": 178
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.775088,
+          50.819301
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Marburg (Lahn)",
+        "line": "ICE26",
+        "order": 11
+      },
+      "id": 179
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.185719,
+          50.910589
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "name": "Treysa",
+        "line": "ICE26",
+        "order": 12
+      },
+      "id": 180
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.358147,
+          51.102825
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "name": "Wabern (Bz Kassel)",
+        "line": "ICE26",
+        "order": 13
+      },
+      "id": 181
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.447284,
+          51.311426
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "name": "Kassel-Wilhelmshöhe",
+        "line": "ICE26",
+        "order": 14
+      },
+      "id": 182
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9258,
+          51.536942
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "name": "Göttingen",
+        "line": "ICE26",
+        "order": 15
+      },
+      "id": 183
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.741837,
+          52.377091
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE26",
+        "order": 16
+      },
+      "id": 184
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.062485,
+          52.620771
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "name": "Celle",
+        "line": "ICE26",
+        "order": 17
+      },
+      "id": 185
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.553689,
+          52.969853
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "name": "Uelzen",
+        "line": "ICE26",
+        "order": 18
+      },
+      "id": 186
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.419789,
+          53.249731
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Lüneburg",
+        "line": "ICE26",
+        "order": 19
+      },
+      "id": 187
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.992361,
+          53.455739
+        ]
+      },
+      "properties": {
+        "id": 188,
+        "name": "Hamburg-Harburg",
+        "line": "ICE26",
+        "order": 20
+      },
+      "id": 188
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.006725,
+          53.551833
+        ]
+      },
+      "properties": {
+        "id": 189,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE26",
+        "order": 21
+      },
+      "id": 189
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98909,
+          53.561209
+        ]
+      },
+      "properties": {
+        "id": 190,
+        "name": "Hamburg Dammtor",
+        "alternate_names": [
+          "Hamburg Dammtor / Universität"
+        ],
+        "line": "ICE26",
+        "order": 22
+      },
+      "id": 190
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.934898,
+          53.553083
+        ]
+      },
+      "properties": {
+        "id": 191,
+        "name": "Hamburg-Altona",
+        "line": "ICE26",
+        "order": 23
+      },
+      "id": 191
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557498,
+          48.140511
+        ]
+      },
+      "properties": {
+        "id": 192,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE28",
+        "order": 0
+      },
+      "id": 192
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.437409,
+          48.744441
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Ingolstadt Hbf",
+        "alternate_names": [
+          "Ingolstadt Hbf Gleis"
+        ],
+        "line": "ICE28",
+        "order": 1
+      },
+      "id": 193
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082178,
+          49.4455
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE28",
+        "order": 2
+      },
+      "id": 194
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.001761,
+          49.596002
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Erlangen",
+        "line": "ICE28",
+        "order": 3
+      },
+      "id": 195
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.899521,
+          49.900864
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Bamberg",
+        "line": "ICE28",
+        "order": 4
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038839,
+          50.972285
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Erfurt Hbf",
+        "line": "ICE28",
+        "order": 5
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.381866,
+          51.345842
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Leipzig Hbf",
+        "alternate_names": [
+          "Leipzig Hauptbahnhof"
+        ],
+        "line": "ICE28",
+        "order": 6
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.317118,
+          51.622615
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "Bitterfeld",
+        "line": "ICE28",
+        "order": 7
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.661752,
+          51.86762
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Lutherstadt Wittenberg Hbf",
+        "alternate_names": [
+          "Lutherstadt Wittenberg Hauptbahnhof"
+        ],
+        "line": "ICE28",
+        "order": 8
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.366757,
+          52.477549
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Berlin Südkreuz",
+        "line": "ICE28",
+        "order": 9
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.369001,
+          52.526058
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (tief)",
+          "Berlin Hbf (tief)"
+        ],
+        "line": "ICE28",
+        "order": 10
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.195655,
+          52.534945
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Berlin-Spandau",
+        "line": "ICE28",
+        "order": 11
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.763036,
+          53.003117
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Wittenberge",
+        "line": "ICE28",
+        "order": 12
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.494128,
+          53.334854
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Ludwigslust",
+        "line": "ICE28",
+        "order": 13
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.007446,
+          53.552499
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE28",
+        "order": 14
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.389449,
+          52.54887
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Berlin Gesundbrunnen",
+        "line": "ICE29",
+        "order": 0
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.368715,
+          52.525995
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (tief)",
+          "Berlin Hbf (tief)"
+        ],
+        "line": "ICE29",
+        "order": 1
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.364904,
+          52.474767
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Berlin Südkreuz",
+        "line": "ICE29",
+        "order": 2
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.987065,
+          51.47704
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Halle (Saale) Hbf",
+        "alternate_names": [
+          "Halle (Saale) Hauptbahnhof"
+        ],
+        "line": "ICE29",
+        "order": 3
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038125,
+          50.972616
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Erfurt Hbf",
+        "line": "ICE29",
+        "order": 4
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.08225,
+          49.44535
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE29",
+        "order": 5
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557498,
+          48.140511
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE29",
+        "order": 6
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.599669,
+          54.405621
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Ostseebad Binz",
+        "line": "ICE33",
+        "order": 0
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.417572,
+          54.420413
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Bergen auf Rügen",
+        "line": "ICE33",
+        "order": 1
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.078664,
+          54.307714
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Stralsund Hbf",
+        "line": "ICE33",
+        "order": 2
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.802586,
+          54.277364
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "Velgast",
+        "line": "ICE33",
+        "order": 3
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.436924,
+          54.239155
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Ribnitz-Damgarten West",
+        "line": "ICE33",
+        "order": 4
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.998169,
+          53.837242
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Bützow",
+        "line": "ICE33",
+        "order": 5
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.407467,
+          53.635311
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Schwerin Hbf",
+        "alternate_names": [
+          "Schwerin Hauptbahnhof"
+        ],
+        "line": "ICE33",
+        "order": 6
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.006945,
+          53.55186
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Hamburg Hbf",
+        "alternate_names": [
+          "Hamburg Hauptbahnhof"
+        ],
+        "line": "ICE33",
+        "order": 7
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.450763,
+          48.573841
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Passau Hbf",
+        "line": "ICE39",
+        "order": 0
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.574273,
+          48.876951
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Straubing",
+        "line": "ICE39",
+        "order": 1
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.099908,
+          49.011751
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "Regensburg Hbf",
+        "alternate_names": [
+          "Regensburg Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 2
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082178,
+          49.4455
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 3
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.936178,
+          49.802136
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Würzburg Hbf",
+        "alternate_names": [
+          "Würzburg Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 4
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.928748,
+          50.120751
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "Hanau Hbf",
+        "line": "ICE39",
+        "order": 5
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663046,
+          50.106188
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 6
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.569538,
+          50.053042
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 7
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.258292,
+          50.001605
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Mainz Hbf",
+        "alternate_names": [
+          "Mainz Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 8
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.588695,
+          50.350954
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Koblenz Hbf",
+        "line": "ICE39",
+        "order": 9
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.973792,
+          50.94164
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "Köln Messe/Deutz",
+        "alternate_names": [
+          "Köln Messe/Deutz (tief)"
+        ],
+        "line": "ICE39",
+        "order": 10
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.776779,
+          51.429616
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 11
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.013615,
+          51.451478
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Essen Hbf",
+        "alternate_names": [
+          "Essen Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 12
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.635994,
+          51.956683
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Münster (Westf) Hbf",
+        "alternate_names": [
+          "Münster (Westf) Hauptbahnhof"
+        ],
+        "line": "ICE39",
+        "order": 13
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.992134,
+          53.455722
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Hamburg-Harburg",
+        "line": "ICE39",
+        "order": 14
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557451,
+          48.140196
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 0
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.437409,
+          48.744441
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Ingolstadt Hbf",
+        "alternate_names": [
+          "Ingolstadt Hbf Gleis"
+        ],
+        "line": "ICE41",
+        "order": 1
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082178,
+          49.4455
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 2
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.936164,
+          49.802104
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Würzburg Hbf",
+        "alternate_names": [
+          "Würzburg Hauptbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 3
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.143884,
+          49.980781
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Aschaffenburg Hbf",
+        "line": "ICE41",
+        "order": 4
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662957,
+          50.106286
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 5
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.569592,
+          50.052895
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 6
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.973921,
+          50.94164
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Köln Messe/Deutz",
+        "alternate_names": [
+          "Köln Messe/Deutz (tief)"
+        ],
+        "line": "ICE41",
+        "order": 7
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.777004,
+          51.42961
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 8
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.013868,
+          51.451349
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Essen Hbf",
+        "alternate_names": [
+          "Essen Hauptbahnhof"
+        ],
+        "line": "ICE41",
+        "order": 9
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.459266,
+          51.517829
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Dortmund Hbf",
+        "line": "ICE42",
+        "order": 0
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.223061,
+          51.47865
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Bochum Hbf",
+        "line": "ICE42",
+        "order": 1
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.013815,
+          51.451576
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Essen Hbf",
+        "alternate_names": [
+          "Essen Hauptbahnhof"
+        ],
+        "line": "ICE42",
+        "order": 2
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.775713,
+          51.429464
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE42",
+        "order": 3
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.202701,
+          50.79371
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Siegburg/Bonn",
+        "line": "ICE42",
+        "order": 4
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570373,
+          50.053002
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE42",
+        "order": 5
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE42",
+        "order": 6
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.184122,
+          48.785065
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Stuttgart Hbf",
+        "line": "ICE42",
+        "order": 7
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.982834,
+          48.399315
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Ulm Hbf",
+        "line": "ICE42",
+        "order": 8
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.885818,
+          48.365398
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Augsburg Hbf",
+        "alternate_names": [
+          "Augsburg Hauptbahnhof"
+        ],
+        "line": "ICE42",
+        "order": 9
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.46175,
+          48.150152
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "München-Pasing",
+        "line": "ICE42",
+        "order": 10
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557428,
+          48.140041
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE42",
+        "order": 11
+      },
+      "id": 258
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.742095,
+          52.377324
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Hannover Hbf",
+        "alternate_names": [
+          "Hannover Hauptbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 0
+      },
+      "id": 259
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.459266,
+          51.517829
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Dortmund Hbf",
+        "line": "ICE43",
+        "order": 1
+      },
+      "id": 260
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.460334,
+          51.363406
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Hagen Hbf",
+        "line": "ICE43",
+        "order": 2
+      },
+      "id": 261
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.150048,
+          51.254597
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Wuppertal Hbf",
+        "alternate_names": [
+          "Wuppertal Hauptbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 3
+      },
+      "id": 262
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.202701,
+          50.79371
+        ]
+      },
+      "properties": {
+        "id": 263,
+        "name": "Siegburg/Bonn",
+        "line": "ICE43",
+        "order": 4
+      },
+      "id": 263
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570373,
+          50.053002
+        ]
+      },
+      "properties": {
+        "id": 264,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 5
+      },
+      "id": 264
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469482,
+          49.47927
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 6
+      },
+      "id": 265
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402005,
+          48.993967
+        ]
+      },
+      "properties": {
+        "id": 266,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 7
+      },
+      "id": 266
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.190464,
+          48.790505
+        ]
+      },
+      "properties": {
+        "id": 267,
+        "name": "Baden-Baden",
+        "line": "ICE43",
+        "order": 8
+      },
+      "id": 267
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.945893,
+          48.476017
+        ]
+      },
+      "properties": {
+        "id": 268,
+        "name": "Offenburg",
+        "line": "ICE43",
+        "order": 9
+      },
+      "id": 268
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.841167,
+          47.997518
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "name": "Freiburg (Breisgau) Hbf",
+        "alternate_names": [
+          "Freiburg (Breisgau) Hauptbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 10
+      },
+      "id": 269
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.607648,
+          47.567631
+        ]
+      },
+      "properties": {
+        "id": 270,
+        "name": "Basel Badischer Bahnhof",
+        "line": "ICE43",
+        "order": 11
+      },
+      "id": 270
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589161,
+          47.546786
+        ]
+      },
+      "properties": {
+        "id": 271,
+        "name": "Basel SBB",
+        "line": "ICE43",
+        "order": 12
+      },
+      "id": 271
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.901065,
+          52.378647
+        ]
+      },
+      "properties": {
+        "id": 272,
+        "name": "Amsterdam Centraal",
+        "line": "ICE43",
+        "order": 13
+      },
+      "id": 272
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.109198,
+          52.089595
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "name": "Utrecht Centraal",
+        "line": "ICE43",
+        "order": 14
+      },
+      "id": 273
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.900427,
+          51.985174
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "name": "Arnhem Centraal",
+        "line": "ICE43",
+        "order": 15
+      },
+      "id": 274
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.851517,
+          51.474954
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "name": "Oberhausen Hbf",
+        "line": "ICE43",
+        "order": 16
+      },
+      "id": 275
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.775572,
+          51.429697
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE43",
+        "order": 17
+      },
+      "id": 276
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.258753,
+          50.00134
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "name": "Mainz Hbf",
+        "alternate_names": [
+          "Mainz Hauptbahnhof"
+        ],
+        "line": "ICE45",
+        "order": 0
+      },
+      "id": 277
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.243873,
+          50.070339
+        ]
+      },
+      "properties": {
+        "id": 278,
+        "name": "Wiesbaden Hbf",
+        "line": "ICE45",
+        "order": 1
+      },
+      "id": 278
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.095879,
+          50.382811
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "name": "Limburg Süd",
+        "line": "ICE45",
+        "order": 2
+      },
+      "id": 279
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.825211,
+          50.44479
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "name": "Montabaur",
+        "line": "ICE45",
+        "order": 3
+      },
+      "id": 280
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.202873,
+          50.793817
+        ]
+      },
+      "properties": {
+        "id": 281,
+        "name": "Siegburg/Bonn",
+        "line": "ICE45",
+        "order": 4
+      },
+      "id": 281
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119307,
+          50.878906
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "name": "Köln/Bonn Flughafen",
+        "line": "ICE45",
+        "order": 5
+      },
+      "id": 282
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.459266,
+          51.517829
+        ]
+      },
+      "properties": {
+        "id": 283,
+        "name": "Dortmund Hbf",
+        "line": "ICE47",
+        "order": 0
+      },
+      "id": 283
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.223061,
+          51.47865
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "name": "Bochum Hbf",
+        "line": "ICE47",
+        "order": 1
+      },
+      "id": 284
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.013815,
+          51.451576
+        ]
+      },
+      "properties": {
+        "id": 285,
+        "name": "Essen Hbf",
+        "alternate_names": [
+          "Essen Hauptbahnhof"
+        ],
+        "line": "ICE47",
+        "order": 2
+      },
+      "id": 285
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.775713,
+          51.429464
+        ]
+      },
+      "properties": {
+        "id": 286,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE47",
+        "order": 3
+      },
+      "id": 286
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.973792,
+          50.94164
+        ]
+      },
+      "properties": {
+        "id": 287,
+        "name": "Köln Messe/Deutz",
+        "alternate_names": [
+          "Köln Messe/Deutz (tief)"
+        ],
+        "line": "ICE47",
+        "order": 4
+      },
+      "id": 287
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.202701,
+          50.79371
+        ]
+      },
+      "properties": {
+        "id": 288,
+        "name": "Siegburg/Bonn",
+        "line": "ICE47",
+        "order": 5
+      },
+      "id": 288
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570373,
+          50.053002
+        ]
+      },
+      "properties": {
+        "id": 289,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE47",
+        "order": 6
+      },
+      "id": 289
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 290,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE47",
+        "order": 7
+      },
+      "id": 290
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.184122,
+          48.785065
+        ]
+      },
+      "properties": {
+        "id": 291,
+        "name": "Stuttgart Hbf",
+        "line": "ICE47",
+        "order": 8
+      },
+      "id": 291
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.982834,
+          48.399315
+        ]
+      },
+      "properties": {
+        "id": 292,
+        "name": "Ulm Hbf",
+        "line": "ICE47",
+        "order": 9
+      },
+      "id": 292
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.885818,
+          48.365398
+        ]
+      },
+      "properties": {
+        "id": 293,
+        "name": "Augsburg Hbf",
+        "alternate_names": [
+          "Augsburg Hauptbahnhof"
+        ],
+        "line": "ICE47",
+        "order": 10
+      },
+      "id": 293
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.46175,
+          48.150152
+        ]
+      },
+      "properties": {
+        "id": 294,
+        "name": "München-Pasing",
+        "line": "ICE47",
+        "order": 11
+      },
+      "id": 294
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557428,
+          48.140041
+        ]
+      },
+      "properties": {
+        "id": 295,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE47",
+        "order": 12
+      },
+      "id": 295
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.202701,
+          50.79371
+        ]
+      },
+      "properties": {
+        "id": 296,
+        "name": "Siegburg/Bonn",
+        "line": "ICE49",
+        "order": 0
+      },
+      "id": 296
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8252,
+          50.444633
+        ]
+      },
+      "properties": {
+        "id": 297,
+        "name": "Montabaur",
+        "line": "ICE49",
+        "order": 1
+      },
+      "id": 297
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.096392,
+          50.382083
+        ]
+      },
+      "properties": {
+        "id": 298,
+        "name": "Limburg Süd",
+        "line": "ICE49",
+        "order": 2
+      },
+      "id": 298
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570373,
+          50.053002
+        ]
+      },
+      "properties": {
+        "id": 299,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE49",
+        "order": 3
+      },
+      "id": 299
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662233,
+          50.107071
+        ]
+      },
+      "properties": {
+        "id": 300,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE49",
+        "order": 4
+      },
+      "id": 300
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.243873,
+          50.070339
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Wiesbaden Hbf",
+        "line": "ICE50",
+        "order": 0
+      },
+      "id": 301
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.258537,
+          50.001263
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Mainz Hbf",
+        "alternate_names": [
+          "Mainz Hauptbahnhof"
+        ],
+        "line": "ICE50",
+        "order": 1
+      },
+      "id": 302
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570425,
+          50.052865
+        ]
+      },
+      "properties": {
+        "id": 303,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE50",
+        "order": 2
+      },
+      "id": 303
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.687202,
+          50.099458
+        ]
+      },
+      "properties": {
+        "id": 304,
+        "name": "Frankfurt (Main) Süd",
+        "line": "ICE50",
+        "order": 3
+      },
+      "id": 304
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663046,
+          50.106188
+        ]
+      },
+      "properties": {
+        "id": 305,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE50",
+        "order": 4
+      },
+      "id": 305
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.684451,
+          50.554898
+        ]
+      },
+      "properties": {
+        "id": 306,
+        "name": "Fulda",
+        "line": "ICE50",
+        "order": 5
+      },
+      "id": 306
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.716483,
+          50.869555
+        ]
+      },
+      "properties": {
+        "id": 307,
+        "name": "Bad Hersfeld",
+        "line": "ICE50",
+        "order": 6
+      },
+      "id": 307
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.332663,
+          50.976816
+        ]
+      },
+      "properties": {
+        "id": 308,
+        "name": "Eisenach Hbf",
+        "line": "ICE50",
+        "order": 7
+      },
+      "id": 308
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.71254,
+          50.938998
+        ]
+      },
+      "properties": {
+        "id": 309,
+        "name": "Gotha",
+        "line": "ICE50",
+        "order": 8
+      },
+      "id": 309
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038438,
+          50.972056
+        ]
+      },
+      "properties": {
+        "id": 310,
+        "name": "Erfurt Hbf",
+        "line": "ICE50",
+        "order": 9
+      },
+      "id": 310
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.382425,
+          51.345634
+        ]
+      },
+      "properties": {
+        "id": 311,
+        "name": "Leipzig Hbf",
+        "alternate_names": [
+          "Leipzig Hauptbahnhof"
+        ],
+        "line": "ICE50",
+        "order": 10
+      },
+      "id": 311
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.287837,
+          51.309647
+        ]
+      },
+      "properties": {
+        "id": 312,
+        "name": "Riesa",
+        "line": "ICE50",
+        "order": 11
+      },
+      "id": 312
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.731272,
+          51.040096
+        ]
+      },
+      "properties": {
+        "id": 313,
+        "name": "Dresden Hbf",
+        "line": "ICE50",
+        "order": 12
+      },
+      "id": 313
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.608489,
+          47.567888
+        ]
+      },
+      "properties": {
+        "id": 314,
+        "name": "Basel Badischer Bahnhof",
+        "line": "ICE60",
+        "order": 0
+      },
+      "id": 314
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.697653,
+          47.91968
+        ]
+      },
+      "properties": {
+        "id": 315,
+        "name": "Bad Krozingen",
+        "line": "ICE60",
+        "order": 1
+      },
+      "id": 315
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.841428,
+          47.997474
+        ]
+      },
+      "properties": {
+        "id": 316,
+        "name": "Freiburg (Breisgau) Hbf",
+        "alternate_names": [
+          "Freiburg (Breisgau) Hauptbahnhof"
+        ],
+        "line": "ICE60",
+        "order": 2
+      },
+      "id": 316
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.836181,
+          48.341806
+        ]
+      },
+      "properties": {
+        "id": 317,
+        "name": "Lahr (Schwarzwald)",
+        "line": "ICE60",
+        "order": 3
+      },
+      "id": 317
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.946161,
+          48.475963
+        ]
+      },
+      "properties": {
+        "id": 318,
+        "name": "Offenburg",
+        "line": "ICE60",
+        "order": 4
+      },
+      "id": 318
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.190813,
+          48.790341
+        ]
+      },
+      "properties": {
+        "id": 319,
+        "name": "Baden-Baden",
+        "line": "ICE60",
+        "order": 5
+      },
+      "id": 319
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402405,
+          48.993447
+        ]
+      },
+      "properties": {
+        "id": 320,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE60",
+        "order": 6
+      },
+      "id": 320
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.462335,
+          49.002103
+        ]
+      },
+      "properties": {
+        "id": 321,
+        "name": "Karlsruhe-Durlach",
+        "line": "ICE60",
+        "order": 7
+      },
+      "id": 321
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.589717,
+          49.124427
+        ]
+      },
+      "properties": {
+        "id": 322,
+        "name": "Bruchsal",
+        "line": "ICE60",
+        "order": 8
+      },
+      "id": 322
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.184122,
+          48.785065
+        ]
+      },
+      "properties": {
+        "id": 323,
+        "name": "Stuttgart Hbf",
+        "line": "ICE60",
+        "order": 9
+      },
+      "id": 323
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.982834,
+          48.399315
+        ]
+      },
+      "properties": {
+        "id": 324,
+        "name": "Ulm Hbf",
+        "line": "ICE60",
+        "order": 10
+      },
+      "id": 324
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.279329,
+          48.460557
+        ]
+      },
+      "properties": {
+        "id": 325,
+        "name": "Günzburg",
+        "line": "ICE60",
+        "order": 11
+      },
+      "id": 325
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.885869,
+          48.365419
+        ]
+      },
+      "properties": {
+        "id": 326,
+        "name": "Augsburg Hbf",
+        "alternate_names": [
+          "Augsburg Hauptbahnhof"
+        ],
+        "line": "ICE60",
+        "order": 12
+      },
+      "id": 326
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.46175,
+          48.150152
+        ]
+      },
+      "properties": {
+        "id": 327,
+        "name": "München-Pasing",
+        "line": "ICE60",
+        "order": 13
+      },
+      "id": 327
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557457,
+          48.140233
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE60",
+        "order": 14
+      },
+      "id": 328
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.900846,
+          52.378442
+        ]
+      },
+      "properties": {
+        "id": 329,
+        "name": "Amsterdam Centraal",
+        "line": "ICE78",
+        "order": 0
+      },
+      "id": 329
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.108973,
+          52.089509
+        ]
+      },
+      "properties": {
+        "id": 330,
+        "name": "Utrecht Centraal",
+        "line": "ICE78",
+        "order": 1
+      },
+      "id": 330
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.900427,
+          51.985174
+        ]
+      },
+      "properties": {
+        "id": 331,
+        "name": "Arnhem Centraal",
+        "line": "ICE78",
+        "order": 2
+      },
+      "id": 331
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.851517,
+          51.474954
+        ]
+      },
+      "properties": {
+        "id": 332,
+        "name": "Oberhausen Hbf",
+        "line": "ICE78",
+        "order": 3
+      },
+      "id": 332
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.775519,
+          51.429728
+        ]
+      },
+      "properties": {
+        "id": 333,
+        "name": "Duisburg Hbf",
+        "alternate_names": [
+          "Duisburg Hauptbahnhof"
+        ],
+        "line": "ICE78",
+        "order": 4
+      },
+      "id": 333
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570373,
+          50.053002
+        ]
+      },
+      "properties": {
+        "id": 334,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE78",
+        "order": 5
+      },
+      "id": 334
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662233,
+          50.107071
+        ]
+      },
+      "properties": {
+        "id": 335,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE78",
+        "order": 6
+      },
+      "id": 335
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.335031,
+          50.835854
+        ]
+      },
+      "properties": {
+        "id": 336,
+        "name": "Bruxelles-Midi - Brussel-Zuid",
+        "line": "ICE79",
+        "order": 0
+      },
+      "id": 336
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36142,
+          50.860566
+        ]
+      },
+      "properties": {
+        "id": 337,
+        "name": "Bruxelles-Nord - Brussel-Noord",
+        "line": "ICE79",
+        "order": 1
+      },
+      "id": 337
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.566961,
+          50.624563
+        ]
+      },
+      "properties": {
+        "id": 338,
+        "name": "Liège-Guillemins",
+        "line": "ICE79",
+        "order": 2
+      },
+      "id": 338
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.092077,
+          50.767617
+        ]
+      },
+      "properties": {
+        "id": 339,
+        "name": "Aachen Hbf",
+        "alternate_names": [
+          "Aachen Hauptbahnhof"
+        ],
+        "line": "ICE79",
+        "order": 3
+      },
+      "id": 339
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570373,
+          50.053002
+        ]
+      },
+      "properties": {
+        "id": 340,
+        "name": "Frankfurt (Main) Flughafen Fernbf",
+        "alternate_names": [
+          "Frankfurt am Main Flughafen Fernbahnhof"
+        ],
+        "line": "ICE79",
+        "order": 4
+      },
+      "id": 340
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662233,
+          50.107071
+        ]
+      },
+      "properties": {
+        "id": 341,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE79",
+        "order": 5
+      },
+      "id": 341
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662368,
+          50.106926
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE82",
+        "order": 0
+      },
+      "id": 342
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469482,
+          49.47927
+        ]
+      },
+      "properties": {
+        "id": 343,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE82",
+        "order": 1
+      },
+      "id": 343
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.401649,
+          48.994008
+        ]
+      },
+      "properties": {
+        "id": 344,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE82",
+        "order": 2
+      },
+      "id": 344
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.734263,
+          48.585135
+        ]
+      },
+      "properties": {
+        "id": 345,
+        "name": "Strasbourg",
+        "line": "ICE82",
+        "order": 3
+      },
+      "id": 345
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768933,
+          49.435986
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "name": "Kaiserslautern Hbf",
+        "alternate_names": [
+          "Kaiserslautern Hauptbahnhof"
+        ],
+        "line": "ICE82",
+        "order": 4
+      },
+      "id": 346
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.991047,
+          49.241379
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "name": "Saarbrücken Hbf",
+        "alternate_names": [
+          "Saarbrücken Hauptbahnhof"
+        ],
+        "line": "ICE82",
+        "order": 5
+      },
+      "id": 347
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.900931,
+          49.189463
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "name": "Forbach",
+        "line": "ICE82",
+        "order": 6
+      },
+      "id": 348
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35907,
+          48.877642
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "name": "Paris Est",
+        "alternate_names": [
+          "Gare de l'Est"
+        ],
+        "line": "ICE82",
+        "order": 7
+      },
+      "id": 349
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557457,
+          48.140233
+        ]
+      },
+      "properties": {
+        "id": 350,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE83",
+        "order": 0
+      },
+      "id": 350
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.886056,
+          48.365491
+        ]
+      },
+      "properties": {
+        "id": 351,
+        "name": "Augsburg Hbf",
+        "alternate_names": [
+          "Augsburg Hauptbahnhof"
+        ],
+        "line": "ICE83",
+        "order": 1
+      },
+      "id": 351
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.98294,
+          48.399317
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Ulm Hbf",
+        "line": "ICE83",
+        "order": 2
+      },
+      "id": 352
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183426,
+          48.785349
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "name": "Stuttgart Hbf",
+        "alternate_names": [
+          "Stuttgart Hauptbahnhof"
+        ],
+        "line": "ICE83",
+        "order": 3
+      },
+      "id": 353
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.957761,
+          48.948192
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "name": "Vaihingen (Enz)",
+        "line": "ICE83",
+        "order": 4
+      },
+      "id": 354
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402321,
+          48.993554
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE83",
+        "order": 5
+      },
+      "id": 355
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.300332,
+          48.738671
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "name": "Esslingen (Neckar)",
+        "line": "ICE83",
+        "order": 6
+      },
+      "id": 356
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.73402,
+          48.585229
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "name": "Strasbourg",
+        "line": "ICE83",
+        "order": 7
+      },
+      "id": 357
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.360557,
+          48.877282
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "name": "Paris Est",
+        "alternate_names": [
+          "Gare de l'Est"
+        ],
+        "line": "ICE83",
+        "order": 8
+      },
+      "id": 358
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663209,
+          50.105995
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE84",
+        "order": 0
+      },
+      "id": 359
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE84",
+        "order": 1
+      },
+      "id": 360
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402005,
+          48.993967
+        ]
+      },
+      "properties": {
+        "id": 361,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE84",
+        "order": 2
+      },
+      "id": 361
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.190464,
+          48.790505
+        ]
+      },
+      "properties": {
+        "id": 362,
+        "name": "Baden-Baden",
+        "line": "ICE84",
+        "order": 3
+      },
+      "id": 362
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.733966,
+          48.585249
+        ]
+      },
+      "properties": {
+        "id": 363,
+        "name": "Strasbourg",
+        "line": "ICE84",
+        "order": 4
+      },
+      "id": 363
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.343076,
+          47.741652
+        ]
+      },
+      "properties": {
+        "id": 364,
+        "name": "Mulhouse-Ville",
+        "line": "ICE84",
+        "order": 5
+      },
+      "id": 364
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897543,
+          47.58583
+        ]
+      },
+      "properties": {
+        "id": 365,
+        "name": "Belfort - Montbéliard TGV",
+        "line": "ICE84",
+        "order": 6
+      },
+      "id": 365
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.953427,
+          47.307831
+        ]
+      },
+      "properties": {
+        "id": 366,
+        "name": "Besançon Franche-Comté TGV",
+        "line": "ICE84",
+        "order": 7
+      },
+      "id": 366
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.842975,
+          46.781432
+        ]
+      },
+      "properties": {
+        "id": 367,
+        "name": "Chalon-sur-Saône",
+        "line": "ICE84",
+        "order": 8
+      },
+      "id": 367
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.860424,
+          45.760536
+        ]
+      },
+      "properties": {
+        "id": 368,
+        "name": "Lyon Part-Dieu",
+        "line": "ICE84",
+        "order": 9
+      },
+      "id": 368
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557428,
+          48.140041
+        ]
+      },
+      "properties": {
+        "id": 369,
+        "name": "München Hbf",
+        "alternate_names": [
+          "München Hauptbahnhof"
+        ],
+        "line": "ICE90",
+        "order": 0
+      },
+      "id": 369
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.045661,
+          47.812923
+        ]
+      },
+      "properties": {
+        "id": 370,
+        "name": "Salzburg Hbf",
+        "alternate_names": [
+          "Salzburg Hauptbahnhof"
+        ],
+        "line": "ICE90",
+        "order": 1
+      },
+      "id": 370
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.291907,
+          48.290198
+        ]
+      },
+      "properties": {
+        "id": 371,
+        "name": "Linz Hbf",
+        "alternate_names": [
+          "Linz Hauptbahnhof"
+        ],
+        "line": "ICE90",
+        "order": 2
+      },
+      "id": 371
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.625786,
+          48.208201
+        ]
+      },
+      "properties": {
+        "id": 372,
+        "name": "St. Pölten Hbf",
+        "alternate_names": [
+          "St. Pölten Hauptbahnhof"
+        ],
+        "line": "ICE90",
+        "order": 3
+      },
+      "id": 372
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.334053,
+          48.174397
+        ]
+      },
+      "properties": {
+        "id": 373,
+        "name": "Wien Meidling",
+        "line": "ICE90",
+        "order": 4
+      },
+      "id": 373
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.377894,
+          48.184832
+        ]
+      },
+      "properties": {
+        "id": 374,
+        "name": "Wien Hbf",
+        "alternate_names": [
+          "Wien Hauptbahnhof"
+        ],
+        "line": "ICE90",
+        "order": 5
+      },
+      "id": 374
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.146092,
+          47.913602
+        ]
+      },
+      "properties": {
+        "id": 375,
+        "name": "Hegyeshalom",
+        "line": "ICE90",
+        "order": 6
+      },
+      "id": 375
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.268684,
+          47.84863
+        ]
+      },
+      "properties": {
+        "id": 376,
+        "name": "Mosonmagyaróvár",
+        "line": "ICE90",
+        "order": 7
+      },
+      "id": 376
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662957,
+          50.106286
+        ]
+      },
+      "properties": {
+        "id": 377,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 0
+      },
+      "id": 377
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.928637,
+          50.12068
+        ]
+      },
+      "properties": {
+        "id": 378,
+        "name": "Hanau Hbf",
+        "line": "ICE91",
+        "order": 1
+      },
+      "id": 378
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.936127,
+          49.802001
+        ]
+      },
+      "properties": {
+        "id": 379,
+        "name": "Würzburg Hbf",
+        "alternate_names": [
+          "Würzburg Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 2
+      },
+      "id": 379
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.082294,
+          49.445253
+        ]
+      },
+      "properties": {
+        "id": 380,
+        "name": "Nürnberg Hbf",
+        "alternate_names": [
+          "Nürnberg Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 3
+      },
+      "id": 380
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.099938,
+          49.011498
+        ]
+      },
+      "properties": {
+        "id": 381,
+        "name": "Regensburg Hbf",
+        "alternate_names": [
+          "Regensburg Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 4
+      },
+      "id": 381
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.450779,
+          48.573668
+        ]
+      },
+      "properties": {
+        "id": 382,
+        "name": "Passau Hbf",
+        "line": "ICE91",
+        "order": 5
+      },
+      "id": 382
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.026565,
+          48.165938
+        ]
+      },
+      "properties": {
+        "id": 383,
+        "name": "Wels Hbf",
+        "alternate_names": [
+          "Wels Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 6
+      },
+      "id": 383
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.291907,
+          48.290198
+        ]
+      },
+      "properties": {
+        "id": 384,
+        "name": "Linz Hbf",
+        "alternate_names": [
+          "Linz Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 7
+      },
+      "id": 384
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.625786,
+          48.208201
+        ]
+      },
+      "properties": {
+        "id": 385,
+        "name": "St. Pölten Hbf",
+        "alternate_names": [
+          "St. Pölten Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 8
+      },
+      "id": 385
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.334053,
+          48.174397
+        ]
+      },
+      "properties": {
+        "id": 386,
+        "name": "Wien Meidling",
+        "line": "ICE91",
+        "order": 9
+      },
+      "id": 386
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.377839,
+          48.184645
+        ]
+      },
+      "properties": {
+        "id": 387,
+        "name": "Wien Hbf",
+        "alternate_names": [
+          "Wien Hauptbahnhof"
+        ],
+        "line": "ICE91",
+        "order": 10
+      },
+      "id": 387
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.389439,
+          52.548721
+        ]
+      },
+      "properties": {
+        "id": 388,
+        "name": "Berlin Gesundbrunnen",
+        "line": "ICE9590",
+        "order": 0
+      },
+      "id": 388
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.368715,
+          52.525995
+        ]
+      },
+      "properties": {
+        "id": 389,
+        "name": "Berlin Hbf",
+        "alternate_names": [
+          "Berlin Hauptbahnhof (tief)",
+          "Berlin Hbf (tief)"
+        ],
+        "line": "ICE9590",
+        "order": 1
+      },
+      "id": 389
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36656,
+          52.477597
+        ]
+      },
+      "properties": {
+        "id": 390,
+        "name": "Berlin Südkreuz",
+        "line": "ICE9590",
+        "order": 2
+      },
+      "id": 390
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.987065,
+          51.47704
+        ]
+      },
+      "properties": {
+        "id": 391,
+        "name": "Halle (Saale) Hbf",
+        "alternate_names": [
+          "Halle (Saale) Hauptbahnhof"
+        ],
+        "line": "ICE9590",
+        "order": 3
+      },
+      "id": 391
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038125,
+          50.972616
+        ]
+      },
+      "properties": {
+        "id": 392,
+        "name": "Erfurt Hbf",
+        "line": "ICE9590",
+        "order": 4
+      },
+      "id": 392
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.662917,
+          50.106324
+        ]
+      },
+      "properties": {
+        "id": 393,
+        "name": "Frankfurt (Main) Hbf",
+        "alternate_names": [
+          "Frankfurt (Main) Hauptbahnhof"
+        ],
+        "line": "ICE9590",
+        "order": 5
+      },
+      "id": 393
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469358,
+          49.479167
+        ]
+      },
+      "properties": {
+        "id": 394,
+        "name": "Mannheim Hbf",
+        "alternate_names": [
+          "Mannheim Hauptbahnhof"
+        ],
+        "line": "ICE9590",
+        "order": 6
+      },
+      "id": 394
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.402005,
+          48.993967
+        ]
+      },
+      "properties": {
+        "id": 395,
+        "name": "Karlsruhe Hbf",
+        "alternate_names": [
+          "Karlsruhe Hauptbahnhof"
+        ],
+        "line": "ICE9590",
+        "order": 7
+      },
+      "id": 395
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.734263,
+          48.585135
+        ]
+      },
+      "properties": {
+        "id": 396,
+        "name": "Strasbourg",
+        "line": "ICE9590",
+        "order": 8
+      },
+      "id": 396
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35907,
+          48.877642
+        ]
+      },
+      "properties": {
+        "id": 397,
+        "name": "Paris Est",
+        "alternate_names": [
+          "Gare de l'Est"
+        ],
+        "line": "ICE9590",
+        "order": 9
+      },
+      "id": 397
+    }
+  ]
+}

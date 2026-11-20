@@ -6,14 +6,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0,
-          0
+          3.06237,
+          36.785779
         ]
       },
       "properties": {
-        "name": "Central Station",
-        "line": "PL0",
-        "id": 0
+        "id": 0,
+        "name": "Place des Martyrs (ساحة الشهداء)",
+        "alternate_names": [
+          "ساحة الشهداء",
+          "Place des Martyrs"
+        ],
+        "line": "ALG1",
+        "order": 0
       },
       "id": 0
     },
@@ -22,14 +27,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.05,
-          0.05
+          3.058605,
+          36.780209
         ]
       },
       "properties": {
-        "name": "Museum",
-        "line": "PL0",
-        "id": 1
+        "id": 1,
+        "name": "Ali Boumendjel (علي بومنجل)",
+        "alternate_names": [
+          "علي بومنجل",
+          "Ali Boumendjel"
+        ],
+        "line": "ALG1",
+        "order": 1
       },
       "id": 1
     },
@@ -38,16 +48,1167 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.05,
-          0.08
+          3.058057,
+          36.772068
         ]
       },
       "properties": {
-        "name": "Riverfront",
-        "line": "PL0",
-        "id": 2
+        "id": 2,
+        "name": "Tafourah - Grande Poste (تافورة - البريد المركزي)",
+        "alternate_names": [
+          "تافورة - البريد المركزي",
+          "Tafourah - Grande Poste",
+          "Tafourah",
+          "Grande Poste (تافورة",
+          "البريد المركزي)"
+        ],
+        "line": "ALG1",
+        "order": 2
       },
       "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.053617,
+          36.766107
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Khelifa Boukhalfa (خليفة بوخالفة)",
+        "alternate_names": [
+          "خليفة بوخالفة",
+          "Khelifa Boukhalfa"
+        ],
+        "line": "ALG1",
+        "order": 3
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.056614,
+          36.760204
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "1er Mai (أول ماي)",
+        "alternate_names": [
+          "أول ماي",
+          "1er Mai"
+        ],
+        "line": "ALG1",
+        "order": 4
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.061757,
+          36.756864
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Aïssat Idir (عيسات إدير)",
+        "alternate_names": [
+          "عيسات إدير",
+          "Aïssat Idir"
+        ],
+        "line": "ALG1",
+        "order": 5
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.066526,
+          36.752909
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Hamma (الحامة)",
+        "alternate_names": [
+          "الحامة",
+          "حامة",
+          "Hamma"
+        ],
+        "line": "ALG1",
+        "order": 6
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.072736,
+          36.746676
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Jardin d'essai (حديقة التجارب)",
+        "alternate_names": [
+          "حديقة التجارب",
+          "Jardin d'essai"
+        ],
+        "line": "ALG1",
+        "order": 7
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.08314,
+          36.742157
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Les fusillés (المعدومين)",
+        "alternate_names": [
+          "المعدومين",
+          "Les fusillés"
+        ],
+        "line": "ALG1",
+        "order": 8
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.094444,
+          36.737908
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Cité Amirouche (حي عميروش)",
+        "alternate_names": [
+          "حي عميروش",
+          "Cité Amirouche"
+        ],
+        "line": "ALG1",
+        "order": 9
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.100955,
+          36.733585
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Mer et Soleil (البحر و الشمس)",
+        "alternate_names": [
+          "البحر و الشمس",
+          "Mer et Soleil"
+        ],
+        "line": "ALG1",
+        "order": 10
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.102299,
+          36.725436
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Haï El Badr (حي البدر)",
+        "alternate_names": [
+          "حي البدر",
+          "Haï El Badr"
+        ],
+        "line": "ALG1",
+        "order": 11
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.110593,
+          36.718197
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Bachdjarah - Tennis (باش جراح - تنس)",
+        "alternate_names": [
+          "باش جراح - تنس",
+          "Bachdjarah - Tennis",
+          "Bachdjarah",
+          "Tennis (باش جراح",
+          "تنس)"
+        ],
+        "line": "ALG1",
+        "order": 12
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.118274,
+          36.721806
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Bachdjerrah (باش جراح)",
+        "alternate_names": [
+          "باش جراح",
+          "Bachdjerrah"
+        ],
+        "line": "ALG1",
+        "order": 13
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.131718,
+          36.722073
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "El Harrach Gare (الحراش)",
+        "alternate_names": [
+          "الحراش",
+          "El Harrach Gare"
+        ],
+        "line": "ALG1",
+        "order": 14
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.137163,
+          36.722002
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "El-Harrach Centre (الحراش وسط)",
+        "alternate_names": [
+          "الحراش وسط",
+          "El-Harrach Centre"
+        ],
+        "line": "ALG1",
+        "order": 15
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.082286,
+          36.705737
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Ain Naâdja (عين النعجة)",
+        "alternate_names": [
+          "عين النعجة",
+          "Ain Naâdja"
+        ],
+        "line": "ALG1",
+        "order": 16
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.090223,
+          36.709584
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Gué de Constantine (جسر قسنطينة)",
+        "alternate_names": [
+          "جسر قسنطينة",
+          "Gué de Constantine"
+        ],
+        "line": "ALG1",
+        "order": 17
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.10083,
+          36.71552
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Les Ateliers (وقف ورش العمل)",
+        "alternate_names": [
+          "Workshop station",
+          "وقف ورش العمل",
+          "Station des Ateliers",
+          "Ateliers"
+        ],
+        "line": "ALG1",
+        "order": 18
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.083489,
+          36.742878
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Ruisseau (العناصر)",
+        "alternate_names": [
+          "العناصر",
+          "رويسو",
+          "Ruisseau"
+        ],
+        "line": "ALGT1",
+        "order": 0
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.086813,
+          36.745993
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Les fusillés (المعدومين)",
+        "alternate_names": [
+          "Les Fusillés",
+          "المعدومين",
+          "Les fusillés"
+        ],
+        "line": "ALGT1",
+        "order": 1
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.092295,
+          36.745218
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Tripoli - Thâalibia (طرابلس- الثعالبية)",
+        "alternate_names": [
+          "طرابلس- الثعالبية",
+          "Tripoli - Thâalibia",
+          "Thâalibia (طرابلس- الثعالبية)"
+        ],
+        "line": "ALGT1",
+        "order": 2
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.097413,
+          36.743263
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Tripoli - Mosquée (طرابلس - المسجد)",
+        "alternate_names": [
+          "طرابلس - المسجد",
+          "Tripoli - Mosquée",
+          "Mosquée (طرابلس",
+          "المسجد)"
+        ],
+        "line": "ALGT1",
+        "order": 3
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.10409,
+          36.74072
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Tripoli - Hamadeche (طرابلس - حمداش)",
+        "alternate_names": [
+          "طرابلس - حمداش",
+          "Tripoli - Hamadeche",
+          "Hamadeche (طرابلس",
+          "حمداش)"
+        ],
+        "line": "ALGT1",
+        "order": 4
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.113677,
+          36.737032
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Tripoli - Makaria (طرابلس - المقرية)",
+        "alternate_names": [
+          "طرابلس - المقرية",
+          "Tripoli - Makaria",
+          "Makaria (طرابلس",
+          "المقرية)"
+        ],
+        "line": "ALGT1",
+        "order": 5
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.118177,
+          36.735714
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Caroubier (الخروبة)",
+        "alternate_names": [
+          "الخروبة",
+          "Caroubier"
+        ],
+        "line": "ALGT1",
+        "order": 6
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.124631,
+          36.732817
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "La Glacière (الهواء الجميل)",
+        "alternate_names": [
+          "الهواء الجميل",
+          "La Glacière"
+        ],
+        "line": "ALGT1",
+        "order": 7
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.13016,
+          36.730278
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Pont El Harrach (جسر الحراش)",
+        "alternate_names": [
+          "جسر الحراش",
+          "Pont El Harrach"
+        ],
+        "line": "ALGT1",
+        "order": 8
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.136052,
+          36.729498
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Bellevue (المنظر الجميل)",
+        "alternate_names": [
+          "المنظر الجميل",
+          "Bellevue"
+        ],
+        "line": "ALGT1",
+        "order": 9
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.143435,
+          36.727811
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Bekri Bouguerra (بكري بوقرة)",
+        "alternate_names": [
+          "بكري بوقرة",
+          "Bekri Bouguerra"
+        ],
+        "line": "ALGT1",
+        "order": 10
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.150803,
+          36.725881
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Cinq Maisons (الديار الخمس)",
+        "alternate_names": [
+          "الديار الخمس",
+          "سان ميزون",
+          "Cinq Maisons"
+        ],
+        "line": "ALGT1",
+        "order": 11
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.161369,
+          36.731269
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Foire d'Alger (قصر المعارض)",
+        "alternate_names": [
+          "قصر المعارض",
+          "Foire d'Alger"
+        ],
+        "line": "ALGT1",
+        "order": 12
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.167029,
+          36.732199
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Les Pins (الصنوبر)",
+        "alternate_names": [
+          "الصنوبر",
+          "Les Pins"
+        ],
+        "line": "ALGT1",
+        "order": 13
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.173294,
+          36.732554
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Tamaris (حي المندرين)",
+        "alternate_names": [
+          "حي المندرين",
+          "Tamaris"
+        ],
+        "line": "ALGT1",
+        "order": 14
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.174324,
+          36.729478
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Cité Mokhtar Zerhouni (حي مختار زرهوني)",
+        "alternate_names": [
+          "حي مختار زرهوني",
+          "Cité Mokhtar Zerhouni"
+        ],
+        "line": "ALGT1",
+        "order": 15
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.17697,
+          36.724481
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Cité Rabia (حي رابية)",
+        "alternate_names": [
+          "حي رابية",
+          "Cité Rabia"
+        ],
+        "line": "ALGT1",
+        "order": 16
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.179575,
+          36.72081
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Université de Bab Ezzouar (جامعة باب الزوار)",
+        "alternate_names": [
+          "جامعة باب الزوار",
+          "جامعة العلوم و التكنولوجيا هواري بومدين",
+          "Université de Bab Ezzouar"
+        ],
+        "line": "ALGT1",
+        "order": 17
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.182819,
+          36.721527
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Cité 5 juillet (حي 5 جويلية)",
+        "alternate_names": [
+          "حي 5 جويلية",
+          "Cité 5 juillet"
+        ],
+        "line": "ALGT1",
+        "order": 18
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.184784,
+          36.724346
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Bab Ezzouar - Le Pont (باب الزوار - الجسر)",
+        "alternate_names": [
+          "باب الزوار - الجسر",
+          "Bab Ezzouar - Le Pont",
+          "Bab Ezzouar",
+          "Le Pont (باب الزوار",
+          "الجسر)"
+        ],
+        "line": "ALGT1",
+        "order": 19
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.184065,
+          36.732251
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Cité Universitaire - CUB 1 (الإقامة الجامعية - ح ج ب 1)",
+        "alternate_names": [
+          "الإقامة الجامعية - ح ج ب 1",
+          "Cité Universitaire - CUB 1",
+          "Cité Universitaire",
+          "CUB 1 (الإقامة الجامعية",
+          "ح ج ب 1)"
+        ],
+        "line": "ALGT1",
+        "order": 20
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.184909,
+          36.737328
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Cité 8 Mai 1945 (حي 8 ماي 1945)",
+        "alternate_names": [
+          "حي 8 ماي 1945",
+          "Cité 8 Mai 1945"
+        ],
+        "line": "ALGT1",
+        "order": 21
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18609,
+          36.740974
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Cité Claire Matin (حي الصباح)",
+        "alternate_names": [
+          "حي الصباح",
+          "Cité Claire Matin"
+        ],
+        "line": "ALGT1",
+        "order": 22
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.187668,
+          36.745327
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Bordj El Kifane - Lycée (برج الكيفان - الثانوية)",
+        "alternate_names": [
+          "برج الكيفان - الثانوية",
+          "Bordj El Kifane - Lycée",
+          "Bordj El Kifane",
+          "Lycée (برج الكيفان",
+          "الثانوية)"
+        ],
+        "line": "ALGT1",
+        "order": 23
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.191002,
+          36.747025
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Bordj El Kiffan - Centre (برج الكيفان - وسط)",
+        "alternate_names": [
+          "برج الكيفان - وسط",
+          "Bordj El Kiffan - Centre",
+          "Centre (برج الكيفان",
+          "وسط)"
+        ],
+        "line": "ALGT1",
+        "order": 24
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.197076,
+          36.74816
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "Bordj El Kiffan - Polyclinique (برج الكيفان - العيادة)",
+        "alternate_names": [
+          "برج الكيفان - العيادة",
+          "Bordj El Kiffan - Polyclinique",
+          "Polyclinique (برج الكيفان",
+          "العيادة)"
+        ],
+        "line": "ALGT1",
+        "order": 25
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.206485,
+          36.749304
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Mouhous (موحوس)",
+        "alternate_names": [
+          "موحوس",
+          "Mouhous"
+        ],
+        "line": "ALGT1",
+        "order": 26
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.211992,
+          36.750314
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Mimouni Hamoudi (ميموني محمود)",
+        "alternate_names": [
+          "ميموني محمود",
+          "Mimouni Hamoudi"
+        ],
+        "line": "ALGT1",
+        "order": 27
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.220095,
+          36.753567
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Ben Mrabet (بن مرابط)",
+        "alternate_names": [
+          "بن مرابط",
+          "Ben Mrabet"
+        ],
+        "line": "ALGT1",
+        "order": 28
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.224217,
+          36.75541
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Ben Redouan (بن رضوان)",
+        "alternate_names": [
+          "بن رضوان",
+          "Ben Redouan"
+        ],
+        "line": "ALGT1",
+        "order": 29
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.229405,
+          36.758991
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ben Mered (بن مراد)",
+        "alternate_names": [
+          "بن مراد",
+          "Ben Mered"
+        ],
+        "line": "ALGT1",
+        "order": 30
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.238426,
+          36.766032
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Sidi Dris (سيدي ادريس)",
+        "alternate_names": [
+          "سيدي ادريس",
+          "Sidi Dris"
+        ],
+        "line": "ALGT1",
+        "order": 31
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.245156,
+          36.773041
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Benzerga (بن زرقة)",
+        "alternate_names": [
+          "بن زرقة",
+          "Benzerga"
+        ],
+        "line": "ALGT1",
+        "order": 32
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2384,
+          36.766051
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Sidi Driss (سيدي دريس)",
+        "alternate_names": [
+          "سيدي دريس",
+          "Sidi Driss"
+        ],
+        "line": "ALGT1",
+        "order": 33
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.250164,
+          36.777453
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Café Chergui (مقهى شرقي)",
+        "alternate_names": [
+          "مقهى شرقي",
+          "Café Chergui"
+        ],
+        "line": "ALGT1",
+        "order": 34
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.258862,
+          36.777701
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Faculté Biomédicale (جامعة درقانة)",
+        "alternate_names": [
+          "جامعة درقانة",
+          "Faculté Biomédicale"
+        ],
+        "line": "ALGT1",
+        "order": 35
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.259357,
+          36.773957
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Cité Diplomatique (الحي الدبلوماسي)",
+        "alternate_names": [
+          "الحي الدبلوماسي",
+          "Cité Diplomatique"
+        ],
+        "line": "ALGT1",
+        "order": 36
+      },
+      "id": 55
     }
   ]
 }

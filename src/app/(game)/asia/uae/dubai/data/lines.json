@@ -1,0 +1,18 @@
+{
+  "DUBAGREEN": {
+    "name": "Green Line",
+    "color": "#00CC00",
+    "backgroundColor": "#00CC00",
+    "textColor": "#FFFFFF",
+    "order": 0,
+    "icon": "DUBAGREEN.svg"
+  },
+  "DUBARED": {
+    "name": "Red Line",
+    "color": "#CC0000",
+    "backgroundColor": "#CC0000",
+    "textColor": "#FFFFFF",
+    "order": 1,
+    "icon": "DUBARED.svg"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "hiroshima",
+  "path": "asia/japan/hiroshima",
+  "gameTitle": "Hiroshima Metro Memory",
+  "description": "How many Astram Line and Hiroden streetcar stops can you name from memory?",
+  "locale": "ja_JP",
+  "bbox": [
+    34.25,
+    132.25,
+    34.53,
+    132.56
+  ],
+  "localName": {
+    "tag": "name",
+    "enTags": [
+      "name:en",
+      "name:ja-Latn",
+      "name:ja_rm"
+    ],
+    "altTags": [
+      "name:ja-Hira",
+      "name:ja_kana"
+    ],
+    "strip": "(駅|停留場|停留所|電停)$"
+  },
+  "lineGroups": [
+    {
+      "title": "Astram Line",
+      "lines": [
+        "HRAST"
+      ]
+    },
+    {
+      "title": "Hiroden (Hiroshima Electric Railway)",
+      "lines": [
+        "HD1",
+        "HD2",
+        "HD3",
+        "HD5",
+        "HD6",
+        "HD7",
+        "HD8",
+        "HD9"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "HRAST",
+      "name": "Astram Line",
+      "match": {
+        "route": "subway",
+        "name": "広島新交通1号線"
+      },
+      "color": "#F39800"
+    },
+    {
+      "id": "HD1",
+      "name": "Hiroden Route 1",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^1$"
+      },
+      "color": "#F56400"
+    },
+    {
+      "id": "HD2",
+      "name": "Hiroden Route 2",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^2$"
+      },
+      "color": "#E60012"
+    },
+    {
+      "id": "HD3",
+      "name": "Hiroden Route 3",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^3$"
+      },
+      "color": "#13349B"
+    },
+    {
+      "id": "HD5",
+      "name": "Hiroden Route 5",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^5$"
+      },
+      "color": "#53C76C"
+    },
+    {
+      "id": "HD6",
+      "name": "Hiroden Route 6",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^6$"
+      },
+      "color": "#E6C700"
+    },
+    {
+      "id": "HD7",
+      "name": "Hiroden Route 7",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^7$"
+      },
+      "color": "#316631"
+    },
+    {
+      "id": "HD8",
+      "name": "Hiroden Route 8",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^8$"
+      },
+      "color": "#FF61D2"
+    },
+    {
+      "id": "HD9",
+      "name": "Hiroden Route 9",
+      "match": {
+        "route": "tram",
+        "operator": "広島電鉄",
+        "ref": "^9$"
+      },
+      "color": "#666666"
+    }
+  ],
+  "register": {
+    "name": "Hiroshima (広島), HRS",
+    "continent": "Asia",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ],
+    "achievement": {
+      "title": "Streetcar City",
+      "description": "You've named every Astram Line and Hiroden stop in Hiroshima."
+    }
+  }
+}

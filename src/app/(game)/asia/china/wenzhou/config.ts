@@ -24,6 +24,7 @@ export const LINES: Record<string, Line> = {
 export const LINE_GROUPS: LineGroup[] = [
   {
     title: 'Wenzhou Rail Transit',
+    titleImage: 'asia/china/wenzhou/icon.ico',
     items: [
       {
         type: 'lines',
