@@ -7,9 +7,28 @@
     "长沙火车南站": "Changsha South Railway Station",
     "长沙火车站": "Changsha Railway Station",
     "五一广场": "Wuyi Square",
-    "黄花机场T1T2": "Huanghua Airport Terminal 1 & 2"
+    "黄花机场T1T2": "Huanghua Airport Terminal 1 & 2",
+    "磁浮高铁": "Changsha South Railway Station",
+    "磁浮㮾梨": "Langli",
+    "磁浮机场": "Huanghua Airport"
   },
-  "alternates": {},
+  "alternates": {
+    "磁浮高铁": [
+      "Cifugaotie",
+      "Changshanan",
+      "Changsha South"
+    ],
+    "磁浮㮾梨": [
+      "Cifulangli",
+      "磁浮榔梨",
+      "㮾梨",
+      "榔梨"
+    ],
+    "磁浮机场": [
+      "Cifu Airport",
+      "Cifujichang"
+    ]
+  },
   "lines": [
     {
       "id": "changsha1",
