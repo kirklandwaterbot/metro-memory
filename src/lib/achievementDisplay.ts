@@ -112,6 +112,100 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     description: '???',
     secretDescription: '打开 10 座不同城市的统计面板。',
   },
+  'first-hundred': {
+    title: '百站起步',
+    description: '在所有城市中找到 100 座车站。',
+  },
+  'station-hoarder': {
+    title: '车站囤积者',
+    description: '在所有城市中找到 5,000 座车站。',
+  },
+  'explorer-100': {
+    title: '百城探索者',
+    description: '完成 100 座不同城市。',
+  },
+  'line-legend': {
+    title: '线路传奇',
+    description: '完成 25 条不同线路。',
+  },
+  'passport-stamps': {
+    title: '护照盖章',
+    description: '完成 10 个不同国家的城市。',
+  },
+  'heavyweight': {
+    title: '重量级选手',
+    description: '完成一座拥有 500+ 车站的城市。',
+  },
+  'spotless-record': {
+    title: '无瑕记录',
+    description: '零失误完成 5 座不同城市。',
+  },
+  'hot-streak': {
+    title: '手感火热',
+    description: '连续猜对 50 次。',
+  },
+  'pocket-explorer': {
+    title: '迷你探索者',
+    description: '完成 10 座迷你城市。',
+  },
+  'weekly-rider': {
+    title: '一周通勤',
+    description: '在 7 个不同的日子游玩。',
+  },
+  'season-pass': {
+    title: '季票持有人',
+    description: '在 30 个不同的日子游玩。',
+  },
+  'night-owl': {
+    title: '夜猫子',
+    description: '???',
+    secretDescription: '在午夜至凌晨 4 点之间找到一座车站。',
+  },
+  'early-bird': {
+    title: '早起的鸟儿',
+    description: '???',
+    secretDescription: '在早上 5 点至 7 点之间找到一座车站。',
+  },
+  'slice-of-pi': {
+    title: '一块圆周率',
+    description: '???',
+    secretDescription: '在任意城市达到 31.4% 完成度。',
+  },
+  'halfway-there': {
+    title: '恰好一半',
+    description: '???',
+    secretDescription: '在任意城市恰好达到 50% 完成度。',
+  },
+  'butterfingers': {
+    title: '手滑了',
+    description: '???',
+    secretDescription: '连续猜错 10 次。',
+  },
+  'deja-vu': {
+    title: '似曾相识',
+    description: '???',
+    secretDescription: '连续 5 次猜测已找到的车站。',
+  },
+  'mystery-ticket': {
+    title: '神秘车票',
+    description: '???',
+    secretDescription: '使用「随机游玩城市」5 次。',
+  },
+  'label-fiddler': {
+    title: '标签控',
+    description: '???',
+    secretDescription: '切换地图名称 25 次。',
+  },
+  'unlucky-line': {
+    title: '不祥之线',
+    description: '???',
+    secretDescription: '在 13 号星期五找到一座车站。',
+  },
+  'first-train-of-the-year': {
+    title: '新年头班车',
+    description: '???',
+    secretDescription: '在元旦找到一座车站。',
+  },
   'metro-memory-master': {
     title: '终极完成者',
     description: '解锁所有城市成就即可获得这枚最终徽章。',
@@ -208,6 +302,100 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '檔案管理員',
     description: '???',
     secretDescription: '開啟 10 座不同城市的統計面板。',
+  },
+  'first-hundred': {
+    title: '百站起步',
+    description: '在所有城市中找到 100 座車站。',
+  },
+  'station-hoarder': {
+    title: '車站囤積者',
+    description: '在所有城市中找到 5,000 座車站。',
+  },
+  'explorer-100': {
+    title: '百城探索者',
+    description: '完成 100 座不同城市。',
+  },
+  'line-legend': {
+    title: '線路傳奇',
+    description: '完成 25 條不同線路。',
+  },
+  'passport-stamps': {
+    title: '護照蓋章',
+    description: '完成 10 個不同國家的城市。',
+  },
+  'heavyweight': {
+    title: '重量級選手',
+    description: '完成一座擁有 500+ 車站的城市。',
+  },
+  'spotless-record': {
+    title: '無瑕紀錄',
+    description: '零失誤完成 5 座不同城市。',
+  },
+  'hot-streak': {
+    title: '手感火熱',
+    description: '連續猜對 50 次。',
+  },
+  'pocket-explorer': {
+    title: '迷你探索者',
+    description: '完成 10 座迷你城市。',
+  },
+  'weekly-rider': {
+    title: '一週通勤',
+    description: '在 7 個不同的日子遊玩。',
+  },
+  'season-pass': {
+    title: '季票持有人',
+    description: '在 30 個不同的日子遊玩。',
+  },
+  'night-owl': {
+    title: '夜貓子',
+    description: '???',
+    secretDescription: '在午夜至凌晨 4 點之間找到一座車站。',
+  },
+  'early-bird': {
+    title: '早起的鳥兒',
+    description: '???',
+    secretDescription: '在早上 5 點至 7 點之間找到一座車站。',
+  },
+  'slice-of-pi': {
+    title: '一塊圓周率',
+    description: '???',
+    secretDescription: '在任意城市達到 31.4% 完成度。',
+  },
+  'halfway-there': {
+    title: '恰好一半',
+    description: '???',
+    secretDescription: '在任意城市恰好達到 50% 完成度。',
+  },
+  'butterfingers': {
+    title: '手滑了',
+    description: '???',
+    secretDescription: '連續猜錯 10 次。',
+  },
+  'deja-vu': {
+    title: '似曾相識',
+    description: '???',
+    secretDescription: '連續 5 次猜測已找到的車站。',
+  },
+  'mystery-ticket': {
+    title: '神秘車票',
+    description: '???',
+    secretDescription: '使用「隨機遊玩城市」5 次。',
+  },
+  'label-fiddler': {
+    title: '標籤控',
+    description: '???',
+    secretDescription: '切換地圖名稱 25 次。',
+  },
+  'unlucky-line': {
+    title: '不祥之線',
+    description: '???',
+    secretDescription: '在 13 號星期五找到一座車站。',
+  },
+  'first-train-of-the-year': {
+    title: '新年頭班車',
+    description: '???',
+    secretDescription: '在元旦找到一座車站。',
   },
   'metro-memory-master': {
     title: '終極完成者',

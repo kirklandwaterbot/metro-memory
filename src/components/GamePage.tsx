@@ -1767,6 +1767,9 @@ function GamePageContent({
   const perfectStartInitializedRef = useRef(false)
   const neverRepeatRef = useRef(true)
   const typoFreeRef = useRef(true)
+  const hotStreakRef = useRef(0)
+  const wrongStreakRef = useRef(0)
+  const alreadyStreakRef = useRef(0)
   const lineMasterSyncRef = useRef(false)
 
   // Hydrate globally earned achievements so one-offs (e.g., comeback-kid) never re-award across cities
@@ -4260,6 +4263,9 @@ function GamePageContent({
         if (set.size >= 5) {
           awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
         }
+        if (set.size >= 25) {
+          awardAchievement('line-legend', 'Line Legend', 'Complete 25 different lines.')
+        }
       } catch {
         // ignore storage errors
       }
@@ -4274,6 +4280,9 @@ function GamePageContent({
       const current = Number(raw)
       const next = Number.isFinite(current) ? current + 1 : 1
       window.localStorage.setItem('mm-map-names-toggles', String(next))
+      if (next >= 25) {
+        awardAchievement('label-fiddler', 'Label Fiddler', 'Toggle the map names 25 times.')
+      }
     } catch {
       // ignore
     }
@@ -4305,6 +4314,9 @@ function GamePageContent({
       window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(merged)))
       if (merged.size >= 5) {
         awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
+      }
+      if (merged.size >= 25) {
+        awardAchievement('line-legend', 'Line Legend', 'Complete 25 different lines.')
       }
     } catch {
       // ignore
@@ -4346,6 +4358,12 @@ function GamePageContent({
     }
     playDays.add(todayStr)
     window.localStorage.setItem('mm-play-days', JSON.stringify(Array.from(playDays)))
+    if (playDays.size >= 7) {
+      awardAchievement('weekly-rider', 'Week-Long Commute', 'Play on 7 different days.')
+    }
+    if (playDays.size >= 30) {
+      awardAchievement('season-pass', 'Season Pass', 'Play on 30 different days.')
+    }
 
     lastPlayDateRef.current = todayStr
     window.localStorage.setItem('mm-last-play-date', todayStr)
@@ -4371,6 +4389,12 @@ function GamePageContent({
   const handleGuessResult = useCallback(
     (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => {
       if (result.type === 'wrong') {
+        hotStreakRef.current = 0
+        alreadyStreakRef.current = 0
+        wrongStreakRef.current += 1
+        if (wrongStreakRef.current >= 10) {
+          awardAchievement('butterfingers', 'Butterfingers', 'Make 10 wrong guesses in a row.')
+        }
         setMistakes((m) => m + 1)
         if (perfectStartEligibleRef.current) {
           perfectStartEligibleRef.current = false
@@ -4381,6 +4405,29 @@ function GamePageContent({
           zoomToFeatures(result.addedIds)
         }
         registerPlayDay()
+        wrongStreakRef.current = 0
+        alreadyStreakRef.current = 0
+        hotStreakRef.current += 1
+        if (hotStreakRef.current >= 50) {
+          awardAchievement('hot-streak', 'Hot Streak', 'Make 50 correct guesses in a row.')
+        }
+        const now = new Date()
+        const hour = now.getHours()
+        if (hour < 4) {
+          awardAchievement('night-owl', 'Night Owl', 'Find a station between midnight and 4 a.m.')
+        } else if (hour >= 5 && hour < 7) {
+          awardAchievement('early-bird', 'Early Bird', 'Find a station between 5 and 7 a.m.')
+        }
+        if (now.getDay() === 5 && now.getDate() === 13) {
+          awardAchievement('unlucky-line', 'Unlucky Line', 'Find a station on a Friday the 13th.')
+        }
+        if (now.getMonth() === 0 && now.getDate() === 1) {
+          awardAchievement(
+            'first-train-of-the-year',
+            'First Train of the Year',
+            "Find a station on New Year's Day.",
+          )
+        }
         if (perfectStartEligibleRef.current) {
           perfectStartCountRef.current += 1
           if (perfectStartCountRef.current >= 25) {
@@ -4395,6 +4442,12 @@ function GamePageContent({
       }
       if (result.type === 'already') {
         neverRepeatRef.current = false
+        hotStreakRef.current = 0
+        wrongStreakRef.current = 0
+        alreadyStreakRef.current += 1
+        if (alreadyStreakRef.current >= 5) {
+          awardAchievement('deja-vu', 'Déjà Vu', 'Guess an already-found station 5 times in a row.')
+        }
         if (perfectStartEligibleRef.current) {
           perfectStartEligibleRef.current = false
         }
@@ -4457,6 +4510,12 @@ function GamePageContent({
     } catch {
       // ignore
     }
+    if (nextGlobal >= 100) {
+      awardAchievement('first-hundred', 'First Hundred', 'Find 100 stations across all cities.')
+    }
+    if (nextGlobal >= 5000) {
+      awardAchievement('station-hoarder', 'Station Hoarder', 'Find 5,000 stations across all cities.')
+    }
     if (nextGlobal >= 1000) {
       awardAchievement('station-collector', 'Station Collector', 'Find 1,000 stations across all cities.')
     }
@@ -4476,6 +4535,12 @@ function GamePageContent({
     const ratio = foundStationKeys.size / totalUniqueStations
     if (Math.abs(ratio - 0.618) <= 0.003) {
       awardAchievement('golden-ratio', 'Golden Ratio', 'Reach 61.8% completion in any city.')
+    }
+    if (Math.abs(ratio - 0.314) <= 0.003) {
+      awardAchievement('slice-of-pi', 'Slice of Pi', 'Reach 31.4% completion in any city.')
+    }
+    if (totalUniqueStations >= 2 && foundStationKeys.size * 2 === totalUniqueStations) {
+      awardAchievement('halfway-there', 'Halfway There', 'Reach exactly 50% completion in any city.')
     }
   }, [awardAchievement, foundStationKeys.size, totalUniqueStations])
 
@@ -4511,12 +4576,42 @@ function GamePageContent({
       if (totalUniqueStations > 0 && totalUniqueStations < 20) {
         awardAchievement('underdog', 'Underdog', 'Complete a city with fewer than 20 stations.')
       }
+      if (totalUniqueStations >= 500) {
+        awardAchievement('heavyweight', 'Heavyweight', 'Complete a city with 500+ stations.')
+      }
+      if (typeof window !== 'undefined') {
+        const addToStoredSet = (key: string, value: string) => {
+          try {
+            const raw = window.localStorage.getItem(key)
+            const parsed = raw ? JSON.parse(raw) : []
+            const set = new Set(
+              Array.isArray(parsed) ? parsed.filter((v) => typeof v === 'string') : [],
+            )
+            set.add(value)
+            window.localStorage.setItem(key, JSON.stringify(Array.from(set)))
+            return set.size
+          } catch {
+            return 0
+          }
+        }
+        if (isFlawless && addToStoredSet('mm-flawless-cities', CITY_NAME) >= 5) {
+          awardAchievement(
+            'spotless-record',
+            'Spotless Record',
+            'Complete 5 different cities with zero mistakes.',
+          )
+        }
+        if (isMiniCity && addToStoredSet('mm-mini-completions', CITY_NAME) >= 10) {
+          awardAchievement('pocket-explorer', 'Pocket Explorer', 'Complete 10 mini cities.')
+        }
+      }
 
       // Main-city-only global completion tracking
       if (typeof window !== 'undefined' && !isMiniCity) {
         const today = new Date().toISOString().slice(0, 10)
         const continent = (cityPath?.split('/')?.[0] ?? 'Global')
-        let completions: { city: string; continent: string; date: string }[] = []
+        const country = cityPath?.split('/')?.[1]
+        let completions: { city: string; continent: string; date: string; country?: string }[] = []
         try {
           const raw = window.localStorage.getItem('mm-completions')
           if (raw) {
@@ -4532,7 +4627,7 @@ function GamePageContent({
             }
           }
         } catch {}
-        completions.push({ city: CITY_NAME, continent, date: today })
+        completions.push({ city: CITY_NAME, continent, date: today, ...(country ? { country } : {}) })
         window.localStorage.setItem('mm-completions', JSON.stringify(completions))
 
         const uniqueCities = new Set(completions.map((c) => c.city))
@@ -4548,7 +4643,9 @@ function GamePageContent({
         if (uniqueContinents.size >= 3) {
           awardAchievement('all-rounder', 'All Rounder', 'Complete cities on 3 different continents.')
         }
-        if (uniqueCities.size >= 50) {
+        if (uniqueCities.size >= 100) {
+          awardAchievement('explorer-100', 'Centurion Explorer', 'Complete 100 different cities.')
+        } else if (uniqueCities.size >= 50) {
           awardAchievement('explorer-50', 'Ultimate Explorer', 'Completed 50 different cities.')
         } else if (uniqueCities.size >= 25) {
           awardAchievement('explorer-25', 'Seasoned Explorer', 'Completed 25 different cities.')
@@ -4556,6 +4653,12 @@ function GamePageContent({
           awardAchievement('explorer-10', 'Explorer', 'Completed 10 different cities.')
         } else if (uniqueCities.size >= 3) {
           awardAchievement('explorer-3', 'Rookie Explorer', 'Completed 3 different cities.')
+        }
+        const uniqueCountries = new Set(
+          completions.map((c) => c.country).filter((c): c is string => Boolean(c)),
+        )
+        if (uniqueCountries.size >= 10) {
+          awardAchievement('passport-stamps', 'Passport Stamps', 'Complete cities in 10 different countries.')
         }
 
         const favoritesKey = getFavoritesStorageKey(user?.id)

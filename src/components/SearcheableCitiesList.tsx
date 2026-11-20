@@ -578,6 +578,10 @@ type AchievementMetrics = {
   favoritesCompleted: number
   uniqueCities: number
   uniqueContinents: number
+  uniqueCountries: number
+  flawlessCities: number
+  miniCompletions: number
+  randomCityPicks: number
 }
 
 const DEFAULT_ACHIEVEMENT_METRICS: AchievementMetrics = {
@@ -589,6 +593,10 @@ const DEFAULT_ACHIEVEMENT_METRICS: AchievementMetrics = {
   favoritesCompleted: 0,
   uniqueCities: 0,
   uniqueContinents: 0,
+  uniqueCountries: 0,
+  flawlessCities: 0,
+  miniCompletions: 0,
+  randomCityPicks: 0,
 }
 
 type AchievementProgressData = {
@@ -2471,13 +2479,18 @@ const SearcheableCitiesList = ({
 
       let uniqueCities = 0
       let uniqueContinents = 0
+      let uniqueCountries = 0
       try {
         const raw = window.localStorage.getItem('mm-completions')
         const parsed = raw ? JSON.parse(raw) : []
         if (Array.isArray(parsed)) {
           const citySet = new Set<string>()
           const continentSet = new Set<string>()
+          const countrySet = new Set<string>()
           parsed.forEach((entry) => {
+            if (entry && typeof entry.country === 'string') {
+              countrySet.add(entry.country)
+            }
             if (entry && typeof entry.city === 'string') {
               citySet.add(entry.city)
             }
@@ -2487,10 +2500,12 @@ const SearcheableCitiesList = ({
           })
           uniqueCities = citySet.size
           uniqueContinents = continentSet.size
+          uniqueCountries = countrySet.size
         }
       } catch {
         uniqueCities = 0
         uniqueContinents = 0
+        uniqueCountries = 0
       }
 
       const globalStations = Number(window.localStorage.getItem('mm-global-unique-stations') || '0')
@@ -2505,6 +2520,10 @@ const SearcheableCitiesList = ({
         favoritesCompleted,
         uniqueCities,
         uniqueContinents,
+        uniqueCountries,
+        flawlessCities: readStringArray('mm-flawless-cities').length,
+        miniCompletions: readStringArray('mm-mini-completions').length,
+        randomCityPicks: Number(window.localStorage.getItem('mm-random-city-picks') || '0'),
       })
     }
 
@@ -2554,6 +2573,15 @@ const SearcheableCitiesList = ({
     addThreshold('all-rounder', achievementMetrics.uniqueContinents, 3)
     addThreshold('globe-trotter', achievementMetrics.uniqueContinents, 6)
     addThreshold('favorites-first', achievementMetrics.favoritesCompleted, 5)
+    addThreshold('first-hundred', achievementMetrics.globalStations, 100)
+    addThreshold('station-hoarder', achievementMetrics.globalStations, 5000)
+    addThreshold('explorer-100', achievementMetrics.uniqueCities, 100)
+    addThreshold('line-legend', achievementMetrics.lineMasterKeys, 25)
+    addThreshold('passport-stamps', achievementMetrics.uniqueCountries, 10)
+    addThreshold('spotless-record', achievementMetrics.flawlessCities, 5)
+    addThreshold('pocket-explorer', achievementMetrics.miniCompletions, 10)
+    addThreshold('weekly-rider', achievementMetrics.playDays, 7)
+    addThreshold('season-pass', achievementMetrics.playDays, 30)
 
     return progressMap
   }, [
@@ -2777,8 +2805,17 @@ const SearcheableCitiesList = ({
     }
 
     const pick = eligible[Math.floor(Math.random() * eligible.length)]
+    try {
+      const picks = Number(window.localStorage.getItem('mm-random-city-picks') || '0') + 1
+      window.localStorage.setItem('mm-random-city-picks', String(picks))
+      if (picks >= 5) {
+        awardGlobalAchievement('mystery-ticket')
+      }
+    } catch {
+      // ignore storage errors
+    }
     router.push(pick.link)
-  }, [cityProgress, enrichedCities, isCityDisabledForPreview, router])
+  }, [awardGlobalAchievement, cityProgress, enrichedCities, isCityDisabledForPreview, router])
 
   const openStatsPanelForCity = (slug: string) => {
     const city = cityMetaBySlug.get(slug)

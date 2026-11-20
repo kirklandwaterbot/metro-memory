@@ -1638,6 +1638,9 @@ const ACHIEVEMENT_STORAGE_KEYS = [
   'mm-global-unique-stations',
   'mm-favorites-completed',
   'mm-stats-opened',
+  'mm-flawless-cities',
+  'mm-mini-completions',
+  'mm-random-city-picks',
 ]
 
 const ACHIEVEMENT_STORAGE_PREFIXES = [
