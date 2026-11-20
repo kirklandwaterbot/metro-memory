@@ -513,7 +513,15 @@ const ProgressBars = ({
   if (minimized) {
     return (
       <div
-        className="flex max-w-full flex-wrap items-start content-start gap-2 overflow-x-hidden overflow-y-auto pr-1 md:!max-h-none md:overflow-y-visible md:pr-0"
+        className={clsx(
+          // p-1 leaves room for the highlight ring around the picked line
+          'flex max-w-full flex-wrap items-start content-start gap-2 overflow-x-hidden overflow-y-auto p-1',
+          // big networks (100+ lines) scroll inside the panel instead of
+          // pushing everything else off the screen
+          groupedLineOrder.length > 40
+            ? 'md:!max-h-[40vh]'
+            : 'md:!max-h-none md:overflow-y-visible',
+        )}
         style={
           minimizedMaxHeight && minimizedMaxHeight > 0
             ? { maxHeight: minimizedMaxHeight }
