@@ -10158,6 +10158,380 @@
         "order": 19
       },
       "id": 414
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.406204,
+          30.509704
+        ]
+      },
+      "properties": {
+        "id": 415,
+        "name": "Huazhongda",
+        "display_name": "Huazhongda (华中大)",
+        "alternate_names": [
+          "Huazhongda",
+          "华中大",
+          "華中大",
+          "hua zhong da",
+          "Huazhong University of Science and Technology"
+        ],
+        "line": "wuhanl3",
+        "order": 0
+      },
+      "id": 415
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.401049,
+          30.508596
+        ]
+      },
+      "properties": {
+        "id": 416,
+        "name": "Buxingjie shengzhong Hospital",
+        "display_name": "Buxingjie shengzhong Hospital (步行街 省中医院)",
+        "alternate_names": [
+          "Buxingjie shengzhong Hospital",
+          "步行街 省中医院",
+          "步行街 省中醫院",
+          "Buxingjie shengzhongyiyuan",
+          "bu xing jie   sheng zhong yi yuan",
+          "Walking Street and Hospital of Traditional Chinese Medicine"
+        ],
+        "line": "wuhanl3",
+        "order": 1
+      },
+      "id": 416
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.403883,
+          30.506301
+        ]
+      },
+      "properties": {
+        "id": 417,
+        "name": "Changqingteng Road",
+        "display_name": "Changqingteng Road (常青藤路)",
+        "alternate_names": [
+          "Changqingteng Road",
+          "常青藤路",
+          "Changqingtenglu",
+          "chang qing teng lu",
+          "Changqingtang Road"
+        ],
+        "line": "wuhanl3",
+        "order": 2
+      },
+      "id": 417
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.407301,
+          30.504426
+        ]
+      },
+      "properties": {
+        "id": 418,
+        "name": "Chuangyejie",
+        "display_name": "Chuangyejie (创业街)",
+        "alternate_names": [
+          "Chuangyejie",
+          "创业街",
+          "創業街",
+          "chuang ye jie",
+          "Chuangye Street"
+        ],
+        "line": "wuhanl3",
+        "order": 3
+      },
+      "id": 418
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.406835,
+          30.499996
+        ]
+      },
+      "properties": {
+        "id": 419,
+        "name": "Xiongchu Avenue",
+        "display_name": "Xiongchu Avenue (雄楚大道)",
+        "alternate_names": [
+          "Xiongchu Avenue",
+          "雄楚大道",
+          "Xiongchudadao",
+          "xiong chu da dao"
+        ],
+        "line": "wuhanl3",
+        "order": 4
+      },
+      "id": 419
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.405839,
+          30.49232
+        ]
+      },
+      "properties": {
+        "id": 420,
+        "name": "Xinzhu Road",
+        "display_name": "Xinzhu Road (新竹路)",
+        "alternate_names": [
+          "Xinzhu Road",
+          "新竹路",
+          "Xinzhulu",
+          "xin zhu lu"
+        ],
+        "line": "wuhanl3",
+        "order": 5
+      },
+      "id": 420
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.40531,
+          30.488243
+        ]
+      },
+      "properties": {
+        "id": 421,
+        "name": "Wuhanzhiyuan",
+        "display_name": "Wuhanzhiyuan (武汉职院)",
+        "alternate_names": [
+          "Wuhanzhiyuan",
+          "武汉职院",
+          "武漢職院",
+          "wu han zhi yuan",
+          "Wuhan Polytechnic"
+        ],
+        "line": "wuhanl3",
+        "order": 6
+      },
+      "id": 421
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.404241,
+          30.479597
+        ]
+      },
+      "properties": {
+        "id": 422,
+        "name": "Guanggutiandi",
+        "display_name": "Guanggutiandi (光谷天地)",
+        "alternate_names": [
+          "Guanggutiandi",
+          "光谷天地",
+          "guang gu tian di",
+          "Optics Valley World"
+        ],
+        "line": "wuhanl3",
+        "order": 7
+      },
+      "id": 422
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.40388,
+          30.476625
+        ]
+      },
+      "properties": {
+        "id": 423,
+        "name": "Ruanjianyuan Road",
+        "display_name": "Ruanjianyuan Road (软件园路)",
+        "alternate_names": [
+          "Ruanjianyuan Road",
+          "软件园路",
+          "軟件園路",
+          "Ruanjianyuanlu",
+          "ruan jian yuan lu",
+          "Software Park Road"
+        ],
+        "line": "wuhanl3",
+        "order": 8
+      },
+      "id": 423
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.403279,
+          30.469106
+        ]
+      },
+      "properties": {
+        "id": 424,
+        "name": "Huaxiaxueyuan",
+        "display_name": "Huaxiaxueyuan (华夏学院)",
+        "alternate_names": [
+          "Huaxiaxueyuan",
+          "华夏学院",
+          "華夏學院",
+          "hua xia xue yuan",
+          "Huaxia University of Technology"
+        ],
+        "line": "wuhanl3",
+        "order": 9
+      },
+      "id": 424
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.399972,
+          30.462408
+        ]
+      },
+      "properties": {
+        "id": 425,
+        "name": "Wankechengshihuayuan",
+        "display_name": "Wankechengshihuayuan (万科城市花园)",
+        "alternate_names": [
+          "Wankechengshihuayuan",
+          "万科城市花园",
+          "萬科城市花園",
+          "wan ke cheng shi hua yuan",
+          "Vanke City Garden"
+        ],
+        "line": "wuhanl3",
+        "order": 10
+      },
+      "id": 425
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.396437,
+          30.457877
+        ]
+      },
+      "properties": {
+        "id": 426,
+        "name": "Wudayuan",
+        "display_name": "Wudayuan (武大园)",
+        "alternate_names": [
+          "Wudayuan",
+          "武大园",
+          "武大園",
+          "wu da yuan",
+          "Wuhan University Science Park"
+        ],
+        "line": "wuhanl3",
+        "order": 11
+      },
+      "id": 426
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.391626,
+          30.452095
+        ]
+      },
+      "properties": {
+        "id": 427,
+        "name": "Huazhongkejiyuan",
+        "display_name": "Huazhongkejiyuan (华中科技园)",
+        "alternate_names": [
+          "Huazhongkejiyuan",
+          "华中科技园",
+          "華中科技園",
+          "hua zhong ke ji yuan",
+          "Huazhong University Science Park"
+        ],
+        "line": "wuhanl3",
+        "order": 12
+      },
+      "id": 427
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.384826,
+          30.445707
+        ]
+      },
+      "properties": {
+        "id": 428,
+        "name": "Sanyuan Road",
+        "display_name": "Sanyuan Road (三园路)",
+        "alternate_names": [
+          "Sanyuan Road",
+          "三园路",
+          "三園路",
+          "Sanyuanlu",
+          "san yuan lu"
+        ],
+        "line": "wuhanl3",
+        "order": 13
+      },
+      "id": 428
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.380377,
+          30.447086
+        ]
+      },
+      "properties": {
+        "id": 429,
+        "name": "Chengtietangxunhu",
+        "display_name": "Chengtietangxunhu (城铁汤逊湖)",
+        "alternate_names": [
+          "Chengtietangxunhu",
+          "城铁汤逊湖",
+          "城鐵湯遜湖",
+          "cheng tie tang xun hu",
+          "Tangxunhu City"
+        ],
+        "line": "wuhanl3",
+        "order": 14
+      },
+      "id": 429
     }
   ]
 }

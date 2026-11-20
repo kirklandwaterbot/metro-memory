@@ -23,7 +23,7 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [
       {
         type: 'lines',
-        lines: ['wuhanl1', 'wuhanl2', 'wuhant1'],
+        lines: ['wuhanl1', 'wuhanl2', 'wuhanl3', 'wuhant1'],
       },
     ],
   },

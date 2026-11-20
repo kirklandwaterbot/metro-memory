@@ -134,6 +134,14 @@
       }
     },
     {
+      "id": "wuhanl3",
+      "name": "Optics Valley Tram L3",
+      "match": {
+        "route": "tram",
+        "ref": "^L3$"
+      }
+    },
+    {
       "id": "wuhant1",
       "name": "Auto City Tram T1",
       "match": {
@@ -168,6 +176,7 @@
       "lines": [
         "wuhanl1",
         "wuhanl2",
+        "wuhanl3",
         "wuhant1"
       ]
     }
