@@ -271,6 +271,7 @@ const rawCities: CityBase[] = [
   {
     name: 'Mexico City, CMX',
     link: '/north-america/mexico/mexico-city',
+    keywords: ['Metro CDMX', 'Tren Ligero', 'Tren Suburbano', 'Tren Felipe Ángeles', 'El Insurgente', 'Tren Interurbano', 'Cablebús'],
     continent: 'North America',
   },
   {
@@ -603,6 +604,7 @@ const rawCities: CityBase[] = [
   {
     name: 'London, ENG',
     link: '/europe/uk/london',
+    keywords: ['Tube', 'Overground', 'DLR', 'Elizabeth line', 'Tramlink', 'London Trams', 'Cable Car', 'Heathrow'],
     continent: 'Europe',
   },
   {

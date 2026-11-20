@@ -90,6 +90,55 @@ export const LINES: {
     textColor: '#FFFFFF',
     order: 11,
   },
+  DFTrenLigero: {
+    name: 'Tren Ligero',
+    color: '#0072BC',
+    backgroundColor: '#003a60',
+    textColor: '#FFFFFF',
+    order: 12,
+  },
+  DFSuburbano: {
+    name: 'Tren Suburbano',
+    color: '#C8102E',
+    backgroundColor: '#6b0818',
+    textColor: '#FFFFFF',
+    order: 13,
+  },
+  DFFelipeAngeles: {
+    name: 'Tren Felipe Ángeles',
+    color: '#0B7A4B',
+    backgroundColor: '#05402a',
+    textColor: '#FFFFFF',
+    order: 14,
+  },
+  DFInsurgente: {
+    name: 'El Insurgente',
+    color: '#7A1F3D',
+    backgroundColor: '#3d0f1e',
+    textColor: '#FFFFFF',
+    order: 15,
+  },
+  DFCablebus1: {
+    name: 'Cablebús Línea 1',
+    color: '#E36C0A',
+    backgroundColor: '#733605',
+    textColor: '#FFFFFF',
+    order: 16,
+  },
+  DFCablebus2: {
+    name: 'Cablebús Línea 2',
+    color: '#7B3F98',
+    backgroundColor: '#3d1f4c',
+    textColor: '#FFFFFF',
+    order: 17,
+  },
+  DFCablebus3: {
+    name: 'Cablebús Línea 3',
+    color: '#2E8B57',
+    backgroundColor: '#17452b',
+    textColor: '#FFFFFF',
+    order: 18,
+  },
 }
 
 export const METADATA: Metadata = {
@@ -153,6 +202,26 @@ export const LINE_GROUPS: LineGroup[] = [
           'DFMetroA',
           'DFMetroB',
         ],
+      },
+    ],
+  },
+  {
+    title: 'Servicio de Transportes Eléctricos (STE)',
+    items: [
+      { type: 'lines', title: 'Tren Ligero', lines: ['DFTrenLigero'] },
+      {
+        type: 'lines',
+        title: 'Cablebús',
+        lines: ['DFCablebus1', 'DFCablebus2', 'DFCablebus3'],
+      },
+    ],
+  },
+  {
+    title: 'Trenes suburbanos e interurbanos',
+    items: [
+      {
+        type: 'lines',
+        lines: ['DFSuburbano', 'DFFelipeAngeles', 'DFInsurgente'],
       },
     ],
   },
