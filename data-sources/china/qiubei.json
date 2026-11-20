@@ -12,16 +12,18 @@
       "match": {
         "route": "tram",
         "ref": "^4$"
-      }
+      },
+      "color": "#75BD43"
     }
   ],
   "cityName": "Qiubei",
   "groups": [
     {
-      "title": "Wenshan Tram",
+      "title": "Wenshan Urban Rail Transit",
       "lines": [
         "qiubei4"
-      ]
+      ],
+      "titleImage": "asia/china/qiubei/wenshanheader.png"
     }
   ]
 }
