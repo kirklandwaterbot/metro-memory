@@ -1500,7 +1500,7 @@
           "slug": "adelaide-trains",
           "name": "Adelaide Trains",
           "link": "/oceania/australia/adelaide-trains",
-          "assetSourceSlug": "adelaide",
+          "assetSourceSlug": "adelaide-trains",
           "keywords": [
             "Trains"
           ],
@@ -1518,7 +1518,7 @@
           "slug": "adelaide-tram",
           "name": "Adelaide Tram",
           "link": "/oceania/australia/adelaide-tram",
-          "assetSourceSlug": "adelaide",
+          "assetSourceSlug": "adelaide-tram",
           "keywords": [
             "Tram"
           ],
@@ -1541,7 +1541,7 @@
           "slug": "algiers-metro",
           "name": "Métro d'Alger",
           "link": "/africa/algeria/algiers-metro",
-          "assetSourceSlug": "algiers",
+          "assetSourceSlug": "algiers-metro",
           "keywords": [
             "Métro d'Alger"
           ],
@@ -1554,7 +1554,7 @@
           "slug": "algiers-tramway",
           "name": "Tramway d'Alger",
           "link": "/africa/algeria/algiers-tramway",
-          "assetSourceSlug": "algiers",
+          "assetSourceSlug": "algiers-tramway",
           "keywords": [
             "Tramway d'Alger"
           ],
@@ -1577,7 +1577,7 @@
           "slug": "amtrak-nec",
           "name": "Northeast Corridor (NEC)",
           "link": "/north-america/usa/amtrak-nec",
-          "assetSourceSlug": "amtrak",
+          "assetSourceSlug": "amtrak-nec",
           "keywords": [
             "Northeast Corridor (NEC)"
           ],
@@ -1593,7 +1593,7 @@
           "slug": "amtrak-state-supported-routes",
           "name": "Amtrak State-Supported Routes",
           "link": "/north-america/usa/amtrak-state-supported-routes",
-          "assetSourceSlug": "amtrak",
+          "assetSourceSlug": "amtrak-state-supported-routes",
           "keywords": [
             "State-Supported Routes"
           ],
@@ -1635,7 +1635,7 @@
           "slug": "amtrak-long-distance-routes",
           "name": "Amtrak Long-Distance Routes",
           "link": "/north-america/usa/amtrak-long-distance-routes",
-          "assetSourceSlug": "amtrak",
+          "assetSourceSlug": "amtrak-long-distance-routes",
           "keywords": [
             "Long-Distance Routes"
           ],
@@ -1671,7 +1671,7 @@
           "slug": "atlanta-marta",
           "name": "MARTA",
           "link": "/north-america/usa/atlanta-marta",
-          "assetSourceSlug": "atlanta",
+          "assetSourceSlug": "atlanta-marta",
           "keywords": [
             "Metropolitan Atlanta Rapid Transit Authority (MARTA)"
           ],
@@ -1688,7 +1688,7 @@
           "slug": "atlanta-plane-train",
           "name": "Atlanta Airport Plane Train",
           "link": "/north-america/usa/atlanta-plane-train",
-          "assetSourceSlug": "atlanta",
+          "assetSourceSlug": "atlanta-plane-train",
           "keywords": [
             "Atlanta Department of Aviation (ADA)"
           ],
@@ -1712,7 +1712,7 @@
           "slug": "bangkok-mrt",
           "name": "Bangkok MRT",
           "link": "/asia/thailand/bangkok-mrt",
-          "assetSourceSlug": "bangkok",
+          "assetSourceSlug": "bangkok-mrt",
           "keywords": [
             "Metropolitan Rapid Transit (MRT)"
           ],
@@ -1728,7 +1728,7 @@
           "slug": "bangkok-bts",
           "name": "BTS Skytrain",
           "link": "/asia/thailand/bangkok-bts",
-          "assetSourceSlug": "bangkok",
+          "assetSourceSlug": "bangkok-bts",
           "keywords": [
             "Bangkok Mass Transit System (BTS Skytrain)"
           ],
@@ -1743,7 +1743,7 @@
           "slug": "bangkok-arl",
           "name": "Airport Rail Link",
           "link": "/asia/thailand/bangkok-arl",
-          "assetSourceSlug": "bangkok",
+          "assetSourceSlug": "bangkok-arl",
           "keywords": [
             "Airport Rail Link (ARL)"
           ],
@@ -1756,7 +1756,7 @@
           "slug": "bangkok-srt-red-lines",
           "name": "SRT Red Lines",
           "link": "/asia/thailand/bangkok-srt-red-lines",
-          "assetSourceSlug": "bangkok",
+          "assetSourceSlug": "bangkok-srt-red-lines",
           "keywords": [
             "Red Line Mass Transit System Project (SRT Red Lines)"
           ],
@@ -1770,7 +1770,7 @@
           "slug": "bangkok-srt-commuter-rail",
           "name": "SRT Commuter Rail",
           "link": "/asia/thailand/bangkok-srt-commuter-rail",
-          "assetSourceSlug": "bangkok",
+          "assetSourceSlug": "bangkok-srt-commuter-rail",
           "keywords": [
             "SRT Commuter Rail"
           ],
@@ -1797,7 +1797,7 @@
           "slug": "barcelona-metro",
           "name": "Barcelona Metro (TMB & FGC)",
           "link": "/europe/spain/barcelona-metro",
-          "assetSourceSlug": "barcelona",
+          "assetSourceSlug": "barcelona-metro",
           "keywords": [
             "Transports Metropolitans de Barcelona (TMB) & Ferrocarrils de la Generalitat de Catalunya (FGC)"
           ],
@@ -1822,7 +1822,7 @@
           "slug": "barcelona-trambaix-trambesos",
           "name": "Trambaix / Trambesòs",
           "link": "/europe/spain/barcelona-trambaix-trambesos",
-          "assetSourceSlug": "barcelona",
+          "assetSourceSlug": "barcelona-trambaix-trambesos",
           "keywords": [
             "Trambaix / Trambesòs"
           ],
@@ -1850,7 +1850,7 @@
           "slug": "beijing-subway-operation",
           "name": "Beijing Subway Operation Corp.",
           "link": "/asia/china/beijing-subway-operation",
-          "assetSourceSlug": "beijing",
+          "assetSourceSlug": "beijing-subway-operation",
           "keywords": [
             "Beijing Mass Transit Railway Operation Corp., Ltd."
           ],
@@ -1883,7 +1883,7 @@
           "slug": "beijing-mtr",
           "name": "Beijing MTR (BJMTR)",
           "link": "/asia/china/beijing-mtr",
-          "assetSourceSlug": "beijing",
+          "assetSourceSlug": "beijing-mtr",
           "keywords": [
             "Beijing Mass Transit Railway Corp., Ltd. (BJMTR)"
           ],
@@ -1900,7 +1900,7 @@
           "slug": "beijing-bjmoa",
           "name": "Beijing Metro Operation Administration (BJMOA)",
           "link": "/asia/china/beijing-bjmoa",
-          "assetSourceSlug": "beijing",
+          "assetSourceSlug": "beijing-bjmoa",
           "keywords": [
             "Beijing Metro Operation Administration (BJMOA) Corp., Ltd."
           ],
@@ -1914,7 +1914,7 @@
           "slug": "beijing-capital-metro",
           "name": "Beijing Capital Metro",
           "link": "/asia/china/beijing-capital-metro",
-          "assetSourceSlug": "beijing",
+          "assetSourceSlug": "beijing-capital-metro",
           "keywords": [
             "Beijing Capital Metro Corp., Ltd."
           ],
@@ -1927,7 +1927,7 @@
           "slug": "beijing-tram",
           "name": "Beijing Public Transit Tramways",
           "link": "/asia/china/beijing-tram",
-          "assetSourceSlug": "beijing",
+          "assetSourceSlug": "beijing-tram",
           "keywords": [
             "Beijing Public Transit Tramway Co., Ltd."
           ],
@@ -1941,7 +1941,7 @@
           "slug": "beijing-suburban-railway",
           "name": "Beijing Suburban Railway (BCR)",
           "link": "/asia/china/beijing-suburban-railway",
-          "assetSourceSlug": "beijing",
+          "assetSourceSlug": "beijing-suburban-railway",
           "keywords": [
             "Beijing Suburban Railway (BCR)"
           ],
@@ -1967,7 +1967,7 @@
           "slug": "busan-metro",
           "name": "Busan Metro",
           "link": "/asia/south-korea/busan-metro",
-          "assetSourceSlug": "busan",
+          "assetSourceSlug": "busan-metro",
           "keywords": [
             "Busan Transportation Corporation"
           ],
@@ -1983,7 +1983,7 @@
           "slug": "busan-gimhae-lrt",
           "name": "Busan–Gimhae Light Rail",
           "link": "/asia/south-korea/busan-gimhae-lrt",
-          "assetSourceSlug": "busan",
+          "assetSourceSlug": "busan-gimhae-lrt",
           "keywords": [
             "Busan–Gimhae Light Rail Transit Operation Corporation (B&G Metro)"
           ],
@@ -1996,7 +1996,7 @@
           "slug": "busan-haeundae-blue-line",
           "name": "Haeundae Blue Line",
           "link": "/asia/south-korea/busan-haeundae-blue-line",
-          "assetSourceSlug": "busan",
+          "assetSourceSlug": "busan-haeundae-blue-line",
           "keywords": [
             "Haeundae Blue Line"
           ],
@@ -2059,7 +2059,7 @@
           "slug": "changchun-rail-transit",
           "name": "Changchun Rail Transit",
           "link": "/asia/china/changchun-rail-transit",
-          "assetSourceSlug": "changchun",
+          "assetSourceSlug": "changchun-rail-transit",
           "keywords": [
             "Changchun Rail Transit"
           ],
@@ -2077,7 +2077,7 @@
           "slug": "changchun-tram",
           "name": "Changchun Tram",
           "link": "/asia/china/changchun-tram",
-          "assetSourceSlug": "changchun",
+          "assetSourceSlug": "changchun-tram",
           "keywords": [
             "Changchun Public Transportation Group Tram Company"
           ],
@@ -2101,7 +2101,7 @@
           "slug": "changsha-metro",
           "name": "Changsha Metro",
           "link": "/asia/china/changsha-metro",
-          "assetSourceSlug": "changsha",
+          "assetSourceSlug": "changsha-metro",
           "keywords": [
             "Changsha Metro"
           ],
@@ -2119,7 +2119,7 @@
           "slug": "changsha-maglev-yunba",
           "name": "Changsha Maglev & Yunba",
           "link": "/asia/china/changsha-maglev-yunba",
-          "assetSourceSlug": "changsha",
+          "assetSourceSlug": "changsha-maglev-yunba",
           "keywords": [
             "Maglev & Yunba"
           ],
@@ -2143,7 +2143,7 @@
           "slug": "chengdu-metro",
           "name": "Chengdu Metro",
           "link": "/asia/china/chengdu-metro",
-          "assetSourceSlug": "chengdu",
+          "assetSourceSlug": "chengdu-metro",
           "keywords": [
             "Chengdu Metro"
           ],
@@ -2172,7 +2172,7 @@
           "slug": "chengdu-tram",
           "name": "Chengdu Tram",
           "link": "/asia/china/chengdu-tram",
-          "assetSourceSlug": "chengdu",
+          "assetSourceSlug": "chengdu-tram",
           "keywords": [
             "Chengdu Tram"
           ],
@@ -2185,7 +2185,7 @@
           "slug": "chengdu-dujiangyan-m-tr",
           "name": "Chengdu Dujiangyan M-TR",
           "link": "/asia/china/chengdu-dujiangyan-m-tr",
-          "assetSourceSlug": "chengdu",
+          "assetSourceSlug": "chengdu-dujiangyan-m-tr",
           "keywords": [
             "Dujiangyan M-TR"
           ],
@@ -2208,7 +2208,7 @@
           "slug": "chongqing-rail-transit",
           "name": "Chongqing Rail Transit",
           "link": "/asia/china/chongqing-rail-transit",
-          "assetSourceSlug": "chongqing",
+          "assetSourceSlug": "chongqing-rail-transit",
           "keywords": [
             "Chongqing Rail Transit"
           ],
@@ -2235,7 +2235,7 @@
           "slug": "chongqing-byd",
           "name": "Chongqing SkyRail (BYD)",
           "link": "/asia/china/chongqing-byd",
-          "assetSourceSlug": "chongqing",
+          "assetSourceSlug": "chongqing-byd",
           "keywords": [
             "BYD"
           ],
@@ -2258,7 +2258,7 @@
           "slug": "dalian-metro",
           "name": "Dalian Metro",
           "link": "/asia/china/dalian-metro",
-          "assetSourceSlug": "dalian",
+          "assetSourceSlug": "dalian-metro",
           "keywords": [
             "Dalian Metro"
           ],
@@ -2277,7 +2277,7 @@
           "slug": "dalian-trams",
           "name": "Dalian Trams",
           "link": "/asia/china/dalian-trams",
-          "assetSourceSlug": "dalian",
+          "assetSourceSlug": "dalian-trams",
           "keywords": [
             "Dalian Trams"
           ],
@@ -2301,7 +2301,7 @@
           "slug": "dallas-dart",
           "name": "DART (Dallas Area Rapid Transit)",
           "link": "/north-america/usa/dallas-dart",
-          "assetSourceSlug": "dallas",
+          "assetSourceSlug": "dallas-dart",
           "keywords": [
             "Dallas Area Rapid Transit (DART)"
           ],
@@ -2321,7 +2321,7 @@
           "slug": "dallas-trinity-metro",
           "name": "Trinity Metro TEXRail",
           "link": "/north-america/usa/dallas-trinity-metro",
-          "assetSourceSlug": "dallas",
+          "assetSourceSlug": "dallas-trinity-metro",
           "keywords": [
             "Trinity Metro",
             "Dallas Trinity Metro"
@@ -2336,7 +2336,7 @@
           "slug": "dallas-dcta",
           "name": "DCTA A-train",
           "link": "/north-america/usa/dallas-dcta",
-          "assetSourceSlug": "dallas",
+          "assetSourceSlug": "dallas-dcta",
           "keywords": [
             "Denton County Transportation Authority (DCTA)"
           ],
@@ -2349,7 +2349,7 @@
           "slug": "dallas-dfw-airport-board",
           "name": "DFW Skylink",
           "link": "/north-america/usa/dallas-dfw-airport-board",
-          "assetSourceSlug": "dallas",
+          "assetSourceSlug": "dallas-dfw-airport-board",
           "keywords": [
             "DFW Airport Board"
           ],
@@ -2372,7 +2372,7 @@
           "slug": "denver-rtd",
           "name": "Denver RTD Rail",
           "link": "/north-america/usa/denver-rtd",
-          "assetSourceSlug": "denver",
+          "assetSourceSlug": "denver-rtd",
           "keywords": [
             "Regional Transportation District (RTD)"
           ],
@@ -2394,7 +2394,7 @@
           "slug": "denver-airport-train",
           "name": "Denver Airport Train",
           "link": "/north-america/usa/denver-airport-train",
-          "assetSourceSlug": "denver",
+          "assetSourceSlug": "denver-airport-train",
           "keywords": [
             "City & County of Denver Department of Aviation"
           ],
@@ -2417,7 +2417,7 @@
           "slug": "detroit-qline",
           "name": "Detroit QLine (RTA)",
           "link": "/north-america/usa/detroit-qline",
-          "assetSourceSlug": "detroit",
+          "assetSourceSlug": "detroit-qline",
           "keywords": [
             "Regional Transit Authority of Southeast Michigan (RTA)"
           ],
@@ -2430,7 +2430,7 @@
           "slug": "detroit-people-mover",
           "name": "Detroit People Mover",
           "link": "/north-america/usa/detroit-people-mover",
-          "assetSourceSlug": "detroit",
+          "assetSourceSlug": "detroit-people-mover",
           "keywords": [
             "Detroit Transportation Corporation (DTC)"
           ],
@@ -2506,7 +2506,7 @@
           "slug": "hangzhou-metro",
           "name": "Hangzhou Metro",
           "link": "/asia/china/hangzhou-metro",
-          "assetSourceSlug": "hangzhou",
+          "assetSourceSlug": "hangzhou-metro",
           "keywords": [
             "Hangzhou Metro"
           ],
@@ -2531,7 +2531,7 @@
           "slug": "hangzhou-shaoxing-metro",
           "name": "Hangzhou Shaoxing Metro",
           "link": "/asia/china/hangzhou-shaoxing-metro",
-          "assetSourceSlug": "hangzhou",
+          "assetSourceSlug": "hangzhou-shaoxing-metro",
           "keywords": [
             "Shaoxing Metro"
           ],
@@ -2555,7 +2555,7 @@
           "slug": "hiroshima-astram-line",
           "name": "Hiroshima Astram Line",
           "link": "/asia/japan/hiroshima-astram-line",
-          "assetSourceSlug": "hiroshima",
+          "assetSourceSlug": "hiroshima-astram-line",
           "keywords": [
             "Astram Line"
           ],
@@ -2568,7 +2568,7 @@
           "slug": "hiroshima-hiroden",
           "name": "Hiroden (Hiroshima Electric Railway)",
           "link": "/asia/japan/hiroshima-hiroden",
-          "assetSourceSlug": "hiroshima",
+          "assetSourceSlug": "hiroshima-hiroden",
           "keywords": [
             "Hiroden (Hiroshima Electric Railway)"
           ],
@@ -2598,7 +2598,7 @@
           "slug": "houston-metrorail",
           "name": "Houston METRORail",
           "link": "/north-america/usa/houston-metrorail",
-          "assetSourceSlug": "houston",
+          "assetSourceSlug": "houston-metrorail",
           "keywords": [
             "Metropolitan Transit Authority of Harris County (METRO)"
           ],
@@ -2613,7 +2613,7 @@
           "slug": "houston-airport",
           "name": "Houston Airport Subway & Skyway",
           "link": "/north-america/usa/houston-airport",
-          "assetSourceSlug": "houston",
+          "assetSourceSlug": "houston-airport",
           "keywords": [
             "Houston Airport System (HAS)"
           ],
@@ -2637,7 +2637,7 @@
           "slug": "jakarta-mrt",
           "name": "Jakarta MRT",
           "link": "/asia/indonesia/jakarta-mrt",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-mrt",
           "keywords": [
             "Jakarta MRT"
           ],
@@ -2650,7 +2650,7 @@
           "slug": "jakarta-lrt",
           "name": "Jakarta LRT",
           "link": "/asia/indonesia/jakarta-lrt",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-lrt",
           "keywords": [
             "Jakarta LRT"
           ],
@@ -2663,7 +2663,7 @@
           "slug": "jakarta-jabodebek-lrt",
           "name": "Jakarta Jabodebek LRT",
           "link": "/asia/indonesia/jakarta-jabodebek-lrt",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-jabodebek-lrt",
           "keywords": [
             "Jabodebek LRT"
           ],
@@ -2677,7 +2677,7 @@
           "slug": "jakarta-kai-commuter",
           "name": "Soekarno-Hatta Airport Rail Link",
           "link": "/asia/indonesia/jakarta-kai-commuter",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-kai-commuter",
           "keywords": [
             "KAI Commuter",
             "Jakarta KAI Commuter"
@@ -2691,7 +2691,7 @@
           "slug": "jakarta-injourney-airports",
           "name": "Soekarno-Hatta Skytrain",
           "link": "/asia/indonesia/jakarta-injourney-airports",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-injourney-airports",
           "keywords": [
             "InJourney Airports",
             "Jakarta InJourney Airports"
@@ -2705,7 +2705,7 @@
           "slug": "jakarta-ancol-dreamland",
           "name": "Jakarta Ancol Dreamland",
           "link": "/asia/indonesia/jakarta-ancol-dreamland",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-ancol-dreamland",
           "keywords": [
             "Ancol Dreamland"
           ],
@@ -2719,7 +2719,7 @@
           "slug": "jakarta-krl-commuterline",
           "name": "Jakarta KRL Commuterline",
           "link": "/asia/indonesia/jakarta-krl-commuterline",
-          "assetSourceSlug": "jakarta",
+          "assetSourceSlug": "jakarta-krl-commuterline",
           "keywords": [
             "KRL Commuterline"
           ],
@@ -2746,7 +2746,7 @@
           "slug": "jinan-metro",
           "name": "Jinan Metro",
           "link": "/asia/china/jinan-metro",
-          "assetSourceSlug": "jinan",
+          "assetSourceSlug": "jinan-metro",
           "keywords": [
             "Jinan Metro"
           ],
@@ -2765,7 +2765,7 @@
           "slug": "jinan-byd",
           "name": "Jinan SkyRail (BYD)",
           "link": "/asia/china/jinan-byd",
-          "assetSourceSlug": "jinan",
+          "assetSourceSlug": "jinan-byd",
           "keywords": [
             "BYD"
           ],
@@ -2788,7 +2788,7 @@
           "slug": "kaohsiung-heavy-rail",
           "name": "Kaohsiung Heavy Rail",
           "link": "/asia/taiwan/kaohsiung-heavy-rail",
-          "assetSourceSlug": "kaohsiung",
+          "assetSourceSlug": "kaohsiung-heavy-rail",
           "keywords": [
             "Heavy Rail"
           ],
@@ -2802,7 +2802,7 @@
           "slug": "kaohsiung-light-rail",
           "name": "Kaohsiung Light Rail",
           "link": "/asia/taiwan/kaohsiung-light-rail",
-          "assetSourceSlug": "kaohsiung",
+          "assetSourceSlug": "kaohsiung-light-rail",
           "keywords": [
             "Light Rail"
           ],
@@ -3018,7 +3018,7 @@
           "slug": "kuala-lumpur-rapid-kl",
           "name": "Rapid KL",
           "link": "/asia/malaysia/kuala-lumpur-rapid-kl",
-          "assetSourceSlug": "kuala-lumpur",
+          "assetSourceSlug": "kuala-lumpur-rapid-kl",
           "keywords": [
             "Rapid KL",
             "Kuala Lumpur Rapid KL"
@@ -3038,7 +3038,7 @@
           "slug": "kuala-lumpur-express-rail-link",
           "name": "Express Rail Link",
           "link": "/asia/malaysia/kuala-lumpur-express-rail-link",
-          "assetSourceSlug": "kuala-lumpur",
+          "assetSourceSlug": "kuala-lumpur-express-rail-link",
           "keywords": [
             "Express Rail Link"
           ],
@@ -3052,7 +3052,7 @@
           "slug": "kuala-lumpur-ktm-komuter",
           "name": "KTM Komuter Klang Valley",
           "link": "/asia/malaysia/kuala-lumpur-ktm-komuter",
-          "assetSourceSlug": "kuala-lumpur",
+          "assetSourceSlug": "kuala-lumpur-ktm-komuter",
           "keywords": [
             "KTM Komuter",
             "Kuala Lumpur KTM Komuter"
@@ -3078,7 +3078,7 @@
           "slug": "kyoto-subway",
           "name": "Kyoto Municipal Subway",
           "link": "/asia/japan/kyoto-subway",
-          "assetSourceSlug": "kyoto",
+          "assetSourceSlug": "kyoto-subway",
           "keywords": [
             "Kyoto Municipal Transportation Bureau"
           ],
@@ -3092,7 +3092,7 @@
           "slug": "kyoto-randen-eizan",
           "name": "Randen & Eizan Railway",
           "link": "/asia/japan/kyoto-randen-eizan",
-          "assetSourceSlug": "kyoto",
+          "assetSourceSlug": "kyoto-randen-eizan",
           "keywords": [
             "Keifuku Electric Railroad Co., Ltd"
           ],
@@ -3108,7 +3108,7 @@
           "slug": "kyoto-hieizan",
           "name": "Hieizan Railway",
           "link": "/asia/japan/kyoto-hieizan",
-          "assetSourceSlug": "kyoto",
+          "assetSourceSlug": "kyoto-hieizan",
           "keywords": [
             "Hieizan Railway Co.,Ltd"
           ],
@@ -3168,7 +3168,7 @@
           "slug": "lv-monorail-loop",
           "name": "Las Vegas Monorail & Loop",
           "link": "/north-america/usa/lv-monorail-loop",
-          "assetSourceSlug": "lv",
+          "assetSourceSlug": "lv-monorail-loop",
           "keywords": [
             "Las Vegas Convention and Visitors Authority (LVCVA)"
           ],
@@ -3181,7 +3181,7 @@
           "slug": "lv-airport",
           "name": "Harry Reid Airport People Movers",
           "link": "/north-america/usa/lv-airport",
-          "assetSourceSlug": "lv",
+          "assetSourceSlug": "lv-airport",
           "keywords": [
             "Clark County Department of Aviation (CCDA)"
           ],
@@ -3206,7 +3206,7 @@
           "slug": "manila-lrt",
           "name": "Manila LRT",
           "link": "/asia/philippines/manila-lrt",
-          "assetSourceSlug": "manila",
+          "assetSourceSlug": "manila-lrt",
           "keywords": [
             "Manila Light Rail Transit System (LRT)"
           ],
@@ -3220,7 +3220,7 @@
           "slug": "manila-mrt",
           "name": "Manila MRT",
           "link": "/asia/philippines/manila-mrt",
-          "assetSourceSlug": "manila",
+          "assetSourceSlug": "manila-mrt",
           "keywords": [
             "Manila Metro Rail Transit System (MRT)"
           ],
@@ -3244,7 +3244,7 @@
           "slug": "melbourne-burnley-group",
           "name": "Melbourne Burnley group",
           "link": "/oceania/australia/melbourne-burnley-group",
-          "assetSourceSlug": "melbourne",
+          "assetSourceSlug": "melbourne-burnley-group",
           "keywords": [
             "Burnley group"
           ],
@@ -3260,7 +3260,7 @@
           "slug": "melbourne-caulfield-metro-tunnel",
           "name": "Melbourne Caulfield & Metro Tunnel",
           "link": "/oceania/australia/melbourne-caulfield-metro-tunnel",
-          "assetSourceSlug": "melbourne",
+          "assetSourceSlug": "melbourne-caulfield-metro-tunnel",
           "keywords": [
             "Caulfield & Metro Tunnel"
           ],
@@ -3275,7 +3275,7 @@
           "slug": "melbourne-clifton-hill-group",
           "name": "Melbourne Clifton Hill group",
           "link": "/oceania/australia/melbourne-clifton-hill-group",
-          "assetSourceSlug": "melbourne",
+          "assetSourceSlug": "melbourne-clifton-hill-group",
           "keywords": [
             "Clifton Hill group"
           ],
@@ -3289,7 +3289,7 @@
           "slug": "melbourne-northern-group",
           "name": "Melbourne Northern group",
           "link": "/oceania/australia/melbourne-northern-group",
-          "assetSourceSlug": "melbourne",
+          "assetSourceSlug": "melbourne-northern-group",
           "keywords": [
             "Northern group"
           ],
@@ -3303,7 +3303,7 @@
           "slug": "melbourne-cross-city-frankston",
           "name": "Melbourne Cross-city & Frankston",
           "link": "/oceania/australia/melbourne-cross-city-frankston",
-          "assetSourceSlug": "melbourne",
+          "assetSourceSlug": "melbourne-cross-city-frankston",
           "keywords": [
             "Cross-city & Frankston"
           ],
@@ -3493,7 +3493,7 @@
           "slug": "nagoya-municipal-subway",
           "name": "Nagoya Municipal Subway",
           "link": "/asia/japan/nagoya-municipal-subway",
-          "assetSourceSlug": "nagoya",
+          "assetSourceSlug": "nagoya-municipal-subway",
           "keywords": [
             "Nagoya Municipal Subway"
           ],
@@ -3511,7 +3511,7 @@
           "slug": "nagoya-aonami-line",
           "name": "Nagoya Aonami Line",
           "link": "/asia/japan/nagoya-aonami-line",
-          "assetSourceSlug": "nagoya",
+          "assetSourceSlug": "nagoya-aonami-line",
           "keywords": [
             "Aonami Line"
           ],
@@ -3524,7 +3524,7 @@
           "slug": "nagoya-linimo",
           "name": "Nagoya Linimo",
           "link": "/asia/japan/nagoya-linimo",
-          "assetSourceSlug": "nagoya",
+          "assetSourceSlug": "nagoya-linimo",
           "keywords": [
             "Linimo"
           ],
@@ -3547,7 +3547,7 @@
           "slug": "nanjing-metro",
           "name": "Nanjing Metro",
           "link": "/asia/china/nanjing-metro",
-          "assetSourceSlug": "nanjing",
+          "assetSourceSlug": "nanjing-metro",
           "keywords": [
             "Nanjing Metro"
           ],
@@ -3575,7 +3575,7 @@
           "slug": "nanjing-tram",
           "name": "Nanjing Tram",
           "link": "/asia/china/nanjing-tram",
-          "assetSourceSlug": "nanjing",
+          "assetSourceSlug": "nanjing-tram",
           "keywords": [
             "Nanjing Tram"
           ],
@@ -3599,7 +3599,7 @@
           "slug": "osaka-kobe-metro",
           "name": "Osaka Metro",
           "link": "/asia/japan/osaka-kobe-metro",
-          "assetSourceSlug": "osaka-kobe",
+          "assetSourceSlug": "osaka-kobe-metro",
           "keywords": [
             "Osaka Metro"
           ],
@@ -3620,7 +3620,7 @@
           "slug": "osaka-kobe-kita-osaka-kyuko",
           "name": "Kita-Osaka Kyuko",
           "link": "/asia/japan/osaka-kobe-kita-osaka-kyuko",
-          "assetSourceSlug": "osaka-kobe",
+          "assetSourceSlug": "osaka-kobe-kita-osaka-kyuko",
           "keywords": [
             "Kita-Osaka Kyuko"
           ],
@@ -3633,7 +3633,7 @@
           "slug": "osaka-kobe-monorail",
           "name": "Osaka Monorail",
           "link": "/asia/japan/osaka-kobe-monorail",
-          "assetSourceSlug": "osaka-kobe",
+          "assetSourceSlug": "osaka-kobe-monorail",
           "keywords": [
             "Osaka Monorail"
           ],
@@ -3647,7 +3647,7 @@
           "slug": "osaka-kobe-hankai-tramway",
           "name": "Hankai Tramway",
           "link": "/asia/japan/osaka-kobe-hankai-tramway",
-          "assetSourceSlug": "osaka-kobe",
+          "assetSourceSlug": "osaka-kobe-hankai-tramway",
           "keywords": [
             "Hankai Tramway",
             "Osaka–Kobe Hankai Tramway"
@@ -3662,7 +3662,7 @@
           "slug": "osaka-kobe-kobe-municipal-subway",
           "name": "Kobe Municipal Subway",
           "link": "/asia/japan/osaka-kobe-kobe-municipal-subway",
-          "assetSourceSlug": "osaka-kobe",
+          "assetSourceSlug": "osaka-kobe-kobe-municipal-subway",
           "keywords": [
             "Kobe Municipal Subway"
           ],
@@ -3676,7 +3676,7 @@
           "slug": "osaka-kobe-kobe-new-transit",
           "name": "Kobe New Transit",
           "link": "/asia/japan/osaka-kobe-kobe-new-transit",
-          "assetSourceSlug": "osaka-kobe",
+          "assetSourceSlug": "osaka-kobe-kobe-new-transit",
           "keywords": [
             "Kobe New Transit"
           ],
@@ -3700,7 +3700,7 @@
           "slug": "phoenix-valley-metro",
           "name": "Valley Metro",
           "link": "/north-america/usa/phoenix-valley-metro",
-          "assetSourceSlug": "phoenix",
+          "assetSourceSlug": "phoenix-valley-metro",
           "keywords": [
             "Valley Metro Regional Public Transportation Authority (Valley Metro)"
           ],
@@ -3715,7 +3715,7 @@
           "slug": "phoenix-sky-train",
           "name": "Phoenix Sky Harbor Sky Train",
           "link": "/north-america/usa/phoenix-sky-train",
-          "assetSourceSlug": "phoenix",
+          "assetSourceSlug": "phoenix-sky-train",
           "keywords": [
             "City of Phoenix Aviation Department"
           ],
@@ -3738,7 +3738,7 @@
           "slug": "pittsburgh-light-rail",
           "name": "Pittsburgh Light Rail",
           "link": "/north-america/usa/pittsburgh-light-rail",
-          "assetSourceSlug": "pittsburgh",
+          "assetSourceSlug": "pittsburgh-light-rail",
           "keywords": [
             "Light Rail"
           ],
@@ -3753,7 +3753,7 @@
           "slug": "pittsburgh-inclines",
           "name": "Pittsburgh Inclines",
           "link": "/north-america/usa/pittsburgh-inclines",
-          "assetSourceSlug": "pittsburgh",
+          "assetSourceSlug": "pittsburgh-inclines",
           "keywords": [
             "Inclines"
           ],
@@ -3777,7 +3777,7 @@
           "slug": "portland-max-light-rail",
           "name": "MAX Light Rail",
           "link": "/north-america/usa/portland-max-light-rail",
-          "assetSourceSlug": "portland",
+          "assetSourceSlug": "portland-max-light-rail",
           "keywords": [
             "MAX Light Rail"
           ],
@@ -3794,7 +3794,7 @@
           "slug": "portland-streetcar",
           "name": "Portland Streetcar",
           "link": "/north-america/usa/portland-streetcar",
-          "assetSourceSlug": "portland",
+          "assetSourceSlug": "portland-streetcar",
           "keywords": [
             "Portland Streetcar"
           ],
@@ -3809,7 +3809,7 @@
           "slug": "portland-westside-express-service",
           "name": "Westside Express Service",
           "link": "/north-america/usa/portland-westside-express-service",
-          "assetSourceSlug": "portland",
+          "assetSourceSlug": "portland-westside-express-service",
           "keywords": [
             "Westside Express Service"
           ],
@@ -3832,7 +3832,7 @@
           "slug": "qingdao-metro",
           "name": "Qingdao Metro",
           "link": "/asia/china/qingdao-metro",
-          "assetSourceSlug": "qingdao",
+          "assetSourceSlug": "qingdao-metro",
           "keywords": [
             "Qingdao Metro"
           ],
@@ -3852,7 +3852,7 @@
           "slug": "qingdao-tram",
           "name": "Qingdao Tram",
           "link": "/asia/china/qingdao-tram",
-          "assetSourceSlug": "qingdao",
+          "assetSourceSlug": "qingdao-tram",
           "keywords": [
             "Qingdao Tram"
           ],
@@ -4087,7 +4087,7 @@
           "slug": "sapporo-municipal-subway",
           "name": "Sapporo Municipal Subway",
           "link": "/asia/japan/sapporo-municipal-subway",
-          "assetSourceSlug": "sapporo",
+          "assetSourceSlug": "sapporo-municipal-subway",
           "keywords": [
             "Sapporo Municipal Subway"
           ],
@@ -4102,7 +4102,7 @@
           "slug": "sapporo-streetcar",
           "name": "Sapporo Streetcar",
           "link": "/asia/japan/sapporo-streetcar",
-          "assetSourceSlug": "sapporo",
+          "assetSourceSlug": "sapporo-streetcar",
           "keywords": [
             "Sapporo Streetcar"
           ],
@@ -4125,7 +4125,7 @@
           "slug": "seattle-sound-transit",
           "name": "Sound Transit",
           "link": "/north-america/usa/seattle-sound-transit",
-          "assetSourceSlug": "seattle",
+          "assetSourceSlug": "seattle-sound-transit",
           "keywords": [
             "Central Puget Sound Regional Transit Authority (Sound Transit)"
           ],
@@ -4142,7 +4142,7 @@
           "slug": "seattle-kcm",
           "name": "Seattle Streetcar",
           "link": "/north-america/usa/seattle-kcm",
-          "assetSourceSlug": "seattle",
+          "assetSourceSlug": "seattle-kcm",
           "keywords": [
             "King County Metro (KCM)"
           ],
@@ -4156,7 +4156,7 @@
           "slug": "seattle-airport",
           "name": "SEA Airport Trains",
           "link": "/north-america/usa/seattle-airport",
-          "assetSourceSlug": "seattle",
+          "assetSourceSlug": "seattle-airport",
           "keywords": [
             "Port of Seattle"
           ],
@@ -4181,7 +4181,7 @@
           "slug": "shanghai-metro",
           "name": "Shanghai Metro",
           "link": "/asia/china/shanghai-metro",
-          "assetSourceSlug": "shanghai",
+          "assetSourceSlug": "shanghai-metro",
           "keywords": [
             "Shanghai Metro"
           ],
@@ -4212,7 +4212,7 @@
           "slug": "shanghai-suburban-railway",
           "name": "Shanghai Suburban Railway",
           "link": "/asia/china/shanghai-suburban-railway",
-          "assetSourceSlug": "shanghai",
+          "assetSourceSlug": "shanghai-suburban-railway",
           "keywords": [
             "Shanghai Suburban Railway"
           ],
@@ -4226,7 +4226,7 @@
           "slug": "shanghai-songjiang-tram",
           "name": "Shanghai Songjiang Tram",
           "link": "/asia/china/shanghai-songjiang-tram",
-          "assetSourceSlug": "shanghai",
+          "assetSourceSlug": "shanghai-songjiang-tram",
           "keywords": [
             "Songjiang Tram"
           ],
@@ -4240,7 +4240,7 @@
           "slug": "shanghai-airport-authority",
           "name": "Shanghai Airport People Movers",
           "link": "/asia/china/shanghai-airport-authority",
-          "assetSourceSlug": "shanghai",
+          "assetSourceSlug": "shanghai-airport-authority",
           "keywords": [
             "Shanghai Airport Authority"
           ],
@@ -4263,7 +4263,7 @@
           "slug": "shenyang-metro",
           "name": "Shenyang Metro",
           "link": "/asia/china/shenyang-metro",
-          "assetSourceSlug": "shenyang",
+          "assetSourceSlug": "shenyang-metro",
           "keywords": [
             "Shenyang Metro"
           ],
@@ -4281,7 +4281,7 @@
           "slug": "shenyang-modern-tram",
           "name": "Shenyang Modern Tram",
           "link": "/asia/china/shenyang-modern-tram",
-          "assetSourceSlug": "shenyang",
+          "assetSourceSlug": "shenyang-modern-tram",
           "keywords": [
             "Shenyang Modern Tram"
           ],
@@ -4446,7 +4446,7 @@
           "slug": "slc-trax",
           "name": "Transit Express (TRAX)",
           "link": "/north-america/usa/slc-trax",
-          "assetSourceSlug": "slc",
+          "assetSourceSlug": "slc-trax",
           "keywords": [
             "Transit Express (TRAX)"
           ],
@@ -4461,7 +4461,7 @@
           "slug": "slc-s-line",
           "name": "Salt Lake City S Line",
           "link": "/north-america/usa/slc-s-line",
-          "assetSourceSlug": "slc",
+          "assetSourceSlug": "slc-s-line",
           "keywords": [
             "S Line"
           ],
@@ -4474,7 +4474,7 @@
           "slug": "slc-frontrunner",
           "name": "Salt Lake City FrontRunner",
           "link": "/north-america/usa/slc-frontrunner",
-          "assetSourceSlug": "slc",
+          "assetSourceSlug": "slc-frontrunner",
           "keywords": [
             "FrontRunner"
           ],
@@ -4553,7 +4553,7 @@
           "slug": "stl-metrolink",
           "name": "St. Louis MetroLink",
           "link": "/north-america/usa/stl-metrolink",
-          "assetSourceSlug": "stl",
+          "assetSourceSlug": "stl-metrolink",
           "keywords": [
             "MetroLink"
           ],
@@ -4567,7 +4567,7 @@
           "slug": "stl-loop-trolley",
           "name": "St. Louis Loop Trolley",
           "link": "/north-america/usa/stl-loop-trolley",
-          "assetSourceSlug": "stl",
+          "assetSourceSlug": "stl-loop-trolley",
           "keywords": [
             "Loop Trolley"
           ],
@@ -4590,7 +4590,7 @@
           "slug": "suzhou-rail-transit",
           "name": "Suzhou Rail Transit",
           "link": "/asia/china/suzhou-rail-transit",
-          "assetSourceSlug": "suzhou",
+          "assetSourceSlug": "suzhou-rail-transit",
           "keywords": [
             "Suzhou Rail Transit"
           ],
@@ -4611,7 +4611,7 @@
           "slug": "suzhou-tram",
           "name": "Suzhou New District Tram",
           "link": "/asia/china/suzhou-tram",
-          "assetSourceSlug": "suzhou",
+          "assetSourceSlug": "suzhou-tram",
           "keywords": [
             "Suzhou New District Tram"
           ],
@@ -4635,7 +4635,7 @@
           "slug": "sydney-trains",
           "name": "Sydney Trains",
           "link": "/oceania/australia/sydney-trains",
-          "assetSourceSlug": "sydney",
+          "assetSourceSlug": "sydney-trains",
           "keywords": [
             "Sydney Trains"
           ],
@@ -4656,7 +4656,7 @@
           "slug": "sydney-metro",
           "name": "Sydney Metro",
           "link": "/oceania/australia/sydney-metro",
-          "assetSourceSlug": "sydney",
+          "assetSourceSlug": "sydney-metro",
           "keywords": [
             "Sydney Metro"
           ],
@@ -4669,7 +4669,7 @@
           "slug": "sydney-light-rail",
           "name": "Sydney Light Rail",
           "link": "/oceania/australia/sydney-light-rail",
-          "assetSourceSlug": "sydney",
+          "assetSourceSlug": "sydney-light-rail",
           "keywords": [
             "Light Rail"
           ],
@@ -4695,7 +4695,7 @@
           "slug": "taipei-metro",
           "name": "Taipei Metro",
           "link": "/asia/taiwan/taipei-metro",
-          "assetSourceSlug": "taipei",
+          "assetSourceSlug": "taipei-metro",
           "keywords": [
             "Taipei Metro"
           ],
@@ -4717,7 +4717,7 @@
           "slug": "taipei-new-taipei-metro",
           "name": "New Taipei Metro",
           "link": "/asia/taiwan/taipei-new-taipei-metro",
-          "assetSourceSlug": "taipei",
+          "assetSourceSlug": "taipei-new-taipei-metro",
           "keywords": [
             "New Taipei Metro"
           ],
@@ -4733,7 +4733,7 @@
           "slug": "taipei-taoyuan-metro",
           "name": "Taipei Taoyuan Metro",
           "link": "/asia/taiwan/taipei-taoyuan-metro",
-          "assetSourceSlug": "taipei",
+          "assetSourceSlug": "taipei-taoyuan-metro",
           "keywords": [
             "Taoyuan Metro"
           ],
@@ -4757,7 +4757,7 @@
           "slug": "tokyo-metro",
           "name": "Tokyo Metro",
           "link": "/asia/japan/tokyo-metro",
-          "assetSourceSlug": "tokyo",
+          "assetSourceSlug": "tokyo-metro",
           "keywords": [
             "Tokyo Metro"
           ],
@@ -4779,7 +4779,7 @@
           "slug": "tokyo-toei-subway",
           "name": "Toei Subway",
           "link": "/asia/japan/tokyo-toei-subway",
-          "assetSourceSlug": "tokyo",
+          "assetSourceSlug": "tokyo-toei-subway",
           "keywords": [
             "Toei Subway",
             "Tokyo Toei Subway"
@@ -4855,7 +4855,7 @@
           "slug": "twincities-metropolitan-council",
           "name": "Twin Cities Metro Transit",
           "link": "/north-america/usa/twincities-metropolitan-council",
-          "assetSourceSlug": "twincities",
+          "assetSourceSlug": "twincities-metropolitan-council",
           "keywords": [
             "Metropolitan Council",
             "Twin Cities Metropolitan Council"
@@ -4870,7 +4870,7 @@
           "slug": "twincities-airport",
           "name": "MSP Airport Trams",
           "link": "/north-america/usa/twincities-airport",
-          "assetSourceSlug": "twincities",
+          "assetSourceSlug": "twincities-airport",
           "keywords": [
             "Metropolitan Airports Commission"
           ],
@@ -4894,7 +4894,7 @@
           "slug": "vancouver-skytrain",
           "name": "Vancouver SkyTrain",
           "link": "/north-america/canada/vancouver-skytrain",
-          "assetSourceSlug": "vancouver",
+          "assetSourceSlug": "vancouver-skytrain",
           "keywords": [
             "SkyTrain"
           ],
@@ -4909,7 +4909,7 @@
           "slug": "vancouver-wce",
           "name": "West Coast Express",
           "link": "/north-america/canada/vancouver-wce",
-          "assetSourceSlug": "vancouver",
+          "assetSourceSlug": "vancouver-wce",
           "keywords": [
             "West Coast Express (WCE)"
           ],
@@ -4932,7 +4932,7 @@
           "slug": "viarail-long-distance",
           "name": "VIA Rail Long Distance",
           "link": "/north-america/canada/viarail-long-distance",
-          "assetSourceSlug": "viarail",
+          "assetSourceSlug": "viarail-long-distance",
           "keywords": [
             "Long Distance"
           ],
@@ -4946,7 +4946,7 @@
           "slug": "viarail-corridor",
           "name": "Québec City–Windsor Corridor",
           "link": "/north-america/canada/viarail-corridor",
-          "assetSourceSlug": "viarail",
+          "assetSourceSlug": "viarail-corridor",
           "keywords": [
             "Québec City–Windsor Corridor"
           ],
@@ -4964,7 +4964,7 @@
           "slug": "viarail-regional-remote-services",
           "name": "VIA Rail Regional & Remote Services",
           "link": "/north-america/canada/viarail-regional-remote-services",
-          "assetSourceSlug": "viarail",
+          "assetSourceSlug": "viarail-regional-remote-services",
           "keywords": [
             "Regional & Remote Services"
           ],
@@ -4991,7 +4991,7 @@
           "slug": "wellington-metlink-trains",
           "name": "Wellington Metlink Trains",
           "link": "/oceania/new-zealand/wellington-metlink-trains",
-          "assetSourceSlug": "wellington",
+          "assetSourceSlug": "wellington-metlink-trains",
           "keywords": [
             "Metlink Trains"
           ],
@@ -5008,7 +5008,7 @@
           "slug": "wellington-cable-car",
           "name": "Wellington Cable Car",
           "link": "/oceania/new-zealand/wellington-cable-car",
-          "assetSourceSlug": "wellington",
+          "assetSourceSlug": "wellington-cable-car",
           "keywords": [
             "Cable Car"
           ],
@@ -5031,7 +5031,7 @@
           "slug": "wuhan-metro",
           "name": "Wuhan Metro",
           "link": "/asia/china/wuhan-metro",
-          "assetSourceSlug": "wuhan",
+          "assetSourceSlug": "wuhan-metro",
           "keywords": [
             "Wuhan Metro"
           ],
@@ -5056,7 +5056,7 @@
           "slug": "wuhan-trams",
           "name": "Wuhan Trams",
           "link": "/asia/china/wuhan-trams",
-          "assetSourceSlug": "wuhan",
+          "assetSourceSlug": "wuhan-trams",
           "keywords": [
             "Wuhan Trams"
           ],
@@ -5081,7 +5081,7 @@
           "slug": "xian-metro",
           "name": "Xi'an Metro",
           "link": "/asia/china/xian-metro",
-          "assetSourceSlug": "xian",
+          "assetSourceSlug": "xian-metro",
           "keywords": [
             "Xi'an Metro"
           ],
@@ -5106,7 +5106,7 @@
           "slug": "xian-byd",
           "name": "Xi'an SkyRail (BYD)",
           "link": "/asia/china/xian-byd",
-          "assetSourceSlug": "xian",
+          "assetSourceSlug": "xian-byd",
           "keywords": [
             "BYD"
           ],

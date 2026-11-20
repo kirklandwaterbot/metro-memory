@@ -199,6 +199,12 @@ const buildManifest = async (routePaths) => {
   return Object.keys(sortedManifest).length
 }
 
+// "/asia/japan/tokyo-metro/" -> "asia/japan/tokyo-metro"
+const normalizePathFromLink = (link) =>
+  String(link || '')
+    .split(/[?#]/)[0]
+    .replace(/^\/+|\/+$/g, '')
+
 const syncMiniCityAssetSourceSlugs = async (routePaths) => {
   const registry = await readJsonIfPresent(MINI_CITY_REGISTRY_PATH)
   if (!registry || !Array.isArray(registry.parents)) {
