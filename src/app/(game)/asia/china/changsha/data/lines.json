@@ -63,10 +63,11 @@
   },
   "changshayunba": {
     "name": "Dawangshan Skyshuttle",
-    "color": "#008080",
-    "backgroundColor": "#008080",
+    "color": "#C0C0C0",
+    "backgroundColor": "#C0C0C0",
     "textColor": "#ffffff",
     "order": 8,
-    "icon": "asia/china/changsha/changshayunba.png"
+    "icon": "asia/china/changsha/changshayunba.png",
+    "progressOutlineColor": "#000000"
   }
 }
