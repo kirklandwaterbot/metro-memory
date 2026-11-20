@@ -1717,6 +1717,64 @@ const relaxZoomLimitsToFitNetwork = (
   }
 }
 
+/**
+ * Route data built from OpenStreetMap arrives as thousands of tiny track
+ * pieces per line. When zoomed far out, the map drops pieces shorter than
+ * about a pixel, and runs of them leave visible gaps. Chaining pieces that
+ * share an endpoint into long lines keeps the routes whole at every zoom.
+ */
+const mergeRoutePieces = <T extends { type: string; features: any[] }>(
+  collection: T,
+): T => {
+  const keyOf = (point: number[]) => `${point[0]},${point[1]}`
+  let changed = false
+  const features = collection.features.map((feature) => {
+    const geometry = feature?.geometry
+    if (!geometry || geometry.type !== 'MultiLineString') return feature
+    const parts: number[][][] = geometry.coordinates.filter(
+      (part: number[][]) => Array.isArray(part) && part.length >= 2,
+    )
+    if (parts.length < 2) return feature
+
+    const byEndpoint = new Map<string, number[]>()
+    parts.forEach((part, index) => {
+      for (const key of [keyOf(part[0]), keyOf(part[part.length - 1])]) {
+        const list = byEndpoint.get(key)
+        if (list) list.push(index)
+        else byEndpoint.set(key, [index])
+      }
+    })
+    const used = new Array(parts.length).fill(false)
+    const takeNext = (point: number[]) => {
+      for (const index of byEndpoint.get(keyOf(point)) ?? []) {
+        if (used[index]) continue
+        used[index] = true
+        const part = parts[index]
+        return keyOf(part[0]) === keyOf(point) ? part : [...part].reverse()
+      }
+      return null
+    }
+
+    const merged: number[][][] = []
+    for (let i = 0; i < parts.length; i += 1) {
+      if (used[i]) continue
+      used[i] = true
+      let line = parts[i].slice()
+      for (let next = takeNext(line[line.length - 1]); next; next = takeNext(line[line.length - 1])) {
+        line = line.concat(next.slice(1))
+      }
+      for (let prev = takeNext(line[0]); prev; prev = takeNext(line[0])) {
+        line = prev.slice().reverse().concat(line.slice(1))
+      }
+      merged.push(line)
+    }
+    if (merged.length === geometry.coordinates.length) return feature
+    changed = true
+    return { ...feature, geometry: { ...geometry, coordinates: merged } }
+  })
+  return changed ? { ...collection, features } : collection
+}
+
 export default function GamePage({
   fc,
   routes,
@@ -2432,14 +2490,18 @@ function GamePageContent({
     [amapFeatureCacheKey, featureCollection, usingAmapMapStyle],
   )
 
+  const mergedDisplayRoutes = useMemo(
+    () => (displayRoutes ? mergeRoutePieces(displayRoutes) : displayRoutes),
+    [displayRoutes],
+  )
   const renderDisplayRoutes = useMemo(
     () =>
-      displayRoutes
+      mergedDisplayRoutes
         ? usingAmapMapStyle
-          ? transformFeatureCollectionForAmapCached(amapRouteCacheKey, displayRoutes)
-          : displayRoutes
-        : displayRoutes,
-    [amapRouteCacheKey, displayRoutes, usingAmapMapStyle],
+          ? transformFeatureCollectionForAmapCached(amapRouteCacheKey, mergedDisplayRoutes)
+          : mergedDisplayRoutes
+        : mergedDisplayRoutes,
+    [amapRouteCacheKey, mergedDisplayRoutes, usingAmapMapStyle],
   )
 
   const renderCullingEnabled = Boolean(
