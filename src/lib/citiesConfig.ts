@@ -286,7 +286,7 @@ const rawCities: CityBase[] = [
   {
     name: 'Florida State, USA',
     link: '/north-america/usa/florida-state',
-    keywords: ['Florida', 'Miami', 'Orlando', 'Tampa', 'Jacksonville'],
+    keywords: ['Florida', 'Miami', 'Orlando', 'Tampa'],
     continent: 'North America',
   },
   {

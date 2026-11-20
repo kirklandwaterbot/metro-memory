@@ -159,20 +159,6 @@ export const LINE_GROUPS: LineGroup[] = [
       },
     ],
   },
-  {
-    items: [{ type: 'separator' }],
-  },
-  {
-    title: 'Jacksonville Transportation Authority (JTA)',
-    titleImage: 'JTA.png',
-    items: [
-      {
-        type: 'lines',
-        title: 'Skyway',
-        lines: ['NB', 'SB'],
-      },
-    ],
-  },
 ]
 
 export const METADATA: Metadata = {

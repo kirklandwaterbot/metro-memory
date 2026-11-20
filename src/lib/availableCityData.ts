@@ -140,7 +140,6 @@ export const AVAILABLE_CITY_SLUGS = new Set([
   'elpaso',
   'fenghuang',
   'florida-state',
-  'florida-state-jacksonville',
   'florida-state-miami',
   'florida-state-orlando',
   'florida-state-tampa',

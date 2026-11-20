@@ -482,7 +482,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'florida-state': {
     title: "Sunshine State Superfan",
-    description: "You've conquered Miami, Orlando, Tampa, and Jacksonville without missing a stop!",
+    description: "From Miami's Metromover to Orlando's monorails and Tampa's streetcar, the Sunshine State's rails are yours!",
   },
   'milan': {
     title: "Duomo Descender",

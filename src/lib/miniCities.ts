@@ -292,6 +292,8 @@ type RegistryParent = {
     image?: string
     icon?: string
     openGraphImage?: string
+    /** Hidden everywhere (e.g. a closed system). Flip back to restore it. */
+    hidden?: boolean
   }>
 }
 
@@ -305,7 +307,9 @@ export const CITY_SPLIT_PARENTS: ParentCitySplitDefinition[] = rawParents.map(
     parentPath: parent.parentPath,
     continent: parent.continent,
     country: parent.country,
-    children: parent.children.map((child) => ({
+    children: parent.children
+      .filter((child) => !child.hidden)
+      .map((child) => ({
       slug: child.slug,
       name: child.name,
       link: child.link,
