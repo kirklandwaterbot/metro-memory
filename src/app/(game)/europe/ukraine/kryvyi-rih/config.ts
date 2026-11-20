@@ -39,11 +39,11 @@ export const MAP_CONFIG: MapboxOptions = {
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
     [33.322, 47.802],
-    [33.521, 48.028],
+    [33.52, 48.027],
   ],
   maxBounds: [
     [33.155, 47.629],
-    [33.688, 48.2],
+    [33.687, 48.2],
   ],
   minZoom: 8,
   fadeDuration: 50,
