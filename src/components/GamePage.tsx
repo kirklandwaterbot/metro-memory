@@ -4395,12 +4395,6 @@ function GamePageContent({
         if (set.size !== initialSize) {
           window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(set)))
         }
-        if (set.size >= 5) {
-          awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
-        }
-        if (set.size >= 25) {
-          awardAchievement('line-legend', 'Line Legend', 'Complete 25 different lines.')
-        }
       } catch {
         // ignore storage errors
       }
@@ -4444,12 +4438,6 @@ function GamePageContent({
       )
       const merged = new Set([...stored, ...earnedLineMasters])
       window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(merged)))
-      if (merged.size >= 5) {
-        awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
-      }
-      if (merged.size >= 25) {
-        awardAchievement('line-legend', 'Line Legend', 'Complete 25 different lines.')
-      }
     } catch {
       // ignore
     }
@@ -4490,12 +4478,6 @@ function GamePageContent({
     }
     playDays.add(todayStr)
     window.localStorage.setItem('mm-play-days', JSON.stringify(Array.from(playDays)))
-    if (playDays.size >= 7) {
-      awardAchievement('weekly-rider', 'Week-Long Commute', 'Play on 7 different days.')
-    }
-    if (playDays.size >= 30) {
-      awardAchievement('season-pass', 'Season Pass', 'Play on 30 different days.')
-    }
 
     lastPlayDateRef.current = todayStr
     window.localStorage.setItem('mm-last-play-date', todayStr)
@@ -4642,17 +4624,8 @@ function GamePageContent({
     } catch {
       // ignore
     }
-    if (nextGlobal >= 100) {
-      awardAchievement('first-hundred', 'First Hundred', 'Find 100 stations across all cities.')
-    }
-    if (nextGlobal >= 5000) {
-      awardAchievement('station-hoarder', 'Station Hoarder', 'Find 5,000 stations across all cities.')
-    }
-    if (nextGlobal >= 1000) {
-      awardAchievement('station-collector', 'Station Collector', 'Find 1,000 stations across all cities.')
-    }
-    if (nextGlobal >= 10000) {
-      awardAchievement('marathoner', 'Marathoner', 'Find 10,000 stations across all cities.')
+    if (nextGlobal >= 100000) {
+      awardAchievement('marathoner', 'Marathoner', 'Find 100,000 stations across all cities.')
     }
   }, [CITY_NAME, awardAchievement, foundStationKeys.size, isMiniCity])
 
@@ -4687,9 +4660,7 @@ function GamePageContent({
     if (reachedCompletion) {
       const isFlawless = mistakes === 0
       const isAlmostFlawless = mistakes <= 2
-      if (isFlawless) {
-        awardAchievement('flawless', 'Flawless Route', 'Completed a city with zero mistakes.')
-      } else if (isAlmostFlawless) {
+      if (isAlmostFlawless) {
         awardAchievement('almost-flawless', 'Almost Flawless', 'Completed a city with two or fewer mistakes.')
       }
       if (comebackArmedRef.current && !comebackTriggeredRef.current) {
@@ -4707,9 +4678,6 @@ function GamePageContent({
       }
       if (totalUniqueStations > 0 && totalUniqueStations < 20) {
         awardAchievement('underdog', 'Underdog', 'Complete a city with fewer than 20 stations.')
-      }
-      if (totalUniqueStations >= 500) {
-        awardAchievement('heavyweight', 'Heavyweight', 'Complete a city with 500+ stations.')
       }
       if (typeof window !== 'undefined') {
         const addToStoredSet = (key: string, value: string) => {
@@ -4732,9 +4700,6 @@ function GamePageContent({
             'Spotless Record',
             'Complete 5 different cities with zero mistakes.',
           )
-        }
-        if (isMiniCity && addToStoredSet('mm-mini-completions', CITY_NAME) >= 10) {
-          awardAchievement('pocket-explorer', 'Pocket Explorer', 'Complete 10 mini cities.')
         }
       }
 
@@ -4763,61 +4728,19 @@ function GamePageContent({
         window.localStorage.setItem('mm-completions', JSON.stringify(completions))
 
         const uniqueCities = new Set(completions.map((c) => c.city))
-        const uniqueContinents = new Set(completions.map((c) => c.continent))
         const completedToday = completions.filter((c) => c.date === today)
         const hasOtherContinent = completedToday.some((c) => c.city !== CITY_NAME && c.continent !== continent)
         if (hasOtherContinent) {
           awardAchievement('twin-city', 'Twin City', 'Completed two cities from different continents on the same day.')
         }
-        if (uniqueContinents.size >= 6) {
-          awardAchievement('globe-trotter', 'Globe Trotter', 'Complete cities on 6 different continents.')
-        }
-        if (uniqueContinents.size >= 3) {
-          awardAchievement('all-rounder', 'All Rounder', 'Complete cities on 3 different continents.')
-        }
         if (uniqueCities.size >= 100) {
           awardAchievement('explorer-100', 'Centurion Explorer', 'Complete 100 different cities.')
-        } else if (uniqueCities.size >= 50) {
+        }
+        if (uniqueCities.size >= 50) {
           awardAchievement('explorer-50', 'Ultimate Explorer', 'Completed 50 different cities.')
-        } else if (uniqueCities.size >= 25) {
-          awardAchievement('explorer-25', 'Seasoned Explorer', 'Completed 25 different cities.')
-        } else if (uniqueCities.size >= 10) {
+        }
+        if (uniqueCities.size >= 10) {
           awardAchievement('explorer-10', 'Explorer', 'Completed 10 different cities.')
-        } else if (uniqueCities.size >= 3) {
-          awardAchievement('explorer-3', 'Rookie Explorer', 'Completed 3 different cities.')
-        }
-        const uniqueCountries = new Set(
-          completions.map((c) => c.country).filter((c): c is string => Boolean(c)),
-        )
-        if (uniqueCountries.size >= 10) {
-          awardAchievement('passport-stamps', 'Passport Stamps', 'Complete cities in 10 different countries.')
-        }
-
-        const favoritesKey = getFavoritesStorageKey(user?.id)
-        try {
-          const rawFavorites = window.localStorage.getItem(favoritesKey)
-          const parsedFavorites = rawFavorites ? JSON.parse(rawFavorites) : []
-          const favorites = Array.isArray(parsedFavorites)
-            ? parsedFavorites.filter((slug) => typeof slug === 'string')
-            : []
-          if (favorites.includes(CITY_NAME)) {
-            const rawCompleted = window.localStorage.getItem('mm-favorites-completed')
-            const parsedCompleted = rawCompleted ? JSON.parse(rawCompleted) : []
-            const completed = Array.isArray(parsedCompleted)
-              ? parsedCompleted.filter((slug) => typeof slug === 'string')
-              : []
-            const completedSet = new Set(completed)
-            completedSet.add(CITY_NAME)
-            window.localStorage.setItem(
-              'mm-favorites-completed',
-              JSON.stringify(Array.from(completedSet)),
-            )
-            if (completedSet.size >= 5) {
-              awardAchievement('favorites-first', 'Favorites First', 'Complete 5 favorited cities.')
-            }
-          }
-        } catch {
-          // ignore
         }
       }
 

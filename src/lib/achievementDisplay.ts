@@ -22,10 +22,6 @@ type AchievementCopy = {
 }
 
 const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
-  flawless: {
-    title: '完美路线',
-    description: '零失误完成任意城市。',
-  },
   'almost-flawless': {
     title: '近乎完美',
     description: '以两次或更少失误完成任意城市。',
@@ -34,17 +30,9 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '逆转高手',
     description: '从低于 50% 的进度追回并完成一座城市。',
   },
-  'explorer-3': {
-    title: '新手探索者',
-    description: '完成 3 座不同城市。',
-  },
   'explorer-10': {
     title: '探索者',
     description: '完成 10 座不同城市。',
-  },
-  'explorer-25': {
-    title: '老练探索者',
-    description: '完成 25 座不同城市。',
   },
   'explorer-50': {
     title: '终极探索者',
@@ -54,29 +42,13 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '双城记',
     description: '在同一天完成两座来自不同洲的城市。',
   },
-  'station-collector': {
-    title: '车站收藏家',
-    description: '在所有城市中找到 1,000 座车站。',
-  },
-  'line-finisher': {
-    title: '线路征服者',
-    description: '完成 5 条不同线路。',
-  },
   'big-city-tamer': {
     title: '大城驯服者',
     description: '完成一座拥有 1,500+ 车站的城市。',
   },
-  'all-rounder': {
-    title: '全能玩家',
-    description: '完成 3 个不同洲的城市。',
-  },
-  'globe-trotter': {
-    title: '环球行者',
-    description: '完成 6 个不同洲的城市。',
-  },
   marathoner: {
     title: '马拉松选手',
-    description: '在所有城市中找到 10,000 座车站。',
+    description: '在所有城市中找到 100,000 座车站。',
   },
   'typo-free': {
     title: '零错字',
@@ -94,10 +66,6 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '月度通勤者',
     description: '在 3 个不同月份中游玩。',
   },
-  'favorites-first': {
-    title: '收藏优先',
-    description: '完成 5 座已收藏城市。',
-  },
   underdog: {
     title: '以小博大',
     description: '完成一座少于 20 座车站的城市。',
@@ -112,29 +80,9 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
     description: '???',
     secretDescription: '打开 10 座不同城市的统计面板。',
   },
-  'first-hundred': {
-    title: '百站起步',
-    description: '在所有城市中找到 100 座车站。',
-  },
-  'station-hoarder': {
-    title: '车站囤积者',
-    description: '在所有城市中找到 5,000 座车站。',
-  },
   'explorer-100': {
     title: '百城探索者',
     description: '完成 100 座不同城市。',
-  },
-  'line-legend': {
-    title: '线路传奇',
-    description: '完成 25 条不同线路。',
-  },
-  'passport-stamps': {
-    title: '护照盖章',
-    description: '完成 10 个不同国家的城市。',
-  },
-  'heavyweight': {
-    title: '重量级选手',
-    description: '完成一座拥有 500+ 车站的城市。',
   },
   'spotless-record': {
     title: '无瑕记录',
@@ -143,18 +91,6 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
   'hot-streak': {
     title: '手感火热',
     description: '连续猜对 50 次。',
-  },
-  'pocket-explorer': {
-    title: '迷你探索者',
-    description: '完成 10 座迷你城市。',
-  },
-  'weekly-rider': {
-    title: '一周通勤',
-    description: '在 7 个不同的日子游玩。',
-  },
-  'season-pass': {
-    title: '季票持有人',
-    description: '在 30 个不同的日子游玩。',
   },
   'night-owl': {
     title: '夜猫子',
@@ -208,10 +144,6 @@ const SIMPLIFIED_GLOBAL_COPY: Record<string, AchievementCopy> = {
 }
 
 const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
-  flawless: {
-    title: '完美路線',
-    description: '零失誤完成任意城市。',
-  },
   'almost-flawless': {
     title: '近乎完美',
     description: '以兩次或更少失誤完成任意城市。',
@@ -220,17 +152,9 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '逆轉高手',
     description: '從低於 50% 的進度追回並完成一座城市。',
   },
-  'explorer-3': {
-    title: '新手探索者',
-    description: '完成 3 座不同城市。',
-  },
   'explorer-10': {
     title: '探索者',
     description: '完成 10 座不同城市。',
-  },
-  'explorer-25': {
-    title: '老練探索者',
-    description: '完成 25 座不同城市。',
   },
   'explorer-50': {
     title: '終極探索者',
@@ -240,29 +164,13 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '雙城記',
     description: '在同一天完成兩座來自不同洲的城市。',
   },
-  'station-collector': {
-    title: '車站收藏家',
-    description: '在所有城市中找到 1,000 座車站。',
-  },
-  'line-finisher': {
-    title: '線路征服者',
-    description: '完成 5 條不同線路。',
-  },
   'big-city-tamer': {
     title: '大城馴服者',
     description: '完成一座擁有 1,500+ 車站的城市。',
   },
-  'all-rounder': {
-    title: '全能玩家',
-    description: '完成 3 個不同洲的城市。',
-  },
-  'globe-trotter': {
-    title: '環球行者',
-    description: '完成 6 個不同洲的城市。',
-  },
   marathoner: {
     title: '馬拉松選手',
-    description: '在所有城市中找到 10,000 座車站。',
+    description: '在所有城市中找到 100,000 座車站。',
   },
   'typo-free': {
     title: '零錯字',
@@ -280,10 +188,6 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
     title: '月度通勤者',
     description: '在 3 個不同月份中遊玩。',
   },
-  'favorites-first': {
-    title: '收藏優先',
-    description: '完成 5 座已收藏城市。',
-  },
   underdog: {
     title: '以小博大',
     description: '完成一座少於 20 座車站的城市。',
@@ -298,29 +202,9 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
     description: '???',
     secretDescription: '開啟 10 座不同城市的統計面板。',
   },
-  'first-hundred': {
-    title: '百站起步',
-    description: '在所有城市中找到 100 座車站。',
-  },
-  'station-hoarder': {
-    title: '車站囤積者',
-    description: '在所有城市中找到 5,000 座車站。',
-  },
   'explorer-100': {
     title: '百城探索者',
     description: '完成 100 座不同城市。',
-  },
-  'line-legend': {
-    title: '線路傳奇',
-    description: '完成 25 條不同線路。',
-  },
-  'passport-stamps': {
-    title: '護照蓋章',
-    description: '完成 10 個不同國家的城市。',
-  },
-  'heavyweight': {
-    title: '重量級選手',
-    description: '完成一座擁有 500+ 車站的城市。',
   },
   'spotless-record': {
     title: '無瑕紀錄',
@@ -329,18 +213,6 @@ const TRADITIONAL_GLOBAL_COPY: Record<string, AchievementCopy> = {
   'hot-streak': {
     title: '手感火熱',
     description: '連續猜對 50 次。',
-  },
-  'pocket-explorer': {
-    title: '迷你探索者',
-    description: '完成 10 座迷你城市。',
-  },
-  'weekly-rider': {
-    title: '一週通勤',
-    description: '在 7 個不同的日子遊玩。',
-  },
-  'season-pass': {
-    title: '季票持有人',
-    description: '在 30 個不同的日子遊玩。',
   },
   'night-owl': {
     title: '夜貓子',

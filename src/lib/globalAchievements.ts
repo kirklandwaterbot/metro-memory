@@ -9,12 +9,6 @@ export type GlobalAchievementDefinition = {
 
 export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
   {
-    slug: 'flawless',
-    title: 'Flawless Route',
-    description: 'Complete any city with zero mistakes.',
-    order: 10_002,
-  },
-  {
     slug: 'almost-flawless',
     title: 'Almost Flawless',
     description: 'Complete any city with two or fewer mistakes.',
@@ -27,22 +21,10 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     order: 10_004,
   },
   {
-    slug: 'explorer-3',
-    title: 'Rookie Explorer',
-    description: 'Complete 3 different cities.',
-    order: 10_010,
-  },
-  {
     slug: 'explorer-10',
     title: 'Explorer',
     description: 'Complete 10 different cities.',
     order: 10_011,
-  },
-  {
-    slug: 'explorer-25',
-    title: 'Seasoned Explorer',
-    description: 'Complete 25 different cities.',
-    order: 10_012,
   },
   {
     slug: 'explorer-50',
@@ -57,39 +39,15 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     order: 10_040,
   },
   {
-    slug: 'station-collector',
-    title: 'Station Collector',
-    description: 'Find 1,000 stations across all cities.',
-    order: 10_041,
-  },
-  {
-    slug: 'line-finisher',
-    title: 'Line Finisher',
-    description: 'Complete 5 different lines.',
-    order: 10_042,
-  },
-  {
     slug: 'big-city-tamer',
     title: 'Big City Tamer',
     description: 'Complete a city with 1,500+ stations.',
     order: 10_043,
   },
   {
-    slug: 'all-rounder',
-    title: 'All Rounder',
-    description: 'Complete cities on 3 different continents.',
-    order: 10_044,
-  },
-  {
-    slug: 'globe-trotter',
-    title: 'Globe Trotter',
-    description: 'Complete cities on 6 different continents.',
-    order: 10_045,
-  },
-  {
     slug: 'marathoner',
     title: 'Marathoner',
-    description: 'Find 10,000 stations across all cities.',
+    description: 'Find 100,000 stations across all cities.',
     order: 10_046,
   },
   {
@@ -117,12 +75,6 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     order: 10_052,
   },
   {
-    slug: 'favorites-first',
-    title: 'Favorites First',
-    description: 'Complete 5 favorited cities.',
-    order: 10_053,
-  },
-  {
     slug: 'underdog',
     title: 'Underdog',
     description: 'Complete a city with fewer than 20 stations.',
@@ -145,40 +97,10 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     country: 'secret-fun',
   },
   {
-    slug: 'first-hundred',
-    title: 'First Hundred',
-    description: 'Find 100 stations across all cities.',
-    order: 10_014,
-  },
-  {
-    slug: 'station-hoarder',
-    title: 'Station Hoarder',
-    description: 'Find 5,000 stations across all cities.',
-    order: 10_047,
-  },
-  {
     slug: 'explorer-100',
     title: 'Centurion Explorer',
     description: 'Complete 100 different cities.',
     order: 10_015,
-  },
-  {
-    slug: 'line-legend',
-    title: 'Line Legend',
-    description: 'Complete 25 different lines.',
-    order: 10_055,
-  },
-  {
-    slug: 'passport-stamps',
-    title: 'Passport Stamps',
-    description: 'Complete cities in 10 different countries.',
-    order: 10_056,
-  },
-  {
-    slug: 'heavyweight',
-    title: 'Heavyweight',
-    description: 'Complete a city with 500+ stations.',
-    order: 10_057,
   },
   {
     slug: 'spotless-record',
@@ -191,24 +113,6 @@ export const GLOBAL_ACHIEVEMENTS: GlobalAchievementDefinition[] = [
     title: 'Hot Streak',
     description: 'Make 50 correct guesses in a row.',
     order: 10_059,
-  },
-  {
-    slug: 'pocket-explorer',
-    title: 'Pocket Explorer',
-    description: 'Complete 10 mini cities.',
-    order: 10_060,
-  },
-  {
-    slug: 'weekly-rider',
-    title: 'Week-Long Commute',
-    description: 'Play on 7 different days.',
-    order: 10_061,
-  },
-  {
-    slug: 'season-pass',
-    title: 'Season Pass',
-    description: 'Play on 30 different days.',
-    order: 10_062,
   },
   {
     slug: 'night-owl',

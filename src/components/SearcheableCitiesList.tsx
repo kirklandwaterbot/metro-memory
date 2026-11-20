@@ -2567,25 +2567,11 @@ const SearcheableCitiesList = ({
     }
 
     addThreshold('monthly-commuter', achievementMetrics.playMonths, 3)
-    addThreshold('station-collector', achievementMetrics.globalStations, 1000)
-    addThreshold('marathoner', achievementMetrics.globalStations, 10000)
-    addThreshold('line-finisher', achievementMetrics.lineMasterKeys, 5)
-    addThreshold('explorer-3', achievementMetrics.uniqueCities, 3)
+    addThreshold('marathoner', achievementMetrics.globalStations, 100000)
     addThreshold('explorer-10', achievementMetrics.uniqueCities, 10)
-    addThreshold('explorer-25', achievementMetrics.uniqueCities, 25)
     addThreshold('explorer-50', achievementMetrics.uniqueCities, 50)
-    addThreshold('all-rounder', achievementMetrics.uniqueContinents, 3)
-    addThreshold('globe-trotter', achievementMetrics.uniqueContinents, 6)
-    addThreshold('favorites-first', achievementMetrics.favoritesCompleted, 5)
-    addThreshold('first-hundred', achievementMetrics.globalStations, 100)
-    addThreshold('station-hoarder', achievementMetrics.globalStations, 5000)
     addThreshold('explorer-100', achievementMetrics.uniqueCities, 100)
-    addThreshold('line-legend', achievementMetrics.lineMasterKeys, 25)
-    addThreshold('passport-stamps', achievementMetrics.uniqueCountries, 10)
     addThreshold('spotless-record', achievementMetrics.flawlessCities, 5)
-    addThreshold('pocket-explorer', achievementMetrics.miniCompletions, 10)
-    addThreshold('weekly-rider', achievementMetrics.playDays, 7)
-    addThreshold('season-pass', achievementMetrics.playDays, 30)
 
     return progressMap
   }, [
