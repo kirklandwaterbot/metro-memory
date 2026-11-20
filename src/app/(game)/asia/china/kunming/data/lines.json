@@ -4,41 +4,53 @@
     "color": "#BF3334",
     "backgroundColor": "#BF3334",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/kunming/kunming1.png",
+    "badgeShape": "wide"
   },
   "kunming2": {
     "name": "Line 2",
     "color": "#235A99",
     "backgroundColor": "#235A99",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/kunming/kunming2.png",
+    "badgeShape": "wide"
   },
   "kunming3": {
     "name": "Line 3",
     "color": "#FE4998",
     "backgroundColor": "#FE4998",
     "textColor": "#ffffff",
-    "order": 3
+    "order": 3,
+    "icon": "asia/china/kunming/kunming3.png",
+    "badgeShape": "wide"
   },
   "kunming4": {
     "name": "Line 4",
     "color": "#DD8800",
     "backgroundColor": "#DD8800",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/kunming/kunming4.png",
+    "badgeShape": "wide"
   },
   "kunming5": {
     "name": "Line 5",
     "color": "#2AA844",
     "backgroundColor": "#2AA844",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/kunming/kunming5.png",
+    "badgeShape": "wide"
   },
   "kunming6": {
     "name": "Line 6",
     "color": "#0290A4",
     "backgroundColor": "#0290A4",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/kunming/kunming6.png",
+    "badgeShape": "wide"
   }
 }
