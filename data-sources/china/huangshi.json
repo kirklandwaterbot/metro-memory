@@ -4,7 +4,32 @@
   "style": "generic",
   "stationRadius": 500,
   "english": {},
-  "alternates": {},
+  "alternates": {
+    "老年大学": [
+      "Guilin Road South",
+      "桂林南路"
+    ],
+    "华侨城恐龙奇域": [
+      "Kuangboguan",
+      "矿博馆"
+    ],
+    "华侨城恐龙水世界": [
+      "Yuanboyuan",
+      "园博园"
+    ],
+    "白马路城发新时代": [
+      "Baimalu",
+      "白马路"
+    ],
+    "桂花路磁湖中学": [
+      "Guihualu",
+      "桂花路"
+    ],
+    "理工学院": [
+      "Hubei Polytechnic University",
+      "湖北理工学院"
+    ]
+  },
   "lines": [
     {
       "id": "huangshitram",
@@ -14,7 +39,8 @@
       },
       "removeStations": [
         "胡家湾",
-        "老年大学"
+        "桂林南路",
+        "矿博馆"
       ]
     }
   ],
