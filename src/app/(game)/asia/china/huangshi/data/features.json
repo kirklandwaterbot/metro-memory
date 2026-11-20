@@ -419,30 +419,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          115.052752,
-          30.186333
-        ]
-      },
-      "properties": {
-        "id": 18,
-        "name": "Hujiawan",
-        "display_name": "Hujiawan (胡家湾)",
-        "alternate_names": [
-          "Hujiawan",
-          "胡家湾",
-          "胡家灣",
-          "hu jia wan"
-        ],
-        "line": "huangshitram",
-        "order": 17
-      },
-      "id": 18
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           115.051537,
           30.157552
         ]
@@ -459,7 +435,7 @@
           "zhong shan da dao"
         ],
         "line": "huangshitram",
-        "order": 18
+        "order": 17
       },
       "id": 19
     },
@@ -483,7 +459,7 @@
           "jin shan da dao"
         ],
         "line": "huangshitram",
-        "order": 19
+        "order": 18
       },
       "id": 20
     },
@@ -508,7 +484,7 @@
           "peng cheng da dao"
         ],
         "line": "huangshitram",
-        "order": 20
+        "order": 19
       },
       "id": 21
     },
@@ -531,7 +507,7 @@
           "ke ji cheng"
         ],
         "line": "huangshitram",
-        "order": 21
+        "order": 20
       },
       "id": 22
     },
@@ -555,7 +531,7 @@
           "ao ti zhong xin"
         ],
         "line": "huangshitram",
-        "order": 22
+        "order": 21
       },
       "id": 23
     },
@@ -580,7 +556,7 @@
           "jing san lu"
         ],
         "line": "huangshitram",
-        "order": 23
+        "order": 22
       },
       "id": 24
     },
@@ -605,7 +581,7 @@
           "yuan bo da dao"
         ],
         "line": "huangshitram",
-        "order": 24
+        "order": 23
       },
       "id": 25
     },
@@ -629,7 +605,7 @@
           "hua qiao cheng kong long qi yu"
         ],
         "line": "huangshitram",
-        "order": 25
+        "order": 24
       },
       "id": 26
     },
@@ -653,7 +629,7 @@
           "hua qiao cheng kong long shui shi jie"
         ],
         "line": "huangshitram",
-        "order": 26
+        "order": 25
       },
       "id": 27
     },
@@ -676,7 +652,7 @@
           "shi min zhi jia"
         ],
         "line": "huangshitram",
-        "order": 27
+        "order": 26
       },
       "id": 28
     },
@@ -701,7 +677,7 @@
           "ao ti gong yuan"
         ],
         "line": "huangshitram",
-        "order": 28
+        "order": 27
       },
       "id": 29
     },
@@ -725,34 +701,9 @@
           "kuang bo guan"
         ],
         "line": "huangshitram",
-        "order": 29
+        "order": 28
       },
       "id": 30
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          115.031392,
-          30.186735
-        ]
-      },
-      "properties": {
-        "id": 31,
-        "name": "Laonian University",
-        "display_name": "Laonian University (老年大学)",
-        "alternate_names": [
-          "Laonian University",
-          "老年大学",
-          "老年大學",
-          "Laoniandaxue",
-          "lao nian da xue"
-        ],
-        "line": "huangshitram",
-        "order": 30
-      },
-      "id": 31
     }
   ]
 }

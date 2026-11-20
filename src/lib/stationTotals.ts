@@ -181,7 +181,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "houston-airport": 9,
   "houston-metrorail": 47,
   "huaian": 23,
-  "huangshi": 31,
+  "huangshi": 29,
   "hyderabad": 60,
   "ice": 398,
   "indore": 16,

@@ -11,7 +11,11 @@
       "name": "Huangshi Tram",
       "match": {
         "network": "黄石轨道交通"
-      }
+      },
+      "removeStations": [
+        "胡家湾",
+        "老年大学"
+      ]
     }
   ],
   "cityName": "Huangshi",
