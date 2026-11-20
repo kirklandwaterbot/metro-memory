@@ -313,7 +313,7 @@ export const STATION_TOTALS: Record<string, number> = {
   "national-rail": 2525,
   "newcastle": 6,
   "neworleans": 145,
-  "ningbo": 200,
+  "ningbo": 210,
   "nizhny-novgorod": 16,
   "norfolk": 11,
   "nottingham": 66,
