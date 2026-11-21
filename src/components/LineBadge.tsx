@@ -1,7 +1,10 @@
+'use client'
+
 import lineBadgeFitData from '@/lib/lineBadgeFit.json'
 import { Line } from '@/lib/types'
 import clsx from 'clsx'
 import Image from 'next/image'
+import { useState } from 'react'
 
 export type LineBadgeShape = NonNullable<Line['badgeShape']>
 export type LineBadgeFit = NonNullable<Line['badgeFit']>
@@ -198,6 +201,28 @@ export const resolveLineBadgeSrc = ({
   return `/images/${lineId}.svg`
 }
 
+/**
+ * Short text for a badge whose image is missing: "Line 4" -> "4", "T1" -> "T1",
+ * "Hanghai Line" -> "HL".
+ */
+export const getLineBadgeFallbackLabel = (lineId: string, line?: Partial<Line> | null) => {
+  const name = (line?.name ?? lineId).trim()
+  if (name.length <= 3 || /^[A-Z0-9]{4}$/.test(name)) return name
+  const numbered =
+    name.match(/(?:line|linea|línea|linha|linie|ligne|lijn|linje|hat|tuyến)\s*([A-Za-z0-9]{1,3})(?![A-Za-z0-9])/i) ??
+    name.match(/(?:^|\s)([A-Z]{0,2}\d{1,3}[A-Z]?)(?:\s|$)/)
+  if (numbered) return numbered[1]
+  if (lineId.length <= 3) return lineId
+  const words = name.split(/[\s\-–/&]+/).filter((word) => /^[\p{L}\p{N}]/u.test(word))
+  if (words.length === 1) return words[0].slice(0, 2).toUpperCase()
+  const initials = words
+    .map((word) => word[0])
+    .join('')
+    .slice(0, 2)
+    .toUpperCase()
+  return initials || lineId.slice(0, 2).toUpperCase()
+}
+
 const LineBadge = ({
   lineId,
   line,
@@ -220,6 +245,38 @@ const LineBadge = ({
   const renderedRadius = metrics.radius === 999 ? 999 : Math.round(metrics.radius * scale)
   const renderedPadding = Math.round(metrics.padding * scale)
   const src = resolveLineBadgeSrc({ lineId, line, iconBasePath })
+  // Some lines have no badge image yet; show a plain coloured badge instead of
+  // a broken image.
+  const [failedSrc, setFailedSrc] = useState<string | null>(null)
+  const handleImageError = () => setFailedSrc(src)
+
+  if (failedSrc === src) {
+    const label = getLineBadgeFallbackLabel(lineId, line)
+    const fontSize = Math.max(
+      7,
+      Math.round(renderedHeight * (label.length >= 3 ? 0.36 : label.length === 2 ? 0.42 : 0.52)),
+    )
+    return (
+      <div
+        role="img"
+        aria-label={alt ?? line?.name ?? lineId}
+        className={clsx(
+          'relative flex shrink-0 items-center justify-center overflow-hidden font-bold leading-none',
+          className,
+        )}
+        style={{
+          width: renderedWidth,
+          height: renderedHeight,
+          borderRadius: renderedRadius,
+          backgroundColor: line?.backgroundColor || line?.color || '#71717a',
+          color: line?.textColor || '#ffffff',
+          fontSize,
+        }}
+      >
+        {label}
+      </div>
+    )
+  }
 
   if (plateFit) {
     // Crop to the plate and round it to the badge's corners, so it sits flush
@@ -251,6 +308,7 @@ const LineBadge = ({
               sizes={`${Math.ceil(placement.width)}px`}
               quality={100}
               unoptimized
+              onError={handleImageError}
               className={clsx('object-fill', imageClassName)}
             />
           </div>
@@ -289,6 +347,7 @@ const LineBadge = ({
           sizes={`${renderedWidth}px`}
           quality={100}
           unoptimized
+          onError={handleImageError}
           className={clsx(
             fit === 'contain' ? 'object-contain' : 'object-cover',
             imageClassName,

@@ -140,14 +140,12 @@
   "description": "How many of the Hangzhou and Shaoxing metro stations can you name from memory?",
   "groups": [
     {
-      "title": "Hangzhou Metro",
+      "title": "Hangzhou Metro Group Co., Ltd",
       "titleImage": "asia/china/hangzhou/icon.ico",
       "lines": [
-        "hangzhou1",
         "hangzhou2",
         "hangzhou3",
         "hangzhou4",
-        "hangzhou5",
         "hangzhou6",
         "hangzhou7",
         "hangzhou8",
@@ -159,7 +157,16 @@
       ]
     },
     {
+      "title": "Hangzhou MTR Corporation Limited",
+      "titleImage": "asia/china/hangzhou/hangzhoumtr.png",
+      "lines": [
+        "hangzhou1",
+        "hangzhou5"
+      ]
+    },
+    {
       "title": "Shaoxing Metro",
+      "titleImage": "asia/china/hangzhou/shaoxinglogo.png",
       "lines": [
         "shaoxing1",
         "shaoxing2"

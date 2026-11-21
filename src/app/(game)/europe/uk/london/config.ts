@@ -141,6 +141,27 @@ export const LINES: {
     textColor: '#fff',
     order: 21,
   },
+  LondonTrams: {
+    name: 'London Trams',
+    color: '#5FB526',
+    backgroundColor: '#2c5a10',
+    textColor: '#fff',
+    order: 22,
+  },
+  CableCar: {
+    name: 'IFS Cloud Cable Car',
+    color: '#DC241F',
+    backgroundColor: '#6b110f',
+    textColor: '#fff',
+    order: 23,
+  },
+  HeathrowT5Transit: {
+    name: 'Heathrow T5 Transit',
+    color: '#5D2E8C',
+    backgroundColor: '#2e1746',
+    textColor: '#fff',
+    order: 24,
+  },
 }
 
 export const METADATA: Metadata = {

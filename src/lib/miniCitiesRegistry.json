@@ -748,7 +748,7 @@
           "slug": "nyc-ctrail",
           "name": "CTrail",
           "link": "/north-america/usa/nyc-ctrail",
-          "assetSourceSlug": "nyc",
+          "assetSourceSlug": "nyc-ctrail",
           "keywords": [
             "CTrail",
             "Shore Line East",
@@ -1201,6 +1201,7 @@
         {
           "slug": "florida-state-jacksonville",
           "name": "Jacksonville",
+          "hidden": true,
           "link": "/north-america/usa/florida-state-jacksonville",
           "assetSourceSlug": "florida-state-jacksonville",
           "keywords": [
@@ -2116,16 +2117,31 @@
           ]
         },
         {
-          "slug": "changsha-maglev-yunba",
-          "name": "Changsha Maglev & Yunba",
-          "link": "/asia/china/changsha-maglev-yunba",
-          "assetSourceSlug": "changsha-maglev-yunba",
+          "slug": "changsha-maglev",
+          "name": "Changsha Maglev Express",
+          "link": "/asia/china/changsha-maglev",
+          "assetSourceSlug": "changsha-maglev",
           "keywords": [
-            "Maglev & Yunba"
+            "Changsha Maglev",
+            "Maglev"
           ],
           "countingMode": "mini",
           "includeLines": [
-            "changshamaglev",
+            "changshamaglev"
+          ]
+        },
+        {
+          "slug": "changsha-dawangshan-skyshuttle",
+          "name": "Dawangshan Skyshuttle (BYD)",
+          "link": "/asia/china/changsha-dawangshan-skyshuttle",
+          "assetSourceSlug": "changsha-dawangshan-skyshuttle",
+          "keywords": [
+            "Dawangshan Skyshuttle",
+            "Skyshuttle",
+            "Yunba"
+          ],
+          "countingMode": "mini",
+          "includeLines": [
             "changshayunba"
           ]
         }
@@ -3914,7 +3930,7 @@
           "slug": "rome-metro",
           "name": "Metropolitana di Roma",
           "link": "/europe/italy/rome-metro",
-          "assetSourceSlug": "rome",
+          "assetSourceSlug": "rome-metro",
           "keywords": [
             "Metropolitana di Roma"
           ],
@@ -3930,7 +3946,7 @@
           "slug": "rome-ferrovie-concesse",
           "name": "Rome Ferrovie Concesse",
           "link": "/europe/italy/rome-ferrovie-concesse",
-          "assetSourceSlug": "rome",
+          "assetSourceSlug": "rome-ferrovie-concesse",
           "keywords": [
             "Ferrovie Concesse"
           ],
@@ -4374,7 +4390,7 @@
           "slug": "singapore-mrt",
           "name": "Singapore MRT",
           "link": "/asia/singapore-mrt",
-          "assetSourceSlug": "singapore",
+          "assetSourceSlug": "singapore-mrt",
           "keywords": [
             "Mass Rapid Transit (MRT)"
           ],
@@ -4392,7 +4408,7 @@
           "slug": "singapore-lrt",
           "name": "Singapore LRT",
           "link": "/asia/singapore-lrt",
-          "assetSourceSlug": "singapore",
+          "assetSourceSlug": "singapore-lrt",
           "keywords": [
             "Light Rail Transit (LRT)"
           ],
@@ -4407,7 +4423,7 @@
           "slug": "singapore-sentosa",
           "name": "Sentosa Express",
           "link": "/asia/singapore-sentosa",
-          "assetSourceSlug": "singapore",
+          "assetSourceSlug": "singapore-sentosa",
           "keywords": [
             "Sentosa Development Corporation"
           ],
@@ -4422,7 +4438,7 @@
           "slug": "singapore-changi-airport-skytrain",
           "name": "Changi Airport Skytrain",
           "link": "/asia/singapore-changi-airport-skytrain",
-          "assetSourceSlug": "singapore",
+          "assetSourceSlug": "singapore-changi-airport-skytrain",
           "keywords": [
             "Changi Airport Skytrain"
           ],
@@ -5064,6 +5080,7 @@
           "includeLines": [
             "wuhanl1",
             "wuhanl2",
+            "wuhanl3",
             "wuhant1"
           ]
         }

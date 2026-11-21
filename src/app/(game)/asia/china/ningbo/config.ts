@@ -14,7 +14,7 @@ export const LINE_GROUPS: LineGroup[] = [
     items: [
       {
         type: 'lines',
-        lines: ['ningbo1', 'ningbo2', 'ningbo3', 'ningbo4', 'ningbo5', 'ningbo6', 'ningbo7', 'ningbo8'],
+        lines: ['ningbo1', 'ningbo2', 'ningbo3', 'ningbo4', 'ningbo5', 'ningbo6', 'ningbo7', 'ningbo8', 'ningbo12'],
       },
     ],
   },
@@ -40,14 +40,14 @@ export const MAP_CONFIG: MapboxOptions = {
   container: 'map',
   style: 'mapbox://styles/benjamintd/cls31ijdo010o01plcpzag11d',
   bounds: [
-    [121.388, 29.617],
-    [121.896, 30.024],
+    [121.383, 29.362],
+    [121.969, 30.043],
   ],
   maxBounds: [
-    [121.157, 29.407],
-    [122.127, 30.234],
+    [121.136, 29.096],
+    [122.216, 30.309],
   ],
-  minZoom: 9.5,
+  minZoom: 8.5,
   fadeDuration: 50,
 }
 

@@ -6,7 +6,7 @@ export interface AchievementDefinition {
 export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   'adana': {
     title: "Seyhan Sprinter",
-    description: "You've named every Adana Metro station from Hastane to Akıncılar along the Seyhan.",
+    description: "From Hastane to Akıncılar, the Seyhan side of Adana holds no secrets from you.",
   },
   adelaide: {
     title: "Festival State Master",
@@ -14,11 +14,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'agra': {
     title: "Taj Tunnel Tracker",
-    description: "You've named every Agra Metro station in the shadow of the Taj Mahal.",
+    description: "The Taj gets the postcards, but you know the Agra Metro underneath it by heart.",
   },
   'ahmedabad': {
     title: "Sabarmati Shuttler",
-    description: "You've named every Ahmedabad Metro station on both banks of the Sabarmati.",
+    description: "East bank, west bank, both banks of the Sabarmati: Ahmedabad Metro is all yours.",
   },
   albuquerque: {
     title: "Yeah, Science!",
@@ -30,11 +30,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'almaty': {
     title: "Apple City Underground",
-    description: "You've ridden every Almaty Metro station beneath the Tian Shan foothills.",
+    description: "Beneath the Tian Shan foothills, Almaty's metro runs through your memory.",
   },
   'amsterdam': {
     title: "Canal Ring Cruiser",
-    description: "You've named every Amsterdam Metro station without needing a bicycle.",
+    description: "Who needs a bike? You've metro'd Amsterdam from Centraal to Gein.",
   },
   amtrak: {
     title: "All Aboard America",
@@ -42,15 +42,15 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'ankara': {
     title: "Anıtkabir Ascender",
-    description: "You've named every station on the Ankara Metro and Ankaray.",
+    description: "Kızılay to Koru and every Ankaray stop between: the capital's rails are yours.",
   },
   'astana': {
     title: "Steppe Skyrail",
-    description: "You've named every station of Astana's elevated light metro.",
+    description: "Steel, glass and steppe wind: you've glided the length of Astana's sky-high LRT.",
   },
   'athens': {
     title: "Acropolis Express",
-    description: "You've named every Athens Metro station, ancient ruins and all.",
+    description: "Two thousand years of ruins and three metro lines, and you know them all. Bravo!",
   },
   atlanta: {
     title: "Riding the Peach",
@@ -66,7 +66,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'baku': {
     title: "Land of Fire Underground",
-    description: "You've named every station of the Baku Metro, Caspian chic included.",
+    description: "Marble halls, Caspian breezes, Soviet chandeliers: Baku's metro is your palace now.",
   },
   barcelona: {
     title: "Gaudi's Gift",
@@ -82,11 +82,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'belo-horizonte': {
     title: "Mineiro on the Move",
-    description: "You've ridden every Metrô BH station through the hills of Minas Gerais.",
+    description: "Through the hills of Minas Gerais, Metrô BH has a new expert.",
   },
   'bengaluru': {
     title: "Garden City Glider",
-    description: "You've named every Namma Metro station in India's Silicon Valley.",
+    description: "Purple, Green and Yellow, mapped faster than a Bengaluru standup meeting.",
   },
   berlin: {
     title: "No More Walls",
@@ -94,11 +94,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'bhopal': {
     title: "City of Lakes Rider",
-    description: "You've named every Bhopal Metro station around the Upper Lake.",
+    description: "From lake to lake, Bhopal's new metro has met its biggest fan.",
   },
   'bilbao': {
     title: "Fosterito Finder",
-    description: "You've named every Bilbao Metro station, glass canopies and all.",
+    description: "In through a Fosterito, out through the next: Bilbao's metro has no secrets left.",
   },
   blackpool: {
     title: "Pleasure Beach Pro",
@@ -110,11 +110,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'brasilia': {
     title: "Capital Planner",
-    description: "You've named every Metrô-DF station in Brasília.",
+    description: "A city drawn like an airplane, and you've flown the whole Metrô-DF.",
   },
   'brescia': {
     title: "Lioness of Italy",
-    description: "You've named every station on Brescia's driverless metro.",
+    description: "Brescia's driverless metro runs itself, and so does your memory of it.",
   },
   'brisbane': {
     title: "River City Rider",
@@ -122,11 +122,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'brussels': {
     title: "Atomium Orbiter",
-    description: "You've named every Brussels Metro and premetro station.",
+    description: "Metro, premetro, waffles: you've conquered the capital of Europe underground.",
   },
   'bucharest': {
     title: "Little Paris Underground",
-    description: "You've named every Metrorex station from Pipera to Berceni.",
+    description: "Pipera to Berceni, Gara de Nord to Anghel Saligny: Bucharest bows to you.",
   },
   budapest: {
     title: "Danube Dynasty",
@@ -134,7 +134,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'buenos-aires': {
     title: "Porteño Underground",
-    description: "You've named every Subte station in Buenos Aires.",
+    description: "Subte A's old wooden cars would be proud. Buenos Aires is yours, che.",
   },
   buffalo: {
     title: "Wing Commander",
@@ -142,11 +142,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'bursa': {
     title: "Green Bursa Glider",
-    description: "You've named every Bursaray station at the foot of Uludağ.",
+    description: "From Uludağ's foothills to the Marmara plains, Bursaray runs through your head.",
   },
   'cairo': {
     title: "Pharaoh's Passage",
-    description: "You've named every Cairo Metro station along the Nile.",
+    description: "Three lines under the city of a thousand minarets, and you remember every one.",
   },
   calgary: {
     title: "Stampede Master",
@@ -158,11 +158,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'caracas': {
     title: "Caraqueño Commuter",
-    description: "You've named every Metro de Caracas station beneath El Ávila.",
+    description: "Under El Ávila and across the valley, Caracas has a new metro expert.",
   },
   'catania': {
     title: "Etna Undermountain",
-    description: "You've named every Catania Metro station in the shadow of Mount Etna.",
+    description: "Mount Etna smokes overhead while you fly through Catania's metro without a map.",
   },
   charlotte: {
     title: "Queen City Navigator",
@@ -170,11 +170,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'chennai': {
     title: "Marina Mover",
-    description: "You've named every Chennai Metro station from the airport to the Marina.",
+    description: "Airport to Wimco Nagar, Central to St. Thomas Mount: Chennai's metro is fully yours.",
   },
   'china-railway': {
     title: "Fuxing Flyer",
-    description: "You've named every China Railway high-speed station on the world's biggest HSR network.",
+    description: "Beijing South to Ürümqi, Harbin to Sanya: the world's biggest high-speed network fits in your head.",
   },
   cincinnati: {
     title: "Chili & Chill",
@@ -186,7 +186,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'copenhagen': {
     title: "Hygge Underground",
-    description: "You've named every station on Copenhagen's round-the-clock driverless metro.",
+    description: "Round the clock, round the City Circle: Copenhagen's metro never sleeps, and neither did you.",
   },
   dallas: {
     title: "Everything's Bigger",
@@ -198,7 +198,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'delhi': {
     title: "Capital Connector",
-    description: "You've named every Delhi Metro station across the National Capital Region.",
+    description: "Blue, Yellow, Magenta, Pink and more: you've untangled India's biggest metro.",
   },
   denver: {
     title: "Mile High Mastery",
@@ -210,15 +210,15 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'dhaka': {
     title: "Uttara Express",
-    description: "You've named every Dhaka Metro Rail station on MRT Line 6.",
+    description: "Uttara to Motijheel above the traffic jams, Dhaka's first metro is all yours.",
   },
   'dnipro': {
     title: "Dnipro Diver",
-    description: "You've named every station on the Dnipro Metro.",
+    description: "Dnipro's short-but-mighty metro: every station, end to end.",
   },
   'doha': {
     title: "Pearl of the Gulf",
-    description: "You've named every Red, Gold and Green Line station of the Doha Metro.",
+    description: "Red, Gold and Green, glinting like the Gulf: Doha's metro is in the bag.",
   },
   dresden: {
     title: "Baroque and Roll",
@@ -226,7 +226,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'dubai': {
     title: "Burj Bound",
-    description: "You've named every Dubai Metro station from Jebel Ali to Centrepoint.",
+    description: "Jebel Ali to Centrepoint at the foot of the Burj: you rode Dubai's driverless dream.",
   },
   'dublin': {
     title: "Fair City Navigator",
@@ -246,7 +246,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'fortaleza': {
     title: "Cearense Cruiser",
-    description: "You've named every Metrofor station in Fortaleza.",
+    description: "Sun, sea and Metrofor: you've charted Fortaleza's rails from the beach inland.",
   },
   galveston: {
     title: "Island Time Keeper",
@@ -254,7 +254,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'genoa': {
     title: "Lanterna Lightkeeper",
-    description: "You've named every station on Genoa's harbour-hugging metro.",
+    description: "Brin to Brignole beneath the Lanterna, Genoa's metro is anchored in your mind.",
   },
   glasgow: {
     title: "Clockwork Orange Expert",
@@ -274,7 +274,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'helsinki': {
     title: "Baltic Daughter Rider",
-    description: "You've named every Helsinki Metro station from Vuosaari to Kivenlahti.",
+    description: "Vuosaari to Kivenlahti, and you didn't even need a sauna break.",
   },
   hochiminhcity: {
     title: "Saigon Speed",
@@ -290,19 +290,19 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'hyderabad': {
     title: "Charminar Chaser",
-    description: "You've named every Hyderabad Metro station in the City of Pearls.",
+    description: "From Charminar's shadow to HITEC City, Hyderabad's elevated metro is yours.",
   },
   'ice': {
     title: "Hauptbahnhof Hopper",
-    description: "You've named every station served by Germany's Intercity-Express.",
+    description: "Hauptbahnhof after Hauptbahnhof at 300 km/h: the ICE network is your playground.",
   },
   'indore': {
     title: "Rajwada Rider",
-    description: "You've named every station on India's cleanest city's metro.",
+    description: "India's cleanest city, and now its cleanest sweep of metro stations.",
   },
   'isfahan': {
     title: "Half the World Underground",
-    description: "You've named every Isfahan Metro station beneath Naqsh-e Jahan.",
+    description: "Beneath Naqsh-e Jahan Square and along the Zayandeh, half the world is yours.",
   },
   istanbul: {
     title: "East Meets West",
@@ -310,15 +310,15 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'izmir': {
     title: "Aegean Pearl Rider",
-    description: "You've named every İzmir Metro station along the gulf.",
+    description: "Narlıdere to Evka-3 along the gulf: İzmir's metro has an Aegean master.",
   },
   'jaipur': {
     title: "Pink City Pathfinder",
-    description: "You've named every Jaipur Metro station inside the Pink City.",
+    description: "Pink walls above, pink-city metro below: Jaipur's line is fully memorized.",
   },
   'kanpur': {
     title: "Ganges Gateway",
-    description: "You've named every Kanpur Metro station on the banks of the Ganges.",
+    description: "On the banks of the Ganges, Kanpur's new metro has its first expert.",
   },
   kaohsiung: {
     title: "Harbor Light Master",
@@ -326,7 +326,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'karaj': {
     title: "Alborz Commuter",
-    description: "You've named every Karaj Metro station at the foot of the Alborz.",
+    description: "In the shadow of the Alborz, Karaj's metro runs straight through your memory.",
   },
   karlsruhe: {
     title: "Tram-Train Brain",
@@ -334,7 +334,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'kazan': {
     title: "Kremlin to Kremlin",
-    description: "You've named every Kazan Metro station between the Kazanka and the Volga.",
+    description: "Between the Kazanka and the Volga, Kazan's metro is yours from end to end.",
   },
   kc: {
     title: "BBQ & Tracks",
@@ -346,39 +346,39 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'kharkiv': {
     title: "Kharkiv Underground",
-    description: "You've named every Kharkiv Metro station, Ukraine's second metro.",
+    description: "Three lines, deep halls, Ukraine's second metro: Kharkiv is in your head.",
   },
   'kiwirail': {
     title: "Great Journeys",
-    description: "You've named every KiwiRail passenger station from the Northern Explorer to the TranzAlpine.",
+    description: "Northern Explorer, Coastal Pacific, TranzAlpine: you've crossed Aotearoa by rail.",
   },
   'kochi': {
     title: "Queen of the Arabian Sea",
-    description: "You've named every Kochi Metro station across the backwaters.",
+    description: "Across the backwaters and through the Queen of the Arabian Sea, Kochi Metro is yours.",
   },
   'kolkata': {
     title: "City of Joy Underground",
-    description: "You've named every station of India's oldest metro, under the Hooghly and all.",
+    description: "India's first metro, now with a line under the Hooghly, and you've mapped it all.",
   },
   'komuter-utara': {
     title: "Northern Komuter",
-    description: "You've named every KTM Komuter Northern Sector station from Padang Besar to Butterworth.",
+    description: "Padang Besar to Butterworth, the Northern Komuter has nothing left to teach you.",
   },
   'korail': {
     title: "KTX Commander",
-    description: "You've named every Korail station from Seoul to Busan and beyond.",
+    description: "Mugunghwa, ITX, KTX and every metro stop in between: Korea's railway is yours.",
   },
   'korean-state-railway': {
     title: "Juche Express",
-    description: "You've named every Korean State Railway station north of the DMZ.",
+    description: "Every halt on the peninsula's northern lines. Few travelers have gone further.",
   },
   'kryvyi-rih': {
     title: "Metrotram Miner",
-    description: "You've named every Kryvyi Rih Metrotram stop.",
+    description: "Underground trams in a mining town: you've dug out every Kryvyi Rih Metrotram stop.",
   },
   'kyiv': {
     title: "Arsenalna Deep Diver",
-    description: "You've named every Kyiv Metro station, down to the world's deepest.",
+    description: "All the way down to Arsenalna, the world's deepest station: Kyiv's metro is yours.",
   },
   la: {
     title: "La La Land Lord",
@@ -386,27 +386,27 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'lagos': {
     title: "Eko Express",
-    description: "You've named every Lagos Rail Mass Transit station across the lagoon.",
+    description: "Across the lagoon on the Blue Line, Lagos traffic can't slow you down.",
   },
   'lahore': {
     title: "Orange Line Lahori",
-    description: "You've named every station on Lahore's Orange Line.",
+    description: "Ali Town to Dera Gujran on the Orange Line, Lahore's rails are all memorized.",
   },
   'lausanne': {
     title: "Steepest Metro Climber",
-    description: "You've named every station on the world's hilliest metro, from the lake to Croisettes.",
+    description: "Lake to hilltop on the world's steepest metro, and your knees didn't complain once.",
   },
   'lille': {
     title: "VAL Visionary",
-    description: "You've named every station on Lille's pioneering driverless VAL.",
+    description: "The world's first VAL line, and you remember it better than its engineers.",
   },
   'lima': {
     title: "Limeño Line Rider",
-    description: "You've named every Metro de Lima station.",
+    description: "From Villa El Salvador to the Andes foothills, Lima's metro is in your pocket.",
   },
   'lisbon': {
     title: "Seven Hills Subterranean",
-    description: "You've named every Lisbon Metro station, azulejos and all.",
+    description: "Up the seven hills and down past the azulejos, Lisbon's four lines are yours.",
   },
   'liverpool': {
     title: "Ferry Cross the Mersey",
@@ -422,7 +422,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'lucknow': {
     title: "City of Nawabs Navigator",
-    description: "You've named every Lucknow Metro station with true tehzeeb.",
+    description: "With true Lucknowi tehzeeb, you've mastered the City of Nawabs' metro.",
   },
   lv: {
     title: "House Always Knows",
@@ -430,7 +430,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'lyon': {
     title: "Traboule Tracker",
-    description: "You've named every Lyon Metro station, funiculars included.",
+    description: "Four lines, two funiculars, one bouchon-sized appetite for Lyon's metro.",
   },
   madrid: {
     title: "Madrileno Completo",
@@ -446,23 +446,23 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'marseille': {
     title: "Vieux-Port Voyager",
-    description: "You've named every Marseille Metro station from the port to the hills.",
+    description: "From the Vieux-Port to the hills, Marseille's metro sings in your head like a sea shanty.",
   },
   'mashhad': {
     title: "Pilgrim's Path",
-    description: "You've named every Mashhad Urban Railway station on the way to the Holy Shrine.",
+    description: "On the road to the Holy Shrine, Mashhad's urban railway has a devoted follower.",
   },
   'mecca': {
     title: "Mashaaer Mover",
-    description: "You've named every station on the Al Mashaaer Al Mugaddassah line.",
+    description: "Mina, Muzdalifah, Arafat: you know the pilgrimage line station by station.",
   },
   'medellin': {
     title: "Paisa Pathfinder",
-    description: "You've named every Metro de Medellín station and cable car.",
+    description: "Metro below, Metrocable above: you've climbed Medellín from the valley to the hills.",
   },
   'meerut': {
     title: "Namo Bharat Navigator",
-    description: "You've named every Meerut Metro station on the RRTS corridor.",
+    description: "Namo Bharat in the fast lane, Meerut Metro in the slow lane: you've mastered both.",
   },
   melbourne: {
     title: "Tram-tastic!",
@@ -474,7 +474,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'metrorail': {
     title: "Rainbow Rails",
-    description: "You've named every Metrorail station in South Africa.",
+    description: "Cape Town to Durban, Pretoria to Gqeberha: South Africa's commuter rail is yours.",
   },
   miami: {
     title: "Sunshine State of Mind",
@@ -482,11 +482,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'florida-state': {
     title: "Sunshine State Superfan",
-    description: "You've conquered Miami, Orlando, Tampa, and Jacksonville without missing a stop!",
+    description: "From Miami's Metromover to Orlando's monorails and Tampa's streetcar, the Sunshine State's rails are yours!",
   },
   'milan': {
     title: "Duomo Descender",
-    description: "You've named every Milan Metro station, from the red line to the lilac.",
+    description: "Red, green, yellow, lilac and blue: Milan's metro is your fashion week.",
   },
   milwaukee: {
     title: "Brew City Brain",
@@ -494,7 +494,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'minsk': {
     title: "Minsk Mosaic",
-    description: "You've named every Minsk Metro station, Soviet mosaics and all.",
+    description: "Mosaics, chandeliers and three tidy lines: you've charted Minsk underground.",
   },
   montreal: {
     title: "Je Me Souviens",
@@ -506,11 +506,11 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'moscow': {
     title: "Underground Palaces",
-    description: "You've named every Moscow Metro, MCC and MCD station.",
+    description: "Metro, MCC and MCD: the palaces of the people now belong to you.",
   },
   'mumbai': {
     title: "Maximum City Metro",
-    description: "You've named every Mumbai Metro station above the Bombay traffic.",
+    description: "Above Mumbai's traffic and under its monsoon, Maximum City's metro is maxed out.",
   },
   munich: {
     title: "Oktoberfest Navigator",
@@ -518,7 +518,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'nagpur': {
     title: "Orange City Orbiter",
-    description: "You've named every Nagpur Metro station at India's zero mile.",
+    description: "At India's geographic center, Nagpur's double-decker metro is in your head.",
   },
   nanning: {
     title: "Green City Guru",
@@ -538,47 +538,47 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'naples': {
     title: "Art Station Aficionado",
-    description: "You've named every Naples Metro station, from Toledo's mosaics to the funiculars.",
+    description: "Toledo's blue mosaics, Garibaldi's mirrors, four funiculars: Naples is your gallery.",
   },
   'national-rail': {
     title: "Mind the Gap Year",
-    description: "You've named every National Rail station in Great Britain.",
+    description: "Penzance to Thurso and every halt in between. Britain's rail map is yours.",
   },
   'nizhny-novgorod': {
     title: "Volga Confluence",
-    description: "You've named every Nizhny Novgorod Metro station where the Oka meets the Volga.",
+    description: "Where the Oka meets the Volga, Nizhny's metro has met its match.",
   },
   'novosibirsk': {
     title: "Siberian Express",
-    description: "You've named every Novosibirsk Metro station, bridge crossing included.",
+    description: "Across the Ob on the world's longest covered metro bridge, Novosibirsk is yours.",
   },
   'nuremberg': {
     title: "Kaiserburg Commuter",
-    description: "You've named every Nuremberg U-Bahn station, driverless lines included.",
+    description: "Kaiserburg above, driverless U-Bahn below: Nuremberg runs on your memory.",
   },
   'oslo': {
     title: "Fjord City T-Baner",
-    description: "You've named every Oslo T-bane station from Holmenkollen to Mortensrud.",
+    description: "Holmenkollen's ski jump to Mortensrud: you've T-baned all of Oslo.",
   },
   'panama-city': {
     title: "Canal Zone Connector",
-    description: "You've named every Panama Metro station in Central America's first metro.",
+    description: "Central America's first metro, from Albrook to the airport, is in your head.",
   },
   'patna': {
     title: "Pataliputra Pioneer",
-    description: "You've named every Patna Metro station in one of the world's oldest cities.",
+    description: "In one of the world's oldest cities, you've learned its newest metro first.",
   },
   'porto-alegre': {
     title: "Gaúcho Glider",
-    description: "You've named every Trensurb station through the Rio Grande do Sul capital.",
+    description: "Trensurb from Mercado to Novo Hamburgo: you've ridden the gaúcho way.",
   },
   'prague': {
     title: "Hundred Spires Underground",
-    description: "You've named every Prague Metro station beneath the City of a Hundred Spires.",
+    description: "Under a hundred spires and over a few beers, Prague's metro is yours. Na zdraví!",
   },
   'pune': {
     title: "Deccan Queen Rider",
-    description: "You've named every Pune Metro station in the Oxford of the East.",
+    description: "From Pimpri to Swargate, the Oxford of the East has a new top student.",
   },
   pyongyang: {
     title: "Juche Journey",
@@ -606,55 +606,55 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'quito': {
     title: "Mitad del Metro",
-    description: "You've named every Metro de Quito station, just south of the equator.",
+    description: "Just south of the equator, Quito's metro runs straight through your memory.",
   },
   'recife': {
     title: "Venice of Brazil",
-    description: "You've named every Metrô do Recife station among the rivers and bridges.",
+    description: "Over rivers and bridges, the Venice of Brazil holds no secrets from you.",
   },
   'rennes': {
     title: "Breton Automaton",
-    description: "You've named every station on Rennes' two driverless lines.",
+    description: "Two driverless lines and a whole Breton city: Rennes is in the bag.",
   },
   'rio-de-janeiro': {
     title: "Carioca Commuter",
-    description: "You've named every MetrôRio station from Ipanema to Pavuna.",
+    description: "Ipanema to Pavuna, Carioca style: MetrôRio is all yours.",
   },
   'riyadh': {
     title: "Najdi Navigator",
-    description: "You've named every station on the six lines of the Riyadh Metro.",
+    description: "Six lines, one capital, zero hesitation: Riyadh's brand-new metro is yours.",
   },
   'rotterdam': {
     title: "Erasmus Bridge Runner",
-    description: "You've named every Rotterdam Metro station, Hoek van Holland included.",
+    description: "Over the Erasmus Bridge and out to Hoek van Holland: Rotterdam's metro is memorized.",
   },
   'russian-railways': {
     title: "Trans-Siberian Scholar",
-    description: "You've named every Russian Railways long-distance and high-speed station across eleven time zones.",
+    description: "Kaliningrad to Vladivostok across eleven time zones: you've tamed Russian Railways.",
   },
   'saint-petersburg': {
     title: "White Nights Rider",
-    description: "You've named every Saint Petersburg Metro station, the world's deepest system.",
+    description: "Down the world's deepest escalators and back up again, Saint Petersburg is yours.",
   },
   'salvador': {
     title: "Soteropolitano",
-    description: "You've named every Metrô de Salvador station in Bahia's capital.",
+    description: "Up from the bay and across Bahia's capital, Salvador's metro is in your head.",
   },
   'samara': {
     title: "Samara Underground",
-    description: "You've named every Samara Metro station on the Volga bend.",
+    description: "On the bend of the Volga, Samara's metro has a new champion.",
   },
   'santiago': {
     title: "Santiaguino Sprinter",
-    description: "You've named every Metro de Santiago station beneath the Andes.",
+    description: "Beneath the Andes, all of Santiago's colorful lines are in your head.",
   },
   'santo-domingo': {
     title: "Primada de América",
-    description: "You've named every Metro de Santo Domingo station in the oldest city of the Americas.",
+    description: "In the oldest city of the Americas, you've mastered its newest rails.",
   },
   'sao-paulo': {
     title: "Paulistano Pro",
-    description: "You've named every Metrô and CPTM station in São Paulo.",
+    description: "Metrô and CPTM, from Paulista to the outskirts: Sampa is yours.",
   },
   shijiazhuang: {
     title: "Stone City Strategist",
@@ -662,23 +662,23 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'shinkansen': {
     title: "Bullet Train Brain",
-    description: "You've named every Shinkansen station in Japan.",
+    description: "Kagoshima to Hakodate at bullet speed: the whole Shinkansen network is in your head.",
   },
   'shiraz': {
     title: "City of Poets Commuter",
-    description: "You've named every Shiraz Metro station among the gardens of Hafez.",
+    description: "Among the gardens of Hafez, Shiraz's metro is as memorable as his poetry.",
   },
   'sncf': {
     title: "Grande Vitesse",
-    description: "You've named every TGV, Ouigo and Intercités station in France.",
+    description: "Paris to Marseille, Lille to Biarritz: TGV, Ouigo and Intercités, all yours.",
   },
   'sofia': {
     title: "Vitosha Voyager",
-    description: "You've named every Sofia Metro station beneath the slopes of Vitosha.",
+    description: "Beneath the slopes of Vitosha, Sofia's three lines are fully mapped.",
   },
   'tabriz': {
     title: "Bazaar Line Boss",
-    description: "You've named every Tabriz Metro station by the world's largest covered bazaar.",
+    description: "From the world's largest covered bazaar outward, Tabriz's metro is yours.",
   },
   taiyuan: {
     title: "Shanxi Skyline Strategist",
@@ -686,55 +686,55 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'tashkent': {
     title: "Silk Road Subway",
-    description: "You've named every Tashkent Metro station, Central Asia's first.",
+    description: "Central Asia's first metro, and every chandeliered hall of it, is yours.",
   },
   'tbilisi': {
     title: "Tbilisi Tunneler",
-    description: "You've named every Tbilisi Metro station beneath the Old Town.",
+    description: "Deep under the Old Town and out to the hills, Tbilisi's metro is memorized.",
   },
   'tehran': {
     title: "Milad Tower Mapper",
-    description: "You've named every Tehran Metro station, the Middle East's largest metro.",
+    description: "The Middle East's biggest metro, from Tajrish to the airport, is in your head.",
   },
   'thessaloniki': {
     title: "Thermaic Gulf Glider",
-    description: "You've named every station on Thessaloniki's long-awaited metro.",
+    description: "Decades in the making, minutes for you to learn: Thessaloniki's metro is yours.",
   },
   'tokyo-area': {
     title: "Shinjuku Survivor",
-    description: "You've named every metro station in the world's largest metropolis.",
+    description: "The world's largest metropolis, every metro station, all in your head. Sugoi!",
   },
   'toulouse': {
     title: "Ville Rose Racer",
-    description: "You've named every Toulouse Metro station in the Pink City.",
+    description: "Pink brick above, two VAL lines below: the Ville Rose is yours.",
   },
   'tra': {
     title: "Round-the-Island",
-    description: "You've named every Taiwan Railway station around Formosa.",
+    description: "Round the whole island, coast to coast: Taiwan Railway has no secrets left.",
   },
   'tren-maya': {
     title: "Maya Circuit",
-    description: "You've named every Tren Maya station across the Yucatán Peninsula.",
+    description: "Cancún to Palenque by way of the jungle: you've ridden the whole Maya circuit.",
   },
   'trenitalia': {
     title: "Freccia d'Oro",
-    description: "You've named every Frecciarossa, Frecciabianca and Intercity station.",
+    description: "Frecciarossa, Frecciabianca and Intercity, from the Alps to Sicily. Bravissimo!",
   },
   'turin': {
     title: "Mole Antonelliana Mover",
-    description: "You've named every station on Turin's driverless VAL metro.",
+    description: "Turin's driverless VAL, from Fermi to Bengasi, runs on your memory.",
   },
   'valencia': {
     title: "Valenciano Voyager",
-    description: "You've named every Metrovalencia station, from the Turia to the beaches.",
+    description: "From the old Turia riverbed to the beaches, Metrovalencia is yours.",
   },
   'volgograd': {
     title: "Metrotram Master",
-    description: "You've named every Volgograd Metrotram stop along the Volga.",
+    description: "Down the Volga on a tram that thinks it's a metro: Volgograd's Metrotram is yours.",
   },
   'warsaw': {
     title: "Palace of Culture Commuter",
-    description: "You've named every Warsaw Metro station on both banks of the Vistula.",
+    description: "Both banks of the Vistula, both lines: Warsaw's metro is mapped.",
   },
   wuhu: {
     title: "Yangtze Wingman",
@@ -1146,19 +1146,19 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   'yekaterinburg': {
     title: "Ural Explorer",
-    description: "You've named every Yekaterinburg Metro station on the edge of Asia.",
+    description: "On the edge of Europe and Asia, Yekaterinburg's metro is fully charted.",
   },
   'yerevan': {
     title: "Pink City Rider",
-    description: "You've named every Yerevan Metro station in the shadow of Ararat.",
+    description: "In the shadow of Ararat, Yerevan's pink-stone metro is yours.",
   },
   'yogyakarta': {
     title: "Jogja Commuter",
-    description: "You've named every KRL station between Yogyakarta and Solo.",
+    description: "Yogyakarta to Solo on the KRL, with every stop committed to memory.",
   },
   'yokohama': {
     title: "Bay Bridge Boarder",
-    description: "You've named every Yokohama metro station from Minato Mirai to Shin-Yokohama.",
+    description: "Minato Mirai to Shin-Yokohama: the port city's rails are all yours.",
   },
   zhengzhou: {
     title: "Zhengzhou Junction",
@@ -1394,7 +1394,7 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   "adelaide-trains": {
     title: "Torrens Trainspotter",
-    description: "You've named every Adelaide Metro train station.",
+    description: "From the Adelaide Hills to the Gulf St Vincent beaches, every Adelaide Metro stop is yours.",
   },
   "adelaide-tram": {
     title: "Glenelg Glider",
@@ -1402,439 +1402,443 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   "algiers-metro": {
     title: "Casbah Cave Runner",
-    description: "You've named every station of the Métro d'Alger.",
+    description: "Beneath the white city, from the Grande Poste to El Harrach: Algiers' metro is mapped.",
   },
   "algiers-tramway": {
     title: "Bay of Algiers Rambler",
-    description: "You've named every stop on the Tramway d'Alger.",
+    description: "Along the bay from Ruisseau to Dergana, the Algiers tram has no secrets left.",
   },
   "amtrak-nec": {
     title: "Acela Ace",
-    description: "You've named every Northeast Corridor station from Boston to D.C.",
+    description: "Boston to Baltimore to Union Station, D.C.: you've ridden the busiest rail corridor in America.",
   },
   "amtrak-state-supported-routes": {
     title: "Statehouse Sleeper",
-    description: "You've named every station on Amtrak's state-supported routes.",
+    description: "Pacific Surfliner, Downeaster, Lincoln Service and the rest: every statehouse's favorite train is yours.",
   },
   "amtrak-long-distance-routes": {
     title: "Superliner Sage",
-    description: "You've named every stop on Amtrak's long-distance trains.",
+    description: "Empire Builder, Sunset Limited, California Zephyr: you've crossed a continent from the observation car.",
   },
   "atlanta-marta": {
     title: "Five Points Pathfinder",
-    description: "You've named every MARTA rail station in the ATL.",
+    description: "Doraville to the airport, Bankhead to Indian Creek, all via Five Points: MARTA is yours.",
   },
   "atlanta-plane-train": {
     title: "Hartsfield Hustler",
-    description: "You've ridden every concourse on the Plane Train.",
+    description: "Concourse T to F faster than security lines move: the world's busiest airport train is yours.",
   },
   "bangkok-mrt": {
     title: "Chao Phraya Diver",
-    description: "You've named every Bangkok MRT station, under the river and in the sky.",
+    description: "Under the Chao Phraya and over the sois, Bangkok's MRT is fully memorized.",
   },
   "bangkok-bts": {
     title: "Siam Skywalker",
-    description: "You've named every BTS Skytrain station above Sukhumvit and Silom.",
+    description: "Above Sukhumvit's traffic and Silom's street food, the Skytrain is yours.",
   },
   "bangkok-arl": {
     title: "Suvarnabhumi Sprinter",
-    description: "You've named every Airport Rail Link station.",
+    description: "Phaya Thai to Suvarnabhumi before your boarding pass prints: the Airport Rail Link is done.",
   },
   "bangkok-srt-red-lines": {
     title: "Krung Thep Aphiwat Rider",
-    description: "You've named every SRT Red Line station.",
+    description: "From the giant Krung Thep Aphiwat hall to Rangsit and Taling Chan, the Red Lines are yours.",
   },
   "bangkok-srt-commuter-rail": {
     title: "Hua Lamphong Heritage",
-    description: "You've named every SRT commuter station around Greater Bangkok.",
+    description: "Slow trains, open windows, Maeklong market folding its awnings: Bangkok's commuter rail is mapped.",
   },
   "barcelona-metro": {
     title: "Gaudí Underground",
-    description: "You've named every TMB and FGC station in Barcelona.",
+    description: "From Sagrada Família to Montjuïc, TMB and FGC alike: Barcelona's underground is yours.",
   },
   "barcelona-trambaix-trambesos": {
     title: "Diagonal Drifter",
-    description: "You've named every Trambaix and Trambesòs stop.",
+    description: "Down the Diagonal and out to the Besòs: both of Barcelona's tram networks are memorized.",
   },
   "beijing-subway-operation": {
     title: "Forbidden City Subterranean",
-    description: "You've named every station of Beijing's main subway operator.",
+    description: "Ring roads, hutongs and Tiananmen: you've charted the heart of Beijing's subway.",
   },
   "beijing-mtr": {
     title: "Daxing Dasher",
-    description: "You've named every station run by Beijing MTR.",
+    description: "Line 4 under Haidian and the Daxing airport express at full tilt: Beijing MTR is yours.",
   },
   "beijing-bjmoa": {
     title: "Capital Ring Keeper",
-    description: "You've named every BJMOA-run station in Beijing.",
+    description: "Driverless, airport-bound and brand new: every BJMOA line has met its match.",
   },
   "beijing-capital-metro": {
     title: "Yanfang Yeoman",
-    description: "You've named every Beijing Capital Metro station.",
+    description: "Out past the Fifth Ring to Yanfang and beyond, Beijing's capital-metro lines are memorized.",
   },
   "beijing-tram": {
     title: "Western Hills Tram Fan",
-    description: "You've named every stop on Beijing's tramways.",
+    description: "Xijiao Line under the Fragrant Hills and Yizhuang's T1: Beijing's trams are yours.",
   },
   "beijing-suburban-railway": {
     title: "Jingshi Jaunter",
-    description: "You've named every Beijing Suburban Railway station.",
+    description: "Commuter trains fanning out to Huairou, Tongzhou and Miyun: Beijing's suburbs are mapped.",
   },
   "busan-metro": {
     title: "Haeundae Hopper",
-    description: "You've named every Busan Metro station from Nopo to Dadaepo.",
+    description: "From Nopo's hills to Dadaepo's beach, Busan's metro is yours. Annyeong, Haeundae!",
   },
   "busan-gimhae-lrt": {
     title: "Nakdong Light Rider",
-    description: "You've named every Busan–Gimhae Light Rail station.",
+    description: "Over the Nakdong delta from Sasang to Gimhae, the driverless LRT is memorized.",
   },
   "busan-haeundae-blue-line": {
     title: "Blue Line Beachcomber",
-    description: "You've named every stop on the Haeundae Blue Line Park.",
+    description: "A seaside sky capsule ride from Mipo to Songjeong, done in style.",
   },
   "caracas-metro": {
     title: "Ávila Underground",
-    description: "You've named every Metro de Caracas station.",
+    description: "Propatria to Palo Verde beneath the Ávila: Caracas' metro is yours.",
   },
   "caracas-los-teques": {
     title: "Altos Mirandinos Climber",
-    description: "You've named every Metro de Los Teques station.",
+    description: "Up into the Altos Mirandinos, every Los Teques station is in your head.",
   },
   "changchun-rail-transit": {
     title: "Spring City Rail Rider",
-    description: "You've named every Changchun Rail Transit station.",
+    description: "Light rail, subways and elevated lines across Changchun's car-making capital: all yours.",
   },
   "changchun-tram": {
     title: "Changchun Streetcar Veteran",
-    description: "You've named every stop on China's oldest working tram line.",
+    description: "Rattling along on China's oldest still-running tram line, stop by stop.",
   },
   "changsha-metro": {
     title: "Orange Isle Express",
-    description: "You've named every Changsha Metro station along the Xiang River.",
+    description: "From Orange Isle to the Xiang River banks, Changsha's metro is spicy-hot in your memory.",
   },
-  "changsha-maglev-yunba": {
+  "changsha-maglev": {
     title: "Hunan Hoverer",
-    description: "You've floated through every Changsha Maglev and Yunba stop.",
+    description: "Levitating from the high-speed station to Huanghua Airport, every Changsha Maglev stop is yours.",
+  },
+  "changsha-dawangshan-skyshuttle": {
+    title: "Dawangshan Sky Glider",
+    description: "Gliding past Dawangshan on BYD's little Skyshuttle, you've memorized every stop.",
   },
   "chengdu-metro": {
     title: "Panda Base Commuter",
-    description: "You've named every Chengdu Metro station.",
+    description: "Panda bases, hot pot and one of the world's fastest-growing metros: Chengdu is yours.",
   },
   "chengdu-tram": {
     title: "Hibiscus City Trammer",
-    description: "You've named every Chengdu Tram stop.",
+    description: "Gliding through the Hibiscus City at street level, the Chengdu tram is memorized.",
   },
   "chengdu-dujiangyan-m-tr": {
     title: "Irrigation Ingenuity",
-    description: "You've named every Dujiangyan M-TR stop.",
+    description: "Out to an irrigation system two thousand years old on one of China's newest rides.",
   },
   "chongqing-rail-transit": {
     title: "Liziba Line Legend",
-    description: "You've named every Chongqing Rail Transit station, through buildings and all.",
+    description: "Through the building at Liziba and over the Yangtze: Chongqing's 8D rail is yours.",
   },
   "chongqing-byd": {
     title: "Mountain City SkyRail",
-    description: "You've named every stop on Chongqing's BYD SkyRail.",
+    description: "Straddling the mountain city on BYD's SkyRail, you've learned every curve.",
   },
   "dalian-metro": {
     title: "Xinghai Square Seeker",
-    description: "You've named every Dalian Metro station.",
+    description: "From Xinghai Square to the Golden Pebble Beach, Dalian's metro is mapped.",
   },
   "dalian-trams": {
     title: "Dalian Vintage Tram Buff",
-    description: "You've named every stop on Dalian's historic trams.",
+    description: "On the vintage trams of the Liaodong Peninsula, every clanging stop is yours.",
   },
   "dallas-dart": {
     title: "Big D DART Thrower",
-    description: "You've named every DART rail station across Dallas.",
+    description: "Red, Blue, Green, Orange and Silver: you've thrown DART all over Big D.",
   },
   "dallas-trinity-metro": {
     title: "Cowtown TEXRail Hand",
-    description: "You've named every Trinity Metro station in Fort Worth.",
+    description: "Yeehaw! From Fort Worth's stockyards to DFW, TEXRail is roped and branded.",
   },
   "dallas-dcta": {
     title: "Denton A-Train Engineer",
-    description: "You've named every DCTA A-train station.",
+    description: "Denton to Trinity Mills on the A-train: North Texas commuter rail is yours.",
   },
   "dallas-dfw-airport-board": {
     title: "Skylink Spinner",
-    description: "You've named every DFW Skylink station.",
+    description: "Terminal A to E in a few loops, Skylink can't lose you.",
   },
   "denver-rtd": {
     title: "Mile High Mover",
-    description: "You've named every RTD rail station in the Mile High City.",
+    description: "A Line to the airport, W Line to Golden: the Mile High City's rails are yours.",
   },
   "denver-airport-train": {
     title: "Pinnacle Concourse Pilot",
-    description: "You've named every stop on Denver Airport's train.",
+    description: "Concourse A, B, C, then off to the Rockies: DEN's train is memorized.",
   },
   "detroit-qline": {
     title: "Woodward Avenue Rider",
-    description: "You've named every QLine stop up Woodward.",
+    description: "Up Woodward Avenue from Congress Street to Grand Boulevard, the QLine is yours.",
   },
   "detroit-people-mover": {
     title: "Motor City Looper",
-    description: "You've looped every Detroit People Mover station.",
+    description: "Round and round the Motor City's downtown loop, you know every People Mover stop.",
   },
   "dublin-dart": {
     title: "Howth to Greystones",
-    description: "You've named every DART station along Dublin Bay.",
+    description: "Howth to Greystones along the curve of Dublin Bay: the DART is yours. Sláinte!",
   },
   "dublin-luas": {
     title: "Luas Lad",
-    description: "You've named every Luas stop on the Red and Green lines.",
+    description: "Red Line, Green Line, Spire to Sandyford: the Luas has no secrets left.",
   },
   "dublin-commuter": {
     title: "Pale Commuter",
-    description: "You've named every Dublin commuter station.",
+    description: "Out to Maynooth, Drogheda and Kildare: the Dublin commuter belt is memorized.",
   },
   "hangzhou-metro": {
     title: "West Lake Wanderer",
-    description: "You've named every Hangzhou Metro station.",
+    description: "From the shores of West Lake to the Asian Games venues, Hangzhou's metro is yours.",
   },
   "hangzhou-shaoxing-metro": {
     title: "Yellow Wine Express",
-    description: "You've named every Shaoxing Metro station.",
+    description: "Canal towns, yellow wine and Lu Xun's hometown: Shaoxing's metro is mapped.",
   },
   "hiroshima-astram-line": {
     title: "Astram Aviator",
-    description: "You've named every Astram Line station.",
+    description: "Rubber tires up the Astram valley from Hondori to Koiki-koen-mae: done!",
   },
   "hiroshima-hiroden": {
     title: "Moving Museum Motorman",
-    description: "You've named every Hiroden streetcar stop.",
+    description: "Streetcars from Hanover, Kyoto and beyond rolling past the Peace Dome: Hiroden is yours.",
   },
   "houston-metrorail": {
     title: "Space City Streetcar",
-    description: "You've named every Houston METRORail station.",
+    description: "From downtown to NRG Stadium, Houston's METRORail is cleared for liftoff.",
   },
   "houston-airport": {
     title: "Bush Intercontinental Shuttler",
-    description: "You've named every Houston airport people-mover stop.",
+    description: "Terminal to terminal at IAH without missing a gate: Skyway and Subway are yours.",
   },
   "jakarta-mrt": {
     title: "Bundaran HI Burrower",
-    description: "You've named every Jakarta MRT station.",
+    description: "Lebak Bulus to Bundaran HI beneath Sudirman: Jakarta's MRT is memorized.",
   },
   "jakarta-lrt": {
     title: "Kelapa Gading Glider",
-    description: "You've named every Jakarta LRT station.",
+    description: "Over Kelapa Gading and out to Velodrome, Jakarta's LRT is yours.",
   },
   "jakarta-jabodebek-lrt": {
     title: "Jabodebek Jetstream",
-    description: "You've named every Jabodebek LRT station.",
+    description: "Driverless across the toll-road medians to Bekasi and Cibubur: Jabodebek is done.",
   },
   "jakarta-kai-commuter": {
     title: "Soekarno-Hatta Shuttler",
-    description: "You've named every KAI Commuter airport station.",
+    description: "Manggarai to the airport on the Railink, without a single taxi ride.",
   },
   "jakarta-injourney-airports": {
     title: "Kalayang Connector",
-    description: "You've named every Soekarno-Hatta Skytrain stop.",
+    description: "Terminal 1, 2, 3: the Soekarno-Hatta Kalayang is in your pocket.",
   },
   "jakarta-ancol-dreamland": {
     title: "Ancol Dreamer",
-    description: "You've named every stop at Ancol Dreamland.",
+    description: "Beach, theme parks and seaside fun at Ancol, every stop accounted for.",
   },
   "jakarta-krl-commuterline": {
     title: "Jabodetabek Juggernaut",
-    description: "You've named every KRL Commuterline station around Jakarta.",
+    description: "Bogor, Bekasi, Tangerang, Rangkasbitung: the KRL sprawl is entirely yours.",
   },
   "jinan-metro": {
     title: "Spring City Subway",
-    description: "You've named every Jinan Metro station among the 72 springs.",
+    description: "Among the 72 springs of the Spring City, Jinan's metro bubbles up from memory.",
   },
   "jinan-byd": {
     title: "Daming Lake SkyRail",
-    description: "You've named every stop on Jinan's BYD SkyRail.",
+    description: "Above Daming Lake on BYD's SkyRail, you've seen Jinan from every angle.",
   },
   "kaohsiung-heavy-rail": {
     title: "Formosa Boulevard Dome Dweller",
-    description: "You've named every Kaohsiung MRT heavy-rail station.",
+    description: "Under the Dome of Light at Formosa Boulevard and out to the harbor: Kaohsiung MRT is yours.",
   },
   "kaohsiung-light-rail": {
     title: "Love River Circle",
-    description: "You've named every stop on Kaohsiung's Circular Light Rail.",
+    description: "Round the Love River and Pier-2 Art Center, the Circular Light Rail is complete.",
   },
   "kiwirail-great-journeys": {
     title: "Southern Alps Scenic Seeker",
-    description: "You've named every Great Journeys of New Zealand station.",
+    description: "Over the Southern Alps, through the North Island's heart: New Zealand's Great Journeys are yours.",
   },
   "kiwirail-regional": {
     title: "Te Huia Traveller",
-    description: "You've named every KiwiRail regional station.",
+    description: "Te Huia to Hamilton and the Capital Connection to Palmerston North: Aotearoa's regional rail is done.",
   },
   "korail-high-speed": {
     title: "Bullet to Busan",
-    description: "You've named every KTX and SRT station.",
+    description: "Seoul to Busan and Gwangju before your coffee cools: every KTX and SRT stop is yours.",
   },
   "korail-main-lines": {
     title: "Mugunghwa Maestro",
-    description: "You've named every station on Korail's main lines.",
+    description: "Mugunghwa and ITX from Gyeongbu to Jeolla: the slow trains of Korea know your name.",
   },
   "korail-metropolitan-branch-lines": {
     title: "Sudogwon Sweeper",
-    description: "You've named every Korail metropolitan and branch-line station.",
+    description: "Every Seoul Metropolitan Subway stop run by Korail, out to Incheon, Chuncheon and beyond.",
   },
   "korean-state-railway-trunk-lines": {
     title: "Pyongyang Trunk Tracer",
-    description: "You've named every station on the Korean State Railway trunk lines.",
+    description: "Pyongbu, Pyongui and the long run up the east coast: the northern trunk lines are mapped.",
   },
   "korean-state-railway-other-lines": {
     title: "Hermit Kingdom Branchliner",
-    description: "You've named every station on the Korean State Railway's other lines.",
+    description: "Mountain branches and mining spurs few visitors will ever see, all memorized.",
   },
   "kuala-lumpur-rapid-kl": {
     title: "Twin Towers Traveller",
-    description: "You've named every Rapid KL rail station.",
+    description: "From the Petronas Towers to Putrajaya, every Rapid KL line is yours.",
   },
   "kuala-lumpur-express-rail-link": {
     title: "KLIA Ekspres Expert",
-    description: "You've named every Express Rail Link station.",
+    description: "KL Sentral to KLIA in 28 minutes flat, and you know every stop on the way.",
   },
   "kuala-lumpur-ktm-komuter": {
     title: "Klang Valley Komuter",
-    description: "You've named every KTM Komuter station around KL.",
+    description: "Port Klang to Batu Caves, Rawang to Seremban: the KTM Komuter is mastered.",
   },
   "kyoto-subway": {
     title: "Ancient Capital Undercroft",
-    description: "You've named every Kyoto Municipal Subway station.",
+    description: "Under the temples and machiya of the old capital, the Karasuma and Tozai lines are yours.",
   },
   "kyoto-randen-eizan": {
     title: "Arashiyama Ambler",
-    description: "You've named every Randen and Eizan station.",
+    description: "From Arashiyama's bamboo to Kurama's mountain shrines, Kyoto's little railways are memorized.",
   },
   "kyoto-hieizan": {
     title: "Mount Hiei Ascender",
-    description: "You've climbed every Hieizan Railway stop.",
+    description: "Up Mount Hiei on the cable car and ropeway, temple bells ringing below.",
   },
   "liverpool-merseyrail": {
     title: "Ferry 'cross the Mersey",
-    description: "You've named every Merseyrail station.",
+    description: "Under the Mersey to the Wirral and out to Southport: Merseyrail is yours, la.",
   },
   "liverpool-city-line": {
     title: "Scouse City Liner",
-    description: "You've named every City Line station out of Lime Street.",
+    description: "Lime Street to Wigan, St Helens and Manchester: the City Line is memorized.",
   },
   "lv-monorail-loop": {
     title: "Strip Shuttle Shark",
-    description: "You've named every LVCVA monorail and Loop station on the Strip.",
+    description: "Down the Strip by monorail and under the Convention Center by Tesla: Vegas is your jackpot.",
   },
   "lv-airport": {
     title: "Harry Reid Hopper",
-    description: "You've named every Las Vegas airport people-mover stop.",
+    description: "From gate to baggage claim at Harry Reid, the trams are all yours.",
   },
   "manila-lrt": {
     title: "Taft Avenue Trooper",
-    description: "You've named every Manila LRT station.",
+    description: "Down Taft Avenue and across Aurora Boulevard, Manila's LRT is mapped.",
   },
   "manila-mrt": {
     title: "EDSA Endurance Rider",
-    description: "You've named every MRT-3 station along EDSA.",
+    description: "North Avenue to Taft through EDSA's rush hour: MRT-3 is conquered.",
   },
   "melbourne-burnley-group": {
     title: "Burnley Branchliner",
-    description: "You've named every Burnley group station.",
+    description: "Out to Glen Waverley, Lilydale and Belgrave through the Dandenong foothills: Burnley is done.",
   },
   "melbourne-caulfield-metro-tunnel": {
     title: "Metro Tunnel Trailblazer",
-    description: "You've named every Caulfield group and Metro Tunnel station.",
+    description: "Under the CBD through the brand-new Metro Tunnel and out to Pakenham and Cranbourne.",
   },
   "melbourne-clifton-hill-group": {
     title: "Clifton Hill Climber",
-    description: "You've named every Clifton Hill group station.",
+    description: "Mernda and Hurstbridge, past the river flats of Melbourne's north-east: all yours.",
   },
   "melbourne-northern-group": {
     title: "Northern Loop Navigator",
-    description: "You've named every Northern group station.",
+    description: "Craigieburn, Sunbury and Upfield through the City Loop: the Northern group is mapped.",
   },
   "melbourne-cross-city-frankston": {
     title: "Frankston to Werribee",
-    description: "You've named every cross-city group station.",
+    description: "Frankston to Williamstown and Werribee straight across the city: cross-city conquered.",
   },
   "metrorail-western-cape": {
     title: "Cape Flats Commuter",
-    description: "You've named every Metrorail Western Cape station.",
+    description: "From the Cape Flats to Simon's Town's penguins: Cape Town's Metrorail is yours.",
   },
   "metrorail-gauteng": {
     title: "Highveld Hauler",
-    description: "You've named every Metrorail Gauteng station.",
+    description: "Jozi to Tshwane across the Highveld, every Metrorail Gauteng stop is memorized.",
   },
   "metrorail-kwazulu-natal": {
     title: "Durban Line Drifter",
-    description: "You've named every Metrorail KwaZulu-Natal station.",
+    description: "Up and down the Durban coast, KZN's Metrorail is fully mapped.",
   },
   "metrorail-eastern-cape": {
     title: "Nelson Mandela Bay Rider",
-    description: "You've named every Metrorail Eastern Cape station.",
+    description: "From Gqeberha to East London, Eastern Cape commuter rail has no secrets left.",
   },
   "moscow-metro": {
     title: "Komsomolskaya Chandelier Chaser",
-    description: "You've named every Moscow Metro station.",
+    description: "Komsomolskaya's chandeliers, Mayakovskaya's mosaics, Ploshchad Revolyutsii's lucky dog: all yours.",
   },
   "moscow-central-circle": {
     title: "Moscow Ring Racer",
-    description: "You've named every station on the Moscow Central Circle.",
+    description: "Round the Moscow Central Circle with a free transfer at every turn: lap complete.",
   },
   "moscow-central-diameters": {
     title: "Diameter Dasher",
-    description: "You've named every Moscow Central Diameters station.",
+    description: "Through-running from one end of the Moscow region to the other: every Diameter is yours.",
   },
   "nagoya-municipal-subway": {
     title: "Meijo Loop Master",
-    description: "You've named every Nagoya Municipal Subway station.",
+    description: "Round the Meijo loop and up the Higashiyama line: Nagoya's subway is memorized.",
   },
   "nagoya-aonami-line": {
     title: "SCMaglev Museum Goer",
-    description: "You've named every Aonami Line station.",
+    description: "Out to the SCMaglev and Railway Park at Kinjo-futo: the Aonami Line is done.",
   },
   "nagoya-linimo": {
     title: "Linimo Levitator",
-    description: "You've floated along every Linimo maglev station.",
+    description: "Floating over Nagakute on Japan's only urban maglev, every stop is yours.",
   },
   "nanjing-metro": {
     title: "Purple Mountain Plunger",
-    description: "You've named every Nanjing Metro station.",
+    description: "From Purple Mountain to the Qinhuai River, the old southern capital's metro is mapped.",
   },
   "nanjing-tram": {
     title: "Hexi Tram Tamer",
-    description: "You've named every Nanjing Tram stop.",
+    description: "Through Hexi and Qilin on rooftop-charged trams, Nanjing's tramways are yours.",
   },
   "osaka-kobe-metro": {
     title: "Midosuji Mainliner",
-    description: "You've named every Osaka Metro station.",
+    description: "Midosuji under Umeda and Namba and everything in between: Osaka Metro is yours. Meccha sugoi!",
   },
   "osaka-kobe-kita-osaka-kyuko": {
     title: "Senri Chuo Shuttler",
-    description: "You've named every Kita-Osaka Kyuko station.",
+    description: "Up past Senri-Chuo to Minoh-kayano, the Kita-Osaka Kyuko is memorized.",
   },
   "osaka-kobe-monorail": {
     title: "Expo City Orbiter",
-    description: "You've named every Osaka Monorail station.",
+    description: "Gliding over Expo '70 Commemorative Park and the Tower of the Sun: Osaka Monorail is done.",
   },
   "osaka-kobe-hankai-tramway": {
     title: "Chin-chin Densha Fan",
-    description: "You've named every Hankai Tramway stop.",
+    description: "Chin-chin! Osaka's last streetcar line clangs through your memory.",
   },
   "osaka-kobe-kobe-municipal-subway": {
     title: "Sannomiya Subterranean",
-    description: "You've named every Kobe Municipal Subway station.",
+    description: "From Sannomiya to Seishin-chuo and out along the Kaigan line: Kobe's subway is yours.",
   },
   "osaka-kobe-kobe-new-transit": {
     title: "Port Island Liner",
-    description: "You've named every Port Liner and Rokko Liner station.",
+    description: "Out to Port Island and Rokko Island on the driverless liners, all memorized.",
   },
   "phoenix-valley-metro": {
     title: "Valley of the Sun Rider",
-    description: "You've named every Valley Metro Rail station.",
+    description: "Tempe to downtown and up 19th Avenue under the desert sun: Valley Metro is yours.",
   },
   "phoenix-sky-train": {
     title: "Sky Harbor Skybound",
-    description: "You've named every PHX Sky Train station.",
+    description: "From the 44th Street station to Terminal 4 in a breeze: the PHX Sky Train is done.",
   },
   "pittsburgh-light-rail": {
     title: "Steel City T-Rider",
-    description: "You've named every Pittsburgh light rail station.",
+    description: "Red Line, Blue Line, and a dive under the Monongahela: the T is yours.",
   },
   "pittsburgh-inclines": {
     title: "Mount Washington Incline Fan",
@@ -1842,287 +1846,287 @@ export const ACHIEVEMENTS: Record<string, AchievementDefinition> = {
   },
   "portland-max-light-rail": {
     title: "MAX Maxed Out",
-    description: "You've named every MAX Light Rail station.",
+    description: "Red, Blue, Green, Yellow and Orange, all the way to Hillsboro and Gresham: MAX maxed out.",
   },
   "portland-streetcar": {
     title: "Pearl District Streetcar",
-    description: "You've named every Portland Streetcar stop.",
+    description: "Through the Pearl and over the Tilikum Crossing, Portland Streetcar is memorized.",
   },
   "portland-westside-express-service": {
     title: "WES Weekday Warrior",
-    description: "You've named every Westside Express Service station.",
+    description: "Beaverton to Wilsonville on weekday peaks only, and you still nailed it.",
   },
   "qingdao-metro": {
     title: "Tsingtao Tunneler",
-    description: "You've named every Qingdao Metro station.",
+    description: "Under the beer-brewing seaside city, Qingdao's metro is poured and served.",
   },
   "qingdao-tram": {
     title: "Chengyang Tram Tracker",
-    description: "You've named every Qingdao Tram stop.",
+    description: "Out in Chengyang on Qingdao's tram, every stop accounted for.",
   },
   "recife-metro": {
     title: "Capibaribe Commuter",
-    description: "You've named every Metrô do Recife station.",
+    description: "Over the Capibaribe and out to Jaboatão, Recife's metro is mapped.",
   },
   "recife-vlt": {
     title: "Pernambuco VLT Voyager",
-    description: "You've named every Recife VLT station.",
+    description: "Diesel VLTs across Pernambuco's capital region: you've got them all.",
   },
   "rome-metro": {
     title: "Colosseo Catacomber",
-    description: "You've named every station of the Metropolitana di Roma.",
+    description: "Lines A, B and C beneath two thousand years of history: tutte le strade portano a te.",
   },
   "rome-ferrovie-concesse": {
     title: "Roma–Lido Beachgoer",
-    description: "You've named every station on Rome's concession railways.",
+    description: "To the Lido beaches, out past Ostia Antica and up to Viterbo: Rome's other railways are yours.",
   },
   "russian-railways-high-speed": {
     title: "Sapsan Speedster",
-    description: "You've named every Russian Railways high-speed and premium station.",
+    description: "Sapsan from Moscow to Petersburg, Lastochka to Nizhny: you've done the fast lanes.",
   },
   "russian-railways-long-distance": {
     title: "Eleven Time Zones",
-    description: "You've named every Russian Railways long-distance station.",
+    description: "Six days on the Trans-Siberian and every samovar stop memorized.",
   },
   "santo-domingo-metro": {
     title: "Duarte Line Dominican",
-    description: "You've named every Metro de Santo Domingo station.",
+    description: "Down Avenida Máximo Gómez and across to the east: Santo Domingo's metro is yours.",
   },
   "santo-domingo-teleferico": {
     title: "Ozama Skyway Rider",
-    description: "You've named every Teleférico de Santo Domingo station.",
+    description: "High above the Ozama and Isabela rivers, every gondola station is memorized.",
   },
   "sao-paulo-metro": {
     title: "Paulista Avenue Plunger",
-    description: "You've named every Metrô de São Paulo station.",
+    description: "From Sé to Paulista to Morumbi under South America's biggest city: Metrô SP is yours.",
   },
   "sao-paulo-cptm": {
     title: "CPTM Commuter King",
-    description: "You've named every CPTM station across Greater São Paulo.",
+    description: "Out to Jundiaí, Mogi das Cruzes and the Serra do Mar: CPTM's sprawl is conquered.",
   },
   "sapporo-municipal-subway": {
     title: "Rubber-Tyred Rider",
-    description: "You've named every Sapporo Municipal Subway station.",
+    description: "Rubber tires gripping the snowy north: all three of Sapporo's subway lines are yours.",
   },
   "sapporo-streetcar": {
     title: "Susukino Streetcar Loop",
-    description: "You've named every Sapporo Streetcar stop.",
+    description: "Round the loop past Susukino and Mount Moiwa's ropeway, Sapporo's streetcar is done.",
   },
   "seattle-sound-transit": {
     title: "Emerald City Linker",
-    description: "You've named every Sound Transit rail station.",
+    description: "Link from Lynnwood to Angle Lake, Sounder down the Sound: the Emerald City's rails are yours.",
   },
   "seattle-kcm": {
     title: "Seattle Streetcar Spotter",
-    description: "You've named every King County Metro streetcar stop.",
+    description: "South Lake Union and First Hill on the streetcar, every stop memorized.",
   },
   "seattle-airport": {
     title: "SeaTac Satellite Shuttler",
-    description: "You've named every Seattle airport train station.",
+    description: "Satellite to satellite under SEA's runways, the airport train is in the bag.",
   },
   "shanghai-metro": {
     title: "Bund Below Ground",
-    description: "You've named every Shanghai Metro station, the world's longest metro.",
+    description: "The world's longest metro, from Hongqiao to Pudong and every Bund-side station between.",
   },
   "shanghai-suburban-railway": {
     title: "Jinshan Railway Rover",
-    description: "You've named every Shanghai suburban railway station.",
+    description: "Jinshan, Airport Link and Line 16's express runs: Shanghai's outskirts are yours.",
   },
   "shanghai-songjiang-tram": {
     title: "Songjiang Tram Trekker",
-    description: "You've named every Songjiang Tram stop.",
+    description: "Through Songjiang University Town and out to the old town, all six lines memorized.",
   },
   "shanghai-airport-authority": {
     title: "Pudong APM Pilot",
-    description: "You've named every Shanghai airport people-mover stop.",
+    description: "Terminal to satellite at Pudong without breaking stride: the APM is done.",
   },
   "shenyang-metro": {
     title: "Mukden Metro Marshal",
-    description: "You've named every Shenyang Metro station.",
+    description: "Under the old Mukden palaces, Shenyang's metro is fully charted.",
   },
   "shenyang-modern-tram": {
     title: "Hunnan Tram Herder",
-    description: "You've named every Shenyang Modern Tram stop.",
+    description: "Across Hunnan's wide boulevards, every Shenyang tram stop is yours.",
   },
   "shinkansen-jr-central-west": {
     title: "Tokaido Trailblazer",
-    description: "You've named every JR Central and JR West Shinkansen station.",
+    description: "Tokaido, Sanyo and Hokuriku: Tokyo to Hakata with Fuji out the window, all memorized.",
   },
   "shinkansen-jr-kyushu": {
     title: "Kyushu Kamome Catcher",
-    description: "You've named every JR Kyushu Shinkansen station.",
+    description: "Kagoshima to Hakata and the Nishi-Kyushu Kamome to Nagasaki: Kyushu at bullet speed.",
   },
   "shinkansen-jr-east": {
     title: "Tohoku Thunderbolt",
-    description: "You've named every JR East Shinkansen station.",
+    description: "Tohoku, Joetsu, Akita, Yamagata and Hokuriku: JR East's snowy bullet trains are yours.",
   },
   "shinkansen-jr-hokkaido": {
     title: "Hokkaido Hayabusa",
-    description: "You've named every JR Hokkaido Shinkansen station.",
+    description: "Under the Tsugaru Strait to Shin-Hakodate-Hokuto: the northernmost Shinkansen is done.",
   },
   "singapore-mrt": {
     title: "Lion City Line Lord",
-    description: "You've named every Singapore MRT station.",
+    description: "From Jurong to Changi, Woodlands to Marina Bay: the Lion City's MRT is mastered. Shiok!",
   },
   "singapore-lrt": {
     title: "Punggol Loop Pro",
-    description: "You've named every Singapore LRT station.",
+    description: "Round the Bukit Panjang, Sengkang and Punggol loops, every LRT stop is yours.",
   },
   "singapore-sentosa": {
     title: "Sentosa Island Hopper",
-    description: "You've named every Sentosa Express station.",
+    description: "Off to the island of fun: every Sentosa Express station memorized.",
   },
   "singapore-changi-airport-skytrain": {
     title: "Jewel of Changi",
-    description: "You've named every Changi Airport Skytrain stop.",
+    description: "Terminal 1 to 3 past the Jewel's rain vortex: the Changi Skytrain is yours.",
   },
   "slc-trax": {
     title: "Wasatch Front TRAXer",
-    description: "You've named every TRAX station in Salt Lake City.",
+    description: "From the Wasatch Front to the airport, every TRAX station in Salt Lake is yours.",
   },
   "slc-s-line": {
     title: "Sugar House Streetcar",
-    description: "You've named every S Line stop.",
+    description: "Down the Sugar House streetcar line, short and sweet and memorized.",
   },
   "slc-frontrunner": {
     title: "Great Salt Lake Front Runner",
-    description: "You've named every FrontRunner station.",
+    description: "Ogden to Provo along the Great Salt Lake: FrontRunner has no secrets left.",
   },
   "sncf-tgv-inoui": {
     title: "inOui Insider",
-    description: "You've named every TGV inOui station.",
+    description: "Lyon, Bordeaux, Strasbourg and Marseille at 320 km/h: TGV inOui is yours. Magnifique!",
   },
   "sncf-ouigo-intercites": {
     title: "Low-Cost Lyonnais",
-    description: "You've named every Ouigo and Intercités station.",
+    description: "Low-cost Ouigos and leisurely Intercités: every corner of France by rail, memorized.",
   },
   "sncf-international": {
     title: "Eurostar Envoy",
-    description: "You've named every SNCF international station.",
+    description: "Brussels, London, Barcelona, Milan: SNCF's cross-border trains are all yours.",
   },
   "stl-metrolink": {
     title: "Gateway Arch Glider",
-    description: "You've named every St. Louis MetroLink station.",
+    description: "Under the Gateway Arch and across the Mississippi to Illinois: MetroLink is yours.",
   },
   "stl-loop-trolley": {
     title: "Delmar Loop Trolley Fan",
-    description: "You've named every Loop Trolley stop.",
+    description: "Up and down Delmar Boulevard on the Loop Trolley, every stop memorized.",
   },
   "suzhou-rail-transit": {
     title: "Venice of the East Explorer",
-    description: "You've named every Suzhou Rail Transit station.",
+    description: "Among the canals and classical gardens of Suzhou, every metro station is yours.",
   },
   "suzhou-tram": {
     title: "Suzhou New District Trammer",
-    description: "You've named every Suzhou New District Tram stop.",
+    description: "Through Suzhou New District on rails, the tram lines are fully mapped.",
   },
   "sydney-trains": {
     title: "Central Station Sovereign",
-    description: "You've named every Sydney Trains station.",
+    description: "Central to Cronulla, Emu Plains to Hornsby, over the Harbour Bridge: Sydney Trains is yours.",
   },
   "sydney-metro": {
     title: "Metro Northwest Navigator",
-    description: "You've named every Sydney Metro station.",
+    description: "Driverless from Tallawong under the harbour to Sydenham: Sydney Metro is done.",
   },
   "sydney-light-rail": {
     title: "George Street Glider",
-    description: "You've named every Sydney Light Rail stop.",
+    description: "Down George Street, out to Randwick and the Inner West: every light rail stop is yours.",
   },
   "taipei-metro": {
     title: "Taipei 101 Tunneler",
-    description: "You've named every Taipei Metro station.",
+    description: "From Taipei 101 to Tamsui's sunset, the whole Taipei MRT is memorized.",
   },
   "taipei-new-taipei-metro": {
     title: "Danhai Light Rail Drifter",
-    description: "You've named every New Taipei Metro station.",
+    description: "Danhai and Ankeng light rail plus the Circular Line: New Taipei is yours.",
   },
   "taipei-taoyuan-metro": {
     title: "Taoyuan Airport Expressor",
-    description: "You've named every Taoyuan Metro station.",
+    description: "Taipei Main Station to the airport and beyond to Zhongli: Taoyuan Metro is done.",
   },
   "tokyo-metro": {
     title: "Ginza Line Gentleman",
-    description: "You've named every Tokyo Metro station.",
+    description: "Ginza, Marunouchi, Hibiya and six more: Tokyo Metro's tangle is untangled.",
   },
   "tokyo-toei-subway": {
     title: "Oedo Loop Legend",
-    description: "You've named every Toei Subway station.",
+    description: "Round the Oedo loop and through Asakusa's lanterns: Toei is yours.",
   },
   "tra-main-lines": {
     title: "West Coast Mainliner",
-    description: "You've named every station on Taiwan Railway's main lines.",
+    description: "Western, Eastern and Southern trunk lines all round Taiwan, every station mapped.",
   },
   "tra-branch-lines": {
     title: "Pingxi Lantern Seeker",
-    description: "You've named every station on Taiwan Railway's branch lines.",
+    description: "Pingxi's sky lanterns, Jiji's banana trees and Neiwan's old streets: TRA's branches are yours.",
   },
   "twincities-metropolitan-council": {
     title: "Land of 10,000 Lakes Liner",
-    description: "You've named every Metro Transit rail station in the Twin Cities.",
+    description: "Blue Line to the Mall of America, Green Line to St. Paul: Twin Cities rail is mastered.",
   },
   "twincities-airport": {
     title: "MSP Tram Tracker",
-    description: "You've named every MSP airport tram stop.",
+    description: "Tram to tram at MSP without missing a flight, all memorized.",
   },
   "vancouver-skytrain": {
     title: "Expo Line Expert",
-    description: "You've named every SkyTrain station in Metro Vancouver.",
+    description: "Expo, Millennium and Canada Line from Waterfront to YVR: SkyTrain is yours, eh!",
   },
   "vancouver-wce": {
     title: "Fraser Valley Express",
-    description: "You've named every West Coast Express station.",
+    description: "Waterfront to Mission along the Fraser on a weekday peak: West Coast Express is done.",
   },
   "viarail-long-distance": {
     title: "The Canadian Crossing",
-    description: "You've named every VIA Rail long-distance station.",
+    description: "Toronto to Vancouver on The Canadian, Montreal to Halifax on The Ocean: Canada coast to coast.",
   },
   "viarail-corridor": {
     title: "Corridor Commander",
-    description: "You've named every Québec City–Windsor Corridor station.",
+    description: "Québec City to Windsor through Montreal, Ottawa and Toronto: the Corridor is commanded.",
   },
   "viarail-regional-remote-services": {
     title: "Bush Train Brave",
-    description: "You've named every VIA Rail regional and remote station.",
+    description: "Flag-stop trains through the boreal bush to Churchill and Jonquière: true wilderness rail.",
   },
   "wellington-metlink-trains": {
     title: "Windy Welly Wayfarer",
-    description: "You've named every Metlink train station.",
+    description: "Johnsonville to the Wairarapa through Wellington's wind: every Metlink station is yours.",
   },
   "wellington-cable-car": {
     title: "Kelburn Cable Climber",
-    description: "You've ridden every Wellington Cable Car stop.",
+    description: "Up from Lambton Quay to the Botanic Garden: the little red cable car is all yours.",
   },
   "wuhan-metro": {
     title: "Yellow Crane Tunneler",
-    description: "You've named every Wuhan Metro station.",
+    description: "Beneath the Yangtze and past the Yellow Crane Tower, Wuhan's metro is mapped.",
   },
   "wuhan-trams": {
     title: "Optics Valley Trammer",
-    description: "You've named every Wuhan tram stop.",
+    description: "Through the Optics Valley and Chegu, every Wuhan tram stop is yours.",
   },
   "xian-metro": {
     title: "Terracotta Tunneler",
-    description: "You've named every Xi'an Metro station.",
+    description: "From the old city walls to the Terracotta Army, Xi'an's metro is unearthed.",
   },
   "xian-byd": {
     title: "Lintong SkyRail",
-    description: "You've named every stop on Xi'an's BYD SkyRail.",
+    description: "Out to Lintong and Huaqing Palace on BYD's SkyRail, every stop memorized.",
   },
   "rome": {
     title: "Eternal City Explorer",
-    description: "You've named every Rome metro and concession railway station.",
+    description: "From the Colosseum to the Lido di Ostia, all roads, rails and metros of Rome lead to you.",
   },
   "montreal-metro": {
     title: "Rubber-Tire Réseau",
-    description: "You've named every Montreal Metro station.",
+    description: "Green, Orange, Yellow and Blue on rubber tires, from Angrignon to Montmorency: c'est à toi!",
   },
   "montreal-exo": {
     title: "Exo Expedition",
-    description: "You've named every exo commuter station around Montreal.",
+    description: "Saint-Jérôme to Mont-Saint-Hilaire and every exo stop in between: Montreal's suburbs are yours.",
   },
   "montreal-rem": {
     title: "REM Rapid Rider",
-    description: "You've named every REM station.",
+    description: "Driverless over the Champlain Bridge and out to Brossard: the REM is fully memorized.",
   },
 }
 

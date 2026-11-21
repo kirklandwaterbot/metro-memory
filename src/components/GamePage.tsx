@@ -12,6 +12,7 @@ import Input from '@/components/Input'
 import IntroModal from '@/components/IntroModal'
 import LineBadge from '@/components/LineBadge'
 import MenuComponent from '@/components/Menu'
+import dynamic from 'next/dynamic'
 import MiniCityLinksPanel from '@/components/MiniCityLinksPanel'
 import CustomGameModal from '@/components/CustomGameModal'
 import CustomLayoutsPanel from '@/components/CustomLayoutsPanel'
@@ -127,6 +128,11 @@ import {
     useState,
 } from 'react'
 import 'react-circular-progressbar/dist/styles.css'
+
+// Loaded on demand so the home page's achievements list doesn't bloat the game bundle.
+const EmbeddedAchievementsList = dynamic(() => import('@/components/SearcheableCitiesList'), {
+  ssr: false,
+})
 
 function SidebarArrowUpIcon(props: ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -1660,6 +1666,121 @@ const shouldRestoreMainInputFocus = (inputElement: HTMLInputElement | null) => {
   return !isTextEntryElement(activeElement)
 }
 
+type LngLatBox = [number, number, number, number]
+
+const toLngLatBox = (bounds: unknown): LngLatBox | null => {
+  if (!Array.isArray(bounds)) return null
+  const flat = (bounds as unknown[]).flat(2).map(Number)
+  if (flat.length !== 4 || !flat.every((n) => Number.isFinite(n))) return null
+  const [a, b, c, d] = flat
+  return [Math.min(a, c), Math.min(b, d), Math.max(a, c), Math.max(b, d)]
+}
+
+const mercatorY = (lat: number) => {
+  const clamped = Math.max(-85, Math.min(85, lat))
+  return Math.log(Math.tan(Math.PI / 4 + (clamped * Math.PI) / 360))
+}
+
+/**
+ * Some configs set a minZoom (and maxBounds) sized for one city, which on
+ * country-wide networks (Shinkansen, VIA Rail, …) stops you from zooming out
+ * far enough to see the whole network. Loosen both so it always fits on screen.
+ */
+const relaxZoomLimitsToFitNetwork = (
+  options: Record<string, any>,
+  dataBounds: LngLatBox | undefined,
+  container: HTMLElement | null,
+) => {
+  const box = dataBounds ?? toLngLatBox(options.bounds)
+  if (!box) return
+  const width = Math.max(container?.clientWidth ?? 0, 320)
+  const height = Math.max(container?.clientHeight ?? 0, 320)
+  const lngSpan = Math.max(box[2] - box[0], 1e-6)
+  const ySpan = Math.max(mercatorY(box[3]) - mercatorY(box[1]), 1e-6)
+  const fitZoom = Math.min(
+    Math.log2((width * 360) / (512 * lngSpan)),
+    Math.log2((height * 2 * Math.PI) / (512 * ySpan)),
+  )
+  const loosestZoom = Math.max(0, Math.floor((fitZoom - 1) * 2) / 2)
+  if (typeof options.minZoom === 'number' && options.minZoom > loosestZoom) {
+    options.minZoom = loosestZoom
+  }
+
+  const maxBox = toLngLatBox(options.maxBounds)
+  if (maxBox) {
+    const padLng = (box[2] - box[0]) * 0.75
+    const padLat = (box[3] - box[1]) * 0.75
+    options.maxBounds = [
+      [
+        Math.max(-180, Math.min(maxBox[0], box[0] - padLng)),
+        Math.max(-85, Math.min(maxBox[1], box[1] - padLat)),
+      ],
+      [
+        Math.min(180, Math.max(maxBox[2], box[2] + padLng)),
+        Math.min(85, Math.max(maxBox[3], box[3] + padLat)),
+      ],
+    ]
+  }
+}
+
+/**
+ * Route data built from OpenStreetMap arrives as thousands of tiny track
+ * pieces per line. When zoomed far out, the map drops pieces shorter than
+ * about a pixel, and runs of them leave visible gaps. Chaining pieces that
+ * share an endpoint into long lines keeps the routes whole at every zoom.
+ */
+const mergeRoutePieces = <T extends { type: string; features: any[] }>(
+  collection: T,
+): T => {
+  const keyOf = (point: number[]) => `${point[0]},${point[1]}`
+  let changed = false
+  const features = collection.features.map((feature) => {
+    const geometry = feature?.geometry
+    if (!geometry || geometry.type !== 'MultiLineString') return feature
+    const parts: number[][][] = geometry.coordinates.filter(
+      (part: number[][]) => Array.isArray(part) && part.length >= 2,
+    )
+    if (parts.length < 2) return feature
+
+    const byEndpoint = new Map<string, number[]>()
+    parts.forEach((part, index) => {
+      for (const key of [keyOf(part[0]), keyOf(part[part.length - 1])]) {
+        const list = byEndpoint.get(key)
+        if (list) list.push(index)
+        else byEndpoint.set(key, [index])
+      }
+    })
+    const used = new Array(parts.length).fill(false)
+    const takeNext = (point: number[]) => {
+      for (const index of byEndpoint.get(keyOf(point)) ?? []) {
+        if (used[index]) continue
+        used[index] = true
+        const part = parts[index]
+        return keyOf(part[0]) === keyOf(point) ? part : [...part].reverse()
+      }
+      return null
+    }
+
+    const merged: number[][][] = []
+    for (let i = 0; i < parts.length; i += 1) {
+      if (used[i]) continue
+      used[i] = true
+      let line = parts[i].slice()
+      for (let next = takeNext(line[line.length - 1]); next; next = takeNext(line[line.length - 1])) {
+        line = line.concat(next.slice(1))
+      }
+      for (let prev = takeNext(line[0]); prev; prev = takeNext(line[0])) {
+        line = prev.slice().reverse().concat(line.slice(1))
+      }
+      merged.push(line)
+    }
+    if (merged.length === geometry.coordinates.length) return feature
+    changed = true
+    return { ...feature, geometry: { ...geometry, coordinates: merged } }
+  })
+  return changed ? { ...collection, features } : collection
+}
+
 export default function GamePage({
   fc,
   routes,
@@ -1767,6 +1888,9 @@ function GamePageContent({
   const perfectStartInitializedRef = useRef(false)
   const neverRepeatRef = useRef(true)
   const typoFreeRef = useRef(true)
+  const hotStreakRef = useRef(0)
+  const wrongStreakRef = useRef(0)
+  const alreadyStreakRef = useRef(0)
   const lineMasterSyncRef = useRef(false)
 
   // Hydrate globally earned achievements so one-offs (e.g., comeback-kid) never re-award across cities
@@ -2372,14 +2496,18 @@ function GamePageContent({
     [amapFeatureCacheKey, featureCollection, usingAmapMapStyle],
   )
 
+  const mergedDisplayRoutes = useMemo(
+    () => (displayRoutes ? mergeRoutePieces(displayRoutes) : displayRoutes),
+    [displayRoutes],
+  )
   const renderDisplayRoutes = useMemo(
     () =>
-      displayRoutes
+      mergedDisplayRoutes
         ? usingAmapMapStyle
-          ? transformFeatureCollectionForAmapCached(amapRouteCacheKey, displayRoutes)
-          : displayRoutes
-        : displayRoutes,
-    [amapRouteCacheKey, displayRoutes, usingAmapMapStyle],
+          ? transformFeatureCollectionForAmapCached(amapRouteCacheKey, mergedDisplayRoutes)
+          : mergedDisplayRoutes
+        : mergedDisplayRoutes,
+    [amapRouteCacheKey, mergedDisplayRoutes, usingAmapMapStyle],
   )
 
   const renderCullingEnabled = Boolean(
@@ -2530,6 +2658,7 @@ function GamePageContent({
   const [mapCoordsToast, setMapCoordsToast] = useState<string | null>(null)
   const [settingsModalOpen, setSettingsModalOpen] = useState(false)
   const [cityStatsOpen, setCityStatsOpen] = useState(false)
+  const [achievementsPanelOpen, setAchievementsPanelOpen] = useState(false)
   const [missedGuessInputsOpen, setMissedGuessInputsOpen] = useState(false)
   const [accountModalOpen, setAccountModalOpen] = useState(false)
   const [privacyModalOpen, setPrivacyModalOpen] = useState(false)
@@ -2939,6 +3068,15 @@ function GamePageContent({
       }
     }
   }, [])
+
+  useEffect(() => {
+    if (!achievementsPanelOpen) return
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setAchievementsPanelOpen(false)
+    }
+    window.addEventListener('keydown', handleEscape)
+    return () => window.removeEventListener('keydown', handleEscape)
+  }, [achievementsPanelOpen])
 
   const openSettingsModal = useCallback(() => setSettingsModalOpen(true), [])
   const closeSettingsModal = useCallback(() => setSettingsModalOpen(false), [])
@@ -4257,9 +4395,6 @@ function GamePageContent({
         if (set.size !== initialSize) {
           window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(set)))
         }
-        if (set.size >= 5) {
-          awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
-        }
       } catch {
         // ignore storage errors
       }
@@ -4303,9 +4438,6 @@ function GamePageContent({
       )
       const merged = new Set([...stored, ...earnedLineMasters])
       window.localStorage.setItem('mm-line-master-keys', JSON.stringify(Array.from(merged)))
-      if (merged.size >= 5) {
-        awardAchievement('line-finisher', 'Line Finisher', 'Complete 5 different lines.')
-      }
     } catch {
       // ignore
     }
@@ -4360,9 +4492,6 @@ function GamePageContent({
       const monthSet = new Set(entries)
       monthSet.add(monthKey)
       window.localStorage.setItem('mm-play-months', JSON.stringify(Array.from(monthSet)))
-      if (monthSet.size >= 3) {
-        awardAchievement('monthly-commuter', 'Monthly Commuter', 'Play in 3 different months.')
-      }
     } catch {
       // ignore
     }
@@ -4371,6 +4500,12 @@ function GamePageContent({
   const handleGuessResult = useCallback(
     (result: { type: 'correct' | 'already' | 'wrong'; addedIds?: number[] }) => {
       if (result.type === 'wrong') {
+        hotStreakRef.current = 0
+        alreadyStreakRef.current = 0
+        wrongStreakRef.current += 1
+        if (wrongStreakRef.current >= 10) {
+          awardAchievement('butterfingers', 'Butterfingers', 'Make 10 wrong guesses in a row.')
+        }
         setMistakes((m) => m + 1)
         if (perfectStartEligibleRef.current) {
           perfectStartEligibleRef.current = false
@@ -4381,6 +4516,29 @@ function GamePageContent({
           zoomToFeatures(result.addedIds)
         }
         registerPlayDay()
+        wrongStreakRef.current = 0
+        alreadyStreakRef.current = 0
+        hotStreakRef.current += 1
+        if (hotStreakRef.current >= 50) {
+          awardAchievement('hot-streak', 'Hot Streak', 'Make 50 correct guesses in a row.')
+        }
+        const now = new Date()
+        const hour = now.getHours()
+        if (hour < 4) {
+          awardAchievement('night-owl', 'Night Owl', 'Find a station between midnight and 4 a.m.')
+        } else if (hour >= 5 && hour < 7) {
+          awardAchievement('early-bird', 'Early Bird', 'Find a station between 5 and 7 a.m.')
+        }
+        if (now.getDay() === 5 && now.getDate() === 13) {
+          awardAchievement('unlucky-line', 'Unlucky Line', 'Find a station on a Friday the 13th.')
+        }
+        if (now.getMonth() === 0 && now.getDate() === 1) {
+          awardAchievement(
+            'first-train-of-the-year',
+            'First Train of the Year',
+            "Find a station on New Year's Day.",
+          )
+        }
         if (perfectStartEligibleRef.current) {
           perfectStartCountRef.current += 1
           if (perfectStartCountRef.current >= 25) {
@@ -4395,6 +4553,12 @@ function GamePageContent({
       }
       if (result.type === 'already') {
         neverRepeatRef.current = false
+        hotStreakRef.current = 0
+        wrongStreakRef.current = 0
+        alreadyStreakRef.current += 1
+        if (alreadyStreakRef.current >= 5) {
+          awardAchievement('deja-vu', 'Déjà Vu', 'Guess an already-found station 5 times in a row.')
+        }
         if (perfectStartEligibleRef.current) {
           perfectStartEligibleRef.current = false
         }
@@ -4457,11 +4621,8 @@ function GamePageContent({
     } catch {
       // ignore
     }
-    if (nextGlobal >= 1000) {
-      awardAchievement('station-collector', 'Station Collector', 'Find 1,000 stations across all cities.')
-    }
-    if (nextGlobal >= 10000) {
-      awardAchievement('marathoner', 'Marathoner', 'Find 10,000 stations across all cities.')
+    if (nextGlobal >= 100000) {
+      awardAchievement('marathoner', 'Marathoner', 'Find 100,000 stations across all cities.')
     }
   }, [CITY_NAME, awardAchievement, foundStationKeys.size, isMiniCity])
 
@@ -4477,6 +4638,12 @@ function GamePageContent({
     if (Math.abs(ratio - 0.618) <= 0.003) {
       awardAchievement('golden-ratio', 'Golden Ratio', 'Reach 61.8% completion in any city.')
     }
+    if (Math.abs(ratio - 0.314) <= 0.003) {
+      awardAchievement('slice-of-pi', 'Slice of Pi', 'Reach 31.4% completion in any city.')
+    }
+    if (totalUniqueStations >= 2 && foundStationKeys.size * 2 === totalUniqueStations) {
+      awardAchievement('halfway-there', 'Halfway There', 'Reach exactly 50% completion in any city.')
+    }
   }, [awardAchievement, foundStationKeys.size, totalUniqueStations])
 
   const completionProgressRef = useRef(foundProportion)
@@ -4490,9 +4657,7 @@ function GamePageContent({
     if (reachedCompletion) {
       const isFlawless = mistakes === 0
       const isAlmostFlawless = mistakes <= 2
-      if (isFlawless) {
-        awardAchievement('flawless', 'Flawless Route', 'Completed a city with zero mistakes.')
-      } else if (isAlmostFlawless) {
+      if (isAlmostFlawless) {
         awardAchievement('almost-flawless', 'Almost Flawless', 'Completed a city with two or fewer mistakes.')
       }
       if (comebackArmedRef.current && !comebackTriggeredRef.current) {
@@ -4511,12 +4676,36 @@ function GamePageContent({
       if (totalUniqueStations > 0 && totalUniqueStations < 20) {
         awardAchievement('underdog', 'Underdog', 'Complete a city with fewer than 20 stations.')
       }
+      if (typeof window !== 'undefined') {
+        const addToStoredSet = (key: string, value: string) => {
+          try {
+            const raw = window.localStorage.getItem(key)
+            const parsed = raw ? JSON.parse(raw) : []
+            const set = new Set(
+              Array.isArray(parsed) ? parsed.filter((v) => typeof v === 'string') : [],
+            )
+            set.add(value)
+            window.localStorage.setItem(key, JSON.stringify(Array.from(set)))
+            return set.size
+          } catch {
+            return 0
+          }
+        }
+        if (isFlawless && addToStoredSet('mm-flawless-cities', CITY_NAME) >= 5) {
+          awardAchievement(
+            'spotless-record',
+            'Spotless Record',
+            'Complete 5 different cities with zero mistakes.',
+          )
+        }
+      }
 
       // Main-city-only global completion tracking
       if (typeof window !== 'undefined' && !isMiniCity) {
         const today = new Date().toISOString().slice(0, 10)
         const continent = (cityPath?.split('/')?.[0] ?? 'Global')
-        let completions: { city: string; continent: string; date: string }[] = []
+        const country = cityPath?.split('/')?.[1]
+        let completions: { city: string; continent: string; date: string; country?: string }[] = []
         try {
           const raw = window.localStorage.getItem('mm-completions')
           if (raw) {
@@ -4532,57 +4721,23 @@ function GamePageContent({
             }
           }
         } catch {}
-        completions.push({ city: CITY_NAME, continent, date: today })
+        completions.push({ city: CITY_NAME, continent, date: today, ...(country ? { country } : {}) })
         window.localStorage.setItem('mm-completions', JSON.stringify(completions))
 
         const uniqueCities = new Set(completions.map((c) => c.city))
-        const uniqueContinents = new Set(completions.map((c) => c.continent))
         const completedToday = completions.filter((c) => c.date === today)
         const hasOtherContinent = completedToday.some((c) => c.city !== CITY_NAME && c.continent !== continent)
         if (hasOtherContinent) {
           awardAchievement('twin-city', 'Twin City', 'Completed two cities from different continents on the same day.')
         }
-        if (uniqueContinents.size >= 6) {
-          awardAchievement('globe-trotter', 'Globe Trotter', 'Complete cities on 6 different continents.')
-        }
-        if (uniqueContinents.size >= 3) {
-          awardAchievement('all-rounder', 'All Rounder', 'Complete cities on 3 different continents.')
+        if (uniqueCities.size >= 100) {
+          awardAchievement('explorer-100', 'Centurion Explorer', 'Complete 100 different cities.')
         }
         if (uniqueCities.size >= 50) {
           awardAchievement('explorer-50', 'Ultimate Explorer', 'Completed 50 different cities.')
-        } else if (uniqueCities.size >= 25) {
-          awardAchievement('explorer-25', 'Seasoned Explorer', 'Completed 25 different cities.')
-        } else if (uniqueCities.size >= 10) {
-          awardAchievement('explorer-10', 'Explorer', 'Completed 10 different cities.')
-        } else if (uniqueCities.size >= 3) {
-          awardAchievement('explorer-3', 'Rookie Explorer', 'Completed 3 different cities.')
         }
-
-        const favoritesKey = getFavoritesStorageKey(user?.id)
-        try {
-          const rawFavorites = window.localStorage.getItem(favoritesKey)
-          const parsedFavorites = rawFavorites ? JSON.parse(rawFavorites) : []
-          const favorites = Array.isArray(parsedFavorites)
-            ? parsedFavorites.filter((slug) => typeof slug === 'string')
-            : []
-          if (favorites.includes(CITY_NAME)) {
-            const rawCompleted = window.localStorage.getItem('mm-favorites-completed')
-            const parsedCompleted = rawCompleted ? JSON.parse(rawCompleted) : []
-            const completed = Array.isArray(parsedCompleted)
-              ? parsedCompleted.filter((slug) => typeof slug === 'string')
-              : []
-            const completedSet = new Set(completed)
-            completedSet.add(CITY_NAME)
-            window.localStorage.setItem(
-              'mm-favorites-completed',
-              JSON.stringify(Array.from(completedSet)),
-            )
-            if (completedSet.size >= 5) {
-              awardAchievement('favorites-first', 'Favorites First', 'Complete 5 favorited cities.')
-            }
-          }
-        } catch {
-          // ignore
+        if (uniqueCities.size >= 10) {
+          awardAchievement('explorer-10', 'Explorer', 'Completed 10 different cities.')
         }
       }
 
@@ -4809,6 +4964,8 @@ function GamePageContent({
         ]
         options.fitBoundsOptions = { padding: 100 }
       }
+
+      relaxZoomLimitsToFitNetwork(options, initialBounds, mapContainerRef.current)
 
       mapboxMap = new mapboxgl.Map(options)
     } catch (error) {
@@ -5204,10 +5361,17 @@ function GamePageContent({
           source: 'features',
           id: 'stations',
           paint: {
+            // Stay thinner than the 2.5px route lines when zoomed far out:
+            // on country-wide networks the stations sit a few pixels apart,
+            // and bigger white dots would hide the lines between them.
             'circle-radius': [
               'interpolate',
               ['linear'],
               ['zoom'],
+              3,
+              0.5,
+              6,
+              0.8,
               9,
               1.5,
               16,
@@ -5219,6 +5383,8 @@ function GamePageContent({
               'interpolate',
               ['linear'],
               ['zoom'],
+              4,
+              0.15,
               8,
               0.5,
               22,
@@ -5295,6 +5461,11 @@ function GamePageContent({
             'interpolate',
             ['linear'],
             ['zoom'],
+            // tiny when zoomed far out so dense stations don't hide the lines
+            3,
+            ['case', ['to-boolean', ['feature-state', 'found']], 1, 0.4],
+            6,
+            ['case', ['to-boolean', ['feature-state', 'found']], 1.4, 0.6],
             9,
             ['case', ['to-boolean', ['feature-state', 'found']], 2, 1],
             16,
@@ -5329,10 +5500,13 @@ function GamePageContent({
             'rgba(120, 120, 120, 0.6)',
           ],
           'circle-stroke-width': [
-            'case',
-            ['to-boolean', ['feature-state', 'found']],
-            1,
-            0.75,
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            4,
+            ['case', ['to-boolean', ['feature-state', 'found']], 0.4, 0.15],
+            9,
+            ['case', ['to-boolean', ['feature-state', 'found']], 1, 0.75],
           ],
         },
         layout: {
@@ -6375,6 +6549,7 @@ function GamePageContent({
                 onToggleSatellite={handleToggleSatellite}
                 showMapNames={showMapNames}
                 onToggleMapNames={handleToggleMapNames}
+                onOpenAchievements={() => setAchievementsPanelOpen(true)}
               />
               {customSharePath ? (
                 <button
@@ -6633,6 +6808,32 @@ function GamePageContent({
             </p>
             <div className="mt-4 max-h-[70vh] overflow-y-auto">
               <PrivacyPanel />
+            </div>
+          </div>
+        </div>
+      )}
+      {achievementsPanelOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm"
+          onClick={() => setAchievementsPanelOpen(false)}
+        >
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label={t('tabAchievements')}
+            className="mx-2 flex max-h-[92vh] w-full max-w-5xl flex-col rounded-3xl border border-zinc-200 bg-white p-4 shadow-2xl sm:mx-4 sm:p-6 dark:border-[#18181b] dark:bg-zinc-900"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="flex items-center justify-between">
+              <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
+                {t('tabAchievements')}
+              </h2>
+              <CloseButton onClick={() => setAchievementsPanelOpen(false)} ariaLabel="Close achievements" />
+            </div>
+            <div className="mt-4 min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
+              <Suspense fallback={null}>
+                <EmbeddedAchievementsList embeddedTab="achievements" />
+              </Suspense>
             </div>
           </div>
         </div>

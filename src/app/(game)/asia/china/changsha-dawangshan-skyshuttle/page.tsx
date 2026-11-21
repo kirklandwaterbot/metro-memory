@@ -3,9 +3,9 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import 'react-circular-progressbar/dist/styles.css'
 
 export async function generateMetadata() {
-  return generateMiniCityMetadata('changsha-maglev-yunba')
+  return generateMiniCityMetadata('changsha-dawangshan-skyshuttle')
 }
 
 export default async function Page() {
-  return renderMiniCityPage('changsha-maglev-yunba')
+  return renderMiniCityPage('changsha-dawangshan-skyshuttle')
 }

@@ -102,7 +102,8 @@ export const MINI_CITY_MARKER_COORDINATES: Record<string, [number, number]> = {
   'changchun-rail-transit': [125.337, 43.8527],
   'changchun-tram': [125.2531, 43.8711],
   'changsha-metro': [112.98, 28.1906],
-  'changsha-maglev-yunba': [112.9631, 28.1025],
+  'changsha-maglev': [113.1373, 28.1733],
+  'changsha-dawangshan-skyshuttle': [112.9067, 28.0812],
   'chengdu-metro': [104.0635, 30.6204],
   'chengdu-tram': [103.9266, 30.7678],
   'chengdu-dujiangyan-m-tr': [103.6111, 30.9578],
@@ -292,6 +293,8 @@ type RegistryParent = {
     image?: string
     icon?: string
     openGraphImage?: string
+    /** Hidden everywhere (e.g. a closed system). Flip back to restore it. */
+    hidden?: boolean
   }>
 }
 
@@ -305,7 +308,9 @@ export const CITY_SPLIT_PARENTS: ParentCitySplitDefinition[] = rawParents.map(
     parentPath: parent.parentPath,
     continent: parent.continent,
     country: parent.country,
-    children: parent.children.map((child) => ({
+    children: parent.children
+      .filter((child) => !child.hidden)
+      .map((child) => ({
       slug: child.slug,
       name: child.name,
       link: child.link,

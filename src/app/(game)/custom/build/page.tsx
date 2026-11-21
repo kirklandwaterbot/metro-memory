@@ -1,15 +1,17 @@
 'use client'
 
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { MdArrowBack, MdShare, MdSortByAlpha } from 'react-icons/md'
 
 import LineBadge from '@/components/LineBadge'
+import useTranslation from '@/hooks/useTranslation'
 import { AVAILABLE_CITY_SLUGS } from '@/lib/availableCityData'
 import { cities, isCityDisabled, getSlugFromLink } from '@/lib/citiesConfig'
 import { CITY_PATH_MAP } from '@/lib/cityPathMap'
 import {
+  ALL_LINES_TOKEN,
   countSelectedLines,
   encodeWorldSelection,
   type WorldMapSelection,
@@ -149,6 +151,15 @@ const DISABLED_SLUGS = new Set(
     .filter((slug): slug is string => slug !== null),
 )
 
+const getCityCountry = (slug: string): string => {
+  const segment = CITY_PATH_MAP[slug]?.split('/')[1]
+  return segment ? prettifyCityName(segment) : 'Other'
+}
+
+// A mini city is a slice of its parent's lines, so adding both would put the
+// same lines on the map twice.
+const MINI_PARENT_BY_SLUG = new Map(MINI_CITIES.map((city) => [city.slug, city.parentSlug]))
+
 const ALL_CITIES = Array.from(AVAILABLE_CITY_SLUGS)
   .filter((slug) => !DISABLED_SLUGS.has(slug) && Boolean(CITY_PATH_MAP[slug]))
   .map((slug) => {
@@ -158,8 +169,37 @@ const ALL_CITIES = Array.from(AVAILABLE_CITY_SLUGS)
       name: getCityDisplayName(slug),
       continent,
       continentRank: continentRank(continent),
+      country: getCityCountry(slug),
     }
   })
+
+type CityListEntry = (typeof ALL_CITIES)[number]
+
+type CityListCountry = { country: string; cities: CityListEntry[] }
+type CityListContinent = { continent: string; countries: CityListCountry[] }
+
+const groupCityList = (list: CityListEntry[]): CityListContinent[] => {
+  const continents: CityListContinent[] = []
+  list.forEach((city) => {
+    let continent = continents[continents.length - 1]
+    if (!continent || continent.continent !== city.continent) {
+      continent = { continent: city.continent, countries: [] }
+      continents.push(continent)
+    }
+    let country = continent.countries[continent.countries.length - 1]
+    if (!country || country.country !== city.country) {
+      country = { country: city.country, cities: [] }
+      continent.countries.push(country)
+    }
+    country.cities.push(city)
+  })
+  return continents
+}
+
+const LINE_LOAD_CONCURRENCY = 6
+
+const GROUP_BUTTON_CLASS =
+  'rounded-full border border-zinc-300 px-2.5 py-1 text-[11px] font-semibold text-zinc-700 transition hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800'
 
 const cityListEntryBySlug = new Map(ALL_CITIES.map((city) => [city.slug, city]))
 
@@ -171,6 +211,8 @@ const compareCitySlugs = (leftSlug: string, rightSlug: string, direction: SortDi
   return (
     (left?.continentRank ?? CONTINENT_ORDER.length) -
       (right?.continentRank ?? CONTINENT_ORDER.length) ||
+    directionFactor *
+      (left?.country ?? '').localeCompare(right?.country ?? '') ||
     directionFactor *
       (left?.name ?? getCityDisplayName(leftSlug)).localeCompare(
         right?.name ?? getCityDisplayName(rightSlug),
@@ -362,6 +404,7 @@ const copyTextToClipboard = async (text: string) => {
 
 export default function CustomWorldMapBuilder() {
   const router = useRouter()
+  const { t } = useTranslation()
   const [search, setSearch] = useState('')
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
   const [title, setTitle] = useState('My World Map')
@@ -371,10 +414,21 @@ export default function CustomWorldMapBuilder() {
   const [cityLines, setCityLines] = useState<Record<string, CityLine[]>>({})
   const [cityLineGroups, setCityLineGroups] = useState<Record<string, LineGroup[]>>({})
   const [cityAssetBasePaths, setCityAssetBasePaths] = useState<Record<string, string | null>>({})
-  const [loadingCity, setLoadingCity] = useState<string | null>(null)
+  const [loadingCities, setLoadingCities] = useState<Set<string>>(() => new Set())
+  const [autoSelectLines, setAutoSelectLines] = useState(true)
   const [launching, setLaunching] = useState(false)
   const [sharing, setSharing] = useState(false)
   const [shareStatus, setShareStatus] = useState<ShareStatus>('idle')
+
+  // Line loading runs through a small queue so adding a whole continent
+  // doesn't fire hundreds of requests at once.
+  const requestedCitiesRef = useRef<Set<string>>(new Set())
+  const loadQueueRef = useRef<string[]>([])
+  const activeLoadsRef = useRef(0)
+  // Cities whose lines should all be ticked as soon as they finish loading.
+  const pendingSelectAllRef = useRef<Set<string>>(new Set())
+  const addedCitiesRef = useRef<string[]>([])
+  addedCitiesRef.current = addedCities
 
   const sortedCities = useMemo(
     () => [...ALL_CITIES].sort((a, b) => compareCitySlugs(a.slug, b.slug, sortDirection)),
@@ -386,6 +440,8 @@ export default function CustomWorldMapBuilder() {
     [addedCities, sortDirection],
   )
 
+  const addedCitySet = useMemo(() => new Set(addedCities), [addedCities])
+
   const filteredCities = useMemo(() => {
     const query = search.trim().toLowerCase()
     if (!query) return sortedCities
@@ -393,49 +449,127 @@ export default function CustomWorldMapBuilder() {
       (city) =>
         city.name.toLowerCase().includes(query) ||
         city.slug.includes(query) ||
+        city.country.toLowerCase().includes(query) ||
         city.continent.toLowerCase().includes(query),
     )
   }, [search, sortedCities])
 
-  const loadCity = useCallback(
-    async (slug: string) => {
-      if (cityLines[slug]) return
-      setLoadingCity(slug)
-      try {
-        const response = await fetch(`/api/custom/city-lines/${slug}`)
-        if (!response.ok) return
-        const data = (await response.json()) as CityLinesPayload
-        setCityLines((prev) => ({ ...prev, [slug]: data.lines ?? [] }))
-        setCityLineGroups((prev) => ({ ...prev, [slug]: data.lineGroups ?? [] }))
-        setCityAssetBasePaths((prev) => ({
-          ...prev,
-          [slug]: data.assetBasePath ?? CITY_PATH_MAP[slug] ?? null,
-        }))
-      } catch {
-        // ignore - city stays without lines and can be re-added
-      } finally {
-        setLoadingCity((current) => (current === slug ? null : current))
+  const groupedCities = useMemo(() => groupCityList(filteredCities), [filteredCities])
+
+  const pumpLoadQueue = useCallback(() => {
+    while (activeLoadsRef.current < LINE_LOAD_CONCURRENCY && loadQueueRef.current.length > 0) {
+      const slug = loadQueueRef.current.shift() as string
+      activeLoadsRef.current += 1
+      setLoadingCities((prev) => new Set(prev).add(slug))
+
+      void (async () => {
+        try {
+          const response = await fetch(`/api/custom/city-lines/${slug}`)
+          if (!response.ok) {
+            requestedCitiesRef.current.delete(slug)
+            return
+          }
+          const data = (await response.json()) as CityLinesPayload
+          const lines = data.lines ?? []
+          setCityLines((prev) => ({ ...prev, [slug]: lines }))
+          setCityLineGroups((prev) => ({ ...prev, [slug]: data.lineGroups ?? [] }))
+          setCityAssetBasePaths((prev) => ({
+            ...prev,
+            [slug]: data.assetBasePath ?? CITY_PATH_MAP[slug] ?? null,
+          }))
+          if (pendingSelectAllRef.current.has(slug)) {
+            pendingSelectAllRef.current.delete(slug)
+            if (addedCitiesRef.current.includes(slug)) {
+              setSelected((prev) => ({ ...prev, [slug]: new Set(lines.map((line) => line.id)) }))
+            }
+          }
+        } catch {
+          // ignore - the city stays without lines and can be re-added
+          requestedCitiesRef.current.delete(slug)
+        } finally {
+          activeLoadsRef.current -= 1
+          setLoadingCities((prev) => {
+            const next = new Set(prev)
+            next.delete(slug)
+            return next
+          })
+          pumpLoadQueue()
+        }
+      })()
+    }
+  }, [])
+
+  const requestCityLines = useCallback(
+    (slugs: string[]) => {
+      slugs.forEach((slug) => {
+        if (requestedCitiesRef.current.has(slug)) return
+        requestedCitiesRef.current.add(slug)
+        loadQueueRef.current.push(slug)
+      })
+      pumpLoadQueue()
+    },
+    [pumpLoadQueue],
+  )
+
+  const addCities = useCallback(
+    (slugs: string[]) => {
+      const current = new Set(addedCitiesRef.current)
+      const incoming = slugs.filter((slug) => !current.has(slug))
+      // When adding a whole country or continent, leave out a mini city whose
+      // parent city is also on the map, so its lines aren't added twice.
+      const parentsOnMap = new Set([...current, ...incoming])
+      const toAdd =
+        incoming.length > 1
+          ? incoming.filter((slug) => {
+              const parent = MINI_PARENT_BY_SLUG.get(slug)
+              return !parent || !parentsOnMap.has(parent)
+            })
+          : incoming
+      if (toAdd.length === 0) return
+
+      setAddedCities((prev) => [...prev, ...toAdd.filter((slug) => !prev.includes(slug))])
+
+      if (autoSelectLines) {
+        const loadedNow: Record<string, Set<string>> = {}
+        toAdd.forEach((slug) => {
+          const lines = cityLines[slug]
+          if (lines) loadedNow[slug] = new Set(lines.map((line) => line.id))
+          else pendingSelectAllRef.current.add(slug)
+        })
+        if (Object.keys(loadedNow).length > 0) {
+          setSelected((prev) => ({ ...prev, ...loadedNow }))
+        }
       }
+
+      requestCityLines(toAdd.filter((slug) => !cityLines[slug]))
     },
-    [cityLines],
+    [autoSelectLines, cityLines, requestCityLines],
   )
 
-  const addCity = useCallback(
-    (slug: string) => {
-      setAddedCities((prev) => (prev.includes(slug) ? prev : [...prev, slug]))
-      void loadCity(slug)
-    },
-    [loadCity],
-  )
-
-  const removeCity = useCallback((slug: string) => {
-    setAddedCities((prev) => prev.filter((entry) => entry !== slug))
+  const removeCities = useCallback((slugs: string[]) => {
+    const removing = new Set(slugs)
+    slugs.forEach((slug) => pendingSelectAllRef.current.delete(slug))
+    setAddedCities((prev) => prev.filter((entry) => !removing.has(entry)))
     setSelected((prev) => {
       const next = { ...prev }
-      delete next[slug]
+      slugs.forEach((slug) => delete next[slug])
       return next
     })
   }, [])
+
+  const addCity = useCallback((slug: string) => addCities([slug]), [addCities])
+  const removeCity = useCallback((slug: string) => removeCities([slug]), [removeCities])
+
+  const toggleCityGroup = useCallback(
+    (slugs: string[]) => {
+      if (slugs.length > 0 && slugs.every((slug) => addedCitySet.has(slug))) {
+        removeCities(slugs)
+      } else {
+        addCities(slugs)
+      }
+    },
+    [addCities, addedCitySet, removeCities],
+  )
 
   const toggleLine = useCallback((slug: string, lineId: string) => {
     setSelected((prev) => {
@@ -457,12 +591,41 @@ export default function CustomWorldMapBuilder() {
     [],
   )
 
+  const setAllCitiesSelection = useCallback(
+    (shouldSelect: boolean) => {
+      setSelected(() => {
+        const next: Record<string, Set<string>> = {}
+        addedCities.forEach((slug) => {
+          const lines = cityLines[slug]
+          next[slug] = shouldSelect && lines ? new Set(lines.map((line) => line.id)) : new Set()
+          if (shouldSelect && !lines) pendingSelectAllRef.current.add(slug)
+          if (!shouldSelect) pendingSelectAllRef.current.delete(slug)
+        })
+        return next
+      })
+    },
+    [addedCities, cityLines],
+  )
+
   const selection: WorldMapSelection = useMemo(
     () =>
       sortedAddedCities
         .map((city) => ({ city, lines: Array.from(selected[city] ?? []) }))
         .filter((entry) => entry.lines.length > 0),
     [selected, sortedAddedCities],
+  )
+
+  // Cities with every line ticked are sent as "all lines", which keeps the
+  // link short even for a whole continent.
+  const encodedSelection: WorldMapSelection = useMemo(
+    () =>
+      selection.map((entry) => {
+        const lines = cityLines[entry.city]
+        return lines && lines.length > 0 && entry.lines.length === lines.length
+          ? { city: entry.city, lines: [ALL_LINES_TOKEN] }
+          : entry
+      }),
+    [cityLines, selection],
   )
 
   const totalSelected = countSelectedLines(selection)
@@ -473,10 +636,10 @@ export default function CustomWorldMapBuilder() {
       return null
     }
 
-    const sel = encodeWorldSelection(selection)
+    const sel = encodeWorldSelection(encodedSelection)
     const params = new URLSearchParams({ world: '1', sel, title: mapTitle })
     return `/custom?${params.toString()}`
-  }, [mapTitle, selection, totalSelected])
+  }, [encodedSelection, mapTitle, totalSelected])
 
   const handlePlay = useCallback(() => {
     if (!customMapPath) return
@@ -580,52 +743,139 @@ export default function CustomWorldMapBuilder() {
               {sortDirection === 'asc' ? 'A-Z' : 'Z-A'}
             </button>
           </div>
+          <div className="mb-3 flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              onClick={() => addCities(filteredCities.map((city) => city.slug))}
+              disabled={filteredCities.length === 0}
+              className={GROUP_BUTTON_CLASS}
+            >
+              {t('worldAddAllShown')}
+            </button>
+            <button
+              type="button"
+              onClick={() => removeCities(addedCities)}
+              disabled={addedCities.length === 0}
+              className={GROUP_BUTTON_CLASS}
+            >
+              {t('worldRemoveAllCities')}
+            </button>
+            <label className="ml-auto inline-flex cursor-pointer items-center gap-1.5 text-xs text-zinc-600 dark:text-zinc-400">
+              <input
+                type="checkbox"
+                checked={autoSelectLines}
+                onChange={(event) => setAutoSelectLines(event.target.checked)}
+                className="h-3.5 w-3.5 rounded border-zinc-300 text-[var(--accent-600)] focus:ring-[var(--accent-500)]"
+              />
+              {t('worldAutoSelectLines')}
+            </label>
+          </div>
           <div className="max-h-[52vh] overflow-y-auto pr-1">
-            <ul className="space-y-1">
-              {filteredCities.map((city, index) => {
-                const isAdded = addedCities.includes(city.slug)
-                const showContinentHeading =
-                  index === 0 || filteredCities[index - 1]?.continent !== city.continent
+            <div className="space-y-3">
+              {groupedCities.map(({ continent, countries }) => {
+                const continentSlugs = countries.flatMap((group) =>
+                  group.cities.map((city) => city.slug),
+                )
+                const continentAdded = continentSlugs.filter((slug) => addedCitySet.has(slug)).length
                 return (
-                  <li key={city.slug}>
-                    {showContinentHeading ? (
-                      <div className="px-3 pb-1 pt-3 text-[11px] font-bold uppercase tracking-wide text-zinc-500 first:pt-0 dark:text-zinc-400">
-                        {city.continent}
-                      </div>
-                    ) : null}
-                    <button
-                      type="button"
-                      onClick={() => (isAdded ? removeCity(city.slug) : addCity(city.slug))}
-                      className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-sm transition ${
-                        isAdded
-                          ? 'bg-[var(--accent-600)] text-white'
-                          : 'text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800'
-                      }`}
-                    >
-                      <span className="flex min-w-0 items-center gap-2">
-                        <CityIcon
-                          slug={city.slug}
-                          width={20}
-                          height={20}
-                          sizeClassName="h-5 w-5"
-                        />
-                        <span className="truncate">{city.name}</span>
+                  <div key={continent}>
+                    <div className="sticky top-0 z-10 flex items-center justify-between gap-2 bg-white/95 px-3 py-1.5 backdrop-blur dark:bg-zinc-900/95">
+                      <span className="text-[11px] font-bold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                        {continent}{' '}
+                        <span className="font-semibold normal-case tracking-normal">
+                          {continentAdded}/{continentSlugs.length}
+                        </span>
                       </span>
-                      <span className="ml-2 shrink-0 text-xs opacity-80">
-                        {isAdded ? 'Remove' : 'Add'}
-                      </span>
-                    </button>
-                  </li>
+                      <button
+                        type="button"
+                        onClick={() => toggleCityGroup(continentSlugs)}
+                        className={GROUP_BUTTON_CLASS}
+                      >
+                        {continentAdded === continentSlugs.length ? t('worldRemoveAll') : t('worldAddAll')}
+                      </button>
+                    </div>
+                    {countries.map(({ country, cities: countryCities }) => {
+                      const countrySlugs = countryCities.map((city) => city.slug)
+                      const countryAdded = countrySlugs.filter((slug) => addedCitySet.has(slug)).length
+                      return (
+                        <div key={`${continent}-${country}`} className="mt-1">
+                          {countrySlugs.length > 1 ? (
+                            <div className="flex items-center justify-between gap-2 px-3 py-1">
+                              <span className="truncate text-xs font-semibold text-zinc-600 dark:text-zinc-300">
+                                {country}{' '}
+                                <span className="font-normal text-zinc-400">
+                                  {countryAdded}/{countrySlugs.length}
+                                </span>
+                              </span>
+                              <button
+                                type="button"
+                                onClick={() => toggleCityGroup(countrySlugs)}
+                                className={GROUP_BUTTON_CLASS}
+                              >
+                                {countryAdded === countrySlugs.length ? t('worldRemoveAll') : t('worldAddAll')}
+                              </button>
+                            </div>
+                          ) : null}
+                          <ul className="space-y-1">
+                            {countryCities.map((city) => {
+                              const isAdded = addedCitySet.has(city.slug)
+                              return (
+                                <li key={city.slug}>
+                                  <button
+                                    type="button"
+                                    onClick={() => (isAdded ? removeCity(city.slug) : addCity(city.slug))}
+                                    className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-sm transition ${
+                                      isAdded
+                                        ? 'bg-[var(--accent-600)] text-white'
+                                        : 'text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800'
+                                    }`}
+                                  >
+                                    <span className="flex min-w-0 items-center gap-2">
+                                      <CityIcon
+                                        slug={city.slug}
+                                        width={20}
+                                        height={20}
+                                        sizeClassName="h-5 w-5"
+                                      />
+                                      <span className="truncate">{city.name}</span>
+                                    </span>
+                                    <span className="ml-2 shrink-0 text-xs opacity-80">
+                                      {isAdded ? 'Remove' : 'Add'}
+                                    </span>
+                                  </button>
+                                </li>
+                              )
+                            })}
+                          </ul>
+                        </div>
+                      )
+                    })}
+                  </div>
                 )
               })}
-            </ul>
+            </div>
           </div>
         </section>
 
         <section className="flex min-h-0 flex-col rounded-2xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
-          <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
-            Selected lines
-          </label>
+          <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+            <label className="block text-xs font-semibold uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
+              Selected lines
+            </label>
+            {addedCities.length > 0 ? (
+              <div className="flex flex-wrap gap-1">
+                <button type="button" onClick={() => setAllCitiesSelection(true)} className={GROUP_BUTTON_CLASS}>
+                  {t('worldSelectAllLines')}
+                </button>
+                <button type="button" onClick={() => setAllCitiesSelection(false)} className={GROUP_BUTTON_CLASS}>
+                  {t('worldSelectNoLines')}
+                </button>
+              </div>
+            ) : null}
+          </div>
+          {loadingCities.size > 0 ? (
+            <p className="mb-2 text-xs text-zinc-500 dark:text-zinc-400">{t('worldLoadingLines')}</p>
+          ) : null}
           {addedCities.length === 0 ? (
             <div className="rounded-xl border border-dashed border-zinc-300 px-4 py-10 text-center text-sm text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
               Add a city on the left to choose its lines.
@@ -671,14 +921,14 @@ export default function CustomWorldMapBuilder() {
                               onClick={() => setCitySelection(slug, lines.map((l) => l.id), true)}
                               className="rounded-full border border-zinc-300 px-2.5 py-1 text-[11px] font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
                             >
-                              All
+                              {t('worldAll')}
                             </button>
                             <button
                               type="button"
                               onClick={() => setCitySelection(slug, lines.map((l) => l.id), false)}
                               className="rounded-full border border-zinc-300 px-2.5 py-1 text-[11px] font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
                             >
-                              None
+                              {t('worldNone')}
                             </button>
                           </>
                         )}
@@ -694,7 +944,7 @@ export default function CustomWorldMapBuilder() {
 
                     {!lines ? (
                       <p className="text-xs text-zinc-500 dark:text-zinc-400">
-                        {loadingCity === slug ? 'Loading lines...' : 'No line data.'}
+                        {loadingCities.has(slug) ? t('worldLoadingLines') : 'No line data.'}
                       </p>
                     ) : (
                       <div className="space-y-3">
@@ -703,11 +953,40 @@ export default function CustomWorldMapBuilder() {
                             key={`${slug}-group-${group.title ?? groupIndex}`}
                             className="space-y-2"
                           >
-                            <LineGroupHeading
-                              title={group.title}
-                              image={group.titleImage}
-                              iconBasePath={iconBasePath}
-                            />
+                            {(() => {
+                              const groupLineIds = group.items.flatMap((item) =>
+                                item.type === 'lines' ? item.lineIds : [],
+                              )
+                              const showGroupButtons =
+                                visibleLineGroups.length > 1 && groupLineIds.length > 1
+                              return (
+                                <div className="flex items-center justify-between gap-2">
+                                  <LineGroupHeading
+                                    title={group.title}
+                                    image={group.titleImage}
+                                    iconBasePath={iconBasePath}
+                                  />
+                                  {showGroupButtons ? (
+                                    <div className="flex shrink-0 gap-1">
+                                      <button
+                                        type="button"
+                                        onClick={() => setCitySelection(slug, groupLineIds, true)}
+                                        className={GROUP_BUTTON_CLASS}
+                                      >
+                                        {t('worldAll')}
+                                      </button>
+                                      <button
+                                        type="button"
+                                        onClick={() => setCitySelection(slug, groupLineIds, false)}
+                                        className={GROUP_BUTTON_CLASS}
+                                      >
+                                        {t('worldNone')}
+                                      </button>
+                                    </div>
+                                  ) : null}
+                                </div>
+                              )
+                            })()}
                             {group.items.map((item, itemIndex) => {
                               if (item.type === 'separator') {
                                 return (

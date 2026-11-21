@@ -39,6 +39,8 @@ type AuthContextValue = {
     sectionId: string,
     collapsed: boolean,
   ) => Promise<void>
+  /** Several sections at once (one request), e.g. "Expand all" / "Collapse all". */
+  setCollapsedSectionsPreference: (sections: Record<string, boolean>) => Promise<void>
   updateUiPreferences: (updates: Partial<UiPreferences>) => Promise<void>
 }
 
@@ -147,15 +149,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUiPreferences({})
   }, [])
 
-  const setCollapsedSectionPreference = useCallback(
-    async (sectionId: string, collapsed: boolean) => {
+  const setCollapsedSectionsPreference = useCallback(
+    async (sections: Record<string, boolean>) => {
+      if (Object.keys(sections).length === 0) return
       if (!user) return
 
       setUiPreferences((prev) => ({
         ...prev,
-        collapsedSections: mergeCollapsedSections(prev.collapsedSections, {
-          [sectionId]: collapsed,
-        }),
+        collapsedSections: mergeCollapsedSections(prev.collapsedSections, sections),
       }))
 
       try {
@@ -163,7 +164,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            collapsedSections: { [sectionId]: collapsed },
+            collapsedSections: sections,
           }),
         })
 
@@ -188,6 +189,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     },
     [user],
+  )
+
+  const setCollapsedSectionPreference = useCallback(
+    (sectionId: string, collapsed: boolean) =>
+      setCollapsedSectionsPreference({ [sectionId]: collapsed }),
+    [setCollapsedSectionsPreference],
   )
 
   const updateUiPreferences = useCallback(
@@ -258,6 +265,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       logoutLocally,
       uiPreferences,
       setCollapsedSectionPreference,
+      setCollapsedSectionsPreference,
       updateUiPreferences,
     }),
     [
@@ -269,6 +277,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       logoutLocally,
       uiPreferences,
       setCollapsedSectionPreference,
+      setCollapsedSectionsPreference,
       updateUiPreferences,
     ],
   )

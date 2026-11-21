@@ -23,6 +23,7 @@ import type {
 } from './types'
 import { MINI_CITIES, getMiniCityBySlug } from './miniCities'
 import {
+  ALL_LINES_TOKEN,
   normalizeWorldSelection,
   type WorldMapSelection,
 } from './customWorldMapSelection'
@@ -388,9 +389,11 @@ export const loadCustomWorldMapAssets = async (
 
     const cityLineMeta = deriveCityLines(payload)
     const configuredLines = config?.LINES ?? {}
-    const requestedLines = entry.lines.filter(
-      (lineId) => cityLineMeta.has(lineId) || Boolean(configuredLines[lineId]),
-    )
+    const requestedLines = entry.lines.includes(ALL_LINES_TOKEN)
+      ? Array.from(cityLineMeta.keys()).sort()
+      : entry.lines.filter(
+          (lineId) => cityLineMeta.has(lineId) || Boolean(configuredLines[lineId]),
+        )
     if (requestedLines.length === 0) {
       continue
     }

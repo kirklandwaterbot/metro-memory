@@ -5,7 +5,9 @@
   "stationRadius": 500,
   "english": {
     "宁波火车站": "Ningbo Railway Station",
-    "栎社国际机场": "Lishe International Airport"
+    "栎社国际机场": "Lishe International Airport",
+    "鄞州咸祥": "Yinzhou Xianxiang",
+    "象山贤庠": "Xiangshan Xianxiang"
   },
   "alternates": {},
   "lines": [
@@ -80,6 +82,15 @@
         "route": "subway",
         "exclude": "12号线"
       }
+    },
+    {
+      "id": "ningbo12",
+      "name": "Line 12",
+      "color": "#45BDCE",
+      "match": {
+        "ref": "^12$",
+        "route": "subway"
+      }
     }
   ],
   "cityName": "Ningbo",
@@ -95,7 +106,8 @@
         "ningbo5",
         "ningbo6",
         "ningbo7",
-        "ningbo8"
+        "ningbo8",
+        "ningbo12"
       ]
     }
   ]

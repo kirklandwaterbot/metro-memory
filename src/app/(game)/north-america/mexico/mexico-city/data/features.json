@@ -3346,6 +3346,1122 @@
         "order": 1
       },
       "id": 176
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.140634,
+          19.343695
+        ]
+      },
+      "properties": {
+        "id": 196,
+        "name": "Tasqueña",
+        "line": "DFTrenLigero",
+        "order": 0
+      },
+      "id": 196
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.143385,
+          19.34056
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Las Torres",
+        "line": "DFTrenLigero",
+        "order": 1
+      },
+      "id": 197
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.141837,
+          19.335555
+        ]
+      },
+      "properties": {
+        "id": 198,
+        "name": "Ciudad Jardín",
+        "line": "DFTrenLigero",
+        "order": 2
+      },
+      "id": 198
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.140573,
+          19.331457
+        ]
+      },
+      "properties": {
+        "id": 199,
+        "name": "La Virgen",
+        "line": "DFTrenLigero",
+        "order": 3
+      },
+      "id": 199
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.139268,
+          19.327252
+        ]
+      },
+      "properties": {
+        "id": 200,
+        "name": "Xotepingo",
+        "line": "DFTrenLigero",
+        "order": 4
+      },
+      "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.138145,
+          19.32363
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Nezahualpilli",
+        "line": "DFTrenLigero",
+        "order": 5
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.138903,
+          19.317713
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Registro Federal",
+        "line": "DFTrenLigero",
+        "order": 6
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.140685,
+          19.312335
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Textitlán",
+        "line": "DFTrenLigero",
+        "order": 7
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.143241,
+          19.307024
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "El Vergel",
+        "line": "DFTrenLigero",
+        "order": 8
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.14705,
+          19.3019
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Estadio Azteca",
+        "line": "DFTrenLigero",
+        "order": 9,
+        "alternate_names": [
+          "Estadio Banorte",
+          "Estadio Ciudad de México"
+        ]
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.150706,
+          19.297757
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Huipulco",
+        "line": "DFTrenLigero",
+        "order": 10
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.146729,
+          19.288647
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Xomali",
+        "line": "DFTrenLigero",
+        "order": 11
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.139635,
+          19.282647
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Periférico",
+        "line": "DFTrenLigero",
+        "order": 12
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1331,
+          19.279391
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Tepepan",
+        "line": "DFTrenLigero",
+        "order": 13
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.125511,
+          19.267823
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "La Noria",
+        "line": "DFTrenLigero",
+        "order": 14
+      },
+      "id": 210
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.119011,
+          19.264596
+        ]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Huichapan",
+        "line": "DFTrenLigero",
+        "order": 15
+      },
+      "id": 211
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.111023,
+          19.26059
+        ]
+      },
+      "properties": {
+        "id": 212,
+        "name": "Francisco Goitia",
+        "line": "DFTrenLigero",
+        "order": 16
+      },
+      "id": 212
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.107839,
+          19.259361
+        ]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Xochimilco",
+        "line": "DFTrenLigero",
+        "order": 17
+      },
+      "id": 213
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.151656,
+          19.449431
+        ]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Buenavista",
+        "line": "DFSuburbano",
+        "order": 0
+      },
+      "id": 214
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.171016,
+          19.491794
+        ]
+      },
+      "properties": {
+        "id": 215,
+        "name": "Fortuna",
+        "line": "DFSuburbano",
+        "order": 1
+      },
+      "id": 215
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.183864,
+          19.53664
+        ]
+      },
+      "properties": {
+        "id": 216,
+        "name": "Tlalnepantla",
+        "line": "DFSuburbano",
+        "order": 2
+      },
+      "id": 216
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.195237,
+          19.564803
+        ]
+      },
+      "properties": {
+        "id": 217,
+        "name": "San Rafael",
+        "line": "DFSuburbano",
+        "order": 3
+      },
+      "id": 217
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.185967,
+          19.599589
+        ]
+      },
+      "properties": {
+        "id": 218,
+        "name": "Lechería",
+        "line": "DFSuburbano",
+        "order": 4
+      },
+      "id": 218
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.180356,
+          19.635496
+        ]
+      },
+      "properties": {
+        "id": 219,
+        "name": "Tultitlán",
+        "line": "DFSuburbano",
+        "order": 5
+      },
+      "id": 219
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.176334,
+          19.666154
+        ]
+      },
+      "properties": {
+        "id": 220,
+        "name": "Cuautitlán",
+        "line": "DFSuburbano",
+        "order": 6
+      },
+      "id": 220
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.151656,
+          19.449431
+        ]
+      },
+      "properties": {
+        "id": 221,
+        "name": "Buenavista",
+        "line": "DFFelipeAngeles",
+        "order": 0
+      },
+      "id": 221
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.171016,
+          19.491794
+        ]
+      },
+      "properties": {
+        "id": 222,
+        "name": "Fortuna",
+        "line": "DFFelipeAngeles",
+        "order": 1
+      },
+      "id": 222
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.183864,
+          19.53664
+        ]
+      },
+      "properties": {
+        "id": 223,
+        "name": "Tlalnepantla",
+        "line": "DFFelipeAngeles",
+        "order": 2
+      },
+      "id": 223
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.195237,
+          19.564803
+        ]
+      },
+      "properties": {
+        "id": 224,
+        "name": "San Rafael",
+        "line": "DFFelipeAngeles",
+        "order": 3
+      },
+      "id": 224
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.185967,
+          19.599589
+        ]
+      },
+      "properties": {
+        "id": 225,
+        "name": "Lechería",
+        "line": "DFFelipeAngeles",
+        "order": 4
+      },
+      "id": 225
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.16699,
+          19.62825
+        ]
+      },
+      "properties": {
+        "id": 226,
+        "name": "Cueyamil",
+        "line": "DFFelipeAngeles",
+        "order": 5
+      },
+      "id": 226
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.149607,
+          19.643331
+        ]
+      },
+      "properties": {
+        "id": 227,
+        "name": "La Loma",
+        "line": "DFFelipeAngeles",
+        "order": 6,
+        "alternate_names": [
+          "Los Agaves",
+          "Agaves"
+        ]
+      },
+      "id": 227
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.136059,
+          19.655189
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Teyahualco",
+        "line": "DFFelipeAngeles",
+        "order": 7
+      },
+      "id": 228
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.106956,
+          19.680486
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Prados Sur",
+        "line": "DFFelipeAngeles",
+        "order": 8,
+        "alternate_names": [
+          "Prado Sur"
+        ]
+      },
+      "id": 229
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.086797,
+          19.698006
+        ]
+      },
+      "properties": {
+        "id": 230,
+        "name": "Cajiga",
+        "line": "DFFelipeAngeles",
+        "order": 9,
+        "alternate_names": [
+          "Nextlalpan"
+        ]
+      },
+      "id": 230
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.057713,
+          19.723382
+        ]
+      },
+      "properties": {
+        "id": 231,
+        "name": "Xaltocan",
+        "line": "DFFelipeAngeles",
+        "order": 10,
+        "alternate_names": [
+          "Jaltocan"
+        ]
+      },
+      "id": 231
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0257661,
+          19.7355762
+        ]
+      },
+      "properties": {
+        "id": 232,
+        "name": "AIFA",
+        "line": "DFFelipeAngeles",
+        "order": 11,
+        "alternate_names": [
+          "Aeropuerto Internacional Felipe Ángeles",
+          "Felipe Ángeles",
+          "FAIA",
+          "Aeropuerto AIFA"
+        ]
+      },
+      "id": 232
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.694666,
+          19.280108
+        ]
+      },
+      "properties": {
+        "id": 233,
+        "name": "Zinacantepec",
+        "line": "DFInsurgente",
+        "order": 0
+      },
+      "id": 233
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.641136,
+          19.270281
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Toluca Centro",
+        "line": "DFInsurgente",
+        "order": 1
+      },
+      "id": 234
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.574523,
+          19.277402
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Metepec",
+        "line": "DFInsurgente",
+        "order": 2
+      },
+      "id": 235
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.514817,
+          19.278538
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Lerma",
+        "line": "DFInsurgente",
+        "order": 3
+      },
+      "id": 236
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.269182,
+          19.362928
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Santa Fe",
+        "line": "DFInsurgente",
+        "order": 4,
+        "alternate_names": [
+          "Santa Fe Interurbano"
+        ]
+      },
+      "id": 237
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.235742,
+          19.384921
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Vasco de Quiroga",
+        "line": "DFInsurgente",
+        "order": 5
+      },
+      "id": 238
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.200439,
+          19.398593
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Observatorio",
+        "line": "DFInsurgente",
+        "order": 6
+      },
+      "id": 239
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.122164,
+          19.495223
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Indios Verdes",
+        "line": "DFCablebus1",
+        "order": 0
+      },
+      "id": 240
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133872,
+          19.511748
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Ticomán",
+        "line": "DFCablebus1",
+        "order": 1
+      },
+      "id": 241
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.140896,
+          19.527564
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "La Pastora",
+        "line": "DFCablebus1",
+        "order": 2
+      },
+      "id": 242
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.142004,
+          19.540588
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Campos Revolución",
+        "line": "DFCablebus1",
+        "order": 3
+      },
+      "id": 243
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.134173,
+          19.558005
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "name": "Cuautepec",
+        "line": "DFCablebus1",
+        "order": 4
+      },
+      "id": 244
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.126162,
+          19.544846
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Tlalpexco",
+        "line": "DFCablebus1",
+        "order": 5
+      },
+      "id": 245
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.06253,
+          19.344877
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Constitución de 1917",
+        "line": "DFCablebus2",
+        "order": 0
+      },
+      "id": 246
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.043466,
+          19.327839
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Quetzalcóatl",
+        "line": "DFCablebus2",
+        "order": 1
+      },
+      "id": 247
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.030842,
+          19.331825
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Las Torres Buenavista",
+        "line": "DFCablebus2",
+        "order": 2
+      },
+      "id": 248
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.008101,
+          19.340907
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Lomas de la Estancia",
+        "line": "DFCablebus2",
+        "order": 3
+      },
+      "id": 249
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.989555,
+          19.343578
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "San Miguel Teotongo",
+        "line": "DFCablebus2",
+        "order": 4
+      },
+      "id": 250
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.994004,
+          19.359552
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "name": "Santa Marta",
+        "line": "DFCablebus2",
+        "order": 5
+      },
+      "id": 251
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.018856,
+          19.336139
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Xalpa",
+        "line": "DFCablebus2",
+        "order": 6
+      },
+      "id": 252
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.191336,
+          19.413016
+        ]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Los Pinos / Constituyentes",
+        "line": "DFCablebus3",
+        "order": 0,
+        "alternate_names": [
+          "Los Pinos",
+          "Constituyentes"
+        ]
+      },
+      "id": 253
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.201202,
+          19.40722
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Panteón de Dolores",
+        "line": "DFCablebus3",
+        "order": 1,
+        "alternate_names": [
+          "Panteón Dolores"
+        ]
+      },
+      "id": 254
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.21304,
+          19.399687
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Charrería",
+        "line": "DFCablebus3",
+        "order": 2,
+        "alternate_names": [
+          "Lienzo Charro"
+        ]
+      },
+      "id": 255
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.221828,
+          19.39688
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "PARCUR / Colegio de Arquitectos",
+        "line": "DFCablebus3",
+        "order": 3,
+        "alternate_names": [
+          "PARCUR",
+          "Colegio de Arquitectos"
+        ]
+      },
+      "id": 256
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.228851,
+          19.391383
+        ]
+      },
+      "properties": {
+        "id": 257,
+        "name": "Cineteca Chapultepec / Bodega de Arte",
+        "line": "DFCablebus3",
+        "order": 4,
+        "alternate_names": [
+          "Cineteca Chapultepec",
+          "Cineteca Nacional",
+          "Bodega de Arte"
+        ]
+      },
+      "id": 257
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.231667,
+          19.38424
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Vasco de Quiroga",
+        "line": "DFCablebus3",
+        "order": 5
+      },
+      "id": 258
     }
   ],
   "properties": {

@@ -4,104 +4,131 @@
     "color": "#df4661",
     "backgroundColor": "#df4661",
     "textColor": "#ffffff",
-    "order": 1
+    "order": 1,
+    "icon": "asia/china/hangzhou/hangzhou1.png",
+    "badgeShape": "square"
   },
   "hangzhou2": {
     "name": "Line 2",
     "color": "#ff7300",
     "backgroundColor": "#ff7300",
     "textColor": "#ffffff",
-    "order": 2
+    "order": 2,
+    "icon": "asia/china/hangzhou/hangzhou2.png",
+    "badgeShape": "square"
   },
   "hangzhou3": {
     "name": "Line 3",
     "color": "#FFD700",
     "backgroundColor": "#FFD700",
-    "textColor": "#ffffff",
-    "order": 3
+    "textColor": "#000000",
+    "order": 3,
+    "icon": "asia/china/hangzhou/hangzhou3.png",
+    "badgeShape": "square"
   },
   "hangzhou4": {
     "name": "Line 4",
     "color": "#6bc349",
     "backgroundColor": "#6bc349",
     "textColor": "#ffffff",
-    "order": 4
+    "order": 4,
+    "icon": "asia/china/hangzhou/hangzhou4.png",
+    "badgeShape": "square"
   },
   "hangzhou5": {
     "name": "Line 5",
     "color": "#0db0c8",
     "backgroundColor": "#0db0c8",
     "textColor": "#ffffff",
-    "order": 5
+    "order": 5,
+    "icon": "asia/china/hangzhou/hangzhou5.png",
+    "badgeShape": "square"
   },
   "hangzhou6": {
     "name": "Line 6",
     "color": "#0072ce",
     "backgroundColor": "#0072ce",
     "textColor": "#ffffff",
-    "order": 6
+    "order": 6,
+    "icon": "asia/china/hangzhou/hangzhou6.png",
+    "badgeShape": "square"
   },
   "hangzhou7": {
     "name": "Line 7",
     "color": "#88129e",
     "backgroundColor": "#88129e",
     "textColor": "#ffffff",
-    "order": 7
+    "order": 7,
+    "icon": "asia/china/hangzhou/hangzhou7.png",
+    "badgeShape": "square"
   },
   "hangzhou8": {
     "name": "Line 8",
     "color": "#ac145a",
     "backgroundColor": "#ac145a",
     "textColor": "#ffffff",
-    "order": 8
+    "order": 8,
+    "icon": "asia/china/hangzhou/hangzhou8.png",
+    "badgeShape": "square"
   },
   "hangzhou9": {
     "name": "Line 9",
     "color": "#be4d00",
     "backgroundColor": "#be4d00",
     "textColor": "#ffffff",
-    "order": 9
+    "order": 9,
+    "icon": "asia/china/hangzhou/hangzhou9.png",
+    "badgeShape": "square"
   },
   "hangzhou10": {
     "name": "Line 10",
     "color": "#DAA520",
     "backgroundColor": "#DAA520",
     "textColor": "#ffffff",
-    "order": 10
+    "order": 10,
+    "icon": "asia/china/hangzhou/hangzhou10.png",
+    "badgeShape": "wide"
   },
   "hangzhou16": {
     "name": "Line 16",
     "color": "#ffb25b",
     "backgroundColor": "#ffb25b",
     "textColor": "#ffffff",
-    "order": 11
+    "order": 11,
+    "icon": "asia/china/hangzhou/hangzhou16.png",
+    "badgeShape": "wide"
   },
   "hangzhou19": {
     "name": "Line 19",
     "color": "#05C3DE",
     "backgroundColor": "#05C3DE",
     "textColor": "#ffffff",
-    "order": 12
+    "order": 12,
+    "icon": "asia/china/hangzhou/hangzhou19.png",
+    "badgeShape": "wide"
   },
   "hangzhouhanghai": {
     "name": "Hanghai Line",
     "color": "#0077c8",
     "backgroundColor": "#0077c8",
     "textColor": "#ffffff",
-    "order": 13
+    "order": 13,
+    "icon": "asia/china/hangzhou/hangzhouhanghai.png"
   },
   "shaoxing1": {
     "name": "Shaoxing Line 1",
     "color": "#c5003e",
     "backgroundColor": "#c5003e",
     "textColor": "#ffffff",
-    "order": 14
+    "order": 14,
+    "icon": "asia/china/hangzhou/shaoxing1.png"
   },
   "shaoxing2": {
     "name": "Shaoxing Line 2",
     "color": "#307FE2",
     "backgroundColor": "#307FE2",
-    "textColor": "#ffffff",
-    "order": 15
+    "textColor": "#000000",
+    "order": 15,
+    "icon": "asia/china/hangzhou/shaoxing2.png"
   }
 }

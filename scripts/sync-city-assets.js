@@ -36,8 +36,10 @@ const normalizeRoutePath = (value) =>
 
 const splitRouteParts = (value) => value.split(/[\\/]+/).filter(Boolean)
 
+// continent/country/city, or continent/city for city-states like Singapore
 const isValidRouteParts = (parts) =>
-  parts.length >= 3 &&
+  parts.length >= 2 &&
+  parts[0] !== 'custom' &&
   parts.every(
     (part) =>
       part &&

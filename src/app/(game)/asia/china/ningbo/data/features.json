@@ -4904,6 +4904,247 @@
         "order": 17
       },
       "id": 200
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.604268,
+          29.795662
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Xiaoyangjiang",
+        "display_name": "Xiaoyangjiang (小洋江)",
+        "alternate_names": [
+          "Xiaoyangjiang",
+          "小洋江",
+          "xiao yang jiang"
+        ],
+        "line": "ningbo12",
+        "order": 0
+      },
+      "id": 201
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.590396,
+          29.777297
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Yunlong Railway Station",
+        "display_name": "Yunlong Railway Station (云龙火车站)",
+        "alternate_names": [
+          "Yunlong Railway Station",
+          "云龙火车站",
+          "雲龍火車站",
+          "Yunlong",
+          "Yunlonghuochezhan",
+          "yun long huo che zhan"
+        ],
+        "line": "ningbo12",
+        "order": 1
+      },
+      "id": 202
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.597204,
+          29.741564
+        ]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Hengxi",
+        "display_name": "Hengxi (横溪)",
+        "alternate_names": [
+          "Hengxi",
+          "横溪",
+          "橫溪",
+          "heng xi"
+        ],
+        "line": "ningbo12",
+        "order": 2
+      },
+      "id": 203
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.716277,
+          29.675138
+        ]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Tangxi",
+        "display_name": "Tangxi (塘溪)",
+        "alternate_names": [
+          "Tangxi",
+          "塘溪",
+          "tang xi"
+        ],
+        "line": "ningbo12",
+        "order": 3
+      },
+      "id": 204
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.770155,
+          29.680533
+        ]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Yinzhou Xianxiang",
+        "display_name": "Yinzhou Xianxiang (鄞州咸祥)",
+        "alternate_names": [
+          "Yinzhou Xianxiang",
+          "鄞州咸祥",
+          "鄞州鹹祥",
+          "Yinzhouxianxiang",
+          "yin zhou xian xiang"
+        ],
+        "line": "ningbo12",
+        "order": 4
+      },
+      "id": 205
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.840403,
+          29.584512
+        ]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Xiangshan Xianxiang",
+        "display_name": "Xiangshan Xianxiang (象山贤庠)",
+        "alternate_names": [
+          "Xiangshan Xianxiang",
+          "象山贤庠",
+          "象山賢庠",
+          "Xiangshanxianxiang",
+          "xiang shan xian xiang"
+        ],
+        "line": "ningbo12",
+        "order": 5
+      },
+      "id": 206
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.878913,
+          29.530096
+        ]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Daxu",
+        "display_name": "Daxu (大徐)",
+        "alternate_names": [
+          "Daxu",
+          "大徐",
+          "da xu"
+        ],
+        "line": "ningbo12",
+        "order": 6
+      },
+      "id": 207
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.885657,
+          29.469988
+        ]
+      },
+      "properties": {
+        "id": 208,
+        "name": "Dancheng",
+        "display_name": "Dancheng (丹城)",
+        "alternate_names": [
+          "Dancheng",
+          "丹城",
+          "dan cheng"
+        ],
+        "line": "ningbo12",
+        "order": 7
+      },
+      "id": 208
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.917568,
+          29.439905
+        ]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Binhai Avenue",
+        "display_name": "Binhai Avenue (滨海大道)",
+        "alternate_names": [
+          "Binhai Avenue",
+          "滨海大道",
+          "濱海大道",
+          "Binhaidadao",
+          "bin hai da dao"
+        ],
+        "line": "ningbo12",
+        "order": 8
+      },
+      "id": 209
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.919721,
+          29.417972
+        ]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Damuwan",
+        "display_name": "Damuwan (大目湾)",
+        "alternate_names": [
+          "Damuwan",
+          "大目湾",
+          "大目灣",
+          "da mu wan"
+        ],
+        "line": "ningbo12",
+        "order": 9
+      },
+      "id": 210
     }
   ]
 }

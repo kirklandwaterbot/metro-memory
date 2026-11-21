@@ -359,6 +359,16 @@ opensANewTab:
     sortNotAchieved: 'Not achieved',
     sortAchievedInOrder: 'Achieved in order',
     searchAchievements: 'Search achievements…',
+    worldAddAll: 'Add all',
+    worldRemoveAll: 'Remove all',
+    worldAddAllShown: 'Add all shown',
+    worldRemoveAllCities: 'Remove all cities',
+    worldSelectAllLines: 'Select all lines',
+    worldSelectNoLines: 'Select no lines',
+    worldAutoSelectLines: 'Tick every line when adding',
+    worldLoadingLines: 'Loading lines…',
+    worldAll: 'All',
+    worldNone: 'None',
     noAchievementsFound: 'No achievements found.',
     sortAchievements: 'Sort achievements',
     achievementCountLabel: ({ count }: { count: number }): string =>
@@ -374,6 +384,8 @@ opensANewTab:
     mainCitiesTitle: 'Main Cities',
     expandSectionLabel: ({ label }: { label: string }): string => `Expand ${label}`,
     collapseSectionLabel: ({ label }: { label: string }): string => `Collapse ${label}`,
+    expandAllSections: 'Expand all',
+    collapseAllSections: 'Collapse all',
 
     // Continents
     continents: 'Table of Contents',
